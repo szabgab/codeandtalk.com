@@ -1,0 +1,13 @@
+{% include 'incl/header.html' %}
+
+<div><a href="{{ event['url'] }}">{{ event['name'] }}</a></div>
+
+<div>Start date: {{ event['start_date'] }}</div>
+
+<div>Location:
+  {% if event['city'] %}{{ event['city'] }}{% endif %}
+</div>
+
+<div>{% if event['code_of_conduct'] %}<a href="{{ event['code_of_conduct'] }}">Code of Conduct</a>{% else %}Code of Conduct <b>not found</b></div>
+
+{% include 'incl/footer.html' %}

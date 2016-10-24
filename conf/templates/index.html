@@ -1,0 +1,10 @@
+{% include 'incl/header.html' %}
+
+<ul>
+{% for c in conferences %}
+   <li><a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
+{% endfor %}
+</ul>
+
+{% include 'incl/footer.html' %}
+

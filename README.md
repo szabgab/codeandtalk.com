@@ -1,23 +1,34 @@
-Just a list of conferences
+List of tech conferences
+==========================
 
+Generate web site
+--------------------------
 
-Details should include:
+$ python3 generate.py
 
+Details should include
+------------------------
+
+```
 name:
 url:
 
-Dates:
-start_date
-end_date
-cfp_date
+start_date:         2016-06-01
+end_date:
+cfp_date:
 
-Location:
-city:
+city:               (Location)
 state:
 country:
 
-topics:
-keywords:
+topics:             comma separated list
+code_of_conduct:    URL to Code of Conduct
+```
 
-Code of Conduct (link)
+
+
+
+Other - conferences we probably won't include
+------------
+GPU Technology Conference 2017 http://www.gputechconf.com/ 
 
