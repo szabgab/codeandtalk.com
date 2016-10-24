@@ -54,6 +54,8 @@ def generate_pages(conferences):
         try:
             with open('html/e/' + event['nickname'], 'w', encoding="utf-8") as fh:
                 fh.write(event_template.render(
+                    h1          = event['name'],
+                    title       = event['name'],
                     event = event,
             ))
         except Exception as e:

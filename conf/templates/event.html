@@ -3,11 +3,16 @@
 <div><a href="{{ event['url'] }}">{{ event['name'] }}</a></div>
 
 <div>Start date: {{ event['start_date'] }}</div>
+<div>End date: {{ event['end_date'] }}</div>
 
 <div>Location:
   {% if event['city'] %}{{ event['city'] }}{% endif %}
+  {% if event['state'] %}{{ event['state'] }}{% endif %}
+  {% if event['country'] %}{{ event['country'] }}{% endif %}
 </div>
 
 <div>{% if event['code_of_conduct'] %}<a href="{{ event['code_of_conduct'] }}">Code of Conduct</a>{% else %}Code of Conduct <b>not found</b>{% endif %}</div>
+<div>Languages: {% for lang in event['languages'] %}{{ lang }}{% endfor %}</div>
+<div>Topics: {% for topic in event['topics'] %}{{ topic }}{% endfor %}</div>
 
 {% include 'incl/footer.html' %}
