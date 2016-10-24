@@ -8,6 +8,6 @@
   {% if event['city'] %}{{ event['city'] }}{% endif %}
 </div>
 
-<div>{% if event['code_of_conduct'] %}<a href="{{ event['code_of_conduct'] }}">Code of Conduct</a>{% else %}Code of Conduct <b>not found</b></div>
+<div>{% if event['code_of_conduct'] %}<a href="{{ event['code_of_conduct'] }}">Code of Conduct</a>{% else %}Code of Conduct <b>not found</b>{% endif %}</div>
 
 {% include 'incl/footer.html' %}

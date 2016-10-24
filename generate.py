@@ -38,7 +38,7 @@ def read_files():
             conferences.append(this)
         except Exception as e:
             exit("ERROR: {} in file {}".format(e, filename))
- 
+
     return sorted(conferences, key=lambda x: x['start_date'])
 
 def generate_pages(conferences):
@@ -46,18 +46,19 @@ def generate_pages(conferences):
     if not os.path.exists('html/'):
         os.mkdir('html/')
 
-#    event_template = env.get_template('event.html')
-#    if not os.path.exists('html/e/'):
-#        os.mkdir('html/e/')
-#        for event in conferences:
-#            try:
-#                with open('html/e/' + e['nickname'], 'w', encoding="utf-8") as fh:
-#                    fh.write(source_template.render(
-#                        event = event,
-#                ))
-#            except Exception as e:
-#                print("ERROR: {}".format(e))
-           
+    event_template = env.get_template('event.html')
+    if not os.path.exists('html/e/'):
+        os.mkdir('html/e/')
+    for event in conferences:
+        #print(event['nickname'])
+        try:
+            with open('html/e/' + event['nickname'], 'w', encoding="utf-8") as fh:
+                fh.write(event_template.render(
+                    event = event,
+            ))
+        except Exception as e:
+            print("ERROR: {}".format(e))
+
     now = datetime.now().strftime('%Y-%m-%d')
     #print(now)
     future = list(filter(lambda x: x['start_date'] >= now, conferences))
