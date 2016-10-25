@@ -32,3 +32,10 @@ Other - conferences we probably won't include
 ------------
 GPU Technology Conference 2017 http://www.gputechconf.com/ 
 
+
+TODO
+-----
+* Collect Twitter handle of each conference
+* Add Twitter link to the event pages
+* Add "Tweet this" that includes the URL, the title, and the one-word topics with hashmarks
+
