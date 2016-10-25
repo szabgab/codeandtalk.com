@@ -14,7 +14,11 @@
 
 <div>{% if event['code_of_conduct'] %}<a href="{{ event['code_of_conduct'] }}">Code of Conduct</a>{% else %}<a href="/code-of-conduct">Code of Conduct <b>not found</b></a>{% endif %}</div>
 <div>Languages: {% for lang in event['languages'] %}{{ lang }}{% endfor %}</div>
-<div>Topics: {% for topic in event['topics'] %}{{ topic }}{% endfor %}</div>
+<div>Topics:
+   {% for topic in event['topics'] %}
+       <a href="/t/{{ topic['path'] }}">{{ topic['name'] }}</a> 
+   {% endfor %}
+</div>
 
 {% if event['twitter'] %}
 <div>Twitter: <a href="https://twitter.com/{{ event['twitter'] }}">@{{ event['twitter'] }}</a></div>

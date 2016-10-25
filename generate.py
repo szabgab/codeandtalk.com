@@ -11,12 +11,13 @@ if sys.version_info.major < 3:
     exit("This code requires Python 3.\nThis is {}".format(sys.version))
 
 def main():
-    conferences = read_files()
+    conferences, topics = read_files()
     #print(conferences)
-    generate_pages(conferences)
+    generate_pages(conferences, topics)
 
 def read_files():
     conferences = []
+    topics = {}
 
     for filename in glob.glob("data/*.txt"):
         print("Reading {}".format(filename))
@@ -37,12 +38,27 @@ def read_files():
                     k,v = re.split(r'\s*:\s*', line, maxsplit=1)
                     this[k] = v
             conferences.append(this)
+
+            my_topics = []
+            for t in re.split(r'\s*,\s*', this['topics']):
+                p = topic2path(t)
+                my_topics.append({
+                    'name' : t,
+                    'path' : p,
+                })
+                if p not in topics:
+                    topics[p] = {
+                        'name': t,
+                        'events' : []
+                    }
+                topics[p]['events'].append(this)
+            this['topics'] = my_topics
         except Exception as e:
             exit("ERROR: {} in file {}".format(e, filename))
 
-    return sorted(conferences, key=lambda x: x['start_date'])
+    return sorted(conferences, key=lambda x: x['start_date']), topics
 
-def generate_pages(conferences):
+def generate_pages(conferences, topics):
     env = Environment(loader=PackageLoader('conf', 'templates'))
     if not os.path.exists('html/'):
         os.mkdir('html/')
@@ -58,8 +74,8 @@ def generate_pages(conferences):
         if event['twitter']:
             tweet_me += ' @' + event['twitter']
         tweet_me += " " + event['url']
-        for t in re.split(r'\s*,\s*', event['topics']):
-            tweet_me += ' #' + t
+        for t in event['topics']:
+            tweet_me += ' #' + t['name']
         #tweet_me += ' via @szabgab'
         tweet_me += ' via http://conferences.szabgab.com/'
 
@@ -113,6 +129,22 @@ def generate_pages(conferences):
             conferences = no_code,
         ))
 
+    topic_template = env.get_template('topic.html')
+    if not os.path.exists('html/t/'):
+        os.mkdir('html/t/')
+    for t in topics.keys():
+        with open('html/t/' + t, 'w', encoding="utf-8") as fh:
+            fh.write(topic_template.render(
+                h1          = topics[t]['name'],
+                title       = topics[t]['name'],
+                conferences = sorted(topics[t]['events'], key=lambda x: x['start_date']),
+            ))
+
+        
+
+
+def topic2path(tag):
+    return re.sub(r'[\W_]+', '-', tag.lower())
 
 main()
 
