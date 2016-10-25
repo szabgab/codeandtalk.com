@@ -93,6 +93,16 @@ def generate_pages(conferences):
             conferences = conferences,
         ))
 
+    cfp = list(filter(lambda x: 'cfp_date' in x and x['cfp_date'] >= now, conferences))
+    cfp_template = env.get_template('cfp.html')
+    with open('html/cfp', 'w', encoding="utf-8") as fh:
+        fh.write(main_template.render(
+            h1          = 'Call for Papers',
+            title       = 'Call of Papers',
+            conferences = cfp,
+        ))
+
+
     no_code = list(filter(lambda x: not x.get('code_of_conduct'), conferences))
     code_template = env.get_template('code-of-conduct.html')
     with open('html/code-of-conduct', 'w', encoding="utf-8") as fh:
