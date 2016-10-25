@@ -97,8 +97,8 @@ def generate_pages(conferences):
     code_template = env.get_template('code-of-conduct.html')
     with open('html/code-of-conduct', 'w', encoding="utf-8") as fh:
         fh.write(code_template.render(
-            h1          = 'Tech related conferences',
-            title       = 'Tech related conferences',
+            h1          = 'Code of Conduct',
+            title       = 'Code of Conduct (or lack of it)',
             conferences = no_code,
         ))
 
