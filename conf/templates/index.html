@@ -1,12 +1,13 @@
 {% include 'incl/header.html' %}
 
 <table>
-   <tr><td>Start</td><td>CFP</td><td>What</td></tr>
+   <tr><td>Start</td><td>CFP</td><td>What</td><td>Where</td></tr>
 {% for c in conferences %}
    <tr>
      <td>{{ c['start_date'] }}</td>
      <td class="{{ c['cfp_class'] }}">{{ c['cfp_date'] }}</td>
      <td><a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></td>
+     <td>{{ c['city'] }}, {% if c['state'] %}{{ c['state'] }}, {% endif %}{{ c['country'] }}</td>
    </tr>
 {% endfor %}
 </table>
