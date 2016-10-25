@@ -18,6 +18,7 @@ def main():
 def read_files():
     conferences = []
     topics = {}
+    now = datetime.now().strftime('%Y-%m-%d')
 
     for filename in glob.glob("data/*.txt"):
         print("Reading {}".format(filename))
@@ -37,7 +38,6 @@ def read_files():
                         continue
                     k,v = re.split(r'\s*:\s*', line, maxsplit=1)
                     this[k] = v
-            conferences.append(this)
 
             my_topics = []
             for t in re.split(r'\s*,\s*', this['topics']):
@@ -53,6 +53,16 @@ def read_files():
                     }
                 topics[p]['events'].append(this)
             this['topics'] = my_topics
+
+            this['cfp_class'] = 'cfp_none'
+            cfp = this.get('cfp_date', '')
+            if cfp != '':
+                if cfp < now:
+                    this['cfp_class'] = 'cfp_past'
+                else:
+                    this['cfp_class'] = 'cfp_future'
+
+            conferences.append(this)
         except Exception as e:
             exit("ERROR: {} in file {}".format(e, filename))
 

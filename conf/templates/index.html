@@ -1,10 +1,15 @@
 {% include 'incl/header.html' %}
 
-<ul>
+<table>
+   <tr><td>Start</td><td>CFP</td><td>What</td></tr>
 {% for c in conferences %}
-   <li>{{ c['start_date'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
+   <tr>
+     <td>{{ c['start_date'] }}</td>
+     <td class="{{ c['cfp_class'] }}">{{ c['cfp_date'] }}</td>
+     <td><a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></td>
+   </tr>
 {% endfor %}
-</ul>
+</table>
 
 {% include 'incl/footer.html' %}
 
