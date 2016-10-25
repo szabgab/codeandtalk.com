@@ -38,6 +38,7 @@ GPU Technology Conference 2017 http://www.gputechconf.com/
 TODO
 -----
 * For older events: are the videos available online?
+
 * Include logo of each event?
 * Page per topic.
 * Page per country.

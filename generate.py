@@ -93,6 +93,16 @@ def generate_pages(conferences):
             conferences = conferences,
         ))
 
+    no_code = list(filter(lambda x: not x.get('code_of_conduct'), conferences))
+    code_template = env.get_template('code-of-conduct.html')
+    with open('html/code-of-conduct', 'w', encoding="utf-8") as fh:
+        fh.write(code_template.render(
+            h1          = 'Tech related conferences',
+            title       = 'Tech related conferences',
+            conferences = no_code,
+        ))
+
+
 main()
 
 # vim: expandtab

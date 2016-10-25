@@ -11,7 +11,7 @@
   {% if event['country'] %}{{ event['country'] }}{% endif %}
 </div>
 
-<div>{% if event['code_of_conduct'] %}<a href="{{ event['code_of_conduct'] }}">Code of Conduct</a>{% else %}Code of Conduct <b>not found</b>{% endif %}</div>
+<div>{% if event['code_of_conduct'] %}<a href="{{ event['code_of_conduct'] }}">Code of Conduct</a>{% else %}<a href="/code-of-conduct">Code of Conduct <b>not found</b></a>{% endif %}</div>
 <div>Languages: {% for lang in event['languages'] %}{{ lang }}{% endfor %}</div>
 <div>Topics: {% for topic in event['topics'] %}{{ topic }}{% endfor %}</div>
 

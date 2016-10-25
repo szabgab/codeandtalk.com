@@ -1,0 +1,20 @@
+{% include 'incl/header.html' %}
+
+<div class="text">
+In recent years written <b>Code of Conduct</b> became a norm in tech-related conferences. On this page you'll find the conferences in our
+database for which we have not found an esily linkable Code of Conduct. If the conference has one and we missed it, please
+send us a <a href="https://github.com/szabgab/conferences">pull-request</a>. If you don't have a code of conduct yet, please consider
+adopting one. For example the <a href="http://confcodeofconduct.com/">Conference Code of Conduct</a> can be used.
+</div>
+
+<ul>
+{% for c in conferences %}
+   <li>{{ c['start_date'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
+{% endfor %}
+</ul>
+
+
+
+
+{% include 'incl/footer.html' %}
+
