@@ -15,4 +15,12 @@
 <div>Languages: {% for lang in event['languages'] %}{{ lang }}{% endfor %}</div>
 <div>Topics: {% for topic in event['topics'] %}{{ topic }}{% endfor %}</div>
 
+{% if event['twitter'] %}
+<div>Twitter: <a href="https://twitter.com/{{ event['twitter'] }}">@{{ event['twitter'] }}</a></div>
+{% endif %}
+
+{% if event['facebook'] %}
+<div>Facebook: <a href="https://facebook.com/{{ event['facebook'] }}">{{ event['facebook'] }}</a></div>
+{% endif %}
+
 {% include 'incl/footer.html' %}
