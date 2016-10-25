@@ -1,12 +1,10 @@
 List of tech conferences
 ==========================
 
-Generate web site
---------------------------
+How to add an event:
+There is a skeleton.txt in the root of the repository. Use that to create the appropriate file in data/
 
-$ python3 generate.py
-
-Details should include
+Details of the fields
 ------------------------
 
 ```
@@ -26,6 +24,10 @@ code_of_conduct:    URL to Code of Conduct
 ```
 
 
+Generate web site
+--------------------------
+
+$ python3 generate.py
 
 
 Other - conferences we probably won't include
@@ -35,7 +37,4 @@ GPU Technology Conference 2017 http://www.gputechconf.com/
 
 TODO
 -----
-* Collect Twitter handle of each conference
-* Add Twitter link to the event pages
-* Add "Tweet this" that includes the URL, the title, and the one-word topics with hashmarks
 

@@ -23,4 +23,6 @@
 <div>Facebook: <a href="https://facebook.com/{{ event['facebook'] }}">{{ event['facebook'] }}</a></div>
 {% endif %}
 
+<a href="http://twitter.com/home?status={{ event['tweet_me'] }}">Tweet this event</a>
+
 {% include 'incl/footer.html' %}

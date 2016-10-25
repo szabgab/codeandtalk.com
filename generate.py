@@ -4,6 +4,7 @@ import json
 import os
 import sys
 import re
+import urllib
 from jinja2 import Environment, PackageLoader
 
 if sys.version_info.major < 3:
@@ -51,6 +52,18 @@ def generate_pages(conferences):
         os.mkdir('html/e/')
     for event in conferences:
         #print(event['nickname'])
+
+        tweet_me = event['name']
+        tweet_me += ' on ' + event['start_date']
+        if event['twitter']:
+            tweet_me += ' @' + event['twitter']
+        tweet_me += " " + event['url']
+        for t in re.split(r'\s*,\s*', event['topics']):
+            tweet_me += ' #' + t
+        #tweet_me += ' via @szabgab'
+        tweet_me += ' via http://conferences.szabgab.com/'
+
+        event['tweet_me'] = urllib.parse.quote(tweet_me)
         try:
             with open('html/e/' + event['nickname'], 'w', encoding="utf-8") as fh:
                 fh.write(event_template.render(
