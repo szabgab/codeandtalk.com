@@ -78,7 +78,22 @@ def generate_pages(conferences, topics):
         'total' : len(conferences),
         'future': len(list(filter(lambda x: x['start_date'] >= now, conferences))),
         'cfp'   : len(list(filter(lambda x: x.get('cfp_date', '') >= now, conferences))),
+        'has_coc' : 0,
+        'has_coc_future' : 0,
+        'has_a11y' : 0,
+        'has_a11y_future' : 0,
     }
+    for e in conferences:
+        if e.get('code_of_conduct'):
+            stats['has_coc'] += 1
+            if e['start_date'] >= now:
+                stats['has_coc_future'] += 1
+        if e.get('accessibility'):
+            stats['has_a11y']
+            if e['start_date'] >= now:
+                stats['has_a11y_future'] += 1
+    stats['coc_future_perc']  = int(100 * stats['has_coc_future'] / stats['future'])
+    stats['a11y_future_perc'] = int(100 * stats['has_a11y_future'] / stats['future'])
 
     env = Environment(loader=PackageLoader('conf', 'templates'))
     if not os.path.exists('html/'):
@@ -90,7 +105,7 @@ def generate_pages(conferences, topics):
     for event in conferences:
         #print(event['nickname'])
 
-        if 'cfp_date' in event and event['cfp_date'] > now:
+        if 'cfp_date' in event and event['cfp_date'] >= now:
             tweet_cfp = 'The CfP of {} ends on {} see {} via http://conferences.szabgab.com/'.format(event['name'], event['cfp_date'], event['url'])
             if event['twitter']:
                 tweet_cfp += ' @' + event['twitter']
