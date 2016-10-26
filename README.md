@@ -41,6 +41,8 @@ https://secure.php.net/conferences/
 https://www.papercall.io/cfps
 http://www.meetup.com/
 http://www.meetup.com/es-ES/Granada-Geek/
+https://twitter.com/CallbackWomen/lists/tech-conf-aggregators
+
 
 Images
 ---------
