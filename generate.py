@@ -133,9 +133,9 @@ def generate_pages(conferences, topics):
 
     cfp = list(filter(lambda x: 'cfp_date' in x and x['cfp_date'] >= now, conferences))
     cfp.sort(key=lambda x: x['cfp_date'])
-    cfp_template = env.get_template('cfp.html')
+    #cfp_template = env.get_template('cfp.html')
     with open('html/cfp', 'w', encoding="utf-8") as fh:
-        fh.write(cfp_template.render(
+        fh.write(main_template.render(
             h1          = 'Call for Papers',
             title       = 'Call of Papers',
             conferences = cfp,
