@@ -90,6 +90,14 @@ def generate_pages(conferences, topics):
     for event in conferences:
         #print(event['nickname'])
 
+        if 'cfp_date' in event and event['cfp_date'] > now:
+            tweet_cfp = 'The CfP of {} ends on {} see {} via http://conferences.szabgab.com/'.format(event['name'], event['cfp_date'], event['url'])
+            if event['twitter']:
+                tweet_cfp += ' @' + event['twitter']
+            for t in event['topics']:
+                tweet_cfp += ' #' + t['name']
+            event['tweet_cfp'] = urllib.parse.quote(tweet_cfp)
+
         tweet_me = event['name']
         tweet_me += ' on ' + event['start_date']
         if event['twitter']:
