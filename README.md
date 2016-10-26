@@ -42,6 +42,10 @@ https://www.papercall.io/cfps
 http://www.meetup.com/
 http://www.meetup.com/es-ES/Granada-Geek/
 
+Images
+---------
+Accessibility logo: http://staff.washington.edu/tft/a11ylogo/
+
 
 TODO
 -----
