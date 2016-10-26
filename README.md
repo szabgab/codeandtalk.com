@@ -38,6 +38,7 @@ GPU Technology Conference 2017 http://www.gputechconf.com/
 Sources
 ---------
 https://secure.php.net/conferences/
+https://www.papercall.io/cfps
 
 
 TODO
