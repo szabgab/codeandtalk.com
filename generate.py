@@ -69,6 +69,8 @@ def read_files():
     return sorted(conferences, key=lambda x: x['start_date']), topics
 
 def generate_pages(conferences, topics):
+    sitemap = []
+
     env = Environment(loader=PackageLoader('conf', 'templates'))
     if not os.path.exists('html/'):
         os.mkdir('html/')
@@ -97,8 +99,12 @@ def generate_pages(conferences, topics):
                     title       = event['name'],
                     event = event,
             ))
+            sitemap.append({
+                'url' : '/e/' + event['nickname']
+            })
         except Exception as e:
             print("ERROR: {}".format(e))
+        
 
     now = datetime.now().strftime('%Y-%m-%d')
     #print(now)
@@ -111,6 +117,9 @@ def generate_pages(conferences, topics):
             title       = 'Tech related conferences',
             conferences = future,
         ))
+    sitemap.append({
+        'url' : '/'
+    })
 
     with open('html/conferences', 'w', encoding="utf-8") as fh:
         fh.write(main_template.render(
@@ -118,6 +127,9 @@ def generate_pages(conferences, topics):
             title       = 'Tech related conferences',
             conferences = conferences,
         ))
+    sitemap.append({
+        'url' : '/conferences'
+    })
 
     cfp = list(filter(lambda x: 'cfp_date' in x and x['cfp_date'] >= now, conferences))
     cfp.sort(key=lambda x: x['cfp_date'])
@@ -128,6 +140,9 @@ def generate_pages(conferences, topics):
             title       = 'Call of Papers',
             conferences = cfp,
         ))
+    sitemap.append({
+        'url' : '/cfp'
+    })
 
 
     no_code = list(filter(lambda x: not x.get('code_of_conduct'), conferences))
@@ -138,6 +153,9 @@ def generate_pages(conferences, topics):
             title       = 'Code of Conduct (or lack of it)',
             conferences = no_code,
         ))
+    sitemap.append({
+        'url' : '/code-of-conduct'
+    })
 
     topic_template = env.get_template('topic.html')
     if not os.path.exists('html/t/'):
@@ -149,6 +167,9 @@ def generate_pages(conferences, topics):
                 title       = topics[t]['name'],
                 conferences = sorted(topics[t]['events'], key=lambda x: x['start_date']),
             ))
+        sitemap.append({
+            'url' : '/t/' + t
+        })
 
     topics_template = env.get_template('topics.html')
     with open('html/topics', 'w', encoding="utf-8") as fh:
@@ -157,8 +178,18 @@ def generate_pages(conferences, topics):
             title       = 'Topics',
             topics      = topics,
         ))
+    sitemap.append({
+        'url' : '/topics'
+    })
 
-        
+    with open('html/sitemap.xml', 'w', encoding="utf-8") as fh:
+        fh.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
+        for e in sitemap:
+            fh.write('  <url>\n')
+            fh.write('    <loc>http://conferences.szabgab.com{}</loc>\n'.format(e['url']))
+            fh.write('    <lastmod>{}</lastmod>\n'.format(now))
+            fh.write('  </url>\n')
+        fh.write('</urlset>\n')
 
 
 def topic2path(tag):
