@@ -1,0 +1,9 @@
+{% include 'incl/header.html' %}
+
+<ul>
+{% for (t, v) in topics|dictsort %}
+   <li><a href="/t/{{t}}">{{ v['name'] }}</a> {{v['events']|length}}</li>
+{% endfor %}
+</ul>
+
+{% include 'incl/footer.html' %}

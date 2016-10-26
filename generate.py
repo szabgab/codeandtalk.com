@@ -150,6 +150,14 @@ def generate_pages(conferences, topics):
                 conferences = sorted(topics[t]['events'], key=lambda x: x['start_date']),
             ))
 
+    topics_template = env.get_template('topics.html')
+    with open('html/topics', 'w', encoding="utf-8") as fh:
+        fh.write(topics_template.render(
+            h1          = 'Topics',
+            title       = 'Topics',
+            topics      = topics,
+        ))
+
         
 
 
