@@ -1,4 +1,11 @@
 {% include 'incl/header.html' %}
+{% if stats %}
+<div id="stats">
+Total: {{ stats.total }}
+Future: {{ stats.future }}
+Open CFP: {{ stats.cfp }}
+</div>
+{% endif %}
 
 <table>
    <tr><td>Start</td><td>CFP</td><td>What</td><td>Where</td></tr>

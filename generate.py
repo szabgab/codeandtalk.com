@@ -71,6 +71,15 @@ def read_files():
 def generate_pages(conferences, topics):
     sitemap = []
 
+    now = datetime.now().strftime('%Y-%m-%d')
+    #print(now)
+
+    stats = {
+        'total' : len(conferences),
+        'future': len(list(filter(lambda x: x['start_date'] >= now, conferences))),
+        'cfp'   : len(list(filter(lambda x: x.get('cfp_date', '') >= now, conferences))),
+    }
+
     env = Environment(loader=PackageLoader('conf', 'templates'))
     if not os.path.exists('html/'):
         os.mkdir('html/')
@@ -106,8 +115,6 @@ def generate_pages(conferences, topics):
             print("ERROR: {}".format(e))
         
 
-    now = datetime.now().strftime('%Y-%m-%d')
-    #print(now)
     future = list(filter(lambda x: x['start_date'] >= now, conferences))
     #print(future)
     main_template = env.get_template('index.html')
@@ -116,6 +123,7 @@ def generate_pages(conferences, topics):
             h1          = 'Tech related conferences',
             title       = 'Tech related conferences',
             conferences = future,
+            stats       = stats,
         ))
     sitemap.append({
         'url' : '/'
