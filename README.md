@@ -59,4 +59,6 @@ TODO
 * Improved UI!
 
 * Create separate Twitter account for the site.
+* Cron-job to update the site once a day to keep the date-related data fresh.
+* Change the sitemap creating code to use the date of the files for real date.
 
