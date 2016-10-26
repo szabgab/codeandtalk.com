@@ -157,15 +157,16 @@ def generate_pages(conferences, topics):
         'url' : '/code-of-conduct'
     })
 
-    topic_template = env.get_template('topic.html')
     if not os.path.exists('html/t/'):
         os.mkdir('html/t/')
     for t in topics.keys():
+        conferences = sorted(topics[t]['events'], key=lambda x: x['start_date'])
         with open('html/t/' + t, 'w', encoding="utf-8") as fh:
-            fh.write(topic_template.render(
+            fh.write(main_template.render(
                 h1          = topics[t]['name'],
                 title       = topics[t]['name'],
-                conferences = sorted(topics[t]['events'], key=lambda x: x['start_date']),
+                conferences = filter(lambda x: x['start_date'] >= now, conferences),
+                earlier_conferences = filter(lambda x: x['start_date'] < now, conferences),
             ))
         sitemap.append({
             'url' : '/t/' + t

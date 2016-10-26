@@ -12,5 +12,15 @@
 {% endfor %}
 </table>
 
+
+{% if earlier_conferences %}
+<h2>Earlier events</h2>
+<ul>
+{% for c in earlier_conferences %}
+   <li>{{ c['start_date'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a> {{ c['city'] }}, {{ c['country'] }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
 {% include 'incl/footer.html' %}
 
