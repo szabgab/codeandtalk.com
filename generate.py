@@ -94,6 +94,7 @@ def generate_pages(conferences, topics):
             exit('Country could not be found')
         country_name = e['country']
         country_page = re.sub(r'\s+', '-', country_name.lower())
+        e['country_page'] = country_page
         if country_page not in locations:
             locations[country_page] = {
                 'name' : country_name,
