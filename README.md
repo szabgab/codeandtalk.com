@@ -46,6 +46,7 @@ https://opensource.com/resources/conferences-and-events-monthly  (but it usually
 http://iteventz.bg/ IT events in Bulgaria
 http://sdiwc.net/ The Society of Digital Information and Wireless Communications (SDIWC)
 http://droidcon.com/ 
+https://www.drupal.org/drupalcon
 
 Images
 ---------
