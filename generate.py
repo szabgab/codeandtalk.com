@@ -41,18 +41,21 @@ def read_files():
                     this[k] = v
 
             my_topics = []
-            for t in re.split(r'\s*,\s*', this['topics']):
-                p = topic2path(t)
-                my_topics.append({
-                    'name' : t,
-                    'path' : p,
-                })
-                if p not in topics:
-                    topics[p] = {
-                        'name': t,
-                        'events' : []
-                    }
-                topics[p]['events'].append(this)
+            if this['topics']:
+                for t in re.split(r'\s*,\s*', this['topics']):
+                    p = topic2path(t)
+                    #if p == '':
+                    #    exit("ERROR {}".format(this))
+                    my_topics.append({
+                        'name' : t,
+                        'path' : p,
+                    })
+                    if p not in topics:
+                        topics[p] = {
+                            'name': t,
+                            'events' : []
+                        }
+                    topics[p]['events'].append(this)
             this['topics'] = my_topics
 
             this['cfp_class'] = 'cfp_none'
@@ -240,6 +243,8 @@ def save_pages(directory, data, sitemap, main_template, now):
         os.mkdir(my_dir)
     for d in data.keys():
         conferences = sorted(data[d]['events'], key=lambda x: x['start_date'])
+        #print("'{}'".format(d))
+        #print(my_dir + d)
         with open(my_dir + d, 'w', encoding="utf-8") as fh:
             fh.write(main_template.render(
                 h1          = data[d]['name'],
