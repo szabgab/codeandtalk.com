@@ -188,20 +188,7 @@ def generate_pages(conferences, topics):
         'url' : '/code-of-conduct'
     })
 
-    if not os.path.exists('html/t/'):
-        os.mkdir('html/t/')
-    for t in topics.keys():
-        conferences = sorted(topics[t]['events'], key=lambda x: x['start_date'])
-        with open('html/t/' + t, 'w', encoding="utf-8") as fh:
-            fh.write(main_template.render(
-                h1          = topics[t]['name'],
-                title       = topics[t]['name'],
-                conferences = filter(lambda x: x['start_date'] >= now, conferences),
-                earlier_conferences = filter(lambda x: x['start_date'] < now, conferences),
-            ))
-        sitemap.append({
-            'url' : '/t/' + t
-        })
+    save_pages('t', topics, sitemap, main_template, now)
 
     topics_template = env.get_template('topics.html')
     with open('html/topics', 'w', encoding="utf-8") as fh:
@@ -222,6 +209,23 @@ def generate_pages(conferences, topics):
             fh.write('    <lastmod>{}</lastmod>\n'.format(now))
             fh.write('  </url>\n')
         fh.write('</urlset>\n')
+
+def save_pages(directory, data, sitemap, main_template, now):
+    my_dir =  'html/' + directory + '/'
+    if not os.path.exists(my_dir):
+        os.mkdir(my_dir)
+    for d in data.keys():
+        conferences = sorted(data[d]['events'], key=lambda x: x['start_date'])
+        with open(my_dir + d, 'w', encoding="utf-8") as fh:
+            fh.write(main_template.render(
+                h1          = data[d]['name'],
+                title       = data[d]['name'],
+                conferences = filter(lambda x: x['start_date'] >= now, conferences),
+                earlier_conferences = filter(lambda x: x['start_date'] < now, conferences),
+            ))
+        sitemap.append({
+            'url' : '/' + directory + '/' + d
+        })
 
 
 def topic2path(tag):
