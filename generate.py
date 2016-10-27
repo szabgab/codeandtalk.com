@@ -78,40 +78,8 @@ def generate_pages(conferences, topics):
     now = datetime.now().strftime('%Y-%m-%d')
     #print(now)
 
-    locations = {}
 
-    stats = {
-        'total' : len(conferences),
-        'future': len(list(filter(lambda x: x['start_date'] >= now, conferences))),
-        'cfp'   : len(list(filter(lambda x: x.get('cfp_date', '') >= now, conferences))),
-        'has_coc' : 0,
-        'has_coc_future' : 0,
-        'has_a11y' : 0,
-        'has_a11y_future' : 0,
-    }
-    for e in conferences:
-        if not 'country' in e:
-            exit('Country could not be found')
-        country_name = e['country']
-        country_page = re.sub(r'\s+', '-', country_name.lower())
-        e['country_page'] = country_page
-        if country_page not in locations:
-            locations[country_page] = {
-                'name' : country_name,
-                'events' : []
-            }
-        locations[country_page]['events'].append(e)
-
-        if e.get('code_of_conduct'):
-            stats['has_coc'] += 1
-            if e['start_date'] >= now:
-                stats['has_coc_future'] += 1
-        if e.get('accessibility'):
-            stats['has_a11y']
-            if e['start_date'] >= now:
-                stats['has_a11y_future'] += 1
-    stats['coc_future_perc']  = int(100 * stats['has_coc_future'] / stats['future'])
-    stats['a11y_future_perc'] = int(100 * stats['has_a11y_future'] / stats['future'])
+    stats, locations = preprocess_events(now, conferences)
 
     env = Environment(loader=PackageLoader('conf', 'templates'))
     if not os.path.exists('html/'):
@@ -123,29 +91,6 @@ def generate_pages(conferences, topics):
     for event in conferences:
         #print(event['nickname'])
 
-        if 'cfp_date' in event and event['cfp_date'] >= now:
-            tweet_cfp = 'The CfP of {} ends on {} see {} via http://conferences.szabgab.com/'.format(event['name'], event['cfp_date'], event['url'])
-            if event['twitter']:
-                tweet_cfp += ' @' + event['twitter']
-            for t in event['topics']:
-                tweet_cfp += ' #' + t['name']
-            event['tweet_cfp'] = urllib.parse.quote(tweet_cfp)
-
-        tweet_me = event['name']
-        tweet_me += ' on ' + event['start_date']
-        tweet_me += ' in ' + event['city']
-        if 'state' in event:
-            tweet_me += ', ' + event['state']
-        tweet_me += ' ' + event['country']
-        if event['twitter']:
-            tweet_me += ' @' + event['twitter']
-        tweet_me += " " + event['url']
-        for t in event['topics']:
-            tweet_me += ' #' + t['name']
-        #tweet_me += ' via @szabgab'
-        tweet_me += ' via http://conferences.szabgab.com/'
-
-        event['tweet_me'] = urllib.parse.quote(tweet_me)
         try:
             with open('html/e/' + event['nickname'], 'w', encoding="utf-8") as fh:
                 fh.write(event_template.render(
@@ -256,6 +201,68 @@ def save_pages(directory, data, sitemap, main_template, now):
         sitemap.append({
             'url' : '/' + directory + '/' + d
         })
+
+def preprocess_events(now, conferences):
+    locations = {}
+    stats = {
+        'total' : len(conferences),
+        'future': len(list(filter(lambda x: x['start_date'] >= now, conferences))),
+        'cfp'   : len(list(filter(lambda x: x.get('cfp_date', '') >= now, conferences))),
+        'has_coc' : 0,
+        'has_coc_future' : 0,
+        'has_a11y' : 0,
+        'has_a11y_future' : 0,
+    }
+    for event in conferences:
+        if not 'country' in event:
+            exit('country could not be found')
+        country_name = event['country']
+        country_page = re.sub(r'\s+', '-', country_name.lower())
+        event['country_page'] = country_page
+        if country_page not in locations:
+            locations[country_page] = {
+                'name' : country_name,
+                'events' : []
+            }
+        locations[country_page]['events'].append(event)
+
+        if event.get('code_of_conduct'):
+            stats['has_coc'] += 1
+            if event['start_date'] >= now:
+                stats['has_coc_future'] += 1
+        if event.get('accessibility'):
+            stats['has_a11y']
+            if event['start_date'] >= now:
+                stats['has_a11y_future'] += 1
+
+        if 'cfp_date' in event and event['cfp_date'] >= now:
+            tweet_cfp = 'The CfP of {} ends on {} see {} via http://conferences.szabgab.com/'.format(event['name'], event['cfp_date'], event['url'])
+            if event['twitter']:
+                tweet_cfp += ' @' + event['twitter']
+            for t in event['topics']:
+                tweet_cfp += ' #' + t['name']
+            event['tweet_cfp'] = urllib.parse.quote(tweet_cfp)
+
+        tweet_me = event['name']
+        tweet_me += ' on ' + event['start_date']
+        tweet_me += ' in ' + event['city']
+        if 'state' in event:
+            tweet_me += ', ' + event['state']
+        tweet_me += ' ' + event['country']
+        if event['twitter']:
+            tweet_me += ' @' + event['twitter']
+        tweet_me += " " + event['url']
+        for t in event['topics']:
+            tweet_me += ' #' + t['name']
+        #tweet_me += ' via @szabgab'
+        tweet_me += ' via http://conferences.szabgab.com/'
+
+        event['tweet_me'] = urllib.parse.quote(tweet_me)
+
+    stats['coc_future_perc']  = int(100 * stats['has_coc_future'] / stats['future'])
+    stats['a11y_future_perc'] = int(100 * stats['has_a11y_future'] / stats['future'])
+
+    return stats, locations
 
 
 def topic2path(tag):
