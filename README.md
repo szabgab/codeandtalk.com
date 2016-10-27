@@ -42,6 +42,8 @@ https://www.papercall.io/cfps
 http://www.meetup.com/
 http://www.meetup.com/es-ES/Granada-Geek/
 https://twitter.com/CallbackWomen/lists/tech-conf-aggregators
+https://opensource.com/resources/conferences-and-events-monthly  (but it usually only lists for the next 2 months, not good for call for papers)
+
 
 
 Images
