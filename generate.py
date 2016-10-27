@@ -129,6 +129,10 @@ def generate_pages(conferences, topics):
 
         tweet_me = event['name']
         tweet_me += ' on ' + event['start_date']
+        tweet_me += ' in ' + event['city']
+        if 'state' in event:
+            tweet_me += ', ' + event['state']
+        tweet_me += ' ' + event['country']
         if event['twitter']:
             tweet_me += ' @' + event['twitter']
         tweet_me += " " + event['url']
