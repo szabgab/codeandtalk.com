@@ -36,6 +36,7 @@ def read_files():
                         continue
                     if re.search(r'\A\s*\Z', line):
                         continue
+                    line = re.sub(r'\s+\Z', '', line)
                     k,v = re.split(r'\s*:\s*', line, maxsplit=1)
                     this[k] = v
 
@@ -74,6 +75,8 @@ def generate_pages(conferences, topics):
     now = datetime.now().strftime('%Y-%m-%d')
     #print(now)
 
+    locations = {}
+
     stats = {
         'total' : len(conferences),
         'future': len(list(filter(lambda x: x['start_date'] >= now, conferences))),
@@ -84,6 +87,17 @@ def generate_pages(conferences, topics):
         'has_a11y_future' : 0,
     }
     for e in conferences:
+        if not 'country' in e:
+            exit('Country could not be found')
+        country_name = e['country']
+        country_page = re.sub(r'\s+', '-', country_name.lower())
+        if country_page not in locations:
+            locations[country_page] = {
+                'name' : country_name,
+                'events' : []
+            }
+        locations[country_page]['events'].append(e)
+
         if e.get('code_of_conduct'):
             stats['has_coc'] += 1
             if e['start_date'] >= now:
@@ -189,17 +203,11 @@ def generate_pages(conferences, topics):
     })
 
     save_pages('t', topics, sitemap, main_template, now)
+    save_pages('l', locations, sitemap, main_template, now)
 
-    topics_template = env.get_template('topics.html')
-    with open('html/topics', 'w', encoding="utf-8") as fh:
-        fh.write(topics_template.render(
-            h1          = 'Topics',
-            title       = 'Topics',
-            topics      = topics,
-        ))
-    sitemap.append({
-        'url' : '/topics'
-    })
+    collections_template = env.get_template('topics.html')
+    save_collections('t', 'topics', 'Topics', topics, sitemap, collections_template)
+    save_collections('l', 'countries', 'Countries', locations, sitemap, collections_template)
 
     with open('html/sitemap.xml', 'w', encoding="utf-8") as fh:
         fh.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
@@ -209,6 +217,18 @@ def generate_pages(conferences, topics):
             fh.write('    <lastmod>{}</lastmod>\n'.format(now))
             fh.write('  </url>\n')
         fh.write('</urlset>\n')
+
+def save_collections(directory, filename, title, data, sitemap, template):
+    with open('html/' + filename, 'w', encoding="utf-8") as fh:
+        fh.write(template.render(
+            h1          = title,
+            title       = title,
+            data        = data,
+            directory   = directory,
+        ))
+    sitemap.append({
+        'url' : '/' + filename
+    })
 
 def save_pages(directory, data, sitemap, main_template, now):
     my_dir =  'html/' + directory + '/'
