@@ -48,6 +48,8 @@ http://sdiwc.net/ The Society of Digital Information and Wireless Communications
 http://droidcon.com/ 
 https://www.drupal.org/drupalcon
 https://github.com/golang/go/wiki/Conferences
+http://events.linuxfoundation.org/
+
 
 Images
 ---------
