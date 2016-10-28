@@ -47,6 +47,7 @@ http://iteventz.bg/ IT events in Bulgaria
 http://sdiwc.net/ The Society of Digital Information and Wireless Communications (SDIWC)
 http://droidcon.com/ 
 https://www.drupal.org/drupalcon
+https://github.com/golang/go/wiki/Conferences
 
 Images
 ---------
