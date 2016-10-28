@@ -110,8 +110,8 @@ def generate_pages(conferences, topics):
     main_template = env.get_template('index.html')
     with open('html/index.html', 'w', encoding="utf-8") as fh:
         fh.write(main_template.render(
-            h1          = 'Tech related conferences',
-            title       = 'Tech related conferences',
+            h1          = 'Open Source conferences',
+            title       = 'Open Source conferences',
             conferences = future,
             stats       = stats,
         ))
