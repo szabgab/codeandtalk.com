@@ -155,8 +155,8 @@ def generate_pages(conferences, topics):
         'url' : '/code-of-conduct'
     })
 
-    save_pages('t', topics, sitemap, main_template, now)
-    save_pages('l', locations, sitemap, main_template, now)
+    save_pages('t', topics, sitemap, main_template, now, 'Open source conferences discussing {}')
+    save_pages('l', locations, sitemap, main_template, now, 'Open source conferences in {}')
 
     collections_template = env.get_template('topics.html')
     save_collections('t', 'topics', 'Topics', topics, sitemap, collections_template)
@@ -183,7 +183,7 @@ def save_collections(directory, filename, title, data, sitemap, template):
         'url' : '/' + filename
     })
 
-def save_pages(directory, data, sitemap, main_template, now):
+def save_pages(directory, data, sitemap, main_template, now, title):
     my_dir =  'html/' + directory + '/'
     if not os.path.exists(my_dir):
         os.mkdir(my_dir)
@@ -193,8 +193,8 @@ def save_pages(directory, data, sitemap, main_template, now):
         #print(my_dir + d)
         with open(my_dir + d, 'w', encoding="utf-8") as fh:
             fh.write(main_template.render(
-                h1          = data[d]['name'],
-                title       = data[d]['name'],
+                h1          = title.format(data[d]['name']),
+                title       = title.format(data[d]['name']),
                 conferences = filter(lambda x: x['start_date'] >= now, conferences),
                 earlier_conferences = filter(lambda x: x['start_date'] < now, conferences),
             ))
