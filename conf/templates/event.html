@@ -16,7 +16,7 @@
 <div>Location:
   {% if event['city'] %}{{ event['city'] }}{% endif %}
   {% if event['state'] %}{{ event['state'] }}{% endif %}
-  {% if event['country'] %}{{ event['country'] }}{% endif %}
+  {% if event['country'] %}<a href="/l/{{ event['country_page'] }}">{{ event['country'] }}</a>{% endif %}
 </div>
 
 <div>{% if event['code_of_conduct'] %}<a href="{{ event['code_of_conduct'] }}">Code of Conduct</a>{% else %}<a href="/code-of-conduct">Code of Conduct <b>not found</b></a>{% endif %}</div>
