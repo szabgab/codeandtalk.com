@@ -119,6 +119,15 @@ def generate_pages(conferences, topics):
         'url' : '/'
     })
 
+    about_template = env.get_template('about.html')
+    with open('html/about', 'w', encoding="utf-8") as fh:
+        fh.write(about_template.render(
+            h1          = 'About Open Source conferences',
+            title       = 'About Open Source conferences',
+        ))
+    sitemap.append({ 'url' : '/about' })
+
+
     with open('html/conferences', 'w', encoding="utf-8") as fh:
         fh.write(main_template.render(
             h1          = 'Tech related conferences',
