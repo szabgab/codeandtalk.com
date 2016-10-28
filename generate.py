@@ -4,6 +4,7 @@ import json
 import os
 import sys
 import re
+import shutil
 import urllib
 from jinja2 import Environment, PackageLoader
 
@@ -73,6 +74,11 @@ def read_files():
     return sorted(conferences, key=lambda x: x['start_date']), topics
 
 def generate_pages(conferences, topics):
+    root = 'html'
+    if os.path.exists(root):
+        shutil.rmtree(root)
+    shutil.copytree('src', root)
+
     sitemap = []
 
     now = datetime.now().strftime('%Y-%m-%d')
@@ -82,17 +88,15 @@ def generate_pages(conferences, topics):
     stats, locations = preprocess_events(now, conferences)
 
     env = Environment(loader=PackageLoader('conf', 'templates'))
-    if not os.path.exists('html/'):
-        os.mkdir('html/')
 
     event_template = env.get_template('event.html')
-    if not os.path.exists('html/e/'):
-        os.mkdir('html/e/')
+    if not os.path.exists(root + '/e/'):
+        os.mkdir(root + '/e/')
     for event in conferences:
         #print(event['nickname'])
 
         try:
-            with open('html/e/' + event['nickname'], 'w', encoding="utf-8") as fh:
+            with open(root + '/e/' + event['nickname'], 'w', encoding="utf-8") as fh:
                 fh.write(event_template.render(
                     h1          = event['name'],
                     title       = event['name'],
@@ -108,7 +112,7 @@ def generate_pages(conferences, topics):
     future = list(filter(lambda x: x['start_date'] >= now, conferences))
     #print(future)
     main_template = env.get_template('index.html')
-    with open('html/index.html', 'w', encoding="utf-8") as fh:
+    with open(root + '/index.html', 'w', encoding="utf-8") as fh:
         fh.write(main_template.render(
             h1          = 'Open Source conferences',
             title       = 'Open Source conferences',
@@ -120,7 +124,7 @@ def generate_pages(conferences, topics):
     })
 
     about_template = env.get_template('about.html')
-    with open('html/about', 'w', encoding="utf-8") as fh:
+    with open(root + '/about', 'w', encoding="utf-8") as fh:
         fh.write(about_template.render(
             h1          = 'About Open Source conferences',
             title       = 'About Open Source conferences',
@@ -128,7 +132,7 @@ def generate_pages(conferences, topics):
     sitemap.append({ 'url' : '/about' })
 
 
-    with open('html/conferences', 'w', encoding="utf-8") as fh:
+    with open(root + '/conferences', 'w', encoding="utf-8") as fh:
         fh.write(main_template.render(
             h1          = 'Tech related conferences',
             title       = 'Tech related conferences',
@@ -141,7 +145,7 @@ def generate_pages(conferences, topics):
     cfp = list(filter(lambda x: 'cfp_date' in x and x['cfp_date'] >= now, conferences))
     cfp.sort(key=lambda x: x['cfp_date'])
     #cfp_template = env.get_template('cfp.html')
-    with open('html/cfp', 'w', encoding="utf-8") as fh:
+    with open(root + '/cfp', 'w', encoding="utf-8") as fh:
         fh.write(main_template.render(
             h1          = 'Call for Papers',
             title       = 'Call of Papers',
@@ -154,7 +158,7 @@ def generate_pages(conferences, topics):
 
     no_code = list(filter(lambda x: not x.get('code_of_conduct'), conferences))
     code_template = env.get_template('code-of-conduct.html')
-    with open('html/code-of-conduct', 'w', encoding="utf-8") as fh:
+    with open(root + '/code-of-conduct', 'w', encoding="utf-8") as fh:
         fh.write(code_template.render(
             h1          = 'Code of Conduct',
             title       = 'Code of Conduct (or lack of it)',
@@ -164,14 +168,14 @@ def generate_pages(conferences, topics):
         'url' : '/code-of-conduct'
     })
 
-    save_pages('t', topics, sitemap, main_template, now, 'Open source conferences discussing {}')
-    save_pages('l', locations, sitemap, main_template, now, 'Open source conferences in {}')
+    save_pages(root, 't', topics, sitemap, main_template, now, 'Open source conferences discussing {}')
+    save_pages(root, 'l', locations, sitemap, main_template, now, 'Open source conferences in {}')
 
     collections_template = env.get_template('topics.html')
-    save_collections('t', 'topics', 'Topics', topics, sitemap, collections_template)
-    save_collections('l', 'countries', 'Countries', locations, sitemap, collections_template)
+    save_collections(root, 't', 'topics', 'Topics', topics, sitemap, collections_template)
+    save_collections(root, 'l', 'countries', 'Countries', locations, sitemap, collections_template)
 
-    with open('html/sitemap.xml', 'w', encoding="utf-8") as fh:
+    with open(root + '/sitemap.xml', 'w', encoding="utf-8") as fh:
         fh.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
         for e in sitemap:
             fh.write('  <url>\n')
@@ -180,8 +184,8 @@ def generate_pages(conferences, topics):
             fh.write('  </url>\n')
         fh.write('</urlset>\n')
 
-def save_collections(directory, filename, title, data, sitemap, template):
-    with open('html/' + filename, 'w', encoding="utf-8") as fh:
+def save_collections(root, directory, filename, title, data, sitemap, template):
+    with open(root + '/' + filename, 'w', encoding="utf-8") as fh:
         fh.write(template.render(
             h1          = title,
             title       = title,
@@ -192,8 +196,8 @@ def save_collections(directory, filename, title, data, sitemap, template):
         'url' : '/' + filename
     })
 
-def save_pages(directory, data, sitemap, main_template, now, title):
-    my_dir =  'html/' + directory + '/'
+def save_pages(root, directory, data, sitemap, main_template, now, title):
+    my_dir =  root + '/' + directory + '/'
     if not os.path.exists(my_dir):
         os.mkdir(my_dir)
     for d in data.keys():
