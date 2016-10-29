@@ -155,6 +155,12 @@ def generate_pages(conferences, topics):
         'url' : '/cfp'
     })
 
+    with open(root + '/404.html', 'w', encoding="utf-8") as fh:
+        template = env.get_template('404.html')
+        fh.write(template.render(
+            h1          = '404',
+            title       = 'Four Oh Four',
+        ))
 
     no_code = list(filter(lambda x: not x.get('code_of_conduct'), conferences))
     code_template = env.get_template('code-of-conduct.html')
