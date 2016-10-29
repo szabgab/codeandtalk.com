@@ -7,12 +7,29 @@ send us a <a href="https://github.com/szabgab/conferences">pull-request</a>. If 
 adopting one. For example the <a href="http://confcodeofconduct.com/">Conference Code of Conduct</a> can be used.
 </div>
 
+<h2>Upcoming events</h2>
+<div class="text">
+Total: {{ conferences|length }}
+</div>
 <ul>
 {% for c in conferences %}
    <li>{{ c['start_date'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
 {% endfor %}
 </ul>
 
+{% if earlier_conferences %}
+<h2>Earlier events</h2>
+  <div class="text">
+  There conferences have already ended so adding a Code of Conduct to them is  a bit late, but if the Code of Conduct was there,
+  then it would still be valuable to add to our <a href="https://github.com/szabgab/conferences">dataset</a>.
+  </div>
+  <div class="text">
+  Total: {{ earlier_conferences|length }}
+  </div>
+  {% for c in earlier_conferences %}
+     <li>{{ c['start_date'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
+  {% endfor %}
+{% endif %}
 
 
 
