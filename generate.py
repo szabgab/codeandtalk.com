@@ -85,7 +85,7 @@ def generate_pages(conferences, topics):
     #print(now)
 
 
-    stats, countries = preprocess_events(now, conferences)
+    stats, countries, cities = preprocess_events(now, conferences)
 
     env = Environment(loader=PackageLoader('conf', 'templates'))
 
@@ -170,10 +170,12 @@ def generate_pages(conferences, topics):
 
     save_pages(root, 't', topics, sitemap, main_template, now, 'Open source conferences discussing {}')
     save_pages(root, 'l', countries, sitemap, main_template, now, 'Open source conferences in {}')
+    save_pages(root, 'l', cities, sitemap, main_template, now, 'Open source conferences in {}')
 
     collections_template = env.get_template('topics.html')
     save_collections(root, 't', 'topics', 'Topics', topics, sitemap, collections_template)
     save_collections(root, 'l', 'countries', 'Countries', countries, sitemap, collections_template)
+    save_collections(root, 'l', 'cities', 'Cities', cities, sitemap, collections_template)
 
     with open(root + '/sitemap.xml', 'w', encoding="utf-8") as fh:
         fh.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
@@ -217,6 +219,7 @@ def save_pages(root, directory, data, sitemap, main_template, now, title):
 
 def preprocess_events(now, conferences):
     countries = {}
+    cities = {}
     stats = {
         'total' : len(conferences),
         'future': len(list(filter(lambda x: x['start_date'] >= now, conferences))),
@@ -227,8 +230,8 @@ def preprocess_events(now, conferences):
         'has_a11y_future' : 0,
     }
     for event in conferences:
-        if not 'country' in event:
-            exit('country could not be found')
+        if not 'country' in event or not event['country']:
+            exit('Country is missing from {}'.format(event))
         country_name = event['country']
         country_page = re.sub(r'\s+', '-', country_name.lower())
         event['country_page'] = country_page
@@ -238,6 +241,25 @@ def preprocess_events(now, conferences):
                 'events' : []
             }
         countries[country_page]['events'].append(event)
+
+        if 'city' not in event or not event['city']:
+            exit("City is missing from {}".format(event))
+
+        city_name = '{}, {}'.format(event['city'], event['country'])
+        city_page = topic2path('{} {}'.format(event['city'], event['country']))
+
+        # In some countris we require state:
+        if event['country'] in ['Australia', 'Brasil', 'India', 'USA']:
+            if 'state' not in event or not event['state']:
+                exit('State is missing from {}'.format(event))
+            city_name = '{}, {}, {}'.format(event['city'], event['state'], event['country'])
+            city_page = topic2path('{} {} {}'.format(event['city'], event['state'], event['country']))
+        if city_page not in cities:
+            cities[city_page] = {
+                'name' : city_name,
+                'events' : []
+            }
+        cities[city_page]['events'].append(event)
 
         if event.get('code_of_conduct'):
             stats['has_coc'] += 1
@@ -275,11 +297,16 @@ def preprocess_events(now, conferences):
     stats['coc_future_perc']  = int(100 * stats['has_coc_future'] / stats['future'])
     stats['a11y_future_perc'] = int(100 * stats['has_a11y_future'] / stats['future'])
 
-    return stats, countries
+    return stats, countries, cities
 
 
 def topic2path(tag):
-    return re.sub(r'[\W_]+', '-', tag.lower())
+    t = tag.lower()
+    t = re.sub(r'í', 'i', t)
+    t = re.sub(r'ó', 'o', t)
+    t = re.sub(r'ã', 'a', t)
+    t = re.sub(r'[\W_]+', '-', t)
+    return t
 
 main()
 
