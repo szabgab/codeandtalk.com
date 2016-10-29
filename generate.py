@@ -164,6 +164,7 @@ def generate_pages(conferences, topics):
             title       = 'Code of Conduct (or lack of it)',
             conferences = list(filter(lambda x: x['start_date'] >= now, no_code)),
             earlier_conferences = list(filter(lambda x: x['start_date'] < now, no_code)),
+            stats       = stats,
 
         ))
     sitemap.append({
