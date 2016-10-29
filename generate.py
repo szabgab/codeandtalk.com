@@ -85,7 +85,7 @@ def generate_pages(conferences, topics):
     #print(now)
 
 
-    stats, locations = preprocess_events(now, conferences)
+    stats, countries = preprocess_events(now, conferences)
 
     env = Environment(loader=PackageLoader('conf', 'templates'))
 
@@ -169,11 +169,11 @@ def generate_pages(conferences, topics):
     })
 
     save_pages(root, 't', topics, sitemap, main_template, now, 'Open source conferences discussing {}')
-    save_pages(root, 'l', locations, sitemap, main_template, now, 'Open source conferences in {}')
+    save_pages(root, 'l', countries, sitemap, main_template, now, 'Open source conferences in {}')
 
     collections_template = env.get_template('topics.html')
     save_collections(root, 't', 'topics', 'Topics', topics, sitemap, collections_template)
-    save_collections(root, 'l', 'countries', 'Countries', locations, sitemap, collections_template)
+    save_collections(root, 'l', 'countries', 'Countries', countries, sitemap, collections_template)
 
     with open(root + '/sitemap.xml', 'w', encoding="utf-8") as fh:
         fh.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
@@ -216,7 +216,7 @@ def save_pages(root, directory, data, sitemap, main_template, now, title):
         })
 
 def preprocess_events(now, conferences):
-    locations = {}
+    countries = {}
     stats = {
         'total' : len(conferences),
         'future': len(list(filter(lambda x: x['start_date'] >= now, conferences))),
@@ -232,12 +232,12 @@ def preprocess_events(now, conferences):
         country_name = event['country']
         country_page = re.sub(r'\s+', '-', country_name.lower())
         event['country_page'] = country_page
-        if country_page not in locations:
-            locations[country_page] = {
+        if country_page not in countries:
+            countries[country_page] = {
                 'name' : country_name,
                 'events' : []
             }
-        locations[country_page]['events'].append(event)
+        countries[country_page]['events'].append(event)
 
         if event.get('code_of_conduct'):
             stats['has_coc'] += 1
@@ -275,7 +275,7 @@ def preprocess_events(now, conferences):
     stats['coc_future_perc']  = int(100 * stats['has_coc_future'] / stats['future'])
     stats['a11y_future_perc'] = int(100 * stats['has_a11y_future'] / stats['future'])
 
-    return stats, locations
+    return stats, countries
 
 
 def topic2path(tag):
