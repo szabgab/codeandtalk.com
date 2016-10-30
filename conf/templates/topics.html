@@ -1,10 +1,11 @@
 {% include 'incl/header.html' %}
 {% include 'incl/stats.html' %}
 
-<ul>
+<table>
+   <tr><th></th><th>Future</th><th>Total</th></tr>
 {% for (k, v) in data|dictsort %}
-   <li><a href="/{{directory}}/{{k}}">{{ v['name'] }}</a> {{v['events']|length}}</li>
+   <tr><td><a href="/{{directory}}/{{k}}">{{ v['name'] }}</a></td><td>{{v['future']}}</td><td>{{v['total']}}</td></tr>
 {% endfor %}
-</ul>
+</table>
 
 {% include 'incl/footer.html' %}
