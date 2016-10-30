@@ -6,7 +6,8 @@
 {% for (k, v) in data|dictsort %}
    <tr><td><a href="/{{directory}}/{{k}}">{{ v['name'] }}</a></td><td>{{v['future']}}</td><td>{{v['total']}}</td></tr>
 {% endfor %}
-</table>
    <tr><td>TOTAL</td><td>{{stats.future}}</td><td>{{stats.total}}</td></tr>
+
+</table>
 
 {% include 'incl/footer.html' %}
