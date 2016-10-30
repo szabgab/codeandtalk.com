@@ -182,9 +182,9 @@ def generate_pages(conferences, topics):
     save_pages(root, 'l', cities, sitemap, main_template, now, 'Open source conferences in {}')
 
     collections_template = env.get_template('topics.html')
-    save_collections(root, 't', 'topics', 'Topics', topics, sitemap, collections_template)
-    save_collections(root, 'l', 'countries', 'Countries', countries, sitemap, collections_template)
-    save_collections(root, 'l', 'cities', 'Cities', cities, sitemap, collections_template)
+    save_collections(root, 't', 'topics', 'Topics', topics, sitemap, collections_template, stats)
+    save_collections(root, 'l', 'countries', 'Countries', countries, sitemap, collections_template, stats)
+    save_collections(root, 'l', 'cities', 'Cities', cities, sitemap, collections_template, stats)
 
     with open(root + '/sitemap.xml', 'w', encoding="utf-8") as fh:
         fh.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
@@ -195,13 +195,14 @@ def generate_pages(conferences, topics):
             fh.write('  </url>\n')
         fh.write('</urlset>\n')
 
-def save_collections(root, directory, filename, title, data, sitemap, template):
+def save_collections(root, directory, filename, title, data, sitemap, template, stats):
     with open(root + '/' + filename, 'w', encoding="utf-8") as fh:
         fh.write(template.render(
             h1          = title,
             title       = title,
             data        = data,
             directory   = directory,
+            stats       = stats,
         ))
     sitemap.append({
         'url' : '/' + filename
