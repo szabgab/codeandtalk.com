@@ -177,6 +177,21 @@ def generate_pages(conferences, topics):
         'url' : '/code-of-conduct'
     })
 
+    diversity_tickets = list(filter(lambda x: x.get('diversitytickets'), conferences))
+    dt_template = env.get_template('diversity-tickets.html')
+    with open(root + '/diversity-tickets', 'w', encoding="utf-8") as fh:
+        fh.write(dt_template.render(
+            h1          = 'Diversity Tickets',
+            title       = 'Diversity Tickets',
+            conferences = list(filter(lambda x: x['start_date'] >= now, diversity_tickets)),
+            earlier_conferences = list(filter(lambda x: x['start_date'] < now, diversity_tickets)),
+            stats       = stats,
+        ))
+    sitemap.append({
+        'url' : '/diversity-tickets'
+    })
+
+
     save_pages(root, 't', topics, sitemap, main_template, now, 'Open source conferences discussing {}')
     save_pages(root, 'l', countries, sitemap, main_template, now, 'Open source conferences in {}')
     save_pages(root, 'l', cities, sitemap, main_template, now, 'Open source conferences in {}')
@@ -241,6 +256,8 @@ def preprocess_events(now, conferences):
         'has_coc_future' : 0,
         'has_a11y' : 0,
         'has_a11y_future' : 0,
+        'has_diversity_tickets' : 0,
+        'has_diversity_tickets_future' : 0,
     }
     for event in conferences:
         if not 'country' in event or not event['country']:
@@ -274,6 +291,10 @@ def preprocess_events(now, conferences):
             }
         cities[city_page]['events'].append(event)
 
+        if event.get('diversitytickets'):
+            stats['has_diversity_tickets'] += 1
+            if event['start_date'] >= now:
+                stats['has_diversity_tickets_future'] += 1
         if event.get('code_of_conduct'):
             stats['has_coc'] += 1
             if event['start_date'] >= now:
@@ -308,6 +329,7 @@ def preprocess_events(now, conferences):
         event['tweet_me'] = urllib.parse.quote(tweet_me)
 
     stats['coc_future_perc']  = int(100 * stats['has_coc_future'] / stats['future'])
+    stats['diversity_tickets_future_perc']  = int(100 * stats['has_diversity_tickets_future'] / stats['future'])
     stats['a11y_future_perc'] = int(100 * stats['has_a11y_future'] / stats['future'])
 
     return stats, countries, cities
