@@ -20,6 +20,7 @@
 </div>
 
 <div>{% if event['code_of_conduct'] %}<a href="{{ event['code_of_conduct'] }}">Code of Conduct</a>{% else %}<a href="/code-of-conduct">Code of Conduct <b>not found</b></a>{% endif %}</div>
+<div>{% if event['diversitytickets'] %}<a href="https://diversitytickets.org/events/{{ event['diversitytickets'] }}">Diversity Tickets</a>{% else %}No <a href="https://diversitytickets.org/">Diversity Tickets</b></a>{% endif %}</div>
 <div>Languages: {% for lang in event['languages'] %}{{ lang }}{% endfor %}</div>
 <div>Topics:
    {% for topic in event['topics'] %}
