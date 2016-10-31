@@ -7,7 +7,7 @@ their conferences. If your event does not yet  provide such tickets, check out t
 
 <h2>Upcoming events</h2>
 <div class="text">
-Total: {{ conferences|length }} ({{stats.coc_future_perc}}% of future events have use the Diversity Tickets site)
+Total: {{ conferences|length }} The following {{stats.diversity_tickets_future_perc}}% of future events use the Diversity Tickets site:
 </div>
 <ul>
 {% for c in conferences %}
@@ -18,7 +18,7 @@ Total: {{ conferences|length }} ({{stats.coc_future_perc}}% of future events hav
 {% if earlier_conferences %}
 <h2>Earlier events</h2>
   <div class="text">
-  There conferences have already ended, but it might be still useful to know which one had Diversity Tickets.
+  These conferences have already ended, but it might be still useful to know which one had Diversity Tickets.
   </div>
   <div class="text">
   Total: {{ earlier_conferences|length }}
