@@ -48,3 +48,8 @@ TODO
 * Create separate Twitter account for the site.
 * Change the sitemap.xml creating code to use the date of the files for real date.
 
+
+Other sources
+------
+https://techpoint.ng/2016/09/14/hackjos-2016-2/
+
