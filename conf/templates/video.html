@@ -1,0 +1,21 @@
+{% include 'incl/header.html' %}
+
+<div>{{video.title}}</div>
+<div>{{video.description}}</div>
+
+<iframe  src="{{video.videos[0].url}}" title="Video for " frameborder="0" allowfullscreen></iframe>
+
+<!--
+<img src="{{video.thumbnail_url}}" />
+-->
+<div>Recorded: {{video.recorded}}</div>
+
+<ul>
+{% for s in video.speakers %}
+  <li>{{s}}</li>
+</ul>
+{% endfor %}
+
+
+{% include 'incl/footer.html' %}
+

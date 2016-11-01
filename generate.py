@@ -13,8 +13,25 @@ if sys.version_info.major < 3:
 
 def main():
     conferences, topics = read_files()
+    videos = read_videos()
     #print(conferences)
-    generate_pages(conferences, topics)
+    generate_pages(conferences, topics, videos)
+
+def read_videos():
+    root = 'videos'
+    events = os.listdir(root)
+    videos = []
+    for event in events:
+        path = os.path.join(root, event, 'videos')
+        for video_file in os.listdir(path):
+            with open(os.path.join(path, video_file)) as fh:
+                video = json.load(fh)
+                video['filename'] = video_file[0:-5]
+                video['event']    = event
+                #print(video)
+                videos.append(video)
+    return videos
+
 
 def read_files():
     conferences = []
@@ -73,17 +90,40 @@ def read_files():
 
     return sorted(conferences, key=lambda x: x['start_date']), topics
 
-def generate_pages(conferences, topics):
+def generate_video_pages(videos, sitemap):
+    root = 'html'
+    env = Environment(loader=PackageLoader('conf', 'templates'))
+    video_template = env.get_template('video.html')
+    if not os.path.exists(root + '/v/'):
+        os.mkdir(root + '/v/')
+    for video in videos:
+        if not os.path.exists(root + '/v/' + video['event']):
+            os.mkdir(root + '/v/' + video['event'])
+        #print(root + '/v/' + video['event'] + '/' + video['filename'])
+        #exit()
+        with open(root + '/v/' + video['event'] + '/' + video['filename'], 'w', encoding="utf-8") as fh:
+            fh.write(video_template.render(
+                h1          = video['title'],
+                title       = video['title'],
+                video       = video,
+            ))
+        sitemap.append({
+            'url' : '/v/' + video['event'] + video['filename']
+        })
+    
+
+
+def generate_pages(conferences, topics, videos):
     root = 'html'
     if os.path.exists(root):
         shutil.rmtree(root)
     shutil.copytree('src', root)
 
-    sitemap = []
-
     now = datetime.now().strftime('%Y-%m-%d')
     #print(now)
 
+    sitemap = []
+    generate_video_pages(videos, sitemap)
 
     stats, countries, cities = preprocess_events(now, conferences)
 
