@@ -49,9 +49,17 @@ TODO
 * Change the sitemap.xml creating code to use the date of the files for real date.
 
 * Videos: improve how they are collected (date, speaker, youtube code, length?)
+* Videos: describe how to add them
 * Add tags to videos for better indexing
 * Combine the speakers page with the xcast people
 * Add JavaScript based searching for videos.
+* From individual video page link back to event
+
+* Create event "series" e.g. all the 'frontporch' events.
+
+
+
+
 
 Other sources
 ------
