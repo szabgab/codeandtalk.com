@@ -40,9 +40,31 @@
 <a href="http://twitter.com/home?status={{ event['tweet_me'] }}" target="_blank">Tweet this event</a>
 </div>
 
+{% if event.videos %}
+<h2>Videos</h2>
+  {% for v in event.videos %}
+    <div class="video-list-entry">
+       <a href="/v/{{v.event}}/{{v.filename}}"><img class="list-thumbnail" src="{{v.thumbnail_url}}" alt="{{v.title}}" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/{{v.event}}/{{v.filename}}">{{v.title}}</a></h4>
+          <footer>
+            <div class="recorded">{{v.recorded}}</div>
+            <div class="speakers">
+            Speakers: 
+             {% for s in v.speakers %}
+                {{s}}
+             {% endfor %}
+            </div>
+          </footer>
+       </section>
+    </div>
+  {% endfor %}
+{% endif %}
+
 {% if event.youtube %}
 <div>
 <a href="https://www.youtube.com/playlist?list={{ event.youtube }}">Videos</a>
 </div>
 {% endif %}
+
 {% include 'incl/footer.html' %}

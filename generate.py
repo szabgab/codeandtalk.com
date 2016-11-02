@@ -125,7 +125,7 @@ def generate_pages(conferences, topics, videos):
     sitemap = []
     generate_video_pages(videos, sitemap)
 
-    stats, countries, cities = preprocess_events(now, conferences)
+    stats, countries, cities = preprocess_events(now, conferences, videos)
 
     env = Environment(loader=PackageLoader('conf', 'templates'))
 
@@ -285,7 +285,7 @@ def save_pages(root, directory, data, sitemap, main_template, now, title):
             'url' : '/' + directory + '/' + d
         })
 
-def preprocess_events(now, conferences):
+def preprocess_events(now, conferences, videos):
     countries = {}
     cities = {}
     stats = {
@@ -299,7 +299,17 @@ def preprocess_events(now, conferences):
         'has_diversity_tickets' : 0,
         'has_diversity_tickets_future' : 0,
     }
+
+    ev = {}
+    for v in videos:
+        if v['event'] not in ev:
+            ev[ v['event'] ] = []
+        ev[ v['event'] ].append(v)
+
     for event in conferences:
+        if event['nickname'] in ev:
+            event['videos'] = ev[ event['nickname'] ]
+
         if not 'country' in event or not event['country']:
             exit('Country is missing from {}'.format(event))
         country_name = event['country']
