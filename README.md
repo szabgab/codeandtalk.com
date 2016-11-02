@@ -48,6 +48,10 @@ TODO
 * Create separate Twitter account for the site.
 * Change the sitemap.xml creating code to use the date of the files for real date.
 
+* Videos: improve how they are collected (date, speaker, youtube code, length?)
+* Add tags to videos for better indexing
+* Combine the speakers page with the xcast people
+* Add JavaScript based searching for videos.
 
 Other sources
 ------
