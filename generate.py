@@ -32,13 +32,15 @@ def read_videos():
     for event in events:
         path = os.path.join(root, event, 'videos')
         for video_file in os.listdir(path):
-            with open(os.path.join(path, video_file)) as fh:
+            video_file_path = os.path.join(path, video_file)
+            with open(video_file_path) as fh:
                 video = json.load(fh)
                 video['filename'] = video_file[0:-5]
                 video['event']    = event
                 #print(event)
                 #exit()
                 #print(video)
+                video['file_date'] = datetime.fromtimestamp( os.path.getctime(video_file_path) )
                 videos.append(video)
     return videos
 
@@ -120,7 +122,7 @@ def generate_video_pages(videos, sitemap):
             ))
         sitemap.append({
             'url' : '/v/' + video['event'] + video['filename'],
-            #'lastmod' : video['']
+            'lastmod' : video['file_date'],
         })
     
 
