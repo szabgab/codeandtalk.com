@@ -8,6 +8,7 @@ import shutil
 import urllib
 from jinja2 import Environment, PackageLoader
 
+
 if sys.version_info.major < 3:
     exit("This code requires Python 3.\nThis is {}".format(sys.version))
 
@@ -56,6 +57,7 @@ def read_files():
             nickname = nickname[0:-4]
             #print(nickname)
             this['nickname'] = nickname
+            this['file_date'] = datetime.fromtimestamp( os.path.getctime(filename) )
             with open(filename, encoding="utf-8") as fh:
                 for line in fh:
                     line = line.rstrip('\n')
@@ -117,7 +119,8 @@ def generate_video_pages(videos, sitemap):
                 video       = video,
             ))
         sitemap.append({
-            'url' : '/v/' + video['event'] + video['filename']
+            'url' : '/v/' + video['event'] + video['filename'],
+            #'lastmod' : video['']
         })
     
 
@@ -152,7 +155,8 @@ def generate_pages(conferences, topics, videos):
                     event = event,
             ))
             sitemap.append({
-                'url' : '/e/' + event['nickname']
+                'url' : '/e/' + event['nickname'],
+                'lastmod' : event['file_date'],
             })
         except Exception as e:
             print("ERROR: {}".format(e))
@@ -255,7 +259,10 @@ def generate_pages(conferences, topics, videos):
         for e in sitemap:
             fh.write('  <url>\n')
             fh.write('    <loc>http://conferences.szabgab.com{}</loc>\n'.format(e['url']))
-            fh.write('    <lastmod>{}</lastmod>\n'.format(now))
+            date = now
+            if 'lastmod' in e:
+                date = e['lastmod']
+            fh.write('    <lastmod>{}</lastmod>\n'.format(date))
             fh.write('  </url>\n')
         fh.write('</urlset>\n')
 
