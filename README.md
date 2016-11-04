@@ -53,7 +53,6 @@ TODO
 * Add tags to videos for better indexing
 * Combine the speakers page with the xcast people
 * Add JavaScript based searching for videos.
-* From individual video page link back to event
 
 * Create event "series" e.g. all the 'frontporch' events.
 

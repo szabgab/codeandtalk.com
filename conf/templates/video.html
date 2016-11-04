@@ -8,7 +8,7 @@
 <!--
 <img src="{{video.thumbnail_url}}" />
 -->
-<div>Recorded: {{video.recorded}}</div>
+<div>Recorded on {{video.recorded}} at <a href="/e/{{video.event}}">{{video.event_name}}</a></div>
 
 <ul>
 {% for s in video.speakers %}

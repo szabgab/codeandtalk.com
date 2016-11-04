@@ -13,8 +13,15 @@ if sys.version_info.major < 3:
 
 def main():
     conferences, topics = read_files()
-    videos = read_videos()
     #print(conferences)
+    videos = read_videos()
+
+    events = {}
+    for e in conferences:
+        events[ e['nickname'] ] = e
+    for v in videos:
+        v['event_name'] = events[ v['event'] ]['name']
+
     generate_pages(conferences, topics, videos)
 
 def read_videos():
@@ -28,6 +35,8 @@ def read_videos():
                 video = json.load(fh)
                 video['filename'] = video_file[0:-5]
                 video['event']    = event
+                #print(event)
+                #exit()
                 #print(video)
                 videos.append(video)
     return videos
