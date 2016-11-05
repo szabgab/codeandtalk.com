@@ -30,6 +30,8 @@ def main():
         for s in v['speakers']:
             if s in people:
                 speakers[s] = people[s]
+            else:
+                print("WARN: Missing people file for '{}'".format(s))
         v['speakers'] = speakers
         #print(speakers)
         #exit()
