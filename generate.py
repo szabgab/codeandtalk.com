@@ -33,6 +33,21 @@ def main():
             else:
                 print("WARN: Missing people file for '{}'".format(s))
         v['speakers'] = speakers
+
+        tweet = '{} http://conferences.szabgab.com/v/{}/{}'.format(v['title'], v['event'], v['filename'])
+        tw_id = events[ v['event'] ].get('twitter', '')
+        if tw_id:
+            tweet += ' presented @' + tw_id
+        #print(v['speakers'])
+        #exit()
+        if v['speakers']:
+            for s in v['speakers']:
+                tw_id = v['speakers'][s]['info'].get('twitter', '')
+                if tw_id:
+                    tweet += ' by @' + tw_id
+        v['tweet'] = urllib.parse.quote(tweet)
+
+
         #print(speakers)
         #exit()
             
