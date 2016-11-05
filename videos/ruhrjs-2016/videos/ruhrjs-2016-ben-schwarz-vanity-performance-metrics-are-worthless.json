@@ -1,0 +1,13 @@
+{
+  "description": "\"Building a super-performant front-end is far harder and more intensive than making `onLoad` or `onDomReady` happen quicker \u2014 After you've removed \"\"blocking scripts\"\", what do you do?\n\nIn this talk I'll show you how to put best practice tools to work for you.\n\nWe'll explore how to keep your pages scrolling buttery-smooth, the depths of undocumented Chrome devtool APIs, how to create your very own clean-room environment to test and measure while coordinating collection of performance metrics over many geographical borders \u2014 then how you can make it all happen within a continuous integration server. \"",
+  "recorded": "2016-07-03",
+  "speakers": ["Ben Schwarz"],
+  "thumbnail_url": "https://i.ytimg.com/vi/4RipfnP2HWw/hqdefault.jpg",
+  "title": "Vanity performance metrics are worthless",
+  "videos": [
+    {
+      "type": "youtube",
+      "code": "4RipfnP2HWw"
+    }
+  ]
+}
