@@ -12,7 +12,7 @@
 
 <ul>
 {% for s in video.speakers %}
-  <li>{{s}}</li>
+  <li><a href="http://xcast.szabgab.com/p/{{s}}">{{video.speakers[s].info.name}}</a></li>
 {% endfor %}
 </ul>
 

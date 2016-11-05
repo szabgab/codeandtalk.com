@@ -8,6 +8,8 @@ import shutil
 import urllib
 from jinja2 import Environment, PackageLoader
 
+sys.path.insert(0, '../xcast')
+from xcast.people import read_people
 
 if sys.version_info.major < 3:
     exit("This code requires Python 3.\nThis is {}".format(sys.version))
@@ -15,15 +17,26 @@ if sys.version_info.major < 3:
 def main():
     conferences, topics = read_files()
     #print(conferences)
+    people = read_people('../xcast/data/people')
     videos = read_videos()
+    #print(people)
 
     events = {}
     for e in conferences:
         events[ e['nickname'] ] = e
     for v in videos:
         v['event_name'] = events[ v['event'] ]['name']
+        speakers = {}
+        for s in v['speakers']:
+            if s in people:
+                speakers[s] = people[s]
+        v['speakers'] = speakers
+        #print(speakers)
+        #exit()
+            
 
-    generate_pages(conferences, topics, videos)
+    generate_pages(conferences, topics, videos, people)
+
 
 def read_videos():
     root = 'videos'
@@ -125,9 +138,7 @@ def generate_video_pages(videos, sitemap):
             'lastmod' : video['file_date'],
         })
     
-
-
-def generate_pages(conferences, topics, videos):
+def generate_pages(conferences, topics, videos, people):
     root = 'html'
     if os.path.exists(root):
         shutil.rmtree(root)
