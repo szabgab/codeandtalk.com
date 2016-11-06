@@ -2,9 +2,19 @@
 {% include 'incl/stats.html' %}
 
 <table>
-   <tr><th></th><th>Future</th><th>Total</th></tr>
+   <tr>
+     <th></th>
+     <th>Future</th>
+     <th>Total</th>
+     {% if videos %}<th>Videos</th>{% endif %}
+  </tr>
 {% for (k, v) in data|dictsort %}
-   <tr><td><a href="/{{directory}}/{{k}}">{{ v['name'] }}</a></td><td>{{v['future']}}</td><td>{{v['total']}}</td></tr>
+   <tr>
+     <td><a href="/{{directory}}/{{k}}">{{ v['name'] }}</a></td>
+     <td>{{v['future']}}</td>
+     <td>{{v['total']}}</td>
+     {% if videos %}<td>{{v.videos|length}}</td>{% endif %}
+   </tr>
 {% endfor %}
    <tr><td>TOTAL</td><td>{{stats.future}}</td><td>{{stats.total}}</td></tr>
 

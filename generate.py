@@ -18,7 +18,7 @@ def main():
     conferences, topics = read_files()
     #print(conferences)
     people = read_people('../xcast/data/people')
-    videos = read_videos()
+    videos = read_videos(topics) # bad bad that topics will be updated!
     #print(people)
 
     events = {}
@@ -55,7 +55,7 @@ def main():
     generate_pages(conferences, topics, videos, people)
 
 
-def read_videos():
+def read_videos(topics):
     root = 'data/videos'
     events = os.listdir(root)
     videos = []
@@ -72,6 +72,18 @@ def read_videos():
                 #print(video)
                 video['file_date'] = datetime.fromtimestamp( os.path.getctime(video_file_path) )
                 videos.append(video)
+
+                if 'tags' in video:
+                    for t in video['tags']:
+                        p = topic2path(t)
+                        if p not in topics:
+                            topics[p] = {
+                                'name' : t,
+                                'events' : [],
+                                'videos' : [],
+                            }
+                        topics[p]['videos'].append(video)
+
     return videos
 
 
@@ -114,7 +126,8 @@ def read_files():
                     if p not in topics:
                         topics[p] = {
                             'name': t,
-                            'events' : []
+                            'events' : [],
+                            'videos' : [],
                         }
                     topics[p]['events'].append(this)
             this['topics'] = my_topics
@@ -307,6 +320,7 @@ def save_collections(root, directory, filename, title, data, sitemap, template, 
             data        = data,
             directory   = directory,
             stats       = stats,
+            videos      = (directory == 't'),
         ))
     sitemap.append({
         'url' : '/' + filename
@@ -316,6 +330,7 @@ def save_pages(root, directory, data, sitemap, main_template, now, title):
     my_dir =  root + '/' + directory + '/'
     if not os.path.exists(my_dir):
         os.mkdir(my_dir)
+
     for d in data.keys():
         conferences = sorted(data[d]['events'], key=lambda x: x['start_date'])
         #print("'{}'".format(d))
@@ -326,6 +341,7 @@ def save_pages(root, directory, data, sitemap, main_template, now, title):
                 title       = title.format(data[d]['name']),
                 conferences = filter(lambda x: x['start_date'] >= now, conferences),
                 earlier_conferences = filter(lambda x: x['start_date'] < now, conferences),
+                videos      = data[d].get('videos'),
             ))
         sitemap.append({
             'url' : '/' + directory + '/' + d

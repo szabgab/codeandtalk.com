@@ -33,5 +33,14 @@
 </table>
 {% endif %}
 
+{% if videos %}
+<h2>Videos</h2>
+<ul>
+{% for v in videos %}
+  <li><a href="/v/{{v.event}}/{{v.filename}}">{{v.title}}</a> recorded on {{v.recorded}} at <a href="/e/{{v.event}}">{{v.event_name}}</a>.</li>
+{% endfor %}
+</ul>
+{% endif %}
+
 {% include 'incl/footer.html' %}
 

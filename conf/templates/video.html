@@ -20,6 +20,12 @@
 {% endfor %}
 </ul>
 
+<div id="tags">
+{% for t in video.tags %}
+  {{t}}
+{% endfor %}
+</div>
+
 
 {% include 'incl/footer.html' %}
 
