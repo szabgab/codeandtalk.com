@@ -80,7 +80,7 @@ def read_files():
     topics = {}
     now = datetime.now().strftime('%Y-%m-%d')
 
-    for filename in glob.glob("data/*.txt"):
+    for filename in glob.glob("data/events/*.txt"):
         print("Reading {}".format(filename))
         conf = {}
         try:
