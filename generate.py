@@ -60,7 +60,7 @@ def read_videos():
     events = os.listdir(root)
     videos = []
     for event in events:
-        path = os.path.join(root, event, 'videos')
+        path = os.path.join(root, event)
         for video_file in os.listdir(path):
             video_file_path = os.path.join(path, video_file)
             with open(video_file_path) as fh:
