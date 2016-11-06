@@ -56,7 +56,7 @@ def main():
 
 
 def read_videos():
-    root = 'videos'
+    root = 'data/videos'
     events = os.listdir(root)
     videos = []
     for event in events:
