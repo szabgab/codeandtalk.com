@@ -1,0 +1,14 @@
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script>
+ $('#conferences').DataTable({
+   columnDefs: [
+     { responsivePriority: 1, targets: -2 }, /* event title */
+     { responsivePriority: 2, targest: 0  }, /* start date */
+     { responsivePriority: 3, targets: -1 }  /* event location */
+   ],
+   pageLength: 50,
+   responsive: true
+ });
+</script>
