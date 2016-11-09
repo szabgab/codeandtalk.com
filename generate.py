@@ -74,8 +74,13 @@ def read_videos(topics):
                 videos.append(video)
 
                 if 'tags' in video:
+                    tags = []
                     for t in video['tags']:
                         p = topic2path(t)
+                        tags.append({
+                            'text': t,
+                            'link': p,
+                        }) 
                         if p not in topics:
                             topics[p] = {
                                 'name' : t,
@@ -83,6 +88,7 @@ def read_videos(topics):
                                 'videos' : [],
                             }
                         topics[p]['videos'].append(video)
+                    video['tags'] = tags
 
     return videos
 

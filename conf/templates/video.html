@@ -22,7 +22,7 @@
 
 <div id="tags">
 {% for t in video.tags %}
-  {{t}}
+  <a href="/t/{{t.link}}">{{t.text}}</a>
 {% endfor %}
 </div>
 
