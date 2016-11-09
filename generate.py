@@ -25,6 +25,7 @@ def main():
     for e in conferences:
         events[ e['nickname'] ] = e
     for v in videos:
+        v['twitter_description'] = html2txt(v['description'])
         v['event_name'] = events[ v['event'] ]['name']
         speakers = {}
         for s in v['speakers']:
@@ -455,6 +456,10 @@ def preprocess_events(now, conferences, videos):
 
     return stats, countries, cities
 
+def html2txt(html):
+    #text = re.sub(r'<a\s+href="[^"]+">([^<]+)</a>', '$1', html)
+    text = re.sub(r'</?[^>]+>', '', html)
+    return text
 
 def topic2path(tag):
     t = tag.lower()
