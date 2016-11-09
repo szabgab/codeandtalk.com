@@ -48,7 +48,8 @@ def main():
                     tweet_video += ' by @' + tw_id
         if 'tags' in v:
             for t in v['tags']:
-                tweet_video += ' #' + t['link']
+                if not re.search(r'-', t['link']) and len(t['link']) < 10:
+                    tweet_video += ' #' + t['link']
         v['tweet_video'] = urllib.parse.quote(tweet_video)
 
 
