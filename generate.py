@@ -350,8 +350,8 @@ def save_pages(root, directory, data, sitemap, main_template, now, title):
             fh.write(main_template.render(
                 h1          = title.format(data[d]['name']),
                 title       = title.format(data[d]['name']),
-                conferences = filter(lambda x: x['start_date'] >= now, conferences),
-                earlier_conferences = filter(lambda x: x['start_date'] < now, conferences),
+                conferences = list(filter(lambda x: x['start_date'] >= now, conferences)),
+                earlier_conferences = list(filter(lambda x: x['start_date'] < now, conferences)),
                 videos      = data[d].get('videos'),
             ))
         sitemap.append({

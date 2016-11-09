@@ -1,6 +1,7 @@
 {% include 'incl/header.html' %}
 {% include 'incl/stats.html' %}
 
+{% if conferences %}
 <table id="conferences" class="display compact">
   <thead>
     <tr><th>Start</th><th>CFP</th><th>CoC</th><th>A11y</th><th>What</th><th>Where</th></tr>
@@ -18,6 +19,7 @@
     {% endfor %}
   </tbody>
 </table>
+{% endif %}
 
 
 {% if earlier_conferences %}
