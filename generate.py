@@ -353,59 +353,60 @@ def html2txt(html):
     return text
 
 def main():
-
     parser = argparse.ArgumentParser()
     parser.add_argument('--html', help = 'Generate HTML', action='store_true')
     parser.add_argument('--check', help = 'Check the RSS feed', action='store_true')
     parser.add_argument('--source', help = 'Check the RSS feed of given source')
     args = parser.parse_args()
 
-    with open('data/sources.json', encoding="utf-8") as fh:
-        sources = json.load(fh)
-    
     if args.source:
         check_rss_feed()
     elif args.check:
         check_rss()
     elif args.html:
-
-        root = 'html'
-        if os.path.exists(root):
-            shutil.rmtree(root)
-        shutil.copytree('src', root)
-
-        process_conferences()
-
-        episodes = read_episodes(sources)
-        people = read_people('data/people')
-        tags = read_tags()
-
-        for e in episodes:
-            #print(e)
-            #exit()
-            if 'tags' in e:
-                for tag in e['tags']:
-                    path = tag['link']
-                    if path not in tags:
-                        # TODO report tag missing from the tags.csv file
-                        tags[path] = {}
-                        tags[path]['tag'] = tag['text']
-                        tags[path]['episodes'] = []
-                    tags[path]['episodes'].append(e)
-
-            if 'guests' in e:
-                for g in e['guests'].keys():
-                    if g not in people:
-                        exit("ERROR: '{}' is not in the list of people".format(g))
-                    people[g]['episodes'].append(e)
-            if 'hosts' in e:
-                for h in e['hosts'].keys():
-                    if h not in people:
-                        exit("ERROR: '{}' is not in the list of people".format(h))
-                    people[h]['hosting'].append(e)
-        generate_podcast_pages(sources, people, tags, episodes)
+        generate_html()
     else:
         parser.print_help()
+
+
+def generate_html():
+    root = 'html'
+    if os.path.exists(root):
+        shutil.rmtree(root)
+    shutil.copytree('src', root)
+
+    process_conferences()
+
+    with open('data/sources.json', encoding="utf-8") as fh:
+        sources = json.load(fh)
+    episodes = read_episodes(sources)
+    people = read_people('data/people')
+    tags = read_tags()
+
+    for e in episodes:
+        #print(e)
+        #exit()
+        if 'tags' in e:
+            for tag in e['tags']:
+                path = tag['link']
+                if path not in tags:
+                    # TODO report tag missing from the tags.csv file
+                    tags[path] = {}
+                    tags[path]['tag'] = tag['text']
+                    tags[path]['episodes'] = []
+                tags[path]['episodes'].append(e)
+
+        if 'guests' in e:
+            for g in e['guests'].keys():
+                if g not in people:
+                    exit("ERROR: '{}' is not in the list of people".format(g))
+                people[g]['episodes'].append(e)
+        if 'hosts' in e:
+            for h in e['hosts'].keys():
+                if h not in people:
+                    exit("ERROR: '{}' is not in the list of people".format(h))
+                people[h]['hosting'].append(e)
+    generate_podcast_pages(sources, people, tags, episodes)
 
 def generate_podcast_pages(sources, people, tags, episodes):
     env = Environment(loader=PackageLoader('conf', 'templates'))
