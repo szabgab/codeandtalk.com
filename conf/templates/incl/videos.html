@@ -1,0 +1,19 @@
+<h2>Videos</h2>
+  {% for v in videos %}
+    <div class="video-list-entry">
+       <a href="/v/{{v.event}}/{{v.filename}}"><img class="list-thumbnail" src="{{v.thumbnail_url}}" alt="{{v.title}}" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/{{v.event}}/{{v.filename}}">{{v.title}}</a></h4>
+          <footer>
+            <div class="recorded">{{v.recorded}} at <a href="/e/{{v.event}}">{{v.event_name}}</a></div>
+            <div class="speakers">
+            Speakers: 
+             {% for s in v.speakers %}
+                <a href="/p/{{s}}">{{ v.speakers[s]['info']['name'] }}</a>
+             {% endfor %}
+            </div>
+          </footer>
+       </section>
+    </div>
+  {% endfor %}
+

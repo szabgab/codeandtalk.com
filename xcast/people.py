@@ -116,7 +116,7 @@ class GenerateSite(object):
                                 self.tags[p] = new_tag(t)
                             self.tags[p]['videos'].append(video)
                         video['tags'] = tags
-    
+        self.stats['videos'] = len(self.videos)
         return
     
     def read_events(self):
@@ -435,10 +435,22 @@ class GenerateSite(object):
 
     def generate_pages(self):
         root = 'html'
+        env = Environment(loader=PackageLoader('conf', 'templates'))
     
         self.generate_video_pages()
+        #print(self.videos)
+        #exit()
+
+        with open(root + '/videos', 'w', encoding="utf-8") as fh:
+            fh.write(env.get_template('videos.html').render(
+                h1     = 'Videos',
+                title  = 'Videos',
+                videos = self.videos,
+        ))
+        self.sitemap.append({
+            'url' : '/videos',
+        })
     
-        env = Environment(loader=PackageLoader('conf', 'templates'))
     
         event_template = env.get_template('event.html')
         if not os.path.exists(root + '/e/'):
