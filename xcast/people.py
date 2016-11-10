@@ -25,6 +25,7 @@ class GenerateSite(object):
     def __init__(self):
         self.now = datetime.now().strftime('%Y-%m-%d')
         self.sitemap = []
+        self.people = {}
 
         self.stats = {
             'has_coc' : 0,
@@ -35,10 +36,13 @@ class GenerateSite(object):
             'has_diversity_tickets_future' : 0,
         }
  
-        #print(self.now)
 
-    def read_people(self, path):
-        self.people = {}
+    def read_sources(self):
+        with open('data/sources.json', encoding="utf-8") as fh:
+            self.sources = json.load(fh)
+
+    def read_people(self):
+        path = 'data/people'
         for filename in glob.glob(path + "/*.txt"):
             try:
                 this = {}
@@ -81,13 +85,13 @@ class GenerateSite(object):
         return
     
     def read_videos(self):
-        root = 'data/videos'
-        events = os.listdir(root)
+        path = 'data/videos'
+        events = os.listdir(path)
         self.videos = []
         for event in events:
-            path = os.path.join(root, event)
-            for video_file in os.listdir(path):
-                video_file_path = os.path.join(path, video_file)
+            dir_path = os.path.join(path, event)
+            for video_file in os.listdir(dir_path):
+                video_file_path = os.path.join(dir_path, video_file)
                 with open(video_file_path) as fh:
                     video = json.load(fh)
                     video['filename'] = video_file[0:-5]
@@ -194,9 +198,9 @@ class GenerateSite(object):
 
         return
     
-    def read_episodes(self, sources):
+    def read_episodes(self):
         self.episodes = []
-        for src in sources:
+        for src in self.sources:
             print("Processing source {}".format(src['name']))
             file = 'data/podcasts/' + src['name'] + '.json'
             src['episodes'] = []
@@ -374,7 +378,7 @@ class GenerateSite(object):
     
         return
 
-    def generate_podcast_pages(self, sources):
+    def generate_podcast_pages(self):
         env = Environment(loader=PackageLoader('conf', 'templates'))
     
         search = {}
@@ -405,7 +409,7 @@ class GenerateSite(object):
         source_template = env.get_template('podcast.html')
         if not os.path.exists('html/s/'):
             os.mkdir('html/s/')
-        for s in sources:
+        for s in self.sources:
             search[ s['title'] ] = '/s/' + s['name'];
             try:
                 with open('html/s/' + s['name'], 'w', encoding="utf-8") as fh:
@@ -422,9 +426,9 @@ class GenerateSite(object):
         if not os.path.exists('html/t/'):
             os.mkdir('html/t/')
     
-        self.stats['podcasts'] = len(sources)
+        self.stats['podcasts'] = len(self.sources)
         self.stats['people']   = len(self.people)
-        self.stats['episodes'] = sum(len(x['episodes']) for x in sources)
+        self.stats['episodes'] = sum(len(x['episodes']) for x in self.sources)
     
         with open('html/people', 'w', encoding="utf-8") as fh:
             fh.write(env.get_template('people.html').render(
@@ -441,7 +445,7 @@ class GenerateSite(object):
                 title   = 'List of podcasts',
                 stats   = self.stats,
                 tags    = self.tags,
-                podcasts = sorted(sources, key=lambda x: x['title']),
+                podcasts = sorted(self.sources, key=lambda x: x['title']),
                 people = self.people,
                 people_ids = sorted(self.people.keys()),
              ))

@@ -35,17 +35,16 @@ def generate_html():
     shutil.copytree('src', root)
 
     gs = GenerateSite()
+
     gs.read_tags()
     gs.read_events()
-    gs.read_people('data/people')
+    gs.read_people()
     gs.read_videos()
+    gs.read_sources()
+    gs.read_episodes()
 
-    with open('data/sources.json', encoding="utf-8") as fh:
-        sources = json.load(fh)
-    gs.read_episodes(sources)
     gs.preprocess_events_once()
-
-    gs.generate_podcast_pages(sources)
+    gs.generate_podcast_pages()
     gs.generate_pages()
 
 def check_rss_feed():
