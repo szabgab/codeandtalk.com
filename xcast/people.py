@@ -20,6 +20,13 @@ def html2txt(html):
     text = re.sub(r'</?[^>]+>', '', html)
     return text
 
+def new_tag(t):
+    return {
+        'name' : t,
+        'events' : [],
+        'videos' : [],
+        'episodes' : [],
+    }
 
 class GenerateSite(object):
     def __init__(self):
@@ -77,10 +84,7 @@ class GenerateSite(object):
             rd = csv.DictReader(fh, delimiter=';') 
             for row in rd:
                 path = topic2path(row['name'])
-                row['path'] = path
-                row['episodes'] = []
-                row['events'] = []
-                self.tags[ path ] = row
+                self.tags[ path ] = new_tag(row['name'])
         #print(self.tags)
         return
     
@@ -96,9 +100,6 @@ class GenerateSite(object):
                     video = json.load(fh)
                     video['filename'] = video_file[0:-5]
                     video['event']    = event
-                    #print(event)
-                    #exit()
-                    #print(video)
                     video['file_date'] = datetime.fromtimestamp( os.path.getctime(video_file_path) )
                     self.videos.append(video)
     
@@ -111,12 +112,7 @@ class GenerateSite(object):
                                 'link': p,
                             }) 
                             if p not in self.tags:
-                                self.tags[p] = {
-                                    'name' : t,
-                                    'events' : [],
-                                    'videos' : [],
-                                    'episodes' : [],
-                                }
+                                self.tags[p] = new_tag(t)
                             self.tags[p]['videos'].append(video)
                         video['tags'] = tags
     
@@ -151,19 +147,12 @@ class GenerateSite(object):
                 if this['topics']:
                     for t in re.split(r'\s*,\s*', this['topics']):
                         p = topic2path(t)
-                        #if p == '':
-                        #    exit("ERROR {}".format(this))
                         my_topics.append({
                             'name' : t,
                             'path' : p,
                         })
                         if p not in self.tags:
-                            self.tags[p] = {
-                                'name': t,
-                                'events' : [],
-                                'videos' : [],
-                                'episodes' : [],
-                            }
+                            self.tags[p] = new_tag(t)
                         self.tags[p]['events'].append(this)
                 this['topics'] = my_topics
     
@@ -228,21 +217,13 @@ class GenerateSite(object):
                 for tag in e['tags']:
                     path = topic2path(tag)
                     if path not in tags:
-                        # TODO report tag missing from the tags.csv file
                         tags.append({
                             'text' : tag,
                             'link' : path,
                         })
                     if path not in self.tags:
                         # TODO report tag missing from the tags.csv file
-                        #print(e)
-                        #exit()
-                        self.tags[path] = {
-                            'name'    : tag,
-                            'episodes': [],
-                            'events'  : [],
-                            'videos'  : [],
-                        }
+                        self.tags[path] = new_tag(tag)
                     self.tags[path]['episodes'].append(e)
     
                 e['tags'] = tags
