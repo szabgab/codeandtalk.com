@@ -14,8 +14,6 @@ from xcast.people import read_people, read_tags, read_videos, read_events, read_
 if sys.version_info.major < 3:
     exit("This code requires Python 3.\nThis is {}".format(sys.version))
 
-
-
 def generate_video_pages(videos, sitemap):
     root = 'html'
     env = Environment(loader=PackageLoader('conf', 'templates'))
@@ -38,7 +36,7 @@ def generate_video_pages(videos, sitemap):
             'lastmod' : video['file_date'],
         })
     
-def generate_pages(conferences, topics, videos, people):
+def generate_pages(conferences, topics, videos, people, podcast_stats):
     root = 'html'
 
     now = datetime.now().strftime('%Y-%m-%d')
@@ -48,6 +46,8 @@ def generate_pages(conferences, topics, videos, people):
     generate_video_pages(videos, sitemap)
 
     stats, countries, cities = preprocess_events(now, conferences, videos)
+    for k in podcast_stats:
+        stats[k] = podcast_stats[k]
 
     env = Environment(loader=PackageLoader('conf', 'templates'))
 
@@ -391,8 +391,8 @@ def generate_html():
                     exit("ERROR: '{}' is not in the list of people".format(h))
                 people[h]['hosting'].append(e)
 
-    generate_pages(conferences, topics, videos, people)
-    generate_podcast_pages(sources, people, topics, episodes)
+    stats = generate_podcast_pages(sources, people, topics, episodes)
+    generate_pages(conferences, topics, videos, people, stats)
 
 def generate_podcast_pages(sources, people, topics, episodes):
     env = Environment(loader=PackageLoader('conf', 'templates'))
@@ -441,35 +441,12 @@ def generate_podcast_pages(sources, people, topics, episodes):
     tag_template = env.get_template('tag.html')
     if not os.path.exists('html/t/'):
         os.mkdir('html/t/')
-    #for t in tags:
-    #    search[ tags[t]['tag'] ] = '/t/' + t;
-    #    with open('html/t/' + t, 'w', encoding="utf-8") as fh:
-    #        #tags[t]['path'] = t
-    #        fh.write(tag_template.render(
-    #            tag   = tags[t],
-    #            h1    = tags[t]['tag'],
-    #            title = tags[t]['tag'],
-    #            #title = 'Podcasts and discussions about {}'.format(tags[t]['tag'])
-    #        ))
-
 
     stats = {
-        'sources'  : len(sources),
+        'podcasts'  : len(sources),
         'people'   : len(people),
         'episodes' : sum(len(x['episodes']) for x in sources)
     }
-
-    #main_template = env.get_template('index.html')
-    #with open('html/index.html', 'w', encoding="utf-8") as fh:
-    #    fh.write(main_template.render(
-    #        h1      = 'xCast - Tech related podcast and presentations',
-    #        title   = 'xCast - Tech related podcast and presentations',
-    #        stats   = stats,
-    #        tags    = tags,
-    #        sources = sources,
-    #        people = people,
-    #        people_ids = sorted(people.keys()),
-    #    ))
 
     with open('html/people', 'w', encoding="utf-8") as fh:
         fh.write(env.get_template('people.html').render(
@@ -490,17 +467,10 @@ def generate_podcast_pages(sources, people, topics, episodes):
             people = people,
             people_ids = sorted(people.keys()),
          ))
-    #with open('html/tags', 'w', encoding="utf-8") as fh:
-    #    fh.write(env.get_template('tags.html').render(
-    #        h1      = 'Tags',
-    #        title   = 'Tags',
-    #        stats   = stats,
-    #        tags    = tags,
-    #        people = people,
-    #        people_ids = sorted(people.keys()),
-    #    ))
     with open('html/search.json', 'w', encoding="utf-8") as fh:
         json.dump(search, fh)
+
+    return stats
 
 def check_rss_feed():
    source = list(filter(lambda x: x['name'] == args.source, sources))
