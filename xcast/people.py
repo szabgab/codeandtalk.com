@@ -49,7 +49,6 @@ class GenerateSite(object):
         with open('data/series.json') as fh:
             self.series = json.load(fh)
         for s in self.series.keys():
-            #self.series[s]['events'] = [ path[12:-4] for path in glob.glob("data/events/" + s + "-*.txt") ]
             l = len(s)
             self.series[s]['events'] = [ e for e in self.conferences if e['nickname'][0:l] == s ]
             self.series[s]['events'].sort(key=lambda x: x['start_date'])

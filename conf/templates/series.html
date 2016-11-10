@@ -1,13 +1,13 @@
 {% include 'incl/header.html' %}
 
-{% for s in series %}
-   <h2>{{ series[s].title }}</h2>
+{% for (k, v) in series|dictsort %}
+   <h2>{{ v.title }}</h2>
    <div class="description">
-     {{ series[s].description }}
+     {{ v.description }}
    </div>
    
    <ul>
-     {% for e in series[s]['events'] %}
+     {% for e in v.events %}
         <li><a href="/e/{{e.nickname}}">{{e.name}}</a></li>
      {% endfor %}
    </ul>
