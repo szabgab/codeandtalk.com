@@ -44,6 +44,17 @@ class GenerateSite(object):
             'has_diversity_tickets_future' : 0,
         }
  
+    def read_series(self):
+        self.event_in_series = {}
+        with open('data/series.json') as fh:
+            self.series = json.load(fh)
+        for s in self.series.keys():
+            #self.series[s]['events'] = [ path[12:-4] for path in glob.glob("data/events/" + s + "-*.txt") ]
+            l = len(s)
+            self.series[s]['events'] = [ e for e in self.conferences if e['nickname'][0:l] == s ]
+            self.series[s]['events'].sort(key=lambda x: x['start_date'])
+            for e in self.series[s]['events']:
+                self.event_in_series[ e['nickname'] ] = s
 
     def read_sources(self):
         with open('data/sources.json', encoding="utf-8") as fh:
@@ -441,6 +452,16 @@ class GenerateSite(object):
         #print(self.videos)
         #exit()
 
+        with open(root + '/series', 'w', encoding="utf-8") as fh:
+            fh.write(env.get_template('series.html').render(
+                h1     = 'Event Series',
+                title  = 'Event Series',
+                series = self.series,
+        ))
+        self.sitemap.append({
+            'url' : '/series',
+        })
+ 
         with open(root + '/videos', 'w', encoding="utf-8") as fh:
             fh.write(env.get_template('videos.html').render(
                 h1     = 'Videos',

@@ -1,0 +1,17 @@
+{% include 'incl/header.html' %}
+
+{% for s in series %}
+   <h2>{{ series[s].title }}</h2>
+   <div class="description">
+     {{ series[s].description }}
+   </div>
+   
+   <ul>
+     {% for e in series[s]['events'] %}
+        <li><a href="/e/{{e.nickname}}">{{e.name}}</a></li>
+     {% endfor %}
+   </ul>
+{% endfor %}
+
+{% include 'incl/footer.html' %}
+

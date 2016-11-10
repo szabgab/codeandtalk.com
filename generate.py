@@ -37,6 +37,7 @@ def generate_html():
     gs.read_tags()
     gs.read_events()
     gs.read_people()
+    gs.read_series()
     gs.read_videos()
     gs.read_sources()
     gs.read_episodes()
