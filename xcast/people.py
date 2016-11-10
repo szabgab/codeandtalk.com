@@ -229,10 +229,14 @@ class GenerateSite(object):
                 e['tags'] = tags
     
     
-        return
-    
-    def preprocess_events_once(self):
+    def preprocess_events(self):
         events = {}
+        self.countries = {}
+        self.cities = {}
+        self.stats['total']  = len(self.conferences)
+        self.stats['future'] = len(list(filter(lambda x: x['start_date'] >= self.now, self.conferences)))
+        self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_date', '') >= self.now, self.conferences)))
+
         for e in self.conferences:
             events[ e['nickname'] ] = e
         for v in self.videos:
@@ -277,14 +281,6 @@ class GenerateSite(object):
                     if h not in self.people:
                         exit("ERROR: '{}' is not in the list of people".format(h))
                     self.people[h]['hosting'].append(e)
-
-    def preprocess_events(self):
-        self.countries = {}
-        self.cities = {}
-        self.stats['total']  = len(self.conferences)
-        self.stats['future'] = len(list(filter(lambda x: x['start_date'] >= self.now, self.conferences)))
-        self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_date', '') >= self.now, self.conferences)))
-
    
         ev = {}
         for v in self.videos:
@@ -439,7 +435,6 @@ class GenerateSite(object):
         root = 'html'
     
         self.generate_video_pages()
-        self.preprocess_events()
     
         env = Environment(loader=PackageLoader('conf', 'templates'))
     

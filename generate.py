@@ -1,7 +1,5 @@
 import argparse
 from datetime import datetime
-import glob
-import json
 import os
 import sys
 import re
@@ -43,7 +41,8 @@ def generate_html():
     gs.read_sources()
     gs.read_episodes()
 
-    gs.preprocess_events_once()
+    gs.preprocess_events()
+
     gs.generate_podcast_pages()
     gs.generate_pages()
 
