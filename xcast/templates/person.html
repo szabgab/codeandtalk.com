@@ -1,0 +1,20 @@
+{% include 'incl/header.html' %}
+    <div><a href="{{ person['info']['home'] }}">{{ person['info']['name'] }}</a></div>
+    <div><a href="https://github.com/{{ person['info']['github'] }}">Github: {{ person['info']['github'] }}</a></div>
+    <div><a href="https://twitter.com/{{ person['info']['twitter'] }}">Twitter: @{{ person['info']['twitter'] }}</a></div>
+
+    {% if person['episodes'] %}
+       <h2>Episodes</h2>
+       {% for e in person['episodes'] %}
+           <li>{{ e['date'] }} <a href="{{ e['permalink'] }}">{{ e['title'] }}</a> <a href="/s/{{ e['source'] }}">{{ e['source'] }}</a></li>
+       {% endfor %}
+    {% endif %}
+
+    {% if person['hosting'] %}
+	    <h2>Hosting</h2>
+	    {% for e in person['hosting'] %}
+	        <li>{{ e['date'] }} <a href="{{ e['permalink'] }}">{{ e['title'] }}</a> <a href="/s/{{ e['source'] }}">{{ e['source'] }}</a></li>
+	    {% endfor %}
+	{% endif %}
+	
+{% include 'incl/footer.html' %}

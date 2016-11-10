@@ -1,3 +1,4 @@
+import argparse
 from datetime import datetime
 import glob
 import json
@@ -6,15 +7,15 @@ import sys
 import re
 import shutil
 import urllib
+import csv
 from jinja2 import Environment, PackageLoader
 
-sys.path.insert(0, '../xcast')
 from xcast.people import read_people
 
 if sys.version_info.major < 3:
     exit("This code requires Python 3.\nThis is {}".format(sys.version))
 
-def main():
+def process_conferences():
     conferences, topics = read_files()
     #print(conferences)
     people = read_people('../xcast/data/people')
@@ -181,9 +182,6 @@ def generate_video_pages(videos, sitemap):
     
 def generate_pages(conferences, topics, videos, people):
     root = 'html'
-    if os.path.exists(root):
-        shutil.rmtree(root)
-    shutil.copytree('src', root)
 
     now = datetime.now().strftime('%Y-%m-%d')
     #print(now)
@@ -469,6 +467,272 @@ def topic2path(tag):
     t = re.sub(r'ã', 'a', t)
     t = re.sub(r'[\W_]+', '-', t)
     return t
+
+def main():
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--html', help = 'Generate HTML', action='store_true')
+    parser.add_argument('--check', help = 'Check the RSS feed', action='store_true')
+    parser.add_argument('--source', help = 'Check the RSS feed of given source')
+    args = parser.parse_args()
+
+    with open('data/sources.json', encoding="utf-8") as fh:
+        sources = json.load(fh)
+    
+    if args.source:
+        source = list(filter(lambda x: x['name'] == args.source, sources))
+        if not source:
+            exit("'{}' is not one of the sources".format(args.source))
+        #print(source[0])
+        
+        import feedparser
+        d = feedparser.parse(source[0]['feed'])
+        for e in d.entries:
+            if args.source == 'floss-weekly':
+                data = {}
+                full_title = e['title']
+                published = e['published']
+                date = datetime.strptime(published, '%a, %d %b %Y %H:%M:%S %z')  # Tue, 18 Oct 2016 10:33:51 -0700
+                #comments  http://twit.tv/floss/408
+                #print(e['comments'])
+                #m = re.search(r'\d+$', e['comments'])
+                m = re.search(r'FLOSS Weekly (\d+):\s*(.*)', full_title)
+                ep = None
+                if m:
+                    data['ep'] = m.group(1)
+                    data['title'] = m.group(2)
+                    data['permalink'] = 'https://twit.tv/shows/floss-weekly/episodes/' + data['ep']
+                    data['date'] = date.strftime('%Y-%m-%d')
+                    data['guests'] = {}
+                    data['hosts'] = {}
+            elif args.source == 'adv-in-angular':
+                print(e)
+                data = {}
+                full_title = e['title']
+                #print(full_title) # 116 AiA Angular 2 Compiler with Tobias Bosch
+                published = e['published']
+                print(published)
+                date = datetime.strptime(published, '%a, %d %b %Y %H:%M:%S %z')  # Tue, 18 Oct 2016 10:33:51 -0700
+                print(date)
+                m = re.search(r'^\s*(\d+)\s+AiA\s+(.*) with (.*)', full_title)
+                ep = None
+                if m:
+                    data['ep'] = m.group(1)
+                    data['title'] = m.group(2)
+                #    data['permalink'] = 'https://twit.tv/shows/floss-weekly/episodes/' + data['ep']
+                #    data['date'] = date.strftime('%Y-%m-%d')
+                #    data['guests'] = {}
+                #    data['hosts'] = {}
+                print(data)
+                exit()
+            else:
+                exit("Cannot handle this feed")
+            print(data)
+            print('---')
+            #exit()
+ 
+        #for k in d.entries[0].keys():
+        #    print("{}  {}\n".format(k, d.entries[0][k]))
+
+    elif args.check:
+        import feedparser
+        for s in sources:
+            if 'feed' in s:
+                print(s['feed'])
+                d = feedparser.parse(s['feed'])
+                print(d['feed']['title'])
+                print(d.entries[0].title)
+                print(d.entries[0].link)
+                print(d.entries[0])
+                print()
+                exit()
+
+            #else:
+            #    print('No feed for {}'.format(s['name']))
+    elif args.html:
+
+        root = 'html'
+        if os.path.exists(root):
+            shutil.rmtree(root)
+        shutil.copytree('src', root)
+
+        process_conferences()
+
+        episodes = read_episodes(sources)
+        people = read_people('data/people')
+        tags = read_tags()
+
+        for e in episodes:
+            #print(e)
+            #exit()
+            if 'tags' in e:
+                for tag in e['tags']:
+                    path = topic2path(tag)
+                    if path not in tags:
+                        # TODO report tag missing from the tags.csv file
+                        tags[path] = {}
+                        tags[path]['tag'] = tag
+                        tags[path]['episodes'] = []
+                    tags[path]['episodes'].append(e)
+
+            if 'guests' in e:
+                for g in e['guests'].keys():
+                    if g not in people:
+                        exit("ERROR: '{}' is not in the list of people".format(g))
+                    people[g]['episodes'].append(e)
+            if 'hosts' in e:
+                for h in e['hosts'].keys():
+                    if h not in people:
+                        exit("ERROR: '{}' is not in the list of people".format(h))
+                    people[h]['hosting'].append(e)
+        generate_podcast_pages(sources, people, tags, episodes)
+    else:
+        parser.print_help()
+
+def generate_podcast_pages(sources, people, tags, episodes):
+    env = Environment(loader=PackageLoader('xcast', 'templates'))
+
+    search = {}
+
+    for e in episodes:
+        search[ e['title'] + ' (ext)' ] = e['permalink']
+
+    person_template = env.get_template('person.html')
+    if not os.path.exists('html/p/'):
+        os.mkdir('html/p/')
+    for p in people.keys():
+        people[p]['episodes'].sort(key=lambda x : x['date'], reverse=True)
+        people[p]['hosting'].sort(key=lambda x : x['date'], reverse=True)
+        if 'name' not in people[p]['info']:
+            exit("ERROR: file {} does not have a 'name' field".format(p))
+        name = people[p]['info']['name']
+        path = '/p/' + p
+        search[name] = path
+
+        with open('html' + path, 'w', encoding="utf-8") as fh:
+            fh.write(person_template.render(
+                id     = p,
+                person = people[p],
+                h1     = people[p]['info']['name'],
+                title  = 'Podcasts of and interviews with {}'.format(people[p]['info']['name']),
+            ))
+
+    source_template = env.get_template('source.html')
+    if not os.path.exists('html/s/'):
+        os.mkdir('html/s/')
+    for s in sources:
+        search[ s['title'] ] = '/s/' + s['name'];
+        try:
+            with open('html/s/' + s['name'], 'w', encoding="utf-8") as fh:
+                fh.write(source_template.render(
+                    source = s,
+                    h1     = s['title'],
+                    title  = s['title'],
+                ))
+        except Exception as e:
+            print("ERROR: {}".format(e))
+            
+
+    tag_template = env.get_template('tag.html')
+    if not os.path.exists('html/t/'):
+        os.mkdir('html/t/')
+    for t in tags:
+        search[ tags[t]['tag'] ] = '/t/' + t;
+        with open('html/t/' + t, 'w', encoding="utf-8") as fh:
+            #tags[t]['path'] = t
+            fh.write(tag_template.render(
+                tag   = tags[t],
+                h1    = tags[t]['tag'],
+                title = tags[t]['tag'],
+                #title = 'Podcasts and discussions about {}'.format(tags[t]['tag'])
+            ))
+
+
+    stats = {
+        'sources'  : len(sources),
+        'people'   : len(people),
+        'episodes' : sum(len(x['episodes']) for x in sources)
+    }
+
+    #main_template = env.get_template('index.html')
+    #with open('html/index.html', 'w', encoding="utf-8") as fh:
+    #    fh.write(main_template.render(
+    #        h1      = 'xCast - Tech related podcast and presentations',
+    #        title   = 'xCast - Tech related podcast and presentations',
+    #        stats   = stats,
+    #        tags    = tags,
+    #        sources = sources,
+    #        people = people,
+    #        people_ids = sorted(people.keys()),
+    #    ))
+
+    with open('html/people', 'w', encoding="utf-8") as fh:
+        fh.write(env.get_template('people.html').render(
+            h1      = 'List of people',
+            title   = 'xCast - list of people',
+            stats   = stats,
+            tags    = tags,
+            sources = sources,
+            people = people,
+            people_ids = sorted(people.keys()),
+        ))
+    with open('html/sources', 'w', encoding="utf-8") as fh:
+        fh.write(env.get_template('sources.html').render(
+            h1      = 'List of podcasts',
+            title   = 'xCast - list of podcasts',
+            stats   = stats,
+            tags    = tags,
+            sources = sorted(sources, key=lambda x: x['title']),
+            people = people,
+            people_ids = sorted(people.keys()),
+         ))
+    with open('html/tags', 'w', encoding="utf-8") as fh:
+        fh.write(env.get_template('tags.html').render(
+            h1      = 'Tags',
+            title   = 'xCast - tags',
+            stats   = stats,
+            tags    = tags,
+            sources = sources,
+            people = people,
+            people_ids = sorted(people.keys()),
+        ))
+    with open('html/search.json', 'w', encoding="utf-8") as fh:
+        json.dump(search, fh)
+
+
+def read_episodes(sources):
+    episodes = []
+    for src in sources:
+        print("Processing source {}".format(src['name']))
+        file = 'data/podcasts/' + src['name'] + '.json'
+        src['episodes'] = []
+        if os.path.exists(file):
+            with open(file, encoding="utf-8") as fh:
+                try:
+                    new_episodes = json.load(fh)
+                    for episode in new_episodes:
+                        episode['source'] = src['name']
+                        if 'ep' not in episode:
+                            #print("WARN ep missing from {} episode {}".format(src['name'], episode['permalink']))
+                            pass
+                    episodes.extend(new_episodes)
+                    src['episodes'] = new_episodes
+                except json.decoder.JSONDecodeError as e:
+                    exit("ERROR: Could not read in {} {}".format(file, e))
+                    src['episodes'] = [] # let the rest of the code work
+                    pass
+    return episodes
+
+
+def read_tags():
+    tags = {}
+    with open('data/tags.csv', encoding="utf-8") as fh:
+        rd = csv.DictReader(fh, delimiter=';') 
+        for row in rd:
+            row['path'] = topic2path(row['tag'])
+            row['episodes'] = []
+            tags[ row['path'] ] = row
+    return tags
 
 main()
 

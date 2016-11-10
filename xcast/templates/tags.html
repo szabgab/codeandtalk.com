@@ -1,0 +1,9 @@
+{% include 'incl/header.html' %}
+    <ul id="tags">
+    {% for (t, v) in tags|dictsort %}
+        <li><a href="/t/{{ t }}">{{ v['tag'] }}</a> ({{ v['episodes'] | length  }})</li>
+    {% endfor %}
+    </ul>
+
+{% include 'incl/footer.html' %}
+

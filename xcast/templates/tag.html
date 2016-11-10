@@ -1,0 +1,28 @@
+{% include 'incl/header.html' %}
+  {% if 'url' in tag %}
+     <h2><a href="{{tag['url']}}">{{tag.tag}}</a></h2>
+  {% else %}
+     <h2>{{tag.tag}}</h2>
+  {% endif %}
+  {% if 'description' in tag and tag['description'] %}
+     <div>{{tag['description']}}</div>
+  {% endif %}
+
+  <ul>
+    {% for e in tag['episodes'] %}
+        <li>
+           {{ e['date'] }} <a href="{{ e['permalink'] }}">{{ e['title'] }}</a>
+               (
+                 {% for g in e['guests'] %}
+                    <a href="/p/{{ g }}">{{ g }}</a>
+                 {% endfor %}
+               )
+               (
+                 {% for h in e['hosts'] %}
+                    <a href="/p/{{ h }}">{{ h }}</a>
+                 {% endfor %}
+               )
+        </li>
+    {% endfor %}
+  </ul>
+{% include 'incl/footer.html' %}

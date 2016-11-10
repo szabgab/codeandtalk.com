@@ -1,0 +1,25 @@
+{% include 'incl/header.html' %}
+    <div><a href="{{ source['url'] }}">{{ source['title'] }}</a></div>
+    <div>
+       {% if source['feed'] %}<a href="{{ source['feed'] }}" class="rss" target="_blank">RSS</a> {% endif %}
+       {% if source['itunes'] %}<a href="{{ source['itunes'] }}" class="itunes" target="_blank">ITUNES</a>{% endif %}
+    </div>
+    <ul>
+    {% for e in source['episodes'] %}
+        <li>
+           {{ e['date'] }} <div class="ep">{{ e['ep'] }}</div> <a href="{{ e['permalink'] }}">{{ e['title'] }}</a>
+               (
+                 {% for g in e['guests'] %}
+                    <a href="/p/{{ g }}">{{ g }}</a>
+                 {% endfor %}
+               )
+               (
+                 {% for h in e['hosts'] %}
+                    <a href="/p/{{ h }}">{{ h }}</a>
+                 {% endfor %}
+               )
+        </li>
+    {% endfor %}
+    </ul>
+
+{% include 'incl/footer.html' %}

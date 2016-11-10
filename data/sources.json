@@ -1,0 +1,410 @@
+[
+    {
+        "feed": "http://code-maven.com/rss/cmos",
+        "itunes": "https://itunes.apple.com/il/podcast/code-maven/id1153427237",
+        "name": "cmos",
+        "title": "Code-Maven Open Source podcast and video interviews",
+        "url": "http://code-maven.com/cmos"
+    },
+    {
+        "feed": "http://feeds.5by5.tv/changelog",
+        "itunes": "https://itunes.apple.com/podcast/the-changelog/id341623264",
+        "name": "changelog",
+        "title": "ChangeLog",
+        "twitter": "changelog",
+        "url": "https://changelog.com/podcast/"
+    },
+    {
+        "feed": "https://changelog.com/rfc/feed",
+        "itunes": "https://itunes.apple.com/us/podcast/request-for-commits/id1141345001",
+        "name": "rfc",
+        "title": "Request For Commits",
+        "url": "https://changelog.com/rfc/"
+    },
+    {
+        "feed": "https://talkpython.fm/episodes/rss",
+        "itunes": "https://itunes.apple.com/us/podcast/talk-python-to-me-python-conversations/id979020229",
+        "name": "talkpython",
+        "title": "Talk Python to Me",
+        "url": "http://talkpython.fm/"
+    },
+    {
+        "feed": "http://feeds.codenewbie.org/cnpodcast.xml",
+        "itunes": "https://itunes.apple.com/us/podcast/codenewbie/id919219256",
+        "name": "codenewbie",
+        "title": "CodeNewbie with Saron Yitbarek",
+        "url": "http://www.codenewbie.org/"
+    },
+    {
+        "feed": "http://podcastinit.podbean.com/feed/",
+        "itunes": "https://itunes.apple.com/us/podcast/podcast.-init/id981834425",
+        "name": "pythonpodcast",
+        "title": "Podcast.__init__",
+        "url": "http://pythonpodcast.com/"
+    },
+    {
+        "alter": "http://www.stitcher.com/podcast/software-engineering-daily/",
+        "feed": "http://softwareengineeringdaily.com/feed/podcast/",
+        "itunes": "https://itunes.apple.com/us/podcast/software-engineering-daily/id1019576853",
+        "name": "software-engineering-daily",
+        "title": "Software Engineering Daily",
+        "url": "http://softwareengineeringdaily.com/"
+    },
+    {
+        "feed": "http://startupmadnessacademy.com/feed/",
+        "itunes": "https://itunes.apple.com/us/podcast/startup-madness-podcast-making/id1054543151",
+        "name": "startupmadnessacademy",
+        "title": "Startup Madness Academy",
+        "url": "http://startupmadnessacademy.com/"
+    },
+    {
+        "feed": "https://simplecast.com/podcasts/271/rss",
+        "itunes": "https://itunes.apple.com/us/podcast/giant-robots-smashing-into/id535121941",
+        "name": "giantrobots",
+        "title": "Giant Robots smashing Into Other Giant Robots",
+        "url": "http://giantrobots.fm/"
+    },
+    {
+        "feed": "http://feeds.twit.tv/floss.xml",
+        "itunes": "https://itunes.apple.com/us/podcast/floss-weekly-mp3/id140847216",
+        "name": "floss-weekly",
+        "title": "Floss Weekly",
+        "twitter": "flossweekly",
+        "url": "https://twit.tv/shows/floss-weekly"
+    },
+    {
+        "feed": "http://developeronfire.com/rss.xml",
+        "itunes": "https://itunes.apple.com/il/podcast/developer-on-fire/id1006105326",
+        "name": "developeronfire",
+        "title": "Developer On Fire",
+        "url": "http://developeronfire.com/"
+    },
+    {
+        "feed": "https://feeds.feedwrench.com/RubyRogues.rss",
+        "itunes": "https://itunes.apple.com/us/podcast/ruby-rogues/id705335155",
+        "name": "ruby-rogues",
+        "title": "Ruby Rogues",
+        "url": "https://devchat.tv/ruby-rogues"
+    },
+    {
+        "feed": "https://feeds.feedwrench.com/JavaScriptJabber.rss",
+        "itunes": "https://itunes.apple.com/us/podcast/javascript-jabber/id496893300",
+        "name": "js-jabber",
+        "title": "JavaScript Jabber",
+        "url": "https://devchat.tv/js-jabber"
+    },
+    {
+        "name": "fogcreek",
+        "title": "Fog Creek ",
+        "url": "https://blog.fogcreek.com/"
+    },
+    {
+        "name": "pycon-2015",
+        "title": "PyCon 2015 Montreal",
+        "url": "https://us.pycon.org/2015/"
+    },
+    {
+        "name": "other",
+        "title": "Other videos and shows that are not categorized yet"
+    },
+    {
+        "name": "dotnetrocks",
+        "title": ".NET Rocks",
+        "url": "http://www.dotnetrocks.com/"
+    },
+    {
+        "name": "codingblocks",
+        "title": "{CodingBlocks}.NET",
+        "url": "http://www.codingblocks.net/"
+    },
+    {
+        "name": "hanselminutes",
+        "title": "The Hanselminutes podcast",
+        "url": "http://hanselminutes.com/"
+    },
+    {
+        "name": "msdevshow",
+        "title": "MS Dev Show",
+        "url": "http://msdevshow.com/"
+    },
+    {
+        "name": "herdingcode",
+        "title": "Herding {code}",
+        "url": "http://herdingcode.com/"
+    },
+    {
+        "name": "yet-another-podcast",
+        "title": "Yet Another Podcast",
+        "url": "http://jesseliberty.com/podcast/"
+    },
+    {
+        "name": "javaposse",
+        "title": "Java Posse",
+        "url": "http://www.javaposse.com/"
+    },
+    {
+        "name": "ruby5-codeschool",
+        "title": "Ruby5",
+        "url": "https://ruby5.codeschool.com/"
+    },
+    {
+        "name": "rubyonrails",
+        "title": "Ruby on Rails Podcast",
+        "url": "http://5by5.tv/rubyonrails"
+    },
+    {
+        "name": "phptownhall",
+        "title": "PHP Townhall",
+        "url": "https://phptownhall.com/"
+    },
+    {
+        "name": "fivejs-codeschool",
+        "title": "FiveJS",
+        "url": "https://fivejs.codeschool.com/"
+    },
+    {
+        "feed": "https://feeds.feedwrench.com/AdventuresInAngular.rss",
+        "instructions": "The title usually holds the name of the guest, and the 'panel' is the list of the hosts",
+        "itunes": "https://itunes.apple.com/us/podcast/adventures-in-angular/id907361052",
+        "name": "adv-in-angular",
+        "title": "Adventures in Angular",
+        "url": "https://devchat.tv/adv-in-angular"
+    },
+    {
+        "name": "nodeup",
+        "title": "Node Up",
+        "url": "http://nodeup.com/"
+    },
+    {
+        "name": "cppcast",
+        "title": "C++ Cast",
+        "url": "http://cppcast.com/"
+    },
+    {
+        "name": "mostlyerlang",
+        "title": "Mostly Erlang",
+        "url": "https://mostlyerlang.com/"
+    },
+    {
+        "name": "mostlylazy",
+        "title": "Mostly \u03bbazy\u2026a Clojure podcast",
+        "url": "https://mostlylazy.com/"
+    },
+    {
+        "name": "iphreaks",
+        "title": "iPhreaks - iOS",
+        "url": "https://devchat.tv/iphreaks"
+    },
+    {
+        "name": "iosbytes",
+        "title": "iOS Bytes",
+        "url": "https://iosbytes.codeschool.com/"
+    },
+    {
+        "name": "androidbackstage",
+        "title": "Android backstage",
+        "url": "http://androidbackstage.blogspot.com/"
+    },
+    {
+        "name": "arresteddevops",
+        "title": "Arrested DevOps",
+        "url": "https://www.arresteddevops.com/"
+    },
+    {
+        "name": "devopscafe",
+        "title": "DevOps Cafe",
+        "url": "http://devopscafe.org/"
+    },
+    {
+        "name": "devopsmastery",
+        "title": "DevOps Mastery",
+        "url": "http://www.devopsmastery.com/podcasts/"
+    },
+    {
+        "name": "theshipshow",
+        "title": "The Ship Show",
+        "url": "http://theshipshow.com/"
+    },
+    {
+        "name": "foodfightshow",
+        "title": "Food Fight Show",
+        "url": "http://foodfightshow.org/"
+    },
+    {
+        "name": "puppet",
+        "title": "Puppet Podcast",
+        "url": "https://puppet.com/podcasts"
+    },
+    {
+        "name": "se-radio",
+        "title": "Software Engineering Radio",
+        "url": "http://www.se-radio.net/"
+    },
+    {
+        "name": "thecloudcast",
+        "title": "The Cloud Cast",
+        "url": "http://www.thecloudcast.net/"
+    },
+    {
+        "name": "creativecoding",
+        "title": "Creative Coding Podcast",
+        "url": "http://creativecodingpodcast.com/"
+    },
+    {
+        "name": "coderradio",
+        "title": "Coder Radio",
+        "url": "http://www.jupiterbroadcasting.com/show/coderradio/"
+    },
+    {
+        "name": "codewinds",
+        "title": "Code Winds",
+        "url": "http://codewinds.com/podcast.html"
+    },
+    {
+        "name": "shoptalkshow",
+        "title": "Shop Talk Show",
+        "url": "http://shoptalkshow.com"
+    },
+    {
+        "name": "coding-101",
+        "title": "Coding 101",
+        "url": "https://twit.tv/shows/coding-101"
+    },
+    {
+        "name": "thisdeveloperslife",
+        "title": "This Developer's Life",
+        "url": "http://thisdeveloperslife.com/"
+    },
+    {
+        "name": "entreprogrammers",
+        "title": "Entre Programmers",
+        "url": "http://entreprogrammers.com/"
+    },
+    {
+        "name": "freelancers",
+        "title": "Freelancers",
+        "url": "https://devchat.tv/freelancers"
+    },
+    {
+        "name": "frontside",
+        "title": "Frontside Podcast",
+        "url": "https://frontsidethepodcast.simplecast.fm/"
+    },
+    {
+        "name": "stateofdevelopment",
+        "title": "State of Development Podcast",
+        "url": "http://www.stateofdevelopmentpodcast.com/"
+    },
+    {
+        "name": "developer-tea",
+        "title": "Developer Tea",
+        "url": "https://spec.fm/podcasts/developer-tea"
+    },
+    {
+        "name": "programmingthrowdown",
+        "title": "Programming Throwdown",
+        "url": "http://www.programmingthrowdown.com/"
+    },
+    {
+        "name": "fullstackradio",
+        "title": "Full Stack Radio",
+        "url": "http://www.fullstackradio.com/"
+    },
+    {
+        "name": "learntocodewith-me",
+        "title": "Learn to Code with Me",
+        "url": "http://learntocodewith.me/podcast/"
+    },
+    {
+        "name": "appmasters",
+        "title": "Appmasters",
+        "url": "http://www.appmasters.co/podcast-home/"
+    },
+    {
+        "name": "bikeshed",
+        "title": "The Bike Shed",
+        "url": "http://bikeshed.fm/"
+    },
+    {
+        "name": "thedebuglog",
+        "title": "The Debug Log - Game Development",
+        "url": "http://thedebuglog.com/"
+    },
+    {
+        "name": "pythontesting",
+        "title": "Python Testing",
+        "url": "http://pythontesting.net/test-podcast/"
+    },
+    {
+        "name": "functionalgeekery",
+        "title": "Functional Geekery",
+        "url": "https://www.functionalgeekery.com/"
+    },
+    {
+        "name": "hellotechpros",
+        "title": "Hello Tech Pros",
+        "url": "http://hellotechpros.com/"
+    },
+    {
+        "name": "atp",
+        "title": "Accidental Tech Podcast",
+        "url": "http://atp.fm/"
+    },
+    {
+        "name": "appbizdev",
+        "title": "App Biz Dev",
+        "url": "http://www.appbizdev.com/"
+    },
+    {
+        "name": "coreint",
+        "title": "Core Intuition",
+        "url": "http://www.coreint.org/"
+    },
+    {
+        "name": "debug",
+        "title": "Debug",
+        "url": "http://www.imore.com/debug"
+    },
+    {
+        "name": "developingperspective",
+        "title": "Developing Perspective",
+        "url": "http://developingperspective.com/"
+    },
+    {
+        "name": "gonemobile",
+        "title": "Gone Mobile",
+        "url": "http://gonemobile.io/"
+    },
+    {
+        "name": "react-native-radio",
+        "title": "React Native Radio",
+        "url": "https://devchat.tv/react-native-radio"
+    },
+    {
+        "name": "xamarin",
+        "title": "Xamarin",
+        "url": "https://soundcloud.com/xamarin-podcast"
+    },
+    {
+        "name": "getupandcode",
+        "title": "Get Up and CODE",
+        "url": "http://getupandcode.com/"
+    },
+    {
+        "name": "backendy",
+        "title": "A Bit More Backendy",
+        "url": "http://backendy.com/"
+    },
+    {
+        "name": "greaterthancode",
+        "title": "Greater Than Code",
+        "twitter": "greaterthancode",
+        "url": "https://www.greaterthancode.com/"
+    },
+    {
+        "feed": "https://flawcode.com/atom.rss",
+        "name": "flawcode",
+        "title": "Flaw Code - The other side story!!",
+        "url": "https://flawcode.com"
+    }
+]

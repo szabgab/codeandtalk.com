@@ -65,3 +65,42 @@
   margin-top: 0px;
 }
 
+.itunes {
+    background: #75C8FF;
+    color: #FFF;
+    font-weight: 500;
+    padding: 3px 10px 3px 10px;
+    text-decoration: none;
+}
+
+.rss {
+    background: #ffb415;
+    color: #FFF;
+    font-weight: 500;
+    padding: 3px 10px 3px 10px;
+    text-decoration: none;
+}
+
+
+#github {
+    display: none;
+}
+@media (min-width: 600px) {
+    #github {
+        display: block;
+    }
+}
+
+
+.ep {
+    background-color: #DDD;
+    width: 30px;
+    display: inline-block;
+    text-align: right;
+}
+
+#search {
+    display: none;
+}
+
+
