@@ -18,7 +18,7 @@ if sys.version_info.major < 3:
 def process_conferences():
     conferences, topics = read_files()
     #print(conferences)
-    people = read_people('../xcast/data/people')
+    people = read_people('data/people')
     videos = read_videos(topics) # bad bad that topics will be updated!
     #print(people)
 
@@ -590,7 +590,7 @@ def main():
         parser.print_help()
 
 def generate_podcast_pages(sources, people, tags, episodes):
-    env = Environment(loader=PackageLoader('xcast', 'templates'))
+    env = Environment(loader=PackageLoader('conf', 'templates'))
 
     search = {}
 
@@ -669,7 +669,7 @@ def generate_podcast_pages(sources, people, tags, episodes):
     with open('html/people', 'w', encoding="utf-8") as fh:
         fh.write(env.get_template('people.html').render(
             h1      = 'List of people',
-            title   = 'xCast - list of people',
+            title   = 'List of people',
             stats   = stats,
             tags    = tags,
             sources = sources,
@@ -679,7 +679,7 @@ def generate_podcast_pages(sources, people, tags, episodes):
     with open('html/sources', 'w', encoding="utf-8") as fh:
         fh.write(env.get_template('sources.html').render(
             h1      = 'List of podcasts',
-            title   = 'xCast - list of podcasts',
+            title   = 'List of podcasts',
             stats   = stats,
             tags    = tags,
             sources = sorted(sources, key=lambda x: x['title']),
@@ -689,7 +689,7 @@ def generate_podcast_pages(sources, people, tags, episodes):
     with open('html/tags', 'w', encoding="utf-8") as fh:
         fh.write(env.get_template('tags.html').render(
             h1      = 'Tags',
-            title   = 'xCast - tags',
+            title   = 'Tags',
             stats   = stats,
             tags    = tags,
             sources = sources,
