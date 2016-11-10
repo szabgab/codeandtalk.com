@@ -5,9 +5,10 @@
   <thead>
     <tr>
       <th></th>
-      <th>Future</th>
-      <th>Total</th>
+      <th>Future Event</th>
+      <th>All Events</th>
       {% if videos %}<th>Videos</th>{% endif %}
+      {% if episodes %}<th>Podcasts</th>{% endif %}
     </tr>
   </thead>
   <tbody>
@@ -17,11 +18,18 @@
       <td>{{v['future']}}</td>
       <td>{{v['total']}}</td>
       {% if videos %}<td>{{v.videos|length}}</td>{% endif %}
+      {% if episodes %}<td>{{v.episodes|length}}</td>{% endif %}
     </tr>
     {% endfor %}
   </tbody>
   <tfoot>
-    <tr><td>TOTAL</td><td>{{stats.future}}</td><td>{{stats.total}}</td>{% if videos %}<td></td>{% endif %}</tr>
+    <tr>
+       <td>TOTAL</td>
+       <td>{{stats.future}}</td>
+       <td>{{stats.total}}</td>
+       {% if videos %}<td></td>{% endif %}
+       {% if episodes %}<td></td>{% endif %}
+       </tr>
   </tfoot>
 
 </table>

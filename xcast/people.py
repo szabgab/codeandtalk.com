@@ -40,9 +40,12 @@ def read_tags():
     with open('data/tags.csv', encoding="utf-8") as fh:
         rd = csv.DictReader(fh, delimiter=';') 
         for row in rd:
-            row['path'] = topic2path(row['tag'])
+            path = topic2path(row['name'])
+            row['path'] = path
             row['episodes'] = []
-            tags[ row['path'] ] = row
+            row['events'] = []
+            tags[ path ] = row
+    print(tags)
     return tags
 
 def read_videos(topics):
@@ -76,15 +79,15 @@ def read_videos(topics):
                                 'name' : t,
                                 'events' : [],
                                 'videos' : [],
+                                'episodes' : [],
                             }
                         topics[p]['videos'].append(video)
                     video['tags'] = tags
 
     return videos
 
-def read_events():
+def read_events(topics):
     conferences = []
-    topics = {}
     now = datetime.now().strftime('%Y-%m-%d')
 
     for filename in glob.glob("data/events/*.txt"):
@@ -123,6 +126,7 @@ def read_events():
                             'name': t,
                             'events' : [],
                             'videos' : [],
+                            'episodes' : [],
                         }
                     topics[p]['events'].append(this)
             this['topics'] = my_topics
@@ -154,9 +158,9 @@ def read_events():
         except Exception as e:
             exit("ERROR: {} in file {}".format(e, filename))
 
-    return sorted(conferences, key=lambda x: x['start_date']), topics
+    return sorted(conferences, key=lambda x: x['start_date'])
 
-def read_episodes(sources):
+def read_episodes(sources, topics):
     episodes = []
     for src in sources:
         print("Processing source {}".format(src['name']))
@@ -191,6 +195,18 @@ def read_episodes(sources):
                         'text' : tag,
                         'link' : path,
                     })
+                if path not in topics:
+                    # TODO report tag missing from the tags.csv file
+                    #print(e)
+                    #exit()
+                    topics[path] = {
+                        'name'    : tag,
+                        'episodes': [],
+                        'events'  : [],
+                        'videos'  : [],
+                    }
+                topics[path]['episodes'].append(e)
+
             e['tags'] = tags
 
 

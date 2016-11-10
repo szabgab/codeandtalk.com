@@ -155,6 +155,7 @@ def generate_pages(conferences, topics, videos, people):
     })
 
 
+    #print(topics)
     save_pages(root, 't', topics, sitemap, main_template, now, 'Open source conferences discussing {}')
     save_pages(root, 'l', countries, sitemap, main_template, now, 'Open source conferences in {}')
     save_pages(root, 'l', cities, sitemap, main_template, now, 'Open source conferences in {}')
@@ -188,6 +189,7 @@ def save_collections(root, directory, filename, title, data, sitemap, template, 
             directory   = directory,
             stats       = stats,
             videos      = (directory == 't'),
+            episodes    = (directory == 't'),
         ))
     sitemap.append({
         'url' : '/' + filename
@@ -199,6 +201,8 @@ def save_pages(root, directory, data, sitemap, main_template, now, title):
         os.mkdir(my_dir)
 
     for d in data.keys():
+        #print(data[d])
+        #exit()
         conferences = sorted(data[d]['events'], key=lambda x: x['start_date'])
         #print("'{}'".format(d))
         #print(my_dir + d)
@@ -209,6 +213,7 @@ def save_pages(root, directory, data, sitemap, main_template, now, title):
                 conferences = list(filter(lambda x: x['start_date'] >= now, conferences)),
                 earlier_conferences = list(filter(lambda x: x['start_date'] < now, conferences)),
                 videos      = data[d].get('videos'),
+                episodes    = data[d].get('episodes'),
             ))
         sitemap.append({
             'url' : '/' + directory + '/' + d
@@ -330,11 +335,15 @@ def generate_html():
         shutil.rmtree(root)
     shutil.copytree('src', root)
 
-    conferences, topics = read_events()
+    topics = read_tags()
+    conferences = read_events(topics)
     #print(conferences)
     people = read_people('data/people')
     videos = read_videos(topics) # bad bad that topics will be updated!
     #print(people)
+    with open('data/sources.json', encoding="utf-8") as fh:
+        sources = json.load(fh)
+    episodes = read_episodes(sources, topics)
 
     events = {}
     for e in conferences:
@@ -367,33 +376,10 @@ def generate_html():
                     tweet_video += ' #' + t['link']
         v['tweet_video'] = urllib.parse.quote(tweet_video)
 
-
         #print(speakers)
         #exit()
             
-
-    generate_pages(conferences, topics, videos, people)
-
-
-    with open('data/sources.json', encoding="utf-8") as fh:
-        sources = json.load(fh)
-    episodes = read_episodes(sources)
-    people = read_people('data/people')
-    tags = read_tags()
-
     for e in episodes:
-        #print(e)
-        #exit()
-        if 'tags' in e:
-            for tag in e['tags']:
-                path = tag['link']
-                if path not in tags:
-                    # TODO report tag missing from the tags.csv file
-                    tags[path] = {}
-                    tags[path]['tag'] = tag['text']
-                    tags[path]['episodes'] = []
-                tags[path]['episodes'].append(e)
-
         if 'guests' in e:
             for g in e['guests'].keys():
                 if g not in people:
@@ -404,9 +390,11 @@ def generate_html():
                 if h not in people:
                     exit("ERROR: '{}' is not in the list of people".format(h))
                 people[h]['hosting'].append(e)
-    generate_podcast_pages(sources, people, tags, episodes)
 
-def generate_podcast_pages(sources, people, tags, episodes):
+    generate_pages(conferences, topics, videos, people)
+    generate_podcast_pages(sources, people, topics, episodes)
+
+def generate_podcast_pages(sources, people, topics, episodes):
     env = Environment(loader=PackageLoader('conf', 'templates'))
 
     search = {}
@@ -453,16 +441,16 @@ def generate_podcast_pages(sources, people, tags, episodes):
     tag_template = env.get_template('tag.html')
     if not os.path.exists('html/t/'):
         os.mkdir('html/t/')
-    for t in tags:
-        search[ tags[t]['tag'] ] = '/t/' + t;
-        with open('html/t/' + t, 'w', encoding="utf-8") as fh:
-            #tags[t]['path'] = t
-            fh.write(tag_template.render(
-                tag   = tags[t],
-                h1    = tags[t]['tag'],
-                title = tags[t]['tag'],
-                #title = 'Podcasts and discussions about {}'.format(tags[t]['tag'])
-            ))
+    #for t in tags:
+    #    search[ tags[t]['tag'] ] = '/t/' + t;
+    #    with open('html/t/' + t, 'w', encoding="utf-8") as fh:
+    #        #tags[t]['path'] = t
+    #        fh.write(tag_template.render(
+    #            tag   = tags[t],
+    #            h1    = tags[t]['tag'],
+    #            title = tags[t]['tag'],
+    #            #title = 'Podcasts and discussions about {}'.format(tags[t]['tag'])
+    #        ))
 
 
     stats = {
@@ -488,7 +476,7 @@ def generate_podcast_pages(sources, people, tags, episodes):
             h1      = 'List of people',
             title   = 'List of people',
             stats   = stats,
-            tags    = tags,
+            tags    = topics,
             people = people,
             people_ids = sorted(people.keys()),
         ))
@@ -497,20 +485,20 @@ def generate_podcast_pages(sources, people, tags, episodes):
             h1      = 'List of podcasts',
             title   = 'List of podcasts',
             stats   = stats,
-            tags    = tags,
+            tags    = topics,
             podcasts = sorted(sources, key=lambda x: x['title']),
             people = people,
             people_ids = sorted(people.keys()),
          ))
-    with open('html/tags', 'w', encoding="utf-8") as fh:
-        fh.write(env.get_template('tags.html').render(
-            h1      = 'Tags',
-            title   = 'Tags',
-            stats   = stats,
-            tags    = tags,
-            people = people,
-            people_ids = sorted(people.keys()),
-        ))
+    #with open('html/tags', 'w', encoding="utf-8") as fh:
+    #    fh.write(env.get_template('tags.html').render(
+    #        h1      = 'Tags',
+    #        title   = 'Tags',
+    #        stats   = stats,
+    #        tags    = tags,
+    #        people = people,
+    #        people_ids = sorted(people.keys()),
+    #    ))
     with open('html/search.json', 'w', encoding="utf-8") as fh:
         json.dump(search, fh)
 

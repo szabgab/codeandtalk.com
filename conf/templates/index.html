@@ -52,5 +52,15 @@
 </ul>
 {% endif %}
 
+{% if episodes %}
+<h2>Podcasts</h2>
+<ul>
+{% for e in episodes %}
+  <li><a href="{{e.permalink}}">{{e.title}}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
+
+
 {% include 'incl/footer.html' %}
 
