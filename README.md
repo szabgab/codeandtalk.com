@@ -55,6 +55,11 @@ TODO
 * Add JavaScript based searching for videos.
 
 * Create event "series" e.g. all the 'frontporch' events.
+* Weekly Newsletter with information about events.
+  The subscriber should be able to select filter by countries and/or by topics.
+  The e-mail itself is an HTML message that we can also build on the website.
+
+
 
 
 
