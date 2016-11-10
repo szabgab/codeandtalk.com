@@ -364,75 +364,9 @@ def main():
         sources = json.load(fh)
     
     if args.source:
-        source = list(filter(lambda x: x['name'] == args.source, sources))
-        if not source:
-            exit("'{}' is not one of the sources".format(args.source))
-        #print(source[0])
-        
-        import feedparser
-        d = feedparser.parse(source[0]['feed'])
-        for e in d.entries:
-            if args.source == 'floss-weekly':
-                data = {}
-                full_title = e['title']
-                published = e['published']
-                date = datetime.strptime(published, '%a, %d %b %Y %H:%M:%S %z')  # Tue, 18 Oct 2016 10:33:51 -0700
-                #comments  http://twit.tv/floss/408
-                #print(e['comments'])
-                #m = re.search(r'\d+$', e['comments'])
-                m = re.search(r'FLOSS Weekly (\d+):\s*(.*)', full_title)
-                ep = None
-                if m:
-                    data['ep'] = m.group(1)
-                    data['title'] = m.group(2)
-                    data['permalink'] = 'https://twit.tv/shows/floss-weekly/episodes/' + data['ep']
-                    data['date'] = date.strftime('%Y-%m-%d')
-                    data['guests'] = {}
-                    data['hosts'] = {}
-            elif args.source == 'adv-in-angular':
-                print(e)
-                data = {}
-                full_title = e['title']
-                #print(full_title) # 116 AiA Angular 2 Compiler with Tobias Bosch
-                published = e['published']
-                print(published)
-                date = datetime.strptime(published, '%a, %d %b %Y %H:%M:%S %z')  # Tue, 18 Oct 2016 10:33:51 -0700
-                print(date)
-                m = re.search(r'^\s*(\d+)\s+AiA\s+(.*) with (.*)', full_title)
-                ep = None
-                if m:
-                    data['ep'] = m.group(1)
-                    data['title'] = m.group(2)
-                #    data['permalink'] = 'https://twit.tv/shows/floss-weekly/episodes/' + data['ep']
-                #    data['date'] = date.strftime('%Y-%m-%d')
-                #    data['guests'] = {}
-                #    data['hosts'] = {}
-                print(data)
-                exit()
-            else:
-                exit("Cannot handle this feed")
-            print(data)
-            print('---')
-            #exit()
- 
-        #for k in d.entries[0].keys():
-        #    print("{}  {}\n".format(k, d.entries[0][k]))
-
+        check_rss_feed()
     elif args.check:
-        import feedparser
-        for s in sources:
-            if 'feed' in s:
-                print(s['feed'])
-                d = feedparser.parse(s['feed'])
-                print(d['feed']['title'])
-                print(d.entries[0].title)
-                print(d.entries[0].link)
-                print(d.entries[0])
-                print()
-                exit()
-
-            #else:
-            #    print('No feed for {}'.format(s['name']))
+        check_rss()
     elif args.html:
 
         root = 'html'
@@ -581,6 +515,76 @@ def generate_podcast_pages(sources, people, tags, episodes):
     with open('html/search.json', 'w', encoding="utf-8") as fh:
         json.dump(search, fh)
 
+def check_rss_feed():
+   source = list(filter(lambda x: x['name'] == args.source, sources))
+   if not source:
+       exit("'{}' is not one of the sources".format(args.source))
+   #print(source[0])
+   
+   import feedparser
+   d = feedparser.parse(source[0]['feed'])
+   for e in d.entries:
+       if args.source == 'floss-weekly':
+           data = {}
+           full_title = e['title']
+           published = e['published']
+           date = datetime.strptime(published, '%a, %d %b %Y %H:%M:%S %z')  # Tue, 18 Oct 2016 10:33:51 -0700
+           #comments  http://twit.tv/floss/408
+           #print(e['comments'])
+           #m = re.search(r'\d+$', e['comments'])
+           m = re.search(r'FLOSS Weekly (\d+):\s*(.*)', full_title)
+           ep = None
+           if m:
+               data['ep'] = m.group(1)
+               data['title'] = m.group(2)
+               data['permalink'] = 'https://twit.tv/shows/floss-weekly/episodes/' + data['ep']
+               data['date'] = date.strftime('%Y-%m-%d')
+               data['guests'] = {}
+               data['hosts'] = {}
+       elif args.source == 'adv-in-angular':
+           print(e)
+           data = {}
+           full_title = e['title']
+           #print(full_title) # 116 AiA Angular 2 Compiler with Tobias Bosch
+           published = e['published']
+           print(published)
+           date = datetime.strptime(published, '%a, %d %b %Y %H:%M:%S %z')  # Tue, 18 Oct 2016 10:33:51 -0700
+           print(date)
+           m = re.search(r'^\s*(\d+)\s+AiA\s+(.*) with (.*)', full_title)
+           ep = None
+           if m:
+               data['ep'] = m.group(1)
+               data['title'] = m.group(2)
+           #    data['permalink'] = 'https://twit.tv/shows/floss-weekly/episodes/' + data['ep']
+           #    data['date'] = date.strftime('%Y-%m-%d')
+           #    data['guests'] = {}
+           #    data['hosts'] = {}
+           print(data)
+           exit()
+       else:
+           exit("Cannot handle this feed")
+       print(data)
+       print('---')
+       #exit()
+
+   #for k in d.entries[0].keys():
+   #    print("{}  {}\n".format(k, d.entries[0][k]))
+
+def check_rss():
+    import feedparser
+    for s in sources:
+        if 'feed' in s:
+            print(s['feed'])
+            d = feedparser.parse(s['feed'])
+            print(d['feed']['title'])
+            print(d.entries[0].title)
+            print(d.entries[0].link)
+            print(d.entries[0])
+            print()
+            exit()
+
+        #else:
+        #    print('No feed for {}'.format(s['name']))
 
 
 main()
