@@ -1,11 +1,11 @@
 {% include 'incl/header.html' %}
-    <div><a href="{{ source['url'] }}">{{ source['title'] }}</a></div>
+    <div><a href="{{ podcast['url'] }}">{{ podcast['title'] }}</a></div>
     <div>
-       {% if source['feed'] %}<a href="{{ source['feed'] }}" class="rss" target="_blank">RSS</a> {% endif %}
-       {% if source['itunes'] %}<a href="{{ source['itunes'] }}" class="itunes" target="_blank">ITUNES</a>{% endif %}
+       {% if podcast['feed'] %}<a href="{{ podcast['feed'] }}" class="rss" target="_blank">RSS</a> {% endif %}
+       {% if podcast['itunes'] %}<a href="{{ podcast['itunes'] }}" class="itunes" target="_blank">ITUNES</a>{% endif %}
     </div>
     <ul>
-    {% for e in source['episodes'] %}
+    {% for e in podcast['episodes'] %}
         <li>
            {{ e['date'] }} <div class="ep">{{ e['ep'] }}</div> <a href="{{ e['permalink'] }}">{{ e['title'] }}</a>
                (

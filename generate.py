@@ -617,7 +617,7 @@ def generate_podcast_pages(sources, people, tags, episodes):
                 title  = 'Podcasts of and interviews with {}'.format(people[p]['info']['name']),
             ))
 
-    source_template = env.get_template('source.html')
+    source_template = env.get_template('podcast.html')
     if not os.path.exists('html/s/'):
         os.mkdir('html/s/')
     for s in sources:
@@ -625,7 +625,7 @@ def generate_podcast_pages(sources, people, tags, episodes):
         try:
             with open('html/s/' + s['name'], 'w', encoding="utf-8") as fh:
                 fh.write(source_template.render(
-                    source = s,
+                    podcast = s,
                     h1     = s['title'],
                     title  = s['title'],
                 ))
@@ -672,17 +672,16 @@ def generate_podcast_pages(sources, people, tags, episodes):
             title   = 'List of people',
             stats   = stats,
             tags    = tags,
-            sources = sources,
             people = people,
             people_ids = sorted(people.keys()),
         ))
-    with open('html/sources', 'w', encoding="utf-8") as fh:
-        fh.write(env.get_template('sources.html').render(
+    with open('html/podcasts', 'w', encoding="utf-8") as fh:
+        fh.write(env.get_template('podcasts.html').render(
             h1      = 'List of podcasts',
             title   = 'List of podcasts',
             stats   = stats,
             tags    = tags,
-            sources = sorted(sources, key=lambda x: x['title']),
+            podcasts = sorted(sources, key=lambda x: x['title']),
             people = people,
             people_ids = sorted(people.keys()),
          ))
@@ -692,7 +691,6 @@ def generate_podcast_pages(sources, people, tags, episodes):
             title   = 'Tags',
             stats   = stats,
             tags    = tags,
-            sources = sources,
             people = people,
             people_ids = sorted(people.keys()),
         ))
