@@ -15,51 +15,6 @@ if sys.version_info.major < 3:
     exit("This code requires Python 3.\nThis is {}".format(sys.version))
 
 
-def process_conferences():
-    conferences, topics = read_events()
-    #print(conferences)
-    people = read_people('data/people')
-    videos = read_videos(topics) # bad bad that topics will be updated!
-    #print(people)
-
-    events = {}
-    for e in conferences:
-        events[ e['nickname'] ] = e
-    for v in videos:
-        v['twitter_description'] = html2txt(v['description'])
-        v['event_name'] = events[ v['event'] ]['name']
-        speakers = {}
-        for s in v['speakers']:
-            if s in people:
-                speakers[s] = people[s]
-            else:
-                print("WARN: Missing people file for '{}'".format(s))
-        v['speakers'] = speakers
-
-        tweet_video = '{} http://conferences.szabgab.com/v/{}/{}'.format(v['title'], v['event'], v['filename'])
-        tw_id = events[ v['event'] ].get('twitter', '')
-        if tw_id:
-            tweet_video += ' presented @' + tw_id
-        #print(v['speakers'])
-        #exit()
-        if v['speakers']:
-            for s in v['speakers']:
-                tw_id = v['speakers'][s]['info'].get('twitter', '')
-                if tw_id:
-                    tweet_video += ' by @' + tw_id
-        if 'tags' in v:
-            for t in v['tags']:
-                if not re.search(r'-', t['link']) and len(t['link']) < 10:
-                    tweet_video += ' #' + t['link']
-        v['tweet_video'] = urllib.parse.quote(tweet_video)
-
-
-        #print(speakers)
-        #exit()
-            
-
-    generate_pages(conferences, topics, videos, people)
-
 
 def generate_video_pages(videos, sitemap):
     root = 'html'
@@ -375,7 +330,50 @@ def generate_html():
         shutil.rmtree(root)
     shutil.copytree('src', root)
 
-    process_conferences()
+    conferences, topics = read_events()
+    #print(conferences)
+    people = read_people('data/people')
+    videos = read_videos(topics) # bad bad that topics will be updated!
+    #print(people)
+
+    events = {}
+    for e in conferences:
+        events[ e['nickname'] ] = e
+    for v in videos:
+        v['twitter_description'] = html2txt(v['description'])
+        v['event_name'] = events[ v['event'] ]['name']
+        speakers = {}
+        for s in v['speakers']:
+            if s in people:
+                speakers[s] = people[s]
+            else:
+                print("WARN: Missing people file for '{}'".format(s))
+        v['speakers'] = speakers
+
+        tweet_video = '{} http://conferences.szabgab.com/v/{}/{}'.format(v['title'], v['event'], v['filename'])
+        tw_id = events[ v['event'] ].get('twitter', '')
+        if tw_id:
+            tweet_video += ' presented @' + tw_id
+        #print(v['speakers'])
+        #exit()
+        if v['speakers']:
+            for s in v['speakers']:
+                tw_id = v['speakers'][s]['info'].get('twitter', '')
+                if tw_id:
+                    tweet_video += ' by @' + tw_id
+        if 'tags' in v:
+            for t in v['tags']:
+                if not re.search(r'-', t['link']) and len(t['link']) < 10:
+                    tweet_video += ' #' + t['link']
+        v['tweet_video'] = urllib.parse.quote(tweet_video)
+
+
+        #print(speakers)
+        #exit()
+            
+
+    generate_pages(conferences, topics, videos, people)
+
 
     with open('data/sources.json', encoding="utf-8") as fh:
         sources = json.load(fh)
