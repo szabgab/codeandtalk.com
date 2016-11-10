@@ -33,6 +33,7 @@ class GenerateSite(object):
         self.now = datetime.now().strftime('%Y-%m-%d')
         self.sitemap = []
         self.people = {}
+        self.search = {}
 
         self.stats = {
             'has_coc' : 0,
@@ -237,6 +238,9 @@ class GenerateSite(object):
         self.stats['future'] = len(list(filter(lambda x: x['start_date'] >= self.now, self.conferences)))
         self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_date', '') >= self.now, self.conferences)))
 
+        for e in self.episodes:
+            self.search[ e['title'] + ' (ext)' ] = e['permalink']
+
         for e in self.conferences:
             events[ e['nickname'] ] = e
         for v in self.videos:
@@ -358,10 +362,6 @@ class GenerateSite(object):
     def generate_podcast_pages(self):
         env = Environment(loader=PackageLoader('conf', 'templates'))
     
-        search = {}
-    
-        for e in self.episodes:
-            search[ e['title'] + ' (ext)' ] = e['permalink']
     
         person_template = env.get_template('person.html')
         if not os.path.exists('html/p/'):
@@ -373,7 +373,7 @@ class GenerateSite(object):
                 exit("ERROR: file {} does not have a 'name' field".format(p))
             name = self.people[p]['info']['name']
             path = '/p/' + p
-            search[name] = path
+            self.search[name] = path
     
             with open('html' + path, 'w', encoding="utf-8") as fh:
                 fh.write(person_template.render(
@@ -387,7 +387,7 @@ class GenerateSite(object):
         if not os.path.exists('html/s/'):
             os.mkdir('html/s/')
         for s in self.sources:
-            search[ s['title'] ] = '/s/' + s['name'];
+            self.search[ s['title'] ] = '/s/' + s['name'];
             try:
                 with open('html/s/' + s['name'], 'w', encoding="utf-8") as fh:
                     fh.write(source_template.render(
@@ -426,8 +426,10 @@ class GenerateSite(object):
                 people = self.people,
                 people_ids = sorted(self.people.keys()),
              ))
+
+    def save_search(self):
         with open('html/search.json', 'w', encoding="utf-8") as fh:
-            json.dump(search, fh)
+            json.dump(self.search, fh)
     
         return
 

@@ -45,6 +45,7 @@ def generate_html():
 
     gs.generate_podcast_pages()
     gs.generate_pages()
+    gs.save_search()
 
 def check_rss_feed():
    source = list(filter(lambda x: x['name'] == args.source, sources))
