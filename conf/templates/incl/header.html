@@ -24,21 +24,25 @@
 
 </head>
 <body>
-<nav id="menu">
-   <ul>
-   <li><a href="/">Home</a></li>
-   <li><a href="/conferences">All the conferences</a></li>
-   <li><a href="/cfp">Call for Papers</a></li>
-   <li><a href="/code-of-conduct">Code of Conduct</a></li>
-   <li><a href="/topics">Topics</a></li>
-   <li><a href="/countries">Countries</a></li>
-   <li><a href="/cities">Cities</a></li>
-   <li><a href="/podcasts">Podcasts</a></li>
-   <li><a href="/people">People</a></li>
-   <li><a href="/videos">Videos</a></li>
-   <li><a href="/series">Series</a></li>
-   <li><a href="/about">About</a></li>
-</ul>
+<nav>
+   <ul id="menu">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <a href="/conferences" class="dropbtn">Conferences</a>
+         <div class="dropdown-content">
+           <a href="/cfp">Call for Papers</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/series">Event Series</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+  </ul>
 <form id="search"><input id="q" placeholder="query" /></form>
 </nav>
     <h1>{{h1}}</h1>

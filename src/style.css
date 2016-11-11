@@ -2,18 +2,13 @@
     background: #FFF;
 }
 
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
 a {
     text-decoration: none;
-}
-#menu li {
-    display: inline;
-    list-style-type: none;
-    padding-right: 20px;
-}
-#menu a {
-    padding: 3px 10px 3px 10px;
-    background: #233DFF;
-    color: #FFF;
 }
 
 .aboutbox {
@@ -140,4 +135,61 @@ a {
   }
 }
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    background-color: #333;
+    float: left;
+}
+
+nav li a, .dropbtn {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover, .dropdown:hover  {
+    background-color: red;
+}
+
+nav li.dropdown {
+    display: inline-block;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    z-index: 1;
+}
+
+.dropdown-content a:hover {
+    background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
