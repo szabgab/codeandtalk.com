@@ -1,7 +1,11 @@
 {% include 'incl/header.html' %}
     <div><a href="{{ person['info']['home'] }}">{{ person['info']['name'] }}</a></div>
+    {% if person['info']['github'] %}
     <div><a href="https://github.com/{{ person['info']['github'] }}">Github: {{ person['info']['github'] }}</a></div>
+    {% endif %}
+    {% if person['info']['twitter'] %}
     <div><a href="https://twitter.com/{{ person['info']['twitter'] }}">Twitter: @{{ person['info']['twitter'] }}</a></div>
+    {% endif %}
 
     {% if person['episodes'] %}
        <h2>Episodes</h2>
