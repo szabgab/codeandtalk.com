@@ -122,5 +122,19 @@
   }
 }
 
+#container {
+   margin: auto;
+}
+
+@media (min-width: 768px) {
+  #container {
+    max-width: 730px;
+  }
+}
+@media (min-width: 1200px) {
+  #container {
+    width: 1170px;
+  }
+}
 
 
