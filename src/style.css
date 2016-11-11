@@ -103,4 +103,22 @@
     display: none;
 }
 
+#youtube {
+   width: 284px;
+   height: 160px;
+}
+@media (min-width: 800px) {
+  #youtube {
+     width: 640px;
+     height: 360px;
+  }
+}
+
+@media (min-width: 1100px) {
+  #youtube {
+     width: 853px;
+     height: 480px;
+  }
+}
+
 
