@@ -102,6 +102,16 @@ a {
     display: none;
 }
 
+#q {
+	padding: 12px 20px;
+    box-sizing: border-box;
+
+    font-size: 1.1em;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
 #youtube {
    width: 284px;
    height: 160px;

@@ -35,7 +35,7 @@ $(function () {
         //console.log(availableTags);
 
     //    $('#q').css('display', 'inline');
-        $('#search').css('display', 'inline');
+        $('#search').css('display', 'inline-block');
         $( "#q" ).autocomplete({
           source: availableTags
         });
