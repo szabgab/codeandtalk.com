@@ -11,12 +11,12 @@
 <div>Recorded on {{video.recorded}} at <a href="/e/{{video.event}}">{{video.event_name}}</a></div>
 
 <div>
-<a href="http://twitter.com/home?status={{ video['tweet_video'] }}" target="_blank">Tweet this video</a>
+<a href="https://twitter.com/home?status={{ video['tweet_video'] }}" target="_blank">Tweet this video</a>
 </div>
 
 <ul>
 {% for s in video.speakers %}
-  <li><a href="http://xcast.szabgab.com/p/{{s}}">{{video.speakers[s].info.name}}</a></li>
+  <li><a href="/p/{{s}}">{{video.speakers[s].info.name}}</a></li>
 {% endfor %}
 </ul>
 

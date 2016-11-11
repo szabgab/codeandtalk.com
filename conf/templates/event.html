@@ -6,7 +6,7 @@
    <div>
       <span>Call for Papers: {{ event['cfp_date'] }}</span>
       {% if event['tweet_cfp'] %}
-         <a href="http://twitter.com/home?status={{ event['tweet_cfp'] }}" target="_blank">Tweet this cfp</a>
+         <a href="https://twitter.com/home?status={{ event['tweet_cfp'] }}" target="_blank">Tweet this cfp</a>
       {% endif %}
    </div>
 {% endif %}
@@ -37,7 +37,7 @@
 {% endif %}
 
 <div>
-<a href="http://twitter.com/home?status={{ event['tweet_me'] }}" target="_blank">Tweet this event</a>
+<a href="https://twitter.com/home?status={{ event['tweet_me'] }}" target="_blank">Tweet this event</a>
 </div>
 
 {% if event.videos %}
