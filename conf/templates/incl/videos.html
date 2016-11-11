@@ -4,9 +4,10 @@
        <section class="details">
           <h4 class="entry-title"><a href="/v/{{v.event}}/{{v.filename}}">{{v.title}}</a></h4>
           <footer>
-            <div class="recorded">{{v.recorded}} at <a href="/e/{{v.event}}">{{v.event_name}}</a></div>
+            <div class="recorded">{{v.recorded}}</div>
+            <div class="event">From <a href="/e/{{v.event}}">{{v.event_name}}</a></div>
             <div class="speakers">
-            Speakers: 
+            By: 
              {% for s in v.speakers %}
                 <a href="/p/{{s}}">{{ v.speakers[s]['info']['name'] }}</a>
              {% endfor %}

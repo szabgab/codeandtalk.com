@@ -2,13 +2,15 @@
     background: #FFF;
 }
 
+a {
+    text-decoration: none;
+}
 #menu li {
     display: inline;
     list-style-type: none;
     padding-right: 20px;
 }
 #menu a {
-    text-decoration: none;
     padding: 3px 10px 3px 10px;
     background: #233DFF;
     color: #FFF;
@@ -64,6 +66,7 @@
 .entry-title {
   margin-top: 0px;
   margin-bottom: 0px;
+  font-size: 1.3em;
 }
 
 .itunes {
