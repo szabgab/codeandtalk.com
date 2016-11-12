@@ -1,10 +1,10 @@
 {
   "description": "Unlike lower level languages, JavaScript protects us from the frustrations of managing memory on the system. Nonetheless, it is important for developers to have a comprehensive understanding of memory allocation and how the memory allocator in JavaScript works so that they can develop memory-performant code. I'll spend the first half of the talk discussing the fundamentals of memory allocation and the memory allocator implementation used in JavaScript. The second half of the talk will consist of live-optimization of code samples as I show the audience how to improve JavaScript code that is not memory performant based on the fundamentals recently learned. Attendees will leave this talk will a firm understanding of the theoretical details behind memory allocation and a practical understanding of how these details affect the code that they write on a daily basis.",
   "recorded": "2016-08-03",
-  "speakers": [],
+  "speakers": ["safia-abdalla"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/cpM5LYZdfUo/hqdefault.jpg",
-  "title": "Safia Abdalla - The Hitchhiker's Guide to All Things Memory in JS - CascadiaFest 2016",
+  "title": "The Hitchhiker's Guide to All Things Memory in JS",
   "videos": [
     {
       "code": "cpM5LYZdfUo",

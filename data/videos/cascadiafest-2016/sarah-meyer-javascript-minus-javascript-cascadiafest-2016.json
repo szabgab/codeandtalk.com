@@ -1,10 +1,10 @@
 {
   "description": "Browsing the web with JavaScript turned off is a pretty boring experience: a lot of the Internet simply doesn\u2019t work without it! My team at Rent the Runway spent the last nine months building a modern and interesting interface that works with JavaScript disabled. But we're web developers! Why would we choose to do without such an important tool?\n\nIt took working in a codebase that was almost entirely spaghetti jQuery and halfheartedly-implemented Backbone for me to realize just how brittle a site is when JavaScript is the only thing keeping it working. While users operating without JavaScript enabled are probably rarer than unicorn startups, designing site architecture with them in mind has broad benefits: fast, satisfying interactions and consistently displayed information.\n\nServer-rendered React gave us the best of both worlds. Links point to URLs that a server knows about. Forms are built of semantic HTML elements and point at endpoints that can handle non-AJAX requests. Custom tags and scrolling behavior always have native fallbacks. Modals are never the only way to access behavior, especially critical behavior like login.\n\nI love JavaScript. It is the only tool that does what it does. And that\u2019s why, these days, I realize it\u2019s so important to turn it off sometimes.",
   "recorded": "2016-08-03",
-  "speakers": [],
+  "speakers": ["sarah-meyer"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/xeZm8jO9qNE/hqdefault.jpg",
-  "title": "Sarah Meyer - Javascript Minus Javascript - CascadiaFest 2016",
+  "title": "Javascript Minus Javascript",
   "videos": [
     {
       "code": "xeZm8jO9qNE",
