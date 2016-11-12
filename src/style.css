@@ -139,19 +139,26 @@ a {
   }
 }
 
-#container {
+.container {
    margin: auto;
 }
 
 @media (min-width: 768px) {
-  #container {
+  .container {
     max-width: 730px;
   }
 }
 @media (min-width: 1200px) {
-  #container {
+  .container {
     min-width: 1170px;
   }
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 nav ul {
