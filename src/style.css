@@ -80,6 +80,15 @@ a {
     text-decoration: none;
 }
 
+.tag {
+    background: #337ab7;
+    color: #FFF;
+    font-weight: 500;
+    padding: 3px 10px 3px 10px;
+    text-decoration: none;
+}
+
+
 
 #github {
     display: none;
