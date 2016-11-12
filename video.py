@@ -1,5 +1,5 @@
 import os
-from xcast.people import GenerateSite
+from conf.code import GenerateSite
 
 # read all the events
 # list the ones that have youtube value which is not - and that does NOT have the video directory.

@@ -31,7 +31,6 @@ TODO
 * Videos: improve how they are collected (date, speaker, youtube code, length?)
 * Videos: describe how to add them
 * Add tags to videos for better indexing
-* Combine the speakers page with the xcast people
 * Add JavaScript based searching for videos.
 
 * Create event "series" e.g. all the 'frontporch' events.

@@ -5,7 +5,7 @@ import sys
 import re
 import shutil
 
-from xcast.people import GenerateSite
+from conf.code import GenerateSite
 
 if sys.version_info.major < 3:
     exit("This code requires Python 3.\nThis is {}".format(sys.version))
