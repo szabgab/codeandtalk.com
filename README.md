@@ -59,6 +59,15 @@ TODO
   The subscriber should be able to select filter by countries and/or by topics.
   The e-mail itself is an HTML message that we can also build on the website.
 
+* Add Facebook image code to video pages
+* Improve the UI of the web site, look at what pyvideo has nice.
+  Font Awesome
+* Link from event to other events in the series.
+
+* Another potential use of the data: Help conference and meetup organizers find potential speakers.
+* List people by location (city, state, country)
+* List people by subjects (tags for which they spoke)
+
 
 
 

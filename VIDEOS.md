@@ -19,6 +19,7 @@ Using a forked version of the youtube.py from https://github.com/pyvideo/data/tr
 This will create the a directory called ```category-TIMESTAMP``` inside that directory is a subdirectory
 called `videos` which needs to be moved to  `conferences/data/videos/abc-2000`.
 
+TODO: further change the Python script to save the length of the video.
 
 Update the videos from YouTube
 ------------------------------
