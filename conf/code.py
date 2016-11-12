@@ -493,18 +493,31 @@ class GenerateSite(object):
                 print("ERROR: {}".format(e))
             
     
-        future = list(filter(lambda x: x['start_date'] >= self.now, self.conferences))
-        #print(future)
+
         main_template = env.get_template('index.html')
         with open(root + '/index.html', 'w', encoding="utf-8") as fh:
             fh.write(main_template.render(
+                h1          = 'Conferences, Videos, Podcasts, and People',
+                title       = 'Conferences, Videos, Podcasts, and People',
+                stats       = self.stats,
+            ))
+        self.sitemap.append({
+            'url' : '/'
+        })
+
+
+        list_template = env.get_template('list.html')
+
+        future = list(filter(lambda x: x['start_date'] >= self.now, self.conferences))
+        with open(root + '/conferences', 'w', encoding="utf-8") as fh:
+            fh.write(list_template.render(
                 h1          = 'Open Source conferences',
                 title       = 'Open Source conferences',
                 conferences = future,
                 stats       = self.stats,
             ))
         self.sitemap.append({
-            'url' : '/'
+            'url' : '/conferences'
         })
     
         about_template = env.get_template('about.html')
@@ -516,21 +529,21 @@ class GenerateSite(object):
         self.sitemap.append({ 'url' : '/about' })
     
     
-        with open(root + '/conferences', 'w', encoding="utf-8") as fh:
-            fh.write(main_template.render(
-                h1          = 'Tech related conferences',
-                title       = 'Tech related conferences',
+        with open(root + '/all-conferences', 'w', encoding="utf-8") as fh:
+            fh.write(list_template.render(
+                h1          = 'All the Tech related conferences',
+                title       = 'All the Tech related conferences',
                 conferences = self.conferences,
             ))
         self.sitemap.append({
-            'url' : '/conferences'
+            'url' : '/all-conferences'
         })
     
         cfp = list(filter(lambda x: 'cfp_date' in x and x['cfp_date'] >= self.now, self.conferences))
         cfp.sort(key=lambda x: x['cfp_date'])
         #cfp_template = env.get_template('cfp.html')
         with open(root + '/cfp', 'w', encoding="utf-8") as fh:
-            fh.write(main_template.render(
+            fh.write(list_template.render(
                 h1          = 'Call for Papers',
                 title       = 'Call of Papers',
                 conferences = cfp,
@@ -577,9 +590,9 @@ class GenerateSite(object):
     
     
         #print(topics)
-        self.save_pages(root, 't', self.tags, main_template, 'Open source conferences discussing {}')
-        self.save_pages(root, 'l', self.countries, main_template, 'Open source conferences in {}')
-        self.save_pages(root, 'l', self.cities, main_template, 'Open source conferences in {}')
+        self.save_pages(root, 't', self.tags, list_template, 'Open source conferences discussing {}')
+        self.save_pages(root, 'l', self.countries, list_template, 'Open source conferences in {}')
+        self.save_pages(root, 'l', self.cities, list_template, 'Open source conferences in {}')
     
         collections_template = env.get_template('topics.html')
         self.save_collections(root, 't', 'topics', 'Topics', self.tags, collections_template)
@@ -616,7 +629,7 @@ class GenerateSite(object):
             'url' : '/' + filename
         })
 
-    def save_pages(self, root, directory, data, main_template, title):
+    def save_pages(self, root, directory, data, list_template, title):
         my_dir =  root + '/' + directory + '/'
         if not os.path.exists(my_dir):
             os.mkdir(my_dir)
@@ -628,7 +641,7 @@ class GenerateSite(object):
             #print("'{}'".format(d))
             #print(my_dir + d)
             with open(my_dir + d, 'w', encoding="utf-8") as fh:
-                fh.write(main_template.render(
+                fh.write(list_template.render(
                     h1          = title.format(data[d]['name']),
                     title       = title.format(data[d]['name']),
                     conferences = list(filter(lambda x: x['start_date'] >= self.now, conferences)),
