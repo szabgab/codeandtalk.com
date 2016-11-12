@@ -68,6 +68,14 @@ TODO Check for events:
 * https://atscaleconference.com/
 * https://jsconf.co/2015-Videos/
 
+TODO videos to be processed
+----------------------------
+The videos of these conferences were already added, but the speaker information
+has not been added yet:
+
+empirenode-2015
+jsinsa-2016
+
 
 Other sources
 ------
