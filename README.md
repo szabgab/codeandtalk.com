@@ -75,7 +75,8 @@ has not been added yet:
 
 empirenode-2015
 jsinsa-2016
-
+jsconf-eu-2015
+jsconf-us-2015
 
 Other sources
 ------
