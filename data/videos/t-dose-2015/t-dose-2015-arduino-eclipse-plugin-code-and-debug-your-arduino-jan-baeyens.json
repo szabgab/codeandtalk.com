@@ -1,0 +1,14 @@
+{
+  "description": "http://www.CityTV.nl\nhttp://www.t-dose.org\n\nArduino Eclipse plugin. Code and debug your arduino (compatible) robot with open source.\n\nPaper: \n\nIf Arduino (http://arduino.cc/) is great for anything: it is the huge user base. This huge user base does not only means a huge amount of open source libraries and open source code but also a huge amount of testers.\nIt also means a huge community of creators who provide open(?) hardware and open software.\nArduino focuses on beginners and artists. It supports those with a very low entrance level Arduino IDE.\nHowever lots of those Arduino users grow and because the Arduino IDE stays focused on starters they grow toward other hardware/software.\nThere is plenty of open(?) hardware to grow to. The proof of this is the boards manager offered by Arduino IDE.\n\nOn the open software side; there are plenty of libraries and even real-time os's but there is very little available as an open alternative for the IDE.\n\nWith the Arduino Eclipse Plugin we try to offer an alternative IDE that runs on windows mac an linux and does not stop the developer from growing on the software level. As we support the Arduino IDE boards manager we support growing at the hardware level to.\n\nIn this presentation we will focus on\n-Some history of the plugin. What is version V1 versus V2 and how does the plugin relate to avr-plugin\n-Demo some basic functionality like creating a project, compiling uploading, Serial monitor and the scope.\n-What is hot: Debugging on your local system, Debugging on the zero and using google test.\n-What do we experience as pain points?\n-What we are working on to make the plugin better?\n-What challenges do we experience due to being open source",
+  "recorded": "2015-11-28",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/wls692-j5_Q/hqdefault.jpg",
+  "title": "T-DOSE 2015 , Arduino Eclipse plugin Code and debug your arduino, Jan Baeyens",
+  "videos": [
+    {
+      "code": "wls692-j5_Q",
+      "type": "youtube"
+    }
+  ]
+}

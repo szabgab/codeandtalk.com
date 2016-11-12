@@ -1,0 +1,14 @@
+{
+  "description": "http://www.CityTV.nl\nhttp://www.t-dose.org\n\nPaper: \n\nCloudABI is a new runtime environment that attempts to make it easier to use UNIX-like operating systems at the core of a cluster/cloud computing platform.\n\nInstead of offering full machine virtualization (e.g., KVM, Xen, bhyve) or requiring the use of intrusive OS-level virtualization techniques (e.g., LXC, FreeBSD Jails, Solaris Zones), end users can simply provide a set of binaries that communicate with the operating system over a secure and compact POSIX-like interface. CloudABI allows you to run untrusted programs directly on top of a UNIX kernel, without compromising security and without requiring complex configuration.\n\nCloudABI makes strong use of capability-based security. Instead of determining the rights of an application through complex ACLs, access to resources is determined by a set of tokens (in this case, file descriptors) that can be altered at run-time. This allows software engineers to harden their software by applying 'defense in depth'.\n\nIn this presentation I will discuss several design aspects of CloudABI and how it can be used to make UNIX software more reliable, more secure and easier to test and deploy.",
+  "recorded": "2015-11-28",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/SgX5pgDuQB0/hqdefault.jpg",
+  "title": "T-DOSE 2015 , CloudABI: Cloud computing meets fine-grained capabilities, Ed Schouten",
+  "videos": [
+    {
+      "code": "SgX5pgDuQB0",
+      "type": "youtube"
+    }
+  ]
+}

@@ -78,6 +78,9 @@ jsinsa-2016
 jsconf-eu-2015
 jsconf-us-2015
 yougottalovefrontend-2016
+t-dose-2013
+t-dose-2014
+t-dose-2015
 
 Other sources
 ------
