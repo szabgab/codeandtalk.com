@@ -80,6 +80,11 @@ yougottalovefrontend-2016
 t-dose-2013
 t-dose-2014
 t-dose-2015
+fscons-2012
+fscons-2013
+fscons-2014
+fscons-2015
+nodevember-2014
 
 Other sources
 ------
