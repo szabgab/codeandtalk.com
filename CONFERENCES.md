@@ -25,4 +25,7 @@ facebook:
 youtube:           Once the event is over, the YouTube playlist of its videos.
 ```
 
+In the `youtube` field use a single - to indicate tha the conference does not have videos on Youtube.
 
+Do not mark in such way conferences that have videos in some other place. We still need to figure out how to include
+those.
