@@ -34,6 +34,7 @@ class GenerateSite(object):
         self.sitemap = []
         self.people = {}
         self.search = {}
+        self.tags = {}
 
         self.stats = {
             'has_coc' : 0,
@@ -90,7 +91,6 @@ class GenerateSite(object):
         return
     
     def read_tags(self):
-        self.tags = {}
         with open('data/tags.csv', encoding="utf-8") as fh:
             rd = csv.DictReader(fh, delimiter=';') 
             for row in rd:
@@ -133,7 +133,7 @@ class GenerateSite(object):
         conferences = []
     
         for filename in glob.glob("data/events/*.txt"):
-            print("Reading {}".format(filename))
+            #print("Reading {}".format(filename))
             conf = {}
             try:
                 this = {}
