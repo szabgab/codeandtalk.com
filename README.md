@@ -54,7 +54,7 @@ TODO
 * Add "language" field to the videos and allow the user to filter the results to selected language(s). (There are talk in French, German, Spanish, etc.)
 
 
-TODO Collect
+TODO Check for events:
 -------------
 * http://2016.geecon.cz/
 * http://www.qualitysoftware.com.au/ http://www.qualitysoftware.com.au/atd2k16/
@@ -62,6 +62,11 @@ TODO Collect
 * http://codecooperative.org/
 * https://central.wordcamp.org/
 * https://wpcampus.org/
+* https://therichwebexperience.com/conference/clearwater/2016/12/home
+* http://www.cue.org/conference
+* http://www.nodetogether.org/
+* https://atscaleconference.com/
+* https://jsconf.co/2015-Videos/
 
 
 Other sources
