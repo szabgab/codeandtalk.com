@@ -68,6 +68,9 @@ TODO Check for events:
 * https://jsconf.co/2015-Videos/
 * http://rubycentral.org/railsconf
 
+* https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A/playlists
+* https://github.com/nodeconf
+
 
 TODO videos to be processed
 ----------------------------
