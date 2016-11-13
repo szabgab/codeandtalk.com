@@ -1,0 +1,14 @@
+{
+  "description": "Bundler is a core part of the Ruby ecosystem, It takes away the pain of managing your project dependencies manually. Programmers just need to call \"bundle install\" (or just bundle) and all their problems regarding which gems versions to install is taken care by Bundler.\n\nThis talk will discuss the internals of Bundler AKA what really happens when you call \"bundle install\" on your project. I will discuss how \"bundle install\" used to work mainly the network call to Bundler api, the dependency resolution and installation of gems.\n\nI will also discuss on how \"bundle install\" is being improved in numerous ways.\nMainly,\n\nThe new index format which caches more information, makes fewer requests.\nThe improved dependency resolution algorithm.\nParallel gem installations which improves gem installation by 40-60%.",
+  "recorded": "2014-03-22",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/UgbB9V5Ggx0/hqdefault.jpg",
+  "title": "How does Bundler bundle? - Smit Shah",
+  "videos": [
+    {
+      "code": "UgbB9V5Ggx0",
+      "type": "youtube"
+    }
+  ]
+}

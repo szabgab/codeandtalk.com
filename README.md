@@ -77,11 +77,28 @@ TODO videos to be processed
 The videos of these conferences were already added, but the speaker information
 has not been added yet:
 
+apachecon-na-2014
+apachecon-na-2015
+cloudstack-collaboration-na-2014
+deccanrubyconf-2015
+deccanrubyconf-2016
 empirenode-2015
+fscons-2012
+fscons-2013
+fscons-2014
+fscons-2015
 jsinsa-2016
 jsconf-eu-2015
 jsconf-us-2015
-yougottalovefrontend-2016
+microservicesdublin-dublin
+nodeconf-eu-2015
+nodeconf-eu-2016
+nodeconf-london-2016
+nodevember-2014
+nodevember-2015
+railsconf-2016
+rubyconf-india-2014
+rubyconf-india-2016
 t-dose-2011
 t-dose-2012
 t-dose-2013
@@ -91,18 +108,7 @@ t-dose-2007
 t-dose-2008
 t-dose-2009
 t-dose-2010
-fscons-2012
-fscons-2013
-fscons-2014
-fscons-2015
-nodevember-2014
-nodevember-2015
-apachecon-na-2014
-apachecon-na-2015
-deccanrubyconf-2015
-deccanrubyconf-2016
-railsconf-2016
-rubyconf-india-2016
+yougottalovefrontend-2016
 
 
 Other sources

@@ -1,0 +1,14 @@
+{
+  "description": "We will first talk about the kinds of metrics which we might be interested in and why\n\nThen we will talk about how we can generate some of these metrics ourself.\n\nThere are existing tools out there, we will not talk about them directly\n\nBut we will cover how these tools work internally.\n\nwe want to know:\n\nhow to parse ruby code. (ruby_parser or parser)\nhow to make sense of the parsed code (sexp_processor)\nvisualization. how to make sense of all these metrics you have\ncollected.\nhow and what metrics can we generate from running production code. eg. dead code analysis, GC runs, method hit counters etc",
+  "recorded": "2014-03-22",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/dPSGXlnzPSo/hqdefault.jpg",
+  "title": "Building your own Code metrics tool for Ruby -  Deepak Kannan",
+  "videos": [
+    {
+      "code": "dPSGXlnzPSo",
+      "type": "youtube"
+    }
+  ]
+}

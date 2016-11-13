@@ -1,0 +1,14 @@
+{
+  "description": "There is a short article from Martin Fowler about how tall you need to be to use MicroServices. Making those kinds of statements are important, since we see a lot of MicroService envy in the industry where people fail miserably because they wanted to adapt early while not fully understanding the prerequisites for MicroService architectures. While I totally agree with his points, I must call them incomplete. MicroServices aren't just a technology decision. In my opinion it is first of all a cultural decision. Developers' minds get blown if they need to think in terms of tiny single-purpose applications as part of a bigger complete system which is in constant movement and micromanagement isn't doing good here. The talk aims to introduce some key drivers for a good culture that fits the MicroService architecture as well as the technology decisions that have been made at takeaway.com to be ready to go from monolith to MicroServices. Will I mention Conway's Law? Sure I will!",
+  "recorded": "",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/VPPz8TaUYyc/hqdefault.jpg",
+  "title": "Matthias Laug: \"Microservices - You need to be this tall to use microservices\"",
+  "videos": [
+    {
+      "code": "VPPz8TaUYyc",
+      "type": "youtube"
+    }
+  ]
+}
