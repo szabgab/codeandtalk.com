@@ -10,7 +10,7 @@ gs = GenerateSite()
 gs.read_events()
 no_videos = ''
 no_youtube = ''
-for e in gs.conferences:
+for e in sorted(gs.conferences, key=lambda e: e['start_date'], reverse=True):
     #exit(e)
     youtube = e.get('youtube')
 
@@ -24,7 +24,7 @@ for e in gs.conferences:
             if not os.path.exists('data/videos/' + e['nickname']):
                 no_videos += "{:30} {} {}\n".format( e['nickname'], e['start_date'], youtube)
     else:
-        no_youtube += "{}\n".format( e['nickname'] )
+        no_youtube += "{} {}\n".format( e['start_date'], e['nickname'] )
 
 if no_videos:
     print("Has youtube ID but videos were not included")
