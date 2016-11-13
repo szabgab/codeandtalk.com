@@ -1,0 +1,14 @@
+{
+  "description": "Tu es d\u00e9veloppeur ? Tu veux \u00e9crire une app performante, scalable et r\u00e9siliente ? Et si en plus on faisait tourner cette app sur un cluster de raspberry pi ?L'approche monolitique, satur\u00e9e de stacks entreprise n'est pas id\u00e9ale. Le reactive manifesto propose qqc de plus modulaire permettant d'atteindre scalabilit\u00e9 et r\u00e9silience.Cette session diss\u00e9quera une application r\u00e9active bas\u00e9e sur des micro services et de l'Event Sourcing avec des outils comme Cassandra, ElasticSearch, Play2, Akka. Nous v\u00e9rifierons si cette approche tient ses promesse lorsque le hardware est quelque peu contraint...\n\n\nAuthors:\nAlexandre Delegue\nAlexandre Del\u00e8gue est ing\u00e9nieur d'\u00e9tudes chez SERLI, il travaille principalement autour des technologies Java / JavaEE / Spring mais aussi sur des probl\u00e9matiques d'int\u00e9gration continue, de qualim\u00e9trie et m\u00eame r\u00e9cemment sur un projet de centralisation des logs. Ses exp\u00e9riences pass\u00e9es l'ont \u00e9galement amen\u00e9 \u00e0 travailler sur les applications de gestion ainsi que sur un site web grand public notamment sur les probl\u00e9matiques de s\u00e9curit\u00e9, de performance et de scalabilit\u00e9.\u200b\n\nBlog: https://plus.google.com/108968818453090484968\n\nMathieu ANCELIN\nMathieu Ancelin est ing\u00e9nieur d\u2019\u00e9tudes \u00e0 SERLI, soci\u00e9t\u00e9 de Conseil et d\u2019Ing\u00e9nierie du SI, o\u00f9 il s\u2019est sp\u00e9cialis\u00e9 dans les technologies Java EE avec un fort int\u00e9r\u00eat pour les frameworks de composants. Ses activit\u00e9s l\u2019impliquent dans le d\u00e9veloppement de divers projets open-source comme GlassFish ou JOnAS, et il en dirige quelques-un (CDI-OSGi, Play CDI); il est membre de l\u2019expert group de la JSR 346 (CDI 1.1). \nMathieu intervient r\u00e9guli\u00e8rement \u00e0 l\u2019Universit\u00e9 de La Rochelle, \u00e0 l\u2019Universit\u00e9 de Poitiers et dans diverses conf\u00e9rences (JavaOne, Solutions Linux...) pour parler de Java EE. Il est membre de l\u2019\u00e9quipe du Poitou-Charentes JUG. Vous pouvez le suivre sur twitter : @TrevorReznik",
+  "recorded": "2016-06-08",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/RS9CA7sHTss/hqdefault.jpg",
+  "title": "I don't always write Reactive applications, but when I do, it runs on Raspberry Pi",
+  "videos": [
+    {
+      "code": "RS9CA7sHTss",
+      "type": "youtube"
+    }
+  ]
+}

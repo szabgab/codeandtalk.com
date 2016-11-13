@@ -77,11 +77,13 @@ TODO videos to be processed
 The videos of these conferences were already added, but the speaker information
 has not been added yet:
 
+apachecon-na-2013
 apachecon-na-2014
 apachecon-na-2015
 cloudstack-collaboration-na-2014
 deccanrubyconf-2015
 deccanrubyconf-2016
+devoxx-france-2015
 empirenode-2015
 fscons-2012
 fscons-2013
@@ -98,6 +100,7 @@ nodevember-2014
 nodevember-2015
 railsconf-2016
 rubyconf-india-2014
+rubyconf-india-2015
 rubyconf-india-2016
 t-dose-2011
 t-dose-2012

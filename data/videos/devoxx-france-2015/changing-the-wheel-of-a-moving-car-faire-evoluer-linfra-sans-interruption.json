@@ -1,0 +1,14 @@
+{
+  "description": "Chez CloudBees nous avons mut\u00e9 au cours des quatre derni\u00e8res ann\u00e9es de l'\u00e9tat de startup d\u00e9cousue \u00e0 celui d'un syst\u00e8me bien r\u00f4d\u00e9. Certaines d\u00e9cisions techniques initiales ont \u00e9t\u00e9 am\u00e8rement regrett\u00e9es, d'autres souffrent simplement d'obsolescence. Dans les deux cas, nous avons du g\u00e9rer l'\u00e9volution du syst\u00e8me sans que l'utilisateur n'en souffre : avec une couverture mondiale, il n'y a aucune downtime possible.Pour illustrer ce challenge avec quelques exemples je vais pr\u00e9senter la migration de l'infrastructure de build-on-demand vers une solution multi-tenant, ainsi que le passage d'une solution con\u00e7ue sur mesure avec LXC \u00e0 des conteneurs Docker - dans les deux cas une transition en douceur sur plusieurs mois sans que les utilisateurs n'aient \u00e0 s'en soucier.\n\n\nAuthor:\nNicolas De Loof\nTechno veilleur, Architecte Java, Nicolas baigne dans le monde Java depuis une dizaine d'ann\u00e9e. Partisant de l'opensource il a rejoint l'\u00e9quipe  Apache Maven comme Committer en 2007. Il a fond\u00e9 le BreizhJUG en 2008 pour partager sa passion pour ce langage et son riche \u00e9cosyst\u00e8me.",
+  "recorded": "2016-06-08",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/gEGoD6uYBAs/hqdefault.jpg",
+  "title": "Changing the wheel of a moving car - faire \u00e9voluer l'infra sans interruption",
+  "videos": [
+    {
+      "code": "gEGoD6uYBAs",
+      "type": "youtube"
+    }
+  ]
+}

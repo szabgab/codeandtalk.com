@@ -1,0 +1,14 @@
+{
+  "description": "Cassandra ne permet ni jointure, ni agr\u00e9gats et limite drastiquement vos capacit\u00e9s \u00e0 requ\u00eater vos donn\u00e9es pour permettre une scalabilit\u00e9 lin\u00e9aire dans une architecture masterless. L'outil de choix pour effectuer des traitements analytiques sur vos tables Cassandra est Spark mais ce dernier complexifie des op\u00e9rations pourtant simples en SQL. SparkSQL permet de retrouver une syntaxe SQL dans Spark et nous allons voir comment l'utiliser en Scala, Java et en Python pour travailler sur des tables Cassandra, et retrouver jointures et agr\u00e9gats (entre autres).\n\n\nAuthors:\nAlexander DEJANOVSKI\nD\u00e9veloppeur chez Chronopost\n\nJe me suis pris d'une passion toute particuli\u00e8re pour Apache Cassandra, et compte bien ne pas retravailler sur une base relationnelle de sit\u00f4t. Je contribue au driver JDBC \"legacy\" de Cassandra et j'ai r\u00e9cemment termin\u00e9 sa r\u00e9\u00e9criture pour qu'il utilise le driver Java Datastax au lieu de Thrift.\n\nMaxence Lecointe\nJust passionate about Java.\n\nEvery day is a day to improve coding skills.\n\nGreat experience with Java tools/technologies/frameworks/standards (e.g. Eclipse, Hibernate, Spring, etc.) and software development methods and tools.\n\nCode review.\n\nSoftware architecture and design.\n\nImplementation of innovative technologies.",
+  "recorded": "2016-06-08",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/lllVEB2SKZY/hqdefault.jpg",
+  "title": "Utilisation de SparkSQL pour analyser vos donn\u00e9es Cassandra en Java, Scala et Python",
+  "videos": [
+    {
+      "code": "lllVEB2SKZY",
+      "type": "youtube"
+    }
+  ]
+}

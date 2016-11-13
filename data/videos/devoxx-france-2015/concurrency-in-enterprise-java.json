@@ -1,0 +1,14 @@
+{
+  "description": "Concurrent programming in Java has been a hot topic long before Java 5. But could easily get you into trouble . Since then the Executor Framework and java.util.concurrent provide some more convenience but unfortunately not for Java EE developers. Up until Java EE7 introduced JSR236: Concurrency Utilities for Java EE. This session will introduce the benefits and gotchas of concurrent programming in Java EE by showing different scenarios we can make use of the new functionality in JSR236. This covers the topics of ContextualProxies, RxJava, ListenableFuture (Guava) and Java 8 Streams.\n\n\nAuthor:\nArun Gupta\nArun Gupta is Director of Developer Advocacy at Red Hat and focuses on JBoss Middleware. As a founding member of the Java EE team at Sun Microsystems, he spread the love for technology all around the world.\n\nAt Oracle, he led a cross-functional team to drive the global launch of the Java EE 7 platform through strategy, planning, and execution of content, marketing campaigns, and program. After authoring ~1400 blogs at blogs.oracle.com/arungupta on different Java technologies, he continues to promote Red Hat technologies and products at blog.arungupta.me. Arun has extensive speaking experience in 35+ countries on myriad topics. An author of a best-selling book, an avid runner, and a globe trotter, he is easily accessible at @arungupta.",
+  "recorded": "2016-06-08",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/oRKGoArrhTA/hqdefault.jpg",
+  "title": "Concurrency in Enterprise Java",
+  "videos": [
+    {
+      "code": "oRKGoArrhTA",
+      "type": "youtube"
+    }
+  ]
+}
