@@ -66,6 +66,8 @@ TODO Check for events:
 * http://www.nodetogether.org/
 * https://atscaleconference.com/
 * https://jsconf.co/2015-Videos/
+* http://rubycentral.org/railsconf
+
 
 TODO videos to be processed
 ----------------------------
@@ -94,6 +96,10 @@ nodevember-2014
 nodevember-2015
 apachecon-na-2014
 apachecon-na-2015
+deccanrubyconf-2015
+deccanrubyconf-2016
+railsconf-2016
+rubyconf-india-2016
 
 
 Other sources
