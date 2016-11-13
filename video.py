@@ -4,18 +4,25 @@ from conf.code import GenerateSite
 # read all the events
 # list the ones that have youtube value which is not - and that does NOT have the video directory.
 # list the ones that have no youtube entry or that it is empty
+# Only show events that have already finished.
 
 gs = GenerateSite()
 gs.read_events()
 no_videos = ''
 no_youtube = ''
 for e in gs.conferences:
-    #print(e)
+    #exit(e)
     youtube = e.get('youtube')
+
+    if e['end_date'] > gs.now:
+        if youtube:
+            exit("ERROR. There is a youtube entry in a future event {}".format(e['nickname']))
+        continue
+
     if youtube:
         if youtube != '-':
             if not os.path.exists('data/videos/' + e['nickname']):
-                no_videos += "{:30} {}\n".format( e['nickname'], youtube)
+                no_videos += "{:30} {} {}\n".format( e['nickname'], e['start_date'], youtube)
     else:
         no_youtube += "{}\n".format( e['nickname'] )
 
