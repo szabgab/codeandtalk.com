@@ -1,0 +1,14 @@
+{
+  "description": "Lennart Benschop @ T-DOSE The place where experts meet on 5 and 6 November 2011, Eindhoven, \r\n\r\nCoreboot: the Open Source BIOS.\r\n\r\nAuthor: Lennart Benschop\r\n\r\nAn open-source BIOS for the PC platform has many benefits, especially for non-mainstream uses, such as large clusters and embedded applications. Benefits are close control of the boot process (hence reliability), fast boot times and of course you do not have to pay royalties for the BIOS.\r\n\r\nLow-level initialization of PC hardware proves to be a very challenging task, which is very dependent on the exact chipset. Finding adequate documentation is part of the challenge. Coreboot provides this low-level hardware initialization for many PC motherboards. When the initialization is finished, Coreboot runs the payload.\r\nA Coreboot payload can be a PC-style BIOS (such as the open source SeaBIOS), but it is also possible to skip the traditional BIOS and boot loader and run a Linux kernel directly as a Coreboot payload.\r\n\r\n\r\nLennart Benschop has been a Linux user since July 1992. He obtained his PhD at the Eindhoven University of Technology in 1997. Since then he has been working at what is now called AuthenTec B.V. in Vught. He specializes in embedded software development and functional verification for cryptographic hardware. He has extensive knowledge of device driver development on the Linux platform and network security protocols such as IPsec and SSL.\r\n\r\nTalk: Coreboot: the Open Source BIOS.",
+  "recorded": "2011-11-05",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/Xb6yFRI421c/hqdefault.jpg",
+  "title": "Why Coreboot: Open Source BIOS, Lennart Benschop @ T-DOSE 2011, Eindhoven",
+  "videos": [
+    {
+      "code": "Xb6yFRI421c",
+      "type": "youtube"
+    }
+  ]
+}

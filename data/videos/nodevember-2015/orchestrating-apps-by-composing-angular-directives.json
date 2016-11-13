@@ -1,0 +1,14 @@
+{
+  "description": "Jeremy Fairbank\n\nBuilding large apps in Angular can be tricky. If we\u2019re not careful, we can still begin to build monolithic applications even with the wonderful magic of Angular. Therefore, we still need to apply the concepts of modularity and separation of concerns. Thankfully, we have directives to assist us.\n\nWe will investigate the power there really is behind the reusable component movement. We will briefly review directives and how to make them, but our main focus will be on engineering our directives to be reusable components that we can compose together to build modular applications. We will discover the power behind isolate scopes, events, and callbacks to help us decouple the pieces of an application. \n\nWe will find how easy it is to refactor our application by only touching a small portion of the codebase.",
+  "recorded": "2015-11-14",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/uS3IrNVam6Q/hqdefault.jpg",
+  "title": "Orchestrating Apps by Composing Angular Directives",
+  "videos": [
+    {
+      "code": "uS3IrNVam6Q",
+      "type": "youtube"
+    }
+  ]
+}
