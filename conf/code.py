@@ -264,7 +264,7 @@ class GenerateSite(object):
                     print("WARN: Missing people file for '{}'".format(s))
             v['speakers'] = speakers
     
-            tweet_video = '{} http://conferences.szabgab.com/v/{}/{}'.format(v['title'], v['event'], v['filename'])
+            tweet_video = '{} https://codeandtalk.com/v/{}/{}'.format(v['title'], v['event'], v['filename'])
             tw_id = events[ v['event'] ].get('twitter', '')
             if tw_id:
                 tweet_video += ' presented @' + tw_id
@@ -340,7 +340,7 @@ class GenerateSite(object):
                     self.stats['has_a11y_future'] += 1
     
             if 'cfp_date' in event and event['cfp_date'] >= self.now:
-                tweet_cfp = 'The CfP of {} ends on {} see {} via http://conferences.szabgab.com/'.format(event['name'], event['cfp_date'], event['url'])
+                tweet_cfp = 'The CfP of {} ends on {} see {} via https://codeandtalk.com/'.format(event['name'], event['cfp_date'], event['url'])
                 if event['twitter']:
                     tweet_cfp += ' @' + event['twitter']
                 for t in event['topics']:
@@ -358,8 +358,8 @@ class GenerateSite(object):
             tweet_me += " " + event['url']
             for t in event['topics']:
                 tweet_me += ' #' + t['name']
-            #tweet_me += ' via @szabgab'
-            tweet_me += ' via http://conferences.szabgab.com/'
+            #tweet_me += ' via @codeandtalk'
+            tweet_me += ' via https://codeandtalk.com/'
     
             event['tweet_me'] = urllib.parse.quote(tweet_me)
     
@@ -603,7 +603,7 @@ class GenerateSite(object):
             fh.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
             for e in self.sitemap:
                 fh.write('  <url>\n')
-                fh.write('    <loc>http://conferences.szabgab.com{}</loc>\n'.format(e['url']))
+                fh.write('    <loc>https://codeandtalk.com{}</loc>\n'.format(e['url']))
                 date = self.now
                 if 'lastmod' in e:
                     date = e['lastmod']
