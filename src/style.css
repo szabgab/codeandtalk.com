@@ -219,3 +219,11 @@ nav li.dropdown {
     display: block;
 }
 
+nav .fa-twitter, .fa-facebook {
+    color: blue;
+    background-color: #333;
+}
+nav li a.regular:hover  {
+    background-color: #333;
+}
+
