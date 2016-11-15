@@ -20,20 +20,26 @@ Accessibility logo: http://staff.washington.edu/tft/a11ylogo/
 
 TODO
 -----
-* For older events: are the videos available online?
+* Add Twitter logo.
+* Add Facebook logo.
+* Describe the use of the site.
+
+* Convert all the data files to JSON, beautidy them.
+* Create skeleton for each file-type.
+
 
 * Include logo of each event?
 * Improved UI!
 
-* Create separate Twitter account for the site.
 * Change the sitemap.xml creating code to use the date of the files for real date.
+* For sitemap of the collection pages, use the timestamp of the most recent event in that list.
+* For sitemap of videos, use the date of the file.
 
-* Videos: improve how they are collected (date, speaker, youtube code, length?)
-* Videos: describe how to add them
+* Update the description of the data and the collection process.
 * Add tags to videos for better indexing
+
 * Add JavaScript based searching for videos.
 
-* Create event "series" e.g. all the 'frontporch' events.
 * Weekly Newsletter with information about events.
   The subscriber should be able to select filter by countries and/or by topics.
   The e-mail itself is an HTML message that we can also build on the website.
@@ -46,9 +52,6 @@ TODO
 * Another potential use of the data: Help conference and meetup organizers find potential speakers.
 * List people by location (city, state, country)
 * List people by subjects (tags for which they spoke)
-
-* For sitemap of the collection pages, use the timestamp of the most recent event in that list.
-* For sitemap of videos, use the date of the file.
 
 * Add "language" field to the videos and allow the user to filter the results to selected language(s). (There are talk in French, German, Spanish, etc.)
 
