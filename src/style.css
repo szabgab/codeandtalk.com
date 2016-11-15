@@ -227,3 +227,29 @@ nav li a.regular:hover  {
     background-color: #333;
 }
 
+.wrapper {
+   margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+.left {
+    width: 50%;
+    float:left;
+}
+.right {
+    overflow: hidden;
+}
+
+.frontbox {
+  margin: 20px;
+  padding: 10px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  border-color: #DDEEFF;
+  border-width: 10px;
+  border-style: solid;
+  min-height: 150px;
+}
+
+

@@ -497,7 +497,7 @@ class GenerateSite(object):
         main_template = env.get_template('index.html')
         with open(root + '/index.html', 'w', encoding="utf-8") as fh:
             fh.write(main_template.render(
-                h1          = 'Conferences, Videos, Podcasts, and People',
+                #h1          = 'Conferences, Videos, Podcasts, and People',
                 title       = 'Conferences, Videos, Podcasts, and People',
                 stats       = self.stats,
             ))
@@ -525,6 +525,7 @@ class GenerateSite(object):
             fh.write(about_template.render(
                 h1          = 'About Open Source conferences',
                 title       = 'About Open Source conferences',
+                stats       = self.stats,
             ))
         self.sitemap.append({ 'url' : '/about' })
     

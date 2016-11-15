@@ -1,5 +1,31 @@
 {% include 'incl/header.html' %}
-{% include 'incl/stats.html' %}
+
+<div class="wrapper">
+   <div class="left frontbox">
+   <span class="fa fa-microphone fa-4x"></span><br>
+   <b>Speakers:</b> Are you looking for speaking opportunities? We have callecthed {{ stats.cfp }} conferences that have their
+   <a href="/cfp">call for presentation</a> still open. You can pick the one that is relevant to you and submit your talk proposal.
+   </div>
+   
+   <div class="right frontbox">
+   <span class="fa fa-users fa-4x"></span><br>
+   <b>Participants:</b> Are you looking for a conferene to attend? There are {{ stats.future }} in our database where you can attend.
+   </div>
+</div>
+
+<div class="wrapper">
+   <div class="left frontbox">
+   <span class="fa fa-podcast fa-4x"></span><br>
+   <a href="/podcasts"><b>Podcasts</b></a> There are {{ stats.episodes }} episodes from {{ stats.podcasts }}
+   <a href="/podcasts">podcasts</a> indexed on our site.  You can look for individual episodes and listen to them.
+   </div>
+
+   <div class="right frontbox">
+   <span class="fa fa-video-camera fa-4x"></span><br>
+   <a href="/videos"><b>Videos</b></a> We have indexed {{ stats.videos }} videos from {{ stats.total }} conferences.
+   We hope that even if you could not make it to a confrence this way you can enjoy some of the presentations.
+   </div>
+</div>
 
 {% include 'incl/footer.html' %}
 
