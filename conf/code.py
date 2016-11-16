@@ -208,7 +208,7 @@ class GenerateSite(object):
     def read_episodes(self):
         self.episodes = []
         for src in self.sources:
-            print("Processing source {}".format(src['name']))
+            #print("Processing source {}".format(src['name']))
             file = 'data/podcasts/' + src['name'] + '.json'
             src['episodes'] = []
             if os.path.exists(file):
