@@ -1,0 +1,14 @@
+{
+  "description": "http://www.CityTV.nl\nhttp://www.t-dose.org/\n\nPaper: \n\nThe domain name system is basic infrastructure for the Internet. Working DNS underlies most operations, and yet it appears to be a black box to a very large number of system (and network) administrators.\n\nThis talk is aimed at anyone with a basic knowledge of Unix and the Internet with an interest in DNS, and ensuring site availability.\n\nWe cover:\nThe basics of DNS\nRegistrars and registries\nRunning your own recursive resolver\nRunning your own authoritative nameserver (starting from the root).\nScaling the DNS system, including multiple servers and anycast\nBuilding a reliable DNS system\nDistributing global traffic with GeoIPs and CDNs.\nSecuring DNS",
+  "recorded": "2016-11-12",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/rQhimVnGJVo/hqdefault.jpg",
+  "title": "T-Dose2016, DNS - I know who you are!, Devdas Bhagat",
+  "videos": [
+    {
+      "code": "rQhimVnGJVo",
+      "type": "youtube"
+    }
+  ]
+}
