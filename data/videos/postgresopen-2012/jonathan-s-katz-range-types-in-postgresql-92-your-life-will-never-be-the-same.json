@@ -1,0 +1,14 @@
+{
+  "description": "The range data type is a revolutionary new feature in PostgreSQL 9.2 that gives you the power to search and sieve over any data type that can be represented as a range (and very quickly too!). This talk provides a fundamental overview of range types, how to use them in Postgres, and applications and extensions that they provide.\n\nThe range data type is a revolutionary new feature in PostgreSQL 9.2 that gives you the power to search and sieve over any data type that can be represented as a range (and very quickly too!).\n\nAfter a brief mathematical refresher of what range types are and how they are represented, we will dive into the different functionalities that PostgreSQL 9.2. After comparing what live was like for such queries before and after the range data type, we will look at some common applications and extensions, and additionally see how VenueBook uses range types in its daily operations.",
+  "recorded": "2012-09-17",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/XIcOf7r0dG4/hqdefault.jpg",
+  "title": "Jonathan S. Katz: Range Types in PostgreSQL 9.2 - Your Life Will Never Be the Same",
+  "videos": [
+    {
+      "code": "XIcOf7r0dG4",
+      "type": "youtube"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "description": "The CATME application was originally written in 2005 using mod_perl and MySQL.In 2012 we converted the application to use Postgres. A number of coding changes had to be made to support his change. Additionally, we inserted a number of bugs because we had unwittingly depended on MySQL's loose typing and acceptance of non-UTF-8 data and character encodings as UTF-8. This presentation examines the decisions and errors made.",
+  "recorded": "2013-09-16",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/TLBjDXx23FU/hqdefault.jpg",
+  "title": "Julier Baumler: Case Study, Converting the CATME application from MySQL to Postgres",
+  "videos": [
+    {
+      "code": "TLBjDXx23FU",
+      "type": "youtube"
+    }
+  ]
+}

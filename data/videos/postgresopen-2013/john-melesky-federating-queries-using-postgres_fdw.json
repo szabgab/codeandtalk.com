@@ -1,0 +1,14 @@
+{
+  "description": "Running into single node limits? PostgreSQL 9.3 comes with a new foreign data wrapper that, combined with some old-fashioned partitioning tricks, can be used to run queries across multiple nodes at once. I'll cover the basic techniques, as well as good practices in structuring your new cluster.",
+  "recorded": "2013-09-16",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/UZ1eqzOeIg0/hqdefault.jpg",
+  "title": "John Melesky: Federating Queries Using postgres_fdw",
+  "videos": [
+    {
+      "code": "UZ1eqzOeIg0",
+      "type": "youtube"
+    }
+  ]
+}

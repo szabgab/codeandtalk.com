@@ -1,0 +1,14 @@
+{
+  "description": "As we push our servers to support more users, databases too must scale. Scaling Postgres vertically and horizontally work well for most data, but what if you really need to perform 100k writes per second? By using an in-memory data structure server called Redis along with Postgres, we will discuss playing to the strengths of each database to help scale and simplify your operations.",
+  "recorded": "2012-09-17",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/UXnVYb-mqoo/hqdefault.jpg",
+  "title": "Josiah Carlson: Scaling Postgres With Some Help from Redis",
+  "videos": [
+    {
+      "code": "UXnVYb-mqoo",
+      "type": "youtube"
+    }
+  ]
+}

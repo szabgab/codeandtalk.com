@@ -1,0 +1,14 @@
+{
+  "description": "There are decades of accumulated knowledge in optimizing relational databases, and so much of it is either unhelpful or downright counterproductive in modern, resource-contentious, cloud-based environments. We'll discuss how the cloud is different, how to think through performance with the new rules, and go through live examples of our conclusions.\n\nThere are decades of accumulated knowledge in optimizing relational databases, and so much of it is either unhelpful or downright counterproductive in modern, resource-contentious, cloud-based environments. Disks aren't disks any more, RAM might not be RAM, and latency has become more than intermittent.\n\nWe'll discuss why and how the cloud is different from traditional hardware, and how that impacts existing optimization strategies. We'll formulate new strategies for the new environments. And we'll test those strategies on PostgreSQL on actual cloud instances (including EC2).",
+  "recorded": "2012-09-17",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/4fIhhn74mtA/hqdefault.jpg",
+  "title": "John Melesky: PostgreSQL in the cloud:  Theory and Practice",
+  "videos": [
+    {
+      "code": "4fIhhn74mtA",
+      "type": "youtube"
+    }
+  ]
+}

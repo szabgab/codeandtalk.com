@@ -1,0 +1,14 @@
+{
+  "description": "This talk will present differences in implementation and approach between two major trigger-based replication systems, Slony and Bucardo, and compare/contrast the use cases that each system's particular approach to replication enable.\n\nEven though they are often paired together in the category of \"logical replication systems\", Slony and Bucardo each have a differing philosophy when it comes to the underlying assumptions and the corresponding implementation.\n\nThis talk will compare and contrast the differences in each replication system's approach to the replication itself, how it handles transaction replay, differences in trigger handling, DDL, failover, etc. Additionally, some not-strictly replication-based capabilities of Bucardo will be explored.",
+  "recorded": "2012-09-17",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/ePnQtr9ZHDw/hqdefault.jpg",
+  "title": "David Christensen: Choosing a logical replication system:  Slony vs Bucardo",
+  "videos": [
+    {
+      "code": "ePnQtr9ZHDw",
+      "type": "youtube"
+    }
+  ]
+}
