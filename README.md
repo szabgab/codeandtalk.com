@@ -20,14 +20,13 @@ Accessibility logo: http://staff.washington.edu/tft/a11ylogo/
 
 TODO
 -----
-* Add Twitter logo.
-* Add Facebook logo.
+* Add Twitter, GitHub and home logo to people and events where relevant.
 * Describe the use of the site.
 
 * Convert all the data files to JSON, beautidy them.
 * Create skeleton for each file-type.
 
-
+* Include picture of each speaker?
 * Include logo of each event?
 * Improved UI!
 
