@@ -1,8 +1,7 @@
 {
-  "description": "JSinSA 2016 conference - Johannesburg, South Africa \n\nAn annual gathering of JavaScript developers at the tip of Africa.\n\nTalk Summary:\nWhether it's a new button, new page or even route to new functionality, applications are all about features. We build them so they can be released in due time. But at times we need to integrate these features in the production codebase as early as possible. And toggles can help achieve that. Feature toggles provide a way to add functionality while retaining full control on when it should be activated. This way, applications can encapsulate features that will become visible to users once ready or even turned on for only a limited set of them. JavaScript applications can also take advantage of the many techniques of feature toggling. So, in this session I will demonstrate how to toggle one using redaction. We'll discuss the benefits of redaction-based features toggling, the testing strategies, and also some gotchas. \n\nCome and let's toggle a JS app!\n\nSpeaker Bio:\nCharlene is a developer who enjoys doing a little bit of different things. She is quite passionate about solving people problems using software, so she'll wear any hat to simplify the way to production. And, that includes spending time around release management activities. Maybe one day, she will become a DevOps; if there is such a thing. \nCharlene currently works at ThoughtWorks.\n\nVideo done by:\nhttps://www.facebook.com/William-Morrison-VideoPhotographer-1762126460674716/\n\nSponsored by Google Africa.",
   "recorded": "2016-07-16",
   "speakers": ["charlene-tshitoka"],
-  "tags": [],
+  "tags": ["feature toggle", "A/B testing"],
   "thumbnail_url": "https://i.ytimg.com/vi/N-Sg4bRGAps/hqdefault.jpg",
   "title": "Feature toggle a JS App",
   "videos": [
