@@ -1,5 +1,24 @@
 {% include 'incl/header.html' %}
 
-{% include 'incl/videos.html' %}
+
+<table id="conferences" class="display compact">
+  <thead>
+    <tr><th>Date</th><th>Title</th><th>Event</th><th>Speaker(s)</th></tr>
+  </thead>
+  <tbody>
+    {% for v in videos %}
+    <tr>
+      <td>{{ v.recorded }}</td>
+      <td><a href="/v/{{v.event}}/{{v.filename}}">{{v.title}}</a></td>
+      <td><a href="/e/{{v.event}}">{{v.event_name}}</a></td>
+      <td>
+             {% for s in v.speakers %}
+                <a href="/p/{{s}}">{{ v.speakers[s]['info']['name'] }}</a>
+             {% endfor %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 {% include 'incl/footer.html' %}
