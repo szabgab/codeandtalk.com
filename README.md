@@ -92,7 +92,6 @@ fscons-2012
 fscons-2013
 fscons-2014
 fscons-2015
-jsinsa-2016
 jsconf-eu-2015
 jsconf-us-2015
 microservicesdublin-dublin
