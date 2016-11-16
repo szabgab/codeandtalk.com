@@ -1,10 +1,11 @@
 {
-  "description": "PostgreSQL environments can quickly become very complex. Master/slave replication for disaster recovery. Barman to manage backups and WAL archiving. PGBouncer for load balancing and reduce downtime during upgrades and migrations. The list can go on and on.\n\nAnsible is a very simple and powerful open source configuration management tool distributed under the GNU General Public License that allows us to deploy and manage our PosgresQL environments as a complete stack. Using Ansible's built in PostgreSQL modules we are able to define our database infrastructure as code. We also use Ansible to orchestrate the installation and configuration of all the other components we need for our PostgreSQL environment.\n\nhttp://www.pgconf.us/2016/event/158/deploying-and-managing-postgresql-with-ansible/",
+  "description": "PostgreSQL environments can quickly become very complex. Master/slave replication for disaster recovery. Barman to manage backups and WAL archiving. PGBouncer for load balancing and reduce downtime during upgrades and migrations. The list can go on and on.\n\nAnsible is a very simple and powerful open source configuration management tool distributed under the GNU General Public License that allows us to deploy and manage our PosgresQL environments as a complete stack. Using Ansible's built in PostgreSQL modules we are able to define our database infrastructure as code. We also use Ansible to orchestrate the installation and configuration of all the other components we need for our PostgreSQL environment.",
   "recorded": "2016-04-18",
-  "speakers": [],
+  "abstract":"http://www.pgconf.us/2016/event/158/deploying-and-managing-postgresql-with-ansible/",
+  "speakers": ["david-hollenberger"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/S5esbHdnuJo/hqdefault.jpg",
-  "title": "Deploying and Managing PostgreSQL with Ansible  David Hollenberger mp4",
+  "title": "Deploying and Managing PostgreSQL with Ansible",
   "videos": [
     {
       "code": "S5esbHdnuJo",

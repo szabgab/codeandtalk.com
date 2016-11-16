@@ -1,10 +1,11 @@
 {
   "description": "We will demonstrate modern, pragmatic tools and approaches to implementing an immutable event sourcing system that serves as the foundation of our data storage strategy. Our team built on significant experiences at scale and hypergrowth with experience from Gilt, Blue Apron, and Hudson\u2019s Bay before converging on a practical approach to building applications with full visibility into every change made. We will also highlight how we solved development environments for engineers based on a novel, docker based approach to publishing and sharing versioned and fully functional psql database instances.\n\nhttp://www.pgconf.us/2016/event/153/achieving-a-state-of-flow-continuous-integration-and-practical-event-sourcing-w-postgresql/",
   "recorded": "2016-04-18",
-  "speakers": [],
-  "tags": [],
+  "speakers": ["paolo-lim"],
+  "abstract" : "http://www.pgconf.us/2016/event/153/achieving-a-state-of-flow-continuous-integration-and-practical-event-sourcing-w-postgresql/",
+  "tags": ["PostgreSQL"],
   "thumbnail_url": "https://i.ytimg.com/vi/Cz42p3-KpvA/hqdefault.jpg",
-  "title": "Achieving a State of Flow  Continuous Integration and Practical Event Sourcing w  PostgreSQL  Paolo",
+  "title": "Achieving a State of Flow  Continuous Integration and Practical Event Sourcing w/ PostgreSQL",
   "videos": [
     {
       "code": "Cz42p3-KpvA",

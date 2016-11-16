@@ -1,7 +1,8 @@
 {
-  "description": "PostgreSQL RDBMS is a complex piece of software that comprises many\nsubsystems, and its overall performance depends on these subsystems.\nFor an optimal performance, Postgres collects various statistics and\ninformation from these subsystems. This helps Postgres to estimate its\neffectiveness and act to improve the performance. However, there is a\nlot of this information and statistics, and it is too complex to be\ninterpreted easily. Statistics processing and correct interpretation\nis not an easy task itself, but, to make the matter worse, there are\nplenty of available tools that may confuse even an experienced DBA.\n\nhttp://www.pgconf.us/2016/event/131/deep-dive-into-postgresql-statistics/",
+  "description": "PostgreSQL RDBMS is a complex piece of software that comprises many\nsubsystems, and its overall performance depends on these subsystems.\nFor an optimal performance, Postgres collects various statistics and\ninformation from these subsystems. This helps Postgres to estimate its\neffectiveness and act to improve the performance. However, there is a\nlot of this information and statistics, and it is too complex to be\ninterpreted easily. Statistics processing and correct interpretation\nis not an easy task itself, but, to make the matter worse, there are\nplenty of available tools that may confuse even an experienced DBA.",
   "recorded": "2016-04-18",
-  "speakers": [],
+  "abstract": "http://www.pgconf.us/2016/event/131/deep-dive-into-postgresql-statistics/",
+  "speakers": ["alexey-lesovsky"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/4wUZBKGw7Xs/hqdefault.jpg",
   "title": "Deep Dive into PostgresSQL Statistics",
