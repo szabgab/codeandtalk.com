@@ -28,14 +28,12 @@ TODO
 
 * Include picture of each speaker?
 * Include logo of each event?
-* Improved UI!
 
 * Change the sitemap.xml creating code to use the date of the files for real date.
 * For sitemap of the collection pages, use the timestamp of the most recent event in that list.
 * For sitemap of videos, use the date of the file.
 
 * Update the description of the data and the collection process.
-* Add tags to videos for better indexing
 
 * Add JavaScript based searching for videos.
 
@@ -73,46 +71,6 @@ TODO Check for events:
 * https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A/playlists
 * https://github.com/nodeconf
 
-
-TODO videos to be processed
-----------------------------
-The videos of these conferences were already added, but the speaker information
-has not been added yet:
-
-apachecon-na-2013
-apachecon-na-2014
-apachecon-na-2015
-cloudstack-collaboration-na-2014
-deccanrubyconf-2015
-deccanrubyconf-2016
-devoxx-france-2015
-empirenode-2015
-fscons-2012
-fscons-2013
-fscons-2014
-fscons-2015
-jsconf-eu-2015
-jsconf-us-2015
-microservicesdublin-dublin
-nodeconf-eu-2015
-nodeconf-eu-2016
-nodeconf-london-2016
-nodevember-2014
-nodevember-2015
-railsconf-2016
-rubyconf-india-2014
-rubyconf-india-2015
-rubyconf-india-2016
-t-dose-2011
-t-dose-2012
-t-dose-2013
-t-dose-2014
-t-dose-2015
-t-dose-2007
-t-dose-2008
-t-dose-2009
-t-dose-2010
-yougottalovefrontend-2016
 
 
 Other sources
