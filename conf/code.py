@@ -106,13 +106,20 @@ class GenerateSite(object):
         for event in events:
             dir_path = os.path.join(path, event)
             for video_file in os.listdir(dir_path):
+                if video_file[-5:] != '.json':
+                    print("WARN: Unknonw file type: {}".format(video_file))
+                    continue
+
                 video_file_path = os.path.join(dir_path, video_file)
                 with open(video_file_path) as fh:
-                    video = json.load(fh)
-                    video['filename'] = video_file[0:-5]
-                    video['event']    = event
-                    video['file_date'] = datetime.fromtimestamp( os.path.getctime(video_file_path) )
-                    self.videos.append(video)
+                    try:
+                        video = json.load(fh)
+                        video['filename'] = video_file[0:-5]
+                        video['event']    = event
+                        video['file_date'] = datetime.fromtimestamp( os.path.getctime(video_file_path) )
+                        self.videos.append(video)
+                    except Exception as e:
+                        exit("There was an exception reading {}\n{}".format(video_file_path, e))
     
                     if 'tags' in video:
                         tags = []
