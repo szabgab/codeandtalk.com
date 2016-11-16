@@ -263,7 +263,13 @@ class GenerateSite(object):
         for e in self.conferences:
             events[ e['nickname'] ] = e
         for v in self.videos:
-            v['twitter_description'] = html2txt(v['description'])
+            short_description = html2txt(v['description'])
+            short_description = re.sub(r'"', '', short_description)
+            short_description = re.sub(r'\s+', ' ', short_description)
+            v['short_description'] = short_description
+            limit = 128
+            if len(short_description) > 128:
+                v['short_description'] =  short_description[0:limit]
             v['event_name'] = events[ v['event'] ]['name']
             speakers = {}
             for s in v['speakers']:

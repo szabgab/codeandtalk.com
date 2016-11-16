@@ -20,9 +20,17 @@
       <meta name="twitter:site" content="@codeandtalk" />
       <meta name="twitter:creator" content="@szabgab" />
       <meta name="twitter:title" content="{{ video.title }}" />
-      <meta name="twitter:description" content="{{ video.twitter_description }}" />
+      <meta name="twitter:description" content="{{ video.short_description }}" />
       <meta name="twitter:image" content="{{ video.thumbnail_url }}" />
+
+      <meta property="og:title" content="{{ video.title }}"/>
+      <meta property="og:type" content="article"/>
+      <meta property="og:image" content="{{ video.thumbnail_url }}"/>
+      <meta property="og:site_name" content="Code and Talk"/>
+      <meta property="og:description" content="{{ video.short_description }}"/>
+      <meta property="og:video" content="https://www.youtube.com/watch?v={{ video.videos[0].code }}" />
    {% endif %}
+
 
 </head>
 <body>
