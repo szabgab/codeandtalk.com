@@ -1,0 +1,14 @@
+{
+  "description": "Erik Michaels Ober at Rails Israel 2016\n------------------------\n\nThe OpenStruct class was written by Matz in 1998 and has been part of the standard library since Ruby 1.2. The idea behind OpenStruct\u2014a data structure that provides method access to arbitrary attributes\u2014is broadly useful, for example, to interact with API responses or as a test double. However, use of metaprogramming to dynamically define attribute methods at runtime made OpenStruct slow.",
+  "recorded": "2016-11-24",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/6lQeBfSVrpk/hqdefault.jpg",
+  "title": "The Value of Being Lazy, or How I Made OpenStruct 10X Faster",
+  "videos": [
+    {
+      "code": "6lQeBfSVrpk",
+      "type": "youtube"
+    }
+  ]
+}
