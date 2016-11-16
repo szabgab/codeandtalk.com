@@ -100,18 +100,22 @@ railsconf-2016
 rubyconf-india-2014
 rubyconf-india-2015
 rubyconf-india-2016
-t-dose-2011
-t-dose-2012
-t-dose-2013
-t-dose-2014
-t-dose-2015
 t-dose-2007
 t-dose-2008
 t-dose-2009
 t-dose-2010
+t-dose-2011
+t-dose-2012
+t-dose-2013
+t-dose-2014
 yougottalovefrontend-2016
 pgconfus-2015
 pgconfus-2016
+postgresopen-2012
+postgresopen-2013
+postgresopen-2014
+postgresopen-2015
+postgresopen-2016
 
 Add tags, update descriptions
 -----------------------------
