@@ -1,0 +1,14 @@
+{
+  "description": "Check out http://www.pgconf.us/2015/event/65/ for the full talk details.\n\nPgBouncer is primarily thought of as a connection pooler, but it can be much more. As a key component in many high-performance PostgreSQL installations, PgBouncer can help with connection routing, queuing, load management, and database maintenance.\n\nLearn how to use PgBouncer, how to configure it for the right application, how to monitor it appropriately, what errors to look for, and when to consider alternatives.\n\nAbout the Speaker\nPeter Eisentraut is a developer on the PostgreSQL project, a database administrator, and a compulsive automator of everything.",
+  "recorded": "2015-03-25",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/CAKI_eZiRAU/hqdefault.jpg",
+  "title": "Connection pooling, routing, and queuing with PgBouncer",
+  "videos": [
+    {
+      "code": "CAKI_eZiRAU",
+      "type": "youtube"
+    }
+  ]
+}

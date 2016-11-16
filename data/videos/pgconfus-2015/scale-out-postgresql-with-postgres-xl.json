@@ -1,0 +1,14 @@
+{
+  "description": "Check out http://www.pgconf.us/2015/event/67/ for the full talk details.\n\nOpen source Postgres-XL allows users to scale-out PostgreSQL for both OLTP and OLAP workloads, all while maintaining cluster-wide consistency across multiple nodes.\n\nThis session will discuss the capabilities of Postgres-XL and how, by bringing massively parallel processing (MPP) to the community, PostgreSQL becomes a strong candidate for Big Data analytics. In addition, we discuss how Postgres-XL implements cluster-wide ACID and Multi-version Concurrency Control (MVCC) support.\n\nThere will also be a demo of how to install a small local cluster on your laptop for testing.\n\nAbout the Speaker\nMason Sharp has been an active developer of multiple PostgreSQL cluster projects. He is the original architect of GridSQL as well as a member of the original Postgres-XC development team.",
+  "recorded": "2015-03-25",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/XX-0y2Ryaic/hqdefault.jpg",
+  "title": "Scale-out PostgreSQL with Postgres-XL",
+  "videos": [
+    {
+      "code": "XX-0y2Ryaic",
+      "type": "youtube"
+    }
+  ]
+}

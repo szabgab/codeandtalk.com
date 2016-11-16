@@ -1,0 +1,14 @@
+{
+  "description": "To get the most out of PostgreSQL when used in an I/O intensive environment will often require some tuning. Aside from a few basic guidelines, tuning requires some understanding of how Postgres does I/O, how it caches data and so forth. Among others we'll go through the architecture of the buffer cache ('shared_buffers'), how checkpointing (checkpoint_segments) influences performance, what the wal writer and background writer do; and how to tune each of those. While hopefully most of the time staying above the too nitty gritty details of how exactly things are implemented. In addition there are some recognized problems with postgres in that area - I'll try to describe which those are, and how those might be/are getting fixed.\n\nhttp://www.pgconf.us/2016/event/151/io-in-postgres-architecture-tuning-problems/",
+  "recorded": "2016-04-18",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/xGsyZVOhEh4/hqdefault.jpg",
+  "title": "IO in Postgres   Architecture, Tuning, Problems  Andres Freund",
+  "videos": [
+    {
+      "code": "xGsyZVOhEh4",
+      "type": "youtube"
+    }
+  ]
+}

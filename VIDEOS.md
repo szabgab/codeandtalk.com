@@ -110,6 +110,8 @@ t-dose-2008
 t-dose-2009
 t-dose-2010
 yougottalovefrontend-2016
+pgconfus-2015
+pgconfus-2016
 
 Add tags, update descriptions
 -----------------------------

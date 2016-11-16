@@ -1,0 +1,14 @@
+{
+  "description": "A real-world example of how to configure HA for PostgreSQL using repmgr for failure detection and failover, and pgbouncer to isolate the old master. \nThis example is based in a real case we have in Ecuador that has survived some network outages and other kind of not expected failures\n\nhttp://www.pgconf.us/2016/event/133/ha-postgresql-cluster-with-repmgr-and-pgbouncer/",
+  "recorded": "2016-04-18",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/DjNbNpURyz4/hqdefault.jpg",
+  "title": "HA PostgreSQL cluster with repmgr and pgbouncer  Jaime Casanova",
+  "videos": [
+    {
+      "code": "DjNbNpURyz4",
+      "type": "youtube"
+    }
+  ]
+}

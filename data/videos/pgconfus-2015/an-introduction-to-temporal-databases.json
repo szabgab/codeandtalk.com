@@ -1,0 +1,14 @@
+{
+  "description": "Check out http://www.pgconf.us/2015/event/83/ for the full talk details.\n\nIn the past manipulating temporal data was rather ad hoc and in the form of simple solutions. Today organizations strongly feel the need to support temporal data in a coherent way. Consequently, there is an increasing interest in temporal data and major database vendors recently provide tools for storing and manipulating temporal data. However, these tools are far from being complete in addressing the main issues in handling temporal data. The presentation uses the relational data model in addressing the subtle issues in managing temporal data: comparing database states at two different time points, capturing the periods for concurrent events and accessing to times beyond these periods, sequential semantics, handling multi-valued attributes, temporal grouping and coalescing, temporal integrity constraints, rolling the database to a past state and restructuring temporal data, etc. It also lays the foundation in managing temporal data in NoSQL databases as well. Having ranges as a data type PostgresSQL has a solid base in implementing a temporal database that can address many of these issues successfully.\n\nAbout the Speaker\nAbdullah Uz Tansel is professor of Computer Information Systems at the Zicklin School of Business at Baruch College and Computer Science PhD program at the Graduate Center. His research interests are database management systems, temporal databases, data mining, and semantic web. Dr. Tansel published many articles in the conferences and journals of ACM and IEEE. Dr. Tansel has a pending patent application on semantic web. Currently, he is researching temporality in RDF and OWL, which are semantic web languages. Dr. Tansel served in program committees of many conferences and headed the editorial board that published the first book on temporal databases in 1993. He is also one the editors of the forth coming book titled Recommendation and Search in Social Networks to be published by Springer. He received BS, MS and PhD degrees from the Middle East Technical University, Ankara Turkey. He also completed his MBA degree in the University of Southern California. Dr. Tansel is a member of ACM and IEEE Computer Society.",
+  "recorded": "2015-03-25",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/1VYhTOHhzbc/hqdefault.jpg",
+  "title": "An Introduction to Temporal Databases",
+  "videos": [
+    {
+      "code": "1VYhTOHhzbc",
+      "type": "youtube"
+    }
+  ]
+}

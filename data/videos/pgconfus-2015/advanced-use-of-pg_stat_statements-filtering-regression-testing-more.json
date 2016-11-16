@@ -1,0 +1,14 @@
+{
+  "description": "Check out http://www.pgconf.us/2015/event/76/ for the full talk details.\n\nThis talk will go into lessons learned when using the pg_stat_statements extension for collecting query statistics, and present new open-source tools we\u2019ve developed for working with the extension output:\n\npg_query: A Ruby extension to parse SQL queries into parse trees using the PostgreSQL parser. This can be used for filtering pg_stat_statements output (e.g. finding all queries on a certain table) and works with normalized queries, thanks to parser patches.\n\npg_simulator: Tool for loading production statistics into a sandbox database and running EXPLAIN against collected queries. Useful for regression testing before deploying new versions of client applications to production (and finding missing indices, etc).\n\nThis talk is primarily aimed at database admins trying to monitor database performance, and hackers interested in the tooling & pg_stat_statements bug fixes we\u2019ll propose for the 9.5 cycle.\n\nAbout the Speaker\nFounder & Tech at pganalyze.com, the Hosted PostgreSQL Performance Monitoring Tool.\n\nHelping out ProductHunt.com with their scaling efforts.\n\nAuthor of pg_query (Ruby extension to parse queries using the raw_parser) and pg_simulator (Helper tool for copying production statistics to a test system).\n\nI love working with PostgreSQL statistics and visualizing them.",
+  "recorded": "2015-03-25",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/hrBchZ_W6GE/hqdefault.jpg",
+  "title": "Advanced use of pg_stat_statements: Filtering, Regression Testing & More",
+  "videos": [
+    {
+      "code": "hrBchZ_W6GE",
+      "type": "youtube"
+    }
+  ]
+}

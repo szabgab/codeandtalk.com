@@ -1,0 +1,14 @@
+{
+  "description": "We've embarked on a project to migrate all of our live data into RDS. We operate 24/7/365 and must maximize availability of our systems. Since Postgres is at the core of everything we do, database downtime is not an option.\n\nThis presentation will step through our experience migrating our production database into RDS. We aren't experts, but we have strict requirements. We will present our approach to the migration, the results, what lessons we learned along the way, and a number of comparative measurements.\n\nhttp://www.pgconf.us/2016/event/152/migrating-a-live-postgres-database-into-rds-with-no-downtime-experiences-and-lessons-learned/",
+  "recorded": "2016-04-18",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/44JPXkoOVPg/hqdefault.jpg",
+  "title": "Migrating a live Postgres database into RDS with no downtime  Experiences and Lessons Learned  David",
+  "videos": [
+    {
+      "code": "44JPXkoOVPg",
+      "type": "youtube"
+    }
+  ]
+}

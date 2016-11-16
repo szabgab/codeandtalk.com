@@ -1,0 +1,14 @@
+{
+  "description": "Provide an introduction and setup for consul as the means of providing highly available PostgreSQL in local and geographically disparate data centers or cloud providers. This talk will include:\n\n*) Introduction to consul and its architecture\n*) Setup of a single consul cluster\n*) Setup for a few sample database instances (OLAP and OLTP)\n*) Firewall requirements\n*) Integration with bind, djbdns, and dnsmasq\n*) Setup geographic failover to two different data centers and cloud providers\n*) Various Best Practices tips and suggestions\n*) Q&A\n\nhttp://www.pgconf.us/2016/event/157/postgresql-high-availability-and-geographic-locality-using-consul/",
+  "recorded": "2016-04-18",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/QnpPNxHPY7k/hqdefault.jpg",
+  "title": "PostgreSQL High Availability and Geographic Locality using consul  Sean Chittenden",
+  "videos": [
+    {
+      "code": "QnpPNxHPY7k",
+      "type": "youtube"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Check out http://www.pgconf.us/2015/event/89/ for the full talk details.\n\nThis presentation will take a look at the performance changes in the development version of PostgreSQL. A selection of features, some proposed and some already committed, are evaluated using synthetic open source workloads. One of the workloads used is the former OSDL's Database Test 3 that consists of business oriented ad-hob queries with concurrent data modification.\n\nSome of these proposed features include:\n\n- New index type called Block Range Indexes (BRIN)\n- Improvements to the buffer cache management\n- Improvements to the data lock management\n- Other internal data structure changes\n\nAbout the Speaker\nSimon works as an Architect and Developer of new features for PostgreSQL, setting technical directions for 2ndQuadrant and as a Database Systems Architect for 2ndQuadrant customers. Simon is the author of PostgreSQL 9 Admin Cookbook.",
+  "recorded": "2015-03-25",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/K0xHOPXZq9g/hqdefault.jpg",
+  "title": "PostgreSQL Performance Presentation (9.5devel edition)",
+  "videos": [
+    {
+      "code": "K0xHOPXZq9g",
+      "type": "youtube"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Check out http://www.pgconf.us/2015/event/108/ for the full talk details.\n\nEverybody loves fashion! That's why Zalando has managed to grow from a small, Berlin-based startup into Europe\u2019s leading online fashion platform in just five years. But growing into a 15-country, publicly traded fashion destination can be difficult. Our creative team of product owners propose new ideas and feature requests every day, and our developers have to work hard to keep up with this pace of constant innovation. Relying on traditional relational database systems is perceived to be a limiting strategy when working in fast-paced development environments, mostly because these systems lack concurrent data model changes, offer only a few sets of data types, and present upfront complexity when it comes to learning how they work.\n\nAbout the Speaker\nI am leading database development team Zalando for 4 years now. Back then it was a very fast growing start-up with about 40 developers and my goal was to ensure, that company can grow fast and that developers have as little problems using relational databases as possible. Now, as Zalando became one of the biggest online fashion retailers in Europe and Zalando Technology employs more then 600 people, PostgreSQL stays the database of choice for storing and processing most of the data, including financial, customer and logistics processing information. I and my team have gathered huge experience on every aspect of PostgreSQL operations, starting from managing database hardware and finishing with organizing efficient and fast development process that lets our teams roll out hundreds of database model changes per week.",
+  "recorded": "2015-03-25",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/1Ug3aCkBRfg/hqdefault.jpg",
+  "title": "Fashion Is Hard. PostgreSQL Is Easy.",
+  "videos": [
+    {
+      "code": "1Ug3aCkBRfg",
+      "type": "youtube"
+    }
+  ]
+}
