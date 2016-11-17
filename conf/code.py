@@ -270,7 +270,7 @@ class GenerateSite(object):
             limit = 128
             if len(short_description) > 128:
                 v['short_description'] =  short_description[0:limit]
-            v['event_name'] = events[ v['event'] ]['name']
+            v['event'] = events[ v['event'] ]
             speakers = {}
             for s in v['speakers']:
                 if s in self.people:
@@ -279,8 +279,8 @@ class GenerateSite(object):
                     print("WARN: Missing people file for '{}'".format(s))
             v['speakers'] = speakers
     
-            tweet_video = '{} https://codeandtalk.com/v/{}/{}'.format(v['title'], v['event'], v['filename'])
-            tw_id = events[ v['event'] ].get('twitter', '')
+            tweet_video = '{} https://codeandtalk.com/v/{}/{}'.format(v['title'], v['event']['nickname'], v['filename'])
+            tw_id = v['event'].get('twitter', '')
             if tw_id:
                 tweet_video += ' presented @' + tw_id
             #print(v['speakers'])
@@ -313,9 +313,9 @@ class GenerateSite(object):
    
         ev = {}
         for v in self.videos:
-            if v['event'] not in ev:
-                ev[ v['event'] ] = []
-            ev[ v['event'] ].append(v)
+            if v['event']['nickname'] not in ev:
+                ev[ v['event']['nickname'] ] = []
+            ev[ v['event']['nickname'] ].append(v)
     
         for event in self.conferences:
             if event['nickname'] in ev:
@@ -676,18 +676,18 @@ class GenerateSite(object):
         if not os.path.exists(root + '/v/'):
             os.mkdir(root + '/v/')
         for video in self.videos:
-            if not os.path.exists(root + '/v/' + video['event']):
-                os.mkdir(root + '/v/' + video['event'])
+            if not os.path.exists(root + '/v/' + video['event']['nickname']):
+                os.mkdir(root + '/v/' + video['event']['nickname'])
             #print(root + '/v/' + video['event'] + '/' + video['filename'])
             #exit()
-            with open(root + '/v/' + video['event'] + '/' + video['filename'], 'w', encoding="utf-8") as fh:
+            with open(root + '/v/' + video['event']['nickname'] + '/' + video['filename'], 'w', encoding="utf-8") as fh:
                 fh.write(video_template.render(
                     h1          = video['title'],
                     title       = video['title'],
                     video       = video,
                 ))
             self.sitemap.append({
-                'url' : '/v/' + video['event'] + video['filename'],
+                'url' : '/v/' + video['event']['nickname'] + video['filename'],
                 'lastmod' : video['file_date'],
             })
      

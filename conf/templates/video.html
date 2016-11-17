@@ -8,15 +8,31 @@
 <!--
 <img src="{{video.thumbnail_url}}" />
 -->
-<div>Recorded on {{video.recorded}} at <a href="/e/{{video.event}}">{{video.event_name}}</a></div>
+<div>
+   <i class="fa fa-calendar"></i> Recorded on {{video.recorded}} at <a href="{{ video.event.url }}">{{ video.event.name }}</a>
+</div>
+<div>
+Look for other videos at <a href="/e/{{video.event.nickname}}">{{video.event.name}}</a>.
+</div>
 
 <div>
-<a href="https://twitter.com/home?status={{ video['tweet_video'] }}" target="_blank">Tweet this video</a>
+<a href="https://twitter.com/home?status={{ video['tweet_video'] }}" target="_blank"><i class="fa fa-twitter fa-2x">Tweet this video</i></a>
 </div>
 
 <ul>
 {% for s in video.speakers %}
-  <li><a href="/p/{{s}}">{{video.speakers[s].info.name}}</a></li>
+  <li>
+    <a href="/p/{{s}}">{{video.speakers[s].info.name}}</a>
+    {% if video.speakers[s].info.twitter %}
+       <a href="http://twitter.com/{{ video.speakers[s].info.twitter }}"><i class="fa fa-twitter"></i></a>
+    {% endif %}
+    {% if video.speakers[s].info.github %}
+       <a href="https://github.com/{{ video.speakers[s].info.github }}"><i class="fa fa-github"></i></a>
+    {% endif %}
+    {% if video.speakers[s].info.home %}
+       <a href="{{ video.speakers[s].info.home }}"><i class="fa fa-home"></i></a>
+    {% endif %}
+  </li>
 {% endfor %}
 </ul>
 
