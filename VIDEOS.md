@@ -115,7 +115,6 @@ postgresopen-2012
 postgresopen-2013
 postgresopen-2014
 postgresopen-2015
-postgresopen-2016
 
 Add tags, update descriptions
 -----------------------------
