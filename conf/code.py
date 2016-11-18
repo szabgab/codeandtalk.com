@@ -270,7 +270,11 @@ class GenerateSite(object):
             limit = 128
             if len(short_description) > 128:
                 v['short_description'] =  short_description[0:limit]
-            v['event'] = events[ v['event'] ]
+            v['event'] = {
+                'name' : events[ v['event'] ]['name'],
+                'nickname' : events[ v['event'] ]['nickname'],
+                'url' : events[ v['event'] ]['url'],
+            }
             speakers = {}
             for s in v['speakers']:
                 if s in self.people:

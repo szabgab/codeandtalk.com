@@ -1,11 +1,11 @@
   {% for v in videos %}
     <div class="video-list-entry">
-       <a href="/v/{{v.event}}/{{v.filename}}"><img class="list-thumbnail" src="{{v.thumbnail_url}}" alt="{{v.title}}" /></a>
+       <a href="/v/{{v.event.nickname}}/{{v.filename}}"><img class="list-thumbnail" src="{{v.thumbnail_url}}" alt="{{v.title}}" /></a>
        <section class="details">
-          <h4 class="entry-title"><a href="/v/{{v.event}}/{{v.filename}}">{{v.title}}</a></h4>
+          <h4 class="entry-title"><a href="/v/{{v.event.nickname}}/{{v.filename}}">{{v.title}}</a></h4>
           <footer>
             <div class="recorded">{{v.recorded}}</div>
-            <div class="event">From <a href="/e/{{v.event}}">{{v.event_name}}</a></div>
+            <div class="event">From <a href="/e/{{v.event.nickname}}">{{v.event.name}}</a></div>
             <div class="speakers">
             By: 
              {% for s in v.speakers %}
