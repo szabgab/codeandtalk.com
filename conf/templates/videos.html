@@ -9,8 +9,8 @@
     {% for v in videos %}
     <tr>
       <td>{{ v.recorded }}</td>
-      <td><a href="/v/{{v.event}}/{{v.filename}}">{{v.title}}</a></td>
-      <td><a href="/e/{{v.event}}">{{v.event_name}}</a></td>
+      <td><a href="/v/{{v.event.nickname}}/{{v.filename}}">{{v.title}}</a></td>
+      <td><a href="/e/{{v.event.nickname}}">{{v.event.name}}</a></td>
       <td>
              {% for s in v.speakers %}
                 <a href="/p/{{s}}">{{ v.speakers[s]['info']['name'] }}</a>
