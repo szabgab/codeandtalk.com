@@ -44,7 +44,7 @@ class GenerateSite(object):
             'has_diversity_tickets' : 0,
             'has_diversity_tickets_future' : 0,
         }
- 
+
     def read_series(self):
         self.event_in_series = {}
         with open('data/series.json') as fh:
@@ -87,18 +87,18 @@ class GenerateSite(object):
                 }
             except Exception as e:
                 exit("ERROR: {} in file {}".format(e, filename))
-    
+
         return
-    
+
     def read_tags(self):
         with open('data/tags.csv', encoding="utf-8") as fh:
-            rd = csv.DictReader(fh, delimiter=';') 
+            rd = csv.DictReader(fh, delimiter=';')
             for row in rd:
                 path = topic2path(row['name'])
                 self.tags[ path ] = new_tag(row['name'])
         #print(self.tags)
         return
-    
+
     def read_videos(self):
         path = 'data/videos'
         events = os.listdir(path)
@@ -114,7 +114,7 @@ class GenerateSite(object):
                         video = json.load(fh)
                         video['filename'] = video_file[0:-5]
                         video['event']    = event
-                        video['file_date'] = datetime.fromtimestamp( os.path.getctime(video_file_path) )
+                        video['file_date'] = datetime.fromtimestamp( os.path.getctime(video_file_path) ).strftime('%Y-%m-%d')
 
                         if os.path.exists(html_file_path):
                             with open(html_file_path) as hfh:
@@ -122,7 +122,7 @@ class GenerateSite(object):
                         self.videos.append(video)
                     except Exception as e:
                         exit("There was an exception reading {}\n{}".format(video_file_path, e))
-    
+
                     if 'tags' in video:
                         tags = []
                         for t in video['tags']:
@@ -130,17 +130,17 @@ class GenerateSite(object):
                             tags.append({
                                 'text': t,
                                 'link': p,
-                            }) 
+                            })
                             if p not in self.tags:
                                 self.tags[p] = new_tag(t)
                             self.tags[p]['videos'].append(video)
                         video['tags'] = tags
         self.stats['videos'] = len(self.videos)
         return
-    
+
     def read_events(self):
         conferences = []
-    
+
         for filename in glob.glob("data/events/*.txt"):
             #print("Reading {}".format(filename))
             conf = {}
@@ -161,7 +161,7 @@ class GenerateSite(object):
                         line = re.sub(r'\s+\Z', '', line)
                         k,v = re.split(r'\s*:\s*', line, maxsplit=1)
                         this[k] = v
-    
+
                 my_topics = []
                 #print(this)
                 if this['topics']:
@@ -175,7 +175,7 @@ class GenerateSite(object):
                             self.tags[p] = new_tag(t)
                         self.tags[p]['events'].append(this)
                 this['topics'] = my_topics
-    
+
                 this['cfp_class'] = 'cfp_none'
                 cfp = this.get('cfp_date', '')
                 if cfp != '':
@@ -183,13 +183,13 @@ class GenerateSite(object):
                         this['cfp_class'] = 'cfp_past'
                     else:
                         this['cfp_class'] = 'cfp_future'
-    
+
                 if 'city' not in this or not this['city']:
                     exit("City is missing from {}".format(this))
-    
+
                 city_name = '{}, {}'.format(this['city'], this['country'])
                 city_page = topic2path('{} {}'.format(this['city'], this['country']))
-    
+
                 # In some countris we require state:
                 if this['country'] in ['Australia', 'Brasil', 'India', 'USA']:
                     if 'state' not in this or not this['state']:
@@ -198,15 +198,15 @@ class GenerateSite(object):
                     city_page = topic2path('{} {} {}'.format(this['city'], this['state'], this['country']))
                 this['city_name'] = city_name
                 this['city_page'] = city_page
-    
+
                 conferences.append(this)
             except Exception as e:
                 exit("ERRORa: {} in file {}".format(e, filename))
-    
+
         self.conferences = sorted(conferences, key=lambda x: x['start_date'])
 
         return
-    
+
     def read_episodes(self):
         self.episodes = []
         for src in self.sources:
@@ -228,7 +228,7 @@ class GenerateSite(object):
                         exit("ERROR: Could not read in {} {}".format(file, e))
                         src['episodes'] = [] # let the rest of the code work
                         pass
-    
+
         for e in self.episodes:
             #print(e)
             #exit()
@@ -245,10 +245,10 @@ class GenerateSite(object):
                         # TODO report tag missing from the tags.csv file
                         self.tags[path] = new_tag(tag)
                     self.tags[path]['episodes'].append(e)
-    
+
                 e['tags'] = tags
-    
-    
+
+
     def preprocess_events(self):
         events = {}
         self.countries = {}
@@ -282,7 +282,7 @@ class GenerateSite(object):
                 else:
                     print("WARN: Missing people file for '{}'".format(s))
             v['speakers'] = speakers
-    
+
             tweet_video = '{} https://codeandtalk.com/v/{}/{}'.format(v['title'], v['event']['nickname'], v['filename'])
             tw_id = v['event'].get('twitter', '')
             if tw_id:
@@ -299,10 +299,10 @@ class GenerateSite(object):
                     if not re.search(r'-', t['link']) and len(t['link']) < 20:
                         tweet_video += ' #' + t['link']
             v['tweet_video'] = urllib.parse.quote(tweet_video)
-    
+
             #print(speakers)
             #exit()
-                
+
         for e in self.episodes:
             if 'guests' in e:
                 for g in e['guests'].keys():
@@ -314,17 +314,17 @@ class GenerateSite(object):
                     if h not in self.people:
                         exit("ERROR: '{}' is not in the list of people".format(h))
                     self.people[h]['hosting'].append(e)
-   
+
         ev = {}
         for v in self.videos:
             if v['event']['nickname'] not in ev:
                 ev[ v['event']['nickname'] ] = []
             ev[ v['event']['nickname'] ].append(v)
-    
+
         for event in self.conferences:
             if event['nickname'] in ev:
                 event['videos'] = ev[ event['nickname'] ]
-    
+
             if not 'country' in event or not event['country']:
                 exit('Country is missing from {}'.format(event))
             country_name = event['country']
@@ -336,7 +336,7 @@ class GenerateSite(object):
                     'events' : []
                 }
             self.countries[country_page]['events'].append(event)
-    
+
             city_page = event['city_page']
             if city_page not in self.cities:
                 self.cities[city_page] = {
@@ -344,7 +344,7 @@ class GenerateSite(object):
                     'events' : []
                 }
             self.cities[city_page]['events'].append(event)
-    
+
             if event.get('diversitytickets'):
                 self.stats['has_diversity_tickets'] += 1
                 if event['start_date'] >= self.now:
@@ -357,7 +357,7 @@ class GenerateSite(object):
                 self.stats['has_a11y']
                 if event['start_date'] >= self.now:
                     self.stats['has_a11y_future'] += 1
-    
+
             if 'cfp_date' in event and event['cfp_date'] >= self.now:
                 tweet_cfp = 'The CfP of {} ends on {} see {} via https://codeandtalk.com/'.format(event['name'], event['cfp_date'], event['url'])
                 if event['twitter']:
@@ -365,7 +365,7 @@ class GenerateSite(object):
                 for t in event['topics']:
                     tweet_cfp += ' #' + t['name']
                 event['tweet_cfp'] = urllib.parse.quote(tweet_cfp)
-    
+
             tweet_me = event['name']
             tweet_me += ' on ' + event['start_date']
             tweet_me += ' in ' + event['city']
@@ -379,19 +379,19 @@ class GenerateSite(object):
                 tweet_me += ' #' + t['name']
             #tweet_me += ' via @codeandtalk'
             tweet_me += ' via https://codeandtalk.com/'
-    
+
             event['tweet_me'] = urllib.parse.quote(tweet_me)
-    
+
         self.stats['coc_future_perc']  = int(100 * self.stats['has_coc_future'] / self.stats['future'])
         self.stats['diversity_tickets_future_perc']  = int(100 * self.stats['has_diversity_tickets_future'] / self.stats['future'])
         self.stats['a11y_future_perc'] = int(100 * self.stats['has_a11y_future'] / self.stats['future'])
-    
+
         return
 
     def generate_podcast_pages(self):
         env = Environment(loader=PackageLoader('conf', 'templates'))
-    
-    
+
+
         person_template = env.get_template('person.html')
         if not os.path.exists('html/p/'):
             os.mkdir('html/p/')
@@ -403,7 +403,7 @@ class GenerateSite(object):
             name = self.people[p]['info']['name']
             path = '/p/' + p
             self.search[name] = path
-    
+
             with open('html' + path, 'w', encoding="utf-8") as fh:
                 fh.write(person_template.render(
                     id     = p,
@@ -411,7 +411,7 @@ class GenerateSite(object):
                     h1     = self.people[p]['info']['name'],
                     title  = 'Podcasts of and interviews with {}'.format(self.people[p]['info']['name']),
                 ))
-    
+
         source_template = env.get_template('podcast.html')
         if not os.path.exists('html/s/'):
             os.mkdir('html/s/')
@@ -426,16 +426,16 @@ class GenerateSite(object):
                     ))
             except Exception as e:
                 print("ERROR: {}".format(e))
-                
-    
+
+
         tag_template = env.get_template('tag.html')
         if not os.path.exists('html/t/'):
             os.mkdir('html/t/')
-    
+
         self.stats['podcasts'] = len(self.sources)
         self.stats['people']   = len(self.people)
         self.stats['episodes'] = sum(len(x['episodes']) for x in self.sources)
-    
+
         with open('html/people', 'w', encoding="utf-8") as fh:
             fh.write(env.get_template('people.html').render(
                 h1      = 'List of people',
@@ -459,13 +459,13 @@ class GenerateSite(object):
     def save_search(self):
         with open('html/search.json', 'w', encoding="utf-8") as fh:
             json.dump(self.search, fh)
-    
+
         return
 
     def generate_pages(self):
         root = 'html'
         env = Environment(loader=PackageLoader('conf', 'templates'))
-    
+
         self.generate_video_pages()
         #print(self.videos)
         #exit()
@@ -479,7 +479,7 @@ class GenerateSite(object):
         self.sitemap.append({
             'url' : '/series',
         })
- 
+
         with open(root + '/videos', 'w', encoding="utf-8") as fh:
             fh.write(env.get_template('videos.html').render(
                 h1     = 'Videos',
@@ -489,14 +489,14 @@ class GenerateSite(object):
         self.sitemap.append({
             'url' : '/videos',
         })
-    
-    
+
+
         event_template = env.get_template('event.html')
         if not os.path.exists(root + '/e/'):
             os.mkdir(root + '/e/')
         for event in self.conferences:
             #print(event['nickname'])
-    
+
             try:
                 with open(root + '/e/' + event['nickname'], 'w', encoding="utf-8") as fh:
                     fh.write(event_template.render(
@@ -510,7 +510,7 @@ class GenerateSite(object):
                 })
             except Exception as e:
                 print("ERROR: {}".format(e))
-            
+
 
         # shall we put all the blasters in a /blaster/ directory?
         blaster_template = env.get_template('blaster.html')
@@ -556,7 +556,7 @@ class GenerateSite(object):
         self.sitemap.append({
             'url' : '/conferences'
         })
-    
+
         about_template = env.get_template('about.html')
         with open(root + '/about', 'w', encoding="utf-8") as fh:
             fh.write(about_template.render(
@@ -565,8 +565,8 @@ class GenerateSite(object):
                 stats       = self.stats,
             ))
         self.sitemap.append({ 'url' : '/about' })
-    
-    
+
+
         with open(root + '/all-conferences', 'w', encoding="utf-8") as fh:
             fh.write(list_template.render(
                 h1          = 'All the Tech related conferences',
@@ -576,7 +576,7 @@ class GenerateSite(object):
         self.sitemap.append({
             'url' : '/all-conferences'
         })
-    
+
         cfp = list(filter(lambda x: 'cfp_date' in x and x['cfp_date'] >= self.now, self.conferences))
         cfp.sort(key=lambda x: x['cfp_date'])
         #cfp_template = env.get_template('cfp.html')
@@ -589,14 +589,14 @@ class GenerateSite(object):
         self.sitemap.append({
             'url' : '/cfp'
         })
-    
+
         with open(root + '/404.html', 'w', encoding="utf-8") as fh:
             template = env.get_template('404.html')
             fh.write(template.render(
                 h1          = '404',
                 title       = 'Four Oh Four',
             ))
-    
+
         no_code = list(filter(lambda x: not x.get('code_of_conduct'), self.conferences))
         code_template = env.get_template('code-of-conduct.html')
         with open(root + '/code-of-conduct', 'w', encoding="utf-8") as fh:
@@ -606,12 +606,12 @@ class GenerateSite(object):
                 conferences = list(filter(lambda x: x['start_date'] >= self.now, no_code)),
                 earlier_conferences = list(filter(lambda x: x['start_date'] < self.now, no_code)),
                 stats       = self.stats,
-    
+
             ))
         self.sitemap.append({
             'url' : '/code-of-conduct'
         })
-    
+
         diversity_tickets = list(filter(lambda x: x.get('diversitytickets'), self.conferences))
         dt_template = env.get_template('diversity-tickets.html')
         with open(root + '/diversity-tickets', 'w', encoding="utf-8") as fh:
@@ -625,18 +625,18 @@ class GenerateSite(object):
         self.sitemap.append({
             'url' : '/diversity-tickets'
         })
-    
-    
+
+
         #print(topics)
         self.save_pages(root, 't', self.tags, list_template, 'Open source conferences discussing {}')
         self.save_pages(root, 'l', self.countries, list_template, 'Open source conferences in {}')
         self.save_pages(root, 'l', self.cities, list_template, 'Open source conferences in {}')
-    
+
         collections_template = env.get_template('topics.html')
         self.save_collections(root, 't', 'topics', 'Topics', self.tags, collections_template)
         self.save_collections(root, 'l', 'countries', 'Countries', self.countries, collections_template)
         self.save_collections(root, 'l', 'cities', 'Cities', self.cities, collections_template)
-    
+
         with open(root + '/sitemap.xml', 'w', encoding="utf-8") as fh:
             fh.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
             for e in self.sitemap:
@@ -671,7 +671,7 @@ class GenerateSite(object):
         my_dir =  root + '/' + directory + '/'
         if not os.path.exists(my_dir):
             os.mkdir(my_dir)
-    
+
         for d in data.keys():
             #print(data[d])
             #exit()
@@ -708,11 +708,14 @@ class GenerateSite(object):
                     title       = video['title'],
                     video       = video,
                 ))
+            with open(root + '/v/' + video['event']['nickname'] + '/' + video['filename'] + '.json', 'w', encoding="utf-8") as fh:
+                fh.write(json.dumps(video))
+
             self.sitemap.append({
                 'url' : '/v/' + video['event']['nickname'] + video['filename'],
                 'lastmod' : video['file_date'],
             })
-     
+
 
 
 # vim: expandtab
