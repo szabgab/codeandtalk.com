@@ -1,10 +1,10 @@
 {
   "description": "WebGL is normally associated with 3D graphics, which can seem daunting without a background in this field. However, the WebGL API is inherently 2D, merely supplying a very useful toolbox of functionality for creating 3D engines. In this talk, we\u2019ll explore how WebGL can be used to manipulate 2D graphics, by creating a simple image editing application. Through live-coding we\u2019ll see that working with WebGL isn\u2019t all that complicated and a lot can be achieved without having to reach for higher level frameworks. We\u2019ll explore how hardware accelerated image effects like color changes, deformations or blurs can be implemented in a few lines of code.",
   "recorded": "2015-08-27",
-  "speakers": [],
+  "speakers": ["felix-palmer"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/xSy5i_ELe18/hqdefault.jpg",
-  "title": "Felix Palmer \u2013 How to build Photoshop \u2013 WebGL not just for 3D",
+  "title": "How to build Photoshop \u2013 WebGL not just for 3D",
   "videos": [
     {
       "code": "xSy5i_ELe18",
