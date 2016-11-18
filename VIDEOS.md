@@ -81,7 +81,6 @@ apachecon-na-2014
 apachecon-na-2015
 cloudstack-collaboration-na-2014
 deccanrubyconf-2015
-deccanrubyconf-2016
 devoxx-france-2015
 empirenode-2015
 fscons-2012
