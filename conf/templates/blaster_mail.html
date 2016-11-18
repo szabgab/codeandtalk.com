@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>{{title}}</title>
+
+<style>
+</style>
+
+</head>
+<body>
+<h1>{{h1}}</h1>
+
+<iframe id="youtube" src="https://www.youtube.com/embed/{{video.videos[0].code}}" title="Video for " frameborder="0" allowfullscreen></iframe>
+
+<div>{{video.description}}</div>
+
+<div>
+   Recorded on {{video.recorded}} at <a href="{{ video.event.url }}">{{ video.event.name }}</a>
+</div>
+<div>
+Look for other videos at <a href="/e/{{video.event.nickname}}">{{video.event.name}}</a>.
+</div>
+
+<div>
+<a href="https://twitter.com/home?status={{ video['tweet_video'] }}" target="_blank">Tweet this video</a>
+</div>
+
+<ul>
+{% for s in video.speakers %}
+  <li>
+    <a href="/p/{{s}}">{{video.speakers[s].info.name}}</a>
+    {% if video.speakers[s].info.twitter %}
+       <a href="http://twitter.com/{{ video.speakers[s].info.twitter }}"></a>
+    {% endif %}
+    {% if video.speakers[s].info.github %}
+       <a href="https://github.com/{{ video.speakers[s].info.github }}"></a>
+    {% endif %}
+    {% if video.speakers[s].info.home %}
+       <a href="{{ video.speakers[s].info.home }}"></a>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+<div id="tags">
+{% for t in video.tags %}
+  <a href="/t/{{t.link}}" class="tag" >{{t.text}}</a>
+{% endfor %}
+</div>
+
+
+</body>
+</html>
