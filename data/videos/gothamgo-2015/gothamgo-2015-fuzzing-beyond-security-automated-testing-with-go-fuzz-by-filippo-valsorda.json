@@ -1,0 +1,14 @@
+{
+  "description": "GothamGo 2015: Fuzzing Beyond Security: Automated Testing with go-fuzz by Filippo Valsorda\n\nTo fuzz a program means to feed it with randomly mutated inputs, in order to trigger unexpected behavior. Recent successful tools like afl-fuzz and go-fuzz use code instrumentation to detect interesting mutations that extend the code coverage.\n\nFor a long time fuzzing has been mostly used by security researchers hunting for exploitable memory bugs in unsafe languages, and that's a shame! Fuzz tests are as effective at triggering unexpected behavior and panics in Go programs as they are at finding security flaws in C. They not only find crashes, but can also be easily taught to detect states and results which should be impossible. go-fuzz helped find more than 100 bugs in the Go stdlib alone.\n\nFuzzing shouldn't be a one-off just like normal tests aren't. Fuzz tests should be first-class citizens of your test suite. They should be written by the developers, who know best what to test and where to hook. They should be committed to the tree for everyone to expand. They should be run regularly to detect regressions.\n\nFinally, the corpus of fuzzed inputs they generate can be tremendously effective as a development tool. For example, automatically discovered corner cases can be used to compare two implementations or versions of the same functionality.\nI'll explain what results to seek, how to write and maintain go-fuzz tests that go beyond crash detection, and show a few examples and results in widely used libraries.\n\nFilippo Valsorda is an Italian developer and cryptography engineer based in London. He is one of the main developers of CloudFlare's own pure-Go DNS server, for which he built the entire DNSSEC implementation.\n\nHe presented about Bitcoin cryptography failures found scanning the blockchain with Go. He\u2019s the author of the then-popular Go-backed filippo.io/Heartbleed test. He often speaks about cryptography or security protocols defects.\n\nSee http://gothamgo.com/program#filippo_valsorda\n\nThis is a replacement (with better audio) of this earlier upload:\n\nhttps://www.youtube.com/watch?v=QEhPaj3vvPA",
+  "recorded": "2015-10-02",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/kOZbFSM7PuI/hqdefault.jpg",
+  "title": "GothamGo 2015: Fuzzing Beyond Security: Automated Testing with go-fuzz by Filippo Valsorda",
+  "videos": [
+    {
+      "code": "kOZbFSM7PuI",
+      "type": "youtube"
+    }
+  ]
+}

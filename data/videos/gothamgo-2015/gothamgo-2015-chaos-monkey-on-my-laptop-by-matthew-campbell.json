@@ -1,0 +1,14 @@
+{
+  "description": "Why does my software only fail in production? Why is it that network splits, database connections and processes tend to die when real users hit them. When building the largest financial Instant Messenger at Thomson Reuters, we wanted to find a way to improve the quality of our production software before it hit users. We wanted something like Chaos Monkey but could be integrated into our integration test workflow. Chaos Monkey is Netflix's technique of randomly killing stuff in an environment to validate the service continues.\n\nSo we built a set of tools around docker and vagrant to be able to enable our integration tests to do fun things, like kill databases, make sure slave failovers happen. Spin up clusters of our Instant Messenger server and randomly kill nodes. We can validate what is supposed to happen in failure conditions. Things like slow consumers on message buses were killers for us. During this talk I'll go over how we introduce 'expected' chaos into our integration test suites and make sure our ideas around single points of failure we're not actually true. We found it took to many resources to coordinate failover testing for every release, we had to do something more automated. This talk will be useful for anyone that has Go services in production with large number of users, without having teams of QA people to do failure testing on every release. \n\nMatthew Campbell is the back-end server lead for EikonMessenger, the largest financial instant messenger at Thomson Reuters. With over 300k users, it presents a large amount of scaling in a grueling environment of stock traders. He recently presented at GopherCon India, and blogs at kanwisher.com. Matthew was a founder of Errplane. and Langfight. He is also the author of Microservices in GO: Use Go to build scalability backends.",
+  "recorded": "2015-10-02",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/-H_Dyx2sct8/hqdefault.jpg",
+  "title": "GothamGo 2015: Chaos Monkey on my Laptop by Matthew Campbell",
+  "videos": [
+    {
+      "code": "-H_Dyx2sct8",
+      "type": "youtube"
+    }
+  ]
+}

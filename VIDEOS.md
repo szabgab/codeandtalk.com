@@ -82,6 +82,7 @@ apachecon-na-2015
 cloudstack-collaboration-na-2014
 deccanrubyconf-2015
 devoxx-france-2015
+devoxx-uk-2016
 empirenode-2015
 fscons-2012
 fscons-2013
@@ -89,6 +90,7 @@ fscons-2014
 fscons-2015
 jsconf-eu-2015
 jsconf-us-2015
+gothamgo-2015
 microservicesdublin-dublin
 nodeconf-eu-2015
 nodeconf-eu-2016
