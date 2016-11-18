@@ -12,7 +12,7 @@
 <body>
 <h1>{{h1}}</h1>
 
-<iframe id="youtube" src="https://www.youtube.com/embed/{{video.videos[0].code}}" title="Video for " frameborder="0" allowfullscreen></iframe>
+https://www.youtube.com/watch?v={{video.videos[0].code}}
 
 <div>{{video.description}}</div>
 
@@ -20,7 +20,7 @@
    Recorded on {{video.recorded}} at <a href="{{ video.event.url }}">{{ video.event.name }}</a>
 </div>
 <div>
-Look for other videos at <a href="/e/{{video.event.nickname}}">{{video.event.name}}</a>.
+Look for other videos at <a href="https://codeandtalk.com/e/{{video.event.nickname}}">{{video.event.name}}</a>.
 </div>
 
 <div>
@@ -30,7 +30,7 @@ Look for other videos at <a href="/e/{{video.event.nickname}}">{{video.event.nam
 <ul>
 {% for s in video.speakers %}
   <li>
-    <a href="/p/{{s}}">{{video.speakers[s].info.name}}</a>
+    <a href="https://codeandtalk.com/p/{{s}}">{{video.speakers[s].info.name}}</a>
     {% if video.speakers[s].info.twitter %}
        <a href="http://twitter.com/{{ video.speakers[s].info.twitter }}"></a>
     {% endif %}
@@ -45,8 +45,9 @@ Look for other videos at <a href="/e/{{video.event.nickname}}">{{video.event.nam
 </ul>
 
 <div id="tags">
+Related videos:
 {% for t in video.tags %}
-  <a href="/t/{{t.link}}" class="tag" >{{t.text}}</a>
+  <a href="https://codeandtalk.com/t/{{t.link}}" class="tag" >{{t.text}}</a>
 {% endfor %}
 </div>
 

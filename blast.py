@@ -7,7 +7,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from_address = 'blaster@codeandtalk.com'
+from_address = 'Code And Talk <blaster@codeandtalk.com>'
 
 # find the videos that have a "featured" key today
 # find the 
@@ -59,7 +59,7 @@ def main():
 
             #print(html)
             msg = MIMEMultipart('alternative')
-            msg['Subject'] = "Link"
+            msg['Subject'] = "Featured {} video for {}".format(bl, args.date)
             msg['From'] = from_address
             msg['To'] = to
 
