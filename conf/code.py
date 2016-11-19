@@ -248,6 +248,30 @@ class GenerateSite(object):
 
                 e['tags'] = tags
 
+    def create_blaster_pages(self, root):
+        my_dir = root + '/blaster';
+        if not os.path.exists(my_dir):
+            os.mkdir(my_dir)
+
+        env = Environment(loader=PackageLoader('conf', 'templates'))
+        blaster_template = env.get_template('blaster.html')
+
+        topics = [
+            {
+                'name' : 'JavaScript',
+                'file' : 'javascript',
+            },
+        ]
+        for topic in topics:
+            with open(os.path.join(my_dir, topic['file']), 'w', encoding="utf-8") as fh:
+                fh.write(blaster_template.render(
+                    h1          = topic['name'] + ' Blaster',
+                    title       = topic['name'] + ' Blaster',
+                ))
+            #self.sitemap.append({
+            #    'url' : '/' + topic['file'] + 'blaster'
+            #})
+
 
     def preprocess_events(self):
         events = {}
@@ -465,6 +489,7 @@ class GenerateSite(object):
     def generate_pages(self):
         root = 'html'
         env = Environment(loader=PackageLoader('conf', 'templates'))
+        self.create_blaster_pages(root)
 
         self.generate_video_pages()
         #print(self.videos)
@@ -511,24 +536,6 @@ class GenerateSite(object):
             except Exception as e:
                 print("ERROR: {}".format(e))
 
-
-        # shall we put all the blasters in a /blaster/ directory?
-        blaster_template = env.get_template('blaster.html')
-        topics = [
-            {
-                'name' : 'JavaScript',
-                'file' : 'javascript',
-            },
-        ]
-        for topic in topics:
-            with open(root + '/' + topic['file'] + '-blaster', 'w', encoding="utf-8") as fh:
-                fh.write(blaster_template.render(
-                    h1          = topic['name'] + ' Blaster',
-                    title       = topic['name'] + ' Blaster',
-                ))
-            #self.sitemap.append({
-            #    'url' : '/' + topic['file'] + 'blaster'
-            #})
 
 
         main_template = env.get_template('index.html')
