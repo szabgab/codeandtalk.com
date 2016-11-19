@@ -1,10 +1,12 @@
 {
-  "description": "Packaging and Shipping Rails Applications in Docker By Allan Espinosa\n\nYou\u2019re very happy as a Rails developer for drinking the Docker Kool-aid. You just need to toss a Docker image to your Ops team and you're done! However, like all software projects, your Docker containers start to decay. Deployment takes days to occur as you download your gigantic Docker image to production. Everything\u2019s on fire and you can\u2019t launch the rails console inside your Docker container. Isn\u2019t Docker supposed to take all these things away?\n\nIn this talk, I will discuss some Docker optimizations and performance tuning techniques to keep your Rails packaging and shipping pipeline in shape.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/JXxu/",
+  "description": "You're very happy as a Rails developer for drinking the Docker Kool-aid. You just need to toss a Docker image to your Ops team and you're done! However, like all software projects, your Docker containers start to decay. Deployment takes days to occur as you download your gigantic Docker image to production. Everything's on fire and you can't launch the rails console inside your Docker container. Isn't Docker supposed to take all these things away?\n\nIn this talk, I will discuss some Docker optimizations and performance tuning techniques to keep your Rails packaging and shipping pipeline in shape.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/JXxu/",
   "recorded": "2016-05-04",
-  "speakers": [],
-  "tags": [],
+  "abstract": "http://railsconf.com/2016/program/sessions#prop_2166",
+  "slides": "https://speakerdeck.com/aespinosa/packaging-and-shipping-rails-applications-in-docker",
+  "speakers": ["allan-espinosa"],
+  "tags": ["Rails", "Docker"],
   "thumbnail_url": "https://i.ytimg.com/vi/lpHgNC5bCbo/hqdefault.jpg",
-  "title": "RailsConf 2016 - Packaging and Shipping Rails Applications in Docker By Allan Espinosa",
+  "title": "Packaging and Shipping Rails Applications in Docker",
   "videos": [
     {
       "code": "lpHgNC5bCbo",

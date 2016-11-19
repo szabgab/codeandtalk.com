@@ -1,10 +1,12 @@
 {
-  "description": "I Can\u2019t Believe It\u2019s Not A Queue: Using Kafka with Rails by Terence Lee\n\nYour existing message system is great, until it gets overloaded. Then what? That's when you should try Kafka.\n\nKafka's designed to be resilient. It takes the stress out of moving from a Rails monolith into a scalable system of microservices. Since you can capture every event that happens in your app, it's great for logging. You can even use Kafka's distributed, ordered log to simulate production load in your staging environment.\n\nCome and learn about Kafka, where it fits in your Rails app, and how to make it do the things that message queues simply can't.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/JUpN/",
+  "description": "Your existing message system is great, until it gets overloaded. Then what? That's when you should try Kafka.\n\nKafka's designed to be resilient. It takes the stress out of moving from a Rails monolith into a scalable system of microservices. Since you can capture every event that happens in your app, it's great for logging. You can even use Kafka's distributed, ordered log to simulate production load in your staging environment.\n\nCome and learn about Kafka, where it fits in your Rails app, and how to make it do the things that message queues simply can't.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/JUpN/",
   "recorded": "2016-05-04",
-  "speakers": [],
+  "abstract": "http://railsconf.com/2016/program/sessions#prop_2178",
+  "slides": "https://speakerdeck.com/hone/i-cant-believe-its-not-a-queue-using-kafka-with-rails-railsconf-2016",
+  "speakers": ["terence-lee"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/s3VQIGD5iGo/hqdefault.jpg",
-  "title": "RailsConf 2016 - I Can\u2019t Believe It\u2019s Not A Queue: Using Kafka with Rails by Terence Lee",
+  "title": "I Can't Believe It's Not A Queue: Using Kafka with Rails",
   "videos": [
     {
       "code": "s3VQIGD5iGo",
