@@ -46,17 +46,17 @@ def main():
             if bl in video['links']:
                 entries.append(video)
         if len(entries) > 0:
-            print("Keyword {}".format(bl))
             #print(entries) 
             html = template.render(
-                h1          = video['title'],
-                title       = video['title'],
-                video       = video,
+                h1          = entries[0]['title'],
+                title       = entries[0]['title'],
+                video       = entries[0],
             )
             to = args.to
             if not to:
                 to = bl + '@codeandtalk.com'
 
+            print("Keyword {} sending to {}  Number of entries {}".format(bl, to, len(entries)))
             #print(html)
             msg = MIMEMultipart('alternative')
             msg['Subject'] = "Featured {} video for {}".format(bl, args.date)
