@@ -1,0 +1,14 @@
+{
+  "description": "Imagemagick can do a lot of tricks to automate image processing, as well as it's MagickCore libraries. But how about doing same manipulation just with pure Perl, and using Imager's powerful core as a base?\n\nImager:::Trim is a module which extends Imager to be able to automatically crop empty space around a photo or picture. It's similar as Imagemagick's autocrop, and it can use so called \"fuzziness\" adjustment to set how much variance in the background there can be.\n\nThis talk is about the journey from theory to practice, and explaining the steps how the code was evaluated to be put into production (e.g. in a service, which handles hundreds of images daily into perfection). \n\nhttp://act.yapc.eu/ye2016/talk/6810",
+  "recorded": "2016-08-24",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/YuBVp5roxY4/hqdefault.jpg",
+  "title": "Jussi Kinnula: Imager::Trim\u200e - YAPC::Europe 2016",
+  "videos": [
+    {
+      "code": "YuBVp5roxY4",
+      "type": "youtube"
+    }
+  ]
+}

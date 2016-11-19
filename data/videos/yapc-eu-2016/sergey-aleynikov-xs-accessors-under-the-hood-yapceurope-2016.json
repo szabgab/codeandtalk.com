@@ -1,0 +1,14 @@
+{
+  "description": "Everyone has written their own accessors' lib. It's like creating an IRC bot or your own ORM. But what does it take to make it fast? Really fast?\n\nI'll talk about creating an accessors' library in XS that supports a wide range of accessors's types and then optimizing it up to and beyond famous Class::XSAccessor's speed.\n\nOn the top of that cake, I'll show how to use extensible inherited accessors (Class::Accessor::Grouped-like) for a great boost in DBIx::Class speed. \n\nhttp://act.yapc.eu/ye2016/talk/6860",
+  "recorded": "2016-08-24",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/PYCbumw0Fis/hqdefault.jpg",
+  "title": "Sergey Aleynikov: XS accessors under the hood\u200e - YAPC::Europe 2016",
+  "videos": [
+    {
+      "code": "PYCbumw0Fis",
+      "type": "youtube"
+    }
+  ]
+}

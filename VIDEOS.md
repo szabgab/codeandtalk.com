@@ -113,6 +113,7 @@ postgresopen-2014
 postgresopen-2015
 
 
+yapc-eu-2016
 railsconf-2016
 
 Add tags, update descriptions

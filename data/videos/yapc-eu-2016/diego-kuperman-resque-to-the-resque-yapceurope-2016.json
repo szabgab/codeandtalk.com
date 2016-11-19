@@ -1,0 +1,14 @@
+{
+  "description": "Resque is a job-queue system on top of Redis originally developed by github in ruby.\n\nI've ported Resque from Ruby to perl about four years ago and since then we've been using it as soysuper.com queue for millions of tasks daily over a ton of boxes/workers.\n\nIn this talk I'll explain why I've decided to use it over other options, some internals and examples of how we use it. \n\nhttp://act.yapc.eu/ye2016/talk/6725",
+  "recorded": "2016-08-24",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/lPR8yVHZk6E/hqdefault.jpg",
+  "title": "Diego Kuperman: Resque to the resque!\u200e - YAPC::Europe 2016",
+  "videos": [
+    {
+      "code": "lPR8yVHZk6E",
+      "type": "youtube"
+    }
+  ]
+}
