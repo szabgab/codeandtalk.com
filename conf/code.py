@@ -304,7 +304,7 @@ class GenerateSite(object):
                 if s in self.people:
                     speakers[s] = self.people[s]
                 else:
-                    print("WARN: Missing people file for '{}'".format(s))
+                    print("WARN: Missing people file for '{}' in data/videos/{}/{}.json".format(s, v['event']['nickname'], v['filename']))
             v['speakers'] = speakers
 
             tweet_video = '{} https://codeandtalk.com/v/{}/{}'.format(v['title'], v['event']['nickname'], v['filename'])
