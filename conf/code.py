@@ -82,8 +82,8 @@ class GenerateSite(object):
                             continue
                         k,v = re.split(r'\s*:\s*', line, maxsplit=1)
                         this[k] = v
-                    if extra:
-                        exit(extra)
+                    #if extra:
+                    #    exit(extra)
                 for field in ['twitter', 'github', 'home']:
                     if field not in this:
                         #print("WARN: {} missing for {}".format(field, nickname))
