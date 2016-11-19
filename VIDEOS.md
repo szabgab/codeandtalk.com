@@ -100,7 +100,6 @@ nodevember-2015
 railsconf-2016
 rubyconf-india-2014
 rubyconf-india-2015
-rubyconf-india-2016
 t-dose-2007
 t-dose-2008
 t-dose-2009
