@@ -54,7 +54,7 @@ def main():
             )
             to = args.to
             if not to:
-                to = bl + '@codeandtalk.com'
+                to = bl + '-blaster@codeandtalk.com'
 
             print("Keyword {} sending to {}  Number of entries {}".format(bl, to, len(entries)))
             #print(html)
