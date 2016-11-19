@@ -14,15 +14,15 @@ from_address = 'Code And Talk <blaster@codeandtalk.com>'
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--date', help = 'YYYY-MM-DD Defaults to todat')
+    parser.add_argument('--date', '-d', help = 'YYYY-MM-DD Defaults to todat')
     parser.add_argument('--to', help = 'Email address to send to')
     args = parser.parse_args()
 
     if not args.date:
         args.date = datetime.now().strftime('%Y-%m-%d')
-    print(args.date)
+    print("Sending for date {}".format(args.date))
 
-    blasters = ['javascript', 'elm', 'rails']
+    blasters = ['javascript'] #, 'elm', 'rails']
 
     featured = []
 
@@ -46,7 +46,7 @@ def main():
             if bl in video['links']:
                 entries.append(video)
         if len(entries) > 0:
-            print(bl)
+            print("Keyword {}".format(bl))
             #print(entries) 
             html = template.render(
                 h1          = video['title'],
