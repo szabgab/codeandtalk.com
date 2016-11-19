@@ -47,10 +47,10 @@ def main():
                 entries.append(video)
         if len(entries) > 0:
             #print(entries) 
+            subject = "Featured {} video for {}".format(bl, args.date)
             html = template.render(
-                h1          = entries[0]['title'],
-                title       = entries[0]['title'],
-                video       = entries[0],
+                title     = subject,
+                entries   = entries,
             )
             to = args.to
             if not to:
@@ -59,7 +59,7 @@ def main():
             print("Keyword {} sending to {}  Number of entries {}".format(bl, to, len(entries)))
             #print(html)
             msg = MIMEMultipart('alternative')
-            msg['Subject'] = "Featured {} video for {}".format(bl, args.date)
+            msg['Subject'] = subject
             msg['From'] = from_address
             msg['To'] = to
 
