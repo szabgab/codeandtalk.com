@@ -97,7 +97,6 @@ nodeconf-eu-2016
 nodeconf-london-2016
 nodevember-2014
 nodevember-2015
-railsconf-2016
 rubyconf-india-2014
 rubyconf-india-2015
 t-dose-2007
@@ -112,6 +111,9 @@ postgresopen-2012
 postgresopen-2013
 postgresopen-2014
 postgresopen-2015
+
+
+railsconf-2016
 
 Add tags, update descriptions
 -----------------------------
