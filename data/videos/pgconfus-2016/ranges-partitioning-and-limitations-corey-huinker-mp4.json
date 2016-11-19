@@ -1,10 +1,11 @@
 {
-  "description": "Range types are one of the things that truly sets PostgreSQL apart from other databases, but they are underused, and the functionality around them is not complete.\n\nThis talk will go into some of those limitations (lack of a text range type, some missing operators etc) which the extension range_type_functions attempts to bridge.\n\nhttp://www.pgconf.us/2016/event/142/ranges-partitioning-and-limitations/",
+  "description": "Range types are one of the things that truly sets PostgreSQL apart from other databases, but they are underused, and the functionality around them is not complete.\n\nThis talk will go into some of those limitations (lack of a text range type, some missing operators etc) which the extension range_type_functions attempts to bridge.",
   "recorded": "2016-04-18",
-  "speakers": [],
+  "abstract": "http://www.pgconf.us/2016/event/142/ranges-partitioning-and-limitations/",
+  "speakers": ["corey-huinker"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/mXGZ2JzGSQ4/hqdefault.jpg",
-  "title": "Ranges, Partitioning and Limitations  Corey Huinker mp4",
+  "title": "Ranges, Partitioning and Limitations",
   "videos": [
     {
       "code": "mXGZ2JzGSQ4",
