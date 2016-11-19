@@ -1,10 +1,11 @@
 {
-  "description": "Fun things start to happen as databases scale. Things bend and break in new, exciting ways, and we as engineers find ourselves investing significant time in unexpected places. Best practices evolve and sometimes completely change to meet the complexity of growth.\n\nIn this talk, I will discuss some lessons learned scaling the busy Postgres databases that power our Rails applications. Some of our strategies are generally applicable and some are specific to how we work. Regardless, I hope that the discussion of tradeoffs will be useful for anyone operating a growing database installation.\n\nhttp://www.pgconf.us/2016/event/116/lessons-learned-operating-postgres-at-scale/",
+  "description": "Fun things start to happen as databases scale. Things bend and break in new, exciting ways, and we as engineers find ourselves investing significant time in unexpected places. Best practices evolve and sometimes completely change to meet the complexity of growth.\n\nIn this talk, I will discuss some lessons learned scaling the busy Postgres databases that power our Rails applications. Some of our strategies are generally applicable and some are specific to how we work. Regardless, I hope that the discussion of tradeoffs will be useful for anyone operating a growing database installation.",
   "recorded": "2016-04-18",
-  "speakers": [],
+  "abstract": "http://www.pgconf.us/2016/event/116/lessons-learned-operating-postgres-at-scale/",
+  "speakers": ["dave-pirotte"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/-LCOAQZuuVo/hqdefault.jpg",
-  "title": "Lessons Learned Operating Postgres at Scale  Dave Pirotte",
+  "title": "Lessons Learned Operating Postgres at Scale",
   "videos": [
     {
       "code": "-LCOAQZuuVo",

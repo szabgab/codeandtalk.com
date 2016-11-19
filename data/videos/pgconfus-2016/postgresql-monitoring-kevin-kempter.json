@@ -1,10 +1,11 @@
 {
-  "description": "A walk through of monitoring PostgreSQL database clusters to include:\n\nRelevant PostgreSQL system catalog metrics\nRelevant contribs / extensions\nPostgreSQL log parsers\nPostgreSQL performance troubleshooting\nPerformance tuning methods\n\nhttp://www.pgconf.us/2016/event/117/postgresql-monitoring/",
+  "description": "A walk through of monitoring PostgreSQL database clusters to include:\n\nRelevant PostgreSQL system catalog metrics\nRelevant contribs / extensions\nPostgreSQL log parsers\nPostgreSQL performance troubleshooting\nPerformance tuning methods",
   "recorded": "2016-04-18",
-  "speakers": [],
+  "abstract": "http://www.pgconf.us/2016/event/117/postgresql-monitoring/",
+  "speakers": ["kevin-kempter"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/uTP2Y35cULM/hqdefault.jpg",
-  "title": "PostgreSQL Monitoring  Kevin Kempter",
+  "title": "PostgreSQL Monitoring",
   "videos": [
     {
       "code": "uTP2Y35cULM",

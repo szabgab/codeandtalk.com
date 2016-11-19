@@ -109,7 +109,6 @@ t-dose-2011
 t-dose-2012
 t-dose-2013
 pgconfus-2015
-pgconfus-2016
 postgresopen-2012
 postgresopen-2013
 postgresopen-2014

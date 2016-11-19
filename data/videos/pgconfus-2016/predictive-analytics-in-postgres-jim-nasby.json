@@ -1,7 +1,8 @@
 {
-  "description": "In data science there is often a huge disconnect between data scientists trying to create models and the application development team responsible for implementing them. Often this is made worse by data scientists using a different language for modeling than the application is written in. Modeling in Postgres eliminates this issue by allowing the model to be written in any supported language (such as python or R).\n\nhttp://www.pgconf.us/2016/event/134/predictive-analytics-in-postgres/",
+  "description": "In data science there is often a huge disconnect between data scientists trying to create models and the application development team responsible for implementing them. Often this is made worse by data scientists using a different language for modeling than the application is written in. Modeling in Postgres eliminates this issue by allowing the model to be written in any supported language (such as python or R).",
   "recorded": "2016-04-18",
-  "speakers": [],
+  "abstract": "http://www.pgconf.us/2016/event/134/predictive-analytics-in-postgres/",
+  "speakers": ["jim-nasby"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/YdUoL8b7CXw/hqdefault.jpg",
   "title": "Predictive Analytics IN Postgres  Jim Nasby",
