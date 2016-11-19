@@ -68,12 +68,22 @@ class GenerateSite(object):
                 nickname = os.path.basename(filename)
                 nickname = nickname[0:-4]
                 with open(filename, encoding="utf-8") as fh:
+                    extra = None
                     for line in fh:
+                        if re.search(r'__DESCRIPTION__', line):
+                            extra = ''
+                            continue
+                        if extra != None:
+                            extra += line
+                            continue
+                        
                         line = line.rstrip('\n')
                         if re.search(r'\A\s*\Z', line):
                             continue
                         k,v = re.split(r'\s*:\s*', line, maxsplit=1)
                         this[k] = v
+                    if extra:
+                        exit(extra)
                 for field in ['twitter', 'github', 'home']:
                     if field not in this:
                         #print("WARN: {} missing for {}".format(field, nickname))
