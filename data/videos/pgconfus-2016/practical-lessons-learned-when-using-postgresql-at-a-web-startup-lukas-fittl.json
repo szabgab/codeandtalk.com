@@ -1,10 +1,11 @@
 {
-  "description": "PostgreSQL is a great database - yet there is an interesting set of issues you encounter when you have a team of developers working with an ever changing schema.\n\nAt Product Hunt we've been using PostgreSQL as the main database since our launch in 2013 - and since then have encountered many smaller problems that we've had to deal with as we've grown, as well as making sure we get close to 100% uptime on our Postgres DB.\n\nThis session is about the lessons learned, and will go into issues like: Exclusive locks held during DB schema changes, making zero downtime schema changes, choosing what to index, problems encountered with Ruby on Rails and its use of prepared statements, and more.\n\nhttp://www.pgconf.us/2016/event/124/practical-lessons-learned-when-using-postgresql-at-a-web-startup/",
+  "description": "PostgreSQL is a great database - yet there is an interesting set of issues you encounter when you have a team of developers working with an ever changing schema.\n\nAt Product Hunt we've been using PostgreSQL as the main database since our launch in 2013 - and since then have encountered many smaller problems that we've had to deal with as we've grown, as well as making sure we get close to 100% uptime on our Postgres DB.\n\nThis session is about the lessons learned, and will go into issues like: Exclusive locks held during DB schema changes, making zero downtime schema changes, choosing what to index, problems encountered with Ruby on Rails and its use of prepared statements, and more.",
   "recorded": "2016-04-18",
-  "speakers": [],
+  "abstract": "http://www.pgconf.us/2016/event/124/practical-lessons-learned-when-using-postgresql-at-a-web-startup/",
+  "speakers": ["lukas-fittl"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/T-AGvR3Pz9A/hqdefault.jpg",
-  "title": "Practical Lessons Learned when using PostgreSQL at a Web Startup  Lukas Fittl",
+  "title": "Practical Lessons Learned when using PostgreSQL at a Web Startup",
   "videos": [
     {
       "code": "T-AGvR3Pz9A",
