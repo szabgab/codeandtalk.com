@@ -1,10 +1,11 @@
 {
-  "description": "This talk aims to give/explain some lessons learnt and tips on using\nDBIx::Class with a legacy database schema.\n\nAn overview of DBIx::Class will be given, although this will not be in\ngreat detail and there is some expectation of knowledge of the basics\nof dbic\n\nThe basic skeleton of the talk is as follows:\n\n- Who am i?\n- Why DBIx::Class\n- Legacy Schema\n+ Grown organically\n+ Poorly normalised\n+ No relational constraints\n+ Polymorphic relationships\n+ Poor choice of data types\n+ SQL Antipatterns\n- Battling the above with DBIx::Class\n+ Generating schema classes\n+ Adding relationships\n+ Solving joins on polymorphic relationships\n+ Inflating columns\n+ Fixing data types with filters\n+ Virtual views and reports\n+ Query tracing and profiling\n- Questions?\n\nOther topics touched upon may include:\n\n- MVC\n+ Thin controllers\n+ Fat model\n\nI expect the talk to last around 45 minutes, and with a Q&A at the end\nthat should take it to the 60 minute mark. The full presentation and\nexample code will available for view/fork/contribution on github. \n\nhttp://act.yapc.eu/ye2016/talk/6710",
+  "description": "This talk aims to give/explain some lessons learnt and tips on using\nDBIx::Class with a legacy database schema.\n\nAn overview of DBIx::Class will be given, although this will not be in\ngreat detail and there is some expectation of knowledge of the basics\nof dbic\n\nThe basic skeleton of the talk is as follows:\n\n- Who am i?\n- Why DBIx::Class\n- Legacy Schema\n+ Grown organically\n+ Poorly normalised\n+ No relational constraints\n+ Polymorphic relationships\n+ Poor choice of data types\n+ SQL Antipatterns\n- Battling the above with DBIx::Class\n+ Generating schema classes\n+ Adding relationships\n+ Solving joins on polymorphic relationships\n+ Inflating columns\n+ Fixing data types with filters\n+ Virtual views and reports\n+ Query tracing and profiling\n- Questions?\n\nOther topics touched upon may include:\n\n- MVC\n+ Thin controllers\n+ Fat model\n\nI expect the talk to last around 45 minutes, and with a Q&A at the end\nthat should take it to the 60 minute mark. The full presentation and\nexample code will available for view/fork/contribution on github.",
   "recorded": "2016-08-24",
-  "speakers": [],
+  "abstract": "http://act.yapc.eu/ye2016/talk/6710",
+  "speakers": ["lee-johnson"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/EnG3DvaLpks/hqdefault.jpg",
-  "title": "Lee Johnson: Battling a Legacy Schema with DBIx::Class\u200e - YAPC::Europe 2016",
+  "title": "Battling a Legacy Schema with DBIx::Class",
   "videos": [
     {
       "code": "EnG3DvaLpks",
