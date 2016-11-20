@@ -94,7 +94,6 @@ gothamgo-2015
 microservicesdublin-dublin
 nodeconf-eu-2015
 nodeconf-eu-2016
-nodeconf-london-2016
 nodevember-2014
 nodevember-2015
 rubyconf-india-2014
@@ -113,7 +112,6 @@ postgresopen-2014
 postgresopen-2015
 
 
-yapc-eu-2016
 railsconf-2016
 
 Add tags, update descriptions
