@@ -1,10 +1,10 @@
 {
   "description": "Most developers prefer to spend their time writing code instead of performing build script maintenance. Build scripting may be an essential part of the software development process, but it often lacks maintainability which makes applying and deploying changes a tedious job. So it\u2019s important to make sure your build system encourages simplicity and that changes can be made in a fast and straightforward way. Industry standards Ant and Maven are not quite up to the task; Gradle is a better alternative.\n\nThis presentation introduces Gradle \u2013 a modern build system that supports all JVM Languages \u2013 and shares the result of the Ant-to-Gradle migration that was performed at NS (Dutch Railways). The session will focus on the challenges we faced while trying to replace Ant scripting with the Gradle equivalent and how we handled them.\n\nAfter attending this session, you will have a good understanding of Gradle and its pros and cons compared to Ant and Maven. On top of that, you will be able to migrate your own project to Gradle, even if your project has a huge code base or relies on ancient technologies. The lessons we learnt at NS could be very helpful to your own situation.",
   "recorded": "2016-06-08",
-  "speakers": [],
+  "speakers": ["hanno-embregts"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/7U1n5Sp0eS4/hqdefault.jpg",
-  "title": "Migrating 25K lines of Ant scripting to Gradle by Hanno Embregts",
+  "title": "Migrating 25K lines of Ant scripting to Gradle",
   "videos": [
     {
       "code": "7U1n5Sp0eS4",

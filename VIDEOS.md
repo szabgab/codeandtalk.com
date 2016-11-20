@@ -82,7 +82,6 @@ apachecon-na-2015
 cloudstack-collaboration-na-2014
 deccanrubyconf-2015
 devoxx-france-2015
-devoxx-uk-2016
 empirenode-2015
 fscons-2012
 fscons-2013
@@ -113,6 +112,7 @@ postgresopen-2015
 
 
 railsconf-2016
+devoxx-uk-2016
 
 Add tags, update descriptions
 -----------------------------
