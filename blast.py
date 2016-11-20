@@ -14,7 +14,7 @@ from_address = 'Code And Talk <blaster@codeandtalk.com>'
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--date', '-d', help = 'YYYY-MM-DD Defaults to todat')
+    parser.add_argument('--date', '-d', help = 'YYYY-MM-DD Defaults to today')
     parser.add_argument('--to', help = 'Email address to send to')
     args = parser.parse_args()
 
@@ -22,7 +22,7 @@ def main():
         args.date = datetime.now().strftime('%Y-%m-%d')
     print("Sending for date {}".format(args.date))
 
-    blasters = ['javascript'] #, 'elm', 'rails']
+    blasters = ['perl', 'javascript']
 
     featured = []
 
