@@ -1,10 +1,11 @@
 {
-  "description": "With CSV being a dataformat that does not define the variables required to parse it (encoding, separator- and quotation character), we'd like to have features that wil (try to) do so for us automatically.\n\nHaving third party that ships CSV file sets that mix ';' and ',' for separators, UTF-8 and UTF-16LE files and more weirdness that makes one curse, caused me to write a new method that takes care of most of those annoyances. \n\nhttp://act.yapc.eu/ye2016/talk/6713",
+  "description": "With CSV being a dataformat that does not define the variables required to parse it (encoding, separator- and quotation character), we'd like to have features that wil (try to) do so for us automatically.\n\nHaving third party that ships CSV file sets that mix ';' and ',' for separators, UTF-8 and UTF-16LE files and more weirdness that makes one curse, caused me to write a new method that takes care of most of those annoyances.",
   "recorded": "2016-08-24",
-  "speakers": [],
+  "abstract": "http://act.yapc.eu/ye2016/talk/6713",
+  "speakers": ["merijn-brand"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/yAjzV38FjIU/hqdefault.jpg",
-  "title": "H Merijn Brand: CSV with flexible headers perl5 & perl6 - YAPC::Europe 2016",
+  "title": "CSV with flexible headers perl5 & perl6",
   "videos": [
     {
       "code": "yAjzV38FjIU",
