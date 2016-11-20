@@ -1,0 +1,15 @@
+In this talk, we will show how we build microservices in Perl.
+We will cover docker basics, the stack we use for creating, testing and releasing our internal Perl distributions and for creating, building and deploying our Perl microservices.
+Let us reveal some details before the talk begins.
+We use
+
+<ul>
+  <li><a href="https://metacpan.org/pod/Minilla">Minilla</a> for scaffolding new distribution</li>
+  <li><a href="https://www.jetbrains.com/teamcity/">Teamcity</a> for testing and building</li>
+  <li><a href="https://metacpan.org/pod/Pinto">Pinto</a> as our internal DarkPAN with MetaCPAN GUI</li>
+  <li><a href="https://www.docker.com/">Docker</a> for testing and packaging the microservices</li>
+  <li><a href="http://mesos.apache.org/">Mesos</a> / <a href="https://mesosphere.github.io/marathon/">Marathon</a> based internal cloud for running microservices in production</li>
+</ul>
+
+We will shortly describe each of mentioned technologies and how we use them together to build our continuous integration stack.
+

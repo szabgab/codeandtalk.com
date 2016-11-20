@@ -1,9 +1,10 @@
 {
-  "description": "In this talk, we will show how we build microservices in Perl. We will cover docker basics, the stack we use for creating, testing and releasing our internal Perl distributions and for creating, building and deploying our Perl microservices.\n\nLet us reveal some details before the talk begins. We use:\n- Minilla for scaffolding new distribution\n- Teamcity for testing and building\n- Pinto as our internal DarkPAN with MetaCPAN GUI\n- Docker for testing and packaging the microservices\n- Mesos / Marathon based internal cloud for running microservices in production\n\nWe will shortly describe each of mentioned technologies and how we use them together to build our continuous integration stack.",
   "recorded": "2016-08-24",
+  "featured": "2016-11-23",
+  "blasters": ["perl"],
   "abstract": "http://act.yapc.eu/ye2016/talk/6862",
   "speakers": ["miroslav-tynovsky"],
-  "tags": [],
+  "tags": ["Perl", "Docker", "cloud", "virtualization", "container"],
   "thumbnail_url": "https://i.ytimg.com/vi/EfEpl37cAzU/hqdefault.jpg",
   "title": "Symbiosis of Docker and Perl",
   "videos": [
