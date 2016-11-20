@@ -1,23 +1,32 @@
 {% include 'incl/header.html' %}
 
-<div>
-Are you overwhelemed by the amount of talks about {{blaster.name}}. We index all of them and select the ones that seem to be the most interesting.
-Then we blast them out to all the people who are interested in the finest.  Sign up to the {{blaster.name}} blaster and get an e-mail message
+<div id="blaster">
+Are you overwhelmed by the amount of talks about {{blaster.name}}? The goal of the <b>Code And Talk</b>
+web site is to index all the {{blaster.name}}-related videos from conferences around the world and select the ones that seem to be the most interesting.
+<p>
+Once every few days we feature one of the videos and send it out to all the people who are interested. 
+<p>
+Sign up to the {{blaster.name}} blaster and get our recommended videos right to your inbox, along
+with links to the topics and tools mentioned.
+<p>
+Expect to get 
 {% if blaster.cnt == "1" %}
-   once a week
+   1 message
 {% else %}
-   {{blaster.cnt}} times a week. 
+   {{blaster.cnt}} messages
 {% endif %}
+a week. 
+<p>
 </div>
 
 <form method="POST" action="http://mail.codeandtalk.com/mailman/subscribe/{{blaster.file}}-blaster">
 <input type="text" name="email" size="30" value="" placeholder="Your e-mail address">
-<input type="text" name="fullname" size="30" value="" placeholder="Your name (optional)">
 <!--
+<input type="text" name="fullname" size="30" value="" placeholder="Your name (optional)">
 <input type="password" name="pw" size="15">
 <input type="Password" name="pw-conf" size="15">
 -->
-<input type="submit" name="email-button" value="subscribe">
+<input type="submit" name="email-button" value="Subscribe">
 </form>
 
 
