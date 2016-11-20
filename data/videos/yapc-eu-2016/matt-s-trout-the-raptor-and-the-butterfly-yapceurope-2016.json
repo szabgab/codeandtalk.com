@@ -1,10 +1,11 @@
 {
-  "description": "So, rakudo is here for keeps, and 6.c has been finalised, and now we get to play.\n\nBetter still, there's both an Inline::Perl5 for rakudo, and an Inline::Perl6 for perl5.\n\nWhich means that perl5 can have access to grammars, and rakudo can have access to CPAN, and all sorts of fascinating possibilities unfold.\n\nBecause it turns out that with *two* perls at once, you get a lot more than twice as much rope. \n\nhttp://act.yapc.eu/ye2016/talk/6767",
+  "description": "So, rakudo is here for keeps, and 6.c has been finalised, and now we get to play.\n\nBetter still, there's both an Inline::Perl5 for rakudo, and an Inline::Perl6 for perl5.\n\nWhich means that perl5 can have access to grammars, and rakudo can have access to CPAN, and all sorts of fascinating possibilities unfold.\n\nBecause it turns out that with *two* perls at once, you get a lot more than twice as much rope.",
   "recorded": "2016-08-24",
-  "speakers": [],
+  "abstract": "http://act.yapc.eu/ye2016/talk/6767",
+  "speakers": ["matt-s-trout"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/j3r-lKlrrRg/hqdefault.jpg",
-  "title": "Matt S Trout: The raptor and the butterfly\u200e - YAPC::Europe 2016",
+  "title": "The raptor and the butterfly",
   "videos": [
     {
       "code": "j3r-lKlrrRg",
