@@ -1,10 +1,10 @@
 {
   "description": "Eric Evan's Domain Driven Design is a core text for all developers and it's experiencing a renaissance due to the rise of Microservices. But are most of us really applying DDD when we're \"doing\" distributed systems development? We're going to argue that we're not. But we should be. We need to recalibrate.\n\nWe'll begin by laying out what DDD means to us, based on experiences we've had building Microservices with distributed teams over the last 2 years. We'll touch lightly on the well-understood elements such as \"ubiquitous language\", \"intention revealing interfaces\" and \"hands on architects\", before spending more time clarifying and explaining the much mis-applied concept of \"bounded contexts\". Finally we'll draw up in front of the largely ignored ones such as the many patterns for inter-team communication which derive from \"context maps\".\n\nAs we move away from the well-understood to the disregarded, we'll illustrate why these latter ones are by far the most important to successful Microservice-based projects. We'll explain why they matter, and the benefits you'll see from applying them.\n\nYou will leave ready to apply the full power of DDD, and you'll have more fun as you do it.",
   "recorded": "2016-06-08",
-  "speakers": [],
+  "speakers": ["andrew-harmel-law", "gayathri-thiyagarajan"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/j5tFNT55kmM/hqdefault.jpg",
-  "title": "Harnessing Domain Driven Design for Distributed Systems by Andrew Harmel-Law & Gayathri Thiyagarajan",
+  "title": "Harnessing Domain Driven Design for Distributed Systems",
   "videos": [
     {
       "code": "j5tFNT55kmM",
