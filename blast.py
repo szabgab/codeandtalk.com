@@ -32,7 +32,7 @@ def main():
                 with open(os.path.join(root, f)) as fh:
                     video = json.loads(fh.read())
                     if video.get('featured', '') == args.date:
-                        video['links'] = [ t['link'] for t in video['blasters'] ]
+                        #video['blasters'] = [ t['link'] for t in video['tags'] ]
                         featured.append(video)
                         
     env = Environment(loader=PackageLoader('conf', 'templates'))
@@ -42,7 +42,7 @@ def main():
     for bl in blasters:
         entries = []
         for video in featured:
-            if bl in video['links']:
+            if bl in video['blasters']:
                 entries.append(video)
         if len(entries) > 0:
             #print(entries) 
