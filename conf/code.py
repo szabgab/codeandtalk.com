@@ -266,17 +266,24 @@ class GenerateSite(object):
         env = Environment(loader=PackageLoader('conf', 'templates'))
         blaster_template = env.get_template('blaster.html')
 
-        topics = [
+        blasters = [
+            {
+                'name' : 'Perl',
+                'file' : 'perl',
+                'cnt'  : '1',
+            },
             {
                 'name' : 'JavaScript',
                 'file' : 'javascript',
+                'cnt'  : '3',
             },
         ]
-        for topic in topics:
+        for topic in blasters:
             with open(os.path.join(my_dir, topic['file']), 'w', encoding="utf-8") as fh:
                 fh.write(blaster_template.render(
                     h1          = topic['name'] + ' Blaster',
                     title       = topic['name'] + ' Blaster',
+                    cnt         = topic['cnt']
                 ))
             #self.sitemap.append({
             #    'url' : '/' + topic['file'] + 'blaster'

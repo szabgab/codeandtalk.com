@@ -1,10 +1,13 @@
 {% include 'incl/header.html' %}
 
 <div>
-The {{name}} blaster will send you a new video severalt time a week. The exact schedule is not fix,
-but it will be somewhere between 1-5 messages per week. The actual schedule will depend a lot on the
-length of the presentations. You'll get more messages if they are shorter ones and fewer from the longer
-talks.
+Are you overwhelemed by the amount of talks about {{name}}. We index all of them and select the ones that seem to be the most interesting.
+Then we blast them out to all the people who are interested in the finest.  Sign up to the {{name}} blaster and get an e-mail message
+{% if cnt == "1" %}
+   once a week
+{% else %}
+   {{cnt}} times a week. 
+{% endif %}
 </div>
 
 <form method="POST" action="http://mail.codeandtalk.com/mailman/subscribe/javascript-blaster">
