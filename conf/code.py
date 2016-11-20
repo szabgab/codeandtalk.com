@@ -304,7 +304,7 @@ class GenerateSite(object):
         for e in self.conferences:
             events[ e['nickname'] ] = e
         for v in self.videos:
-            short_description = html2txt(v['description'])
+            short_description = html2txt(v.get('description', ''))
             short_description = re.sub(r'"', '', short_description)
             short_description = re.sub(r'\s+', ' ', short_description)
             v['short_description'] = short_description
