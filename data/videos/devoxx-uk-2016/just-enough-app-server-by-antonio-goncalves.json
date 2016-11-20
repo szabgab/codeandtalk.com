@@ -1,10 +1,10 @@
 {
   "description": "Are Websphere or Weblogic appropriate for your project? Too big\" ? Do Jetty or Tomcat actually meet your needs? Too \"small\"?\n\nNeither too big nor too small. What you need is \"just enough app server\" to support only the subset of APIs and services your application needs.\n\nIn this session I will make an inventory of Java EE application servers (Weblogic, Websphere, JBoss, GlassFish), Profile Web (Tomee, Payara, Siwpass) and Servlets (Tomcat, Jetty, Undertow). If Microservices is want you want, I will introduce other modular solutions such as WildFly Swarm, KumuluzEE, Spring Boot or Dropwizard. I will talk about performance, war, executable jar, monitoring, management, optimization, use cases and some personal feedback... all this by showing code and executing several types of applications (from the simplest to more complex) in several kinds of containers ... and maybe even on a Raspberry Pi.",
   "recorded": "2016-06-08",
-  "speakers": [],
+  "speakers": ["antonio-goncalves"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/iBJ8FlUA3ok/hqdefault.jpg",
-  "title": "Just enough app server by Antonio Goncalves",
+  "title": "Just enough app server",
   "videos": [
     {
       "code": "iBJ8FlUA3ok",
