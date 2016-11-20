@@ -283,7 +283,7 @@ class GenerateSite(object):
                 fh.write(blaster_template.render(
                     h1          = topic['name'] + ' Blaster',
                     title       = topic['name'] + ' Blaster',
-                    cnt         = topic['cnt']
+                    blaster     = topic,
                 ))
             #self.sitemap.append({
             #    'url' : '/' + topic['file'] + 'blaster'

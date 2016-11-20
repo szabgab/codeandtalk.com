@@ -1,16 +1,16 @@
 {% include 'incl/header.html' %}
 
 <div>
-Are you overwhelemed by the amount of talks about {{name}}. We index all of them and select the ones that seem to be the most interesting.
-Then we blast them out to all the people who are interested in the finest.  Sign up to the {{name}} blaster and get an e-mail message
-{% if cnt == "1" %}
+Are you overwhelemed by the amount of talks about {{blaster.name}}. We index all of them and select the ones that seem to be the most interesting.
+Then we blast them out to all the people who are interested in the finest.  Sign up to the {{blaster.name}} blaster and get an e-mail message
+{% if blaster.cnt == "1" %}
    once a week
 {% else %}
-   {{cnt}} times a week. 
+   {{blaster.cnt}} times a week. 
 {% endif %}
 </div>
 
-<form method="POST" action="http://mail.codeandtalk.com/mailman/subscribe/javascript-blaster">
+<form method="POST" action="http://mail.codeandtalk.com/mailman/subscribe/{{blaster.file}}-blaster">
 <input type="text" name="email" size="30" value="" placeholder="Your e-mail address">
 <input type="text" name="fullname" size="30" value="" placeholder="Your name (optional)">
 <!--
