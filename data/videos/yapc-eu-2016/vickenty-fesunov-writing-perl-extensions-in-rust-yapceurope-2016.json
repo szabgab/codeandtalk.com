@@ -1,10 +1,11 @@
 {
-  "description": "Writing an extension module for Perl in C is tricky: it is easy to make a mistake that makes the interpreter catch fire and crash. XS API also adds its share of complexity.\n\nRust is a new programming language that has a strong focus on memory safety \u2014 preventing bugs that cause memory corruption and segfaults. It has thin runtime and can produce C-compatible shared libraries, which makes it suitable for embedding into other programs.\n\nRust expressive type system, macros, and standard library make it possible to abstract away many low-level details of XS API. The result is safer and more friendly API for extending Perl. \n\nhttp://act.yapc.eu/ye2016/talk/6856",
+  "description": "Writing an extension module for Perl in C is tricky: it is easy to make a mistake that makes the interpreter catch fire and crash. XS API also adds its share of complexity.\n\nRust is a new programming language that has a strong focus on memory safety \u2014 preventing bugs that cause memory corruption and segfaults. It has thin runtime and can produce C-compatible shared libraries, which makes it suitable for embedding into other programs.\n\nRust expressive type system, macros, and standard library make it possible to abstract away many low-level details of XS API. The result is safer and more friendly API for extending Perl.",
   "recorded": "2016-08-24",
-  "speakers": [],
+  "abstract": "http://act.yapc.eu/ye2016/talk/6856",
+  "speakers": ["vickenty-fesunov"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/EZfm5rEnqBc/hqdefault.jpg",
-  "title": "Vickenty Fesunov: Writing Perl extensions in Rust\u200e - YAPC::Europe 2016",
+  "title": "Writing Perl extensions in Rust",
   "videos": [
     {
       "code": "EZfm5rEnqBc",
