@@ -35,6 +35,7 @@ class GenerateSite(object):
         self.people = {}
         self.search = {}
         self.tags = {}
+        self.blasters = []
 
         self.stats = {
             'has_coc' : 0,
@@ -98,6 +99,13 @@ class GenerateSite(object):
             except Exception as e:
                 exit("ERROR: {} in file {}".format(e, filename))
 
+        return
+
+    def read_blasters(self):
+        with open('data/blasters.csv', encoding="utf-8") as fh:
+            rd = csv.DictReader(fh, delimiter=';')
+            for row in rd:
+                self.blasters.append(row)
         return
 
     def read_tags(self):
@@ -266,19 +274,7 @@ class GenerateSite(object):
         env = Environment(loader=PackageLoader('conf', 'templates'))
         blaster_template = env.get_template('blaster.html')
 
-        blasters = [
-            {
-                'name' : 'Perl',
-                'file' : 'perl',
-                'cnt'  : '1',
-            },
-            {
-                'name' : 'JavaScript',
-                'file' : 'javascript',
-                'cnt'  : '3',
-            },
-        ]
-        for topic in blasters:
+        for topic in self.blasters:
             with open(os.path.join(my_dir, topic['file']), 'w', encoding="utf-8") as fh:
                 fh.write(blaster_template.render(
                     h1          = topic['name'] + ' Blaster',
@@ -506,6 +502,7 @@ class GenerateSite(object):
     def generate_pages(self):
         root = 'html'
         env = Environment(loader=PackageLoader('conf', 'templates'))
+        self.read_blasters()
         self.create_blaster_pages(root)
 
         self.generate_video_pages()

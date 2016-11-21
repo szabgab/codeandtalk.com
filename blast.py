@@ -7,6 +7,8 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
+from conf.code import GenerateSite
+
 from_address = 'Code And Talk <blaster@codeandtalk.com>'
 
 # find the videos that have a "featured" key today
@@ -18,11 +20,13 @@ def main():
     parser.add_argument('--to', help = 'Email address to send to')
     args = parser.parse_args()
 
+    gs = GenerateSite()
+
     if not args.date:
         args.date = datetime.now().strftime('%Y-%m-%d')
     print("Sending for date {}".format(args.date))
 
-    blasters = ['perl', 'javascript']
+    gs.read_blasters();
 
     featured = []
 
@@ -39,23 +43,23 @@ def main():
     template = env.get_template('blaster_mail.html')
 
     #print(featured)
-    for bl in blasters:
+    for bl in gs.blasters:
         entries = []
         for video in featured:
-            if bl in video['blasters']:
+            if bl['file'] in video['blasters']:
                 entries.append(video)
         if len(entries) > 0:
             #print(entries) 
-            subject = "Featured {} video for {}".format(bl, args.date)
+            subject = "Featured {} video for {}".format(bl['name'], args.date)
             html = template.render(
                 title     = subject,
                 entries   = entries,
             )
             to = args.to
             if not to:
-                to = bl + '-blaster@codeandtalk.com'
+                to = bl['file'] + '-blaster@codeandtalk.com'
 
-            print("Keyword {} sending to {}  Number of entries {}".format(bl, to, len(entries)))
+            print("Keyword {} sending to {}  Number of entries {}".format(bl['name'], to, len(entries)))
             #print(html)
             msg = MIMEMultipart('alternative')
             msg['Subject'] = subject
