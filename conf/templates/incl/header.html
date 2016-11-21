@@ -59,6 +59,14 @@
      <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
   </ul>
 </nav>
+{% if blasters %}
+  <nav id="secondary">
+    Hop on our blaster list and get notified about new videos in your favorite topic. 
+    {% for b in blasters %}
+        <a href="/blaster/{{b}}"><button>{{b}}</button><a>
+    {% endfor %}
+  </nav>
+{% endif %}
 
 <div class="container">
     <h1>{{h1}}</h1>

@@ -154,6 +154,17 @@ a {
   }
 }
 
+#secondary {
+    background-color: #FFF;
+    border: solid 1px black;
+    text-align: center;
+}
+#secondary button {
+   height: 40px;
+   background-color: #f442f4;
+}
+
+
 nav {
     margin: 0;
     padding: 0;

@@ -728,6 +728,7 @@ class GenerateSite(object):
                     h1          = video['title'],
                     title       = video['title'],
                     video       = video,
+                    blasters    = video.get('blasters'),
                 ))
             with open(root + '/v/' + video['event']['nickname'] + '/' + video['filename'] + '.json', 'w', encoding="utf-8") as fh:
                 fh.write(json.dumps(video))
