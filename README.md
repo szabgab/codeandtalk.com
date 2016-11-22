@@ -3,16 +3,16 @@ List of tech conferences, podcasts, videos, people
 
 For more details visit:
 
-https://github.com/szabgab/conferences/blob/main/CONFERENCES.md
+https://github.com/szabgab/codeandtalk.com/blob/main/docs/CONFERENCES.md
 
-https://github.com/szabgab/conferences/blob/main/VIDEOS.md
+https://github.com/szabgab/codeandtalk.com/blob/main/docs/VIDEOS.md
 
-https://github.com/szabgab/conferences/blob/main/PODCASTS.md
+https://github.com/szabgab/codeandtalk.com/blob/main/docs/PODCASTS.md
 
 Generate web site (and check format)
 -----------------------------------
 
-$ python3 generate.py
+$ python3 generate.py --html
 
 Images
 ---------
@@ -20,7 +20,6 @@ Accessibility logo: http://staff.washington.edu/tft/a11ylogo/
 
 TODO
 -----
-* Add Twitter, GitHub and home logo to people and events where relevant.
 * Describe the use of the site.
 
 * Convert all the data files to JSON, beautidy them.
