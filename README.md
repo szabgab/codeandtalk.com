@@ -9,6 +9,8 @@ https://github.com/szabgab/codeandtalk.com/blob/main/docs/VIDEOS.md
 
 https://github.com/szabgab/codeandtalk.com/blob/main/docs/PODCASTS.md
 
+https://github.com/szabgab/codeandtalk.com/blob/main/docs/PEOPLE.md
+
 Generate web site (and check format)
 -----------------------------------
 
