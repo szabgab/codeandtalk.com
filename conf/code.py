@@ -33,6 +33,7 @@ class GenerateSite(object):
         self.now = datetime.now().strftime('%Y-%m-%d')
         self.sitemap = []
         self.people = {}
+        self.redirects = []
         self.search = {}
         self.tags = {}
         self.blasters = []
@@ -63,6 +64,7 @@ class GenerateSite(object):
 
     def read_people(self):
         path = 'data/people'
+
         for filename in glob.glob(path + "/*.txt"):
             try:
                 this = {}
@@ -85,6 +87,14 @@ class GenerateSite(object):
                         this[k] = v
                     #if extra:
                     #    exit(extra)
+
+                if 'redirect' in this:
+                    self.redirects.append({
+                        'from' : nickname,
+                        'to'   : this['redirect'],
+                    })
+                    continue
+
                 for field in ['twitter', 'github', 'home']:
                     if field not in this:
                         #print("WARN: {} missing for {}".format(field, nickname))
@@ -472,6 +482,11 @@ class GenerateSite(object):
         self.stats['podcasts'] = len(self.sources)
         self.stats['people']   = len(self.people)
         self.stats['episodes'] = sum(len(x['episodes']) for x in self.sources)
+
+        for r in self.redirects:
+            with open('html/p/' + r['from'], 'w') as fh:
+                fh.write('<meta http-equiv="refresh" content="0; url=https://codeandtalk.com/p/{}" />\n'.format(r['to']))
+                fh.write('<p><a href="https://codeandtalk.com/p/{}">Moved</a></p>\n'.format(r['to']))
 
         with open('html/people', 'w', encoding="utf-8") as fh:
             fh.write(env.get_template('people.html').render(
