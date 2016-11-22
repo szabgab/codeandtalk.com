@@ -1,82 +1,82 @@
 {
-	"accessibility-camp" : {
-		"title" : "Accessibility Camp",
-		"description"  : "<a href=\"http://www.a11ycamp.org/\">Accessibility Camps</a> are participant-driven events about web and software accessibility (A11y), with presentations, demos and interaction by and for A11yCamp participants.",
-		"comment" : "There was also <a href=\"http://www.accessibilitycampseattle.org/\">Accessibility Camp Seattle</a> but it is gone now."
-	},
-	"frontendconf-ch" : {
-		"title" : "FEC - Front End Conf Zurich",
-		"description" : "",
-		"comment" : ""
-	},
-	"jsconf" : {
-		"title" : "JSConf",
-		"description" : "",
-		"comment" : ""
-	},
-	"writethedocs" : {
-		"title" : "Write the Docs",
-		"description" : "",
-		"comment" : ""
-	},
-	"jsinsa" : {
-		"title" : "JavaScript in South Africa",
-		"description" : "",
-		"comment" : ""
-	},
-	"rubyconf" : {
-		"title" : "RubyConf",
-		"description" : "Ruby programming Conference",
-		"comment" : ""
-	},
-	"pycon" : {
-		"title" : "PyCon",
- 		"description" : "Python Programing Conference",
-		"comment" : ""
-	},
-	"empirenode" : {
-		"title" : "EmpireNode",
-		"description" : "",
-		"comment" : ""
-	},
-	"empirejs" : {
-		"title" : "EmpireJS",
-		"description" : "",
-		"comment" : ""
-	},
-	"testbash" : {
-		"title" : "TestBash",
-		"description" : "",
-		"comment" : ""
-	},
-	"t-dose" : {
-		"title" : "T-DOSE - Technical Dutch Open Source Event",
-		"description" : "Annual eventin Eindhoven in The Netherlands. <a href=\"http://www.t-dose.org/\">T-DOSE</a>. T-DOSE is a free and yearly event held in The Netherlands to promote use and development of Open Source Software. During this event Open Source projects, developers and visitors can exchange ideas and knowledge.",
-		"comment" : ""
-	},
-	"ffconf" : {
-		"title" : "Full Frontal (ffconf)",
-		"description" : "Annual Front End conference in Brighton, England.",
-		"comment" : ""
-	},
-	"nodevember" : {
-		"title" : "Nodevember",
-		"description" : "",
-		"comment" : ""
-	},
-	"ndc" : {
-		"title" : "NDC",
-		"description" : "",
-		"comment" : ""
-	},
-	"cascadiafest" : {
-		"title" : "CascadiaFest",
-		"description" : "<a href=\"http://cascadiafest.org/\">Cascadia Fest</a>",
-		"comment" : ""
-	},
-	"gotocon" : {
-		"title" : "GOTO Conference",
-		"description" : "",
-		"comment" : ""
-	}
+    "accessibility-camp": {
+        "comment": "There was also <a href=\"http://www.accessibilitycampseattle.org/\">Accessibility Camp Seattle</a> but it is gone now.",
+        "description": "<a href=\"http://www.a11ycamp.org/\">Accessibility Camps</a> are participant-driven events about web and software accessibility (A11y), with presentations, demos and interaction by and for A11yCamp participants.",
+        "title": "Accessibility Camp"
+    },
+    "cascadiafest": {
+        "comment": "",
+        "description": "<a href=\"http://cascadiafest.org/\">Cascadia Fest</a>",
+        "title": "CascadiaFest"
+    },
+    "empirejs": {
+        "comment": "",
+        "description": "",
+        "title": "EmpireJS"
+    },
+    "empirenode": {
+        "comment": "",
+        "description": "",
+        "title": "EmpireNode"
+    },
+    "ffconf": {
+        "comment": "",
+        "description": "Annual Front End conference in Brighton, England.",
+        "title": "Full Frontal (ffconf)"
+    },
+    "frontendconf-ch": {
+        "comment": "",
+        "description": "",
+        "title": "FEC - Front End Conf Zurich"
+    },
+    "gotocon": {
+        "comment": "",
+        "description": "",
+        "title": "GOTO Conference"
+    },
+    "jsconf": {
+        "comment": "",
+        "description": "",
+        "title": "JSConf"
+    },
+    "jsinsa": {
+        "comment": "",
+        "description": "",
+        "title": "JavaScript in South Africa"
+    },
+    "ndc": {
+        "comment": "",
+        "description": "",
+        "title": "NDC"
+    },
+    "nodevember": {
+        "comment": "",
+        "description": "",
+        "title": "Nodevember"
+    },
+    "pycon": {
+        "comment": "",
+        "description": "Python Programing Conference",
+        "title": "PyCon"
+    },
+    "rubyconf": {
+        "comment": "",
+        "description": "Ruby programming Conference",
+        "title": "RubyConf"
+    },
+    "t-dose": {
+        "comment": "",
+        "description": "Annual eventin Eindhoven in The Netherlands. <a href=\"http://www.t-dose.org/\">T-DOSE</a>. T-DOSE is a free and yearly event held in The Netherlands to promote use and development of Open Source Software. During this event Open Source projects, developers and visitors can exchange ideas and knowledge.",
+        "title": "T-DOSE - Technical Dutch Open Source Event"
+    },
+    "testbash": {
+        "comment": "",
+        "description": "",
+        "title": "TestBash"
+    },
+    "writethedocs": {
+        "comment": "",
+        "description": "",
+        "title": "Write the Docs"
+    }
 }
