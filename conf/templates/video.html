@@ -4,6 +4,13 @@
 
 <div>{{video.description}}</div>
 
+{% if video.abstract %}
+<div><a href="{{video.abstract}}">abstract</a></div>
+{% endif %}
+
+{% if video.slides %}
+<div><a href="{{video.slides}}">slides</a></div>
+{% endif %}
 
 <!--
 <img src="{{video.thumbnail_url}}" />
