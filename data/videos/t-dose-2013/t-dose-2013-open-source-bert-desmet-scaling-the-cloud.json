@@ -1,10 +1,12 @@
 {
-  "description": "http://www.CityTV.nl\nhttp://www.t-dose.org/\nPlaylist T-Dose2013  http://www.youtube.com/playlist?list=PLBZBIkixHEidp0CvKAakVxKr6_WcWvFur\n\n27 October 2013\n\nT-DOSE 2013 conference,\nSpeaker: Bert Desmet, Scaling the cloud\n\nSome people use the cloud. Others build one. This talk will be about building your own enteprise cloud.\nWhen running a cloud 3 things are important: scaling, easy (cost effective) maintenance, and stability. These 3 points are very closely related through one subject: automation. Thanks to the easy automation tools like pxe boot (for booting a new setup) and puppet (for configuring a new system) setting up a new server was never this easy. But how can we use these tools to create a scalable infrastructure that is cost effective, stable and easy to maintain?\nIn this talk you will learn about how to design a scalable secure architecture and how to make the right tools work for you without going into to much detail.\n\nSlides at:\nhttp://www.slideshare.net/biertie/scaling-the-cloud-27622004\n\nInfo at:\nhttp://www.t-dose.org/2013/talks/scaling-cloud",
+  "description": "Some people use the cloud. Others build one. This talk will be about building your own enteprise cloud.\nWhen running a cloud 3 things are important: scaling, easy (cost effective) maintenance, and stability. These 3 points are very closely related through one subject: automation. Thanks to the easy automation tools like pxe boot (for booting a new setup) and puppet (for configuring a new system) setting up a new server was never this easy. But how can we use these tools to create a scalable infrastructure that is cost effective, stable and easy to maintain?\nIn this talk you will learn about how to design a scalable secure architecture and how to make the right tools work for you without going into to much detail.",
   "recorded": "2013-10-26",
-  "speakers": [],
+  "abstract": "http://www.t-dose.org/2013/talks/scaling-cloud",
+  "slides": "http://www.slideshare.net/biertie/scaling-the-cloud-27622004",
+  "speakers": ["bert-desmet"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/ebTW6DFb4iI/hqdefault.jpg",
-  "title": "T-DOSE 2013 Open Source, Bert Desmet, Scaling the cloud",
+  "title": "Scaling the cloud",
   "videos": [
     {
       "code": "ebTW6DFb4iI",
