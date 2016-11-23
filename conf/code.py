@@ -342,6 +342,7 @@ class GenerateSite(object):
                 'name' : events[ v['event'] ]['name'],
                 'nickname' : events[ v['event'] ]['nickname'],
                 'url' : events[ v['event'] ]['url'],
+                'twitter': events[ v['event'] ]['twitter'],  
             }
             speakers = {}
             for s in v['speakers']:
@@ -783,8 +784,7 @@ class GenerateSite(object):
         """
 
         valid_fields = ['title', 'thumbnail_url', 'tags', 'recorded', 'description', 'videos', 'speakers', 'abstract', 'slides', 'language', 'featured', 'length', 'blasters']
-
-        #required_fields = ['title']
+        required_fields = ['title', 'recorded']
         report = ''
 
         for event in os.listdir('data/videos'):
@@ -792,11 +792,14 @@ class GenerateSite(object):
             for video_file in glob.glob('data/videos/' + event + '/*.json'):
                 with open(video_file) as fh:
                     video = json.loads(fh.read())
-                    if not re.search(r'^\d\d\d\d-\d\d-\d\d$', video['recorded']):
-                        report += "Invalid 'recorded' field: {:20} in {}\n".format(video['recorded'], video_file)
                     for f in video.keys():
                         if f not in valid_fields:
                             report += "Invalid field '{}' in {}\n".format(f, video_file)
+                    for f in required_fields:
+                        if f not in video:
+                            report += "Missing required field: '{}' in {}".format(f, video_file)
+                    if not re.search(r'^\d\d\d\d-\d\d-\d\d$', video['recorded']):
+                        report += "Invalid 'recorded' field: {:20} in {}\n".format(video['recorded'], video_file)
                     #exit(video)
         return report
  
