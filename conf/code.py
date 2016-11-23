@@ -800,8 +800,8 @@ class GenerateSite(object):
         """
             Go over all the JSON files representing videos and check validity:
                - Check if they have a "recorded" field with a YYYY-MM-DD timestamp - report if not
-            Check if they have values for "speakers" - report if not
-            Check if they have embedded HTML in the description field (they should be moved out to a separate file)
+            TODO: Check if they have values for "speakers" - report if not
+            TODO: Check if they have embedded HTML in the description field (they should be moved out to a separate file)
         """
 
         valid_fields = ['title', 'thumbnail_url', 'tags', 'recorded', 'description', 'videos', 'speakers', 'abstract', 'slides', 'language', 'featured', 'length', 'blasters']
@@ -823,6 +823,7 @@ class GenerateSite(object):
                         report += "Invalid 'recorded' field: {:20} in {}\n".format(video['recorded'], video_file)
                     #exit(video)
         return report
+
     def check_people(self):
         """
             Go over all the files in the data/people directory and check if all the fields are in the list of valid_fields
