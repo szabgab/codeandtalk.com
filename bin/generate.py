@@ -6,6 +6,7 @@ import os
 import sys
 import re
 
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from conf.code import GenerateSite
 
 if sys.version_info.major < 3:
