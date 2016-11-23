@@ -179,6 +179,17 @@ class GenerateSite(object):
                     except Exception as e:
                         exit("There was an exception reading {}\n{}".format(video_file_path, e))
 
+                if 'tags' in video:
+                    tags = []
+                    for t in video['tags']:
+                        p = topic2path(t)
+                        tags.append({
+                            'text': t,
+                            'link': p,
+                        })
+
+                    video['tags'] = tags
+ 
         self.stats['videos'] = len(self.videos)
         return
 
@@ -204,7 +215,11 @@ class GenerateSite(object):
                             continue
                         line = re.sub(r'\s+\Z', '', line)
                         k,v = re.split(r'\s*:\s*', line, maxsplit=1)
-                        this[k] = v
+                        if k in this:
+                            print("Duplicate field '{}' in {}".format(k, filename))
+                        else:
+                            this[k] = v
+                        
 
                 my_topics = []
                 #print(this)
@@ -215,9 +230,6 @@ class GenerateSite(object):
                             'name' : t,
                             'path' : p,
                         })
-                        if p not in self.tags:
-                            self.tags[p] = new_tag(t)
-                        self.tags[p]['events'].append(this)
                 this['topics'] = my_topics
 
                 this['cfp_class'] = 'cfp_none'
@@ -361,21 +373,13 @@ class GenerateSite(object):
                     if tw_id:
                         tweet_video += ' by @' + tw_id
 
+
             if 'tags' in video:
-                tags = []
                 for t in video['tags']:
-                    p = topic2path(t)
-                    tags.append({
-                        'text': t,
-                        'link': p,
-                    })
+                    p = t['link']
                     if p not in self.tags:
                         self.tags[p] = new_tag(t)
                     self.tags[p]['videos'].append(video)
-                video['tags'] = tags
- 
-            if 'tags' in video:
-                for t in video['tags']:
                     if not re.search(r'-', t['link']) and len(t['link']) < 20:
                         tweet_video += ' #' + t['link']
             video['tweet_video'] = urllib.parse.quote(tweet_video)
@@ -402,6 +406,12 @@ class GenerateSite(object):
             ev[ v['event']['nickname'] ].append(v)
 
         for event in self.conferences:
+            for tag in event['topics']:
+                p = tag['path']
+                if p not in self.tags:
+                    self.tags[p] = new_tag(t)
+                self.tags[p]['events'].append(event)
+
             if event['nickname'] in ev:
                 event['videos'] = ev[ event['nickname'] ]
 
