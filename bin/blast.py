@@ -6,7 +6,9 @@ from jinja2 import Environment, PackageLoader
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+import sys
 
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from conf.code import GenerateSite
 
 from_address = 'Code And Talk <blaster@codeandtalk.com>'

@@ -1,9 +1,11 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
+import os
+
 
 class StaticServer(BaseHTTPRequestHandler):
 
     def do_GET(self):
-        root = 'html'
+        root = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'html')
         #print(self.path)
         if self.path == '/':
             filename = root + '/index.html'
