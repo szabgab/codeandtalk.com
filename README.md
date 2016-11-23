@@ -1,3 +1,6 @@
+###Status
+[![Build Status](https://travis-ci.org/szabgab/codeandtalk.com.png)](https://travis-ci.org/szabgab/codeandtalk.org)
+
 List of tech conferences, podcasts, videos, people
 ==================================================
 
