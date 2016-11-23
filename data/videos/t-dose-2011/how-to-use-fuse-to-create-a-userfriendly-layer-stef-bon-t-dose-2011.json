@@ -1,10 +1,10 @@
 {
-  "description": "http://.www.CityTV.nl\r\nHow to Use FUSE to create a userfriendly layer.\r\n\r\nFor some time now I'm working on a construction which offers the user a layer around the normal system, giving the user access to all kinds of resources found, local like partitions on harddrives and usbsticks and cdroms, network like SMB shares, and (todo) services like Google Docs and Amazon S3. Simply, after the user logs in the root of the system is transormed into: \r\n\r\nComputer\r\nHome\r\nInternet Services\r\nMounts\r\nNetwork\r\nShared\r\nSystem\r\n\r\nFor screenshots and more see: \r\nhttp://linux.bononline.nl/wiki/index.php/Changes_and_issues And general information: http://linux.bononline.nl/wiki/index.php/Mount.md5key \r\n\r\nStef Bon @ T-DOSE The place where experts meet on 5 and 6 November 2011, Eindhoven.\r\nUsing FUSE to create a userfriendly layer.",
+  "description": "For some time now I'm working on a construction which offers the user a layer around the normal system, giving the user access to all kinds of resources found, local like partitions on harddrives and usbsticks and cdroms, network like SMB shares, and (todo) services like Google Docs and Amazon S3. Simply, after the user logs in the root of the system is transormed into: \r\n\r\nComputer\r\nHome\r\nInternet Services\r\nMounts\r\nNetwork\r\nShared\r\nSystem\r\n\r\nFor screenshots and more see: \r\nhttp://linux.bononline.nl/wiki/index.php/Changes_and_issues And general information: http://linux.bononline.nl/wiki/index.php/Mount.md5key",
   "recorded": "2011-11-05",
-  "speakers": [],
+  "speakers": ["stef-bon"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/_WxF4puC0Ms/hqdefault.jpg",
-  "title": "How to Use FUSE to create a userfriendly layer, Stef Bon @ T-DOSE 2011",
+  "title": "How to Use FUSE to create a userfriendly layer",
   "videos": [
     {
       "code": "_WxF4puC0Ms",
