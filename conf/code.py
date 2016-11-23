@@ -131,7 +131,8 @@ class GenerateSite(object):
                 self.people[nickname] = {
                     'info': this,
                     'episodes' : [],
-                    'hosting' : []
+                    'hosting' : [],
+                    'videos'  : [],
                 }
             except Exception as e:
                 exit("ERROR: {} in file {}".format(e, filename))
@@ -178,18 +179,6 @@ class GenerateSite(object):
                     except Exception as e:
                         exit("There was an exception reading {}\n{}".format(video_file_path, e))
 
-                    if 'tags' in video:
-                        tags = []
-                        for t in video['tags']:
-                            p = topic2path(t)
-                            tags.append({
-                                'text': t,
-                                'link': p,
-                            })
-                            if p not in self.tags:
-                                self.tags[p] = new_tag(t)
-                            self.tags[p]['videos'].append(video)
-                        video['tags'] = tags
         self.stats['videos'] = len(self.videos)
         return
 
@@ -336,44 +325,60 @@ class GenerateSite(object):
 
         for e in self.conferences:
             events[ e['nickname'] ] = e
-        for v in self.videos:
-            short_description = html2txt(v.get('description', ''))
+        for video in self.videos:
+            short_description = html2txt(video.get('description', ''))
             short_description = re.sub(r'"', '', short_description)
             short_description = re.sub(r'\s+', ' ', short_description)
-            v['short_description'] = short_description
+            video['short_description'] = short_description
             limit = 128
             if len(short_description) > 128:
-                v['short_description'] =  short_description[0:limit]
-            v['event'] = {
-                'name' : events[ v['event'] ]['name'],
-                'nickname' : events[ v['event'] ]['nickname'],
-                'url' : events[ v['event'] ]['url'],
-                'twitter': events[ v['event'] ]['twitter'],  
+                video['short_description'] =  short_description[0:limit]
+            video['event'] = {
+                'name' : events[ video['event'] ]['name'],
+                'nickname' : events[ video['event'] ]['nickname'],
+                'url' : events[ video['event'] ]['url'],
+                'twitter': events[ video['event'] ]['twitter'],  
             }
+
             speakers = {}
-            for s in v['speakers']:
+            for s in video['speakers']:
                 if s in self.people:
                     speakers[s] = self.people[s]
+                    #self.people[s]['videos'].append(v)
                 else:
-                    print("WARN: Missing people file for '{}' in data/videos/{}/{}.json".format(s, v['event']['nickname'], v['filename']))
-            v['speakers'] = speakers
+                    print("WARN: Missing people file for '{}' in data/videos/{}/{}.json".format(s, video['event']['nickname'], video['filename']))
+            video['speakers'] = speakers
 
-            tweet_video = '{} https://codeandtalk.com/v/{}/{}'.format(v['title'], v['event']['nickname'], v['filename'])
-            tw_id = v['event'].get('twitter', '')
+            tweet_video = '{} https://codeandtalk.com/v/{}/{}'.format(video['title'], video['event']['nickname'], video['filename'])
+            tw_id = video['event'].get('twitter', '')
             if tw_id:
                 tweet_video += ' presented @' + tw_id
             #print(v['speakers'])
             #exit()
-            if v['speakers']:
-                for s in v['speakers']:
-                    tw_id = v['speakers'][s]['info'].get('twitter', '')
+            if video['speakers']:
+                for s in video['speakers']:
+                    tw_id = video['speakers'][s]['info'].get('twitter', '')
                     if tw_id:
                         tweet_video += ' by @' + tw_id
-            if 'tags' in v:
-                for t in v['tags']:
+
+            if 'tags' in video:
+                tags = []
+                for t in video['tags']:
+                    p = topic2path(t)
+                    tags.append({
+                        'text': t,
+                        'link': p,
+                    })
+                    if p not in self.tags:
+                        self.tags[p] = new_tag(t)
+                    self.tags[p]['videos'].append(video)
+                video['tags'] = tags
+ 
+            if 'tags' in video:
+                for t in video['tags']:
                     if not re.search(r'-', t['link']) and len(t['link']) < 20:
                         tweet_video += ' #' + t['link']
-            v['tweet_video'] = urllib.parse.quote(tweet_video)
+            video['tweet_video'] = urllib.parse.quote(tweet_video)
 
             #print(speakers)
             #exit()
