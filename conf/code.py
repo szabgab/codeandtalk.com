@@ -782,16 +782,21 @@ class GenerateSite(object):
             Check if they have embedded HTML in the description field (they should be moved out to a separate file)
         """
 
+        valid_fields = ['title', 'thumbnail_url', 'tags', 'recorded', 'description', 'videos', 'speakers', 'abstract', 'slides', 'language', 'featured', 'length', 'blasters']
+
+        #required_fields = ['title']
         report = ''
-        #for event in os.listdir('data/videos'):
-            #print(event)
+
         for event in os.listdir('data/videos'):
             #print(event)
             for video_file in glob.glob('data/videos/' + event + '/*.json'):
                 with open(video_file) as fh:
                     video = json.loads(fh.read())
                     if not re.search(r'^\d\d\d\d-\d\d-\d\d$', video['recorded']):
-                        report += ("Invalid 'recorded' field: {:20} {}  \n".format(video['recorded'], video_file))
+                        report += "Invalid 'recorded' field: {:20} in {}\n".format(video['recorded'], video_file)
+                    for f in video.keys():
+                        if f not in valid_fields:
+                            report += "Invalid field '{}' in {}\n".format(f, video_file)
                     #exit(video)
         return report
  
