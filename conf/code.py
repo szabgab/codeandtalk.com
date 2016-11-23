@@ -323,6 +323,16 @@ class GenerateSite(object):
             #    'url' : '/' + topic['file'] + 'blaster'
             #})
 
+        blasters_template = env.get_template('blasters.html')
+        with open(os.path.join(root + '/blasters'), 'w', encoding="utf-8") as fh:
+            fh.write(blasters_template.render(
+                h1           = 'Blasters - get notified about new videos',
+                title        = 'Blasters',
+                all_blasters = self.blasters,
+            ))
+        self.sitemap.append({
+            'url' : '/blasters'
+        })
 
     def preprocess_events(self):
         events = {}

@@ -1,0 +1,31 @@
+{% include 'incl/header.html' %}
+
+<div id="blasters">
+We index and update videos on a daily basis and then send them out to the newsletters we call "blasters".
+The frequency of e-mails depend on the subject and we have on "master blaster" that gets every video.
+<p>
+Sign up to the ones interesting for you:
+</div>
+
+<h2>Master Blaster</h2>
+
+Sent out on a daily basis. Includes all the videos sent out to the various topic-specific blasters.
+
+<form method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+<input type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+<input type="submit" name="email-button" value="Subscribe">
+</form>
+
+<ul>
+{% for blaster in all_blasters %}
+  <li><a href="/blaster/{{ blaster.file }}">{{ blaster.name }}</a> ({{ blaster.cnt }} / week)</li>
+{% endfor %}
+</ul>
+
+<div>
+If you'd like us to create additional blasters <a href="https://github.com/szabgab/codeandtalk.com/issues">let us know</a>!
+</div>
+
+
+{% include 'incl/footer.html' %}
+
