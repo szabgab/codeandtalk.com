@@ -20,6 +20,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--date', '-d', help = 'YYYY-MM-DD Defaults to today')
     parser.add_argument('--to', help = 'Email address to send to')
+    parser.add_argument('--dry', help = 'Do not send the messages', action='store_true')
     args = parser.parse_args()
 
     gs = GenerateSite()
@@ -62,7 +63,8 @@ def main():
                 to = bl['file'] + '-blaster@codeandtalk.com'
 
             print("Keyword {} sending to {}  Number of entries {}".format(bl['name'], to, len(entries)))
-            send_mail(from_address, to, subject, html)
+            if not args.dry:
+                send_mail(from_address, to, subject, html)
 
     if len(featured) > 0:
         subject = "All the featured videos for {}".format(bl['name'], args.date)
@@ -73,8 +75,9 @@ def main():
         to = args.to
         if not to:
             to = 'master-blaster@codeandtalk.com'
-        print("Keyword {} sending to {}  Number of entries {}".format('Master', to, len(featured)))
-        send_mail(from_address, to, subject, html)
+        print("Master: sending to {}  Number of entries {}".format(to, len(featured)))
+        if not args.dry:
+            send_mail(from_address, to, subject, html)
 
 
 def send_mail(from_address, to, subject, html):
