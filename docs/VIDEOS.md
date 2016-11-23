@@ -95,7 +95,6 @@ nodevember-2014
 nodevember-2015
 rubyconf-india-2014
 rubyconf-india-2015
-t-dose-2012
 t-dose-2013
 pgconfus-2015
 postgresopen-2012
