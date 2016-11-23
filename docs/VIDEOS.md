@@ -101,6 +101,10 @@ postgresopen-2013
 postgresopen-2014
 postgresopen-2015
 
+rubyfuza-2013
+rubyfuza-2014
+rubyfuza-2015
+
 nodeconf-eu-2016
 railsconf-2016
 devoxx-uk-2016
