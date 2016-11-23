@@ -1,0 +1,14 @@
+{
+  "description": "Jafar Husain, Netflix\n\nNetflix has rebuilt our mobile and web UIs. These UIs are hosted in the browser, and we've seen big performance gains thanks to React's virtual DOM. But what if the DOM is just too slow on a given platform?\n\nNetflix uses a canvas-like API to maximize performance on smart TVs and game consoles. Given that React improved performance and simplified the code on our other platforms, we asked ourselves \"could React work without the DOM?\"\n\nYes. Not only is it possible to use React without the DOM, React's design is particularly well-suited to working with low-level APIs like Canvas or WebGL. As a matter of fact, React's design is heavily influenced by game-rendering engines. In this talk, you will learn about how we are integrating React with our TV platform, and what design patterns we're using to get a good balance of simplicity and performance.",
+  "recorded": "2015-01-28",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/eNC0mRYGWgc/hqdefault.jpg",
+  "title": "React.js Conf 2015 - Beyond the DOM: How Netflix plans to enhance your television experience",
+  "videos": [
+    {
+      "code": "eNC0mRYGWgc",
+      "type": "youtube"
+    }
+  ]
+}

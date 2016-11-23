@@ -1,0 +1,14 @@
+{
+  "description": "James Long\n\nReact has a simple way for components to communicate with each other: pass event handlers down through children and events will flow upwards to parent components. This works well for simple components and certain UI events, but it breaks down with large complex apps. The Flux architecture helps with this by defining 'actions' that components can fire and subscribe to, and you write code outside of your components to handle data and dependencies of the actions.\n\nWith the advent of 'goroutines' and channels in languages like Go and Clojure, we have a new style of coordinating actions. We have developed a library that allows you to write goroutine-like code on top of generators, called js-csp. I will take a look at how this might be used to handle complex data flow in a React-based app. We will see what parts of Flux and React's event system might be improved, or if it even helps at all!",
+  "recorded": "2015-01-28",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/W2DgDNQZOwo/hqdefault.jpg",
+  "title": "React.js Conf 2015 - Communicating with channels",
+  "videos": [
+    {
+      "code": "W2DgDNQZOwo",
+      "type": "youtube"
+    }
+  ]
+}

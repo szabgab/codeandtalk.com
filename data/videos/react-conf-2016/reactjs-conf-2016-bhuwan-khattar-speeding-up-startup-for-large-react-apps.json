@@ -1,0 +1,14 @@
+{
+  "description": "Applications inevitably get new features over time. While number of features might grow linearly, the increase in coupling across parts of the application is usually exponential and slows down app initialization and degrades performance. We obviously want richer applications, but not necessarily at the cost of performance.\n\nInstead of compromising by choosing one over the other, we've been building abstractions and infrastructure to improve performance, even in the face of increasing complexity. By incrementally loading parts of our application and reducing work required for application initialization, we can significantly simplify and speed up startup. This talk explores some of Facebook's efforts to make initialization faster for large and growing React applications.",
+  "recorded": "2016-02-22",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/SnAq9tbeRm4/hqdefault.jpg",
+  "title": "React.js Conf 2016 - Bhuwan Khattar - Speeding up Startup for Large React Apps",
+  "videos": [
+    {
+      "code": "SnAq9tbeRm4",
+      "type": "youtube"
+    }
+  ]
+}
