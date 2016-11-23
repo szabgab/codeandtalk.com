@@ -105,6 +105,12 @@ class GenerateSite(object):
                         if re.search(r'\A\s*\Z', line):
                             continue
                         k,v = re.split(r'\s*:\s*', line, maxsplit=1)
+                        if k in this:
+                            if k == 'home':
+                                # TODO: decide what to do with multiple home: entries
+                                print("Duplicate field '{}' in {}".format(k, filename))
+                            else:
+                                raise Exception("Duplicate field '{}' in {}".format(k, filename))
                         this[k] = v
                     #if extra:
                     #    exit(extra)
@@ -802,7 +808,18 @@ class GenerateSite(object):
                         report += "Invalid 'recorded' field: {:20} in {}\n".format(video['recorded'], video_file)
                     #exit(video)
         return report
- 
+    def check_people(self):
+        """
+            Go over all the files in the data/people directory and check if all the fields are in the list of valid_fields
+        """
+        self.read_people()
+        valid_fields = ['name', 'github', 'twitter', 'home', 'country', 'gplus', 'nickname', 'city', 'state', 'slides', 'comment']
+        report = ''
+        for nickname in self.people.keys():
+            for f in self.people[nickname]['info']:
+                if f not in valid_fields:
+                    report += "Invlaid field '{}' in person {}\n".format(f, nickname)
+        return report
 
 # vim: expandtab
 

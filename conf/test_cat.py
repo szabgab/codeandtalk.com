@@ -13,5 +13,10 @@ class TestDemo(unittest.TestCase):
         sys.stderr.write(report)
         assert report == ''
 
+    def test_people(self):
+        report = GenerateSite().check_people()
+        sys.stderr.write(report)
+        assert report == ''
+
 
 # vim: expandtab
