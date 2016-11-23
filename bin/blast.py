@@ -48,7 +48,7 @@ def main():
     for bl in gs.blasters:
         entries = []
         for video in featured:
-            if bl['file'] in video['blasters']:
+            if 'blasters' in video and bl['file'] in video['blasters']:
                 entries.append(video)
         if len(entries) > 0:
             #print(entries) 
@@ -62,23 +62,40 @@ def main():
                 to = bl['file'] + '-blaster@codeandtalk.com'
 
             print("Keyword {} sending to {}  Number of entries {}".format(bl['name'], to, len(entries)))
-            #print(html)
-            msg = MIMEMultipart('alternative')
-            msg['Subject'] = subject
-            msg['From'] = from_address
-            msg['To'] = to
+            send_mail(from_address, to, subject, html)
 
-            text = 'No plain text version currrently.'
+    if len(featured) > 0:
+        subject = "All the featured videos for {}".format(bl['name'], args.date)
+        html = template.render(
+            title     = subject,
+            entries   = featured,
+        )
+        to = args.to
+        if not to:
+            to = 'master-blaster@codeandtalk.com'
+        print("Keyword {} sending to {}  Number of entries {}".format('Master', to, len(featured)))
+        send_mail(from_address, to, subject, html)
 
-            part1 = MIMEText(text, 'plain')
-            part2 = MIMEText(html, 'html')
 
-            msg.attach(part1)
-            msg.attach(part2)
+def send_mail(from_address, to, subject, html):
+    #print(html)
+    msg = MIMEMultipart('alternative')
+    msg['Subject'] = subject
+    msg['From'] = from_address
+    msg['To'] = to
 
-            s = smtplib.SMTP('localhost')
-            s.sendmail(from_address, to, msg.as_string())
-            s.quit()
+    text = 'No plain text version currrently.'
+
+    part1 = MIMEText(text, 'plain')
+    part2 = MIMEText(html, 'html')
+
+    msg.attach(part1)
+    msg.attach(part2)
+
+    s = smtplib.SMTP('localhost')
+    s.sendmail(from_address, to, msg.as_string())
+    s.quit()
+
 
 main()
 
