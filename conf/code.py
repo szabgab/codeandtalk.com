@@ -774,7 +774,27 @@ class GenerateSite(object):
                 'lastmod' : video['file_date'],
             })
 
+    def check_videos(self):
+        """
+            Go over all the JSON files representing videos and check validity:
+               - Check if they have a "recorded" field with a YYYY-MM-DD timestamp - report if not
+            Check if they have values for "speakers" - report if not
+            Check if they have embedded HTML in the description field (they should be moved out to a separate file)
+        """
 
+        report = ''
+        #for event in os.listdir('data/videos'):
+            #print(event)
+        for event in os.listdir('data/videos'):
+            #print(event)
+            for video_file in glob.glob('data/videos/' + event + '/*.json'):
+                with open(video_file) as fh:
+                    video = json.loads(fh.read())
+                    if not re.search(r'^\d\d\d\d-\d\d-\d\d$', video['recorded']):
+                        report += ("Invalid 'recorded' field: {:20} {}  \n".format(video['recorded'], video_file))
+                    #exit(video)
+        return report
+ 
 
 # vim: expandtab
 
