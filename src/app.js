@@ -50,6 +50,24 @@ $(function () {
 
     });
 
+
+    // Append a Twitter logo after every quote and make it Tweetable
+    $('q').each(function( item ) {
+        console.log( $(this).text() );
+        var status = encodeURIComponent( $(this).text() + ' ' + window.location.href );
+        var event_twitter = $('#event_twitter').val()
+        if (event_twitter) {
+            status += ' @' + event_twitter;
+        }
+        var speaker_twitters = $('#speaker_twitters').val();
+        if (speaker_twitters) {
+            status += speaker_twitters;
+        }
+
+        var html = '<a target="_blank" href="https://twitter.com/home?status=' + status + '"><i class="fa fa-twitter"></i></a>';
+        $(this).append(html);
+    })
+
 });
 
 // vim: expandtab

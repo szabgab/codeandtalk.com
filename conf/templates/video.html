@@ -49,6 +49,9 @@ Look for other videos at <a href="/e/{{video.event.nickname}}">{{video.event.nam
 {% endfor %}
 </div>
 
+<input type="hidden" id="event_twitter" value="{{ video.event.twitter }}">
+<input type="hidden" id="speaker_twitters" value="{{ video.speaker_twitters }}">
+
 
 {% include 'incl/footer.html' %}
 

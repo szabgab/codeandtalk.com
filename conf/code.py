@@ -777,6 +777,12 @@ class GenerateSite(object):
         if not os.path.exists(root + '/v/'):
             os.mkdir(root + '/v/')
         for video in self.videos:
+            speaker_twitters = ''
+            for s in video['speakers']:
+                tw = video['speakers'][s]['info'].get('twitter')
+                if tw:
+                    speaker_twitters += ' @' + tw
+            video['speaker_twitters'] = speaker_twitters
             if not os.path.exists(root + '/v/' + video['event']['nickname']):
                 os.mkdir(root + '/v/' + video['event']['nickname'])
             #print(root + '/v/' + video['event'] + '/' + video['filename'])
