@@ -5,6 +5,7 @@ import json
 import os
 import re
 import urllib
+import shutil
 from jinja2 import Environment, PackageLoader
 
 def topic2path(tag):
@@ -46,6 +47,26 @@ class GenerateSite(object):
             'has_diversity_tickets' : 0,
             'has_diversity_tickets_future' : 0,
         }
+
+    def generate_site(self):
+        self.read_tags()
+        self.read_events()
+        self.read_people()
+        self.read_series()
+        self.read_videos()
+        self.read_sources()
+        self.read_episodes()
+
+        self.preprocess_events()
+
+        root = 'html'
+        if os.path.exists(root):
+            shutil.rmtree(root)
+        shutil.copytree('src', root)
+
+        self.generate_podcast_pages()
+        self.generate_pages()
+        self.save_search()
 
     def read_series(self):
         self.event_in_series = {}

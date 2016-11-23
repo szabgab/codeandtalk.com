@@ -3,7 +3,6 @@ from datetime import datetime
 import os
 import sys
 import re
-import shutil
 
 from conf.code import GenerateSite
 
@@ -27,26 +26,7 @@ def main():
         parser.print_help()
 
 def generate_html():
-    root = 'html'
-    if os.path.exists(root):
-        shutil.rmtree(root)
-    shutil.copytree('src', root)
-
-    gs = GenerateSite()
-
-    gs.read_tags()
-    gs.read_events()
-    gs.read_people()
-    gs.read_series()
-    gs.read_videos()
-    gs.read_sources()
-    gs.read_episodes()
-
-    gs.preprocess_events()
-
-    gs.generate_podcast_pages()
-    gs.generate_pages()
-    gs.save_search()
+    GenerateSite().generate_site()
 
 def check_rss_feed():
    source = list(filter(lambda x: x['name'] == args.source, sources))
