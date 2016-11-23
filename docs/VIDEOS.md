@@ -95,9 +95,6 @@ nodevember-2014
 nodevember-2015
 rubyconf-india-2014
 rubyconf-india-2015
-t-dose-2007
-t-dose-2008
-t-dose-2009
 t-dose-2010
 t-dose-2011
 t-dose-2012
@@ -111,6 +108,8 @@ postgresopen-2015
 nodeconf-eu-2016
 railsconf-2016
 devoxx-uk-2016
+
+``` grep speaker * | grep '\[\]' ```
 
 Add tags, update descriptions
 -----------------------------
