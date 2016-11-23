@@ -3,5 +3,5 @@ python:
   - "3.4"
   - "3.5"
 install:
-  - sudo apt-get install phantomjs
+  - sudo apt-get install jinja2 
 script: python3 -m unittest discover
