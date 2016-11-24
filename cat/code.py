@@ -351,14 +351,8 @@ class GenerateSite(object):
             'url' : '/blasters'
         })
 
-    def preprocess_events(self):
-        events = {}
-        self.countries = {}
-        self.cities = {}
-        self.stats['total']  = len(self.conferences)
-        self.stats['future'] = len(list(filter(lambda x: x['start_date'] >= self.now, self.conferences)))
-        self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_date', '') >= self.now, self.conferences)))
 
+    def _add_events_to_series(self):
         for s in self.series.keys():
             l = len(s)
             self.series[s]['events'] = [ e for e in self.conferences if e['nickname'][0:l] == s ]
@@ -366,11 +360,7 @@ class GenerateSite(object):
             for e in self.series[s]['events']:
                 self.event_in_series[ e['nickname'] ] = s
 
-        for e in self.episodes:
-            self.search[ e['title'] + ' (ext)' ] = e['permalink']
-
-        for e in self.conferences:
-            events[ e['nickname'] ] = e
+    def _process_videos(self):
         for video in self.videos:
             short_description = html2txt(video.get('description', ''))
             short_description = re.sub(r'"', '', short_description)
@@ -380,10 +370,10 @@ class GenerateSite(object):
             if len(short_description) > 128:
                 video['short_description'] =  short_description[0:limit]
             video['event'] = {
-                'name' : events[ video['event'] ]['name'],
-                'nickname' : events[ video['event'] ]['nickname'],
-                'url' : events[ video['event'] ]['url'],
-                'twitter': events[ video['event'] ]['twitter'],  
+                'name'     : self.events[ video['event'] ]['name'],
+                'nickname' : self.events[ video['event'] ]['nickname'],
+                'url'      : self.events[ video['event'] ]['url'],
+                'twitter'  : self.events[ video['event'] ]['twitter'],  
             }
 
             speakers = {}
@@ -421,6 +411,25 @@ class GenerateSite(object):
             #print(speakers)
             #exit()
 
+
+    def preprocess_events(self):
+        self.events = {}
+        self.countries = {}
+        self.cities = {}
+        self.stats['total']  = len(self.conferences)
+        self.stats['future'] = len(list(filter(lambda x: x['start_date'] >= self.now, self.conferences)))
+        self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_date', '') >= self.now, self.conferences)))
+
+        self._add_events_to_series()
+
+        for e in self.episodes:
+            self.search[ e['title'] + ' (ext)' ] = e['permalink']
+
+        for e in self.conferences:
+            self.events[ e['nickname'] ] = e
+
+        self._process_videos()
+
         for e in self.episodes:
             if 'guests' in e:
                 for g in e['guests'].keys():
@@ -443,7 +452,7 @@ class GenerateSite(object):
             for tag in event['topics']:
                 p = tag['path']
                 if p not in self.tags:
-                    self.tags[p] = new_tag(t)
+                    self.tags[p] = new_tag(tag)
                 self.tags[p]['events'].append(event)
 
             if event['nickname'] in ev:
