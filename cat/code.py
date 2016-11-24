@@ -411,25 +411,7 @@ class GenerateSite(object):
             #print(speakers)
             #exit()
 
-
-    def preprocess_events(self):
-        self.events = {}
-        self.countries = {}
-        self.cities = {}
-        self.stats['total']  = len(self.conferences)
-        self.stats['future'] = len(list(filter(lambda x: x['start_date'] >= self.now, self.conferences)))
-        self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_date', '') >= self.now, self.conferences)))
-
-        self._add_events_to_series()
-
-        for e in self.episodes:
-            self.search[ e['title'] + ' (ext)' ] = e['permalink']
-
-        for e in self.conferences:
-            self.events[ e['nickname'] ] = e
-
-        self._process_videos()
-
+    def _process_podcasts(self):
         for e in self.episodes:
             if 'guests' in e:
                 for g in e['guests'].keys():
@@ -442,11 +424,12 @@ class GenerateSite(object):
                         exit("ERROR: '{}' is not in the list of people".format(h))
                     self.people[h]['hosting'].append(e)
 
-        ev = {}
+    def _process_events(self):
+        self.event_videos = {}
         for v in self.videos:
-            if v['event']['nickname'] not in ev:
-                ev[ v['event']['nickname'] ] = []
-            ev[ v['event']['nickname'] ].append(v)
+            if v['event']['nickname'] not in self.event_videos:
+                self.event_videos[ v['event']['nickname'] ] = []
+            self.event_videos[ v['event']['nickname'] ].append(v)
 
         for event in self.conferences:
             for tag in event['topics']:
@@ -455,8 +438,8 @@ class GenerateSite(object):
                     self.tags[p] = new_tag(tag)
                 self.tags[p]['events'].append(event)
 
-            if event['nickname'] in ev:
-                event['videos'] = ev[ event['nickname'] ]
+            if event['nickname'] in self.event_videos:
+                event['videos'] = self.event_videos[ event['nickname'] ]
 
             if not 'country' in event or not event['country']:
                 exit('Country is missing from {}'.format(event))
@@ -514,6 +497,26 @@ class GenerateSite(object):
             tweet_me += ' via https://codeandtalk.com/'
 
             event['tweet_me'] = urllib.parse.quote(tweet_me)
+
+
+    def preprocess_events(self):
+        self.events = {}
+        self.countries = {}
+        self.cities = {}
+        self.stats['total']  = len(self.conferences)
+        self.stats['future'] = len(list(filter(lambda x: x['start_date'] >= self.now, self.conferences)))
+        self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_date', '') >= self.now, self.conferences)))
+
+        for e in self.episodes:
+            self.search[ e['title'] + ' (ext)' ] = e['permalink']
+
+        for e in self.conferences:
+            self.events[ e['nickname'] ] = e
+
+        self._add_events_to_series()
+        self._process_videos()
+        self._process_podcasts()
+        self._process_events()
 
         self.stats['coc_future_perc']  = int(100 * self.stats['has_coc_future'] / self.stats['future'])
         self.stats['diversity_tickets_future_perc']  = int(100 * self.stats['has_diversity_tickets_future'] / self.stats['future'])
