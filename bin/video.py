@@ -16,6 +16,9 @@ no_videos = ''
 no_youtube = ''
 for e in sorted(gs.conferences, key=lambda e: e['start_date'], reverse=True):
     #exit(e)
+    if e.get('videos_url'):
+        continue
+
     youtube = e.get('youtube')
 
     if e['end_date'] > gs.now:
