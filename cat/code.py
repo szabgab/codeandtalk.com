@@ -38,6 +38,8 @@ class GenerateSite(object):
         self.search = {}
         self.tags = {}
         self.blasters = []
+        self.html = 'html'
+        self.data = 'data'
 
         self.stats = {
             'has_coc' : 0,
@@ -69,22 +71,21 @@ class GenerateSite(object):
 
         self.preprocess_events()
 
-        root = 'html'
-        if os.path.exists(root):
-            shutil.rmtree(root)
-        shutil.copytree('src', root)
+        if os.path.exists(self.html):
+            shutil.rmtree(self.html)
+        shutil.copytree('src', self.html)
 
         self.generate_podcast_pages()
         self.generate_pages()
         self.save_search()
 
     def read_sources(self):
-        with open('data/sources.json', encoding="utf-8") as fh:
+        with open(self.data + '/sources.json', encoding="utf-8") as fh:
             self.sources = json.load(fh)
 
 
     def read_tags(self):
-        with open('data/tags.csv', encoding="utf-8") as fh:
+        with open(self.data + '/tags.csv', encoding="utf-8") as fh:
             rd = csv.DictReader(fh, delimiter=';')
             for row in rd:
                 path = topic2path(row['name'])
@@ -92,7 +93,7 @@ class GenerateSite(object):
         return
 
     def read_blasters(self):
-        with open('data/blasters.csv', encoding="utf-8") as fh:
+        with open(self.data + '/blasters.csv', encoding="utf-8") as fh:
             rd = csv.DictReader(fh, delimiter=';')
             for row in rd:
                 self.blasters.append(row)
@@ -102,7 +103,7 @@ class GenerateSite(object):
     def read_events(self):
         conferences = []
 
-        for filename in glob.glob("data/events/*.txt"):
+        for filename in glob.glob(self.data + '/events/*.txt'):
             #print("Reading {}".format(filename))
             conf = {}
             try:
@@ -177,7 +178,7 @@ class GenerateSite(object):
 
 
     def read_people(self):
-        path = 'data/people'
+        path = self.data + '/people'
 
         for filename in glob.glob(path + "/*.txt"):
             try:
@@ -238,7 +239,7 @@ class GenerateSite(object):
 
     def read_series(self):
         self.event_in_series = {}
-        with open('data/series.json') as fh:
+        with open(self.data + '/series.json') as fh:
             self.series = json.load(fh)
         for s in self.series.keys():
             l = len(s)
@@ -248,7 +249,7 @@ class GenerateSite(object):
                 self.event_in_series[ e['nickname'] ] = s
 
     def read_videos(self):
-        path = 'data/videos'
+        path = self.data + '/videos'
         events = os.listdir(path)
         self.videos = []
         for event in events:
@@ -290,7 +291,7 @@ class GenerateSite(object):
         self.episodes = []
         for src in self.sources:
             #print("Processing source {}".format(src['name']))
-            file = 'data/podcasts/' + src['name'] + '.json'
+            file = self.data + '/podcasts/' + src['name'] + '.json'
             src['episodes'] = []
             if os.path.exists(file):
                 with open(file, encoding="utf-8") as fh:
@@ -391,7 +392,7 @@ class GenerateSite(object):
                     speakers[s] = self.people[s]
                     #self.people[s]['videos'].append(v)
                 else:
-                    print("WARN: Missing people file for '{}' in data/videos/{}/{}.json".format(s, video['event']['nickname'], video['filename']))
+                    print("WARN: Missing people file for '{}' in {}/videos/{}/{}.json".format(s, self.data, video['event']['nickname'], video['filename']))
             video['speakers'] = speakers
 
             tweet_video = '{} https://codeandtalk.com/v/{}/{}'.format(video['title'], video['event']['nickname'], video['filename'])
@@ -516,8 +517,8 @@ class GenerateSite(object):
 
 
         person_template = env.get_template('person.html')
-        if not os.path.exists('html/p/'):
-            os.mkdir('html/p/')
+        if not os.path.exists(self.html + '/p/'):
+            os.mkdir(self.html + '/p/')
         for p in self.people.keys():
             self.people[p]['episodes'].sort(key=lambda x : x['date'], reverse=True)
             self.people[p]['hosting'].sort(key=lambda x : x['date'], reverse=True)
@@ -527,7 +528,7 @@ class GenerateSite(object):
             path = '/p/' + p
             self.search[name] = path
 
-            out_file = 'html' + path
+            out_file = self.html + path
             with open(out_file, 'w', encoding="utf-8") as fh:
                 fh.write(person_template.render(
                     id     = p,
@@ -539,12 +540,12 @@ class GenerateSite(object):
                 fh.write(json.dumps(self.people[p], sort_keys=True))
 
         source_template = env.get_template('podcast.html')
-        if not os.path.exists('html/s/'):
-            os.mkdir('html/s/')
+        if not os.path.exists(self.html + '/s/'):
+            os.mkdir(self.html + '/s/')
         for s in self.sources:
             self.search[ s['title'] ] = '/s/' + s['name'];
             try:
-                with open('html/s/' + s['name'], 'w', encoding="utf-8") as fh:
+                with open(self.html + '/s/' + s['name'], 'w', encoding="utf-8") as fh:
                     fh.write(source_template.render(
                         podcast = s,
                         h1     = s['title'],
@@ -555,19 +556,19 @@ class GenerateSite(object):
 
 
         tag_template = env.get_template('tag.html')
-        if not os.path.exists('html/t/'):
-            os.mkdir('html/t/')
+        if not os.path.exists(self.html + '/t/'):
+            os.mkdir(self.html + '/t/')
 
         self.stats['podcasts'] = len(self.sources)
         self.stats['people']   = len(self.people)
         self.stats['episodes'] = sum(len(x['episodes']) for x in self.sources)
 
         for r in self.redirects:
-            with open('html/p/' + r['from'], 'w') as fh:
+            with open(self.html + '/p/' + r['from'], 'w') as fh:
                 fh.write('<meta http-equiv="refresh" content="0; url=https://codeandtalk.com/p/{}" />\n'.format(r['to']))
                 fh.write('<p><a href="https://codeandtalk.com/p/{}">Moved</a></p>\n'.format(r['to']))
 
-        with open('html/people', 'w', encoding="utf-8") as fh:
+        with open(self.html + '/people', 'w', encoding="utf-8") as fh:
             fh.write(env.get_template('people.html').render(
                 h1      = 'List of people',
                 title   = 'List of people',
@@ -576,7 +577,7 @@ class GenerateSite(object):
                 people = self.people,
                 people_ids = sorted(self.people.keys()),
             ))
-        with open('html/podcasts', 'w', encoding="utf-8") as fh:
+        with open(self.html + '/podcasts', 'w', encoding="utf-8") as fh:
             fh.write(env.get_template('podcasts.html').render(
                 h1      = 'List of podcasts',
                 title   = 'List of podcasts',
@@ -588,13 +589,13 @@ class GenerateSite(object):
              ))
 
     def save_search(self):
-        with open('html/search.json', 'w', encoding="utf-8") as fh:
+        with open(self.html + '/search.json', 'w', encoding="utf-8") as fh:
             json.dump(self.search, fh)
 
         return
 
     def generate_pages(self):
-        root = 'html'
+        root = self.html
         env = Environment(loader=PackageLoader('cat', 'templates'))
         self.create_blaster_pages(root)
 
@@ -813,7 +814,7 @@ class GenerateSite(object):
             })
 
     def generate_video_pages(self):
-        root = 'html'
+        root = self.html 
         env = Environment(loader=PackageLoader('cat', 'templates'))
         video_template = env.get_template('video.html')
         if not os.path.exists(root + '/v/'):
