@@ -144,6 +144,7 @@ class GenerateSite(object):
                     'episodes' : [],
                     'hosting' : [],
                     'videos'  : [],
+                    #'file_date' : datetime.fromtimestamp( os.path.getctime(filename) ).strftime('%Y-%m-%d'),
                 }
             except Exception as e:
                 exit("ERROR: {} in file {}".format(e, filename))
@@ -216,7 +217,7 @@ class GenerateSite(object):
                 nickname = nickname[0:-4]
                 #print(nickname)
                 this['nickname'] = nickname
-                this['file_date'] = datetime.fromtimestamp( os.path.getctime(filename) )
+                this['file_date'] = datetime.fromtimestamp( os.path.getctime(filename) ).strftime('%Y-%m-%d')
                 with open(filename, encoding="utf-8") as fh:
                     for line in fh:
                         line = line.rstrip('\n')
@@ -521,13 +522,16 @@ class GenerateSite(object):
             path = '/p/' + p
             self.search[name] = path
 
-            with open('html' + path, 'w', encoding="utf-8") as fh:
+            out_file = 'html' + path
+            with open(out_file, 'w', encoding="utf-8") as fh:
                 fh.write(person_template.render(
                     id     = p,
                     person = self.people[p],
                     h1     = self.people[p]['info']['name'],
                     title  = 'Podcasts of and interviews with {}'.format(self.people[p]['info']['name']),
                 ))
+            with open(out_file + '.json', 'w', encoding="utf-8") as fh:
+                fh.write(json.dumps(self.people[p], sort_keys=True))
 
         source_template = env.get_template('podcast.html')
         if not os.path.exists('html/s/'):
@@ -784,7 +788,8 @@ class GenerateSite(object):
             conferences = sorted(data[d]['events'], key=lambda x: x['start_date'])
             #print("'{}'".format(d))
             #print(my_dir + d)
-            with open(my_dir + d, 'w', encoding="utf-8") as fh:
+            out_file = my_dir + d
+            with open(out_file, 'w', encoding="utf-8") as fh:
                 fh.write(list_template.render(
                     h1          = title.format(data[d]['name']),
                     title       = title.format(data[d]['name']),
@@ -793,6 +798,12 @@ class GenerateSite(object):
                     videos      = data[d].get('videos'),
                     episodes    = data[d].get('episodes'),
                 ))
+            # TODO: These are huge files. Reduce their size!
+            #with open(out_file + '.json', 'w', encoding="utf-8") as fh:
+            #    fh.write(json.dumps({
+            #        'conferences' : conferences,
+            #        'data' : data,
+            #    }, sort_keys=True))
             self.sitemap.append({
                 'url' : '/' + directory + '/' + d
             })
@@ -814,14 +825,15 @@ class GenerateSite(object):
                 os.mkdir(root + '/v/' + video['event']['nickname'])
             #print(root + '/v/' + video['event'] + '/' + video['filename'])
             #exit()
-            with open(root + '/v/' + video['event']['nickname'] + '/' + video['filename'], 'w', encoding="utf-8") as fh:
+            out_file = root + '/v/' + video['event']['nickname'] + '/' + video['filename']
+            with open(out_file, 'w', encoding="utf-8") as fh:
                 fh.write(video_template.render(
                     h1          = video['title'],
                     title       = video['title'],
                     video       = video,
                     blasters    = video.get('blasters'),
                 ))
-            with open(root + '/v/' + video['event']['nickname'] + '/' + video['filename'] + '.json', 'w', encoding="utf-8") as fh:
+            with open(out_file + '.json', 'w', encoding="utf-8") as fh:
                 fh.write(json.dumps(video, sort_keys=True))
 
             self.sitemap.append({

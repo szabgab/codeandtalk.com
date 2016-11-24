@@ -18,6 +18,7 @@ class TestDemo(unittest.TestCase):
         # as I cannot see it. Unless it is only the file_date
         files = [
             'html/v/yougottalovefrontend-2016/vitaly-friedman-cutting-edge-responsive-web-design.json',
+            'html/p/zohar-babin.json',
         ]
         for result_file in files:
             expected_file = 'samples/' + os.path.basename(result_file)
@@ -28,8 +29,9 @@ class TestDemo(unittest.TestCase):
             # read both files
             result = read_json(result_file)
             expected = read_json(expected_file)
-            del(expected['file_date'])
-            del(result['file_date'])
+            if 'file_date' in expected:
+                del(expected['file_date'])
+                del(result['file_date'])
             if result != expected:
                 print("Expected: {}".format(expected))
                 print("Received: {}".format(result))
