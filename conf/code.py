@@ -110,7 +110,8 @@ class GenerateSite(object):
                         if k in this:
                             if k == 'home':
                                 # TODO: decide what to do with multiple home: entries
-                                print("Duplicate field '{}' in {}".format(k, filename))
+                                #print("Duplicate field '{}' in {}".format(k, filename))
+                                pass
                             else:
                                 raise Exception("Duplicate field '{}' in {}".format(k, filename))
                         this[k] = v
