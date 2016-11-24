@@ -105,7 +105,6 @@ rubyfuza-2013
 rubyfuza-2014
 
 react-conf-2015
-react-conf-2016
 
 nodeconf-eu-2016
 railsconf-2016
