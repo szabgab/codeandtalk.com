@@ -103,9 +103,10 @@ postgresopen-2015
 
 rubyfuza-2013
 rubyfuza-2014
-
+front-trends-2015
 react-conf-2015
 
+front-trends-2016
 nodeconf-eu-2016
 railsconf-2016
 devoxx-uk-2016
