@@ -33,6 +33,7 @@ class TestDemo(unittest.TestCase):
                 del(expected['file_date'])
                 del(result['file_date'])
             if result != expected:
+                print("While testing {}\n".format(result_file))
                 print("Expected: {}".format(expected))
                 print("Received: {}".format(result))
             assert result == expected

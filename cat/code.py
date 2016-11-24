@@ -380,7 +380,15 @@ class GenerateSite(object):
             for s in video['speakers']:
                 if s in self.people:
                     speakers[s] = self.people[s]
-                    #self.people[s]['videos'].append(v)
+                    #exit(video)
+                    self.people[s]['videos'].append({
+                        'recorded' : video['recorded'],
+                        'title'    : video['title'],
+                        # short_description
+                        'event'    : video['event'],
+                        'filename' : video['filename'],
+                        'thumbnail_url' : video['thumbnail_url'],
+                    })
                 else:
                     print("WARN: Missing people file for '{}' in {}/videos/{}/{}.json".format(s, self.data, video['event']['nickname'], video['filename']))
             video['speakers'] = speakers

@@ -8,17 +8,33 @@
     {% endif %}
 
     {% if person['episodes'] %}
-       <h2>Episodes</h2>
-       {% for e in person['episodes'] %}
-           <li>{{ e['date'] }} <a href="{{ e['permalink'] }}">{{ e['title'] }}</a> <a href="/s/{{ e['source'] }}">{{ e['source'] }}</a></li>
-       {% endfor %}
+        <h2>Episodes</h2>
+        <ul>
+          {% for e in person['episodes'] %}
+            <li>{{ e['date'] }} <a href="{{ e['permalink'] }}">{{ e['title'] }}</a> <a href="/s/{{ e['source'] }}">{{ e['source'] }}</a></li>
+          {% endfor %}
+        </ul>
     {% endif %}
 
     {% if person['hosting'] %}
 	    <h2>Hosting</h2>
-	    {% for e in person['hosting'] %}
+        <ul>
+	      {% for e in person['hosting'] %}
 	        <li>{{ e['date'] }} <a href="{{ e['permalink'] }}">{{ e['title'] }}</a> <a href="/s/{{ e['source'] }}">{{ e['source'] }}</a></li>
-	    {% endfor %}
+	      {% endfor %}
+        </ul>
 	{% endif %}
+
+	{% if person['videos'] %}
+        <h2>Talks</h2>
+        <ul>
+          {% for v in person['videos'] %}
+            <li>
+              <a href="/v/{{v.event.nickname}}/{{v.filename}}"><img class="list-thumbnail" src="{{v.thumbnail_url}}" alt="{{v.title}}" /></a>
+             {{ v['recorded'] }} <a href="/v/{{ v['event']['nickname'] }}/{{ v['filename'] }}">{{ v['title'] }}</a>  @ <a href="/e/{{ v['event']['nickname'] }}">{{ v['event']['name'] }}</a>
+            </li>
+		  {% endfor %}
+        </ul>
+    {% endif %}
 	
 {% include 'incl/footer.html' %}
