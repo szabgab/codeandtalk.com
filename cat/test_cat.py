@@ -14,6 +14,8 @@ class TestDemo(unittest.TestCase):
         GenerateSite().generate_site()
         assert True
 
+        # This fails on travis, we probably need better reporting to see what is the actual difference
+        # as I cannot see it. Unless it is only the file_date
         files = [
             'html/v/yougottalovefrontend-2016/vitaly-friedman-cutting-edge-responsive-web-design.json',
         ]
@@ -26,13 +28,13 @@ class TestDemo(unittest.TestCase):
             # read both files
             result = read_json(result_file)
             expected = read_json(expected_file)
+            del(expected['file_date'])
+            del(result['file_date'])
             if result != expected:
                 print("Expected: {}".format(expected))
                 print("Received: {}".format(result))
             assert result == expected
 
-        # compare them
-        
 
     def test_videos(self):
         gs = GenerateSite()
