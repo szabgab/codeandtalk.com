@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='cat',
-    packages=['conf'],
+    packages=['cat'],
     include_package_data=True,
     install_requires=[
         'jinja2',
