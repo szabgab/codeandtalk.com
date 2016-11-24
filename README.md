@@ -17,7 +17,7 @@ https://github.com/szabgab/codeandtalk.com/blob/main/docs/PEOPLE.md
 Generate web site (and check format)
 -----------------------------------
 
-$ python3 bin/generate.py --html
+$ python3 bin/generate.py
 
 Images
 ---------
