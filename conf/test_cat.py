@@ -9,14 +9,17 @@ class TestDemo(unittest.TestCase):
         assert True
 
     def test_videos(self):
-        report = GenerateSite().check_videos()
+        gs = GenerateSite()
+        #gs.read_videos()
+        report = gs.check_videos()
         sys.stderr.write(report)
         assert report == ''
 
     def test_people(self):
-        report = GenerateSite().check_people()
+        gs = GenerateSite()
+        gs.read_people()
+        report = gs.check_people()
         sys.stderr.write(report)
         assert report == ''
-
 
 # vim: expandtab

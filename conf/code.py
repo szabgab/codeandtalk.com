@@ -52,6 +52,9 @@ class GenerateSite(object):
         self.read_tags()
         self.read_events()
         self.read_people()
+        report = self.check_people()
+        if report != '':
+            raise Exception(report)
         self.read_series()
         self.read_videos()
         self.read_sources()
