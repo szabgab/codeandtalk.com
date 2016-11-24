@@ -6,13 +6,14 @@ import sys
 
 def read_json(file):
     with open(file) as fh:
-        #return json.loads(fh.read())
-        return fh.read()
+        return json.loads(fh.read())
+        #return fh.read()
 
 class TestDemo(unittest.TestCase):
     def test_generate(self):
         GenerateSite().generate_site()
         assert True
+
         files = [
             'html/v/yougottalovefrontend-2016/vitaly-friedman-cutting-edge-responsive-web-design.json',
         ]
