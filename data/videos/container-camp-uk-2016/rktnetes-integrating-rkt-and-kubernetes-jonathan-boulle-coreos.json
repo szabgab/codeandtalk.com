@@ -1,0 +1,14 @@
+{
+  "description": "rkt is a modern container runtime, built for security, efficiency, and composability. Kubernetes is a modern cluster orchestration system oriented around containers. Kubernetes doesn't directly execute application containers but instead delegates to a container runtime, which is integrated at the kubelet (node) level. When Kubernetes first launched, it only supported one container runtime engine - but over the last year, we've been hard at work integrating rkt as an alternative container runtime, aka rktnetes. The goal of rktnetes is to have first-class integration between rkt and the kubelet, and allow Kubernetes users to take advantage of some of rkt's unique features.\n\nThis talk will describe how rkt works and some of its unique features, how we worked with the Kubernetes community to integrate a new container runtime, and what the future holds, as well how to get started using rktnetes today.\n\n\nJonathan Boulle works at CoreOS on all things distributed and all things contained. He's contributed heavily to etcd and fleet and lead the development of the App Container (appc) specification and rkt, the first appc runtime. He is actively involved in the upstream Kubernetes project. Prior to CoreOS, he worked at Twitter on their cluster management platform based on Mesos and Aurora. He's passionate about Linux, F/OSS, the Oxford comma, and developing well-defined systems that scale.",
+  "recorded": "2016-09-09",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/RZzLMSVwaFY/hqdefault.jpg",
+  "title": "rktnetes: Integrating rkt and Kubernetes - Jonathan Boulle (CoreOS)",
+  "videos": [
+    {
+      "code": "RZzLMSVwaFY",
+      "type": "youtube"
+    }
+  ]
+}
