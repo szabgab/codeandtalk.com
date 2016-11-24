@@ -220,6 +220,12 @@ class GenerateSite(object):
                 with open(filename, encoding="utf-8") as fh:
                     for line in fh:
                         line = line.rstrip('\n')
+
+                        # Avoid trailing spaces in event files
+                        #if re.search(r'\s\Z', line):
+                        #    print("Trailing space in '{}' {}".format(line, filename))
+                        #    raise Exception("Trailing space in '{}' {}".format(line, filename))
+
                         if re.search(r'\A\s*#', line):
                             continue
                         if re.search(r'\A\s*\Z', line):
