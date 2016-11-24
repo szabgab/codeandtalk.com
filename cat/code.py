@@ -49,6 +49,7 @@ class GenerateSite(object):
         }
 
     def generate_site(self):
+        self.read_sources()
         self.read_tags()
         self.read_events()
         self.read_people()
@@ -62,7 +63,6 @@ class GenerateSite(object):
         if report != '':
             raise Exception(report)
 
-        self.read_sources()
         self.read_episodes()
 
         self.preprocess_events()
@@ -76,87 +76,10 @@ class GenerateSite(object):
         self.generate_pages()
         self.save_search()
 
-    def read_series(self):
-        self.event_in_series = {}
-        with open('data/series.json') as fh:
-            self.series = json.load(fh)
-        for s in self.series.keys():
-            l = len(s)
-            self.series[s]['events'] = [ e for e in self.conferences if e['nickname'][0:l] == s ]
-            self.series[s]['events'].sort(key=lambda x: x['start_date'])
-            for e in self.series[s]['events']:
-                self.event_in_series[ e['nickname'] ] = s
-
     def read_sources(self):
         with open('data/sources.json', encoding="utf-8") as fh:
             self.sources = json.load(fh)
 
-    def read_people(self):
-        path = 'data/people'
-
-        for filename in glob.glob(path + "/*.txt"):
-            try:
-                this = {}
-                nickname = os.path.basename(filename)
-                nickname = nickname[0:-4]
-                with open(filename, encoding="utf-8") as fh:
-                    extra = None
-                    for line in fh:
-                        if re.search(r'__DESCRIPTION__', line):
-                            extra = ''
-                            continue
-                        if extra != None:
-                            extra += line
-                            continue
-                        
-                        line = line.rstrip('\n')
-                        if re.search(r'\s\Z', line):
-                            raise Exception("Trailing space in '{}' {}".format(line, filename))
-                        if re.search(r'\A\s*\Z', line):
-                            continue
-                        k,v = re.split(r'\s*:\s*', line, maxsplit=1)
-                        if k in this:
-                            if k == 'home':
-                                # TODO: decide what to do with multiple home: entries
-                                #print("Duplicate field '{}' in {}".format(k, filename))
-                                pass
-                            else:
-                                raise Exception("Duplicate field '{}' in {}".format(k, filename))
-                        this[k] = v
-                    #if extra:
-                    #    exit(extra)
-
-                if 'redirect' in this:
-                    self.redirects.append({
-                        'from' : nickname,
-                        'to'   : this['redirect'],
-                    })
-                    continue
-
-                for field in ['twitter', 'github', 'home']:
-                    if field not in this:
-                        #print("WARN: {} missing for {}".format(field, nickname))
-                        pass
-                    elif this[field] == '-':
-                        this[field] = None
-                self.people[nickname] = {
-                    'info': this,
-                    'episodes' : [],
-                    'hosting' : [],
-                    'videos'  : [],
-                    #'file_date' : datetime.fromtimestamp( os.path.getctime(filename) ).strftime('%Y-%m-%d'),
-                }
-            except Exception as e:
-                exit("ERROR: {} in file {}".format(e, filename))
-
-        return
-
-    def read_blasters(self):
-        with open('data/blasters.csv', encoding="utf-8") as fh:
-            rd = csv.DictReader(fh, delimiter=';')
-            for row in rd:
-                self.blasters.append(row)
-        return
 
     def read_tags(self):
         with open('data/tags.csv', encoding="utf-8") as fh:
@@ -165,44 +88,6 @@ class GenerateSite(object):
                 path = topic2path(row['name'])
                 self.tags[ path ] = new_tag(row['name'])
         #print(self.tags)
-        return
-
-    def read_videos(self):
-        path = 'data/videos'
-        events = os.listdir(path)
-        self.videos = []
-        for event in events:
-            dir_path = os.path.join(path, event)
-            for video_file_path in glob.glob(dir_path + '/*.json'):
-                video_file = os.path.basename(video_file_path)
-                html_file_path = video_file_path[0:-4] + 'html'
-
-                with open(video_file_path) as fh:
-                    try:
-                        video = json.load(fh)
-                        video['filename'] = video_file[0:-5]
-                        video['event']    = event
-                        video['file_date'] = datetime.fromtimestamp( os.path.getctime(video_file_path) ).strftime('%Y-%m-%d')
-
-                        if os.path.exists(html_file_path):
-                            with open(html_file_path) as hfh:
-                                video['description'] = hfh.read()
-                        self.videos.append(video)
-                    except Exception as e:
-                        exit("There was an exception reading {}\n{}".format(video_file_path, e))
-
-                if 'tags' in video:
-                    tags = []
-                    for t in video['tags']:
-                        p = topic2path(t)
-                        tags.append({
-                            'text': t,
-                            'link': p,
-                        })
-
-                    video['tags'] = tags
- 
-        self.stats['videos'] = len(self.videos)
         return
 
     def read_events(self):
@@ -280,6 +165,125 @@ class GenerateSite(object):
         self.conferences = sorted(conferences, key=lambda x: x['start_date'])
 
         return
+
+
+    def read_people(self):
+        path = 'data/people'
+
+        for filename in glob.glob(path + "/*.txt"):
+            try:
+                this = {}
+                nickname = os.path.basename(filename)
+                nickname = nickname[0:-4]
+                with open(filename, encoding="utf-8") as fh:
+                    extra = None
+                    for line in fh:
+                        if re.search(r'__DESCRIPTION__', line):
+                            extra = ''
+                            continue
+                        if extra != None:
+                            extra += line
+                            continue
+                        
+                        line = line.rstrip('\n')
+                        if re.search(r'\s\Z', line):
+                            raise Exception("Trailing space in '{}' {}".format(line, filename))
+                        if re.search(r'\A\s*\Z', line):
+                            continue
+                        k,v = re.split(r'\s*:\s*', line, maxsplit=1)
+                        if k in this:
+                            if k == 'home':
+                                # TODO: decide what to do with multiple home: entries
+                                #print("Duplicate field '{}' in {}".format(k, filename))
+                                pass
+                            else:
+                                raise Exception("Duplicate field '{}' in {}".format(k, filename))
+                        this[k] = v
+                    #if extra:
+                    #    exit(extra)
+
+                if 'redirect' in this:
+                    self.redirects.append({
+                        'from' : nickname,
+                        'to'   : this['redirect'],
+                    })
+                    continue
+
+                for field in ['twitter', 'github', 'home']:
+                    if field not in this:
+                        #print("WARN: {} missing for {}".format(field, nickname))
+                        pass
+                    elif this[field] == '-':
+                        this[field] = None
+                self.people[nickname] = {
+                    'info': this,
+                    'episodes' : [],
+                    'hosting' : [],
+                    'videos'  : [],
+                    #'file_date' : datetime.fromtimestamp( os.path.getctime(filename) ).strftime('%Y-%m-%d'),
+                }
+            except Exception as e:
+                exit("ERROR: {} in file {}".format(e, filename))
+
+        return
+
+    def read_blasters(self):
+        with open('data/blasters.csv', encoding="utf-8") as fh:
+            rd = csv.DictReader(fh, delimiter=';')
+            for row in rd:
+                self.blasters.append(row)
+        return
+
+    def read_series(self):
+        self.event_in_series = {}
+        with open('data/series.json') as fh:
+            self.series = json.load(fh)
+        for s in self.series.keys():
+            l = len(s)
+            self.series[s]['events'] = [ e for e in self.conferences if e['nickname'][0:l] == s ]
+            self.series[s]['events'].sort(key=lambda x: x['start_date'])
+            for e in self.series[s]['events']:
+                self.event_in_series[ e['nickname'] ] = s
+
+
+    def read_videos(self):
+        path = 'data/videos'
+        events = os.listdir(path)
+        self.videos = []
+        for event in events:
+            dir_path = os.path.join(path, event)
+            for video_file_path in glob.glob(dir_path + '/*.json'):
+                video_file = os.path.basename(video_file_path)
+                html_file_path = video_file_path[0:-4] + 'html'
+
+                with open(video_file_path) as fh:
+                    try:
+                        video = json.load(fh)
+                        video['filename'] = video_file[0:-5]
+                        video['event']    = event
+                        video['file_date'] = datetime.fromtimestamp( os.path.getctime(video_file_path) ).strftime('%Y-%m-%d')
+
+                        if os.path.exists(html_file_path):
+                            with open(html_file_path) as hfh:
+                                video['description'] = hfh.read()
+                        self.videos.append(video)
+                    except Exception as e:
+                        exit("There was an exception reading {}\n{}".format(video_file_path, e))
+
+                if 'tags' in video:
+                    tags = []
+                    for t in video['tags']:
+                        p = topic2path(t)
+                        tags.append({
+                            'text': t,
+                            'link': p,
+                        })
+
+                    video['tags'] = tags
+ 
+        self.stats['videos'] = len(self.videos)
+        return
+
 
     def read_episodes(self):
         self.episodes = []
