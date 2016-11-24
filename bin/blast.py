@@ -11,7 +11,7 @@ from email.mime.text import MIMEText
 import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from conf.code import GenerateSite
+from cat.code import GenerateSite
 
 from_address = 'Code And Talk <blaster@codeandtalk.com>'
 
@@ -44,7 +44,7 @@ def main():
                         #video['blasters'] = [ t['link'] for t in video['tags'] ]
                         featured.append(video)
                         
-    env = Environment(loader=PackageLoader('conf', 'templates'))
+    env = Environment(loader=PackageLoader('cat', 'templates'))
     template = env.get_template('blaster_mail.html')
 
     #print(featured)

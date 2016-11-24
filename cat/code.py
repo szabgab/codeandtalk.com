@@ -326,7 +326,7 @@ class GenerateSite(object):
         if not os.path.exists(my_dir):
             os.mkdir(my_dir)
 
-        env = Environment(loader=PackageLoader('conf', 'templates'))
+        env = Environment(loader=PackageLoader('cat', 'templates'))
         blaster_template = env.get_template('blaster.html')
 
         for topic in self.blasters:
@@ -506,7 +506,7 @@ class GenerateSite(object):
         return
 
     def generate_podcast_pages(self):
-        env = Environment(loader=PackageLoader('conf', 'templates'))
+        env = Environment(loader=PackageLoader('cat', 'templates'))
 
 
         person_template = env.get_template('person.html')
@@ -586,7 +586,7 @@ class GenerateSite(object):
 
     def generate_pages(self):
         root = 'html'
-        env = Environment(loader=PackageLoader('conf', 'templates'))
+        env = Environment(loader=PackageLoader('cat', 'templates'))
         self.read_blasters()
         self.create_blaster_pages(root)
 
@@ -799,7 +799,7 @@ class GenerateSite(object):
 
     def generate_video_pages(self):
         root = 'html'
-        env = Environment(loader=PackageLoader('conf', 'templates'))
+        env = Environment(loader=PackageLoader('cat', 'templates'))
         video_template = env.get_template('video.html')
         if not os.path.exists(root + '/v/'):
             os.mkdir(root + '/v/')

@@ -1,4 +1,4 @@
-from conf.code import GenerateSite
+from cat.code import GenerateSite
 import unittest
 import json
 import os

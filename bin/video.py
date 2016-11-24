@@ -3,7 +3,7 @@
 import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from conf.code import GenerateSite
+from cat.code import GenerateSite
 
 # read all the events
 # list the ones that have youtube value which is not - and that does NOT have the video directory.
