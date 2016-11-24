@@ -55,8 +55,13 @@ class GenerateSite(object):
         report = self.check_people()
         if report != '':
             raise Exception(report)
+
         self.read_series()
         self.read_videos()
+        report = self.check_videos()
+        if report != '':
+            raise Exception(report)
+
         self.read_sources()
         self.read_episodes()
 
@@ -827,23 +832,20 @@ class GenerateSite(object):
         """
 
         valid_fields = ['title', 'thumbnail_url', 'tags', 'recorded', 'description', 'videos', 'speakers', 'abstract', 'slides', 'language', 'featured', 'length', 'blasters']
+        valid_fields.extend(['filename', 'event', 'file_date']) # generated fields
         required_fields = ['title', 'recorded']
         report = ''
 
-        for event in os.listdir('data/videos'):
-            #print(event)
-            for video_file in glob.glob('data/videos/' + event + '/*.json'):
-                with open(video_file) as fh:
-                    video = json.loads(fh.read())
-                    for f in video.keys():
-                        if f not in valid_fields:
-                            report += "Invalid field '{}' in {}\n".format(f, video_file)
-                    for f in required_fields:
-                        if f not in video:
-                            report += "Missing required field: '{}' in {}".format(f, video_file)
-                    if not re.search(r'^\d\d\d\d-\d\d-\d\d$', video['recorded']):
-                        report += "Invalid 'recorded' field: {:20} in {}\n".format(video['recorded'], video_file)
-                    #exit(video)
+        for video in self.videos:
+            for f in video.keys():
+                if f not in valid_fields:
+                    report += "Invalid field '{}' in {}\n".format(f, video)
+            for f in required_fields:
+                if f not in video:
+                    report += "Missing required field: '{}' in {}".format(f, video)
+            if not re.search(r'^\d\d\d\d-\d\d-\d\d$', video['recorded']):
+                report += "Invalid 'recorded' field: {:20} in {}\n".format(video['recorded'], video)
+            #exit(video)
         return report
 
     def check_people(self):
