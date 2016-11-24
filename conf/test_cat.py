@@ -10,7 +10,7 @@ class TestDemo(unittest.TestCase):
 
     def test_videos(self):
         gs = GenerateSite()
-        #gs.read_videos()
+        gs.read_videos()
         report = gs.check_videos()
         sys.stderr.write(report)
         assert report == ''
