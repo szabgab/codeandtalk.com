@@ -103,7 +103,6 @@ postgresopen-2015
 
 rubyfuza-2013
 rubyfuza-2014
-rubyfuza-2015
 
 react-conf-2015
 react-conf-2016
