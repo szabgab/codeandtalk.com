@@ -102,6 +102,8 @@ class GenerateSite(object):
                             continue
                         
                         line = line.rstrip('\n')
+                        if re.search(r'\s\Z', line):
+                            raise Exception("Trailing space in '{}' {}".format(line, filename))
                         if re.search(r'\A\s*\Z', line):
                             continue
                         k,v = re.split(r'\s*:\s*', line, maxsplit=1)
