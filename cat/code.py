@@ -171,7 +171,7 @@ class GenerateSite(object):
 
                 conferences.append(this)
             except Exception as e:
-                exit("ERRORa: {} in file {}".format(e, filename))
+                exit("ERROR 1: {} in file {}".format(e, filename))
 
         self.conferences = sorted(conferences, key=lambda x: x['start_date'])
 
@@ -232,7 +232,7 @@ class GenerateSite(object):
                     #'file_date' : datetime.fromtimestamp( os.path.getctime(filename) ).strftime('%Y-%m-%d'),
                 }
             except Exception as e:
-                exit("ERROR: {} in file {}".format(e, filename))
+                exit("ERROR 2: {} in file {}".format(e, filename))
 
         return
 
@@ -298,7 +298,7 @@ class GenerateSite(object):
                         self.episodes.extend(new_episodes)
                         src['episodes'] = new_episodes
                     except json.decoder.JSONDecodeError as e:
-                        exit("ERROR: Could not read in {} {}".format(file, e))
+                        exit("ERROR 3: Could not read in {} {}".format(file, e))
                         src['episodes'] = [] # let the rest of the code work
                         pass
 
@@ -424,12 +424,12 @@ class GenerateSite(object):
             if 'guests' in e:
                 for g in e['guests'].keys():
                     if g not in self.people:
-                        exit("ERROR: '{}' is not in the list of people".format(g))
+                        exit("ERROR 4: '{}' is not in the list of people".format(g))
                     self.people[g]['episodes'].append(e)
             if 'hosts' in e:
                 for h in e['hosts'].keys():
                     if h not in self.people:
-                        exit("ERROR: '{}' is not in the list of people".format(h))
+                        exit("ERROR 5: '{}' is not in the list of people".format(h))
                     self.people[h]['hosting'].append(e)
 
     def _process_events(self):
@@ -542,7 +542,7 @@ class GenerateSite(object):
             self.people[p]['episodes'].sort(key=lambda x : x['date'], reverse=True)
             self.people[p]['hosting'].sort(key=lambda x : x['date'], reverse=True)
             if 'name' not in self.people[p]['info']:
-                exit("ERROR: file {} does not have a 'name' field".format(p))
+                exit("ERROR 6: file {} does not have a 'name' field".format(p))
             name = self.people[p]['info']['name']
             path = '/p/' + p
             self.search[name] = path
@@ -574,7 +574,7 @@ class GenerateSite(object):
                         title  = s['title'],
                     ))
             except Exception as e:
-                print("ERROR: {}".format(e))
+                print("ERROR 7: {}".format(e))
 
 
         tag_template = env.get_template('tag.html')
@@ -664,7 +664,7 @@ class GenerateSite(object):
                     'lastmod' : event['file_date'],
                 })
             except Exception as e:
-                print("ERROR: {}".format(e))
+                print("ERROR 8: {}".format(e))
 
 
 
