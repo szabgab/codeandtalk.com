@@ -75,6 +75,7 @@ class GenerateSite(object):
             shutil.rmtree(self.html)
         shutil.copytree('src', self.html)
 
+        self.generate_people_pages()
         self.generate_podcast_pages()
         self.generate_pages()
         self.save_search()
@@ -209,8 +210,6 @@ class GenerateSite(object):
                             else:
                                 raise Exception("Duplicate field '{}' in {}".format(k, filename))
                         this[k] = v
-                    #if extra:
-                    #    exit(extra)
 
                 if 'redirect' in this:
                     self.redirects.append({
@@ -241,12 +240,6 @@ class GenerateSite(object):
         self.event_in_series = {}
         with open(self.data + '/series.json') as fh:
             self.series = json.load(fh)
-        for s in self.series.keys():
-            l = len(s)
-            self.series[s]['events'] = [ e for e in self.conferences if e['nickname'][0:l] == s ]
-            self.series[s]['events'].sort(key=lambda x: x['start_date'])
-            for e in self.series[s]['events']:
-                self.event_in_series[ e['nickname'] ] = s
 
     def read_videos(self):
         path = self.data + '/videos'
@@ -365,6 +358,13 @@ class GenerateSite(object):
         self.stats['total']  = len(self.conferences)
         self.stats['future'] = len(list(filter(lambda x: x['start_date'] >= self.now, self.conferences)))
         self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_date', '') >= self.now, self.conferences)))
+
+        for s in self.series.keys():
+            l = len(s)
+            self.series[s]['events'] = [ e for e in self.conferences if e['nickname'][0:l] == s ]
+            self.series[s]['events'].sort(key=lambda x: x['start_date'])
+            for e in self.series[s]['events']:
+                self.event_in_series[ e['nickname'] ] = s
 
         for e in self.episodes:
             self.search[ e['title'] + ' (ext)' ] = e['permalink']
@@ -512,9 +512,8 @@ class GenerateSite(object):
 
         return
 
-    def generate_podcast_pages(self):
+    def generate_people_pages(self):
         env = Environment(loader=PackageLoader('cat', 'templates'))
-
 
         person_template = env.get_template('person.html')
         if not os.path.exists(self.html + '/p/'):
@@ -538,6 +537,9 @@ class GenerateSite(object):
                 ))
             with open(out_file + '.json', 'w', encoding="utf-8") as fh:
                 fh.write(json.dumps(self.people[p], sort_keys=True))
+
+    def generate_podcast_pages(self):
+        env = Environment(loader=PackageLoader('cat', 'templates'))
 
         source_template = env.get_template('podcast.html')
         if not os.path.exists(self.html + '/s/'):
