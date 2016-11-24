@@ -846,7 +846,6 @@ class GenerateSite(object):
         """
             Go over all the files in the data/people directory and check if all the fields are in the list of valid_fields
         """
-        self.read_people()
         valid_fields = ['name', 'github', 'twitter', 'home', 'country', 'gplus', 'nickname', 'city', 'state', 'slides', 'comment']
         report = ''
         for nickname in self.people.keys():

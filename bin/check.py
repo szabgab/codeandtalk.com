@@ -7,6 +7,7 @@ from conf.code import GenerateSite
 
 gs = GenerateSite()
 print(gs.check_videos())
+gs.read_people()
 print(gs.check_people())
 
 # vim: expandtab
