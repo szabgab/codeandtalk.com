@@ -6,9 +6,14 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from conf.code import GenerateSite
 
 gs = GenerateSite()
-print(gs.check_videos())
+report = gs.check_videos()
+if report != '':
+    print(report)
+
 gs.read_people()
-print(gs.check_people())
+report = gs.check_people()
+if report != '':
+    print(report)
 
 # vim: expandtab
 
