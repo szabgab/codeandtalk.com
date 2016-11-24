@@ -51,19 +51,21 @@ class GenerateSite(object):
     def generate_site(self):
         self.read_sources()
         self.read_tags()
+        self.read_blasters()
         self.read_events()
+        self.read_series()
+
         self.read_people()
         report = self.check_people()
         if report != '':
             raise Exception(report)
 
-        self.read_series()
         self.read_videos()
         report = self.check_videos()
         if report != '':
             raise Exception(report)
 
-        self.read_episodes()
+        self.read_podcast_episodes()
 
         self.preprocess_events()
 
@@ -87,8 +89,15 @@ class GenerateSite(object):
             for row in rd:
                 path = topic2path(row['name'])
                 self.tags[ path ] = new_tag(row['name'])
-        #print(self.tags)
         return
+
+    def read_blasters(self):
+        with open('data/blasters.csv', encoding="utf-8") as fh:
+            rd = csv.DictReader(fh, delimiter=';')
+            for row in rd:
+                self.blasters.append(row)
+        return
+
 
     def read_events(self):
         conferences = []
@@ -227,13 +236,6 @@ class GenerateSite(object):
 
         return
 
-    def read_blasters(self):
-        with open('data/blasters.csv', encoding="utf-8") as fh:
-            rd = csv.DictReader(fh, delimiter=';')
-            for row in rd:
-                self.blasters.append(row)
-        return
-
     def read_series(self):
         self.event_in_series = {}
         with open('data/series.json') as fh:
@@ -244,7 +246,6 @@ class GenerateSite(object):
             self.series[s]['events'].sort(key=lambda x: x['start_date'])
             for e in self.series[s]['events']:
                 self.event_in_series[ e['nickname'] ] = s
-
 
     def read_videos(self):
         path = 'data/videos'
@@ -285,7 +286,7 @@ class GenerateSite(object):
         return
 
 
-    def read_episodes(self):
+    def read_podcast_episodes(self):
         self.episodes = []
         for src in self.sources:
             #print("Processing source {}".format(src['name']))
@@ -595,7 +596,6 @@ class GenerateSite(object):
     def generate_pages(self):
         root = 'html'
         env = Environment(loader=PackageLoader('cat', 'templates'))
-        self.read_blasters()
         self.create_blaster_pages(root)
 
         self.generate_video_pages()
