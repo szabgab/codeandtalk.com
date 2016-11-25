@@ -1,0 +1,20 @@
+Tim Hockin is a Senior Staff Software Engineer at Google.
+<p>
+Tim is one of the original <a href="http://kubernetes.io/">Kubernetes</a> developers. (<a href="https://twitter.com/kubernetesio">@kubernetesio</a>)
+Prior to Kubernetes he was working on Google's internal cluster systems, but as the world started to catch on to containers, the opportunity to work more openly was too good to pass up.
+<p>
+Kubernetes is a very fast-paced project. Unless you are involved in it day-to-day (and even if you are!) it can be challenging to keep track of all the new features. This talk will focus on a series of features that come with the v1.2 release of Kubernetes, and some clues as to what is coming in v1.3.
+
+<ul>
+   <li>Multi-zone Clusters</li>
+   <li>Deployment (Replication controllers) with undo (rollback), multiple updates in flight</li>
+   <li>DaemonSets (Similar to ReplicationController)</li>
+   <li>HorizontalPodAutoScalers</li>
+   <li>Jobs (Run-to-completion containers for short-term or limited life-time processes)</li>
+   <li>Secrets (<a href="https://12factor.net/">12-factor</a>) to distribute passwords, private keys and other information needed for access control.</li>
+   <li>ConfigMaps to distribute configuration values to the containers.</li>
+   <li>HTTP Load-Balancing Ingress (L7) </li>
+   <li>Persistent Volumes to abstract storage away from your application.</li>
+   <li>Network Isolation: who talks to who in the application</li>
+   <li>Scalability and Performance SLO (Service Level Objective) met at &gt; 1000 nodes &gt; 30,000 pods</li>
+</ul>

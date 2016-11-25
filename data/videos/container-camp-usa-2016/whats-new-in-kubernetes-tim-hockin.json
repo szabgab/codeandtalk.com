@@ -1,10 +1,11 @@
 {
-  "description": "Container Camp SF 2016 - https://container.camp/\n\nTim Hockin is a Senior Staff Software Engineer at Google. Tim is one of the original Kubernetes developers. Prior to Kubernetes he was working on Google's internal cluster systems, but as the world started to catch on to containers, the opportunity to work more openly was too good to pass up.\n\nKubernetes is a very fast-paced project. Unless you are involved in it day-to-day (and even if you are!) it can be challenging to keep track of all the new features. This talk will focus on a series of features that come with the v1.2 release of Kubernetes, and some clues as to what is coming in v1.3.",
   "recorded": "2016-04-15",
   "speakers": ["tim-hockin"],
-  "tags": ["Kubernetes"],
+  "tags": ["Kubernetes", "containers", "clusters"],
   "thumbnail_url": "https://i.ytimg.com/vi/k6vCEc86ihI/hqdefault.jpg",
   "title": "What's new in Kubernetes?",
+  "slides": "https://speakerdeck.com/thockin/kubernetes-one-year-later",
+  "length": "26:29",
   "videos": [
     {
       "code": "k6vCEc86ihI",
