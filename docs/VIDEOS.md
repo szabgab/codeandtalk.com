@@ -113,6 +113,12 @@ railsconf-2016
 devoxx-uk-2016
 jsconf-uruguay-2016
 
+laracon-eu-2016
+opensourcebridge-2015
+polyconf-2016
+reactrally-2016
+viewsourceconf-berlin-2016
+
 ``` grep speaker * | grep '\[\]' ```
 
 Add tags, update descriptions
