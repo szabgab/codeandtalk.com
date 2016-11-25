@@ -60,6 +60,7 @@ def main():
             html = template.render(
                 title     = subject,
                 entries   = entries,
+                more      = (len(entries) > 1),
             )
             to = args.to
             if not to:
@@ -73,6 +74,7 @@ def main():
         html = template.render(
             title     = subject,
             entries   = featured,
+            more      = (len(featured) > 1),
         )
         to = args.to
         if not to:

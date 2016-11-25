@@ -11,8 +11,18 @@
 </head>
 <body>
 <div id="content">
+  {% if more %}
+     <h2>Table of Contents</h2>
+     This email contains {{ entries|length }} videos
+     <ul>
+       {% for video in entries %}
+         <li><a href="#{{ video.filename }}">{{ video.title }}</a></li>
+       {% endfor %}
+     </ul>
+  {% endif %}
+
   {% for video in entries %}
-    <div class="video">
+    <div id="{{video.filename}}" class="video">
       <h2>{{video.title}}</h2>
 
       <p>
