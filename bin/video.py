@@ -29,7 +29,7 @@ for e in sorted(gs.conferences, key=lambda e: e['start_date'], reverse=True):
     if youtube:
         if youtube != '-':
             if not os.path.exists('data/videos/' + e['nickname']):
-                no_videos += "{:30} {} {}\n".format( e['nickname'], e['start_date'], youtube)
+                no_videos += "--list {:30} -d {} -e {}\n".format( youtube, e['start_date'], e['nickname'])
     else:
         no_youtube += "{} {}\n".format( e['start_date'], e['nickname'] )
 

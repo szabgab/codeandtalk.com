@@ -119,6 +119,15 @@ polyconf-2016
 reactrally-2016
 viewsourceconf-berlin-2016
 
+accessibility-camp-new-york-2016
+fullstackfest-2015
+fullstackfest-2016
+gotocon-amsterdam-2016
+gotocon-chicago-2016
+gotocon-copenhagen-2016
+gotocon-stockholm-2016
+scaleconf-sa-2016
+
 ``` grep speaker * | grep '\[\]' ```
 
 Add tags, update descriptions

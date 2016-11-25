@@ -1,0 +1,14 @@
+{
+  "description": "Load balancing is something most of us assume is a solved problem. But the idea that load balancing is \"solved\" could not be further from the truth. If you use multiple load balancers, the problem is even worse. Most of us use \"random\" or \"round-robin\" techniques, which have certain advantages but are highly inefficient. Others use more complex algorithms like \"least-conns,\" which can be more efficient but have horrific edge cases. \"Consistent hashing\" is a very useful technique, but only applies to certain problems. There are several factors that exist both in theory and practice that make efficient load balancing an exceptionally hard problem.\n\nFor instance:\n\n* Poisson request arrival times\n* Exponentially distributed response latency\n* Oscillations when sharing data between multiple load balancers\n\nLuckily, there are techniques and algorithms that have been developed that can make life better. I\u2019ll walk through some of the ways that we can do better than \u201crandom,\u201d \u201cround-robin,\u201d and naive \u201cleast-conns,\u201d even with distributed load balancers.",
+  "recorded": "2016-03-10",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/kpvbOzHUakA/hqdefault.jpg",
+  "title": "Tyler McMullen - Load Balancing is Impossible",
+  "videos": [
+    {
+      "code": "kpvbOzHUakA",
+      "type": "youtube"
+    }
+  ]
+}
