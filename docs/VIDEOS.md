@@ -106,7 +106,6 @@ front-trends-2015
 react-conf-2015
 linuxfest-northwest-2015
 
-dinosaurjs-2016
 linuxfest-northwest-2016
 front-trends-2016
 nodeconf-eu-2016
