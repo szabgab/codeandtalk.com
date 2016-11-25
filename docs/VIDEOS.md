@@ -110,6 +110,7 @@ front-trends-2016
 nodeconf-eu-2016
 railsconf-2016
 devoxx-uk-2016
+jsconf-uruguay-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
