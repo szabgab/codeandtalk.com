@@ -1,10 +1,10 @@
 {
   "description": "Container Camp SF 2016 - https://container.camp\nBlog post - https://blog.jessfraz.com/post/getting-towards-real-sandbox-containers/\n\nJessie Frazelle - Docker maintainer and engineer at Mesosphere. \n\nThis talk will cover the differences between application sandboxes and containers. The most well known sandbox is Chrome, for providing \"hard guarantees about what ultimately a piece of code can or cannot do no matter what its inputs are\". \n\nAt its core, the Linux Chrome sandbox uses namespaces along with seccomp and other native features to provide these guarantees. Containers are composed of the same primitives. What is needed for containers to provide this promise? Can it be done by default? What steps are already being made to get towards containers that actually \"contain\"? What challenges will be faced?",
   "recorded": "2016-04-15",
-  "speakers": [],
+  "speakers": ["jessie-frazelle"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/mfnhSX6SJVA/hqdefault.jpg",
-  "title": "Application Sandboxes vs. Containers - Jessie Frazelle",
+  "title": "Application Sandboxes vs. Containers",
   "videos": [
     {
       "code": "mfnhSX6SJVA",
