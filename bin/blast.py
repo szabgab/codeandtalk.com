@@ -23,6 +23,7 @@ def main():
     parser.add_argument('--date', '-d', help = 'YYYY-MM-DD Defaults to today')
     parser.add_argument('--to', help = 'Email address to send to')
     parser.add_argument('--dry', help = 'Do not send the messages', action='store_true')
+    parser.add_argument('--save', help = 'Save the messages in html files.', action='store_true')
     args = parser.parse_args()
 
     gs = GenerateSite()
@@ -65,8 +66,7 @@ def main():
                 to = bl['file'] + '-blaster@codeandtalk.com'
 
             print("Keyword {} sending to {}  Number of entries {}".format(bl['name'], to, len(entries)))
-            if not args.dry:
-                send_mail(from_address, to, subject, html)
+            send_mail(args, bl['file'], from_address, to, subject, html)
 
     if len(featured) > 0:
         subject = "All the featured videos for {}".format(bl['name'], args.date)
@@ -78,11 +78,21 @@ def main():
         if not to:
             to = 'master-blaster@codeandtalk.com'
         print("Master: sending to {}  Number of entries {}".format(to, len(featured)))
-        if not args.dry:
-            send_mail(from_address, to, subject, html)
+        send_mail(args, 'master', from_address, to, subject, html)
 
 
-def send_mail(from_address, to, subject, html):
+def send_mail(args, name, from_address, to, subject, html):
+    if args.save:
+        filename = name + '.html' 
+        print("To: {}".format(to))
+        print("Subject: {}".format(subject))
+        print("saved in {}".format(filename))
+        with open(filename, 'w') as out:
+            out.write(html)
+        return
+    if args.dry:
+        return
+
     #print(html)
     msg = MIMEMultipart('alternative')
     msg['Subject'] = subject
