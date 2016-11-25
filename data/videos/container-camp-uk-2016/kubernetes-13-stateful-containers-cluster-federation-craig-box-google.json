@@ -1,10 +1,10 @@
 {
-  "description": "By now, we're all very comfortable running stateless containers in a cluster. What about keeping state and running across clusters? Kubernetes 1.3 makes these both easy, and Craig will talk you through the how and the why.\n\nCraig Box is the global lead, compute GTM at Google. Craig helps make Google's compute platform available to you. He started his career as a systems administrator, and has worked in development, deployment, DevOps, consulting, advisory and management roles. Craig earned his Computer Science degree at the University of Waikato, and has over 15 years industry experience across North America, EMEA and APAC.",
+  "description": "By now, we're all very comfortable running stateless containers in a cluster. What about keeping state and running across clusters? Kubernetes 1.3 makes these both easy, and Craig will talk you through the how and the why.\n\nCraig Box is the global lead, compute GTM at Google. Craig helps make Google's compute platform available to you. He started his career as a systems administrator, and has worked in development, deployment, DevOps, consulting, advisory and management roles. Craig earned his Computer Science degree at the University of Waikato, and has over 15 years industry experience across North America, EMEA and APAC. (Google)",
   "recorded": "2016-09-09",
-  "speakers": [],
-  "tags": [],
+  "speakers": ["craig-box"],
+  "tags": ["Kubernetes"],
   "thumbnail_url": "https://i.ytimg.com/vi/X0Qtj0ipmOM/hqdefault.jpg",
-  "title": "Kubernetes 1.3: Stateful containers & cluster federation - Craig Box (Google)",
+  "title": "Kubernetes 1.3: Stateful containers & cluster federation",
   "videos": [
     {
       "code": "X0Qtj0ipmOM",

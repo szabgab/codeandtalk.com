@@ -1,10 +1,10 @@
 {
   "description": "Although containers are bringing a refreshing flexibility when deploying services in production, the management of those containers in such an environment still requires special care in order to keep the application up and running. In this regard, orchestration platforms like Docker, Kubernetes and Nomad have been trying to alleviate this responsibility, facilitating the task of deploying and maintaining the entire application stack in its desired state. This ensures that a service will be always running, tolerating machine failures, network erratic behavior or software updates and downtime. The purpose of this talk is to explain the mechanisms and architecture of the Docker Engine orchestration platform (using a framework called swarmkit) to tolerate failures of services and machines, from cluster state replication and leader-election to container re-scheduling logic when a host goes down.\n\nNishant Totla is a software engineer at Docker, and works on the core open source team. He focuses on container orchestration, currently working on Docker SwarmKit and Swarm. His interests include distributed systems and programming language design. In his spare time, he enjoys long-distance running and biking.",
   "recorded": "2016-09-09",
-  "speakers": [],
-  "tags": [],
+  "speakers": ["nishant-totla"],
+  "tags": ["Docker"],
   "thumbnail_url": "https://i.ytimg.com/vi/SLHMkVQnJOs/hqdefault.jpg",
-  "title": "Orchestrating Linux containers while tolerating failures - Nishant Totla (Docker)",
+  "title": "Orchestrating Linux containers while tolerating failures",
   "videos": [
     {
       "code": "SLHMkVQnJOs",
