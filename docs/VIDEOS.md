@@ -100,12 +100,14 @@ postgresopen-2012
 postgresopen-2013
 postgresopen-2014
 postgresopen-2015
-
 rubyfuza-2013
 rubyfuza-2014
 front-trends-2015
 react-conf-2015
+linuxfest-northwest-2015
 
+dinosaurjs-2016
+linuxfest-northwest-2016
 front-trends-2016
 nodeconf-eu-2016
 railsconf-2016

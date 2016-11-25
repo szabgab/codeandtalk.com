@@ -1,0 +1,14 @@
+{
+  "description": "The launch of a website is just one day -- businesses will have their website for years. How do you make your shiny new Drupal site succeed over the long haul?\n\nConstant improvement.\n\nDevOps changes how you build websites. At Freelock, we start the conversation with operations -- if a customer is going to invest heavily in a Drupal site, what is going to be necessary day-to-day, month-to-month, year-to-year, to keep it relevant, fast, current, and functional?\n\nOn a technical side, this means having a reliable way to roll out updates to both the underlying operating system, Drupal core and contributed modules, and new functionality. This begins with solid testing infrastructure and deployment processes.\n\nFor this session, we will share how we have built a system to deploy updates using Gitolite and Jenkins, and test them using a home-grown screenshot comparison tool, Behat, and other integration testing. I will also cover our systems for provisioning a production server and site using Salt and Docker, and how we manage container updates.",
+  "recorded": "2016-04-23",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/zLTws0DGueU/hqdefault.jpg",
+  "title": "LinuxFest Northwest 2016: Quality-oriented Drupal DevOps",
+  "videos": [
+    {
+      "code": "zLTws0DGueU",
+      "type": "youtube"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Containers are revolutionizing the way we deploy and maintain our infrastructures: reducing development overhead, streamlining dev / test / ops, and enabling highly scalable, dynamic infrastructures. But containers still have a key problem: monitoring and troubleshooting them is impractical, painful, and sometimes plain impossible. Even basic things like understanding what is using CPU, memory, or disk bandwidth inside a container are difficult - let alone finding out who a container is talking to on the network or tracking malicious activity.\n\nIn this presentation, Gianluca Borello will cover the current state of the art for container monitoring and visibility, including real use-cases and pros / cons of each. He will then focus on advanced container visibility techniques, such as:\n\n* visualizing a container\u2019s network activity\n\n* understanding detailed resource usage (CPU, memory and disk I/O) of containers and individual processes running inside containers\n\n* following process and user activity inside containers\n\n* collecting logs from multiple containers\n\nThe presentation will feature live interaction with container environments and live demos of all tools and techniques discussed. Special emphasis will be put on sysdig, an open source container and system troubleshooting tool of which that the presenter is a core author.",
+  "recorded": "2016-04-23",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/pHCpPRmfWsg/hqdefault.jpg",
+  "title": "LinuxFest Northwest 2016: The Dark Art of Container Monitoring",
+  "videos": [
+    {
+      "code": "pHCpPRmfWsg",
+      "type": "youtube"
+    }
+  ]
+}
