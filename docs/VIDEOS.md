@@ -128,7 +128,6 @@ gotocon-copenhagen-2016
 gotocon-stockholm-2016
 
 agile-india-2016
-cssdevconf-2015
 eclipsesummit-india-2016
 functionalconf-2016
 seleniumconf-india-2016
