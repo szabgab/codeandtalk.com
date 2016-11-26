@@ -40,7 +40,8 @@ class GenerateSite(object):
         self.blasters = []
         self.html = 'html'
         self.data = 'data'
-
+        self.featured = {}
+ 
         self.stats = {
             'has_coc' : 0,
             'has_coc_future' : 0,
@@ -361,6 +362,9 @@ class GenerateSite(object):
                 self.event_in_series[ e['nickname'] ] = s
 
     def _process_videos(self):
+        for b in self.blasters:
+            self.featured[ b['file'] ] = []
+
         for video in self.videos:
             short_description = html2txt(video.get('description', ''))
             short_description = re.sub(r'"', '', short_description)
@@ -376,6 +380,28 @@ class GenerateSite(object):
                 'twitter'  : self.events[ video['event'] ]['twitter'],  
             }
 
+           # collect featured videos
+            featured = video.get('featured')
+            blasters = video.get('blasters', [])
+            if featured:
+                if len(blasters) == 0:
+                    raise Exception("featured without blaster data/videos/{}/{}.json".format(video['event']['nickname'], video['filename']))
+                for b in blasters:
+                    if b not in self.featured:
+                        self.featured[ b ] = []
+                        #TODO mark these:
+                        #print("Blaster {} is used but not in the blaster list".format(b))
+                    self.featured[b].append({
+                        'future'  : (video['featured'] > self.now),
+                        'featured': video['featured'],
+                        'recorded': video['recorded'],
+                        'filename': video['filename'],
+                        'title'   : video['title'],
+                        'event'   : {
+                            'nickname' : video['event']['nickname'],
+                            'name'     : video['event']['name'],
+                        },
+                    })
             speakers = {}
             for s in video['speakers']:
                 if s in self.people:
@@ -416,8 +442,7 @@ class GenerateSite(object):
                         tweet_video += ' #' + t['link']
             video['tweet_video'] = urllib.parse.quote(tweet_video)
 
-            #print(speakers)
-            #exit()
+        #print(self.featured)
 
     def _process_podcasts(self):
         for e in self.episodes:
@@ -634,6 +659,18 @@ class GenerateSite(object):
         self.sitemap.append({
             'url' : '/series',
         })
+
+
+        with open(root + '/featured', 'w', encoding="utf-8") as fh:
+            fh.write(env.get_template('featured.html').render(
+                h1     = 'Featured Videos',
+                title  = 'Featured Videos',
+                featured = self.featured,
+        ))
+        #self.sitemap.append({
+        #    'url' : '/featured',
+        #})
+
 
         with open(root + '/videos', 'w', encoding="utf-8") as fh:
             fh.write(env.get_template('videos.html').render(

@@ -1,0 +1,17 @@
+{% include 'incl/header.html' %}
+
+<h2>by Blaster</h2>
+{% for blaster in featured %}
+  <h2>{{ blaster }}</h2>
+  <ul>
+    {% for video in featured[blaster] %}
+      <li>
+         <span  {% if video.future %}class="future"{% endif %}>{{ video.featured }}</span> <a href="/v/{{ video.event.nickname }}/{{ video.filename }}">{{ video.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+
+{% include 'incl/footer.html' %}
+
