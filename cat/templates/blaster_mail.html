@@ -16,13 +16,13 @@
      This email contains {{ entries|length }} videos
      <ul>
        {% for video in entries %}
-         <li><a href="#{{ video.filename }}">{{ video.title }}</a></li>
+         <li><a href="https://codeandtalk.com/v/{{ video.event.nickname }}/{{ video.filename }}">{{ video.title }}</a></li>
        {% endfor %}
      </ul>
   {% endif %}
 
   {% for video in entries %}
-    <div id="{{video.filename}}" class="video">
+    <div class="video">
       <h2>{{video.title}}</h2>
 
       <p>
