@@ -1,0 +1,14 @@
+{
+  "description": "One of the first things that you learn when you enter the quality assurance space is the famous triangle braked down to Unit test at the lower, on top of it Acceptance Tests based on API (in some places this layer is integration tests but the idea is the same) and at the top of the Pyramid we have the User Interface (UI) Tests. This Pyramid, in the last two decades was the main principle on how to approach testing activities (mainly automation).\n\nIn the last couple of year we are all taking part in the digital transformation that is taking place all over. Mobile Native applications as well as web applications take part in almost any activity that we are doing during the day, business are building their strategy on this channel and shifting resources and budgets to deliver applications maintained and expend their market share.\n\nSo what changed?\n\nThe users are no longer static, they are interacting with those apps while they are on the train on their way to the office, while waiting for a flight at the airport or drinking coffee while waiting for their next meeting \u2013 those \u201cinteractions\u201d are done most of the time while they are on the go working with mobile device. In addition the application take advantage of the sensors that those devices provide in order to provide better user experience. The environment where our end users use our application has significant impact on the functionality and performance of our application which at the end of the day we call quality.\n\nDuring the last year we developed a new approach for digital application testing \u2013 The \u201cHourglass\u201d \u2013 This new approach expend the known Pyramid and update it to the digital era \u2013 The client side is richer and contains many components that impact the quality of application. It redefine the definition of coverage. At the top of the pyramid we add 2 additional triangles (the gives the hourglass shape) \u2013 The first one is devices \u2013 what devices should we test, how we should approach the changes that happens in the devise market. The second is the environment, the places that our end users will use and interact with the application. We leverage the automation investment and get the real digital coverage which will help to reach high quality applications.   \n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2482\n\nConference: http://2016.seleniumconf.in",
+  "recorded": "2016-06-24",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/fP34PNEnaEQ/hqdefault.jpg",
+  "title": "From Pyramids to hourglass by Roy and Sreevatsa at SeConf16 India",
+  "videos": [
+    {
+      "code": "fP34PNEnaEQ",
+      "type": "youtube"
+    }
+  ]
+}

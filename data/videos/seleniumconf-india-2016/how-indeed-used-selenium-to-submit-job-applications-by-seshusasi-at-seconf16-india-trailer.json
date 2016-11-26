@@ -1,0 +1,14 @@
+{
+  "description": "Everyone knows Selenium is primarily used for Test automation. In fact, the power of Selenium has not been fully put to use, to solve business problems in many other domains like Recruiting, Health care and literally every domain that has not yet caught up with speed of the 'Mobile & Smartphone wave'. This talk is all about how Indeed unleashed the power of Selenium to fulfill its mission to help people get jobs.\n\nThe talk has two facets to it. A part of the talk comprises of how Indeed uses Selenium differently to solve a real business problem in Recruiting Domain (that helped jobseekers send millions of job applications to 650 plus employers) followed by a technical overview of the solution.\n\nThe second part of the talk will be about Selenium Grid. We try to enlist all the functional & architectural requirements(like No Single point of failure at Hub layer, Auto-scaling, Capacity exhaustion of nodes, Monitoring unhealthy nodes, Strategy to deal with memory leak issues on Grid Nodes, Returning sessions etc.,) that a large scale Selenium Grid or Selenium Grid like setup, should ideally fulfill. We do an analysis of how SeleniumHQ\u2019s out-of-the-box Selenium Grid offering fails to meet some of those needs and how that pushed us to design a new Selenium Grid architecture (based on RemoteWebDriver protocol). We give an technical overview of our new Selenium Grid\u2019s Architecture, how we improved it over months. the lessons we learnt from 5M+ Sessions our Selenium Grid created, our efforts to reduce the failure rates, and the unsolved problems in our 1.5 years of journey!\n\nWe believe, our talk will be of an immense value to all Selenium Users in seeing opportunities to solve business problems in various domains using Selenium; And we hope our learnings in re-architecting Selenium Grid will be a great value to those who are planning to setup Selenium Grid in-house.\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2527\n\nConference: http://2016.seleniumconf.in",
+  "recorded": "2016-06-24",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/RNu_Y7zx-r0/hqdefault.jpg",
+  "title": "How Indeed used Selenium to submit job applications by Seshu&Sasi at SeConf16 India - Trailer",
+  "videos": [
+    {
+      "code": "RNu_Y7zx-r0",
+      "type": "youtube"
+    }
+  ]
+}

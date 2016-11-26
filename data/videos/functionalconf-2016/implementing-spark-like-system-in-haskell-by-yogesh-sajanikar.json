@@ -1,0 +1,14 @@
+{
+  "description": "The session will present design and implementation of Hspark. A library that implements a framework to enable running a distributed map-reduce job over a set of nodes. The session will also showcase an extensible DSL to specify distributed map-reduce job.\n\nThe session will focus mainly on \n\nCreation of DSL (Specification) for map reduce. The DSL is similar (actually based on) Apache Spark\nTranslation of DSL into scheduling the jobs across the nodes, and\nExecuting and handling failures.\nCurrent implementation of hspark is at https://github.com/yogeshsajanikar/hspark and implements first two points mentioned above. Currently, I am trying to enforce it with separation of execution framework so that failures can be handled correctly.\n\nNote that this project was implemented as a part of course project for CS240H at Stanford. The implementation details can be found at http://www.scs.stanford.edu/16wi-cs240h/projects/sajanikar.pdf\n\nMore details: https://confengine.com/functional-conf-2016/proposal/2365\n\nConference: http://functionalconf.com/",
+  "recorded": "2016-10-13",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/o6XddljM3nI/hqdefault.jpg",
+  "title": "Implementing Spark like system in Haskell by Yogesh Sajanikar",
+  "videos": [
+    {
+      "code": "o6XddljM3nI",
+      "type": "youtube"
+    }
+  ]
+}

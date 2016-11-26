@@ -1,0 +1,14 @@
+{
+  "description": "Homoiconicity (code as data, data as code) is one of the hallmarks of Lisp. Clojure, a Lisp-1 language, has this wonderful feature too. In this talk I will discuss about performance optimization techniques that leverage homoiconicity.\n\nNo discussion on performance optimization can happen without discussing performance benchmarking. In this talk I will show how to do comparative benchmarking while trying to find performance bottlenecks. I will then proceed to showing techniques on using Clojure's homoiconicity to optimize performance. I will also show how to discover latency breakup of any Clojure code in a waterfall-chart model using homoiconicity.\n\nMore details: https://confengine.com/functional-conf-2016/proposal/2939\n\nConference: http://functionalconf.com/",
+  "recorded": "2016-10-13",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/d70VACWSOeY/hqdefault.jpg",
+  "title": "Performance optimization with Code as data in Clojure by Shantanu Kumar",
+  "videos": [
+    {
+      "code": "d70VACWSOeY",
+      "type": "youtube"
+    }
+  ]
+}
