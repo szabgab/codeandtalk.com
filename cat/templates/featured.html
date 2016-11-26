@@ -1,5 +1,7 @@
 {% include 'incl/header.html' %}
 
+<a href="/featured-by-date">by date</a>
+
 <div id="featured_by_blaster">
   <h2>by Blaster</h2>
   {% for blaster in featured_by_blaster %}
@@ -14,25 +16,6 @@
     </ul>
   {% endfor %}
 </div>
-
-<div id="featured_by_date">
-  <h2>by Date</h2>
-  {% for (date, lst) in featured_by_date|dictsort %}
-    <h3>{{ date }}</h3>
-    <ul>
-      {% for video in lst %}
-        <li>
-          <span {% if video.class_name %}class="{{ video.class_name }}"{% endif %}>{{ video.featured }}</span>
-          {% for b in video.blasters %}
-            {{ b }}
-          {% endfor %}
-          <a href="/v/{{ video.event.nickname }}/{{ video.filename }}">{{ video.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endfor %}
-</div>
-
 
 {% include 'incl/footer.html' %}
 

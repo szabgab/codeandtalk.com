@@ -1,0 +1,25 @@
+{% include 'incl/header.html' %}
+
+<a href="/featured">by blaster</a>
+
+<div id="featured_by_date">
+  <h2>by Date</h2>
+  {% for (date, lst) in featured_by_date|dictsort|reverse %}
+    <h3>{{ date }}</h3>
+    <ul>
+      {% for video in lst %}
+        <li>
+          <span {% if video.class_name %}class="{{ video.class_name }}"{% endif %}>{{ video.featured }}</span>
+          {% for b in video.blasters %}
+            {{ b }}
+          {% endfor %}
+          <a href="/v/{{ video.event.nickname }}/{{ video.filename }}">{{ video.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
+
+
+{% include 'incl/footer.html' %}
+

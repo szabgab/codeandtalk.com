@@ -680,6 +680,11 @@ class GenerateSite(object):
                 h1     = 'Featured Videos',
                 title  = 'Featured Videos',
                 featured_by_blaster = self.featured_by_blaster,
+        ))
+        with open(root + '/featured-by-date', 'w', encoding="utf-8") as fh:
+            fh.write(env.get_template('featured-by-date.html').render(
+                h1     = 'Featured Videos',
+                title  = 'Featured Videos',
                 featured_by_date    = self.featured_by_date,
         ))
         #self.sitemap.append({
