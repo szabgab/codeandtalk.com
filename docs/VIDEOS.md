@@ -126,7 +126,6 @@ gotocon-amsterdam-2016
 gotocon-chicago-2016
 gotocon-copenhagen-2016
 gotocon-stockholm-2016
-scaleconf-sa-2016
 
 agile-india-2016
 cssdevconf-2015
