@@ -40,7 +40,8 @@ class GenerateSite(object):
         self.blasters = []
         self.html = 'html'
         self.data = 'data'
-        self.featured = {}
+        self.featured_by_blaster = {}
+        self.featured_by_date = {}
  
         self.stats = {
             'has_coc' : 0,
@@ -363,7 +364,7 @@ class GenerateSite(object):
 
     def _process_videos(self):
         for b in self.blasters:
-            self.featured[ b['file'] ] = []
+            self.featured_by_blaster[ b['file'] ] = []
 
         for video in self.videos:
             short_description = html2txt(video.get('description', ''))
@@ -384,30 +385,37 @@ class GenerateSite(object):
             featured = video.get('featured')
             blasters = video.get('blasters', [])
             if featured:
+                class_name = ''
+                if video['featured'] == self.now:
+                    class_name = 'today_feature'
+                elif video['featured'] > self.now:
+                    class_name = 'future_feature'
+                this_video = {
+                    'class_name' : class_name,
+                    'blasters'   : video['blasters'],
+                    'featured'   : video['featured'],
+                    'recorded'   : video['recorded'],
+                    'filename'   : video['filename'],
+                    'title'      : video['title'],
+                    'event'      : {
+                        'nickname' : video['event']['nickname'],
+                        'name'     : video['event']['name'],
+                    },
+                }
+
+                if featured not in self.featured_by_date:
+                    self.featured_by_date[featured] = []
+                self.featured_by_date[featured].append(this_video)
+
                 if len(blasters) == 0:
                     raise Exception("featured without blaster data/videos/{}/{}.json".format(video['event']['nickname'], video['filename']))
                 for b in blasters:
-                    if b not in self.featured:
-                        self.featured[ b ] = []
+                    if b not in self.featured_by_blaster:
+                        self.featured_by_blaster[ b ] = []
                         #TODO mark these:
                         #print("Blaster {} is used but not in the blaster list".format(b))
-                    class_name = ''
-                    if video['featured'] == self.now:
-                        class_name = 'today_feature'
-                    elif video['featured'] > self.now:
-                        class_name = 'future_feature'
                     
-                    self.featured[b].append({
-                        'class_name' : class_name,
-                        'featured'   : video['featured'],
-                        'recorded'   : video['recorded'],
-                        'filename'   : video['filename'],
-                        'title'      : video['title'],
-                        'event'      : {
-                            'nickname' : video['event']['nickname'],
-                            'name'     : video['event']['name'],
-                        },
-                    })
+                    self.featured_by_blaster[b].append(this_video)
             speakers = {}
             for s in video['speakers']:
                 if s in self.people:
@@ -448,7 +456,7 @@ class GenerateSite(object):
                         tweet_video += ' #' + t['link']
             video['tweet_video'] = urllib.parse.quote(tweet_video)
 
-        #print(self.featured)
+        #print(self.featured_by_blaster)
 
     def _process_podcasts(self):
         for e in self.episodes:
@@ -671,7 +679,8 @@ class GenerateSite(object):
             fh.write(env.get_template('featured.html').render(
                 h1     = 'Featured Videos',
                 title  = 'Featured Videos',
-                featured = self.featured,
+                featured_by_blaster = self.featured_by_blaster,
+                featured_by_date    = self.featured_by_date,
         ))
         #self.sitemap.append({
         #    'url' : '/featured',
