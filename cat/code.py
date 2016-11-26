@@ -391,13 +391,19 @@ class GenerateSite(object):
                         self.featured[ b ] = []
                         #TODO mark these:
                         #print("Blaster {} is used but not in the blaster list".format(b))
+                    class_name = ''
+                    if video['featured'] == self.now:
+                        class_name = 'today_feature'
+                    elif video['featured'] > self.now:
+                        class_name = 'future_feature'
+                    
                     self.featured[b].append({
-                        'future'  : (video['featured'] > self.now),
-                        'featured': video['featured'],
-                        'recorded': video['recorded'],
-                        'filename': video['filename'],
-                        'title'   : video['title'],
-                        'event'   : {
+                        'class_name' : class_name,
+                        'featured'   : video['featured'],
+                        'recorded'   : video['recorded'],
+                        'filename'   : video['filename'],
+                        'title'      : video['title'],
+                        'event'      : {
                             'nickname' : video['event']['nickname'],
                             'name'     : video['event']['name'],
                         },

@@ -275,6 +275,9 @@ nav li a.regular:hover  {
    width: 300px;
 }
 
-.future {
+.today_feature {
+   background-color: green;
+}
+.future_feature {
    background-color: orange;
 }

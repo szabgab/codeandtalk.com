@@ -6,7 +6,7 @@
   <ul>
     {% for video in featured[blaster] %}
       <li>
-         <span  {% if video.future %}class="future"{% endif %}>{{ video.featured }}</span> <a href="/v/{{ video.event.nickname }}/{{ video.filename }}">{{ video.title }}</a>
+         <span {% if video.class_name %}class="{{ video.class_name }}"{% endif %}>{{ video.featured }}</span> <a href="/v/{{ video.event.nickname }}/{{ video.filename }}">{{ video.title }}</a>
       </li>
     {% endfor %}
   </ul>
