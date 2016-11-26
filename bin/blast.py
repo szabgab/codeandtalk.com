@@ -66,7 +66,7 @@ def main():
             if not to:
                 to = bl['file'] + '-blaster@codeandtalk.com'
 
-            print("Keyword {} sending to {}  Number of entries {}".format(bl['name'], to, len(entries)))
+            print("{}: sending to {}  Number of entries {}".format(bl['name'], to, len(entries)))
             send_mail(args, bl['file'], from_address, to, subject, html)
 
     if len(featured) > 0:
