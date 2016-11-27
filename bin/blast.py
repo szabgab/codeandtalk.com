@@ -70,7 +70,7 @@ def main():
             send_mail(args, bl['file'], from_address, to, subject, html)
 
     if len(featured) > 0:
-        subject = "All the featured videos for {}".format(bl['name'], args.date)
+        subject = "All the featured videos for {}".format(args.date)
         html = template.render(
             title     = subject,
             entries   = featured,
