@@ -1,10 +1,11 @@
 {
-  "description": "Docker wave has changed the way we look at infrastructure today. Docker is like a lightweight VM which provides an isolated environment on your OS, without the need for a separate kernel. You can run your applications inside docker which offers the ease of deployment.\n\nHowever, docker requires some management. How do you configure and tune the OS that will host them? How can you ease the process of creating and managing the right dockerfiles? How do you manage docker images? How do you orchestrate docker containers? How do you manage configurations across the different environments of dev, test and prod?\n\nYou can use Chef to provision and configure the machines which will host docker containers. Chef can create container images. Chef can configure docker containers when they boot and while they run. Chef can deploy, run and stop containers. Moreover chef can help you debug and analyse whats happening in your application that runs inside the docker container.\n\nThis tutorial will run you through the way you can configure and manage Docker using Chef. It will be supported with a demo and a real business case.\n\nConference: http://2016.agileindia.org\nSlide and Other details: https://confengine.com/agile-india-2016/proposal/2201",
+  "description": "Docker wave has changed the way we look at infrastructure today. Docker is like a lightweight VM which provides an isolated environment on your OS, without the need for a separate kernel. You can run your applications inside docker which offers the ease of deployment.\n\nHowever, docker requires some management. How do you configure and tune the OS that will host them? How can you ease the process of creating and managing the right dockerfiles? How do you manage docker images? How do you orchestrate docker containers? How do you manage configurations across the different environments of dev, test and prod?\n\nYou can use Chef to provision and configure the machines which will host docker containers. Chef can create container images. Chef can configure docker containers when they boot and while they run. Chef can deploy, run and stop containers. Moreover chef can help you debug and analyse whats happening in your application that runs inside the docker container.\n\nThis tutorial will run you through the way you can configure and manage Docker using Chef. It will be supported with a demo and a real business case.",
+  "abstract": "https://confengine.com/agile-india-2016/proposal/2201",
   "recorded": "2016-03-14",
-  "speakers": [],
-  "tags": [],
+  "speakers": ["mukta"],
+  "tags": ["Docker", "Chef"],
   "thumbnail_url": "https://i.ytimg.com/vi/oYNjSSsPD7w/hqdefault.jpg",
-  "title": "Baking Docker using Chef   Mukta",
+  "title": "Baking Docker using Chef",
   "videos": [
     {
       "code": "oYNjSSsPD7w",
