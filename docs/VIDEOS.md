@@ -132,6 +132,7 @@ functionalconf-2016
 seleniumconf-india-2016
 seleniumconf-uk-2016
 seleniumconf-usa-2015
+rubyconf-taiwan-2015
 
 ``` grep speaker * | grep '\[\]' ```
 
