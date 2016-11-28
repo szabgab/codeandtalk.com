@@ -1,10 +1,11 @@
 {
-  "description": "Slides: https://speakerdeck.com/frantic/react-native-under-the-hood\n\nReact Native is a new open source framework by Facebook that enables software engineers to build world-class application experiences on native platforms using a consistent developer experience based on JavaScript and React. In this talk we'll do a deep dive into technical details about how React Native works. We'll talk about asynchronous bridge that serves as communication channel between JavaScript and platform code and how React fits into this model.",
+  "description": "React Native is a new open source framework by Facebook that enables software engineers to build world-class application experiences on native platforms using a consistent developer experience based on JavaScript and React. In this talk we'll do a deep dive into technical details about how React Native works. We'll talk about asynchronous bridge that serves as communication channel between JavaScript and platform code and how React fits into this model.",
   "recorded": "2015-06-08",
-  "speakers": [],
+  "slides": "https://speakerdeck.com/frantic/react-native-under-the-hood",
+  "speakers": ["alexander-kotliarskyi"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/hDviGU-57lU/hqdefault.jpg",
-  "title": "Alexander Kotliarskyi - React Native: Under the Hood | YGLF2015",
+  "title": "React Native: Under the Hood",
   "videos": [
     {
       "code": "hDviGU-57lU",

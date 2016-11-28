@@ -139,7 +139,6 @@ nordicjs-2014
 nordicjs-2015
 nordicjs-2016
 nos-conf-2016
-yougottalovefrontend-2015
 zendcon-2015
 
 ``` grep speaker * | grep '\[\]' ```
