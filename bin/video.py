@@ -3,7 +3,7 @@
 import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from conf.code import GenerateSite
+from cat.code import GenerateSite
 
 # read all the events
 # list the ones that have youtube value which is not - and that does NOT have the video directory.
@@ -16,6 +16,9 @@ no_videos = ''
 no_youtube = ''
 for e in sorted(gs.conferences, key=lambda e: e['start_date'], reverse=True):
     #exit(e)
+    if e.get('videos_url'):
+        continue
+
     youtube = e.get('youtube')
 
     if e['end_date'] > gs.now:
@@ -26,7 +29,7 @@ for e in sorted(gs.conferences, key=lambda e: e['start_date'], reverse=True):
     if youtube:
         if youtube != '-':
             if not os.path.exists('data/videos/' + e['nickname']):
-                no_videos += "{:30} {} {}\n".format( e['nickname'], e['start_date'], youtube)
+                no_videos += "--list {:30} -d {} -e {}\n".format( youtube, e['start_date'], e['nickname'])
     else:
         no_youtube += "{} {}\n".format( e['start_date'], e['nickname'] )
 

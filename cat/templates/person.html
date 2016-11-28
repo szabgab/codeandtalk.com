@@ -1,0 +1,40 @@
+{% include 'incl/header.html' %}
+    <div><a href="{{ person['info']['home'] }}">{{ person['info']['name'] }}</a></div>
+    {% if person['info']['github'] %}
+    <div><a href="https://github.com/{{ person['info']['github'] }}">Github: {{ person['info']['github'] }}</a></div>
+    {% endif %}
+    {% if person['info']['twitter'] %}
+    <div><a href="https://twitter.com/{{ person['info']['twitter'] }}">Twitter: @{{ person['info']['twitter'] }}</a></div>
+    {% endif %}
+
+    {% if person['episodes'] %}
+        <h2>Episodes</h2>
+        <ul>
+          {% for e in person['episodes'] %}
+            <li>{{ e['date'] }} <a href="{{ e['permalink'] }}">{{ e['title'] }}</a> <a href="/s/{{ e['source'] }}">{{ e['source'] }}</a></li>
+          {% endfor %}
+        </ul>
+    {% endif %}
+
+    {% if person['hosting'] %}
+	    <h2>Hosting</h2>
+        <ul>
+	      {% for e in person['hosting'] %}
+	        <li>{{ e['date'] }} <a href="{{ e['permalink'] }}">{{ e['title'] }}</a> <a href="/s/{{ e['source'] }}">{{ e['source'] }}</a></li>
+	      {% endfor %}
+        </ul>
+	{% endif %}
+
+	{% if person['videos'] %}
+        <h2>Talks</h2>
+        <ul>
+          {% for v in person['videos'] %}
+            <li>
+              <a href="/v/{{v.event.nickname}}/{{v.filename}}"><img class="list-thumbnail" src="{{v.thumbnail_url}}" alt="{{v.title}}" /></a>
+             {{ v['recorded'] }} <a href="/v/{{ v['event']['nickname'] }}/{{ v['filename'] }}">{{ v['title'] }}</a>  @ <a href="/e/{{ v['event']['nickname'] }}">{{ v['event']['name'] }}</a>
+            </li>
+		  {% endfor %}
+        </ul>
+    {% endif %}
+	
+{% include 'incl/footer.html' %}

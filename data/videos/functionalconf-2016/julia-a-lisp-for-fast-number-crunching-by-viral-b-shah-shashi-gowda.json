@@ -1,0 +1,14 @@
+{
+  "description": "Julia is a programming language for data science and numerical computing. Julia is a high-level, high-performance dynamic language, it uses just-in-time compilation to provide fast machine code - dynamic code runs at about half the speed of C, and orders of magnitude faster than traditional numerical computing tools.\n\nJulia borrows two main ideas from Lisp lore:\n\nMultiple-dispatch: a method is identified by a name and the types of all of its arguments (traditional OOP only uses the type of a single argument) multiple-dispatch allows for a natural programming model suitable for mathematics and general purpose programming. Interestingly, the same feature is responsible for Julia's ability to generate really fast machine code.\nMacros: Julia has syntax that is familiar to users of other technical computing environments, however, Julia expressions are homoiconic -- Julia code can be represented as Julia data structures, and transformed from one form to another via hygienic macros. There are some very interesting uses of macros to create domain-specific languages for effective programming. \n\nMore details: https://confengine.com/functional-conf-2016/proposal/3153\n\nConference: http://functionalconf.com/",
+  "recorded": "2016-10-13",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/DIDydnUms2c/hqdefault.jpg",
+  "title": "Julia :A Lisp for Fast Number Crunching by Viral B  Shah & Shashi Gowda",
+  "videos": [
+    {
+      "code": "DIDydnUms2c",
+      "type": "youtube"
+    }
+  ]
+}

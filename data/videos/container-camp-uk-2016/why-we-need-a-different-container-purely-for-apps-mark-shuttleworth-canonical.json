@@ -1,0 +1,14 @@
+{
+  "description": "Fast, secure and reliable third-party Linux apps that run efficiently on any device from the RPi to the mainframe - with \"snap\", a new universal Linux package that works from Arch to Xubuntu thanks to a clever twist on standard container techniques. \n\nNeither Docker nor LXD are specifically focused on \"the app\", they both create machine-like entities that require integration through the network. What if you just want a database? \n\nSnaps are a new kind of container that explicitly shares stuff with other containers on the host machine through nicely defined secure interfaces. So fast, much fun, very delicious.\n\nMark Shuttleworth did crypto, went well, gave a load away, went to space, saw the world, founded Ubuntu, world went wild, founded Canonical, saw the world again from a plane, designed Unity, world went nuts, designed LXD, all was forgiven, designed snaps, let's see what happens next. (Canonical)",
+  "recorded": "2016-09-09",
+  "speakers": ["mark-shuttleworth"],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/0z3yusiCOCk/hqdefault.jpg",
+  "title": "Why we need a different container purely for apps",
+  "videos": [
+    {
+      "code": "0z3yusiCOCk",
+      "type": "youtube"
+    }
+  ]
+}

@@ -100,17 +100,38 @@ postgresopen-2012
 postgresopen-2013
 postgresopen-2014
 postgresopen-2015
-
 rubyfuza-2013
 rubyfuza-2014
-
+front-trends-2015
 react-conf-2015
-react-conf-2016
+linuxfest-northwest-2015
 
+linuxfest-northwest-2016
+front-trends-2016
 nodeconf-eu-2016
 railsconf-2016
 devoxx-uk-2016
+jsconf-uruguay-2016
 
+laracon-eu-2016
+opensourcebridge-2015
+polyconf-2016
+reactrally-2016
+viewsourceconf-berlin-2016
+
+accessibility-camp-new-york-2016
+fullstackfest-2015
+fullstackfest-2016
+gotocon-amsterdam-2016
+gotocon-chicago-2016
+gotocon-copenhagen-2016
+gotocon-stockholm-2016
+
+eclipsesummit-india-2016
+functionalconf-2016
+seleniumconf-india-2016
+seleniumconf-uk-2016
+seleniumconf-usa-2015
 
 ``` grep speaker * | grep '\[\]' ```
 

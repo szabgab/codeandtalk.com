@@ -1,0 +1,14 @@
+{
+  "description": "Having an application on all major platforms(Desktop Web, Mobile Web, Mobile Native apps etc.) brings a daunting requirement of verifying every single feature before giving a +1 for release and so it becomes essential for the QA folk to test and provide proper feedback as quickly as possible, which immediately takes the complete reliance only on manual testing out of the question and pushes for the need for automated testing with scalable automation framework embracing any product need in the future.\n\nWe surely have 5 points to be answered before we think about such solution :\n\nDo we have a single test code which can test the product everywhere with a simple mechanism to trigger and manage them?\nWhere is the plan to reduce Time To market having so many tests running before each code push?\nDo we have 1 click solution to monitor all the test results in one go to assert the state of ThumbsUp for release?\nIs continuos integration in place?\nHow can I integrate all of the above 4 points using the same beautiful tool Selenium along with other aligned open-source projects like Appium, Shell and Jenkins?\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2438\n\nConference: http://2016.seleniumconf.in",
+  "recorded": "2016-06-24",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/qtjSKI_cwVQ/hqdefault.jpg",
+  "title": "Can we Have it All by Pooja Shah at SeConf16 India",
+  "videos": [
+    {
+      "code": "qtjSKI_cwVQ",
+      "type": "youtube"
+    }
+  ]
+}

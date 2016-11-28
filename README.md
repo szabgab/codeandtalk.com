@@ -75,9 +75,31 @@ TODO Check for events:
 * https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A/playlists
 * https://github.com/nodeconf
 
+http://visualized.com/2014/conference/
+http://visualized.com/2015
+http://visualized.com/2016
+
 
 
 Other sources
 ------
 https://techpoint.ng/2016/09/14/hackjos-2016-2/
+
+
+
+Some Advice to Conference organizers
+--------------------------------------
+Just a few random thoughts as I index the videos and the conferences.
+
+* If you record lightning talks, split them up to individual videos. That allows people to watch one short video while at work.
+* Include the names of the speakers in the filenames.
+
+* Keep the web site of the previous editions of your event, or at least keep the list of talks and list of people.
+* The best would be to have well defined URLs. Some conferences have subdomains per year: http://2017.someevent.com/
+Other have them in subdirectory: http://someevent.com/2017/  Both are good.
+The best if the main page only redirects to the current event or holds some content, but each event has its own subsite.
+Make sure every page of the earlier events have a prominent link at the top linking to the home page of the conference (which can then
+redirect to the current or upcoming event).
+
+* On the speaker page include the Twitter and GitHub IDs of each speaker.
 

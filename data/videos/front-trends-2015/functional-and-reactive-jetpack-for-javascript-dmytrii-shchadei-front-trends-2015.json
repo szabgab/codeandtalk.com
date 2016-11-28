@@ -1,0 +1,14 @@
+{
+  "description": "http://front-trends.com/\n\nWhile working on my WebRTC enabled side project, I noticed that many asynchronous processes which can be easily explained are really tough to implement using traditional imperative programming with object structuring. Intuitively we understand what it means. It means that we need to define new abstractions to effectively deal with asynchrony.\n\nIn this talk, I want to share with you new kinds of glue for structuring our programs, which I learned while taking bits of two other programming paradigms\u2014functional and reactive\u2014and using them in javascript.\n\nSlides: http://www.slideshare.net/metrofun/frp-47908056",
+  "recorded": "2015-05-06",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/M38uJ5llnrc/hqdefault.jpg",
+  "title": "Functional and Reactive Jetpack for Javascript \u2013 Dmytrii Shchadei / Front-Trends 2015",
+  "videos": [
+    {
+      "code": "M38uJ5llnrc",
+      "type": "youtube"
+    }
+  ]
+}

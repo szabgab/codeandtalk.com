@@ -1,0 +1,14 @@
+{
+  "description": "Why/what/how and demo of a scalable (over Swarm) real-time sensor network build on Docker ARM microservices and Raspberry Pi. Each sensor constantly samples the ambient temperature of individual server racks and sends a real-time alarm to the control room (LED display) when levels rise above normal levels. An anti-tamper motion sensor picks up tiny vibrations and alerts the admins when someone is performing unscheduled maintenance on the equipment. A custom made RGB LED display made by Pimoroni for Dockercon shows the status of up to 8 racks in real-time.\n\nDocker Captain Alex Ellis is a Senior Software Engineer @ ADP with expertise in the full Microsoft .NET stack, Node.js and Ruby. He enjoys making robots and IoT-connected projects with Linux and the Raspberry Pi microcomputer. He is a writer for Linux User and Developer magazine and also produces tutorials on Docker, coding and IoT for his tech blog at alexellis.io. (ADP)",
+  "recorded": "2016-09-09",
+  "speakers": ["alex-ellis"],
+  "tags": ["Docker", "IoT"],
+  "thumbnail_url": "https://i.ytimg.com/vi/-qRUsuevKj4/hqdefault.jpg",
+  "title": "Docker and IoT: securing the server-room with realtime ARM microservices",
+  "videos": [
+    {
+      "code": "-qRUsuevKj4",
+      "type": "youtube"
+    }
+  ]
+}

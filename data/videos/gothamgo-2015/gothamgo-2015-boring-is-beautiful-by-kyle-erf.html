@@ -1,7 +1,30 @@
 One of the joys of teaching others Go is seeing the clever and crazy patterns people create with the language when they first learn it: functional programming, interface{} abuses, reflection madness.
 In this talk, we will build a case for simplicity by contrasting the kinds of code written by newbie Gophers with code written by more experienced Go programmers, using case studies from MongoDB's Go codebase and the community at large.
+<p>
 Learn why the most effective Go code is often the least exciting and why you should be excited about unexciting code.
-
+<p>
 In his two years at <a href="https://www.mongodb.com/">MongoDB</a>, Kyle has worked on a recently open-sourced continuous integration system, Evergreen, and on the tools that ship with the MongoDB database.
 He's pushed hard to cultivate the usage of Go within the company. When he's not hacking away at distributed systems, Kyle performs at comedy shows around New York.
+<p>
+
+<q>Good code is not the interesting or even succint.</q>
+<p>
+
+<q>Good code is easy to understand, easy to work with, and easy to replace.</q>
+<p>
+
+<q>Usually there is only one correct way to do things.</q>
+<p>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Zhuang_Zhou">Zhuang Zhou (Zhungzi)</a></li>
+  <li>Finalizers - like destructor - dependent on Go's runtime GC implementation - Not idiomatic - Just use <b>defer</b></li>
+  <li>Unnecessary Concurrency - usually a simple for loop is enough...</li>
+  <li><a href="https://en.wikipedia.org/wiki/Brian_Kernighan">Brian Kernighan</a></li>
+  <li>Reflection and interface{}</li>
+  <li><a href="https://github.com/go-martini/martini">Martini</a></li>
+  <li><a href="https://github.com/urfave/negroni">Negroni</a></li>
+  <li><a href="https://github.com/shelman/angier">Angier</a></li>
+</ul>
+
 
