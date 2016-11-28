@@ -385,6 +385,10 @@ class GenerateSite(object):
             featured = video.get('featured')
             blasters = video.get('blasters', [])
             if featured:
+
+                # Make sure we have a length field
+                if 'length' not in video:
+                    raise Exception("Video {}/{}.json was featured but has no length".format(video['event']['nickname'], video['filename']))
                 class_name = ''
                 if video['featured'] == self.now:
                     class_name = 'today_feature'
