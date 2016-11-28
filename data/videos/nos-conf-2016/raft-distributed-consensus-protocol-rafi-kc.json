@@ -1,0 +1,14 @@
+{
+  "description": "Consensus is a fundamental problem in fault-tolerant distributed\nsystems. Consensus typically arises in the context of replicated state\nmachines. It can lead into inconsistencies originating from the\nmaintenance of two separate replicated data sets, either because of\nservers in a network design, or a failure condition based on servers not\ncommunicating and synchronizing their data to each other..\nI will be talking about the existing solutions to solve the Consensus\nproblem in computing and the advantage of RAFT over the other solutions.",
+  "recorded": "2016-03-18",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/he0ybPeHyMI/hqdefault.jpg",
+  "title": "RAFT : Distributed Consensus Protocol : Rafi KC",
+  "videos": [
+    {
+      "code": "he0ybPeHyMI",
+      "type": "youtube"
+    }
+  ]
+}

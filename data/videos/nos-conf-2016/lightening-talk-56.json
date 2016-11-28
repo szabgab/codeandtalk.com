@@ -1,0 +1,14 @@
+{
+  "description": "Easy GO with GoofTalk (Vishwas Navada K and Manjuprasad Shetty N)\nWe will be discussing about our simple chat application called GoofTalk which is a client-server model developed using GO. It allows the user to connect to a host residing on the users network and chat with other clients who have a connection to that host. With Java and C++ like constructs, it makes it very easy to learn in less time. It comprises of many built in functions which decreases most of the coding effort and gives the ability to have stable and robust applications. We will talk about the experience we had while programming the GoofTalk and how easy was it to use the predefined functions which reduced the length of the code. We would also mention how we enjoyed segregating the functions into separate packages and customizing the godocs for those packages.\n\nMultipathrouting (Roshni Ajayghosh, SreeVidya S.D)\nIn our experiment we are trying to exploit the features of SDN by running a small simulation which would identify the nature\nof traffic and adapt different methods of traffic engineering. For instance the demonstration tries to split ICMP traffic via multiple available paths from source to destination thereby making apt usage of the network resources available. Also the demo features the case where simultaneous traffic of different priorities arrive at the ingress switch. For instance we try to demonstrate the routing of HTTP and FTP traffic where HTTP traffic has a higher priority over FTP traffic. The controller module identifies the minimum latency path for HTTP traffic and some other non overlapping alternative path for FTP traffic and carries ahead the routing simultaneously\n\nLinks:\nhttp://nosconf.github.io/",
+  "recorded": "2016-03-18",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/sH0Iphk3H7Y/hqdefault.jpg",
+  "title": "Lightening Talk 5/6",
+  "videos": [
+    {
+      "code": "sH0Iphk3H7Y",
+      "type": "youtube"
+    }
+  ]
+}

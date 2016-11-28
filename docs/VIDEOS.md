@@ -134,6 +134,15 @@ seleniumconf-uk-2016
 seleniumconf-usa-2015
 rubyconf-taiwan-2015
 
+apachebigdata-europe-2015
+nordicjs-2014
+nordicjs-2015
+nordicjs-2016
+nos-conf-2016
+texaslinuxfest-2015
+yougottalovefrontend-2015
+zendcon-2015
+
 ``` grep speaker * | grep '\[\]' ```
 
 Add tags, update descriptions
