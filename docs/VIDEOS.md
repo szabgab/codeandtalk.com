@@ -47,6 +47,8 @@ Update the videos from YouTube
 The format should only include lower case a-z letters and dash (-).
 
 The name of the speaker usually can be found in title of the talk and/or in the description of the talk.
+In many cases the filename of the video also contains the name of the speaker(s). Sometimes however this is
+missing or only part of the name can be found. In such cases it is harder to track down who is the speaker.
 
 Check if the file date/people/full-name.txt exist, if not create it and fill it with the appropriate fields.
 You can usually find some of the details of the speaker on the web site of the event. From there you can usually
@@ -64,6 +66,10 @@ country:
 For example if this was the title "Foo Bar - Frobnicating the FuzzBazz - Conference 2016" then it looks like the name
 of the speaker is "Foo Bar" and the event is "Conference 2016". We would like the title to be:
 "Frobnicating the FuzzBazz"
+
+If possible add a field called 'abstract' that will lead to the original page of the talk on the web site of the conference.
+
+If you can find the slides of the talk, add a field called 'slides' linking to those slides.
 
 
 Run `python3 generate.py --html` to generate the web site and to check if the values in the `speakers` field match the filenames.
