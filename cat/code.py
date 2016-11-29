@@ -434,7 +434,7 @@ class GenerateSite(object):
                         'thumbnail_url' : video['thumbnail_url'],
                     })
                 else:
-                    print("WARN: Missing people file for '{}' in {}/videos/{}/{}.json".format(s, self.data, video['event']['nickname'], video['filename']))
+                    raise Exception("Missing people file for '{}' in {}/videos/{}/{}.json".format(s, self.data, video['event']['nickname'], video['filename']))
             video['speakers'] = speakers
 
             tweet_video = '{} https://codeandtalk.com/v/{}/{}'.format(video['title'], video['event']['nickname'], video['filename'])
