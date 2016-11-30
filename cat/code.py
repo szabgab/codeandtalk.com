@@ -171,6 +171,13 @@ class GenerateSite(object):
                 this['city_name'] = city_name
                 this['city_page'] = city_page
 
+                for field in ['youtube']:
+                    if field not in this:
+                        #print("WARN: {} missing for {}".format(field, nickname))
+                        pass
+                    elif this[field] == '-':
+                        this[field] = None
+
                 conferences.append(this)
             except Exception as e:
                 exit("ERROR 1: {} in file {}".format(e, filename))

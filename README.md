@@ -19,10 +19,6 @@ Generate web site (and check format)
 
 $ python3 bin/generate.py
 
-Images
----------
-Accessibility logo: http://staff.washington.edu/tft/a11ylogo/
-
 TODO
 -----
 * Describe the use of the site.
