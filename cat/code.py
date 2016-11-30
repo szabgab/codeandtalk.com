@@ -400,6 +400,7 @@ class GenerateSite(object):
                     'featured'   : video['featured'],
                     'recorded'   : video['recorded'],
                     'filename'   : video['filename'],
+                    'length'     : video['length'],
                     'title'      : video['title'],
                     'event'      : {
                         'nickname' : video['event']['nickname'],

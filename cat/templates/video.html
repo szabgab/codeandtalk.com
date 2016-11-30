@@ -4,6 +4,10 @@
 
 <div>{{video.description}}</div>
 
+{% if video.length %}
+<div>Length: {{video.length}}</div>
+{% endif %}
+
 {% if video.abstract %}
 <div><a href="{{video.abstract}}">abstract</a></div>
 {% endif %}

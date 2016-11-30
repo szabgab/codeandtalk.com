@@ -10,6 +10,7 @@
       {% for video in lst %}
         <li>
           <span {% if video.class_name %}class="{{ video.class_name }}"{% endif %}>{{ video.featured }}</span>
+          <span>{{ video.length }}</span>
           {% for b in video.blasters %}
             {{ b }}
           {% endfor %}

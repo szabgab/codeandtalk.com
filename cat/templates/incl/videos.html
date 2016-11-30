@@ -5,6 +5,9 @@
           <h4 class="entry-title"><a href="/v/{{v.event.nickname}}/{{v.filename}}">{{v.title}}</a></h4>
           <footer>
             <div class="recorded">{{v.recorded}}</div>
+			{% if v.length %}
+			  <div>Length: {{v.length}}</div>
+			{% endif %}
             <div class="event">From <a href="/e/{{v.event.nickname}}">{{v.event.name}}</a></div>
             <div class="speakers">
             By: 
