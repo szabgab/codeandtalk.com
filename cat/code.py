@@ -945,7 +945,8 @@ class GenerateSite(object):
             TODO: Check if they have embedded HTML in the description field (they should be moved out to a separate file)
         """
 
-        valid_fields = ['title', 'thumbnail_url', 'tags', 'recorded', 'description', 'videos', 'speakers', 'abstract', 'slides', 'language', 'featured', 'length', 'blasters']
+        valid_fields = ['title', 'thumbnail_url', 'tags', 'recorded', 'description', 'videos', 'speakers', 'abstract', 'slides', 'language', 'featured', 'length', 'blasters',
+            'view_count', 'favorite_count']
         valid_fields.extend(['filename', 'event', 'file_date']) # generated fields
         required_fields = ['title', 'recorded']
         report = ''
