@@ -4,7 +4,7 @@
     {% for p in people_ids %}
         <tr>
           <td><a href="/p/{{ p }}">{{ people[p]['info']['name'] }}</a></td>
-          <td></td>
+          <td>{{ people[p]['videos'] | length  }}</td>
           <td>{{ people[p]['episodes'] | length  }}</td>
           <td>{{ people[p]['hosting'] | length }}</td>
         </tr>
