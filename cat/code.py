@@ -374,6 +374,7 @@ class GenerateSite(object):
             self.featured_by_blaster[ b['file'] ] = []
 
         for video in self.videos:
+            self.search[ video['title'] ] = "/v/{}/{}".format(self.events[ video['event'] ]['nickname'], video['filename'])
             short_description = html2txt(video.get('description', ''))
             short_description = re.sub(r'"', '', short_description)
             short_description = re.sub(r'\s+', ' ', short_description)
@@ -567,7 +568,7 @@ class GenerateSite(object):
         self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_date', '') >= self.now, self.conferences)))
 
         for e in self.episodes:
-            self.search[ e['title'] + ' (ext)' ] = e['permalink']
+            self.search[ e['title'] ] = e['permalink']
 
         for e in self.conferences:
             self.events[ e['nickname'] ] = e
