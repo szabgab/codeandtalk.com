@@ -244,6 +244,7 @@ class GenerateSite(object):
                 self.people_search[nickname] = {
                     'name'     : this['name'],
                     'location' : this.get('country'),
+                    'topics'   : this.get('topics'),
                 }
             except Exception as e:
                 exit("ERROR 2: {} in file {}".format(e, filename))
@@ -975,7 +976,7 @@ class GenerateSite(object):
         """
             Go over all the files in the data/people directory and check if all the fields are in the list of valid_fields
         """
-        valid_fields = ['name', 'github', 'twitter', 'home', 'country', 'gplus', 'nickname', 'city', 'state', 'slides', 'comment']
+        valid_fields = ['name', 'github', 'twitter', 'home', 'country', 'gplus', 'nickname', 'city', 'state', 'slides', 'comment', 'topics']
         report = ''
         for nickname in self.people.keys():
             for f in self.people[nickname]['info']:
