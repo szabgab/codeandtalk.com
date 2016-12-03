@@ -6,22 +6,42 @@ import re
 catapp = Flask(__name__)
 root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
 
-search_file = root + '/html/search.json'
-
-#search_file_time = 0
-#search_data = {}
 
 @catapp.route("/")
 def main():
     return """
 <a href="/search">search</a>
-<hr>
-Search API:
-<form action="/api1/search">
-<input name="term">
-<input type="submit" value="Search">
-</form>
 """
+
+def _read_json(filename):
+	catapp.logger.debug("Reading '{}'".format(filename))
+	try:
+		with open(filename) as fh:
+			search_data = json.loads(fh.read())
+	except Exception as e:
+		catapp.logger.error("Reading '{}' {}".format(search_file, e))
+		search_data = {}
+		pass
+	return search_data
+
+
+@catapp.route("/people")
+def people():
+	term = _term()
+	ppl = _read_json(root + '/html/people.json')
+	result = {}
+	if term != '':
+		for nickname in ppl.keys():
+			if re.search(term, ppl[nickname]['name'].lower()):
+				result[nickname] = ppl[nickname]['name']
+				continue
+
+	return render_template('people.html', 
+		number_of_people = len(ppl.keys()),
+		term             = term,
+		people           = result,
+		people_ids       = sorted(result.keys()),
+	)
 
 @catapp.route("/search")
 def search():
@@ -33,22 +53,15 @@ def api_search():
 	res = _search()
 	return jsonify(res)
 
-def _search():
+def _term():
 	term = request.args.get('term', '')
 	term = term.lower()
 	term = re.sub(r'^\s*(.*?)\s*$', r'\1', term)
+	return term
 
-	file_time = os.path.getmtime(search_file)
-	#if file_time > search_file_time:
-	catapp.logger.debug("Reading '{}'".format(search_file))
-	#	search_file_time = file_time
-	try:
-		with open(search_file) as fh:
-			new_search_data = json.loads(fh.read())
-			search_data = new_search_data
-	except Exception as e:
-		catapp.logger.error("Reading '{}' {}".format(search_file, e))
-		pass
+def _search():
+	term = _term()
+	search_data = _read_json(root + '/html/search.json')
 	results = {}
 	max_hit_count = 50
 	hit_count = 0

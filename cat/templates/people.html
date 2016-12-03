@@ -1,12 +1,23 @@
 {% include 'incl/header.html' %}
+<form>
+<input name="term" id="term" value="{{ term }}">
+<input type="submit" value="Search">
+</form>
+There are {{number_of_people}} people in our database.<br>
+Soon you'll be able to search for people to invite to your conference to give a talk, or to be a guests on your podcast, or maybe to offer a job.
+<ul>
+  <li>by name</li>
+  <li>by words in video tags or video titles or podcast tags or podcast title or topics in personal file</li>
+  <li>by location</li>
+  <li>by language</li>
+</ul>
+
     <table id="people">
-       <tr><th>Name</th><th>Videos</th><th>Podcasts</th><th>Host</th></tr>
+       <tr><th>Name</th>
+</tr>
     {% for p in people_ids %}
         <tr>
-          <td><a href="/p/{{ p }}">{{ people[p]['info']['name'] }}</a></td>
-          <td>{{ people[p]['videos'] | length  }}</td>
-          <td>{{ people[p]['episodes'] | length  }}</td>
-          <td>{{ people[p]['hosting'] | length }}</td>
+          <td><a href="/p/{{ p }}">{{ people[p] }}</a></td>
         </tr>
     {% endfor %}
     </table>

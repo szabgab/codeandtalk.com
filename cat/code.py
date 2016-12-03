@@ -648,15 +648,15 @@ class GenerateSite(object):
                 fh.write('<meta http-equiv="refresh" content="0; url=https://codeandtalk.com/p/{}" />\n'.format(r['to']))
                 fh.write('<p><a href="https://codeandtalk.com/p/{}">Moved</a></p>\n'.format(r['to']))
 
-        with open(self.html + '/people', 'w', encoding="utf-8") as fh:
-            fh.write(env.get_template('people.html').render(
-                h1      = 'List of people',
-                title   = 'List of people',
-                stats   = self.stats,
-                tags    = self.tags,
-                people = self.people,
-                people_ids = sorted(self.people.keys()),
-            ))
+        #with open(self.html + '/people', 'w', encoding="utf-8") as fh:
+        #    fh.write(env.get_template('people.html').render(
+        #        h1      = 'List of people',
+        #        title   = 'List of people',
+        #        stats   = self.stats,
+        #        tags    = self.tags,
+        #        people = self.people,
+        #        people_ids = sorted(self.people.keys()),
+        #    ))
         with open(self.html + '/podcasts', 'w', encoding="utf-8") as fh:
             fh.write(env.get_template('podcasts.html').render(
                 h1      = 'List of podcasts',

@@ -74,12 +74,6 @@ TODO
   limit the search by date
   limit the search by language (for videos)
 
-* Search for speakers (or guests for podcast)
-  by name
-  by words in video tags or video titles or podcast tags or podcast title or topics in personal file
-  by location
-  by language
-
 
 * Weekly Newsletter with information about events.
   The subscriber should be able to select filter by countries and/or by topics.
