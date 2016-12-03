@@ -5,6 +5,7 @@ setup(
     packages=['cat'],
     include_package_data=True,
     install_requires=[
+		'flask',
         'jinja2',
     ],
     #setup_requires=[

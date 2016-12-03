@@ -1,0 +1,18 @@
+{% include 'incl/header.html' %}
+
+<form>
+<input name="term" id="term" placeholder="search term" value="{{ term }}">
+<input type="submit" value="Search">
+</form>
+
+
+Showing {{results|length}} out of total number of hits: {{total}}
+
+<ul>
+{% for (k, v) in results|dictsort %}
+  <li><a href="{{v}}">{{k}}</a></li>
+{% endfor %}
+</ul>
+
+{% include 'incl/footer.html' %}
+

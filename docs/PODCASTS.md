@@ -106,21 +106,6 @@ TODO (or maybe not?):
 * Add Forkme on GitHub badge
 
 
-SETUP
-------
-```
-virtualenv venv3 -p python3
-source venv3/bin/activate
-pip install jinja2
-```
-
-Development server
--------------------
-```python3 server.py```
-
-http://localhost:8000/
-
-
 Other sources we might add
 ----------------------------
 * http://www.meta-cast.com/
