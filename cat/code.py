@@ -36,6 +36,7 @@ class GenerateSite(object):
         self.people = {}
         self.redirects = []
         self.search = {}
+        self.people_search = {}
         self.tags = {}
         self.blasters = []
         self.html = 'html'
@@ -239,6 +240,10 @@ class GenerateSite(object):
                     'hosting' : [],
                     'videos'  : [],
                     #'file_date' : datetime.fromtimestamp( os.path.getctime(filename) ).strftime('%Y-%m-%d'),
+                }
+                self.people_search[nickname] = {
+                    'name'     : this['name'],
+                    'location' : this.get('country'),
                 }
             except Exception as e:
                 exit("ERROR 2: {} in file {}".format(e, filename))
@@ -665,6 +670,8 @@ class GenerateSite(object):
     def save_search(self):
         with open(self.html + '/search.json', 'w', encoding="utf-8") as fh:
             json.dump(self.search, fh)
+        with open(self.html + '/people.json', 'w', encoding="utf-8") as fh:
+            json.dump(self.people_search, fh)
 
         return
 
