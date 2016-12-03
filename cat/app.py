@@ -4,8 +4,10 @@ import json
 import re
 
 catapp = Flask(__name__)
+root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
 
-search_file = 'html/search.json'
+search_file = root + '/html/search.json'
+
 #search_file_time = 0
 #search_data = {}
 
