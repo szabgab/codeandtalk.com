@@ -32,11 +32,13 @@ def people():
 	result = {}
 	if term != '':
 		for nickname in ppl.keys():
+			if not ppl[nickname]['location']:
+				ppl[nickname]['location'] = '-'
+
 			if re.search(term, ppl[nickname]['name'].lower()):
 				result[nickname] = ppl[nickname]
-				if not result[nickname]['location']:
-					result[nickname]['location'] = '-'
-				continue
+			elif re.search(term, ppl[nickname]['location'].lower()):
+				result[nickname] = ppl[nickname]
 
 	return render_template('people.html', 
 		number_of_people = len(ppl.keys()),
