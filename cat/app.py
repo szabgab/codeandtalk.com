@@ -76,3 +76,8 @@ def _search():
 
 	return { "term" : term, "results" : results, "total" : hit_count }
 
+### static page for the time of transition
+@catapp.route("/style.css")
+def css():
+	return Response(open(root + '/html/style.css').read(), mimetype='text/css')
+
