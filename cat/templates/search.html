@@ -5,14 +5,17 @@
 <input type="submit" value="Search">
 </form>
 
-
-Showing {{results|length}} out of total number of hits: {{total}}
-
-<ul>
-{% for (k, v) in results|dictsort %}
-  <li><a href="{{v}}">{{k}}</a></li>
-{% endfor %}
-</ul>
+{% if results %}
+  Showing {{results|length}} out of total number of hits: {{total}}
+  
+  <ul>
+  {% for (k, v) in results|dictsort %}
+    <li><a href="{{v}}">{{k}}</a></li>
+  {% endfor %}
+  </ul>
+{% else %}
+There are {{total}} items in our database. Search for something.
+{% endif %}
 
 {% include 'incl/footer.html' %}
 

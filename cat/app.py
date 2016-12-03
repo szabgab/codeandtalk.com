@@ -36,6 +36,8 @@ def api_search():
 def _search():
 	term = request.args.get('term', '')
 	term = term.lower()
+	term = re.sub(r'^\s*(.*?)\s*$', r'\1', term)
+
 	file_time = os.path.getmtime(search_file)
 	#if file_time > search_file_time:
 	catapp.logger.debug("Reading '{}'".format(search_file))
@@ -48,14 +50,16 @@ def _search():
 		catapp.logger.error("Reading '{}' {}".format(search_file, e))
 		pass
 	results = {}
-	max_hit_count = 10
+	max_hit_count = 50
 	hit_count = 0
-	for k in search_data:
-		if re.search(term, k.lower()):
-			hit_count += 1
-			if hit_count <= max_hit_count:
-				results[k] = search_data[k]
-
+	if term != '':
+		for k in search_data:
+			if re.search(term, k.lower()):
+				hit_count += 1
+				if hit_count <= max_hit_count:
+					results[k] = search_data[k]
+	else:
+		hit_count = len(search_data.keys())
 
 	return { "term" : term, "results" : results, "total" : hit_count }
 
