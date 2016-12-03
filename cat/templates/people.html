@@ -12,15 +12,17 @@ Soon you'll be able to search for people to invite to your conference to give a 
   <li>by language</li>
 </ul>
 
+{% if people_ids %}
     <table id="people">
-       <tr><th>Name</th>
-</tr>
+       <tr><th>Name</th><th>Location</th></tr>
     {% for p in people_ids %}
         <tr>
-          <td><a href="/p/{{ p }}">{{ people[p] }}</a></td>
+          <td><a href="/p/{{ p }}">{{ people[p]['name'] }}</a></td>
+          <td>{{ people[p]['location'] }}</td>
         </tr>
     {% endfor %}
     </table>
+{% endif %}
 
 {% include 'incl/footer.html' %}
 

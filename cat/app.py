@@ -33,7 +33,9 @@ def people():
 	if term != '':
 		for nickname in ppl.keys():
 			if re.search(term, ppl[nickname]['name'].lower()):
-				result[nickname] = ppl[nickname]['name']
+				result[nickname] = ppl[nickname]
+				if not result[nickname]['location']:
+					result[nickname]['location'] = '-'
 				continue
 
 	return render_template('people.html', 
