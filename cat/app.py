@@ -7,12 +7,6 @@ catapp = Flask(__name__)
 root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
 
 
-@catapp.route("/")
-def main():
-    return """
-<a href="/search">search</a>
-"""
-
 def _read_json(filename):
 	catapp.logger.debug("Reading '{}'".format(filename))
 	try:
@@ -84,4 +78,50 @@ def _search():
 @catapp.route("/style.css")
 def css():
 	return Response(open(root + '/html/style.css').read(), mimetype='text/css')
+
+@catapp.route("/")
+@catapp.route("/<filename>")
+def static_file(filename = None):
+	if not filename:
+		filename  = 'index.html'
+	return _read(root + '/html/' + filename)
+#app.js
+#favicon.ico
+
+#index.html
+#people.json
+#search.json
+#sitemap.xml
+
+
+def _read(filename):
+	try:
+		return open(filename).read()
+	except Exception:
+		return open(root + '/html/404.html').read()
+		
+
+@catapp.route("/p/<person>")
+@catapp.route("/t/<tag>")
+@catapp.route("/e/<event>")
+@catapp.route("/l/<location>")
+@catapp.route("/s/<source>")
+@catapp.route("/v/<event>/<video>")
+@catapp.route("/blaster/<blaster>")
+def html(person = None, event = None, video = None, source = None, tag = None, location = None, blaster = None):
+	if blaster:
+		return _read(root + '/html/blaster/' + blaster)
+	if location:
+		return _read(root + '/html/l/' + location)
+	if source:
+		return _read(root + '/html/s/' + source)
+	if event:
+		return _read(root + '/html/e/' + event)
+	if person:
+		return _read(root + '/html/p/' + person)
+	if video:
+		return _read(root + '/html/v/{}/{}'.format(event, video))
+	if tag:
+		return _read(root + '/html/t/' + tag)
+
 
