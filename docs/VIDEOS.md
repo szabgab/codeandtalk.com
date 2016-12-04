@@ -82,70 +82,64 @@ Add the speakers
 The videos of these conferences were already added, but the speaker information
 has not been added yet:
 
-apachecon-na-2013
-apachecon-na-2014
-apachecon-na-2015
-cloudstack-collaboration-na-2014
-deccanrubyconf-2015
-devoxx-france-2015
-empirenode-2015
-fscons-2012
-fscons-2013
-fscons-2014
-fscons-2015
-jsconf-eu-2015
-jsconf-us-2015
-gothamgo-2015
-nodeconf-eu-2015
-nodevember-2014
-nodevember-2015
-rubyconf-india-2014
-rubyconf-india-2015
-pgconfus-2015
-postgresopen-2012
-postgresopen-2013
-postgresopen-2014
-postgresopen-2015
-rubyfuza-2013
-rubyfuza-2014
-front-trends-2015
-react-conf-2015
-linuxfest-northwest-2015
-
-linuxfest-northwest-2016
-front-trends-2016
-nodeconf-eu-2016
-railsconf-2016
-devoxx-uk-2016
-jsconf-uruguay-2016
-
-laracon-eu-2016
-opensourcebridge-2015
-polyconf-2016
-reactrally-2016
-viewsourceconf-berlin-2016
-
-accessibility-camp-new-york-2016
-fullstackfest-2015
-fullstackfest-2016
-gotocon-amsterdam-2016
-gotocon-chicago-2016
-gotocon-copenhagen-2016
-gotocon-stockholm-2016
-
-eclipsesummit-india-2016
-functionalconf-2016
-seleniumconf-india-2016
-seleniumconf-uk-2016
-seleniumconf-usa-2015
-rubyconf-taiwan-2015
-
-apachebigdata-europe-2015
-nordicjs-2014
-nordicjs-2015
-nordicjs-2016
-nos-conf-2016
-zendcon-2015
+* apachecon-na-2014
+* apachecon-na-2015
+* cloudstack-collaboration-na-2014
+* deccanrubyconf-2015
+* devoxx-france-2015
+* empirenode-2015
+* fscons-2012
+* fscons-2013
+* fscons-2014
+* fscons-2015
+* jsconf-eu-2015
+* jsconf-us-2015
+* gothamgo-2015
+* nodeconf-eu-2015
+* nodevember-2014
+* nodevember-2015
+* rubyconf-india-2014
+* rubyconf-india-2015
+* pgconfus-2015
+* postgresopen-2012
+* postgresopen-2013
+* postgresopen-2014
+* postgresopen-2015
+* rubyfuza-2013
+* rubyfuza-2014
+* front-trends-2015
+* react-conf-2015
+* linuxfest-northwest-2015
+* linuxfest-northwest-2016
+* front-trends-2016
+* nodeconf-eu-2016
+* railsconf-2016
+* devoxx-uk-2016
+* jsconf-uruguay-2016
+* laracon-eu-2016
+* opensourcebridge-2015
+* polyconf-2016
+* reactrally-2016
+* viewsourceconf-berlin-2016
+* accessibility-camp-new-york-2016
+* fullstackfest-2015
+* fullstackfest-2016
+* gotocon-amsterdam-2016
+* gotocon-chicago-2016
+* gotocon-copenhagen-2016
+* gotocon-stockholm-2016
+* eclipsesummit-india-2016
+* functionalconf-2016
+* seleniumconf-india-2016
+* seleniumconf-uk-2016
+* seleniumconf-usa-2015
+* rubyconf-taiwan-2015
+* apachebigdata-europe-2015
+* nordicjs-2014
+* nordicjs-2015
+* nordicjs-2016
+* nos-conf-2016
+* zendcon-2015
 
 ``` grep speaker * | grep '\[\]' ```
 
