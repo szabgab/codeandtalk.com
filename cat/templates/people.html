@@ -4,12 +4,16 @@
 <input type="submit" value="Search">
 </form>
 There are {{number_of_people}} people in our database.<br>
-Soon you'll be able to search for people to invite to your conference to give a talk, or to be a guests on your podcast, or maybe to offer a job.
+You can search for people to invite to your conference to give a talk, or to be a guests on your podcast, or maybe to offer a job.
 <ul>
   <li>by name</li>
-  <li>by words in video tags or video titles or podcast tags or podcast title or topics in personal file</li>
   <li>by location</li>
+  <li>topics in personal file</li>
+  <li>by words in video tags</li>
+<!--
+  <li>by video titles or podcast tags or podcast title</li>
   <li>by language</li>
+-->
 </ul>
 
 {% if people_ids %}
