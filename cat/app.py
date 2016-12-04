@@ -82,12 +82,12 @@ def html(person = None, event = None, video = None, source = None, tag = None, l
 		return _read(root + '/html/l/' + location)
 	if source:
 		return _read(root + '/html/s/' + source)
+	if video:
+		return _read(root + '/html/v/{}/{}'.format(event, video))
 	if event:
 		return _read(root + '/html/e/' + event)
 	if person:
 		return _read(root + '/html/p/' + person)
-	if video:
-		return _read(root + '/html/v/{}/{}'.format(event, video))
 	if tag:
 		return _read(root + '/html/t/' + tag)
 
