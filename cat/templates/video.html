@@ -2,7 +2,7 @@
 
 <iframe id="youtube" src="https://www.youtube.com/embed/{{video.videos[0].code}}" title="{{video.title}}"  allowfullscreen></iframe>
 
-<div>{{video.description}}</div>
+<div>{{video.description|safe}}</div>
 
 {% if video.length %}
 <div>Length: {{video.length}}</div>

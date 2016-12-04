@@ -951,15 +951,8 @@ class GenerateSite(object):
                 os.mkdir(root + '/v/' + video['event']['nickname'])
             #print(root + '/v/' + video['event'] + '/' + video['filename'])
             #exit()
-            out_file = root + '/v/' + video['event']['nickname'] + '/' + video['filename']
+            out_file = root + '/v/' + video['event']['nickname'] + '/' + video['filename'] + '.json'
             with open(out_file, 'w', encoding="utf-8") as fh:
-                fh.write(video_template.render(
-                    h1          = video['title'],
-                    title       = video['title'],
-                    video       = video,
-                    blasters    = video.get('blasters'),
-                ))
-            with open(out_file + '.json', 'w', encoding="utf-8") as fh:
                 fh.write(json.dumps(video, sort_keys=True))
 
             self.sitemap.append({

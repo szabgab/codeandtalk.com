@@ -64,23 +64,34 @@ def static_file(filename = None):
 		mime = 'image/x-icon'
 	return Response(content, mimetype=mime)
 
+@catapp.route("/v/<event>/<video>")
+def video(event = None, video = None):
+	path = root + '/html/v/{}/{}'.format(event, video)
+	#html_file = path + '.html'
+	data = json.loads(open(path + '.json').read())
+
+	#os.path.exists(html_file):
+	#	data['description'] = open(html_file).read()
+	return render_template('video.html',
+        h1          = data['title'],
+        title       = data['title'],
+        video       = data,
+        blasters    = data.get('blasters'),
+	)
 
 @catapp.route("/p/<person>")
 @catapp.route("/t/<tag>")
 @catapp.route("/e/<event>")
 @catapp.route("/l/<location>")
 @catapp.route("/s/<source>")
-@catapp.route("/v/<event>/<video>")
 @catapp.route("/blaster/<blaster>")
-def html(person = None, event = None, video = None, source = None, tag = None, location = None, blaster = None):
+def html(person = None, event = None, source = None, tag = None, location = None, blaster = None):
 	if blaster:
 		return _read(root + '/html/blaster/' + blaster)
 	if location:
 		return _read(root + '/html/l/' + location)
 	if source:
 		return _read(root + '/html/s/' + source)
-	if video:
-		return _read(root + '/html/v/{}/{}'.format(event, video))
 	if event:
 		return _read(root + '/html/e/' + event)
 	if person:
