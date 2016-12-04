@@ -14,16 +14,16 @@ def people():
 	result = {}
 	if term != '':
 		for nickname in ppl.keys():
-			if not ppl[nickname]['location']:
-				ppl[nickname]['location'] = '-'
-			if not ppl[nickname]['topics']:
-				ppl[nickname]['topics'] = '-'
+			#if not ppl[nickname]['location']:
+			#	ppl[nickname]['location'] = '-'
+			#if not ppl[nickname]['topics']:
+			#	ppl[nickname]['topics'] = '-'
 
 			if re.search(term, ppl[nickname]['name'].lower()):
 				result[nickname] = ppl[nickname]
-			elif re.search(term, ppl[nickname]['location'].lower()):
+			elif re.search(term, ppl[nickname].get('location', '').lower()):
 				result[nickname] = ppl[nickname]
-			elif re.search(term, ppl[nickname]['topics'].lower()):
+			elif re.search(term, ppl[nickname].get('topics', '').lower()):
 				result[nickname] = ppl[nickname]
 
 	return render_template('people.html',

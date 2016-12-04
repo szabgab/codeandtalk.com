@@ -241,11 +241,15 @@ class GenerateSite(object):
                     'videos'  : [],
                     #'file_date' : datetime.fromtimestamp( os.path.getctime(filename) ).strftime('%Y-%m-%d'),
                 }
-                self.people_search[nickname] = {
+
+                person = {
                     'name'     : this['name'],
-                    'location' : this.get('country'),
-                    'topics'   : this.get('topics'),
                 }
+                if 'country' in this:
+                    person['location'] = this['country']
+                if 'topics' in this:
+                    person['topics']   = this['topics']
+                self.people_search[nickname] = person
             except Exception as e:
                 exit("ERROR 2: {} in file {}".format(e, filename))
 
