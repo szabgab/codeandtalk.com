@@ -172,12 +172,6 @@ class GenerateSite(object):
                 this['city_name'] = city_name
                 this['city_page'] = city_page
 
-                for field in ['youtube']:
-                    if field not in this:
-                        #print("WARN: {} missing for {}".format(field, nickname))
-                        pass
-                    elif this[field] == '-':
-                        this[field] = None
 
                 conferences.append(this)
             except Exception as e:
@@ -384,6 +378,7 @@ class GenerateSite(object):
             self.featured_by_blaster[ b['file'] ] = []
 
         for video in self.videos:
+
             self.search[ video['title'] ] = "/v/{}/{}".format(self.events[ video['event'] ]['nickname'], video['filename'])
             short_description = html2txt(video.get('description', ''))
             short_description = re.sub(r'"', '', short_description)
@@ -511,6 +506,9 @@ class GenerateSite(object):
             self.event_videos[ v['event']['nickname'] ].append(v)
 
         for event in self.conferences:
+            if 'youtube' in event and event['youtube'] == '-':
+                event['youtube'] = None
+
             for tag in event['topics']:
                 p = tag['path']
                 if p not in self.tags:
