@@ -140,6 +140,7 @@ has not been added yet:
 * nordicjs-2016
 * nos-conf-2016
 * zendcon-2015
+* fisl-17
 
 ``` grep speaker * | grep '\[\]' ```
 

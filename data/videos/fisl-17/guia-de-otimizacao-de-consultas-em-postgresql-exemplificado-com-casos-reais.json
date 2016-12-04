@@ -1,0 +1,14 @@
+{
+  "description": "Inscreva-se.\nhttps://goo.gl/NfsjjA\n\nGuia de otimiza\u00e7\u00e3o de consultas em PostgreSQL exemplificado com casos reais\nTrilha: Minieventos - PGDay POA\nAutores:\n\u00c1lvaro Nunes Lemos de Melo mostrar curr\u00edculo\nApresenta\u00e7\u00e3o:\nDia 14 \u00e0s 18:00 na sala 41E (40 minutos)  v\u00eddeo\nDescri\u00e7\u00e3o:  A sess\u00e3o visa demonstrar, partindo do zero, um roteiro para realizar a otimiza\u00e7\u00e3o de consultas em PostgreSQL, com dados de um ambiente real de produ\u00e7\u00e3 o. Este ambiente caracteriza-se por quatrocentas e cinquenta bases, de diferentes tamanhos, em um cluster PostgreSQL replicado em cascata, no qual s\u00e3o emitidos aproximadamente cento e cinquenta mil documentos fiscais por m\u00eas.\n\nInicialmente ser\u00e3o abordados par\u00e2metros de configura\u00e7\u00e3o que nos auxiliam na gera\u00e7\u00e3o de um arquivo de log relevante para o tema. De posse deste arquivo, a an\u00e1lise ser\u00e1 feita de duas maneiras: utilizando o pgbadger, ou via shell scripts unidos a planilhas de c\u00e1lculo. Este \u00faltimo m\u00e9todo facilita a compara\u00e7\u00e3o hist\u00f3rica do comportamento do banco de dados. Em seguida, o comando EXPLAIN ser\u00e1 abordado, bem como os comandos de atualiza\u00e7\u00e3o das estat\u00edsticas do otimizador de consultas, de garbage collection e sua automatiza\u00e7\u00e3o.\n\nNo tocante a otimiza\u00e7\u00e3o, ser\u00e1 descrito o uso de \u00edndices e seu custo em termos de tempo e utiliza\u00e7\u00e3o de espa\u00e7o. Tamb\u00e9m ser\u00e3o apresentadas alternativas para reduzir o espa\u00e7o por eles utilizados. Apesar da excelente performance do otimizador gen\u00e9rico de consultas (Generic Query Optimyzer) a ordena\u00e7\u00e3o de JOINs pode, em casos espec\u00edficos, resultar em ganhos de performance. Ato cont\u00ednuo, ser\u00e3o demonstradas as formas de utiliza\u00e7\u00e3o de Common Table Expression e Window Functions, recursos que auxiliam na otimiza\u00e7\u00e3o de consultas e que mesmo sendo muito eficientes, tem o uso pouco difundido. Common Table Expressions podem ainda ser aliadas em cen\u00e1rios de bancos de dados replicados em que a r\u00e9plica \u00e9 utilizada como uma base somente-leitura.",
+  "recorded": "2016-07-13",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/JULqFIWjOKQ/hqdefault.jpg",
+  "title": "Guia de otimiza\u00e7\u00e3o de consultas em PostgreSQL exemplificado com casos reais",
+  "videos": [
+    {
+      "code": "JULqFIWjOKQ",
+      "type": "youtube"
+    }
+  ]
+}
