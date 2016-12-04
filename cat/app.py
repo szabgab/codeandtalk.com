@@ -75,23 +75,26 @@ def _search():
 	return { "term" : term, "results" : results, "total" : hit_count }
 
 ### static page for the time of transition
-@catapp.route("/style.css")
-def css():
-	return Response(open(root + '/html/style.css').read(), mimetype='text/css')
-
 @catapp.route("/")
 @catapp.route("/<filename>")
 def static_file(filename = None):
+	#index.html  redirect
+
 	if not filename:
 		filename  = 'index.html'
-	return _read(root + '/html/' + filename)
-#app.js
-#favicon.ico
-
-#index.html
-#people.json
-#search.json
-#sitemap.xml
+	mime = 'text/html'
+	content = _read(root + '/html/' + filename)
+	if filename[-4:] == '.css':
+		mime = 'text/css'
+	elif filename[-5:] == '.json':
+		mime = 'application/javascript'
+	elif filename[-3:] == '.js':
+		mime = 'application/javascript'
+	elif filename[-4:] == '.xml':
+		mime = 'text/xml'
+	elif filename[-4:] == '.ico':
+		mime = 'image/x-icon'
+	return Response(content, mimetype=mime)
 
 
 def _read(filename):
