@@ -7,18 +7,6 @@ catapp = Flask(__name__)
 root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
 
 
-def _read_json(filename):
-	catapp.logger.debug("Reading '{}'".format(filename))
-	try:
-		with open(filename) as fh:
-			search_data = json.loads(fh.read())
-	except Exception as e:
-		catapp.logger.error("Reading '{}' {}".format(search_file, e))
-		search_data = {}
-		pass
-	return search_data
-
-
 @catapp.route("/people")
 def people():
 	term = _term()
@@ -57,29 +45,6 @@ def api_search():
 	res = _search()
 	return jsonify(res)
 
-def _term():
-	term = request.args.get('term', '')
-	term = term.lower()
-	term = re.sub(r'^\s*(.*?)\s*$', r'\1', term)
-	return term
-
-def _search():
-	term = _term()
-	search_data = _read_json(root + '/html/search.json')
-	results = {}
-	max_hit_count = 50
-	hit_count = 0
-	if term != '':
-		for k in search_data:
-			if re.search(term, k.lower()):
-				hit_count += 1
-				if hit_count <= max_hit_count:
-					results[k] = search_data[k]
-	else:
-		hit_count = len(search_data.keys())
-
-	return { "term" : term, "results" : results, "total" : hit_count }
-
 ### static page for the time of transition
 @catapp.route("/")
 @catapp.route("/<filename>")
@@ -103,13 +68,6 @@ def static_file(filename = None):
 	return Response(content, mimetype=mime)
 
 
-def _read(filename):
-	try:
-		return open(filename).read()
-	except Exception:
-		return open(root + '/html/404.html').read()
-		
-
 @catapp.route("/p/<person>")
 @catapp.route("/t/<tag>")
 @catapp.route("/e/<event>")
@@ -132,5 +90,50 @@ def html(person = None, event = None, video = None, source = None, tag = None, l
 		return _read(root + '/html/v/{}/{}'.format(event, video))
 	if tag:
 		return _read(root + '/html/t/' + tag)
+
+###### Helper functions
+
+def _read(filename):
+	try:
+		return open(filename).read()
+	except Exception:
+		return open(root + '/html/404.html').read()
+		
+def _term():
+	term = request.args.get('term', '')
+	term = term.lower()
+	term = re.sub(r'^\s*(.*?)\s*$', r'\1', term)
+	return term
+
+def _search():
+	term = _term()
+	search_data = _read_json(root + '/html/search.json')
+	results = {}
+	max_hit_count = 50
+	hit_count = 0
+	if term != '':
+		for k in search_data:
+			if re.search(term, k.lower()):
+				hit_count += 1
+				if hit_count <= max_hit_count:
+					results[k] = search_data[k]
+	else:
+		hit_count = len(search_data.keys())
+
+	return { "term" : term, "results" : results, "total" : hit_count }
+
+def _read_json(filename):
+	catapp.logger.debug("Reading '{}'".format(filename))
+	try:
+		with open(filename) as fh:
+			search_data = json.loads(fh.read())
+	except Exception as e:
+		catapp.logger.error("Reading '{}' {}".format(search_file, e))
+		search_data = {}
+		pass
+	return search_data
+
+
+
 
 
