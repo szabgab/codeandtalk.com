@@ -28,13 +28,19 @@ def people():
 		for nickname in ppl.keys():
 			if not ppl[nickname]['location']:
 				ppl[nickname]['location'] = '-'
+			if not ppl[nickname]['topics']:
+				ppl[nickname]['topics'] = '-'
 
 			if re.search(term, ppl[nickname]['name'].lower()):
 				result[nickname] = ppl[nickname]
 			elif re.search(term, ppl[nickname]['location'].lower()):
 				result[nickname] = ppl[nickname]
+			elif re.search(term, ppl[nickname]['topics'].lower()):
+				result[nickname] = ppl[nickname]
 
-	return render_template('people.html', 
+	return render_template('people.html',
+		title            = 'People who talk at conferences or in podcasts', 
+		h1               = 'People who talk',
 		number_of_people = len(ppl.keys()),
 		term             = term,
 		people           = result,
