@@ -452,6 +452,15 @@ class GenerateSite(object):
                         'filename' : video['filename'],
                         'thumbnail_url' : video['thumbnail_url'],
                     })
+                    if not 'tags' in self.people_search[s]:
+                        self.people_search[s]['tags'] = set()
+                    if 'tags' in video:
+                        for t in video['tags']:
+                            self.people_search[s]['tags'].add(t['link'])
+                    #else:
+                    #    TODO: shall we requre tags for each video?
+                    #    exit(video)
+                    
                 else:
                     raise Exception("Missing people file for '{}' in {}/videos/{}/{}.json".format(s, self.data, video['event']['nickname'], video['filename']))
             video['speakers'] = speakers
@@ -675,6 +684,14 @@ class GenerateSite(object):
     def save_search(self):
         with open(self.html + '/search.json', 'w', encoding="utf-8") as fh:
             json.dump(self.search, fh)
+
+        for p in self.people_search:
+            if 'tags' in self.people_search[p]:
+                if len(self.people_search[p]['tags']) > 0:
+                    self.people_search[p]['tags'] = list(self.people_search[p]['tags'])
+                else:
+                    del(self.people_search[p]['tags'])
+
         with open(self.html + '/people.json', 'w', encoding="utf-8") as fh:
             json.dump(self.people_search, fh)
 
