@@ -17,14 +17,13 @@ https://github.com/szabgab/codeandtalk.com/blob/main/docs/PEOPLE.md
 SETUP
 ------
 ```
-virtualenv venv3 -p python3
-source venv3/bin/activate
-pip install flask jinja2
+virtualenv venv -p python3
+source venv/bin/activate
+pip install --editable .
 ```
 
 Generate web site (and check format)
 -----------------------------------
-
 ```
 $ python3 bin/generate.py
 ```
@@ -32,27 +31,18 @@ $ python3 bin/generate.py
 Development server
 -------------------
 ```
-$ python3 bin/server.py
-```
-
-http://localhost:8000/
-
-
-Application server
---------------------
-```
-virtualenv venv2 -p /usr/bin/python
-source venv2/bin/activate
-pip install --editable .
-
 export FLASK_APP=cat.app
 export FLASK_DEBUG=1
 flask run --host 0.0.0.0 --port 5000
 ```
 
+http://localhost:5000/
 
 TODO
 -----
+
+These are just ideas, not necessary something I really want to do :-)
+
 * Describe the use of the site.
 
 * Convert all the data files to JSON, beautidy them.
