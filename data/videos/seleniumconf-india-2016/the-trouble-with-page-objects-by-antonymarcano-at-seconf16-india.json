@@ -1,10 +1,10 @@
 {
   "description": "PageObjects have some common problems that many people see but not everyone can explain. Over time they can become harder and harder to maintain. In some cases, they become a tangled mess riddled with deep inheritance hierarchies. How can this happen?!\n\nPageObjects provide an easy-to-follow, simple structure that avoids early maintenance issues. But, they break some key OO design rules, making maintenance more difficult over time. This can result in flaky tests. PageObjects were introduced to help test-developers avoid mistaking flaky tests for problems with Selenium. It was a useful first step, so why did we stop there?\n\nIn this session you\u2019ll learn about the SOLID design principles that PageObjects disregard. You'll see why this leads to problems. You\u2019ll see how and why PageObjects benefit from refactoring to SOLID design principles. Finally, you\u2019ll meet the Screenplay Pattern; an alternative that can save you the effort.\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2475\n\nConference: http://2016.seleniumconf.in",
   "recorded": "2016-06-24",
-  "speakers": [],
+  "speakers": ["antony-marcano"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/_I-6v1UJOmI/hqdefault.jpg",
-  "title": "The Trouble with Page Objects  by AntonyMarcano at SeConf16 India",
+  "title": "The Trouble with Page Objects",
   "videos": [
     {
       "code": "_I-6v1UJOmI",

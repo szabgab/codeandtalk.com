@@ -1,10 +1,10 @@
 {
   "description": "Writing (or recording) tests manually is a tedious, robotic, and dangerous practice. It combines the worst of human nature (it's easy to avoid, easy to forget about edge cases, and difficult to maintain) with the worst of computers (no creativity in trying to break the tests, no understanding of how the underlying system works). What if we could assert high-level properties about our product (in this case, a web site), and then teach the computer to generate tests in order to try to break those assertions?\n \nUsing generative, property-based testing combined with a setup carefully designed to handle concurrent tests (absolutely critical in scaling out coverage while maintaining a trustable build) and a whole lot of computing power, we'll look at how computers can actually be far better than developers at finding bugs in our systems (bug that our users would eventually hit!). We can use this as a first-line defense against regressions in our system.\n \nWe'll end by looking at some amazing extensions to this technique that aren't currently widespread (Concolic testing, predictive testing) but may have significant impact on testing practices in the coming years.\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2547\n\nConference: http://2016.seleniumconf.in",
   "recorded": "2016-06-24",
-  "speakers": [],
+  "speakers": ["sean-grove"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/wVBG3hLmso0/hqdefault.jpg",
-  "title": "Generating and Running 1,000,000 Selenium tests in 60 minutes by Sean at SeConf16 India Trailer",
+  "title": "Generating and Running 1,000,000 Selenium tests in 60 minutes",
   "videos": [
     {
       "code": "wVBG3hLmso0",

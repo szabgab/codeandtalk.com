@@ -1,10 +1,10 @@
 {
   "description": "Selenium was born for web-application testing. But have you ever thought it could be a great tool for testing Windows desktop apps too?\n\nToday, more and more desktop apps use a web-like approach to implement their UI. The methods vary from basic HTMLayout environment to complex designs in CEF (Chromium Embedded Framework). However traditional GUI automation tools seem to be a step behind or ignoring the trend completely. This situation calls for finding new ways of testing.\n\nIn our talk we shall introduce to you a new way of utilizing Selenium for automated testing of desktop applications. No matter whether the HTML UI content is completely offline or loaded and updated dynamically, Selenium is able to access and navigate it just like in a web page. We\u2019ll also show you how to build a small framework around it and plug it into your Continuous Integration process. All of this will be demonstrated using a real-life instance of Avast Antivirus for Windows.\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2292\n\nConference: http://2016.seleniumconf.in",
   "recorded": "2016-06-24",
-  "speakers": [],
+  "speakers": ["michal-vanek", "filip-braun"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/TKU_aecH_wU/hqdefault.jpg",
-  "title": "Testing desktop apps with Selenium by Michal Vanek & Filip Brau at SeConf16 India Trailer",
+  "title": "Testing desktop apps with Selenium",
   "videos": [
     {
       "code": "TKU_aecH_wU",

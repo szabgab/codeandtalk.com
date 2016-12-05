@@ -1,10 +1,10 @@
 {
   "description": "These days we find most of the apps are being developed across different platform, iOS, android, windows and to keep the user base which uses web, mobile web and websites. \n\nWhen apps are being developed for cross domains, most of the functionality provided by the app is very similar, varying thing is PLATFORM. \n\n In rapid development cycle, where there are tools which allows you to write once and reuse across multiple platforms, makes development very faster. \nBut at the same time, if we have different automation suite for different platforms, it becomes very difficult to keep a pace with ongoing functionality. \nThis is the exact problem we faced, and the solution we came up with is \"One Page to test them all! -A cross platform mobile automation framework! \"\n\n \n\nPage Object Model\n\nWell, Page Object Model was again a natural fit for this framework. Most implementations of POM recommend different POMs for each platform. But we wanted to have a single Page Object Model for all the 3 platforms to ensure maximum code reuse and reduce overall time spent in adding new automation.\n \n\nSingle Page Object Model across platforms\n\nThis was complicated because we had native screens as well as webview screens and so it was not possible to use the same Page Object. To solve this, we introduced abstractions for the elements on the screen and encapsulated the respective native driver implementations.\n\nThis also allowed us to implement common automation tasks in one place for e.g waiting for new pages to load, so that this code is not repeated across multiple step definitions and platforms. This helped us move to thinking in higher domain level concepts than in terms of low level UI interactions.\n\nSo, in summary, we write our tests for one platform and run them for all with an abstraction layer in place.\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2464\n\nConference: http://2016.seleniumconf.in",
   "recorded": "2016-06-24",
-  "speakers": [],
+  "speakers": ["priti-biyani"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/mZ09H0h_A5k/hqdefault.jpg",
-  "title": "One page to test them all by Priti Biyani at SeConf16 India Trailer",
+  "title": "One page to test them all",
   "videos": [
     {
       "code": "mZ09H0h_A5k",
