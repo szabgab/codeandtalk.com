@@ -1,10 +1,10 @@
 {
   "description": "One of the painful problems in Selenium automated testing is determining whether a HTML page has been loaded. This is especially the case when web application uses a JS  heavy framework such as the popular AngularJS.\n\nDuring this talk we will discuss how to handle Selenium Page Object pattern better with Loadable Component.\n\nThe Loadable Component helps test case developers make sure that the page or a component of the page is loaded successfully. I will share my experience about the concept of the Loadable Component and Page Object patterns.\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2340\n\nConference: http://2016.seleniumconf.in",
   "recorded": "2016-06-24",
-  "speakers": [],
+  "speakers": ["sargis-sargsyan"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/oOz0_4oohpo/hqdefault.jpg",
-  "title": "Better Page Object Handling with Loadable Component Pattern by Sargis at SeConf16 India- Trailer",
+  "title": "Better Page Object Handling with Loadable Component Pattern",
   "videos": [
     {
       "code": "oOz0_4oohpo",

@@ -1,10 +1,10 @@
 {
   "description": "One of the perennial problems with automated tests is the amount of work many need to keep them working as the underlying application changes. This is particularly true of poorly designed and/or poorly implemented automated tests which can be brittle and prone to break when virtually anything changes in the system under test, the test conditions, or the environment.\n\n \n\nThis session will help you learn or refresh your understanding of how automated GUI tests work, and then identify and discover various approaches to improving the quality of these tests, their interface(s) with the system being tested, and how to design and implement alternatives to existing 'flaky' tests. The concepts apply to both web and mobile app testing.\n\nThe session will be based on my experiences of working with people who write and maintain automated tests, and on my own attempts to write trustworthy tests.\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2548\n\nConference: http://2016.seleniumconf.in",
   "recorded": "2016-06-24",
-  "speakers": [],
+  "speakers": ["julian-harty"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/S7HI5uyoPUY/hqdefault.jpg",
-  "title": "[More] Reliable and Trustworthy Automated GUI Tests by Julian Harty at SeConf16",
+  "title": "[More] Reliable and Trustworthy Automated GUI Tests",
   "videos": [
     {
       "code": "S7HI5uyoPUY",

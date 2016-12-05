@@ -1,10 +1,10 @@
 {
   "description": "Hike is used by 100 Million users and many of our users have cheap smart phone (~ $120 USD) that can install no more than 3 mobile apps.\n\nSo the questions is: Should testing of app be limited to its functionality? At Hike, we believe \"Performance is Queen!\" For our users, if we misuse the critical resources such as Battery, CPU, Network and Memory, its a deal-breaker. Hence pref-testing is very important.\n\nDuring the initial days of Hike, we were very reactive and only did (manual) perf testing, when our users reported issues.\n\nNow, every Sprint (2 weeks) and every public release (monthly), we run our automated perf tests. We measure our app's performance using several app specific use-cases on 4 key areas:\n\n* CPU,\n* Memory,\n* Battery and\n* Network (data consumption.)\n\nWe also benchmark the following scenarios for app latency:\n\n* App launch time upon Force Stop\n* App launch time upon Force Kill\n* App's busiest screen opening time\n* Scrolling latency in different parts of the app\n* Contact loading time in Compose screen\n\nWe still have a long way to go in terms of our pref-testing journey at Hike. But we feel, we've some key learnings, which would be worth while to share with the community. Join us, for a fast paced perf-testing session.\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2530/performance-testing-a-mobile-app-used-by-100m-users\n\nConference: http://2016.seleniumconf.in",
   "recorded": "2016-06-24",
-  "speakers": [],
+  "speakers": ["kumar-pratyush", "naresh-jain"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/DfUgTz9tmFQ/hqdefault.jpg",
-  "title": "Performance Testing a Mobile App Used by 100M Users by Kumar Pratyush & Naresh Jain at SeConf16",
+  "title": "Performance Testing a Mobile App Used by 100M Users",
   "videos": [
     {
       "code": "DfUgTz9tmFQ",
