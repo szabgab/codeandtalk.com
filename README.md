@@ -110,6 +110,16 @@ Other sources
 https://techpoint.ng/2016/09/14/hackjos-2016-2/
 
 
+Promotion
+------------
+After watching videos, they might be promoted via various channels.
+
+* Posted to the appropriate subredit at https://www.reddit.com/
+* Posted at HackerNews: https://news.ycombinator.com/
+* Marked as "featured" and included in one of the blasters: https://codeandtalk.com/blasters
+* Tweeted via https://twitter.com/codeandtalk
+* Posted on the Facebook page: https://facebook.com/CodeAndTalk
+
 
 Some Advice to Conference organizers
 --------------------------------------
