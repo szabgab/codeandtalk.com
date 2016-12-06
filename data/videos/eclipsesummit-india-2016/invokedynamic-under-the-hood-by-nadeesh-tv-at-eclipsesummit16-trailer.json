@@ -1,10 +1,10 @@
 {
   "description": "To exploit the cross platform nature and powerfulness of the  JVM, most of the nonJava programming languages (python, ruby, clojure etc) had ported themselves to run on JVM. But performance of these nonJava languages were poor compared to their nonJVM version. Java 7 introduced a new byte code instruction invokedynamic (indy) to support dynamic languages running on the JVM. The invokedynamic instruction simplifies and potentially improves implementations of compilers and runtime systems for dynamic languages on the JVM.  Later in Java 8, indy became the backbone of the Java 8's most popular feature lambda expression.\n\nConference: https://confengine.com/eclipse-summit-2016\nSlide and Other details: https://confengine.com/eclipse-summit-2016/proposal/2459",
   "recorded": "2016-08-25",
-  "speakers": [],
+  "speakers": ["nadeesh-tv"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/Jvdy9IRyf5I/hqdefault.jpg",
-  "title": "Invokedynamic under the hood by Nadeesh TV at EclipseSummit'16 Trailer",
+  "title": "Invokedynamic under the hood",
   "videos": [
     {
       "code": "Jvdy9IRyf5I",

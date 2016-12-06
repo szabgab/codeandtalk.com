@@ -1,10 +1,10 @@
 {
   "description": "Java 9 is going to provide several developer tools which complement the modular system and enhance developer productivity.\n\nI plan to give overview of new Java Linker tool that would assist in creating a modular Java runtime. \"jlink\" assembles and optimizes a set of modules and their dependencies and \"jmod\" for creating modular packages with class files and resources. \"jimage\" which is 5x more performant than zip or jar formats.\n\nI plan to give interactive session in how to create a modular JDK image with specified root modules using jlink. Describe the plugin api for extension using custom modules.\n\nI shall give insights on tools usage and internals which would help developers in decision making along with benchmark results.\n\nConference: https://confengine.com/eclipse-summit-2016\nSlide and Other details: https://confengine.com/eclipse-summit-2016/proposal/2473",
   "recorded": "2016-08-25",
-  "speakers": [],
+  "speakers": ["g-bhanu-prakash"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/NaBBVdMIPLk/hqdefault.jpg",
-  "title": "JDK 9 Modules and Java Linker JLink  by G Bhanu Prakash at EclipseSummit'16",
+  "title": "JDK 9 Modules and Java Linker JLink",
   "videos": [
     {
       "code": "NaBBVdMIPLk",
