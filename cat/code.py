@@ -108,6 +108,8 @@ class GenerateSite(object):
         conferences = []
 
         for filename in glob.glob(self.data + '/events/*.txt'):
+            if filename != filename.lower():
+                raise Exception("filename '{}' is not all lower case".format(filename))
             #print("Reading {}".format(filename))
             conf = {}
             try:
