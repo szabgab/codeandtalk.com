@@ -186,6 +186,8 @@ class GenerateSite(object):
         path = self.data + '/people'
 
         for filename in glob.glob(path + "/*.txt"):
+            if filename != filename.lower():
+                raise Exception("filename '{}' is not all lower case".format(filename)) 
             try:
                 this = {}
                 nickname = os.path.basename(filename)
