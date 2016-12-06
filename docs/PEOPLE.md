@@ -7,6 +7,7 @@ your listing, read this page and then send a pull-request.
 
 Each person has a file in the `data/people` direcotry. The name of the file
 is derived from the full name of the person in lower case. Words are separated by dashes.
+(Feel free to use all the parts of your name. (e.g. we have angel-diaz-maroto-alvarez.txt or anselm-r-garbe.txt)
 
 On the web site people can be found on this page: https://codeandtalk.com/people or linked from videos and podcasts.
 
