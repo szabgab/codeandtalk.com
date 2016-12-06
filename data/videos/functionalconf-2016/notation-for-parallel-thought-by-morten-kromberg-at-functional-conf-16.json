@@ -1,10 +1,10 @@
 {
   "description": "Since the original APL\\360 interpreter saw the light of day in 1966, a large part of the of primitive functions in APL (A Programming Language) implicitly map operations to all elements of array arguments (and arrays of numbers or characters are the only \u201ctypes\u201d available in the language). Over the decades, the parallelism at the core of the notation has been extended, to nested arrays in the 80\u2019s and arrays of objects in the 00\u2019s. In this decade, arrays of futures have been added to provide users of APL with the ability to express asynchronous \u2013 but deterministic -algorithms.\n\nThis talk will introduce the most important parallel constructs available in current Dyalog APL, which (despite the name) essentially remains an executable mathematical notation.\n\nMore details: https://confengine.com/functional-conf-2016/proposal/2981/notation-for-parallel-thought\n\nConference: http://functionalconf.com/",
   "recorded": "2016-10-13",
-  "speakers": [],
+  "speakers": ["morten-kromberg"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/-erRtkugsRY/hqdefault.jpg",
-  "title": "Notation for Parallel Thought by Morten Kromberg at Functional Conf 16",
+  "title": "Notation for Parallel Thought",
   "videos": [
     {
       "code": "-erRtkugsRY",

@@ -1,10 +1,10 @@
 {
   "description": "The streaming of data in a purely functional language is a fascinating problem that have been extensively explored over the years.\n\nIn this talk we'll first briefly outline historical solutions to the problem and discuss their advantages and disadvantages, \nwe will then follow with a practical introduction to the great `machines` library from Edward Kmett.\n\nWe will see how the library usage compare to other players in the ecosystem (pipes, conduit, ...), \nand walk through real world examples giving us a chance to write our own combinators and understand some of the internals.\n\nMore details: https://confengine.com/functional-conf-2016/proposal/2957",
   "recorded": "2016-10-13",
-  "speakers": [],
+  "speakers": ["alois-cochard"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/sEfn_x245mE/hqdefault.jpg",
-  "title": "Welcome to the Machines by Alo\u00efs Cochard",
+  "title": "Welcome to the Machines",
   "videos": [
     {
       "code": "sEfn_x245mE",

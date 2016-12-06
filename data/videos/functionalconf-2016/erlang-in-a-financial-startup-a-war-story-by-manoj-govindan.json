@@ -1,10 +1,10 @@
 {
   "description": "My employer has a successful suite of products that grew out of a monolithic app. When the monolith was split into different products and services one particular service had requirements that were naturally met by  Erlang: distributed execution,  fault tolerance, and horizontal scalability. I've been working on an implementation of this service that meets the above requirements while retaining the existing interface and features. \n \nIn this presentation, I'll explain how I've created a solution combining Erlang with an existing heterogeneous stack that includes the JVM (Java/Scala), R, Perl, Python, and Javascript. The presentation is a summary of my  ongoing work on this solution, the key challenges I faced, their solutions, and the future road map for the project. \n\nMore details: https://confengine.com/functional-conf-2016/proposal/2941\n\nConference: http://functionalconf.com/",
   "recorded": "2016-10-13",
-  "speakers": [],
+  "speakers": ["manoj-govindan"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/AGUOgp2D_z0/hqdefault.jpg",
-  "title": "Erlang in a Financial Startup: A War Story by Manoj Govindan",
+  "title": "Erlang in a Financial Startup: A War Story",
   "videos": [
     {
       "code": "AGUOgp2D_z0",

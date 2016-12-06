@@ -1,10 +1,10 @@
 {
   "description": "In this heavily demo-focused presentation, we will see how you can, with Red Hat Developer Studio, an Eclipse based distribution, deploy some Docker-based microservices into an OpenShift 3 instance (Red Hat's Platform As A Service offering),  running on Red Hat's Container Developement Kit.\n\nThis presentation is based on a microservices tutorial, the helloworld-msa project, available on github. You will learn how you can build Docker images, deploy and scale several communicating microservices, on OpenShift 3, without leaving Eclipse.\n\nOpenShift 3 is based on top of Docker containers and the Kubernetes container cluster manager, and is completely open source. It allows developers to quickly develop, host, and scale applications in a cloud environment.\n\nThe local version of OpenShift 3 featured in this presentation is powered by Red Hat's Container Development Kit, which provides a pre-built Container Development Environment based on Red Hat Enterprise Linux.\n\nThis presentation will highlight some of the Eclipse tools Red Hat is developing or is contributing to, namely the OpenShift and Docker Tools.\n\nConference: https://confengine.com/eclipse-summit-2016\nSlide and Other details: https://confengine.com/eclipse-summit-2016/proposal/2996",
   "recorded": "2016-08-25",
-  "speakers": [],
+  "speakers": ["fred-bricon"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/MeNeiMCSNyQ/hqdefault.jpg",
-  "title": "Deploy microservices on OpenShift 3  by Fred Bricon at EclipseSummit'16",
+  "title": "Deploy microservices on OpenShift 3",
   "videos": [
     {
       "code": "MeNeiMCSNyQ",
