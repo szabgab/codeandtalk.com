@@ -6,13 +6,13 @@ List of tech conferences, podcasts, videos, people
 
 For more details visit:
 
-https://github.com/szabgab/codeandtalk.com/blob/main/docs/CONFERENCES.md
+[Events](https://github.com/szabgab/codeandtalk.com/blob/main/docs/CONFERENCES.md)
 
-https://github.com/szabgab/codeandtalk.com/blob/main/docs/VIDEOS.md
+[Videos](https://github.com/szabgab/codeandtalk.com/blob/main/docs/VIDEOS.md)
 
-https://github.com/szabgab/codeandtalk.com/blob/main/docs/PODCASTS.md
+[Podcasts](https://github.com/szabgab/codeandtalk.com/blob/main/docs/PODCASTS.md)
 
-https://github.com/szabgab/codeandtalk.com/blob/main/docs/PEOPLE.md
+[People](https://github.com/szabgab/codeandtalk.com/blob/main/docs/PEOPLE.md)
 
 SETUP
 ------
@@ -43,10 +43,15 @@ TODO
 
 These are just ideas, not necessary something I really want to do :-)
 
+* For each event series find out if they have an annuncement mailing list to get notified for the new event, cfp,  videos available.
+Add this information to the data/series.json file Talk to the organizers and tell them why we would like to get such notifications.
+
 * Describe the use of the site.
 
-* Convert all the data files to JSON, beautidy them.
-* Create skeleton for each file-type.
+* Convert the whole site to be dynamically generated from json files.
+
+* Convert all the data files to JSON, beautidy them?
+* Create skeleton for each file-type?
 
 * Include picture of each speaker?
 * Include logo of each event?
