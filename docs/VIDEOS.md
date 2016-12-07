@@ -125,11 +125,6 @@ has not been added yet:
 * fullstackfest-2015
 * fullstackfest-2016
 * gotocon-amsterdam-2016
-* gotocon-chicago-2016
-* gotocon-copenhagen-2016
-* gotocon-stockholm-2016
-* eclipsesummit-india-2016
-* functionalconf-2016
 * seleniumconf-india-2016
 * seleniumconf-uk-2016
 * seleniumconf-usa-2015
@@ -137,8 +132,6 @@ has not been added yet:
 * apachebigdata-europe-2015
 * nordicjs-2014
 * nordicjs-2015
-* nordicjs-2016
-* nos-conf-2016
 * zendcon-2015
 * fisl-17
 
