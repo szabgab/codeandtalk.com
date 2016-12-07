@@ -125,8 +125,6 @@ has not been added yet:
 * fullstackfest-2015
 * fullstackfest-2016
 * gotocon-amsterdam-2016
-* seleniumconf-india-2016
-* seleniumconf-uk-2016
 * seleniumconf-usa-2015
 * rubyconf-taiwan-2015
 * apachebigdata-europe-2015
