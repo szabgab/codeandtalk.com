@@ -103,7 +103,6 @@ class GenerateSite(object):
                 self.blasters.append(row)
         return
 
-
     def read_events(self):
         conferences = []
 
@@ -333,7 +332,8 @@ class GenerateSite(object):
                         })
                     if path not in self.tags:
                         # TODO report tag missing from the tags.csv file
-                        self.tags[path] = new_tag(tag)
+                        raise Exception("Missing tag '{}'".format(path))
+                        #self.tags[path] = new_tag(tag)
                     self.tags[path]['episodes'].append(e)
 
                 e['tags'] = tags
@@ -814,6 +814,8 @@ class GenerateSite(object):
         self.sitemap.append({
             'url' : '/all-conferences'
         })
+        #with open(root + '/conferences.json', 'w', encoding="utf-8") as fh:
+        #    fh.write(json.dumps(self.conferences, sort_keys=True))
 
         cfp = list(filter(lambda x: 'cfp_date' in x and x['cfp_date'] >= self.now, self.conferences))
         cfp.sort(key=lambda x: x['cfp_date'])
