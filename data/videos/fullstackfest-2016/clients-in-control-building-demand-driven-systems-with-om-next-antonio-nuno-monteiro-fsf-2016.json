@@ -1,10 +1,10 @@
 {
   "description": "Traditional architectures are no longer suitable for the increasing needs of today's applications. The price is often paid in high bandwidth and reduced performance. Demand-driven design enables clients to request arbitrary data on demand. Companies like Facebook and Netflix have switched to demand-driven architectures to better embrace a great variety of continuously changing clients. Solutions like Relay and Falcor/JSONGraph distill such ideas. Om Next builds on, and extends these concepts further, to provide a Clojure(Script) based solution. In this talk, I present the motivation for a demand-driven approach and explore the benefits and tradeoffs that Om Next brings to the table.\n\nAbout the speaker:\n\nAnt\u00f3nio is a software engineer currently living in Germany. He's fascinated by functional programming and Clojure in particular. He is a contributor to the Om project, and has lately been helping companies build new, demand-driven systems using Om Next.\n\nTalk given at Full Stack Fest 2016",
   "recorded": "2016-09-05",
-  "speakers": [],
+  "speakers": ["antonio-nuno-monteiro"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/Zb18iPjDgwM/hqdefault.jpg",
-  "title": "Clients in control: building demand-driven systems with Om Next (Ant\u00f3nio Nuno Monteiro) - FSF 2016",
+  "title": "Clients in control: building demand-driven systems with Om Next",
   "videos": [
     {
       "code": "Zb18iPjDgwM",
