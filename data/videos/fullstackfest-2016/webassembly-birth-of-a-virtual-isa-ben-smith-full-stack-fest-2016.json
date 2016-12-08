@@ -1,10 +1,10 @@
 {
   "description": "WebAssembly is a new portable, size- and load-time-efficient format suitable for compilation to the web. It's efficient, fast, portable, and safe\u2014as is the rest of the web\u2014and the devil of how this is done is in the details. Let's walk through the diverse tech stacks which makes this possible, from high-level languages such as C++, to compilers, virtual machines, and hardware implementations.\n\nAbout the speaker:\n\nBen Smith is a software engineer at Google on the Native Client team. Prior to Google he developed tools for video games.\n\nTalk given at Full Stack Fest 2016 (https://www.fullstackfest.com)",
   "recorded": "2016-09-05",
-  "speakers": [],
+  "speakers": ["ben-smith"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/vmzz17JGPHI/hqdefault.jpg",
-  "title": "WebAssembly: birth of a virtual ISA (Ben Smith) - Full Stack Fest 2016",
+  "title": "WebAssembly: birth of a virtual ISA",
   "videos": [
     {
       "code": "vmzz17JGPHI",
