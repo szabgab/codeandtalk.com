@@ -119,12 +119,7 @@ has not been added yet:
 * laracon-eu-2016
 * opensourcebridge-2015
 * polyconf-2016
-* reactrally-2016
-* viewsourceconf-berlin-2016
-* accessibility-camp-new-york-2016
 * fullstackfest-2015
-* fullstackfest-2016
-* gotocon-amsterdam-2016
 * seleniumconf-usa-2015
 * rubyconf-taiwan-2015
 * apachebigdata-europe-2015
