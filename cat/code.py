@@ -393,6 +393,7 @@ class GenerateSite(object):
                     self.series[s]['events'].append(event)
                     break
             else:
+                #TODO: create series for every event and then turn on the exception?
                 #print("Event without series: {}".format(event['nickname']))
                 #raise Exception("Event without series: {}".format(event['nickname']))
                 other.append(event)
