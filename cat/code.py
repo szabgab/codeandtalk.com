@@ -380,17 +380,23 @@ class GenerateSite(object):
     def _add_events_to_series(self):
         for s in self.series.keys():
             self.series[s]['events'] = []
+        other = []
         for e in self.conferences:
+            event = {
+                'nickname'   : e['nickname'],
+                'name'       : e['name'],
+                'start_date' : e['start_date'],
+            }
             for s in sorted(self.series.keys(), key=lambda s: len(s), reverse=True):
-                #print(s)
                 l = len(s)
-                #exit(e)
-                if e['nickname'][0:l] == s:
-                    self.series[s]['events'].append({
-                        'nickname'   : e['nickname'],
-                        'name'       : e['name'],
-                        'start_date' : e['start_date'],
-                    })
+                if event['nickname'][0:l] == s:
+                    self.series[s]['events'].append(event)
+                    break
+            else:
+                #print("Event without series: {}".format(event['nickname']))
+                #raise Exception("Event without series: {}".format(event['nickname']))
+                other.append(event)
+
         for s in self.series.keys():
             self.series[s]['events'].sort(key=lambda x: x['start_date'])
         #self.event_in_series = {}
@@ -728,15 +734,7 @@ class GenerateSite(object):
         self.create_blaster_pages(root)
 
         self.generate_video_pages()
-        #print(self.videos)
-        #exit()
 
-        #with open(root + '/series', 'w', encoding="utf-8") as fh:
-        #    fh.write(env.get_template('series.html').render(
-        #        h1     = 'Event Series',
-        #        title  = 'Event Series',
-        #        series = self.series,
-        #))
         with open(root + '/series.json', 'w', encoding="utf-8") as fh:
             fh.write(json.dumps(self.series, sort_keys=True))
         self.sitemap.append({
