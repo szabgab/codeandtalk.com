@@ -1,0 +1,14 @@
+{
+  "description": "We build programs in Clojure primarily using immutable data structures such as vectors and (optionally sorted) sets and maps. Most of the time these primitives provide exactly the operations we need. This talk is a survey of alternative data structures available to Clojure programmers for cases when the built-ins are not the best tool for the job. The audience will learn about RRB Vectors and AVL Trees, how they relate to their built-in counterparts and about the additional capabilities they offer. The talk will focus on examples and use cases instead of lower level implementation details.\n\nSlides: http://clojutre.org/2015/slides/the-other-data-structures.pdf",
+  "recorded": "2015-09-11",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/hGWovJGbKJk/hqdefault.jpg",
+  "title": "The Other Data Structures - Jonas Enlund",
+  "videos": [
+    {
+      "code": "hGWovJGbKJk",
+      "type": "youtube"
+    }
+  ]
+}

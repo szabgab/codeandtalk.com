@@ -1,0 +1,14 @@
+{
+  "description": "Why yet another lisp? Why do we need/want a new lisp for the Erlang VM? What is it that makes the existing ones, even Clojure, a bad fit? This talk will give a brief description of the main properties of the Erlang VM and how it affects implementing languages on it. LFE (Lisp Flavoured Erlang) has been designed to run efficiently on the Erlang VM and at the same time be a \"real lisp\" providing Lisp's good bits. We will describe the language and how it uses the properties of the system as well as some of the tooling around it.",
+  "recorded": "2015-09-11",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/BvCBTpnlqs8/hqdefault.jpg",
+  "title": "Wherefore art thou LFE? - Robert Virding",
+  "videos": [
+    {
+      "code": "BvCBTpnlqs8",
+      "type": "youtube"
+    }
+  ]
+}

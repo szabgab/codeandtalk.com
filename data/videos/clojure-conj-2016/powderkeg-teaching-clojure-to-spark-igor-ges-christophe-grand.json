@@ -1,0 +1,14 @@
+{
+  "description": "While there\u2019s no shortage of libraries that let one interact with Spark using Clojure they treat the problem as providing a more fluid experience of using Java interfaces. In doing so they overlook the REPL experience (by relying on AOT) and create code duplication (having their own fn, map, reduce, filter, mapcat\u2026). But there is another way: ignore most of the Java/Scala interfaces and consider Spark artifacts (RDDs and streams) as a transducing context. Through doing this we have achieved a true REPL experience, a small API and overall made interactions with Spark more Clojuresque.",
+  "recorded": "2016-12-01",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/OxUHgP4Ox5Q/hqdefault.jpg",
+  "title": "Powderkeg: teaching Clojure to Spark - Igor Ges, Christophe Grand",
+  "videos": [
+    {
+      "code": "OxUHgP4Ox5Q",
+      "type": "youtube"
+    }
+  ]
+}

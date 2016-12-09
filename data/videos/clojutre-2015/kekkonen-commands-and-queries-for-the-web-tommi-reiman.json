@@ -1,0 +1,14 @@
+{
+  "description": "Thanks to REST and Swagger, we can build beautiful apis to feed both our browser frontends and external applications. But, wrapping your Clojure code into resources mostly for your ClojureScript frontend doesn't feel right? Just use RPC? Meet in the middle?\n\nKekkonen is a small library for managing your (web) apis as commands and queries. No magic, data-driven, un-restful and non-rpc. It's goals are to be small, explicit, extendable and to help enforce your business rules both on the server side and on the ClojureScript frontend. Besides Swagger, it provides run-time context-aware apidocs for Clojure(Script).\n\nSlides: http://clojutre.org/2015/slides/kekkonen_clojutre2015_print.pdf",
+  "recorded": "2015-09-11",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/BIjVH4SAmiM/hqdefault.jpg",
+  "title": "Kekkonen - commands and queries for the web - Tommi Reiman",
+  "videos": [
+    {
+      "code": "BIjVH4SAmiM",
+      "type": "youtube"
+    }
+  ]
+}

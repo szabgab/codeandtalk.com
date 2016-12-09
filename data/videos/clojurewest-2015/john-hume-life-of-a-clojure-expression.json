@@ -1,0 +1,14 @@
+{
+  "description": "This talk will try to demystify the path between a simple piece of Clojure code and its execution. We'll follow a single expression-from text, to parsed form, to analyzed expression, to byte-code, to execution. We'll look at a lot of code, including some highlights from the 8500+ lines of love that are Compiler.java. Hopefully Clojurists will come out of the talk better understanding how their code works and more willing to dig into the guts the next time it doesn't work as they'd expect.",
+  "recorded": "2015-04-20",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/6DaBmz_6y0s/hqdefault.jpg",
+  "title": "John Hume - Life of a Clojure Expression",
+  "videos": [
+    {
+      "code": "6DaBmz_6y0s",
+      "type": "youtube"
+    }
+  ]
+}

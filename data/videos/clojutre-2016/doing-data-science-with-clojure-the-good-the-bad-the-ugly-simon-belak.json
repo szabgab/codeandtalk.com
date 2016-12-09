@@ -1,0 +1,14 @@
+{
+  "description": "Having programmers do data science is terrible, if only everyone else were not even worse! The problem is tools \u2013 either a bunch of libraries and an agnostic IDE, or some point-and-click wonder which no matter how glossy never quite fits our need. The dual lisp tradition of grow-your-own-language and grow-your-own-editor gives me hope there is a third way. This talk is a meditation on how I do data science with Clojure, what the ideal process would look like, and the tools needed to get there. Some already exists (or can at least be bodged together); others can be made with relative ease (and we are already working on some of these); but a few will take a lot more hammock time.\n\nClojure is fantastic for data manipulation and rapid prototyping, but falls short when it comes to communicating your insights. What is lacking are good visualization libraries and (sharable) notebook-like environments. I'll show my workflow which weaves Clojure with R (for ggplot) and Python (for scikit-learn) and tell you why it's wrong; how IPythons of the world have trapped us in a local maximum and why we need a reconceptualization similar to what a REPL does to programming. All this interposed with my experience doing data science with Clojure (everything from ETL to on-the-spot analysis during brainstormings) and how these are interwoven into the design of Huri my library for the lazy data scientist.\n\nSlides: https://www.slideshare.net/mobile/simonbelak/doing-data-science-with-clojure-65886938",
+  "recorded": "2016-09-16",
+  "speakers": [],
+  "tags": [],
+  "thumbnail_url": "https://i.ytimg.com/vi/xtmggfGD3RQ/hqdefault.jpg",
+  "title": "Doing data science with Clojure: the good, the bad, the ugly - Simon Belak",
+  "videos": [
+    {
+      "code": "xtmggfGD3RQ",
+      "type": "youtube"
+    }
+  ]
+}

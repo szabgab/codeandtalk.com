@@ -131,6 +131,12 @@ has not been added yet:
 * london-perl-workshop-2014
 * london-perl-workshop-2015
 * buzzjs-2016
+* clojure-conj-2016
+* clojurewest-2015
+* clojurewest-2016
+* clojutre-2015
+* clojutre-2016
+* euroclojure-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
