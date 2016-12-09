@@ -481,6 +481,8 @@ class GenerateSite(object):
                 for t in video['tags']:
                     p = t['link']
                     if p not in self.tags:
+                        #print("{};".format(p))
+                        raise Exception("Missing tag '{}'".format(p))
                         self.tags[p] = new_tag(t)
                     self.tags[p]['videos'].append(video)
                     if not re.search(r'-', t['link']) and len(t['link']) < 20:
