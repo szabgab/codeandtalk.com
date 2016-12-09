@@ -127,6 +127,9 @@ has not been added yet:
 * nordicjs-2015
 * zendcon-2015
 * fisl-17
+* allthingsopen-2015
+* london-perl-workshop-2014
+* london-perl-workshop-2015
 
 ``` grep speaker * | grep '\[\]' ```
 
