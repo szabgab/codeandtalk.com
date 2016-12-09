@@ -331,7 +331,6 @@ class GenerateSite(object):
                             'link' : path,
                         })
                     if path not in self.tags:
-                        # TODO report tag missing from the tags.csv file
                         raise Exception("Missing tag '{}'".format(path))
                         #self.tags[path] = new_tag(tag)
                     self.tags[path]['episodes'].append(e)
@@ -481,9 +480,8 @@ class GenerateSite(object):
                 for t in video['tags']:
                     p = t['link']
                     if p not in self.tags:
-                        #print("{};".format(p))
                         raise Exception("Missing tag '{}'".format(p))
-                        self.tags[p] = new_tag(t)
+                        #self.tags[p] = new_tag(t)
                     self.tags[p]['videos'].append(video)
                     if not re.search(r'-', t['link']) and len(t['link']) < 20:
                         tweet_video += ' #' + t['link']
@@ -518,7 +516,9 @@ class GenerateSite(object):
             for tag in event['topics']:
                 p = tag['path']
                 if p not in self.tags:
-                    self.tags[p] = new_tag(tag)
+                    #print("{};".format(p))
+                    raise Exception("Missing tag '{}'".format(p))
+                    #self.tags[p] = new_tag(tag)
                 self.tags[p]['events'].append(event)
 
             if event['nickname'] in self.event_videos:
