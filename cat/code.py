@@ -144,6 +144,8 @@ class GenerateSite(object):
                 if this['topics']:
                     for t in re.split(r'\s*,\s*', this['topics']):
                         p = topic2path(t)
+                        if p not in self.tags:
+                            raise Exception("Topic '{}' is not in the list of tags".format(p))
                         my_topics.append({
                             'name' : t,
                             'path' : p,
@@ -246,6 +248,11 @@ class GenerateSite(object):
                     person['location'] = this['country']
                 if 'topics' in this:
                     person['topics']   = this['topics']
+                    for t in re.split(r'\s*,\s*', this['topics']):
+                        p = topic2path(t)
+                        if p not in self.tags:
+                            raise Exception("Topic '{}' is not in the list of tags".format(p))
+
                 self.people_search[nickname] = person
             except Exception as e:
                 exit("ERROR 2: {} in file {}".format(e, filename))
