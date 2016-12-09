@@ -2,6 +2,9 @@
 
 {% for (k, v) in series|dictsort %}
    <h2>{{ v.title }}</h2>
+   {% if v.url %}
+       <a href="{{ v.url }}">{{ v.title }}</a>
+   {% endif %}
    <div class="description">
      {{ v.description|safe }}
    </div>
