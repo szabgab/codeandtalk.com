@@ -137,6 +137,8 @@ has not been added yet:
 * clojutre-2015
 * clojutre-2016
 * euroclojure-2016
+* drupalsouth-2015
+* drupalsouth-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
