@@ -32,6 +32,15 @@ def people():
 		people_ids       = sorted(result.keys()),
 	)
 
+@catapp.route("/series")
+def series():
+	data = _read_json(root + '/html/series.json')
+	return render_template('series.html',
+		h1     = 'Event Series',
+		title  = 'Event Series',
+		series = data,
+	)
+
 @catapp.route("/search")
 def search():
 	res = _search()
@@ -140,8 +149,4 @@ def _read_json(filename):
 		search_data = {}
 		pass
 	return search_data
-
-
-
-
 

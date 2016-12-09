@@ -3,7 +3,7 @@
 {% for (k, v) in series|dictsort %}
    <h2>{{ v.title }}</h2>
    <div class="description">
-     {{ v.description }}
+     {{ v.description|safe }}
    </div>
    
    <ul>

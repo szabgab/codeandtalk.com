@@ -260,7 +260,6 @@ class GenerateSite(object):
         return
 
     def read_series(self):
-        self.event_in_series = {}
         with open(self.data + '/series.json') as fh:
             self.series = json.load(fh)
             for s in self.series:
@@ -380,11 +379,23 @@ class GenerateSite(object):
 
     def _add_events_to_series(self):
         for s in self.series.keys():
-            l = len(s)
-            self.series[s]['events'] = [ e for e in self.conferences if e['nickname'][0:l] == s ]
+            self.series[s]['events'] = []
+        for e in self.conferences:
+            for s in sorted(self.series.keys(), key=lambda s: len(s), reverse=True):
+                #print(s)
+                l = len(s)
+                #exit(e)
+                if e['nickname'][0:l] == s:
+                    self.series[s]['events'].append({
+                        'nickname'   : e['nickname'],
+                        'name'       : e['name'],
+                        'start_date' : e['start_date'],
+                    })
+        for s in self.series.keys():
             self.series[s]['events'].sort(key=lambda x: x['start_date'])
-            for e in self.series[s]['events']:
-                self.event_in_series[ e['nickname'] ] = s
+        #self.event_in_series = {}
+        #for e in self.series[s]['events']:
+        #    self.event_in_series[ e['nickname'] ] = s
 
     def _process_videos(self):
         for b in self.blasters:
@@ -720,12 +731,14 @@ class GenerateSite(object):
         #print(self.videos)
         #exit()
 
-        with open(root + '/series', 'w', encoding="utf-8") as fh:
-            fh.write(env.get_template('series.html').render(
-                h1     = 'Event Series',
-                title  = 'Event Series',
-                series = self.series,
-        ))
+        #with open(root + '/series', 'w', encoding="utf-8") as fh:
+        #    fh.write(env.get_template('series.html').render(
+        #        h1     = 'Event Series',
+        #        title  = 'Event Series',
+        #        series = self.series,
+        #))
+        with open(root + '/series.json', 'w', encoding="utf-8") as fh:
+            fh.write(json.dumps(self.series, sort_keys=True))
         self.sitemap.append({
             'url' : '/series',
         })
