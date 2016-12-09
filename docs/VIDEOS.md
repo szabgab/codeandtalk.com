@@ -130,6 +130,7 @@ has not been added yet:
 * allthingsopen-2015
 * london-perl-workshop-2014
 * london-perl-workshop-2015
+* buzzjs-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
