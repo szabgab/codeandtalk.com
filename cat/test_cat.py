@@ -38,20 +38,4 @@ class TestDemo(unittest.TestCase):
                 print("Received: {}".format(result))
             assert result == expected
 
-
-    def test_videos(self):
-        gs = GenerateSite()
-        gs.read_videos()
-        report = gs.check_videos()
-        sys.stderr.write(report)
-        assert report == ''
-
-    def test_people(self):
-        gs = GenerateSite()
-        gs.read_tags()
-        gs.read_people()
-        report = gs.check_people()
-        sys.stderr.write(report)
-        assert report == ''
-
 # vim: expandtab
