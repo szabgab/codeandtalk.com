@@ -48,6 +48,7 @@ class TestDemo(unittest.TestCase):
 
     def test_people(self):
         gs = GenerateSite()
+        gs.read_tags()
         gs.read_people()
         report = gs.check_people()
         sys.stderr.write(report)
