@@ -11,6 +11,7 @@ from cat.code import GenerateSite
 # Only show events that have already finished.
 
 gs = GenerateSite()
+gs.read_tags()
 gs.read_events()
 no_videos = ''
 no_youtube = ''
