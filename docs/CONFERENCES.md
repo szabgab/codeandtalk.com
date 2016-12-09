@@ -29,3 +29,12 @@ In the `youtube` field use a single - to indicate tha the conference does not ha
 
 Do not mark in such way conferences that have videos in some other place. We still need to figure out how to include
 those.
+
+
+Questions
+------------------
+* Is this part of a series of events?
+* Are videos available?
+* How can we get notified when a new event is scheduled?
+* How can we get notified when the videos are posted?
+* Newsletter / Twitter / Facebook ?
