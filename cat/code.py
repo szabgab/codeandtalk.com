@@ -263,6 +263,9 @@ class GenerateSite(object):
         self.event_in_series = {}
         with open(self.data + '/series.json') as fh:
             self.series = json.load(fh)
+            for s in self.series:
+                if s == '':
+                    raise Exception("empty key in series {}".format(self.series[s]))
 
     def read_videos(self):
         path = self.data + '/videos'
