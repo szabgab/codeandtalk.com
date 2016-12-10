@@ -1,14 +1,14 @@
 {
-  "description": "Money is a very important thing. Specially for a fintech that operates on other people\u2019s money. It means that all these operations need to be correct. There is no room for bugs. There is no room for money appearing or disappearing. A technique to avoid these problems is double entry accounting. In this talk we\u2019ll show how we built a double entry accounting system using Clojure and Datomic, functional programming with a little bit of algebra and generative testing. This system has proven to be the most powerful analysis tool, ensuring correctness and driving future predictions in a per-account basis.",
-  "recorded": "2016-12-01",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/aw6y4r4NAlw/hqdefault.jpg",
-  "title": "Building a powerful Double Entry Accounting system - Lucas Cavalcanti",
-  "videos": [
-    {
-      "code": "aw6y4r4NAlw",
-      "type": "youtube"
-    }
-  ]
+    "description": "Money is a very important thing. Specially for a fintech that operates on other people\u2019s money. It means that all these operations need to be correct. There is no room for bugs. There is no room for money appearing or disappearing. A technique to avoid these problems is double entry accounting. In this talk we\u2019ll show how we built a double entry accounting system using Clojure and Datomic, functional programming with a little bit of algebra and generative testing. This system has proven to be the most powerful analysis tool, ensuring correctness and driving future predictions in a per-account basis.",
+    "recorded": "2016-12-01",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/aw6y4r4NAlw/hqdefault.jpg",
+    "title": "Building a powerful Double Entry Accounting system - Lucas Cavalcanti",
+    "videos": [
+        {
+            "code": "aw6y4r4NAlw",
+            "type": "youtube"
+        }
+    ]
 }

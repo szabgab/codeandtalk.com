@@ -1,14 +1,14 @@
 {
-  "description": "Transducers are great for many things. You can define complex algorithms in a simple way. The end results are maintainable algorithms that also run fast. They are fully supported in Clojure core and it is possible to speed up many algorithms even more by using transducers in a parallel fold.\n\nHowever, with lots of data and heavy algorithm one machine with all cores utilized is not enough for processing the data in a reasonable amount of time. There are a wide variety solutions (e.g. Hadoop) for running you algorithms in a distributed way. Those approaches typically require you to write the code with specific api and setting all the machinery is quite a hassle. My vision is to have a way for easily scaling transducer approach from one machine to multiple machines with minimal code changes.\n\nIn this talk I will present a proof-of-concept of that idea using AWS Lambda for distributing transducing to multiple nodes running in a cloud in a transparent way.\n\nSlides: https://github.com/mhjort/distributed-transducers-poc/releases/download/v1.0/Distributed.Transducers.pdf",
-  "recorded": "2016-09-16",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/_9jdb5TOShk/hqdefault.jpg",
-  "title": "Distributed transducers - Markus Hjort",
-  "videos": [
-    {
-      "code": "_9jdb5TOShk",
-      "type": "youtube"
-    }
-  ]
+    "description": "Transducers are great for many things. You can define complex algorithms in a simple way. The end results are maintainable algorithms that also run fast. They are fully supported in Clojure core and it is possible to speed up many algorithms even more by using transducers in a parallel fold.\n\nHowever, with lots of data and heavy algorithm one machine with all cores utilized is not enough for processing the data in a reasonable amount of time. There are a wide variety solutions (e.g. Hadoop) for running you algorithms in a distributed way. Those approaches typically require you to write the code with specific api and setting all the machinery is quite a hassle. My vision is to have a way for easily scaling transducer approach from one machine to multiple machines with minimal code changes.\n\nIn this talk I will present a proof-of-concept of that idea using AWS Lambda for distributing transducing to multiple nodes running in a cloud in a transparent way.\n\nSlides: https://github.com/mhjort/distributed-transducers-poc/releases/download/v1.0/Distributed.Transducers.pdf",
+    "recorded": "2016-09-16",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/_9jdb5TOShk/hqdefault.jpg",
+    "title": "Distributed transducers - Markus Hjort",
+    "videos": [
+        {
+            "code": "_9jdb5TOShk",
+            "type": "youtube"
+        }
+    ]
 }

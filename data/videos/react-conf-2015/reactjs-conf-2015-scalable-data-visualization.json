@@ -1,14 +1,14 @@
 {
-  "description": "Zach Nation, Dato\n\nVisualizing large-scale data in the browser presents many challenges, including performance of rendering, responding to state changes from user input or data changes, and transforming gigabytes of data into hundreds or thousands of visual elements efficiently. Being able to reason about the effects of state changes, and the performance implications of those effects, becomes even more important at large scale. GraphLab uses React.js extensively to help control the complexity of rendering and enable us to build bigger and better visualizations.\n\nThis talk will cover various techniques for rendering, and the pros and cons of each, including: render targets (canvas vs. SVG), client-server application architecture optimized for large data, and integration with other visualization libraries including d3.js. While React.js is a solution for client-side rendering, it must be combined with a whole data pipeline to be effective for rendering larger data than can fit in the browser. By using a stateful server-side and a modified Flux-like architecture, in which XMLHttpRequest communicates with a server-side dispatcher, we can keep transformations close to the raw data and manage client-side application complexity at the same time.",
-  "recorded": "2015-01-28",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/2ii1lEkIv1s/hqdefault.jpg",
-  "title": "React.js Conf 2015 - Scalable Data Visualization",
-  "videos": [
-    {
-      "code": "2ii1lEkIv1s",
-      "type": "youtube"
-    }
-  ]
+    "description": "Zach Nation, Dato\n\nVisualizing large-scale data in the browser presents many challenges, including performance of rendering, responding to state changes from user input or data changes, and transforming gigabytes of data into hundreds or thousands of visual elements efficiently. Being able to reason about the effects of state changes, and the performance implications of those effects, becomes even more important at large scale. GraphLab uses React.js extensively to help control the complexity of rendering and enable us to build bigger and better visualizations.\n\nThis talk will cover various techniques for rendering, and the pros and cons of each, including: render targets (canvas vs. SVG), client-server application architecture optimized for large data, and integration with other visualization libraries including d3.js. While React.js is a solution for client-side rendering, it must be combined with a whole data pipeline to be effective for rendering larger data than can fit in the browser. By using a stateful server-side and a modified Flux-like architecture, in which XMLHttpRequest communicates with a server-side dispatcher, we can keep transformations close to the raw data and manage client-side application complexity at the same time.",
+    "recorded": "2015-01-28",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/2ii1lEkIv1s/hqdefault.jpg",
+    "title": "React.js Conf 2015 - Scalable Data Visualization",
+    "videos": [
+        {
+            "code": "2ii1lEkIv1s",
+            "type": "youtube"
+        }
+    ]
 }

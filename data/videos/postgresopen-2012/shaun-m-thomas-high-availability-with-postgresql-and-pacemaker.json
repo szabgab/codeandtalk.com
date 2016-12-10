@@ -1,14 +1,14 @@
 {
-  "description": "This talk will cover the use of Pacemaker in producing a fault-tolerant, high availability PostgreSQL cluster. In OLTP systems, synchronous replication adds too much overhead, and asynchronous replication is often too slow. Learn how to bulletproof your database against hardware failure without losing a single committed transaction.\n\nPostgreSQL has very mature replication available from a variety of methods internal and external. To a certain extent, managing a streaming replication cluster can even be automated in the case of a master node failure. PGPool and repmgr are two easy ways to do this. Unfortunately, when tens of thousands are passing through a system every second, this incurs a certain amount of overhead or commit lag.\n\nPacemaker, DRBD, and other tools are generally glued together to solve these problems, and will continue to have a place as PostgreSQL matures. Disk-based replication or controller-based multipathing can abstract much of the replication job away from PostgreSQL, insulate it from transaction commit overhead, and eliminate expensive re-synchronization of slaves following failovers and disaster recovery tests.\n\nThe examples used in this talk will center on DRBD and Pacemaker in a simple two-node system. The cluster will be built from scratch and several node failure scenarios will be presented. Attendees will be encouraged to ask questions about the process as the cluster is being constructed.",
-  "recorded": "2012-09-17",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/xxKcEUclhZw/hqdefault.jpg",
-  "title": "Shaun M. Thomas: High Availability with PostgreSQL and Pacemaker",
-  "videos": [
-    {
-      "code": "xxKcEUclhZw",
-      "type": "youtube"
-    }
-  ]
+    "description": "This talk will cover the use of Pacemaker in producing a fault-tolerant, high availability PostgreSQL cluster. In OLTP systems, synchronous replication adds too much overhead, and asynchronous replication is often too slow. Learn how to bulletproof your database against hardware failure without losing a single committed transaction.\n\nPostgreSQL has very mature replication available from a variety of methods internal and external. To a certain extent, managing a streaming replication cluster can even be automated in the case of a master node failure. PGPool and repmgr are two easy ways to do this. Unfortunately, when tens of thousands are passing through a system every second, this incurs a certain amount of overhead or commit lag.\n\nPacemaker, DRBD, and other tools are generally glued together to solve these problems, and will continue to have a place as PostgreSQL matures. Disk-based replication or controller-based multipathing can abstract much of the replication job away from PostgreSQL, insulate it from transaction commit overhead, and eliminate expensive re-synchronization of slaves following failovers and disaster recovery tests.\n\nThe examples used in this talk will center on DRBD and Pacemaker in a simple two-node system. The cluster will be built from scratch and several node failure scenarios will be presented. Attendees will be encouraged to ask questions about the process as the cluster is being constructed.",
+    "recorded": "2012-09-17",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/xxKcEUclhZw/hqdefault.jpg",
+    "title": "Shaun M. Thomas: High Availability with PostgreSQL and Pacemaker",
+    "videos": [
+        {
+            "code": "xxKcEUclhZw",
+            "type": "youtube"
+        }
+    ]
 }

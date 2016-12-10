@@ -1,14 +1,14 @@
 {
-  "description": "Strace is used to trace a process from beginning to end. It intercepts system calls as well as their return codes so  we can follow what any particular process is doing.\n\nA big part of a Systems Administrator\u2019s role is troubleshooting. We may not always have insight in to what an application should be doing or what it is doing when it is not acting the way it should. We may not be coders that can read pages upon pages of code or hell we may not even have access to the said source code.\n\nWe will start by going over the various was to call strace and how we can use strace to see where a program spends most of its time. This will be reinforced with fundamental demos along with break downs and explanations of the output.\n\nAfter going though some examples the presentation will go over specific scenarios where using strace helped to solve a situation.\n\nThe take away from this presentation will be a github repo with small C programs to help illustrate which bits of code turn in to which system calls.",
-  "recorded": "2016-04-23",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/Thr-PC9p8Q8/hqdefault.jpg",
-  "title": "LinuxFest Northwest 2016: Your System Calls and You - A Brief Exploration of Using strace",
-  "videos": [
-    {
-      "code": "Thr-PC9p8Q8",
-      "type": "youtube"
-    }
-  ]
+    "description": "Strace is used to trace a process from beginning to end. It intercepts system calls as well as their return codes so  we can follow what any particular process is doing.\n\nA big part of a Systems Administrator\u2019s role is troubleshooting. We may not always have insight in to what an application should be doing or what it is doing when it is not acting the way it should. We may not be coders that can read pages upon pages of code or hell we may not even have access to the said source code.\n\nWe will start by going over the various was to call strace and how we can use strace to see where a program spends most of its time. This will be reinforced with fundamental demos along with break downs and explanations of the output.\n\nAfter going though some examples the presentation will go over specific scenarios where using strace helped to solve a situation.\n\nThe take away from this presentation will be a github repo with small C programs to help illustrate which bits of code turn in to which system calls.",
+    "recorded": "2016-04-23",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/Thr-PC9p8Q8/hqdefault.jpg",
+    "title": "LinuxFest Northwest 2016: Your System Calls and You - A Brief Exploration of Using strace",
+    "videos": [
+        {
+            "code": "Thr-PC9p8Q8",
+            "type": "youtube"
+        }
+    ]
 }

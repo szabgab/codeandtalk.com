@@ -1,14 +1,16 @@
 {
-  "description": "There are over 100,000 gems in Rubygems, enough for the Ruby community to have coined the half-joke *\u201cthere's a gem for that\u201d* as an answer to everything.\n\nWhen presented with a new problem, a rubyist's first impulse is often searching for that gem. And yet, it is often the case that, for the sake of simplicity, we would be better not doing that.\n\nWhy add another dependency without first checking whether the standard library already covers that. Because there are many overlooked pieces of the standard library that will be handy for us and solve our problems in a simple, dependency-free way.\n\nThis talk will cover 5 of them (since it is impossible to show them all). You'll learn how to use 5 new tools that you already have, and on top of it you'll learn to always look there first ;)",
-  "recorded": "2015-11-24",
-  "speakers": [],
-  "tags": ["Ruby"],
-  "thumbnail_url": "https://i.ytimg.com/vi/eL-zPihYWBc/hqdefault.jpg",
-  "title": "5 Hidden Gems of the Ruby Standard Library",
-  "videos": [
-    {
-      "code": "eL-zPihYWBc",
-      "type": "youtube"
-    }
-  ]
+    "description": "There are over 100,000 gems in Rubygems, enough for the Ruby community to have coined the half-joke *\u201cthere's a gem for that\u201d* as an answer to everything.\n\nWhen presented with a new problem, a rubyist's first impulse is often searching for that gem. And yet, it is often the case that, for the sake of simplicity, we would be better not doing that.\n\nWhy add another dependency without first checking whether the standard library already covers that. Because there are many overlooked pieces of the standard library that will be handy for us and solve our problems in a simple, dependency-free way.\n\nThis talk will cover 5 of them (since it is impossible to show them all). You'll learn how to use 5 new tools that you already have, and on top of it you'll learn to always look there first ;)",
+    "recorded": "2015-11-24",
+    "speakers": [],
+    "tags": [
+        "Ruby"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/eL-zPihYWBc/hqdefault.jpg",
+    "title": "5 Hidden Gems of the Ruby Standard Library",
+    "videos": [
+        {
+            "code": "eL-zPihYWBc",
+            "type": "youtube"
+        }
+    ]
 }

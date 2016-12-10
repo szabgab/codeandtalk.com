@@ -1,14 +1,16 @@
 {
-  "description": "Messaging systems underpin architectures ranging from stream processing, through to event sourcing and communication between loosely-coupled microservices. To most developers the technology is tangential to the business they work in, and is often disregarded with much hand waving as \u201cjust a pipe\u201d for message distribution. Without a clear understanding of their capabilities and underlying design decisions, we imagine myths about how these systems \u201cshould\u201d work and are frustrated in production by behaviours emerging from their design trade-offs.\n\nIn this session you will learn how to think about messaging as we compare and contrast the approaches taken by two similar but fundamentally different messaging platforms \u2013 Apache ActiveMQ and Apache Kafka. We will discuss how their underlying philosophies impact message distribution, reliability, scalability, and performance.\n\nAlong the way we will dip into how IOPS, latency and bandwidth affect throughput, why messaging systems do not play nicely with containers, and the unicorn of once-and-only-once delivery in distributed systems.",
-  "recorded": "2016-06-08",
-  "speakers": ["jakub-korab"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/Ie3--CSpCGs/hqdefault.jpg",
-  "title": "The Myth of the Magical Messaging Fabric",
-  "videos": [
-    {
-      "code": "Ie3--CSpCGs",
-      "type": "youtube"
-    }
-  ]
+    "description": "Messaging systems underpin architectures ranging from stream processing, through to event sourcing and communication between loosely-coupled microservices. To most developers the technology is tangential to the business they work in, and is often disregarded with much hand waving as \u201cjust a pipe\u201d for message distribution. Without a clear understanding of their capabilities and underlying design decisions, we imagine myths about how these systems \u201cshould\u201d work and are frustrated in production by behaviours emerging from their design trade-offs.\n\nIn this session you will learn how to think about messaging as we compare and contrast the approaches taken by two similar but fundamentally different messaging platforms \u2013 Apache ActiveMQ and Apache Kafka. We will discuss how their underlying philosophies impact message distribution, reliability, scalability, and performance.\n\nAlong the way we will dip into how IOPS, latency and bandwidth affect throughput, why messaging systems do not play nicely with containers, and the unicorn of once-and-only-once delivery in distributed systems.",
+    "recorded": "2016-06-08",
+    "speakers": [
+        "jakub-korab"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/Ie3--CSpCGs/hqdefault.jpg",
+    "title": "The Myth of the Magical Messaging Fabric",
+    "videos": [
+        {
+            "code": "Ie3--CSpCGs",
+            "type": "youtube"
+        }
+    ]
 }

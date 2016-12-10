@@ -1,14 +1,14 @@
 {
-  "description": "Introducing Spectrum (github.com/arohner/spectrum), a static \u201ctyping\u201d library that statically checks clojure code using standard clojure.spec annotations. While still early, spectrum is theoretically sound and can type-check itself. In this talk we\u2019ll cover how spectrum is implemented and why you\u2019d want to do such a thing. We\u2019ll discuss the tradeoffs of static typing vs. clojure.spec in a pragmatic, dogma-free environment.",
-  "recorded": "2016-12-01",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/hzV7dFYmbAs/hqdefault.jpg",
-  "title": "Spectrum, a library for statically \"typing\" clojure.spec - Allen Rohner",
-  "videos": [
-    {
-      "code": "hzV7dFYmbAs",
-      "type": "youtube"
-    }
-  ]
+    "description": "Introducing Spectrum (github.com/arohner/spectrum), a static \u201ctyping\u201d library that statically checks clojure code using standard clojure.spec annotations. While still early, spectrum is theoretically sound and can type-check itself. In this talk we\u2019ll cover how spectrum is implemented and why you\u2019d want to do such a thing. We\u2019ll discuss the tradeoffs of static typing vs. clojure.spec in a pragmatic, dogma-free environment.",
+    "recorded": "2016-12-01",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/hzV7dFYmbAs/hqdefault.jpg",
+    "title": "Spectrum, a library for statically \"typing\" clojure.spec - Allen Rohner",
+    "videos": [
+        {
+            "code": "hzV7dFYmbAs",
+            "type": "youtube"
+        }
+    ]
 }

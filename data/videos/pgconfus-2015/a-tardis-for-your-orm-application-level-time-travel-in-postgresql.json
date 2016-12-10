@@ -1,14 +1,14 @@
 {
-  "description": "Check out http://www.pgconf.us/2015/event/60/ for the full talk details.\n\nWhat do you do when your requirements say you need to be able to reproduce the exact same results that a query did sometime in the past? Including to be able to reproduce incorrect statistics on data that has since been corrected? And being able to reproduce exactly which rows were returned by a query in the past?\n\nWell, you do like any time lord would do - break out the TARDIS. Or maybe just use PostgreSQL..\n\nThis talk will outline a technique to use some PostgreSQL features, including range types and exclusion contraints/indexes, to trick an ORM application to work with transparent time travel, with the goal of close to zero modifications to the application, while maintaining consistency.\n\nAbout the Speaker\nMagnus Hagander is a member of the PostgreSQL Core Team and a developer and code committer in the PostgreSQL Global Development Group.\n\nThese days, Magnus mostly works on other parts of the PostgreSQL backend, recently with a focus on security features, monitoring and backup/replication interfaces and tools.\n\nHe is also one of the core members of the postgresql.org infrastructure team, maintaining the servers that power the project, and one of the maintainers of the postgresql.org website. He also contributes to pgAdmin and other related projects.\n\nHe's been a PostgreSQL user since version 6 (with some non-serious use of Postgres 95 before that), and currently serves on the Core Team and as President of the Board for PostgreSQL Europe.\n\nTo pay the bills, he is a PostgreSQL and open source software consultant at Redpill Linpro in Stockholm, Sweden, where he works on consulting, support and training services, as well as custom development work.",
-  "recorded": "2015-03-25",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/TRgni5q0YM8/hqdefault.jpg",
-  "title": "A TARDIS for your ORM - application level time travel in PostgreSQL",
-  "videos": [
-    {
-      "code": "TRgni5q0YM8",
-      "type": "youtube"
-    }
-  ]
+    "description": "Check out http://www.pgconf.us/2015/event/60/ for the full talk details.\n\nWhat do you do when your requirements say you need to be able to reproduce the exact same results that a query did sometime in the past? Including to be able to reproduce incorrect statistics on data that has since been corrected? And being able to reproduce exactly which rows were returned by a query in the past?\n\nWell, you do like any time lord would do - break out the TARDIS. Or maybe just use PostgreSQL..\n\nThis talk will outline a technique to use some PostgreSQL features, including range types and exclusion contraints/indexes, to trick an ORM application to work with transparent time travel, with the goal of close to zero modifications to the application, while maintaining consistency.\n\nAbout the Speaker\nMagnus Hagander is a member of the PostgreSQL Core Team and a developer and code committer in the PostgreSQL Global Development Group.\n\nThese days, Magnus mostly works on other parts of the PostgreSQL backend, recently with a focus on security features, monitoring and backup/replication interfaces and tools.\n\nHe is also one of the core members of the postgresql.org infrastructure team, maintaining the servers that power the project, and one of the maintainers of the postgresql.org website. He also contributes to pgAdmin and other related projects.\n\nHe's been a PostgreSQL user since version 6 (with some non-serious use of Postgres 95 before that), and currently serves on the Core Team and as President of the Board for PostgreSQL Europe.\n\nTo pay the bills, he is a PostgreSQL and open source software consultant at Redpill Linpro in Stockholm, Sweden, where he works on consulting, support and training services, as well as custom development work.",
+    "recorded": "2015-03-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/TRgni5q0YM8/hqdefault.jpg",
+    "title": "A TARDIS for your ORM - application level time travel in PostgreSQL",
+    "videos": [
+        {
+            "code": "TRgni5q0YM8",
+            "type": "youtube"
+        }
+    ]
 }

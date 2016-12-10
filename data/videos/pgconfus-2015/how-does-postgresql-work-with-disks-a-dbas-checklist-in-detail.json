@@ -1,14 +1,14 @@
 {
-  "description": "Check out http://www.pgconf.us/2015/event/82/ for the full talk details.\n\nPostgreSQL like any other classical database interacts with disks heavily and has dozens of disk-related settings. In order to keep an instance up and running under even moderate workloads, an average DBA needs to dig through PostgreSQL documentation, operating system documentation, hardware vendor manuals, a few books, plenty of blog posts, [HACKERS] and [PERFORM] mail lists archive and finally gain a couple years of experience. \n\nThis talk will guide DBAs through a checklist, that allows to maximize the disk performance of a PostgreSQL installations. I will concisely summarize typical DBA tasks on four levels: choosing and setting up hardware, operating system configuration, file system mounting with proper options, and PostgreSQL tuning itself. The talk will include but is not limited to such important topics as monitoring I/O-related metrics, checkpoint tuning, autovacuum tuning. \n\nAbout the Speaker\nIlya is a co-founder and DBA at PostgreSQL-Consulting.com. His previous experience encompasses such commercial databases as Oracle and DB2. Currently, Ilya works primarily with PostgreSQL with a focus on its performance and effective use in production. He sees the mission of PostgreSQL in substituting the commercial databases in high-performance mission-critical applications.",
-  "recorded": "2015-03-25",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/Lbx-JVcGIFo/hqdefault.jpg",
-  "title": "How does PostgreSQL work with disks: a DBA\u2019s checklist in detail",
-  "videos": [
-    {
-      "code": "Lbx-JVcGIFo",
-      "type": "youtube"
-    }
-  ]
+    "description": "Check out http://www.pgconf.us/2015/event/82/ for the full talk details.\n\nPostgreSQL like any other classical database interacts with disks heavily and has dozens of disk-related settings. In order to keep an instance up and running under even moderate workloads, an average DBA needs to dig through PostgreSQL documentation, operating system documentation, hardware vendor manuals, a few books, plenty of blog posts, [HACKERS] and [PERFORM] mail lists archive and finally gain a couple years of experience. \n\nThis talk will guide DBAs through a checklist, that allows to maximize the disk performance of a PostgreSQL installations. I will concisely summarize typical DBA tasks on four levels: choosing and setting up hardware, operating system configuration, file system mounting with proper options, and PostgreSQL tuning itself. The talk will include but is not limited to such important topics as monitoring I/O-related metrics, checkpoint tuning, autovacuum tuning. \n\nAbout the Speaker\nIlya is a co-founder and DBA at PostgreSQL-Consulting.com. His previous experience encompasses such commercial databases as Oracle and DB2. Currently, Ilya works primarily with PostgreSQL with a focus on its performance and effective use in production. He sees the mission of PostgreSQL in substituting the commercial databases in high-performance mission-critical applications.",
+    "recorded": "2015-03-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/Lbx-JVcGIFo/hqdefault.jpg",
+    "title": "How does PostgreSQL work with disks: a DBA\u2019s checklist in detail",
+    "videos": [
+        {
+            "code": "Lbx-JVcGIFo",
+            "type": "youtube"
+        }
+    ]
 }

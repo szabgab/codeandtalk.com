@@ -1,14 +1,14 @@
 {
-  "description": "When you talk to most people about Rails performance the conversation usually turns to concurrency. How can my Rails app handle 60 simultanious requests per second? How do I webscale?\n\nAlthough the topic of concurrency is important, we won't be focusing on that during this talk. We want to focus on end user speed.\n\nFor every extra second your application takes to load your conversion rates will drop by an average of 7%. While most people start tweaking their backends to squeeze every extra ms in response time, more often than not (80-90%) of the actual time spent loading your application is on the front end and the network stack. This is where you should start.\n\nWe will cover a range of techniques and provide benchmarks along the way to show how much performance you can expect from each step along the way. We'll also cover some backend performance tuning as well.\n\nHere's some of the topics we'll cover:\n\nHow to accurately benchmark performance\nAsyncronously loading assets\nReducing requests per page\nRails http streaming (chunked responses)\nBasic caching\nWhat is SPDY - and how to use it\nWhat CDN is right for your app?\nServer location and why it matters",
-  "recorded": "2014-03-22",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/81mmNwdZOBo/hqdefault.jpg",
-  "title": "Keith and Mario's Guide to Fast Websites - Mario Visic",
-  "videos": [
-    {
-      "code": "81mmNwdZOBo",
-      "type": "youtube"
-    }
-  ]
+    "description": "When you talk to most people about Rails performance the conversation usually turns to concurrency. How can my Rails app handle 60 simultanious requests per second? How do I webscale?\n\nAlthough the topic of concurrency is important, we won't be focusing on that during this talk. We want to focus on end user speed.\n\nFor every extra second your application takes to load your conversion rates will drop by an average of 7%. While most people start tweaking their backends to squeeze every extra ms in response time, more often than not (80-90%) of the actual time spent loading your application is on the front end and the network stack. This is where you should start.\n\nWe will cover a range of techniques and provide benchmarks along the way to show how much performance you can expect from each step along the way. We'll also cover some backend performance tuning as well.\n\nHere's some of the topics we'll cover:\n\nHow to accurately benchmark performance\nAsyncronously loading assets\nReducing requests per page\nRails http streaming (chunked responses)\nBasic caching\nWhat is SPDY - and how to use it\nWhat CDN is right for your app?\nServer location and why it matters",
+    "recorded": "2014-03-22",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/81mmNwdZOBo/hqdefault.jpg",
+    "title": "Keith and Mario's Guide to Fast Websites - Mario Visic",
+    "videos": [
+        {
+            "code": "81mmNwdZOBo",
+            "type": "youtube"
+        }
+    ]
 }

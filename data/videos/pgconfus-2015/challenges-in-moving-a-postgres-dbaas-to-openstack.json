@@ -1,14 +1,14 @@
 {
-  "description": "Check out http://www.pgconf.us/2015/event/61/ for the full talk details.\n\nEnterpriseDB recently ported Postgres Plus Cloud Database to community OpenStack after having hosted the Cloud Database only on Amazon AWS. This presentation will describe the challenges that were encountered during this effort, including:\n\n\u2022 Implement the OpenStack tenant governance model to supplement the cross-account Policy and role model used in Amazon AWS\n\u2022 support both the Amazon and OpenStack networking approaches under an abstraction layer, while allowing different terminology and functionality to be present in the user interface\n\u2022 Change the database provisioning model from Amazon AMIs to Linux RPM-based provisioning and configuration\n\nAbout the Speaker\nFred is the product manager for EnterpriseDB's Postgres Plus Cloud Database. A technologist with over 25 years of experience with Enterprise computing infrastructure, storage technology, business process analysis, eCommerce, and electronic publishing experience, Fred started as a software developer and architect. Fred has also held management, marketing, and professional services roles at PerotSystems, Red Hat, the Gilbane Group, the Open Software Foundation, Bell Laboratories, and many startups. Fred's current passions include Cloud technologies, information findability and interoperability, open source, and agile development. Fred holds BA and MS degrees in Computer Science and a BA in Philosophy.\n\n--\nDave Page has been actively involved in the PostgreSQL Project since 1998, as the lead developer of pgAdmin, maintainer of the PostgreSQL installers and one of the projects resident Windows hackers. He also serves on the project's web and sysadmin teams and is a member of the PostgreSQL Core Team.\n\nDave is employed by EnterpriseDB where he works as Chief Software Architect, Tools & Installers and developer on EnterpriseDB products in addition to his community PostgreSQL work.",
-  "recorded": "2015-03-25",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/QOJE0Zy0gsc/hqdefault.jpg",
-  "title": "Challenges in Moving a Postgres DBaaS to OpenStack",
-  "videos": [
-    {
-      "code": "QOJE0Zy0gsc",
-      "type": "youtube"
-    }
-  ]
+    "description": "Check out http://www.pgconf.us/2015/event/61/ for the full talk details.\n\nEnterpriseDB recently ported Postgres Plus Cloud Database to community OpenStack after having hosted the Cloud Database only on Amazon AWS. This presentation will describe the challenges that were encountered during this effort, including:\n\n\u2022 Implement the OpenStack tenant governance model to supplement the cross-account Policy and role model used in Amazon AWS\n\u2022 support both the Amazon and OpenStack networking approaches under an abstraction layer, while allowing different terminology and functionality to be present in the user interface\n\u2022 Change the database provisioning model from Amazon AMIs to Linux RPM-based provisioning and configuration\n\nAbout the Speaker\nFred is the product manager for EnterpriseDB's Postgres Plus Cloud Database. A technologist with over 25 years of experience with Enterprise computing infrastructure, storage technology, business process analysis, eCommerce, and electronic publishing experience, Fred started as a software developer and architect. Fred has also held management, marketing, and professional services roles at PerotSystems, Red Hat, the Gilbane Group, the Open Software Foundation, Bell Laboratories, and many startups. Fred's current passions include Cloud technologies, information findability and interoperability, open source, and agile development. Fred holds BA and MS degrees in Computer Science and a BA in Philosophy.\n\n--\nDave Page has been actively involved in the PostgreSQL Project since 1998, as the lead developer of pgAdmin, maintainer of the PostgreSQL installers and one of the projects resident Windows hackers. He also serves on the project's web and sysadmin teams and is a member of the PostgreSQL Core Team.\n\nDave is employed by EnterpriseDB where he works as Chief Software Architect, Tools & Installers and developer on EnterpriseDB products in addition to his community PostgreSQL work.",
+    "recorded": "2015-03-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/QOJE0Zy0gsc/hqdefault.jpg",
+    "title": "Challenges in Moving a Postgres DBaaS to OpenStack",
+    "videos": [
+        {
+            "code": "QOJE0Zy0gsc",
+            "type": "youtube"
+        }
+    ]
 }

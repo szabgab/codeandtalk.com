@@ -1,14 +1,14 @@
 {
-  "description": "DrupalSouth Gold Coast 2016\nhttps://goldcoast2016.drupal.org.au/\n\nContent as code: Ditching the canonical database\nRoom: Doghouse Agency (Level 2)\nFri, 28-Oct, 10:30\nIntermediate - Building\nAdam Bramley\n\nHave you ever wanted to deploy a whole site entirely from a git repository? What about a whole environment?\n\nDrupal has traditionally had a very hard time getting its hands around a solid content deployment strategy. Because of this, the traditional approach to authoring content is to do everything in the live website, and keep backups of the database. That creates a hard dependency on the canonical database and can make it challenging to automate deployments of new environments, in turn it makes scaling cloud infrastructure a nightmare.\n\nWith Drupal 8 and CMI, config deployments are now a lot more painless, but what about content?\n\nIn this session I'll take you through our platform architecture from the ground up and how we are solving one of the hardest challenges there is in a Drupal project: Deploying content through multiple environments safely and effectively.\n\nI will also give you a high-level overview of how we use automation through BitBucket, Jenkins, and AWS to deliver a completely automated, highly available environment derived almost entirely from Git. Following that, I'll let you know the gotchas and pain points we had during the project's life-cycle and our plan for future developments.\n\nhttps://goldcoast2016.drupal.org.au/session/content-code-ditching-canonical-database",
-  "recorded": "2016-10-26",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/-AVRCHR4eXs/hqdefault.jpg",
-  "title": "Session: \"Content as code: Ditching the canonical database\" by Adam Bramley",
-  "videos": [
-    {
-      "code": "-AVRCHR4eXs",
-      "type": "youtube"
-    }
-  ]
+    "description": "DrupalSouth Gold Coast 2016\nhttps://goldcoast2016.drupal.org.au/\n\nContent as code: Ditching the canonical database\nRoom: Doghouse Agency (Level 2)\nFri, 28-Oct, 10:30\nIntermediate - Building\nAdam Bramley\n\nHave you ever wanted to deploy a whole site entirely from a git repository? What about a whole environment?\n\nDrupal has traditionally had a very hard time getting its hands around a solid content deployment strategy. Because of this, the traditional approach to authoring content is to do everything in the live website, and keep backups of the database. That creates a hard dependency on the canonical database and can make it challenging to automate deployments of new environments, in turn it makes scaling cloud infrastructure a nightmare.\n\nWith Drupal 8 and CMI, config deployments are now a lot more painless, but what about content?\n\nIn this session I'll take you through our platform architecture from the ground up and how we are solving one of the hardest challenges there is in a Drupal project: Deploying content through multiple environments safely and effectively.\n\nI will also give you a high-level overview of how we use automation through BitBucket, Jenkins, and AWS to deliver a completely automated, highly available environment derived almost entirely from Git. Following that, I'll let you know the gotchas and pain points we had during the project's life-cycle and our plan for future developments.\n\nhttps://goldcoast2016.drupal.org.au/session/content-code-ditching-canonical-database",
+    "recorded": "2016-10-26",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/-AVRCHR4eXs/hqdefault.jpg",
+    "title": "Session: \"Content as code: Ditching the canonical database\" by Adam Bramley",
+    "videos": [
+        {
+            "code": "-AVRCHR4eXs",
+            "type": "youtube"
+        }
+    ]
 }

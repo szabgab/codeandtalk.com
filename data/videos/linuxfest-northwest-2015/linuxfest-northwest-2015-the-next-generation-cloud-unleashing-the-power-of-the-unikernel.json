@@ -1,14 +1,14 @@
 {
-  "description": "Russell Pavlicek\n\nSlides: http://linuxfestnorthwest.org/sites/default/files/slides/Generic-Rise%20of%20the%20Unikernel.odp\n\nDocker has sparked much excitement over the concept of small, easily deployable VMs. But unikernels create even smaller VMs with much higher security than container-based solutions. The next generation cloud can leverage unikernels to do more in a smaller footprint while actually increasing overall security.\n\nMuch excitement has surrounded the rise of Docker and similar Linux Container technologies. The promise of small, portable software deployment packages has stimulated the minds of many in our industry.\n\nHowever, few people have yet recognized the arrival of an even more promising technology: the birth of the unikernel. Like container-based solutions, unikernels fulfill the promise of easy deployment. But unikernels deliver much more, including an extremely tiny footprint and a major improvement in security. As a result, the next generation cloud can have thousands of small VMs per host, saving considerable cost in hardware, electricity, and cooling, while reducing the attack surface of malicious hackers.\n\nXen Project has been at the forefront of unikernel development with its incubator project Mirage OS, but it also supports a number of other unikernels, including OSv, HaLVM, ClickOS, and LING (formerly known as \u201cErlang on Xen\u201d).\n\nWe will discuss the basics of the unikernel concept and how it will shape the future architecture of the cloud.",
-  "recorded": "2015-04-25",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/nHr_EmI4u8E/hqdefault.jpg",
-  "title": "LinuxFest Northwest 2015: The Next Generation Cloud: Unleashing the Power of the Unikernel",
-  "videos": [
-    {
-      "code": "nHr_EmI4u8E",
-      "type": "youtube"
-    }
-  ]
+    "description": "Russell Pavlicek\n\nSlides: http://linuxfestnorthwest.org/sites/default/files/slides/Generic-Rise%20of%20the%20Unikernel.odp\n\nDocker has sparked much excitement over the concept of small, easily deployable VMs. But unikernels create even smaller VMs with much higher security than container-based solutions. The next generation cloud can leverage unikernels to do more in a smaller footprint while actually increasing overall security.\n\nMuch excitement has surrounded the rise of Docker and similar Linux Container technologies. The promise of small, portable software deployment packages has stimulated the minds of many in our industry.\n\nHowever, few people have yet recognized the arrival of an even more promising technology: the birth of the unikernel. Like container-based solutions, unikernels fulfill the promise of easy deployment. But unikernels deliver much more, including an extremely tiny footprint and a major improvement in security. As a result, the next generation cloud can have thousands of small VMs per host, saving considerable cost in hardware, electricity, and cooling, while reducing the attack surface of malicious hackers.\n\nXen Project has been at the forefront of unikernel development with its incubator project Mirage OS, but it also supports a number of other unikernels, including OSv, HaLVM, ClickOS, and LING (formerly known as \u201cErlang on Xen\u201d).\n\nWe will discuss the basics of the unikernel concept and how it will shape the future architecture of the cloud.",
+    "recorded": "2015-04-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/nHr_EmI4u8E/hqdefault.jpg",
+    "title": "LinuxFest Northwest 2015: The Next Generation Cloud: Unleashing the Power of the Unikernel",
+    "videos": [
+        {
+            "code": "nHr_EmI4u8E",
+            "type": "youtube"
+        }
+    ]
 }

@@ -1,14 +1,14 @@
 {
-  "description": "Check out http://www.pgconf.us/2015/event/88/ for the full talk details.\n\nDisaster recovery is perhaps the most ignored aspect of managing PostgreSQL in production systems, and its value is only realized in a moment of crisis. If not done right, absence of backup and recovery strategies can make one repent for days, if not months after. Even when catered to, majority of production systems only have at most one defined backup and recovery strategy, not realizing the benefits of using a hybrid solution or a combination of multiple types of backups and recovery approaches. Contrary to common perception of treating disaster management as a one model fits all philosophy, emphasis should be given on how various types of backups have been optimized for specific kinds of disaster scenarios.\n\nAbout the Speaker\nWorking as DBA at OmniTI since June 2013. Had previously interned here in 2012 and was introduced to the beautiful world of PostgreSQL. \nCS Master's student at University of Maryland, Baltimore County. \nDid my B.E in CS at Panjab University, India.",
-  "recorded": "2015-03-25",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/9ceRXMqPyJQ/hqdefault.jpg",
-  "title": "Think Your Postgres Backups And Disaster Recovery Are Safe? Let's talk.",
-  "videos": [
-    {
-      "code": "9ceRXMqPyJQ",
-      "type": "youtube"
-    }
-  ]
+    "description": "Check out http://www.pgconf.us/2015/event/88/ for the full talk details.\n\nDisaster recovery is perhaps the most ignored aspect of managing PostgreSQL in production systems, and its value is only realized in a moment of crisis. If not done right, absence of backup and recovery strategies can make one repent for days, if not months after. Even when catered to, majority of production systems only have at most one defined backup and recovery strategy, not realizing the benefits of using a hybrid solution or a combination of multiple types of backups and recovery approaches. Contrary to common perception of treating disaster management as a one model fits all philosophy, emphasis should be given on how various types of backups have been optimized for specific kinds of disaster scenarios.\n\nAbout the Speaker\nWorking as DBA at OmniTI since June 2013. Had previously interned here in 2012 and was introduced to the beautiful world of PostgreSQL. \nCS Master's student at University of Maryland, Baltimore County. \nDid my B.E in CS at Panjab University, India.",
+    "recorded": "2015-03-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/9ceRXMqPyJQ/hqdefault.jpg",
+    "title": "Think Your Postgres Backups And Disaster Recovery Are Safe? Let's talk.",
+    "videos": [
+        {
+            "code": "9ceRXMqPyJQ",
+            "type": "youtube"
+        }
+    ]
 }

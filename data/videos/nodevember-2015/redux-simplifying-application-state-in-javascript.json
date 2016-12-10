@@ -1,14 +1,14 @@
 {
-  "description": "Tim Griesser \n\nAs JavaScript applications increase in complexity, consistent patterns for managing state becomes considerably more important, and difficult to achieve without good patterns.\n\nRedux is a library which provides a \"Predictable state container for JavaScript apps\". Utilizing proven patterns from more functional languages, Redux is a framework agnostic library which combines convention with functional approaches. In this talk we will take a look at Redux, Redux middleware, and how it can be used to track data flow and state changing over time, producing applications which are easier to develop and debug. \n\nWe will also take a look at some of the similarities and differences of Redux vs. other libraries, frameworks, and tradeoffs that exist compared to existing approaches to solving these problems.",
-  "recorded": "2015-11-14",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/okdC5gcD-dM/hqdefault.jpg",
-  "title": "Redux: Simplifying Application State in JavaScript",
-  "videos": [
-    {
-      "code": "okdC5gcD-dM",
-      "type": "youtube"
-    }
-  ]
+    "description": "Tim Griesser \n\nAs JavaScript applications increase in complexity, consistent patterns for managing state becomes considerably more important, and difficult to achieve without good patterns.\n\nRedux is a library which provides a \"Predictable state container for JavaScript apps\". Utilizing proven patterns from more functional languages, Redux is a framework agnostic library which combines convention with functional approaches. In this talk we will take a look at Redux, Redux middleware, and how it can be used to track data flow and state changing over time, producing applications which are easier to develop and debug. \n\nWe will also take a look at some of the similarities and differences of Redux vs. other libraries, frameworks, and tradeoffs that exist compared to existing approaches to solving these problems.",
+    "recorded": "2015-11-14",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/okdC5gcD-dM/hqdefault.jpg",
+    "title": "Redux: Simplifying Application State in JavaScript",
+    "videos": [
+        {
+            "code": "okdC5gcD-dM",
+            "type": "youtube"
+        }
+    ]
 }

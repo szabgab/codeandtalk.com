@@ -1,14 +1,16 @@
 {
-  "description": "First, you automated your build. Then your build grew out of control, so you decided to split it into modules that trigger each other as needed. Now you have a large chain of builds, each of them taking a short amount of time (brilliant!), but each time you commit you don't just build one thing, you build and rebuild so many modules that it, again, takes for ever to clear up every time you commit a change. In this talk I'll show you what information you need to gather from your CI/CD pipeline, and how you can gather such information, in order to re-shape the architecture of your systems so as to optimise your build time.",
-  "recorded": "2016-06-08",
-  "speakers": ["abraham-marin-perez"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/8JxoKJng_eQ/hqdefault.jpg",
-  "title": "Keeping Your CI/CD pipeline as fast as it needs to be",
-  "videos": [
-    {
-      "code": "8JxoKJng_eQ",
-      "type": "youtube"
-    }
-  ]
+    "description": "First, you automated your build. Then your build grew out of control, so you decided to split it into modules that trigger each other as needed. Now you have a large chain of builds, each of them taking a short amount of time (brilliant!), but each time you commit you don't just build one thing, you build and rebuild so many modules that it, again, takes for ever to clear up every time you commit a change. In this talk I'll show you what information you need to gather from your CI/CD pipeline, and how you can gather such information, in order to re-shape the architecture of your systems so as to optimise your build time.",
+    "recorded": "2016-06-08",
+    "speakers": [
+        "abraham-marin-perez"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/8JxoKJng_eQ/hqdefault.jpg",
+    "title": "Keeping Your CI/CD pipeline as fast as it needs to be",
+    "videos": [
+        {
+            "code": "8JxoKJng_eQ",
+            "type": "youtube"
+        }
+    ]
 }

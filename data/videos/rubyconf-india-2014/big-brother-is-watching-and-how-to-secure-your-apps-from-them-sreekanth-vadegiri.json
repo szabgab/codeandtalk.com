@@ -1,14 +1,14 @@
 {
-  "description": "The revelations of Edward snowden has shown how deep the states are\nstooping to get hold of your data, People who did not care how your\ndata is stored online in your Saas applications are now asking\nquestions, and tough ones.\nThe talk will be about what to do to protect your data from Govt and\nin that make the application less easy to hack for other people as well.\n\nThe structure of the talk is following\n\nHow the current default rails setup on the cloud is not enough.\nWhy is it important?\nHow to secure the shell of the application\nWhy just securing the shell of the application\nAuditing things that might be leaking information that other people\nMysql databases/ Third part calls/ Insecure gems/ Insecure filesystems\nInfrastructure choices. Where to host, what to look for in hosting providers.\nHow to implement a system that provides a push button secure me plan.\nCaveats and Fine print.\nWhat this is not\n\nI am not talking about making the application hack proof( there will be some authentication security stuff)\nI am not talking about running a security audit of the application( there will some of the how to audit bit)\nI am not talking about cryptography and Security fundamentals",
-  "recorded": "2014-03-22",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/6IMdbs0JZt4/hqdefault.jpg",
-  "title": "Big brother is watching and how to secure your apps from them - Sreekanth Vadegiri",
-  "videos": [
-    {
-      "code": "6IMdbs0JZt4",
-      "type": "youtube"
-    }
-  ]
+    "description": "The revelations of Edward snowden has shown how deep the states are\nstooping to get hold of your data, People who did not care how your\ndata is stored online in your Saas applications are now asking\nquestions, and tough ones.\nThe talk will be about what to do to protect your data from Govt and\nin that make the application less easy to hack for other people as well.\n\nThe structure of the talk is following\n\nHow the current default rails setup on the cloud is not enough.\nWhy is it important?\nHow to secure the shell of the application\nWhy just securing the shell of the application\nAuditing things that might be leaking information that other people\nMysql databases/ Third part calls/ Insecure gems/ Insecure filesystems\nInfrastructure choices. Where to host, what to look for in hosting providers.\nHow to implement a system that provides a push button secure me plan.\nCaveats and Fine print.\nWhat this is not\n\nI am not talking about making the application hack proof( there will be some authentication security stuff)\nI am not talking about running a security audit of the application( there will some of the how to audit bit)\nI am not talking about cryptography and Security fundamentals",
+    "recorded": "2014-03-22",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/6IMdbs0JZt4/hqdefault.jpg",
+    "title": "Big brother is watching and how to secure your apps from them - Sreekanth Vadegiri",
+    "videos": [
+        {
+            "code": "6IMdbs0JZt4",
+            "type": "youtube"
+        }
+    ]
 }

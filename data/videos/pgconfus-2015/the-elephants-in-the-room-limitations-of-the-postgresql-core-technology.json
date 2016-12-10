@@ -1,14 +1,14 @@
 {
-  "description": "Check out http://www.pgconf.us/2015/event/85/ for the full talk details.\n\nThe core architecture of PostgreSQL is significantly different from that of competing products like Oracle, SQL Server, or MySQL, which also differ from each other. Some of PostgreSQL's distinctive features, such as our highly extensible systems for adding new data types and new foreign data wrappers, have been tremendously successful in propelling PostgreSQL forward. Others, such as our storage format and limited replication capabilities, have significantly impeded the adoption of PostgreSQL.\n\nIn this talk, I'll discuss some of the core architectural problems that I believe limit our success, based on my experiences working with EnterpriseDB customers, and will suggest some ways in which I believe the PostgreSQL architecture can evolve to meet those challenges.\n\nAbout the Speaker\nRobert has been involved in the PostgreSQL project since 2008, first as a patch reviewer and committer and a later as a major developer. Prior to that, he was a PostgreSQL application developer for nearly ten years. Features he has worked on include infrastructure for parallelism (for 9.4), the replacement of System V shared memory with anonymous shared memory (for 9.3), read and write scalability improvements (for 9.2), index-only scans (with Heikki Linnakangas and Ibrar Ahmed, for 9.2), unlogged tables (for 9.1), and left join removal (for 9.0). He works at EnterpriseDB as Chief Database Architect for the Database Server.",
-  "recorded": "2015-03-25",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/zsF1vfHBMBI/hqdefault.jpg",
-  "title": "The Elephants In The Room: Limitations of the PostgreSQL Core Technology",
-  "videos": [
-    {
-      "code": "zsF1vfHBMBI",
-      "type": "youtube"
-    }
-  ]
+    "description": "Check out http://www.pgconf.us/2015/event/85/ for the full talk details.\n\nThe core architecture of PostgreSQL is significantly different from that of competing products like Oracle, SQL Server, or MySQL, which also differ from each other. Some of PostgreSQL's distinctive features, such as our highly extensible systems for adding new data types and new foreign data wrappers, have been tremendously successful in propelling PostgreSQL forward. Others, such as our storage format and limited replication capabilities, have significantly impeded the adoption of PostgreSQL.\n\nIn this talk, I'll discuss some of the core architectural problems that I believe limit our success, based on my experiences working with EnterpriseDB customers, and will suggest some ways in which I believe the PostgreSQL architecture can evolve to meet those challenges.\n\nAbout the Speaker\nRobert has been involved in the PostgreSQL project since 2008, first as a patch reviewer and committer and a later as a major developer. Prior to that, he was a PostgreSQL application developer for nearly ten years. Features he has worked on include infrastructure for parallelism (for 9.4), the replacement of System V shared memory with anonymous shared memory (for 9.3), read and write scalability improvements (for 9.2), index-only scans (with Heikki Linnakangas and Ibrar Ahmed, for 9.2), unlogged tables (for 9.1), and left join removal (for 9.0). He works at EnterpriseDB as Chief Database Architect for the Database Server.",
+    "recorded": "2015-03-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/zsF1vfHBMBI/hqdefault.jpg",
+    "title": "The Elephants In The Room: Limitations of the PostgreSQL Core Technology",
+    "videos": [
+        {
+            "code": "zsF1vfHBMBI",
+            "type": "youtube"
+        }
+    ]
 }

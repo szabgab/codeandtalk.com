@@ -1,14 +1,14 @@
 {
-  "description": "Graph Databases are naturally well-suited for building recommendation engines. In this talk, Christophe will share his experience building a number of production-ready recommendation engines using Neo4j and introduce the open-source GraphAware Reco4PHP Library, which enables PHP developers to rapidly build their own recommender systems.\n\nThis presentation starts by a brief explanation of why graphs are a suitable data model for building recommender systems. A summary of typical recommendation engine requirements follows, including the business and technical challenges these requirements introduce. Afterwards, the talk dives into possible solutions of these challenges, both from business and architectural/design perspectives, and introduces the GraphAware Reco4PHP Library.\n\nWhat follows is a demonstration of how this open-source recommendation engine skeleton solves many of the issues and how it handles the \"plumbing\", so that developers can focus on expressing the business logic specific to their domain.\n\nA majority of examples in this talk are drawn from real-world use cases and the speaker's personal experience building recommendation engines. Attendees should have a very basic understanding of graph theory. Prior experience with Neo4j and the Cypher query language is a plus, but not necessary.",
-  "recorded": "2016-08-23",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/wSXYos7Jvsc/hqdefault.jpg",
-  "title": "Christophe Willemsen - Your own recomendation Engine with Neo4j AND Reco4PHP - Laracon EU 2016",
-  "videos": [
-    {
-      "code": "wSXYos7Jvsc",
-      "type": "youtube"
-    }
-  ]
+    "description": "Graph Databases are naturally well-suited for building recommendation engines. In this talk, Christophe will share his experience building a number of production-ready recommendation engines using Neo4j and introduce the open-source GraphAware Reco4PHP Library, which enables PHP developers to rapidly build their own recommender systems.\n\nThis presentation starts by a brief explanation of why graphs are a suitable data model for building recommender systems. A summary of typical recommendation engine requirements follows, including the business and technical challenges these requirements introduce. Afterwards, the talk dives into possible solutions of these challenges, both from business and architectural/design perspectives, and introduces the GraphAware Reco4PHP Library.\n\nWhat follows is a demonstration of how this open-source recommendation engine skeleton solves many of the issues and how it handles the \"plumbing\", so that developers can focus on expressing the business logic specific to their domain.\n\nA majority of examples in this talk are drawn from real-world use cases and the speaker's personal experience building recommendation engines. Attendees should have a very basic understanding of graph theory. Prior experience with Neo4j and the Cypher query language is a plus, but not necessary.",
+    "recorded": "2016-08-23",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/wSXYos7Jvsc/hqdefault.jpg",
+    "title": "Christophe Willemsen - Your own recomendation Engine with Neo4j AND Reco4PHP - Laracon EU 2016",
+    "videos": [
+        {
+            "code": "wSXYos7Jvsc",
+            "type": "youtube"
+        }
+    ]
 }

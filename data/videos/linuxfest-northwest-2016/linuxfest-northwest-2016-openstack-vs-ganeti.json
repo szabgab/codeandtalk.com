@@ -1,14 +1,14 @@
 {
-  "description": "OpenStack has gained a lot of prominence in the cloud ecosystem, but it can be a difficult platform to setup and maintain. Ganeti is software developed at Google which can be used to manage physical hardware in order to host virtualization workloads.\n\nThis presentation will cover the primary differences between the two platforms including a summary of how each are implemented and their history. This session will also discuss many of the pros and cons of each platform and best practices for both platforms.\n\nAt the OSU Open Source Lab, we have been long time users and promoters of Ganeti since 2009. It\u2019s enabled the lab to better serve its FOSS hosting activities in a stable yet easy to use manner. Over the past year we have been also building and using OpenStack clusters to fill other computing needs that Ganeti doesn\u2019t fill very well such as elastic computing needs.\n\nGaneti is software developed at Google which can be used to manage physical hardware in order to host virtualization workloads. Its not nearly as wide known as other VM platforms, mainly because their goal isn\u2019t to provide a cloud platform, but as an IaaS platform that\u2019s easy to use and maintain. Being a no-frills platform with no built-in web GUI interface, Ganeti is often overlooked. However its simplicity is one of its strengths and has been proven time and time again by system admins.\n\nGaneti is used worldwide, primarily by educational institutions and has been proven to be cheap and easy platform to use and maintain. The Ganeti architecture makes it easy to install, maintain, extend and use. Compared to other platforms, Ganeti is a great fit for medium to small organizations that need a simple virtualization cluster.",
-  "recorded": "2016-04-23",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/ww50iW313H4/hqdefault.jpg",
-  "title": "LinuxFest Northwest 2016: OpenStack vs. Ganeti",
-  "videos": [
-    {
-      "code": "ww50iW313H4",
-      "type": "youtube"
-    }
-  ]
+    "description": "OpenStack has gained a lot of prominence in the cloud ecosystem, but it can be a difficult platform to setup and maintain. Ganeti is software developed at Google which can be used to manage physical hardware in order to host virtualization workloads.\n\nThis presentation will cover the primary differences between the two platforms including a summary of how each are implemented and their history. This session will also discuss many of the pros and cons of each platform and best practices for both platforms.\n\nAt the OSU Open Source Lab, we have been long time users and promoters of Ganeti since 2009. It\u2019s enabled the lab to better serve its FOSS hosting activities in a stable yet easy to use manner. Over the past year we have been also building and using OpenStack clusters to fill other computing needs that Ganeti doesn\u2019t fill very well such as elastic computing needs.\n\nGaneti is software developed at Google which can be used to manage physical hardware in order to host virtualization workloads. Its not nearly as wide known as other VM platforms, mainly because their goal isn\u2019t to provide a cloud platform, but as an IaaS platform that\u2019s easy to use and maintain. Being a no-frills platform with no built-in web GUI interface, Ganeti is often overlooked. However its simplicity is one of its strengths and has been proven time and time again by system admins.\n\nGaneti is used worldwide, primarily by educational institutions and has been proven to be cheap and easy platform to use and maintain. The Ganeti architecture makes it easy to install, maintain, extend and use. Compared to other platforms, Ganeti is a great fit for medium to small organizations that need a simple virtualization cluster.",
+    "recorded": "2016-04-23",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/ww50iW313H4/hqdefault.jpg",
+    "title": "LinuxFest Northwest 2016: OpenStack vs. Ganeti",
+    "videos": [
+        {
+            "code": "ww50iW313H4",
+            "type": "youtube"
+        }
+    ]
 }

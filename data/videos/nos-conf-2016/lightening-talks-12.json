@@ -1,14 +1,14 @@
 {
-  "description": "DEVELOPING A COST-EFFECTIVE OPENFLOW RASPBERRY PI SWITCH TESTBED\nWe have implemented a cost-effective SDN testbed with OpenvSwitch, based on the RaspberryPi, which is a low cost embedded Linux machine.Each RaspberryPi has an on-board Ethernet Port, 2 USB to Ethernet ports are attached to each RaspberryPi in order to convert it into a 3 port SDN Switch. 6 such RaspberryPi Switches are connected together to create a testbed. This test bed is connected to a controller running on a separate a server.Ryu is being used as a controller for managing the control plane for the testbed. Ryu is a component-based software defined networking framework.OpenvSwitch is a software implementation of a virtual multilayer network switch. We have used Open vSwitch for implementing software switch on RaspberryPi. Here OVS is responsible for the data plane funcitonalities. Openflow protocol is used to communicate among the controller and switches. \n\n\nModule Based Operating Systems\nThe OS would not include any application with the traditional sense of the word. Instead, all it will support would be modules. The UI would be task-based and file-based at the same time. The way you access your work files is by a panel that includes all the mime types and depending which mime type you pick from the list, you can sort their resulted files found on your hard drive based on how much you are using them, recently modified, file size and more such criteria (sometimes, different criteria for files with different MIME types). \nPros:\n1) Natural multi threaded code, pretty responsive implementation by \ndesign.\n2) Adding new modules will be easy, downloading and installing via the \nweb, and each module will hardly be more than 20-100 KB \n(depending on what is for), so download times are not an issue at all \nand almost instant even for modem users.\n\nLinks:\nhttp://nosconf.github.io/",
-  "recorded": "2016-03-18",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/dAVvf6lh2tU/hqdefault.jpg",
-  "title": "Lightening Talks : 1/2",
-  "videos": [
-    {
-      "code": "dAVvf6lh2tU",
-      "type": "youtube"
-    }
-  ]
+    "description": "DEVELOPING A COST-EFFECTIVE OPENFLOW RASPBERRY PI SWITCH TESTBED\nWe have implemented a cost-effective SDN testbed with OpenvSwitch, based on the RaspberryPi, which is a low cost embedded Linux machine.Each RaspberryPi has an on-board Ethernet Port, 2 USB to Ethernet ports are attached to each RaspberryPi in order to convert it into a 3 port SDN Switch. 6 such RaspberryPi Switches are connected together to create a testbed. This test bed is connected to a controller running on a separate a server.Ryu is being used as a controller for managing the control plane for the testbed. Ryu is a component-based software defined networking framework.OpenvSwitch is a software implementation of a virtual multilayer network switch. We have used Open vSwitch for implementing software switch on RaspberryPi. Here OVS is responsible for the data plane funcitonalities. Openflow protocol is used to communicate among the controller and switches. \n\n\nModule Based Operating Systems\nThe OS would not include any application with the traditional sense of the word. Instead, all it will support would be modules. The UI would be task-based and file-based at the same time. The way you access your work files is by a panel that includes all the mime types and depending which mime type you pick from the list, you can sort their resulted files found on your hard drive based on how much you are using them, recently modified, file size and more such criteria (sometimes, different criteria for files with different MIME types). \nPros:\n1) Natural multi threaded code, pretty responsive implementation by \ndesign.\n2) Adding new modules will be easy, downloading and installing via the \nweb, and each module will hardly be more than 20-100 KB \n(depending on what is for), so download times are not an issue at all \nand almost instant even for modem users.\n\nLinks:\nhttp://nosconf.github.io/",
+    "recorded": "2016-03-18",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/dAVvf6lh2tU/hqdefault.jpg",
+    "title": "Lightening Talks : 1/2",
+    "videos": [
+        {
+            "code": "dAVvf6lh2tU",
+            "type": "youtube"
+        }
+    ]
 }

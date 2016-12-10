@@ -1,14 +1,14 @@
 {
-  "description": "This talk will use the seminal twelve-factor app essay as a guide to discuss the do\u2019s and dont\u2019s of building and running containers. Each factor gives us an opportunity to consider avoidable anti-patterns if you\u2019re using containers to deploy and manage repeatable, reliable, and portable services.\n\nContainers rose in popularity on an oft used metaphor: lightweight virtual machines. We have a robust understanding of the benefits of virtualized hardware as a method of efficient resource utilization. The idea of _even more efficient_ resource utilization makes sense. Unfortunately it\u2019s a problematic metaphor.\n\nContainers represent a constrained set of capabilities compared to virtual machines in order to make fine-grained guarantees about resource constraints and process isolation. This is a good thing. There is overlap in ideal capabilities between VMs and containers but it isn\u2019t complete. Newcomers to the container ecosystem begin with a \u201clightweight VM\u201d understanding and fall victim to specific anti-patterns.\n\nAfter this talk you\u2019ll understand common pitfalls in containerization and how you can avoid them. This discussion is useful for developers who wish to gain greater understanding of the environment their applications are deployed to, as well as operators interested in the benefits of containers for their architecture.",
-  "recorded": "2016-04-23",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/KFaTjE-G5Vo/hqdefault.jpg",
-  "title": "LinuxFest Northwest 2016: The Twelve-Factor Container",
-  "videos": [
-    {
-      "code": "KFaTjE-G5Vo",
-      "type": "youtube"
-    }
-  ]
+    "description": "This talk will use the seminal twelve-factor app essay as a guide to discuss the do\u2019s and dont\u2019s of building and running containers. Each factor gives us an opportunity to consider avoidable anti-patterns if you\u2019re using containers to deploy and manage repeatable, reliable, and portable services.\n\nContainers rose in popularity on an oft used metaphor: lightweight virtual machines. We have a robust understanding of the benefits of virtualized hardware as a method of efficient resource utilization. The idea of _even more efficient_ resource utilization makes sense. Unfortunately it\u2019s a problematic metaphor.\n\nContainers represent a constrained set of capabilities compared to virtual machines in order to make fine-grained guarantees about resource constraints and process isolation. This is a good thing. There is overlap in ideal capabilities between VMs and containers but it isn\u2019t complete. Newcomers to the container ecosystem begin with a \u201clightweight VM\u201d understanding and fall victim to specific anti-patterns.\n\nAfter this talk you\u2019ll understand common pitfalls in containerization and how you can avoid them. This discussion is useful for developers who wish to gain greater understanding of the environment their applications are deployed to, as well as operators interested in the benefits of containers for their architecture.",
+    "recorded": "2016-04-23",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/KFaTjE-G5Vo/hqdefault.jpg",
+    "title": "LinuxFest Northwest 2016: The Twelve-Factor Container",
+    "videos": [
+        {
+            "code": "KFaTjE-G5Vo",
+            "type": "youtube"
+        }
+    ]
 }

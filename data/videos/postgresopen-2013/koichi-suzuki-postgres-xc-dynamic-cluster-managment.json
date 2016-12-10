@@ -1,14 +1,14 @@
 {
-  "description": "This talk will include demonstrations of the following topics:\nPostgres-XC cluster configuration\nAdding/removing servers in the cluster while it is in operation\nConfiguring slaves for HA solution\nSwitching the slave when a master fails\nWhat happens to transactions if a master fails\nOther Postgres-XC cluster operation",
-  "recorded": "2013-09-16",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/65Fddd1Y3-o/hqdefault.jpg",
-  "title": "Koichi Suzuki: Postgres-XC dynamic cluster managment",
-  "videos": [
-    {
-      "code": "65Fddd1Y3-o",
-      "type": "youtube"
-    }
-  ]
+    "description": "This talk will include demonstrations of the following topics:\nPostgres-XC cluster configuration\nAdding/removing servers in the cluster while it is in operation\nConfiguring slaves for HA solution\nSwitching the slave when a master fails\nWhat happens to transactions if a master fails\nOther Postgres-XC cluster operation",
+    "recorded": "2013-09-16",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/65Fddd1Y3-o/hqdefault.jpg",
+    "title": "Koichi Suzuki: Postgres-XC dynamic cluster managment",
+    "videos": [
+        {
+            "code": "65Fddd1Y3-o",
+            "type": "youtube"
+        }
+    ]
 }

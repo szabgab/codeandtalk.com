@@ -1,14 +1,14 @@
 {
-  "description": "Le syst\u00e8me d'initialisation de linux est historiquement g\u00e9r\u00e9 par system V. En 2010, Lennart Poettering, de la soci\u00e9t\u00e9 red hat, constate que celui-ci n'est plus adapt\u00e9 aux contraintes des environnements modernes, et d\u00e9cide, avec l'appui de red hat, d'en d\u00e9velopper un nouveau : systemd.Apr\u00e8s un tour d'horizon de l'architecture de systemd, nous verrons, comment dev et ops peuvent l'utiliser afin de g\u00e9rer le cycle de vie de leur application, ordonnancer des t\u00e2ches, red\u00e9marrer automatiquement une application en cas de crash, g\u00e9r\u00e9r des d\u00e9pendances entre processus, ...\n\n\nAuthor:\nJean-Eudes Couignoux\nD\u00e9veloppeur java, je suis passionn\u00e9 par la cr\u00e9ation d'application, de la r\u00e9cup\u00e9ration du besoin \u00e0 la mise en production.\n\nA la fronti\u00e8re entre dev et ops, je m'int\u00e9resse \u00e0 la fois \u00e0 l'\u00e9cosyst\u00e8me de la JVM, mais aussi aux outils permettant de faciliter le provisionning et le d\u00e9ploiement d'application, et aux innovations de l'\u00e9cosyst\u00e8me linux pour faciliter l'administration des services (systemd, cgroups, ...).",
-  "recorded": "2016-06-08",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/gA9z-jlnKfU/hqdefault.jpg",
-  "title": "Les d\u00e9veloppeurs aussi ma\u00eetrisent le systemd",
-  "videos": [
-    {
-      "code": "gA9z-jlnKfU",
-      "type": "youtube"
-    }
-  ]
+    "description": "Le syst\u00e8me d'initialisation de linux est historiquement g\u00e9r\u00e9 par system V. En 2010, Lennart Poettering, de la soci\u00e9t\u00e9 red hat, constate que celui-ci n'est plus adapt\u00e9 aux contraintes des environnements modernes, et d\u00e9cide, avec l'appui de red hat, d'en d\u00e9velopper un nouveau : systemd.Apr\u00e8s un tour d'horizon de l'architecture de systemd, nous verrons, comment dev et ops peuvent l'utiliser afin de g\u00e9rer le cycle de vie de leur application, ordonnancer des t\u00e2ches, red\u00e9marrer automatiquement une application en cas de crash, g\u00e9r\u00e9r des d\u00e9pendances entre processus, ...\n\n\nAuthor:\nJean-Eudes Couignoux\nD\u00e9veloppeur java, je suis passionn\u00e9 par la cr\u00e9ation d'application, de la r\u00e9cup\u00e9ration du besoin \u00e0 la mise en production.\n\nA la fronti\u00e8re entre dev et ops, je m'int\u00e9resse \u00e0 la fois \u00e0 l'\u00e9cosyst\u00e8me de la JVM, mais aussi aux outils permettant de faciliter le provisionning et le d\u00e9ploiement d'application, et aux innovations de l'\u00e9cosyst\u00e8me linux pour faciliter l'administration des services (systemd, cgroups, ...).",
+    "recorded": "2016-06-08",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/gA9z-jlnKfU/hqdefault.jpg",
+    "title": "Les d\u00e9veloppeurs aussi ma\u00eetrisent le systemd",
+    "videos": [
+        {
+            "code": "gA9z-jlnKfU",
+            "type": "youtube"
+        }
+    ]
 }

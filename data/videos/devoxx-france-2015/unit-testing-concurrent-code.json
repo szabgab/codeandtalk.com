@@ -1,14 +1,14 @@
 {
-  "description": "While software engineers can disagree on almost any concept of programming best-practice, the necessity of writing unit tests remains undisputed. With the advent of concurrent applications and the ongoing deprecation of the one-thread-per-request model, unit tests do however miss an increasing fraction of programming errors such as race conditions or dead-locking code. But is it even possible to write tests that revise such errors? In the end, a good unit test is characterized by a determined execution path what effectively prevents the use of concurrency within a single test. However, there are tools and programming principles that allow for unit tests of concurrent code. This talk reviews typical mistakes made when concurrent code is tested and introduces Thread Weaver, a test suite for writing valid unit tests that uncover concurrency-related programming errors.\n\n\nAuthor:\nRafael Winterhalter\nRafael works as a software engineer in Oslo, Norway. He is a proponent of static typing and a JVM enthusiast with particular interests in code instrumentation, concurrency and functional programming. Rafael blogs about software development, regularly presents at conferences and was pronounced a Java One Rock Star. When coding outside of his work place, he contributes to a wide range of open source projects and often works on Byte Buddy, a library for simple runtime code generation for the Java virtual machine.\n\nOnline: http://rafael.codes\nTwitter: @rafaelcodes",
-  "recorded": "2016-06-08",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/FvH4RBn2gJ8/hqdefault.jpg",
-  "title": "Unit testing concurrent code",
-  "videos": [
-    {
-      "code": "FvH4RBn2gJ8",
-      "type": "youtube"
-    }
-  ]
+    "description": "While software engineers can disagree on almost any concept of programming best-practice, the necessity of writing unit tests remains undisputed. With the advent of concurrent applications and the ongoing deprecation of the one-thread-per-request model, unit tests do however miss an increasing fraction of programming errors such as race conditions or dead-locking code. But is it even possible to write tests that revise such errors? In the end, a good unit test is characterized by a determined execution path what effectively prevents the use of concurrency within a single test. However, there are tools and programming principles that allow for unit tests of concurrent code. This talk reviews typical mistakes made when concurrent code is tested and introduces Thread Weaver, a test suite for writing valid unit tests that uncover concurrency-related programming errors.\n\n\nAuthor:\nRafael Winterhalter\nRafael works as a software engineer in Oslo, Norway. He is a proponent of static typing and a JVM enthusiast with particular interests in code instrumentation, concurrency and functional programming. Rafael blogs about software development, regularly presents at conferences and was pronounced a Java One Rock Star. When coding outside of his work place, he contributes to a wide range of open source projects and often works on Byte Buddy, a library for simple runtime code generation for the Java virtual machine.\n\nOnline: http://rafael.codes\nTwitter: @rafaelcodes",
+    "recorded": "2016-06-08",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/FvH4RBn2gJ8/hqdefault.jpg",
+    "title": "Unit testing concurrent code",
+    "videos": [
+        {
+            "code": "FvH4RBn2gJ8",
+            "type": "youtube"
+        }
+    ]
 }

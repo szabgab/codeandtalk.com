@@ -1,14 +1,14 @@
 {
-  "description": "Onyx is a high performance, fault tolerant, distributed computation platform written purely in Clojure. It couples an all-data API with thoughtful streaming primitives to encourage flexible application design. But how does it work?\n\nIn this talk, we're going to dive into Onyx's architecture and discuss its most unique trait - its \"masterless\" coordination scheme. In other words, we'll look at how Onyx uses Clojure to achieve consensus and safety, even when networks partition and machines fail.",
-  "recorded": "2016-04-15",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/KVByn_kp2fQ/hqdefault.jpg",
-  "title": "Inside Onyx - Michael Drogalis",
-  "videos": [
-    {
-      "code": "KVByn_kp2fQ",
-      "type": "youtube"
-    }
-  ]
+    "description": "Onyx is a high performance, fault tolerant, distributed computation platform written purely in Clojure. It couples an all-data API with thoughtful streaming primitives to encourage flexible application design. But how does it work?\n\nIn this talk, we're going to dive into Onyx's architecture and discuss its most unique trait - its \"masterless\" coordination scheme. In other words, we'll look at how Onyx uses Clojure to achieve consensus and safety, even when networks partition and machines fail.",
+    "recorded": "2016-04-15",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/KVByn_kp2fQ/hqdefault.jpg",
+    "title": "Inside Onyx - Michael Drogalis",
+    "videos": [
+        {
+            "code": "KVByn_kp2fQ",
+            "type": "youtube"
+        }
+    ]
 }

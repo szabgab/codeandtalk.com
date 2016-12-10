@@ -1,14 +1,14 @@
 {
-  "description": "There are a few unique challenges in designing and developing a SaaS application running as a single instance and used by multiple businesses, each with their own private data and their own set of users. An example of such challenges, often the most important one, is the persistence design: how to store the data so that each tenant's data stays completely isolated and at the same time easily queryable.\n\nIn this talk I'll tell about how we set out to build a real-world multi-tenant SaaS in Clojure: what kind of of architectural choices we made, how we structured the application and how Clojure, PostgreSQL and a couple of commonly used libraries helped us solve the challenge with multi-tenant data in a simple and concise way.",
-  "recorded": "2015-09-11",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/rgtkDpcXjXU/hqdefault.jpg",
-  "title": "Developing a multi-tenant SaaS using Clojure - Ari-Pekka Viitanen",
-  "videos": [
-    {
-      "code": "rgtkDpcXjXU",
-      "type": "youtube"
-    }
-  ]
+    "description": "There are a few unique challenges in designing and developing a SaaS application running as a single instance and used by multiple businesses, each with their own private data and their own set of users. An example of such challenges, often the most important one, is the persistence design: how to store the data so that each tenant's data stays completely isolated and at the same time easily queryable.\n\nIn this talk I'll tell about how we set out to build a real-world multi-tenant SaaS in Clojure: what kind of of architectural choices we made, how we structured the application and how Clojure, PostgreSQL and a couple of commonly used libraries helped us solve the challenge with multi-tenant data in a simple and concise way.",
+    "recorded": "2015-09-11",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/rgtkDpcXjXU/hqdefault.jpg",
+    "title": "Developing a multi-tenant SaaS using Clojure - Ari-Pekka Viitanen",
+    "videos": [
+        {
+            "code": "rgtkDpcXjXU",
+            "type": "youtube"
+        }
+    ]
 }

@@ -1,14 +1,14 @@
 {
-  "description": "Clojure tames state by casting it as a succession of values. We can think of spacetime this way too. An observer is merely an atom through which pass a succession of universes.\n\nWithin a process boundary we can use a Clojure atom to provide a single stable value. But what if we want to extend this boundary to the edge of the universe?\n\nToday, we have tools at our disposal to begin constructing such a thing: hashes, MVCC, Merkel trees and time-travelling databases.\n\nI will begin this talk by explaining these ideas and their expression in the juxt library Skippy McSkipface. I will end by demonstrating how these ideas can produce systems that respond quickly to change, e.g. responsive development environments and virtually instant live deployments.\n\nSlides: https://juxt.pro/talks/clojutre-2016.html#/sec-title-slide",
-  "recorded": "2016-09-16",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/odPAkEO2uPQ/hqdefault.jpg",
-  "title": "The Universe As A Value - Malcolm Sparks",
-  "videos": [
-    {
-      "code": "odPAkEO2uPQ",
-      "type": "youtube"
-    }
-  ]
+    "description": "Clojure tames state by casting it as a succession of values. We can think of spacetime this way too. An observer is merely an atom through which pass a succession of universes.\n\nWithin a process boundary we can use a Clojure atom to provide a single stable value. But what if we want to extend this boundary to the edge of the universe?\n\nToday, we have tools at our disposal to begin constructing such a thing: hashes, MVCC, Merkel trees and time-travelling databases.\n\nI will begin this talk by explaining these ideas and their expression in the juxt library Skippy McSkipface. I will end by demonstrating how these ideas can produce systems that respond quickly to change, e.g. responsive development environments and virtually instant live deployments.\n\nSlides: https://juxt.pro/talks/clojutre-2016.html#/sec-title-slide",
+    "recorded": "2016-09-16",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/odPAkEO2uPQ/hqdefault.jpg",
+    "title": "The Universe As A Value - Malcolm Sparks",
+    "videos": [
+        {
+            "code": "odPAkEO2uPQ",
+            "type": "youtube"
+        }
+    ]
 }

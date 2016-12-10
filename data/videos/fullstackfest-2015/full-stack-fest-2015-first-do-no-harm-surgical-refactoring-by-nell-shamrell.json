@@ -1,14 +1,14 @@
 {
-  "description": "A talk from Full Stack Fest 2015 (http://fullstackfest.com/)\n\nWhen a developer comes into an existing code base the urge to refactor can be overwhelming. However, legacy code bases - even those created and maintained with the best intentions - often resemble living organisms more than modular machines. Rather than simply taking out a module and replacing it with a better one, we have to surgically slice intricately connected sections of a code base apart and precisely tie each one off to prevent it from bleeding into another section. We also have to operate with the fear that a change in one part of a system may adversely affect other parts or even kill a critical piece of our application or infrastructure. This talk will teach you how to recognize the difference between necessary and cosmetic refactoring and how to assess and evaluate the risks of each. You will also walk away knowing how to develop safeguards and bypasses to minimize potential harm before, during, and after a refactor, as well as how to recognize the point of no return when rolling back a refactoring is riskier than keeping it in production. Maintaining a code base means you must constantly juggle the wish to improve it through refactoring and the potential side effects of changing a functional and often critical code base - you will walk away from this talk with clear techniques to help you find and maintain this balance.\n\nhttp://fullstackfest.com/agenda/first-do-no-harm-surgical-refactoring\n\nRecorded & produced by El Cocu (http://elcocu.com)",
-  "recorded": "2015-09-01",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/9ZY3t9BnMeQ/hqdefault.jpg",
-  "title": "Full Stack Fest 2015: First Do No Harm: Surgical Refactoring, by Nell Shamrell",
-  "videos": [
-    {
-      "code": "9ZY3t9BnMeQ",
-      "type": "youtube"
-    }
-  ]
+    "description": "A talk from Full Stack Fest 2015 (http://fullstackfest.com/)\n\nWhen a developer comes into an existing code base the urge to refactor can be overwhelming. However, legacy code bases - even those created and maintained with the best intentions - often resemble living organisms more than modular machines. Rather than simply taking out a module and replacing it with a better one, we have to surgically slice intricately connected sections of a code base apart and precisely tie each one off to prevent it from bleeding into another section. We also have to operate with the fear that a change in one part of a system may adversely affect other parts or even kill a critical piece of our application or infrastructure. This talk will teach you how to recognize the difference between necessary and cosmetic refactoring and how to assess and evaluate the risks of each. You will also walk away knowing how to develop safeguards and bypasses to minimize potential harm before, during, and after a refactor, as well as how to recognize the point of no return when rolling back a refactoring is riskier than keeping it in production. Maintaining a code base means you must constantly juggle the wish to improve it through refactoring and the potential side effects of changing a functional and often critical code base - you will walk away from this talk with clear techniques to help you find and maintain this balance.\n\nhttp://fullstackfest.com/agenda/first-do-no-harm-surgical-refactoring\n\nRecorded & produced by El Cocu (http://elcocu.com)",
+    "recorded": "2015-09-01",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/9ZY3t9BnMeQ/hqdefault.jpg",
+    "title": "Full Stack Fest 2015: First Do No Harm: Surgical Refactoring, by Nell Shamrell",
+    "videos": [
+        {
+            "code": "9ZY3t9BnMeQ",
+            "type": "youtube"
+        }
+    ]
 }

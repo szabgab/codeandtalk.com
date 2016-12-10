@@ -1,14 +1,14 @@
 {
-  "description": "Stacki is an open source  bare metal provisioning tool that can take your servers from bare hardware (or virtual hardware) to working Linux, ready to install applications. Stacki does this at scale, so deploying 1000+ servers is no more complex than deploying one.  This includes parallel installation of your servers configuration of things such as:\n\nDNS\nDHCP, TFTP, PXE \nparallel execution shell\ncluster networking\nmultiple distributions\nhost discovery\nhost assignment via spreadsheet\npartition configuration\nstorage controller configuration \nOnce your servers are installed with Stacki, you can augment them with configuration tools like Puppet, Chef, Salt, CFEngine, Ansible, etc.  Along with an introduction to Stacki, Anoop will discuss how the Hadoop team at PayPal used Stacki to deploy 288 servers in 14 minutes and how they continue to use Stacki today.\n\nLink to Bio: https://www.linkedin.com/in/anooprajendra",
-  "recorded": "2016-04-23",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/FfG6Q1zJouI/hqdefault.jpg",
-  "title": "LinuxFest Northwest 2016: Stacki - Open Source Linux Server Provisioning Tool",
-  "videos": [
-    {
-      "code": "FfG6Q1zJouI",
-      "type": "youtube"
-    }
-  ]
+    "description": "Stacki is an open source  bare metal provisioning tool that can take your servers from bare hardware (or virtual hardware) to working Linux, ready to install applications. Stacki does this at scale, so deploying 1000+ servers is no more complex than deploying one.  This includes parallel installation of your servers configuration of things such as:\n\nDNS\nDHCP, TFTP, PXE \nparallel execution shell\ncluster networking\nmultiple distributions\nhost discovery\nhost assignment via spreadsheet\npartition configuration\nstorage controller configuration \nOnce your servers are installed with Stacki, you can augment them with configuration tools like Puppet, Chef, Salt, CFEngine, Ansible, etc.  Along with an introduction to Stacki, Anoop will discuss how the Hadoop team at PayPal used Stacki to deploy 288 servers in 14 minutes and how they continue to use Stacki today.\n\nLink to Bio: https://www.linkedin.com/in/anooprajendra",
+    "recorded": "2016-04-23",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/FfG6Q1zJouI/hqdefault.jpg",
+    "title": "LinuxFest Northwest 2016: Stacki - Open Source Linux Server Provisioning Tool",
+    "videos": [
+        {
+            "code": "FfG6Q1zJouI",
+            "type": "youtube"
+        }
+    ]
 }

@@ -1,14 +1,14 @@
 {
-  "description": "Once a Top-10 internet audience site. 32 million users. Billions of photos and comments, more than 6TB of them. Migrating away from MySQL to PostgreSQL!\n\nThis talk will share hindsights about the why and the how of that migration, what problems couldn't be solved without moving away and how the solution now looks. The tools used for migrating away the data, the methods and will detail the new architecture. And the new home, in the cloud!\n\nOn the technical side of things, we will be talking about MySQL, mysqltocsv, pgloader, pljava, Google Protocol Buffers, pgbouncer, plproxy, PostgreSQL, pghashlib, walmgr, streaming replication. And Amazon hosting facilities too (EBS for starters).",
-  "recorded": "2012-09-17",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/7PlbCbiCFng/hqdefault.jpg",
-  "title": "Dimitri Fontaine: Large Scale MySQL Migration to PostgreSQL",
-  "videos": [
-    {
-      "code": "7PlbCbiCFng",
-      "type": "youtube"
-    }
-  ]
+    "description": "Once a Top-10 internet audience site. 32 million users. Billions of photos and comments, more than 6TB of them. Migrating away from MySQL to PostgreSQL!\n\nThis talk will share hindsights about the why and the how of that migration, what problems couldn't be solved without moving away and how the solution now looks. The tools used for migrating away the data, the methods and will detail the new architecture. And the new home, in the cloud!\n\nOn the technical side of things, we will be talking about MySQL, mysqltocsv, pgloader, pljava, Google Protocol Buffers, pgbouncer, plproxy, PostgreSQL, pghashlib, walmgr, streaming replication. And Amazon hosting facilities too (EBS for starters).",
+    "recorded": "2012-09-17",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/7PlbCbiCFng/hqdefault.jpg",
+    "title": "Dimitri Fontaine: Large Scale MySQL Migration to PostgreSQL",
+    "videos": [
+        {
+            "code": "7PlbCbiCFng",
+            "type": "youtube"
+        }
+    ]
 }

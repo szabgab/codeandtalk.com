@@ -1,14 +1,14 @@
 {
-  "description": "Check out http://www.pgconf.us/2015/event/103/ for the full talk details.\n\nToroDB is a document oriented, Mongo-compatible, open-source database built on top of PostgreSQL.\n\nWhy all NoSQL databases are doing everything from scratch? Concurrency, durability, journaling... all those are quite tough goals to achieve. Aren't RDBMs good enough?\n\nWe think they are, specially PostgreSQL. So we built ToroDB, a new \u201cNoSQL\u201d database, that speaks JSON, and uses PostgreSQL as the \u201cstorage layer\u201d. ToroDB doesn't use PostgreSQL's fantastic jsonb type; it instead offers a novel approach storing data relationally. JSON documents are split into parts, each of which is stored in a relation (table). This has several advantages, which will be outlined during the course of the talk.\n\nToroDB implements the MongoDB protocol, and is thus compatible with MongoDB applications. This means it supports the advanced MongoDB query language, and MongoDB language updates. And it's all open source and running on top of PostgreSQL :)\n\nAbout the Speaker\n\u00c1lvaro is a 35 year-old IT entrepreneur, founder of a couple of software tech companies (Wizzbill and 8Kdata). He's a DBA and Java developer at 8Kdata, a company developing products for PostgreSQL, Java and AWS. He is also the founder and CEO of Wizzbill, a startup that offers smartphone/web products and services to help mobile phone users save money on their phone bill. He is a passionate software developer and open source advocate.\n\u00c1lvaro is the founder and lead project management and architect for ToroDB",
-  "recorded": "2015-03-25",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/Pm_OKGVuqVo/hqdefault.jpg",
-  "title": "ToroDB: a new, open-source, document-oriented, JSON database, built on Postgres",
-  "videos": [
-    {
-      "code": "Pm_OKGVuqVo",
-      "type": "youtube"
-    }
-  ]
+    "description": "Check out http://www.pgconf.us/2015/event/103/ for the full talk details.\n\nToroDB is a document oriented, Mongo-compatible, open-source database built on top of PostgreSQL.\n\nWhy all NoSQL databases are doing everything from scratch? Concurrency, durability, journaling... all those are quite tough goals to achieve. Aren't RDBMs good enough?\n\nWe think they are, specially PostgreSQL. So we built ToroDB, a new \u201cNoSQL\u201d database, that speaks JSON, and uses PostgreSQL as the \u201cstorage layer\u201d. ToroDB doesn't use PostgreSQL's fantastic jsonb type; it instead offers a novel approach storing data relationally. JSON documents are split into parts, each of which is stored in a relation (table). This has several advantages, which will be outlined during the course of the talk.\n\nToroDB implements the MongoDB protocol, and is thus compatible with MongoDB applications. This means it supports the advanced MongoDB query language, and MongoDB language updates. And it's all open source and running on top of PostgreSQL :)\n\nAbout the Speaker\n\u00c1lvaro is a 35 year-old IT entrepreneur, founder of a couple of software tech companies (Wizzbill and 8Kdata). He's a DBA and Java developer at 8Kdata, a company developing products for PostgreSQL, Java and AWS. He is also the founder and CEO of Wizzbill, a startup that offers smartphone/web products and services to help mobile phone users save money on their phone bill. He is a passionate software developer and open source advocate.\n\u00c1lvaro is the founder and lead project management and architect for ToroDB",
+    "recorded": "2015-03-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/Pm_OKGVuqVo/hqdefault.jpg",
+    "title": "ToroDB: a new, open-source, document-oriented, JSON database, built on Postgres",
+    "videos": [
+        {
+            "code": "Pm_OKGVuqVo",
+            "type": "youtube"
+        }
+    ]
 }

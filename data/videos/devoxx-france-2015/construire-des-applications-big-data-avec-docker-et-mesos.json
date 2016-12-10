@@ -1,14 +1,14 @@
 {
-  "description": "De plus en plus d'applications que nous construisons sont par nature des syst\u00e8mes distribu\u00e9s. L'\u00e9mergence des \"containers\" Docker, nous permet d'envisager de nouveaux models de conception de ces syst\u00e8mes. Cependant, la gestion de multiples containers, \u00e0 tr\u00e8s large \u00e9chelle, et \u00e0 tr\u00e8s faible coup reste tr\u00e8s souvent \u00e0 d\u00e9sirer.Apache Mesos, fournit un framework scalable, prouv\u00e9 et test\u00e9 pour d\u00e9ployer et manager different types d'applications distribu\u00e9es, des services web aux infrastructures big data, en mutualisant ses resources machines (CPU, RAM, Disk, etc ..) , et offre, c\u00e9rise sur le g\u00e2teau, un support natif de Docker. Cette conf\u00e9rence vise \u00e0 introduire Mesos, et montrer par des exemples concrets son utilisation pour des applications r\u00e9elles, aussi bien pour des applications web, que des syst\u00e8mes distribu\u00e9s comme Akka, Hadoop, Spark ou Storm.\n\n\nAuthor:\nSam Bessalah\n I am a freealance software engineer based in France and the Netherlands. I work on big data, data engineering, distributed computing and machine learning related projects. I co-origanize the Paris Datageek Meetup, and regularly speak on big data projects, and Blog: https://plus.google.com/106913090820159122553",
-  "recorded": "2016-06-08",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/CwXMJtqDwW8/hqdefault.jpg",
-  "title": "Construire des applications Big Data avec Docker et Mesos.",
-  "videos": [
-    {
-      "code": "CwXMJtqDwW8",
-      "type": "youtube"
-    }
-  ]
+    "description": "De plus en plus d'applications que nous construisons sont par nature des syst\u00e8mes distribu\u00e9s. L'\u00e9mergence des \"containers\" Docker, nous permet d'envisager de nouveaux models de conception de ces syst\u00e8mes. Cependant, la gestion de multiples containers, \u00e0 tr\u00e8s large \u00e9chelle, et \u00e0 tr\u00e8s faible coup reste tr\u00e8s souvent \u00e0 d\u00e9sirer.Apache Mesos, fournit un framework scalable, prouv\u00e9 et test\u00e9 pour d\u00e9ployer et manager different types d'applications distribu\u00e9es, des services web aux infrastructures big data, en mutualisant ses resources machines (CPU, RAM, Disk, etc ..) , et offre, c\u00e9rise sur le g\u00e2teau, un support natif de Docker. Cette conf\u00e9rence vise \u00e0 introduire Mesos, et montrer par des exemples concrets son utilisation pour des applications r\u00e9elles, aussi bien pour des applications web, que des syst\u00e8mes distribu\u00e9s comme Akka, Hadoop, Spark ou Storm.\n\n\nAuthor:\nSam Bessalah\n I am a freealance software engineer based in France and the Netherlands. I work on big data, data engineering, distributed computing and machine learning related projects. I co-origanize the Paris Datageek Meetup, and regularly speak on big data projects, and Blog: https://plus.google.com/106913090820159122553",
+    "recorded": "2016-06-08",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/CwXMJtqDwW8/hqdefault.jpg",
+    "title": "Construire des applications Big Data avec Docker et Mesos.",
+    "videos": [
+        {
+            "code": "CwXMJtqDwW8",
+            "type": "youtube"
+        }
+    ]
 }

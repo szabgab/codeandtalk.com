@@ -1,14 +1,14 @@
 {
-  "description": "La scalabilit\u00e9 des applications est une pr\u00e9occupation importante. Beaucoup de pertes en scalabilit\u00e9 proviennent de code contenant des locks qui produisent une importante contention en cas de forte charge.Dans cette pr\u00e9sentation nous allons aborder diff\u00e9rentes techniques (striping, copy-on-write, ring buffer, spinning, ...) qui vont nous permettre de r\u00e9duire cette contention ou d'obtenir un code sans lock. Nous expliquerons aussi les concepts de Compare-And-Swap et de barri\u00e8res m\u00e9moires.\n\n\nAuthor:\n Jean-Philippe Bempel\nJe travaille depuis plus de 6 ans en tant qu'architecte performance sur des applications de trading requ\u00e9rant une tr\u00e8s faible latence. De l'optimisation du code java jusqu'au r\u00e9glage tr\u00e8s fin du syst\u00e8me d'exploitation et du mat\u00e9riel, toute la cha\u00eene d\u2019ex\u00e9cution de l'application est pris en compte pour grappiller des micro-secondes sur le traitement des ordres.",
-  "recorded": "2016-06-08",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/HdgAIbF7MjM/hqdefault.jpg",
-  "title": "Programmation Lock-Free : les techniques des pros",
-  "videos": [
-    {
-      "code": "HdgAIbF7MjM",
-      "type": "youtube"
-    }
-  ]
+    "description": "La scalabilit\u00e9 des applications est une pr\u00e9occupation importante. Beaucoup de pertes en scalabilit\u00e9 proviennent de code contenant des locks qui produisent une importante contention en cas de forte charge.Dans cette pr\u00e9sentation nous allons aborder diff\u00e9rentes techniques (striping, copy-on-write, ring buffer, spinning, ...) qui vont nous permettre de r\u00e9duire cette contention ou d'obtenir un code sans lock. Nous expliquerons aussi les concepts de Compare-And-Swap et de barri\u00e8res m\u00e9moires.\n\n\nAuthor:\n Jean-Philippe Bempel\nJe travaille depuis plus de 6 ans en tant qu'architecte performance sur des applications de trading requ\u00e9rant une tr\u00e8s faible latence. De l'optimisation du code java jusqu'au r\u00e9glage tr\u00e8s fin du syst\u00e8me d'exploitation et du mat\u00e9riel, toute la cha\u00eene d\u2019ex\u00e9cution de l'application est pris en compte pour grappiller des micro-secondes sur le traitement des ordres.",
+    "recorded": "2016-06-08",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/HdgAIbF7MjM/hqdefault.jpg",
+    "title": "Programmation Lock-Free : les techniques des pros",
+    "videos": [
+        {
+            "code": "HdgAIbF7MjM",
+            "type": "youtube"
+        }
+    ]
 }

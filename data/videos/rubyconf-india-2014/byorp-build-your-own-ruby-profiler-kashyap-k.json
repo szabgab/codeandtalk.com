@@ -1,14 +1,14 @@
 {
-  "description": "Ruby 2.1 has introduced a lot of internal changes and tools that make it easy to build profilers using those tools.\n\nIn this talk, I will be talking about:\n\nDetailed explanation of the internal changes brought upon in Ruby 2.1 particularly about the instrumentation provided in the latest version.\nHow other projects use these low-level features to develop high-level libraries. example: MiniProfiler, StackProf.\nWhat information can one get out of using one of these tools.\nBuild a basic profiler using these tools.",
-  "recorded": "2014-03-22",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/2hPnRp-nFMs/hqdefault.jpg",
-  "title": "BYORP. Build your own Ruby Profiler -  Kashyap K",
-  "videos": [
-    {
-      "code": "2hPnRp-nFMs",
-      "type": "youtube"
-    }
-  ]
+    "description": "Ruby 2.1 has introduced a lot of internal changes and tools that make it easy to build profilers using those tools.\n\nIn this talk, I will be talking about:\n\nDetailed explanation of the internal changes brought upon in Ruby 2.1 particularly about the instrumentation provided in the latest version.\nHow other projects use these low-level features to develop high-level libraries. example: MiniProfiler, StackProf.\nWhat information can one get out of using one of these tools.\nBuild a basic profiler using these tools.",
+    "recorded": "2014-03-22",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/2hPnRp-nFMs/hqdefault.jpg",
+    "title": "BYORP. Build your own Ruby Profiler -  Kashyap K",
+    "videos": [
+        {
+            "code": "2hPnRp-nFMs",
+            "type": "youtube"
+        }
+    ]
 }

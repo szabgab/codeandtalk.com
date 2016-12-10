@@ -1,14 +1,14 @@
 {
-  "description": "Chez Booking.com, un flux constant d'\u00e9v\u00e9nements provient des diff\u00e9rents syst\u00e8mes et applications internes. Ces \"events\" sont des donn\u00e9es critiques, et doivent \u00eatre stock\u00e9s pour \u00eatre analys\u00e9s en temps r\u00e9el, ou bien sur du moyen et long terme. Ces donn\u00e9es sont tr\u00e8s peu structur\u00e9es et de nature changeante, rendant difficile l'utilisation d'outils standards d'analyse.Cette pr\u00e9sentation montre comment fut construit un syst\u00e8me de stockage complet avec analyse temps-r\u00e9el, bas\u00e9 sur Riak.Riak est une base de donn\u00e9e NoSQL distribu\u00e9e hybride tr\u00e8s robuste et rapide.Les points abord\u00e9s seront: s\u00e9rialisation et aggr\u00e9gation des donn\u00e9es, la configuration de Riak, les solutions pour diminuer la consommation de bande passante du cluster, l'impl\u00e9mentation de l'analyse temps-r\u00e9el grace aux fonctions avanc\u00e9es de Riak: MapReduce, Secondary Indexes, commit-hooks.\n\n\nAuthor:\nDamien Krotkine\nDamien Krotkine is a software engineer at Booking.com (world\u2019s leading online hotel and accommodation reservations company). He currently works on the events subsystem, where he helps gathering, storing, managing and analyzing big quantities of data in real-time.\n\nPreviously, he has been working in various fields like Linux Distribution, e-commerce, online real-time advertising.\n\nHe's an active member of the Perl community, maintaining some NoSQL related modules ( Redis driver, Riak client, Bloomd client ... )",
-  "recorded": "2016-06-08",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/jzrSdDfcy2k/hqdefault.jpg",
-  "title": "Stockage et analyse temps r\u00e9el d'\u00e9v\u00e9nements avec Riak chez Booking.com",
-  "videos": [
-    {
-      "code": "jzrSdDfcy2k",
-      "type": "youtube"
-    }
-  ]
+    "description": "Chez Booking.com, un flux constant d'\u00e9v\u00e9nements provient des diff\u00e9rents syst\u00e8mes et applications internes. Ces \"events\" sont des donn\u00e9es critiques, et doivent \u00eatre stock\u00e9s pour \u00eatre analys\u00e9s en temps r\u00e9el, ou bien sur du moyen et long terme. Ces donn\u00e9es sont tr\u00e8s peu structur\u00e9es et de nature changeante, rendant difficile l'utilisation d'outils standards d'analyse.Cette pr\u00e9sentation montre comment fut construit un syst\u00e8me de stockage complet avec analyse temps-r\u00e9el, bas\u00e9 sur Riak.Riak est une base de donn\u00e9e NoSQL distribu\u00e9e hybride tr\u00e8s robuste et rapide.Les points abord\u00e9s seront: s\u00e9rialisation et aggr\u00e9gation des donn\u00e9es, la configuration de Riak, les solutions pour diminuer la consommation de bande passante du cluster, l'impl\u00e9mentation de l'analyse temps-r\u00e9el grace aux fonctions avanc\u00e9es de Riak: MapReduce, Secondary Indexes, commit-hooks.\n\n\nAuthor:\nDamien Krotkine\nDamien Krotkine is a software engineer at Booking.com (world\u2019s leading online hotel and accommodation reservations company). He currently works on the events subsystem, where he helps gathering, storing, managing and analyzing big quantities of data in real-time.\n\nPreviously, he has been working in various fields like Linux Distribution, e-commerce, online real-time advertising.\n\nHe's an active member of the Perl community, maintaining some NoSQL related modules ( Redis driver, Riak client, Bloomd client ... )",
+    "recorded": "2016-06-08",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/jzrSdDfcy2k/hqdefault.jpg",
+    "title": "Stockage et analyse temps r\u00e9el d'\u00e9v\u00e9nements avec Riak chez Booking.com",
+    "videos": [
+        {
+            "code": "jzrSdDfcy2k",
+            "type": "youtube"
+        }
+    ]
 }

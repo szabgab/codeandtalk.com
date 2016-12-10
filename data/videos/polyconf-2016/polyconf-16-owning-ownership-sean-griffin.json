@@ -1,14 +1,14 @@
 {
-  "description": "Every function or method we write in any language has some hidden semantics. Who owns the values passed in? What am I allowed to do with the values returned? In 2015, Mozilla released the Rust programming language, which brought to the table ways to represent these \"ownership\" semantics in programs. In this talk, we'll take a deep dive into how thinking about ownership can help keep defects out of our programs, regardless of language.",
-  "recorded": "2016-06-30",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/PBV6j2BhEGE/hqdefault.jpg",
-  "title": "PolyConf 16: Owning Ownership / Sean Griffin",
-  "videos": [
-    {
-      "code": "PBV6j2BhEGE",
-      "type": "youtube"
-    }
-  ]
+    "description": "Every function or method we write in any language has some hidden semantics. Who owns the values passed in? What am I allowed to do with the values returned? In 2015, Mozilla released the Rust programming language, which brought to the table ways to represent these \"ownership\" semantics in programs. In this talk, we'll take a deep dive into how thinking about ownership can help keep defects out of our programs, regardless of language.",
+    "recorded": "2016-06-30",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/PBV6j2BhEGE/hqdefault.jpg",
+    "title": "PolyConf 16: Owning Ownership / Sean Griffin",
+    "videos": [
+        {
+            "code": "PBV6j2BhEGE",
+            "type": "youtube"
+        }
+    ]
 }

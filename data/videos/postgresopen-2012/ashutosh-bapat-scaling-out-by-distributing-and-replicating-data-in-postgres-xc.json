@@ -1,14 +1,14 @@
 {
-  "description": "Postgres-XC is write-scalable, shared nothing cluster solution based on PostgreSQL. The talk describes, how to achieve higher throughput by distributing or replicating data wisely in Postgres-XC and effects of such data layout on the performance.\n\nPostgres-XC is write-scalable, shared nothing cluster solution based on PostgreSQL. In Postgres-XC cluster, many modified PostgreSQL instances collaborate to achieve scalability. Since it complies with the PostgreSQL syntax and APIs, applications can be easily migrated from PostgreSQL to Postgres-XC, without much modification.\n\nA Postgres-XC cluster has three types of components 1. Coordinator 2. Datanode 3. Global Transaction Manager (GTM in short). Coordinators are the point of contact for the applications/clients. Datanodes store the user data in replicated or distributed manner. GTM is responsible for maintening the transactional consistency across the cluster. Coordinators and datanodes collaborate to provide a single database view to applications/clients, while applications/clients can connect to any of the coordinators.\n\nIn Postgres-XC a user table can be either distributed or replicated on the datanodes. Choosing the right method to lay out the data on the datanodes is one of the keys to achieving higher throughput. The key parameters which govern the data lay out are Read/Write load and frequently appearing join and other SQL clauses in queries.\n\nThe talk discusses the architecture of Postgres-XC and guidelines to distribute the data for improving throughput. As an example, we will discuss, DBT-1 schema and its throughput achieved by using Postgres-XC.\n\nAn article briefly describing the architecture of Postgres-XC can be found at http://www.linuxforu.com/2012/01/postgres-xc-database-clustering-solution/",
-  "recorded": "2012-09-17",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/T1OPKvyj87Q/hqdefault.jpg",
-  "title": "Ashutosh Bapat: Scaling out by distributing and replicating data in Postgres XC",
-  "videos": [
-    {
-      "code": "T1OPKvyj87Q",
-      "type": "youtube"
-    }
-  ]
+    "description": "Postgres-XC is write-scalable, shared nothing cluster solution based on PostgreSQL. The talk describes, how to achieve higher throughput by distributing or replicating data wisely in Postgres-XC and effects of such data layout on the performance.\n\nPostgres-XC is write-scalable, shared nothing cluster solution based on PostgreSQL. In Postgres-XC cluster, many modified PostgreSQL instances collaborate to achieve scalability. Since it complies with the PostgreSQL syntax and APIs, applications can be easily migrated from PostgreSQL to Postgres-XC, without much modification.\n\nA Postgres-XC cluster has three types of components 1. Coordinator 2. Datanode 3. Global Transaction Manager (GTM in short). Coordinators are the point of contact for the applications/clients. Datanodes store the user data in replicated or distributed manner. GTM is responsible for maintening the transactional consistency across the cluster. Coordinators and datanodes collaborate to provide a single database view to applications/clients, while applications/clients can connect to any of the coordinators.\n\nIn Postgres-XC a user table can be either distributed or replicated on the datanodes. Choosing the right method to lay out the data on the datanodes is one of the keys to achieving higher throughput. The key parameters which govern the data lay out are Read/Write load and frequently appearing join and other SQL clauses in queries.\n\nThe talk discusses the architecture of Postgres-XC and guidelines to distribute the data for improving throughput. As an example, we will discuss, DBT-1 schema and its throughput achieved by using Postgres-XC.\n\nAn article briefly describing the architecture of Postgres-XC can be found at http://www.linuxforu.com/2012/01/postgres-xc-database-clustering-solution/",
+    "recorded": "2012-09-17",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/T1OPKvyj87Q/hqdefault.jpg",
+    "title": "Ashutosh Bapat: Scaling out by distributing and replicating data in Postgres XC",
+    "videos": [
+        {
+            "code": "T1OPKvyj87Q",
+            "type": "youtube"
+        }
+    ]
 }

@@ -1,14 +1,14 @@
 {
-  "description": "This talk gives an overview of:\n\n    How Postgres implements the various isolation levels described by the SQL standard, and the visibility rules and exact set of guarantees made by each level.\n    The various locks that Postgres acquires on tables, indexes, rows and transactions, and even query predicates, and how all of this fits together with the isolation modes.\n    Other ways in which the isolation modes handle conflict resolution.\n    How Postgres locks can be represented as a tree, with cascading lock dependencies, and how this information can be interpreted to find backends that block other backends without being blocked themselves (the \"real offenders\") using a recursive SQL query.\n    Common scenarios in which race condition bugs can be inadvertently added to applications, and how you can avoid them.\n    How to write queries to avoid locking issues such as deadlocks.\n    New improvements to foreign key locking added to Postgres 9.3, and what they mean for your application.\n    How to implement UPSERT (i.e. atomic insert-or-update) correctly, in the absence of core functionality to take care of this for you.",
-  "recorded": "2013-09-16",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/lXUdlR9pQrQ/hqdefault.jpg",
-  "title": "Peter Geoghegan: Concurrency in Postgres",
-  "videos": [
-    {
-      "code": "lXUdlR9pQrQ",
-      "type": "youtube"
-    }
-  ]
+    "description": "This talk gives an overview of:\n\n    How Postgres implements the various isolation levels described by the SQL standard, and the visibility rules and exact set of guarantees made by each level.\n    The various locks that Postgres acquires on tables, indexes, rows and transactions, and even query predicates, and how all of this fits together with the isolation modes.\n    Other ways in which the isolation modes handle conflict resolution.\n    How Postgres locks can be represented as a tree, with cascading lock dependencies, and how this information can be interpreted to find backends that block other backends without being blocked themselves (the \"real offenders\") using a recursive SQL query.\n    Common scenarios in which race condition bugs can be inadvertently added to applications, and how you can avoid them.\n    How to write queries to avoid locking issues such as deadlocks.\n    New improvements to foreign key locking added to Postgres 9.3, and what they mean for your application.\n    How to implement UPSERT (i.e. atomic insert-or-update) correctly, in the absence of core functionality to take care of this for you.",
+    "recorded": "2013-09-16",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/lXUdlR9pQrQ/hqdefault.jpg",
+    "title": "Peter Geoghegan: Concurrency in Postgres",
+    "videos": [
+        {
+            "code": "lXUdlR9pQrQ",
+            "type": "youtube"
+        }
+    ]
 }

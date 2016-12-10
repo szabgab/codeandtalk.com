@@ -1,14 +1,14 @@
 {
-  "description": "This talk is about more than Unicorns. This is a scary talk about scary Ruby internals. Disregard the Unicorns, actually. There's a lot going on under the hood in MRI, YARV and Rubinius. The C and C++ layer that interacts with the OS is a tangly mess full of tricky bugs and arcane issues; the kind of issues that don't raise exceptions, but kill whole processes and make them bleed rainbows. Every time one of these \"glitter bullets\" kills a Ruby process, I shed a small tear: This is a talk about how we discover, tackle and fix these kind of issues at GitHub, to ensure our servers are always up and serving requests.",
-  "recorded": "2013-02-07",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/rcP0OiUED4c/hqdefault.jpg",
-  "title": "Unicorns die with bullets made of glitter - Vicent Mart\u00ed",
-  "videos": [
-    {
-      "code": "rcP0OiUED4c",
-      "type": "youtube"
-    }
-  ]
+    "description": "This talk is about more than Unicorns. This is a scary talk about scary Ruby internals. Disregard the Unicorns, actually. There's a lot going on under the hood in MRI, YARV and Rubinius. The C and C++ layer that interacts with the OS is a tangly mess full of tricky bugs and arcane issues; the kind of issues that don't raise exceptions, but kill whole processes and make them bleed rainbows. Every time one of these \"glitter bullets\" kills a Ruby process, I shed a small tear: This is a talk about how we discover, tackle and fix these kind of issues at GitHub, to ensure our servers are always up and serving requests.",
+    "recorded": "2013-02-07",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/rcP0OiUED4c/hqdefault.jpg",
+    "title": "Unicorns die with bullets made of glitter - Vicent Mart\u00ed",
+    "videos": [
+        {
+            "code": "rcP0OiUED4c",
+            "type": "youtube"
+        }
+    ]
 }

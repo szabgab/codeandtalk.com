@@ -1,14 +1,14 @@
 {
-  "description": "Parris Khachi\n&lt;p&gt;You&CloseCurlyQuote;d think in 2015, 23 years after the initial release of OpenGL, that we as a graphics community would have easy mechanisms to really do anything. Text is something that is fairly commoditized on the web, but is actually really hard to get right in WebGL. In this talk we will disect the 5 variations of rendering text that we found while using ThreeJS + WebGL, and show off what we think is the ultimate solution to our rendering woes! Our solution (based on the Signed Distance Field paper Valve released a few years ago) is fast and produces extremely crisp text at ANY zoom level regardless of initial text size.&lt;/p&gt;",
-  "recorded": "2015-11-14",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/gWxsfIqEACs/hqdefault.jpg",
-  "title": "Text, yea, just render it, whatever...",
-  "videos": [
-    {
-      "code": "gWxsfIqEACs",
-      "type": "youtube"
-    }
-  ]
+    "description": "Parris Khachi\n&lt;p&gt;You&CloseCurlyQuote;d think in 2015, 23 years after the initial release of OpenGL, that we as a graphics community would have easy mechanisms to really do anything. Text is something that is fairly commoditized on the web, but is actually really hard to get right in WebGL. In this talk we will disect the 5 variations of rendering text that we found while using ThreeJS + WebGL, and show off what we think is the ultimate solution to our rendering woes! Our solution (based on the Signed Distance Field paper Valve released a few years ago) is fast and produces extremely crisp text at ANY zoom level regardless of initial text size.&lt;/p&gt;",
+    "recorded": "2015-11-14",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/gWxsfIqEACs/hqdefault.jpg",
+    "title": "Text, yea, just render it, whatever...",
+    "videos": [
+        {
+            "code": "gWxsfIqEACs",
+            "type": "youtube"
+        }
+    ]
 }

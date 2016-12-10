@@ -1,14 +1,14 @@
 {
-  "description": "Check out http://www.pgconf.us/2015/event/56/ for the full talk details.\n\nPuppet has quickly become a popular tool for management of infrastructure. The Puppet Labs team provides an official puppet module for managing PostgreSQL installations. This excellent module provides documentation for patterns that are very straight forward for simple implementations. However, for service-oriented architecture where many applications share a database and disparate environments are prolific, PostgreSQL management becomes more complex.\n\nThis talk will review the use cases of the Puppet Labs module and how it can be leveraged to build complex application and database environments. Using an overview of the Puppet Lab's module, we'll review how CoverMyMeds implemented additional automation for things like master/slave awareness, database, role and grant management and environment-specific configuration.\n\nAbout the Speaker\nChris Everest is currently a Systems Operations Engineer at CoverMyMeds, Inc. Chris has more than a decade of professional experience in large-scale enterprises, where the main theme is the enablement of client-server applications. He's especially comfortable in the open source world, where passion is sparked by the Linux platform and automation of server configuration. Chris' other positions have included SourceForge/Slashdot Media and Abbott Laboratories where full-stack operations; networks, servers, databases and applications have all lent to his technical knowledge.",
-  "recorded": "2015-03-25",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/Ghwrh7BcTbE/hqdefault.jpg",
-  "title": "Managing PostgreSQL with Puppet",
-  "videos": [
-    {
-      "code": "Ghwrh7BcTbE",
-      "type": "youtube"
-    }
-  ]
+    "description": "Check out http://www.pgconf.us/2015/event/56/ for the full talk details.\n\nPuppet has quickly become a popular tool for management of infrastructure. The Puppet Labs team provides an official puppet module for managing PostgreSQL installations. This excellent module provides documentation for patterns that are very straight forward for simple implementations. However, for service-oriented architecture where many applications share a database and disparate environments are prolific, PostgreSQL management becomes more complex.\n\nThis talk will review the use cases of the Puppet Labs module and how it can be leveraged to build complex application and database environments. Using an overview of the Puppet Lab's module, we'll review how CoverMyMeds implemented additional automation for things like master/slave awareness, database, role and grant management and environment-specific configuration.\n\nAbout the Speaker\nChris Everest is currently a Systems Operations Engineer at CoverMyMeds, Inc. Chris has more than a decade of professional experience in large-scale enterprises, where the main theme is the enablement of client-server applications. He's especially comfortable in the open source world, where passion is sparked by the Linux platform and automation of server configuration. Chris' other positions have included SourceForge/Slashdot Media and Abbott Laboratories where full-stack operations; networks, servers, databases and applications have all lent to his technical knowledge.",
+    "recorded": "2015-03-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/Ghwrh7BcTbE/hqdefault.jpg",
+    "title": "Managing PostgreSQL with Puppet",
+    "videos": [
+        {
+            "code": "Ghwrh7BcTbE",
+            "type": "youtube"
+        }
+    ]
 }

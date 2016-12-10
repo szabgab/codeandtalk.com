@@ -1,14 +1,14 @@
 {
-  "description": "Inscreva-se.\nhttps://goo.gl/NfsjjA\n\nScyllaDB: 1.8 milh\u00e3o de requests por node\nTrilha: Administra\u00e7\u00e3o - Bancos de Dados\nAutores:\nRaphael Santana Carvalho\nApresenta\u00e7\u00e3o:\nDia 13 \u00e0s 10:00 na sala 41E (60 minutos)  v\u00eddeo\nDescri\u00e7\u00e3o:  Scylla is a new NoSQL database that applies systems programming techniques to a horizontally scalable NoSQL design to achieve extreme performance impr  ovements. Scylla is capable of 2 million requests per second per node, while providing Apache Cassandra compatibility and scaling properties.  With extra performance to work with, NoSQL projects can have more flexibility to focus on other concerns, such as functionality and time to market. Scylla enables faster cluster scaling, more overhead to handle complex queries, and the power to do complex analytic tasks at the same time as routine administration operations.\n\nThe Scylla design is based on a modern shared-nothing approach.   As in operating system and relational database projects, a new architecture for the NoSQL server is necessary because of new growth in, and limitations of, modern server hardware. As CPU core counts continue to grow, along with the raw speed of networking and storage devices available on a modern system, software design approaches that were valid and safe even a few years ago are no longer sustainable. Scylla runs multiple engines, one per core, each with its own memory, CPU and multi-queue NIC.  The result is a NoSQL database with the resilience to support more challenging Big Data projects.",
-  "recorded": "2016-07-13",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/xjzqdA6SXAI/hqdefault.jpg",
-  "title": "ScyllaDB 1 8 milh\u00e3o de requests por node",
-  "videos": [
-    {
-      "code": "xjzqdA6SXAI",
-      "type": "youtube"
-    }
-  ]
+    "description": "Inscreva-se.\nhttps://goo.gl/NfsjjA\n\nScyllaDB: 1.8 milh\u00e3o de requests por node\nTrilha: Administra\u00e7\u00e3o - Bancos de Dados\nAutores:\nRaphael Santana Carvalho\nApresenta\u00e7\u00e3o:\nDia 13 \u00e0s 10:00 na sala 41E (60 minutos)  v\u00eddeo\nDescri\u00e7\u00e3o:  Scylla is a new NoSQL database that applies systems programming techniques to a horizontally scalable NoSQL design to achieve extreme performance impr  ovements. Scylla is capable of 2 million requests per second per node, while providing Apache Cassandra compatibility and scaling properties.  With extra performance to work with, NoSQL projects can have more flexibility to focus on other concerns, such as functionality and time to market. Scylla enables faster cluster scaling, more overhead to handle complex queries, and the power to do complex analytic tasks at the same time as routine administration operations.\n\nThe Scylla design is based on a modern shared-nothing approach.   As in operating system and relational database projects, a new architecture for the NoSQL server is necessary because of new growth in, and limitations of, modern server hardware. As CPU core counts continue to grow, along with the raw speed of networking and storage devices available on a modern system, software design approaches that were valid and safe even a few years ago are no longer sustainable. Scylla runs multiple engines, one per core, each with its own memory, CPU and multi-queue NIC.  The result is a NoSQL database with the resilience to support more challenging Big Data projects.",
+    "recorded": "2016-07-13",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/xjzqdA6SXAI/hqdefault.jpg",
+    "title": "ScyllaDB 1 8 milh\u00e3o de requests por node",
+    "videos": [
+        {
+            "code": "xjzqdA6SXAI",
+            "type": "youtube"
+        }
+    ]
 }

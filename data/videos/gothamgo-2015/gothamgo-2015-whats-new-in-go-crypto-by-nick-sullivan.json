@@ -1,14 +1,14 @@
 {
-  "description": "If you don\u2019t know, now you know\u2026 Go has an amazing cryptography package built into the standard library. In Go 1.5 it\u2019s better than ever. Join CloudFlare\u2019s Nick Sullivan for a presentation that explores the new interfaces crypto.Signer and crypto.Decrypter. Learn how they can be used to enable some powerful new features. Nick will also cover how his team improved the speed of crypto operations by up to 20x using Go\u2019s inline assembly feature. Attendees will also uncover how to enable cool features like serving a website over HTTPS while storing the private key inside of hardware like a Trusted Platform Module (TPM) or a Hardware Security Module (HSM)!\n\nNick Sullivan is a leading cryptography expert and programmer. He founded and built the security team at CloudFlare, one of the world's leading web security companies. During his tenure at CloudFlare he created and/or open sourced several Go projects including Red October and CFSSL. He is a digital rights management pioneer in his work building Apple\u2019s multi-billion dollar iTunes store. He holds an MSc in Cryptography and a BMath in Pure Mathematics.",
-  "recorded": "2015-10-02",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/_nsTT0Mvkv4/hqdefault.jpg",
-  "title": "GothamGo 2015: What\u2019s new in Go Crypto? by Nick Sullivan",
-  "videos": [
-    {
-      "code": "_nsTT0Mvkv4",
-      "type": "youtube"
-    }
-  ]
+    "description": "If you don\u2019t know, now you know\u2026 Go has an amazing cryptography package built into the standard library. In Go 1.5 it\u2019s better than ever. Join CloudFlare\u2019s Nick Sullivan for a presentation that explores the new interfaces crypto.Signer and crypto.Decrypter. Learn how they can be used to enable some powerful new features. Nick will also cover how his team improved the speed of crypto operations by up to 20x using Go\u2019s inline assembly feature. Attendees will also uncover how to enable cool features like serving a website over HTTPS while storing the private key inside of hardware like a Trusted Platform Module (TPM) or a Hardware Security Module (HSM)!\n\nNick Sullivan is a leading cryptography expert and programmer. He founded and built the security team at CloudFlare, one of the world's leading web security companies. During his tenure at CloudFlare he created and/or open sourced several Go projects including Red October and CFSSL. He is a digital rights management pioneer in his work building Apple\u2019s multi-billion dollar iTunes store. He holds an MSc in Cryptography and a BMath in Pure Mathematics.",
+    "recorded": "2015-10-02",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/_nsTT0Mvkv4/hqdefault.jpg",
+    "title": "GothamGo 2015: What\u2019s new in Go Crypto? by Nick Sullivan",
+    "videos": [
+        {
+            "code": "_nsTT0Mvkv4",
+            "type": "youtube"
+        }
+    ]
 }

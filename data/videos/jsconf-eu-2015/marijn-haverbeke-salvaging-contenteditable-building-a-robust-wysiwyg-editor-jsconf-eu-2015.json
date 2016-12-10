@@ -1,14 +1,14 @@
 {
-  "description": "Web-based WYSIWYG editors are notorious for spitting out a distasteful HTML soup. In this talk I\u2019ll show how I implemented an editor that, instead of trying to filter and clean this soup, takes control away from the browser\u2019s contentEditable implementation, and reinterpret user actions as operations on our own semantic document model (i.e. not HTML). The result is a WYSIWYM (what you see is what you mean) editor, more predictable than classic WYSIWYG, and just as user friendly.\n\nIntro music by @halfbyte",
-  "recorded": "2015-09-25",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/EEF2DlOUkag/hqdefault.jpg",
-  "title": "Marijn Haverbeke: Salvaging contentEditable: Building a Robust WYSIWYG Editor | JSConf EU 2015",
-  "videos": [
-    {
-      "code": "EEF2DlOUkag",
-      "type": "youtube"
-    }
-  ]
+    "description": "Web-based WYSIWYG editors are notorious for spitting out a distasteful HTML soup. In this talk I\u2019ll show how I implemented an editor that, instead of trying to filter and clean this soup, takes control away from the browser\u2019s contentEditable implementation, and reinterpret user actions as operations on our own semantic document model (i.e. not HTML). The result is a WYSIWYM (what you see is what you mean) editor, more predictable than classic WYSIWYG, and just as user friendly.\n\nIntro music by @halfbyte",
+    "recorded": "2015-09-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/EEF2DlOUkag/hqdefault.jpg",
+    "title": "Marijn Haverbeke: Salvaging contentEditable: Building a Robust WYSIWYG Editor | JSConf EU 2015",
+    "videos": [
+        {
+            "code": "EEF2DlOUkag",
+            "type": "youtube"
+        }
+    ]
 }

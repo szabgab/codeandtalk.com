@@ -1,14 +1,14 @@
 {
-  "description": "We all take for granted that when we push enter in the browsers address bar, magic happens. The browser gets our HTML, that intern requests all the dependencies, insert magic, other things happen and then we have our site rendered. Simple, right, right\u2026\n\nLike many people as I\u2019ve progressed in my career, building for the web, I\u2019ve become curious as to how the browser does what it does. What makes it tick, how it turns a string of HTML into a data structure, how CSS & JavaScript come into play. Things like render tree, style recalculation, paints, reflows, all alien words will start to make sense by the end of this talk.\n\nSuddenly you\u2019ll understand why people recommend you place script tags at the bottom of the document, inlining critical CSS & all sorts of other performance techniques.\n\nIntro music by @halfbyte",
-  "recorded": "2015-09-25",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/SmE4OwHztCc/hqdefault.jpg",
-  "title": "Ryan Seddon: So how does the browser actually render a website | JSConf EU 2015",
-  "videos": [
-    {
-      "code": "SmE4OwHztCc",
-      "type": "youtube"
-    }
-  ]
+    "description": "We all take for granted that when we push enter in the browsers address bar, magic happens. The browser gets our HTML, that intern requests all the dependencies, insert magic, other things happen and then we have our site rendered. Simple, right, right\u2026\n\nLike many people as I\u2019ve progressed in my career, building for the web, I\u2019ve become curious as to how the browser does what it does. What makes it tick, how it turns a string of HTML into a data structure, how CSS & JavaScript come into play. Things like render tree, style recalculation, paints, reflows, all alien words will start to make sense by the end of this talk.\n\nSuddenly you\u2019ll understand why people recommend you place script tags at the bottom of the document, inlining critical CSS & all sorts of other performance techniques.\n\nIntro music by @halfbyte",
+    "recorded": "2015-09-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/SmE4OwHztCc/hqdefault.jpg",
+    "title": "Ryan Seddon: So how does the browser actually render a website | JSConf EU 2015",
+    "videos": [
+        {
+            "code": "SmE4OwHztCc",
+            "type": "youtube"
+        }
+    ]
 }

@@ -1,14 +1,14 @@
 {
-  "description": "While Java\u2019s strict type system is a great help for avoiding programming errors, it also takes away some of the flexibility that developers appreciate when using dynamic languages. By using runtime code generation, it is possible to bring some of this flexibility back to the Java virtual machine. For this reason, runtime code generation is widely used by many state-of-the-art Java frameworks for implementing POJO-centric APIs but it also opens the door to assembling more modular applications. This presentation offers an introduction to the complex of runtime code generation and its use on the Java platform. Furthermore, it discusses the up- and downsides of several code generation libraries such as ASM, Javassist, cglib and Byte Buddy.\n\n\nAuthor:\nRafael Winterhalter\nRafael works as a software engineer in Oslo, Norway. He is a proponent of static typing and a JVM enthusiast with particular interests in code instrumentation, concurrency and functional programming. Rafael blogs about software development, regularly presents at conferences and was pronounced a Java One Rock Star. When coding outside of his work place, he contributes to a wide range of open source projects and often works on Byte Buddy, a library for simple runtime code generation for the Java virtual machine.\n\nOnline: http://rafael.codes\nTwitter: @rafaelcodes",
-  "recorded": "2016-06-08",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/vjv4idwQL7k/hqdefault.jpg",
-  "title": "Making Java more dynamic",
-  "videos": [
-    {
-      "code": "vjv4idwQL7k",
-      "type": "youtube"
-    }
-  ]
+    "description": "While Java\u2019s strict type system is a great help for avoiding programming errors, it also takes away some of the flexibility that developers appreciate when using dynamic languages. By using runtime code generation, it is possible to bring some of this flexibility back to the Java virtual machine. For this reason, runtime code generation is widely used by many state-of-the-art Java frameworks for implementing POJO-centric APIs but it also opens the door to assembling more modular applications. This presentation offers an introduction to the complex of runtime code generation and its use on the Java platform. Furthermore, it discusses the up- and downsides of several code generation libraries such as ASM, Javassist, cglib and Byte Buddy.\n\n\nAuthor:\nRafael Winterhalter\nRafael works as a software engineer in Oslo, Norway. He is a proponent of static typing and a JVM enthusiast with particular interests in code instrumentation, concurrency and functional programming. Rafael blogs about software development, regularly presents at conferences and was pronounced a Java One Rock Star. When coding outside of his work place, he contributes to a wide range of open source projects and often works on Byte Buddy, a library for simple runtime code generation for the Java virtual machine.\n\nOnline: http://rafael.codes\nTwitter: @rafaelcodes",
+    "recorded": "2016-06-08",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/vjv4idwQL7k/hqdefault.jpg",
+    "title": "Making Java more dynamic",
+    "videos": [
+        {
+            "code": "vjv4idwQL7k",
+            "type": "youtube"
+        }
+    ]
 }

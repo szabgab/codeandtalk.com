@@ -1,14 +1,16 @@
 {
-  "description": "Lagom is a new framework for Java designed with microservices in mind. It aims to simplify the process of building microservice-based systems that communicate asynchronously, self-heal, scale elastically and remain responsive under load and under failure.\n\nMany of the challenges of microservices are caused by the fact we use tools designed without them in mind. So, how can a framework made to build systems composed of microservices from the start offer us a better solution? Because Lagom is a tool that is highly opinionated and explicitly designed to make development and production with microservices easy, it brings back all the fun and productivity into programming while still enabling you to build a reactive, distributed, highly scalable and rock solid application.\n\nBy the end of this presentation, you'll have experienced first hand how creating systems of microservices on the JVM using Lagom is dead-simple, intuitive, frictionless and a lot of fun! And we\u2019ll ask whether reactive microservices are potentially so much better than, for example, Java EE?",
-  "recorded": "2016-06-08",
-  "speakers": ["markus-eisele"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/7LSpgem2VZc/hqdefault.jpg",
-  "title": "Taking the friction out of microservice frameworks with Lagom",
-  "videos": [
-    {
-      "code": "7LSpgem2VZc",
-      "type": "youtube"
-    }
-  ]
+    "description": "Lagom is a new framework for Java designed with microservices in mind. It aims to simplify the process of building microservice-based systems that communicate asynchronously, self-heal, scale elastically and remain responsive under load and under failure.\n\nMany of the challenges of microservices are caused by the fact we use tools designed without them in mind. So, how can a framework made to build systems composed of microservices from the start offer us a better solution? Because Lagom is a tool that is highly opinionated and explicitly designed to make development and production with microservices easy, it brings back all the fun and productivity into programming while still enabling you to build a reactive, distributed, highly scalable and rock solid application.\n\nBy the end of this presentation, you'll have experienced first hand how creating systems of microservices on the JVM using Lagom is dead-simple, intuitive, frictionless and a lot of fun! And we\u2019ll ask whether reactive microservices are potentially so much better than, for example, Java EE?",
+    "recorded": "2016-06-08",
+    "speakers": [
+        "markus-eisele"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/7LSpgem2VZc/hqdefault.jpg",
+    "title": "Taking the friction out of microservice frameworks with Lagom",
+    "videos": [
+        {
+            "code": "7LSpgem2VZc",
+            "type": "youtube"
+        }
+    ]
 }

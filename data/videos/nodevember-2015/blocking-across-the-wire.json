@@ -1,14 +1,14 @@
 {
-  "description": "Kyle Simpson\n\nIf you're writing high-performance async code, blocking is the worst thing you can do, right? Except, what if blocking on remote (across the wire) processes is exactly what you want to do!?\n\nCSP (Communicating Sequential Processes) is a channel-based async concurrency pattern that's built on \"blocking\" semantics. \n\nThis talk is a wild experiment into upending and rethinking asynchronous programming. We'll explore practical applications of CSP in JS and then look at how we can extend it to work across the wire between browser and server.",
-  "recorded": "2015-11-14",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/rpjXIyghxsI/hqdefault.jpg",
-  "title": "Blocking Across The Wire",
-  "videos": [
-    {
-      "code": "rpjXIyghxsI",
-      "type": "youtube"
-    }
-  ]
+    "description": "Kyle Simpson\n\nIf you're writing high-performance async code, blocking is the worst thing you can do, right? Except, what if blocking on remote (across the wire) processes is exactly what you want to do!?\n\nCSP (Communicating Sequential Processes) is a channel-based async concurrency pattern that's built on \"blocking\" semantics. \n\nThis talk is a wild experiment into upending and rethinking asynchronous programming. We'll explore practical applications of CSP in JS and then look at how we can extend it to work across the wire between browser and server.",
+    "recorded": "2015-11-14",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/rpjXIyghxsI/hqdefault.jpg",
+    "title": "Blocking Across The Wire",
+    "videos": [
+        {
+            "code": "rpjXIyghxsI",
+            "type": "youtube"
+        }
+    ]
 }

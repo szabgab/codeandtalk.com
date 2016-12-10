@@ -1,14 +1,14 @@
 {
-  "description": "Feature toggles (a.k.a flippers, switches, flags etc.) are a useful tool for avoiding large, difficult to merge feature branches, improving user acceptance testing, and for reducing the risk of rolling out features.\n\nSurprisingly, there was no Perl module to do this - until now! CV-Library have shamelessly ported the Ruby library \"rollout\", and released it to CPAN as \"Toggle\".\n\nThis talk will explain the various ways of using feature toggles, and illustrate this with real-world examples of how it made our lives easier.\n\nIn particular, we will show how we combined incremental rollouts with detailed statsd/graphite monitoring, to catch regressions before they affected all users.\n\nSee:\n- http://martinfowler.com/bliki/FeatureToggle.html\n- https://metacpan.org/pod/distribution/Toggle/lib/Toggle.pod",
-  "recorded": "2014-11-08",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/ProH8B5aUqk/hqdefault.jpg",
-  "title": "LPW2014 Tim Retout   \u200eFeature toggles and graphs for better deployments\u200e mp4 ff",
-  "videos": [
-    {
-      "code": "ProH8B5aUqk",
-      "type": "youtube"
-    }
-  ]
+    "description": "Feature toggles (a.k.a flippers, switches, flags etc.) are a useful tool for avoiding large, difficult to merge feature branches, improving user acceptance testing, and for reducing the risk of rolling out features.\n\nSurprisingly, there was no Perl module to do this - until now! CV-Library have shamelessly ported the Ruby library \"rollout\", and released it to CPAN as \"Toggle\".\n\nThis talk will explain the various ways of using feature toggles, and illustrate this with real-world examples of how it made our lives easier.\n\nIn particular, we will show how we combined incremental rollouts with detailed statsd/graphite monitoring, to catch regressions before they affected all users.\n\nSee:\n- http://martinfowler.com/bliki/FeatureToggle.html\n- https://metacpan.org/pod/distribution/Toggle/lib/Toggle.pod",
+    "recorded": "2014-11-08",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/ProH8B5aUqk/hqdefault.jpg",
+    "title": "LPW2014 Tim Retout   \u200eFeature toggles and graphs for better deployments\u200e mp4 ff",
+    "videos": [
+        {
+            "code": "ProH8B5aUqk",
+            "type": "youtube"
+        }
+    ]
 }

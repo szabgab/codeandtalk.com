@@ -1,14 +1,14 @@
 {
-  "description": "Akiban Server is a new independent database server built from scratch which exposes data both via SQL and a more document-oriented REST API. When it came time to choose a communication protocol, we wanted to make sure that clients could use an established protocol. This talk discusses the process used to decide between selecting the PostgreSQL protocol or coming up with our own protocol.\n\nAkiban Server is a new independent database server built from scratch which exposes data both via SQL and a more document-oriented REST API. When it came time to choose a communication protocol, we wanted to make sure that clients could use an established protocol. We decided that the PostgreSQL protocol was the best choice, both because of it's wide adoption and the ease with which the protocol could be implemented.\n\nThis talk discusses the process used to decide between selecting the PostgreSQL protocol or coming up with our own protocol. Attendees will get a glimpse of the process of implementing this protocol along with a discussion of how easy or difficult this process was. The Akiban Server also provides support for a number of PostgreSQL system tables and we will provide insight into how we did this.",
-  "recorded": "2012-09-17",
-  "speakers": [],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/2P1gcuTAzU8/hqdefault.jpg",
-  "title": "Ori Herrnstadt: How Akiban Implemented a New Database Compatible with the PostgreSQL Protocol",
-  "videos": [
-    {
-      "code": "2P1gcuTAzU8",
-      "type": "youtube"
-    }
-  ]
+    "description": "Akiban Server is a new independent database server built from scratch which exposes data both via SQL and a more document-oriented REST API. When it came time to choose a communication protocol, we wanted to make sure that clients could use an established protocol. This talk discusses the process used to decide between selecting the PostgreSQL protocol or coming up with our own protocol.\n\nAkiban Server is a new independent database server built from scratch which exposes data both via SQL and a more document-oriented REST API. When it came time to choose a communication protocol, we wanted to make sure that clients could use an established protocol. We decided that the PostgreSQL protocol was the best choice, both because of it's wide adoption and the ease with which the protocol could be implemented.\n\nThis talk discusses the process used to decide between selecting the PostgreSQL protocol or coming up with our own protocol. Attendees will get a glimpse of the process of implementing this protocol along with a discussion of how easy or difficult this process was. The Akiban Server also provides support for a number of PostgreSQL system tables and we will provide insight into how we did this.",
+    "recorded": "2012-09-17",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/2P1gcuTAzU8/hqdefault.jpg",
+    "title": "Ori Herrnstadt: How Akiban Implemented a New Database Compatible with the PostgreSQL Protocol",
+    "videos": [
+        {
+            "code": "2P1gcuTAzU8",
+            "type": "youtube"
+        }
+    ]
 }
