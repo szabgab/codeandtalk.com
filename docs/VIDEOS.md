@@ -115,9 +115,7 @@ has not been added yet:
 * nodeconf-eu-2016
 * railsconf-2016
 * jsconf-uruguay-2016
-* laracon-eu-2016
 * opensourcebridge-2015
-* polyconf-2016
 * fullstackfest-2015
 * seleniumconf-usa-2015
 * rubyconf-taiwan-2015
@@ -137,7 +135,6 @@ has not been added yet:
 * clojutre-2016
 * euroclojure-2016
 * drupalsouth-2015
-* drupalsouth-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
