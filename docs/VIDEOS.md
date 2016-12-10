@@ -114,7 +114,6 @@ has not been added yet:
 * front-trends-2016
 * nodeconf-eu-2016
 * railsconf-2016
-* devoxx-uk-2016
 * jsconf-uruguay-2016
 * laracon-eu-2016
 * opensourcebridge-2015
