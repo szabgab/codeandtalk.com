@@ -1,10 +1,10 @@
 {
   "description": "\u201cIt is not necessary to change. Survival is not mandatory.\u201d -W. Edwards Deming\n\nWork takes time to flow through an organization and ultimately be deployed to production where it captures value. It\u2019s critical to reduce time-to-production. Software - for many organizations and industries - is a competitive advantage.\n\nOrganizations break their larger software ambitions into smaller, independently deployable, feature -centric batches of work - microservices. In order to reduce the round-trip between stations of work, organizations collapse or consolidate as much of them as possible and automate the rest; developers and operations beget \u201cdevops,\u201d cloud-based services and platforms (like Cloud Foundry) automate operations work and break down the need for ITIL tickets and change management boards.\n\nBut velocity, for velocity\u2019s sake, is dangerous. Microservices invite architectural complexity that few are prepared to address. In this talk, we\u2019ll look at how high performance organizations like Ticketmaster, Alibaba, and Netflix make short work of that complexity with Spring Boot and Spring Cloud.",
   "recorded": "2016-06-08",
-  "speakers": [],
+  "speakers": ["josh-long"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/sdILCoSykTc/hqdefault.jpg",
-  "title": "Cloud Native Java by Josh Long",
+  "title": "Cloud Native Java",
   "videos": [
     {
       "code": "sdILCoSykTc",

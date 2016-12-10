@@ -1,10 +1,10 @@
 {
   "description": "Vert.x is a toolkit for building reactive applications on the JVM. It was awarded for \"Most Innovative Java Technology\" at the JAX Innovation awards. Vert.x is event driven, non blocking and polyglot, which makes it an excellent platform for building microservices.\n\nIn this talk, I'll share experiences and real-world use cases from a Dutch company that started building reactive web applications with Vert.x about 3 years ago.\n\nYou'll learn the concepts behind Vert.x, why we chose Vert.x, how we're using it and the challenges we faced. Topics include the anatomy of our projects, (micro)services architecture, deployment model and DevOps, scalability, the upgrade from Vert.x 2 to Vert.x 3 and cooperation with the team behind Vert.x.\n\nAt the end of this session, you'll know enough about Vert.x to get started yourself right away!",
   "recorded": "2016-06-08",
-  "speakers": [],
+  "speakers": ["bert-jan-schrijver"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/yLg-LPSRjho/hqdefault.jpg",
-  "title": "Building microservices with Vert.x by Bert Jan Schrijver",
+  "title": "Building microservices with Vert.x",
   "videos": [
     {
       "code": "yLg-LPSRjho",
