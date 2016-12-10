@@ -1,5 +1,8 @@
 {
     "description": "This talk introduces streams and reactive streams. You will learn how stream-based programming can be used to implement web frontend and multiplayer backend of the classic game: Snake.\n\nBuilding dynamic applications using imperative approach tends to create lots of unmaintainable code. Stream-based programming tries to solve this problem by introducing fully declarative way of defining application logic. While using streams, you will focus on WHAT needs to be done, not HOW and WHEN.\n\nThe talk is divided into 3 parts. In the first part you will learn how to create a frontend of the Snake web game using streams as building blocks. Then, we will move to the server side and use Scala and Akka Stream library to create backend service that will allow the game to be played by multiple players. In the third part, we will discuss reactive streams and how they make asynchronous communication safe.",
+    "favorite": "0",
+    "length": "45:25",
+    "likes": "3",
     "recorded": "2016-06-08",
     "speakers": [
         "michal-plachta"
@@ -12,5 +15,6 @@
             "code": "iKTFalVfoSU",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "451"
 }

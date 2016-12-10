@@ -1,5 +1,8 @@
 {
     "description": "Concurrent programming with locks is hard. Concurrent programming without using locks can be really hard. Concurrent programming with relaxed memory ordering and predictable latency semantics is said to be only for wizards. This talk focuses on a decade long quest to discover algorithms that provide very high throughput while keeping latency low and predictable. Additionally, they need to provide real-time telemetry on how a system is performing via non-blocking operations.\n\nWe will cover some fundamental theory of concurrency and then compare various approaches to the same problem so that we can measure the impact on latency. We'll also show how some of these algorithm implementations get more interesting given the new features in Java 8.\n\nThis talk is aimed at programmers interested in advanced concurrency who want to develop algorithms with predictable response times at all levels of throughput which push our modern CPUs to the limit.",
+    "favorite": "0",
+    "length": "51:35",
+    "likes": "7",
     "recorded": "2016-06-08",
     "speakers": [
         "martin-thompson"
@@ -12,5 +15,6 @@
             "code": "929OrIvbW18",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "417"
 }

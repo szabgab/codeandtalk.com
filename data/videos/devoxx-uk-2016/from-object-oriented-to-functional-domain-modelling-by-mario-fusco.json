@@ -1,5 +1,8 @@
 {
     "description": "The main consequence of the introduction of lambda expressions in Java 8 is the possibility of conveniently mixing the object oriented and the functional paradigms. Nevertheless the biggest part of Java developers is not used yet to employ functional idioms and then they are not ready to fully leverage the new functional capabilities of Java. In particular it is still uncommon to see functions used together with data in business domain model. The purpose of this talk is not doing a comparison between object oriented and functional programming, but showing how these two styles can be combined in order to take advantage of the good parts of both. For example it's usual to pass a list of data to a function that processes them, but there are cases when you may want to create a list of functions and pass a single data through all of them. Immutable objects leads to a inherently thread-safe domain model. Functions often compose better than objects. Side-effect free code allows better reusability. This talk will demonstrate the validity of these statements with practical examples till to distill the essence of functional programming: data and behaviors are two aspects of the same thing.",
+    "favorite": "0",
+    "length": "56:27",
+    "likes": "11",
     "recorded": "2016-06-08",
     "speakers": [
         "mario-fusco"
@@ -12,5 +15,6 @@
             "code": "SN_hqTn4N6Y",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "1040"
 }
