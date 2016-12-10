@@ -1,5 +1,8 @@
 {
     "description": "Developers often associate Redis with terms like caching/optimisations and not as a primary data-store.\n\nWe in Spot.IM use Redis differently than any other company, by using it exclusively for all aspects of our data storage.\n\nIn this talk we'll discuss how we take Redis to its extreme by examining real-world production solutions for various scenarios through building abstractions on top of Redis, while leveraging its unique properties and crafting user-friendly APIs using Ruby's magic.",
+    "favorite": "0",
+    "length": "25:59",
+    "likes": "13",
     "recorded": "2015-11-24",
     "speakers": [
         "yaron-wittenstein"
@@ -12,5 +15,6 @@
             "code": "SIUOCKviitw",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "965"
 }

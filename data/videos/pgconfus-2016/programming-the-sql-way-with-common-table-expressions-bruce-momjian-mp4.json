@@ -1,6 +1,9 @@
 {
     "abstract": "http://www.pgconf.us/2016/event/194/programming-the-sql-way-with-common-table-expressions/",
     "description": "SQL is a declarative language, meaning the user submits an SQL command and the database determines the optimal execution. Common Table Expressions (CTEs) allow queries to be more imperative, allowing looping and processing hierarchical structures that are normally associated only with imperative languages. This talk will help developers use implement CTE queries in their applications and allow operations that normally could only be done in application code to be done via SQL queries.",
+    "favorite": "0",
+    "length": "25:32",
+    "likes": "4",
     "recorded": "2016-04-18",
     "speakers": [
         "bruce-momjian"
@@ -13,5 +16,6 @@
             "code": "nNVFMHpB4GM",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "106"
 }

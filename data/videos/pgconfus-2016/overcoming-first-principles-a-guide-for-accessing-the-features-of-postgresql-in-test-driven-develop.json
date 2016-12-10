@@ -1,6 +1,9 @@
 {
     "abstract": "http://www.pgconf.us/2016/event/126/overcoming-first-principles-a-guide-for-accessing-the-features-of-postgresql-in-test-driven-development/",
     "description": "Effective unit testing requires a software designer to define a set of abstractions which will comprise a particular system. If unit tests become brittle obstacles to refactoring or ineffective in providing design insight, then the approach we use for testing must be revised.\n\nIn this talk we will explore methods of treating PostgreSQL as a runtime component of your application and not as an external service. The end goal will be to learn to write tests that neatly capture units of functionality which depend on an SQL engine.",
+    "favorite": "0",
+    "length": "50:01",
+    "likes": "0",
     "recorded": "2016-04-18",
     "speakers": [
         "eric-radman"
@@ -13,5 +16,6 @@
             "code": "4Vigf4NG6-s",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "52"
 }

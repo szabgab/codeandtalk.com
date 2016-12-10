@@ -1,5 +1,8 @@
 {
     "description": "Performance and declarative, functional programming are at odds in the minds of many developers. At Netflix, we have an especially challenging performance target to hit. This talk will explore how we managed to take an unflinching stand on a completely declarative React based architecture while maintaining 100ms key-input and 60fps on the 600mhz single-core devices in your living room.\n\nWe'll talk about how and why we adhered to principles like no refs, no observation, no mixins or inheritance, immutable hierarchical state, declarative data via Falcor, and top-down-rendering. While some of these principles can actually help performance, we'll share how we mitigated others in order to hit our tough performance targets without compromising.",
+    "favorite": "0",
+    "length": "25:21",
+    "likes": "47",
     "recorded": "2016-02-22",
     "speakers": [
         "steve-mcguire"
@@ -12,5 +15,6 @@
             "code": "kDARP5QZ6nU",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "5710"
 }

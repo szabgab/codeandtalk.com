@@ -1,5 +1,8 @@
 {
     "description": "Flipkart Lite is Progressive Web App built with React, Flux, and Service Workers. This talk will deep dive into how we developed a high-performance mobile web app at scale, by devising a new architecture and taking an unconventional approach to server-side rendering with React.\n\nHear how React and Flux Stores helped us speed up rendering and how we heavily optimized React Components to achieve 60fps scrolling and interactions. In conjunction with this, learn how we utilized Service Workers to eliminate all network latencies on repeat visits. The result was an immersive and smooth web app that worked seamlessly even on low-end mobile devices and 2g connections.",
+    "favorite": "0",
+    "length": "20:49",
+    "likes": "240",
     "recorded": "2016-02-22",
     "speakers": [
         "aditya-punjani"
@@ -12,5 +15,6 @@
             "code": "m2tvYGCdOzs",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "17269"
 }

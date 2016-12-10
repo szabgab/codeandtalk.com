@@ -1,6 +1,9 @@
 {
     "abstract": "http://railsconf.com/2016/program/sessions#prop_2135",
     "description": "If you've struggled through writing complex queries in raw SQL, ActiveRecord methods are a helpful breath of fresh air. If you're not careful though, those methods could potentially leave your site open to a nasty SQL Injection attack. We'll take a look at the most common ActiveRecord methods (and some of the lesser known ones!) with one question in mind....will it inject? If it's vulnerable to a SQL injection attack, we'll cover how to structure your query to keep your data secure.",
+    "favorite": "0",
+    "length": "32:40",
+    "likes": "45",
     "recorded": "2016-05-04",
     "slides": "https://speakerdeck.com/jessrudder/will-it-inject-a-look-at-sql-injection-and-activerecord",
     "speakers": [
@@ -14,5 +17,6 @@
             "code": "2GHWAYys1is",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "2775"
 }

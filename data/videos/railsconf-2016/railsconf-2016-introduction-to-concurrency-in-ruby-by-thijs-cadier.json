@@ -1,6 +1,9 @@
 {
     "abstract": "http://railsconf.com/2016/program/sessions#prop_1993",
     "description": "In this talk we'll learn about the options we have to let a computer running Ruby do multiple things simultaneously. We'll answer questions such as: What's the difference between how Puma and Unicorn handle serving multiple Rails HTTP requests at the same time? Why does ActionCable use Eventmachine? How do these underlying mechanism actually work if you strip away the complexity?",
+    "favorite": "0",
+    "length": "36:16",
+    "likes": "19",
     "recorded": "2016-05-04",
     "slides": "https://speakerdeck.com/thijsc/a-tale-of-three-chat-rooms",
     "speakers": [
@@ -14,5 +17,6 @@
             "code": "5AxtY4dfuwc",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "2820"
 }

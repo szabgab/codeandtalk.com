@@ -1,6 +1,9 @@
 {
     "abstract": "http://railsconf.com/2016/program/sessions#prop_1909",
     "description": "Foreign API Simulation with Sinatra by Konstantin Tennhard\n\nNowadays, we often rely on third party services that we integrate into our product, instead of building every aspect of an application. In many cases, well written API clients exist, but on occasion you run into the issue that there isn't a ready to use client or it simply doesn't fit your needs. How do you write a good API client and more importantly how do you test it without hitting the remote API. So far, the standard approach has been replaying requests with VCR or stubbing them with Webmock. There is a third option: simulating foreign APIs with Sinatra from within your test suite!\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/JvLq/",
+    "favorite": "0",
+    "length": "28:54",
+    "likes": "4",
     "recorded": "2016-05-04",
     "slides": "http://t6d.de/presentations/foreign-api-simulation/",
     "speakers": [
@@ -14,5 +17,6 @@
             "code": "LAR7foT9kUE",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "480"
 }

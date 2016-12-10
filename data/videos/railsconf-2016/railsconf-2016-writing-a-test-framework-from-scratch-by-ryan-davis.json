@@ -1,6 +1,9 @@
 {
     "abstract": "http://railsconf.com/2016/program/sessions#prop_1943",
     "description": "Assertions (or expectations) are the most important part of any test framework. How are they written? What happens when one fails? How does a test communicate its results? Past talks have shown how test frameworks work from the very top: how they find, load, select, and run tests. Instead of reading code from the top, we\u2019ll write code from scratch starting with assertions and building up a full test framework. By the end, you'll know how every square inch of your testing framework works.",
+    "favorite": "0",
+    "length": "33:26",
+    "likes": "3",
     "recorded": "2016-05-04",
     "slides": "http://www.zenspider.com/pdf/2016_Railsconf_Microtest.pdf",
     "speakers": [
@@ -14,5 +17,6 @@
             "code": "yj_ODdTWGcQ",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "592"
 }
