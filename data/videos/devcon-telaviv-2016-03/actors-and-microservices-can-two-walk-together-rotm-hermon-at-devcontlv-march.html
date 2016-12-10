@@ -1,0 +1,34 @@
+Actors, or the <a href="https://en.wikipedia.org/wiki/Actor_model">Actor model</a>
+is to replace the <b>concurrency</b> that was done via <a href="https://en.wikipedia.org/wiki/Thread_(computing)">multithreading</a>
+which has shared memory, but also has problems such as synchronizations, race conditions, etc.
+<p>
+Actors are communicating via asynchronous messages. Never share state. An actor is single threaded.
+<p>
+Each thread can run multiple actors concurrently, but a single actor is in a single thread. There are two additional advantages of this model:
+CPU utilization within a single computer and the ability to distribute the workload to several computers.
+<p>
+In the cloud things get even more complicated regarding distributed computing.
+<h3>Virtual Actors</h3>
+<ul>
+  <li>Microsoft Research: <a href="https://dotnet.github.io/orleans/">Project Orleans</a></li>
+  <li>Port to Java: <a href="https://github.com/orbit">Orbit (by EA)</a></li>
+</ul>
+
+A Virtual Actor has two more traits: it <b>always exists</b> and <b>never fails</b> so need to handle the life-cycle of virtual actors.
+Takes away a lot of the complexity of the existing actor systems.
+
+<p>
+New Actor types:
+<ul>
+   <li><b>Worker</b> - an actor that does not hold state. An auto-scaling processing-unit.</li>
+   <li><b>Single Activation</b> Guaranteed to have a single active instance in the cluster. (A stateful application middle-tier.)</li>
+</ul>
+<p>
+Actors are actually <b>Nanonservices</b> very similar to <a href="https://en.wikipedia.org/wiki/Microservices">Microservices</a>
+<p>
+<ul>
+  <li><q>Microservices is an organizational decision, not so much a technical decision.</q></li>
+  <li><q>Base the communication on Interfaces instead of Messages.</q></li>
+</ul>
+
+The speaker is VP Architecture at <a href="http://www.gigya.com/">Gigya</a>
