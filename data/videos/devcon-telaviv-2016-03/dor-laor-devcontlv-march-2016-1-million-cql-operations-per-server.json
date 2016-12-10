@@ -1,14 +1,21 @@
 {
+    "blasters": [
+        "databases"
+    ],
     "favorite": "0",
+    "featured": "2016-12-19",
     "length": "31:54",
     "likes": "8",
     "recorded": "2016-03-22",
-    "featured": "2016-12-19",
-    "blasters":["databases"],
     "speakers": [
         "dor-laor"
     ],
-    "tags": ["scylladb", "nosql", "cassandra", "databases"],
+    "tags": [
+        "scylladb",
+        "nosql",
+        "cassandra",
+        "databases"
+    ],
     "thumbnail_url": "https://i.ytimg.com/vi/QDyr-yygU2A/hqdefault.jpg",
     "title": "1 Million CQL operations per server - using ScyllaDB",
     "videos": [
