@@ -1,5 +1,8 @@
 {
     "description": "An accessible tour of the Node.js Crypto API through the lens of history and politics.\n\n* Diffie-Hellman & RSA: key generation, encrypt, and decrypt.\n* RSA sign and verify.\n* AES and other symmetric ciphers.\n\nAlmost everything in OpenSSL has a rich history. A lot of the code we link when compiling Node.js was once illegal to disseminate under treaties that regulate things like fighter jets and night vision.\n\nThe effort to weaken these tools is still underway. You can't help fight that effort unless you are knowledgeable of more than just the basic implementation details.\n\nBy the end of the talk you will have been exposed to the important concepts, applied and theoretical, necessary to use strong cryptography in any of your Node.js projects. I'll crack some weak keys of different types in realtime using the cluster API and some spare cloud resources if my company has any spare AWS reserved instances. I'll also leave you with a drive to protect access to strong cryptography all over the world.",
+    "favorite": "0",
+    "length": "25:30",
+    "likes": "2",
     "recorded": "2016-08-03",
     "speakers": [
         "bill-automata"
@@ -12,5 +15,6 @@
             "code": "bjy5sXY1NrQ",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "105"
 }

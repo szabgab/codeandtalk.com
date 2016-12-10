@@ -1,5 +1,8 @@
 {
     "description": "Dustin Kirkland - Streamlining HPC Workloads with Containers\n\nOne might find it ironic that some of the world's fastest supercomputers -- vast clusters capable of trillions of floating point operations per second -- can take upwards of a half an hour to reboot in between jobs. While we often talk about the density advantages of containers, it's the opposite approach that we use in the High Performance Computing world! Here, we use exactly 1 system container per node, giving it unlimited access to all of the host's CPU, Memory, Disk, IO, and Network. And yet we can still leverage the management characteristics of containers -- security, snapshots, live migration, and instant deployment to recycle each node in between jobs. In this talk, we'll examine a reference architecture and some best practices around containers in HPC environments.\n\n\n\nDustin Kirkland is Cloud Product Manager at Canonical,  part of Canonical's Ubuntu Product and Strategy team. Dustin is responsible for the technical strategy, road map, and life cycle of the Ubuntu Cloud and IoT commercial offerings. (Canonical)",
+    "favorite": "0",
+    "length": "24:54",
+    "likes": "6",
     "recorded": "2016-09-09",
     "speakers": [
         "dustin-kirkland"
@@ -12,5 +15,6 @@
             "code": "TPdRbD1kSUU",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "391"
 }
