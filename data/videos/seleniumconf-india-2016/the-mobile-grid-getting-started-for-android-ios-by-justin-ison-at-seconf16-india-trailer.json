@@ -1,5 +1,8 @@
 {
     "description": "In modern times we have many different cloud testing services to choose from. These cloud services are useful and help reduce the burden of building and maintaining your own Selenium Grid environment. However, there are many scenarios in which you need your tests running locally, such you work for a government (or agency) and cannot expose your data to the cloud, or the service costs are too expensive to run all tests on every commit.\n\nThis presentation will feature getting started with setting up your own mobile device grid. Running your tests in parallel and distributed, capturing critical report data (logs, screenshots, and video), and leveraging cloud test services (such as SauceLabs). I will also talk about the challenges and lessons I learned along the way.\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2619\n\nConference: http://2016.seleniumconf.in",
+    "favorite": "0",
+    "length": "03:04",
+    "likes": "0",
     "recorded": "2016-06-24",
     "speakers": [
         "justin-ison"
@@ -12,5 +15,6 @@
             "code": "PTqHCM_hNCs",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "30"
 }
