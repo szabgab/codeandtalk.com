@@ -1,10 +1,10 @@
 {
   "description": "Last year we started a new Internet of Things project: The Internet of (Lego) Trains. In our normal jobs we use languages like Java and Scala to build applications for large organizations running on big servers. We wanted to find out if we could use the same languages and tools on IoT hardware. We also wanted to investigate whether or not (remote) actors could replace REST endpoints in our applications. We used Lego trains and Raspberry Pi\u2019s as a sample project.\n\nThe Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. We also build some lightning effects with LEDs controlled by Particle Photon\u2019s. On top of that we also automated a Lego ferris wheel. To control the trains and other parts we built an remote actor based application with Scala, Akka, Akka HTTP and AngularJS.",
   "recorded": "2016-06-08",
-  "speakers": [],
+  "speakers": ["johan-janssen"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/sb1lcmeseEk/hqdefault.jpg",
-  "title": "REST no more, use an actor (and Lego and Raspberry Pi\u2019s\u2026) by Johan Janssen",
+  "title": "REST no more, use an actor (and Lego and Raspberry Pi\u2019s\u2026)",
   "videos": [
     {
       "code": "sb1lcmeseEk",
