@@ -1,5 +1,8 @@
 {
     "description": "Did you ever have to cancel Open Type dialog because you didn't have time to wait for the search indices to initialize? Does slowness of populating the Call Hierarchy view annoy you? We suspect that for the majority of Eclipse Java users the answer to these questions is yes.\n\nThe proposed solution to these and many other JDT sluggishness problems is a new index containing an order of magnitude more information about Java code than the old JDT indexes and caches. The technology chosen for the new, faster JDT index is heavily influenced by the CDT index that has been in use for almost a decade and proved to be very efficient and flexible. CDT borrowed a lot of code and ideas from JDT. Now it's time to pay back.\n\nCome to this talk to learn about the design of the new index and to see how it makes JDT blazingly fast.\n\nMore details: https://confengine.com/eclipse-summit-2016/proposal/2488/faster-index-for-java-from-crazy-idea-to-reality\n\nConference: http://eclipsesummit.in/",
+    "favorite": "0",
+    "length": "01:00:07",
+    "likes": "6",
     "recorded": "2016-08-25",
     "speakers": [
         "sergey-prigogin"
@@ -12,5 +15,6 @@
             "code": "gGEMDyg77jo",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "49"
 }

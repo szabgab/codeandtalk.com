@@ -1,5 +1,8 @@
 {
     "description": "You are writing a mobile or HTML5 web application that needs just a little bit of a backend. Maybe you want to access MongoDB, send an SMS, or an e-mail. Do you really need to host your own Node.js service to run this small snippet of backend logic? In this talk I will take a hard look at the role of the backend in modern applications. I will introduce the concept of a webtask \u2013 a lightweight representation of backend logic that can safely be embedded in a client application. I will show how you can use modern container technologies based on CoreOS and Docker to build a generic runtime for securely executing web tasks directly from a mobile or HTML5 application. You don\u2019t need a backend to run backend code.",
+    "favorite": "0",
+    "length": "43:53",
+    "likes": "2",
     "recorded": "2015-08-27",
     "speakers": [
         "martin-gontovnikas"
@@ -12,5 +15,6 @@
             "code": "DukgTZu9HlA",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "175"
 }

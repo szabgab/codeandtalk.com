@@ -1,5 +1,8 @@
 {
     "description": "Much of software development is about creating variants of things that have been done in similar ways before. Typical means to create such variants include inheritance / subtyping, extension points and dependency injection. Unfortunately, all of these approaches require that the original author anticipated the required variation points in his/her module, to enable you to create whatever variant comes to your mind. This means, modules intended for reuse tend to be bloated with indirections just in case someone needs to modify something, and still many interesting adaptations are simply not possible due to lack of pre-planning.\n\nObject Teams reverses this situation. Creating unanticipated variants is at the core of this approach. Starting with the Neon release, even a running application can be morphed into a new variant of itself.\n\nMore details: https://confengine.com/eclipse-summit-2016/proposal/2658/runtime-specialization-java-has-never-been-so-dynamic-before\n\nConference: http://eclipsesummit.in/",
+    "favorite": "0",
+    "length": "58:58",
+    "likes": "3",
     "recorded": "2016-08-25",
     "speakers": [
         "stephan-herrmann"
@@ -12,5 +15,6 @@
             "code": "OFl6X_j4Q_I",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "49"
 }
