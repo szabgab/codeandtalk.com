@@ -1,10 +1,10 @@
 {
   "description": "Ever since its 1.1 release, the Java Virtual Machine steadily becomes a more and more \"hackable\" (configurable, pluggable, customizable, choose your own adjective here) platform for Java developers, yet few, if any, Java developers take advantage of it. Time to take the kid gloves off, crack open the platform, and see what's there. Time to play. In this presentation, we'll examine several of the \"hackable\" customization points inside the JVM: the boot classpath, allowing us to add or modify existing JDK classes without violating the license agreement; the JNI Invocation API, allowing us to create custom Java launchers to establish an environment for the JVM that corresponds to exactly the way we want it. Innocents beware--we're a long way from \"Hello world\"!",
   "recorded": "2016-06-08",
-  "speakers": [],
+  "speakers": ["ted-neward"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/eJVvVCh0u3c/hqdefault.jpg",
-  "title": "Busy Java Developer's Guide to Hacking in Java by Ted Neward",
+  "title": "Busy Java Developer's Guide to Hacking in Java",
   "videos": [
     {
       "code": "eJVvVCh0u3c",

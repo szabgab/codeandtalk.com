@@ -1,10 +1,10 @@
 {
   "description": "Application development and data storage needs are changing constantly. Today you might find yourself using Java and a development framework like Spring, but tomorrow you might find yourself developing with a development framework like Ratpack. Maybe tomorrow you find yourself needing to store a more diverse set of data than you did yesterday, creating a challenging data upgrade path. What if you suddenly decide that you need to include a mobile application as well as a web application? How do you prepare your enterprise to be able to accommodate these various technology shifts as the years pass?\n\nIn this session we will talk about what is different about this generation of web applications and how a solid development approach must consider the latency, throughput and interactivity demand by users across both mobile devices, web browsers, and IoT. We'll see how to include a NoSQL database in such applications to support a flexible data model and easy scalability required for modern development.\n\nWe will see how to create a full stack application that makes use of Java, Couchbase NoSQL, and AngularJS, but can very easily be altered to meet the needs of your organization should thing",
   "recorded": "2016-06-08",
-  "speakers": [],
+  "speakers": ["laurent-doguin"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/S7BWzoelAN0/hqdefault.jpg",
-  "title": "Full Stack Development with Java and NoSQL by Laurent Doguin",
+  "title": "Full Stack Development with Java and NoSQL",
   "videos": [
     {
       "code": "S7BWzoelAN0",

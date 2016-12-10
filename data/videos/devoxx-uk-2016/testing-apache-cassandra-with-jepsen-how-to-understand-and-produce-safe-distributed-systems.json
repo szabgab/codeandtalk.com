@@ -1,7 +1,7 @@
 {
-  "description": "by Joel Knighton\n\nIn this talk, I'll offer a brief introduction to Kyle Kingsbury's Jepsen, a Clojure testing framework for distributed systems. After explaining the motivation for Jepsen and its strengths, I'll show how to develop and run Jepsen tests for Cassandra. The value of these tests will be demonstrated in the form of multiple real-world Cassandra issues discovered through Jepsen tests I wrote. I'll then explain how we run Jepsen tests in CI at DataStax and offer a glimpse at some Jepsen-inspired testing tools we're developing.",
+  "description": "In this talk, I'll offer a brief introduction to Kyle Kingsbury's Jepsen, a Clojure testing framework for distributed systems. After explaining the motivation for Jepsen and its strengths, I'll show how to develop and run Jepsen tests for Cassandra. The value of these tests will be demonstrated in the form of multiple real-world Cassandra issues discovered through Jepsen tests I wrote. I'll then explain how we run Jepsen tests in CI at DataStax and offer a glimpse at some Jepsen-inspired testing tools we're developing.",
   "recorded": "2016-06-08",
-  "speakers": [],
+  "speakers": ["joel-knighton"],
   "tags": [],
   "thumbnail_url": "https://i.ytimg.com/vi/OnG1FCr5WTI/hqdefault.jpg",
   "title": "Testing Apache Cassandra with Jepsen: How to Understand and Produce Safe Distributed Systems",
