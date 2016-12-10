@@ -8,6 +8,9 @@
 			{% if v.length %}
 			  <div>Length: {{v.length}}</div>
 			{% endif %}
+			{% if v.views %}
+              <div>Views: {{ v.views }} Likes: {{ v.likes }}</div>
+            {% endif %}
             <div class="event">From <a href="/e/{{v.event.nickname}}">{{v.event.name}}</a></div>
             <div class="speakers">
             By: 
