@@ -1,6 +1,9 @@
 {
     "abstract": "http://act.yapc.eu/ye2016/talk/6723",
     "description": "After writing an open source novel using Markdown and github, I have increasingly automatized and streamlined the toolbelt for writing either literature or technical books using git and GitHub, with continuous integration thrown in for good measure. But this integration affords the quantification of the creative process: every commit and every test result scores a diversity of things, from number of words to text readability and quality.\n\nIn this talk I will explain how I managed to reduce the continuous integration of any text to a few lines in a continuous integration conf file, and, at the same time, what these tests reveal about my own writing process quantitavely and, a bit, qualitatively.",
+    "favorite": "0",
+    "length": "31:03",
+    "likes": "1",
     "recorded": "2016-08-24",
     "speakers": [
         "jj-merelo"
@@ -13,5 +16,6 @@
             "code": "rUL5MOwQl5U",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "32"
 }

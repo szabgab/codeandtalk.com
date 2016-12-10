@@ -1,5 +1,8 @@
 {
     "description": "The idea is to delegate as much work as possible to a database. I want to illustrate advantages of this idea with the working example of platzcart.com, touching security, scalability and performance problems.\r\n\r\nI am going to explain how it is possible (and is easy) to implement an \"application layer\" in PostgreSQL procedural language (so close to data itself still keeping the idea of 3-tier architecture intact).\r\nHow to effectively use specific PostgreSQL features.\r\n\r\nThesis:\r\nDatabase provides you the highest possible abstraction level.\r\nDatabase is the best tool to arrange an access control scheme.\r\nDatabase is the safest place to store the most sensitive secretes.\r\nA shorter processing is always better than a longer one.\r\n\r\n\r\nEvgeny Panferov was born in 1976 in Krasnodar, Russia. I was graduated in applied math at Kuban State University in 1998, trained in theory and several languages and paradigms and is employed in IT since 1997.\r\n\r\nI participated in several web projects, including bankir.ru. I have designed and programmed platzcart.com (e-commerce service) almost solely.\r\n\r\nI also created and maintain three tiny Open Source projects:\r\nhttp://developer.berlios.de/projects/urt\r\nhttp://developer.berlios.de/projects/tinycaptcha\r\nhttp://developer.berlios.de/projects/transearly\r\n\r\nIn UNIX-way i trust. I believe all the programs should be tiny and perform exactly ONE TASK.",
+    "favorite": "0",
+    "length": "49:22",
+    "likes": "5",
     "recorded": "2011-11-05",
     "speakers": [
         "evgeny-panferov"
@@ -12,5 +15,6 @@
             "code": "Vukq9IN0Um0",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "337"
 }

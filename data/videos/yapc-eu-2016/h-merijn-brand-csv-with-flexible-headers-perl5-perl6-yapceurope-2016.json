@@ -1,6 +1,9 @@
 {
     "abstract": "http://act.yapc.eu/ye2016/talk/6713",
     "description": "With CSV being a dataformat that does not define the variables required to parse it (encoding, separator- and quotation character), we'd like to have features that wil (try to) do so for us automatically.\n\nHaving third party that ships CSV file sets that mix ';' and ',' for separators, UTF-8 and UTF-16LE files and more weirdness that makes one curse, caused me to write a new method that takes care of most of those annoyances.",
+    "favorite": "0",
+    "length": "35:57",
+    "likes": "2",
     "recorded": "2016-08-24",
     "speakers": [
         "merijn-brand"
@@ -13,5 +16,6 @@
             "code": "yAjzV38FjIU",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "252"
 }

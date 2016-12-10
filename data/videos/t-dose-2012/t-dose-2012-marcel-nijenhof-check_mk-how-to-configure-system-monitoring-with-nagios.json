@@ -1,5 +1,8 @@
 {
     "description": "Nagios is commonly used application to monitor applications and systems.\nThere are many solutions to configure nagios each with there advantages and disadvantages. Also there are a lot pluggins to monitor remote systems. Most of these tools and plugins require you to define a individual checks for every item you want to monitor.\nCheck_mk takes a totally different approach. It used a agent on every system which creates a lot of output for many standard checks and possible some system specific checks. This output is processed by check_mk on the central monitoring server and alarms are generated for values out of the configured boundaries. Also the performance data for most checks is stored in rdd files and available within nagios.\nThe advantages:\u2028- Only one check needed per server\u2028- Many standard checks without configuration\u2028- Simple configuration\nIn this presentation we will present check_mk and the configuration we use at the moment. Check_mk and the default checks really helped us to configure nagios quick and find some until then undiscovered problems.",
+    "favorite": "0",
+    "length": "39:34",
+    "likes": "4",
     "recorded": "2012-10-27",
     "speakers": [
         "marcel-nijenhof"
@@ -12,5 +15,6 @@
             "code": "xVQO3DOH8W8",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "1406"
 }

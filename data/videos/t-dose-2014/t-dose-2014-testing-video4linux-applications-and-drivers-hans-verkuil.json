@@ -1,5 +1,8 @@
 {
     "description": "T-Dose 2014, Testing Video4Linux Applications and Drivers, Hans Verkuil \n\nThe video4linux subsystem of the kernel is a very large API with many ioctls, settings, options and capabilities. This poses a problem both for the kernel developer and for the application developer. Since early this year major improvements have been made to both the v4l2-compliance utility for verifying drivers, and the virtual video drivers that applications can use as a reference input or output. This presentation will explain and demonstrate these tools and drivers and show how to use them to ensure your driver or application works correctly.\n\nHans Verkuil started contributing patches to the MPEG encoder/decoder ivtv driver in early 2004 and it snowballed from there. Since 2013 he is the video4linux co-maintainer responsible for V4L2 bridge drivers and video receivers and transmitters. He lives in Oslo, Norway, working as a senior R&D software engineer at Cisco Systems Norway, developing - surprise! - video4linux drivers.\n\nT-DOSE is a free and yearly event held in The Netherlands to promote use and development of Open Source Software. During this event Open Source projects, developers and visitors can exchange ideas and knowledge.",
+    "favorite": "0",
+    "length": "36:01",
+    "likes": "0",
     "recorded": "2014-10-25",
     "speakers": [
         "hans-verkuil"
@@ -12,5 +15,6 @@
             "code": "tusWMvL_ynk",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "123"
 }

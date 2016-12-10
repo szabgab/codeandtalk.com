@@ -1,6 +1,9 @@
 {
     "abstract": "http://act.yapc.eu/ye2016/talk/6798",
     "description": "During the course of a penetration test, a malware analysis, a forensic analysis or a Capture The Flag contest, who has never been in the situation of having to develop \nThe Metabrik Platform [1] goal is to normalize how we use tools and how they interoperate together by providing a Platform as a UNIX shell, merged with a Perl REPL interpreter and a virtually infinite number of Briks: small reusable components that just do one task. Learning it is as simple as knowing the five Commands.\n\nYou glue Briks together through the Shell. Idea is to have a set of common bricks having their own purpose and connect them to create a new tool or Brik. The more you write Briks, the more complex tasks you will be able to achieve. Many Briks were written from already existing ones and Metabrik itself is written using Briks. In the end, Metabrik is a development platform which brings normalization and weaponization for everyday tools, being new or existing ones.\n\nWe will cover forensic::scalpel Brik as an example of improving existing tools by glueing with new Briks. We will then show how we solved a root-me challenge by using just a few Briks. As another example, we will show VM instrumentation for extracting IOCs from malwares. More examples are available on the Web site [1] and newest ones will be presented during the conference thanks to the now more than 200 Briks.\n\n[1] https://www.metabrik.org/",
+    "favorite": "0",
+    "length": "29:44",
+    "likes": "0",
     "recorded": "2016-08-24",
     "speakers": [
         "patrice-auffret"
@@ -13,5 +16,6 @@
             "code": "g4KbiZ775f0",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "21"
 }

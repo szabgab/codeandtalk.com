@@ -1,6 +1,9 @@
 {
     "abstract": "http://act.yapc.eu/ye2016/talk/6866",
     "description": "Larry Wall once described programming as a ballistic process -- we aim for a target, run our attempt, see where and how we missed, adjust our aim, run again, ad nauseam until we hit the target. As an example, the Perl 6 module called Terminal::Print now has the capability to handle async printing -- and it only took three full rewrites to get there! What began with a one-liner to print falling snow on your command line (perfected by Larry, though he's never shared how many aims it took to get there) is now a 'fully operational' solution for all of your fundamental terminal display needs. Please join me as I walk you through the ballistics behind Terminal::Print and share the hardest fought lessons I learned as I inadvertently bootstrapped myself into knowing some Perl 6. ",
+    "favorite": "0",
+    "length": "25:32",
+    "likes": "0",
     "recorded": "2016-08-24",
     "speakers": [
         "john-haltiwanger"
@@ -13,5 +16,6 @@
             "code": "TaCYxKKYqq0",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "274"
 }

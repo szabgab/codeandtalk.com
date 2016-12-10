@@ -1,5 +1,8 @@
 {
     "description": "http://www.CityTV.nl\nhttp://www.t-dose.org\nT-DOSE 2015 playlist:\nhttps://www.youtube.com/playlist?list=PLBZBIkixHEidK62nG3FR0mWZxRLzxnm0d\n\nNo need for Gemalto - Do it yourself! Open Source two factor authentication with privacyIDEA\n\nPaper: \n\nWhen talking of two factor authentication we need to be aware\nof reliable hardware and the creation of the key material.\nMany known hardware vendors use preseeded hardware, which\ncan easily lead to compromized key material. This hardware is often accompanied by closed source software solutions provided by the hardware vendor.\n\nprivacyIDEA is an open source software, which you can run on\nyour own system and use to initialize, manage and authenticate\nmany different kind of authentication devices.\nIt is ment to give you full control over your authentication process,\nyour accounts and your data.\nIt can be used with standard software using common protocols like\nRADIUS and PAM and utilizing the lean REST API you can integrate it\ninto your own web applications easily.\n\nThis talk gives you an overview over the features and current development ideas.",
+    "favorite": "0",
+    "length": "01:02:26",
+    "likes": "1",
     "recorded": "2015-11-28",
     "speakers": [
         "cornelius-kolbel"
@@ -12,5 +15,6 @@
             "code": "i29OzV6ICII",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "198"
 }

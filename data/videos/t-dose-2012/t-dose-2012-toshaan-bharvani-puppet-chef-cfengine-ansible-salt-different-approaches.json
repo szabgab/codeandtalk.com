@@ -1,5 +1,8 @@
 {
     "description": "When confronted with managing many systems, there are different ways to tackle this problem. Currently the most popular is configuration management, Puppet, Chef, CFEngine are the most popular. Each solution is different yet all look at a system from the configuration point of view. Another upcoming solution involves mass remote management using Ansible, Salt, Fabric. An other more ad-hoc approach is to use packaging systems or messaging systems to distribute commands or configurations. Depending on your needs, a specific approach may be better. This presentation will look over the different approaches, types and discuss them.",
+    "favorite": "0",
+    "length": "23:50",
+    "likes": "21",
     "recorded": "2012-10-27",
     "speakers": [
         "toshaan-bharvani"
@@ -12,5 +15,6 @@
             "code": "T56uN6N_hs0",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "5004"
 }
