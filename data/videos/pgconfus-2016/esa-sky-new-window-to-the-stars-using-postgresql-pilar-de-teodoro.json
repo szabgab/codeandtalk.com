@@ -1,6 +1,9 @@
 {
     "abstract": "http://www.pgconf.us/2016/event/128/esa-sky-new-window-to-the-stars-using-postgresql/",
     "description": "ESA Sky is the  science-driven discovery portal  developed by engineers and scientists working at the European Space Agency to allow users to explore the multi-wavelength sky and to seamlessly retrieve science-ready data in all ESA Astronomy mission archives from a web application without prior-knowledge of any of the missions. The first public beta of the service has been released, future releases will enable retrieval of spectra and will have special time-domain exploration features. \nPostgreSQL is the database system chosen to store the data connecting with other PostgreSQL databases in a performant way. The use of materialized views created on top of foreign tables has helped to get a fast system facilitating the integration with other archives, as well as the use of pgSphere to filter data using polygons and healpix functions. The possibility to integrate more data from other Astronomy centers is a reality which will lead us for new challenges regarding  integration, performance, replication and scalability.",
+    "favorite": "0",
+    "length": "34:34",
+    "likes": "1",
     "recorded": "2016-04-18",
     "speakers": [
         "pilar-de-teodoro"
@@ -15,5 +18,6 @@
             "code": "I_OqI-E5TQ0",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "53"
 }

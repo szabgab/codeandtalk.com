@@ -1,5 +1,8 @@
 {
     "description": "Discrete Microservices that cleanly map on to narrowly defined domains provide a solid architectural foundation for a system. \"Domain Service Aggregator\" is a label we have found useful for describing another type of Microservice. It encapsulates non-trivial intersections of the Domain Microservices. This talk will demonstrate how and when the Domain Service Aggregator Archetype can help you. We will use the architectural evolution of \"Video on Demand\" in a broadcast company as a working example. Along the way we will consider, how Domain Service Aggregators differ from the Netflix \"API Gateway Pattern\", how CAP theorem and caching concerns should inform your architectural decisions, avoiding \"Domain Bleed\" through good RESTful API design with HATEOAS and Versioning pitfalls.",
+    "favorite": "0",
+    "length": "58:55",
+    "likes": "0",
     "recorded": "2016-05-03",
     "speakers": [
         "caoilte-oconnor"
@@ -12,5 +15,6 @@
             "code": "iS6p-SWVuac",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "23"
 }
