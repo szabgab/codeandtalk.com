@@ -1,5 +1,8 @@
 {
     "description": "This talk will be about how we applied Typed functional programming and object-functional concepts inspired from languages like Scala, Haskell in building an Ads serving engine using Java 8 and made the stack extensible for multiple Ads serving usecases like App, Desktop, Exchange and ML model execution for CTR prediction, Guaranteed delivery etc.\n\nThis talk will focus on how we solved problems in an Ads serving engine using functional programming constructs for:\n\nRelevance and Ranking\nCTR prediction\nBidding models\nGuaranteed delivery (Convex Optimization)\nExplore / Exploit (Multi-armed bandit)\nAttribution, Deduplication etc\nFrom a language level, it will focus on how we applied our learnings from other functional languages like Scala, Clojure, Haskell in Java 8 to write elegant code for:\n\nComposing Ad selection workflows from reusable components\nReasoning about code through immutability\nDefining interfaces like function types. Functions as first class objects to express behaviour.\nUsing Builders and Filter predicates for adding new features\nTransforming collections using streams, lambdas, map, reduce, flatMap, groupBy\nOptional for writing null safe code and handling defaults using map, flatMap, orElse\nFunctional operations like partition, zip for simplifying code\nPattern matching and other features from libraries\nCaching and memoization\n\nMore details: https://confengine.com/functional-conf-2016/proposal/3132\n\nConference: http://functionalconf.com/",
+    "favorite": "0",
+    "length": "45:35",
+    "likes": "0",
     "recorded": "2016-10-13",
     "speakers": [
         "sathish-kumar"
@@ -12,5 +15,6 @@
             "code": "mOlXKadER6M",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "239"
 }

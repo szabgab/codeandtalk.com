@@ -1,5 +1,8 @@
 {
     "description": "Media queries gave us the power to create responsive layouts that work on all kinds of screens: from small to huge. Without media queries the web would be much less flexible. But media queries are hard work. We have to decide *when* a breakpoint occurs, we have to decide how it looks at that breakpoint, and we have to write the code to make it so. Wouldn\u2019t it be better if we could simply *tell the content to behave*? To behave in a matter that makes sense, according to a set of rules, a system, we come up with. In other words: instead of crafting every possible layout by hand, wouldn\u2019t it be better if we go home early and let the computer do the work for us?\n\nIt turns out that CSS gives us quite some tools to create super flexible, responsive layouts that don\u2019t use media queries. Some are old, like floats and CSS columns. Some are newer, like flexbox and viewport relative units. And some are not implemented (yet), like paged media and element queries. In this talk I explain the many ways to use these techniques to create flexible, responsive design systems.",
+    "favorite": "0",
+    "length": "47:18",
+    "likes": "36",
     "recorded": "2015-08-27",
     "speakers": [
         "vasilis-van-gemert"
@@ -12,5 +15,6 @@
             "code": "zdI2Z64Jdw8",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "1326"
 }

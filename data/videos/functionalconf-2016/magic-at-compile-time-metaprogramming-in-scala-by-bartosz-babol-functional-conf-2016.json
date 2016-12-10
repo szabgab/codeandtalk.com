@@ -1,5 +1,8 @@
 {
     "description": "Don't use metaprogramming! Don't use macros! You will often hear those statements. But metaprogramming or speaking more specific macros are heavily used in scala ecosystem. Almost every big project in functional or \"reactive\" technology stack uses them somewhere under the hood. What are macros? Why they are so controversial? What macros can offer to an engineer? Why they are useful? How they can minimize amount of boilerplate code? After answering those questions by showing small examples, we will start to develop library(or maybe better term will be DSL) for parsing XML.\n\nBut there is something more I didn't mention. If you are familiar with Scala ecosystem and up to date with roadmap of new Scala versions, you should be aware that...MACROS ARE DEAD. So why bother? Because there is new, bright future of metaprogramming in Scala called Scala Meta. We will see that knowledge gained after learning macros will be helpful when we will learn new approach presented in Scala Meta.\n\nMore details: https://confengine.com/functional-conf-2016/proposal/2924/magic-at-compile-time-metaprogramming-in-scala\n\nConference details: http://functionalconf.com/",
+    "favorite": "0",
+    "length": "48:40",
+    "likes": "5",
     "recorded": "2016-10-13",
     "speakers": [
         "bartosz-babol"
@@ -12,5 +15,6 @@
             "code": "uWtEL1spHqc",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "137"
 }
