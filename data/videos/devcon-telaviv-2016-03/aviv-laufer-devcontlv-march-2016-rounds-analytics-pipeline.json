@@ -1,5 +1,4 @@
 {
-    "description": "How do we collect analytics at Rounds. We have build a pipeline that starts at the user mobile device and flow via our collecting servers (written in golang) until in inserted into BigQuery and Elasticsearch cluster. We will share our experience and the journey that we have made until we reached our current system",
     "favorite": "0",
     "length": "20:16",
     "likes": "0",
@@ -7,9 +6,11 @@
     "speakers": [
         "aviv-laufer"
     ],
-    "tags": [],
+    "tags": [
+        "golang"
+    ],
     "thumbnail_url": "https://i.ytimg.com/vi/0-6x-lrCxqo/hqdefault.jpg",
-    "title": "Aviv Laufer DevconTLV March 2016: Rounds Analytics Pipeline",
+    "title": "Rounds Analytics Pipeline",
     "videos": [
         {
             "code": "0-6x-lrCxqo",
