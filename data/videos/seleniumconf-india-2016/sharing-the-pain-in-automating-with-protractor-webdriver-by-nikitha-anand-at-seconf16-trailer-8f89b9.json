@@ -1,14 +1,17 @@
 {
-  "description": "There is a saying ...\"Sukh baatne se badhta hai, dukh baatne se kam hota hai\", translated as - \"happiness increases & sadness reduces on sharing with others\".\n\nWe want to take this opportunity to share with our experiences - the good and the bad, in the journey of building a Test Automation framework for an AngularJS based application. \n\nWe will learn, by a case study, what thought process we applied on the given context (product, team, skills, capabilities, long term vision) to come up with an appropriate Test Automation Strategy. This Test Automation strategy covered all aspects of Test Automation - Unit, Integration, UI - i.e. End-2-End tests (E2E).\n\nNext, we will share how we went about narrowing-down, and eventually selecting a specific Tech Stack + Tools (Javascript / Jasmine / Protractor / Selenium-WebDriver) to accomplish the Test Automation for the product.\n\nLastly, we will share the challenges that came up in the implementation of the Test Automation, and how we overcame them. This will also include how we managed to get the tests running in Jenkins - a Continuous Integration tool. \n\nThis discussion is applicable to all team members who are working on Test Automation!\n\nP.S. We will be attempting to make a sample protractor-based automation framework available on github for anyone to use as a starting point for setting up protractor-based Test Automation framework.\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2478\n\nConference: http://2016.seleniumconf.in",
-  "recorded": "2016-06-24",
-  "speakers": ["nikitha-lyer", "anand-bagmar"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/XjFcfBfyV9Q/hqdefault.jpg",
-  "title": "Sharing the pain in Automating with Protractor & WebDriver",
-  "videos": [
-    {
-      "code": "XjFcfBfyV9Q",
-      "type": "youtube"
-    }
-  ]
+    "description": "There is a saying ...\"Sukh baatne se badhta hai, dukh baatne se kam hota hai\", translated as - \"happiness increases & sadness reduces on sharing with others\".\n\nWe want to take this opportunity to share with our experiences - the good and the bad, in the journey of building a Test Automation framework for an AngularJS based application. \n\nWe will learn, by a case study, what thought process we applied on the given context (product, team, skills, capabilities, long term vision) to come up with an appropriate Test Automation Strategy. This Test Automation strategy covered all aspects of Test Automation - Unit, Integration, UI - i.e. End-2-End tests (E2E).\n\nNext, we will share how we went about narrowing-down, and eventually selecting a specific Tech Stack + Tools (Javascript / Jasmine / Protractor / Selenium-WebDriver) to accomplish the Test Automation for the product.\n\nLastly, we will share the challenges that came up in the implementation of the Test Automation, and how we overcame them. This will also include how we managed to get the tests running in Jenkins - a Continuous Integration tool. \n\nThis discussion is applicable to all team members who are working on Test Automation!\n\nP.S. We will be attempting to make a sample protractor-based automation framework available on github for anyone to use as a starting point for setting up protractor-based Test Automation framework.\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2478\n\nConference: http://2016.seleniumconf.in",
+    "recorded": "2016-06-24",
+    "speakers": [
+        "nikitha-lyer",
+        "anand-bagmar"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/XjFcfBfyV9Q/hqdefault.jpg",
+    "title": "Sharing the pain in Automating with Protractor & WebDriver",
+    "videos": [
+        {
+            "code": "XjFcfBfyV9Q",
+            "type": "youtube"
+        }
+    ]
 }

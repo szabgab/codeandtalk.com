@@ -1,15 +1,21 @@
 {
-  "description": "This talk will specifically cover the challenges we encountered programming in the PL/Python environment, collaborations with some of the PySAL developers, and the power of having spatial statistics and machine learning capabilities baked right into a cloud database. These libraries, paired with PostgreSQL and PostGIS have opened up exciting new areas for analysis workflows on the web for analytics in CartoDB.",
-  "recorded": "2016-04-18",
-  "speakers": ["chaula-jain", "andy-eschbacher"],
-  "abstract" : "http://www.pgconf.us/2016/event/136/postgresql-and-arcgis-plus-arcgis-pl-python-analytics/",
-  "tags": ["PostgreSQL", "CartoDB"],
-  "thumbnail_url": "https://i.ytimg.com/vi/N3TGTlwcisA/hqdefault.jpg",
-  "title": "Analysis in CartoDB",
-  "videos": [
-    {
-      "code": "N3TGTlwcisA",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://www.pgconf.us/2016/event/136/postgresql-and-arcgis-plus-arcgis-pl-python-analytics/",
+    "description": "This talk will specifically cover the challenges we encountered programming in the PL/Python environment, collaborations with some of the PySAL developers, and the power of having spatial statistics and machine learning capabilities baked right into a cloud database. These libraries, paired with PostgreSQL and PostGIS have opened up exciting new areas for analysis workflows on the web for analytics in CartoDB.",
+    "recorded": "2016-04-18",
+    "speakers": [
+        "chaula-jain",
+        "andy-eschbacher"
+    ],
+    "tags": [
+        "PostgreSQL",
+        "CartoDB"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/N3TGTlwcisA/hqdefault.jpg",
+    "title": "Analysis in CartoDB",
+    "videos": [
+        {
+            "code": "N3TGTlwcisA",
+            "type": "youtube"
+        }
+    ]
 }

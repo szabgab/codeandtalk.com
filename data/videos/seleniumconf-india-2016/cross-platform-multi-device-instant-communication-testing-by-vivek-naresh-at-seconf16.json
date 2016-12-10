@@ -1,14 +1,17 @@
 {
-  "description": "Today over 100 million users share over 40 billion messages per month on Hike. Its not just simple 1:1 chat messages. Users can do a VoIP call or share rich multi-media content in 8 different languages in group chats with hundreds of members. User can transfer large (upto 100 MB) file using Wifi-Direct .i.e. device to device file transfer without using Internet. And many more features. How do you ensure that you can roll out a release every month without breaking any of these features?\n\nWith such a large user based, which is very sensitive to frequent upgrades due to data consumption cost, rigorously testing the app becomes extremely critical.\n\nWhen we started our automation journey in 2014, we were looking for a device lab which can simplify our testing effort. However we gave up and ended up building our own setup. The reason being, we require multiple devices that can communicate with each other for a single test. And we have 6000+ such tests, which we want to run in parallel. While many device labs allow you to run tests in parallel, they don't allow the devices to communicate with each other. Also its not possible to run the same test across multiple devices. Imagine testing a group-chat flow with photo sharing or imagine the device to device file transfer using hotspot. How would you test these features?\n\n \n\nIf this interests you, join us and we'll share our learning trying to achieve this at Hike.\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2519\n\nConference: http://2016.seleniumconf.in",
-  "recorded": "2016-06-24",
-  "speakers": ["vivek-upreti", "naresh-jain"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/EBwcYLi5JbQ/hqdefault.jpg",
-  "title": "Cross platform, Multi device Instant Communication Testing",
-  "videos": [
-    {
-      "code": "EBwcYLi5JbQ",
-      "type": "youtube"
-    }
-  ]
+    "description": "Today over 100 million users share over 40 billion messages per month on Hike. Its not just simple 1:1 chat messages. Users can do a VoIP call or share rich multi-media content in 8 different languages in group chats with hundreds of members. User can transfer large (upto 100 MB) file using Wifi-Direct .i.e. device to device file transfer without using Internet. And many more features. How do you ensure that you can roll out a release every month without breaking any of these features?\n\nWith such a large user based, which is very sensitive to frequent upgrades due to data consumption cost, rigorously testing the app becomes extremely critical.\n\nWhen we started our automation journey in 2014, we were looking for a device lab which can simplify our testing effort. However we gave up and ended up building our own setup. The reason being, we require multiple devices that can communicate with each other for a single test. And we have 6000+ such tests, which we want to run in parallel. While many device labs allow you to run tests in parallel, they don't allow the devices to communicate with each other. Also its not possible to run the same test across multiple devices. Imagine testing a group-chat flow with photo sharing or imagine the device to device file transfer using hotspot. How would you test these features?\n\n \n\nIf this interests you, join us and we'll share our learning trying to achieve this at Hike.\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2519\n\nConference: http://2016.seleniumconf.in",
+    "recorded": "2016-06-24",
+    "speakers": [
+        "vivek-upreti",
+        "naresh-jain"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/EBwcYLi5JbQ/hqdefault.jpg",
+    "title": "Cross platform, Multi device Instant Communication Testing",
+    "videos": [
+        {
+            "code": "EBwcYLi5JbQ",
+            "type": "youtube"
+        }
+    ]
 }

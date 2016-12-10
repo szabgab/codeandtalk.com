@@ -1,15 +1,20 @@
 {
-  "description": "This session will provide a brief overview of the RDS service, how it achieves durability & high availability and then do a deep dive into the exciting new features that we have released. We will also explore what we have learned by managing a large fleet of PostgreSQL instances including possible gotchas around pg_upgrade, advice on replication tunables, vacuum settings and shared_buffers including changes introduced with 9.5.\n\nhttp://www.pgconf.us/2016/event/129/amazon-rds-for-postgresql-deep-dive-on-new-features-and-learnings/",
-  "recorded": "2016-04-18",
-  "speakers": ["grant-mcalister"],
-  "abstract" : "http://www.pgconf.us/2016/event/129/amazon-rds-for-postgresql-deep-dive-on-new-features-and-learnings/",
-  "tags": ["Amazon", "PostgreSQL"],
-  "thumbnail_url": "https://i.ytimg.com/vi/S0WvcQULeVQ/hqdefault.jpg",
-  "title": "Amazon RDS for PostgreSQL Deep Dive on New Features and Learnings",
-  "videos": [
-    {
-      "code": "S0WvcQULeVQ",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://www.pgconf.us/2016/event/129/amazon-rds-for-postgresql-deep-dive-on-new-features-and-learnings/",
+    "description": "This session will provide a brief overview of the RDS service, how it achieves durability & high availability and then do a deep dive into the exciting new features that we have released. We will also explore what we have learned by managing a large fleet of PostgreSQL instances including possible gotchas around pg_upgrade, advice on replication tunables, vacuum settings and shared_buffers including changes introduced with 9.5.\n\nhttp://www.pgconf.us/2016/event/129/amazon-rds-for-postgresql-deep-dive-on-new-features-and-learnings/",
+    "recorded": "2016-04-18",
+    "speakers": [
+        "grant-mcalister"
+    ],
+    "tags": [
+        "Amazon",
+        "PostgreSQL"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/S0WvcQULeVQ/hqdefault.jpg",
+    "title": "Amazon RDS for PostgreSQL Deep Dive on New Features and Learnings",
+    "videos": [
+        {
+            "code": "S0WvcQULeVQ",
+            "type": "youtube"
+        }
+    ]
 }

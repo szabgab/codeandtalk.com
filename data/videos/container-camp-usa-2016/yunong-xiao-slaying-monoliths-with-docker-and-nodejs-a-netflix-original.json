@@ -1,14 +1,19 @@
 {
-  "description": "Container Camp SF 2016 - \n\nYunong Xiao - Software Engineer at Netflix \n\nAt Netflix, our data access platform is at the heart of nearly every request from our subscribers. It enables our innovative UIs to efficiently communicate with our bevy of backend services while growing our subscriber base to 75 million members. As a result of this scale, this monolithic platform requires ever increasing resources to run and maintain, both in terms of hardware (32 vCPUs per instance) and developer productivity (try running that on your laptop!). As we continue to grow and expand our subscriber base globally (#netflixeverywhere), we need to fundamentally change the monolithic design of our platform.\n\nIn this talk, I will discuss the new container based data access platform that\u2019s replacing the monolith. See how the architecture of this cross cutting project allows us to build isolated microservices with Node.js and Docker. Examine the tools and infrastructure we\u2019re building across our stack that enable engineers to effortlessly build, debug, test and their code on this platform anywhere -- whether it\u2019s locally on your laptop, or remotely in the cloud -- all made possible thanks to Docker.",
-  "recorded": "2016-04-15",
-  "speakers": ["yunong-xiao"],
-  "tags": ["Docker", "NodeJS"],
-  "thumbnail_url": "https://i.ytimg.com/vi/B90OabhYJpA/hqdefault.jpg",
-  "title": "Slaying Monoliths with Docker and Node.js, a Netflix Original",
-  "videos": [
-    {
-      "code": "B90OabhYJpA",
-      "type": "youtube"
-    }
-  ]
+    "description": "Container Camp SF 2016 - \n\nYunong Xiao - Software Engineer at Netflix \n\nAt Netflix, our data access platform is at the heart of nearly every request from our subscribers. It enables our innovative UIs to efficiently communicate with our bevy of backend services while growing our subscriber base to 75 million members. As a result of this scale, this monolithic platform requires ever increasing resources to run and maintain, both in terms of hardware (32 vCPUs per instance) and developer productivity (try running that on your laptop!). As we continue to grow and expand our subscriber base globally (#netflixeverywhere), we need to fundamentally change the monolithic design of our platform.\n\nIn this talk, I will discuss the new container based data access platform that\u2019s replacing the monolith. See how the architecture of this cross cutting project allows us to build isolated microservices with Node.js and Docker. Examine the tools and infrastructure we\u2019re building across our stack that enable engineers to effortlessly build, debug, test and their code on this platform anywhere -- whether it\u2019s locally on your laptop, or remotely in the cloud -- all made possible thanks to Docker.",
+    "recorded": "2016-04-15",
+    "speakers": [
+        "yunong-xiao"
+    ],
+    "tags": [
+        "Docker",
+        "NodeJS"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/B90OabhYJpA/hqdefault.jpg",
+    "title": "Slaying Monoliths with Docker and Node.js, a Netflix Original",
+    "videos": [
+        {
+            "code": "B90OabhYJpA",
+            "type": "youtube"
+        }
+    ]
 }

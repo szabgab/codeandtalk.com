@@ -1,14 +1,16 @@
 {
-  "description": "By far the most common way to use Selenium to interact with an application is to code tests that have intimate knowledge of the underlying application. This is simple, but brittle. Others may try to make the test code intelligent, leading to a very complex testing framework. There is a middle ground.\n\n \n\nImagine that we are building a robot to move eggs. A simple robot can deal with identical eggs, but is brittle as soon as new eggs are introduced. An intelligent robot could adapt to variations with sensitive touch sensors. Or, we could use egg-holders with a handle on top. Now all we need is a simple robot that understands handles. If we then want to move something instead of eggs, we just need a new holder \u2013 the handles and the robot remain the same.\n\n \n\nIn this session you\u2019ll learn the metaphor of Robot Handles, discuss ways that we can add meaningful interaction metadata into the application as we build it, and demonstrate how that can be just as helpful for humans as it is for robots\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2521\n\nConference: http://2016.seleniumconf.in",
-  "recorded": "2016-06-24",
-  "speakers": ["andy-palmer"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/XMyo93TmRQA/hqdefault.jpg",
-  "title": "Robot Handles: Giving Selenium a Helping Hand",
-  "videos": [
-    {
-      "code": "XMyo93TmRQA",
-      "type": "youtube"
-    }
-  ]
+    "description": "By far the most common way to use Selenium to interact with an application is to code tests that have intimate knowledge of the underlying application. This is simple, but brittle. Others may try to make the test code intelligent, leading to a very complex testing framework. There is a middle ground.\n\n \n\nImagine that we are building a robot to move eggs. A simple robot can deal with identical eggs, but is brittle as soon as new eggs are introduced. An intelligent robot could adapt to variations with sensitive touch sensors. Or, we could use egg-holders with a handle on top. Now all we need is a simple robot that understands handles. If we then want to move something instead of eggs, we just need a new holder \u2013 the handles and the robot remain the same.\n\n \n\nIn this session you\u2019ll learn the metaphor of Robot Handles, discuss ways that we can add meaningful interaction metadata into the application as we build it, and demonstrate how that can be just as helpful for humans as it is for robots\n\nMore details: https://confengine.com/selenium-conf-2016/proposal/2521\n\nConference: http://2016.seleniumconf.in",
+    "recorded": "2016-06-24",
+    "speakers": [
+        "andy-palmer"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/XMyo93TmRQA/hqdefault.jpg",
+    "title": "Robot Handles: Giving Selenium a Helping Hand",
+    "videos": [
+        {
+            "code": "XMyo93TmRQA",
+            "type": "youtube"
+        }
+    ]
 }

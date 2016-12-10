@@ -1,15 +1,17 @@
 {
-  "description": "This talk introduces Weasel, a new webapp testing library shaped after - and improving on - php's Mink. With it's integration into Test::BDD::Cucumber (pherkin), extensibility and out-of-the-box features such as screenshot and test log recording, it makes for an easy to use platform for BDD style browser-based webapp testing. A spin-off from the LedgerSMB project.\n[ See https://github.com/perl-weasel ]",
-  "recorded": "2016-08-24",
-  "abstract": "http://act.yapc.eu/ye2016/talk/6827",
-  "speakers": ["erik-huelsman"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/L9uNbp15ino/hqdefault.jpg",
-  "title": "BDD webapp testing with Pherkin+Weasel perl's Behat+Mink",
-  "videos": [
-    {
-      "code": "L9uNbp15ino",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://act.yapc.eu/ye2016/talk/6827",
+    "description": "This talk introduces Weasel, a new webapp testing library shaped after - and improving on - php's Mink. With it's integration into Test::BDD::Cucumber (pherkin), extensibility and out-of-the-box features such as screenshot and test log recording, it makes for an easy to use platform for BDD style browser-based webapp testing. A spin-off from the LedgerSMB project.\n[ See https://github.com/perl-weasel ]",
+    "recorded": "2016-08-24",
+    "speakers": [
+        "erik-huelsman"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/L9uNbp15ino/hqdefault.jpg",
+    "title": "BDD webapp testing with Pherkin+Weasel perl's Behat+Mink",
+    "videos": [
+        {
+            "code": "L9uNbp15ino",
+            "type": "youtube"
+        }
+    ]
 }

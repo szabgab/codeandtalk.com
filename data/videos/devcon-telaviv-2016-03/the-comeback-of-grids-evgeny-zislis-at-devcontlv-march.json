@@ -1,14 +1,16 @@
 {
-  "description": "The year 2015 put containers in the spotlight, but now that everyone is using Docker it is time to put containers in production. Grid clusters are again on the rise, this time in the form of Google Kubernetes, Docker Swarm, Amazon ECS and Mesosphere just to name a few. This talk will explain the basic principles of how grids solve problems related to managing large fleets of containers, and what new problems grids introduce to application developers.",
-  "recorded": "2016-03-22",
-  "speakers": ["evgeny-zislis"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/YOPUrxxUBTE/hqdefault.jpg",
-  "title": "The Comeback of Grids",
-  "videos": [
-    {
-      "code": "YOPUrxxUBTE",
-      "type": "youtube"
-    }
-  ]
+    "description": "The year 2015 put containers in the spotlight, but now that everyone is using Docker it is time to put containers in production. Grid clusters are again on the rise, this time in the form of Google Kubernetes, Docker Swarm, Amazon ECS and Mesosphere just to name a few. This talk will explain the basic principles of how grids solve problems related to managing large fleets of containers, and what new problems grids introduce to application developers.",
+    "recorded": "2016-03-22",
+    "speakers": [
+        "evgeny-zislis"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/YOPUrxxUBTE/hqdefault.jpg",
+    "title": "The Comeback of Grids",
+    "videos": [
+        {
+            "code": "YOPUrxxUBTE",
+            "type": "youtube"
+        }
+    ]
 }

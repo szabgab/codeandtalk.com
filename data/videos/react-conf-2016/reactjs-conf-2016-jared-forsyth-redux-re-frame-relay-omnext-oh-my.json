@@ -1,14 +1,16 @@
 {
-  "description": "Managing client-side state is pretty easy for TodoMVC, but soon after you move beyond that, your app can quickly get brittle, discouraging re-use and significantly complicating maintenance. I will give an overview of a few of the libraries/frameworks that have appeared recently that try to address this problem, show how each of them looks when used in the React context, and then discuss advantages, disadvantages, common patterns, and what we can learn.",
-  "recorded": "2016-02-22",
-  "speakers": ["jared-forsyth"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/-jwQ3sGoiXg/hqdefault.jpg",
-  "title": "Redux, Re-frame, Relay, Om/next, oh my!",
-  "videos": [
-    {
-      "code": "-jwQ3sGoiXg",
-      "type": "youtube"
-    }
-  ]
+    "description": "Managing client-side state is pretty easy for TodoMVC, but soon after you move beyond that, your app can quickly get brittle, discouraging re-use and significantly complicating maintenance. I will give an overview of a few of the libraries/frameworks that have appeared recently that try to address this problem, show how each of them looks when used in the React context, and then discuss advantages, disadvantages, common patterns, and what we can learn.",
+    "recorded": "2016-02-22",
+    "speakers": [
+        "jared-forsyth"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/-jwQ3sGoiXg/hqdefault.jpg",
+    "title": "Redux, Re-frame, Relay, Om/next, oh my!",
+    "videos": [
+        {
+            "code": "-jwQ3sGoiXg",
+            "type": "youtube"
+        }
+    ]
 }

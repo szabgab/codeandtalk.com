@@ -1,14 +1,17 @@
 {
-  "description": "When Twitter was faced with the task of re-architecting their backend away from a monolithic Ruby on Rails application to a series of microservices, they turned to Apache Mesos. Mesos is an open source cluster manager that was developed at UC Berkeley and powers the backend of heavily trafficked services like Twitter, Siri and others. Mesos has been proven to scale to tens of thousands of nodes.\n\nUsing Mesos with container software like Docker and other open source tools, you can easily deploy automated infrastructure that scales with both your users and developers. In this presentation, we will introduce and motivate the Apache Mesos project and demonstrate common workflows for building and deploying applications to a cluster of machines.",
-  "recorded": "2016-03-10",
-  "speakers": ["sunil-shah", "philip-norman"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/3qVOlzPvGhQ/hqdefault.jpg",
-  "title": "Scaling Like Twitter With Apache Mesos",
-  "videos": [
-    {
-      "code": "3qVOlzPvGhQ",
-      "type": "youtube"
-    }
-  ]
+    "description": "When Twitter was faced with the task of re-architecting their backend away from a monolithic Ruby on Rails application to a series of microservices, they turned to Apache Mesos. Mesos is an open source cluster manager that was developed at UC Berkeley and powers the backend of heavily trafficked services like Twitter, Siri and others. Mesos has been proven to scale to tens of thousands of nodes.\n\nUsing Mesos with container software like Docker and other open source tools, you can easily deploy automated infrastructure that scales with both your users and developers. In this presentation, we will introduce and motivate the Apache Mesos project and demonstrate common workflows for building and deploying applications to a cluster of machines.",
+    "recorded": "2016-03-10",
+    "speakers": [
+        "sunil-shah",
+        "philip-norman"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/3qVOlzPvGhQ/hqdefault.jpg",
+    "title": "Scaling Like Twitter With Apache Mesos",
+    "videos": [
+        {
+            "code": "3qVOlzPvGhQ",
+            "type": "youtube"
+        }
+    ]
 }

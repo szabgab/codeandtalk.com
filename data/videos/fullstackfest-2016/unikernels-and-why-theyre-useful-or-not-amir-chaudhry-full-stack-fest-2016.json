@@ -1,14 +1,16 @@
 {
-  "description": "Unikernels, built with library operating systems, reinvent earlier ideas for the modern era, improving the specialisation of apps. In fact, there is a continuum of specialisation, with general purpose OSs at one end, unikernels at the other extreme, & containerised apps in between. All these options give developers more freedom & choice over how they write & distribute their apps. However, it also presents challenges in terms of understanding which approach is appropriate for a given use-case. As with all technology, there are trade-offs with unikernels. This talk considers the benefits & drawbacks. By stepping away from hype & clarifying misunderstandings, attendees will appreciate why unikernels exist & where they're going. Attendees will also have a better idea of when they should consider a library OS for their next project, as well as the trade-offs they'll need to consider.\n\nAbout the speaker:\n\nAmir Chaudhry works at Docker to make unikernels accessible to developers everywhere, and is the Community Manager for MirageOS. Most of his time is spent on open source efforts and he\u2019s a big fan of automation to maximise developer impact. In previous lives he was Programme Manager at OCaml Labs, led operations at a medical device start-up, created a seed investing programme, and was a board observer at another startup. Amir also has a diverse academic background with an MSci in Physics and a PhD in Neuroscience. When not working on unikernels, Amir is probably looking at the sky and wondering when he can next go skydiving.\n\nTalk given at Full Stack Fest 2016 (https://www.fullstackfest.com)",
-  "recorded": "2016-09-05",
-  "speakers": ["amir-chaudhry"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/XNu2lze6jS0/hqdefault.jpg",
-  "title": "Unikernels and why they're useful (or not)",
-  "videos": [
-    {
-      "code": "XNu2lze6jS0",
-      "type": "youtube"
-    }
-  ]
+    "description": "Unikernels, built with library operating systems, reinvent earlier ideas for the modern era, improving the specialisation of apps. In fact, there is a continuum of specialisation, with general purpose OSs at one end, unikernels at the other extreme, & containerised apps in between. All these options give developers more freedom & choice over how they write & distribute their apps. However, it also presents challenges in terms of understanding which approach is appropriate for a given use-case. As with all technology, there are trade-offs with unikernels. This talk considers the benefits & drawbacks. By stepping away from hype & clarifying misunderstandings, attendees will appreciate why unikernels exist & where they're going. Attendees will also have a better idea of when they should consider a library OS for their next project, as well as the trade-offs they'll need to consider.\n\nAbout the speaker:\n\nAmir Chaudhry works at Docker to make unikernels accessible to developers everywhere, and is the Community Manager for MirageOS. Most of his time is spent on open source efforts and he\u2019s a big fan of automation to maximise developer impact. In previous lives he was Programme Manager at OCaml Labs, led operations at a medical device start-up, created a seed investing programme, and was a board observer at another startup. Amir also has a diverse academic background with an MSci in Physics and a PhD in Neuroscience. When not working on unikernels, Amir is probably looking at the sky and wondering when he can next go skydiving.\n\nTalk given at Full Stack Fest 2016 (https://www.fullstackfest.com)",
+    "recorded": "2016-09-05",
+    "speakers": [
+        "amir-chaudhry"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/XNu2lze6jS0/hqdefault.jpg",
+    "title": "Unikernels and why they're useful (or not)",
+    "videos": [
+        {
+            "code": "XNu2lze6jS0",
+            "type": "youtube"
+        }
+    ]
 }

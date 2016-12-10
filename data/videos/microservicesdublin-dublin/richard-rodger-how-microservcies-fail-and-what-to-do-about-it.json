@@ -1,14 +1,16 @@
 {
-  "description": "You can access the slides for that presentation here: http://www.slideshare.net/rjrodger/ho...\n\nWith more and more teams using the microservice architecture, and gaining the speed of delivery benefits that it provides, a challenge has emerged in teams that do not have sufficient experience with message-oriented systems. The network is unreliable, has many moving parts, and it\u2019s easy to end up in bad places. Avoiding the curse of the distributed monolith, and avoiding catastrophic failure, are immediate issues facing many new microservice systems. In this talk, a careful analysis is made of the many byzantine ways in which message-oriented systems can fail. A set of remedial approaches is presented, and an empirical report on their effectiveness will also be made. This talk will provide developers with some practical tactics to keep their microservice architectures healthy and performant.",
-  "recorded": "2016-05-03",
-  "speakers": ["richard-rodger"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/N2xlXB3AnKM/hqdefault.jpg",
-  "title": "How Microservcies fail and what to do about it",
-  "videos": [
-    {
-      "code": "N2xlXB3AnKM",
-      "type": "youtube"
-    }
-  ]
+    "description": "You can access the slides for that presentation here: http://www.slideshare.net/rjrodger/ho...\n\nWith more and more teams using the microservice architecture, and gaining the speed of delivery benefits that it provides, a challenge has emerged in teams that do not have sufficient experience with message-oriented systems. The network is unreliable, has many moving parts, and it\u2019s easy to end up in bad places. Avoiding the curse of the distributed monolith, and avoiding catastrophic failure, are immediate issues facing many new microservice systems. In this talk, a careful analysis is made of the many byzantine ways in which message-oriented systems can fail. A set of remedial approaches is presented, and an empirical report on their effectiveness will also be made. This talk will provide developers with some practical tactics to keep their microservice architectures healthy and performant.",
+    "recorded": "2016-05-03",
+    "speakers": [
+        "richard-rodger"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/N2xlXB3AnKM/hqdefault.jpg",
+    "title": "How Microservcies fail and what to do about it",
+    "videos": [
+        {
+            "code": "N2xlXB3AnKM",
+            "type": "youtube"
+        }
+    ]
 }

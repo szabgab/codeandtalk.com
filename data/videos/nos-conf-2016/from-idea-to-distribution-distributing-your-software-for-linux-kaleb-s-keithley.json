@@ -1,14 +1,16 @@
 {
-  "description": "In this talk the audience will learn how to package software in popular Linux distributions. The talk will cover using portable build tools like automake/autoconf/libtool and cmake; packaging RPMs and Debian dpkgs; how to get your package(s) into Fedora, EPEL and CentOS; plus use of Fedora and CentOS koji, as well as SuSE's Build System and Ubuntu Launchpad.\n\nLinks:\nhttp://nosconf.github.io/",
-  "recorded": "2016-03-18",
-  "speakers": ["kaleb-s-keithley"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/EVPQ1B_Rskk/hqdefault.jpg",
-  "title": "Distributing your Software for Linux",
-  "videos": [
-    {
-      "code": "EVPQ1B_Rskk",
-      "type": "youtube"
-    }
-  ]
+    "description": "In this talk the audience will learn how to package software in popular Linux distributions. The talk will cover using portable build tools like automake/autoconf/libtool and cmake; packaging RPMs and Debian dpkgs; how to get your package(s) into Fedora, EPEL and CentOS; plus use of Fedora and CentOS koji, as well as SuSE's Build System and Ubuntu Launchpad.\n\nLinks:\nhttp://nosconf.github.io/",
+    "recorded": "2016-03-18",
+    "speakers": [
+        "kaleb-s-keithley"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/EVPQ1B_Rskk/hqdefault.jpg",
+    "title": "Distributing your Software for Linux",
+    "videos": [
+        {
+            "code": "EVPQ1B_Rskk",
+            "type": "youtube"
+        }
+    ]
 }

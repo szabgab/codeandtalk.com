@@ -1,14 +1,16 @@
 {
-  "description": "One of the newest additions to systemd is the journal, a new logging framework with the goal of bringing Unix logging to the 21st century. It provides support for structured, indexed, robust, authenticated logging while integrating the multitude of system log sources we have into one. As it is a core component of systemd there might be a good chance you are already running it. In this talk I plan to give an overview on the Why?, the What? and the How? of the journal. I'll explain the technical background of systemd and provide you with a few examples how\nyou can make the journal work for you.",
-  "recorded": "2012-10-27",
-  "speakers": ["lennart-poettering"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/o1lUeQVYuNs/hqdefault.jpg",
-  "title": "The Systemd Journal",
-  "videos": [
-    {
-      "code": "o1lUeQVYuNs",
-      "type": "youtube"
-    }
-  ]
+    "description": "One of the newest additions to systemd is the journal, a new logging framework with the goal of bringing Unix logging to the 21st century. It provides support for structured, indexed, robust, authenticated logging while integrating the multitude of system log sources we have into one. As it is a core component of systemd there might be a good chance you are already running it. In this talk I plan to give an overview on the Why?, the What? and the How? of the journal. I'll explain the technical background of systemd and provide you with a few examples how\nyou can make the journal work for you.",
+    "recorded": "2012-10-27",
+    "speakers": [
+        "lennart-poettering"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/o1lUeQVYuNs/hqdefault.jpg",
+    "title": "The Systemd Journal",
+    "videos": [
+        {
+            "code": "o1lUeQVYuNs",
+            "type": "youtube"
+        }
+    ]
 }

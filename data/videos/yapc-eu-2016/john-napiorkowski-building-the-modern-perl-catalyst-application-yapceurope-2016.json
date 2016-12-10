@@ -1,15 +1,17 @@
 {
-  "description": "Perl Catalyst is a modern, MVC (model-view-controller) development framework for building the server side of your web application. Its also been around for a while (its in its 10th year!) and the current tutorials, books and various online documentation don't make it easy to see the distilled wisdom of the ages. In this tutorial I'll show you my current approach to building a moderately complex website, starting with automation and covering everything from database setup, framework skeleton, testing, API development and deployment to various cloud providers. We'll also sketch out some ideas about what's next for Catalyst users, and talk about the cutting edge of web development using web sockets and related persistent protocols and we and thoughts about a Catalyst component based architecture.",
-  "recorded": "2016-08-24",
-  "abstract": "http://act.yapc.eu/ye2016/talk/6728",
-  "speakers": ["john-napiorkowski"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/Xmc95QJW8nU/hqdefault.jpg",
-  "title": "Building the Modern Perl Catalyst Application",
-  "videos": [
-    {
-      "code": "Xmc95QJW8nU",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://act.yapc.eu/ye2016/talk/6728",
+    "description": "Perl Catalyst is a modern, MVC (model-view-controller) development framework for building the server side of your web application. Its also been around for a while (its in its 10th year!) and the current tutorials, books and various online documentation don't make it easy to see the distilled wisdom of the ages. In this tutorial I'll show you my current approach to building a moderately complex website, starting with automation and covering everything from database setup, framework skeleton, testing, API development and deployment to various cloud providers. We'll also sketch out some ideas about what's next for Catalyst users, and talk about the cutting edge of web development using web sockets and related persistent protocols and we and thoughts about a Catalyst component based architecture.",
+    "recorded": "2016-08-24",
+    "speakers": [
+        "john-napiorkowski"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/Xmc95QJW8nU/hqdefault.jpg",
+    "title": "Building the Modern Perl Catalyst Application",
+    "videos": [
+        {
+            "code": "Xmc95QJW8nU",
+            "type": "youtube"
+        }
+    ]
 }

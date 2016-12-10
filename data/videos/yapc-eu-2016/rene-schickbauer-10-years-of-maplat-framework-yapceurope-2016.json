@@ -1,15 +1,17 @@
 {
-  "description": "For close to 10 years now, i have been working on my Maplat webserver, written in Perl. \n\nWell, when i say webserver, it evolved into much more. Its Front- and Backends run a big system at work (automotive supplier), my home air conditioner is controlled by it, so is my personal blog. My DNS runs on Maplat.\n\nOn Linuxdays in Graz it ran a distributed Genetic algorithm for Strandbeest legs with real-time visualization - on a Raspberry Pi cluster. I also used it to live-demo a Zero Day exploit on a popular webservice.\n\nIn this talk, i'll give an overview what Maplat is, how you can use it in your projects and how it will evolve in the future.",
-  "recorded": "2016-08-24",
-  "abstract": "http://act.yapc.eu/ye2016/talk/6791",
-  "speakers": ["rene-schickbauer"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/dJulNDpKDJY/hqdefault.jpg",
-  "title": "10 years of Maplat framework",
-  "videos": [
-    {
-      "code": "dJulNDpKDJY",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://act.yapc.eu/ye2016/talk/6791",
+    "description": "For close to 10 years now, i have been working on my Maplat webserver, written in Perl. \n\nWell, when i say webserver, it evolved into much more. Its Front- and Backends run a big system at work (automotive supplier), my home air conditioner is controlled by it, so is my personal blog. My DNS runs on Maplat.\n\nOn Linuxdays in Graz it ran a distributed Genetic algorithm for Strandbeest legs with real-time visualization - on a Raspberry Pi cluster. I also used it to live-demo a Zero Day exploit on a popular webservice.\n\nIn this talk, i'll give an overview what Maplat is, how you can use it in your projects and how it will evolve in the future.",
+    "recorded": "2016-08-24",
+    "speakers": [
+        "rene-schickbauer"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/dJulNDpKDJY/hqdefault.jpg",
+    "title": "10 years of Maplat framework",
+    "videos": [
+        {
+            "code": "dJulNDpKDJY",
+            "type": "youtube"
+        }
+    ]
 }

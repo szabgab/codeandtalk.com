@@ -1,15 +1,17 @@
 {
-  "description": "How to write command line tools with a good user experience\n\nWrite a specification and get nested subcommands, option and parameter specification and validation, help, documentation, and advanced shell tab completion.\n\n\nGood commandline tools\n* give good usage error messages\n* have good usage output\n* have useful shell tab completion\n* have good man pages\n\nYour CLI framework should do that work for you, and you should not have to write duplicate code/pod.\n\nI'll show a framework that tries to implement all these things, and some examples to demonstrate how advanced completion can make the life of your users much easier.",
-  "recorded": "2016-08-24",
-  "abstract": "http://act.yapc.eu/ye2016/talk/6720",
-  "speakers": ["tina-mueller"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/9qtYSJ9GXXo/hqdefault.jpg",
-  "title": "Writing command line tools made easy",
-  "videos": [
-    {
-      "code": "9qtYSJ9GXXo",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://act.yapc.eu/ye2016/talk/6720",
+    "description": "How to write command line tools with a good user experience\n\nWrite a specification and get nested subcommands, option and parameter specification and validation, help, documentation, and advanced shell tab completion.\n\n\nGood commandline tools\n* give good usage error messages\n* have good usage output\n* have useful shell tab completion\n* have good man pages\n\nYour CLI framework should do that work for you, and you should not have to write duplicate code/pod.\n\nI'll show a framework that tries to implement all these things, and some examples to demonstrate how advanced completion can make the life of your users much easier.",
+    "recorded": "2016-08-24",
+    "speakers": [
+        "tina-mueller"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/9qtYSJ9GXXo/hqdefault.jpg",
+    "title": "Writing command line tools made easy",
+    "videos": [
+        {
+            "code": "9qtYSJ9GXXo",
+            "type": "youtube"
+        }
+    ]
 }

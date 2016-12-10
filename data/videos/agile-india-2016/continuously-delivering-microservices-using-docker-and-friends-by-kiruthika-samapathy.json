@@ -1,15 +1,19 @@
 {
-  "description": "No one has escaped the \"Microservices\" wave recently. As every architecture brings with it a lot of good practises, microservices brings success by helping us achieve a faster to market releases. Though the concept of \"two-pizza\" teams has been prevalent from early 2000\u2019s, we now have many successful poster children to learn from. The success in this journey depends on infrastructure, automation, architecture and process elements. These includes good CI practises, different testing approaches, dynamic service registration & discovery, orchestration, logging and tracing. Though they are familiar, we all know that it is not as easy as it sounds, let us see what we need to consider from start to finish to make Microservices journey a real success in a 'show and tell' format.\n\nSneak Peek of what to expect: A bit of many concepts with corresponding tools including CI, Microservices, Docker, Consumer Driven Contracts, Service discovery, Consul, Registator, Multihost deployments, Kibana, Elastic search, Prometheus",
-  "abstract": "https://confengine.com/agile-india-2016/proposal/1762",
-  "recorded": "2016-03-14",
-  "speakers": ["kiruthika-samapathy"],
-  "tags": ["Docker"],
-  "thumbnail_url": "https://i.ytimg.com/vi/_gTsegvLdqo/hqdefault.jpg",
-  "title": "Continuously Delivering Microservices using Docker and Friends",
-  "videos": [
-    {
-      "code": "_gTsegvLdqo",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "https://confengine.com/agile-india-2016/proposal/1762",
+    "description": "No one has escaped the \"Microservices\" wave recently. As every architecture brings with it a lot of good practises, microservices brings success by helping us achieve a faster to market releases. Though the concept of \"two-pizza\" teams has been prevalent from early 2000\u2019s, we now have many successful poster children to learn from. The success in this journey depends on infrastructure, automation, architecture and process elements. These includes good CI practises, different testing approaches, dynamic service registration & discovery, orchestration, logging and tracing. Though they are familiar, we all know that it is not as easy as it sounds, let us see what we need to consider from start to finish to make Microservices journey a real success in a 'show and tell' format.\n\nSneak Peek of what to expect: A bit of many concepts with corresponding tools including CI, Microservices, Docker, Consumer Driven Contracts, Service discovery, Consul, Registator, Multihost deployments, Kibana, Elastic search, Prometheus",
+    "recorded": "2016-03-14",
+    "speakers": [
+        "kiruthika-samapathy"
+    ],
+    "tags": [
+        "Docker"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/_gTsegvLdqo/hqdefault.jpg",
+    "title": "Continuously Delivering Microservices using Docker and Friends",
+    "videos": [
+        {
+            "code": "_gTsegvLdqo",
+            "type": "youtube"
+        }
+    ]
 }

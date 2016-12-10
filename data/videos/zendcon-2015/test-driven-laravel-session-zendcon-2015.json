@@ -1,16 +1,26 @@
 {
-  "recorded": "2015-10-19",
-  "speakers": ["adam-wathan"],
-  "blasters": ["php", "testing"],
-  "length": "44:03",
-  "featured": "2016-12-04",
-  "tags": ["php", "laravel", "testing", "tdd"],
-  "thumbnail_url": "https://i.ytimg.com/vi/ENd20EiY18c/hqdefault.jpg",
-  "title": "Test Driven Laravel",
-  "videos": [
-    {
-      "code": "ENd20EiY18c",
-      "type": "youtube"
-    }
-  ]
+    "blasters": [
+        "php",
+        "testing"
+    ],
+    "featured": "2016-12-04",
+    "length": "44:03",
+    "recorded": "2015-10-19",
+    "speakers": [
+        "adam-wathan"
+    ],
+    "tags": [
+        "php",
+        "laravel",
+        "testing",
+        "tdd"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/ENd20EiY18c/hqdefault.jpg",
+    "title": "Test Driven Laravel",
+    "videos": [
+        {
+            "code": "ENd20EiY18c",
+            "type": "youtube"
+        }
+    ]
 }

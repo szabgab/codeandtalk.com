@@ -1,18 +1,27 @@
 {
-  "recorded": "2016-06-20",
-  "speakers": ["james-lance"],
-  "tags": ["Perl", "Vagrant", "Docker", "Ansible"],
-  "blasters": ["perl"],
-  "featured": "2016-12-02",
-  "slides": "https://docs.google.com/presentation/d/1zPzj8Z4eovFRyVHEcwRaJ_bpyd7tZzyMlsdI8yeWOIc",
-  "length": "20:06",
-  "thumbnail_url": "https://i.ytimg.com/vi/3hjzQsvNjgM/hqdefault.jpg",
-  "title": "Beginning with Perl and Vagrant (and Ansible)",
-  "abstract": "http://www.yapcna.org/yn2016/talk/6697",
-  "videos": [
-    {
-      "code": "3hjzQsvNjgM",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://www.yapcna.org/yn2016/talk/6697",
+    "blasters": [
+        "perl"
+    ],
+    "featured": "2016-12-02",
+    "length": "20:06",
+    "recorded": "2016-06-20",
+    "slides": "https://docs.google.com/presentation/d/1zPzj8Z4eovFRyVHEcwRaJ_bpyd7tZzyMlsdI8yeWOIc",
+    "speakers": [
+        "james-lance"
+    ],
+    "tags": [
+        "Perl",
+        "Vagrant",
+        "Docker",
+        "Ansible"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/3hjzQsvNjgM/hqdefault.jpg",
+    "title": "Beginning with Perl and Vagrant (and Ansible)",
+    "videos": [
+        {
+            "code": "3hjzQsvNjgM",
+            "type": "youtube"
+        }
+    ]
 }

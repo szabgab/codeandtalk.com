@@ -1,14 +1,16 @@
 {
-  "description": "One of the greatest challenges of building a rich UI is keeping track of all that is changing: incoming touch and mouse events, new data from your servers, animations, and more. Here we propose a new way to tackle this challenge that is as old as computing itself: don't let anything change in the first place. Come learn about how to build rich and highly performant UIs without losing your sanity by leveraging immutable data and the optimization techniques it enables.\n\nAbout the speaker:\n\nLee has been making things at Facebook since 2008: React, GraphQL, Immutable.js, Mobile, JavaScript, Nonsense.\n\n\nTalk given at Full Stack Fest 2016 (https://www.fullstackfest.com)",
-  "recorded": "2016-09-05",
-  "speakers": ["lee-byron"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/pLvrZPSzHxo/hqdefault.jpg",
-  "title": "Immutable User Interfaces",
-  "videos": [
-    {
-      "code": "pLvrZPSzHxo",
-      "type": "youtube"
-    }
-  ]
+    "description": "One of the greatest challenges of building a rich UI is keeping track of all that is changing: incoming touch and mouse events, new data from your servers, animations, and more. Here we propose a new way to tackle this challenge that is as old as computing itself: don't let anything change in the first place. Come learn about how to build rich and highly performant UIs without losing your sanity by leveraging immutable data and the optimization techniques it enables.\n\nAbout the speaker:\n\nLee has been making things at Facebook since 2008: React, GraphQL, Immutable.js, Mobile, JavaScript, Nonsense.\n\n\nTalk given at Full Stack Fest 2016 (https://www.fullstackfest.com)",
+    "recorded": "2016-09-05",
+    "speakers": [
+        "lee-byron"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/pLvrZPSzHxo/hqdefault.jpg",
+    "title": "Immutable User Interfaces",
+    "videos": [
+        {
+            "code": "pLvrZPSzHxo",
+            "type": "youtube"
+        }
+    ]
 }

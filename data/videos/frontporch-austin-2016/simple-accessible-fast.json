@@ -1,14 +1,22 @@
 {
-  "description": "Presenting speaker, Estelle Weyl\n\nLeverage CSS and semantic HTML, with only a touch of JS, to create fully accessible web applications.\n\nhttp://frontporch.io/resource/",
-  "recorded": "2016-07-19",
-  "speakers": ["estelle-weyl"],
-  "thumbnail_url": "https://i.ytimg.com/vi/AA3WacrYolg/hqdefault.jpg",
-  "title": "Simple. Accessible. Fast.",
-  "tags" : ["Inclusive design", "accessibility", "a11y", "performance", "web standards"],
-  "videos": [
-    {
-      "type": "youtube",
-      "code": "AA3WacrYolg"
-    }
-  ]
+    "description": "Presenting speaker, Estelle Weyl\n\nLeverage CSS and semantic HTML, with only a touch of JS, to create fully accessible web applications.\n\nhttp://frontporch.io/resource/",
+    "recorded": "2016-07-19",
+    "speakers": [
+        "estelle-weyl"
+    ],
+    "tags": [
+        "Inclusive design",
+        "accessibility",
+        "a11y",
+        "performance",
+        "web standards"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/AA3WacrYolg/hqdefault.jpg",
+    "title": "Simple. Accessible. Fast.",
+    "videos": [
+        {
+            "code": "AA3WacrYolg",
+            "type": "youtube"
+        }
+    ]
 }

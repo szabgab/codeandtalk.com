@@ -1,15 +1,17 @@
 {
-  "description": "With increasing CPU speeds, other bottlenecks arise; e.g. branch prediction and memory latency. In this talk we'll explore how to identify performance issues using perf, and how to take these bottlenecks away. We'll discuss prefetching (both hardware and software), conditional execution, and how we can use the compiler to help us. Finally, we'll do an analysis of the resulting improvements using both simulations and actual RTL.",
-  "recorded": "2013-10-26",
-  "abstract": "http://www.t-dose.org/2013/talks/fighting-latency-how-optimize-your-system-using-perf",
-  "speakers": ["mischa-jonker"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/FEBZp43ATig/hqdefault.jpg",
-  "title": "Fighting latency: How to optimize your system using perf",
-  "videos": [
-    {
-      "code": "FEBZp43ATig",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://www.t-dose.org/2013/talks/fighting-latency-how-optimize-your-system-using-perf",
+    "description": "With increasing CPU speeds, other bottlenecks arise; e.g. branch prediction and memory latency. In this talk we'll explore how to identify performance issues using perf, and how to take these bottlenecks away. We'll discuss prefetching (both hardware and software), conditional execution, and how we can use the compiler to help us. Finally, we'll do an analysis of the resulting improvements using both simulations and actual RTL.",
+    "recorded": "2013-10-26",
+    "speakers": [
+        "mischa-jonker"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/FEBZp43ATig/hqdefault.jpg",
+    "title": "Fighting latency: How to optimize your system using perf",
+    "videos": [
+        {
+            "code": "FEBZp43ATig",
+            "type": "youtube"
+        }
+    ]
 }

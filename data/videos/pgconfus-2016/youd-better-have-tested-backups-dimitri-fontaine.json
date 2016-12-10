@@ -1,15 +1,17 @@
 {
-  "description": "A PostgreSQL data recovery tale from a true story, where we dig deeper and deeper into the PostgreSQL internals in order to be able to get back some data from a destroyed cluster.\n\nIf that story doesn't leave you wanting to check all your backups before the talk has ended, I don't know what will.",
-  "recorded": "2016-04-18",
-  "abstract" : "http://www.pgconf.us/2016/event/149/youd-better-have-tested-backups/",
-  "speakers": ["dimitri-fontaine"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/QkTmnqnUbmc/hqdefault.jpg",
-  "title": "You'd better have tested backups",
-  "videos": [
-    {
-      "code": "QkTmnqnUbmc",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://www.pgconf.us/2016/event/149/youd-better-have-tested-backups/",
+    "description": "A PostgreSQL data recovery tale from a true story, where we dig deeper and deeper into the PostgreSQL internals in order to be able to get back some data from a destroyed cluster.\n\nIf that story doesn't leave you wanting to check all your backups before the talk has ended, I don't know what will.",
+    "recorded": "2016-04-18",
+    "speakers": [
+        "dimitri-fontaine"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/QkTmnqnUbmc/hqdefault.jpg",
+    "title": "You'd better have tested backups",
+    "videos": [
+        {
+            "code": "QkTmnqnUbmc",
+            "type": "youtube"
+        }
+    ]
 }

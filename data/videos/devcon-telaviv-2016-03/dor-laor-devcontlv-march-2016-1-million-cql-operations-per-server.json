@@ -1,14 +1,16 @@
 {
-  "description": "CPU core counts continue to grow, along with the raw speed of networking and storage devices available on a modern system. Software design approaches that were valid and safe even a few years ago are no longer sustainable. On new hardware, the performance of standard workloads depends more on locking and coordination across cores than on performance of an individual core.\n\nThe team behind the KVM hypervisor and the OSv unikernel is moving up the stack. The Seastar platform enables extreme high-throughput, low-latency applications on Linux, and can make existing real-world workloads run completely asynchronously.\n\nSeastar uses shared-nothing data structures that eliminate costly locking between CPUs, and a dedicated user-space TCP implementation that runs on DPDK. These radical changes in the server design translate into 5X-10x performance gain while preserving all of the Cassandra goodies",
-  "recorded": "2016-03-22",
-  "speakers": ["dor-laor"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/QDyr-yygU2A/hqdefault.jpg",
-  "title": "1 Million CQL operations per server",
-  "videos": [
-    {
-      "code": "QDyr-yygU2A",
-      "type": "youtube"
-    }
-  ]
+    "description": "CPU core counts continue to grow, along with the raw speed of networking and storage devices available on a modern system. Software design approaches that were valid and safe even a few years ago are no longer sustainable. On new hardware, the performance of standard workloads depends more on locking and coordination across cores than on performance of an individual core.\n\nThe team behind the KVM hypervisor and the OSv unikernel is moving up the stack. The Seastar platform enables extreme high-throughput, low-latency applications on Linux, and can make existing real-world workloads run completely asynchronously.\n\nSeastar uses shared-nothing data structures that eliminate costly locking between CPUs, and a dedicated user-space TCP implementation that runs on DPDK. These radical changes in the server design translate into 5X-10x performance gain while preserving all of the Cassandra goodies",
+    "recorded": "2016-03-22",
+    "speakers": [
+        "dor-laor"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/QDyr-yygU2A/hqdefault.jpg",
+    "title": "1 Million CQL operations per server",
+    "videos": [
+        {
+            "code": "QDyr-yygU2A",
+            "type": "youtube"
+        }
+    ]
 }

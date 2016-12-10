@@ -1,14 +1,16 @@
 {
-  "description": "Presenting adhocr (abbreviation for Ad-hoc copy and run) as a simple, but powerful UNIX administrator tool. If you like to retrieve data or execute commands on lots of systems simultaneously then this tool is your friend. There is no need to exchange your ssh keys as the power behind adhocr is the expect tool (language). For example, it is plain easy to use adhocr to distribute your public ssh key to all your systems. The real power of adhocr is the central point of logging, which is perfect for 'grep'ing into stuff you're looking for.\nYou also have the ability to execute commands via the 'sudo su -' way, which is a blessing in environments where root is not permitted to login directly.\nYou can even use it monitoring your systems thanks to the powerful error catching.",
-  "recorded": "2012-10-27",
-  "speakers": ["gratien-dhaese"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/z-7X80Hv4j4/hqdefault.jpg",
-  "title": "Ad-hoc Copy and Run (adhocr)",
-  "videos": [
-    {
-      "code": "z-7X80Hv4j4",
-      "type": "youtube"
-    }
-  ]
+    "description": "Presenting adhocr (abbreviation for Ad-hoc copy and run) as a simple, but powerful UNIX administrator tool. If you like to retrieve data or execute commands on lots of systems simultaneously then this tool is your friend. There is no need to exchange your ssh keys as the power behind adhocr is the expect tool (language). For example, it is plain easy to use adhocr to distribute your public ssh key to all your systems. The real power of adhocr is the central point of logging, which is perfect for 'grep'ing into stuff you're looking for.\nYou also have the ability to execute commands via the 'sudo su -' way, which is a blessing in environments where root is not permitted to login directly.\nYou can even use it monitoring your systems thanks to the powerful error catching.",
+    "recorded": "2012-10-27",
+    "speakers": [
+        "gratien-dhaese"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/z-7X80Hv4j4/hqdefault.jpg",
+    "title": "Ad-hoc Copy and Run (adhocr)",
+    "videos": [
+        {
+            "code": "z-7X80Hv4j4",
+            "type": "youtube"
+        }
+    ]
 }

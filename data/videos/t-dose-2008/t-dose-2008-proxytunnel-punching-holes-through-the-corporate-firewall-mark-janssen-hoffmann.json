@@ -1,15 +1,17 @@
 {
-  "description": "Explain how proxies work and how proxytunnel takes abuse of them. Show different scenarios where proxytunnel can be useful and present a new method we called \"proxy bouncing\" to break through any SSL-capable proxy.",
-  "recorded": "2008-10-25",
-  "abstract": "http://www.t-dose.org/2008/talk/proxytunnel",
-  "speakers": ["mark-janssen-hoffmann"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/zbPpHjUTTUY/hqdefault.jpg",
-  "title": "Proxytunnel - Punching holes through the corporate firewall",
-  "videos": [
-    {
-      "code": "zbPpHjUTTUY",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://www.t-dose.org/2008/talk/proxytunnel",
+    "description": "Explain how proxies work and how proxytunnel takes abuse of them. Show different scenarios where proxytunnel can be useful and present a new method we called \"proxy bouncing\" to break through any SSL-capable proxy.",
+    "recorded": "2008-10-25",
+    "speakers": [
+        "mark-janssen-hoffmann"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/zbPpHjUTTUY/hqdefault.jpg",
+    "title": "Proxytunnel - Punching holes through the corporate firewall",
+    "videos": [
+        {
+            "code": "zbPpHjUTTUY",
+            "type": "youtube"
+        }
+    ]
 }

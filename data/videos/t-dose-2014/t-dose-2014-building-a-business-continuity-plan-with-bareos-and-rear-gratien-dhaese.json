@@ -1,15 +1,17 @@
 {
-  "description": "Business Continuity (BC) Management is often confused with Disaster Recovery (DR) Planning as\noften BC steps are mentioned as part of a DR handbook. During this talk we will highlight what BC is all about and how to get started with it. Creating a DR Plan for certain key systems is only a small part of BC Management and as an example we will illustrate how a central backup server (using BAREOS backup software) plays an important role in DR scenarios of keys systems of your datacenter.\nHowever, when the backup server itself is lost you need to foresee a recovery plan for it as well. To fill that gab you could use a disaster recovery tool such as Relax-and-Recover (rear) to restore the Bareos server from bare-metal.\n\nGratien D'haese is a Belgian independent IT Consultant who is already over 25 years active in the Unix world (and with Linux since its invention in 1991). Gratien has a broad experience with Unix in general, Unix networking and security, big system administration tasks, clustering, consultancy and project management.\nGratien is quite active in the Unix/Linux Open Source world and is giving talks around various\ntopics since the days of the Belgian UNIX Users Group and other organizations promoting\nUnix/Linux and the Open Source movement. On occasions he talks about his projects on\nconferences, such as at Fosdem, LinuxTag, T-Dose, OSBC and LOAD with talks around Relax-and-\nRecover, IPv6, adhocr.\nGratien is the co-founder and main designer of Relax-and-Recover (rear) together with Schlomo\nSchapiro (from Germany). This project started in 2006 and the software is part of Fedora, EPEL and SLES HA - [http://relax-and-recover.org/]\nGratien is also involved with other Open Source projects, such as Upgrade-UX, \"Make CD-ROM\nRecovery (mkcdrec)\" (which is the forerunner of rear), WBEMextras, adhcor, CFG2HTML,\nSANmigration, sgesap_validation, c4 and dupro.",
-  "recorded": "2014-10-25",
-  "abstract" : "http://www.t-dose.org/2014/talks/building-business-continuity-plan-bareos-and-rear",
-  "speakers": ["gratien-dhaese"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/cNwa2KE5zUU/hqdefault.jpg",
-  "title": "Building a Business Continuity Plan with Bareos and rear",
-  "videos": [
-    {
-      "code": "cNwa2KE5zUU",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://www.t-dose.org/2014/talks/building-business-continuity-plan-bareos-and-rear",
+    "description": "Business Continuity (BC) Management is often confused with Disaster Recovery (DR) Planning as\noften BC steps are mentioned as part of a DR handbook. During this talk we will highlight what BC is all about and how to get started with it. Creating a DR Plan for certain key systems is only a small part of BC Management and as an example we will illustrate how a central backup server (using BAREOS backup software) plays an important role in DR scenarios of keys systems of your datacenter.\nHowever, when the backup server itself is lost you need to foresee a recovery plan for it as well. To fill that gab you could use a disaster recovery tool such as Relax-and-Recover (rear) to restore the Bareos server from bare-metal.\n\nGratien D'haese is a Belgian independent IT Consultant who is already over 25 years active in the Unix world (and with Linux since its invention in 1991). Gratien has a broad experience with Unix in general, Unix networking and security, big system administration tasks, clustering, consultancy and project management.\nGratien is quite active in the Unix/Linux Open Source world and is giving talks around various\ntopics since the days of the Belgian UNIX Users Group and other organizations promoting\nUnix/Linux and the Open Source movement. On occasions he talks about his projects on\nconferences, such as at Fosdem, LinuxTag, T-Dose, OSBC and LOAD with talks around Relax-and-\nRecover, IPv6, adhocr.\nGratien is the co-founder and main designer of Relax-and-Recover (rear) together with Schlomo\nSchapiro (from Germany). This project started in 2006 and the software is part of Fedora, EPEL and SLES HA - [http://relax-and-recover.org/]\nGratien is also involved with other Open Source projects, such as Upgrade-UX, \"Make CD-ROM\nRecovery (mkcdrec)\" (which is the forerunner of rear), WBEMextras, adhcor, CFG2HTML,\nSANmigration, sgesap_validation, c4 and dupro.",
+    "recorded": "2014-10-25",
+    "speakers": [
+        "gratien-dhaese"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/cNwa2KE5zUU/hqdefault.jpg",
+    "title": "Building a Business Continuity Plan with Bareos and rear",
+    "videos": [
+        {
+            "code": "cNwa2KE5zUU",
+            "type": "youtube"
+        }
+    ]
 }

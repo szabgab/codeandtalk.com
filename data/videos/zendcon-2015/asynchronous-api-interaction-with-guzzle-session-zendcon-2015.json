@@ -1,17 +1,26 @@
 {
-  "recorded": "2015-10-19",
-  "speakers": ["jeremy-lindblom"],
-  "tags": ["PHP", "Guzzle", "asynchronous", "promises"],
-  "thumbnail_url": "https://i.ytimg.com/vi/4J7p0CZ0aQ4/hqdefault.jpg",
-  "featured": "2016-11-28",
-  "blasters": ["php"],
-  "length": "55:14",
-  "slides": "https://speakerdeck.com/jeremeamia/asynchronous-api-interaction-with-guzzle",
-  "title": "Asynchronous API Interaction with Guzzle Session",
-  "videos": [
-    {
-      "code": "4J7p0CZ0aQ4",
-      "type": "youtube"
-    }
-  ]
+    "blasters": [
+        "php"
+    ],
+    "featured": "2016-11-28",
+    "length": "55:14",
+    "recorded": "2015-10-19",
+    "slides": "https://speakerdeck.com/jeremeamia/asynchronous-api-interaction-with-guzzle",
+    "speakers": [
+        "jeremy-lindblom"
+    ],
+    "tags": [
+        "PHP",
+        "Guzzle",
+        "asynchronous",
+        "promises"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/4J7p0CZ0aQ4/hqdefault.jpg",
+    "title": "Asynchronous API Interaction with Guzzle Session",
+    "videos": [
+        {
+            "code": "4J7p0CZ0aQ4",
+            "type": "youtube"
+        }
+    ]
 }

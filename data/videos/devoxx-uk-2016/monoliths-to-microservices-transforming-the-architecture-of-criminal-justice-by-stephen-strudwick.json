@@ -1,14 +1,16 @@
 {
-  "description": "An exploration of the architectural challenges within government and how the Ministry of Justice is introducing true digital transformation by tackling the underlying problems within the system.\n\nOver the last couple of years the UK Government has delivered the first wave of Digital Services but they have been hampered by integrations with legacy systems locked away inside walled gardens and immutable monoliths.\n\nMicroservice architecture offers both a compelling alternative and an achievable plan to slay these lumbering giants by slicing them up into smaller systems which do one thing well, have proportionate security and are highly connected over less trusted networks.\n\nThis talk will explore the far-reaching consequences of adopting microservice architecture in government, particularly focusing on real examples inside Criminal Justice.",
-  "recorded": "2016-06-08",
-  "speakers": ["stephen-strudwick"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/AYIYrYsF8dE/hqdefault.jpg",
-  "title": "Monoliths to Microservices: Transforming the architecture of Criminal Justice",
-  "videos": [
-    {
-      "code": "AYIYrYsF8dE",
-      "type": "youtube"
-    }
-  ]
+    "description": "An exploration of the architectural challenges within government and how the Ministry of Justice is introducing true digital transformation by tackling the underlying problems within the system.\n\nOver the last couple of years the UK Government has delivered the first wave of Digital Services but they have been hampered by integrations with legacy systems locked away inside walled gardens and immutable monoliths.\n\nMicroservice architecture offers both a compelling alternative and an achievable plan to slay these lumbering giants by slicing them up into smaller systems which do one thing well, have proportionate security and are highly connected over less trusted networks.\n\nThis talk will explore the far-reaching consequences of adopting microservice architecture in government, particularly focusing on real examples inside Criminal Justice.",
+    "recorded": "2016-06-08",
+    "speakers": [
+        "stephen-strudwick"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/AYIYrYsF8dE/hqdefault.jpg",
+    "title": "Monoliths to Microservices: Transforming the architecture of Criminal Justice",
+    "videos": [
+        {
+            "code": "AYIYrYsF8dE",
+            "type": "youtube"
+        }
+    ]
 }

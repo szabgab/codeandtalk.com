@@ -1,15 +1,17 @@
 {
-  "description": "Even if you learned C in a classroom at some point, Perl's \"XS\" API for writing perl subs in something purported to be C but is really a cat on a tablet with caps lock on. In this talk I will show how difficult it is to write subs in plain C. This talk will make XS seem like a cakewalk.",
-  "abstract": "http://act.yapc.eu/ye2016/talk/6778",
-  "recorded": "2016-08-24",
-  "speakers": ["bulk-88"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/COjVlgbPVn4/hqdefault.jpg",
-  "title": "Writing XS in plain C",
-  "videos": [
-    {
-      "code": "COjVlgbPVn4",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://act.yapc.eu/ye2016/talk/6778",
+    "description": "Even if you learned C in a classroom at some point, Perl's \"XS\" API for writing perl subs in something purported to be C but is really a cat on a tablet with caps lock on. In this talk I will show how difficult it is to write subs in plain C. This talk will make XS seem like a cakewalk.",
+    "recorded": "2016-08-24",
+    "speakers": [
+        "bulk-88"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/COjVlgbPVn4/hqdefault.jpg",
+    "title": "Writing XS in plain C",
+    "videos": [
+        {
+            "code": "COjVlgbPVn4",
+            "type": "youtube"
+        }
+    ]
 }

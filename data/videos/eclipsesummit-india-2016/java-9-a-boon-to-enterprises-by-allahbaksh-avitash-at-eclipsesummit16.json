@@ -1,14 +1,17 @@
 {
-  "description": "Java is the language of choice in enterprises. Many of the large software systems are built using Java. The key reason for Java being language of choice was the tool support, robust JVM, statically typed language and modularity. Modularity is one of the key aspects of the design. Eclipse (built on Java) is the wonderful example of a modular software system based on OSGi specification (Equinox). Project Jigsaw which is umbrella project is aimed to design and develop a standard module system which is compatible with OSGi. Brining modularity within the platform will add many improvement and will also provide the ability to run it down to small devices. Jigsaw has been one of the major features of JDK 9.0. The talk will cover details of project Jigsaw. \n\nJava is mostly used presently at server side. Improvement in the server side processing and ability to evolve with the new specification and protocol would boost the performance. HTTP/2 which is the latest specification makes use of streams. Java 9 brings native support of HTTP/2.\n\nJava has been a programming language of choice for many years in academia, till the less verbosity, better interpreters and tools for JavaScript, Python evolved. The language evolved a bit 2014 with the introduction of Lambda in Java 8, which provided less verbosity. Still the absence of Read-Eva-Print Loop (REPL) moved the academia to embrace python as the language of choice for teaching problem solving to the students. Java 9 is bringing jShell which provides REPL functionality in Java 9.\n\nConference: https://confengine.com/eclipse-summit-2016\nSlide and Other details: https://confengine.com/eclipse-summit-2016/proposal/2476",
-  "recorded": "2016-08-25",
-  "speakers": ["allahbaksh-asadullah", "avitash-purohit"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/Ob8yTZ_hq08/hqdefault.jpg",
-  "title": "Java 9 a boon to Enterprises",
-  "videos": [
-    {
-      "code": "Ob8yTZ_hq08",
-      "type": "youtube"
-    }
-  ]
+    "description": "Java is the language of choice in enterprises. Many of the large software systems are built using Java. The key reason for Java being language of choice was the tool support, robust JVM, statically typed language and modularity. Modularity is one of the key aspects of the design. Eclipse (built on Java) is the wonderful example of a modular software system based on OSGi specification (Equinox). Project Jigsaw which is umbrella project is aimed to design and develop a standard module system which is compatible with OSGi. Brining modularity within the platform will add many improvement and will also provide the ability to run it down to small devices. Jigsaw has been one of the major features of JDK 9.0. The talk will cover details of project Jigsaw. \n\nJava is mostly used presently at server side. Improvement in the server side processing and ability to evolve with the new specification and protocol would boost the performance. HTTP/2 which is the latest specification makes use of streams. Java 9 brings native support of HTTP/2.\n\nJava has been a programming language of choice for many years in academia, till the less verbosity, better interpreters and tools for JavaScript, Python evolved. The language evolved a bit 2014 with the introduction of Lambda in Java 8, which provided less verbosity. Still the absence of Read-Eva-Print Loop (REPL) moved the academia to embrace python as the language of choice for teaching problem solving to the students. Java 9 is bringing jShell which provides REPL functionality in Java 9.\n\nConference: https://confengine.com/eclipse-summit-2016\nSlide and Other details: https://confengine.com/eclipse-summit-2016/proposal/2476",
+    "recorded": "2016-08-25",
+    "speakers": [
+        "allahbaksh-asadullah",
+        "avitash-purohit"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/Ob8yTZ_hq08/hqdefault.jpg",
+    "title": "Java 9 a boon to Enterprises",
+    "videos": [
+        {
+            "code": "Ob8yTZ_hq08",
+            "type": "youtube"
+        }
+    ]
 }

@@ -1,14 +1,16 @@
 {
-  "description": "Container Camp SF 2016 - http://container.camp/\n\nCynthia Thomas - Systems Engineer at Midokura \n\nThis is a call to all who want to deploy production-grade networking for container-based workloads. With the adoption of container orchestration engines like Swarm, Kubernetes and Mesos, it\u2019s important to adapt security technologies that scale with growing deployments. If we can isolate workloads with overlays, that\u2019s pretty good. If we can seal a container on a host, that\u2019s great! \n\nKuryr and MidoNet open source projects achieve network security for containers in a simplified, distributed architecture. Removing architectural bottlenecks, Kuryr + MidoNet efficiently implements security policies through the hardened Neutron framework for use by containers in large scale environments.",
-  "recorded": "2016-04-15",
-  "speakers": ["cynthia-thomas"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/tOBHglqjFhw/hqdefault.jpg",
-  "title": "Security is pretty. Security is good. But it should never be pretty good.",
-  "videos": [
-    {
-      "code": "tOBHglqjFhw",
-      "type": "youtube"
-    }
-  ]
+    "description": "Container Camp SF 2016 - http://container.camp/\n\nCynthia Thomas - Systems Engineer at Midokura \n\nThis is a call to all who want to deploy production-grade networking for container-based workloads. With the adoption of container orchestration engines like Swarm, Kubernetes and Mesos, it\u2019s important to adapt security technologies that scale with growing deployments. If we can isolate workloads with overlays, that\u2019s pretty good. If we can seal a container on a host, that\u2019s great! \n\nKuryr and MidoNet open source projects achieve network security for containers in a simplified, distributed architecture. Removing architectural bottlenecks, Kuryr + MidoNet efficiently implements security policies through the hardened Neutron framework for use by containers in large scale environments.",
+    "recorded": "2016-04-15",
+    "speakers": [
+        "cynthia-thomas"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/tOBHglqjFhw/hqdefault.jpg",
+    "title": "Security is pretty. Security is good. But it should never be pretty good.",
+    "videos": [
+        {
+            "code": "tOBHglqjFhw",
+            "type": "youtube"
+        }
+    ]
 }

@@ -1,15 +1,17 @@
 {
-  "description": "mrepo - Mirroring and building RPM repositories\n\nAuthor: Dag Wieers\n\nDag Wieers holds the very first presentation about a tool he started 6 years ago that is able to synchronise RPM repositories, even from RHN (Red Hat Enterprise Linux) and YOU (YaST Online Update) repositories on a single server for different architectures and versions. Since it simplifies maintenance cross-distribution and can be used for managing repositories, reporting updates or providing updated network installation media. It is used internally by companies, including HP, SGI and many others.",
-  "recorded": "2008-10-25",
-  "speakers": ["dag-wieers"],
-  "language": "Dutch",
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/7YSt6OcuPyc/hqdefault.jpg",
-  "title": "mrepo - Mirroring and building RPM repositories, (Dutch)",
-  "videos": [
-    {
-      "code": "7YSt6OcuPyc",
-      "type": "youtube"
-    }
-  ]
+    "description": "mrepo - Mirroring and building RPM repositories\n\nAuthor: Dag Wieers\n\nDag Wieers holds the very first presentation about a tool he started 6 years ago that is able to synchronise RPM repositories, even from RHN (Red Hat Enterprise Linux) and YOU (YaST Online Update) repositories on a single server for different architectures and versions. Since it simplifies maintenance cross-distribution and can be used for managing repositories, reporting updates or providing updated network installation media. It is used internally by companies, including HP, SGI and many others.",
+    "language": "Dutch",
+    "recorded": "2008-10-25",
+    "speakers": [
+        "dag-wieers"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/7YSt6OcuPyc/hqdefault.jpg",
+    "title": "mrepo - Mirroring and building RPM repositories, (Dutch)",
+    "videos": [
+        {
+            "code": "7YSt6OcuPyc",
+            "type": "youtube"
+        }
+    ]
 }

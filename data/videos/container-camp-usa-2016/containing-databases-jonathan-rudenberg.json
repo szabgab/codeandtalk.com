@@ -1,14 +1,16 @@
 {
-  "description": "Container Camp SF 2016 - http://container.camp/\n\nJonathan Rudenberg - Co-founder and CTO of Flynn \n\nRelational databases are rarely deployed with automatic failover due to the complexity and danger of existing solutions. We'll cover what can go wrong when automating databases and how Flynn implements highly available PostgreSQL, MySQL, and MongoDB in containers with safe, automatic failover and zero manual configuration.",
-  "recorded": "2016-04-15",
-  "speakers": ["jonathan-rudenberg"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/v7eFueaD6yg/hqdefault.jpg",
-  "title": "Containing Databases",
-  "videos": [
-    {
-      "code": "v7eFueaD6yg",
-      "type": "youtube"
-    }
-  ]
+    "description": "Container Camp SF 2016 - http://container.camp/\n\nJonathan Rudenberg - Co-founder and CTO of Flynn \n\nRelational databases are rarely deployed with automatic failover due to the complexity and danger of existing solutions. We'll cover what can go wrong when automating databases and how Flynn implements highly available PostgreSQL, MySQL, and MongoDB in containers with safe, automatic failover and zero manual configuration.",
+    "recorded": "2016-04-15",
+    "speakers": [
+        "jonathan-rudenberg"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/v7eFueaD6yg/hqdefault.jpg",
+    "title": "Containing Databases",
+    "videos": [
+        {
+            "code": "v7eFueaD6yg",
+            "type": "youtube"
+        }
+    ]
 }

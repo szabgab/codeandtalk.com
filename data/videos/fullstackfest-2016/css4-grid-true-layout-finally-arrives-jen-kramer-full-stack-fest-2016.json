@@ -1,14 +1,16 @@
 {
-  "description": "For years, front-end developers fumbled with hacking floats for layouts, often as part of a grid system. Media queries made these float-based grids more responsive to different screen dimensions, but unfortunately, the behaviors weren't always granular enough to work well with complex layouts. Now with the new Grid specification in CSS4, we can easily define behaviors for each cell in our layouts in two dimensions. When combined with media queries, we can specify where each cell will be placed under a variety of conditions, in horizontal and vertical space. Similarities and differences with Flexbox will also be identified and discussed.\n\nAbout the speaker:\n\nJen Kramer has been teaching and performing web design for over 16 years. Most recently, she is a Lecturer at Harvard University Extension School in the Master's of Liberal Arts in Digital Media Design program, where she teaches five courses per year on front-end web development, advises capstone projects, and assists in curriculum design. She's also a prolific video author, creating 27 training courses for lynda.com, O'Reilly Media, and Aquent Gymnasium. Jen also freelances on web design projects occasionally. She earned her MS in Internet Strategy Management from Marlboro College Graduate School.\n\nTalk given at Full Stack Fest 2016 (https://www.fullstackfest.com)",
-  "recorded": "2016-09-05",
-  "speakers": ["jen-kramer"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/axVw1Zduqn0/hqdefault.jpg",
-  "title": "CSS4 Grid: True Layout Finally Arrives",
-  "videos": [
-    {
-      "code": "axVw1Zduqn0",
-      "type": "youtube"
-    }
-  ]
+    "description": "For years, front-end developers fumbled with hacking floats for layouts, often as part of a grid system. Media queries made these float-based grids more responsive to different screen dimensions, but unfortunately, the behaviors weren't always granular enough to work well with complex layouts. Now with the new Grid specification in CSS4, we can easily define behaviors for each cell in our layouts in two dimensions. When combined with media queries, we can specify where each cell will be placed under a variety of conditions, in horizontal and vertical space. Similarities and differences with Flexbox will also be identified and discussed.\n\nAbout the speaker:\n\nJen Kramer has been teaching and performing web design for over 16 years. Most recently, she is a Lecturer at Harvard University Extension School in the Master's of Liberal Arts in Digital Media Design program, where she teaches five courses per year on front-end web development, advises capstone projects, and assists in curriculum design. She's also a prolific video author, creating 27 training courses for lynda.com, O'Reilly Media, and Aquent Gymnasium. Jen also freelances on web design projects occasionally. She earned her MS in Internet Strategy Management from Marlboro College Graduate School.\n\nTalk given at Full Stack Fest 2016 (https://www.fullstackfest.com)",
+    "recorded": "2016-09-05",
+    "speakers": [
+        "jen-kramer"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/axVw1Zduqn0/hqdefault.jpg",
+    "title": "CSS4 Grid: True Layout Finally Arrives",
+    "videos": [
+        {
+            "code": "axVw1Zduqn0",
+            "type": "youtube"
+        }
+    ]
 }

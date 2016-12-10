@@ -1,14 +1,16 @@
 {
-  "description": "CSS gets a really bad rap in web development. Some of it is unearned (like snarky comments about \u201conly a front-end developer\u201d), some of it is really criticism about inconsistent browser implementation, and some of it is valid concern about limitations and inconsistencies in CSS itself. No matter where the negative press comes from, the response is the same: we try to solve those problems by improving CSS. Don\u2019t like the fact that there are no loops or logic in CSS? Fix it by using Sass or another preprocessor. Don\u2019t like cross-browser bugs? Fix it by adding Autoprefixer to your workflow. Don\u2019t like limitations? Try to fix it by using not-yet-spec CSS code.\n\nPostCSS is a tool that tries to fix CSS in multiple ways. It can process Sass-like syntax; it can fix vendor-prefixes, it can almost make pre-spec CSS possible. It\u2019s getting a lot of attention now, so it\u2019s important for us to know how we can use it.\n\nPostCSS is a powerful tool and it can be a fantastic complement to the preprocessor you\u2019ve already got in your workflow. I believe it\u2019s best to use Sass, Less, or Stylus for compiling any non-CSS to CSS, and to use PostCSS to turn valid CSS into better CSS. There are a few concerns to keep in mind as you integrate PostCSS into your toolkit. As much as possible, only process valid CSS with it and be careful about relying on its ability to emulate non-implemented syntax.",
-  "recorded": "2016-08-03",
-  "speakers": ["james-steinbach"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/YpSdBDoPemg/hqdefault.jpg",
-  "title": "Using Sass and PostCSS Together",
-  "videos": [
-    {
-      "code": "YpSdBDoPemg",
-      "type": "youtube"
-    }
-  ]
+    "description": "CSS gets a really bad rap in web development. Some of it is unearned (like snarky comments about \u201conly a front-end developer\u201d), some of it is really criticism about inconsistent browser implementation, and some of it is valid concern about limitations and inconsistencies in CSS itself. No matter where the negative press comes from, the response is the same: we try to solve those problems by improving CSS. Don\u2019t like the fact that there are no loops or logic in CSS? Fix it by using Sass or another preprocessor. Don\u2019t like cross-browser bugs? Fix it by adding Autoprefixer to your workflow. Don\u2019t like limitations? Try to fix it by using not-yet-spec CSS code.\n\nPostCSS is a tool that tries to fix CSS in multiple ways. It can process Sass-like syntax; it can fix vendor-prefixes, it can almost make pre-spec CSS possible. It\u2019s getting a lot of attention now, so it\u2019s important for us to know how we can use it.\n\nPostCSS is a powerful tool and it can be a fantastic complement to the preprocessor you\u2019ve already got in your workflow. I believe it\u2019s best to use Sass, Less, or Stylus for compiling any non-CSS to CSS, and to use PostCSS to turn valid CSS into better CSS. There are a few concerns to keep in mind as you integrate PostCSS into your toolkit. As much as possible, only process valid CSS with it and be careful about relying on its ability to emulate non-implemented syntax.",
+    "recorded": "2016-08-03",
+    "speakers": [
+        "james-steinbach"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/YpSdBDoPemg/hqdefault.jpg",
+    "title": "Using Sass and PostCSS Together",
+    "videos": [
+        {
+            "code": "YpSdBDoPemg",
+            "type": "youtube"
+        }
+    ]
 }

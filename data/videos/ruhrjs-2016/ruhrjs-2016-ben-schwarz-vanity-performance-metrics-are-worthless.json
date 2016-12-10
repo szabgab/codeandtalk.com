@@ -1,16 +1,25 @@
 {
-  "recorded": "2016-07-03",
-  "featured": "2016-11-27",
-  "blasters": ["frontend"],
-  "length": "24:12",
-  "speakers": ["ben-schwarz"],
-  "thumbnail_url": "https://i.ytimg.com/vi/4RipfnP2HWw/hqdefault.jpg",
-  "title": "Vanity performance metrics are worthless",
-  "tags": ["performance", "web", "ci", "continuous integration"],
-  "videos": [
-    {
-      "type": "youtube",
-      "code": "4RipfnP2HWw"
-    }
-  ]
+    "blasters": [
+        "frontend"
+    ],
+    "featured": "2016-11-27",
+    "length": "24:12",
+    "recorded": "2016-07-03",
+    "speakers": [
+        "ben-schwarz"
+    ],
+    "tags": [
+        "performance",
+        "web",
+        "ci",
+        "continuous integration"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/4RipfnP2HWw/hqdefault.jpg",
+    "title": "Vanity performance metrics are worthless",
+    "videos": [
+        {
+            "code": "4RipfnP2HWw",
+            "type": "youtube"
+        }
+    ]
 }

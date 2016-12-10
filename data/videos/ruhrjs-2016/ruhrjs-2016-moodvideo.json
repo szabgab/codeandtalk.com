@@ -1,13 +1,20 @@
 {
-  "description": "",
-  "recorded": "2016-07-02",
-  "speakers": ["madeleine-neumann", "sebastien-deutsch", "kira-schacht", "ben-schwarz", "rami-rihawi", "paul-verbeek"],
-  "thumbnail_url": "https://i.ytimg.com/vi/VaWMBgM3-hI/hqdefault.jpg",
-  "title": "Moodvideo",
-  "videos": [
-    {
-      "type": "youtube",
-      "code": "VaWMBgM3-hI"
-    }
-  ]
+    "description": "",
+    "recorded": "2016-07-02",
+    "speakers": [
+        "madeleine-neumann",
+        "sebastien-deutsch",
+        "kira-schacht",
+        "ben-schwarz",
+        "rami-rihawi",
+        "paul-verbeek"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/VaWMBgM3-hI/hqdefault.jpg",
+    "title": "Moodvideo",
+    "videos": [
+        {
+            "code": "VaWMBgM3-hI",
+            "type": "youtube"
+        }
+    ]
 }

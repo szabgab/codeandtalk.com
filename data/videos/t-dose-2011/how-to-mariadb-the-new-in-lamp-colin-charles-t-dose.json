@@ -1,14 +1,16 @@
 {
-  "description": "Colin Charles works at Monty Program Ab, on MariaDB, and Open Ocean Investments on Web of Trust, and MoSync. He lives in Kuala Lumpur, Malaysia and had worked at MySQL since 2005. Before joining MySQL, he worked actively on the Fedora and OpenOffice.org projects. He's spoken at many conferences - linux.conf.au, The MySQL Conference & Expo, foss.in, to name a few. He was Program Chair for the O'Reilly MySQL Conference & Expo 2008-2011.\r\n\r\nMariaDB: The New M in LAMP\r\n\r\nAuthor: Colin Charles\r\n\r\nMariaDB started life as a database to host the Maria (now renamed Aria) storage engine in 2009. Not long after its inception, the MySQL community went through yet another change in ownership, and it was deemed that MariaDB will be a complete database branch developed to extend MySQ, but with constant merging of upstream changes.\r\n\r\nThe goal of the MariaDB project is to ensure that everyone is part of the community, including employees of the major steering companies. MariaDB also features enhanced features, some of which are common with the Percona Performance Server. Most importantly, MariaDB is a drop-in replacement and is completely backward compatible with MySQL. In 2010, MariaDB released 5.1 in February, and 5.2 in November - two major releases in a span of one calendar year is a feat that was achieved! MariaDB 5.3 is currently in beta.\r\n\r\nSpecific focus areas of the talk will include:\r\n* why MariaDB executes queries faster -- all thanks to its improved optimiser\r\n* the focus of different engines and why with MariaDB/MySQL, knowing which engine to pick, really makes a difference to your workload. MariaDB includes Aria, XtraDB, PBXT, FederatedX, OQGRAPH, SphinxSE and there are more to come\r\n* new features like pool of threads support, table elimination, virtual columns, extended user statistics, segmented key cache\r\n* why plugin's are utilised in MariaDB, and how to make use of pluggable authentication (PAM, LDAP, etc.) amongst other things\r\n* why testing your database is important -- MariaDB has more coverage testing\r\n* looking at cool new features like progress reporting, for starters\r\n* getting involved with the MariaDB project\r\n\r\nAn overview of future features like GIS functionality will also be covered briefly.\r\nDBAs and developers alike will gain an introduction to MariaDB, what is different with MySQL, how to make use of the feature enhancements, and more.",
-  "recorded": "2011-11-05",
-  "speakers": ["colin-charles"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/y7iXbcI9efI/hqdefault.jpg",
-  "title": "How to MariaDB The New in LAMP",
-  "videos": [
-    {
-      "code": "y7iXbcI9efI",
-      "type": "youtube"
-    }
-  ]
+    "description": "Colin Charles works at Monty Program Ab, on MariaDB, and Open Ocean Investments on Web of Trust, and MoSync. He lives in Kuala Lumpur, Malaysia and had worked at MySQL since 2005. Before joining MySQL, he worked actively on the Fedora and OpenOffice.org projects. He's spoken at many conferences - linux.conf.au, The MySQL Conference & Expo, foss.in, to name a few. He was Program Chair for the O'Reilly MySQL Conference & Expo 2008-2011.\r\n\r\nMariaDB: The New M in LAMP\r\n\r\nAuthor: Colin Charles\r\n\r\nMariaDB started life as a database to host the Maria (now renamed Aria) storage engine in 2009. Not long after its inception, the MySQL community went through yet another change in ownership, and it was deemed that MariaDB will be a complete database branch developed to extend MySQ, but with constant merging of upstream changes.\r\n\r\nThe goal of the MariaDB project is to ensure that everyone is part of the community, including employees of the major steering companies. MariaDB also features enhanced features, some of which are common with the Percona Performance Server. Most importantly, MariaDB is a drop-in replacement and is completely backward compatible with MySQL. In 2010, MariaDB released 5.1 in February, and 5.2 in November - two major releases in a span of one calendar year is a feat that was achieved! MariaDB 5.3 is currently in beta.\r\n\r\nSpecific focus areas of the talk will include:\r\n* why MariaDB executes queries faster -- all thanks to its improved optimiser\r\n* the focus of different engines and why with MariaDB/MySQL, knowing which engine to pick, really makes a difference to your workload. MariaDB includes Aria, XtraDB, PBXT, FederatedX, OQGRAPH, SphinxSE and there are more to come\r\n* new features like pool of threads support, table elimination, virtual columns, extended user statistics, segmented key cache\r\n* why plugin's are utilised in MariaDB, and how to make use of pluggable authentication (PAM, LDAP, etc.) amongst other things\r\n* why testing your database is important -- MariaDB has more coverage testing\r\n* looking at cool new features like progress reporting, for starters\r\n* getting involved with the MariaDB project\r\n\r\nAn overview of future features like GIS functionality will also be covered briefly.\r\nDBAs and developers alike will gain an introduction to MariaDB, what is different with MySQL, how to make use of the feature enhancements, and more.",
+    "recorded": "2011-11-05",
+    "speakers": [
+        "colin-charles"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/y7iXbcI9efI/hqdefault.jpg",
+    "title": "How to MariaDB The New in LAMP",
+    "videos": [
+        {
+            "code": "y7iXbcI9efI",
+            "type": "youtube"
+        }
+    ]
 }

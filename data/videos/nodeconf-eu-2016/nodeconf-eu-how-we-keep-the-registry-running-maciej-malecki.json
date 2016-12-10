@@ -1,16 +1,23 @@
 {
-  "recorded": "2016-10-16",
-  "featured": "2016-11-26",
-  "blasters": ["node"],
-  "length": "24:25",
-  "speakers": ["maciej-malecki"],
-  "tags": ["npm", "NodeJS"],
-  "thumbnail_url": "https://i.ytimg.com/vi/sZSNY5CwPJI/hqdefault.jpg",
-  "title": "How we keep the npm registry running",
-  "videos": [
-    {
-      "code": "sZSNY5CwPJI",
-      "type": "youtube"
-    }
-  ]
+    "blasters": [
+        "node"
+    ],
+    "featured": "2016-11-26",
+    "length": "24:25",
+    "recorded": "2016-10-16",
+    "speakers": [
+        "maciej-malecki"
+    ],
+    "tags": [
+        "npm",
+        "NodeJS"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/sZSNY5CwPJI/hqdefault.jpg",
+    "title": "How we keep the npm registry running",
+    "videos": [
+        {
+            "code": "sZSNY5CwPJI",
+            "type": "youtube"
+        }
+    ]
 }

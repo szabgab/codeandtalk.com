@@ -1,14 +1,16 @@
 {
-  "description": "Microservice API styles, service lookups, datastores, scaling \u2013 all of our typical discussions about microservices seem to be centered around backend topics. But what about the user interface? How are we supposed to structure what is arguably the most important part of our applications \u2013 the one facing our users? In this session we\u2019ll explore the role of the UI aspect in a microservice architecture, look at various methods of modularization, and derive a set of guidelines for avoiding monolithic frontends.\n\nAbout the speaker:\nStefan is a founder and principal consultant at innoQ, where he spends his time alternating between advising customers on new technologies and taking the blame from his co-workers for doing so. He is a frequent speaker at international conferences and author of numerous articles.\n\nYou can find slides from this presentation here:\nhttps://speakerdeck.com/stilkov/wait-what-our-microservices-have-actual-human-users-1",
-  "recorded": "2016-06-01",
-  "speakers": ["stefan-tilkov"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/G0_4u6TeREo/hqdefault.jpg",
-  "title": "Wait, what!? Our microservices have actual human users?",
-  "videos": [
-    {
-      "code": "G0_4u6TeREo",
-      "type": "youtube"
-    }
-  ]
+    "description": "Microservice API styles, service lookups, datastores, scaling \u2013 all of our typical discussions about microservices seem to be centered around backend topics. But what about the user interface? How are we supposed to structure what is arguably the most important part of our applications \u2013 the one facing our users? In this session we\u2019ll explore the role of the UI aspect in a microservice architecture, look at various methods of modularization, and derive a set of guidelines for avoiding monolithic frontends.\n\nAbout the speaker:\nStefan is a founder and principal consultant at innoQ, where he spends his time alternating between advising customers on new technologies and taking the blame from his co-workers for doing so. He is a frequent speaker at international conferences and author of numerous articles.\n\nYou can find slides from this presentation here:\nhttps://speakerdeck.com/stilkov/wait-what-our-microservices-have-actual-human-users-1",
+    "recorded": "2016-06-01",
+    "speakers": [
+        "stefan-tilkov"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/G0_4u6TeREo/hqdefault.jpg",
+    "title": "Wait, what!? Our microservices have actual human users?",
+    "videos": [
+        {
+            "code": "G0_4u6TeREo",
+            "type": "youtube"
+        }
+    ]
 }

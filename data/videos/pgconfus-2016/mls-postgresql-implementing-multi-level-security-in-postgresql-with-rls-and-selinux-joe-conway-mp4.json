@@ -1,15 +1,17 @@
 {
-  "description": "PostgreSQL 9.5 has a new feature called Row Level Security (RLS). Using RLS, a PostgreSQL extension called sepgsql (somewhat modified), and Security Enhanced Linux (SELinux) configured properly, it is possible to create a Multi-level Security database. This talk will describe how it can be done.",
-  "recorded": "2016-04-18",
-  "abstract": "http://www.pgconf.us/2016/event/138/mls-postgresql-implementing-multi-level-security-in-postgresql-with-rls-and-selinux/",
-  "speakers": ["joe-conway"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/TK1AEt4zvIc/hqdefault.jpg",
-  "title": "MLS PostgreSQL Implementing Multi level Security in PostgreSQL with RLS and SELinux",
-  "videos": [
-    {
-      "code": "TK1AEt4zvIc",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://www.pgconf.us/2016/event/138/mls-postgresql-implementing-multi-level-security-in-postgresql-with-rls-and-selinux/",
+    "description": "PostgreSQL 9.5 has a new feature called Row Level Security (RLS). Using RLS, a PostgreSQL extension called sepgsql (somewhat modified), and Security Enhanced Linux (SELinux) configured properly, it is possible to create a Multi-level Security database. This talk will describe how it can be done.",
+    "recorded": "2016-04-18",
+    "speakers": [
+        "joe-conway"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/TK1AEt4zvIc/hqdefault.jpg",
+    "title": "MLS PostgreSQL Implementing Multi level Security in PostgreSQL with RLS and SELinux",
+    "videos": [
+        {
+            "code": "TK1AEt4zvIc",
+            "type": "youtube"
+        }
+    ]
 }

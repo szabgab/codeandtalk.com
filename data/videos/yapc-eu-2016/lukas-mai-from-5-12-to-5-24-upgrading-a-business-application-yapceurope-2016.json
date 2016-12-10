@@ -1,15 +1,17 @@
 {
-  "description": "An in-house application with hundreds of modules and a long list of CPAN dependencies is running on perl 5.12. We try to double the perl version to 5.24. This talk describes problems we faced, how we solved them, and benefits of the upgrade.",
-  "recorded": "2016-08-24",
-  "abstract": "http://act.yapc.eu/ye2016/talk/6787",
-  "speakers": ["lukas-mai"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/6wS8cku8zPk/hqdefault.jpg",
-  "title": "From 5 12 to 5 24 Upgrading a business application",
-  "videos": [
-    {
-      "code": "6wS8cku8zPk",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://act.yapc.eu/ye2016/talk/6787",
+    "description": "An in-house application with hundreds of modules and a long list of CPAN dependencies is running on perl 5.12. We try to double the perl version to 5.24. This talk describes problems we faced, how we solved them, and benefits of the upgrade.",
+    "recorded": "2016-08-24",
+    "speakers": [
+        "lukas-mai"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/6wS8cku8zPk/hqdefault.jpg",
+    "title": "From 5 12 to 5 24 Upgrading a business application",
+    "videos": [
+        {
+            "code": "6wS8cku8zPk",
+            "type": "youtube"
+        }
+    ]
 }

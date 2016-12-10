@@ -1,15 +1,17 @@
 {
-  "description": "There's an old joke that goes something like this.  A tourist in New York City asks a resident how to get to a famous concert venue,  saying, \"How do you get to Carnegie Hall?\"  To which the resident replies, \"Practice.\"  Aside from the slight difference in topic, this is almost the same as asking, \"How do I get to high quality code that I can use Continuous Delivery on?\"  You could easily say, \"Practice.\"\n\nBy this, what you mean is that you need to test early and often to ensure that you have high quality code.  Everyone knows that unit testing is a large part of that equation.  Managers (and others) have learned that you need to watch the code coverage metrics to see that you are testing every line of your code.  People feel comfortable that if you test all the code that you're never going to be blind-sided by a bug that you missed during development.  But, as most of us who have actually paid attention to code coverage know, that is misplaced comfort.\n\nThat's because it's too easy to fall prey to one of two fallacies about code coverage.  First, it's too easy to game the metric, if you need to impress your management into complacency.  And second, it is a poor metric to judge quality by.  Unit testing is the answer for high quality code, but how much testing is enough?  There are qualitative metrics, such as you have enough unit tests when you don't have production problems, but that really begs the question.  There are static and dynamic code metrics that you can produce, but those also fall short of the goal.  However, there is one technique to use that goes a long way to answering the question unambiguously.  Mutation Testing.\n\nMutation Testing assumes 100% code coverage.  It then takes your nice happy code and messes with it.  Negate a conditional.  The code now does something else.  Do your unit tests find that bug?  Good!  How about changing a conditional.  Oops.  The mutation survives, and the unit tests don't find it?  Bad!!\n\nThis session describes the problem and one tool that can be used to fix it for good.  The tool is called PIT.  We look at the Java mututation tool called PIT.  We will see the results in a couple of small projects, and then see what it looks like in a not so small open source project.  We will see the role that mutation testing can have on quality,  and how we would use it in our build automation to get us further down the road to having successful deliveries all the time - not train wrecks at just the wrong time",
-  "abstract": "https://confengine.com/agile-india-2016/proposal/1815",
-  "recorded": "2016-03-14",
-  "speakers": ["howard-deiner"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/TJpQnXDSBkQ/hqdefault.jpg",
-  "title": "How much unit testing is enough",
-  "videos": [
-    {
-      "code": "TJpQnXDSBkQ",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "https://confengine.com/agile-india-2016/proposal/1815",
+    "description": "There's an old joke that goes something like this.  A tourist in New York City asks a resident how to get to a famous concert venue,  saying, \"How do you get to Carnegie Hall?\"  To which the resident replies, \"Practice.\"  Aside from the slight difference in topic, this is almost the same as asking, \"How do I get to high quality code that I can use Continuous Delivery on?\"  You could easily say, \"Practice.\"\n\nBy this, what you mean is that you need to test early and often to ensure that you have high quality code.  Everyone knows that unit testing is a large part of that equation.  Managers (and others) have learned that you need to watch the code coverage metrics to see that you are testing every line of your code.  People feel comfortable that if you test all the code that you're never going to be blind-sided by a bug that you missed during development.  But, as most of us who have actually paid attention to code coverage know, that is misplaced comfort.\n\nThat's because it's too easy to fall prey to one of two fallacies about code coverage.  First, it's too easy to game the metric, if you need to impress your management into complacency.  And second, it is a poor metric to judge quality by.  Unit testing is the answer for high quality code, but how much testing is enough?  There are qualitative metrics, such as you have enough unit tests when you don't have production problems, but that really begs the question.  There are static and dynamic code metrics that you can produce, but those also fall short of the goal.  However, there is one technique to use that goes a long way to answering the question unambiguously.  Mutation Testing.\n\nMutation Testing assumes 100% code coverage.  It then takes your nice happy code and messes with it.  Negate a conditional.  The code now does something else.  Do your unit tests find that bug?  Good!  How about changing a conditional.  Oops.  The mutation survives, and the unit tests don't find it?  Bad!!\n\nThis session describes the problem and one tool that can be used to fix it for good.  The tool is called PIT.  We look at the Java mututation tool called PIT.  We will see the results in a couple of small projects, and then see what it looks like in a not so small open source project.  We will see the role that mutation testing can have on quality,  and how we would use it in our build automation to get us further down the road to having successful deliveries all the time - not train wrecks at just the wrong time",
+    "recorded": "2016-03-14",
+    "speakers": [
+        "howard-deiner"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/TJpQnXDSBkQ/hqdefault.jpg",
+    "title": "How much unit testing is enough",
+    "videos": [
+        {
+            "code": "TJpQnXDSBkQ",
+            "type": "youtube"
+        }
+    ]
 }

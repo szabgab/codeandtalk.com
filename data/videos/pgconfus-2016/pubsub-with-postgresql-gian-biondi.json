@@ -1,15 +1,17 @@
 {
-  "description": "A lesser known feature of Postgresql is it's publisher/subscriber functionality. Postgresql implements pub/sub through it's LISTEN/NOTIFY functions. This talk will discuss the basics of pub/sub, how to use LISTEN/NOTIFY and a walk through of a system that uses it to synchronize a cache between multiple instances of a web application connected to a single postgres database.",
-  "recorded": "2016-04-18",
-  "abstract": "http://www.pgconf.us/2016/event/130/pubsub-with-postgresql/",
-  "speakers": ["gian-biondi"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/mCG-AtwMMtM/hqdefault.jpg",
-  "title": "PubSub with Postgresql",
-  "videos": [
-    {
-      "code": "mCG-AtwMMtM",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://www.pgconf.us/2016/event/130/pubsub-with-postgresql/",
+    "description": "A lesser known feature of Postgresql is it's publisher/subscriber functionality. Postgresql implements pub/sub through it's LISTEN/NOTIFY functions. This talk will discuss the basics of pub/sub, how to use LISTEN/NOTIFY and a walk through of a system that uses it to synchronize a cache between multiple instances of a web application connected to a single postgres database.",
+    "recorded": "2016-04-18",
+    "speakers": [
+        "gian-biondi"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/mCG-AtwMMtM/hqdefault.jpg",
+    "title": "PubSub with Postgresql",
+    "videos": [
+        {
+            "code": "mCG-AtwMMtM",
+            "type": "youtube"
+        }
+    ]
 }

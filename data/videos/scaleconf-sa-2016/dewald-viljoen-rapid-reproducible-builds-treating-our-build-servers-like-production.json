@@ -1,14 +1,16 @@
 {
-  "description": "I'd like to talk to everyone about someone we often neglect. That someone keeps our code flowing into production, runs all those automated tests, does things that we might not even remember to deploy to all our environments.\n\n That someone is our build servers.\n\n They tirelessly work to get our changes to our end users and we do neglect them. We don't treat our build servers like production servers, we hack them, we play with them, we mess up the environments. We may have several agents with different runtimes and gems and patch levels and who knows what.\n\n We can do better.\n\n In this talk I'd like to take you through something I've been working on over the last couple of months: Containerising your build. The tool I'll be using for this is Docker, but it's achievable with any VM or container technology. I'll take you through going from a working build on local to building local inside a container and then to moving that build to a build server, explaining what how and why as I go.",
-  "recorded": "2016-03-10",
-  "speakers": ["dewald-viljoen"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/1VitHrVkr94/hqdefault.jpg",
-  "title": "Rapid, Reproducible Builds - Treating our build servers like production",
-  "videos": [
-    {
-      "code": "1VitHrVkr94",
-      "type": "youtube"
-    }
-  ]
+    "description": "I'd like to talk to everyone about someone we often neglect. That someone keeps our code flowing into production, runs all those automated tests, does things that we might not even remember to deploy to all our environments.\n\n That someone is our build servers.\n\n They tirelessly work to get our changes to our end users and we do neglect them. We don't treat our build servers like production servers, we hack them, we play with them, we mess up the environments. We may have several agents with different runtimes and gems and patch levels and who knows what.\n\n We can do better.\n\n In this talk I'd like to take you through something I've been working on over the last couple of months: Containerising your build. The tool I'll be using for this is Docker, but it's achievable with any VM or container technology. I'll take you through going from a working build on local to building local inside a container and then to moving that build to a build server, explaining what how and why as I go.",
+    "recorded": "2016-03-10",
+    "speakers": [
+        "dewald-viljoen"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/1VitHrVkr94/hqdefault.jpg",
+    "title": "Rapid, Reproducible Builds - Treating our build servers like production",
+    "videos": [
+        {
+            "code": "1VitHrVkr94",
+            "type": "youtube"
+        }
+    ]
 }

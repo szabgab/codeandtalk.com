@@ -1,15 +1,17 @@
 {
-  "description": "We all use ref($foo) eq $ref_type. It has two use-cases and it sucks for both.\n\nI wrote Ref::Util to address this. It's implemented in XS and as an op-code.\n\nIn this talk I'll explain why ref() is wrong, what Ref::Util does, how it works, and cover both how it's written in both XS and in interpreter op-codes.\n\nWe'll delve into internal Perl data types, XS, and operators.",
-  "recorded": "2016-08-24",
-  "abstract": "http://act.yapc.eu/ye2016/talk/6775",
-  "speakers": ["sawyer"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/haj_oYoxYkg/hqdefault.jpg",
-  "title": "RefUtil more than you ever wanted to know about ref()",
-  "videos": [
-    {
-      "code": "haj_oYoxYkg",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://act.yapc.eu/ye2016/talk/6775",
+    "description": "We all use ref($foo) eq $ref_type. It has two use-cases and it sucks for both.\n\nI wrote Ref::Util to address this. It's implemented in XS and as an op-code.\n\nIn this talk I'll explain why ref() is wrong, what Ref::Util does, how it works, and cover both how it's written in both XS and in interpreter op-codes.\n\nWe'll delve into internal Perl data types, XS, and operators.",
+    "recorded": "2016-08-24",
+    "speakers": [
+        "sawyer"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/haj_oYoxYkg/hqdefault.jpg",
+    "title": "RefUtil more than you ever wanted to know about ref()",
+    "videos": [
+        {
+            "code": "haj_oYoxYkg",
+            "type": "youtube"
+        }
+    ]
 }

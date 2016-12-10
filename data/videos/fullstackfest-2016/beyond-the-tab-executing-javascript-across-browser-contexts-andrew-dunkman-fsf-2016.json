@@ -1,14 +1,16 @@
 {
-  "description": "Keeping JavaScript from interfering across tabs is great, but what about when a web application wants to share state without a server? You'll leave this talk with enough knowledge to get started with SharedWorkers, ServiceWorkers, and other techniques - and enough wisdom to know when to use them.\n\nAbout the speaker:\n\nAndrew, a front-end developer at Harvest, is in his eleventh year of being amazed that his JavaScript functions. He's a former resident of Chicago and Kansas City, but now works from his home in Washington, DC. In his free time, he likes to help out with his local tech communities as an organizer of his local node.js meetup (formerly in Kansas City, currently in Washington, DC).\n\nTalk given at Full Stack Fest 2016 (https://www.fullstackfest.com)",
-  "recorded": "2016-09-05",
-  "speakers": ["andrew-dunkman"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/xs_QRqGZ8xQ/hqdefault.jpg",
-  "title": "Beyond The Tab: Executing JavaScript Across Browser Contexts",
-  "videos": [
-    {
-      "code": "xs_QRqGZ8xQ",
-      "type": "youtube"
-    }
-  ]
+    "description": "Keeping JavaScript from interfering across tabs is great, but what about when a web application wants to share state without a server? You'll leave this talk with enough knowledge to get started with SharedWorkers, ServiceWorkers, and other techniques - and enough wisdom to know when to use them.\n\nAbout the speaker:\n\nAndrew, a front-end developer at Harvest, is in his eleventh year of being amazed that his JavaScript functions. He's a former resident of Chicago and Kansas City, but now works from his home in Washington, DC. In his free time, he likes to help out with his local tech communities as an organizer of his local node.js meetup (formerly in Kansas City, currently in Washington, DC).\n\nTalk given at Full Stack Fest 2016 (https://www.fullstackfest.com)",
+    "recorded": "2016-09-05",
+    "speakers": [
+        "andrew-dunkman"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/xs_QRqGZ8xQ/hqdefault.jpg",
+    "title": "Beyond The Tab: Executing JavaScript Across Browser Contexts",
+    "videos": [
+        {
+            "code": "xs_QRqGZ8xQ",
+            "type": "youtube"
+        }
+    ]
 }

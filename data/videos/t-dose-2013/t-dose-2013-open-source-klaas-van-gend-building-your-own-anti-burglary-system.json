@@ -1,15 +1,17 @@
 {
-  "description": "January 2013 saw a burglary at Klaas van Gend's house.\nAfter he closed all doors and figured out what was missing, he started thinking\nabout burglary prevention and decided to build his own alarm system.\nCheap IP Cameras are available all over the Internet, a Raspberry Pi board\nlying around and software available in plenty, right?\nChecking the existing open source projects showed a few interesting candidates.\nIn the end Klaas wrote his own alarm system, based on C++ and OpenCV.\n\nThis talk will describe all of the above: how the burglars got in, how to prevent\nthat, open source alarm systems and the development of his own code.\nBeing the base of several existing systems, Klaas will dive deep into OpenCV, the\nopen source computer vision library and explain the use in his system.",
-  "recorded": "2013-10-26",
-  "abstract": "http://www.t-dose.org/2013/talks/building-your-own-anti-burglary-system",
-  "speakers": ["klaas-van-gend"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/P3nUGP6jF1s/hqdefault.jpg",
-  "title": "Building your own anti-burglary system",
-  "videos": [
-    {
-      "code": "P3nUGP6jF1s",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://www.t-dose.org/2013/talks/building-your-own-anti-burglary-system",
+    "description": "January 2013 saw a burglary at Klaas van Gend's house.\nAfter he closed all doors and figured out what was missing, he started thinking\nabout burglary prevention and decided to build his own alarm system.\nCheap IP Cameras are available all over the Internet, a Raspberry Pi board\nlying around and software available in plenty, right?\nChecking the existing open source projects showed a few interesting candidates.\nIn the end Klaas wrote his own alarm system, based on C++ and OpenCV.\n\nThis talk will describe all of the above: how the burglars got in, how to prevent\nthat, open source alarm systems and the development of his own code.\nBeing the base of several existing systems, Klaas will dive deep into OpenCV, the\nopen source computer vision library and explain the use in his system.",
+    "recorded": "2013-10-26",
+    "speakers": [
+        "klaas-van-gend"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/P3nUGP6jF1s/hqdefault.jpg",
+    "title": "Building your own anti-burglary system",
+    "videos": [
+        {
+            "code": "P3nUGP6jF1s",
+            "type": "youtube"
+        }
+    ]
 }

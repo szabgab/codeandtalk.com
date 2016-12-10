@@ -1,15 +1,17 @@
 {
-  "description": "My standard development technique with PostgreSQL is to hack away in Emacs, try things out on live data, and eventually build up working queries and functions. This \"test as you go\" approach works well for small projects, but for really hard problems the result is usually hundreds of lines of SQL that looks a lot like an object lesson in unmaintainable code.",
-  "recorded": "2016-04-18",
-  "abstract" : "http://www.pgconf.us/2016/event/146/that-sql-looks-pretty-complicated-where-are-the-tests/",
-  "speakers": ["james-e-marca"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/eDFaZFBoJwU/hqdefault.jpg",
-  "title": "That SQL looks pretty complicated  Where are the tests",
-  "videos": [
-    {
-      "code": "eDFaZFBoJwU",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://www.pgconf.us/2016/event/146/that-sql-looks-pretty-complicated-where-are-the-tests/",
+    "description": "My standard development technique with PostgreSQL is to hack away in Emacs, try things out on live data, and eventually build up working queries and functions. This \"test as you go\" approach works well for small projects, but for really hard problems the result is usually hundreds of lines of SQL that looks a lot like an object lesson in unmaintainable code.",
+    "recorded": "2016-04-18",
+    "speakers": [
+        "james-e-marca"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/eDFaZFBoJwU/hqdefault.jpg",
+    "title": "That SQL looks pretty complicated  Where are the tests",
+    "videos": [
+        {
+            "code": "eDFaZFBoJwU",
+            "type": "youtube"
+        }
+    ]
 }

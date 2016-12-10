@@ -1,14 +1,16 @@
 {
-  "description": "NodeJS makes it incredibly easy to write fast systems for I/O bound problems. But what if we wanted to go faster or go further? How do we get more out of our hardware and make our responses faster?\n\nIn this talk Brock Whitten of surge.sh will put a server on the moon to demonstrate the amazing benefits of compound caching and show how we can push speed to the limits of our hardware and beyond.",
-  "recorded": "2016-08-03",
-  "speakers": ["brock-whitten"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/F-mNx7cZkrM/hqdefault.jpg",
-  "title": "To the Moon Overcoming Latency for Fun and Adventure",
-  "videos": [
-    {
-      "code": "F-mNx7cZkrM",
-      "type": "youtube"
-    }
-  ]
+    "description": "NodeJS makes it incredibly easy to write fast systems for I/O bound problems. But what if we wanted to go faster or go further? How do we get more out of our hardware and make our responses faster?\n\nIn this talk Brock Whitten of surge.sh will put a server on the moon to demonstrate the amazing benefits of compound caching and show how we can push speed to the limits of our hardware and beyond.",
+    "recorded": "2016-08-03",
+    "speakers": [
+        "brock-whitten"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/F-mNx7cZkrM/hqdefault.jpg",
+    "title": "To the Moon Overcoming Latency for Fun and Adventure",
+    "videos": [
+        {
+            "code": "F-mNx7cZkrM",
+            "type": "youtube"
+        }
+    ]
 }

@@ -1,16 +1,25 @@
 {
-  "recorded": "2016-07-03",
-  "featured": "2016-12-05",
-  "blasters": ["javascript"],
-  "length": "27:29",
-  "speakers": ["elisabeth-engel"],
-  "tags" : ["d3js", "SVG", "Canvas", "CSS"],
-  "thumbnail_url": "https://i.ytimg.com/vi/Ape1hFJv3Q0/hqdefault.jpg",
-  "title": "Getting Started with D3.js",
-  "videos": [
-    {
-      "type": "youtube",
-      "code": "Ape1hFJv3Q0"
-    }
-  ]
+    "blasters": [
+        "javascript"
+    ],
+    "featured": "2016-12-05",
+    "length": "27:29",
+    "recorded": "2016-07-03",
+    "speakers": [
+        "elisabeth-engel"
+    ],
+    "tags": [
+        "d3js",
+        "SVG",
+        "Canvas",
+        "CSS"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/Ape1hFJv3Q0/hqdefault.jpg",
+    "title": "Getting Started with D3.js",
+    "videos": [
+        {
+            "code": "Ape1hFJv3Q0",
+            "type": "youtube"
+        }
+    ]
 }

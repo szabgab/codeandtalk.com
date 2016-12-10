@@ -1,14 +1,16 @@
 {
-  "description": "This presentation takes a look at virtualization, with a specific view on containers. In the first part a small overview about containers, where they differ from virtual machines and para-virtualization. A short difference between LXC and OpenVZ, the two most popular container systems. In the second part an introduction to setup containers using LXC.",
-  "recorded": "2012-10-27",
-  "speakers": ["toshaan-bharvani"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/s2FFx6kgyo8/hqdefault.jpg",
-  "title": "Virtualization through container",
-  "videos": [
-    {
-      "code": "s2FFx6kgyo8",
-      "type": "youtube"
-    }
-  ]
+    "description": "This presentation takes a look at virtualization, with a specific view on containers. In the first part a small overview about containers, where they differ from virtual machines and para-virtualization. A short difference between LXC and OpenVZ, the two most popular container systems. In the second part an introduction to setup containers using LXC.",
+    "recorded": "2012-10-27",
+    "speakers": [
+        "toshaan-bharvani"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/s2FFx6kgyo8/hqdefault.jpg",
+    "title": "Virtualization through container",
+    "videos": [
+        {
+            "code": "s2FFx6kgyo8",
+            "type": "youtube"
+        }
+    ]
 }

@@ -1,15 +1,17 @@
 {
-  "description": "The web has changed drastically the last few years. The browser is becoming the de-facto application platform for online cooperation. To accommodate this, applications need to be able to scale up and down dynamically as the number of users fluctuates. While a few years ago planned downtime was as normal as anything, nowadays most applications need 100% uptime. Furthermore, the continuous need to innovate stresses the importance of extensibility and maintainability of these applications.",
-  "recorded": "2013-10-26",
-  "abstract": "http://www.t-dose.org/2013/talks/cqrs-architecture-scalable-web-applications",
-  "speakers": ["allard-buijze"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/sX-0Mr7-8Dw/hqdefault.jpg",
-  "title": "CQRS - Architecture for scalable web applications",
-  "videos": [
-    {
-      "code": "sX-0Mr7-8Dw",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "http://www.t-dose.org/2013/talks/cqrs-architecture-scalable-web-applications",
+    "description": "The web has changed drastically the last few years. The browser is becoming the de-facto application platform for online cooperation. To accommodate this, applications need to be able to scale up and down dynamically as the number of users fluctuates. While a few years ago planned downtime was as normal as anything, nowadays most applications need 100% uptime. Furthermore, the continuous need to innovate stresses the importance of extensibility and maintainability of these applications.",
+    "recorded": "2013-10-26",
+    "speakers": [
+        "allard-buijze"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/sX-0Mr7-8Dw/hqdefault.jpg",
+    "title": "CQRS - Architecture for scalable web applications",
+    "videos": [
+        {
+            "code": "sX-0Mr7-8Dw",
+            "type": "youtube"
+        }
+    ]
 }

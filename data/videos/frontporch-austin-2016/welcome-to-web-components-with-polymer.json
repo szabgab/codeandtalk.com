@@ -1,14 +1,22 @@
 {
-  "description": "Presenting speaker, Josh Kemmerling\n\nAs web technology evolves, developers continue to look for ways to solve an ever growing list of problems. The best solutions are the ones that are already built into the software we use. Web Components are still far from being supported by all browsers but that doesn\u2019t mean we can\u2019t benefit from its advancements. That\u2019s where <a href=\"https://www.polymer-project.org/\">Polymer</a> comes in. Polymer gives developers the ability to use Web Components now. This talk will walk through the basics of Polymer and how easy it is to start using Web Components today.\n\nhttp://frontporch.io/resource/",
-  "recorded": "2016-07-19",
-  "speakers": ["josh-kemmerling"],
-  "thumbnail_url": "https://i.ytimg.com/vi/Rr-gvROgHZ0/hqdefault.jpg",
-  "title": "Welcome to Web Components with Polymer",
-  "tags" : ["Polymer", "Web Components", "API", "polyfill", "Shadow DOM"],
-  "videos": [
-    {
-      "type": "youtube",
-      "code": "Rr-gvROgHZ0"
-    }
-  ]
+    "description": "Presenting speaker, Josh Kemmerling\n\nAs web technology evolves, developers continue to look for ways to solve an ever growing list of problems. The best solutions are the ones that are already built into the software we use. Web Components are still far from being supported by all browsers but that doesn\u2019t mean we can\u2019t benefit from its advancements. That\u2019s where <a href=\"https://www.polymer-project.org/\">Polymer</a> comes in. Polymer gives developers the ability to use Web Components now. This talk will walk through the basics of Polymer and how easy it is to start using Web Components today.\n\nhttp://frontporch.io/resource/",
+    "recorded": "2016-07-19",
+    "speakers": [
+        "josh-kemmerling"
+    ],
+    "tags": [
+        "Polymer",
+        "Web Components",
+        "API",
+        "polyfill",
+        "Shadow DOM"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/Rr-gvROgHZ0/hqdefault.jpg",
+    "title": "Welcome to Web Components with Polymer",
+    "videos": [
+        {
+            "code": "Rr-gvROgHZ0",
+            "type": "youtube"
+        }
+    ]
 }

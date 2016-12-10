@@ -1,15 +1,17 @@
 {
-  "description": "Building a Test Automation Framework is easy - there are so many resources / guides / blogs / etc. available to help you get started and help solve the issues you get along the journey.\n\nHowever, building a \"good\" Test Automation Framework is not very easy. There are a lot of principles and practices you need to use, in the right context, with a good set of skills required to make the Test Automation Framework maintainable, scalable and reusable.\n\nDesign Patterns play a big role in helping achieve this goal of building a good and robust framework. \n\nIn this talk, we will talk about, and see examples of various types of patterns you can use for:\n\nBuild your Test Automation Framework\nTest Data Management\nLocators / IDs (for finding / interacting with elements in the browser / app)\nUsing these patterns you will be able to build a good framework, that will help keep your tests running fast, and reliably in your CI / CD setup!",
-  "recorded": "2016-03-14",
-  "abstract": "https://confengine.com/agile-india-2016/proposal/1519",
-  "speakers": ["anand-bagmar"],
-  "tags": [],
-  "thumbnail_url": "https://i.ytimg.com/vi/mNSJuVVq26I/hqdefault.jpg",
-  "title": "Patterns of a \u201cgood\u201d Test Automation Framework, Locators & Data!",
-  "videos": [
-    {
-      "code": "mNSJuVVq26I",
-      "type": "youtube"
-    }
-  ]
+    "abstract": "https://confengine.com/agile-india-2016/proposal/1519",
+    "description": "Building a Test Automation Framework is easy - there are so many resources / guides / blogs / etc. available to help you get started and help solve the issues you get along the journey.\n\nHowever, building a \"good\" Test Automation Framework is not very easy. There are a lot of principles and practices you need to use, in the right context, with a good set of skills required to make the Test Automation Framework maintainable, scalable and reusable.\n\nDesign Patterns play a big role in helping achieve this goal of building a good and robust framework. \n\nIn this talk, we will talk about, and see examples of various types of patterns you can use for:\n\nBuild your Test Automation Framework\nTest Data Management\nLocators / IDs (for finding / interacting with elements in the browser / app)\nUsing these patterns you will be able to build a good framework, that will help keep your tests running fast, and reliably in your CI / CD setup!",
+    "recorded": "2016-03-14",
+    "speakers": [
+        "anand-bagmar"
+    ],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/mNSJuVVq26I/hqdefault.jpg",
+    "title": "Patterns of a \u201cgood\u201d Test Automation Framework, Locators & Data!",
+    "videos": [
+        {
+            "code": "mNSJuVVq26I",
+            "type": "youtube"
+        }
+    ]
 }
