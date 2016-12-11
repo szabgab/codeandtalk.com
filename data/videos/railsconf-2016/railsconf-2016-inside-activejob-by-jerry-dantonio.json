@@ -1,10 +1,10 @@
 {
     "description": "ActiveJob made a huge impact when it landed Rails 4.2. Most job processors support it and many developers use it. But few ever need to dig into the internals. How exactly does ActiveJob allow us to execute performant, thread-safe, asynchronous jobs in a language not known for concurrency? This talk will answer that question. We'll build our own asynchronous job processor from scratch and along the way we'll take a deep dive into queues, job serialization, scheduled tasks, and Ruby's memory model.",
     "recorded": "2016-05-04",
-    "speakers": [],
+    "speakers": ["jerry-d-antonio"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/E-1ICY8DMh4/hqdefault.jpg",
-    "title": "RailsConf 2016 - Inside ActiveJob By Jerry D'Antonio",
+    "title": "Inside ActiveJob",
     "videos": [
         {
             "code": "E-1ICY8DMh4",
