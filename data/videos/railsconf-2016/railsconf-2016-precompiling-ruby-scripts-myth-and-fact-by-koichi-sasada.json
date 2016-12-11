@@ -1,10 +1,10 @@
 {
     "description": "Ruby 2.3 introduced the precompilation feature which compiles Ruby scripts to a binary data format. You can store them to storage (file systems and so on) and then load from them.\n\nMany people believe a myth: precompilation is a silver bullet to reduce long boot times. However, our initial evaluations do not show impressive reduction of boot times. We faced the fact that we need more effort to achieve short boot times.\n\nThis talk will introduce this new feature and detailed analysis of Rails application loading time. Also, I will show you our new tricks to reduce loading time.",
     "recorded": "2016-05-04",
-    "speakers": [],
+    "speakers": ["koichi-sasada"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/aBhygk4c1PY/hqdefault.jpg",
-    "title": "RailsConf 2016 - Precompiling Ruby scripts - Myth and Fact By Koichi Sasada",
+    "title": "Precompiling Ruby scripts - Myth and Fact",
     "videos": [
         {
             "code": "aBhygk4c1PY",
