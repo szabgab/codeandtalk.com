@@ -1,10 +1,10 @@
 {
     "description": "DrupalSouth Gold Coast 2016\nhttps://goldcoast2016.drupal.org.au/\n\nDrupal content analysis: Elastic is here to help\nRoom: Realityloop (Level 2)\nFri, 28-Oct, 11:30\nIntermediate - Inventing\nJoshua Li and Joshua Rich\n\nThere have been sessions around Elastic stack in devop world. The ELK (Elasticsearch, Logstash and Kibana) has become a great tool for devops to track the server performance and site performance. And from the name, people would consider Elasticsearch as a searching engine and tend to compare it with Apache solr a lot. But we are here to talk about how we can leverage Elastic software in Drupal content analysis.\n\nDrupal is always adopted by large organisations to manage their content, and in most of the cases, a lot content. Do you know what\u2019s in your site? We get this question asked a lot. Surely by using Drupal\u2019s taxonomy and views system, we can organise the content in a logical way, but content analysis is not what views is designed for. Examples will be given in this session on using Elastic Kibana to visualise your content and find out the \u2018hidden rules\u2019 in your content.  We will also talk about the best possible ways to integrate Drupal content with Elastic stack. \n\nhttps://goldcoast2016.drupal.org.au/session/drupal-content-analysis-elastic-here-help",
     "recorded": "2016-10-26",
-    "speakers": [],
+    "speakers": ["joshua-li", "joshua-rich"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/BySItbj_U64/hqdefault.jpg",
-    "title": "Session: \"Drupal content analysis: Elastic is here to help\" by Joshua Li and Joshua Rich",
+    "title": "Drupal content analysis: Elastic is here to help",
     "videos": [
         {
             "code": "BySItbj_U64",

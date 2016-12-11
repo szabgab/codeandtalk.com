@@ -1,10 +1,10 @@
 {
     "description": "Lwan is a high-performance & scalable web server for glibc/Linux platforms.\n\nIn development for almost 4 years, Lwan was until now a personal research effort that focused mostly on building a solid infrastructure for a lightweight and speedy web server:\n\nLow memory footprint (~500KiB for 10k idle connections)\nMinimal memory allocations & copies\nMinimal system calls\nHand-crafted HTTP request parser\nFiles are served using the most efficient way according to their size\nNo copies between kernel and userland for files larger than 16KiB\nSmaller files are sent using vectored I/O of memory-mapped buffers\nHeader overhead is considered before compressing small files\nMostly wait-free multi-threaded design\nDiminute code base with roughly 7200 lines of C code",
     "recorded": "2016-06-30",
-    "speakers": [],
+    "speakers": ["leandro-pereira"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/cttY9FdCzUE/hqdefault.jpg",
-    "title": "PolyConf 16: Lwan - an experimental, scalable, high-performance http server / Leandro Pereira",
+    "title": "Lwan - an experimental, scalable, high-performance http server",
     "videos": [
         {
             "code": "cttY9FdCzUE",

@@ -1,10 +1,10 @@
 {
     "description": "DrupalSouth Gold Coast 2016\nhttps://goldcoast2016.drupal.org.au/\n\nRoom: Doghouse Agency (Level 2)\nThu, 27-Oct, 11:30\nIntermediate - Building\nThom Toogood\n\nBeetbox is a next generation VM for local L*MP development, built with Circle CI, Packer, Vagrant + Ansible and homegrown in Melbourne!\n\nIn this session we'll discus the benefits of developing inside a VM or container, specific to each project.\n\nI'll introduce the technologies used to build beetbox, then explain the specific benefits of the project including :-\n\n* Managing infrastructure as code (VCS, YAML, branching infastructure)\n* Team/shared development environment (git pull && vagrant --provision)\n* Standardised training/mentoring/onboarding\n* Simple CI integration (CI environment synced with local)\n* Pre-provisioned base box (Speed up builds easy replication)\n* Minimal host machine dependencies. (Simple host setup)\n* Modular architecture (core & contrib/ansible galaxy roles)\n* Pets v cattle (Don't fix rebuild!)\n* Almost limitless extensibility (Ansible custom tasks)\n* Not Drupal specific (supports any L*MP project - Symfony, Wordpress etc)\n* Latest development tools\n    - drush/drupal console\n    - composer\n    - xdebug\n    - xhprof/blackfire\n    - memcached/redis\n    - mailhog\n    - varnish\n    - phantomjs/selenium\n    - solr/elasticsearch\n    - ruby/nodejs\n    - docker/lxd\n    - & more\n\nhttps://goldcoast2016.drupal.org.au/session/beetbox-next-generation-vm-local-lmp-development",
     "recorded": "2016-10-26",
-    "speakers": [],
+    "speakers": ["thom-toogood"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/Ff7dEadrY18/hqdefault.jpg",
-    "title": "Session: \"Beetbox - a next generation VM for local L*MP development\" by Thom Toogood",
+    "title": "Beetbox - a next generation VM for local L*MP development",
     "videos": [
         {
             "code": "Ff7dEadrY18",

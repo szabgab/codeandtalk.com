@@ -111,13 +111,7 @@ has not been added yet:
 * react-conf-2015
 * linuxfest-northwest-2015
 * linuxfest-northwest-2016
-* front-trends-2016
-* nodeconf-eu-2016
-* railsconf-2016
-* jsconf-uruguay-2016
-* laracon-eu-2016
 * opensourcebridge-2015
-* polyconf-2016
 * fullstackfest-2015
 * seleniumconf-usa-2015
 * rubyconf-taiwan-2015
@@ -129,15 +123,12 @@ has not been added yet:
 * allthingsopen-2015
 * london-perl-workshop-2014
 * london-perl-workshop-2015
-* buzzjs-2016
-* clojure-conj-2016
 * clojurewest-2015
 * clojurewest-2016
 * clojutre-2015
 * clojutre-2016
 * euroclojure-2016
 * drupalsouth-2015
-* drupalsouth-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
