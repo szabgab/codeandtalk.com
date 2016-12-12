@@ -14,7 +14,7 @@ def main():
         help='API key'
     )
     parser.add_argument('--id')
-    parser.add_argument('--limit', type=int, help="Max number of videos to handle", default=1)
+    parser.add_argument('--limit', type=int, help="Max number of videos to handle (defaults to 1)", default=1)
     args = parser.parse_args()
     if not args.api_key:
         parser.print_help()

@@ -1,5 +1,8 @@
 {
     "description": "Advanced Performance Optimisation - A case study on adairs.com.au\nRoom: Acquia (Level 2)\nFri, 28-Oct, 10:30\nAdvanced - Building\nScott Anderson\n\nWhat if you've done all the right things to optimise the performance for your high-traffic site, and it's still struggling. You set up and fine-tuned your Varnish cache, added Memcache, deployed to a super-powerful auto-scaling AWS environment but when traffic ramps up the site falls over.\n\nAt this point you need to dig deeper to find the root cause of your performance issues. This requires the right tools, the right tests and the right process.\n\nBy running through a real-life case study of our experiences optimising adairs.com.au, using Redline13.com for load testing, New Relic for performance analysis and digging deep into Drupal caching code, I hope to show how you too, can diagnose even the most obscure and villainous performance problems.\n\nIn addition, Redline13 have recently opened up an API, allowing us to build a Drupal module that facilitates load testing from within your Drupal administration area. (Module currently under construction.)\n\nWhile the case study site is a Drupal 7 site with Commerce, the tools and processes used apply equally well to D8 sites.\n\nhttps://goldcoast2016.drupal.org.au/session/advanced-performance-optimisation-case-study-adairscomau",
+    "favorite": "0",
+    "length": "32:30",
+    "likes": "2",
     "recorded": "2016-10-26",
     "speakers": [
         "scott-anderson"
@@ -12,5 +15,6 @@
             "code": "6hY_YjruIiE",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "54"
 }

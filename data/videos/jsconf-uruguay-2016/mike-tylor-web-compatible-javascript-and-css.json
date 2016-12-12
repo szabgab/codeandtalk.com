@@ -1,5 +1,8 @@
 {
     "description": "What does it mean for JavaScript and CSS to be\u2014or not to be\u2014compatible with the web?\n\nIs it possible for some code written last week to continue to work in a web browser 10 years from now? Likewise, could existing code in the wild complicate adding JavaScript language features (i.e., ES2015+) or fixing mistakes in web APIs?\n\nIn this talk I'll discuss some of the issues that arise when browser vendors attempt to cleanup the messy platform we call the web, either by adding new language features and DOM APIs or removing old ones (if such a thing is even possible)\u2014while attempting to remain backwards compatible(-ish). I'll even talk about some controversial moves made by browsers to support non-standard (cough webkit prefixes) CSS and JS for compatibility reasons.",
+    "favorite": "0",
+    "length": "29:20",
+    "likes": "2",
     "recorded": "2016-04-15",
     "speakers": [
         "mike-taylor"
@@ -12,5 +15,6 @@
             "code": "anrwNMn6wRo",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "112"
 }

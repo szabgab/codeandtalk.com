@@ -1,5 +1,8 @@
 {
     "description": "No matter how blazing-fast V8 and other JavaScript virtual machines get, there\u2019s one impossibile limit to overcome in JavaScript web applications: your code can\u2019t travel faster than the speed of light. While the speed of light is very fast, it has very real performance implications for JavaScript developers building browser and mobile apps for a global audience. By having points of presence around the world, dozens of different content delivery networks (CDNs) push and other assets physically closer to users. This talk is an introduction and discussion of best practices to around using CDNs and how HTTP/2 is changing everything. Every JavaScript developer should be familiar with this critical piece of global infrastructure for building mobile and browser web applications.\n\nThis talk is structured around three areas:\n\n1) An introduction to how CDNs work for JavaScript developers, including why they exist and the problem of latency in building modern, global web applications. 2) Best practices for caching static assets at edge locations, fingerprinting, the costs of using SSL and using CDNs in front of dynamic API endpoints. 3) Measuring performance and handling (and monitoring for) CDN failure.",
+    "favorite": "0",
+    "length": "21:20",
+    "likes": "2",
     "recorded": "2016-04-15",
     "speakers": [
         "clay-smith"
@@ -12,5 +15,6 @@
             "code": "zYM7bCRkotM",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "130"
 }

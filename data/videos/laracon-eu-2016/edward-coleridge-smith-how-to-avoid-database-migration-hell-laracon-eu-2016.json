@@ -1,5 +1,8 @@
 {
     "description": "Maybe you use migrations and seeds in your applications or maybe you don't? If you already make use of them, what do you do when the list of requirements grows or you're managing multiple applications talking to the same database? If you don't already make use of these powerful tools, maybe you should consider using them? However, things can quickly get out of control; migrations can get messy, seeds can be forgotten about and you might make the mistake of inserting data into your database via a migration.\n\nMy talk explains some of the problems I've had in the past surrounding these issues and the solutions used to resolve them. Like when I've found it most appropriate to use a migration, making use of different categories of seeds or even breaking your database migrations and seeds out into their own package, so they can be shared between different projects. I've been in database migration hell, I've found the way out and I want to try and stop others finding their way down there!",
+    "favorite": "0",
+    "length": "43:27",
+    "likes": "10",
     "recorded": "2016-08-23",
     "speakers": [
         "edward-coleridge-smith"
@@ -12,5 +15,6 @@
             "code": "lH-FLJ363-Q",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "915"
 }
