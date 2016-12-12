@@ -1,5 +1,8 @@
 {
     "description": "Why this talk?\n\nWith Rubinius and JRuby making good progress, we do have truly parallel Ruby implementations\nRuby adoption is increasing in more complex applications where performance is critical\nTraditional Ruby application architecture involves multiple processes to achieve parallelism. In this talk we will explore other architecture options using Rubinius and JRuby to build truly parallel applications. Topics covered will include.\n\nThroughput\nResponsiveness\nMemory management\nMoving from Processes to Threads\nUnderstanding Rubinius\nPower of JRuby",
+    "favorite": "0",
+    "length": "16:02",
+    "likes": "1",
     "recorded": "2014-03-22",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "9VHWCsprfHI",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "100"
 }

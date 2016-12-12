@@ -1,5 +1,8 @@
 {
     "description": "Rails and Rack both have mechanisms to route requests. They are powerful, and offer some dynamic routing if you want to route within Rails. But what if you need to dynamically route requests to multiple Rack based applications? What if you want to control that routing dynamically with a database? Circuit allows you to do that. In this talk will explore the basics of Rack Middleware and Routing. Then we will show you how Circuit can help you to take Rack routing to the next level dynamically with lots of traffic.",
+    "favorite": "0",
+    "length": "26:50",
+    "likes": "0",
     "recorded": "2013-02-07",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "WG0D9duhMfQ",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "59"
 }

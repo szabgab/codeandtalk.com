@@ -1,5 +1,8 @@
 {
     "description": "Functional Programming is more than a set of language features. It's a style of thinking, a way of doing things.\n\nRuby gives us access to some aspects of the Functional style through lambdas, blocks, procs, and array iterators.\n\nBut the most profound way in which Functional thinking can change your Ruby day comes down to a core issue of Functional Programming: \"side-effects\". Ruby places no restriction on leaving side-effects - it comes down to the choice (and then discipline) of the Rubyist to refrain from doing so.\n\nSide-effect-free code is more easily testable, and more predictable than side-effect-ridden code.\n\nIn this talk I'll show you some of the many ways in which side-effects cause you pain and suffering, and techniques and strategies of leaving less of them in your wake.",
+    "favorite": "0",
+    "length": "31:26",
+    "likes": "1",
     "recorded": "2013-02-07",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "GaSwjqU28-U",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "588"
 }

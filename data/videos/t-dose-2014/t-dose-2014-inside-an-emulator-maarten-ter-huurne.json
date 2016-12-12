@@ -1,5 +1,8 @@
 {
     "description": "Inside an emulator, Maarten ter Huurne \ndownload the sheets for this presentation at:\nhttp://www.treewalker.org/presentations/TDOSE-2014-Inside_an_Emulator.pdf\n\nEmulators let you run software designed for one machine on a completely different machine. A popular use is to run classic games on modern PCs and mobile devices, but emulators can also be used in software development to get advanced debugging features or in hardware development to evaluate systems before they are put into silicon.\n\nIn this talk I will explain what emulation is and how it compares to virtualization and to virtual machines. The difference between high-level and low-level emulation will be discussed, including the trade-offs involved. I will show a timing model that allows high-accuracy emulation to be implemented efficiently. And there will be some fun and surprising uses of emulation demonstrated, such as tool-assisted speedruns (TAS) and single stepping back in time in a debugger.\n\nMost examples will come from openMSX, an open source emulator for the 80's MSX home computer (Z80 based), which is a project I have been active in for over a decade.\n\nMaarten ter Huurne is an embedded software engineer from Eindhoven. Open source projects that Maarten contributes to include openMSX (MSX emulator), Twine (tool for writing interactive stories), OpenDingux (Linux distribution for handheld game consoles), Buildroot (embedded Linux build system) and the Linux kernel.\n\nT-DOSE is a free and yearly event held in The Netherlands to promote use and development of Open Source Software. During this event Open Source projects, developers and visitors can exchange ideas and knowledge.",
+    "favorite": "0",
+    "length": "52:42",
+    "likes": "6",
     "recorded": "2014-10-25",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "v7VTWEtmfRk",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "269"
 }
