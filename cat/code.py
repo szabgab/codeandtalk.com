@@ -997,7 +997,7 @@ class GenerateSite(object):
         """
 
         valid_fields = ['title', 'thumbnail_url', 'tags', 'recorded', 'description', 'videos', 'speakers', 'abstract', 'slides', 'language', 'featured', 'length', 'blasters',
-            'views', 'likes', 'favorite']
+            'views', 'likes', 'favorite', 'skipped']
         valid_fields.extend(['filename', 'event', 'file_date']) # generated fields
         required_fields = ['title', 'recorded']
         report = ''
