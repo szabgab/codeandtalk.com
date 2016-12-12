@@ -7,6 +7,9 @@
 {% if video.length %}
 <div>Length: {{video.length}}</div>
 {% endif %}
+{% if video.views %}
+<div>Views {{video.views}}  Likes: {{video.likes}}</div>
+{% endif %}
 
 {% if video.abstract %}
 <div><a href="{{video.abstract}}">abstract</a></div>
