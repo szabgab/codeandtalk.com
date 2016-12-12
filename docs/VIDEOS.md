@@ -7,6 +7,10 @@ Major tasks with videos:
 * Add the speakers
 * Add tags, update descriptions
 
+Trailers: There are some conferences that upload two version of their talk the full version and
+one called -trailer which is a 3 min snippet. The trailers should be skipped.
+(We should probably also remove them later on.)
+
 
 
 Add the playlists to the events files
