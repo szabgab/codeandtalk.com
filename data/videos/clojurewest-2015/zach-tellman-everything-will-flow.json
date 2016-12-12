@@ -1,5 +1,8 @@
 {
     "description": "Queues, it seems, are back in fashion. This is exciting, as queues let us explore problem spaces that were unreachable by pure, immutable primitives.\n\nBut queues, and the execution models that drive them, are very different than what we're used to. Naive use of libraries like core.async will create brittle, unpredictable systems that fall over when we least expect. \n\nThis talk will cover the basics of queueing theory, and its practical application in Clojure systems large and small.",
+    "favorite": "0",
+    "length": "40:13",
+    "likes": 0,
     "recorded": "2015-04-20",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "1bNOO3xxMc0",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "9855"
 }

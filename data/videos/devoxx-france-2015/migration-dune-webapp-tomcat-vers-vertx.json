@@ -1,5 +1,8 @@
 {
     "description": "Nio, reactive programming sont des termes que l'on entend sur toutes les l\u00e8vres. Vert.x est un des frameworks permettant d'utiliser ce paradigme.Cr\u00e9er une application Vert.x est assez facile, mais est-il facile de migrer une application existante Tomcat vers Vert.x ?\u00c0 travers ce retour d'exp\u00e9rience, je vais partager les probl\u00e8mes rencontr\u00e9s et les points qui n'ont pas \u00e9t\u00e9 anticip\u00e9, parmi ceux l\u00e0 :Que faire des caches statiques de la JVM ?Quid des JSP, et en g\u00e9n\u00e9ral de toute l'API servlet ?O\u00f9 cr\u00e9er les verticles ?A-t-on le callback hell typique de javascript ?2 parties dans le talk :Petit condens\u00e9 sur Vert.x, son API, ses points forts (10 minutes environ)Points diff\u00e9renciant entre une webapp sur l'API servlet et une webapp sur Vert.x, avec un retour d'exp\u00e9rience sur des solutions possibles pour r\u00e9ussir la migration\n\n\nAuthor:\nFlorian Boulay\nD\u00e9veloppeur Java. Actuellement d\u00e9veloppeur chez Next Performance notamment sur le bidder RTB.\n\nBlog: blog.boulay.eu",
+    "favorite": "0",
+    "length": "49:36",
+    "likes": "1",
     "recorded": "2016-06-08",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "uicW0Oe_7J8",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "171"
 }

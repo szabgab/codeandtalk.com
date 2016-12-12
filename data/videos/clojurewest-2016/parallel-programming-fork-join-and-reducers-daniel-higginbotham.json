@@ -1,7 +1,12 @@
 {
     "description": "If you don't know your work/span from your fork/join, this talk is for you! By attending this introduction to \"thinking parallel,\" you'll learn why parallel programming matters, how to think about performance, and how to tackle real-world concerns. You'll learn about how the fork/join framework embodies best practices. And of course, you'll learn how Clojure implements these ideas with reducers.",
+    "favorite": "0",
+    "length": "40:54",
+    "likes": 0,
     "recorded": "2016-04-15",
-    "speakers": ["daniel-higginbotham"],
+    "speakers": [
+        "daniel-higginbotham"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/fA9ZXy4N13s/hqdefault.jpg",
     "title": "Parallel Programming, Fork Join, and Reducers",
@@ -10,5 +15,6 @@
             "code": "fA9ZXy4N13s",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "1176"
 }

@@ -1,7 +1,12 @@
 {
     "description": "The latest big announcement from Cognitect is clojure.spec. It comes with a promise of better runtime checking, improved error messages, and a shared vocabulary for communicating the structure of data.\n\nIn this hands-on talk I'll start with the basics, then work up to more complex examples. I'll show you how to write specs, and how to use them to instrument functions, parse data, and do generative testing.\n\nSlides: http://arnebrasseur.net/talks/2016-clojutre/",
+    "favorite": "0",
+    "length": "27:02",
+    "likes": "14",
     "recorded": "2016-09-16",
-    "speakers": ["arne-brasseur"],
+    "speakers": [
+        "arne-brasseur"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/-MeOPF94LhI/hqdefault.jpg",
     "title": "Introduction to clojure.spec",
@@ -10,5 +15,6 @@
             "code": "-MeOPF94LhI",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "1438"
 }

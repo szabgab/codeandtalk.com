@@ -1,5 +1,8 @@
 {
     "description": "Criteo affiche 2 milliards de banni\u00e8res par jour. Elles n\u00e9cessitent 15 millions de pr\u00e9dictions par seconde, qui g\u00e9n\u00e8rent \u00e0 leur tour 950GB de donn\u00e9es (compress\u00e9es) par heure. Ces donn\u00e9es sont dig\u00e9r\u00e9es sur Hadoop pour finalement y appliquer des algorithmes de machine learning qui g\u00e9n\u00e8rent 1700 mod\u00e8les de pr\u00e9diction par jour, utilis\u00e9s pour les pr\u00e9dictions suivantes. La boucle est boucl\u00e9e! Nous d\u00e9crirons en d\u00e9tail l'infrastructure qui permet d'encha\u00eener les \u00e9tapes de ce traitement. Son \u00e9tat actuel sera remis dans la perspective des difficult\u00e9s rencontr\u00e9es, et nous \u00e9voquerons les \u00e9volutions futures.\n\n\nAuthors:\nJean-Baptiste Note\nSoftware Engineer @ Criteo\n\nLaurent Vion\nD\u00e9veloppeur chez Criteo depuis 5 ans, je travaille principalement sur l\u2019infrastructure technique du composant de pr\u00e9diction : distribution des calcul, d\u00e9ploiement des mod\u00e8les, environnement de pr\u00e9-production et de simulation \u2026",
+    "favorite": "0",
+    "length": "51:41",
+    "likes": "0",
     "recorded": "2016-06-08",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "p_KdvFPQsQI",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "248"
 }

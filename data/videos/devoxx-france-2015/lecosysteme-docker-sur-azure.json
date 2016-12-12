@@ -1,5 +1,8 @@
 {
     "description": "Docker, en rendant l'utilisation des containers Linux facile pour les developeurs, a cree une nouvelle categorie de plateforme entre les classiques Infrastructure (IaaS) et Plateforme (PaaS), qui a connu une adoption inegalee les 18 derniers mois.D'un simple runtime pour container Linux, Docker est recemment devenu une plateforme pour construire des systemes distribues, et un ecosysteme important s'est forme autour pour resoudre les problemes lies a la gestion et l'orchestration des containers.Cette presentation couvrira les composants d'orchestration offerts par Docker, et par son ecosysteme: Docker machine, pour provisionner des VMs, Docker swarm pour orchestrer les containers, et Docker Compose pour gerer des applications multi container.Kubernetes, Mesos, Cloud Foundry, Deis et Tutum pour l'orchestration. Weave pour le networking. Flocker pour la migration de containers contenant des donnees.Je terminerai dans une fenetre de terminal, en montrant comment provisionner la plateforme d'orchestration open source Deis sur CoreOS sur Azure. Je deploierai sur Deis une application Web Java Java creee avec le framework Spring Boot, utilisant MongoDB.\n\n\nAuthor:\nPatrick Chanezon\nPatrick Chanezon manages the Client and Cloud Advocacy team at Google, making the web better as a development platform with open web standards, GWT, Google Appengine and a lot of coffee. He has been a Developer Advocate at Google since 2005, building and growing developer ecosystems for OpenSocial, Google Checkout and the AdWords API. Previously he has been working on portals, blogs and syndication feeds at Sun Microsystems, AOL and Netscape. He's the co-founder of the ROME java open source project and the OSSGTP (Open Source Get Together Paris) group. Patrick is french, so he takes long vacations in the summer and likes to drink red wine with baguette and stinky cheese while wearing a beret. Apart from programming and reading books and mangas, his main interest in life is spending time with his wife and 3 kids.",
+    "favorite": "0",
+    "length": "49:02",
+    "likes": "0",
     "recorded": "2016-06-08",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "wU4wq04yO8M",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "102"
 }

@@ -1,7 +1,12 @@
 {
     "description": "This talk discusses the development of a feature-rich onboard application for the Boeing 737 Max. We structured our application with a service framework and message queues to enable communication between disparate parts of the service while preserving separation of concerns.\n\nThe onboard diagnostic system designed for the Boeing 737 MAX checks and reports on over 6,000 faults, giving airplane technicians and maintenance crew a critical window to the health and performance of the aircraft.",
+    "favorite": "0",
+    "length": "41:06",
+    "likes": 0,
     "recorded": "2016-04-15",
-    "speakers": ["donevan-dolby"],
+    "speakers": [
+        "donevan-dolby"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/iUC7noGU1mQ/hqdefault.jpg",
     "title": "Managing One of the World's Largest Clojure Code Bases",
@@ -10,5 +15,6 @@
             "code": "iUC7noGU1mQ",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "11613"
 }

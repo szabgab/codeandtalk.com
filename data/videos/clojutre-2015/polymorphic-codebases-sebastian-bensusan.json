@@ -1,5 +1,8 @@
 {
     "description": "We know how to handle Polymorphism in the small with protocols and multimethods but how do we handle Polymorphism in the large?\n\nWhile developing a Form Builder, we collected tools and practices to structure our codebase so that adding each new Field Type would add no extra complexity. The journey highlights the strengths (and weaknesses!) that Clojure(Script) has to deal with architecture in several concerns: rendering, validating, storing, etc.\n\nSlides: http://slides.com/bensu/polymorphic_codebases",
+    "favorite": "0",
+    "length": "18:09",
+    "likes": "4",
     "recorded": "2015-09-11",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "wjHTsaqwMIE",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "752"
 }

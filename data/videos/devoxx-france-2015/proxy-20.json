@@ -1,5 +1,8 @@
 {
     "description": "Depuis la version 1.3 du JDK, il existe une classe java.lang.reflect.Proxy qui permet la g\u00e9n\u00e9ration de proxy (une classe implantant une ou plusieurs interface) \u00e0 l'ex\u00e9cution. Utilis\u00e9e initialement pour le support de RMI, cette API (o\u00f9 ses d\u00e9riv\u00e9es) est utilis\u00e9es par de nombreuses applications/frameworks comme Hibernate, Spring ou Weld.Malheureusement, le design de cette API montre son \u00e2ge, son usage est non transparent (stacktrace de la mort), son implantation est lente (la VM est perdu) et la gestion des nouveaut\u00e9s comme les m\u00e9thodes par d\u00e9faut ne sont pas pris en compte.Ce talk va raconter l'histoire de l'API Proxy 2.0, de son design et de son implantation et juste pour rire r\u00e9pondre \u00e0 la question que tout le monde se pose \"comment faire tourner des lambdas Java 8 sur Java 7\". Le code est librement disponible: https://github.com/forax/proxy2\n\n\nAuthor:\nRemi Forax\nAssistant Professor at Paris-East Marne-la-Vall\u00e9e. I am a JSR 292/235 expert, an OpenJDK hacker, an ASM developer and the creator of the JSR 292 backport and PHP.reboot.",
+    "favorite": "0",
+    "length": "51:37",
+    "likes": "2",
     "recorded": "2016-06-08",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "noXPKssAnuY",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "77"
 }

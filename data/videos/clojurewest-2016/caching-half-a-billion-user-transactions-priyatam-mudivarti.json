@@ -1,7 +1,12 @@
 {
     "description": "While many robust Cache libraries exists, understanding cache invalidation and cache-misses in a distributed platform requires a deeper understanding of your data access patterns. At Level Money we built our own caching solution, backed by a Memcached Cluster. In this talk I will share our story: how we name and version our caches, grow dependency graphs, find expensive computations, avoid race conditions, and define compute functions to serialize financial data using a simple Protocol.\n\nWhat's more-there's a happy ending!",
+    "favorite": "0",
+    "length": "43:05",
+    "likes": 0,
     "recorded": "2016-04-15",
-    "speakers": ["priyatam-mudivarti"],
+    "speakers": [
+        "priyatam-mudivarti"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/SaBCMz0rNvY/hqdefault.jpg",
     "title": "Caching half a billion user transactions",
@@ -10,5 +15,6 @@
             "code": "SaBCMz0rNvY",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "1247"
 }

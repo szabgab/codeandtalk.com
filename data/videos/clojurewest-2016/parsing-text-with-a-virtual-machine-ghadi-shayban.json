@@ -1,7 +1,12 @@
 {
     "description": "As the saying goes, all the good ideas in computer science came from the 1970s. We'll explore a new library for parsing text that calls upon an old, unconventional approach: compiling parsers to custom bytecode and then running it through an interpreter.  Along the way, we'll learn about how PEGs fit a sweet spot between regular expressions and heavier parsers, and how Clojure is an ideal language for writing simple compilers.",
+    "favorite": "0",
+    "length": "43:54",
+    "likes": 0,
     "recorded": "2016-04-15",
-    "speakers": ["ghadi-shayban"],
+    "speakers": [
+        "ghadi-shayban"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/9Q--oX5muxw/hqdefault.jpg",
     "title": "Parsing Text with a Virtual Machine",
@@ -10,5 +15,6 @@
             "code": "9Q--oX5muxw",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "2280"
 }

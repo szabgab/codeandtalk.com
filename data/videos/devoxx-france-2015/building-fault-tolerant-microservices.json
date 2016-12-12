@@ -1,5 +1,8 @@
 {
     "description": "Are you developing applications that communicate over a network? Of course you are! This talk will take you through all the ways you can build fault-tolerant applications and how, once you get your team in the mindset that everything will eventually fail, dealing with the failures gracefully is no more work than building fragile applicationsThe topics covered will be:What to do when one of the dependencies fails to respond in timeWhen to use network level time outs vs application level timeoutsWhat to monitor and how to monitor it, e.g connection pools, thread pools, queue sizes, latencyHow to test for when the network is slow or saturatedHow to test for when traffic is lost in transitHow to train your stakeholders to expect failure and get them to agree to fallbacks meaning they can choose availability over other requirementsWhen to use automated circuit breakers vs manual kill switchesTips, hints and tricks for doing all of the above in JavaThe topics covered are especially relevant if your application has a lot of dependencies that it communicates with over a network i.e. microservices.\n\n\nAuthor:\nChristopher Batey\nSoftware Engineer/Evangelist, DataStax\nChristopher Batey is a Software Engineer by trade and is currently employed by DataStax a Technical Evangelist for Apache Cassandra, previously he was Senior Software Engineer at BSkyB where he spent his time designing and developing their next generation platform that backs Sky Go, Now TV etc. He is a keen blogger, tweeter and open source advocate.",
+    "favorite": "0",
+    "length": "52:13",
+    "likes": "0",
     "recorded": "2016-06-08",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "na4JnimL6bw",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "32"
 }

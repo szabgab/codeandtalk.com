@@ -30,8 +30,8 @@ def main():
         print(filename)
         with open(filename) as fh:
             video = json.loads(fh.read())
-            if not video['speakers']:
-                continue 
+            #if not video['speakers']:
+            #    continue 
             if 'length' in video and video['length']:
                 continue
             if video['videos'][0]['type'] == 'youtube':
@@ -81,8 +81,8 @@ def process(api_key, vid):
 
         return {
             'views'    : stats['viewCount'],
-            'likes'    : stats['likeCount'],
-            'favorite' : stats['favoriteCount'],
+            'likes'    : stats.get('likeCount', 0),
+            'favorite' : stats.get('favoriteCount', 0),
             'length'   : length,
         }
 main()

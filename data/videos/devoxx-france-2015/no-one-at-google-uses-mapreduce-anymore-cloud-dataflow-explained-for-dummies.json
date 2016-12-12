@@ -1,5 +1,8 @@
 {
     "description": "Warning: this an an algorithmics talk, and it also involves parallel processing.The MapReduce paper, published by Google 10 years ago (2004!), sparked the parallel processing revolution and gave birth to countless open source and research projects. We have been busy since then and the MapReduce model is now officially obsolete. The new data processing models we use are called Flume (for the processing pipeline definition) and MillWheel for the real-time dataflow orchestration. We are releasing them as a public tool called Cloud Dataflow which allows you to specify both batch and real-time data processing pipelines and have them deployed and maintained automatically - and yes, dataflow can deploy&nbsp;lots&nbsp;of machines to handle Google-scale problems.What is the magic behind the scenes ? What is the post-MapReduce dataflow model ? What are the flow optimisation algorithms ? Read the papers or come for a walk through the algorithms with me.\n\n\nAuthors:\nMartin G\u00f6rner\nNo bio availabMartin is passionate about science, technology, coding, algorithms and everything in between. He graduated from Mines Paris Tech, enjoyed his first engineering years in the computer architecture group of ST Microlectronics and then spent the next 11 years shaping the nascent eBook market, starting with the Mobipocket startup, which later became the software part of the Amazon Kindle and its mobile variants. He joined Google Developer Relations in 2011 and now focuses on entrepreneurship outreach.\n\nBlog: https://plus.google.com/+MartinGornerle\n\n Didier Girard\nDirecteur des Op\u00e9rations de SFEIR. Expert sur les technologies Cloud de Google. Bonne connaissance de Java. A fait une th\u00e8se sur ce que l'on appelle maintenant le machine learning.",
+    "favorite": "0",
+    "length": "55:24",
+    "likes": "1",
     "recorded": "2016-06-08",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "g0uJScZ8kbg",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "268"
 }

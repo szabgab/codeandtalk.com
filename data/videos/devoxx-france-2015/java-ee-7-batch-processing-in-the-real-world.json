@@ -1,5 +1,8 @@
 {
     "description": "This talk will explore one of the newest API for Java EE 7, the JSR 352, Batch Applications for the Java Platform. Batch processing is found in nearly every industry when you need to execute a non-interactive, bulk-oriented and long running operation task. A few examples are: financial transactions, billing, inventory management, report generation and so on. The JSR 352 specifies a common set of requirements that every batch application usually needs like: checkpointing, parallelization, splitting and logging. It also provides you with a job specification language and several interfaces that allow you to implement your business logic and interact with the batch container. We are going to live code a real life example batch application, starting with a simple task and then evolve it using the advanced API's until we have a full parallel and checkpointing reader-processor-writer batch. By the end of the session, attendees should be able to understand the use cases of the JSR 352, when to apply it and how to develop a full Java EE Batch Application.\n\n\nAuthor:\nDavid Delabassee\nundefined",
+    "favorite": "0",
+    "length": "53:02",
+    "likes": "1",
     "recorded": "2016-06-08",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "qAActqw73wE",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "354"
 }
