@@ -984,7 +984,7 @@ class GenerateSite(object):
                 fh.write(json.dumps(video, sort_keys=True))
 
             self.sitemap.append({
-                'url' : '/v/' + video['event']['nickname'] + video['filename'],
+                'url' : '/v/' + video['event']['nickname'] + '/' + video['filename'],
                 'lastmod' : video['file_date'],
             })
 
