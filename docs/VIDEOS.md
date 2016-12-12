@@ -128,10 +128,7 @@ has not been added yet:
 * london-perl-workshop-2014
 * london-perl-workshop-2015
 * clojurewest-2015
-* clojurewest-2016
 * clojutre-2015
-* clojutre-2016
-* euroclojure-2016
 * drupalsouth-2015
 
 ``` grep speaker * | grep '\[\]' ```
