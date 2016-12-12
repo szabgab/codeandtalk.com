@@ -1,5 +1,8 @@
 {
     "description": "Interesting bits of Go used when writing the new storage engine for InfluxDB, mixing Goroutines and mutexes, binary encoding, bit shifting, and mmap syscalls. Paul will highlight these parts of our Go codebase and more to show how we achieved massive write throughput and a 20x improvement in compression. \n\nPaul Dix is the CEO of InfluxDB, the YC backed open source time series database. He is also the series editor for Addison Wesley's \"Data and Analytics\" book and video series, the author of \"Service Oriented Design with Ruby and Rails\", and the founder of the NYC Machine Learning Meetup. He holds a degree in computer science from Columbia University.",
+    "favorite": "0",
+    "length": "27:47",
+    "likes": "9",
     "recorded": "2015-10-02",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "87cCPJ4OK7E",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "522"
 }

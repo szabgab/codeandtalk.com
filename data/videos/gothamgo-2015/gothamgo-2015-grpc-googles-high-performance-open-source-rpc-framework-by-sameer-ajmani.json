@@ -1,5 +1,8 @@
 {
     "description": "GothamGo 2015: gRPC: Google's high-performance, open-source RPC framework by Sameer Ajmani \n\nGoogle recently released gRPC, an open-source RPC framework based on HTTP/2. The Go team worked closely with the Google RPC team to ensure the Go gRPC implementation is fast, clean, and idiomatic. In this talk, I will present gRPC with a detailed example and describe its integration with the net/context and net/trace packages. The net/trace package is new and provides real-time, low-overhead debug logs and latency histograms. I'll also given an update on net/context, its adoption, and the new ctxhttp package. \n\nSameer Ajmani leads the Google NYC Go team, which works on making Go work well in Google production systems and on mobile platforms. Before joining the Go team, Sameer worked on distributed storage and data processing systems, including Google Maps indexing and Bigtable. His open-source Go work includes the Advanced Go Concurrency Patterns talk, the net/context package, and the Pipelines blog post. He lives in Prospect Heights, Brooklyn with his family. \n\nSlides available at http://talks.golang.org/2015/gotham-grpc.slide#1\n\nSee http://gothamgo.com/program#sameer_ajmani\n\nThis is a replacement (with better audio) of this earlier upload:\n\nhttps://www.youtube.com/watch?v=vTIyz2QfExc",
+    "favorite": "0",
+    "length": "29:23",
+    "likes": "50",
     "recorded": "2015-10-02",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "sZx3oZt7LVg",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "5656"
 }

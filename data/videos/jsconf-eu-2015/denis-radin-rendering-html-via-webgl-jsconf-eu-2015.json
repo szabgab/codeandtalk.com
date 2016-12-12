@@ -1,5 +1,8 @@
 {
     "description": "In the recent time Web development community had a big discussion on \u201cDOM is slow\u201d topic. This thesis is truthful. DOM is a quite complex model which starts a ripple of events or chain reaction over document on every modification. HTML GL solves \u201cthe slow DOM problem\u201d by creating WebGL representations of DOM elements and hiding actual DOM after. This speeds up HTML/CSS animations and transformations by using 3D hardware acceleration and allows to apply OpenGL effects as modern 3D games have.\n\nIn this talk:\n\n- The \u201cSlow DOM problem\u201d;\n- Solutions possible\n- DOM optimization vs alternative rendering approaches(React-canvas, Netflix methodology);\n- Seeking for an ideal solution;\n- Rendering content via WebGL using HTML GL\n- Limitations, recommendations\n- Where to go further?\n\nIntro music by @halfbyte",
+    "favorite": "0",
+    "length": "24:34",
+    "likes": "108",
     "recorded": "2015-09-25",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "9oGQucDOaoY",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "6399"
 }

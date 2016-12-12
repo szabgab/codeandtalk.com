@@ -1,5 +1,8 @@
 {
     "description": "A talk from Full Stack Fest 2015 (http://fullstackfest.com/)\n\nOver time we have seen several \u201cutility\u201d frameworks for dealing with Javascript data structures and processing abstractions. It all started simple with Underscode, became more functional with Lodash, evolved again with Ramda, but it got a bit messy when developers looked for a way out of callback hell (generally through promises or one of the reactive frameworks like Rx, Bacon, Highland, Kefir\u2026).\n\nThen the Clojure world brought us transducers. They redefine the \u201cprocessing a sequence\u201d concept encompassing the usual \u201cmap\u201d, \u201creduce\u201d, and \u201cfilter\u201d functions, and can be applied to both synchronous and asynchronous computations.\n\nIn this talk we will see how to use them in Javascript (mostly through Underarm and their integration in Ramda), and especially how they can help you producing better code.\n\nhttp://fullstackfest.com/agenda/transducers-ftw\n\nRecorded & produced by El Cocu (http://elcocu.com)",
+    "favorite": "0",
+    "length": "34:07",
+    "likes": "16",
     "recorded": "2015-09-01",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "MrDvPB8FSMQ",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "1449"
 }
