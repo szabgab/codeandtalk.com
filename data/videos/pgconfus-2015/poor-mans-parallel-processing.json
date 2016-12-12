@@ -1,5 +1,8 @@
 {
     "description": "Check out http://www.pgconf.us/2015/event/63/ for the full talk details.\n\nCurrently Postgres does not support transparent parallel query. Some third party tools implement parallel on a limited basis through proxies and sharding, but they also require building the entire database around that proxy.\n\nThis talk will go into how one person (ab)used several features of Postgres and its extensions to achieve limited query parallezation on an existing database.\n\nAreas covered will be:\n- dblink\n- polymorphic functions and litations thereof\n- hijacking the COPY FROM PROGRAM command\n- JSON/HSTORE\n- parallel index rebuild\n\nAbout the Speaker\nCorey Huinker is a database programmer and consultant. He specializes in database and query optimization and ETLs. \nHis first database project was implementing language specific TPC-C benchmarks on a AS/400, where he was surprised to learn that RPG was faster than C.\nHe is based in New York City.\nHis past hobbies have included improvisational theater and refereeing roller derby.",
+    "favorite": "0",
+    "length": "39:35",
+    "likes": "0",
     "recorded": "2015-03-25",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "ZiN-sBOMx4k",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "224"
 }

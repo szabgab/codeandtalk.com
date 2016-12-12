@@ -1,5 +1,8 @@
 {
     "description": "Check out http://www.pgconf.us/2015/event/87/ for the full talk details.\n\nThe talk will include how we are using PostgreSQL in the production environment at Inmobi . Following are the key-points:\n* PostgreSQL as the main transactional master DB with 99% uptime\n* Automated way to implement in production (with puppet)\n* Replication via cascaded SR in multiple data center\n* Readonly DB load balancing on multiple nodes in each data centre\n* Pgbouncer pooling\n*Security control via pg_hba\n*Customer Interface reporting db",
+    "favorite": "0",
+    "length": "42:06",
+    "likes": "2",
     "recorded": "2015-03-25",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "tP1zIiIA7aY",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "221"
 }

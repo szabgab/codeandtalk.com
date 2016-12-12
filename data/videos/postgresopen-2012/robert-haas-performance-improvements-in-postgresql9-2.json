@@ -1,5 +1,8 @@
 {
     "description": "The upcoming PostgreSQL 9.2 release features a large number of performance enhancements by many different authors, including heavyweight lock manager improvements, reduced lock hold times in key hot spots, better group commit, index-only scans, better write-ahead log parallelism, sorting improvements, and a userspace AVC for sepgsql.\n\nThis talk is an overview of what was changed, how it helped, lessons learned, and the challenges that remain.",
+    "favorite": "0",
+    "length": "55:47",
+    "likes": "0",
     "recorded": "2012-09-17",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "QS76_Ma-Tpg",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "131"
 }

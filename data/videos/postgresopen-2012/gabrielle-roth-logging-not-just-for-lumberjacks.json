@@ -1,5 +1,8 @@
 {
     "description": "We'll walk through the various logging configuration options PostgreSQL offers to help you figure out how to get what you need in a format that's useful to you.\n\nLogging is an important part of your database monitoring suite, providing historical information for troubleshooting and forensic purposes: which user logged in when, what queries they ran and how long they took, when the database restarted. PostgreSQL offers different file format, message format, and message content options for logging. These options can be kind of overwhelming for the first-time user. We'll walk through the various configuration parameters to help you figure out how to get what you need in a format that's useful to you. (We'll even talk a bit about how to do this on Windows.) Then we'll discuss some solutions for extracting information from your logs.\n\nThis is an updated version of the talk I gave at pgOpen last year. It's best for people who haven't played around with logging (much) yet, but know where their postgresql.conf is.",
+    "favorite": "0",
+    "length": "42:42",
+    "likes": "0",
     "recorded": "2012-09-17",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "suah_VEX5Ro",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "83"
 }

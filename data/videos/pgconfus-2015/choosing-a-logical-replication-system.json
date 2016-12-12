@@ -1,5 +1,8 @@
 {
     "description": "Check out http://www.pgconf.us/2015/event/96/ for the full talk details.\n\nThis talk covers some of the high-level issues involved in choosing a specific logical replication system for use with PostgreSQL.\n\nWe cover some of the differences between physical and logical replication and go into depth on the functioning of some of the available logical replication systems (Slony and Bucardo specifically) and cover strengths for each of these with example use-cases.\n\nWe will also review some of the new PostgreSQL 9.4 infrastructure available for logical replication systems.\n\nAbout the Speaker\nDavid Christensen is a software developer for End Point corporation and works remotely from Lawrence, KS. He has a wide knowledge of database platforms and is the leader of End Point\u2019s PostgreSQL team. He has a B.S. in Mathematics from the University of Kansas and worked for the Kansas Center for Educational Testing and Evaluation before joining End Point in 2006.",
+    "favorite": "0",
+    "length": "44:53",
+    "likes": "0",
     "recorded": "2015-03-25",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "YgNjLtUcHBo",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "244"
 }

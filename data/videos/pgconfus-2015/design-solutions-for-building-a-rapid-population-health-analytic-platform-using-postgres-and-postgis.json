@@ -1,5 +1,8 @@
 {
     "description": "Check out http://www.pgconf.us/2015/event/86/ for the full talk details.\n\nDelivery System Reform Incentive Payment (DSRIP) Program is an initiative to transform health care delivery for the Medicaid and uninsured population of New York State. The program requires that each regional lead organization perform an in depth population health needs assessment for the community. At Stony Brook Medicine, the regional lead for Suffolk County, Postgres with the PostGIS extension were utilized to build a rapid population health analytic platform. \n\nIt will demonstrated through several case studies how Postgres can be utilized to solve health care data analytic problems. These include: \n\n1) The use of schemas for the management and loading of multiple data sources.\n2) How to process and analyze hospital discharges using the range data functions and operators.\n3) Computing behavioral health comorbidities for hospital inpatients using SQLAlchemy, CCS codes and Tableau\n4) The integration of the American Community Survey (ACS) data and the geocoded address with PostGIS so as to understand regional differences in health care delivery in Suffolk County, NY.\n\nThe flexibility of Postgres and the richness of features allowed the informatics team to meet the short deadline of 3 months.\n\nAbout the Speaker\nDr. Janos G. Hajagos is currently research assistant professor and Chief of Data Anayltics in the newly formed department of Biomedical Infomatics at Stony Brook University. Previously, he was the lead data analyst for a unique partnership between SUNY and the New York State Department of Health. He has a Ph.D. in Ecology and Evolutionary Biology and has published widely from risk analysis to applications of the semantic web to healthcare.",
+    "favorite": "0",
+    "length": "48:37",
+    "likes": "0",
     "recorded": "2015-03-25",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "TzCt79rN108",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "155"
 }

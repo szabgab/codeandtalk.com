@@ -1,5 +1,8 @@
 {
     "description": "PostgreSQL always respected the durability aspects of commits. Extending that to reach onto multiple servers expands the suitability of the database for business critical applications. It will cost you though. The question isn't just how much durability you want; it's much durability can you afford? There are several options you can consider, and PostgreSQL 9.2 makes some of them much faster.\n\nA database commit can be the most expensive single operation that its users have to wait for. Recent trends in the database industry have proven some applications are willing to accept durability loss, when it must be sacrificed to reach performance goals. And an inevitable downside of more durable approaches like Synchronous Replication are their impact on server commit speed.\n\nSome of the fundamental limitations here are physical ones: disk rotation, network performance, and the speed of light. Recent performance improvements changes for PostgreSQL 9.2 aim at getting closer to the theoretical best possible behavior here in every situation. It's more important than ever to tell when the limit you're hitting is a physical one, and when it's something you can address with a software change. Controlling commit batch size and the number of concurrent clients is getting even more important as PostgreSQL is deployed onto cloud and other virtual hardware environments.\n\nThe innovative design used in PostgreSQL doesn't force you to make this sort of decision at the database level. Every individual commit can specify its durability requirements at any time, even in the middle of a transaction. Being able to classify your need at such a fine level allows PostgreSQL an unprecedented range of options in this area. Mission critical data that needs multi-node synchronous commit can coexist with high volume/best effort data, with each transaction fine-tuned to its position in the reliability vs. speed trade-off spectrum.\n\nTopics covered will include:\n\n    Components of commit latency\n    Application batch commits\n    Benchmarking commit speed vs. client count\n    Local commit durability options and performance\n    Improvements in progress for PostgreSQL 9.2 group commit performance\n    Remote server commit latency\n    Synchronous Replication commit options and performance\n    Per-transaction commit durability",
+    "favorite": "0",
+    "length": "46:39",
+    "likes": "0",
     "recorded": "2012-09-17",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "CQL954IrJRA",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "66"
 }

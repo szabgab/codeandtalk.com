@@ -1,5 +1,8 @@
 {
     "description": "PostGIS. A spatial database extension for PostgreSQL. What spatial data is, the questions you can answer with it, the features of PostGIS explained, with an extra section on the new features of PostGIS 2.0.\n\nSpatial data is all around us. Almost every entity in a database has some spatial component, whether it is the location of an asset, the address of a customer, or the postal code of a facility.\n\nWe are used to joining data tables using a pre-existing key structure and ensuring those keys always have integrity with constraints. Spatial information provides a \"universal key\" that can bind seemingly disparate information. What congressional district is this voter from? Use their address to look up a location and find the district that contains the location. There is no common key, but there is a common spatial relationship.\n\nPostGIS provides to tools to make use of the common spatial key in all our data. Functions, indexes, and objects, for geographic data storage, retrieval and analysis. Since 2001, PostGIS has been the leading open source spatial data base, and has been responsible for a great deal of PostgreSQL adoption.\n\nPostGIS 2.0, released this year, adds new features to PostGIS. Raster data, 3D support, and more. We will review the new features and preview features coming in 2.1.",
+    "favorite": "0",
+    "length": "53:13",
+    "likes": "6",
     "recorded": "2012-09-17",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "LSLxLYg3SoA",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "1291"
 }

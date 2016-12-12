@@ -1,5 +1,8 @@
 {
     "description": "Postgres is great as an OLTP database, but for certain activities can create some heartburn - cuch as when calculating uniques across millions of records. The extensions model allows for a lot of flexibility for Postgres going beyond simply relational SQL. One such extension is postgresql-hll based on the HyperLogLog paper which we'll highlight here.",
+    "favorite": "0",
+    "length": "12:29",
+    "likes": "4",
     "recorded": "2013-09-16",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "bV2m8eBeuu0",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "1047"
 }

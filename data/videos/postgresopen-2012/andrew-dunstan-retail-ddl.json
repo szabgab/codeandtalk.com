@@ -1,5 +1,8 @@
 {
     "description": "Retail DDL provides a set of functions which will generate the SQL required to create any database object. The functions are lightweight, not requiring any of the overhead of pg_dump, and available for use in any client.\n\nGetting the SQL to create an object can be a nuisance. Either you need to run pg_dump, which is usually serious overkill, and occasionally can significantly impact processing, or you rely on a client library. Retail DDL is a set of server side functions intended to make getting this SQL much easier.\n\nEach of the functions will be described and many will be demonstrated. Also discussed will be the usefulness of these functions in checking the integrity of the object definitions for a database, as a protection against incompetent or malicious database users.",
+    "favorite": "0",
+    "length": "40:49",
+    "likes": "0",
     "recorded": "2012-09-17",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "fBarFKOL3SI",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "52"
 }

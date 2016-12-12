@@ -1,5 +1,8 @@
 {
     "description": "Asynchronous I/O frameworks like Node, Twisted, Tornado, and Python 3.4\u2019s new \u201casyncio\u201d can efficiently scale past tens of thousands of concurrent connections. But async coding with callbacks is painful and error-prone. Programmers increasingly use coroutines in place of callbacks to get the best of both worlds: efficiency plus a natural and robust coding style. I\u2019ll explain how asyncio\u2019s coroutines work. They are built using Python generators, the \u201cyield from\u201d statement, and the Future and Task classes. You will gain a deep understanding of this miraculous new programming idiom in the Python standard library.",
+    "favorite": "0",
+    "length": "34:53",
+    "likes": "33",
     "recorded": "2015-06-23",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "GSk0tIjDT10",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "2429"
 }

@@ -1,5 +1,8 @@
 {
     "description": "The CATME application was originally written in 2005 using mod_perl and MySQL.In 2012 we converted the application to use Postgres. A number of coding changes had to be made to support his change. Additionally, we inserted a number of bugs because we had unwittingly depended on MySQL's loose typing and acceptance of non-UTF-8 data and character encodings as UTF-8. This presentation examines the decisions and errors made.",
+    "favorite": "0",
+    "length": "56:58",
+    "likes": "0",
     "recorded": "2013-09-16",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "TLBjDXx23FU",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "65"
 }

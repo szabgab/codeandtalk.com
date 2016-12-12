@@ -1,5 +1,8 @@
 {
     "description": "Check out http://www.pgconf.us/2015/event/100/ for the full talk details.\n\nThe BDR project works on delivering robust, featurefull and fast asynchronous multimaster replication to postgres. UDR shares most of the code and infrastructure with BDR and provides unidirectional logical replication for the cases where multimaster is not required.\n\nWe'll discuss:\n* What scenarios are good for asynchronous multimaster?\n* In which cases won't it work?\n* What methods exist to avoid and resolve conflicts?\n* Performance!\n* What's the relationship with core postgres?\n* The Future\n\nAbout the Speaker\nAndres Freund is a developer and consultant at 2ndQuadrant Ltd. He is developing and sometimes even using Postgres and other Open Source projects since 2005. Before his current job he worked as a freelancing consultant in the area of databases and software engineering for several years.",
+    "favorite": "0",
+    "length": "51:32",
+    "likes": "14",
     "recorded": "2015-03-25",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "4klaPUjbMZo",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "2901"
 }

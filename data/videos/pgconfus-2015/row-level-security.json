@@ -1,5 +1,8 @@
 {
     "description": "Check out http://www.pgconf.us/2015/event/91/ for the full talk details.\n\nPostgreSQL has long had a complex and interesting set of permissions available through the GRANT system. There is another system which exists in many other RDBMS's known as row-level security (RLS), where the rows returned is filtered based on a policy implemented on the table.\n\nIn this talk we'll review RLS, provide examples and use-cases, discuss the work which has been done on adding Row Level Security to PostgreSQL and the current state of that effort.\n\nAbout the Speaker\nStephen Frost is the Chief Technology Officer for Crunchy Data Solutions, Inc.\nStephen is a PostgreSQL Committer and Major Contributor, his previous work has included implementing the role system in 8.1 (replacing the previous user/group system), column-level privileges in 8.4 and improvements to PL/pgSQL.",
+    "favorite": "0",
+    "length": "49:41",
+    "likes": "1",
     "recorded": "2015-03-25",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "__NKfEfvYuI",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "249"
 }
