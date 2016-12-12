@@ -1,5 +1,8 @@
 {
     "description": "Mike Glukhovsky\n\nReact is the new hotness when it comes to efficient and reactive UI in the browser. RethinkDB is the new hotness when it comes to pushing live data to wherever you need it from a single source of truth. And lastly, RethinkDB is the smallest and cheapest computing device for doing awesome IoT things. So what happens when we combine all three?\n\nIn this talk I\u2019ll show how to create your own motion detection-activated security camera with an automagically updating UI. The RethinkDB, RBPi, React combination gives us a great way to put together a homebrewed hardware idea with the minimum amount of code to get to a working project. React is a great and efficient interface for IoT projects such as this and even more so when the feed is a RethinkDB changefeed powered by the easy asychronicity of Nodejs.",
+    "favorite": "0",
+    "length": "35:20",
+    "likes": "58",
     "recorded": "2015-11-14",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "fPRLAmwmPyY",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "3162"
 }
