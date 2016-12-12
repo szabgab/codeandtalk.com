@@ -28,12 +28,12 @@ def main():
                 continue
             if 'length' in video:
                 sec = _in_sec(video['length'])
-            if sec < length:
-                videos.append({
-                    'filename': video_file,
-                    'length'  : video['length'],
-                    'sec'     : sec,
-                })
+                if sec < length:
+                    videos.append({
+                        'filename': video_file,
+                        'length'  : video['length'],
+                        'sec'     : sec,
+                    })
     
     for video in sorted(videos, key=lambda v: v['sec']):
         #exit(video)
