@@ -1,7 +1,9 @@
 {
     "description": "caled Vector Graphics (SVG) is awesome because it has a small footprint, scales along with different resolutions, and looks great in retina displays. There are a lot of cool things you can do with React and SVG. One very common application is to use this combination to create your application's iconography. Another important scenario is to use SVG and React to create data visualization components like charts, meters, topology, and many others.\n\nBy default SVGs are not accessible. Accessibility in this context means receiving keyboard focus as well as screen readers being able to interact with your components.\n\nIn this 30-min talk I will provide tips and tricks to make sure your icons, graphs, and all your SVG-based components are accessible. The presentation will have live coding to illustrate the accessibility limitations of SVG.",
     "recorded": "2016-04-15",
-    "speakers": ["alan-souza"],
+    "speakers": [
+        "alan-souza"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/Qo0BHIkKzqo/hqdefault.jpg",
     "title": "REACTJS: TIPS AND TRICKS TO CREATE ACCESSIBLE SVG COMPONENTS",

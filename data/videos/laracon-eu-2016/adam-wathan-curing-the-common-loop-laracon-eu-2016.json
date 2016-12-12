@@ -1,7 +1,9 @@
 {
     "description": "Trying to understand a complex function full of nested loops and conditionals is like trying to read a \"choose your own adventure\" book from front to back.\n\nIn this whirlwind tour of programming with collection pipelines, you'll learn how to use functional programming ideas to break down complex code and abstract hidden duplication behind expressive higher order functions.\n\nBy leveraging the power of Laravel's Collection class, we'll refactor ugly, complicated spaghetti into a series of simple, elegant transformations, free of loops, complex conditionals, and temporary variables.\n\nNever write another loop again.",
     "recorded": "2016-08-23",
-    "speakers": ["adam-wathan"],
+    "speakers": [
+        "adam-wathan"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/crSUWtRYw-M/hqdefault.jpg",
     "title": "Curing the common loop",

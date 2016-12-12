@@ -1,8 +1,9 @@
-
 {
     "description": "They bridge your application and your database. They're object-relational mappers, and no two are alike. Join us as we compare ActiveRecord from Rails with Ecto from Phoenix, a web framework for Elixir. Comparing the same app implemented in both, we'll see why even with two different frameworks in two different languages, it's the ORM designs that most affect the result. This tale will teach you how to pick the right ORM for your next project, and how to make the best of the one you already use.",
     "recorded": "2016-06-30",
-    "speakers": ["brad-urani"],
+    "speakers": [
+        "brad-urani"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/96YwY7Lld0Q/hqdefault.jpg",
     "title": "Ecto vs. ActiveRecord - A Tale of Two ORMs",

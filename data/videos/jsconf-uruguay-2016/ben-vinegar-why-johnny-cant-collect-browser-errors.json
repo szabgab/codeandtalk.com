@@ -1,7 +1,9 @@
 {
     "description": "If an error occurs on your website, and you weren't there to log it, did it happen?\n\nWell, yes. It did. But even if you decided to start logging such errors, you'd learn something really quickly: logging JavaScript errors is hard.\n\nIn this talk, I'll take attendees through the state of client-side JavaScript error logging in 2016. We'll cover topics like:\n\nwindow.onerror \u2013 how it works, in what browsers, and what happens when it doesn't (work)\nwhy you still have to use try/catch in some places\nthe Error object\nextracting and normalizing stack traces (because they're different in every browser, ouch!)\nwhy NodeJS has it easy!\nframeworks and global error handlers\nV8's StackTrace API\n3rd-party libraries to help you: TraceKit, Stacktrace.JS\nAt the end of this talk, you'll have all the information you need to get started logging your own client-side errors. And even if you use a 3rd-party service/client library to do it for you instead, you'll have a better handle on how those tools work under the hood.",
     "recorded": "2016-04-15",
-    "speakers": ["ben-vinegar"],
+    "speakers": [
+        "ben-vinegar"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/HjVJUAOqVNE/hqdefault.jpg",
     "title": "WHY JOHNNY CAN'T COLLECT BROWSER ERRORS",

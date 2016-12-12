@@ -1,7 +1,9 @@
 {
     "description": "Room: Doghouse Agency (Level 2)\nThursday, 27-Oct-2016, 10:30\nIntermediate - Building\nRikki Bochow\n\nDrupal 8 has SVGs in core and by default looks for logo.svg in your theme. So why are SVGs so good and how can you start using them everywhere (including your Drupal 7 site)?\n\nThis session will cover:\n- What are the benefits of SVGs over icon fonts and retina graphics\n- What are the current set backs of SVGs\n- Methods of using SVGs (img, inline, sprite, css backgrounds etc) and why use one over the other\n    How to form your SVG for optimisation, accessibility and browser consistency\n\nAnd the big one - \"Why can't I upload an SVG to an image field already\"?\n\nhttps://goldcoast2016.drupal.org.au/session/using-svgs-drupal",
     "recorded": "2016-10-26",
-    "speakers": ["rikki-bochow"],
+    "speakers": [
+        "rikki-bochow"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/0NWH0rYSWzg/hqdefault.jpg",
     "title": "Using SVGs in Drupal",

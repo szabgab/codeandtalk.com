@@ -1,7 +1,9 @@
 {
     "description": "This talk will introduce Oden, an experimental, statically typed, functional programming language built for the Go ecosystem. We will look at how Oden aims to leverage the great features of Go \u2014 static linking, cross-compilation, goroutines, channels and the great set of libraries and tools \u2014 and enable higher-level abstractions, generics and a safer yet more flexible type system.",
     "recorded": "2016-06-30",
-    "speakers": ["oskar-wickstrom"],
+    "speakers": [
+        "oskar-wickstrom"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/qRm_58RA9ns/hqdefault.jpg",
     "title": "Oden - A Functional Programming Language for the Go Ecosystem",

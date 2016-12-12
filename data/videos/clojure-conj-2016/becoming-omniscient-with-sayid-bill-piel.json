@@ -1,7 +1,9 @@
 {
     "description": "Does your development workflow involve sprinkling defs or prints around your code? There is another way. Sayid is an omniscient debugger and profiler for Clojure. It enables you to capture, view and query every function call made within your code. This talk will demonstrate workflows made possible by this tool and give some insight into how it all works.",
     "recorded": "2016-12-01",
-    "speakers": ["bill-piel"],
+    "speakers": [
+        "bill-piel"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/ipDhvd1NsmE/hqdefault.jpg",
     "title": "Becoming Omniscient with Sayid",

@@ -1,7 +1,9 @@
 {
     "description": "When you look at your response times, satisfied that they are \"fast enough\", you're forgetting an important thing: your users are on the other side of a network connection, and their browser has to process and render the data that you sent so quickly. This talk examines some often overlooked parts of web applications that can destroy your user experience even when your response times seem fantastic. We'll talk about networks, routing, client and server-side VMs, and how to measure and mitigate their issues.",
     "recorded": "2016-05-04",
-    "speakers": ["andre-arko"],
+    "speakers": [
+        "andre-arko"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/KP1nKRprj0Q/hqdefault.jpg",
     "title": "Don't Forget the Network: Your App is Slower Than You Think",

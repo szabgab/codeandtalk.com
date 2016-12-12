@@ -1,7 +1,9 @@
 {
     "description": "Exploration of the new and shiny clojure.spec library as a tool for generating music. We will build up a spec defining how a canonical jungle tune should be composed and then use clojure.spec.gen generators to make songs and perform them live with Overtone.",
     "recorded": "2016-12-01",
-    "speakers": ["wojciech-franke"],
+    "speakers": [
+        "wojciech-franke"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/404UXttr8kw/hqdefault.jpg",
     "title": "Composing music with clojure.spec",

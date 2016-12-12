@@ -1,7 +1,9 @@
 {
     "description": "Early Bird tickets are now on sale for Front-Trends 2017, May 24-26. Get'em while they last! https://2017.front-trends.com/ \n\nOrigami is the Financial Times' front end components system. It aspires to create a unified style and experience for FT websites, and make web development at the FT faster.\n\nThis talk will be a walk through Origami, with its key parts described in contrast with other similar components systems and pattern libraries created elsewhere. An alternative talk title could be \u201cThings Origami could learn from other design systems\u201d\n\nI'll look at the methodologies for deciding what gets to be a component, and compare this to more pattern-library type approaches (such as atomic-design). I'll look at how various teams have approached documentation and talk about why Origami does this badly and how we can improve it. I'll compare how Origami handles delivery of its components to browsers, and contrast it to how other places such as GDS and Lonely Planet have approached this.\n\nBy the end of the talk, the listener should understand a bit about how large companies like the FT deal with Front-End development at scale, and they will hopefully have some ideas about Front-End architectures to take back to their own worlds.",
     "recorded": "2016-05-18",
-    "speakers": ["alice-bartlett"],
+    "speakers": [
+        "alice-bartlett"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/y4ggoN2xtAY/hqdefault.jpg",
     "title": "Can't You Make It More Like Bootstrap?",

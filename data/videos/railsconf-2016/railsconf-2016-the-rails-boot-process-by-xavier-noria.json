@@ -1,7 +1,9 @@
 {
     "description": "Rails ships as a number of components, Active Record, Active Support, ..., largely independent of each other, but somehow something orchestrates them and presents a unified view of the system. Then we have config/boot.rb, config/application.rb... what do they do? Application initializers, environment configuration, what runs when? Understanding how that works becomes an inflection point in any Rails programmer that goes through it. You go from that cloudy idea of an initialization that sets things up for a certain definition of \"things\", to a well-understood process.",
     "recorded": "2016-05-04",
-    "speakers": ["xavier-noria"],
+    "speakers": [
+        "xavier-noria"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/vSza2FZucV8/hqdefault.jpg",
     "title": "The Rails Boot Process",
