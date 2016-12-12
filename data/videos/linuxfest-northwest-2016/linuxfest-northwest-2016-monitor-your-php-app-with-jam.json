@@ -1,5 +1,8 @@
 {
     "description": "JaM is a PHP monitoring system that supports storing PHP errors (events) into different storage backends.\n\nIt is implemented as a PHP extension that can be used monitor any PHP based app at the Zend Engine level, without having to make any changes to your app or parse the error logs.\n\nIt can capture multiple event types, including fatal Zend Engine errors.\n\nThe events JaM captures can be sent to multiple backends such as email, an ElasticSearch server, SNMP. etc.\n\nThe session will review the general architecture and code and will demo a live application reporting events by email and also logging them to an ElasticSearch server.\n\nJaM is a FOSS project, licensed as AGPLv3, it's home page is here: https://github.com/jessp01/jam",
+    "favorite": "0",
+    "length": "53:41",
+    "likes": "0",
     "recorded": "2016-04-23",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "DDGuDQyjftI",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "37"
 }

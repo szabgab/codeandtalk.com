@@ -1,5 +1,8 @@
 {
     "description": "Perl has huge flexibility to extend its own syntax, not always to the good of the maintainability.\n\nIn YAPC Riga 2011 we showed a functional approach to elegantly provide new idioms, including operators and control structures, just by using\n\na) The syntactic sugar of chaining functions with special prototypes\nb) A LISP like macro system which expands functions to inlined code.\n\n(see http://yapceurope.lv/ye2011/talk/3597 )\n\nWe argued that this approach is\n- more reliable\n- easy to install, use, maintain ...\n- compatible with established development tools\n- less delicate in edge cases\n\nAnd demonstrated how to extend Perl5 to have idioms like\n\n- List Comprehensions,\n- Co-Routines and Gather-Take,\n\nAim of this presentation is to finish what we started and trying to implement a variety of language features known from Perl6, Python or Ruby.\n\nWe will see that the real complexity lies in the design and not in the implementation of good idioms.\n\nThe last 10 minutes will be hopefully left for discussions.",
+    "favorite": "0",
+    "length": "49:43",
+    "likes": "0",
     "recorded": "2014-11-08",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "i-Xz_9nFlvI",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "68"
 }

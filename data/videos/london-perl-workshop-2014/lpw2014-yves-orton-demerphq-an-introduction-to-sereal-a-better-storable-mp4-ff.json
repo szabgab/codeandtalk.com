@@ -1,5 +1,8 @@
 {
     "description": "I will introduce Sereal and explain why we at Booking.com wrote it, and why we think it is superior to Storable in almost every scenario, including a discussion on \"Storable upgrade-trap\". As a follow up I will delve into the internals a bit, explain why it is fast and why it produces compact output suitable for the wire even without compression. I will also talk a little about how we at Booking.com use Sereal internally, and a bit about the possible future plans for the protocol.",
+    "favorite": "0",
+    "length": "48:21",
+    "likes": "2",
     "recorded": "2014-11-08",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "DaFmisqdBd8",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "121"
 }

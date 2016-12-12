@@ -1,5 +1,8 @@
 {
     "description": "Trying to debug Linux can often be an exercise in frustration. The internet is full of cargo-cult solutions that don't really explain what's going on, or how their magic incantation actually fixes your problem. In my years as a full-time system administrator and DevOps extraordinaire I've dealt with this a lot. When the internet hasn't divined any answers I've had to learn many tools in order to diagnose misbehaving systems.\n\nI'd like to share these with you all the tools available to figure out what's going on, and what debugging workflows most effectively use them for tasks such as traffic sniffing, system profiling, benchmarking, or tracing breakage. I'll be covering everything from library call tracing to kernel-level debugging tools, and everything in-between.\n\nBy the end of the session, everyone should leave with a clearer understanding of how a Linux system works, and how they can use Linux's standard tools to diagnose what is wrong when something breaks.",
+    "favorite": "0",
+    "length": "43:25",
+    "likes": "1",
     "recorded": "2016-04-23",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "Q11i-Hp_gIk",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "59"
 }

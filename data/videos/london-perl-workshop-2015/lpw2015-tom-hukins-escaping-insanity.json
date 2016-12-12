@@ -1,5 +1,8 @@
 {
     "description": "Perl makes it easy to process data, handling the flow of information between different systems in different formats.\n\nUnfortunately, it's easy to make mistakes when passing data around. Encoding problems lead to unreadable text; escaping problems lead to security holes.\n\nSuch problems apply to all programming languages, not just Perl. This talk will describe the general principles of escaping data, then explain how to better manage escaping problems, sometimes avoiding the need to escape data.\n\nWe will look at things like system calls, opening files, SQL queries, constructing URLs, outputting data in HTML and serialising to formats like XML and JSON.\n\nWith luck we will have a little time to spare at the end for questions.",
+    "favorite": "0",
+    "length": "23:02",
+    "likes": "0",
     "recorded": "2015-12-12",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "alosmt3aGWI",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "39"
 }

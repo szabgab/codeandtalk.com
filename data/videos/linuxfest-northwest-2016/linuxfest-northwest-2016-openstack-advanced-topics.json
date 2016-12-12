@@ -1,5 +1,8 @@
 {
     "description": "OpenStack is Open Source Cloud software, and the definition of cloud has changed in recent years. OpenStack has always provided API driven access to resources traditionally found in the datacenter: virtual machines, networks and subnets, storage, and dns. With recent developments OpenStack provides API access to other interesting resources including databases, load balancers, containers, fleets of containers, message queues, and remote filesystems. These 'optional' OpenStack resources provide value at the cost of complexity. This talk aims to provide some insight into what these optional resources do and how you can benefit from them.\n\nIn this talk I will provide a survey of these more non traditional services, I'll give my honest opinion on which ones I think are ready for production, and I'll provide a live demo of using one or two of them.\n\nAn overview of the core-optional split between OpenStack services can be found here: https://www.openstack.org/software/\n \n\nSpencer (nibalizer) Krum has been sysoping Linux since 2010. He works for IBM contributing upstream to OpenStack and Puppet. Spencer is a core contributor to the OpenStack Infrastructure Project. Spencer coordinates the local DevOps user group in Portland and volunteers for an ops-training program at Portland State University called the Braindump. Spencer is a published author and frequent speaker at technical conferences. Spencer helped found the puppet-community effort, which attempts to bring together a network of developers, modules, and infrastructure.\n\nSpencer lives and works in Portland, Oregon where he enjoys cheeseburgers and StarCraft II. His website is http://spencerkrum.com",
+    "favorite": "0",
+    "length": "40:17",
+    "likes": "1",
     "recorded": "2016-04-23",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "h9_PO3hugks",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "49"
 }

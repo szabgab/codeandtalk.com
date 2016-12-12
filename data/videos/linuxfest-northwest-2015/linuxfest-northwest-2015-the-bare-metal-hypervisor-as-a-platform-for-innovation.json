@@ -1,5 +1,8 @@
 {
     "description": "Russell Pavlicek\n\nSlides: http://linuxfestnorthwest.org/sites/default/files/slides/LFNW15-Bare-Metal_Hypervisor.pdf\n\nUnlike some hypervisors which run within a host operating system, or containers which share an operating system base, bare-metal hypervisors enable possible solutions with ultra-light footprints.  Many new solutions are in development to leverage this capability, from embedded systems in cars to super-dense clouds. Come hear how a true Type-1 hypervisor makes this possible.\n\nFor many tasks, the choice between a Type 1 (bare metal) or Type 2 (hosted) hypervisor is a matter of performance or even personal taste.  Some workloads work slightly better on a hypervisor which is hosted within an existing operating system, while some others work better on hypervisors which run directly on bare metal with no operating system host.  And many, many other tasks run about the same on either one.\n\nHowever, there is a growing breed of solutions which specifically leverage the architecture of a bare metal hypervisor to address new concepts.  These tasks range from embedded applications to new types of cloud-hosted software appliances.  All leverage the lightweight nature and securability of a Type 1 hypervisor, and most are fostered by the Xen Project ecosystem.\n\nWe will review a number real efforts underway including:\n\n    Xen Automotive: the effort to craft an embedded automotive infotainment system\n    Realtime virtualization: work to facilitate applications which need realtime processing\n    ARM-based hypervisor: enabling a new breed of applications, from servers to cell phones, on the ARM architecture\n    Mirage OS and other unikernel systems: creating highly-dense farms of ultra-small and secure cloud appliances",
+    "favorite": "0",
+    "length": "01:09:09",
+    "likes": "2",
     "recorded": "2015-04-25",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "1_70X8RMEn8",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "482"
 }

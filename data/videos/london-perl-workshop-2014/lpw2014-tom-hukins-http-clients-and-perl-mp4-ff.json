@@ -1,5 +1,8 @@
 {
     "description": "Increasingly, Internet communication takes place over HTTP. HTTP, in turn, runs on top of TCP .\n\nPerl programmers often use LWP, or perhaps HTTP::Tiny, to communicate in HTTP. Many higher level libraries exist that aim to abstract away the details of the HTTP protocol.\n\nFor security, the https protocol uses TLS. This involves certificate authorities and certificate validation.\n\nThis talk will explore all the above and provide practical advice for how to write or improve code that uses HTTP.\n\nThe audience will have a little experience of using Perl to interact with Web Services or servers but won't need a detailed understanding of HTTP, TCP or TLS.",
+    "favorite": "0",
+    "length": "47:25",
+    "likes": "0",
     "recorded": "2014-11-08",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "x8-rQ24yqec",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "71"
 }
