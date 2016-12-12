@@ -1,7 +1,12 @@
 {
     "description": "GeoRepl is an OpenSource software written entirely in Clojure using Quil as basic GUI framework. GeoRepl is an interactive geometry application which lets you examine and manipulate the symbolic representations of the geometric constructions in a Clojure Repl as well. GeoRepl follows a concept of user interaction allowing the user to draw intuitively and \"menue-less\" using freehand symbol recognition, snapping, dragging and dashing.",
+    "favorite": "0",
+    "length": "40:40",
+    "likes": 0,
     "recorded": "2016-10-25",
-    "speakers": ["thomas-neuhalfen"],
+    "speakers": [
+        "thomas-neuhalfen"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/OYmsPDwgeOk/hqdefault.jpg",
     "title": "GeoRepl - Interactive Geometry with Clojure",
@@ -10,5 +15,6 @@
             "code": "OYmsPDwgeOk",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "783"
 }

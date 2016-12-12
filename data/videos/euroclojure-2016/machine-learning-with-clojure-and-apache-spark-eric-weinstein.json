@@ -1,7 +1,12 @@
 {
     "description": "Machine learning has become an incredibly popular field of research in the last few years. While there's no shortage of libraries and tutorials in languages like Python and Java, there's relatively little in the world of Clojure. In this talk, we'll dive into machine learning with Clojure and Apache Spark! We'll start out comparing the Flambo and Sparkling libraries by building a binary classifier, then move on to exploring image recognition with a convolutional neural network developed with DeepLearning4J. You'll come away with a solid grasp of introductory theory as well as practical approaches to developing models and neural networks in Clojure.",
+    "favorite": "0",
+    "length": "37:48",
+    "likes": 0,
     "recorded": "2016-10-25",
-    "speakers": ["eric-weinstein"],
+    "speakers": [
+        "eric-weinstein"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/2Av5n7ffe0M/hqdefault.jpg",
     "title": "Machine Learning with Clojure and Apache Spark",
@@ -10,5 +15,6 @@
             "code": "2Av5n7ffe0M",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "2123"
 }

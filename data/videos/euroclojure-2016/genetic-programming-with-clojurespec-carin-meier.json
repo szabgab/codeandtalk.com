@@ -1,7 +1,12 @@
 {
     "description": "**Please note that video of Carin is absent until 6:15**\n\nClojure.spec allows us to generate test data based on our specifications. But what about generating a clojure.spec program based off of data? With genetic programming, we\u2019ll explore creating clojure.spec creatures that consume data for food. Then, we\u2019ll breed, mutate, and evolve them until we have a perfect fitting spec for our data. Finally, we'll take a step back and think about how clojure.spec gives us the ability to have our programs describe themselves and what that means to AI and self-repairing code.",
+    "favorite": "0",
+    "length": "42:20",
+    "likes": "31",
     "recorded": "2016-10-25",
-    "speakers": ["carin-meier"],
+    "speakers": [
+        "carin-meier"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/xvk-Gnydn54/hqdefault.jpg",
     "title": "Genetic Programming with clojure.spec",
@@ -10,5 +15,6 @@
             "code": "xvk-Gnydn54",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "1473"
 }

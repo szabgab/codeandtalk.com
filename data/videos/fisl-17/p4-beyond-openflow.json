@@ -1,5 +1,8 @@
 {
     "description": "Inscreva-se.\nhttps://goo.gl/NfsjjA\n\nP4 - Beyond Openflow\nTrilha: Desenvolvimento - Linguagens de programa\u00e7\u00e3o\nAutores:\nMauro Ramos Moura\nNatal Vieira de Souza Neto\nApresenta\u00e7\u00e3o:\nDia 13 \u00e0s 11:00 na sala 41D (60 minutos)  v\u00eddeo\nDescri\u00e7\u00e3o:  Esta palestra visa apresentar a linguagem de programa\u00e7\u00e3o P4 - Programming Protocol Independent Packet Processors, uma linguagem open source para equip  amentos de rede (switches, roteadores , NICs), que permite a cria\u00e7\u00e3o de pipelines de encaminhamento independentes de protocolo.\nP4 \u00e9 utilizado em conjunto com outras tecnologias SDN, como o Openflow, que especifica exatamente quais os campos do cabe\u00e7alho podem ser usados para se criar regras de encaminhamento nas flow-tables. P4 permite a cria\u00e7\u00e3o de cabe\u00e7alhos customizados, onde o formato de cada campo \u00e9 especificado em uma estrutura de dados, e o comportamento do equipamento em rela\u00e7\u00e3o a cada pacote \u00e9 determinado atrav\u00e9s de c\u00f3digo, fornecendo assim maior flexibilidade e capacidade de inova\u00e7\u00e3o ao desenvolvedor de aplica\u00e7\u00f5es SDN. P4 tamb\u00e9m permite que o c\u00f3digo criado seja compilado para m\u00faltiplos targets, isto \u00e9, diversos hardwares de vendors diferentes. Com isto, \u00e9 poss\u00edvel desenvolver aplica\u00e7\u00f5es reconfigur\u00e1veis realmente independentes de hardware e protocolos de rede.  \nDurante a palestra ser\u00e1 abordado o que \u00e9 a linguagem P4, como ela se relaciona com as tecnologias atuais de SDN, como montar seu ambiente de desenvolvimento e que tipos de aplica\u00e7\u00f5es podem ser criadas utilizando a mesma.",
+    "favorite": "0",
+    "length": "51:50",
+    "likes": "1",
     "recorded": "2016-07-13",
     "speakers": [],
     "tags": [],
@@ -10,5 +13,6 @@
             "code": "1aCpWxIiYTs",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "21"
 }
