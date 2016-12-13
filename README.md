@@ -142,3 +142,18 @@ redirect to the current or upcoming event).
 
 * On the speaker page include the Twitter and GitHub IDs of each speaker.
 
+
+Ideas for Conferences and other events
+---------------------------------------
+* Givng a talk (ok, this is the obvious)
+* Improv sessions https://codeandtalk.com/v/agile-india-2016/3-minute-improv-games-to-improve-your-teams-by-wayde-stallmann
+* Matching up mentors and mentees https://codeandtalk.com/v/clojure-conj-2016/overcoming-the-challenges-of-mentoring-kim-crayton
+  The idea would be to do a much shorter talk and spend a lot more time on matching mentors and mentees.
+
+* Mostly after hours:
+  * BOF (Birds of Feather) sessions - people can organize meetings based on a specific subject.
+  * Dinner with all the attendees
+  * Speaker's dinner (can provide a place to socialize)
+  * Hackathons - these usually happen on the day(s) before or after the conference, but not during the conference.
+      They also seem to be a bit solitary programming.
+  * Game night (playing board games, cards) just socializing
