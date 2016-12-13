@@ -48,7 +48,7 @@
 <h2>Videos</h2>
 <ul>
 {% for v in videos %}
-  <li><a href="/v/{{v.event.nickname}}/{{v.filename}}">{{v.title}}</a> recorded on {{v.recorded}} at <a href="/e/{{v.event}}">{{v.event_name}}</a>.</li>
+  <li><a href="/v/{{v.event.nickname}}/{{v.filename}}">{{v.title}}</a> recorded on {{v.recorded}} at <a href="/e/{{v.event.nickname}}">{{v.event.name}}</a>.</li>
 {% endfor %}
 </ul>
 {% endif %}
