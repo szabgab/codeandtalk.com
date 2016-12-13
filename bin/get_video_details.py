@@ -63,7 +63,7 @@ def process(api_key, vid):
         stats = response['items'][0]['statistics']
         details = response['items'][0]['contentDetails']
         duration = details['duration'] # 'PT18M40S'  'PT1H6M57S'
-        match = re.search(r'^PT((?P<hour>\d)H)?((?P<min>\d\d?)M)?((?P<sec>\d\d?)S)?$', duration)
+        match = re.search(r'^PT((?P<hour>\d?\d)H)?((?P<min>\d\d?)M)?((?P<sec>\d\d?)S)?$', duration)
         if not match:
             raise Exception("Unknown duration format: '{}' in {}".format(duration, vid))
 
