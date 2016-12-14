@@ -122,9 +122,6 @@ has not been added yet:
 * fisl-17
 * allthingsopen-2015
 * london-perl-workshop-2014
-* london-perl-workshop-2015
-* clojurewest-2015
-* clojutre-2015
 * drupalsouth-2015
 
 ``` grep speaker * | grep '\[\]' ```
