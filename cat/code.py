@@ -195,14 +195,14 @@ class GenerateSite(object):
                 this = {}
                 nickname = os.path.basename(filename)
                 nickname = nickname[0:-4]
+                description = None
                 with open(filename, encoding="utf-8") as fh:
-                    extra = None
                     for line in fh:
                         if re.search(r'__DESCRIPTION__', line):
-                            extra = ''
+                            description = ''
                             continue
-                        if extra != None:
-                            extra += line
+                        if description != None:
+                            description += line
                             continue
                         
                         line = line.rstrip('\n')
@@ -219,6 +219,9 @@ class GenerateSite(object):
                             else:
                                 raise Exception("Duplicate field '{}' in {}".format(k, filename))
                         this[k] = v
+
+                if description:
+                    this['description'] = description
 
                 if 'redirect' in this:
                     self.redirects.append({
@@ -1018,7 +1021,7 @@ class GenerateSite(object):
         """
             Go over all the files in the data/people directory and check if all the fields are in the list of valid_fields
         """
-        valid_fields = ['name', 'github', 'twitter', 'home', 'country', 'gplus', 'nickname', 'city', 'state', 'slides', 'comment', 'topics']
+        valid_fields = ['name', 'github', 'twitter', 'home', 'country', 'gplus', 'nickname', 'city', 'state', 'slides', 'comment', 'topics', 'description']
         report = ''
         for nickname in self.people.keys():
             for f in self.people[nickname]['info']:

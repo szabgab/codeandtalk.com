@@ -7,6 +7,11 @@
     <div><a href="https://twitter.com/{{ person['info']['twitter'] }}">Twitter: @{{ person['info']['twitter'] }}</a></div>
     {% endif %}
 
+    {% if person.info.description %}
+    <div>{{ person.info.description }}</div>
+    {% endif %}
+      
+
     {% if person['episodes'] %}
         <h2>Episodes</h2>
         <ul>
