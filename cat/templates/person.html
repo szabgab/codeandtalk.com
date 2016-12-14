@@ -8,7 +8,7 @@
     {% endif %}
 
     {% if person.info.description %}
-    <div>{{ person.info.description }}</div>
+    <div>{{ person.info.description|safe }}</div>
     {% endif %}
       
 

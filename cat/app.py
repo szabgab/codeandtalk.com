@@ -89,12 +89,22 @@ def video(event = None, video = None):
 	)
 
 @catapp.route("/p/<person>")
+def person(person = None):
+	path = root + '/html/p/{}'.format(person)
+	data = json.load(open(path + '.json'))
+	return render_template('person.html',
+        h1          = data['info']['name'],
+        title       = 'Presentations and podcasts by ' + data['info']['name'],
+        person      = data,
+        id          = person,
+	)
+
 @catapp.route("/t/<tag>")
 @catapp.route("/e/<event>")
 @catapp.route("/l/<location>")
 @catapp.route("/s/<source>")
 @catapp.route("/blaster/<blaster>")
-def html(person = None, event = None, source = None, tag = None, location = None, blaster = None):
+def html(event = None, source = None, tag = None, location = None, blaster = None):
 	if blaster:
 		return _read(root + '/html/blaster/' + blaster)
 	if location:
@@ -103,8 +113,6 @@ def html(person = None, event = None, source = None, tag = None, location = None
 		return _read(root + '/html/s/' + source)
 	if event:
 		return _read(root + '/html/e/' + event)
-	if person:
-		return _read(root + '/html/p/' + person)
 	if tag:
 		return _read(root + '/html/t/' + tag)
 

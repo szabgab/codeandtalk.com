@@ -653,15 +653,7 @@ class GenerateSite(object):
             path = '/p/' + p
             self.search[name] = path
 
-            out_file = self.html + path
-            with open(out_file, 'w', encoding="utf-8") as fh:
-                fh.write(person_template.render(
-                    id     = p,
-                    person = self.people[p],
-                    h1     = self.people[p]['info']['name'],
-                    title  = 'Podcasts of and interviews with {}'.format(self.people[p]['info']['name']),
-                ))
-            with open(out_file + '.json', 'w', encoding="utf-8") as fh:
+            with open(self.html + path + '.json', 'w', encoding="utf-8") as fh:
                 fh.write(json.dumps(self.people[p], sort_keys=True))
 
     def generate_podcast_pages(self):
