@@ -22,7 +22,7 @@ def main():
     for video_file in glob.glob("data/videos/*/*.json"):
         with open(video_file) as fh:
             video = json.load(fh)
-            if 'featued' in video:
+            if 'featured' in video:
                 continue
             if 'skipped' in video:
                 continue
