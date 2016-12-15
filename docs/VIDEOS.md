@@ -128,6 +128,13 @@ has not been added yet:
 * german-perl-workshop-2016
 * devoxx-france-2016
 * jsconf-budapest-2016
+* cssconf-argentina-2016
+* cssconf-asia-2015
+* cssconf-budapest-2016
+* cssconf-eu-2015
+* jsconf-asia-2015
+* jsconf-iceland-2016
+* jsunconf-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
