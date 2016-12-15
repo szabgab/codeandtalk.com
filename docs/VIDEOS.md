@@ -123,6 +123,8 @@ has not been added yet:
 * allthingsopen-2015
 * london-perl-workshop-2014
 * drupalsouth-2015
+* libreplanet-2015
+* libreplanet-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
