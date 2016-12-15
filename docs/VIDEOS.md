@@ -125,6 +125,7 @@ has not been added yet:
 * drupalsouth-2015
 * libreplanet-2015
 * libreplanet-2016
+* german-perl-workshop-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
