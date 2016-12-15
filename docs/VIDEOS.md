@@ -126,6 +126,8 @@ has not been added yet:
 * libreplanet-2015
 * libreplanet-2016
 * german-perl-workshop-2016
+* devoxx-france-2016
+* jsconf-budapest-2016
 
 ``` grep speaker * | grep '\[\]' ```
 

@@ -1,0 +1,18 @@
+{
+    "description": "En cinq ans, a Criteo, le volume d'\u00e9v\u00e9nements m\u00e9tier \u2013 transmis, trait\u00e9s et import\u00e9s dans un d\u00e9p\u00f4t central \u2013 est pass\u00e9 de \u201cun peu\u201d \u00e0 \u201chein, quoi, tout \u00e7a ?\u201d (6 millions de messages/seconde dans 7 datacenters, le tout d\u00e9vers\u00e9 dans l\u2019un des plus gros clusters Hadoop d\u2019Europe).\n\nC\u2019est pour nous l\u2019occasion de d\u00e9crire les choix successifs et l\u2019\u00e9volution organique d\u2019un syst\u00e8me d\u2019import de logs m\u00e9tier, allant d\u2019une instance de MySQL \u00e0 une tripot\u00e9e de clusters Kafka et un peu de Mesos, en passant par du rsyslog et beaucoup de Bash.\n\nS\u2019occuper d\u2019un syst\u00e8me distribu\u00e9 un tantinet sollicit\u00e9, c\u2019est aussi mille raisons d'\u00eatre appel\u00e9 en pleine nuit, de se heurter \u00e0 des limitations th\u00e9oriques ou physiques, et de d\u00e9velopper un pessimisme serein.\n\nToutes choses qui seront narr\u00e9es \u00e0 deux voix par l\u2019architecte/codeur/barbu des origines et l\u2019un des membres de l\u2019\u00e9quipe qui a pris la suite.",
+    "favorite": "0",
+    "length": "46:10",
+    "likes": "6",
+    "recorded": "2016-04-20",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/xM5t8yL-0io/hqdefault.jpg",
+    "title": "Une histoire du Streaming \u00e0 Criteo (Y. Schwartz - S. Danzanvilliers)",
+    "videos": [
+        {
+            "code": "xM5t8yL-0io",
+            "type": "youtube"
+        }
+    ],
+    "views": "604"
+}

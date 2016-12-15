@@ -1,0 +1,18 @@
+{
+    "description": "Bien que la s\u00e9curit\u00e9 soit un aspect crucial pour toute application sa mise en oeuvre peut s\u2019av\u00e9rer laborieuse. Pire, elle sera souvent n\u00e9glig\u00e9e, mal impl\u00e9ment\u00e9e et intrusive dans le code. Mais depuis quelques temps, on voit appara\u00eetre des serveurs de s\u00e9curit\u00e9 qui permettent d'externaliser et de d\u00e9l\u00e9guer tous les aspects d'authentification et d'autorisation, comme par exemple https://auth0.com/. Parmi ces serveurs, l'un des plus prometteurs est Keycloak, open-source, flexible et agnostique de toute technologie, il est facilement d\u00e9ployable/adaptable au sein sa propre infrastructure, .\nDans cette session, je vous propose de d\u00e9couvrir Keycloak de mani\u00e8re progressive et interactive : 0 slide, 100% live coding. On verra notamment comment s\u00e9curiser une appli Java EE \"classique\", un microservice Node.js, une Web App Angular standalone ou bien encore une application mobile. On expliquera OAUth2 de mani\u00e8re simple et concr\u00e8te, on introduira du social login, du SSO (Single Sign On) et on abordera \u00e9galement la mani\u00e8re de se connecter \u00e0 un syst\u00e8me s\u00e9curis\u00e9e existant : SAML, LDAP ...",
+    "favorite": "0",
+    "length": "31:36",
+    "likes": "11",
+    "recorded": "2016-04-20",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/bVidgluUcg0/hqdefault.jpg",
+    "title": "S\u00e9curiser ses applications back et front facilement avec Keycloak (Sebastien Blanc)",
+    "videos": [
+        {
+            "code": "bVidgluUcg0",
+            "type": "youtube"
+        }
+    ],
+    "views": "1026"
+}

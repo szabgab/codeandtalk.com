@@ -1,0 +1,18 @@
+{
+    "description": "This talk covers the past, present and future of web application performance when it comes to delivery optimization. I'll start by glancing over what you're already doing -- minifying your static assets, bundling them together, and using progressive enhancement techniques. Then I'll move on to what you should be doing -- optimizing TCP network delivery, inlining critical CSS, deferring font loading and CSS so that you don't block the rendering path, and of course deferring JavaScript. Afterwards we'll look at the future, and what HTTP 2.0 has in store for us, going full circle and letting us forego hacks of the past like bundling and minification.\n\nhttp://jsconfbp.com/speakers/nicolas-bevacqua.html",
+    "favorite": "0",
+    "length": "27:12",
+    "likes": "7",
+    "recorded": "2016-05-12",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/1iWSokC29vQ/hqdefault.jpg",
+    "title": "Nicol\u00e1s Bevacqua: High Performance in the Critical Rendering Path - JSConf Budapest 2016",
+    "videos": [
+        {
+            "code": "1iWSokC29vQ",
+            "type": "youtube"
+        }
+    ],
+    "views": "1177"
+}
