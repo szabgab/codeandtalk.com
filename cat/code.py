@@ -758,7 +758,7 @@ class GenerateSite(object):
         videos = []
         for v in self.videos:
             vid = copy.deepcopy(v) 
-            for field in ['blasters', 'description', 'tweet_video', 'file_date', 'speakers']:
+            for field in ['blasters', 'description', 'tweet_video', 'file_date']:
                 if field in vid:
                     del(vid[field])
             videos.append( vid )
