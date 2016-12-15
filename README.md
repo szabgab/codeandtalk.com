@@ -43,6 +43,13 @@ TODO
 
 These are just ideas, not necessary something I really want to do :-)
 
+* serve the site from JSON files
+* improve the search for people
+* improve the search for videos
+* CAT show number of videos in the list of people
+* CAT: tags should be all lower case in the files and we should have the real case in the tags file. That will make the code simpler
+
+
 * For each event series find out if they have an annuncement mailing list to get notified for the new event, cfp,  videos available.
 Add this information to the data/series.json file Talk to the organizers and tell them why we would like to get such notifications.
 
