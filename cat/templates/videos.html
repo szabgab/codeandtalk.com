@@ -1,6 +1,13 @@
 {% include 'incl/header.html' %}
 
+<form>
+<input name="term" id="term" value="{{ term }}">
+<input type="submit" value="Search">
+</form>
 
+Total number of videos: {{number_of_videos}}
+
+{% if videos %}
 <table id="conferences" class="display compact">
   <thead>
     <tr><th>Date</th><th>Title</th><th>Event</th><th>Speaker(s)</th></tr>
@@ -20,5 +27,6 @@
     {% endfor %}
   </tbody>
 </table>
+{% endif %}
 
 {% include 'incl/footer.html' %}

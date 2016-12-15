@@ -1,4 +1,5 @@
 import csv
+import copy
 from datetime import datetime
 import glob
 import json
@@ -754,13 +755,15 @@ class GenerateSite(object):
         #    'url' : '/featured',
         #})
 
-
-        with open(root + '/videos', 'w', encoding="utf-8") as fh:
-            fh.write(env.get_template('videos.html').render(
-                h1     = 'Videos',
-                title  = 'Videos',
-                videos = self.videos,
-        ))
+        videos = []
+        for v in self.videos:
+            vid = copy.deepcopy(v) 
+            for field in ['blasters', 'description', 'tweet_video', 'file_date', 'speakers']:
+                if field in vid:
+                    del(vid[field])
+            videos.append( vid )
+        with open(root + '/videos.json', 'w', encoding="utf-8") as fh:
+            json.dump(videos, fh, sort_keys=True)
         self.sitemap.append({
             'url' : '/videos',
         })

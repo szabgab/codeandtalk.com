@@ -7,6 +7,34 @@ catapp = Flask(__name__)
 root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
 
 
+@catapp.route("/videos")
+def videos():
+	term = _term()
+	videos = _read_json(root + '/html/videos.json')
+	results = []
+	if term != '':
+		for v in videos:
+			if term in v['title']:
+				results.append(v)
+				continue
+			if term in v['short_description']:
+				results.append(v)
+				continue
+			if 'tags' in v:
+				tags = [x['link'] for x in v['tags']]
+				if term in tags:
+					results.append(v)
+					continue
+
+	return render_template('videos.html',
+		title            = 'Tech videos worth watching', 
+		h1               = 'Videos',
+		number_of_videos = len(videos),
+		term             = term,
+		videos           = results,
+	)
+
+
 @catapp.route("/people")
 def people():
 	term = _term()
