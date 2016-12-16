@@ -135,6 +135,11 @@ has not been added yet:
 * jsconf-asia-2015
 * jsconf-iceland-2016
 * jsunconf-2016
+* cssconf-nordic-2016
+* nodeconf-oslo-2016
+* rejectjs-2015
+* webrebels-2015
+* webrebels-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
