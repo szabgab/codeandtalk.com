@@ -1,0 +1,18 @@
+{
+    "description": "Views module is an integral part of the Drupal ecosystem. Almost every site built in Drupal uses Views. Views module was the first initiative to reach feature completion in Drupal 8. Like all other core systems the Views module has embraced PSR-4, the Plugins System, Annotations and ConfigEntities.\n\nThe display of the proper information in the proper format is an integral part of creating a view. Views module uses views field plugins for this. These views fields can be added using ViewsUI. In Drupal 7, views fields come with their own set of configurable options to customize the output of a field. Being out of step with core formatter APIs lead to styling nightmares, performance issues and cache problems on sites of even modest complexity.\n\nIssues with views in Drupal 7\n\nStyling nightmares:\u00a0Views uses it's own markup templates to display views field plugins for many fields. Field formatters only work for the field plugins provided by field api.\n\nPerformance issues:\u00a0More field plugins mean more complex views queries.\n\nCache Problem:\u00a0Views module comes with its own caching system. Query caching and output caching are built in, but there is no built in support to cache views field plugins. In addition Views module doesn't leverage entity or render caching.\n\nDrupal 8\n\nThe API changes under the hood in Drupal 8 for views field plugins fixes all of these pain points.\n\nIn this session we'll discuss:\n\nWhat are views field plugins?\nHow views field plugins work?\nWhich views field plugins come with core?\nWhen to create a new views field plugin?\nHow to create a views field plugin?\nHow to use field formatters for base fields(entity properties) and field properties?\nHow to leverage entity caching in views field plugins?\nHow to leverage views row caching?\nHow to integrate render caching in views field plugins?\nHow to make sure the new views field plugin is not introducing performance regressions?\nHow to make sure the new views field plugin is not introducing caching problems?\nWe'll also take a look into some contrib views field plugins.\n\nAbout the speaker @jibran\n\nHas been working with Drupal for more than 4 years.\nHas more than 200 commit mentions in Drupal 8.\nHas reviewed a lot Drupal 8 patches.\nHas worked on a lot Views patches in Drupal 8.\nIs the maintainer of Views field view, Views fieldset style plugin, Views details style plugin, Views vertical tabs style plugin and Views collapsible group.",
+    "favorite": "0",
+    "length": "28:13",
+    "likes": "6",
+    "recorded": "2016-09-26",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/unBTKZMPphU/hqdefault.jpg",
+    "title": "DrupalCon Dublin 2016: The views field plugin in Drupal 8",
+    "videos": [
+        {
+            "code": "unBTKZMPphU",
+            "type": "youtube"
+        }
+    ],
+    "views": "196"
+}

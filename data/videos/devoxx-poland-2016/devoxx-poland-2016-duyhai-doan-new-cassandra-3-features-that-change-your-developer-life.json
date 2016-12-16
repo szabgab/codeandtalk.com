@@ -1,0 +1,18 @@
+{
+    "description": "Cassandra 3.0 has been released for a while, it's high time to look at the new features that will make your life easier:\n\n1. the new User Defined Functions (UDF) and User Defined Aggregates (UDA) which allow you to create code in the language of your choice (JVM compatible) and push the computation to the server\n\n2. the JSON syntax that can be used to push data directly into Cassandra without the pain of converting JSON to regular literal values\n\n3. the new Materialized Views (MV) that make de-normalization easier for the developers\n\n4. the new SASI full text search feature that allow you to perform dynamic queries on your Cassandra data",
+    "favorite": "0",
+    "length": "41:57",
+    "likes": "1",
+    "recorded": "2016-06-22",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/mv0GzLRPYlc/hqdefault.jpg",
+    "title": "Devoxx Poland 2016 - DuyHai DOAN - New Cassandra 3 features that change your (developer) life",
+    "videos": [
+        {
+            "code": "mv0GzLRPYlc",
+            "type": "youtube"
+        }
+    ],
+    "views": "191"
+}

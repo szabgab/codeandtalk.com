@@ -1,0 +1,18 @@
+{
+    "description": "HTTP/2 (or \"H2\" as the cool kids call it) has been ratified for months and browsers already support or have committed to supporting the protocol. Everything we hear tells us that the new version of HTTP will provide significant performance benefits while requiring little to no change to our applications -- all the problems with HTTP/1.x have seemingly been addressed, we no longer need the \"hacks\" that enabled us to circumvent them, and the Internet is about to be a happy place, at last!\n\nBut maybe we should put the pom poms down for a minute! Deploying HTTP/2 may not be as easy as it seems, since the protocol brings with it new complications and issues. Likewise, the new features the spec introduces may not work as seamlessly as we'd hope. In this session, we'll take a practical look at HTTP/2 and examine some of its core features and how they relate to real-world conditions. We'll discuss positives, negatives, and new caveats and practical considerations for deploying HTTP/2. Specifically, we'll cover:\n\n- The single-connection model, and the impact of degraded network conditions on HTTP/2 vs HTTP/1\n\n- How server push interacts (or doesn\u2019t) with modern browser caches\n\n- What HTTP/2's flow control mechanism means for server-to-client communication\n\n- New considerations for deploying HPACK compression\n\n- Difficulties in troubleshooting HTTP/2 communications, new tools, and new ways to use old tools\n\n----\n\nThe audience will walk understanding the basic concepts of HTTP/2, and its pitfalls, allowing them to properly implement it.",
+    "favorite": "0",
+    "length": "59:44",
+    "likes": "60",
+    "recorded": "2016-09-26",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/0yzJAKknE_k/hqdefault.jpg",
+    "title": "DrupalCon Dublin 2016: HTTP/2: what no one is telling you",
+    "videos": [
+        {
+            "code": "0yzJAKknE_k",
+            "type": "youtube"
+        }
+    ],
+    "views": "4050"
+}

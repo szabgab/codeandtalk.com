@@ -1,0 +1,18 @@
+{
+    "description": "In this talk I describe a Scalable JavaScript architecture that:\n\nIs highly decoupled, encouraging modules to only publish and subscribe to events of interest rather than directly communicating with each other.\nThat rely's on composition of libraries and custom code.\nThat allows you to build hassle free apps.\nThe talk covers an introduction to a few areas of JavaScript development:\nModules in AMD, CommonJS and es6 modules\nThe mediator pattern and other design patterns.\nScalable Application Architecture\nUseful tools for building this type of architecture, e.g browserify",
+    "favorite": "0",
+    "length": "01:03:52",
+    "likes": "2",
+    "recorded": "2016-09-26",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/EAbGkIucYpg/hqdefault.jpg",
+    "title": "DrupalCon Dublin 2016: Scalable JavaScript architecture",
+    "videos": [
+        {
+            "code": "EAbGkIucYpg",
+            "type": "youtube"
+        }
+    ],
+    "views": "157"
+}

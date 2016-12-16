@@ -1,0 +1,18 @@
+{
+    "description": "There are a lot of obvious benefits to using version control for your projects, but there are a lot of non obvious benefits too. In this session, learn how to create an industrial grade version control workflow using Git and automatic testing. Topics that will be covered include:\n\nHow to Use Git Branches - Instead of having all of the developers work on the same \"master\" branch, you can have developers work on separate branches that can be created per developer, per feature, or even per ticket in your project management system.\nHow to Do Performance Testing - Instead of crossing your fingers when you site gets a lot of traffic, be sure that your site can handle the traffic by doing performance testing on each deployment that you do.\nHow to Do Cross Browser Testing - Instead of firing up a bunch of Virtual Machines to test different browsers and devices, set up an automatic script so that every time you are looking to do a deploy you get a bunch of screenshots to review.\nHow to Do Visual Regression Testing - If you are pushing a change that shouldn't effect the front end of the site, wouldn't it be nice to verify that? Learn how to visually compare a \"before\" and \"after\" version of your site to see where (if anywhere) visual changes happen.\nHow to Notify You Of Deployments - Instead of wondering if code has been deployed, learn how to integrate your workflow with chat solutions like Hipchat/Slack or more traditional solutions like SMS or Email.\nIf you are a developer or manage developers on web projects, this session will help you learn how to level up your workflow and do a lot of really powerful testing on your project every time you do a commit.",
+    "favorite": "0",
+    "length": "46:29",
+    "likes": "0",
+    "recorded": "2016-09-26",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/d9oCjnTQC7I/hqdefault.jpg",
+    "title": "DrupalCon Dublin 2016: Testing Your Code as Part of an Industrial Grade Workflow",
+    "videos": [
+        {
+            "code": "d9oCjnTQC7I",
+            "type": "youtube"
+        }
+    ],
+    "views": "108"
+}

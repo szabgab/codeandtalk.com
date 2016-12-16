@@ -1,0 +1,18 @@
+{
+    "description": "As we build distributed systems composed of microservices, we introduce new potential performance problems and failure points. As the number of nodes in our system increases, these problems rapidly amplify. In order to keep our composite systems responsive, we can apply the techniques of reactive programming. In order to keep our composite systems healthy, we can apply fault tolerance patterns like circuit breakers and bulkheads.\n\nIn this presentation we\u2019ll examine how to leverage two popular libraries from Netflix, Hystrix and RxJava, to create reactive and fault tolerant systems.",
+    "favorite": "0",
+    "length": "50:41",
+    "likes": "3",
+    "recorded": "2016-06-22",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/sRJmjO5D3KE/hqdefault.jpg",
+    "title": "Devoxx Poland 2016 - Matt Stine - Reactive Fault Tolerant Programing with Hystrix and RxJava",
+    "videos": [
+        {
+            "code": "sRJmjO5D3KE",
+            "type": "youtube"
+        }
+    ],
+    "views": "316"
+}

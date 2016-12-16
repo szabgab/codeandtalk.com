@@ -141,6 +141,10 @@ has not been added yet:
 * grazer-linuxtage-2013
 * grazer-linuxtage-2014
 * grazer-linuxtage-2015
+* devoxx-poland-2016
+* drupalcon-dublin-2016
+* drupalcon-new-orleans-2016
+* gophercon-denver-2016
 
 ``` grep speaker * | grep '\[\]' ```
 

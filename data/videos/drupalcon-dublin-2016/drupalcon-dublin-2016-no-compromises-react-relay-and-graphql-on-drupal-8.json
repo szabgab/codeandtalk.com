@@ -1,0 +1,18 @@
+{
+    "description": "Over the past months we've led a team of developers on a project for building a fully decoupled React application backed by Drupal. In this presentation, we want to share and talk about the technologies we used, approaches we applied and our learnings \u2013 in short: our whole experience.\n\nThis is not yet another \u201cDecoupled Drupal\u201d talk.\n\nFor solving the business requirements of our client we didn't settle for any compromises. We chose to bet on the full React, Relay and GraphQL ecosystem \u2013 wholesale.\n\nThe result is a fully accessible and spectacularly well performing, bleeding edge React\u00a0based application that can be rendered on the server.\n\nLet's go into some detail \u2026\u00a0\n\nThe application embraces modern web and mobile technologies and is fully enhanced with Accelerated Mobile Pages (AMP)\u00a0and Service Workers. We are using\u00a0code chunking to bundle our application to ensure that the client browser only downloads\u00a0what it actually needs for a particular route. Requirements for sub-sequent routes are resolves asynchronously.\u00a0To enable web crawlers and clients without JavaScript, our Node server can render and deliver the entire application. This means that we can render the entire website before even loading the first bit of JavaScript.\n\nFor interacting with our Drupal data layer, we've built a full GraphQL schema, conforming to the Relay specification. On the client-side, we are using Relay to resolve data requirements for the entire application's component hierarchy on each individual route. The application is capable of handling multilingual content and interface strings.\n\nIn addition to sharing our approach using these\u00a0technologies, we will also share some additional findings and tricks that we discovered\u00a0during this journey.\n\nFor instance, in order to mitigate high load peaks on our server we can now\u00a0simply pull a trigger and\u00a0switch off server side rendering\u00a0to reduce the load on the Node server.\n\nWe've also set up a lot of tooling to enable our developers.\u00a0We've added thorough code linting and static type checking using Facebook's FlowType.\n\nIn order to allow our front end developers to work independently, we've also added a Node based\u00a0GraphQL and Relay schema during development. This allows them to quickly implement features and iterate on the frontend code without having to wait for a Drupal developer to implement the corresponding model or schema in the backend. Our\u00a0continuous integration & -delivery stack on Travis and Heroku together with our test coverage\u00a0enables us to quickly iterate on our code base and still\u00a0confidently\u00a0deploy\u00a0into our staging and production environments.\n\nAttendees of this session will learn about the technologies we used and the way they interact with and complete each other. They will also learn about the strategies that we applied during this project. Both in the frontend and the backend.\n\nThis session is primarily targeted at experienced developers.",
+    "favorite": "0",
+    "length": "58:56",
+    "likes": "9",
+    "recorded": "2016-09-26",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/yhyoQwuSUWo/hqdefault.jpg",
+    "title": "DrupalCon Dublin 2016: No compromises \u2013 React, Relay and GraphQL on Drupal 8",
+    "videos": [
+        {
+            "code": "yhyoQwuSUWo",
+            "type": "youtube"
+        }
+    ],
+    "views": "621"
+}

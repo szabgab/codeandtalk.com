@@ -1,0 +1,18 @@
+{
+    "description": "The administration interface should allow users to build sites ranging form simple storefronts to ambitious digital experiences - but currently it's not up to the job. I'll give concrete examples of bad usability for site builders, and some of the underlying reasons so we can discuss how to solve this.\n\nEvery user installing a site gets the same experience, no matter if this is their first time or their thousandth. When users get overwhelmed the only answer is to reduce visible complexity, and so hide the power and flexibility of Drupal administration.\n\nCan we find have different variations of the admin UI that fits different persona instead of trying to find the one perfect solution? Can we give users different role permissions if its one of their first installs? Can we present different language use for different target users (new, advanced, developer...)?\n\nPresently there are no UI standards. Even within core choices are made = or re-made - based on a particular use case. This is then exacerbated when contrib module developers, with little guidance, try their best to interpret the unwritten rules (or just give up).\n\nWe should develop straightforward UI standards, just as we have coding standards. They can be used to guide core and contrib developers, making decisions easier, and making it clear when a different decision has to be made.\n\nHow can we best decide on these standards, without getting lost in a bikeshed conversation? How do we write them so any developer can easily follow them? How do we then promote these standards?\n\n\n\nThis session is based on my experience as a sitebuilder in Drupal 6, 7 and 8, as a member of the Documentation Working Group, and a member of the Usability Team.",
+    "favorite": "0",
+    "length": "59:01",
+    "likes": "1",
+    "recorded": "2016-09-26",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/UX5583FH2jE/hqdefault.jpg",
+    "title": "DrupalCon Dublin 2016: One size fits all? Usability for site builders and administrators",
+    "videos": [
+        {
+            "code": "UX5583FH2jE",
+            "type": "youtube"
+        }
+    ],
+    "views": "61"
+}

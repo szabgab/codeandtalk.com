@@ -1,0 +1,18 @@
+{
+    "description": "2015 was the year of microservices. It\u2019s already common knowledge that creating distributed systems is not easy. It\u2019s 2016 and it\u2019s time to show how that complexity can be contained.\n\nService Discovery and Registry (Zookeeper / Consul / Eureka), easy request sending with client side load balancing (Feign + Ribbon), request proxying with Zuul. Everything is easy with Spring Cloud. Just add a dependency, a couple of lines of configuration and you\u2019re ready to go.\n\nThat\u2019s fixing difficulties related to writing code - what about solving the complexity of debugging distributed systems? Log correlation and visualizing latency of parts of the system? Spring Cloud Sleuth to the rescue!\n\nIn this presentation we\u2019ll write a microserviced based system using the Spring Cloud tooling. We\u2019ll focus on distributed tracing with Spring Cloud Sleuth and Zipkin.",
+    "favorite": "0",
+    "length": "56:58",
+    "likes": "20",
+    "recorded": "2016-06-22",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/eQV71Mw1u1c/hqdefault.jpg",
+    "title": "Devoxx Poland 2016 - Marcin Grzejszczak - Microservices tracing with Spring Cloud and Zipkin",
+    "videos": [
+        {
+            "code": "eQV71Mw1u1c",
+            "type": "youtube"
+        }
+    ],
+    "views": "2087"
+}

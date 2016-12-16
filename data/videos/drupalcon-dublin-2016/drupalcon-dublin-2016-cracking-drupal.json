@@ -1,0 +1,18 @@
+{
+    "description": "Security is paramount, for almost any web application. We will take a look at security best practices to keep your site safe and take the perspective of an attacker to understand how they exploit things. We will show you common mistakes that Drupal Developers make when they write code and how they can be avoided. As members of the security team and code review administrators on drupal.org we have seen a lot of code and what can go wrong with it. Sharing our experience about:\n\nXSS, CSRF, Access Bypass, SQL injection, DOS explained\nSecure configuration (web server, file permissions, etc.)\nTools and Modules to improve security on your site\nThis session\u00a0is relevant to all PHP web applications, but code examples are mostly from\u00a0Drupal core 7.x and 8.x. The session will also touch on\u00a0some security improvements in Drupal 8 such as using auto-escaping in\u00a0the Twig template engine (XSS prevention) and built-in CSRF token support in the routing system.",
+    "favorite": "0",
+    "length": "52:23",
+    "likes": "2",
+    "recorded": "2016-09-26",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/AAnn7e2dLQI/hqdefault.jpg",
+    "title": "DrupalCon Dublin 2016: Cracking Drupal",
+    "videos": [
+        {
+            "code": "AAnn7e2dLQI",
+            "type": "youtube"
+        }
+    ],
+    "views": "209"
+}

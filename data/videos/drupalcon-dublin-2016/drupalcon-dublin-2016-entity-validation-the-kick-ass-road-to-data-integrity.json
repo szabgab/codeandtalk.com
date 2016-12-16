@@ -1,0 +1,18 @@
+{
+    "description": "In Drupal 7 there was only one viable solution to ensure that your entities had all the right data: Make it go through the form system one way or the other. Drupal 8 fixes this and I'm going to show you how.\n\nThis session will not focus on all the complex structures behind the entity validation system (e.g.: Typed Data API), but on how you as a developer can leverage entity validation to improve your module or site's data integrity.\n\nWe will mainly look at constraints (read: validators) and how they most commonly apply to entities. Then we will focus on how the Entity API uses the validation system and learn from it.\n\nBy the end of this session you should have learned what constraints are, how you can add them to your custom entity types and how you can leverage the validation system to make sure your entities have valid data.\n\n\n\nAttendees should have some basic knowledge of the entity or field API in Drupal 8 and have preferably tried to write their own entity or field type, although the latter is not a requirement.",
+    "favorite": "0",
+    "length": "36:38",
+    "likes": "1",
+    "recorded": "2016-09-26",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/FI_eDzmd0-o/hqdefault.jpg",
+    "title": "DrupalCon Dublin 2016: Entity validation: The kick-ass road to data integrity",
+    "videos": [
+        {
+            "code": "FI_eDzmd0-o",
+            "type": "youtube"
+        }
+    ],
+    "views": "138"
+}
