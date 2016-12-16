@@ -137,6 +137,10 @@ has not been added yet:
 * jsunconf-2016
 * rejectjs-2015
 * webrebels-2015
+* drupalsouth-2014
+* grazer-linuxtage-2013
+* grazer-linuxtage-2014
+* grazer-linuxtage-2015
 
 ``` grep speaker * | grep '\[\]' ```
 

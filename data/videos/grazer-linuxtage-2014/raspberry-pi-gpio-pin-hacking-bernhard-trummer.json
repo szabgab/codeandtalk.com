@@ -1,0 +1,18 @@
+{
+    "description": "Beschreibung:\nRaspberry Pi GPIO Pin Hacking\n\nEin Raspberry Pi ist nicht nur ein kleiner Ein-Platinen-PC auf dem Linux laeuft. Er besitzt auch eine Reihe von General Purpose I/O (GPIO) Pins, mit denen man lustige Dinge machen kann.\n\nInhaltlich wird dieser Vortrag sowohl Theorie als auch praktische Beispiele bringen, wobei letzteres sich hauptsaechlich um LEDs drehen wird, einfach weil es \"leichter\" zu demonstrieren ist.\n\n    Raspberry Pi allgemein.\n    GPIO auf Pi vs. Gnublin vs. Arduino.\n    Installation der \"wiringPi\" Library am Pi.\n    Beispiel: Shell-Script fuer eine Ampelsteuerung.\n    Elektronik Crash-Kurs: Schieberegister und Latches.\n    Beispiel: Steuerung von 16 LEDs ueber drei GPIO Pins + Schieberegister.\n    LED Helligkeitssteuerung mit PWM.\n    Beispiel: voriges Beispiel mit Software-PWM.\n\nLink zum Programm (und Downloads:\nhttp://glt14-programm.linuxtage.at/events/250.de.html",
+    "favorite": "0",
+    "length": "46:22",
+    "likes": "1",
+    "recorded": "2014-04-04",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/kNCBP4aYiiI/hqdefault.jpg",
+    "title": "Raspberry Pi GPIO Pin Hacking - Bernhard Trummer",
+    "videos": [
+        {
+            "code": "kNCBP4aYiiI",
+            "type": "youtube"
+        }
+    ],
+    "views": "648"
+}

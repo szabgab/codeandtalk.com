@@ -1,0 +1,18 @@
+{
+    "description": "CAN-Bus mit Linux und Python\nNetzwerkprogrammierung, diesmal mit CAN und nicht TCP/IP\n\nLinux unterst\u00fctzt CAN-Bus schon sehr lange. Seit geraumer Zeit ist das Interface sehr reif - wer Netzwerkprogrammierung kennt, kommt damit sehr leicht zurecht, denn CAN-Kommunikation f\u00fcgt sich nahtlos in den Netzwerkstack des Betriebssystems ein.\n\nCAN-Bus wird oft mit Echtzeit, Mikrokontrollerprogrammierung, und Magie assoziiert. Der Vortrag zeigt, wie einfach alles ist, sofern man die Themen auseinanderh\u00e4lt. CAN-Bus ist ein Sache, Echtzeit eine andere, und Mikrocontrollerprogrammierung oder gar Magie eine komplett andere. Anhand zweier Raspberries und st\u00fcmperhaft zusammengel\u00f6teter CAN-Addons (im wesentlichen ein MCP2515 CAN-Controller) wird auf folgende Themen eingegangen:\n\n    Allf\u00e4llige Arbeiten am Kernel (Konfiguation der SPI-Schnittstelle, etc.)\n    Ein paar Grundlagen der Netzwerkkommunikation\n    Konfiguration des CAN-Netzwerks \u00fcber das bekannte \"ip\" Command\n    Eine Python-Fallstudie\n    Das Open-Source-Paket \"can-utils\", das nette Hilfsmittel zur Verf\u00fcgung stellt\n\nLink zum Programm (und Downloads): \nhttp://glt14-programm.linuxtage.at/events/239.de.html",
+    "favorite": "0",
+    "length": "46:22",
+    "likes": "4",
+    "recorded": "2014-04-04",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/5XuSr4M9uNI/hqdefault.jpg",
+    "title": "CAN-Bus mit Linux und Python - J\u00f6rg Faschingbauer",
+    "videos": [
+        {
+            "code": "5XuSr4M9uNI",
+            "type": "youtube"
+        }
+    ],
+    "views": "2903"
+}

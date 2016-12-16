@@ -1,0 +1,18 @@
+{
+    "description": "Beschreibung:\nContinuous Integration mit Debian/Ubuntu-Paketen\nProfessionelle Debian- und Ubuntu-Pakete im Eigenbau\n\nContinuous Integration hat sich im Programmierumfeld fest etabliert, im Distributions-Paketbau (Debian/RPM/...) aber ist es noch eher die Ausnahme als die Regel. Dabei sprechen kurze Release-Zyklen, einheitliche Qualit\u00e4tstests und kontrollierte Deployments f\u00fcr sich. Dieser Vortrag zeigt, wie man mit freier Software sein eigenes Continuous Integration-System f\u00fcr den Debian-/Ubuntu-Paketbau realisieren kann.\n\nDas auf dem Open Source Continuous Integration Server \"Jenkins\" aufsetzende Projekt jenkins-debian-glue (http://jenkins-debian-glue.org/) erm\u00f6glicht Continuous Integration beim Einsatz von Debian-/Ubuntu-Paketen. Bei jedem Commit in das Versionskontrollsystem-Repository werden automatisch Debian-Pakete gebaut. Qualit\u00e4tstests und Upgrade-Tests erlauben das fr\u00fchzeitige Erkennen von Problemen, bevor die resultierenden Pakete ausgerollt werden. jenkins-debian-glue kommt mittlerweile bei einigen renommierten Open-Source-Projekten zum Einsatz, wie beispielsweise bei Grml (http://grml.org/), PostgreSQL (https://wiki.postgresql.org/wiki/Apt), Icinga (http://icingabuild.dus.dg-i.net/) und Kamailio (http://www.kamailio.org/wiki/packages/debs).\n\nIm Vortrag wird beleuchtet wie man Continuous Integration mit Debian-Paketen realisieren kann und welche M\u00f6glichkeiten es zur Qualit\u00e4tskontrolle gibt.\n\nLink zum Programm (und Downloads):\nhttp://glt14-programm.linuxtage.at/events/288.de.html",
+    "favorite": "0",
+    "length": "45:28",
+    "likes": "0",
+    "recorded": "2014-04-04",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/Iv97wWbR_Lw/hqdefault.jpg",
+    "title": "Continuous Integration mit Debian/Ubuntu-Paketen - Michael Prokop",
+    "videos": [
+        {
+            "code": "Iv97wWbR_Lw",
+            "type": "youtube"
+        }
+    ],
+    "views": "190"
+}

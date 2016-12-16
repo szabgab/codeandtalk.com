@@ -1,0 +1,18 @@
+{
+    "description": "Vortrag bei den Grazer Linuxtagen 2015\n\nTitel:\nIntroduction to Mesos\nRunning your applications on top of Mesos\n\nBeschreibung:\nMesos is a distributed systems kernel that can run on your systems to abstract resources such as Memory and CPU and provide resource management and scheduling. Mesos can use cgroups or Docker for controlling resources and isolating applications. It also provides Java, Python and C++ APIs to develop new frameworks. Mesos can extended your cloud or data center environment to provide additional resource management or scheduling flexibility and requirements to run distributed software such as Spark or Hadoop.\n\nThis talk gives an introduction to Mesos and related frameworks such as Marathon, Chronos and Singularity and provides some use cases showing Mesos on top of existing public clouds, such as Amazon.\n\nOperating Systems targeting distributed, loosely coupled systems are nowadays on the rise such as CoreOS or Mesosphere, the Data Center Operating System.\n\nThis talk will focus on the underlying framework of Mesoshphere, Mesos, and provide an provide an overview about the concept and ideas behind it. Even though Mesos is usually considered in the context of for Data Centers, it is useful on virtualised systems as well.\n\nThis talk will also consider the role of frameworks such as Marathon or Singularity which offer simplified deployments on top of Mesos, providing advanced deployment solutions such as running multiple versions of an application in parallel or rolling deployments with health checks. Having an API for running applications on your environment allows you to use your environment as a simplistic PaaS with benefits such as audits, rollbacks and many more.\n\nChronos provides a distributed cron system, allowing you to run commands wherever resources are available in your environment and provides centralised notification and management for the commands.\n\nThis talk will also cover different methodologies for service discovery and solutions how to expose your applications to customers as applications can run on arbitrary systems of your environment.\n\nVortragender: Ulrich Dangel",
+    "favorite": "0",
+    "length": "44:18",
+    "likes": "0",
+    "recorded": "2015-04-24",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/UnMpCnyl61g/hqdefault.jpg",
+    "title": "Introduction to Mesos - Ulrich Dangel",
+    "videos": [
+        {
+            "code": "UnMpCnyl61g",
+            "type": "youtube"
+        }
+    ],
+    "views": "55"
+}

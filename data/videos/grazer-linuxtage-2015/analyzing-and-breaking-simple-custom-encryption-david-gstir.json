@@ -1,0 +1,18 @@
+{
+    "description": "Vortrag bei den Grazer Linuxtagen 2015\n\nTitel:\nAnalyzing and breaking simple, custom encryption\nAn example why Security by Obscurity does not work and why implementing secure software is hard\n\nBeschreibung:\nWas macht man, wenn ein Kunde 50+ AccessPoints verbaut hat, diese neu konfigurieren will und das Passwort nicht mehr kennt? Nein, man f\u00e4hrt nicht stundenlang quer durch das Land und setzt jeden AccessPoint einzeln auf die Werkseinstellungen zur\u00fcck, sondern man findet eine Sicherheitsl\u00fccke im Ger\u00e4t und entschl\u00fcsselt das Passwort!\n\nSecurity by Obscurity ist die Idee ein System durch Geheimhaltung des Verfahrens sicher zu machen. Im Grunde also das Gegenteil des Open Source Gedankens. H\u00e4ufig ist dieser Ansatz in IT-Systemen gepaart mit schwachen Sicherheitsmechanismen und fehlerhaften Implementierungen. Dieser Talk zeigt am Beispiel eines Enterprise AccessPoints wie man mit einfachen Mitteln einen simplen Verschl\u00fcsselungsalgorithmus analysiert und bricht.\n\nDavid Gstir studierte Informatik an der TU Graz mit Fokus auf IT-Security. W\u00e4hrend seiner Ausbildung analysierte er Attacken auf den Verschl\u00fcsselungsalgorithmus AES, Sicherheits- und Privacyaspekte von Smart Metern und entwickelte Software f\u00fcr das LHC Computing Grid. Seit 2013 ist er Teil des Linux und Security Teams der sigma star gmbh.\n\nVortragender: David Gstir",
+    "favorite": "0",
+    "length": "27:15",
+    "likes": "0",
+    "recorded": "2015-04-24",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/fmwrk55lu1A/hqdefault.jpg",
+    "title": "Analyzing and breaking simple custom encryption - David Gstir",
+    "videos": [
+        {
+            "code": "fmwrk55lu1A",
+            "type": "youtube"
+        }
+    ],
+    "views": "35"
+}
