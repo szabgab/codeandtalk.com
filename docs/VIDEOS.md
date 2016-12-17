@@ -145,6 +145,7 @@ has not been added yet:
 * drupalcon-dublin-2016
 * drupalcon-new-orleans-2016
 * gophercon-denver-2016
+* drupalcon-asia-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
