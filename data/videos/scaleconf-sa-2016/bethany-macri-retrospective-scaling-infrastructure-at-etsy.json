@@ -1,5 +1,4 @@
 {
-    "description": "Etsy is an online marketplace that connects people across the globe to buy and sell handmade and vintage goods. Founded in 2005 in Brooklyn, Etsy has grown rapidly. As a result, Etsy has need to scale its infrastructure to serve its growing user-base as well as its developers. In this talk, Bethany Macri, Core Platform Engineer at Etsy, will discuss three software projects that demonstrate how Etsy changed its infrastructure to scale and maintain high availability:\n\n* a four-year data migration project\n* writing a new API that allowed clients to fetch data concurrently, and\n* scaling datasets infrastructure.\n\nThis talk will propose a model for scaling as well as discussing possible ways Etsy will continue to scale as it grows.",
     "favorite": "0",
     "length": "43:40",
     "likes": "1",
@@ -7,7 +6,7 @@
     "speakers": [
         "bethany-macri"
     ],
-    "tags": [],
+    "tags": ["infrastructure", "scale", "high availability"],
     "thumbnail_url": "https://i.ytimg.com/vi/LfqyhM1LeIU/hqdefault.jpg",
     "title": "Retrospective: Scaling Infrastructure at Etsy",
     "videos": [
