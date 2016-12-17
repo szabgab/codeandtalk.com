@@ -381,6 +381,12 @@ class GenerateSite(object):
 
 
     def _add_events_to_series(self):
+        '''
+            Go over all the events and based on the longest matching prefix of their filenames,
+            put them in one of the entries in the series.
+            To each event add the name of the series it is in.
+            TODO: In the future we might add an exception if an event is not in any of the series.
+        '''
         for s in self.series.keys():
             self.series[s]['events'] = []
         other = []
@@ -394,6 +400,7 @@ class GenerateSite(object):
                 l = len(s)
                 if event['nickname'][0:l] == s:
                     self.series[s]['events'].append(event)
+                    event['series'] = s
                     break
             else:
                 #TODO: create series for every event and then turn on the exception?
