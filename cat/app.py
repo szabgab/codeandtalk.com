@@ -69,16 +69,6 @@ def series():
 		series = data,
 	)
 
-@catapp.route("/search")
-def search():
-	res = _search()
-	return render_template('search.html', **res)
-
-@catapp.route("/api1/search")
-def api_search():
-	res = _search()
-	return jsonify(res)
-
 ### static page for the time of transition
 @catapp.route("/")
 @catapp.route("/<filename>")
@@ -157,23 +147,6 @@ def _term():
 	term = term.lower()
 	term = re.sub(r'^\s*(.*?)\s*$', r'\1', term)
 	return term
-
-def _search():
-	term = _term()
-	search_data = _read_json(root + '/html/search.json')
-	results = {}
-	max_hit_count = 50
-	hit_count = 0
-	if term != '':
-		for k in search_data:
-			if re.search(term, k.lower()):
-				hit_count += 1
-				if hit_count <= max_hit_count:
-					results[k] = search_data[k]
-	else:
-		hit_count = len(search_data.keys())
-
-	return { "term" : term, "results" : results, "total" : hit_count }
 
 def _read_json(filename):
 	catapp.logger.debug("Reading '{}'".format(filename))

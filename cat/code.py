@@ -36,7 +36,6 @@ class GenerateSite(object):
         self.sitemap = []
         self.people = {}
         self.redirects = []
-        self.search = {}
         self.people_search = {}
         self.tags = {}
         self.blasters = []
@@ -414,7 +413,6 @@ class GenerateSite(object):
 
         for video in self.videos:
 
-            self.search[ video['title'] ] = "/v/{}/{}".format(self.events[ video['event'] ]['nickname'], video['filename'])
             short_description = html2txt(video.get('description', ''))
             short_description = re.sub(r'"', '', short_description)
             short_description = re.sub(r'\s+', ' ', short_description)
@@ -629,9 +627,6 @@ class GenerateSite(object):
         self.stats['future'] = len(list(filter(lambda x: x['start_date'] >= self.now, self.conferences)))
         self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_date', '') >= self.now, self.conferences)))
 
-        for e in self.episodes:
-            self.search[ e['title'] ] = e['permalink']
-
         for e in self.conferences:
             self.events[ e['nickname'] ] = e
 
@@ -662,7 +657,6 @@ class GenerateSite(object):
                 exit("ERROR 6: file {} does not have a 'name' field".format(p))
             name = self.people[p]['info']['name']
             path = '/p/' + p
-            self.search[name] = path
 
             with open(self.html + path + '.json', 'w', encoding="utf-8") as fh:
                 fh.write(json.dumps(self.people[p], sort_keys=True))
@@ -674,7 +668,6 @@ class GenerateSite(object):
         if not os.path.exists(self.html + '/s/'):
             os.mkdir(self.html + '/s/')
         for s in self.sources:
-            self.search[ s['title'] ] = '/s/' + s['name'];
             try:
                 with open(self.html + '/s/' + s['name'], 'w', encoding="utf-8") as fh:
                     fh.write(source_template.render(
@@ -720,9 +713,6 @@ class GenerateSite(object):
              ))
 
     def save_search(self):
-        with open(self.html + '/search.json', 'w', encoding="utf-8") as fh:
-            json.dump(self.search, fh)
-
         for p in self.people_search:
             if 'tags' in self.people_search[p]:
                 if len(self.people_search[p]['tags']) > 0:
