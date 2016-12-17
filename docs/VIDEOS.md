@@ -94,10 +94,8 @@ has not been added yet:
 * fscons-2014
 * jsconf-eu-2015
 * jsconf-us-2015
-* gothamgo-2015
 * nodeconf-eu-2015
 * nodevember-2014
-* nodevember-2015
 * rubyconf-india-2014
 * rubyconf-india-2015
 * pgconfus-2015
@@ -117,12 +115,9 @@ has not been added yet:
 * rubyconf-taiwan-2015
 * apachebigdata-europe-2015
 * nordicjs-2014
-* nordicjs-2015
 * zendcon-2015
 * fisl-17
-* allthingsopen-2015
 * london-perl-workshop-2014
-* drupalsouth-2015
 * libreplanet-2015
 * libreplanet-2016
 * german-perl-workshop-2016
