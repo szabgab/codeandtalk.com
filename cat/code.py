@@ -239,9 +239,9 @@ class GenerateSite(object):
                         this[field] = None
                 self.people[nickname] = {
                     'info': this,
-                    'episodes' : [],
-                    'hosting' : [],
-                    'videos'  : [],
+                    #'episodes' : [],
+                    #'hosting' : [],
+                    #'videos'  : [],
                     #'file_date' : datetime.fromtimestamp( os.path.getctime(filename) ).strftime('%Y-%m-%d'),
                 }
 
@@ -474,6 +474,9 @@ class GenerateSite(object):
                 if s in self.people:
                     speakers[s] = self.people[s]
                     #exit(video)
+                    if 'videos' not in self.people[s]:
+                        self.people[s]['videos'] = []
+
                     self.people[s]['videos'].append({
                         'recorded' : video['recorded'],
                         'title'    : video['title'],
@@ -527,11 +530,15 @@ class GenerateSite(object):
                 for g in e['guests'].keys():
                     if g not in self.people:
                         exit("ERROR 4: '{}' is not in the list of people".format(g))
+                    if 'episodes' not in self.people[g]:
+                        self.people[g]['episodes'] = []
                     self.people[g]['episodes'].append(e)
             if 'hosts' in e:
                 for h in e['hosts'].keys():
                     if h not in self.people:
                         exit("ERROR 5: '{}' is not in the list of people".format(h))
+                    if 'hosting' not in self.people[h]:
+                        self.people[h]['hosting'] = []
                     self.people[h]['hosting'].append(e)
 
     def _process_events(self):
@@ -646,8 +653,11 @@ class GenerateSite(object):
         if not os.path.exists(self.html + '/p/'):
             os.mkdir(self.html + '/p/')
         for p in self.people.keys():
-            self.people[p]['episodes'].sort(key=lambda x : x['date'], reverse=True)
-            self.people[p]['hosting'].sort(key=lambda x : x['date'], reverse=True)
+            for field in ['episodes', 'hosting']:
+                if field not in self.people[p]:
+                    self.people[p][field] = []
+                self.people[p][field].sort(key=lambda x : x['date'], reverse=True)
+
             if 'name' not in self.people[p]['info']:
                 exit("ERROR 6: file {} does not have a 'name' field".format(p))
             name = self.people[p]['info']['name']
