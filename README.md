@@ -164,3 +164,5 @@ Ideas for Conferences and other events
   * Hackathons - these usually happen on the day(s) before or after the conference, but not during the conference.
       They also seem to be a bit solitary programming.
   * Game night (playing board games, cards) just socializing
+* Scavenger hunt (described in AB Testing podcast episode 49 https://github.com/szabgab/ab-testing
+
