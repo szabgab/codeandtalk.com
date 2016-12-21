@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/neworleans2016/sessions/creating-stores-drupal-commerce-drupal-8",
     "description": "In this session you will learn about the history, architecture, and features of Drupal Commerce 2.x on Drupal 8.\n\nCommerce 2.x development began with a code sprint in July 2014. We first released a handful of standalone PHP libraries (e.g. for currency formatting and addressing) and then created modules that make use of them, such as the new Address module. Finally, we rebuilt Drupal Commerce itself from the ground up, taking full advantage of Drupal 8's new features -- and even improving them in turn!\n\nWith a beta due soon after DrupalCon itself, come learn how we've engineered Commerce 2.x to make it simpler to solve some of the hardest parts of eCommerce on Drupal 8. You do not need prior experience with Drupal Commerce to attend, but some familiarity with Drupal 8 and common challenges in eCommerce will help you get the most out of the material.\n\nWe will include both instruction and demonstration of topics including:\n\nInstalling Drupal Commerce and its dependencies\nCreating and configuring one or multiple stores\nFull support for currency and address formatting\nAdding product pages and their variants\nCustomizing Add to Cart forms and Line Items\nConfiguring the redesigned Checkout form\nManaging Orders and their workflows\nWe'll close with an overview of the roadmap and status of the contributed module ecosystem. We'll make sure everyone knows how to start contributing to Commerce 2.x - there's always more to do! ; )",
     "favorite": "0",
     "length": "59:45",
     "likes": "19",
     "recorded": "2016-05-09",
-    "speakers": [],
+    "speakers": ["ryan-szrama", "bojan-zivanovic", "matt-glaman"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/EQxA3VYal54/hqdefault.jpg",
-    "title": "DrupalCon New Orleans 2016: Creating online stores with Commerce 2.x on Drupal 8",
+    "title": "Creating online stores with Commerce 2.x on Drupal 8",
     "videos": [
         {
             "code": "EQxA3VYal54",

@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/neworleans2016/sessions/automated-javascript-testing-where-we-are-and-what-we-actually-want",
     "description": "First the issue will give a short overview about different kind of testing: Unit vs. Integration/Functional testing\n\nAfter that let's talk about the current status of testing of our javascript (which will be more and more important in the future).\n\nFunctional testing (is the PHP based approach what we want?)\nHow do we integrate javascript unit testing (https://mochajs.org/  | https://jasmine.github.io/) etc.\nVisual regression testing\nHow to scale the Drupal testing infrastructure for that",
     "favorite": "0",
     "length": "48:33",
     "likes": "0",
     "recorded": "2016-05-09",
-    "speakers": [],
+    "speakers": ["daniel-wehner"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/Uf0cc3Nnm_k/hqdefault.jpg",
-    "title": "DrupalCon New Orleans 2016: Automated javascript testing: where we are and what we actually want",
+    "title": "Automated javascript testing: where we are and what we actually want",
     "videos": [
         {
             "code": "Uf0cc3Nnm_k",

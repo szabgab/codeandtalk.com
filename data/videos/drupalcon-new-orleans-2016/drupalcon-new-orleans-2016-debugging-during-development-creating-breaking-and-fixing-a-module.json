@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/neworleans2016/sessions/debugging-during-development-creating-breaking-and-fixing-module",
     "description": "Debugging is more than fixing broken code. It is about logically thinking through steps and using the appropriate tools to solve problems.  \n\nWith Drupal 8\u2019s adoption of Symfony and object-oriented architecture, we need to adjust how we debug our code. Up until now, many of us have been using the convenient dpm function for debugging and introspection.  However, dpm cannot print protected properties or provide information about methods of an object. This makes it difficult to debug objects and classes.  It\u2019s time to learn a new approach! We will look at alternative methods to solve this problem such as:\n\nXdebug with PHPStorm configuration -  http://xdebug.org/\n\nDevel and the WebProfiler (D8+) Drupal module https://www.drupal.org/project/devel\n\nUsing the continuous integration tool Probo CI to speed up the testing and approval process -http://probo.ci/\n\nWe will create a module, break it and use the above tools to debug, test and fix the code. Whether you are dipping your toes into object-oriented PHP or you're an advanced developer, everyone can benefit from debugging their code more efficiently",
     "favorite": "0",
     "length": "29:55",
     "likes": "4",
     "recorded": "2016-05-09",
-    "speakers": [],
+    "speakers": ["allie-jones"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/1LlZd-0noiI/hqdefault.jpg",
-    "title": "DrupalCon New Orleans 2016: Debugging During Development: Creating, Breaking and Fixing a Module",
+    "title": "Debugging During Development: Creating, Breaking and Fixing a Module",
     "videos": [
         {
             "code": "1LlZd-0noiI",
