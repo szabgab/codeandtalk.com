@@ -1,5 +1,4 @@
 {
-    "description": "The domain name system is basic infrastructure for the Internet. Working DNS underlies most operations, and yet it appears to be a black box to a very large number of system (and network) administrators.\n\nThis talk is aimed at anyone with a basic knowledge of Unix and the Internet with an interest in DNS, and ensuring site availability.\n\nWe cover:\nThe basics of DNS\nRegistrars and registries\nRunning your own recursive resolver\nRunning your own authoritative nameserver (starting from the root).\nScaling the DNS system, including multiple servers and anycast\nBuilding a reliable DNS system\nDistributing global traffic with GeoIPs and CDNs.\nSecuring DNS",
     "favorite": "0",
     "length": "50:23",
     "likes": "0",
