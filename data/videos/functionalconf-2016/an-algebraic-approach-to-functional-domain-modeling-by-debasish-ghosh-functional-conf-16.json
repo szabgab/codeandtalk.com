@@ -1,5 +1,5 @@
 {
-    "description": "Domain modeling is usually implemented using OO design. In this approach of \"nouns-first\" we design object hierarchies using subtyping to model the various elements of the domain. In this talk we will take a different approach using Scala:\n\n1. Start with focus on verbs first\n2. Think how we can model domain behaviors using pure functions grouped within extensible modules\n3. Use an algebraic approach towards evolution of modules,the algebra being composed of functions,types & laws\n4. See how the domain algebra can be constructed from categorical structures like monoids, functors & monads\n5. Discuss how the functional patterns lead to compositionality - an extremely important quality that scales your domain model.\n\nMore details: https://confengine.com/functional-conf-2016/proposal/2761\n\nConference: http://functionalconf.com/",
+    "abstract": "https://confengine.com/functional-conf-2016/proposal/2761",
     "favorite": "0",
     "length": "45:22",
     "likes": "8",
