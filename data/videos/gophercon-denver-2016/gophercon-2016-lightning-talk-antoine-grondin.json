@@ -1,5 +1,6 @@
 {
-    "description": "",
+	"blasters":["devops"],
+	"featured": "2017-01-2",
     "favorite": "0",
     "length": "06:09",
     "likes": "4",
@@ -7,9 +8,9 @@
     "speakers": [
         "antoine-grondin"
     ],
-    "tags": [],
+    "tags": ["logging", "golang", "devops"],
     "thumbnail_url": "https://i.ytimg.com/vi/Iqw38rsjurM/hqdefault.jpg",
-    "title": "Lightning Talk",
+    "title": "Structured Logging and You",
     "videos": [
         {
             "code": "Iqw38rsjurM",
