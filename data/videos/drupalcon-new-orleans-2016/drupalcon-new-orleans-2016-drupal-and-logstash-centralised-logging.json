@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/neworleans2016/sessions/drupal-and-logstash-centralised-logging",
     "description": "Have you heard about Logstash and always wanted to test it out? This is your perfect chance to start!\n\nThe ELK stack \u2013 Elasticsearch, Logstash and Kibana \u2013 is a popular combination for aggregating, filtering and visualising data from multiple log streams. This presentation will demonstrate how to use ELK with Drupal. You will see data being filtered on the fly with lots of pretty graphs.\n\nThe focus of this presentation will be on how easy it is to start. We will cover how to run the ELK stack on your development machine with just a few commands - using the power of docker - and analyse your apache, Drupal and php logs.\n\nThen we will have a look at real production installation, recieving logs from different sources, where we will analyse a problem and visualise trends.\n\nThe objective of this session is to:\n\nget you excited about Logstash, understand what it is,\nget you motivated enough to start using it, even to set it up yourself,\nteach you how to create graphs on the fly, visualise your data,\nrealise the power of a centralised logging solution.\nAbout the presenter\n\nMarji is a co-founder and the chief systems administrator for Morpht, specialising in DevOps, Ansible, Logstash / ELK, Puppet, Jenkins, server configuration and developer workflow \u2013 with Drupal being the centre of his attention.",
     "favorite": "0",
     "length": "52:16",
     "likes": "6",
     "recorded": "2016-05-09",
-    "speakers": [],
+    "speakers": ["marji-cermak"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/hnLiVUQtpvE/hqdefault.jpg",
-    "title": "DrupalCon New Orleans 2016: Drupal and Logstash: centralised logging",
+    "title": "Drupal and Logstash: centralised logging",
     "videos": [
         {
             "code": "hnLiVUQtpvE",

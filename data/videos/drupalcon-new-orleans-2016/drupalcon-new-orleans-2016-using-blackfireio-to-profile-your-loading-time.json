@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/neworleans2016/sessions/using-blackfireio-profile-your-loading-time",
     "description": "Is your site too slow? The first step to a diagnosis is to analyze front-end performance, which usually reveals under-optimized images, excessive ads, or ineffcient javascript scripts as the main culprits. But often you also will find that the page generation time is over a second, and will wonder where to go from there.\n\nCore Drupal developers already use performance analysis tools like XHProf and Blackfire.io to keep the code efficient, but generally a combination of too many contrib modules, inefficient database queries, or poorly written custom code can easily bloat the page's loading time by a factor of 3 or more. This session will provide you the understanding you need to use these tools, and provide a number of real-world case studies in how to use them to identify common performance bottlenecks, and potential remedies.\n\nWe will also discuss ongoing performance monitoring with tools like Blackfire and New Relic.\n\nThe examples will be presented from Drupal sites, but the tools are PHP specific, while the lessons apply to most web application programmers. The target audience is PHP developers with experience writing and debugging custom code.",
     "favorite": "0",
     "length": "49:46",
     "likes": "5",
     "recorded": "2016-05-09",
-    "speakers": [],
+    "speakers": ["alex-dergachev", "dave-vasilevsky"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/K0vHmZJ3yuw/hqdefault.jpg",
-    "title": "DrupalCon New Orleans 2016: Using Blackfire.io to Profile Your Loading Time",
+    "title": "Using Blackfire.io to Profile Your Loading Time",
     "videos": [
         {
             "code": "K0vHmZJ3yuw",

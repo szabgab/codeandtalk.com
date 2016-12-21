@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/neworleans2016/sessions/chatops-distributed-teams-fun-and-profit",
     "description": "Evolving chat tools such as Slack and HipChat make facilitating communications between distributed teams easier than ever. In addition to helping everyone stay in touch, the current generation of chat tools include robust APIs for integrating with Continuous Integration solutions such as Jenkins, Travis, and others. Bots (interactive scripts) within these tools can also integrate with Drupal to easily expose functionality to non-technical team members and accelerate your teams\u2019 workflow. Bots can also help you asynchronize some repetitive aspects of your day-to-day operations, reducing or potentially eliminating the need for excessive meetings!\n\nIn this session, we\u2019ll demonstrate how to:\n\nIntegrate Jenkins with Slack and:\nNotify a team when pull requests have been accepted and are being deployed to your integration environment.\nNotify a team when a staging or production build has started, and whether it completes or fails.\nIntegrate Slack with Drupal and:\nAllow users to ask a chat bot for an automatic login link to their account.\nAllow authorized users to clear the Drupal cache.\nIntegrate Howdy with Slack in order to:\nAsynchronously receive status updates from your dev team, greatly reducing the length of daily stand-up meetings.",
     "favorite": "0",
     "length": "37:38",
     "likes": "2",
     "recorded": "2016-05-09",
-    "speakers": [],
+    "speakers": ["michael-sherron", "chris-urban"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/YmXNYB_OuXw/hqdefault.jpg",
-    "title": "DrupalCon New Orleans 2016: ChatOps for Distributed Teams, Fun, and Profit",
+    "title": "ChatOps for Distributed Teams, Fun, and Profit",
     "videos": [
         {
             "code": "YmXNYB_OuXw",
