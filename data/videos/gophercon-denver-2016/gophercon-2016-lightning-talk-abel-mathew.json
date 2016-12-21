@@ -1,15 +1,21 @@
 {
-    "description": "",
+    "blasters": [
+        "go"
+    ],
     "favorite": "0",
+    "featured": "2016-12-21",
     "length": "06:11",
     "likes": "6",
     "recorded": "2016-07-11",
     "speakers": [
         "abel-mathew"
     ],
-    "tags": [],
+    "tags": [
+        "debugger",
+        "golang"
+    ],
     "thumbnail_url": "https://i.ytimg.com/vi/JxM9STwy4Bk/hqdefault.jpg",
-    "title": "Lightning Talk",
+    "title": "Building a Go Debugger",
     "videos": [
         {
             "code": "JxM9STwy4Bk",
