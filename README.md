@@ -92,6 +92,13 @@ Add this information to the data/series.json file Talk to the organizers and tel
 
 * Add "language" field to the videos and allow the user to filter the results to selected language(s). (There are talk in French, German, Spanish, etc.)
 
+* Include the number of videos in the https://codeandtalk.com/people list
+* Create list of people with 0 in everything bin/people.py
+* List of people who only have their name in the file
+* List of people missing twitter/github
+
+ 
+
 
 TODO Check for events:
 -------------
@@ -164,5 +171,5 @@ Ideas for Conferences and other events
   * Hackathons - these usually happen on the day(s) before or after the conference, but not during the conference.
       They also seem to be a bit solitary programming.
   * Game night (playing board games, cards) just socializing
-* Scavenger hunt (described in AB Testing podcast episode 49 https://github.com/szabgab/ab-testing
+* Scavenger hunt (described in AB Testing podcast episode 48-49 https://github.com/szabgab/ab-testing
 
