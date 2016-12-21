@@ -1,5 +1,4 @@
 {
-    "description": "",
     "favorite": "0",
     "length": "06:00",
     "likes": "7",
@@ -7,9 +6,11 @@
     "speakers": [
         "anand-babu-periasamy"
     ],
-    "tags": [],
+    "tags": [
+        "golang"
+    ],
     "thumbnail_url": "https://i.ytimg.com/vi/QqoYTP9UF3s/hqdefault.jpg",
-    "title": "Lightning Talk",
+    "title": "minio - Minimalist Object Storage",
     "videos": [
         {
             "code": "QqoYTP9UF3s",
