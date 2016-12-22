@@ -1,0 +1,9 @@
+The session will present design and implementation of Hspark. A library that implements a framework to enable running a distributed map-reduce job over a set of nodes. The session will also showcase an extensible DSL to specify distributed map-reduce job.
+<p>
+The session will focus mainly on
+Creation of DSL (Specification) for map reduce. The DSL is similar (actually based on) Apache Spark
+Translation of DSL into scheduling the jobs across the nodes, and Executing and handling failures.
+Current implementation of hspark is at https://github.com/yogeshsajanikar/hspark and implements first two points mentioned above. Currently, I am trying to enforce it with separation of execution framework so that failures can be handled correctly.
+
+Note that this project was implemented as a part of course project for CS240H at Stanford. See the <a href="http://www.scs.stanford.edu/16wi-cs240h/projects/sajanikar.pdf">implementation details</a>.
+
