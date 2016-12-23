@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/streamlined-front-end-development-pattern-lab-and-twig",
     "description": "Pattern Lab and\u00a0Twig, the perfect duo to streamline your front-end development process. \u00a0\n\nPattern Lab (patternlab.io)\u00a0is \u201ca custom static site generator that constructs an interface by stitching atoms, molecules, and organisms together to form templates and pages.\u201d The philosophy of Pattern Lab parallels several core tenets of OOP: Don\u2019t Repeat Yourself and Keep It Simple, Stupid.\n\nTwig (twig.sensiolabs.org) is a fast, secure, and flexible templating engine from Sensio Labs, the people who brought us Symfony.\u00a0\n\nIn our\u00a0session we will demonstrate how to combine\u00a0the power of these\u00a0two technologies to streamline your front-end development workflow for Drupal 8.\n\nThe original version of\u00a0\u00a0Pattern Lab uses Mustache templates, but there's been a Twig\u00a0version for over a year.\u00a0Using the Pattern Lab starterkit for Twig (https://github.com/pattern-lab/edition-php-twig-standard), we can create patterns that map to Drupal\u2019s Twig templates. Atoms are fields, molecules are view modes, organisms are views themselves! Eureka!!\n\nQuestions that may be teeming in your brain:\n\nWhat is this\u00a0Pattern Lab you speak of and what can it do for me?\nWhat directory structure or naming conventions are required?\nHow can I affect the Drupal markup (custom classes) to match my pattern markup?\nRelax, it\u2019s not magic. We\u2019ll answer these questions and more.\n\nIn our session, we will:\u00a0\n\nGive you a brief overview of\u00a0Pattern Lab\nWalk you through integrating Pattern Lab with your theme\nDemonstrate proof-of-concept: we'll modify some Pattern Lab templates and see those changes immediately on the Drupal site!\n\"Why go to all this trouble?\", you might be asking yourself.\u00a0We believe the strength in this approach is threefold:\n\nAll the markup is belong to us: once again we can write the markup as we want it; no\u00a0more divitis (you're welcome, Morten)!\nTwo birds, one stone: the Pattern Lab version is visually identical to the Drupal version, and therefore can be used for client approval prior to site development\nTheme it once and done: no \"negotiating\" Pattern Lab's markup with Drupal's\nThis session will be fast paced and fun, and we guarantee you'll leave with a new sense of what's possible in Drupal 8 front-end development and beyond!",
     "favorite": "0",
     "length": "53:47",
     "likes": "5",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["adam-juran", "chaz-chumley"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/Og0ICdASO_Y/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: Streamlined Front-end Development with Pattern Lab and Twig",
+    "title": "Streamlined Front-end Development with Pattern Lab and Twig",
     "videos": [
         {
             "code": "Og0ICdASO_Y",

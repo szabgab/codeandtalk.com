@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/routing-drupal-9-and-lessons-learned-drupal-8",
     "description": "A lot of effort was spent in Drupal 8 converting code to use Symfony routes and to convert from a path-based identity for routes to a machine name (route name) based system.\n\nThis session will take a step back to see how that played out and where we stand now in 8.0.x. \u00a0Or perhaps to start a debate, we could frame it as\u00a0\"what happens when getting off the island means you got\u00a0bitten\u00a0by\u00a0sharks?\"\n\nThen, we will look ahead to Drupal 9 and consider\u00a0changes in direction, refactoring back to use paths, or\u00a0how we me might move even closer to Symfony.",
     "favorite": "0",
     "length": "56:47",
     "likes": "1",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["peter-wolanin"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/-a2zsX0QrX0/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: Routing in Drupal 9, and lessons learned in Drupal 8",
+    "title": "Routing in Drupal 9, and lessons learned in Drupal 8",
     "videos": [
         {
             "code": "-a2zsX0QrX0",

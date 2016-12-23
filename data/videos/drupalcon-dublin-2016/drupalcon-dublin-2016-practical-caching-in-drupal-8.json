@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/practical-caching-drupal-8",
     "description": "There were some excellent talks about cacheability and powerful caching in Drupal 8, but when it comes to practice, there are always unknowns how things are organized and why they don't work as you expect.\u00a0Practical Caching in Drupal 8 session will cover the practical part of Caching in Drupal 8.\n\nI'll be covering 3 layers of\u00a0caching in Drupal 8:\n\nAnonymous page cache (Internal Page Cache)\n\nBy default Drupal uses Internal Page Cache module to\u00a0store\u00a0anonymous user's page cache in database. We will cover where this is useful and how we can tweak the anonymous cache to work for us. How to disable caching for a new page, for existing pages, conditionally. How to disallow a page URL to be retrieved from page cache and force a refresh\u00a0(RequestPolicy and ResponsePolicy)\n\nReverse proxy caching\n\nMost of us try to benefit from reverse proxy caching as much as possible. We will cover how to configure reverse proxy caching with Varnish or any CDN and what to keep in mind when doing it\n\nAuthenticated page cache (Dynamic Page Cache)\n\nProbably the biggest concern for Drupal 7 (and prior) developers was, how do we effectively store authenticated user's cache and how to we keep it up to date, personal and secure at the same time.\n\nWe will cover extensively caching metadata and ways to achieve any caching strategy by leveraging cache contexts, cache tags, max-age, keys, bubbling, lazy builders, autoplaceholdering and Javascript solutions\u00a0(ex.\u00a0contextual links).\n\n\n\nFinally the practical part will cover some of the most common mistakes people do when working with\u00a0render arrays and when building their own controllers regarding caching. We'll cover Drupal caching default settings for autoplaceholdering, defaults non-cacheable contexts/tags and ways to effectively configure your caching strategy from settings.yml or disable caching for local development.\n\nTakeaway\n\nAfter this session you should be able to effectively debug caching issues and boost your site cacheability to the limits.",
     "favorite": "0",
     "length": "01:01:26",
     "likes": "5",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["alexei-gorobets"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/gkATpbhecPw/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: Practical Caching in Drupal 8",
+    "title": "Practical Caching in Drupal 8",
     "videos": [
         {
             "code": "gkATpbhecPw",

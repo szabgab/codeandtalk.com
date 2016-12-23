@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/building-high-available-elk-drupal",
     "description": "Setting up your own ELK solution is easy, there are many resources available, for example this DrupalCon NOLA presentation Drupal and Logstash: centralised logging. But how do you make it cope with a massive spike in number of\u00a0logs, when you need to be able to processs hundreds of events per second? How do you make it scale? This session will help you to answer these questions.\n\nThis will be a\u00a0technical talk targeting sysadmims and systems savvy developers, presenting a possible High Available ELK solution, capable of receiving logs and metrics\u00a0from different servers and Drupal environments.\n\nWe will cover some advanced topics and comon problems, for example\n\ndesigning scalable ELK stack\nlogstash indexer autoscaling\npreventing elasticsearch to run out of diskspace (S3 backup, curator)\nsecuring log transmission with TLS/SSL,\u00a0ssl offloading tricks, ELB\nupgrading your ELK stack without downtime\ndifferent ways\u00a0of getting logs from Drupal to logstash\nTechnologies:\u00a0logstash,\u00a0elasticsearch,\u00a0kibana, beats, AWS, High\u00a0Availability, AMI, auto-scaling, message queues, syslog,\u00a0elastic filebeat\u00a0and\u00a0topbeat, server metrics, S3 backup, curator.\n\nAbout the presenter\n\nMarji is a co-founder and the chief systems administrator for\u00a0Morpht, interested in DevOps, Ansible, ELK / Elastic stack, Puppet, Jenkins, server configuration and developer workflow \u2013 with Drupal being the centre of his attention.\n\nMarji has been running ELK stacks for about 2 years, receiving and analysing logs from a couple of hundreds of \u00a0Drupal\u00a0servers.\n\nFollow up blog post:\u00a0ha-elk-for-drupal",
     "favorite": "0",
     "length": "51:30",
     "likes": "1",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["marji-cermak"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/tqG0YVdJIck/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: Building High Available ELK for Drupal",
+    "title": "Building High Available ELK for Drupal",
     "videos": [
         {
             "code": "tqG0YVdJIck",

@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/conextual-configuration-core-do-we-want-it-and-can-we-do-it",
     "description": "Problem/Motivation\n\nWorking on the contextual override of configuration objects (in the context of Domains), and I want to build a user interface (UI). I had intended to use Config Translation as a model, but ran into a few issues:\n\n* Config Translation shows us that schema mapping is critical to build a UI for config overrides. Building the form requires the schema.\n\n* Schema has some of the required metadata for building this form. The rest (access control, for instance) is stored in the route.\n\n* Config Translation handles config entities, config objects, and field config. The required metadata for routes and access control (used to build the list of translatable strings) can be derived for config entities and field config, but not for config objects.\n\n* Config objects, therefore, have their own special mappers (*.config_translation.yml), whose sole purpose is to map Routes (and therefore paths and access control) to Schemas, which allows the Config Translation UI to work.\n\n* The support for config objects in those *.config_translation.yml files is limited to string data types, because that's what Config Translation cares about.\n\nSuppose, however, the following use-case for a site:\n\n* When Hungarian is the default language context, timezone should be CEST (UTC + 1:00); when Japanese is the default language context, timezone should be JT (UTC + 9:00).\n\nRight now, you cannot discover the proper data to use to recreate:\n\n* A route to the default configuration form for settings.date.\n\n* The schema used by that form -- though that is potentially addressed in https://drupal.org/node/2095289.\n\n* Access control rules that should be applied to that form.\n\n* A way to discover config objects that are not strings (like timezone).\n\nSo the question for core is: Do we can about the ability to do these things? If so, what changes are necessary to enable them?",
     "favorite": "0",
     "length": "36:48",
     "likes": "0",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["ken-rickard"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/FEBHHTQilqY/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: Contextual configuration in core: do we want it and can we do it?",
+    "title": "Contextual configuration in core: do we want it and can we do it?",
     "videos": [
         {
             "code": "FEBHHTQilqY",
