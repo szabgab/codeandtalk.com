@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/drupal-and-physical-world-medical-simulators-learning-environment",
     "description": "Hardware is increasingly part of our online world. Physical sensors, embedded software, and connected devices are becoming commonplace in modern solutions. Drupal is an ideal tool to adapt these technologies: it can access data from hardware, and create meaning from that data.\n\nMeanwhile, Drupal is reaching more audiences with consistent use cases. Distributions have paved the way for stable and well-supported Drupal platforms, and such platforms are ideally positioned to take advantage of technical innovations. We can develop solutions for hardware integration in Drupal, and distributions make those solutions available to a broader audience.\n\nWe were approached by a University research institute that is helping students learn medical procedures with advanced simulator hardware. It sounds a little daunting, but it's best described as \"a really advanced game of Operation.\" We used Opigno LMS, a Drupal distribution, to manage curriculum and courseware. We extended Opigno to receive data from sensors built into medical simulators. This solution provides students with a better way to learn their skills, and gives instructors clear data to measure performance.\n\nIn this presentation, we will provide a fun and relatable demonstration of this hardware-integrated solution. We will also introduce you to the highlights of Opigno, explain why we chose it for this project, and describe how we integrated it with simulator hardware.\n\nThis presentation is for anyone who is interested in using Drupal to access data from the physical world, or for anyone who is considering Drupal in a learning environment.",
     "favorite": "0",
     "length": "57:52",
     "likes": "1",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["allie-micka", "jeremiah-davis"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/qhyWnZEryB0/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: Drupal and the physical world: Medical simulators in a learning environment",
+    "title": "Drupal and the physical world: Medical simulators in a learning environment",
     "videos": [
         {
             "code": "qhyWnZEryB0",

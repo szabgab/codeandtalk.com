@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/automated-testing-phpunit-all-way",
     "description": "This core conversation will provide some insights into Drupal core\u2019s testing strategies, what works well and what we are in the process of improving. One major effort is to convert our whole test code and infrastructure to use PHPUnit and to deprecate SimpleTest. This session is targeted at core and contrib developers alike, since the same testing knowledge can be applied to contributed modules as well. We expect that you have worked on a test case at least once, but will explain PHPUnit and concepts otherwise.\n\nWe will talk about:\n\nDifferent types of tests: unit tests vs. integration tests vs. functional tests vs behavioral tests vs. white box tests vs. black box tests\n\nThe case for PHPUnit and why we move away from SimpleTest\n\nExplaining test flavors in Drupal: Unit tests, Kernel tests, Browser tests, Javascript Browser tests\n\nConverting SimpleTests to Browser tests\n\nAssertions: checking the outcome of your scenario\n\nStrict assertions in PHPUnit vs. lax assertions in SimpleTest\n\nMocking in unit tests: advantages of using the Prophecy framework (part of PHPUnit)\n\nTest fixtures and the @dataProvider annotation concept of PHPUnit\n\nTest predictability: Avoiding random data in tests\n\nTest simplicity: avoiding complex logic in tests, hard code everything\n\nTest abstractions: how much is too much?\n\nt() calls and translations in tests\n\nTesting exceptions: @expectedException annotations and why they are deprecated",
     "favorite": "0",
     "length": "01:05:29",
     "likes": "6",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["klaus-purer", "daniel-wehner"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/jcdEp3YGa94/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: Automated Testing: PHPUnit all the way",
+    "title": "Automated Testing: PHPUnit all the way",
     "videos": [
         {
             "code": "jcdEp3YGa94",

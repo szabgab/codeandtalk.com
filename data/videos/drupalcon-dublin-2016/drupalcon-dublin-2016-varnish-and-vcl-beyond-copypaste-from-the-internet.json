@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/varnish-and-vcl-beyond-copypaste-internet",
     "description": "Varnish web accelerator really, really helps makes web sites faster, but what else can it do to make our lives better? While Varnish is a common and important part of the Drupal ecosystem, many users never move beyond copying a Drupal-friendly VCL off the internet, getting Varnish caching pages, and calling it a day.\n\nIn this session we will explore fun things we can do with a reverse proxy, cover some coolness with edge-side includes, VCL testing with varnishtest, and see how VCL can be used beyond just Varnish caching and break out into programmable CDNs such as fastly.\n\nAll skill levels are welcome, but folks looking to maximize Varnish for their needs will benefit the most, especially if they bring questions.\n\nRelated links:\n\nhttps://www.drupal.org/documentation/performance\n\nhttps://www.varnish-cache.org/about\n\nhttps://www.fastly.com/services/technology-platform",
     "favorite": "0",
     "length": "01:01:26",
     "likes": "1",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["david-porter"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/XZa0FikMcnE/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: Varnish and VCL: Beyond copy/paste from the internet",
+    "title": "Varnish and VCL: Beyond copy/paste from the internet",
     "videos": [
         {
             "code": "XZa0FikMcnE",

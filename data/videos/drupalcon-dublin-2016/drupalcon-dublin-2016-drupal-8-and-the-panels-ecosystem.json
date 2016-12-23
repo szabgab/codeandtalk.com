@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/drupal-8-and-panels-ecosystem",
     "description": "Panels is one of the most heavily used contrib modules on real world Drupal site. Developers and site builders alike use it to customize the display of pages on their site with custom layouts and block placement/configuration tools. In addition to this a host of other modules which leverage Panels in order to customize the output of nodes and blocks exist. Come see the current state of Panels and it's budding ecosystem of modules and integrations in Drupal 8 (Specifically In Place Editor, Panelizer and Page Manager).\n\nThings we'll cover:\n\nGeneral Demo of the modules working in Drupal 8\nCustom Pages via Page Manager\nPanelizing view modes of Entity Bundles\nMultiple panelized defaults for a view mode\nAllowing content creators and editors to select a panelized default\nCustomizing a specific entity's output via Panelizer\nRevision handing and customization reverting\nRender caching\nCurrent feature parity as compared to Drupal 7\nWhere are we\nWhat's the benefit/drawback as compared with D7\nMissing features\nFuture development\nLow hanging fruit\nUI Improvement plans\nEven if you know nothing about Panels at all, this session will give you a view of what is currently possible in Drupal 8 and put some solid new tools in your toolbox for your next Drupal 8 build.",
     "favorite": "0",
     "length": "01:02:25",
     "likes": "20",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["kris-vanderwater", "jakob-perry"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/KD0IrtkONcc/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: Drupal 8 and the Panels Ecosystem",
+    "title": "Drupal 8 and the Panels Ecosystem",
     "videos": [
         {
             "code": "KD0IrtkONcc",

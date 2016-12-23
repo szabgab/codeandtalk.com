@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/content-creation-ux-wonderland-entity-browser",
     "description": "In the world of structured content we often need to manage referenced entities from within the main content creation flow. There are many paradigms that attempt to solve this problem in Drupal world, but most of them focus on specific use cases only.\n\nWhen we were designing Media ecosystem for Drupal 8 we realized that we needed to solve the same problem. Media assets are usually represented as entities which are stored separately from other content on the site. In content creation flow, however, media typically needs to be treated as part of the content it is attached to. Media is clearly not the only field that needs to deal with this problem so we solved this issue in a general sense (rather than creating another case-specific solution).\n\nThis is how the Entity browser was born. It is a tool for browsing, creating, and selecting entities from within the content creation flow of the main piece of content. Its pluggable architecture makes it extremely flexible and versatile. It knows how to work with media, nodes, taxonomy terms, and much more. If something is an entity it will know how to work with it. It can select entities from a view or search a 3rd party provider database. It is integrated with Inline entity form field widget and even supports multi-step selection workflow.\n\nIn this session we'll cover basic architecture of the module, list plugins that are already available and explain how to code your own . We will explain how Entity browser can be used to solve a few different-use cases and we will do a mandatory demo.",
     "favorite": "0",
     "length": "01:02:31",
     "likes": "1",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["janez-urevc"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/VXor-HZiYrs/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: Content creation UX wonderland with Entity browser",
+    "title": "Content creation UX wonderland with Entity browser",
     "videos": [
         {
             "code": "VXor-HZiYrs",

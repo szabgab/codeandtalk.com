@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/mastering-dependency-injection-d8",
     "description": "The Symfony Dependency Injection component is a centerpiece of D8 core. But did you know you could use it in your own modules? This talk will teach you about dependency injection as a design pattern. It will tell you how it is used in D8, and how you can leverage it for your own needs for coding custom pages/features. We will talk about the container, all kind of service configurations you can do, factories, decorators, configurators, etc. The promise? Decoupling your code to make it maintainable and testable over time. Let's see how a good component and a few best practices make it happen.\n\nhttps://speakerdeck.com/nicolasgrekas/mastering-dependency-injection-in-d8",
     "favorite": "0",
     "length": "59:10",
     "likes": "5",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["nicolas-grekas"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/WjRdgWeKnsE/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: Mastering Dependency Injection in D8",
+    "title": "Mastering Dependency Injection in D8",
     "videos": [
         {
             "code": "WjRdgWeKnsE",

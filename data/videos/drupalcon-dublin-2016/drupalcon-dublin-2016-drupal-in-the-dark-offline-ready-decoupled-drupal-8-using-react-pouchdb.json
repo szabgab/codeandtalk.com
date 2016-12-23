@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/drupal-dark-offline-ready-decoupled-drupal-8-using-react-pouchdb",
     "description": "Most of us turn to Drupal as a flexible, reliable, and robust solution to the challenges we face in almost any workplace or context. However, not every office or employee has consistent connectivity. What do we do for a workplace that is primarily offline and out of range? How can we use Drupal technology to serve employees at companies with little or even no service, helping to solve their challenges when they can\u2019t get online?\n\nThis session will take you through the steps to implementing an offline-ready decoupled Drupal 8 using React under the framework of a real-life scenario.\n\nWe\u2019ll be using using real-world business cases that require decoupled databases, showing you how to build an offline-first administrative interface for Drupal 8 through RELAXed web services and React to serve up a truly modern application. We will wrap up with a technical demonstration of a working example of this application in the field, discussing implementation and security.\n\nAttendees will take away the following:\n\nBusiness cases for using decoupled Drupal 8 admin interfaces\nDeveloper toolkits for building offline-first sites with RELAXed web services, PouchDB and ReactJS\nTechnical understanding of how to develop a decoupled Drupal 8 back-end with an off-line React front-end\nKnowledge on how to harden RELAXed data security for enterprise grade applications",
     "favorite": "0",
     "length": "46:48",
     "likes": "0",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["erin-marchak", "justin-longbottom"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/8BWS3cF3u-I/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: Drupal in the Dark: Offline-ready Decoupled Drupal 8 Using React & PouchDB",
+    "title": "Drupal in the Dark: Offline-ready Decoupled Drupal 8 Using React & PouchDB",
     "videos": [
         {
             "code": "8BWS3cF3u-I",

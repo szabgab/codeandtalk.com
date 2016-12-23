@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/sre-create-ultra-scalable-and-highly-reliable-systems",
     "description": "What is SRE?\n\nSRE stands for Site reliability engineering. A word crafted by Google in 2003 when Ben Treynor was hired to lead a team of seven software engineers to run a production environment. Managing such large systems with sizes never seen and still merging new features seamlessly was an huge challenge. Today this paradigm has been adopted by several companies like Microsoft, Apple, Facebook, Dropbox, Amazon and Oracle. They all have assembled SRE teams.\n\n\n\n\u201cSpock. This child is about to wipe out every living thing on Earth. Now, what do you suggest we do\u2026.spank it?\u201d \u2014 Dr. McCoy, Star Trek: The Motion Picture\n\n\n\nYes\u2026 Manual Work is killing us all. What should we be doing about it?\n\nWe all know how monitoring sucks, platforms fail and manual tasks burn out good Engineers. A site reliability engineer (SRE) uses less than 50% of the time doing \"ops\" related work such as tickets, alert response or manual fixes. It\u2019s expected that a platform where an SRE team works should be highly automated and self-healing. More than 50% of the time an SRE is automating infrastructure and testing these new features.\n\nDo you have to choose stability versus new features?\n\nMore automation means faster time-to-market and continual improvement. Creating self-healing mechanisms or, at the limit, smart rollback strategies to quickly deal with some instability is a strong argument for saying yes to keep the flow of new features. The ideal SRE Engineer has operational, coding and systems knowledge, able to solve complex issues.\n\nWhat should I expect from this session?\n\nIn this session we are going to give examples and inspire change for individuals and companies that are under pressure of repetitive work or seeking innovation in the engineering field. Create incident response automation, self-healing, bring feedback in and break down silos that are impediments to an healthy growth and experimentation.\n\nWhat about a small Drupal Shop, with few sysadmins?\n\nThis will help showing you a different path, but surely the principles of SRE are the way to go. Looking at training and hiring so that sysadmin team gets developers awareness for sensible infrastructure problems. Making sure you're doing blameless postmortems, and fixing all the action items when outages happen. We will detail these and other missed gaps during the session.\n\n\n\u201cFive card stud, nothing wild. And the sky\u2019s the limit\u201d \u2014 Captain Jean Luc Picard, Star Trek: The Next Generation",
     "favorite": "0",
     "length": "47:34",
     "likes": "1",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["ricardo-amaro"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/4DWXv9zyIGg/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: S.R.E. - create ultra-scalable and highly reliable systems",
+    "title": "S.R.E. - create ultra-scalable and highly reliable systems",
     "videos": [
         {
             "code": "4DWXv9zyIGg",

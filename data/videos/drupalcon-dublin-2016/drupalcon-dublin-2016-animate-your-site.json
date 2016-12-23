@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/animate-your-site",
     "description": "Animation\n\n\nAnimation is skeuomorphism. It is a custom created illusion that makes the websites highly user friendly and creates the perception of a highly dynamic website. It helps in grabbing the attention of the visitors and hence results in increased \u2018time on site\u2019 as compared to non-animated sites.\nThere are various areas in which we can use animation on the website.\n\n\n\u00a0- Company\u2019s introduction in the form of storytelling,\u00a0\n\u00a0- Guided tour of how to use the site,\u00a0\n\u00a0- Features of a product\u00a0\n\u00a0- and many more...\u00a0\n\n\nWhen we need user interaction on the website we should use animations.\n\n\nBasic rules of Animation\n\n\nThere are 12 basic principles in animations, including \u201cFollow through and Overlapping Action\u201d, \u201cSlow in and Slow Out\u201d, \u201cTiming\u201d, \u201cAppeal\u201d.\n\n\nPerformance\n\n\nPerformance of the website depends completely on the technology we choose for implementation. While implementing robust logic, CSS animations will always be lighter than Javascript animations. Most of the browsers use Position, scale, rotation and opacity very lightly. If we are maintaining 60 fps (frames per second), it will not impact the performance much. The higher we start on the timeline waterfall the more work the browser has to do to get pixels on to the screen.\u00a0\n\n\nResponsive Animation (will be adaptive for all devices)\n\n\nFor a website, it is also possible to achieve animations which are responsive and work seamlessly on devices of various form factors . Two thumb rules which we need to keep in mind regarding responsive web animations are \u201cAnimation Direction\u201d and \u201cResponsive Choreography\u201d.\u00a0\n\n\nThe session assumes familiarity with basic web and front end concepts.\n\n\nWhat we'll discuss:\n\n\n\nWhat is Animation?\nWhere to use?\nTypes of animation\n12 basic rules of Animation\nHow can we make it interesting?\nHow can we achieve animation across the devices?\nPerformance impact and how can we avoid\nAnimation in Drupal\nDemo",
     "favorite": "0",
     "length": "57:50",
     "likes": "8",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["nikhil-sukul", "vidit-anjaria"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/G2KF6wcjnDw/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: Animate Your Site",
+    "title": "Animate Your Site",
     "videos": [
         {
             "code": "G2KF6wcjnDw",

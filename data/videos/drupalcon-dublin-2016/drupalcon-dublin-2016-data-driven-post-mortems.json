@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/data-driven-post-mortems",
     "description": "The DevOps movement has not only influenced the tools we use in modern development and operations engineering, but also how\u00a0we work. As part of how we work, DevOps has changed how we respond when systems inevitably stop working or don't work as expected. Although \"blameless\" post-mortems are commonly espoused in the DevOps community, they often only tell us what not\u00a0to do (blame), rather than focussing on what we should do. This session will provide methods and techniques for gathering information and effectively using that information to avoid and mitigate failure in the future.\n\nI'll cover best practices for gathering systems-related data, including monitoring and logging. This session will also cover practices for gathering and recording people-related data; including methods we can adopt from police, accident investigators, and other safety management professions to learn the most from incidents.\n\nAfter discussing how to gather data, I'll discuss how we can use the data to formulate actionable response plans and how to adjust existing organizational practices to avoid repeating failure.\n\nI plan to keep the technical portions of this talk at a novice level so that it's accessible to both developers/engineers and those in non-technical roles who will be involved in incident response.",
     "favorite": "0",
     "length": "54:57",
     "likes": "0",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["jason-yee"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/5p7wqvaKA_U/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: Data-driven Post-mortems",
+    "title": "Data-driven Post-mortems",
     "videos": [
         {
             "code": "5p7wqvaKA_U",

@@ -1,13 +1,14 @@
 {
+    "abstract": "https://events.drupal.org/dublin2016/sessions/cautionary-tale-defensive-programmers",
     "description": "As software developers, we know our software will fail; someone will use it in a way we did not anticipate, we will forget to properly check input, a process will time out, and we will make typos.\n\nFor these reasons, and many more, people spend time and efforts on reproducing problems, and finding and fixing root causes. If this hasn\u2019t caused too much of a delay, there may even be time to make sure these problems never show up again.\n\nIt is inevitable. Or is it?\n\nThis talk will take you through the concept of defensive programming, with its many helpful tools like exceptions, assertions, typing, and validation. It will elaborate on several programming techniques you can leverage to tell calling code about your problems, and to handle the problems of the code you call yourself.\n\nDefensive programming will help you write simpler and more maintainable software, that fails fast, early, and often. When problems do occur, they are reported in greater detail, making them easier to understand, and faster to fix. This limits the time spent fixing bugs, and lowers the chances of \u2018random\u2019 or obscure problems, making estimates more reliable.",
     "favorite": "0",
     "length": "52:41",
     "likes": "0",
     "recorded": "2016-09-26",
-    "speakers": [],
+    "speakers": ["bart-feenstra"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/1QKTbqOp7ZA/hqdefault.jpg",
-    "title": "DrupalCon Dublin 2016: A Cautionary Tale for Defensive Programmers",
+    "title": "A Cautionary Tale for Defensive Programmers",
     "videos": [
         {
             "code": "1QKTbqOp7ZA",
