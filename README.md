@@ -163,6 +163,8 @@ Ideas for Conferences and other events
 * Improv sessions https://codeandtalk.com/v/agile-india-2016/3-minute-improv-games-to-improve-your-teams-by-wayde-stallmann
 * Matching up mentors and mentees https://codeandtalk.com/v/clojure-conj-2016/overcoming-the-challenges-of-mentoring-kim-crayton
   The idea would be to do a much shorter talk and spend a lot more time on matching mentors and mentees.
+* Building a startup around conversations and communities
+  https://codeandtalk.com/v/agile-india-2016/building-a-startup-around-conversations-and-communities-by-zainab-bawa
 
 * Mostly after hours:
   * BOF (Birds of Feather) sessions - people can organize meetings based on a specific subject.
