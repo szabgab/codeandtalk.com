@@ -108,7 +108,6 @@ has not been added yet:
 * front-trends-2015
 * react-conf-2015
 * linuxfest-northwest-2015
-* linuxfest-northwest-2016
 * opensourcebridge-2015
 * fullstackfest-2015
 * seleniumconf-usa-2015
@@ -128,7 +127,6 @@ has not been added yet:
 * cssconf-budapest-2016
 * cssconf-eu-2015
 * jsconf-asia-2015
-* jsconf-iceland-2016
 * jsunconf-2016
 * rejectjs-2015
 * webrebels-2015
@@ -137,7 +135,6 @@ has not been added yet:
 * grazer-linuxtage-2014
 * grazer-linuxtage-2015
 * devoxx-poland-2016
-* drupalcon-dublin-2016
 * drupalcon-asia-2016
 
 ``` grep speaker * | grep '\[\]' ```
