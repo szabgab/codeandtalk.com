@@ -1,13 +1,14 @@
 {
+    "abstract": "https://www.linuxfestnorthwest.org/2016/sessions/lets-encrypt-our-first-half-million-certs",
     "description": "Last year LinuxFest Northwest attendees heard about our plans to launch a free robotic certificate authority, with the goal of making it easy to turn on HTTPS encryption for every web site.\n\nOur certificate authority, Let's Encrypt, opened to the public in December, and has already issued more than 600,000 certificates for millions of web sites and other Internet services. Many of these sites had never before offered secure connections, and many were able to get up and running in a matter of minutes. We're on track to become one of the largest publicly-trusted certificate authorities in the web's public key infrastructure.\n\nIn this presentation, I'll describe how it works, give a live demo involving issuance of a publicly-trusted certificate for a web site, and explain how you can use Let's Encrypt to quickly and easily turn on HTTPS for your web sites -- or help us improve the reach, ease of use, and reliabilities of our tools.",
     "favorite": "0",
     "length": "50:02",
     "likes": "1",
     "recorded": "2016-04-23",
-    "speakers": [],
+    "speakers": ["seth-schoen"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/ZTyHwCG8Qio/hqdefault.jpg",
-    "title": "LinuxFest Northwest 2016: Let's Encrypt: Our First Half-Million Certs",
+    "title": "Let's Encrypt: Our First Half-Million Certs",
     "videos": [
         {
             "code": "ZTyHwCG8Qio",
