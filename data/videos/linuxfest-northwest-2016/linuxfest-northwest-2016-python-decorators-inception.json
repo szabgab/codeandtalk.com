@@ -1,13 +1,14 @@
 {
+    "abstract": "https://www.linuxfestnorthwest.org/2016/sessions/python-decorators-inception",
     "description": "Python decorators provide elegant power.  When you read about them, they may seem difficult: functions that wrap functions... functions that create functions that wrap functions... decorators to decorate your decorators!  This talk will walk you through the levels of decorators and provide clear examples.\n\nLearn to write functions that create new functions, and how functions can \"close over\" data.  Learn how to use decorators to add logging or other side-effects to functions.  Learn how to make decorators optional, enabled or disabled at run time and costing nothing when disabled.  Gain a more complete understanding of what happens when you import a module, and how to use decorators to do things when your code is imported.  Write your own decorators.  And of course, learn how to use a decorator to decorate your decorators.",
     "favorite": "0",
     "length": "46:21",
     "likes": "0",
     "recorded": "2016-04-23",
-    "speakers": [],
+    "speakers": ["steve-hastings"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/zaHIZW77Ohs/hqdefault.jpg",
-    "title": "LinuxFest Northwest 2016: Python Decorators Inception",
+    "title": "Python Decorators Inception",
     "videos": [
         {
             "code": "zaHIZW77Ohs",
