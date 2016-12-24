@@ -1,13 +1,14 @@
 {
+    "abstract": "https://www.linuxfestnorthwest.org/2016/sessions/docker-ansible-best-both-worlds",
     "description": "Have you already made a big investment in authoring Ansible playbooks for your infrastructure?  You don't have to give them up to take advantage of Docker!  Dockerfiles and Ansible playbooks may seem like \"oil and water\" -- Dockerfiles configure a virtual machine image before it is launched, while Ansible playbooks configure an already-running server via SSH.  However, the two technologies can be combined to get the best of both worlds: Docker images than are configured with Ansible playbooks.  This presentation will explore different ways of combining Docker and Ansible, as well as some quick tips for templating Dockerfiles using the language of your choice.",
     "favorite": "0",
     "length": "38:54",
     "likes": "6",
     "recorded": "2016-04-23",
-    "speakers": [],
+    "speakers": ["michael-titus"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/45X8Ag4vaw4/hqdefault.jpg",
-    "title": "LinuxFest Northwest 2016: Docker + Ansible: The Best of Both Worlds",
+    "title": "Docker + Ansible: The Best of Both Worlds",
     "videos": [
         {
             "code": "45X8Ag4vaw4",
