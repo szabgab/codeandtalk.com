@@ -121,8 +121,6 @@ has not been added yet:
 * libreplanet-2016
 * german-perl-workshop-2016
 * devoxx-france-2016
-* jsconf-budapest-2016
-* cssconf-argentina-2016
 * cssconf-asia-2015
 * cssconf-budapest-2016
 * cssconf-eu-2015
@@ -133,7 +131,6 @@ has not been added yet:
 * drupalsouth-2014
 * grazer-linuxtage-2013
 * grazer-linuxtage-2014
-* grazer-linuxtage-2015
 * devoxx-poland-2016
 * drupalcon-asia-2016
 
