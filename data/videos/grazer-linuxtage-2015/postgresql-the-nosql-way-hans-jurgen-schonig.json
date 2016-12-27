@@ -1,13 +1,13 @@
 {
-    "description": "Vortrag bei den Grazer Linuxtagen 2015 \n\nTitel:\nPostgreSQL: \"The NoSQL way\"\nUnstrukturierte Daten speichern und analysieren\n\nBeschreibung:\nIn den letzten Jahren ist es immer wichtiger geworden, nicht-strukturierte Daten zu speichern und abzulegen. PostgreSQL bietet effiziente und einfache M\u00f6glichkeiten, unstrukturierte Daten abzulegen und auch einfach und schnell weiter zu verarbeiten.\n\nIn den letzten Jahren ist es immer wichtiger geworden, nicht-strukturierte Daten zu speichern und abzulegen. PostgreSQL bietet effiziente und einfache M\u00f6glichkeiten, unstrukturierte Daten abzulegen und auch einfach und schnell weiter zu verarbeiten.\n\nSeit PostgreSQL 9.4 gibt es mit jsonb ein Speicherformat, das kaum W\u00fcnsche offen l\u00e4sst und vor allem im Hinblick auf Indizierung sehr m\u00e4chtig ist.\n\nIm Rahmen dieses Vortrags sollen die neuen M\u00f6glichkeiten beleuchtet werden.\n\nVortragender: Hans-J\u00fcrgen Sch\u00f6nig",
+    "description": "Unstrukturierte Daten speichern und analysieren\n\nBeschreibung:\nIn den letzten Jahren ist es immer wichtiger geworden, nicht-strukturierte Daten zu speichern und abzulegen. PostgreSQL bietet effiziente und einfache M\u00f6glichkeiten, unstrukturierte Daten abzulegen und auch einfach und schnell weiter zu verarbeiten.\n\nIn den letzten Jahren ist es immer wichtiger geworden, nicht-strukturierte Daten zu speichern und abzulegen. PostgreSQL bietet effiziente und einfache M\u00f6glichkeiten, unstrukturierte Daten abzulegen und auch einfach und schnell weiter zu verarbeiten.\n\nSeit PostgreSQL 9.4 gibt es mit jsonb ein Speicherformat, das kaum W\u00fcnsche offen l\u00e4sst und vor allem im Hinblick auf Indizierung sehr m\u00e4chtig ist.\n\nIm Rahmen dieses Vortrags sollen die neuen M\u00f6glichkeiten beleuchtet werden.\n\nVortragender: Hans-J\u00fcrgen Sch\u00f6nig",
     "favorite": "0",
     "length": "48:45",
     "likes": "0",
     "recorded": "2015-04-24",
-    "speakers": [],
+    "speakers": ["hans-jurgen-schonig"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/rJVvRp1JvZg/hqdefault.jpg",
-    "title": "PostgreSQL the NoSQL Way - Hans-J\u00fcrgen Sch\u00f6nig",
+    "title": "PostgreSQL the NoSQL Way",
     "videos": [
         {
             "code": "rJVvRp1JvZg",
