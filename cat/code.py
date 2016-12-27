@@ -32,6 +32,7 @@ def new_tag(t):
 
 class GenerateSite(object):
     def __init__(self):
+        self.root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         self.now = datetime.now().strftime('%Y-%m-%d')
         self.sitemap = []
         self.people = {}
@@ -39,8 +40,8 @@ class GenerateSite(object):
         self.people_search = {}
         self.tags = {}
         self.blasters = []
-        self.html = 'html'
-        self.data = 'data'
+        self.html = os.path.join(self.root, 'html')
+        self.data = os.path.join(self.root, 'data')
         self.featured_by_blaster = {}
         self.featured_by_date = {}
  
@@ -110,7 +111,7 @@ class GenerateSite(object):
         conferences = []
 
         for filename in glob.glob(self.data + '/events/*.txt'):
-            if filename != filename.lower():
+            if filename[len(self.root):] != filename[len(self.root):].lower():
                 raise Exception("filename '{}' is not all lower case".format(filename))
             #print("Reading {}".format(filename))
             conf = {}
@@ -192,7 +193,7 @@ class GenerateSite(object):
         path = self.data + '/people'
 
         for filename in glob.glob(path + "/*.txt"):
-            if filename != filename.lower():
+            if filename[len(self.root):] != filename[len(self.root):].lower():
                 raise Exception("filename '{}' is not all lower case".format(filename)) 
             try:
                 this = {}
