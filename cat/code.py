@@ -53,24 +53,27 @@ class GenerateSite(object):
             'has_diversity_tickets_future' : 0,
         }
 
-    def generate_site(self):
+    def read_all(self):
         self.read_sources()
         self.read_tags()
         self.read_blasters()
         self.read_events()
         self.read_series()
-
         self.read_people()
+        self.read_videos()
+        self.read_podcast_episodes()
+
+
+    def generate_site(self):
+        self.read_all()
+
         report = self.check_people()
         if report != '':
             raise Exception(report)
 
-        self.read_videos()
         report = self.check_videos()
         if report != '':
             raise Exception(report)
-
-        self.read_podcast_episodes()
 
         self.preprocess_events()
 
