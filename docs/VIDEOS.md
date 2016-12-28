@@ -139,4 +139,7 @@ has not been added yet:
 Add tags, update descriptions
 -----------------------------
 
-
+"drupalcon-asia-2016" Didn't found complete schedule and speakers profile Link: https://events.drupal.org/asia2016/sessions/proposed/business
+"devoxx-poland-2016" Didn't found 2016 Schedule, Link: http://devoxx.pl/
+"german-perl-workshop-2016" schedule Don't match with json talk Link: http://act.yapc.eu/gpw2016/index.html
+"libreplanet-2016" here have only 5 json files, but in the website .....Link: https://libreplanet.org/2016/program/grid-schedule.html
