@@ -120,9 +120,8 @@ has not been added yet:
 * libreplanet-2015
 * libreplanet-2016 - there are only 5 json files, but in the website https://libreplanet.org/2016/program/grid-schedule.html
 * german-perl-workshop-2016 - schedule Don't match with json talk Link: http://act.yapc.eu/gpw2016/index.html
-* devoxx-france-2016
 * cssconf-asia-2015
-* cssconf-budapest-2016
+* cssconf-budapest-2016 - Here has a single file but see this link: http://cssconfbp.rocks/schedule.html
 * cssconf-eu-2015
 * jsconf-asia-2015
 * jsunconf-2016
