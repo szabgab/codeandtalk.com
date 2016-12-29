@@ -1,0 +1,14 @@
+{
+    "description": "A DevSecCon London 2016 talk by Mike Milner\n\nMonitoring is one cornerstone of DevOps, and DevSecOps is no different. Tracking application performance metrics is a no-brainer, but what\u2019s the best way to track application security metrics? It\u2019s critical to understand who is probing your applications, what they\u2019re doing, and how far they\u2019re getting. It\u2019s also important to make sure you\u2019re collecting relevant data for various stakeholders. This talk follows two typical attack scenarios facing today\u2019s web-apps. For each scenario, we will look at what data is available, how it should be collected, and how to get it to the right people, without flooding them with useless noise. By looking at the right signals, we can reduce the time between attack and identification, and reduce the time through the stop- analyze- fix chain.",
+    "recorded": "2016-10-20",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/TfLtfVsHwH4/hqdefault.jpg",
+    "title": "Application monitoring in the land of DevSecOps",
+    "videos": [
+        {
+            "code": "TfLtfVsHwH4",
+            "type": "youtube"
+        }
+    ]
+}

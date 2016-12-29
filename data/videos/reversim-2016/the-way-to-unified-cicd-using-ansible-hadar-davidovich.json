@@ -1,0 +1,14 @@
+{
+    "description": "Video from Reversim Summit 2016 http://summit2016.reversim.com/\n\nAt Ravello Systems we were relying heavily on CI/CD since the very early days. During the first 4 years of the company, our CI/CD framework changed and evolved to the point it went out of control and we decided to take all the experience from these years into a new and improved CI/CD. This session will share the lessons that we learned when we used multiple different tools as part of our DevOps work and why we choose to move to Ansible for provision environment on demand, setup vm, deploy code and orchestration of our tests flows.\n\nWe would discuss the process of re-doing the CI/CD from the beginning in small steps over more than a year while a large always developing group continue to push changes to production on daily basis.\n\nTo support the move we added new Ansible provisioning module that create environments in Ravello and new inventory for those environments. Since our backend is deployed in AWS directly and our tests runs on top of Ravello we added abstraction layer that allow us to write roles and playbooks that works on both environments without change. We will describe the technical aspects of this move including Jenkins integration, deployment module we developed and how we build and install client product we develop on multiple OSs.",
+    "recorded": "2016-09-19",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/AT1M_MDDJKo/hqdefault.jpg",
+    "title": "The way to unified CI/CD using Ansible / Hadar Davidovich",
+    "videos": [
+        {
+            "code": "AT1M_MDDJKo",
+            "type": "youtube"
+        }
+    ]
+}

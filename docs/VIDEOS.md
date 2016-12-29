@@ -118,8 +118,8 @@ has not been added yet:
 * fisl-17
 * london-perl-workshop-2014
 * libreplanet-2015
-* libreplanet-2016
-* german-perl-workshop-2016
+* libreplanet-2016 - there are only 5 json files, but in the website https://libreplanet.org/2016/program/grid-schedule.html
+* german-perl-workshop-2016 - schedule Don't match with json talk Link: http://act.yapc.eu/gpw2016/index.html
 * devoxx-france-2016
 * cssconf-asia-2015
 * cssconf-budapest-2016
@@ -131,15 +131,16 @@ has not been added yet:
 * drupalsouth-2014
 * grazer-linuxtage-2013
 * grazer-linuxtage-2014
-* devoxx-poland-2016
-* drupalcon-asia-2016
+* devoxx-poland-2016  - Could not find 2016 Schedule, Link: http://devoxx.pl/
+* drupalcon-asia-2016 - Could not find complete schedule and speakers profile https://events.drupal.org/asia2016/sessions/proposed/business
+* agileafricaconf-2016
+* cssconf-asia-2016
+* devseccon-london-2016
+* jsconf-asia-2016
+* reversim-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
 Add tags, update descriptions
 -----------------------------
 
-"drupalcon-asia-2016" Didn't found complete schedule and speakers profile Link: https://events.drupal.org/asia2016/sessions/proposed/business
-"devoxx-poland-2016" Didn't found 2016 Schedule, Link: http://devoxx.pl/
-"german-perl-workshop-2016" schedule Don't match with json talk Link: http://act.yapc.eu/gpw2016/index.html
-"libreplanet-2016" here have only 5 json files, but in the website .....Link: https://libreplanet.org/2016/program/grid-schedule.html

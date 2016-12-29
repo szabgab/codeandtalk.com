@@ -1,0 +1,14 @@
+{
+    "description": "A DevSecCon London 2016 workshop by Simon Bennetts\n\nThe OWASP Zed Attack Proxy (ZAP) is one of the world\u2019s most popular and best maintained free security tools. In this workshop you will learn how to automate security tests using ZAP. These tests can then be included in your continuous integration / delivery pipeline. Simon will cover the range of integration options available and then walk you through automating ZAP against a test application. The ZAP UI will be used to explain the concepts and python scripting used to drive ZAP via its API \u2013 this can then also be used to drive ZAP in daemon mode.\n\nThis workshop is aimed at anyone interested in automating ZAP for security testing, including developers, functional testers (QA) and security/pentesters.\n\nAttendees who wish to try out the automation should have a laptop with the following software installed:\n\nThe most recent version of ZAP (currently 2.5.0)\nZAP requires Java 7+ or you can use one of the ZAP Docker images\n\nPython 2.7 and the ZAP API\nThis is included in the ZAP Docker images\n\nThe BodgeIt Store (a deliberately vulnerable application)\nThe requires a servlet engine like Tomcat or you can use the Docker image",
+    "recorded": "2016-10-20",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/3vVnMh6AUkk/hqdefault.jpg",
+    "title": "Automating OWASP ZAP",
+    "videos": [
+        {
+            "code": "3vVnMh6AUkk",
+            "type": "youtube"
+        }
+    ]
+}

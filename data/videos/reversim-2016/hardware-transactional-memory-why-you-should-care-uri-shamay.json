@@ -1,0 +1,14 @@
+{
+    "description": "From http://summit2016.reversim.com/\n\nConcurrency in modern computers has changed. Moore\u2019s Law, which observed that \u201cthe number of transistors in a dense integrated circuit will double approximately every two years\u201d, is no longer true.\nNowadays, to handle concurrency, modern computers contains more cores that bring more computation power. To maximize such hardware architecture, concurrency programming kicked in. Most of the concurrency models under the hood use locks, so the code becomes serialized in some parts. This brings less throughput & more latency.\nHTM (Hardware Transactional Memory) is a new extension to the modern CPU, which helps speeding up multi-threaded software. Databases, Queue & Cache systems, Interpreted languages and more core software elements already support it to gain more speedup.\nThe most popular language in the world - Java - added (in version 8u40) support for that mechanism by default when the CPU supports it.\nSo, if I already have it in my core software, and Java has support for it under the hood, why I should care about such \u201cmechanical\u201d stuff?\nWell - like any black magic in software, you should be familiar with how it works in order to get the most out of it. And besides - it\u2019s fun!",
+    "recorded": "2016-09-19",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/gRUXJRTvjqM/hqdefault.jpg",
+    "title": "Hardware Transactional Memory - Why You Should Care  / URI SHAMAY",
+    "videos": [
+        {
+            "code": "gRUXJRTvjqM",
+            "type": "youtube"
+        }
+    ]
+}
