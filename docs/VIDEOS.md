@@ -137,6 +137,8 @@ has not been added yet:
 * devseccon-london-2016
 * jsconf-asia-2016
 * reversim-2016
+* rollingscopes-2015
+* websummercamp-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
