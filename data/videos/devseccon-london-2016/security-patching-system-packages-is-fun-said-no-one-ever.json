@@ -1,7 +1,9 @@
 {
     "description": "Proactively security patching system packages often feels more like an arcane ritual to satisfy the script kiddie gods than it does engineering. In part, this is because of a feedback loop that\u2019s more of a feedback line\u2026 Post completion, you\u2019re safe in the knowledge that you still haven\u2019t been hacked that you\u2019re aware of. Probably.\n\nBut it\u2019s still important \u2013 if your OS vendor has gotten round to announcing and fixing vulnerabilities to you, then they\u2019ve landed in everyone else\u2019s inbox too!\n\nThis talk will address some of the problems inherent in defensive infrastructure security. It will give examples of how to change the problem space in order to motivate engineers toward being proactive in a field that is \u201ceveryone\u2019s responsibility\u201d. Hopefully this should give some insight into how you can leverage technology and pragmatism to instigate change in your security culture. By reducing the pain and uncertainty of taking action, you can make infrastructure security more rewarding and more effective as a result!",
     "recorded": "2016-10-20",
-    "speakers": ["matt-carroll"],
+    "speakers": [
+        "matt-carroll"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/1p9R7OrS9-Q/hqdefault.jpg",
     "title": "\u201cSecurity patching system packages is fun!\u201d said no-one ever",

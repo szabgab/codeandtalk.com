@@ -1,7 +1,9 @@
 {
     "description": "https://github.com/BorisKozo/subdivision\nSubdivision is a somewhat opinionated JavaScript library that helps you structure your code in a highly decoupled way. It is conceptually based on a battle proven Addin-Tree concept used in projects such as SharpDevelop (C#) but with a JavaScriptish flavor. I developed the library based on my experience working on both SharpDevelop and HPE VuGen while considering the special requirements one may have when developing a web application.\nThe library runs both in the browser and Node.js, is fully documented and has ~100% coverage in unit tests. Feel free to star/fork it on GitHub.",
     "recorded": "2016-09-19",
-    "speakers": ["boris-kozorovitzky"],
+    "speakers": [
+        "boris-kozorovitzky"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/fZy1tO3SGW4/hqdefault.jpg",
     "title": "Subdivision - a tiny library for building highly decoupled and modular web apps",

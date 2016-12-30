@@ -1,7 +1,9 @@
 {
     "description": "We all agree that recurring operational tasks are time-consuming nuisances, which should be eradicated using automation. However, sometimes they require careful coordination, hardware manipulation and worst of all - human interaction.\nRecently, we found that our code doesn\u2019t really need to pass a Turing test in order to successfully interact with humans, and convince them to partake in an automated process. In this talk I\u2019ll describe how we automated disk replacement for our HDFS clusters - despite having to communicate with the hosting provider by emails, while preventing the process from failing at scale.",
     "recorded": "2016-09-19",
-    "speakers": ["nati-cohen"],
+    "speakers": [
+        "nati-cohen"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/gzLFDc65VEY/hqdefault.jpg",
     "title": "Reverse Engineering the \"Human API\" for Automation and Profit",

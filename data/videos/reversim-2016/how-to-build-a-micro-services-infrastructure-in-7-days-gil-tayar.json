@@ -1,7 +1,9 @@
 {
     "description": "On December 2015, during an internal Wix Hackathon, we decided to rewrite our aging Micro-services infrastructure. This is our story. In this story, we will see how to build a modern infrastructure that enables you to deploy a self-servicing grid of computers on which micro-services can run and discover one another.\nWill I show the best way to build a Micro-services infrastructure? No, but I will be showing how easy it is to build using off the shelf components like Mesos, Node, and Nginx. Through describing the process of building one for a Hackathon, you will understand, in a more visceral way, what consists a Micro-services infrastructure, and what you will need to think about when you will build one.",
     "recorded": "2016-09-19",
-    "speakers": ["gil-tayar"],
+    "speakers": [
+        "gil-tayar"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/RjNV6Iw6uME/hqdefault.jpg",
     "title": "How to Build a Micro-services Infrastructure In 7 Days",

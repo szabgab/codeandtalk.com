@@ -1,7 +1,9 @@
 {
     "description": "Ever heard of a \"Quine\"? A Quine is a program that reproduces itself. Basically - it takes no inout and produces its own source code as the output. Sounds tricky? Let's learn how to write one in Ruby in 5 minutes!",
     "recorded": "2016-09-19",
-    "speakers": ["inbal-gilai"],
+    "speakers": [
+        "inbal-gilai"
+    ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/Di3t9uWgpjA/hqdefault.jpg",
     "title": "self.reproduce!",
