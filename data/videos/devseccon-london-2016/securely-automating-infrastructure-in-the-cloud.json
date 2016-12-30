@@ -1,7 +1,7 @@
 {
-    "description": "A DevSecCon London 2016 talk by Stephen Sadowski\n\nTools to automate infrastructure tasks have advanced rapidly in the last decade, leading to a closer working relationship between systems teams and development teams, creating the combined role and culture of DevOps. But what happens when the worst practices of both are combined \u2013 and what happens when that is compounded by rapid public cloud deployments? The potential for disaster is broad and deep. I intend to cover how security can be covered from the ground up with a secure configuration management pipeline and automated infrastructure build tasks, using Chef and Terraform as examples, but touching on other configuration management tools such as Salt, Puppet, and IaC tools such as Otter and Ansible.",
+    "description": "Tools to automate infrastructure tasks have advanced rapidly in the last decade, leading to a closer working relationship between systems teams and development teams, creating the combined role and culture of DevOps. But what happens when the worst practices of both are combined \u2013 and what happens when that is compounded by rapid public cloud deployments? The potential for disaster is broad and deep. I intend to cover how security can be covered from the ground up with a secure configuration management pipeline and automated infrastructure build tasks, using Chef and Terraform as examples, but touching on other configuration management tools such as Salt, Puppet, and IaC tools such as Otter and Ansible.",
     "recorded": "2016-10-20",
-    "speakers": [],
+    "speakers": ["stephen-sadowski"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/8njrUrjeoNI/hqdefault.jpg",
     "title": "Securely automating infrastructure in the Cloud",
