@@ -134,9 +134,6 @@ has not been added yet:
 * drupalcon-asia-2016 - Could not find complete schedule and speakers profile https://events.drupal.org/asia2016/sessions/proposed/business
 * agileafricaconf-2016
 * cssconf-asia-2016
-* devseccon-london-2016
-* jsconf-asia-2016
-* reversim-2016
 * rollingscopes-2015
 * websummercamp-2016
 
