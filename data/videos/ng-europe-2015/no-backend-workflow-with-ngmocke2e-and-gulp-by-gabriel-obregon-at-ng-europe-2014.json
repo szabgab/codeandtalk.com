@@ -1,0 +1,14 @@
+{
+    "description": "Sometimes backend services are not ready when you are developing the front end code. With this workflow you can easily switch between live data and stubbed data without altering your code.\n\nA no backend workflow using $httpBackend from the ngMockE2E module and gulp. Creating mappings using regular expressions to return stubbed data. Taking it a step further and creating a custom map object on the run phase that will read the url parameters to return different results on the same url. This way you can work on, and control, different scenarios for the application without having to rely on the server.\n\ngithub: https://github.com/gah-boh/angular-mock-back\n\ntwitter: https://twitter.com/gah_boh",
+    "recorded": "2014-10-22",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/E5pkE8qFCz0/hqdefault.jpg",
+    "title": "No Backend Workflow With ngMockE2E and Gulp by Gabriel Obregon at ng-europe 2014",
+    "videos": [
+        {
+            "code": "E5pkE8qFCz0",
+            "type": "youtube"
+        }
+    ]
+}

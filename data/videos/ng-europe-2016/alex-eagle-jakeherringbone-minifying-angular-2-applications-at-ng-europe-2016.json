@@ -1,0 +1,14 @@
+{
+    "description": "Minification used to be a topic for library developers who distribute a foo-min.js script for users to drop into their page. With ES6 modules, we can do better, by minifying the entire application along with its dependencies into a single .js bundle. We will cover the tooling pipeline, from Angular's template compiler, through tree-shaking, bundling, and minification.",
+    "recorded": "2016-10-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/Ml7qHlk80kc/hqdefault.jpg",
+    "title": "Alex Eagle (@jakeherringbone): Minifying Angular 2 Applications at ng-europe 2016",
+    "videos": [
+        {
+            "code": "Ml7qHlk80kc",
+            "type": "youtube"
+        }
+    ]
+}
