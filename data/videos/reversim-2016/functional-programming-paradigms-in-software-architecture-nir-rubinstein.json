@@ -1,10 +1,10 @@
 {
-    "description": "Video from Reversim Summit 2016 http://summit2016.reversim.com/\n\nFunctional Programming paradigms are great in many aspects, but can they lend themselves to the actual design of the service? If so, can they also lend themselves to the entire system architecture?\n\nThis talk will show how we, at AppsFlyer, utilize ideas such as immutability, function composition, CSP, CQRS, referential transparency etc., in order to design our system - from the inner-service level, through our service-to-service pipeline and even to our deployment infrastructure.",
+    "description": "Functional Programming paradigms are great in many aspects, but can they lend themselves to the actual design of the service? If so, can they also lend themselves to the entire system architecture?\n\nThis talk will show how we, at AppsFlyer, utilize ideas such as immutability, function composition, CSP, CQRS, referential transparency etc., in order to design our system - from the inner-service level, through our service-to-service pipeline and even to our deployment infrastructure.",
     "recorded": "2016-09-19",
-    "speakers": [],
+    "speakers": ["nir-rubinstein"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/mBTv4g7xdgU/hqdefault.jpg",
-    "title": "Functional Programming Paradigms in Software Architecture / Nir Rubinstein",
+    "title": "Functional Programming Paradigms in Software Architecture",
     "videos": [
         {
             "code": "mBTv4g7xdgU",

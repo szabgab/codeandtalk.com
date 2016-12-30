@@ -1,10 +1,10 @@
 {
-    "description": "From http://summit2016.reversim.com/\n\nIf you take delivering a fast web experience seriously, then you have to make sure you\u2019re utilizing HTTP\u2019s ability to serve the response in chunks.\nUsing \u201cChunked Encoding\u201d improves performance by letting your server flush critical parts of the document (like the head tag) early, which means the browser can start downloading other resources sooner.\nAnd even though this has been part of the HTTP protocol since 1997(!) there hasn\u2019t been a tool that lets you see when a flush takes place.. up until now.\n\u201cChunk Scatter\u201d is a tool dedicated to solve this by visualizing the point in time each flush occurred. It also shows what part of the document the client gets in each chunk, and lets you compare one endpoint to another (e.g. staging vs. production).\n\u201cChunk Scatter\u201d is used by engineers at Yahoo, Adobe, Atlassian, Radware, Kayak, and others to test how different configurations and environments handle flushing.",
+    "description": "If you take delivering a fast web experience seriously, then you have to make sure you\u2019re utilizing HTTP\u2019s ability to serve the response in chunks.\nUsing \u201cChunked Encoding\u201d improves performance by letting your server flush critical parts of the document (like the head tag) early, which means the browser can start downloading other resources sooner.\nAnd even though this has been part of the HTTP protocol since 1997(!) there hasn\u2019t been a tool that lets you see when a flush takes place.. up until now.\n\u201cChunk Scatter\u201d is a tool dedicated to solve this by visualizing the point in time each flush occurred. It also shows what part of the document the client gets in each chunk, and lets you compare one endpoint to another (e.g. staging vs. production).\n\u201cChunk Scatter\u201d is used by engineers at Yahoo, Adobe, Atlassian, Radware, Kayak, and others to test how different configurations and environments handle flushing.",
     "recorded": "2016-09-19",
-    "speakers": [],
+    "speakers": ["yonatan-mevorach"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/f2u0w0n64Z8/hqdefault.jpg",
-    "title": "Flush your head! - an HTTP performance optimization tool / YONATAN MEVORACH",
+    "title": "Flush your head! - an HTTP performance optimization tool",
     "videos": [
         {
             "code": "f2u0w0n64Z8",
