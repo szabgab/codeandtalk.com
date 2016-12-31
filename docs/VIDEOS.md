@@ -139,6 +139,11 @@ has not been added yet:
 * angularconnect-2016
 * ng-europe-2015
 * ng-europe-2016
+* beyondtellerrand-2015
+* beyondtellerrand-2016
+* cssconf-eu-2014
+* jsday-spain-2015
+* jsday-spain-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
