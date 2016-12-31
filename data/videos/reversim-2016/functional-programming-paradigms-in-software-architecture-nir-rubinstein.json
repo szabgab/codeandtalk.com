@@ -1,5 +1,8 @@
 {
     "description": "Functional Programming paradigms are great in many aspects, but can they lend themselves to the actual design of the service? If so, can they also lend themselves to the entire system architecture?\n\nThis talk will show how we, at AppsFlyer, utilize ideas such as immutability, function composition, CSP, CQRS, referential transparency etc., in order to design our system - from the inner-service level, through our service-to-service pipeline and even to our deployment infrastructure.",
+    "favorite": "0",
+    "length": "35:59",
+    "likes": "1",
     "recorded": "2016-09-19",
     "speakers": [
         "nir-rubinstein"
@@ -12,5 +15,6 @@
             "code": "mBTv4g7xdgU",
             "type": "youtube"
         }
-    ]
+    ],
+    "views": "130"
 }
