@@ -140,6 +140,9 @@ has not been added yet:
 * ng-europe-2015
 * beyondtellerrand-2015
 * beyondtellerrand-2016
+* ng-nl-2015
+* refresh-2015
+* refresh-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
