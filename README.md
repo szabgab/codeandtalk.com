@@ -57,7 +57,7 @@ Add this information to the data/series.json file Talk to the organizers and tel
 
 * Convert the whole site to be dynamically generated from json files.
 
-* Convert all the data files to JSON, beautidy them?
+* Convert all the data files to JSON, beautify them?
 * Create skeleton for each file-type?
 
 * Include picture of each speaker?
