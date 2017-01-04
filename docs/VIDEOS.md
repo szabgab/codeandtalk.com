@@ -137,12 +137,8 @@ has not been added yet:
 * rollingscopes-2015
 * websummercamp-2016
 * angularconnect-2016
-* ng-europe-2015
 * beyondtellerrand-2015
 * beyondtellerrand-2016
-* ng-nl-2015
-* refresh-2015
-* refresh-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
