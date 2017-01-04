@@ -1010,6 +1010,7 @@ class GenerateSite(object):
         valid_fields.extend(['filename', 'event', 'file_date']) # generated fields
         required_fields = ['title', 'recorded']
         report = ''
+        valid_languages = ["Hebrew", "Dutch", "Spanish", "Portuguese"]
 
         for video in self.videos:
             for f in video.keys():
@@ -1021,6 +1022,9 @@ class GenerateSite(object):
             if not re.search(r'^\d\d\d\d-\d\d-\d\d$', video['recorded']):
                 report += "Invalid 'recorded' field: {:20} in {}\n".format(video['recorded'], video)
             #exit(video)
+            if 'language' in video:
+                if video['language'] not in valid_languages:
+                    raise Exception("Invalid language '{}' in video data/videos/{}/{}.json".format(video['language'], video['event'], video['filename']))
         return report
 
     def check_people(self):
