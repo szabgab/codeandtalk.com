@@ -1025,6 +1025,7 @@ class GenerateSite(object):
             if 'language' in video:
                 if video['language'] not in valid_languages:
                     raise Exception("Invalid language '{}' in video data/videos/{}/{}.json".format(video['language'], video['event'], video['filename']))
+                video['title'] += ' (' + video['language'] + ')'
         return report
 
     def check_people(self):
