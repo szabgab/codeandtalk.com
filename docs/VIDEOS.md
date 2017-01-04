@@ -139,6 +139,7 @@ has not been added yet:
 * angularconnect-2016
 * beyondtellerrand-2015
 * beyondtellerrand-2016
+* rubyconf-portugal-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
