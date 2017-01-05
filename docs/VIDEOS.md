@@ -136,9 +136,6 @@ has not been added yet:
 * cssconf-asia-2016
 * rollingscopes-2015
 * websummercamp-2016
-* angularconnect-2016
-* beyondtellerrand-2015
-* beyondtellerrand-2016
 * rubyconf-portugal-2016
 
 ``` grep speaker * | grep '\[\]' ```
