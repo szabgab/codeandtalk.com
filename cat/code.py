@@ -1010,7 +1010,7 @@ class GenerateSite(object):
         valid_fields.extend(['filename', 'event', 'file_date']) # generated fields
         required_fields = ['title', 'recorded']
         report = ''
-        valid_languages = ["Hebrew", "Dutch", "Spanish", "Portuguese"]
+        valid_languages = ["Hebrew", "Dutch", "Spanish", "Portuguese", "German"]
 
         for video in self.videos:
             for f in video.keys():
