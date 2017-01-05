@@ -14,10 +14,10 @@ def videos():
 	results = []
 	if term != '':
 		for v in videos:
-			if term in v['title']:
+			if term in v['title'].lower():
 				results.append(v)
 				continue
-			if term in v['short_description']:
+			if term in v['short_description'].lower():
 				results.append(v)
 				continue
 			if 'tags' in v:
