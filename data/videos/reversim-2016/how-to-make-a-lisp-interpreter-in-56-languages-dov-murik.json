@@ -1,6 +1,7 @@
 {
     "description": "Mal (Make-a-Lisp) is a Clojure-like Lisp language invented by Joel Martin for educational purposes. It has interpreter implementations in 56 programming languages, including C, Java and Python, but also Make, PL/SQL, Vimscript and many others.\nBuilding a Mal implementation is a great way to learn about Lisp in general and about the specific language you're implementing in. The talk will present the step-by-step process of building such an interpreter, incrementally adding features like variables, conditions, tail-call optimization and macros, finally reaching the last step which is capable of self-hosting (running the Mal interpreter which is written in Mal).",
     "favorite": "0",
+    "language": "Hebrew",
     "length": "04:58",
     "likes": "0",
     "recorded": "2016-09-19",

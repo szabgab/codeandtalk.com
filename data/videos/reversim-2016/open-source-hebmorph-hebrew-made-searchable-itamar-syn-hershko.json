@@ -1,6 +1,7 @@
 {
     "description": "Search engine technologies (Lucene, Solr, Elasticsearch) have poor support for Hebrew out of the box. \u05de\u05d4 \u05dc\u05e2\u05e9\u05d5\u05ea, \u05e2\u05d1\u05e8\u05d9\u05ea \u05e7\u05e9\u05d4 \u05e9\u05e4\u05d4. The only way around this was to create a custom Lucene analyzer that is smart enough to disambiguate Hebrew words and manipulate the index accordingly.\nToday HebMorph is being used by many users, some under an OSS license and some under a commercial license to support the future of the project.",
     "favorite": "0",
+    "language": "Hebrew",
     "length": "09:50",
     "likes": "1",
     "recorded": "2016-09-19",
