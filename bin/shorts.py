@@ -13,11 +13,15 @@ def _in_sec(length):
     return sec
 
 def main():
-    if len(sys.argv) !=2:
-        exit("{} MM::SS".format(sys.argv[0]))
+    if len(sys.argv) == 2:
+        max_length = _in_sec(sys.argv[1])
+        min_length = 0;
+    elif len(sys.argv) == 3:
+        min_length = _in_sec(sys.argv[1])
+        max_length = _in_sec(sys.argv[2])
+    else:
+        exit("{} MM::SS [MM::SS]".format(sys.argv[0]))
 
-    length = _in_sec(sys.argv[1])
-    
     videos = []
     for video_file in glob.glob("data/videos/*/*.json"):
         with open(video_file) as fh:
@@ -28,7 +32,7 @@ def main():
                 continue
             if 'length' in video:
                 sec = _in_sec(video['length'])
-                if sec < length:
+                if min_length < sec < max_length:
                     videos.append({
                         'filename': video_file,
                         'length'  : video['length'],
