@@ -133,10 +133,6 @@ has not been added yet:
 * devoxx-poland-2016  - Could not find 2016 Schedule, Link: http://devoxx.pl/
 * drupalcon-asia-2016 - Could not find complete schedule and speakers profile https://events.drupal.org/asia2016/sessions/proposed/business
 * agileafricaconf-2016
-* cssconf-asia-2016
-* rollingscopes-2015
-* websummercamp-2016
-* rubyconf-portugal-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
