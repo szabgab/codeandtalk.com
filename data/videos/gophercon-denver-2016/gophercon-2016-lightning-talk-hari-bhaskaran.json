@@ -1,15 +1,17 @@
 {
-    "description": "",
+	"blasters": ["system"],
     "favorite": "0",
+	"featured": "2017-01-08",
     "length": "06:18",
     "likes": "3",
     "recorded": "2016-07-11",
+	"slides": "http://go-talks.appspot.com/github.com/gophercon/2016-talks/HariBhaskaran-CardinalityEstimatesUsingHLL/main.slide",
     "speakers": [
         "hari-bhaskaran"
     ],
-    "tags": [],
+    "tags": ["golang", "hll"],
     "thumbnail_url": "https://i.ytimg.com/vi/tsJ8HFz7tQg/hqdefault.jpg",
-    "title": "Lightning Talk",
+    "title": "Cardinality Estimates Using HLL in Go",
     "videos": [
         {
             "code": "tsJ8HFz7tQg",
