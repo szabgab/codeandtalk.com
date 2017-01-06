@@ -1,13 +1,14 @@
 {
-    "description": "By David Buchmann & M\u00e1rk S\u00e1gi-Kaz\u00e1r\n\nMore details: http://2016.websummercamp.com/PHP/Writing-API-clients-with-HTTPlug\n\nPSR-7 defines common interfaces for HTTP requests and responses but the libraries that need to send HTTP requests need more than that. HTTPlug defines an interface for HTTP clients and provides adapters for existing clients like Guzzle, as well as a plugin system operating directly on PSR-7. This tool chain allows building API clients that do not depend on a specific HTTP client at all. This workshop by the two of the main authors of HTTPlug will cover: * Working with PSR-7 request and response * Using HTTPlug and the MessageFactory * Bootstrapping clients explicitly or with Puli * Using the PHP-HTTP plugin system * Strategies for writing an API client.",
+    "abstract": "http://2016.websummercamp.com/PHP/Writing-API-clients-with-HTTPlug",
+    "description": "PSR-7 defines common interfaces for HTTP requests and responses but the libraries that need to send HTTP requests need more than that. HTTPlug defines an interface for HTTP clients and provides adapters for existing clients like Guzzle, as well as a plugin system operating directly on PSR-7. This tool chain allows building API clients that do not depend on a specific HTTP client at all. This workshop by the two of the main authors of HTTPlug will cover: * Working with PSR-7 request and response * Using HTTPlug and the MessageFactory * Bootstrapping clients explicitly or with Puli * Using the PHP-HTTP plugin system * Strategies for writing an API client.",
     "favorite": "0",
     "length": "02:02:43",
     "likes": "0",
     "recorded": "2016-08-31",
-    "speakers": [],
+    "speakers": ["david-buchmann", "mark-sagi-kazar"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/I2pVYjVT9Fw/hqdefault.jpg",
-    "title": "[WEBSC2016] D02L01 Track 2 - Writing API clients with HTTPlug",
+    "title": "Writing API clients with HTTPlug",
     "videos": [
         {
             "code": "I2pVYjVT9Fw",
