@@ -1,13 +1,14 @@
 {
-    "description": "By Gaetano Giunta\n\nMore details: http://2016.websummercamp.com/eZ-Publish/eZ-Publish-5-from-zero-to-automated-deployment-and-no-regressions!-in-one-afternoon\n\nThis workshop will focus on all of the obstacles developers have to overcome on their path from \"but it worked on my machine\" to \"we roll out twice a day and still can sleep at night\": why and how to set up a Docker stack as development environment for eZ Publish; how to effectively deal with multi-environment configurations; what to put in a deployment script; how to manage updates to the database structure. If time allows: how to set up automated testing of an eZ Publish bundle on Travis.",
+    "abstract": "http://2016.websummercamp.com/eZ-Publish/eZ-Publish-5-from-zero-to-automated-deployment-and-no-regressions!-in-one-afternoon",
+    "description": "This workshop will focus on all of the obstacles developers have to overcome on their path from \"but it worked on my machine\" to \"we roll out twice a day and still can sleep at night\": why and how to set up a Docker stack as development environment for eZ Publish; how to effectively deal with multi-environment configurations; what to put in a deployment script; how to manage updates to the database structure. If time allows: how to set up automated testing of an eZ Publish bundle on Travis.",
     "favorite": "0",
     "length": "02:44:24",
     "likes": "0",
     "recorded": "2016-08-31",
-    "speakers": [],
+    "speakers": ["gaetano-giunta"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/CoxNvFGxTQU/hqdefault.jpg",
-    "title": "[WEBSC2016] D03L02 Track 3 - eZ Publish 5: from zero to automated deployment in one afternoon",
+    "title": "eZ Publish 5: from zero to automated deployment in one afternoon",
     "videos": [
         {
             "code": "CoxNvFGxTQU",
