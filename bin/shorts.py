@@ -3,6 +3,8 @@ import json
 import glob
 import sys
 
+# TODO: allow me to list only videos with speakers and/or only videos without speaker
+
 def _in_sec(length):
     parts = [int(x) for x in length.split(':')]
     sec = 0
@@ -30,6 +32,11 @@ def main():
                 continue
             if 'skipped' in video:
                 continue
+
+            # show only videos with people?
+            if not video['speakers']:
+                continue
+
             if 'length' in video:
                 sec = _in_sec(video['length'])
                 if min_length < sec < max_length:
