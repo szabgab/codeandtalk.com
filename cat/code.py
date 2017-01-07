@@ -72,16 +72,29 @@ class GenerateSite(object):
         self.check_people()
         self.check_videos()
 
+        cat = {
+            'people' : copy.deepcopy(self.people),
+            'videos' : copy.deepcopy(self.videos),
+            'events' : copy.deepcopy(self.events),
+        }
+
         self.preprocess_events()
 
         if os.path.exists(self.html):
             shutil.rmtree(self.html)
         shutil.copytree('src', self.html)
 
+        cat['stats'] = copy.deepcopy(self.stats)
+        self.save_all(cat)
+
         self.generate_people_pages()
         self.generate_podcast_pages()
         self.generate_pages()
         self.save_search()
+
+    def save_all(self, cat):
+        with open(self.html + '/cat.json', 'w', encoding="utf-8") as fh:
+            json.dump(cat, fh)
 
     def read_sources(self):
         with open(self.data + '/sources.json', encoding="utf-8") as fh:
