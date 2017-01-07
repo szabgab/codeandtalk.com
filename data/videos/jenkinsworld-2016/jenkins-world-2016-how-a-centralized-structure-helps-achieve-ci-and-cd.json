@@ -1,0 +1,18 @@
+{
+    "description": "When individual development teams focus on their own continuous integration (CI) pipelines and infrastructures, there is a danger for inconsistencies throughout the organization. The existence of multiple teams and products can result in just as many different pipelines. And while some use continuous delivery (CD) pipelines, others still struggle with CI.\n\nIn order to achieve true CI/CD, organizations need centralized structure. A centralized digital platform services (DPS) team to create and maintain a common pipeline can help. With a DPS team, developers are free to move away from the pipeline to focus on building and testing, as well as establishing best practices.\n\nYou can take things a step further by adding a centralized tool team, tasked with maintaining CI infrastructure, adding CI/CD tooling and establishing best practices for CI/CD, test automation, build/test/deployment and more. Developers are no longer required to maintain or test code, and can focus even more fully on achieving true CI and CD.\n\nSharing his experiences at Yahoo! Mail, Neil Manvar highlights the value of such centralized structures for getting closer to CI/CD. Once a centralized DPS team was put in place, Yahoo! Mail developers could move past the pipeline. Implementing a layer on top of Jenkins enabled the team to more easily create and configure pipelines via source code (config.json) - without requiring in-depth Jenkins knowledge. Further, establishing centralized tooling helped his team to solve scaling problems and provided improved security.\n\nDelivered by Neil Manvar",
+    "favorite": "0",
+    "length": "38:17",
+    "likes": "0",
+    "recorded": "2016-09-14",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/GHGbGMgQ68A/hqdefault.jpg",
+    "title": "Jenkins World 2016 - How a Centralized Structure Helps Achieve CI and CD",
+    "videos": [
+        {
+            "code": "GHGbGMgQ68A",
+            "type": "youtube"
+        }
+    ],
+    "views": "75"
+}

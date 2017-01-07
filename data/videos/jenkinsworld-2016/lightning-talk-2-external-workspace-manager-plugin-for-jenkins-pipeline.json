@@ -1,0 +1,18 @@
+{
+    "description": "The build workspace for Jenkins may become very large in size if you use a compiler that generates a very large volume of data. One of the solutions for this is to have a Jenkins plugin that is able to manage and reuse the same workspace between multiple builds.\n\nDuring Google Summer of Code (GSoC) 2016, Alex was working on the External Workspace Manager plugin, which provides a workspace management system for the Pipeline plugin. It facilitates workspace share and reuse across multiple Jenkins jobs running on different nodes. It eliminates the need to copy, archive or move files. The plugin also supports automatic workspace cleanup, multiple disk pools and flexible disk selection management. In this session, Alex will present the plugin and its common use cases.\n\nDelivered by Alexandru Somai",
+    "favorite": "0",
+    "length": "11:41",
+    "likes": "2",
+    "recorded": "2016-09-14",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/mZaCngHQaO4/hqdefault.jpg",
+    "title": "Lightning Talk #2: External Workspace Manager Plugin for Jenkins Pipeline",
+    "videos": [
+        {
+            "code": "mZaCngHQaO4",
+            "type": "youtube"
+        }
+    ],
+    "views": "149"
+}

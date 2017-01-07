@@ -1,0 +1,18 @@
+{
+    "description": "Time to value is critical. Continuous delivery of containerized microservices is the best approach for developing better software and iterating fast to give more value to our customers. However, it can be challenging trying to figure out how to take the theory of continuous delivery and turn it into a reality; particularly with the large increase in the number of microservices projects and the rapid innovations happening in the container ecosystem.\n\nIn this talk, we'll show how to use Jenkins Pipeline together with Docker and Kubernetes to implement a complete end-to-end continuous delivery and continuous improvement system for microservices and monolithic applications using open source software. We'll demonstrate how to easily create new microservices projects or import existing projects, have them automatically built, system and integration tested, staged and then deployed. Once deployed, we will also see how to manage and update applications using continuous delivery practices along with integrated ChatOps - all completely automated!\n\nFinally, we'll walk through how to develop microservices-based applications to optimize features like service discovery, high availability, auto scaling, rolling upgrades, circuit breakers, tracing, logging and metrics. After this talk you should be ready to set up your own end-to-end continuous delivery platform easily, with lots of automation and tooling. Let's all go faster!\n\nDelivered by James Strachan",
+    "favorite": "0",
+    "length": "51:26",
+    "likes": "7",
+    "recorded": "2016-09-14",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/6g9pRcY-VH0/hqdefault.jpg",
+    "title": "Jenkins World 2016 - How to Do Continuous Delivery with Jenkins Pipeline, Docker and Kubernetes",
+    "videos": [
+        {
+            "code": "6g9pRcY-VH0",
+            "type": "youtube"
+        }
+    ],
+    "views": "1001"
+}
