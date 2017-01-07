@@ -389,7 +389,8 @@ class GenerateSite(object):
         for s in self.series.keys():
             self.series[s]['events'] = []
         other = []
-        for e in self.conferences:
+        for nickname in self.events.keys():
+            e = self.events[nickname]
             event = {
                 'nickname'   : e['nickname'],
                 'name'       : e['name'],
@@ -552,7 +553,8 @@ class GenerateSite(object):
                 self.event_videos[ v['event']['nickname'] ] = []
             self.event_videos[ v['event']['nickname'] ].append(v)
 
-        for event in self.conferences:
+        for nickname in self.events.keys():
+            event = self.events[nickname]
             if 'youtube' in event and event['youtube'] == '-':
                 event['youtube'] = None
 
@@ -778,7 +780,8 @@ class GenerateSite(object):
         event_template = env.get_template('event.html')
         if not os.path.exists(root + '/e/'):
             os.mkdir(root + '/e/')
-        for event in self.conferences:
+        for nickname in self.events.keys():
+            event = self.events[nickname]
             #print(event['nickname'])
 
             try:
@@ -811,7 +814,12 @@ class GenerateSite(object):
 
         list_template = env.get_template('list.html')
 
-        future = list(filter(lambda x: x['start_date'] >= self.now, self.conferences))
+        future = []
+        for nickname in self.events.keys():
+            event = self.events[nickname]
+            if event['start_date'] >= self.now:
+                future.append(event)
+
         with open(root + '/conferences', 'w', encoding="utf-8") as fh:
             fh.write(list_template.render(
                 h1          = 'Open Source conferences',
