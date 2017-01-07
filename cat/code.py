@@ -84,13 +84,13 @@ class GenerateSite(object):
             shutil.rmtree(self.html)
         shutil.copytree('src', self.html)
 
-        cat['stats'] = copy.deepcopy(self.stats)
-        self.save_all(cat)
-
         self.generate_people_pages()
         self.generate_podcast_pages()
         self.generate_pages()
         self.save_search()
+
+        cat['stats'] = copy.deepcopy(self.stats)
+        self.save_all(cat)
 
     def save_all(self, cat):
         with open(self.html + '/cat.json', 'w', encoding="utf-8") as fh:
@@ -837,15 +837,7 @@ class GenerateSite(object):
             'url' : '/conferences'
         })
 
-        about_template = env.get_template('about.html')
-        with open(root + '/about', 'w', encoding="utf-8") as fh:
-            fh.write(about_template.render(
-                h1          = 'About Open Source conferences',
-                title       = 'About Open Source conferences',
-                stats       = self.stats,
-            ))
         self.sitemap.append({ 'url' : '/about' })
-
 
         with open(root + '/all-conferences', 'w', encoding="utf-8") as fh:
             fh.write(list_template.render(

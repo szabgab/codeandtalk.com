@@ -69,6 +69,15 @@ def series():
 		series = data,
 	)
 
+@catapp.route("/about")
+def about(filename = None):
+	cat = _read_json(root + '/html/cat.json')
+	return render_template('about.html',
+		h1          = 'About Code And Talk',
+		title       = 'About Code And Talk',
+		stats       = cat['stats'],
+	)
+
 ### static page for the time of transition
 @catapp.route("/")
 @catapp.route("/<filename>")
