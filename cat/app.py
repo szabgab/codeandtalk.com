@@ -152,10 +152,10 @@ def _read_json(filename):
 	catapp.logger.debug("Reading '{}'".format(filename))
 	try:
 		with open(filename) as fh:
-			search_data = json.loads(fh.read())
+			data = json.loads(fh.read())
 	except Exception as e:
 		catapp.logger.error("Reading '{}' {}".format(search_file, e))
-		search_data = {}
+		data = {}
 		pass
-	return search_data
+	return data
 
