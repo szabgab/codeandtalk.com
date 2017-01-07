@@ -135,6 +135,7 @@ has not been added yet:
 * agileafricaconf-2016
 * jenkinsworld-2016
 * nordictestingdays-2016
+* europeantestingconference-2016
 
 ``` grep speaker * | grep '\[\]' ```
 

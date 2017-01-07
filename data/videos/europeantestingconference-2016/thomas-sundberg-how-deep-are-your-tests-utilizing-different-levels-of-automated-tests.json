@@ -1,0 +1,18 @@
+{
+    "description": "Manual testing is most often done end-to-end. Tests are performed through the user interface. When testing gets automated, this is where most organizations start. They start with automating the way they do things now. The new way is faster, but it isn\u2019t fast enough. And not robust enough.\n\nIt is unnecessarily complicated to understand why an end-to-end test fails. There are usually many different possibilities when something doesn\u2019t work.\n\nThe number of possible paths through a reasonably large application will very fast make it impossible to cover them all. Combinatorics is your enemy.\n\nThe solution is to minimize the tests that passes through many layers in your application. Minimizing doesn\u2019t mean removing the end-to-end tests. They are still needed. But much fewer than most organizations seem to think.\n\nI will show you why the testing pyramid need to be very wide. You will understand why this is an absolute necessity if all possible paths through the application should be tested.\n\nIn other words, let me show you why your tests must be very shallow.\n\n\nCheck more at http://europeantestingconference.eu\nAll the videos from 2016 are at https://www.youtube.com/watch?v=UF5ERStlaHg&list=PL_9ioxG4tU7sz_BwjPjHeLWr2CIoFNT10",
+    "favorite": "0",
+    "length": "31:41",
+    "likes": "0",
+    "recorded": "2016-02-11",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/v5nfuaw-llk/hqdefault.jpg",
+    "title": "Thomas Sundberg: How Deep Are Your Tests? - Utilizing different levels of automated tests",
+    "videos": [
+        {
+            "code": "v5nfuaw-llk",
+            "type": "youtube"
+        }
+    ],
+    "views": "39"
+}

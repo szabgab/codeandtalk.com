@@ -1,0 +1,18 @@
+{
+    "description": "Device fragmentation is one of the biggest challenges in mobile testing in general. When it comes to mobile games specifically, not supporting a few device models that are very popular in certain markets can lead to significant revenue losses. Thus, the typical approach of choosing a sample of devices to test your games on no longer seems like a valuable strategy.\n\nIn this presentation, I discuss my own experience as a test consultant at Altom, working with Bitbar, a Finnish startup, to build a test framework that enables mobile game companies to run efficient automated checks on hundreds of devices simultaneously, through the use of Testdroid Cloud - Bitbar\u2019s mobile device cloud solution.\n\nUsing Appium and image recognition algorithms, we built a solution that enables game companies to test their games on real iOS and Android devices in the cloud, even when the games are developed with game engines like Unity or Unreal Engine, where the UI objects are not exposed. This talk will show examples of this framework in use and will give you a great starting point for dealing with device fragmentation when it comes to testing mobile games.\n\n\nCheck more at http://europeantestingconference.eu\nAll the videos from 2016 are at https://www.youtube.com/watch?v=UF5ERStlaHg&list=PL_9ioxG4tU7sz_BwjPjHeLWr2CIoFNT10",
+    "favorite": "0",
+    "length": "27:52",
+    "likes": "0",
+    "recorded": "2016-02-11",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/51ajUBemB_k/hqdefault.jpg",
+    "title": "Ru Cindrea: Dealing with Device Fragmentation in Mobile Games Testing",
+    "videos": [
+        {
+            "code": "51ajUBemB_k",
+            "type": "youtube"
+        }
+    ],
+    "views": "106"
+}
