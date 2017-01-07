@@ -68,13 +68,8 @@ class GenerateSite(object):
     def generate_site(self):
         self.read_all()
 
-        report = self.check_people()
-        if report != '':
-            raise Exception(report)
-
-        report = self.check_videos()
-        if report != '':
-            raise Exception(report)
+        self.check_people()
+        self.check_videos()
 
         self.preprocess_events()
 
@@ -1009,36 +1004,32 @@ class GenerateSite(object):
             'views', 'likes', 'favorite', 'skipped']
         valid_fields.extend(['filename', 'event', 'file_date']) # generated fields
         required_fields = ['title', 'recorded']
-        report = ''
         valid_languages = ["Hebrew", "Dutch", "Spanish", "Portuguese", "German"]
 
         for video in self.videos:
             for f in video.keys():
                 if f not in valid_fields:
-                    report += "Invalid field '{}' in {}\n".format(f, video)
+                    raise Exception("Invalid field '{}' in {}".format(f, video))
             for f in required_fields:
                 if f not in video:
-                    report += "Missing required field: '{}' in {}".format(f, video)
+                    raise Exception("Missing required field: '{}' in {}".format(f, video))
             if not re.search(r'^\d\d\d\d-\d\d-\d\d$', video['recorded']):
-                report += "Invalid 'recorded' field: {:20} in {}\n".format(video['recorded'], video)
+                raise Exception("Invalid 'recorded' field: {:20} in {}".format(video['recorded'], video))
             #exit(video)
             if 'language' in video:
                 if video['language'] not in valid_languages:
                     raise Exception("Invalid language '{}' in video data/videos/{}/{}.json".format(video['language'], video['event'], video['filename']))
                 video['title'] += ' (' + video['language'] + ')'
-        return report
 
     def check_people(self):
         """
             Go over all the files in the data/people directory and check if all the fields are in the list of valid_fields
         """
         valid_fields = ['name', 'github', 'twitter', 'home', 'country', 'gplus', 'nickname', 'city', 'state', 'slides', 'comment', 'topics', 'description']
-        report = ''
         for nickname in self.people.keys():
             for f in self.people[nickname]['info']:
                 if f not in valid_fields:
-                    report += "Invlaid field '{}' in person {}\n".format(f, nickname)
-        return report
+                    raise Exception("Invlaid field '{}' in person {}".format(f, nickname))
 
 # vim: expandtab
 
