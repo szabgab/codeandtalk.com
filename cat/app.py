@@ -1,6 +1,5 @@
 from flask import Flask, render_template, redirect, abort, request, url_for, Response, jsonify
 from datetime import datetime
-import icalendar
 import os
 import json
 import re
@@ -143,16 +142,38 @@ def calendar():
 
     future = sorted(list(filter(lambda e: e['start_date'] >= now, cat["events"].values())), key = lambda e: e['start_date'])
 
-    cal = icalendar.Calendar()
-    for e in future:
-        event = icalendar.Event()
-        event['dtstart'] = re.sub(r'-', '', e['start_date']) + 'T080000' # '20170104T080000'
-        event['summary'] = e['name']
-        event['description'] = e['url']
-        event['dtend'] = re.sub(r'-', '', e['end_date']) + 'T080000' # '20170104T080000'
-        cal.add_component(event)
+    cal = ""
+    cal += "BEGIN:VCALENDAR\r\n"
+    cal += "PRODID:https://codeandtalk.com/cal/all.ics\r\n"
+    cal += "VERSION:2.0\r\n"
+    #PRODID:-//http://XXX//Event
+    #METHOD:PUBLISH
 
-    return cal.to_ical().decode('UTF-8')
+    for e in future:
+        cal += "BEGIN:VEVENT\r\n"
+        cal += "DTSTAMP:{}T000000Z\r\n".format(re.sub(r'-', '', e['start_date']))
+        cal += "DTSTART;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['start_date']))
+        cal += "DTEND;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['end_date']))
+        uid = re.sub(r'\W+', '-', e['url'])
+        uid = re.sub(r'\W+$', '', uid)
+        cal += "UID:{}\r\n".format(uid)
+        cal += "SUMMARY:{}\r\n".format(e['name'])
+        cal += "DESCRIPTION:{}\r\n".format(e['url'])
+        try:
+            location = e['city']
+            if e['state']:
+                location += ", " + e['state']
+            location += ", " + e['country']
+            cal += "LOCATION:{}\r\n".format(location)
+        except Exception:
+            pass
+            # hide Unicode error from beyondtellerrand-2017
+        cal += "END:VEVENT\r\n"
+
+    cal += "END:VCALENDAR\r\n"
+
+    return cal
+    #return cal.to_ical().decode('UTF-8')
 
 @catapp.route("/t/<tag>")
 @catapp.route("/e/<event>")
