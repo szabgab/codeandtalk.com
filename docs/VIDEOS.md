@@ -124,15 +124,11 @@ has not been added yet:
 * cssconf-budapest-2016 - Here has a single file but see this link: http://cssconfbp.rocks/schedule.html
 * cssconf-eu-2015
 * jsconf-asia-2015
-* jsunconf-2016
-* rejectjs-2015
-* webrebels-2015
 * drupalsouth-2014
 * grazer-linuxtage-2013
 * grazer-linuxtage-2014
 * devoxx-poland-2016  - Could not find 2016 Schedule, Link: http://devoxx.pl/
 * drupalcon-asia-2016 - Could not find complete schedule and speakers profile https://events.drupal.org/asia2016/sessions/proposed/business
-* agileafricaconf-2016
 * jenkinsworld-2016
 * nordictestingdays-2016
 * europeantestingconference-2016
