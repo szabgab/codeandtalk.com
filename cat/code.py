@@ -148,7 +148,12 @@ class GenerateSite(object):
                             print("Duplicate field '{}' in {}".format(k, filename))
                         else:
                             this[k] = v
-                        
+
+                date_format =  r'^\d\d\d\d-\d\d-\d\d$'
+                # TODO: add requirement for start_date and end_date
+                for f in ['start_date', 'end_date', 'cfp_date']:
+                    if f in this and this[f] and not re.search(date_format, this[f]):
+                        raise Exception('Invalid {} {} in {}'.format(f, this[f], filename))
 
                 my_topics = []
                 #print(this)
