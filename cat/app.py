@@ -1,4 +1,6 @@
 from flask import Flask, render_template, redirect, abort, request, url_for, Response, jsonify
+from datetime import datetime
+import icalendar
 import os
 import json
 import re
@@ -133,6 +135,24 @@ def person(person = None):
         person      = data,
         id          = person,
     )
+
+@catapp.route("/cal/all.ics")
+def calendar():
+    cat = _read_json(root + '/html/cat.json')
+    now = datetime.now().strftime('%Y-%m-%d')
+
+    future = sorted(list(filter(lambda e: e['start_date'] >= now, cat["events"].values())), key = lambda e: e['start_date'])
+
+    cal = icalendar.Calendar()
+    for e in future:
+        event = icalendar.Event()
+        event['dtstart'] = re.sub(r'-', '', e['start_date']) + 'T080000' # '20170104T080000'
+        event['summary'] = e['name']
+        event['description'] = e['url']
+        event['dtend'] = re.sub(r'-', '', e['end_date']) + 'T080000' # '20170104T080000'
+        cal.add_component(event)
+
+    return cal.to_ical().decode('UTF-8')
 
 @catapp.route("/t/<tag>")
 @catapp.route("/e/<event>")
