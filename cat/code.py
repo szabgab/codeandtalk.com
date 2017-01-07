@@ -165,7 +165,7 @@ class GenerateSite(object):
                         this['cfp_class'] = 'cfp_future'
 
                 if 'city' not in this or not this['city']:
-                    exit("City is missing from {}".format(this))
+                    raise Exception("City is missing from {}".format(this))
 
                 city_name = '{}, {}'.format(this['city'], this['country'])
                 city_page = topic2path('{} {}'.format(this['city'], this['country']))
@@ -173,7 +173,7 @@ class GenerateSite(object):
                 # In some countris we require state:
                 if this['country'] in ['Australia', 'Brasil', 'India', 'USA']:
                     if 'state' not in this or not this['state']:
-                        exit('State is missing from {}'.format(this))
+                        raise Exception('State is missing from {}'.format(this))
                     city_name = '{}, {}, {}'.format(this['city'], this['state'], this['country'])
                     city_page = topic2path('{} {} {}'.format(this['city'], this['state'], this['country']))
                 this['city_name'] = city_name
@@ -573,7 +573,7 @@ class GenerateSite(object):
                 event['videos'] = self.event_videos[ event['nickname'] ]
 
             if not 'country' in event or not event['country']:
-                exit('Country is missing from {}'.format(event))
+                raise Exception('Country is missing from {}'.format(event))
             country_name = event['country']
             country_page = re.sub(r'\s+', '-', country_name.lower())
             event['country_page'] = country_page
