@@ -805,12 +805,6 @@ class GenerateSite(object):
                 print("ERROR 8: {}".format(e))
 
 
-
-         self.sitemap.append({
-            'url' : '/'
-        })
-
-
         list_template = env.get_template('list.html')
 
         future = []
@@ -830,6 +824,7 @@ class GenerateSite(object):
             'url' : '/conferences'
         })
 
+        self.sitemap.append({ 'url' : '/' })
         self.sitemap.append({ 'url' : '/about' })
 
         with open(root + '/all-conferences', 'w', encoding="utf-8") as fh:
