@@ -806,14 +806,7 @@ class GenerateSite(object):
 
 
 
-        main_template = env.get_template('index.html')
-        with open(root + '/index.html', 'w', encoding="utf-8") as fh:
-            fh.write(main_template.render(
-                h1          = 'Presentations from tech events worth watching',
-                title       = 'Conferences, Videos, Podcasts, and People',
-                stats       = self.stats,
-            ))
-        self.sitemap.append({
+         self.sitemap.append({
             'url' : '/'
         })
 

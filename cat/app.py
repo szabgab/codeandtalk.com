@@ -78,8 +78,16 @@ def about(filename = None):
         stats       = cat['stats'],
     )
 
-### static page for the time of transition
 @catapp.route("/")
+def main():
+    cat = _read_json(root + '/html/cat.json')
+    return render_template('index.html',
+        h1          = 'Presentations from tech events worth watching',
+        title       = 'Conferences, Videos, Podcasts, and People',
+        stats       = cat['stats'],
+    )
+
+### static page for the time of transition
 @catapp.route("/<filename>")
 def static_file(filename = None):
     #index.html  redirect
