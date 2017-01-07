@@ -44,6 +44,7 @@ class GenerateSite(object):
         self.data = os.path.join(self.root, 'data')
         self.featured_by_blaster = {}
         self.featured_by_date = {}
+        self.events = {}
  
         self.stats = {
             'has_coc' : 0,
@@ -103,8 +104,6 @@ class GenerateSite(object):
         return
 
     def read_events(self):
-        conferences = []
-
         for filename in glob.glob(self.data + '/events/*.txt'):
             if filename[len(self.root):] != filename[len(self.root):].lower():
                 raise Exception("filename '{}' is not all lower case".format(filename))
@@ -174,13 +173,10 @@ class GenerateSite(object):
                 this['city_name'] = city_name
                 this['city_page'] = city_page
 
+                self.events[ this['nickname'] ] = this
 
-                conferences.append(this)
             except Exception as e:
                 exit("ERROR 1: {} in file {}".format(e, filename))
-
-        self.conferences = sorted(conferences, key=lambda x: x['start_date'])
-
         return
 
 
@@ -628,15 +624,12 @@ class GenerateSite(object):
 
 
     def preprocess_events(self):
-        self.events = {}
         self.countries = {}
         self.cities = {}
-        self.stats['total']  = len(self.conferences)
-        self.stats['future'] = len(list(filter(lambda x: x['start_date'] >= self.now, self.conferences)))
-        self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_date', '') >= self.now, self.conferences)))
+        self.stats['total']  = len(self.events)
+        self.stats['future'] = len(list(filter(lambda x: x['start_date'] >= self.now, self.events.values())))
+        self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_date', '') >= self.now, self.events.values())))
 
-        for e in self.conferences:
-            self.events[ e['nickname'] ] = e
 
         self._add_events_to_series()
         self._process_videos()
@@ -845,15 +838,15 @@ class GenerateSite(object):
             fh.write(list_template.render(
                 h1          = 'All the Tech related conferences',
                 title       = 'All the Tech related conferences',
-                conferences = self.conferences,
+                conferences = self.events.values(),
             ))
         self.sitemap.append({
             'url' : '/all-conferences'
         })
         #with open(root + '/conferences.json', 'w', encoding="utf-8") as fh:
-        #    fh.write(json.dumps(self.conferences, sort_keys=True))
+        #    fh.write(json.dumps(self.events.values(), sort_keys=True))
 
-        cfp = list(filter(lambda x: 'cfp_date' in x and x['cfp_date'] >= self.now, self.conferences))
+        cfp = list(filter(lambda x: 'cfp_date' in x and x['cfp_date'] >= self.now, self.events.values()))
         cfp.sort(key=lambda x: x['cfp_date'])
         #cfp_template = env.get_template('cfp.html')
         with open(root + '/cfp', 'w', encoding="utf-8") as fh:
@@ -873,7 +866,7 @@ class GenerateSite(object):
                 title       = 'Four Oh Four',
             ))
 
-        no_code = list(filter(lambda x: not x.get('code_of_conduct'), self.conferences))
+        no_code = list(filter(lambda x: not x.get('code_of_conduct'), self.events.values()))
         code_template = env.get_template('code-of-conduct.html')
         with open(root + '/code-of-conduct', 'w', encoding="utf-8") as fh:
             fh.write(code_template.render(
@@ -888,7 +881,7 @@ class GenerateSite(object):
             'url' : '/code-of-conduct'
         })
 
-        diversity_tickets = list(filter(lambda x: x.get('diversitytickets'), self.conferences))
+        diversity_tickets = list(filter(lambda x: x.get('diversitytickets'), self.events.values()))
         dt_template = env.get_template('diversity-tickets.html')
         with open(root + '/diversity-tickets', 'w', encoding="utf-8") as fh:
             fh.write(dt_template.render(
