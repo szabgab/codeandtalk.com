@@ -12,6 +12,7 @@ def read_json(file):
 
 class TestCat(unittest.TestCase):
     def setUp(self):
+        GenerateSite().generate_site()
         self.app = cat.app.catapp.test_client()
 
     def test_main(self):
