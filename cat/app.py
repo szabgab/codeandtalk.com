@@ -343,7 +343,7 @@ def _read_json(filename):
         with open(filename) as fh:
             data = json.loads(fh.read())
     except Exception as e:
-        catapp.logger.error("Reading '{}' {}".format(search_file, e))
+        catapp.logger.error("Reading '{}' {}".format(filename, e))
         data = {}
         pass
     return data
