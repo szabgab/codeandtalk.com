@@ -828,18 +828,7 @@ class GenerateSite(object):
         self.sitemap.append({
             'url' : '/all-conferences'
         })
-        #with open(root + '/conferences.json', 'w', encoding="utf-8") as fh:
-        #    fh.write(json.dumps(self.events.values(), sort_keys=True))
 
-        cfp = list(filter(lambda x: 'cfp_date' in x and x['cfp_date'] >= self.now, self.events.values()))
-        cfp.sort(key=lambda x: x['cfp_date'])
-        #cfp_template = env.get_template('cfp.html')
-        with open(root + '/cfp', 'w', encoding="utf-8") as fh:
-            fh.write(list_template.render(
-                h1          = 'Call for Papers',
-                title       = 'Call of Papers',
-                conferences = cfp,
-            ))
         self.sitemap.append({
             'url' : '/cfp'
         })

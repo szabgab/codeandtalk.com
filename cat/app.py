@@ -43,6 +43,17 @@ def all_conferences():
         conferences = cat['events'].values(),
     )
 
+@catapp.route("/cfp")
+def cfp_conferences():
+    cat = _read_json(root + '/html/cat.json')
+    now = datetime.now().strftime('%Y-%m-%d')
+    cfp = sorted(list(filter(lambda e: 'cfp_date' in e and e['cfp_date'] >= now, cat["events"].values())), key = lambda e: e['start_date'])
+    return render_template('list.html',
+        h1          = 'Call for Papers',
+        title       = 'Call for Papers',
+        conferences = cfp,
+    )
+
 
 @catapp.route("/videos")
 def videos():
