@@ -190,8 +190,6 @@ def serve_collections():
 def static_file(filename = None):
     #index.html  redirect
 
-    if not filename:
-        filename  = 'index.html'
     mime = 'text/html'
     content = _read(root + '/html/' + filename)
     if filename[-4:] == '.css':
