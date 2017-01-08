@@ -7,6 +7,34 @@ import re
 catapp = Flask(__name__)
 root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
 
+@catapp.route("/")
+def main():
+    cat = _read_json(root + '/html/cat.json')
+    return render_template('index.html',
+        h1          = 'Presentations from tech events worth watching',
+        title       = 'Conferences, Videos, Podcasts, and People',
+        stats       = cat['stats'],
+    )
+
+@catapp.route("/about")
+def about(filename = None):
+    cat = _read_json(root + '/html/cat.json')
+    return render_template('about.html',
+        h1          = 'About Code And Talk',
+        title       = 'About Code And Talk',
+        stats       = cat['stats'],
+    )
+
+@catapp.route("/conferences")
+def conferences():
+    cat = _read_json(root + '/html/cat.json')
+    return render_template('list.html',
+        h1          = 'Open Source conferences',
+        title       = 'Open Source conferences',
+        conferences = _future(cat),
+        stats       = cat['stats'],
+    )
+
 
 @catapp.route("/videos")
 def videos():
@@ -70,24 +98,6 @@ def series():
         series = data,
     )
 
-@catapp.route("/about")
-def about(filename = None):
-    cat = _read_json(root + '/html/cat.json')
-    return render_template('about.html',
-        h1          = 'About Code And Talk',
-        title       = 'About Code And Talk',
-        stats       = cat['stats'],
-    )
-
-@catapp.route("/")
-def main():
-    cat = _read_json(root + '/html/cat.json')
-    return render_template('index.html',
-        h1          = 'Presentations from tech events worth watching',
-        title       = 'Conferences, Videos, Podcasts, and People',
-        stats       = cat['stats'],
-    )
-
 ### static page for the time of transition
 @catapp.route("/<filename>")
 def static_file(filename = None):
@@ -138,10 +148,8 @@ def person(person = None):
 @catapp.route("/cal/all.ics")
 def calendar():
     cat = _read_json(root + '/html/cat.json')
-    now = datetime.now().strftime('%Y-%m-%d')
 
-    future = sorted(list(filter(lambda e: e['start_date'] >= now, cat["events"].values())), key = lambda e: e['start_date'])
-
+    future = _future(cat)
     cal = ""
     cal += "BEGIN:VCALENDAR\r\n"
     cal += "PRODID:https://codeandtalk.com/cal/all.ics\r\n"
@@ -216,5 +224,10 @@ def _read_json(filename):
         data = {}
         pass
     return data
+
+def _future(cat):
+    now = datetime.now().strftime('%Y-%m-%d')
+    return sorted(list(filter(lambda e: e['start_date'] >= now, cat["events"].values())), key = lambda e: e['start_date'])
+
 
 # vim: expandtab

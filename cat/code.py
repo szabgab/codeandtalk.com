@@ -818,13 +818,6 @@ class GenerateSite(object):
             if event['start_date'] >= self.now:
                 future.append(event)
 
-        with open(root + '/conferences', 'w', encoding="utf-8") as fh:
-            fh.write(list_template.render(
-                h1          = 'Open Source conferences',
-                title       = 'Open Source conferences',
-                conferences = future,
-                stats       = self.stats,
-            ))
         self.sitemap.append({
             'url' : '/conferences'
         })
