@@ -68,6 +68,20 @@ def code_of_conduct():
         stats       = cat['stats'],
     )
 
+@catapp.route("/diversity-tickets")
+def diversity_tickets():
+    cat = _read_json(root + '/html/cat.json')
+    now = datetime.now().strftime('%Y-%m-%d')
+
+    diversity_tickets = list(filter(lambda e: e.get('diversitytickets'), cat['events'].values()))
+    return render_template('diversity-tickets.html',
+        h1          = 'Diversity Tickets',
+        title       = 'Diversity Tickets',
+        conferences = list(filter(lambda e: e['start_date'] >= now, diversity_tickets)),
+        earlier_conferences = list(filter(lambda e: e['start_date'] < now, diversity_tickets)),
+        stats       = cat['stats'],
+    )
+
 @catapp.route("/videos")
 def videos():
     term = _term()

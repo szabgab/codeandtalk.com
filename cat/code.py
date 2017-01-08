@@ -824,20 +824,7 @@ class GenerateSite(object):
         self.sitemap.append({ 'url' : '/all-conferences' })
         self.sitemap.append({ 'url' : '/cfp' })
         self.sitemap.append({ 'url' : '/code-of-conduct' })
-
-        diversity_tickets = list(filter(lambda x: x.get('diversitytickets'), self.events.values()))
-        dt_template = env.get_template('diversity-tickets.html')
-        with open(root + '/diversity-tickets', 'w', encoding="utf-8") as fh:
-            fh.write(dt_template.render(
-                h1          = 'Diversity Tickets',
-                title       = 'Diversity Tickets',
-                conferences = list(filter(lambda x: x['start_date'] >= self.now, diversity_tickets)),
-                earlier_conferences = list(filter(lambda x: x['start_date'] < self.now, diversity_tickets)),
-                stats       = self.stats,
-            ))
-        self.sitemap.append({
-            'url' : '/diversity-tickets'
-        })
+        self.sitemap.append({ 'url' : '/diversity-tickets' })
 
 
         #print(topics)
