@@ -271,6 +271,38 @@ def calendar():
     #return cal.to_ical().decode('UTF-8')
 
 @catapp.route("/t/<tag>")
+def by_tag(tag):
+    cat = _read_json(root + '/html/cat.json')
+    now = datetime.now().strftime('%Y-%m-%d')
+
+    future = []
+    earlier = []
+    for event in cat['events'].values():
+        if tag in [ t['path'] for t in event['topics'] ]:
+            if event['start_date'] > now:
+                future.append(event)
+            else:
+                earlier.append(event)
+    videos = []
+    for video in cat['videos']:
+        if 'tags' in video:
+            catapp.logger.debug("Video '{}'".format(video['tags']))
+        if 'tags' in video and tag in [ t['link'] for t in video['tags'] ]:
+            videos.append(video)
+
+    #catapp.logger.debug("Reading '{}'".format(filename))
+    title = 'Open source conferences discussing {}'.format(tag)
+    return render_template('list.html',
+        h1          = title,
+        title       = title,
+        conferences = future,
+        earlier_conferences = earlier,
+        videos      = videos,
+        events      = cat['events'],
+        #episodes    = data[d].get('episodes'),
+    )
+
+
 @catapp.route("/e/<event>")
 @catapp.route("/l/<location>")
 @catapp.route("/s/<source>")

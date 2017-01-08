@@ -858,7 +858,7 @@ class GenerateSite(object):
 
 
         #print(topics)
-        self.save_pages(root, 't', self.tags, list_template, 'Open source conferences discussing {}')
+        #self.save_pages(root, 't', self.tags, list_template, 'Open source conferences discussing {}')
         self.save_pages(root, 'l', self.countries, list_template, 'Open source conferences in {}')
         self.save_pages(root, 'l', self.cities, list_template, 'Open source conferences in {}')
 
