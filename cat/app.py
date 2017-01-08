@@ -225,7 +225,11 @@ def _read(filename):
     try:
         return open(filename).read()
     except Exception:
-        return open(root + '/html/404.html').read()
+        return render_template('404.html',
+            h1          = '404',
+            title       = 'Four Oh Four',
+        )
+
         
 def _term():
     term = request.args.get('term', '')
