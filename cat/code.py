@@ -812,12 +812,6 @@ class GenerateSite(object):
 
         list_template = env.get_template('list.html')
 
-        future = []
-        for nickname in self.events.keys():
-            event = self.events[nickname]
-            if event['start_date'] >= self.now:
-                future.append(event)
-
         self.sitemap.append({ 'url' : '/conferences' })
         self.sitemap.append({ 'url' : '/' })
         self.sitemap.append({ 'url' : '/about' })
