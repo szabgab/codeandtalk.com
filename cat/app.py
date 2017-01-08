@@ -144,6 +144,45 @@ def series():
         series = cat['series'],
     )
 
+@catapp.route("/topics")
+@catapp.route("/countries")
+@catapp.route("/cities")
+def serve_collections():
+    cat = _read_json(root + '/html/cat.json')
+    now = datetime.now().strftime('%Y-%m-%d')
+    directories = {
+        '/topics'    : 't',
+        '/countries' : 'l',
+        '/cities'    : 'l',
+    }
+    titles = {
+        '/topics'    : 'Topics',
+        '/countries' : 'Countries',
+        '/cities'    : 'Cities',
+    }
+    directory = directories[request.path]
+    title     = titles[request.path]
+
+    if request.path == '/cities':
+        data = cat['stats']['cities']
+
+    if request.path == '/countries':
+        data = cat['stats']['countries']
+
+    if request.path == '/topics':
+        data = cat['tags']
+
+    return render_template('topics.html',
+            h1          = title,
+            title       = title,
+            data        = data,
+            directory   = directory,
+            stats       = cat['stats'],
+            videos      = (directory == 't'),
+            episodes    = (directory == 't'),
+        )
+
+
 ### static page for the time of transition
 @catapp.route("/<filename>")
 def static_file(filename = None):

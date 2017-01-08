@@ -28,6 +28,8 @@ def new_tag(t):
         'events' : [],
         'videos' : [],
         'episodes' : [],
+        'total' : 0,
+        'future' : 0,
     }
 
 class GenerateSite(object):
@@ -45,6 +47,8 @@ class GenerateSite(object):
         self.featured_by_blaster = {}
         self.featured_by_date = {}
         self.events = {}
+        self.countries = {}  # TODO remove
+        self.cities = {}     # TODO remove
  
         self.stats = {
             'has_coc' : 0,
@@ -53,6 +57,9 @@ class GenerateSite(object):
             'has_a11y_future' : 0,
             'has_diversity_tickets' : 0,
             'has_diversity_tickets_future' : 0,
+            'cities'    : {},
+            'countries' : {},
+            #'tags'      : {},
         }
 
     def read_all(self):
@@ -89,6 +96,7 @@ class GenerateSite(object):
         self.generate_pages()
         self.save_search()
 
+        cat['tags']  = copy.deepcopy(self.tags)
         cat['stats'] = copy.deepcopy(self.stats)
         cat['series'] = copy.deepcopy(self.series)
         self.save_all(cat)
@@ -108,6 +116,10 @@ class GenerateSite(object):
             for row in rd:
                 path = topic2path(row['name'])
                 self.tags[ path ] = new_tag(row['name'])
+                #self.stats['tags'][path] = {
+                #    'total'  : 0,
+                #    'future' : 0,
+                #}
         return
 
     def read_blasters(self):
@@ -156,6 +168,9 @@ class GenerateSite(object):
                     if f in this and this[f] and not re.search(date_format, this[f]):
                         raise Exception('Invalid {} {} in {}'.format(f, this[f], filename))
 
+                if not 'country' in this or not this['country']:
+                    raise Exception('Country is missing from {}'.format(this))
+ 
                 my_topics = []
                 #print(this)
                 if this['topics']:
@@ -179,11 +194,9 @@ class GenerateSite(object):
 
                 if 'city' not in this or not this['city']:
                     raise Exception("City is missing from {}".format(this))
-
                 city_name = '{}, {}'.format(this['city'], this['country'])
                 city_page = topic2path('{} {}'.format(this['city'], this['country']))
-
-                # In some countris we require state:
+                # In some countries we require a state:
                 if this['country'] in ['Australia', 'Brasil', 'India', 'USA']:
                     if 'state' not in this or not this['state']:
                         raise Exception('State is missing from {}'.format(this))
@@ -191,6 +204,56 @@ class GenerateSite(object):
                     city_page = topic2path('{} {} {}'.format(this['city'], this['state'], this['country']))
                 this['city_name'] = city_name
                 this['city_page'] = city_page
+
+                if city_page not in self.cities:
+                    self.cities[city_page] = {
+                        'name' : this['city_name'],
+                        'events' : []
+                    }
+                self.cities[city_page]['events'].append(this)
+
+                if city_page not in self.stats['cities']:
+                    self.stats['cities'][city_page] = {
+                        'name' : city_name,
+                        'total' : 0,
+                        'future' : 0,
+                    }
+                self.stats['cities'][city_page]['total'] += 1
+                if this['start_date'] >= self.now:
+                    self.stats['cities'][city_page]['future'] += 1
+
+
+                country_name = this['country']
+                country_page = re.sub(r'\s+', '-', country_name.lower())
+                this['country_page'] = country_page
+                if country_page not in self.countries:
+                    self.countries[country_page] = {
+                        'name' : country_name,
+                        'events' : []
+                    }
+                self.countries[country_page]['events'].append(this)
+
+                if country_page not in self.stats['countries']:
+                    self.stats['countries'][country_page] = {
+                        'name'   : country_name,
+                        'total'  : 0,
+                        'future' : 0,
+                    }
+                self.stats['countries'][country_page]['total'] += 1
+                if this['start_date'] >= self.now:
+                    self.stats['countries'][country_page]['future'] += 1
+
+                for tag in this['topics']:
+                    p = tag['path']
+                    if p not in self.tags:
+                        raise Exception("Missing tag '{}'".format(p))
+                    self.tags[p]['events'].append(this)
+                    self.tags[p]['total'] += 1
+                    if this['start_date'] >= self.now:
+                        self.tags[p]['future'] += 1
+                    #self.stats['tags'][p]['total'] += 1
+                    #if this['start_date'] >= self.now:
+                    #    self.stats['tags'][p]['future'] += 1
 
                 self.events[ this['nickname'] ] = this
 
@@ -573,36 +636,10 @@ class GenerateSite(object):
             if 'youtube' in event and event['youtube'] == '-':
                 event['youtube'] = None
 
-            for tag in event['topics']:
-                p = tag['path']
-                if p not in self.tags:
-                    #print("{};".format(p))
-                    raise Exception("Missing tag '{}'".format(p))
-                    #self.tags[p] = new_tag(tag)
-                self.tags[p]['events'].append(event)
 
             if event['nickname'] in self.event_videos:
                 event['videos'] = self.event_videos[ event['nickname'] ]
 
-            if not 'country' in event or not event['country']:
-                raise Exception('Country is missing from {}'.format(event))
-            country_name = event['country']
-            country_page = re.sub(r'\s+', '-', country_name.lower())
-            event['country_page'] = country_page
-            if country_page not in self.countries:
-                self.countries[country_page] = {
-                    'name' : country_name,
-                    'events' : []
-                }
-            self.countries[country_page]['events'].append(event)
-
-            city_page = event['city_page']
-            if city_page not in self.cities:
-                self.cities[city_page] = {
-                    'name' : event['city_name'],
-                    'events' : []
-                }
-            self.cities[city_page]['events'].append(event)
 
             if event.get('diversitytickets'):
                 self.stats['has_diversity_tickets'] += 1
@@ -643,8 +680,6 @@ class GenerateSite(object):
 
 
     def preprocess_events(self):
-        self.countries = {}
-        self.cities = {}
         self.stats['total']  = len(self.events)
         self.stats['future'] = len(list(filter(lambda x: x['start_date'] >= self.now, self.events.values())))
         self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_date', '') >= self.now, self.events.values())))
@@ -816,17 +851,14 @@ class GenerateSite(object):
         self.sitemap.append({ 'url' : '/cfp' })
         self.sitemap.append({ 'url' : '/code-of-conduct' })
         self.sitemap.append({ 'url' : '/diversity-tickets' })
+        for page in ['/topics', '/countries', '/cities']:
+            self.sitemap.append({ 'url' : page })
 
 
         #print(topics)
         self.save_pages(root, 't', self.tags, list_template, 'Open source conferences discussing {}')
         self.save_pages(root, 'l', self.countries, list_template, 'Open source conferences in {}')
         self.save_pages(root, 'l', self.cities, list_template, 'Open source conferences in {}')
-
-        collections_template = env.get_template('topics.html')
-        self.save_collections(root, 't', 'topics', 'Topics', self.tags, collections_template)
-        self.save_collections(root, 'l', 'countries', 'Countries', self.countries, collections_template)
-        self.save_collections(root, 'l', 'cities', 'Cities', self.cities, collections_template)
 
         with open(root + '/sitemap.xml', 'w', encoding="utf-8") as fh:
             fh.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
@@ -839,24 +871,6 @@ class GenerateSite(object):
                 fh.write('    <lastmod>{}</lastmod>\n'.format(date))
                 fh.write('  </url>\n')
             fh.write('</urlset>\n')
-
-    def save_collections(self, root, directory, filename, title, data, template):
-        for d in data.keys():
-            data[d]['future'] = len(list(filter(lambda x: x['start_date'] >= self.now, data[d]['events'])))
-            data[d]['total'] =  len(data[d]['events'])
-        with open(root + '/' + filename, 'w', encoding="utf-8") as fh:
-            fh.write(template.render(
-                h1          = title,
-                title       = title,
-                data        = data,
-                directory   = directory,
-                stats       = self.stats,
-                videos      = (directory == 't'),
-                episodes    = (directory == 't'),
-            ))
-        self.sitemap.append({
-            'url' : '/' + filename
-        })
 
     def save_pages(self, root, directory, data, list_template, title):
         my_dir =  root + '/' + directory + '/'
