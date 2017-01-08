@@ -21,9 +21,9 @@ You can search for people to invite to your conference to give a talk, or to be 
        <tr><th>Name</th><th>Location</th><th>Topics</th><th>Tags</th></tr>
     {% for p in people_ids %}
         <tr>
-          <td><a href="/p/{{ p }}">{{ people[p]['name'] }}</a></td>
-          <td>{{ people[p]['location'] }}</td>
-          <td>{{ people[p]['topics'] }}</td>
+          <td><a href="/p/{{ p }}">{{ people[p]['info']['name'] }}</a></td>
+          <td>{{ people[p]['info']['location'] }}</td>
+          <td>{{ people[p]['info']['topics'] }}</td>
           <td>{% for d in people[p]['tags'] %} {{d}} {% endfor %}</td>
         </tr>
     {% endfor %}

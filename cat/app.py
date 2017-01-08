@@ -126,18 +126,20 @@ def videos():
 @catapp.route("/people")
 def people():
     term = _term()
-    ppl = _read_json(root + '/html/people.json')
+    cat = _read_json(root + '/html/cat.json')
+    ppl = cat['people']
     result = {}
     if term != '':
         for nickname in ppl.keys():
-            if re.search(term, ppl[nickname]['name'].lower()):
+            if re.search(term, ppl[nickname]['info']['name'].lower()):
+                catapp.logger.debug("People: '{}'".format(nickname))
                 result[nickname] = ppl[nickname]
-            elif re.search(term, ppl[nickname].get('location', '').lower()):
+            elif re.search(term, ppl[nickname]['info'].get('location', '').lower()):
                 result[nickname] = ppl[nickname]
-            elif re.search(term, ppl[nickname].get('topics', '').lower()):
+            elif re.search(term, ppl[nickname]['info'].get('topics', '').lower()):
                 result[nickname] = ppl[nickname]
-            elif 'tags' in ppl[nickname] and term in ppl[nickname]['tags']:
-                result[nickname] = ppl[nickname]
+            #elif 'tags' in ppl[nickname] and term in ppl[nickname]['tags']:
+            #    result[nickname] = ppl[nickname]
 
     return render_template('people.html',
         title            = 'People who talk at conferences or in podcasts', 

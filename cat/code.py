@@ -107,7 +107,7 @@ class GenerateSite(object):
         self.generate_people_pages()
         self.generate_podcast_pages()
         self.generate_pages()
-        self.save_search()
+        #self.save_search()
 
         cat['tags']  = copy.deepcopy(self.tags)
         cat['stats'] = copy.deepcopy(self.stats)
