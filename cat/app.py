@@ -34,6 +34,14 @@ def conferences():
         conferences = _future(cat),
         stats       = cat['stats'],
     )
+@catapp.route("/all-conferences")
+def all_conferences():
+    cat = _read_json(root + '/html/cat.json')
+    return render_template('list.html',
+        h1          = 'All the Tech related conferences',
+        title       = 'All the Tech related conferences',
+        conferences = cat['events'].values(),
+    )
 
 
 @catapp.route("/videos")

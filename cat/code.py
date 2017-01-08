@@ -825,12 +825,6 @@ class GenerateSite(object):
         self.sitemap.append({ 'url' : '/' })
         self.sitemap.append({ 'url' : '/about' })
 
-        with open(root + '/all-conferences', 'w', encoding="utf-8") as fh:
-            fh.write(list_template.render(
-                h1          = 'All the Tech related conferences',
-                title       = 'All the Tech related conferences',
-                conferences = self.events.values(),
-            ))
         self.sitemap.append({
             'url' : '/all-conferences'
         })
