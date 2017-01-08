@@ -25,8 +25,8 @@ def html2txt(html):
 def new_tag(t):
     return {
         'name' : t,
-        'events' : [],
-        'videos' : [],
+        #'events' : [],
+        'videos' : 0,
         'episodes' : [],
         'total' : 0,
         'future' : 0,
@@ -259,7 +259,7 @@ class GenerateSite(object):
                     p = tag['path']
                     if p not in self.tags:
                         raise Exception("Missing tag '{}'".format(p))
-                    self.tags[p]['events'].append(this)
+                    #self.tags[p]['events'].append(this)
                     self.tags[p]['total'] += 1
                     if this['start_date'] >= self.now:
                         self.tags[p]['future'] += 1
@@ -603,7 +603,8 @@ class GenerateSite(object):
                     if p not in self.tags:
                         raise Exception("Missing tag '{}'".format(p))
                         #self.tags[p] = new_tag(t)
-                    self.tags[p]['videos'].append(video)
+                    #self.tags[p]['videos'].append(video)
+                    self.tags[p]['videos'] += 1
                     if not re.search(r'-', t['link']) and len(t['link']) < 20:
                         tweet_video += ' #' + t['link']
             video['tweet_video'] = urllib.parse.quote(tweet_video)

@@ -16,7 +16,7 @@
       <td><a href="/{{directory}}/{{k}}">{{ v['name'] }}</a></td>
       <td>{{v['future']}}</td>
       <td>{{v['total']}}</td>
-      {% if videos %}<td>{{v.videos|length}}</td>{% endif %}
+      {% if videos %}<td>{{ v.videos }}</td>{% endif %}
       {% if episodes %}<td>{{v.episodes|length}}</td>{% endif %}
     </tr>
     {% endfor %}
