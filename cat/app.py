@@ -16,6 +16,48 @@ def main():
         stats       = cat['stats'],
     )
 
+@catapp.route("/featured-by-date")
+@catapp.route("/featured")
+def featured():
+    cat = _read_json(root + '/html/cat.json')
+    now = datetime.now().strftime('%Y-%m-%d')
+    featured_by_date = {}
+    featured_by_blaster = {}
+
+    for video in cat['videos']:
+        featured = video.get('featured')
+        blasters = video.get('blasters', [])
+        if featured:
+            class_name = ''
+            if video['featured'] == now:
+                class_name = 'today_feature'
+            elif video['featured'] > now:
+                class_name = 'future_feature'
+            video['class_name'] = class_name
+            if featured not in featured_by_date:
+                featured_by_date[featured] = []
+            featured_by_date[featured].append(video)
+
+            for b in blasters:
+                if b not in featured_by_blaster:
+                    featured_by_blaster[ b ] = []
+                featured_by_blaster[b].append(video)
+
+    if request.path == '/featured':
+        return render_template('featured.html',
+            h1     = 'Featured Videos',
+            title  = 'Featured Videos',
+            featured_by_blaster = featured_by_blaster,
+        )
+    elif request.path == '/featured-by-date':
+        return render_template('featured-by-date.html',
+            h1     = 'Featured Videos',
+            title  = 'Featured Videos',
+            featured_by_date    = featured_by_date,
+        )
+    else:
+        return 'Oups'
+
 @catapp.route("/about")
 def about(filename = None):
     cat = _read_json(root + '/html/cat.json')

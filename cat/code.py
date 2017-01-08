@@ -785,23 +785,6 @@ class GenerateSite(object):
         self.generate_video_pages()
 
 
-
-        with open(root + '/featured', 'w', encoding="utf-8") as fh:
-            fh.write(env.get_template('featured.html').render(
-                h1     = 'Featured Videos',
-                title  = 'Featured Videos',
-                featured_by_blaster = self.featured_by_blaster,
-        ))
-        with open(root + '/featured-by-date', 'w', encoding="utf-8") as fh:
-            fh.write(env.get_template('featured-by-date.html').render(
-                h1     = 'Featured Videos',
-                title  = 'Featured Videos',
-                featured_by_date    = self.featured_by_date,
-        ))
-        #self.sitemap.append({
-        #    'url' : '/featured',
-        #})
-
         videos = []
         for v in self.videos:
             vid = copy.deepcopy(v) 
@@ -849,6 +832,7 @@ class GenerateSite(object):
         self.sitemap.append({ 'url' : '/videos' })
         for page in ['/topics', '/countries', '/cities']:
             self.sitemap.append({ 'url' : page })
+        #self.sitemap.append({ 'url' : '/featured' })
 
 
         #print(topics)
