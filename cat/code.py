@@ -73,11 +73,23 @@ class GenerateSite(object):
         self.read_podcast_episodes()
 
 
+    def process_videos(self):
+        for video in self.videos:
+            short_description = html2txt(video.get('description', ''))
+            short_description = re.sub(r'"', '', short_description)
+            short_description = re.sub(r'\s+', ' ', short_description)
+            video['short_description'] = short_description
+            limit = 128
+            if len(short_description) > 128:
+                video['short_description'] =  short_description[0:limit]
+    
     def generate_site(self):
         self.read_all()
 
         self.check_people()
         self.check_videos()
+
+        self.process_videos()
 
         cat = {
             'people' : copy.deepcopy(self.people),
@@ -380,6 +392,7 @@ class GenerateSite(object):
                         })
 
                     video['tags'] = tags
+
  
         self.stats['videos'] = len(self.videos)
         return
@@ -498,13 +511,6 @@ class GenerateSite(object):
 
         for video in self.videos:
 
-            short_description = html2txt(video.get('description', ''))
-            short_description = re.sub(r'"', '', short_description)
-            short_description = re.sub(r'\s+', ' ', short_description)
-            video['short_description'] = short_description
-            limit = 128
-            if len(short_description) > 128:
-                video['short_description'] =  short_description[0:limit]
             video['event'] = {
                 'name'     : self.events[ video['event'] ]['name'],
                 'nickname' : self.events[ video['event'] ]['nickname'],
@@ -813,11 +819,8 @@ class GenerateSite(object):
                 if field in vid:
                     del(vid[field])
             videos.append( vid )
-        with open(root + '/videos.json', 'w', encoding="utf-8") as fh:
-            json.dump(videos, fh, sort_keys=True)
-        self.sitemap.append({
-            'url' : '/videos',
-        })
+        #with open(root + '/videos.json', 'w', encoding="utf-8") as fh:
+        #    json.dump(videos, fh, sort_keys=True)
 
 
         event_template = env.get_template('event.html')
@@ -851,6 +854,7 @@ class GenerateSite(object):
         self.sitemap.append({ 'url' : '/cfp' })
         self.sitemap.append({ 'url' : '/code-of-conduct' })
         self.sitemap.append({ 'url' : '/diversity-tickets' })
+        self.sitemap.append({ 'url' : '/videos' })
         for page in ['/topics', '/countries', '/cities']:
             self.sitemap.append({ 'url' : page })
 

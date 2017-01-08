@@ -16,12 +16,12 @@ Total number of videos: {{number_of_videos}}
     {% for v in videos %}
     <tr>
       <td>{{ v.recorded }}</td>
-      <td><a href="/v/{{v.event.nickname}}/{{v.filename}}">{{v.title}}</a></td>
-      <td><a href="/e/{{v.event.nickname}}">{{v.event.name}}</a></td>
+      <td><a href="/v/{{ events[v.event]['nickname'] }}/{{ v.filename }}">{{ v.title }}</a></td>
+      <td><a href="/e/{{ events[v.event]['nickname'] }}">{{ events[v.event]['name'] }}</a></td>
       <td>{{v.length}}</td>
       <td>
              {% for s in v.speakers %}
-                <a href="/p/{{s}}">{{ v.speakers[s]['info']['name'] }}</a>
+                <a href="/p/{{s}}">{{ people[s]['info']['name'] }}</a>
              {% endfor %}
       </td>
     </tr>

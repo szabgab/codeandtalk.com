@@ -85,10 +85,10 @@ def diversity_tickets():
 @catapp.route("/videos")
 def videos():
     term = _term()
-    videos = _read_json(root + '/html/videos.json')
+    cat = _read_json(root + '/html/cat.json')
     results = []
     if term != '':
-        for v in videos:
+        for v in cat['videos']:
             if term in v['title'].lower():
                 results.append(v)
                 continue
@@ -104,9 +104,11 @@ def videos():
     return render_template('videos.html',
         title            = 'Tech videos worth watching', 
         h1               = 'Videos',
-        number_of_videos = len(videos),
+        number_of_videos = len(cat['videos']),
         term             = term,
         videos           = results,
+        people           = cat['people'],
+        events           = cat['events'],
     )
 
 
