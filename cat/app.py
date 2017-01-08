@@ -285,8 +285,8 @@ def by_tag(tag):
                 earlier.append(event)
     videos = []
     for video in cat['videos']:
-        if 'tags' in video:
-            catapp.logger.debug("Video '{}'".format(video['tags']))
+        #if 'tags' in video:
+        #    catapp.logger.debug("Video '{}'".format(video['tags']))
         if 'tags' in video and tag in [ t['link'] for t in video['tags'] ]:
             videos.append(video)
 
