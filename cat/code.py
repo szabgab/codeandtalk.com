@@ -90,6 +90,7 @@ class GenerateSite(object):
         self.save_search()
 
         cat['stats'] = copy.deepcopy(self.stats)
+        cat['series'] = copy.deepcopy(self.series)
         self.save_all(cat)
 
     def save_all(self, cat):
@@ -751,11 +752,7 @@ class GenerateSite(object):
 
         self.generate_video_pages()
 
-        with open(root + '/series.json', 'w', encoding="utf-8") as fh:
-            fh.write(json.dumps(self.series, sort_keys=True))
-        self.sitemap.append({
-            'url' : '/series',
-        })
+        self.sitemap.append({ 'url' : '/series', })
 
 
         with open(root + '/featured', 'w', encoding="utf-8") as fh:

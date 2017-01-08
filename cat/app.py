@@ -137,11 +137,11 @@ def people():
 
 @catapp.route("/series")
 def series():
-    data = _read_json(root + '/html/series.json')
+    cat = _read_json(root + '/html/cat.json')
     return render_template('series.html',
         h1     = 'Event Series',
         title  = 'Event Series',
-        series = data,
+        series = cat['series'],
     )
 
 ### static page for the time of transition
