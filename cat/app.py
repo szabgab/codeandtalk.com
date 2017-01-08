@@ -54,6 +54,19 @@ def cfp_conferences():
         conferences = cfp,
     )
 
+@catapp.route("/code-of-conduct")
+def code_of_conduct():
+    cat = _read_json(root + '/html/cat.json')
+    now = datetime.now().strftime('%Y-%m-%d')
+
+    no_code = list(filter(lambda e: not e.get('code_of_conduct'), cat['events'].values()))
+    return render_template('code-of-conduct.html',
+        h1          = 'Code of Conduct',
+        title       = 'Code of Conduct (or lack of it)',
+        conferences = list(filter(lambda x: x['start_date'] >= now, no_code)),
+        earlier_conferences = list(filter(lambda x: x['start_date'] < now, no_code)),
+        stats       = cat['stats'],
+    )
 
 @catapp.route("/videos")
 def videos():

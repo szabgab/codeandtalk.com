@@ -823,22 +823,7 @@ class GenerateSite(object):
         self.sitemap.append({ 'url' : '/about' })
         self.sitemap.append({ 'url' : '/all-conferences' })
         self.sitemap.append({ 'url' : '/cfp' })
-
-
-        no_code = list(filter(lambda x: not x.get('code_of_conduct'), self.events.values()))
-        code_template = env.get_template('code-of-conduct.html')
-        with open(root + '/code-of-conduct', 'w', encoding="utf-8") as fh:
-            fh.write(code_template.render(
-                h1          = 'Code of Conduct',
-                title       = 'Code of Conduct (or lack of it)',
-                conferences = list(filter(lambda x: x['start_date'] >= self.now, no_code)),
-                earlier_conferences = list(filter(lambda x: x['start_date'] < self.now, no_code)),
-                stats       = self.stats,
-
-            ))
-        self.sitemap.append({
-            'url' : '/code-of-conduct'
-        })
+        self.sitemap.append({ 'url' : '/code-of-conduct' })
 
         diversity_tickets = list(filter(lambda x: x.get('diversitytickets'), self.events.values()))
         dt_template = env.get_template('diversity-tickets.html')
