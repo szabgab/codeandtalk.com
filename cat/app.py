@@ -82,6 +82,17 @@ def diversity_tickets():
         stats       = cat['stats'],
     )
 
+
+@catapp.route("/blasters")
+def blasters():
+    cat = _read_json(root + '/html/cat.json')
+    return render_template('blasters.html',
+        h1           = 'Blasters - get notified about new videos',
+        title        = 'Blasters',
+        all_blasters = cat['blasters'],
+    )
+
+
 @catapp.route("/videos")
 def videos():
     term = _term()

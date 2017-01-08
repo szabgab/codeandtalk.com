@@ -92,9 +92,10 @@ class GenerateSite(object):
         self.process_videos()
 
         cat = {
-            'people' : copy.deepcopy(self.people),
-            'videos' : copy.deepcopy(self.videos),
-            'events' : copy.deepcopy(self.events),
+            'people'   : copy.deepcopy(self.people),
+            'videos'   : copy.deepcopy(self.videos),
+            'events'   : copy.deepcopy(self.events),
+            'blasters' : copy.deepcopy(self.blasters),
         }
 
         self.preprocess_events()
@@ -457,14 +458,6 @@ class GenerateSite(object):
             #self.sitemap.append({
             #    'url' : '/' + topic['file'] + 'blaster'
             #})
-
-        blasters_template = env.get_template('blasters.html')
-        with open(os.path.join(root + '/blasters'), 'w', encoding="utf-8") as fh:
-            fh.write(blasters_template.render(
-                h1           = 'Blasters - get notified about new videos',
-                title        = 'Blasters',
-                all_blasters = self.blasters,
-            ))
 
 
     def _add_events_to_series(self):
