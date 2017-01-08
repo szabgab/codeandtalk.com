@@ -818,20 +818,11 @@ class GenerateSite(object):
             if event['start_date'] >= self.now:
                 future.append(event)
 
-        self.sitemap.append({
-            'url' : '/conferences'
-        })
-
+        self.sitemap.append({ 'url' : '/conferences' })
         self.sitemap.append({ 'url' : '/' })
         self.sitemap.append({ 'url' : '/about' })
-
-        self.sitemap.append({
-            'url' : '/all-conferences'
-        })
-
-        self.sitemap.append({
-            'url' : '/cfp'
-        })
+        self.sitemap.append({ 'url' : '/all-conferences' })
+        self.sitemap.append({ 'url' : '/cfp' })
 
         with open(root + '/404.html', 'w', encoding="utf-8") as fh:
             template = env.get_template('404.html')
