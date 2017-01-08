@@ -1,13 +1,13 @@
 {
-    "description": "Pipeline is quickly establishing itself as the direction that Jenkins jobs are going, enabling the definition of a complete CD pipeline in a single job; Pipeline as Code via the \"Jenkinsfile\"; job durability across master restarts; and more. I'll be talking here about the next evolution for Pipeline: a simple, declarative model to define your Pipelines with no need to write scripts. This configuration syntax for Pipeline allows you to automatically configure all stages of your pipeline, the complete build environment, post-build actions, notifications and more. All while providing syntactic and semantic validation before the build actually gets going.\n\nDeliverd by Andrew P Bayer",
+    "description": "Pipeline is quickly establishing itself as the direction that Jenkins jobs are going, enabling the definition of a complete CD pipeline in a single job; Pipeline as Code via the \"Jenkinsfile\"; job durability across master restarts; and more. I'll be talking here about the next evolution for Pipeline: a simple, declarative model to define your Pipelines with no need to write scripts. This configuration syntax for Pipeline allows you to automatically configure all stages of your pipeline, the complete build environment, post-build actions, notifications and more. All while providing syntactic and semantic validation before the build actually gets going.",
     "favorite": "0",
     "length": "44:57",
     "likes": "5",
     "recorded": "2016-09-14",
-    "speakers": [],
+    "speakers": ["andrew-p-bayer"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/ALvg4KK25JU/hqdefault.jpg",
-    "title": "Jenkins World 2016 - Introducing a New Way to Define Jenkins Pipelines",
+    "title": "Introducing a New Way to Define Jenkins Pipelines",
     "videos": [
         {
             "code": "ALvg4KK25JU",
