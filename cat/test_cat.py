@@ -3,11 +3,20 @@ import unittest
 import json
 import os
 import sys
+import cat.app
 
 def read_json(file):
     with open(file) as fh:
         return json.loads(fh.read())
         #return fh.read()
+
+class TestCat(unittest.TestCase):
+    def setUp(self):
+        self.app = cat.app.catapp.test_client()
+
+    def test_main(self):
+        rv = self.app.get('/')
+        assert b'Presentations from tech events worth watching' in rv.data
 
 class TestDemo(unittest.TestCase):
     def test_generate(self):
