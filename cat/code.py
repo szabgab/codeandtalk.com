@@ -465,9 +465,6 @@ class GenerateSite(object):
                 title        = 'Blasters',
                 all_blasters = self.blasters,
             ))
-        self.sitemap.append({
-            'url' : '/blasters'
-        })
 
 
     def _add_events_to_series(self):
@@ -793,7 +790,6 @@ class GenerateSite(object):
 
         self.generate_video_pages()
 
-        self.sitemap.append({ 'url' : '/series', })
 
 
         with open(root + '/featured', 'w', encoding="utf-8") as fh:
@@ -847,6 +843,8 @@ class GenerateSite(object):
 
         list_template = env.get_template('list.html')
 
+        self.sitemap.append({ 'url' : '/blasters' })
+        self.sitemap.append({ 'url' : '/series', })
         self.sitemap.append({ 'url' : '/conferences' })
         self.sitemap.append({ 'url' : '/' })
         self.sitemap.append({ 'url' : '/about' })
