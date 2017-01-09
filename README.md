@@ -6,7 +6,7 @@ List of tech conferences, podcasts, videos, people
 
 For more details visit:
 
-[Events](https://github.com/szabgab/codeandtalk.com/blob/main/docs/CONFERENCES.md)
+[Events](docs/CONFERENCES.md)
 
 [Videos](https://github.com/szabgab/codeandtalk.com/blob/main/docs/VIDEOS.md)
 
