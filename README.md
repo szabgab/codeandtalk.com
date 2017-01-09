@@ -8,11 +8,11 @@ For more details visit:
 
 [Events](docs/CONFERENCES.md)
 
-[Videos](https://github.com/szabgab/codeandtalk.com/blob/main/docs/VIDEOS.md)
+[Videos](docs/VIDEOS.md)
 
-[Podcasts](https://github.com/szabgab/codeandtalk.com/blob/main/docs/PODCASTS.md)
+[Podcasts](docs/PODCASTS.md)
 
-[People](https://github.com/szabgab/codeandtalk.com/blob/main/docs/PEOPLE.md)
+[People](docs/PEOPLE.md)
 
 SETUP
 ------
