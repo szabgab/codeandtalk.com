@@ -1,10 +1,10 @@
 {
-    "description": "NPR\u2019s Digital Media team uses Jenkins to build, test and deploy code to various staging and production environments. As the complexity of the software components, environments and tests have grown - both generally and due to our quest to achieve continuous deployment - management of Jenkins has become a challenge. In this talk, we share information about our \u201cJenkinsOps\u201d effort which has allowed us to automate many of the administrative tasks necessary to manage feature code branches, handle deployments, run tests and configure our environments properly.\n\nDelivered by Paul Miles & Grant Dickie",
+    "description": "NPR\u2019s Digital Media team uses Jenkins to build, test and deploy code to various staging and production environments. As the complexity of the software components, environments and tests have grown - both generally and due to our quest to achieve continuous deployment - management of Jenkins has become a challenge. In this talk, we share information about our \u201cJenkinsOps\u201d effort which has allowed us to automate many of the administrative tasks necessary to manage feature code branches, handle deployments, run tests and configure our environments properly.",
     "favorite": "0",
     "length": "39:40",
     "likes": "4",
     "recorded": "2016-09-14",
-    "speakers": [],
+    "speakers": ["paul-miles", "grant-dickie"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/qrAf5fjDTXI/hqdefault.jpg",
     "title": "Jenkins World 2016 - JenkinsOps: An Initiative to Streamline and Automate Jenkins",

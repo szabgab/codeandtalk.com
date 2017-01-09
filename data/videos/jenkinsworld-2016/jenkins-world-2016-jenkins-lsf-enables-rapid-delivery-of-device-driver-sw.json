@@ -1,13 +1,13 @@
 {
-    "description": "Deploying device drivers for networking SoCs (system on a chip) presents additional challenges with performing automated testing across lab-based evaluation boards and systems. To enable continuous delivery, Jenkins along with LSF (load sharing facility - a resource management tool) was used to automate the test/release process and streamline the allocation of lab resources. The setup greatly simplifies the sharing of lab resources while improving the overall efficiency. This talk outlines how Jenkins and LSF are used together in this application space and presents valuable tips gained from experience.\n\nDelivered by Brian Vandegriend",
+    "description": "Deploying device drivers for networking SoCs (system on a chip) presents additional challenges with performing automated testing across lab-based evaluation boards and systems. To enable continuous delivery, Jenkins along with LSF (load sharing facility - a resource management tool) was used to automate the test/release process and streamline the allocation of lab resources. The setup greatly simplifies the sharing of lab resources while improving the overall efficiency. This talk outlines how Jenkins and LSF are used together in this application space and presents valuable tips gained from experience.",
     "favorite": "0",
     "length": "38:30",
     "likes": "1",
     "recorded": "2016-09-14",
-    "speakers": [],
+    "speakers": ["brian-vandegriend"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/FonXlICz6YU/hqdefault.jpg",
-    "title": "Jenkins World 2016 - Jenkins & LSF Enables Rapid Delivery of Device Driver SW",
+    "title": "Jenkins & LSF Enables Rapid Delivery of Device Driver SW",
     "videos": [
         {
             "code": "FonXlICz6YU",
