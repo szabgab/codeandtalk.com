@@ -288,6 +288,7 @@ def person(person = None):
 @catapp.route("/cal/all.ics")
 def calendar():
     cat = _read_json(root + '/html/cat.json')
+    dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
 
     future = _future(cat)
     cal = ""
@@ -299,7 +300,7 @@ def calendar():
 
     for e in future:
         cal += "BEGIN:VEVENT\r\n"
-        cal += "DTSTAMP:{}T000000Z\r\n".format(re.sub(r'-', '', e['start_date']))
+        cal += "DTSTAMP:{}\r\n".format(dtstamp)
         cal += "DTSTART;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['start_date']))
         cal += "DTEND;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['end_date']))
         uid = re.sub(r'\W+', '-', e['url'])
@@ -321,7 +322,6 @@ def calendar():
     cal += "END:VCALENDAR\r\n"
 
     return cal
-    #return cal.to_ical().decode('UTF-8')
 
 @catapp.route("/t/<tag>")
 def by_tag(tag):
