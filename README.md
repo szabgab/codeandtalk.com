@@ -34,6 +34,10 @@ Development server
 export FLASK_APP=cat.app
 export FLASK_DEBUG=1
 flask run --host 0.0.0.0 --port 5000
+
+FLASK_APP=cat.app FLASK_DEBUG=1 flask run --host 0.0.0.0 --port 5000
+```
+
 ```
 
 http://localhost:5000/
