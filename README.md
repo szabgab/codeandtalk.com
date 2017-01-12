@@ -128,6 +128,8 @@ http://visualized.com/2014/conference/
 http://visualized.com/2015
 http://visualized.com/2016
 
+[ReactJS-IL] YouTube Channel for Recorded Talks : https://www.youtube.com/channel/UC7AkWgJFP_hBoU0M7_n0prQ
+
 
 
 Other sources
