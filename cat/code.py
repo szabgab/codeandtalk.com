@@ -815,9 +815,6 @@ class GenerateSite(object):
             self.sitemap.append({ 'url' : page })
         #self.sitemap.append({ 'url' : '/featured' })
 
-
-        #print(topics)
-        #self.save_pages(root, 't', self.tags, list_template, 'Open source conferences discussing {}')
         self.save_pages(root, 'l', self.countries, list_template, 'Open source conferences in {}')
         self.save_pages(root, 'l', self.cities, list_template, 'Open source conferences in {}')
 
@@ -839,11 +836,7 @@ class GenerateSite(object):
             os.mkdir(my_dir)
 
         for d in data.keys():
-            #print(data[d])
-            #exit()
             conferences = sorted(data[d]['events'], key=lambda x: x['start_date'])
-            #print("'{}'".format(d))
-            #print(my_dir + d)
             out_file = my_dir + d
             with open(out_file, 'w', encoding="utf-8") as fh:
                 fh.write(list_template.render(
@@ -854,12 +847,6 @@ class GenerateSite(object):
                     videos      = data[d].get('videos'),
                     episodes    = data[d].get('episodes'),
                 ))
-            # TODO: These are huge files. Reduce their size!
-            #with open(out_file + '.json', 'w', encoding="utf-8") as fh:
-            #    fh.write(json.dumps({
-            #        'conferences' : conferences,
-            #        'data' : data,
-            #    }, sort_keys=True))
             self.sitemap.append({
                 'url' : '/' + directory + '/' + d
             })
