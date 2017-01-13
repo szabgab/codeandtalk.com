@@ -356,12 +356,11 @@ def by_tag(tag):
         #episodes    = data[d].get('episodes'),
     )
 
-
 @catapp.route("/e/<event>")
 @catapp.route("/l/<location>")
 @catapp.route("/s/<source>")
 @catapp.route("/blaster/<blaster>")
-def html(event = None, source = None, tag = None, location = None, blaster = None):
+def html(event = None, source = None, location = None, blaster = None):
     if blaster:
         return _read(root + '/html/blaster/' + blaster)
     if location:
@@ -370,8 +369,6 @@ def html(event = None, source = None, tag = None, location = None, blaster = Non
         return _read(root + '/html/s/' + source)
     if event:
         return _read(root + '/html/e/' + event)
-    if tag:
-        return _read(root + '/html/t/' + tag)
 
 ###### Helper functions
 
