@@ -36,7 +36,6 @@ class GenerateSite(object):
     def __init__(self):
         self.root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         self.now = datetime.now().strftime('%Y-%m-%d')
-        self.sitemap = []
         self.people = {}
         self.redirects = []
         self.people_search = {}
@@ -440,10 +439,7 @@ class GenerateSite(object):
                     title       = topic['name'] + ' Blaster',
                     blaster     = topic,
                 ))
-            #self.sitemap.append({
-            #    'url' : '/' + topic['file'] + 'blaster'
-            #})
-
+            #self.sitemap.append({ 'url' : '/' + topic['file'] + 'blaster' })
 
     def _add_events_to_series(self):
         '''
@@ -775,52 +771,6 @@ class GenerateSite(object):
         #with open(root + '/videos.json', 'w', encoding="utf-8") as fh:
         #    json.dump(videos, fh, sort_keys=True)
 
-
-
-        for nickname in self.events.keys():
-            event = self.events[nickname]
-            self.sitemap.append({
-                'url' : '/e/' + event['nickname'],
-                'lastmod' : event['file_date'],
-            })
-
-        list_template = env.get_template('list.html')
-
-        self.sitemap.append({ 'url' : '/blasters' })
-        self.sitemap.append({ 'url' : '/series', })
-        self.sitemap.append({ 'url' : '/conferences' })
-        self.sitemap.append({ 'url' : '/' })
-        self.sitemap.append({ 'url' : '/about' })
-        self.sitemap.append({ 'url' : '/all-conferences' })
-        self.sitemap.append({ 'url' : '/cfp' })
-        self.sitemap.append({ 'url' : '/code-of-conduct' })
-        self.sitemap.append({ 'url' : '/diversity-tickets' })
-        self.sitemap.append({ 'url' : '/videos' })
-        for page in ['/topics', '/countries', '/cities']:
-            self.sitemap.append({ 'url' : page })
-        #self.sitemap.append({ 'url' : '/featured' })
-
-        # add tags, cities, and countries to sitemap
-        for t in self.tags:
-            self.sitemap.append({ 'url' : '/t/' + t })
-        for c in self.stats['cities']:
-            self.sitemap.append({ 'url' : '/l/' + c })
-        for c in self.stats['countries']:
-            self.sitemap.append({ 'url' : '/l/' + c })
- 
-        with open(root + '/sitemap.xml', 'w', encoding="utf-8") as fh:
-            fh.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
-            for e in self.sitemap:
-                fh.write('  <url>\n')
-                fh.write('    <loc>https://codeandtalk.com{}</loc>\n'.format(e['url']))
-                date = self.now
-                if 'lastmod' in e:
-                    date = e['lastmod']
-                fh.write('    <lastmod>{}</lastmod>\n'.format(date))
-                fh.write('  </url>\n')
-            fh.write('</urlset>\n')
-
-
     def generate_video_pages(self):
         root = self.html 
         env = Environment(loader=PackageLoader('cat', 'templates'))
@@ -841,11 +791,6 @@ class GenerateSite(object):
             out_file = root + '/v/' + video['event']['nickname'] + '/' + video['filename'] + '.json'
             with open(out_file, 'w', encoding="utf-8") as fh:
                 fh.write(json.dumps(video, sort_keys=True))
-
-            self.sitemap.append({
-                'url' : '/v/' + video['event']['nickname'] + '/' + video['filename'],
-                'lastmod' : video['file_date'],
-            })
 
     def check_videos(self):
         """

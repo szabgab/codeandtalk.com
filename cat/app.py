@@ -402,6 +402,63 @@ def location(location):
         earlier_conferences = past,
     )
 
+@catapp.route("/sitemap.xml")
+def sitemap():
+    cat = _read_json(root + '/html/cat.json')
+    now = datetime.now().strftime('%Y-%m-%d')
+
+    sitemap = []
+    for event in cat['events'].values():
+        sitemap.append({
+            'url' : '/e/' + event['nickname'],
+            'lastmod' : event['file_date'],
+        })
+
+    for page in [
+        '/',
+        '/about',
+        '/all-conferences',
+        '/blasters',
+        '/cfp',
+        '/cities',
+        '/code-of-conduct',
+        '/conferences',
+        '/countries',
+        '/diversity-tickets',
+        '/series',
+        '/topics',
+        '/videos',
+        ]:
+        sitemap.append({ 'url' : page })
+    #sitemap.append({ 'url' : '/featured' })
+
+    # add tags, cities, and countries to sitemap
+    for t in cat['tags']:
+        sitemap.append({ 'url' : '/t/' + t })
+    for c in cat['stats']['cities']:
+        sitemap.append({ 'url' : '/l/' + c })
+    for c in cat['stats']['countries']:
+        sitemap.append({ 'url' : '/l/' + c })
+
+    for video in cat['videos']:
+        sitemap.append({
+            'url' : '/v/' + video['event'] + '/' + video['filename'],
+            'lastmod' : video['file_date'],
+        })
+ 
+    html = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    for e in sitemap:
+        html += '  <url>\n'
+        html += '    <loc>https://codeandtalk.com{}</loc>\n'.format(e['url'])
+        if 'lastmod' in e:
+            date = e['lastmod']
+        else:
+            date = now
+        html += '    <lastmod>{}</lastmod>\n'.format(date)
+        html += '  </url>\n'
+    html += '</urlset>\n'
+    return html
+
 @catapp.route("/s/<source>")
 @catapp.route("/blaster/<blaster>")
 def html(source = None, location = None, blaster = None):
