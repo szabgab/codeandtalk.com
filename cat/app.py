@@ -332,14 +332,10 @@ def _calendar(prodid, events):
         cal += "END:VEVENT\r\n"
 
     cal += "END:VCALENDAR\r\n"
-
     return cal
 
-@catapp.route("/t/<tag>")
-def by_tag(tag):
-    cat = _read_json(root + '/html/cat.json')
+def events_by_tag(cat, tag):
     now = datetime.now().strftime('%Y-%m-%d')
-
     future = []
     earlier = []
     for event in cat['events'].values():
@@ -348,6 +344,15 @@ def by_tag(tag):
                 future.append(event)
             else:
                 earlier.append(event)
+    return future, earlier
+
+@catapp.route("/t/<tag>")
+def by_tag(tag):
+    cat = _read_json(root + '/html/cat.json')
+    now = datetime.now().strftime('%Y-%m-%d')
+
+    future, earlier = events_by_tag(cat, tag)
+
     videos = []
     for video in cat['videos']:
         #if 'tags' in video:
