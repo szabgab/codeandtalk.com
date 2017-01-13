@@ -288,12 +288,16 @@ def person(person = None):
 
 @catapp.route("/cal/all.ics")
 @catapp.route("/cal/l/<location>.ics")
-def calendar(location = None):
+@catapp.route("/cal/t/<tag>.ics")
+def calendar(location = None, tag = None):
     cat = _read_json(root + '/html/cat.json')
 
     if location:
         name, future, past = events_in_location(cat, location)
         prodid = 'l/{}'.format(location)
+    elif tag:
+        future, past = events_by_tag(cat, tag)
+        prodid = 't/{}'.format(tag)
     else:
         future = _future(cat)
         prodid = 'all'
@@ -370,6 +374,7 @@ def by_tag(tag):
         videos      = videos,
         events      = cat['events'],
         #episodes    = data[d].get('episodes'),
+        cal         = 't/{}.ics'.format(tag),
     )
 
 @catapp.route("/e/<nickname>")
