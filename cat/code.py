@@ -122,7 +122,7 @@ class GenerateSite(object):
         cat['tags']  = copy.deepcopy(self.tags)
         cat['stats'] = copy.deepcopy(self.stats)
         cat['series'] = copy.deepcopy(self.series)
-        self.save_all(cat['stats'])
+        self.save_all(cat)
 
     def save_all(self, cat):
         with open(self.html + '/cat.json', 'w', encoding="utf-8") as fh:
