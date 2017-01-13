@@ -373,10 +373,19 @@ def event(nickname):
 @catapp.route("/l/<location>")
 def location(location):
     cat = _read_json(root + '/html/cat.json')
-    now = datetime.now().strftime('%Y-%m-%d')
 
-    #return str(cat['stats']['countries'])
-    #return str(cat['stats']['cities'])
+    name, future, past = events_in_location(cat, location)
+
+    title = 'Conferences covering {}'.format(name)
+    return render_template('list.html',
+        h1          = title,
+        title       = title,
+        conferences = future,
+        earlier_conferences = past,
+    )
+
+def events_in_location(cat, location):
+    now = datetime.now().strftime('%Y-%m-%d')
     if location in cat['stats']['countries']:
         name = cat['stats']['countries'][location]['name']
         page = 'country_page'
@@ -397,14 +406,8 @@ def location(location):
                 future.append(e)
             else:
                 past.append(e)
+    return name, future, past
 
-    title = 'Conferences covering {}'.format(name)
-    return render_template('list.html',
-        h1          = title,
-        title       = title,
-        conferences = future,
-        earlier_conferences = past,
-    )
 
 @catapp.route("/sitemap.xml")
 def sitemap():
