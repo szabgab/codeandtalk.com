@@ -791,27 +791,13 @@ class GenerateSite(object):
         #    json.dump(videos, fh, sort_keys=True)
 
 
-        event_template = env.get_template('event.html')
-        if not os.path.exists(root + '/e/'):
-            os.mkdir(root + '/e/')
+
         for nickname in self.events.keys():
             event = self.events[nickname]
-            #print(event['nickname'])
-
-            try:
-                with open(root + '/e/' + event['nickname'], 'w', encoding="utf-8") as fh:
-                    fh.write(event_template.render(
-                        h1          = event['name'],
-                        title       = event['name'],
-                        event = event,
-                ))
-                self.sitemap.append({
-                    'url' : '/e/' + event['nickname'],
-                    'lastmod' : event['file_date'],
-                })
-            except Exception as e:
-                print("ERROR 8: {}".format(e))
-
+            self.sitemap.append({
+                'url' : '/e/' + event['nickname'],
+                'lastmod' : event['file_date'],
+            })
 
         list_template = env.get_template('list.html')
 

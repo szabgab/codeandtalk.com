@@ -356,19 +356,27 @@ def by_tag(tag):
         #episodes    = data[d].get('episodes'),
     )
 
-@catapp.route("/e/<event>")
+@catapp.route("/e/<nickname>")
+def event(nickname):
+    cat = _read_json(root + '/html/cat.json')
+    event = cat['events'][nickname]
+    return render_template('event.html',
+        h1    = event['name'],
+        title = event['name'],
+        event = event,
+    )
+
+
 @catapp.route("/l/<location>")
 @catapp.route("/s/<source>")
 @catapp.route("/blaster/<blaster>")
-def html(event = None, source = None, location = None, blaster = None):
+def html(source = None, location = None, blaster = None):
     if blaster:
         return _read(root + '/html/blaster/' + blaster)
     if location:
         return _read(root + '/html/l/' + location)
     if source:
         return _read(root + '/html/s/' + source)
-    if event:
-        return _read(root + '/html/e/' + event)
 
 ###### Helper functions
 
