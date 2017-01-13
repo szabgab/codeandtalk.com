@@ -1,5 +1,9 @@
 {% include 'incl/header.html' %}
 
+{% if cal %}
+   <a href="/cal/{{ cal }}">Calendar</a>
+{% endif %}
+
 {% if conferences %}
 <table id="conferences" class="display compact">
   <thead>

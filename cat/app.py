@@ -75,6 +75,7 @@ def conferences():
         title       = 'Open Source conferences',
         conferences = _future(cat),
         stats       = cat['stats'],
+        cal         = 'all.ics',
     )
 @catapp.route("/all-conferences")
 def all_conferences():
@@ -321,6 +322,7 @@ def calendar():
 
     cal += "END:VCALENDAR\r\n"
 
+    return Response(cal, mimetype="text/calendar")
     return cal
 
 @catapp.route("/t/<tag>")
