@@ -383,7 +383,7 @@ def location(location):
 
     name, future, past = events_in_location(cat, location)
 
-    title = 'Conferences covering {}'.format(name)
+    title = 'Conferences in {}'.format(name)
     return render_template('list.html',
         h1          = title,
         title       = title,
