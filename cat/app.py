@@ -293,17 +293,19 @@ def calendar(location = None):
 
     if location:
         name, future, past = events_in_location(cat, location)
+        prodid = 'l/{}'.format(location)
     else:
         future = _future(cat)
-    cal = _calendar(future)
+        prodid = 'all'
+    cal = _calendar(prodid, future)
     return cal
     #return Response(cal, mimetype="text/calendar")
 
-def _calendar(events):
+def _calendar(prodid, events):
     dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
     cal = ""
     cal += "BEGIN:VCALENDAR\r\n"
-    cal += "PRODID:https://codeandtalk.com/cal/all.ics\r\n"
+    cal += "PRODID:https://codeandtalk.com/cal/{}.ics\r\n".format(prodid)
     cal += "VERSION:2.0\r\n"
     #PRODID:-//http://XXX//Event
     #METHOD:PUBLISH
@@ -387,6 +389,7 @@ def location(location):
         title       = title,
         conferences = future,
         earlier_conferences = past,
+        cal         = 'l/{}.ics'.format(location),
     )
 
 def events_in_location(cat, location):
