@@ -730,11 +730,6 @@ class GenerateSite(object):
             except Exception as e:
                 print("ERROR 7: {}".format(e))
 
-
-        tag_template = env.get_template('tag.html')
-        if not os.path.exists(self.html + '/t/'):
-            os.mkdir(self.html + '/t/')
-
         self.stats['podcasts'] = len(self.sources)
         self.stats['people']   = len(self.people)
         self.stats['episodes'] = sum(len(x['episodes']) for x in self.sources)
