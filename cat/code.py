@@ -7,14 +7,27 @@ import os
 import re
 import urllib
 import shutil
+#import string
 from jinja2 import Environment, PackageLoader
 
 def topic2path(tag):
     t = tag.lower()
-    t = re.sub(r'í', 'i', t)
-    t = re.sub(r'ó', 'o', t)
-    t = re.sub(r'ã', 'a', t)
-    t = re.sub(r'[\W_]+', '-', t)
+    tr = {
+        r'í'  : 'i',
+        r'ó'  : 'o',
+        r'ã'  : 'a',
+        r'ü' : 'u',
+        r'ö' : 'o',
+        r'è'  : 'e',
+        r'ł'  : 'l',
+    }
+    #t = t.translate(string.maketrans("abc", "def"))
+    for k in tr.keys():
+        t = re.sub(k, tr[k], t)
+    t = re.sub(r'[.+ ()&’/:]', '-', t)
+    if re.search(r'[^a-z0-9-]', t):
+        raise Exception("Character needs to be mapped in '{}'".format(t))
+    t = re.sub(r'[^a-z]+', '-', t)
     return t
 
 def html2txt(html):
@@ -109,7 +122,7 @@ class GenerateSite(object):
         cat['tags']  = copy.deepcopy(self.tags)
         cat['stats'] = copy.deepcopy(self.stats)
         cat['series'] = copy.deepcopy(self.series)
-        self.save_all(cat)
+        self.save_all(cat['stats'])
 
     def save_all(self, cat):
         with open(self.html + '/cat.json', 'w', encoding="utf-8") as fh:
