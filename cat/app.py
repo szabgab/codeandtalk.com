@@ -289,9 +289,13 @@ def person(person = None):
 @catapp.route("/cal/all.ics")
 def calendar():
     cat = _read_json(root + '/html/cat.json')
-    dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
-
     future = _future(cat)
+    cal = _calendar(future)
+    return cal
+    #return Response(cal, mimetype="text/calendar")
+
+def _calendar(events):
+    dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
     cal = ""
     cal += "BEGIN:VCALENDAR\r\n"
     cal += "PRODID:https://codeandtalk.com/cal/all.ics\r\n"
@@ -299,7 +303,7 @@ def calendar():
     #PRODID:-//http://XXX//Event
     #METHOD:PUBLISH
 
-    for e in future:
+    for e in events:
         cal += "BEGIN:VEVENT\r\n"
         cal += "DTSTAMP:{}\r\n".format(dtstamp)
         cal += "DTSTART;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['start_date']))
@@ -322,7 +326,7 @@ def calendar():
 
     cal += "END:VCALENDAR\r\n"
 
-    return Response(cal, mimetype="text/calendar")
+    return cal
 
 @catapp.route("/t/<tag>")
 def by_tag(tag):
