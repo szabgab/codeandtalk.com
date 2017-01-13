@@ -47,8 +47,6 @@ class GenerateSite(object):
         self.featured_by_blaster = {}
         self.featured_by_date = {}
         self.events = {}
-        self.countries = {}  # TODO remove
-        self.cities = {}     # TODO remove
  
         self.stats = {
             'has_coc' : 0,
@@ -218,13 +216,6 @@ class GenerateSite(object):
                 this['city_name'] = city_name
                 this['city_page'] = city_page
 
-                if city_page not in self.cities:
-                    self.cities[city_page] = {
-                        'name' : this['city_name'],
-                        'events' : []
-                    }
-                self.cities[city_page]['events'].append(this)
-
                 if city_page not in self.stats['cities']:
                     self.stats['cities'][city_page] = {
                         'name' : city_name,
@@ -239,12 +230,6 @@ class GenerateSite(object):
                 country_name = this['country']
                 country_page = re.sub(r'\s+', '-', country_name.lower())
                 this['country_page'] = country_page
-                if country_page not in self.countries:
-                    self.countries[country_page] = {
-                        'name' : country_name,
-                        'events' : []
-                    }
-                self.countries[country_page]['events'].append(this)
 
                 if country_page not in self.stats['countries']:
                     self.stats['countries'][country_page] = {
@@ -815,9 +800,14 @@ class GenerateSite(object):
             self.sitemap.append({ 'url' : page })
         #self.sitemap.append({ 'url' : '/featured' })
 
-        self.save_pages(root, 'l', self.countries, list_template, 'Open source conferences in {}')
-        self.save_pages(root, 'l', self.cities, list_template, 'Open source conferences in {}')
-
+        # add tags, cities, and countries to sitemap
+        for t in self.tags:
+            self.sitemap.append({ 'url' : '/t/' + t })
+        for c in self.stats['cities']:
+            self.sitemap.append({ 'url' : '/l/' + c })
+        for c in self.stats['countries']:
+            self.sitemap.append({ 'url' : '/l/' + c })
+ 
         with open(root + '/sitemap.xml', 'w', encoding="utf-8") as fh:
             fh.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
             for e in self.sitemap:
@@ -830,26 +820,6 @@ class GenerateSite(object):
                 fh.write('  </url>\n')
             fh.write('</urlset>\n')
 
-    def save_pages(self, root, directory, data, list_template, title):
-        my_dir =  root + '/' + directory + '/'
-        if not os.path.exists(my_dir):
-            os.mkdir(my_dir)
-
-        for d in data.keys():
-            conferences = sorted(data[d]['events'], key=lambda x: x['start_date'])
-            out_file = my_dir + d
-            with open(out_file, 'w', encoding="utf-8") as fh:
-                fh.write(list_template.render(
-                    h1          = title.format(data[d]['name']),
-                    title       = title.format(data[d]['name']),
-                    conferences = list(filter(lambda x: x['start_date'] >= self.now, conferences)),
-                    earlier_conferences = list(filter(lambda x: x['start_date'] < self.now, conferences)),
-                    videos      = data[d].get('videos'),
-                    episodes    = data[d].get('episodes'),
-                ))
-            self.sitemap.append({
-                'url' : '/' + directory + '/' + d
-            })
 
     def generate_video_pages(self):
         root = self.html 

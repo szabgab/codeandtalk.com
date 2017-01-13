@@ -366,15 +366,47 @@ def event(nickname):
         event = event,
     )
 
-
 @catapp.route("/l/<location>")
+def location(location):
+    cat = _read_json(root + '/html/cat.json')
+    now = datetime.now().strftime('%Y-%m-%d')
+
+    #return str(cat['stats']['countries'])
+    #return str(cat['stats']['cities'])
+    if location in cat['stats']['countries']:
+        name = cat['stats']['countries'][location]['name']
+        page = 'country_page'
+    elif location in cat['stats']['cities']:
+        name = cat['stats']['cities'][location]['name']
+        page = 'city_page'
+    else:
+        return render_template('404.html',
+            h1          = '404',
+            title       = 'Four Oh Four',
+        )
+
+    future = []
+    past = []
+    for e in sorted(cat['events'].values(), key=lambda e: e['start_date']):
+        if e[page] == location:
+            if e['start_date'] >= now:
+                future.append(e)
+            else:
+                past.append(e)
+
+    title = 'Conferences covering {}'.format(name)
+    return render_template('list.html',
+        h1          = title,
+        title       = title,
+        conferences = future,
+        earlier_conferences = past,
+    )
+
 @catapp.route("/s/<source>")
 @catapp.route("/blaster/<blaster>")
 def html(source = None, location = None, blaster = None):
     if blaster:
         return _read(root + '/html/blaster/' + blaster)
-    if location:
-        return _read(root + '/html/l/' + location)
     if source:
         return _read(root + '/html/s/' + source)
 
