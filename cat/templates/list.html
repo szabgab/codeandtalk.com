@@ -1,7 +1,9 @@
 {% include 'incl/header.html' %}
 
 {% if cal %}
-   <a href="/cal/{{ cal }}">Calendar</a>
+   <div>
+   <a href="/cal/{{ cal }}">Calendar <i class="fa fa-calendar"></i></a>
+   </div>
 {% endif %}
 
 {% if conferences %}

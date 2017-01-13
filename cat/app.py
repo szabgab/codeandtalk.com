@@ -323,7 +323,6 @@ def calendar():
     cal += "END:VCALENDAR\r\n"
 
     return Response(cal, mimetype="text/calendar")
-    return cal
 
 @catapp.route("/t/<tag>")
 def by_tag(tag):
