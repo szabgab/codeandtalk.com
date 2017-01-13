@@ -287,9 +287,14 @@ def person(person = None):
     )
 
 @catapp.route("/cal/all.ics")
-def calendar():
+@catapp.route("/cal/l/<location>.ics")
+def calendar(location = None):
     cat = _read_json(root + '/html/cat.json')
-    future = _future(cat)
+
+    if location:
+        name, future, past = events_in_location(cat, location)
+    else:
+        future = _future(cat)
     cal = _calendar(future)
     return cal
     #return Response(cal, mimetype="text/calendar")
