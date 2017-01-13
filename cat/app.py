@@ -241,25 +241,6 @@ def serve_collections():
         )
 
 
-### static page for the time of transition
-@catapp.route("/<filename>")
-def static_file(filename = None):
-    #index.html  redirect
-
-    mime = 'text/html'
-    content = _read(root + '/html/' + filename)
-    if filename[-4:] == '.css':
-        mime = 'text/css'
-    elif filename[-5:] == '.json':
-        mime = 'application/javascript'
-    elif filename[-3:] == '.js':
-        mime = 'application/javascript'
-    elif filename[-4:] == '.xml':
-        mime = 'text/xml'
-    elif filename[-4:] == '.ico':
-        mime = 'image/x-icon'
-    return Response(content, mimetype=mime)
-
 @catapp.route("/v/<event>/<video>")
 def video(event = None, video = None):
     path = root + '/html/v/{}/{}'.format(event, video)
@@ -304,51 +285,6 @@ def calendar(location = None, tag = None):
     cal = _calendar(prodid, future)
     return cal
     #return Response(cal, mimetype="text/calendar")
-
-def _calendar(prodid, events):
-    dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
-    cal = ""
-    cal += "BEGIN:VCALENDAR\r\n"
-    cal += "PRODID:https://codeandtalk.com/cal/{}.ics\r\n".format(prodid)
-    cal += "VERSION:2.0\r\n"
-    #PRODID:-//http://XXX//Event
-    #METHOD:PUBLISH
-
-    for e in events:
-        cal += "BEGIN:VEVENT\r\n"
-        cal += "DTSTAMP:{}\r\n".format(dtstamp)
-        cal += "DTSTART;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['start_date']))
-        cal += "DTEND;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['end_date']))
-        uid = re.sub(r'\W+', '-', e['url'])
-        uid = re.sub(r'\W+$', '', uid)
-        cal += "UID:{}\r\n".format(uid)
-        cal += "SUMMARY:{}\r\n".format(e['name'])
-        cal += "DESCRIPTION:{}\r\n".format(e['url'])
-        try:
-            location = e['city']
-            if e['state']:
-                location += ", " + e['state']
-            location += ", " + e['country']
-            cal += "LOCATION:{}\r\n".format(location)
-        except Exception:
-            pass
-            # hide Unicode error from beyondtellerrand-2017
-        cal += "END:VEVENT\r\n"
-
-    cal += "END:VCALENDAR\r\n"
-    return cal
-
-def events_by_tag(cat, tag):
-    now = datetime.now().strftime('%Y-%m-%d')
-    future = []
-    earlier = []
-    for event in cat['events'].values():
-        if tag in [ t['path'] for t in event['topics'] ]:
-            if event['start_date'] > now:
-                future.append(event)
-            else:
-                earlier.append(event)
-    return future, earlier
 
 @catapp.route("/t/<tag>")
 def by_tag(tag):
@@ -401,30 +337,6 @@ def location(location):
         earlier_conferences = past,
         cal         = 'l/{}.ics'.format(location),
     )
-
-def events_in_location(cat, location):
-    now = datetime.now().strftime('%Y-%m-%d')
-    if location in cat['stats']['countries']:
-        name = cat['stats']['countries'][location]['name']
-        page = 'country_page'
-    elif location in cat['stats']['cities']:
-        name = cat['stats']['cities'][location]['name']
-        page = 'city_page'
-    else:
-        return render_template('404.html',
-            h1          = '404',
-            title       = 'Four Oh Four',
-        )
-
-    future = []
-    past = []
-    for e in sorted(cat['events'].values(), key=lambda e: e['start_date']):
-        if e[page] == location:
-            if e['start_date'] >= now:
-                future.append(e)
-            else:
-                past.append(e)
-    return name, future, past
 
 
 @catapp.route("/sitemap.xml")
@@ -484,6 +396,26 @@ def sitemap():
     html += '</urlset>\n'
     return html
 
+### static page for the time of transition
+@catapp.route("/<filename>")
+def static_file(filename = None):
+    #index.html  redirect
+
+    mime = 'text/html'
+    content = _read(root + '/html/' + filename)
+    if filename[-4:] == '.css':
+        mime = 'text/css'
+    elif filename[-5:] == '.json':
+        mime = 'application/javascript'
+    elif filename[-3:] == '.js':
+        mime = 'application/javascript'
+    elif filename[-4:] == '.xml':
+        mime = 'text/xml'
+    elif filename[-4:] == '.ico':
+        mime = 'image/x-icon'
+    return Response(content, mimetype=mime)
+
+
 @catapp.route("/s/<source>")
 @catapp.route("/blaster/<blaster>")
 def html(source = None, location = None, blaster = None):
@@ -524,6 +456,75 @@ def _read_json(filename):
 def _future(cat):
     now = datetime.now().strftime('%Y-%m-%d')
     return sorted(list(filter(lambda e: e['start_date'] >= now, cat["events"].values())), key = lambda e: e['start_date'])
+
+def _calendar(prodid, events):
+    dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
+    cal = ""
+    cal += "BEGIN:VCALENDAR\r\n"
+    cal += "PRODID:https://codeandtalk.com/cal/{}.ics\r\n".format(prodid)
+    cal += "VERSION:2.0\r\n"
+    #PRODID:-//http://XXX//Event
+    #METHOD:PUBLISH
+
+    for e in events:
+        cal += "BEGIN:VEVENT\r\n"
+        cal += "DTSTAMP:{}\r\n".format(dtstamp)
+        cal += "DTSTART;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['start_date']))
+        cal += "DTEND;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['end_date']))
+        uid = re.sub(r'\W+', '-', e['url'])
+        uid = re.sub(r'\W+$', '', uid)
+        cal += "UID:{}\r\n".format(uid)
+        cal += "SUMMARY:{}\r\n".format(e['name'])
+        cal += "DESCRIPTION:{}\r\n".format(e['url'])
+        try:
+            location = e['city']
+            if e['state']:
+                location += ", " + e['state']
+            location += ", " + e['country']
+            cal += "LOCATION:{}\r\n".format(location)
+        except Exception:
+            pass
+            # hide Unicode error from beyondtellerrand-2017
+        cal += "END:VEVENT\r\n"
+
+    cal += "END:VCALENDAR\r\n"
+    return cal
+
+def events_by_tag(cat, tag):
+    now = datetime.now().strftime('%Y-%m-%d')
+    future = []
+    earlier = []
+    for event in cat['events'].values():
+        if tag in [ t['path'] for t in event['topics'] ]:
+            if event['start_date'] > now:
+                future.append(event)
+            else:
+                earlier.append(event)
+    return future, earlier
+
+def events_in_location(cat, location):
+    now = datetime.now().strftime('%Y-%m-%d')
+    if location in cat['stats']['countries']:
+        name = cat['stats']['countries'][location]['name']
+        page = 'country_page'
+    elif location in cat['stats']['cities']:
+        name = cat['stats']['cities'][location]['name']
+        page = 'city_page'
+    else:
+        return render_template('404.html',
+            h1          = '404',
+            title       = 'Four Oh Four',
+        )
+
+    future = []
+    past = []
+    for e in sorted(cat['events'].values(), key=lambda e: e['start_date']):
+        if e[page] == location:
+            if e['start_date'] >= now:
+                future.append(e)
+            else:
+                past.append(e)
+    return name, future, past
 
 
 # vim: expandtab
