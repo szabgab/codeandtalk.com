@@ -412,6 +412,8 @@ def sitemap():
         sitemap.append({ 'url' : '/l/' + c })
     for c in cat['stats']['countries']:
         sitemap.append({ 'url' : '/l/' + c })
+    #for b in blasters:
+    #    sitemap.append({ 'url' : '/blaster/' + b['file'] })
 
     for video in cat['videos']:
         sitemap.append({
@@ -451,12 +453,24 @@ def static_file(filename = None):
         mime = 'image/x-icon'
     return Response(content, mimetype=mime)
 
+@catapp.route("/blaster/<nickname>")
+def show_blaster(nickname):
+    cat = _read_json(root + '/html/cat.json')
+    for b in cat['blasters']:
+        if b['file'] == nickname:
+            blaster = b
+            break
+    else:
+        return "404"
+        
+    return render_template('blaster.html',
+        h1          = blaster['name'] + ' Blaster',
+        title       = blaster['name'] + ' Blaster',
+        blaster     = blaster,
+    )
 
 @catapp.route("/s/<source>")
-@catapp.route("/blaster/<blaster>")
-def html(source = None, location = None, blaster = None):
-    if blaster:
-        return _read(root + '/html/blaster/' + blaster)
+def html(source = None, location = None):
     if source:
         return _read(root + '/html/s/' + source)
 

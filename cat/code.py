@@ -115,7 +115,6 @@ class GenerateSite(object):
         shutil.copytree('src', self.html)
 
         self.generate_podcast_pages()
-        self.generate_pages()
         #self.save_search()
 
         cat['tags']  = copy.deepcopy(self.tags)
@@ -440,23 +439,6 @@ class GenerateSite(object):
 
                 e['tags'] = tags
 
-    def create_blaster_pages(self, root):
-        my_dir = root + '/blaster';
-        if not os.path.exists(my_dir):
-            os.mkdir(my_dir)
-
-        env = Environment(loader=PackageLoader('cat', 'templates'))
-        blaster_template = env.get_template('blaster.html')
-
-        for topic in self.blasters:
-            with open(os.path.join(my_dir, topic['file']), 'w', encoding="utf-8") as fh:
-                fh.write(blaster_template.render(
-                    h1          = topic['name'] + ' Blaster',
-                    title       = topic['name'] + ' Blaster',
-                    blaster     = topic,
-                ))
-            #self.sitemap.append({ 'url' : '/' + topic['file'] + 'blaster' })
-
     def _add_events_to_series(self):
         '''
             Go over all the events and based on the longest matching prefix of their filenames,
@@ -715,21 +697,6 @@ class GenerateSite(object):
             json.dump(self.people_search, fh)
 
         return
-
-    def generate_pages(self):
-        root = self.html
-        env = Environment(loader=PackageLoader('cat', 'templates'))
-        self.create_blaster_pages(root)
-
-        videos = []
-        for v in self.videos:
-            vid = copy.deepcopy(v) 
-            for field in ['blasters', 'description', 'tweet_video', 'file_date']:
-                if field in vid:
-                    del(vid[field])
-            videos.append( vid )
-        #with open(root + '/videos.json', 'w', encoding="utf-8") as fh:
-        #    json.dump(videos, fh, sort_keys=True)
 
     def check_videos(self):
         """
