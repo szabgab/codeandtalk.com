@@ -7,7 +7,6 @@ import os
 import re
 import urllib
 import sys
-import shutil
 #import string
 from jinja2 import Environment, PackageLoader
 
@@ -114,10 +113,6 @@ class GenerateSite(object):
         }
 
         self.preprocess_events()
-
-        if os.path.exists(self.html):
-            shutil.rmtree(self.html)
-        shutil.copytree('src', self.html)
 
         #self.save_search()
 
