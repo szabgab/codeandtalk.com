@@ -364,10 +364,23 @@ def event(nickname):
     if 'youtube' in event and event['youtube'] == '-':
         event['youtube'] = None
 
+    people = {}
+    videos = []
+    for video in cat['videos']:
+        if video['event'] == nickname:
+            videos.append(video)
+        for s in video['speakers']:
+            p = copy.deepcopy(cat['people'][s])
+            p['nickname'] = s
+            people[s] = p
+
+#    return(str(event))
     return render_template('event.html',
         h1    = event['name'],
         title = event['name'],
         event = event,
+        people = people,
+        videos = videos,
     )
 
 @catapp.route("/l/<location>")

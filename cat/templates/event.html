@@ -40,8 +40,7 @@
 <a href="https://twitter.com/home?status={{ event['tweet_me'] }}" target="_blank">Tweet this event</a>
 </div>
 
-{% if event.videos %}
-  {% set videos = event.videos %}
+{% if videos %}
   <h2>Videos</h2>
   {% include 'incl/videos.html' %}
 {% endif %}
