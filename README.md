@@ -170,6 +170,7 @@ Ideas for Conferences and other events
   The idea would be to do a much shorter talk and spend a lot more time on matching mentors and mentees.
 * Building a startup around conversations and communities
   https://codeandtalk.com/v/agile-india-2016/building-a-startup-around-conversations-and-communities-by-zainab-bawa
+* Personal vision exercise: https://codeandtalk.com/v/agile-india-2016/giving-the-enterprise-focus-through-a-compelling-shared-vision-by-susan-gibson
 
 * Mostly after hours:
   * BOF (Birds of Feather) sessions - people can organize meetings based on a specific subject.
