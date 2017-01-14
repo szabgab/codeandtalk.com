@@ -671,7 +671,10 @@ def get_tweet_video(video, speakers, event):
             p = t['link']
             if not re.search(r'-', t['link']) and len(t['link']) < 20:
                 tweet_video += ' #' + t['link']
-    return urllib.parse.quote(tweet_video)
+    if sys.version_info.major < 3:
+        return urllib.quote(tweet_video)
+    else:
+        return urllib.parse.quote(tweet_video)
 
 
 # vim: expandtab
