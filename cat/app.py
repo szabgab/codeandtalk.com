@@ -82,10 +82,17 @@ def conferences():
 @catapp.route("/all-conferences")
 def all_conferences():
     cat = _read_json(root + '/html/cat.json')
+    events = []
+    for nick in cat['events'].keys():
+        event = copy.deepcopy(cat['events'][nick])
+        if 'youtube' in event and event['youtube'] == '-':
+            event['youtube'] = None
+        events.append(event)
+
     return render_template('list.html',
         h1          = 'All the Tech related conferences',
         title       = 'All the Tech related conferences',
-        conferences = cat['events'].values(),
+        conferences = events,
     )
 
 @catapp.route("/cfp")

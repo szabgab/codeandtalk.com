@@ -13,7 +13,7 @@
   </thead>
   <tbody>
     {% for c in conferences %}
-    <tr>
+    <tr id="{{ c['nickname'] }}">
       <td>{{ c['start_date'] }}</td>
       <td class="{{ c['cfp_class'] }}">{{ c['cfp_date'] }}</td>
       <td>{% if c['code_of_conduct'] %}<a href="{{ c['code_of_conduct'] }}"><i class="fa fa-thumbs-up"></i></a>{% endif %}</td>

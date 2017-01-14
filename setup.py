@@ -5,8 +5,9 @@ setup(
     packages=['cat'],
     include_package_data=True,
     install_requires=[
-		'flask',
+        'flask',
         'jinja2',
+        'pyquery',
     ],
     #setup_requires=[
     #    'pytest-runner',
@@ -15,3 +16,5 @@ setup(
     #    'selenium',
     #],
 )
+
+# vim: expandtab

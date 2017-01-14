@@ -4,11 +4,14 @@ import json
 import os
 import sys
 import cat.app
+from pyquery import PyQuery
 
 def read_json(file):
     with open(file) as fh:
         return json.loads(fh.read())
         #return fh.read()
+
+
 
 class TestCat(unittest.TestCase):
     def setUp(self):
@@ -28,11 +31,33 @@ class TestCat(unittest.TestCase):
         assert b'Oh. There is no page here.' in rv.data
 
     def test_pages(self):
+        rv = self.app.get('/all-conferences')
+        assert rv.status == '200 OK'
+        d = PyQuery(rv.data)
+        p = d("#ffconf-2009")
+        #print(p.html())
+        assert 'fa-video-camera' not in p.html()
+        # <tr id="ffconf-2009">
+        #   <td>2009-11-20</td>
+        #   <td class="cfp_none"></td>
+        #   <td></td>
+        #   <td></td>
+        #   <td><i class="fa fa-video-camera"></i></td>
+        #   <td><a href="/e/ffconf-2009">Full Frontal - ffconf 2009</a></td>
+        #   <td>Brighton, England,  <a href="/l/uk">UK</a></td>
+        # </tr>
+
+        p = d("#jsinsa-2016")
+        assert 'fa-video-camera' in p.html()
+
+
+
         rv = self.app.get('/e/ffconf-2009')
         assert rv.status == '200 OK'
         assert b'<h1>Full Frontal - ffconf 2009</h1>' in rv.data
         assert b'<div>Start date: 2009-11-20</div>' in rv.data
         assert b'<div>End date: 2009-11-20</div>' in rv.data
+        # events with - in the youtube fields should have no link to youtube
         assert b'https://www.youtube.com/playlist?list' not in rv.data
 
         rv = self.app.get('/e/jsinsa-2016')
