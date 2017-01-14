@@ -35,8 +35,8 @@
         <ul>
           {% for v in person['videos'] %}
             <li>
-              <a href="/v/{{v.event.nickname}}/{{v.filename}}"><img class="list-thumbnail" src="{{v.thumbnail_url}}" alt="{{v.title}}" /></a>
-             {{ v['recorded'] }} <a href="/v/{{ v['event']['nickname'] }}/{{ v['filename'] }}">{{ v['title'] }}</a>  @ <a href="/e/{{ v['event']['nickname'] }}">{{ v['event']['name'] }}</a>
+              <a href="/v/{{v.event}}/{{v.filename}}"><img class="list-thumbnail" src="{{v.thumbnail_url}}" alt="{{v.title}}" /></a>
+             {{ v['recorded'] }} <a href="/v/{{ v.event }}/{{ v.filename }}">{{ v.title }}</a>  @ <a href="/e/{{ v.event }}">{{ events[ v.event ]['name'] }}</a>
             </li>
 		  {% endfor %}
         </ul>

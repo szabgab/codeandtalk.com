@@ -274,16 +274,34 @@ def show_video(event = None, filename = None):
         tweet_video = get_tweet_video(video, speakers, cat['events'][ video['event'] ]),
     )
 
-@catapp.route("/p/<person>")
-def person(person = None):
-    path = root + '/html/p/{}'.format(person)
-    data = json.load(open(path + '.json'))
-    return render_template('person.html',
-        h1          = data['info']['name'],
-        title       = 'Presentations and podcasts by ' + data['info']['name'],
-        person      = data,
-        id          = person,
-    )
+@catapp.route("/p/<nickname>")
+def show_person(nickname = None):
+    cat = _read_json(root + '/html/cat.json')
+
+    if nickname in cat['people']:
+        person = copy.deepcopy(cat['people'][nickname])
+        person['videos'] = []
+        for video in cat['videos']:
+            if nickname in video['speakers']:
+                person['videos'].append(video)
+#        for field in ['episodes', 'hosting']:
+#            if field not in self.people[p]:
+#                self.people[p][field] = []
+#            self.people[p][field].sort(key=lambda x : x['date'], reverse=True)
+        return render_template('person.html',
+            h1          = person['info']['name'],
+            title       = 'Presentations and podcasts by ' + person['info']['name'],
+            person      = person,
+            events      = cat['events'],
+            id          = nickname,
+        )
+        #for r in self.redirects:
+        #    with open(self.html + '/p/' + r['from'], 'w') as fh:
+        #        fh.write('<meta http-equiv="refresh" content="0; url=https://codeandtalk.com/p/{}" />\n'.format(r['to']))
+        #        fh.write('<p><a href="https://codeandtalk.com/p/{}">Moved</a></p>\n'.format(r['to']))
+    else:
+        return "404"
+
 
 @catapp.route("/cal/all.ics")
 @catapp.route("/cal/l/<location>.ics")

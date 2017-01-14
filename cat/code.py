@@ -114,7 +114,6 @@ class GenerateSite(object):
             shutil.rmtree(self.html)
         shutil.copytree('src', self.html)
 
-        self.generate_people_pages()
         self.generate_podcast_pages()
         self.generate_pages()
         #self.save_search()
@@ -672,26 +671,6 @@ class GenerateSite(object):
 
         return
 
-    def generate_people_pages(self):
-        env = Environment(loader=PackageLoader('cat', 'templates'))
-
-        person_template = env.get_template('person.html')
-        if not os.path.exists(self.html + '/p/'):
-            os.mkdir(self.html + '/p/')
-        for p in self.people.keys():
-            for field in ['episodes', 'hosting']:
-                if field not in self.people[p]:
-                    self.people[p][field] = []
-                self.people[p][field].sort(key=lambda x : x['date'], reverse=True)
-
-            if 'name' not in self.people[p]['info']:
-                exit("ERROR 6: file {} does not have a 'name' field".format(p))
-            name = self.people[p]['info']['name']
-            path = '/p/' + p
-
-            with open(self.html + path + '.json', 'w', encoding="utf-8") as fh:
-                fh.write(json.dumps(self.people[p], sort_keys=True))
-
     def generate_podcast_pages(self):
         env = Environment(loader=PackageLoader('cat', 'templates'))
 
@@ -713,20 +692,6 @@ class GenerateSite(object):
         self.stats['people']   = len(self.people)
         self.stats['episodes'] = sum(len(x['episodes']) for x in self.sources)
 
-        for r in self.redirects:
-            with open(self.html + '/p/' + r['from'], 'w') as fh:
-                fh.write('<meta http-equiv="refresh" content="0; url=https://codeandtalk.com/p/{}" />\n'.format(r['to']))
-                fh.write('<p><a href="https://codeandtalk.com/p/{}">Moved</a></p>\n'.format(r['to']))
-
-        #with open(self.html + '/people', 'w', encoding="utf-8") as fh:
-        #    fh.write(env.get_template('people.html').render(
-        #        h1      = 'List of people',
-        #        title   = 'List of people',
-        #        stats   = self.stats,
-        #        tags    = self.tags,
-        #        people = self.people,
-        #        people_ids = sorted(self.people.keys()),
-        #    ))
         with open(self.html + '/podcasts', 'w', encoding="utf-8") as fh:
             fh.write(env.get_template('podcasts.html').render(
                 h1      = 'List of podcasts',
@@ -799,8 +764,11 @@ class GenerateSite(object):
         """
             Go over all the files in the data/people directory and check if all the fields are in the list of valid_fields
         """
+
         valid_fields = ['name', 'github', 'twitter', 'home', 'country', 'gplus', 'nickname', 'city', 'state', 'slides', 'comment', 'topics', 'description']
         for nickname in self.people.keys():
+            if 'name' not in self.people[nickname]['info']:
+                raise Exception("file {} does not have a 'name' field".format(nickname))
             for f in self.people[nickname]['info']:
                 if f not in valid_fields:
                     raise Exception("Invlaid field '{}' in person {}".format(f, nickname))
