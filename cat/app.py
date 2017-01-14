@@ -6,6 +6,8 @@ import json
 import re
 import urllib
 
+from cat import tools
+
 catapp = Flask(__name__)
 root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
 
@@ -148,27 +150,52 @@ def blasters():
 @catapp.route("/videos")
 def videos():
     term = _term()
+    mindate = _term('mindate')
+    maxdate = _term('maxdate')
+    mintime = _term('mintime')
+    maxtime = _term('maxtime')
+    if mintime:
+        min_sec = tools.in_sec(mintime)
+    if maxtime:
+        max_sec = tools.in_sec(maxtime)
+
     cat = _read_json(root + '/html/cat.json')
     results = []
-    if term != '':
+    if term != '' or mindate or maxdate or mintime or maxtime:
         for v in cat['videos']:
-            if term in v['title'].lower():
-                results.append(v)
+            if mindate and v['recorded'] < mindate:
                 continue
-            if term in v['short_description'].lower():
-                results.append(v)
+            if maxdate and v['recorded'] > maxdate:
                 continue
-            if 'tags' in v:
-                tags = [x['link'] for x in v['tags']]
-                if term in tags:
+            if mintime and v['l'] < min_sec:
+                continue
+            if maxtime and v['l'] > max_sec:
+                continue
+            if term != '':
+                if term in v['title'].lower():
                     results.append(v)
                     continue
+                if term in v['short_description'].lower():
+                    results.append(v)
+                    continue
+                if 'tags' in v:
+                    tags = [x['link'] for x in v['tags']]
+                    if term in tags:
+                        results.append(v)
+                        continue
+            else:
+                results.append(v)
+                continue
 
     return render_template('videos.html',
         title            = 'Tech videos worth watching', 
         h1               = 'Videos',
         number_of_videos = len(cat['videos']),
         term             = term,
+        mindate          = mindate,
+        maxdate          = maxdate,
+        mintime          = mintime,
+        maxtime          = maxtime,
         videos           = results,
         people           = cat['people'],
         events           = cat['events'],
@@ -533,11 +560,11 @@ def _read(filename):
         )
 
         
-def _term():
-    term = request.args.get('term', '')
-    term = term.lower()
-    term = re.sub(r'^\s*(.*?)\s*$', r'\1', term)
-    return term
+def _term(field = 'term'):
+    value = request.args.get(field, '')
+    value = value.lower()
+    value = re.sub(r'^\s*(.*?)\s*$', r'\1', value)
+    return value
 
 def _read_json(filename):
     catapp.logger.debug("Reading '{}'".format(filename))
