@@ -69,4 +69,9 @@ class TestCat(unittest.TestCase):
         assert b'<a href="/v/jsinsa-2016/feature-toggle-a-js-app-by-charlene-tshitoka">' in rv.data
         assert b'<a href="/p/charlene-tshitoka">Charlene Tshitoka</a>' in rv.data
 
+        rv = self.app.get('/featured')
+        assert b'<a href="/v/cascadiafest-2016/sarah-meyer-javascript-minus-javascript-cascadiafest-2016">' in rv.data
+        rv = self.app.get('/featured-by-date')
+        assert b'<a href="/v/cascadiafest-2016/sarah-meyer-javascript-minus-javascript-cascadiafest-2016">' in rv.data
+
 # vim: expandtab

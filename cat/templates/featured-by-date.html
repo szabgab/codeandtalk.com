@@ -14,7 +14,7 @@
           {% for b in video.blasters %}
             {{ b }}
           {% endfor %}
-          <a href="/v/{{ video.event.nickname }}/{{ video.filename }}">{{ video.title }}</a>
+          <a href="/v/{{ video.event }}/{{ video.filename }}">{{ video.title }}</a>
         </li>
       {% endfor %}
     </ul>
