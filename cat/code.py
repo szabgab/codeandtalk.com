@@ -127,6 +127,10 @@ class GenerateSite(object):
     def save_all(self, cat):
         with open(self.html + '/cat.json', 'w', encoding="utf-8") as fh:
             json.dump(cat, fh)
+        #for e in cat.keys():
+        #    with open(self.html + '/' + e + '.json', 'w', encoding="utf-8") as fh:
+        #        json.dump(cat[e], fh)
+
 
     def read_sources(self):
         with open(self.data + '/sources.json', encoding="utf-8") as fh:
@@ -570,31 +574,12 @@ class GenerateSite(object):
                 else:
                     raise Exception("Missing people file for '{}' in {}/videos/{}/{}.json".format(s, self.data, video['event']['nickname'], video['filename']))
             video['speakers'] = speakers
-
-            tweet_video = '{} https://codeandtalk.com/v/{}/{}'.format(video['title'], video['event']['nickname'], video['filename'])
-            tw_id = video['event'].get('twitter', '')
-            if tw_id:
-                tweet_video += ' presented @' + tw_id
-            #print(v['speakers'])
-            #exit()
-            if video['speakers']:
-                for s in video['speakers']:
-                    tw_id = video['speakers'][s]['info'].get('twitter', '')
-                    if tw_id:
-                        tweet_video += ' by @' + tw_id
-
-
             if 'tags' in video:
                 for t in video['tags']:
                     p = t['link']
                     if p not in self.tags:
                         raise Exception("Missing tag '{}'".format(p))
-                        #self.tags[p] = new_tag(t)
-                    #self.tags[p]['videos'].append(video)
                     self.tags[p]['videos'] += 1
-                    if not re.search(r'-', t['link']) and len(t['link']) < 20:
-                        tweet_video += ' #' + t['link']
-            video['tweet_video'] = urllib.parse.quote(tweet_video)
 
         #print(self.featured_by_blaster)
 
@@ -771,9 +756,6 @@ class GenerateSite(object):
         env = Environment(loader=PackageLoader('cat', 'templates'))
         self.create_blaster_pages(root)
 
-        self.generate_video_pages()
-
-
         videos = []
         for v in self.videos:
             vid = copy.deepcopy(v) 
@@ -783,27 +765,6 @@ class GenerateSite(object):
             videos.append( vid )
         #with open(root + '/videos.json', 'w', encoding="utf-8") as fh:
         #    json.dump(videos, fh, sort_keys=True)
-
-    def generate_video_pages(self):
-        root = self.html 
-        env = Environment(loader=PackageLoader('cat', 'templates'))
-        video_template = env.get_template('video.html')
-        if not os.path.exists(root + '/v/'):
-            os.mkdir(root + '/v/')
-        for video in self.videos:
-            speaker_twitters = ''
-            for s in video['speakers']:
-                tw = video['speakers'][s]['info'].get('twitter')
-                if tw:
-                    speaker_twitters += ' @' + tw
-            video['speaker_twitters'] = speaker_twitters
-            if not os.path.exists(root + '/v/' + video['event']['nickname']):
-                os.mkdir(root + '/v/' + video['event']['nickname'])
-            #print(root + '/v/' + video['event'] + '/' + video['filename'])
-            #exit()
-            out_file = root + '/v/' + video['event']['nickname'] + '/' + video['filename'] + '.json'
-            with open(out_file, 'w', encoding="utf-8") as fh:
-                fh.write(json.dumps(video, sort_keys=True))
 
     def check_videos(self):
         """

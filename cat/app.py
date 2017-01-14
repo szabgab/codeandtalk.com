@@ -1,8 +1,10 @@
 from flask import Flask, render_template, redirect, abort, request, url_for, Response, jsonify
+import copy
 from datetime import datetime
 import os
 import json
 import re
+import urllib
 
 catapp = Flask(__name__)
 root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
@@ -241,19 +243,35 @@ def serve_collections():
         )
 
 
-@catapp.route("/v/<event>/<video>")
-def video(event = None, video = None):
-    path = root + '/html/v/{}/{}'.format(event, video)
-    #html_file = path + '.html'
-    data = json.loads(open(path + '.json').read())
+@catapp.route("/v/<event>/<filename>")
+def show_video(event = None, filename = None):
+    cat = _read_json(root + '/html/cat.json')
+    for video in cat['videos']:
+        if video['event'] == event and video['filename'] == filename:
+            break
+    if not video:
+        return '404'
 
-    #os.path.exists(html_file):
-    #   data['description'] = open(html_file).read()
+    speakers = []
+    speaker_twitters = ''
+
+    for s in video['speakers']:
+        p = copy.deepcopy(cat['people'][s])
+        p['nickname'] = s
+        speakers.append(p)
+        tw = p['info'].get('twitter')
+        if tw:
+            speaker_twitters += ' @' + tw
+
     return render_template('video.html',
-        h1          = data['title'],
-        title       = data['title'],
-        video       = data,
-        blasters    = data.get('blasters'),
+        h1          = video['title'],
+        title       = video['title'],
+        video       = video,
+        blasters    = video.get('blasters'),
+        events      = cat['events'],
+        speakers    = speakers,
+        speaker_twitters = speaker_twitters,
+        tweet_video = get_tweet_video(video, speakers, cat['events'][ video['event'] ]),
     )
 
 @catapp.route("/p/<person>")
@@ -525,6 +543,26 @@ def events_in_location(cat, location):
             else:
                 past.append(e)
     return name, future, past
+
+def get_tweet_video(video, speakers, event):
+    tweet_video = '{} https://codeandtalk.com/v/{}/{}'.format(video['title'], video['event'], video['filename'])
+    tw_id = event.get('twitter', '')
+    if tw_id:
+        tweet_video += ' presented @' + tw_id
+    #print(v['speakers'])
+    #exit()
+    if video['speakers']:
+        for s in speakers:
+            tw_id = s['info'].get('twitter', '')
+            if tw_id:
+                tweet_video += ' by @' + tw_id
+
+    if 'tags' in video:
+        for t in video['tags']:
+            p = t['link']
+            if not re.search(r'-', t['link']) and len(t['link']) < 20:
+                tweet_video += ' #' + t['link']
+    return urllib.parse.quote(tweet_video)
 
 
 # vim: expandtab
