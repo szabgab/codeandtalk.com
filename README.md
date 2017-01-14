@@ -48,12 +48,9 @@ TODO
 These are just ideas, not necessary something I really want to do :-)
 
 * Generate Calendar of events
-  - for each tag
-  - for each country
   - for each geographic area (e.g. Europe)
   - Shall we include the cfp deadlines or not?
 
-* serve the site from JSON files
 * improve the search for people
 * improve the search for videos
 * show number of videos in the list of people
@@ -64,9 +61,6 @@ These are just ideas, not necessary something I really want to do :-)
 Add this information to the data/series.json file Talk to the organizers and tell them why we would like to get such notifications.
 
 * Describe the use of the site.
-
-* Convert the whole site to be dynamically generated from json files.
-
 * Convert all the data files to JSON, beautify them?
 * Create skeleton for each file-type?
 
@@ -93,7 +87,6 @@ Add this information to the data/series.json file Talk to the organizers and tel
 
 * Add Facebook image code to video pages
 * Improve the UI of the web site, look at what pyvideo has nice.
-  Font Awesome
 * Link from event to other events in the series.
 
 * Another potential use of the data: Help conference and meetup organizers find potential speakers.
