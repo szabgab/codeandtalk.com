@@ -12,6 +12,7 @@ sys.path.append(root)
 from cat import tools
 
 catapp = Flask(__name__)
+catapp.config['PROPAGATE_EXCEPTIONS'] = True
 
 @catapp.route("/")
 def main():
