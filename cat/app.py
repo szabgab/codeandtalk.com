@@ -434,6 +434,34 @@ def sitemap():
     html += '</urlset>\n'
     return html
 
+@catapp.route("/s/<source>")
+def show_episodes(source):
+    cat = _read_json(root + '/html/cat.json')
+    for p in cat['podcasts']:
+        if p['name'] == source:
+            podcast = p
+            break
+    else:
+        return "404"
+    return render_template('podcast.html',
+        podcast = podcast,
+        h1     = podcast['title'],
+        title  = podcast['title'],
+    )
+
+@catapp.route("/podcasts")
+def show_podcasts():
+    cat = _read_json(root + '/html/cat.json')
+    return render_template('podcasts.html',
+       h1      = 'List of podcasts',
+       title   = 'List of podcasts',
+#       stats   = cat['stats'],
+#       tags    = cat['tags'],
+       podcasts = sorted(cat['podcasts'], key=lambda s: s['title']),
+#       people = cat['people'],
+#       people_ids = sorted(cat['people'].keys()),
+    )
+
 ### static page for the time of transition
 @catapp.route("/<filename>")
 def static_file(filename = None):
@@ -468,11 +496,6 @@ def show_blaster(nickname):
         title       = blaster['name'] + ' Blaster',
         blaster     = blaster,
     )
-
-@catapp.route("/s/<source>")
-def html(source = None, location = None):
-    if source:
-        return _read(root + '/html/s/' + source)
 
 ###### Helper functions
 

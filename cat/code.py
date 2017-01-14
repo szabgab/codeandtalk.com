@@ -97,6 +97,10 @@ class GenerateSite(object):
     def generate_site(self):
         self.read_all()
 
+        self.stats['podcasts'] = len(self.sources)
+        self.stats['people']   = len(self.people)
+        self.stats['episodes'] = sum(len(x['episodes']) for x in self.sources)
+
         self.check_people()
         self.check_videos()
 
@@ -115,12 +119,12 @@ class GenerateSite(object):
             shutil.rmtree(self.html)
         shutil.copytree('src', self.html)
 
-        self.generate_podcast_pages()
         #self.save_search()
 
         cat['tags']  = copy.deepcopy(self.tags)
         cat['stats'] = copy.deepcopy(self.stats)
         cat['series'] = copy.deepcopy(self.series)
+        cat['podcasts'] = copy.deepcopy(self.sources)
         self.save_all(cat)
 
     def save_all(self, cat):
@@ -654,38 +658,6 @@ class GenerateSite(object):
         self.stats['a11y_future_perc'] = int(100 * self.stats['has_a11y_future'] / self.stats['future'])
 
         return
-
-    def generate_podcast_pages(self):
-        env = Environment(loader=PackageLoader('cat', 'templates'))
-
-        source_template = env.get_template('podcast.html')
-        if not os.path.exists(self.html + '/s/'):
-            os.mkdir(self.html + '/s/')
-        for s in self.sources:
-            try:
-                with open(self.html + '/s/' + s['name'], 'w', encoding="utf-8") as fh:
-                    fh.write(source_template.render(
-                        podcast = s,
-                        h1     = s['title'],
-                        title  = s['title'],
-                    ))
-            except Exception as e:
-                print("ERROR 7: {}".format(e))
-
-        self.stats['podcasts'] = len(self.sources)
-        self.stats['people']   = len(self.people)
-        self.stats['episodes'] = sum(len(x['episodes']) for x in self.sources)
-
-        with open(self.html + '/podcasts', 'w', encoding="utf-8") as fh:
-            fh.write(env.get_template('podcasts.html').render(
-                h1      = 'List of podcasts',
-                title   = 'List of podcasts',
-                stats   = self.stats,
-                tags    = self.tags,
-                podcasts = sorted(self.sources, key=lambda x: x['title']),
-                people = self.people,
-                people_ids = sorted(self.people.keys()),
-             ))
 
     def save_search(self):
         for p in self.people_search:
