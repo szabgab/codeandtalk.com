@@ -349,10 +349,14 @@ def by_tag(tag):
         cal         = 't/{}.ics'.format(tag),
     )
 
+# event
 @catapp.route("/e/<nickname>")
 def event(nickname):
     cat = _read_json(root + '/html/cat.json')
-    event = cat['events'][nickname]
+    event = copy.deepcopy(cat['events'][nickname])
+    if 'youtube' in event and event['youtube'] == '-':
+        event['youtube'] = None
+
     return render_template('event.html',
         h1    = event['name'],
         title = event['name'],

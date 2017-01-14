@@ -591,8 +591,6 @@ class GenerateSite(object):
 
         for nickname in self.events.keys():
             event = self.events[nickname]
-            if 'youtube' in event and event['youtube'] == '-':
-                event['youtube'] = None
 
 
             if event['nickname'] in self.event_videos:
