@@ -6,6 +6,7 @@ import json
 import os
 import re
 import urllib
+import sys
 import shutil
 #import string
 from jinja2 import Environment, PackageLoader
@@ -125,9 +126,10 @@ class GenerateSite(object):
     def save_all(self, cat):
         with open(self.html + '/cat.json', 'w', encoding="utf-8") as fh:
             json.dump(cat, fh)
-        #for e in cat.keys():
-        #    with open(self.html + '/' + e + '.json', 'w', encoding="utf-8") as fh:
-        #        json.dump(cat[e], fh)
+        if len(sys.argv) > 1:
+            for e in cat.keys():
+                with open(self.html + '/' + e + '.json', 'w', encoding="utf-8") as fh:
+                    json.dump(cat[e], fh)
 
 
     def read_sources(self):
