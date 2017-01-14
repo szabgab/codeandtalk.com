@@ -2,25 +2,20 @@
 import json
 import glob
 import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from cat import tools
 
 # TODO: allow me to list only videos with speakers and/or only videos without speaker
 
-def _in_sec(length):
-    parts = [int(x) for x in length.split(':')]
-    sec = 0
-    #print(parts)
-    while len(parts) > 0:
-        sec *= 60
-        sec += parts.pop(0)
-    return sec
-
 def main():
     if len(sys.argv) == 2:
-        max_length = _in_sec(sys.argv[1])
+        max_length = tools.in_sec(sys.argv[1])
         min_length = 0;
     elif len(sys.argv) == 3:
-        min_length = _in_sec(sys.argv[1])
-        max_length = _in_sec(sys.argv[2])
+        min_length = tools.in_sec(sys.argv[1])
+        max_length = tools.in_sec(sys.argv[2])
     else:
         exit("{} MM::SS [MM::SS]".format(sys.argv[0]))
 
@@ -38,7 +33,7 @@ def main():
                 continue
 
             if 'length' in video:
-                sec = _in_sec(video['length'])
+                sec = tools.in_sec(video['length'])
                 if min_length < sec < max_length:
                     videos.append({
                         'filename': video_file,

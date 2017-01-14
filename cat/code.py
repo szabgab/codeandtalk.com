@@ -10,6 +10,8 @@ import sys
 #import string
 from jinja2 import Environment, PackageLoader
 
+from cat import tools
+
 def topic2path(tag):
     t = tag.lower()
     tr = {
@@ -34,6 +36,7 @@ def html2txt(html):
     #text = re.sub(r'<a\s+href="[^"]+">([^<]+)</a>', '$1', html)
     text = re.sub(r'</?[^>]+>', '', html)
     return text
+
 
 def new_tag(t):
     return {
@@ -383,6 +386,11 @@ class GenerateSite(object):
                     except Exception as e:
                         exit("There was an exception reading {}\n{}".format(video_file_path, e))
 
+                # Make sure we have a length field
+                if 'length' not in video:
+                    raise Exception("Video {}/{}.json was featured but has no length".format(video['event']['nickname'], video['filename']))
+                video['l'] = tools.in_sec(video['length'])
+
                 if 'tags' in video:
                     tags = []
                     for t in video['tags']:
@@ -493,9 +501,6 @@ class GenerateSite(object):
             blasters = video.get('blasters', [])
             if featured:
 
-                # Make sure we have a length field
-                if 'length' not in video:
-                    raise Exception("Video {}/{}.json was featured but has no length".format(video['event']['nickname'], video['filename']))
                 class_name = ''
                 if video['featured'] == self.now:
                     class_name = 'today_feature'
@@ -674,7 +679,7 @@ class GenerateSite(object):
         """
 
         valid_fields = ['title', 'thumbnail_url', 'tags', 'recorded', 'description', 'videos', 'speakers', 'abstract', 'slides', 'language', 'featured', 'length', 'blasters',
-            'views', 'likes', 'favorite', 'skipped']
+            'views', 'likes', 'favorite', 'skipped', 'l']
         valid_fields.extend(['filename', 'event', 'file_date']) # generated fields
         required_fields = ['title', 'recorded']
         valid_languages = ["Hebrew", "Dutch", "Spanish", "Portuguese", "German"]
