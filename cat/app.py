@@ -5,11 +5,13 @@ import os
 import json
 import re
 import urllib
+import sys
 
+root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
+sys.path.append(root)
 from cat import tools
 
 catapp = Flask(__name__)
-root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
 
 @catapp.route("/")
 def main():
