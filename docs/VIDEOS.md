@@ -107,23 +107,15 @@ has not been added yet:
 * rubyfuza-2014
 * front-trends-2015
 * react-conf-2015
-* linuxfest-northwest-2015
-* opensourcebridge-2015
-* fullstackfest-2015
-* seleniumconf-usa-2015
-* rubyconf-taiwan-2015
-* apachebigdata-europe-2015
+* linuxfest-northwest-2015 - (Here has only 6 json file, but huge lecture in website)
+* rubyconf-taiwan-2015 - (Use Mandarin Language)
 * nordicjs-2014
-* zendcon-2015
 * fisl-17
 * london-perl-workshop-2014
-* libreplanet-2015
+* libreplanet-2015 - (same as 2016)
 * libreplanet-2016 - there are only 5 json files, but in the website https://libreplanet.org/2016/program/grid-schedule.html
 * german-perl-workshop-2016 - schedule Don't match with json talk Link: http://act.yapc.eu/gpw2016/index.html
-* cssconf-asia-2015
 * cssconf-budapest-2016 - Here has a single file but see this link: http://cssconfbp.rocks/schedule.html
-* cssconf-eu-2015
-* jsconf-asia-2015
 * drupalsouth-2014
 * grazer-linuxtage-2013
 * grazer-linuxtage-2014
