@@ -47,6 +47,8 @@ TODO
 
 These are just ideas, not necessary something I really want to do :-)
 
+* check if there is 'view' and 'like' in the video files, not just 'length'.
+
 * Generate Calendar of events
   - for each geographic area (e.g. Europe)
   - Shall we include the cfp deadlines or not?
