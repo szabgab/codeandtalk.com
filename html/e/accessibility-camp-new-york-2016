@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Accessibility Camp New York 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Accessibility Camp New York 2016</h1>
+
+<div><a href="http://a11ynyc.com/camp/">Accessibility Camp New York 2016</a></div>
+
+
+<div>Start date: 2016-09-17</div>
+<div>End date: 2016-09-17</div>
+
+<div>Location:
+  New York
+  New York
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://a11ynyc.com/camp/codeconduct.html">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/accessibility">accessibility</a> 
+   
+       <a href="/t/a11y">a11y</a> 
+   
+</div>
+
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Accessibility%20Camp%20New%20York%202016%20on%202016-09-17%20in%20New%20York%2C%20New%20York%20USA%20http%3A//a11ynyc.com/camp/%20%23accessibility%20%23a11y%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/accessibility-camp-new-york-2016/01-luke-swarthout-three-stories-about-the-digital-divide"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yU2jrAoBA0A/hqdefault.jpg" alt="Three Stories about the Digital Divide" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/accessibility-camp-new-york-2016/01-luke-swarthout-three-stories-about-the-digital-divide">Three Stories about the Digital Divide</a></h4>
+          <footer>
+            <div class="recorded">2016-09-17</div>
+			
+			  <div>Length: 18:40</div>
+			
+			
+            <div class="event">From <a href="/e/accessibility-camp-new-york-2016">Accessibility Camp New York 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luke-swarthout">Luke Swarthout</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/accessibility-camp-new-york-2016/02-robert-bernstein-girls-education-and-disabilities"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1g2JXw-Sl_8/hqdefault.jpg" alt="Girls Education and Disabilities" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/accessibility-camp-new-york-2016/02-robert-bernstein-girls-education-and-disabilities">Girls Education and Disabilities</a></h4>
+          <footer>
+            <div class="recorded">2016-09-17</div>
+			
+			  <div>Length: 11:14</div>
+			
+			
+            <div class="event">From <a href="/e/accessibility-camp-new-york-2016">Accessibility Camp New York 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robert-bernstein">Robert Bernstein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/accessibility-camp-new-york-2016/03-mark-surabian-assistive-technology-solutions-for-increasing-learner-independence"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SPZ9Nut5Oq0/hqdefault.jpg" alt="Assistive Technology: Solutions for Increasing Learner Independence" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/accessibility-camp-new-york-2016/03-mark-surabian-assistive-technology-solutions-for-increasing-learner-independence">Assistive Technology: Solutions for Increasing Learner Independence</a></h4>
+          <footer>
+            <div class="recorded">2016-09-17</div>
+			
+			  <div>Length: 32:34</div>
+			
+			
+              <div>Views: 19 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/accessibility-camp-new-york-2016">Accessibility Camp New York 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-surabian">Mark Surabian</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/accessibility-camp-new-york-2016/04-erica-zelmanowicz-common-accessibility-mistakes-and-how-to-avoid-them"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cVFb6cEYTO0/hqdefault.jpg" alt="Common Accessibility Mistakes (and how to avoid them)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/accessibility-camp-new-york-2016/04-erica-zelmanowicz-common-accessibility-mistakes-and-how-to-avoid-them">Common Accessibility Mistakes (and how to avoid them)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-17</div>
+			
+			  <div>Length: 22:40</div>
+			
+			
+              <div>Views: 36 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/accessibility-camp-new-york-2016">Accessibility Camp New York 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/erica-zelmanowicz">Erica Zelmanowicz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/accessibility-camp-new-york-2016/05-adina-halter-holy-grail-patterns"><img class="list-thumbnail" src="https://i.ytimg.com/vi/33tvdXHPbuY/hqdefault.jpg" alt="Holy Grail Patterns - Accessible Bar Charts and Autocomplete" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/accessibility-camp-new-york-2016/05-adina-halter-holy-grail-patterns">Holy Grail Patterns - Accessible Bar Charts and Autocomplete</a></h4>
+          <footer>
+            <div class="recorded">2016-09-17</div>
+			
+			  <div>Length: 34:31</div>
+			
+			
+              <div>Views: 44 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/accessibility-camp-new-york-2016">Accessibility Camp New York 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adina-halter">Adina Halter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/accessibility-camp-new-york-2016/06-luis-garcia-accessibility-tools-crash-course"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OoF8BUww3A8/hqdefault.jpg" alt="Accessibility Tools Crash Course" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/accessibility-camp-new-york-2016/06-luis-garcia-accessibility-tools-crash-course">Accessibility Tools Crash Course</a></h4>
+          <footer>
+            <div class="recorded">2016-09-17</div>
+			
+			  <div>Length: 28:54</div>
+			
+			
+              <div>Views: 56 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/accessibility-camp-new-york-2016">Accessibility Camp New York 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luis-garcia">Luis Garcia</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/accessibility-camp-new-york-2016/07-phoebe-fico-access-your-humanity"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G3zSJTco_Ms/hqdefault.jpg" alt="Access Your Humanity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/accessibility-camp-new-york-2016/07-phoebe-fico-access-your-humanity">Access Your Humanity</a></h4>
+          <footer>
+            <div class="recorded">2016-09-17</div>
+			
+			  <div>Length: 28:35</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/accessibility-camp-new-york-2016">Accessibility Camp New York 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/phoebe-fico">Phoebe Fico</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/accessibility-camp-new-york-2016/08-michele-friedner-and-jamie-osborne-accessing-the-black-box-of-accessibility"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uGFOkxQjfBQ/hqdefault.jpg" alt="Accessing the Black Box of Accessibility?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/accessibility-camp-new-york-2016/08-michele-friedner-and-jamie-osborne-accessing-the-black-box-of-accessibility">Accessing the Black Box of Accessibility?</a></h4>
+          <footer>
+            <div class="recorded">2016-09-17</div>
+			
+			  <div>Length: 37:9</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/accessibility-camp-new-york-2016">Accessibility Camp New York 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michele-friedner">Michele Friedner</a>
+             
+                <a href="/p/jamie-osborne">Jamie Osborne</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/accessibility-camp-new-york-2016/09-patrick-smyth-blind-hackers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/W8_O3joo4aU/hqdefault.jpg" alt="Blind Hackers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/accessibility-camp-new-york-2016/09-patrick-smyth-blind-hackers">Blind Hackers</a></h4>
+          <footer>
+            <div class="recorded">2016-09-17</div>
+			
+			  <div>Length: 31:32</div>
+			
+			
+              <div>Views: 61 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/accessibility-camp-new-york-2016">Accessibility Camp New York 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patrick-smyth">Patrick Smyth</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/accessibility-camp-new-york-2016/10-whitney-quesenbery-accessible-elections-design-for-democracy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cUlCpLPWeho/hqdefault.jpg" alt="Accessible elections (design for democracy)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/accessibility-camp-new-york-2016/10-whitney-quesenbery-accessible-elections-design-for-democracy">Accessible elections (design for democracy)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-17</div>
+			
+			  <div>Length: 36:26</div>
+			
+			
+              <div>Views: 14 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/accessibility-camp-new-york-2016">Accessibility Camp New York 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/whitney-quesenbery">Whitney Quesenbery</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/accessibility-camp-new-york-2016/11-thomas-cameron-closing-remarks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LgOrh3cMiH8/hqdefault.jpg" alt="Closing remarks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/accessibility-camp-new-york-2016/11-thomas-cameron-closing-remarks">Closing remarks</a></h4>
+          <footer>
+            <div class="recorded">2016-09-17</div>
+			
+			  <div>Length: 03:29</div>
+			
+			
+              <div>Views: 9 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/accessibility-camp-new-york-2016">Accessibility Camp New York 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-logan">Thomas Logan</a>
+             
+                <a href="/p/cameron-cundiff">Cameron Cundiff</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL5HfShxoX0vse1_Vlw5Xlu5Ob0LpO1_W6">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

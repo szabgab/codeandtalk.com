@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Frontend Conference Zurich 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Frontend Conference Zurich 2015</h1>
+
+<div><a href="https://frontendconf.ch/">Frontend Conference Zurich 2015</a></div>
+
+
+<div>Start date: 2015-08-27</div>
+<div>End date: 2015-08-28</div>
+
+<div>Location:
+  Zurich
+  
+  <a href="/l/switzerland">Switzerland</a>
+</div>
+
+<div><a href="https://frontendconf.ch/about/code-of-conduct/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/frontendconfch">@frontendconfch</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/frontendconf.ch">https://www.facebook.com/frontendconf.ch</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Frontend%20Conference%20Zurich%202015%20on%202015-08-27%20in%20Zurich%2C%20%20Switzerland%20%40frontendconfch%20https%3A//frontendconf.ch/%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/about-frontend-conference-zurich"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eDR7c5-0-x0/hqdefault.jpg" alt="About Frontend Conference Zurich" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/about-frontend-conference-zurich">About Frontend Conference Zurich</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 02:44</div>
+			
+			
+              <div>Views: 502 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/bye-bye-closing-session-thank-you"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QVb1yRlKvcA/hqdefault.jpg" alt="Bye bye – Closing session, thank you" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/bye-bye-closing-session-thank-you">Bye bye – Closing session, thank you</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 04:54</div>
+			
+			
+              <div>Views: 62 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/charles-mccathie-nevile-svg-accessibility"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ivTbt5HE6Bw/hqdefault.jpg" alt="SVG Accessibility" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/charles-mccathie-nevile-svg-accessibility">SVG Accessibility</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 46:16</div>
+			
+			
+              <div>Views: 149 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/charles-mccathie-nevile">Charles McCathie Nevile</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/edward-oriordan-a-year-designing-with-data"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rauAruHa_Tc/hqdefault.jpg" alt="A year designing with data" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/edward-oriordan-a-year-designing-with-data">A year designing with data</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 35:55</div>
+			
+			
+              <div>Views: 180 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/edward-oriordan">Edward O\u2019Riordan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/eric-m-suzanne-sassy-toolkits"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9w0pgUTYy5k/hqdefault.jpg" alt="Sassy Toolkits" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/eric-m-suzanne-sassy-toolkits">Sassy Toolkits</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 41:45</div>
+			
+			
+              <div>Views: 210 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eric-m-suzanne">Eric M. Suzanne</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/eric-muntz-simple-processes-to-ensure-users-trust-your-applications"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zJ9VzZXloC0/hqdefault.jpg" alt="Eric Muntz – Simple processes to ensure users trust your applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/eric-muntz-simple-processes-to-ensure-users-trust-your-applications">Eric Muntz – Simple processes to ensure users trust your applications</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 47:05</div>
+			
+			
+              <div>Views: 89 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eric-muntz">Eric Muntz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/erik-runyon-taking-the-web-offline"><img class="list-thumbnail" src="https://i.ytimg.com/vi/V6YsCqUw_VU/hqdefault.jpg" alt="Taking the Web Offline" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/erik-runyon-taking-the-web-offline">Taking the Web Offline</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 46:33</div>
+			
+			
+              <div>Views: 56 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/erik-runyon">Erik Runyon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/fec15-speaker-feedback"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GXx2BmSwudM/hqdefault.jpg" alt="FEC15 Speaker Feedback" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/fec15-speaker-feedback">FEC15 Speaker Feedback</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 02:37</div>
+			
+			
+              <div>Views: 93 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/felix-palmer-how-to-build-photoshop-webgl-not-just-for-3d"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xSy5i_ELe18/hqdefault.jpg" alt="How to build Photoshop – WebGL not just for 3D" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/felix-palmer-how-to-build-photoshop-webgl-not-just-for-3d">How to build Photoshop – WebGL not just for 3D</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 51:55</div>
+			
+			
+              <div>Views: 116 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/felix-palmer">Felix Palmer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/flurin-adrian-egger-clear-cache-refresh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5ZALROKxjgs/hqdefault.jpg" alt="Flurin & Adrian Egger – Clear cache & refresh" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/flurin-adrian-egger-clear-cache-refresh">Flurin & Adrian Egger – Clear cache & refresh</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 50:35</div>
+			
+			
+              <div>Views: 139 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/hugo-giraudel-3-years-of-purging-sass"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7jMviVyCUl4/hqdefault.jpg" alt="3 years of purging Sass" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/hugo-giraudel-3-years-of-purging-sass">3 years of purging Sass</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 44:07</div>
+			
+			
+              <div>Views: 326 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hugo-giraudel">Hugo Giraudel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/jonathan-snook-modular-css-breaking-it-down-and-building-it-back-up"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h9ZX_qmWt6s/hqdefault.jpg" alt="Modular CSS: Breaking it down and building it back up" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/jonathan-snook-modular-css-breaking-it-down-and-building-it-back-up">Modular CSS: Breaking it down and building it back up</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 49:47</div>
+			
+			
+              <div>Views: 933 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jonathan-snook">Jonathan Snook</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/kevin-m-hoffman-responsive-reorganization-better-collaboration-through-responsible-web-design"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LpmFVbNcLnE/hqdefault.jpg" alt="Responsive Reorganization: Better Collaboration Through Responsible Web Design" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/kevin-m-hoffman-responsive-reorganization-better-collaboration-through-responsible-web-design">Responsive Reorganization: Better Collaboration Through Responsible Web Design</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 47:34</div>
+			
+			
+              <div>Views: 84 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kevin-m-hoffman">Kevin M. Hoffman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/laura-kalbag-ethical-design"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bzlLL_uAdkI/hqdefault.jpg" alt="Ethical Design" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/laura-kalbag-ethical-design">Ethical Design</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 33:46</div>
+			
+			
+              <div>Views: 540 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/laura-kalbag">Laura Kalbag</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/leonie-watson-accessibility-mechanics-apis-and-aria"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lwr-qhV6Gjo/hqdefault.jpg" alt="Accessibility mechanics, APIs and ARIA" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/leonie-watson-accessibility-mechanics-apis-and-aria">Accessibility mechanics, APIs and ARIA</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 47:31</div>
+			
+			
+              <div>Views: 250 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/leonie-watson">Léonie Watson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/lightning-talks-room-1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BC975EVJLA4/hqdefault.jpg" alt="Lightning Talks – Room 1" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/lightning-talks-room-1">Lightning Talks – Room 1</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 23:00</div>
+			
+			
+              <div>Views: 40 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/lightning-talks-room-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vo2a5jMphPY/hqdefault.jpg" alt="Lightning Talks – Room 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/lightning-talks-room-2">Lightning Talks – Room 2</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 26:20</div>
+			
+			
+              <div>Views: 38 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/martin-gontovnikas-rethinking-backend-with-webtasks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DukgTZu9HlA/hqdefault.jpg" alt="Rethinking backend with webtasks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/martin-gontovnikas-rethinking-backend-with-webtasks">Rethinking backend with webtasks</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 43:53</div>
+			
+			
+              <div>Views: 175 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/martin-gontovnikas">Martin Gontovnikas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/nick-niles-command-line-magic-for-designers-an-intro-to-front-end-tooling"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PGGFy4QqO58/hqdefault.jpg" alt="Command Line Magic For Designers: An Intro To Front End Tooling" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/nick-niles-command-line-magic-for-designers-an-intro-to-front-end-tooling">Command Line Magic For Designers: An Intro To Front End Tooling</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 46:37</div>
+			
+			
+              <div>Views: 349 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-niles">Nick Niles</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/patty-toland-design-consistency-for-the-responsive-web"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1916NNt5pYs/hqdefault.jpg" alt="Design Consistency for the Responsive Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/patty-toland-design-consistency-for-the-responsive-web">Design Consistency for the Responsive Web</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 46:38</div>
+			
+			
+              <div>Views: 186 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patty-toland">Patty Toland</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/paul-verbeek-an-introduction-to-ecmascript-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mr3E32M3zaA/hqdefault.jpg" alt="An Introduction to ECMAScript 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/paul-verbeek-an-introduction-to-ecmascript-2015">An Introduction to ECMAScript 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 38:07</div>
+			
+			
+              <div>Views: 481 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-verbeek">Paul Verbeek</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/thomas-jaggi-olga-skurativska-2015-a-static-site-generator-odyssey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Jquf0elef9w/hqdefault.jpg" alt="2015: A Static Site Generator Odyssey" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/thomas-jaggi-olga-skurativska-2015-a-static-site-generator-odyssey">2015: A Static Site Generator Odyssey</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 45:12</div>
+			
+			
+              <div>Views: 290 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/olga-skurativska">Olga Skurativska</a>
+             
+                <a href="/p/thomas-jaggi">Thomas Jaggi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/tim-holman-fun-with-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PdaDkfyfGtE/hqdefault.jpg" alt="Fun with Javascript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/tim-holman-fun-with-javascript">Fun with Javascript</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 40:06</div>
+			
+			
+              <div>Views: 461 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-holman">Tim Holman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/umar-hansa-devtools-an-animated-journey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aoAfW_zCnm0/hqdefault.jpg" alt="DevTools: An animated journey" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/umar-hansa-devtools-an-animated-journey">DevTools: An animated journey</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 48:25</div>
+			
+			
+              <div>Views: 254 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/umar-hansa">Umar Hansa</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/vasilis-van-gemert-look-no-mediaqueries"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zdI2Z64Jdw8/hqdefault.jpg" alt="Vasilis van Gemert – Look, no mediaqueries!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/vasilis-van-gemert-look-no-mediaqueries">Vasilis van Gemert – Look, no mediaqueries!</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 47:18</div>
+			
+			
+              <div>Views: 1326 Likes: 36</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vasilis-van-gemert">Vasilis van Gemert</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/vitaly-friedman-improving-web-fonts-performance"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VMHUNjCD5W8/hqdefault.jpg" alt="Improving Web Fonts Performance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/vitaly-friedman-improving-web-fonts-performance">Improving Web Fonts Performance</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 50:25</div>
+			
+			
+              <div>Views: 330 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vitaly-friedman">Vitaly Friedman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontendconf-ch-2015/vitaly-friedman-smart-ecommerce-checkout-design-patterns"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GeskUz-oAyU/hqdefault.jpg" alt="Smart eCommerce Checkout Design Patterns" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontendconf-ch-2015/vitaly-friedman-smart-ecommerce-checkout-design-patterns">Smart eCommerce Checkout Design Patterns</a></h4>
+          <footer>
+            <div class="recorded">2015-08-27</div>
+			
+			  <div>Length: 54:59</div>
+			
+			
+              <div>Views: 376 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/frontendconf-ch-2015">Frontend Conference Zurich 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vitaly-friedman">Vitaly Friedman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL9r1NcXXuHk-G2CrlJ7SZJVwJ5crlP_Sb">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Clojure West 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Clojure West 2015</h1>
+
+<div><a href="http://clojurewest.org/speakers-2015">Clojure West 2015</a></div>
+
+
+<div>Start date: 2015-04-20</div>
+<div>End date: 2015-04-22</div>
+
+<div>Location:
+  Portland
+  Oregon
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://clojurewest.org/policies">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/clojure">Clojure</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/ClojureWest">@ClojureWest</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Clojure%20West%202015%20on%202015-04-20%20in%20Portland%2C%20Oregon%20USA%20%40ClojureWest%20http%3A//clojurewest.org/speakers-2015%20%23Clojure%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/alan-dipert-micha-niskin-boot-can-built-it"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TcnzB2tB-8Q/hqdefault.jpg" alt="Boot Can Built It" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/alan-dipert-micha-niskin-boot-can-built-it">Boot Can Built It</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 38:27</div>
+			
+			
+              <div>Views: 2987 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alan-dipert">Alan Dipert</a>
+             
+                <a href="/p/micha-niskin">Micha Niskin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/alex-miller-david-nolen-clojure-and-clojurescript-update"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NvF-GZI20L4/hqdefault.jpg" alt="Clojure and ClojureScript Update" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/alex-miller-david-nolen-clojure-and-clojurescript-update">Clojure and ClojureScript Update</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 54:36</div>
+			
+			
+              <div>Views: 8928 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-miller">Alex Miller</a>
+             
+                <a href="/p/david-nolen">David Nolen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/anthony-marcar-clojure-at-scale-walmartlabs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/av9Xi6CNqq4/hqdefault.jpg" alt="Clojure At Scale @WalmartLabs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/anthony-marcar-clojure-at-scale-walmartlabs">Clojure At Scale @WalmartLabs</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 39:41</div>
+			
+			
+              <div>Views: 12967 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anthony-marcar">Anthony Marcar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/boris-kourtoukov-clojure-sound-and-wearable-tech"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aWPQq4NJgfg/hqdefault.jpg" alt="Clojure, Sound, and Wearable Tech" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/boris-kourtoukov-clojure-sound-and-wearable-tech">Clojure, Sound, and Wearable Tech</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 17:24</div>
+			
+			
+              <div>Views: 1043 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/boris-kourtoukov">Boris Kourtoukov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/brandon-bloom-building-circlecis-front-end-with-om"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LNtQPSUi1iQ/hqdefault.jpg" alt="Building CircleCI's Front end With Om" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/brandon-bloom-building-circlecis-front-end-with-om">Building CircleCI's Front end With Om</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 29:38</div>
+			
+			
+              <div>Views: 7007 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brandon-bloom">Brandon Bloom</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/bruce-hauman-developing-clojurescript-with-figwheel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/j-kj2qwJa_E/hqdefault.jpg" alt="Developing ClojureScript With Figwheel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/bruce-hauman-developing-clojurescript-with-figwheel">Developing ClojureScript With Figwheel</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 45:31</div>
+			
+			
+              <div>Views: 28245 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bruce-hauman">Bruce Hauman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/christopher-small-how-clojure-saved-my-chickens"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0EQMrpZb7-Y/hqdefault.jpg" alt="How Clojure Saved My Chickens" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/christopher-small-how-clojure-saved-my-chickens">How Clojure Saved My Chickens</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 23:43</div>
+			
+			
+              <div>Views: 2142 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christopher-small">Christopher Small</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/colin-fleming-debugging-clojure-code-wtih-cursive"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ql77RwhcCK0/hqdefault.jpg" alt="Debugging Clojure Code Wtih Cursive" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/colin-fleming-debugging-clojure-code-wtih-cursive">Debugging Clojure Code Wtih Cursive</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 41:14</div>
+			
+			
+              <div>Views: 4980 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/colin-fleming">Colin Fleming</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/dan-lidral-porter-generating-art-in-many-worlds"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vLlbEZt-3j0/hqdefault.jpg" alt="Generating Art In Many Worlds" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/dan-lidral-porter-generating-art-in-many-worlds">Generating Art In Many Worlds</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 16:36</div>
+			
+			
+              <div>Views: 3022 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-lidral-porter">Dan Lidral Porter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/elango-cheran-exploring-programming-clojure-in-other-human-languages"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MqjMZNwnYCY/hqdefault.jpg" alt="Exploring Programming Clojure In Other Human Languages" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/elango-cheran-exploring-programming-clojure-in-other-human-languages">Exploring Programming Clojure In Other Human Languages</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 17:13</div>
+			
+			
+              <div>Views: 1567 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/elango-cheran">Elango Cheran</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/elena-machkasova-adapting-clojure-to-an-intro-cs-classroom"><img class="list-thumbnail" src="https://i.ytimg.com/vi/k5erDyDPzgc/hqdefault.jpg" alt="Adapting Clojure to an Intro CS Classroom" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/elena-machkasova-adapting-clojure-to-an-intro-cs-classroom">Adapting Clojure to an Intro CS Classroom</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 40:56</div>
+			
+			
+              <div>Views: 2344 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/elena-machkasova">Elena Machkasova</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/fumiko-hanreich-honeysql"><img class="list-thumbnail" src="https://i.ytimg.com/vi/alkcjyhesjI/hqdefault.jpg" alt="HoneySQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/fumiko-hanreich-honeysql">HoneySQL</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 29:30</div>
+			
+			
+              <div>Views: 2430 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fumiko-hanreich">Fumiko Hanreich</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/gary-fredericks-purely-random"><img class="list-thumbnail" src="https://i.ytimg.com/vi/u0t-6lUvXHo/hqdefault.jpg" alt="Purely Random" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/gary-fredericks-purely-random">Purely Random</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 38:05</div>
+			
+			
+              <div>Views: 1684 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gary-fredericks">Gary Fredericks</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/james-macaulay-composing-interactive-apps-with-zelkova"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rOKOCAkHNYw/hqdefault.jpg" alt="Composing Interactive Apps With Zelkova" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/james-macaulay-composing-interactive-apps-with-zelkova">Composing Interactive Apps With Zelkova</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 41:37</div>
+			
+			
+              <div>Views: 2517 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-macaulay">James MacAulay</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/jeanine-adkisson-design-and-prototype-a-language-in-clojure"><img class="list-thumbnail" src="https://i.ytimg.com/vi/i1KVwoE3n28/hqdefault.jpg" alt="Design and Prototype a Language In Clojure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/jeanine-adkisson-design-and-prototype-a-language-in-clojure">Design and Prototype a Language In Clojure</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 34:37</div>
+			
+			
+              <div>Views: 3618 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeanine-adkisson">Jeanine Adkisson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/john-hume-life-of-a-clojure-expression"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6DaBmz_6y0s/hqdefault.jpg" alt="Life of a Clojure Expression" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/john-hume-life-of-a-clojure-expression">Life of a Clojure Expression</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 40:08</div>
+			
+			
+              <div>Views: 5303 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-hume">John Hume</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/leon-barrett-clojure-parallelism-beyond-futures"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BzKjIk0vgzE/hqdefault.jpg" alt="Clojure Parallelism Beyond Futures" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/leon-barrett-clojure-parallelism-beyond-futures">Clojure Parallelism Beyond Futures</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 30:40</div>
+			
+			
+              <div>Views: 2924 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/leon-barrett">Leon Barrett</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/luke-vanderhart-the-reactjs-landscape"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oRmj3IUkRVk/hqdefault.jpg" alt="The ReactJS Landscape" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/luke-vanderhart-the-reactjs-landscape">The ReactJS Landscape</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 41:04</div>
+			
+			
+              <div>Views: 5330 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luke-vanderhart">Luke VanderHart</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/melanie-mitchell-visual-situation-recognition"><img class="list-thumbnail" src="https://i.ytimg.com/vi/I1ay-iwk2sI/hqdefault.jpg" alt="Visual Situation Recognition" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/melanie-mitchell-visual-situation-recognition">Visual Situation Recognition</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 54:37</div>
+			
+			
+              <div>Views: 2989 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/melanie-mitchell">Melanie Mitchell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/morgan-mullaney-well-i-wouldnt-want-to-make-a-dysfunctional-game"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TDDJsKLUh1Y/hqdefault.jpg" alt="Well I Wouldn't Want To Make a *Dys*functional Game" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/morgan-mullaney-well-i-wouldnt-want-to-make-a-dysfunctional-game">Well I Wouldn't Want To Make a *Dys*functional Game</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 18:18</div>
+			
+			
+              <div>Views: 2594 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/morgan-mullaney">Morgan Mullaney</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/nathan-sorenson-domain-specific-type-systems"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gY0H0KVc_h0/hqdefault.jpg" alt="Domain Specific Type Systems" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/nathan-sorenson-domain-specific-type-systems">Domain Specific Type Systems</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 40:06</div>
+			
+			
+              <div>Views: 2850 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nathan-sorenson">Nathan Sorenson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/nathaniel-smith-ruth-linehan-intro-to-trapperkeeper"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IniU7pF5-vs/hqdefault.jpg" alt="Intro to Trapperkeeper" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/nathaniel-smith-ruth-linehan-intro-to-trapperkeeper">Intro to Trapperkeeper</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 39:05</div>
+			
+			
+              <div>Views: 1298 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ruth-linehan">Ruth Linehan</a>
+             
+                <a href="/p/nathaniel-smith">Nathaniel Smith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/priyatam-mudivarti-responsive-grid-with-garden-cljs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-jnJGNDoSXc/hqdefault.jpg" alt="Responsive Grid with Garden CLJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/priyatam-mudivarti-responsive-grid-with-garden-cljs">Responsive Grid with Garden CLJS</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 37:53</div>
+			
+			
+              <div>Views: 2881 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/priyatam-mudivarti">Priyatam Mudivarti</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/robert-krahn-programming-clojure-smalltalk-style"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qQvvgzvPgQI/hqdefault.jpg" alt="Programming Clojure, Smalltalk-Style" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/robert-krahn-programming-clojure-smalltalk-style">Programming Clojure, Smalltalk-Style</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 39:40</div>
+			
+			
+              <div>Views: 2944 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robert-krahn">Robert Krahn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/ron-toland-staying-safe-a-foundation-for-clojure-apps"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aChlrpZ90hA/hqdefault.jpg" alt="Staying SAFE: A Foundation for Clojure Apps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/ron-toland-staying-safe-a-foundation-for-clojure-apps">Staying SAFE: A Foundation for Clojure Apps</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 37:51</div>
+			
+			
+              <div>Views: 1542 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ron-toland">Ron Toland</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/ryan-neufeld-simulant-in-anger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RHf8ngqVKys/hqdefault.jpg" alt="Simulant in Anger" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/ryan-neufeld-simulant-in-anger">Simulant in Anger</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 26:11</div>
+			
+			
+              <div>Views: 2408 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ryan-neufeld">Ryan Neufeld</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/sean-johnson-pattern-matching-in-clojure"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n7aE6k8o_BU/hqdefault.jpg" alt="Pattern Matching in Clojure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/sean-johnson-pattern-matching-in-clojure">Pattern Matching in Clojure</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 47:03</div>
+			
+			
+              <div>Views: 5190 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-johnson">Sean Johnson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/soren-macbeth-data-science-in-clojure"><img class="list-thumbnail" src="https://i.ytimg.com/vi/omSTAwSjYc8/hqdefault.jpg" alt="Data Science in Clojure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/soren-macbeth-data-science-in-clojure">Data Science in Clojure</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 44:04</div>
+			
+			
+              <div>Views: 5904 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/soren-macbeth">Soren Macbeth</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/timothy-gardner-ramsey-nasser-games-and-3d-graphics-in-arcadia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zmmdYyAQhmM/hqdefault.jpg" alt="Games and 3D Graphics in Arcadia" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/timothy-gardner-ramsey-nasser-games-and-3d-graphics-in-arcadia">Games and 3D Graphics in Arcadia</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 38:06</div>
+			
+			
+              <div>Views: 2603 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/timothy-gardner">Timothy Gardner</a>
+             
+                <a href="/p/ramsey-nasser">Ramsey Nasser</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/tom-faulhaber-creating-beautiful-spreadsheets-with-data-and-templates"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qnJs79W0BDo/hqdefault.jpg" alt="Creating Beautiful Spreadsheets With Data and Templates" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/tom-faulhaber-creating-beautiful-spreadsheets-with-data-and-templates">Creating Beautiful Spreadsheets With Data and Templates</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 38:49</div>
+			
+			
+              <div>Views: 3582 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tom-faulhaber">Tom Faulhaber</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/tyler-tallman-composable-healthcare"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CIstdJFSSzY/hqdefault.jpg" alt="Composable Healthcare" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/tyler-tallman-composable-healthcare">Composable Healthcare</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 38:25</div>
+			
+			
+              <div>Views: 2244 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tyler-tallman">Tyler Tallman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/yoko-harada-joys-and-pains-to-write-a-clojure-curriculum-for-beginners"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fiIJuthOhnk/hqdefault.jpg" alt="Joys and Pains to Write a Clojure Curriculum for Beginners" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/yoko-harada-joys-and-pains-to-write-a-clojure-curriculum-for-beginners">Joys and Pains to Write a Clojure Curriculum for Beginners</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 18:56</div>
+			
+			
+              <div>Views: 1438 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yoko-harada">Yoko Harada</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/zach-tellman-everything-will-flow"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1bNOO3xxMc0/hqdefault.jpg" alt="Everything Will Flow" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/zach-tellman-everything-will-flow">Everything Will Flow</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 40:13</div>
+			
+			
+              <div>Views: 9855 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/zach-tellman">Zach Tellman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojurewest-2015/zachary-kim-no-strings-mobile-app-dev-for-clojure"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AgjRo54ImUM/hqdefault.jpg" alt="No Strings Mobile App Dev for Clojure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojurewest-2015/zachary-kim-no-strings-mobile-app-dev-for-clojure">No Strings Mobile App Dev for Clojure</a></h4>
+          <footer>
+            <div class="recorded">2015-04-20</div>
+			
+			  <div>Length: 36:28</div>
+			
+			
+              <div>Views: 2640 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/clojurewest-2015">Clojure West 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/zachary-kim">Zachary Kim</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLZdCLR02grLrKAOj8FJ1GGmNM5l7Okz0a">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

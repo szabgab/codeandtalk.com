@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Container Camp UK 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Container Camp UK 2016</h1>
+
+<div><a href="https://container.camp/uk/2016/">Container Camp UK 2016</a></div>
+
+
+<div>Start date: 2016-09-09</div>
+<div>End date: 2016-09-09</div>
+
+<div>Location:
+  London
+  England
+  <a href="/l/uk">UK</a>
+</div>
+
+<div><a href="https://container.camp/code-of-conduct">Code of Conduct</a></div>
+<div><a href="https://diversitytickets.org/events/39">Diversity Tickets</a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/containers">containers</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/containercamp">@containercamp</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Container%20Camp%20UK%202016%20on%202016-09-09%20in%20London%2C%20England%20UK%20%40containercamp%20https%3A//container.camp/uk/2016/%20%23containers%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/container-camp-uk-2016/a-security-state-of-mind-continuous-security-for-containers-devops-chris-van-tuin-red-hat"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VOLf6zvJLu8/hqdefault.jpg" alt="A Security State of Mind: Continuous Security for Containers & DevOps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-uk-2016/a-security-state-of-mind-continuous-security-for-containers-devops-chris-van-tuin-red-hat">A Security State of Mind: Continuous Security for Containers & DevOps</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 27:11</div>
+			
+			
+              <div>Views: 129 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/container-camp-uk-2016">Container Camp UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-van-tuin">Chris Van Tuin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-uk-2016/alternatives-to-layer-based-image-distribution-using-cern-filesystem-for-images-george-lestaris"><img class="list-thumbnail" src="https://i.ytimg.com/vi/g7dJCMh20iE/hqdefault.jpg" alt="Alternatives to layer-based image distribution: using CERN filesystem for images" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-uk-2016/alternatives-to-layer-based-image-distribution-using-cern-filesystem-for-images-george-lestaris">Alternatives to layer-based image distribution: using CERN filesystem for images</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 18:18</div>
+			
+			
+              <div>Views: 173 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/container-camp-uk-2016">Container Camp UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/george-lestaris">George Lestaris</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-uk-2016/building-a-container-from-scratch-in-go-liz-rice-microscaling-systems"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Utf-A4rODH8/hqdefault.jpg" alt="Building a container from scratch in Go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-uk-2016/building-a-container-from-scratch-in-go-liz-rice-microscaling-systems">Building a container from scratch in Go</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 19:04</div>
+			
+			
+              <div>Views: 623 Likes: 26</div>
+            
+            <div class="event">From <a href="/e/container-camp-uk-2016">Container Camp UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/liz-rice">Liz Rice</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-uk-2016/building-serverless-apps-with-docker-ben-firshman-docker"><img class="list-thumbnail" src="https://i.ytimg.com/vi/C4gH7e3mvFM/hqdefault.jpg" alt="Building serverless apps with Docker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-uk-2016/building-serverless-apps-with-docker-ben-firshman-docker">Building serverless apps with Docker</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 25:22</div>
+			
+			
+              <div>Views: 1826 Likes: 24</div>
+            
+            <div class="event">From <a href="/e/container-camp-uk-2016">Container Camp UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-firshman">Ben Firshman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-uk-2016/constructive-destructiveness-for-containers-michael-hausenblas-mesosphere"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qy4D9t3cAzs/hqdefault.jpg" alt="Constructive destructiveness for containers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-uk-2016/constructive-destructiveness-for-containers-michael-hausenblas-mesosphere">Constructive destructiveness for containers</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 23:01</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/container-camp-uk-2016">Container Camp UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-hausenblas">Michael Hausenblas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-uk-2016/docker-and-iot-securing-the-server-room-with-realtime-arm-microservices-alex-ellis-adp"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-qRUsuevKj4/hqdefault.jpg" alt="Docker and IoT: securing the server-room with realtime ARM microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-uk-2016/docker-and-iot-securing-the-server-room-with-realtime-arm-microservices-alex-ellis-adp">Docker and IoT: securing the server-room with realtime ARM microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 23:50</div>
+			
+			
+              <div>Views: 938 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/container-camp-uk-2016">Container Camp UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-ellis">Alex Ellis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-uk-2016/kubernetes-13-stateful-containers-cluster-federation-craig-box-google"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X0Qtj0ipmOM/hqdefault.jpg" alt="Kubernetes 1.3: Stateful containers & cluster federation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-uk-2016/kubernetes-13-stateful-containers-cluster-federation-craig-box-google">Kubernetes 1.3: Stateful containers & cluster federation</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 25:49</div>
+			
+			
+              <div>Views: 219 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/container-camp-uk-2016">Container Camp UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/craig-box">Craig Box</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-uk-2016/label-schema-a-new-standard-approach-to-container-metadata"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qp9h18L45qY/hqdefault.jpg" alt="Label Schema - A New Standard Approach to Container Metadata" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-uk-2016/label-schema-a-new-standard-approach-to-container-metadata">Label Schema - A New Standard Approach to Container Metadata</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 03:23</div>
+			
+			
+              <div>Views: 50 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/container-camp-uk-2016">Container Camp UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-uk-2016/orchestrating-linux-containers-while-tolerating-failures-nishant-totla-docker"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SLHMkVQnJOs/hqdefault.jpg" alt="Orchestrating Linux containers while tolerating failures" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-uk-2016/orchestrating-linux-containers-while-tolerating-failures-nishant-totla-docker">Orchestrating Linux containers while tolerating failures</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 25:59</div>
+			
+			
+              <div>Views: 104 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/container-camp-uk-2016">Container Camp UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nishant-totla">Nishant Totla</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-uk-2016/rktnetes-integrating-rkt-and-kubernetes-jonathan-boulle-coreos"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RZzLMSVwaFY/hqdefault.jpg" alt="rktnetes: Integrating rkt and Kubernetes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-uk-2016/rktnetes-integrating-rkt-and-kubernetes-jonathan-boulle-coreos">rktnetes: Integrating rkt and Kubernetes</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 24:10</div>
+			
+			
+              <div>Views: 193 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/container-camp-uk-2016">Container Camp UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jonathan-boulle">Jonathan Boulle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-uk-2016/streamlining-hpc-workloads-with-containers-dustin-kirkland-canonical"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TPdRbD1kSUU/hqdefault.jpg" alt="Streamlining HPC Workloads with Containers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-uk-2016/streamlining-hpc-workloads-with-containers-dustin-kirkland-canonical">Streamlining HPC Workloads with Containers</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 24:54</div>
+			
+			
+              <div>Views: 391 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/container-camp-uk-2016">Container Camp UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dustin-kirkland">Dustin Kirkland</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-uk-2016/traefik-load-balancing-microservices-ed-robinson-reevoo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aFtpIShV60I/hqdefault.jpg" alt="Træfɪk - Load Balancing microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-uk-2016/traefik-load-balancing-microservices-ed-robinson-reevoo">Træfɪk - Load Balancing microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 24:39</div>
+			
+			
+              <div>Views: 1899 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/container-camp-uk-2016">Container Camp UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ed-robinson">Ed Robinson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-uk-2016/why-we-need-a-different-container-purely-for-apps-mark-shuttleworth-canonical"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0z3yusiCOCk/hqdefault.jpg" alt="Why we need a different container purely for apps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-uk-2016/why-we-need-a-different-container-purely-for-apps-mark-shuttleworth-canonical">Why we need a different container purely for apps</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 22:16</div>
+			
+			
+              <div>Views: 1163 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/container-camp-uk-2016">Container Camp UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-shuttleworth">Mark Shuttleworth</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLcHZXHMeDzxWeqW3QvszWdXGtAax57OuV">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

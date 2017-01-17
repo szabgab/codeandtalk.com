@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>DevCon Tel Aviv 2016.03</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>DevCon Tel Aviv 2016.03</h1>
+
+<div><a href="https://devcontlv-march2016.events.co.il/home">DevCon Tel Aviv 2016.03</a></div>
+
+
+<div>Start date: 2016-03-22</div>
+<div>End date: 2016-03-22</div>
+
+<div>Location:
+  Tel Aviv
+  
+  <a href="/l/israel">Israel</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/fogelmania">@fogelmania</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=DevCon%20Tel%20Aviv%202016.03%20on%202016-03-22%20in%20Tel%20Aviv%2C%20%20Israel%20%40fogelmania%20https%3A//devcontlv-march2016.events.co.il/home%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/actors-and-microservices-can-two-walk-together-rotm-hermon-at-devcontlv-march"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1c6jCdQ3l4U/hqdefault.jpg" alt="Actors and microservices - Can Two Walk Together?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/actors-and-microservices-can-two-walk-together-rotm-hermon-at-devcontlv-march">Actors and microservices - Can Two Walk Together?</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 22:46</div>
+			
+			
+              <div>Views: 149 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rotem-hermon">Rotem Hermon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/aviv-laufer-devcontlv-march-2016-rounds-analytics-pipeline"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0-6x-lrCxqo/hqdefault.jpg" alt="Rounds Analytics Pipeline" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/aviv-laufer-devcontlv-march-2016-rounds-analytics-pipeline">Rounds Analytics Pipeline</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 20:16</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aviv-laufer">Aviv Laufer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/consul-as-a-monitoring-service-seth-vargo-at-devcontlv-march-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UK3EFUcS-Ps/hqdefault.jpg" alt="Consul as a Monitoring Service" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/consul-as-a-monitoring-service-seth-vargo-at-devcontlv-march-2016">Consul as a Monitoring Service</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 25:47</div>
+			
+			
+              <div>Views: 838 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/seth-vargo">Seth Vargo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/decouple-all-the-things-asynchronous-messaging-keeps-it-simple-kerstin-puschke-at-devcontlv-march"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2caTK0J7IQI/hqdefault.jpg" alt="Decouple all the things: Asynchronous messaging keeps it simple." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/decouple-all-the-things-asynchronous-messaging-keeps-it-simple-kerstin-puschke-at-devcontlv-march">Decouple all the things: Asynchronous messaging keeps it simple.</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 25:38</div>
+			
+			
+              <div>Views: 93 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kerstin-puschke">Kerstin Puschke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/dor-laor-devcontlv-march-2016-1-million-cql-operations-per-server"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QDyr-yygU2A/hqdefault.jpg" alt="1 Million CQL operations per server - using ScyllaDB" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/dor-laor-devcontlv-march-2016-1-million-cql-operations-per-server">1 Million CQL operations per server - using ScyllaDB</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 31:54</div>
+			
+			
+              <div>Views: 332 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dor-laor">Dor Laor</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/for-your-eyes-only-popularity-vs-share-ability-roy-sasson-devcontlv-march-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/t9U2SYIozEA/hqdefault.jpg" alt="'For Your Eyes Only': Popularity vs. Share-ability" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/for-your-eyes-only-popularity-vs-share-ability-roy-sasson-devcontlv-march-2016">'For Your Eyes Only': Popularity vs. Share-ability</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 18:54</div>
+			
+			
+              <div>Views: 44 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/roy-sasson">Roy Sasson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/goos-style-tdd-by-example-saggy-rozman-at-devcontlv-march-2016-conference"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kg3IRnps90Y/hqdefault.jpg" alt="GOOS style TDD by Example" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/goos-style-tdd-by-example-saggy-rozman-at-devcontlv-march-2016-conference">GOOS style TDD by Example</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 39:49</div>
+			
+			
+              <div>Views: 126 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sagy-rozman">Sagy Rozman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/how-a-javascript-mistake-can-cost-you-200-million-jonathan-bachman-devcontlv-march-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FR9O0NO3dhM/hqdefault.jpg" alt="How a Javascript Mistake Can Cost You $200 Million." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/how-a-javascript-mistake-can-cost-you-200-million-jonathan-bachman-devcontlv-march-2016">How a Javascript Mistake Can Cost You $200 Million.</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 05:55</div>
+			
+			
+              <div>Views: 108 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jonathan-bachman">Jonathan Bachman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/lior-bar-on-devcontlv-march-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RFpo_nCpoVU/hqdefault.jpg" alt="Microservices Insights with Microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/lior-bar-on-devcontlv-march-2016">Microservices Insights with Microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 36:37</div>
+			
+			
+              <div>Views: 137 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lior-bar-on">Lior Bar-On</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/micro-services-yoav-abrahami-at-devcontlv-march-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bygyqkRpSB4/hqdefault.jpg" alt="Micro Services" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/micro-services-yoav-abrahami-at-devcontlv-march-2016">Micro Services</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 23:37</div>
+			
+			
+              <div>Views: 125 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yoav-abrahami">Yoav Abrahami</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/migrate-to-micro-services-using-docker-and-codefresh-raziel-tabib-at-devcontlv"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QU9rTZnhOtI/hqdefault.jpg" alt="Migrate to Micro-Services Using Docker and Codefresh." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/migrate-to-micro-services-using-docker-and-codefresh-raziel-tabib-at-devcontlv">Migrate to Micro-Services Using Docker and Codefresh.</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 09:26</div>
+			
+			
+              <div>Views: 255 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/raziel-tabib">Raziel Tabib</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/ninja-choose-your-weapon-anton-weiss-at-devcontlv-march"><img class="list-thumbnail" src="https://i.ytimg.com/vi/c5FOkWMK98U/hqdefault.jpg" alt="Ninja, Choose Your Weapon!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/ninja-choose-your-weapon-anton-weiss-at-devcontlv-march">Ninja, Choose Your Weapon!</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 33:19</div>
+			
+			
+              <div>Views: 105 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anton-weiss">Anton Weiss</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/private-apps-in-the-public-cloud-issac-goldstand-devcontlv-march-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Tt4NnXfWiKM/hqdefault.jpg" alt="Private Apps in the Public Cloud" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/private-apps-in-the-public-cloud-issac-goldstand-devcontlv-march-2016">Private Apps in the Public Cloud</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 36:18</div>
+			
+			
+              <div>Views: 26 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/issac-goldstand">Issac Goldstand</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/production-map-ilan-yaniv-at-devcontlv-march-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/y1L0IeuTFHo/hqdefault.jpg" alt="Production Map an IDE for DevOps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/production-map-ilan-yaniv-at-devcontlv-march-2016">Production Map an IDE for DevOps</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 04:46</div>
+			
+			
+              <div>Views: 26 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ilan-yaniv">Ilan Yaniv</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/size-matters-handling-graph-api-in-a-large-scale-environment-nir-sharony-at-devcontlv-march-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/B2gwGd2R8nc/hqdefault.jpg" alt="Size matters: Handling Graph API in a large scale environment" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/size-matters-handling-graph-api-in-a-large-scale-environment-nir-sharony-at-devcontlv-march-2016">Size matters: Handling Graph API in a large scale environment</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 26:45</div>
+			
+			
+              <div>Views: 33 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nir-sharony">Nir Sharony</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/stormrunner-load-would-nodejs-be-your-first-choice-eyal-nadler-at-devcontlv-march-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gHClmhe7Lz8/hqdefault.jpg" alt="StormRunner Load - would Node.js be your first choice?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/stormrunner-load-would-nodejs-be-your-first-choice-eyal-nadler-at-devcontlv-march-2016">StormRunner Load - would Node.js be your first choice?</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 15:53</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eyal-nadler">Eyal Nadler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/the-comeback-of-grids-evgeny-zislis-at-devcontlv-march"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YOPUrxxUBTE/hqdefault.jpg" alt="The Comeback of Grids" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/the-comeback-of-grids-evgeny-zislis-at-devcontlv-march">The Comeback of Grids</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 30:12</div>
+			
+			
+              <div>Views: 194 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/evgeny-zislis">Evgeny Zislis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/the-road-to-production-with-nodejs-and-docker-on-aws-shimon-tolts-at-devcontlv-march"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FDspdl5xIKo/hqdefault.jpg" alt="The Road To Production With Node.js And Docker On AWS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/the-road-to-production-with-nodejs-and-docker-on-aws-shimon-tolts-at-devcontlv-march">The Road To Production With Node.js And Docker On AWS</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 23:04</div>
+			
+			
+              <div>Views: 116 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shimon-tolts">Shimon Tolts</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devcon-telaviv-2016-03/yaniv-shalev-devcontlv-march-2016-vizualize-300tb-in-5-seconds"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Epv4IdGUDnU/hqdefault.jpg" alt="Vizualize 300Tb in 5 seconds" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devcon-telaviv-2016-03/yaniv-shalev-devcontlv-march-2016-vizualize-300tb-in-5-seconds">Vizualize 300Tb in 5 seconds</a></h4>
+          <footer>
+            <div class="recorded">2016-03-22</div>
+			
+			  <div>Length: 24:23</div>
+			
+			
+              <div>Views: 137 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devcon-telaviv-2016-03">DevCon Tel Aviv 2016.03</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yaniv-shalev">Yaniv Shalev</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLGJA60omz8rLGx-elwFFLmlNBFqOjHFe-">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

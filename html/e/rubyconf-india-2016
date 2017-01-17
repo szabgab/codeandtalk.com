@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>RubyConf India 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>RubyConf India 2016</h1>
+
+<div><a href="https://github.com/rubyconfindia/rci2016">RubyConf India 2016</a></div>
+
+
+<div>Start date: 2016-03-19</div>
+<div>End date: 2016-03-20</div>
+
+<div>Location:
+  Kochi
+  Kerala
+  <a href="/l/india">India</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/ruby">Ruby</a> 
+   
+       <a href="/t/rails">Rails</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/rubyconfindia">@rubyconfindia</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/rubyconfindia">https://www.facebook.com/rubyconfindia</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=RubyConf%20India%202016%20on%202016-03-19%20in%20Kochi%2C%20Kerala%20India%20%40rubyconfindia%20https%3A//github.com/rubyconfindia/rci2016%20%23Ruby%20%23Rails%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-anatomy-of-constant-lookup-and-autoloading-in-rails-by-prathamesh-sonpatki"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F_B8vKp6suE/hqdefault.jpg" alt="Anatomy of constant lookup and autoloading in Rails" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-anatomy-of-constant-lookup-and-autoloading-in-rails-by-prathamesh-sonpatki">Anatomy of constant lookup and autoloading in Rails</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 32:24</div>
+			
+			
+              <div>Views: 204 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/prathamesh-sonpatki">Prathamesh Sonpatki</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-closer-look-at-method-variable-scopes-in-ruby-by-sumit-mahamuni"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5a6iknP4eGM/hqdefault.jpg" alt="Closer look at method / variable scopes in Ruby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-closer-look-at-method-variable-scopes-in-ruby-by-sumit-mahamuni">Closer look at method / variable scopes in Ruby</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 26:47</div>
+			
+			
+              <div>Views: 72 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sumit-mahamuni">Sumit Mahamuni</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-closing-keynote-ruby-performance-the-last-mile-by-charles-nutter"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HF8DzdUpcAQ/hqdefault.jpg" alt="Closing Keynote - Ruby Performance: The Last Mile" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-closing-keynote-ruby-performance-the-last-mile-by-charles-nutter">Closing Keynote - Ruby Performance: The Last Mile</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 01:00:36</div>
+			
+			
+              <div>Views: 87 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/charles-nutter">Charles Oliver Nutter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-codecuriosity-making-open-source-your-livelihood-by-sethupathi-asokan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XjavgpCWR4U/hqdefault.jpg" alt="CodeCuriosity - Making Open Source your Livelihood" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-codecuriosity-making-open-source-your-livelihood-by-sethupathi-asokan">CodeCuriosity - Making Open Source your Livelihood</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 25:46</div>
+			
+			
+              <div>Views: 66 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sethupathi-asokan">Sethupathi Asokan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-databases-what-we-can-learn-from-other-languages-by-sean-griffin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cbU5BEBBMXk/hqdefault.jpg" alt="Databases: What we can learn from other languages" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-databases-what-we-can-learn-from-other-languages-by-sean-griffin">Databases: What we can learn from other languages</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 29:14</div>
+			
+			
+              <div>Views: 56 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-griffin">Sean Griffin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-factory-workshop-stage-by-sarah-mei"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WCr478LuSV4/hqdefault.jpg" alt="Factory, Workshop, Stage" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-factory-workshop-stage-by-sarah-mei">Factory, Workshop, Stage</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 01:02:30</div>
+			
+			
+              <div>Views: 198 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sarah-mei">Sarah Mei</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-from-facepalm-to-foolproof-by-jon-mccartie"><img class="list-thumbnail" src="https://i.ytimg.com/vi/V6yLT6vDB5k/hqdefault.jpg" alt="From Facepalm to Foolproof" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-from-facepalm-to-foolproof-by-jon-mccartie">From Facepalm to Foolproof</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 22:41</div>
+			
+			
+              <div>Views: 61 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jon-mccartie">Jon McCartie</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-functional-testing-of-mobile-apps-using-appium-and-ruby-by-kothari-aggarwal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GfhpBX8obzg/hqdefault.jpg" alt="Functional Testing of Mobile Apps using Appium and Ruby by Kothari & Aggarwal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-functional-testing-of-mobile-apps-using-appium-and-ruby-by-kothari-aggarwal">Functional Testing of Mobile Apps using Appium and Ruby by Kothari & Aggarwal</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 15:01</div>
+			
+			
+              <div>Views: 85 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-hidden-features-in-ruby-you-may-not-know-about-by-shobhit-shrivastava"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QSZtVVRcbcM/hqdefault.jpg" alt="Hidden features in Ruby you may not know about" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-hidden-features-in-ruby-you-may-not-know-about-by-shobhit-shrivastava">Hidden features in Ruby you may not know about</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 19:51</div>
+			
+			
+              <div>Views: 150 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shobhit-shrivastava">Shobhit Shrivastava</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-interviews"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6nUW__ZmcqU/hqdefault.jpg" alt="Rubyconf India 2016 - Interviews" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-interviews">Rubyconf India 2016 - Interviews</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 13:00</div>
+			
+			
+              <div>Views: 98 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-lets-go-with-ruby-by-sumit-das-shishir-joshi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_ChER6iEEeo/hqdefault.jpg" alt="Let's Go with Ruby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-lets-go-with-ruby-by-sumit-das-shishir-joshi">Let's Go with Ruby</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 16:12</div>
+			
+			
+              <div>Views: 31 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sumit-das">Sumit Das</a>
+             
+                <a href="/p/shishir-joshi">Shishir Joshi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-lightning-talks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/W9Ap3mVOe9Y/hqdefault.jpg" alt="Rubyconf India 2016 - Lightning talks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-lightning-talks">Rubyconf India 2016 - Lightning talks</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 01:06:16</div>
+			
+			
+              <div>Views: 291 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-opening-keynote-by-yukihiro-matsumoto"><img class="list-thumbnail" src="https://i.ytimg.com/vi/e4HwanYNkhY/hqdefault.jpg" alt="Opening Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-opening-keynote-by-yukihiro-matsumoto">Opening Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 47:20</div>
+			
+			
+              <div>Views: 1310 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yukihiro-matsumoto">Yukihiro Matsumoto</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-ruby-alternatives-by-aaron-cruz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MCfORzUI6kA/hqdefault.jpg" alt="Ruby Alternatives" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-ruby-alternatives-by-aaron-cruz">Ruby Alternatives</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 29:25</div>
+			
+			
+              <div>Views: 231 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aaron-cruz">Aaron Cruz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-sonic-pi-by-rishi-jain"><img class="list-thumbnail" src="https://i.ytimg.com/vi/s8f3mDwF-aw/hqdefault.jpg" alt="Rubyconf India 2016 - Sonic Pi" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-sonic-pi-by-rishi-jain">Rubyconf India 2016 - Sonic Pi</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 15:57</div>
+			
+			
+              <div>Views: 49 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rishi-jain">Rishi Jain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-statically-typed-ruby-by-vagmi-mudumbai"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zm36gpxwKPk/hqdefault.jpg" alt="Rubyconf India 2016 - Statically typed Ruby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-statically-typed-ruby-by-vagmi-mudumbai">Rubyconf India 2016 - Statically typed Ruby</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 28:51</div>
+			
+			
+              <div>Views: 74 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vagmi-mudumbai">Vagmi Mudumbai</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-streaming-api-spark-and-ruby-by-manohar-amrutkar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ARuzlALdx-E/hqdefault.jpg" alt="Streaming API, Spark and Ruby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-streaming-api-spark-and-ruby-by-manohar-amrutkar">Streaming API, Spark and Ruby</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 21:40</div>
+			
+			
+              <div>Views: 182 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/manohar-amrutkar">Manohar Amrutkar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-succession-by-katrina-owen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5YiRWW0fUKk/hqdefault.jpg" alt="Succession" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-succession-by-katrina-owen">Succession</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 29:43</div>
+			
+			
+              <div>Views: 203 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/katrina-owen">Katrina Owen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-the-future-of-ruby-is-in-motion-by-laurent-sansonetti"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4_pOANKaBlI/hqdefault.jpg" alt="The future of Ruby is in... motion!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-the-future-of-ruby-is-in-motion-by-laurent-sansonetti">The future of Ruby is in... motion!</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 47:47</div>
+			
+			
+              <div>Views: 131 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/laurent-sansonetti">Laurent Sansonetti</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2016/rubyconf-india-2016-to-fear-or-not-to-fear-that-is-the-question-by-anuja-ware-shweta-kale"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-NT8muf-N7g/hqdefault.jpg" alt="To fear or not to fear: That is the question" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2016/rubyconf-india-2016-to-fear-or-not-to-fear-that-is-the-question-by-anuja-ware-shweta-kale">To fear or not to fear: That is the question</a></h4>
+          <footer>
+            <div class="recorded">2016-03-19</div>
+			
+			  <div>Length: 26:01</div>
+			
+			
+              <div>Views: 105 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2016">RubyConf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anuja-ware">Anuja Ware</a>
+             
+                <a href="/p/shweta-kale">Shweta Kale</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLNyYRB_d4fk2LfGLjyv8Oa-ruc4EgkfAQ">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

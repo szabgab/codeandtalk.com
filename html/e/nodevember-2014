@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Nodevember 2014</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Nodevember 2014</h1>
+
+<div><a href="http://lanyrd.com/2014/nodevember/">Nodevember 2014</a></div>
+
+
+<div>Start date: 2014-11-15</div>
+<div>End date: 2014-11-16</div>
+
+<div>Location:
+  Nashville
+  Tennessee
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/nodejs">NodeJS</a> 
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/nodevember">@nodevember</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/nodevember">https://www.facebook.com/nodevember</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Nodevember%202014%20on%202014-11-15%20in%20Nashville%2C%20Tennessee%20USA%20%40nodevember%20http%3A//lanyrd.com/2014/nodevember/%20%23NodeJS%20%23JavaScript%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/0-to-nodebots-in-45-minutes-7ed751"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TFUSHrn8jPw/hqdefault.jpg" alt="0 to Nodebots in 45 minutes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/0-to-nodebots-in-45-minutes-7ed751">0 to Nodebots in 45 minutes</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 46:31</div>
+			
+			
+              <div>Views: 200 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/0-to-nodebots-in-45-minutes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lKogyZZJt_0/hqdefault.jpg" alt="0 to Nodebots in 45 minutes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/0-to-nodebots-in-45-minutes">0 to Nodebots in 45 minutes</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 46:31</div>
+			
+			
+              <div>Views: 2952 Likes: 33</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/add-some-real-time-to-your-app-with-socketio"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZAQAssQGwMw/hqdefault.jpg" alt="Add Some Real-Time To Your App With Socket.IO." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/add-some-real-time-to-your-app-with-socketio">Add Some Real-Time To Your App With Socket.IO.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 42:39</div>
+			
+			
+              <div>Views: 464 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/as-i-walk-through-the-valley-of-the-shadow-of-dom"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sB_Ckc6NJIw/hqdefault.jpg" alt="As I Walk Through The Valley Of The Shadow Of DOM." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/as-i-walk-through-the-valley-of-the-shadow-of-dom">As I Walk Through The Valley Of The Shadow Of DOM.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 27:49</div>
+			
+			
+              <div>Views: 245 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/building-a-bada55-nodejs-dev-environment"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2pFL66qXcTE/hqdefault.jpg" alt="Building A #BADA55 NodeJS Dev Environment." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/building-a-bada55-nodejs-dev-environment">Building A #BADA55 NodeJS Dev Environment.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 01:01:19</div>
+			
+			
+              <div>Views: 2156 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/building-large-scalable-realtime-applications-with-meteor"><img class="list-thumbnail" src="https://i.ytimg.com/vi/akWn_WD2cyA/hqdefault.jpg" alt="Building Large Scalable Realtime Applications With Meteor" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/building-large-scalable-realtime-applications-with-meteor">Building Large Scalable Realtime Applications With Meteor</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 41:41</div>
+			
+			
+              <div>Views: 16998 Likes: 65</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/building-modular-and-component-driven-architecture-in-backbonejs-and-marionettejs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PrQSpdWkN6Q/hqdefault.jpg" alt="Building modular and component driven architecture in Backbone.js and Marionette.js." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/building-modular-and-component-driven-architecture-in-backbonejs-and-marionettejs">Building modular and component driven architecture in Backbone.js and Marionette.js.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 50:11</div>
+			
+			
+              <div>Views: 8322 Likes: 68</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/closing-keynote"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ofmOIB3t5w0/hqdefault.jpg" alt="Closing Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/closing-keynote">Closing Keynote</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 50:28</div>
+			
+			
+              <div>Views: 320 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/debugging-profiling-heap-dumping-scaling-and-other-fix-it-techniques-in-nodejs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/i_fGWJqdtFU/hqdefault.jpg" alt="Debugging, Profiling, Heap Dumping, Scaling and other fix-it techniques in Node.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/debugging-profiling-heap-dumping-scaling-and-other-fix-it-techniques-in-nodejs">Debugging, Profiling, Heap Dumping, Scaling and other fix-it techniques in Node.js</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 43:27</div>
+			
+			
+              <div>Views: 931 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/deploying-a-scalable-nodejs-application-with-docker"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uhNpSWI8MTM/hqdefault.jpg" alt="Deploying a Scalable Node.js Application with Docker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/deploying-a-scalable-nodejs-application-with-docker">Deploying a Scalable Node.js Application with Docker</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 01:23:53</div>
+			
+			
+              <div>Views: 12002 Likes: 108</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/design-for-retry-microservices-rest-message-busses-and-why-idempotency-is-the-only-way-to-scale"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LpbdQpF9_40/hqdefault.jpg" alt="Design for Retry: Microservices, REST, message busses and why idempotency is the only way to scale." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/design-for-retry-microservices-rest-message-busses-and-why-idempotency-is-the-only-way-to-scale">Design for Retry: Microservices, REST, message busses and why idempotency is the only way to scale.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 34:50</div>
+			
+			
+              <div>Views: 2203 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/develop-deploy-monitor-and-scale-rest-apis-built-in-nodejs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2WI1nVrdxjY/hqdefault.jpg" alt="Develop, Deploy, Monitor and Scale REST APIs Built in Node.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/develop-deploy-monitor-and-scale-rest-apis-built-in-nodejs">Develop, Deploy, Monitor and Scale REST APIs Built in Node.js</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 01:45:47</div>
+			
+			
+              <div>Views: 5104 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/disassembling-a-monolith-with-nodejs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7QzAAvbI-9A/hqdefault.jpg" alt="Disassembling a Monolith with Node.js." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/disassembling-a-monolith-with-nodejs">Disassembling a Monolith with Node.js.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 41:14</div>
+			
+			
+              <div>Views: 328 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/es6-the-future-is-now-7ed6f2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RPBnvQBkPPY/hqdefault.jpg" alt="ES6: The future is now." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/es6-the-future-is-now-7ed6f2">ES6: The future is now.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 46:15</div>
+			
+			
+              <div>Views: 209 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/es6-the-future-is-now"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Hjkc9m9vYCU/hqdefault.jpg" alt="ES6: The future is now." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/es6-the-future-is-now">ES6: The future is now.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 46:15</div>
+			
+			
+              <div>Views: 8181 Likes: 92</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/everything-you-ever-wanted-to-know-about-node-authentication-7ed786"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FkPqcIJvEPk/hqdefault.jpg" alt="Everything You Ever Wanted to Know about Node Authentication" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/everything-you-ever-wanted-to-know-about-node-authentication-7ed786">Everything You Ever Wanted to Know about Node Authentication</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 46:29</div>
+			
+			
+              <div>Views: 4900 Likes: 82</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/everything-you-ever-wanted-to-know-about-node-authentication"><img class="list-thumbnail" src="https://i.ytimg.com/vi/atehx2mR1Lk/hqdefault.jpg" alt="Everything You Ever Wanted to Know about Node Authentication" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/everything-you-ever-wanted-to-know-about-node-authentication">Everything You Ever Wanted to Know about Node Authentication</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 41:22</div>
+			
+			
+              <div>Views: 1006 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/gonzo-game-dev"><img class="list-thumbnail" src="https://i.ytimg.com/vi/H6roNQE8t-c/hqdefault.jpg" alt="Gonzo Game Dev" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/gonzo-game-dev">Gonzo Game Dev</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 44:46</div>
+			
+			
+              <div>Views: 1268 Likes: 41</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/grunt-ify-your-front-end-development"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5PJZC71Pac0/hqdefault.jpg" alt="Grunt-ify Your Front-End Development." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/grunt-ify-your-front-end-development">Grunt-ify Your Front-End Development.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 46:23</div>
+			
+			
+              <div>Views: 248 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/hapijs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TEKFocYepFY/hqdefault.jpg" alt="Hapi.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/hapijs">Hapi.js</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 02:17:07</div>
+			
+			
+              <div>Views: 6991 Likes: 39</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/intro-to-meteorjs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RpQTPWvD6HA/hqdefault.jpg" alt="Intro to Meteor.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/intro-to-meteorjs">Intro to Meteor.js</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 47:28</div>
+			
+			
+              <div>Views: 22608 Likes: 123</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/intro-to-sailsjs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/d8d_qq7qToY/hqdefault.jpg" alt="Intro to Sails.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/intro-to-sailsjs">Intro to Sails.js</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 43:17</div>
+			
+			
+              <div>Views: 2447 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/jquery-to-ember-how-to-make-the-jump-without-falling"><img class="list-thumbnail" src="https://i.ytimg.com/vi/A9DPwWQEuy4/hqdefault.jpg" alt="jQuery to Ember: How to Make the Jump Without Falling" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/jquery-to-ember-how-to-make-the-jump-without-falling">jQuery to Ember: How to Make the Jump Without Falling</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 30:00</div>
+			
+			
+              <div>Views: 1997 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/make-art-not-apps"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kovJHzQNsg0/hqdefault.jpg" alt="Make Art, Not Apps." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/make-art-not-apps">Make Art, Not Apps.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 37:21</div>
+			
+			
+              <div>Views: 815 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/making-javascript-games-from-the-browser-to-the-app-store"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5UuRj_1OG14/hqdefault.jpg" alt="Making JavaScript Games: From the Browser to the App Store." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/making-javascript-games-from-the-browser-to-the-app-store">Making JavaScript Games: From the Browser to the App Store.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 51:24</div>
+			
+			
+              <div>Views: 4970 Likes: 64</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/making-relational-cool-again"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Xxy7l2teADs/hqdefault.jpg" alt="Making Relational Cool Again." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/making-relational-cool-again">Making Relational Cool Again.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 46:17</div>
+			
+			
+              <div>Views: 339 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/memory-profile-for-mere-mortals"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tF0dt6TYmOU/hqdefault.jpg" alt="Memory Profile for Mere Mortals." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/memory-profile-for-mere-mortals">Memory Profile for Mere Mortals.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 41:44</div>
+			
+			
+              <div>Views: 255 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/meteor-and-reactive-programming"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RUz8rr6jewU/hqdefault.jpg" alt="Meteor and Reactive Programming" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/meteor-and-reactive-programming">Meteor and Reactive Programming</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 35:00</div>
+			
+			
+              <div>Views: 927 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/modern-device-features-from-the-web"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0JtiSGoZGl8/hqdefault.jpg" alt="Modern Device Features From The Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/modern-device-features-from-the-web">Modern Device Features From The Web</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 41:13</div>
+			
+			
+              <div>Views: 119 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/open-sourcing-mental-illness-7ed2a6"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_bn5y4n46IE/hqdefault.jpg" alt="Open Sourcing Mental Illness." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/open-sourcing-mental-illness-7ed2a6">Open Sourcing Mental Illness.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 50:49</div>
+			
+			
+              <div>Views: 384 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/open-sourcing-mental-illness"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h1Pwp1XTnBk/hqdefault.jpg" alt="Open Sourcing Mental Illness." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/open-sourcing-mental-illness">Open Sourcing Mental Illness.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 44:45</div>
+			
+			
+              <div>Views: 265 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/opening-keynote"><img class="list-thumbnail" src="https://i.ytimg.com/vi/akCl9HP64QM/hqdefault.jpg" alt="Opening Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/opening-keynote">Opening Keynote</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 01:48:29</div>
+			
+			
+              <div>Views: 251 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/painless-nodejs-asset-management-with-connect-assets"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qmFbWztLCUo/hqdefault.jpg" alt="Painless Node.js Asset Management with Connect-Assets." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/painless-nodejs-asset-management-with-connect-assets">Painless Node.js Asset Management with Connect-Assets.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 40:42</div>
+			
+			
+              <div>Views: 470 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/production-ready-node-architecture"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9Qg9q5ABsvE/hqdefault.jpg" alt="Production-ready Node Architecture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/production-ready-node-architecture">Production-ready Node Architecture</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 01:24:42</div>
+			
+			
+              <div>Views: 7241 Likes: 90</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/promises-in-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oa2clhsYIDY/hqdefault.jpg" alt="Promises in Javascript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/promises-in-javascript">Promises in Javascript</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 45:21</div>
+			
+			
+              <div>Views: 18128 Likes: 149</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/ready-for-battle-hardening-nodejs-for-the-enterprise"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5ttx8Nkgjl8/hqdefault.jpg" alt="Ready for battle! - Hardening Node.js for the Enterprise." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/ready-for-battle-hardening-nodejs-for-the-enterprise">Ready for battle! - Hardening Node.js for the Enterprise.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 52:24</div>
+			
+			
+              <div>Views: 1408 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/real-world-react"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uZgAq1CZ1N8/hqdefault.jpg" alt="Real World React" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/real-world-react">Real World React</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 41:23</div>
+			
+			
+              <div>Views: 8458 Likes: 53</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/runtime-funtimes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HTiX43Ud5Ko/hqdefault.jpg" alt="Runtime Funtimes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/runtime-funtimes">Runtime Funtimes</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 43:44</div>
+			
+			
+              <div>Views: 167 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/stressed-about-nosql-relax-with-couchdb"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ci8gTjn5Y0E/hqdefault.jpg" alt="Stressed About NoSQL? Relax with CouchDB." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/stressed-about-nosql-relax-with-couchdb">Stressed About NoSQL? Relax with CouchDB.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 54:10</div>
+			
+			
+              <div>Views: 4522 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/supporting-the-community-helping-to-build-nashvilles-thriving-dev-community"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VtqX3cvBcFc/hqdefault.jpg" alt="Supporting the Community: Helping to build Nashville's Thriving Dev Community" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/supporting-the-community-helping-to-build-nashvilles-thriving-dev-community">Supporting the Community: Helping to build Nashville's Thriving Dev Community</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 48:26</div>
+			
+			
+              <div>Views: 60 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/taking-the-training-wheels-off-migrating-from-net-to-nodejs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZCRw60Q1LQE/hqdefault.jpg" alt="Taking the training wheels off - migrating from .NET to NodeJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/taking-the-training-wheels-off-migrating-from-net-to-nodejs">Taking the training wheels off - migrating from .NET to NodeJS</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 35:03</div>
+			
+			
+              <div>Views: 266 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/the-engineering-case-for-node"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ygq7qe4Penw/hqdefault.jpg" alt="The engineering case for Node." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/the-engineering-case-for-node">The engineering case for Node.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 41:14</div>
+			
+			
+              <div>Views: 101 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/the-mean-stack"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-_9vk0MX_Lg/hqdefault.jpg" alt="The MEAN Stack." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/the-mean-stack">The MEAN Stack.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 33:57</div>
+			
+			
+              <div>Views: 405 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/undefined-is-not-a-function-what-the-most-common-errors-in-javascript-actually-mean"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1RYfsxHs3K4/hqdefault.jpg" alt="Undefined is Not a Function: What the Most Common Errors in JavaScript Actually Mean." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/undefined-is-not-a-function-what-the-most-common-errors-in-javascript-actually-mean">Undefined is Not a Function: What the Most Common Errors in JavaScript Actually Mean.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 41:47</div>
+			
+			
+              <div>Views: 1138 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/use-a-task-runner-already"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7JJGtTzIv7k/hqdefault.jpg" alt="Use a Task Runner Already!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/use-a-task-runner-already">Use a Task Runner Already!</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 38:19</div>
+			
+			
+              <div>Views: 427 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodevember-2014/we-will-all-be-game-programmers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/krDJWIvGsG8/hqdefault.jpg" alt="We Will All Be Game Programmers." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodevember-2014/we-will-all-be-game-programmers">We Will All Be Game Programmers.</a></h4>
+          <footer>
+            <div class="recorded">2014-11-15</div>
+			
+			  <div>Length: 41:07</div>
+			
+			
+              <div>Views: 408 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/nodevember-2014">Nodevember 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLSZHCj84JSDO3RvO639TxREnqiuD7WvQv">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

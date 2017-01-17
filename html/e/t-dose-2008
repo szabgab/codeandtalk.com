@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>T-DOSE 2008</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>T-DOSE 2008</h1>
+
+<div><a href="http://www.t-dose.org/2008/schedule">T-DOSE 2008</a></div>
+
+
+<div>Start date: 2008-10-25</div>
+<div>End date: 2008-10-26</div>
+
+<div>Location:
+  Eindhoven
+  
+  <a href="/l/the-netherlands">The Netherlands</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/opensource">OpenSource</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/TDOSE">@TDOSE</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/tdosenl">https://www.facebook.com/tdosenl</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=T-DOSE%202008%20on%202008-10-25%20in%20Eindhoven%2C%20%20The%20Netherlands%20%40TDOSE%20http%3A//www.t-dose.org/2008/schedule%20%23OpenSource%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2008/t-dose-2008-centos-and-the-enterprise-linux-market-dag-wieers-dutch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hGjprbtQU4s/hqdefault.jpg" alt="CentOS and the Enterprise Linux market (Dutch)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2008/t-dose-2008-centos-and-the-enterprise-linux-market-dag-wieers-dutch">CentOS and the Enterprise Linux market (Dutch)</a></h4>
+          <footer>
+            <div class="recorded">2008-10-25</div>
+			
+			  <div>Length: 47:41</div>
+			
+			
+              <div>Views: 82 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2008">T-DOSE 2008</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dag-wieers">Dag Wieers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2008/t-dose-2008-dangers-of-drm-and-software-patents-ciaran-oriordan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vfvSgHit82c/hqdefault.jpg" alt="Dangers of DRM and software patents" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2008/t-dose-2008-dangers-of-drm-and-software-patents-ciaran-oriordan">Dangers of DRM and software patents</a></h4>
+          <footer>
+            <div class="recorded">2008-10-25</div>
+			
+			  <div>Length: 47:24</div>
+			
+			
+              <div>Views: 33 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2008">T-DOSE 2008</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ciaran-oriordan">Ciaran O'Riordan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2008/t-dose-2008-giving-presentations-with-your-wiimote-geert-dietger-hoffmann"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zd72_wLlvq0/hqdefault.jpg" alt="Giving presentations with your wiimote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2008/t-dose-2008-giving-presentations-with-your-wiimote-geert-dietger-hoffmann">Giving presentations with your wiimote</a></h4>
+          <footer>
+            <div class="recorded">2008-10-25</div>
+			
+			  <div>Length: 49:24</div>
+			
+			
+              <div>Views: 41 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2008">T-DOSE 2008</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/geert-dietger-hoffmann">Geert-Dietger Hoffmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2008/t-dose-2008-gplv3-compliance-arnoud-engelfriet-ywein-van-den-brande"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zvoVE8J_vj8/hqdefault.jpg" alt="GPLv3 compliance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2008/t-dose-2008-gplv3-compliance-arnoud-engelfriet-ywein-van-den-brande">GPLv3 compliance</a></h4>
+          <footer>
+            <div class="recorded">2008-10-25</div>
+			
+			  <div>Length: 43:14</div>
+			
+			
+              <div>Views: 60 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2008">T-DOSE 2008</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ywein-van-den-brande">Ywein van den Brande</a>
+             
+                <a href="/p/arnoud-engelfriet">Arnoud Engelfriet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2008/t-dose-2008-mathdox-interactive-mathematical-documents-on-the-web-jan-willem-knopper"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mfrf8PW9xu0/hqdefault.jpg" alt="MathDox, Interactive Mathematical Documents on the Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2008/t-dose-2008-mathdox-interactive-mathematical-documents-on-the-web-jan-willem-knopper">MathDox, Interactive Mathematical Documents on the Web</a></h4>
+          <footer>
+            <div class="recorded">2008-10-25</div>
+			
+			  <div>Length: 50:04</div>
+			
+			
+              <div>Views: 77 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2008">T-DOSE 2008</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jan-willem-knopper">Jan Willem Knopper</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2008/t-dose-2008-mrepo-mirroring-and-building-rpm-repositories-dag-wieers-dutch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7YSt6OcuPyc/hqdefault.jpg" alt="mrepo - Mirroring and building RPM repositories (Dutch)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2008/t-dose-2008-mrepo-mirroring-and-building-rpm-repositories-dag-wieers-dutch">mrepo - Mirroring and building RPM repositories (Dutch)</a></h4>
+          <footer>
+            <div class="recorded">2008-10-25</div>
+			
+			  <div>Length: 56:24</div>
+			
+			
+              <div>Views: 201 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2008">T-DOSE 2008</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dag-wieers">Dag Wieers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2008/t-dose-2008-myowndb-introduction-raphael-bauduin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/udhgLhTjR7U/hqdefault.jpg" alt="MyOwnDb, introduction" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2008/t-dose-2008-myowndb-introduction-raphael-bauduin">MyOwnDb, introduction</a></h4>
+          <footer>
+            <div class="recorded">2008-10-25</div>
+			
+			  <div>Length: 45:25</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2008">T-DOSE 2008</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/raphael-bauduin">Raphael Bauduin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2008/t-dose-2008-open-source-bi-solutions-with-pentaho-and-mysql-matt-casters-and-roland-bouman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GwQBggUKZrc/hqdefault.jpg" alt="Open Source BI Solutions with Pentaho and MySQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2008/t-dose-2008-open-source-bi-solutions-with-pentaho-and-mysql-matt-casters-and-roland-bouman">Open Source BI Solutions with Pentaho and MySQL</a></h4>
+          <footer>
+            <div class="recorded">2008-10-25</div>
+			
+			  <div>Length: 52:37</div>
+			
+			
+              <div>Views: 271 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2008">T-DOSE 2008</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-casters">Matt Casters</a>
+             
+                <a href="/p/roland-bouman">Roland Bouman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2008/t-dose-2008-proxytunnel-punching-holes-through-the-corporate-firewall-mark-janssen-hoffmann"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zbPpHjUTTUY/hqdefault.jpg" alt="Proxytunnel - Punching holes through the corporate firewall" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2008/t-dose-2008-proxytunnel-punching-holes-through-the-corporate-firewall-mark-janssen-hoffmann">Proxytunnel - Punching holes through the corporate firewall</a></h4>
+          <footer>
+            <div class="recorded">2008-10-25</div>
+			
+			  <div>Length: 42:17</div>
+			
+			
+              <div>Views: 217 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2008">T-DOSE 2008</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-janssen-hoffmann">Mark Janssen Hoffmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2008/t-dose-2008-the-first-computer-programmers-in-the-netherlands-onno-zweers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/a2H0CfPCjkY/hqdefault.jpg" alt="The first computer & programmers in the Netherlands" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2008/t-dose-2008-the-first-computer-programmers-in-the-netherlands-onno-zweers">The first computer & programmers in the Netherlands</a></h4>
+          <footer>
+            <div class="recorded">2008-10-26</div>
+			
+			  <div>Length: 49:43</div>
+			
+			
+              <div>Views: 36 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2008">T-DOSE 2008</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/onno-zweers">Onno Zweers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2008/t-dose-2008-the-videolan-project-vlc-media-player-jean-paul-saman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bwPrjvkbHsY/hqdefault.jpg" alt="The VideoLAN project, VLC media player" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2008/t-dose-2008-the-videolan-project-vlc-media-player-jean-paul-saman">The VideoLAN project, VLC media player</a></h4>
+          <footer>
+            <div class="recorded">2008-10-25</div>
+			
+			  <div>Length: 57:20</div>
+			
+			
+              <div>Views: 158 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2008">T-DOSE 2008</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jean-paul-saman">Jean-Paul Saman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2008/t-dose-2008-usability-improvements-in-drupal-6-and-beyond-roy-scholten"><img class="list-thumbnail" src="https://i.ytimg.com/vi/COtoLd-GqnU/hqdefault.jpg" alt="Usability Improvements in Drupal 6 and Beyond" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2008/t-dose-2008-usability-improvements-in-drupal-6-and-beyond-roy-scholten">Usability Improvements in Drupal 6 and Beyond</a></h4>
+          <footer>
+            <div class="recorded">2008-10-25</div>
+			
+			  <div>Length: 37:30</div>
+			
+			
+              <div>Views: 31 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2008">T-DOSE 2008</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/roy-scholten">Roy Scholten</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLBZBIkixHEicELOg8ZdbOSUuJICSxW0UK">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

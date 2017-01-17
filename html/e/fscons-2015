@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>FSCONS 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>FSCONS 2015</h1>
+
+<div><a href="https://fscons.org/2015/">FSCONS 2015</a></div>
+
+
+<div>Start date: 2015-11-07</div>
+<div>End date: 2015-11-08</div>
+
+<div>Location:
+  Göteborg
+  
+  <a href="/l/sweden">Sweden</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/fscons">@fscons</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=FSCONS%202015%20on%202015-11-07%20in%20G%C3%B6teborg%2C%20%20Sweden%20%40fscons%20https%3A//fscons.org/2015/%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/arwid-lund-realm-of-freedom-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kOgKAm-lZx4/hqdefault.jpg" alt="Realm of Freedom?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/arwid-lund-realm-of-freedom-fscons-2015">Realm of Freedom?</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 46:44</div>
+			
+			
+              <div>Views: 9 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/arwid-lund">Arwid Lund</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/b-rich-o-de-fresnoye-a-dailly-and-q-largeteau-the-future-of-medicine-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uVAO8ae2DYA/hqdefault.jpg" alt="The Future of Medicine" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/b-rich-o-de-fresnoye-a-dailly-and-q-largeteau-the-future-of-medicine-fscons-2015">The Future of Medicine</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 49:20</div>
+			
+			
+              <div>Views: 6 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/byron-rich">Byron Rich</a>
+             
+                <a href="/p/quitterie-largeteau">Quitterie Largeteau</a>
+             
+                <a href="/p/aurelien-dailly">Aurelien Dailly</a>
+             
+                <a href="/p/olivier-de-fresnoye">Olivier De Fresnoye</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/birgitta-jonsdottir-hackers-in-parliaments-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZKnnyo9VdLQ/hqdefault.jpg" alt="Hackers in Parliaments" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/birgitta-jonsdottir-hackers-in-parliaments-fscons-2015">Hackers in Parliaments</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 01:00:49</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/birgitta-jonsdottir">Birgitta Jonsdottir</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/dataskyddnet-data-protection-for-websites-made-simple-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/e58DwnjSjGE/hqdefault.jpg" alt="Dataskydd.NET: Data protection for websites made simple (FSCONS 2015)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/dataskyddnet-data-protection-for-websites-made-simple-fscons-2015">Dataskydd.NET: Data protection for websites made simple (FSCONS 2015)</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 30:56</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/georg-koppen-browsing-the-web-with-tor-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/k8R1gi9YII0/hqdefault.jpg" alt="Browsing the Web with Tor" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/georg-koppen-browsing-the-web-with-tor-fscons-2015">Browsing the Web with Tor</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 45:52</div>
+			
+			
+              <div>Views: 12 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/georg-koppen">Georg Koppen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/gustav-eek-on-fripost-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/soj6J9EWbq4/hqdefault.jpg" alt="On Fripost" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/gustav-eek-on-fripost-fscons-2015">On Fripost</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 42:03</div>
+			
+			
+              <div>Views: 48 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gustav-eek">Gustav Eek</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/hcderaad-how-to-setup-your-own-secure-communication-and-collaboration-platform-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Mpen-XL4XeE/hqdefault.jpg" alt="How to setup your own secure communication and collaboration platform?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/hcderaad-how-to-setup-your-own-secure-communication-and-collaboration-platform-fscons-2015">How to setup your own secure communication and collaboration platform?</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 41:50</div>
+			
+			
+              <div>Views: 61 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hans-de-raad">Hans de Raad</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/hcderaad-quid-pro-quo-community-organizing-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-L0fj6oPebQ/hqdefault.jpg" alt="Quid pro quo community organizing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/hcderaad-quid-pro-quo-community-organizing-fscons-2015">Quid pro quo community organizing</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 42:24</div>
+			
+			
+              <div>Views: 1 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hans-de-raad">Hans de Raad</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/i-levantis-h-shomar-a-dailly-q-largeteau-genetic-engineering-your-next-hobby-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JXoc33Hj0Gg/hqdefault.jpg" alt="Genetic Engineering: Your Next Hobby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/i-levantis-h-shomar-a-dailly-q-largeteau-genetic-engineering-your-next-hobby-fscons-2015">Genetic Engineering: Your Next Hobby</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 44:46</div>
+			
+			
+              <div>Views: 19 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/quitterie-largeteau">Quitterie Largeteau</a>
+             
+                <a href="/p/aurelien-dailly">Aurelien Dailly</a>
+             
+                <a href="/p/ilya-levantis">Ilya Levantis</a>
+             
+                <a href="/p/helena-shomar">Helena Shomar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/joachim-strombergson-cryptech-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UVtNwwrezTk/hqdefault.jpg" alt="Cryptech" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/joachim-strombergson-cryptech-fscons-2015">Cryptech</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 47:31</div>
+			
+			
+              <div>Views: 28 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joachim-strombergson">Joachim Strombergson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/johanna-berg-who-controls-the-past-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DLmLgdc00Wc/hqdefault.jpg" alt="Who controls the past?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/johanna-berg-who-controls-the-past-fscons-2015">Who controls the past?</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 34:23</div>
+			
+			
+              <div>Views: 5 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/johanna-berg">Johanna Berg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/ken-macleod-cyberspace-is-not-a-place-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ndq9Yt2Nxdo/hqdefault.jpg" alt="Cyberspace Is Not a Place" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/ken-macleod-cyberspace-is-not-a-place-fscons-2015">Cyberspace Is Not a Place</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 01:02:13</div>
+			
+			
+              <div>Views: 56 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ken-macleod">Ken MacLeod</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/leandros-savvides-3d-printing-in-hackspaces-as-heterotopias-of-production-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5Fu6KMQxkv4/hqdefault.jpg" alt="3D printing in hackspaces as heterotopias of production" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/leandros-savvides-3d-printing-in-hackspaces-as-heterotopias-of-production-fscons-2015">3D printing in hackspaces as heterotopias of production</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 52:44</div>
+			
+			
+              <div>Views: 19 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/leandros-savvides">Leandros Savvides</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/manuel-lains-christian-lains-society-unchained-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NUDX8ii5x78/hqdefault.jpg" alt="Society Unchained" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/manuel-lains-christian-lains-society-unchained-fscons-2015">Society Unchained</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 55:20</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/manuel-lains">Manuel Lains</a>
+             
+                <a href="/p/christian-lains">Christian Lains</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/manuel-lains-christian-lains-why-bitcoin-is-not-bitcoin-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DDH8k3i28Tk/hqdefault.jpg" alt="Why Bitcoin is not Bitcoin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/manuel-lains-christian-lains-why-bitcoin-is-not-bitcoin-fscons-2015">Why Bitcoin is not Bitcoin</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 50:31</div>
+			
+			
+              <div>Views: 69 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/manuel-lains">Manuel Lains</a>
+             
+                <a href="/p/christian-lains">Christian Lains</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/michael-schloh-von-bennewitz-interfacing-with-sensors-freely-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PshSUxKg8-o/hqdefault.jpg" alt="Interfacing with Sensors Freely" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/michael-schloh-von-bennewitz-interfacing-with-sensors-freely-fscons-2015">Interfacing with Sensors Freely</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 40:58</div>
+			
+			
+              <div>Views: 18 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-schloh-von-bennewitz">Michael Schloh von Bennewitz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/myriam-boure-collaborative-government-inspiration-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WFas9aXcpb8/hqdefault.jpg" alt="Collaborative Government Inspiration" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/myriam-boure-collaborative-government-inspiration-fscons-2015">Collaborative Government Inspiration</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 35:13</div>
+			
+			
+              <div>Views: 9 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/myriam-boure">Myriam Boure</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/myriam-boure-the-open-food-network-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tFd2NDccB6k/hqdefault.jpg" alt="The Open Food Network" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/myriam-boure-the-open-food-network-fscons-2015">The Open Food Network</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 54:35</div>
+			
+			
+              <div>Views: 49 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/myriam-boure">Myriam Boure</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/p-rey-p-boeing-q-largeteau-and-a-dailly-the-tools-of-open-science-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OGhq-nwEexk/hqdefault.jpg" alt="The Tools of Open Science" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/p-rey-p-boeing-q-largeteau-and-a-dailly-the-tools-of-open-science-fscons-2015">The Tools of Open Science</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 40:42</div>
+			
+			
+              <div>Views: 11 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pablo-rey">Pablo Rey</a>
+             
+                <a href="/p/aurelien-dailly">Aurelien Dailly</a>
+             
+                <a href="/p/philipp-boeing">Philipp Boeing</a>
+             
+                <a href="/p/quitterie-largeteau">Quitterie Largeteau</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/p-riemens-the-pitfalls-of-bitcoin-and-the-many-potentials-of-blockchain-tech-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YRc1FbH1Z4k/hqdefault.jpg" alt="The pitfalls of Bitcoin and the many potentials of blockchain tech." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/p-riemens-the-pitfalls-of-bitcoin-and-the-many-potentials-of-blockchain-tech-fscons-2015">The pitfalls of Bitcoin and the many potentials of blockchain tech.</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 49:15</div>
+			
+			
+              <div>Views: 57 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patrice-riemens">Patrice Riemens</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/patrik-gustafsson-birgit-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/x5Jbp0-p9l4/hqdefault.jpg" alt="birGit" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/patrik-gustafsson-birgit-fscons-2015">birGit</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 42:34</div>
+			
+			
+              <div>Views: 14 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patrik-gustafsson">Patrik Gustafsson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/philip-ballew-customize-your-ubuntu-desktop-to-make-it-awesome-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TK3ZN6lS8Kc/hqdefault.jpg" alt="Customize your Ubuntu Desktop to make it awesome!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/philip-ballew-customize-your-ubuntu-desktop-to-make-it-awesome-fscons-2015">Customize your Ubuntu Desktop to make it awesome!</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 50:52</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/philip-ballew">Philip Ballew</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/raphael-kim-peck-as-you-go-an-alternative-payment-system-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HuYwTbGRj_E/hqdefault.jpg" alt="Peck as You Go - An Alternative Payment System" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/raphael-kim-peck-as-you-go-an-alternative-payment-system-fscons-2015">Peck as You Go - An Alternative Payment System</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 25:08</div>
+			
+			
+              <div>Views: 9 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/raphael-kim">Raphael Kim</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/sam-tuke-libreoffice-online-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JEix1DdPsyI/hqdefault.jpg" alt="LibreOffice Online" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/sam-tuke-libreoffice-online-fscons-2015">LibreOffice Online</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 51:40</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sam-tuke">Sam Tuke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/saturday-lightning-talks-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8mSVMY74sOY/hqdefault.jpg" alt="Saturday Lightning Talks (FSCONS 2015)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/saturday-lightning-talks-fscons-2015">Saturday Lightning Talks (FSCONS 2015)</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 36:14</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/seth-david-schoen-lets-encrypt-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/d0U8KXFx0nU/hqdefault.jpg" alt="Let's Encrypt" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/seth-david-schoen-lets-encrypt-fscons-2015">Let's Encrypt</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 47:55</div>
+			
+			
+              <div>Views: 48 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/seth-david-schoen">Seth David Schoen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/sunday-lightning-talks-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Sllmpupq0NQ/hqdefault.jpg" alt="Sunday Lightning Talks (FSCONS 2015)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/sunday-lightning-talks-fscons-2015">Sunday Lightning Talks (FSCONS 2015)</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 42:48</div>
+			
+			
+              <div>Views: 8 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/werner-koch-the-state-of-everyday-cryptography-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/teGI-wjdClY/hqdefault.jpg" alt="The state of everyday cryptography" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/werner-koch-the-state-of-everyday-cryptography-fscons-2015">The state of everyday cryptography</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 38:32</div>
+			
+			
+              <div>Views: 165 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/werner-koch">Werner Koch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2015/yury-andreev-reliable-links-fscons-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Zyr3UPXEZB0/hqdefault.jpg" alt="Reliable Links" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2015/yury-andreev-reliable-links-fscons-2015">Reliable Links</a></h4>
+          <footer>
+            <div class="recorded">2015-11-07</div>
+			
+			  <div>Length: 45:07</div>
+			
+			
+              <div>Views: 3 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2015">FSCONS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yury-andreev">Yury Andreev</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL4yYmsifqkVGwbVaSXRJh8FTTPsvcVmVS">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Ruby Conf Portugal</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Ruby Conf Portugal</h1>
+
+<div><a href="http://rubyconf.pt/">Ruby Conf Portugal</a></div>
+
+
+<div>Start date: 2016-10-27</div>
+<div>End date: 2016-10-28</div>
+
+<div>Location:
+  Braga
+  
+  <a href="/l/portugal">Portugal</a>
+</div>
+
+<div><a href="http://rubyconf.pt/code-of-conduct/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/ruby">Ruby</a> 
+   
+       <a href="/t/rails">Rails</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/rubyconfpt">@rubyconfpt</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Ruby%20Conf%20Portugal%20on%202016-10-27%20in%20Braga%2C%20%20Portugal%20%40rubyconfpt%20http%3A//rubyconf.pt/%20%23Ruby%20%23Rails%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/aaron-patterson-methods-of-memory-management-in-mri-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gtQmWk8mCRs/hqdefault.jpg" alt="Methods of Memory Management in MRI" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/aaron-patterson-methods-of-memory-management-in-mri-rubyconf-portugal16">Methods of Memory Management in MRI</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 47:34</div>
+			
+			
+              <div>Views: 496 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aaron-patterson">Aaron Patterson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/bodo-tasche-convention-over-configuration-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QcO_UUjvScg/hqdefault.jpg" alt="Convention Over Configuration" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/bodo-tasche-convention-over-configuration-rubyconf-portugal16">Convention Over Configuration</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 04:13</div>
+			
+			
+              <div>Views: 4 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bodo-tasche">Bodo Tasche</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/caio-sacramento-using-graphql-and-relay-for-hybrid-ror-apps-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GYQHkPB1pTI/hqdefault.jpg" alt="Using GraphQL and Relay for hybrid RoR apps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/caio-sacramento-using-graphql-and-relay-for-hybrid-ror-apps-rubyconf-portugal16">Using GraphQL and Relay for hybrid RoR apps</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 35:15</div>
+			
+			
+              <div>Views: 89 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/caio-sacramento">Caio Sacramento</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/dan-brown-wtf-is-happiness-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wg8BaV5E1W4/hqdefault.jpg" alt="WTF is Happiness" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/dan-brown-wtf-is-happiness-rubyconf-portugal16">WTF is Happiness</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 05:14</div>
+			
+			
+              <div>Views: 4 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-brown">Dan Brown</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/hiro-asari-control-theory-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CUgJU80tpqk/hqdefault.jpg" alt="Control Theory" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/hiro-asari-control-theory-rubyconf-portugal16">Control Theory</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 33:48</div>
+			
+			
+              <div>Views: 19 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hiro-asari">Hiro Asari</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/katherine-wu-ask-vs-guess-culture-communication-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vuF4FogSt3Y/hqdefault.jpg" alt="Ask vs. Guess Culture Communication" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/katherine-wu-ask-vs-guess-culture-communication-rubyconf-portugal16">Ask vs. Guess Culture Communication</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 31:46</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/katherine-wu">Katherine Wu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/kerri-miller-crescent-wrenches-and-debuggers-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JN4LqjPVHGc/hqdefault.jpg" alt="Crescent Wrenches and Debuggers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/kerri-miller-crescent-wrenches-and-debuggers-rubyconf-portugal16">Crescent Wrenches and Debuggers</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 45:54</div>
+			
+			
+              <div>Views: 47 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kerri-miller">Kerri Miller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/martin-fowler-software-design-in-the-21st-century-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ppKuZM5W6Q4/hqdefault.jpg" alt="Software Design in the 21st Century" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/martin-fowler-software-design-in-the-21st-century-rubyconf-portugal16">Software Design in the 21st Century</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 01:00:45</div>
+			
+			
+              <div>Views: 61 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/martin-fowler">Martin Fowler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/miguel-regedor-we-truly-develop-people-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lnzi2RCo0Ug/hqdefault.jpg" alt="We Truly Develop People" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/miguel-regedor-we-truly-develop-people-rubyconf-portugal16">We Truly Develop People</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 05:23</div>
+			
+			
+              <div>Views: 17 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/miguel-regedor">Miguel Regedor</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/omar-qunsul-better-translation-in-rails-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OzA0FhYm7PI/hqdefault.jpg" alt="Better Translation in Rails" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/omar-qunsul-better-translation-in-rails-rubyconf-portugal16">Better Translation in Rails</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 05:03</div>
+			
+			
+              <div>Views: 47 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/omar-qunsul">Omar Qunsul</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/panel-martin-fowler-kerri-miller-aaron-patterson-yehuda-katz-hiro-asari-rubyconf-pt16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jATImleUwVY/hqdefault.jpg" alt="Panel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/panel-martin-fowler-kerri-miller-aaron-patterson-yehuda-katz-hiro-asari-rubyconf-pt16">Panel</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 54:37</div>
+			
+			
+              <div>Views: 20 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hiro-asari">Hiro Asari</a>
+             
+                <a href="/p/martin-fowler">Martin Fowler</a>
+             
+                <a href="/p/yehuda-katz">Yehuda Katz</a>
+             
+                <a href="/p/kerri-miller">Kerri Miller</a>
+             
+                <a href="/p/aaron-patterson">Aaron Patterson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/pat-allan-open-source-power-and-the-passion-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lb8p1CyN0X0/hqdefault.jpg" alt="Open Source: Power and the Passion" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/pat-allan-open-source-power-and-the-passion-rubyconf-portugal16">Open Source: Power and the Passion</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 30:51</div>
+			
+			
+              <div>Views: 49 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pat-allan">Pat Allan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/peter-saxton-building-on-domain-concepts-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oIq82qFo0B8/hqdefault.jpg" alt="Building on Domain Concepts" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/peter-saxton-building-on-domain-concepts-rubyconf-portugal16">Building on Domain Concepts</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 04:46</div>
+			
+			
+              <div>Views: 8 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-saxton">Peter Saxton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/piotr-szotkowski-they-hear-me-typin-they-hatin-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/y9yQPl2WxfQ/hqdefault.jpg" alt="They Hear Me Typin’, They Hatin’" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/piotr-szotkowski-they-hear-me-typin-they-hatin-rubyconf-portugal16">They Hear Me Typin’, They Hatin’</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 42:32</div>
+			
+			
+              <div>Views: 11 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/piotr-szotkowski">Piotr Szotkowski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/rails-girls-summer-of-code-falling-into-rabbit-holes-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FMwv-f7nMLQ/hqdefault.jpg" alt="Rails Girls Summer of Code: Falling into Rabbit Holes @ RubyConf Portugal'16" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/rails-girls-summer-of-code-falling-into-rabbit-holes-rubyconf-portugal16">Rails Girls Summer of Code: Falling into Rabbit Holes @ RubyConf Portugal'16</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 19:18</div>
+			
+			
+              <div>Views: 163 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/rubyconf-portugal-2016-best-of"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mtLxD7r4BZQ/hqdefault.jpg" alt="RubyConf Portugal 2016 - Best Of" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/rubyconf-portugal-2016-best-of">RubyConf Portugal 2016 - Best Of</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 02:55</div>
+			
+			
+              <div>Views: 330 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/rubyconf-portugal-2016-opening"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hiqWt54ADZI/hqdefault.jpg" alt="RubyConf Portugal 2016 - Opening" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/rubyconf-portugal-2016-opening">RubyConf Portugal 2016 - Opening</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 02:15</div>
+			
+			
+              <div>Views: 3 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/tobias-pfeiffer-elixir-phoenix-fast-concurrent-and-explicit-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pjab0jPGr6s/hqdefault.jpg" alt="Elixir & Phoenix – fast, concurrent and explicit" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/tobias-pfeiffer-elixir-phoenix-fast-concurrent-and-explicit-rubyconf-portugal16">Elixir & Phoenix – fast, concurrent and explicit</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 41:22</div>
+			
+			
+              <div>Views: 538 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tobias-pfeiffer">Tobias Pfeiffer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/uygar-soenmez-squashing-api-bottlenecks-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4ycRYgrmb7s/hqdefault.jpg" alt="Squashing API Bottlenecks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/uygar-soenmez-squashing-api-bottlenecks-rubyconf-portugal16">Squashing API Bottlenecks</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 05:58</div>
+			
+			
+              <div>Views: 4 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/uygar-soenmez">Uygar Soenmez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-portugal-2016/yehuda-katz-zen-and-the-art-of-package-management-rubyconf-portugal16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Bwk8mdU6-ZY/hqdefault.jpg" alt="Zen and the Art of Package Management" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-portugal-2016/yehuda-katz-zen-and-the-art-of-package-management-rubyconf-portugal16">Zen and the Art of Package Management</a></h4>
+          <footer>
+            <div class="recorded">2016-10-27</div>
+			
+			  <div>Length: 57:05</div>
+			
+			
+              <div>Views: 12 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-portugal-2016">Ruby Conf Portugal</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yehuda-katz">Yehuda Katz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLgGhdJEbwzoI6sUw_2wTlFHCGPRVoatln">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

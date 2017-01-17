@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Nordic JS 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Nordic JS 2015</h1>
+
+<div><a href="http://2015.nordicjs.com/">Nordic JS 2015</a></div>
+
+
+<div>Start date: 2015-09-10</div>
+<div>End date: 2015-09-11</div>
+
+<div>Location:
+  Stockholm
+  
+  <a href="/l/sweden">Sweden</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/nordicjs">@nordicjs</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/nordicjs">https://www.facebook.com/nordicjs</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Nordic%20JS%202015%20on%202015-09-10%20in%20Stockholm%2C%20%20Sweden%20%40nordicjs%20http%3A//2015.nordicjs.com/%20%23JavaScript%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-alice-bartlett-bin-your-select-tags"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-dH6a6eMdXE/hqdefault.jpg" alt="Bin your select tags" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-alice-bartlett-bin-your-select-tags">Bin your select tags</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 31:03</div>
+			
+			
+              <div>Views: 889 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alice-bartlett">Alice Bartlett</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-amy-palamountain-building-native-applications-with-electron"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OHOPSvTltPI/hqdefault.jpg" alt="Building native applications with Electron" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-amy-palamountain-building-native-applications-with-electron">Building native applications with Electron</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 27:17</div>
+			
+			
+              <div>Views: 6418 Likes: 117</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amy-palamountain">Amy Palamountain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-arthur-camara-angie-skazka-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zOuvHuuRZZk/hqdefault.jpg" alt="Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-arthur-camara-angie-skazka-lightning-talk">Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 05:27</div>
+			
+			
+              <div>Views: 347 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/arthur-camara">Arthur Camara</a>
+             
+                <a href="/p/angie-skazka">Angie Skazka</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-behind-the-scene-with-the-hosts-daniel-beauchamp-simone-giertz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yOZ7D6rxin8/hqdefault.jpg" alt="Behind the scene with the hosts of NordicJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-behind-the-scene-with-the-hosts-daniel-beauchamp-simone-giertz">Behind the scene with the hosts of NordicJS</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 03:10</div>
+			
+			
+              <div>Views: 276 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-beauchamp">Daniel Beauchamp</a>
+             
+                <a href="/p/simone-giertz">Simone Giertz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-bert-belder-there-are-no-promises-in-nodejs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UGt2gTD04-k/hqdefault.jpg" alt="There are no promises in node.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-bert-belder-there-are-no-promises-in-nodejs">There are no promises in node.js</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 45:44</div>
+			
+			
+              <div>Views: 1692 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bert-belder">Bert Belder</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-christy-haragan-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lDzcWD76NKw/hqdefault.jpg" alt="Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-christy-haragan-lightning-talk">Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 05:21</div>
+			
+			
+              <div>Views: 286 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christy-haragan">Christy Haragan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-felix-palmer-through-the-looking-glass-programming-on-the-gpu-using-webgl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2O3-DoClY-Y/hqdefault.jpg" alt="Through the looking glass - programming on the GPU using WebGL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-felix-palmer-through-the-looking-glass-programming-on-the-gpu-using-webgl">Through the looking glass - programming on the GPU using WebGL</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 27:53</div>
+			
+			
+              <div>Views: 615 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/felix-palmer">Felix Palmer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-franziska-hinkelmann-a-trip-to-the-zoo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1kAkGWJZ6Zo/hqdefault.jpg" alt="A Trip to the Zoo" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-franziska-hinkelmann-a-trip-to-the-zoo">A Trip to the Zoo</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 28:28</div>
+			
+			
+              <div>Views: 1043 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/franziska-hinkelmann">Franziska Hinkelmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-guilherme-rodrigues-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_-by4SmxABA/hqdefault.jpg" alt="Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-guilherme-rodrigues-lightning-talk">Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 03:32</div>
+			
+			
+              <div>Views: 214 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/guilherme-rodrigues">Guilherme Rodrigues</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-jake-archibald-modern-progressive-enhancement"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EVEiIlJSx_Y/hqdefault.jpg" alt="Modern progressive enhancement" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-jake-archibald-modern-progressive-enhancement">Modern progressive enhancement</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 35:48</div>
+			
+			
+              <div>Views: 1800 Likes: 32</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jake-archibald">Jake Archibald</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-jakob-mattson-forgotten-funky-functions"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gJOQIZiRFYc/hqdefault.jpg" alt="Forgotten Funky Functions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-jakob-mattson-forgotten-funky-functions">Forgotten Funky Functions</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 32:01</div>
+			
+			
+              <div>Views: 943 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jakob-mattson">Jakob Mattson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-james-kyburz-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Q57qH0XK_0A/hqdefault.jpg" alt="Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-james-kyburz-lightning-talk">Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 05:05</div>
+			
+			
+              <div>Views: 270 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-kyburz">James Kyburz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-joakim-carlstein-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aE4n-cY0LP0/hqdefault.jpg" alt="Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-joakim-carlstein-lightning-talk">Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 05:07</div>
+			
+			
+              <div>Views: 140 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joakim-carlstein">Joakim Carlstein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-jonatan-brown-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/E4F4vVAcKH8/hqdefault.jpg" alt="Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-jonatan-brown-lightning-talk">Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 05:28</div>
+			
+			
+              <div>Views: 372 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jonatan-brown">Jonatan Brown</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-kate-hudson-advanced-front-end-automation-with-npm-scripts"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0RYETb9YVrk/hqdefault.jpg" alt="Advanced front-end automation with npm scripts" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-kate-hudson-advanced-front-end-automation-with-npm-scripts">Advanced front-end automation with npm scripts</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 17:50</div>
+			
+			
+              <div>Views: 11835 Likes: 256</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kate-hudson">Kate Hudson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-matthew-podwysocki-async-and-streaming-programming-in-js-were-all-wrong"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wF6lRTrhO5I/hqdefault.jpg" alt="Async and Streaming Programming in JS - We're All Wrong" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-matthew-podwysocki-async-and-streaming-programming-in-js-were-all-wrong">Async and Streaming Programming in JS - We're All Wrong</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 29:54</div>
+			
+			
+              <div>Views: 2307 Likes: 36</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matthew-podwysocki">Matthew Podwysocki</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-michael-lindblom-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fKNP9rEs4hs/hqdefault.jpg" alt="Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-michael-lindblom-lightning-talk">Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 05:03</div>
+			
+			
+              <div>Views: 191 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-lindblom">Michael Lindblom</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-nathanael-sommer-koch-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F1c_fG--s6c/hqdefault.jpg" alt="Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-nathanael-sommer-koch-lightning-talk">Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 05:33</div>
+			
+			
+              <div>Views: 326 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nathanael-sommer-koch">Nathanael Sommer-Koch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-opening-with-the-hosts-daniel-beauchamp-simone-giertz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HbfpuUsDP_E/hqdefault.jpg" alt="Opening" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-opening-with-the-hosts-daniel-beauchamp-simone-giertz">Opening</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 06:59</div>
+			
+			
+              <div>Views: 1403 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-beauchamp">Daniel Beauchamp</a>
+             
+                <a href="/p/simone-giertz">Simone Giertz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-paul-lewis-performance-on-rails"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uJMA2n4RL6s/hqdefault.jpg" alt="Performance on RAILs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-paul-lewis-performance-on-rails">Performance on RAILs</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 29:22</div>
+			
+			
+              <div>Views: 3825 Likes: 77</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-lewis">Paul Lewis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-rebecca-murphey-javascript-all-the-things"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_L600dzfFcg/hqdefault.jpg" alt="JavaScript All The Things" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-rebecca-murphey-javascript-all-the-things">JavaScript All The Things</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 33:08</div>
+			
+			
+              <div>Views: 1551 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rebecca-murphey">Rebecca Murphey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-soledad-penades-hands-on-web-audio"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UEbzTgHs5L0/hqdefault.jpg" alt="Hands on Web Audio" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-soledad-penades-hands-on-web-audio">Hands on Web Audio</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 26:33</div>
+			
+			
+              <div>Views: 468 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/soledad-penades">Soledad Penadés</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-tara-jane-feener-creating-expressive-ui-with-reactjs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qM6XaNlJo10/hqdefault.jpg" alt="Creating Expressive UI with ReactJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-tara-jane-feener-creating-expressive-ui-with-reactjs">Creating Expressive UI with ReactJS</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 26:20</div>
+			
+			
+              <div>Views: 3378 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tara-jane-feener">Tara Jane Feener</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-the-circus-with-the-hosts-daniel-beauchamp-simone-giertz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3sgM-e3QqyY/hqdefault.jpg" alt="The circus" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-the-circus-with-the-hosts-daniel-beauchamp-simone-giertz">The circus</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 08:02</div>
+			
+			
+              <div>Views: 370 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-beauchamp">Daniel Beauchamp</a>
+             
+                <a href="/p/simone-giertz">Simone Giertz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-the-sweden-simulator-with-the-hosts-daniel-beauchamp-simone-giertz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4latzn_TOn8/hqdefault.jpg" alt="The Sweden Simulator" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-the-sweden-simulator-with-the-hosts-daniel-beauchamp-simone-giertz">The Sweden Simulator</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 08:34</div>
+			
+			
+              <div>Views: 704 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-beauchamp">Daniel Beauchamp</a>
+             
+                <a href="/p/simone-giertz">Simone Giertz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015-zeno-rocha-augmented-reality-with-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2NWssETxsPw/hqdefault.jpg" alt="Augmented reality with JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015-zeno-rocha-augmented-reality-with-javascript">Augmented reality with JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 28:28</div>
+			
+			
+              <div>Views: 4325 Likes: 61</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/zeno-rocha">Zeno Rocha</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2015/nordicjs-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0cIWYc862UI/hqdefault.jpg" alt="Film & photography" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2015/nordicjs-2015">Film & photography</a></h4>
+          <footer>
+            <div class="recorded">2015-09-10</div>
+			
+			  <div>Length: 02:34</div>
+			
+			
+              <div>Views: 2320 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2015">Nordic JS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sebastian-hoglund">Sebastian Hoglund</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLGP3VO5jDf8y5yRtyQ4SU2JW6m9NLoNle">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

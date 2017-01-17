@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>ClojuTRE 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>ClojuTRE 2016</h1>
+
+<div><a href="http://clojutre.org/2016/">ClojuTRE 2016</a></div>
+
+
+<div>Start date: 2016-09-16</div>
+<div>End date: 2016-09-16</div>
+
+<div>Location:
+  Tampere
+  
+  <a href="/l/finland">Finland</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/clojure">Clojure</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/clojutre">@clojutre</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=ClojuTRE%202016%20on%202016-09-16%20in%20Tampere%2C%20%20Finland%20%40clojutre%20http%3A//clojutre.org/2016/%20%23Clojure%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/clojutre-2016/clojure-of-things-jarppe-lansio"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FUV_5Hwi5FU/hqdefault.jpg" alt="Clojure of Things" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojutre-2016/clojure-of-things-jarppe-lansio">Clojure of Things</a></h4>
+          <footer>
+            <div class="recorded">2016-09-16</div>
+			
+			  <div>Length: 23:40</div>
+			
+			
+              <div>Views: 873 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/clojutre-2016">ClojuTRE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jarppe-lansio">Jarppe Lansio</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojutre-2016/distributed-transducers-markus-hjort"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_9jdb5TOShk/hqdefault.jpg" alt="Distributed transducers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojutre-2016/distributed-transducers-markus-hjort">Distributed transducers</a></h4>
+          <footer>
+            <div class="recorded">2016-09-16</div>
+			
+			  <div>Length: 22:12</div>
+			
+			
+              <div>Views: 524 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/clojutre-2016">ClojuTRE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/markus-hjort">Markus Hjort</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojutre-2016/doing-data-science-with-clojure-the-good-the-bad-the-ugly-simon-belak"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xtmggfGD3RQ/hqdefault.jpg" alt="Doing data science with Clojure: the good, the bad, the ugly" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojutre-2016/doing-data-science-with-clojure-the-good-the-bad-the-ugly-simon-belak">Doing data science with Clojure: the good, the bad, the ugly</a></h4>
+          <footer>
+            <div class="recorded">2016-09-16</div>
+			
+			  <div>Length: 23:09</div>
+			
+			
+              <div>Views: 766 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/clojutre-2016">ClojuTRE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-belak">Simon Belak</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojutre-2016/interactive-clojure-code-snippets-in-any-web-page-with-klipse-yehonathan-sharvit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/33mTFjPIN10/hqdefault.jpg" alt="Interactive Clojure code snippets in any web page with KLIPSE" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojutre-2016/interactive-clojure-code-snippets-in-any-web-page-with-klipse-yehonathan-sharvit">Interactive Clojure code snippets in any web page with KLIPSE</a></h4>
+          <footer>
+            <div class="recorded">2016-09-16</div>
+			
+			  <div>Length: 23:42</div>
+			
+			
+              <div>Views: 749 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/clojutre-2016">ClojuTRE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yehonathan-sharvit">Yehonathan Sharvit</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojutre-2016/introduction-to-clojurespec-arne-brasseur"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-MeOPF94LhI/hqdefault.jpg" alt="Introduction to clojure.spec" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojutre-2016/introduction-to-clojurespec-arne-brasseur">Introduction to clojure.spec</a></h4>
+          <footer>
+            <div class="recorded">2016-09-16</div>
+			
+			  <div>Length: 27:02</div>
+			
+			
+              <div>Views: 1438 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/clojutre-2016">ClojuTRE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/arne-brasseur">Arne Brasseur</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojutre-2016/isomorphic-web-apps-with-rum-nikita-prokopov"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2fLx4fu9VV8/hqdefault.jpg" alt="Isomorphic web apps with Rum" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojutre-2016/isomorphic-web-apps-with-rum-nikita-prokopov">Isomorphic web apps with Rum</a></h4>
+          <footer>
+            <div class="recorded">2016-09-16</div>
+			
+			  <div>Length: 23:33</div>
+			
+			
+              <div>Views: 1686 Likes: 27</div>
+            
+            <div class="event">From <a href="/e/clojutre-2016">ClojuTRE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nikita-prokopov">Nikita Prokopov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojutre-2016/native-mobile-apps-with-clojurescript-viktor-eriksson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6IYm34nDL64/hqdefault.jpg" alt="Native mobile apps with ClojureScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojutre-2016/native-mobile-apps-with-clojurescript-viktor-eriksson">Native mobile apps with ClojureScript</a></h4>
+          <footer>
+            <div class="recorded">2016-09-16</div>
+			
+			  <div>Length: 23:47</div>
+			
+			
+              <div>Views: 1915 Likes: 33</div>
+            
+            <div class="event">From <a href="/e/clojutre-2016">ClojuTRE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/viktor-eriksson">Viktor Eriksson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojutre-2016/the-next-five-years-of-clojurescript-david-nolen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mty0RwkPmE8/hqdefault.jpg" alt="The Next Five Years of ClojureScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojutre-2016/the-next-five-years-of-clojurescript-david-nolen">The Next Five Years of ClojureScript</a></h4>
+          <footer>
+            <div class="recorded">2016-09-16</div>
+			
+			  <div>Length: 01:00:58</div>
+			
+			
+              <div>Views: 7855 Likes: 153</div>
+            
+            <div class="event">From <a href="/e/clojutre-2016">ClojuTRE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-nolen">David Nolen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojutre-2016/the-story-of-sir-owl-lisp-aki-helin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/utOVF0U7Zd8/hqdefault.jpg" alt="The Story of Sir Owl Lisp" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojutre-2016/the-story-of-sir-owl-lisp-aki-helin">The Story of Sir Owl Lisp</a></h4>
+          <footer>
+            <div class="recorded">2016-09-16</div>
+			
+			  <div>Length: 26:48</div>
+			
+			
+              <div>Views: 654 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/clojutre-2016">ClojuTRE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aki-helin">Aki Helin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojutre-2016/the-universe-as-a-value-malcolm-sparks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/odPAkEO2uPQ/hqdefault.jpg" alt="The Universe As A Value" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojutre-2016/the-universe-as-a-value-malcolm-sparks">The Universe As A Value</a></h4>
+          <footer>
+            <div class="recorded">2016-09-16</div>
+			
+			  <div>Length: 19:08</div>
+			
+			
+              <div>Views: 1024 Likes: 24</div>
+            
+            <div class="event">From <a href="/e/clojutre-2016">ClojuTRE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/malcolm-sparks">Malcolm Sparks</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojutre-2016/using-clojure-to-provide-computerized-psychotherapy-robert-johansson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ze3Acb42f3o/hqdefault.jpg" alt="Using Clojure to provide computerized psychotherapy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojutre-2016/using-clojure-to-provide-computerized-psychotherapy-robert-johansson">Using Clojure to provide computerized psychotherapy</a></h4>
+          <footer>
+            <div class="recorded">2016-09-16</div>
+			
+			  <div>Length: 20:00</div>
+			
+			
+              <div>Views: 1177 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/clojutre-2016">ClojuTRE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robert-johansson">Robert Johansson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLetHPRQvX4a_jQjvn54Q-d1WYZ52nDfnT">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

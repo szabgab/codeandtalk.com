@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>ngEurope 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>ngEurope 2016</h1>
+
+<div><a href="https://ngeurope.org/">ngEurope 2016</a></div>
+
+
+<div>Start date: 2016-10-25</div>
+<div>End date: 2016-10-26</div>
+
+<div>Location:
+  Paris
+  
+  <a href="/l/france">France</a>
+</div>
+
+<div><a href="http://confcodeofconduct.com/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/angularjs">AngularJS</a> 
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/ngEurope">@ngEurope</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/ngeuropeconf">https://www.facebook.com/ngeuropeconf</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=ngEurope%202016%20on%202016-10-25%20in%20Paris%2C%20%20France%20%40ngEurope%20https%3A//ngeurope.org/%20%23AngularJS%20%23JavaScript%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/adam-bradley-adamdbradley-evolution-of-web-on-mobile"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7rzjmsUBmFQ/hqdefault.jpg" alt="Evolution of Web on Mobile" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/adam-bradley-adamdbradley-evolution-of-web-on-mobile">Evolution of Web on Mobile</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 22:35</div>
+			
+			
+              <div>Views: 1672 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-bradley">Adam Bradley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/alex-eagle-jakeherringbone-minifying-angular-2-applications-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ml7qHlk80kc/hqdefault.jpg" alt="Minifying Angular 2 Applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/alex-eagle-jakeherringbone-minifying-angular-2-applications-at-ng-europe-2016">Minifying Angular 2 Applications</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 27:25</div>
+			
+			
+              <div>Views: 740 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-eagle">Alex Eagle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/andre-staltz-andrestaltz-you-will-learn-rxjs-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uQ1zhJHclvs/hqdefault.jpg" alt="You will learn RxJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/andre-staltz-andrestaltz-you-will-learn-rxjs-at-ng-europe-2016">You will learn RxJS</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 22:45</div>
+			
+			
+              <div>Views: 5815 Likes: 224</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andre-staltz-medeiros">André Staltz Medeiros</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/ari-lerner-auser-data-science-with-angular-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZVEp9K_cynU/hqdefault.jpg" alt="Data science with angular" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/ari-lerner-auser-data-science-with-angular-at-ng-europe-2016">Data science with angular</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 22:39</div>
+			
+			
+              <div>Views: 555 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ari-lerner">Ari Lerner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/christian-weyer-thorsten-hans-full-throttle-cross-platform-dev-w-ng2-cordova-electron"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TqFnVdPFVU0/hqdefault.jpg" alt="Full throttle Cross-platform dev w/ ng2, Cordova & Electron" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/christian-weyer-thorsten-hans-full-throttle-cross-platform-dev-w-ng2-cordova-electron">Full throttle Cross-platform dev w/ ng2, Cordova & Electron</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 28:07</div>
+			
+			
+              <div>Views: 584 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thorsten-hans">Thorsten Hans</a>
+             
+                <a href="/p/christian-weyer">Christian Weyer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/daniel-rosenwasser-drosenwasser-typescript-latest-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o8YI2hvassE/hqdefault.jpg" alt="Typescript latest" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/daniel-rosenwasser-drosenwasser-typescript-latest-at-ng-europe-2016">Typescript latest</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 30:11</div>
+			
+			
+              <div>Views: 1188 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-rosenwasser">Daniel Rosenwasser</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/douglas-duteil-douglasduteil-angular-batscanner-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2DHpmyFWULQ/hqdefault.jpg" alt="Angular BatScanner" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/douglas-duteil-douglasduteil-angular-batscanner-at-ng-europe-2016">Angular BatScanner</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 16:41</div>
+			
+			
+              <div>Views: 559 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/douglas-duteil">Douglas Duteil</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/erik-haddad-erikhaddad-angularfire2-and-you-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uLzMOaFt6vc/hqdefault.jpg" alt="AngularFire2 and you" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/erik-haddad-erikhaddad-angularfire2-and-you-at-ng-europe-2016">AngularFire2 and you</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 15:17</div>
+			
+			
+              <div>Views: 438 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/erik-haddad">Erik Haddad</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/gerard-sans-gerardsans-angular-2-love-at-first-sight-with-graphql-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8lBepXJWfb0/hqdefault.jpg" alt="Angular 2 love at first sight with GraphQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/gerard-sans-gerardsans-angular-2-love-at-first-sight-with-graphql-at-ng-europe-2016">Angular 2 love at first sight with GraphQL</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 11:06</div>
+			
+			
+              <div>Views: 705 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gerard-sans">Gerard Sans</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/hans-larsen-hanslatwork-angular-cli-you-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LN2xvQqAo-g/hqdefault.jpg" alt="Angular CLI & You" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/hans-larsen-hanslatwork-angular-cli-you-at-ng-europe-2016">Angular CLI & You</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 26:46</div>
+			
+			
+              <div>Views: 802 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hans-larsen">Hans Larsen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/jen-bourey-jbourey-getting-to-angular-2-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2b-tEis9k4M/hqdefault.jpg" alt="Getting to Angular 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/jen-bourey-jbourey-getting-to-angular-2-at-ng-europe-2016">Getting to Angular 2</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 23:34</div>
+			
+			
+              <div>Views: 619 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jen-bourey">Jen Bourey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/manfred-steyer-manfredsteyer-data-binding-in-angular-2-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JyHIUMgN_Ew/hqdefault.jpg" alt="Data Binding in Angular 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/manfred-steyer-manfredsteyer-data-binding-in-angular-2-at-ng-europe-2016">Data Binding in Angular 2</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 06:27</div>
+			
+			
+              <div>Views: 380 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/manfred-steyer">Manfred Steyer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/marc-laval-marclaval-custom-renderers-in-angular-2-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iE-wYf4AaiM/hqdefault.jpg" alt="Custom renderers in Angular 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/marc-laval-marclaval-custom-renderers-in-angular-2-at-ng-europe-2016">Custom renderers in Angular 2</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 23:40</div>
+			
+			
+              <div>Views: 577 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marc-laval">Marc Laval</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/martin-probst-martin_probst-raphael-jamet-security-in-angular-2-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WN-XczmI-LY/hqdefault.jpg" alt="Security in Angular 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/martin-probst-martin_probst-raphael-jamet-security-in-angular-2-at-ng-europe-2016">Security in Angular 2</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 24:04</div>
+			
+			
+              <div>Views: 481 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/raphael-jamet">Raphaël Jamet</a>
+             
+                <a href="/p/martin-probst">Martin Probst</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/mashhood-rastgar-mashhoodr-dynamic-angular-2-forms-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hf1plxcF0sk/hqdefault.jpg" alt="Dynamic Angular 2 Forms" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/mashhood-rastgar-mashhoodr-dynamic-angular-2-forms-at-ng-europe-2016">Dynamic Angular 2 Forms</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 05:56</div>
+			
+			
+              <div>Views: 565 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mashhood-rastgar">Mashhood Rastgar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/matias-niemela-yearofmoo-nganimate2-layouts-animations-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NGNE7LMd9VY/hqdefault.jpg" alt="ngAnimate2 = Layouts + Animations" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/matias-niemela-yearofmoo-nganimate2-layouts-animations-at-ng-europe-2016">ngAnimate2 = Layouts + Animations</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 19:58</div>
+			
+			
+              <div>Views: 875 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matias-niemela">Matias Niemelä</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/misko-hevery-aka-mhevery-keynote-at-ngeurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wpxnU62mNJ4/hqdefault.jpg" alt="Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/misko-hevery-aka-mhevery-keynote-at-ngeurope-2016">Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 25:19</div>
+			
+			
+              <div>Views: 2174 Likes: 37</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/misko-hevery">Miško Hevery</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/nir-kaufman-nirkaufman-from-ui-router-to-component-router-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vQFImWHxCDM/hqdefault.jpg" alt="From UI-Router to Component Router" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/nir-kaufman-nirkaufman-from-ui-router-to-component-router-at-ng-europe-2016">From UI-Router to Component Router</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 21:34</div>
+			
+			
+              <div>Views: 545 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nir-kaufman">Nir Kaufman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/pawel-kozlowski-pkozlowski_os-custom-widgets-for-angular2-piece-of-cake-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/l8OHU-TEG7g/hqdefault.jpg" alt="Custom widgets for Angular2? Piece of cake!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/pawel-kozlowski-pkozlowski_os-custom-widgets-for-angular2-piece-of-cake-at-ng-europe-2016">Custom widgets for Angular2? Piece of cake!</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 24:49</div>
+			
+			
+              <div>Views: 1121 Likes: 25</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pawel-kozlowski">Pawel Kozlowski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/qa-panel-with-the-core-angular-2-team-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qcfThV5aLuE/hqdefault.jpg" alt="Q&A Panel with the core angular 2 team at ng-europe 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/qa-panel-with-the-core-angular-2-team-at-ng-europe-2016">Q&A Panel with the core angular 2 team at ng-europe 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 51:04</div>
+			
+			
+              <div>Views: 1020 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/rob-wormald-robwormald-angular-rxjs-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WWR9nxVx1ec/hqdefault.jpg" alt="Angular & RxJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/rob-wormald-robwormald-angular-rxjs-at-ng-europe-2016">Angular & RxJS</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 28:35</div>
+			
+			
+              <div>Views: 3382 Likes: 97</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rob-wormald">Rob Wormald</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/simon-hampton-lambda_simon-upgrading-from-1x-to-ng2ngrx-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_HiLfC-3g60/hqdefault.jpg" alt="Upgrading from 1.x to ng2+ngrx" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/simon-hampton-lambda_simon-upgrading-from-1x-to-ng2ngrx-at-ng-europe-2016">Upgrading from 1.x to ng2+ngrx</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 07:25</div>
+			
+			
+              <div>Views: 358 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-hampton">Simon Hampton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/tero-parviainen-teropa-reactive-music-apps-in-angular-and-rxjs-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-fPyfSAEZgk/hqdefault.jpg" alt="Reactive Music Apps in Angular and RxJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/tero-parviainen-teropa-reactive-music-apps-in-angular-and-rxjs-at-ng-europe-2016">Reactive Music Apps in Angular and RxJS</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 22:56</div>
+			
+			
+              <div>Views: 1079 Likes: 29</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tero-parviainen">Tero Parviainen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/vanessa-yuen-vanessayuenn-new-insights-into-angular-2-applications-with-augury-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YaDFDGS3EFM/hqdefault.jpg" alt="New Insights into Angular 2 Applications with Augury" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/vanessa-yuen-vanessayuenn-new-insights-into-angular-2-applications-with-augury-at-ng-europe-2016">New Insights into Angular 2 Applications with Augury</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 24:38</div>
+			
+			
+              <div>Views: 565 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vanessa-yuen">Vanessa Yuen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/vikram-subramanian-vikerman-unit-tests-for-angular-2-applications-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dVtDnvTLaIo/hqdefault.jpg" alt="Unit Tests for Angular 2 Applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/vikram-subramanian-vikerman-unit-tests-for-angular-2-applications-at-ng-europe-2016">Unit Tests for Angular 2 Applications</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 27:21</div>
+			
+			
+              <div>Views: 851 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vikram-subramanian">Vikram Subramanian</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/wassim-chegham-manekinekko-getting-universal-with-angular-2-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/faWCLmYsFQ8/hqdefault.jpg" alt="Getting Universal with Angular 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/wassim-chegham-manekinekko-getting-universal-with-angular-2-at-ng-europe-2016">Getting Universal with Angular 2</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 18:51</div>
+			
+			
+              <div>Views: 567 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/wassim-chegham">Wassim Chegham</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/willem-veelenturf-wilmveel-embed-hybrid-features-in-mobile-banking-app-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kmNRgOLZhXQ/hqdefault.jpg" alt="Embed hybrid features in Mobile Banking App" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/willem-veelenturf-wilmveel-embed-hybrid-features-in-mobile-banking-app-at-ng-europe-2016">Embed hybrid features in Mobile Banking App</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 21:35</div>
+			
+			
+              <div>Views: 438 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/willem-veelenturf">Willem Veelenturf</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2016/wolfgang-goedel-wgoedel-rxjs-angularjs-at-ng-europe-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n9us_5FmEIo/hqdefault.jpg" alt="RxJS & angular.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2016/wolfgang-goedel-wgoedel-rxjs-angularjs-at-ng-europe-2016">RxJS & angular.js</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 05:35</div>
+			
+			
+              <div>Views: 537 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2016">ngEurope 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/wolfgang-goedel">Wolfgang Goedel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLhc_bKwZngxW87YmkOpe77reW9N958qFN PLhc_bKwZngxVUTM4SCfEzh1RvXQBfamF_">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

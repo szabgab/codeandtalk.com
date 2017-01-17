@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>European Testing Conference 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>European Testing Conference 2016</h1>
+
+<div><a href="http://europeantestingconference.eu/2016/">European Testing Conference 2016</a></div>
+
+
+<div>Start date: 2016-02-11</div>
+<div>End date: 2016-02-12</div>
+
+<div>Location:
+  Bucharest
+  
+  <a href="/l/romania">Romania</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/testing">testing</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/EuroTestingConf">@EuroTestingConf</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=European%20Testing%20Conference%202016%20on%202016-02-11%20in%20Bucharest%2C%20%20Romania%20%40EuroTestingConf%20http%3A//europeantestingconference.eu/2016/%20%23testing%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/abby-bangser-truth-the-state-of-not-yet-proven-false"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aD_ZptgQM-g/hqdefault.jpg" alt="Truth: The state of not yet proven false" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/abby-bangser-truth-the-state-of-not-yet-proven-false">Truth: The state of not yet proven false</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 30:13</div>
+			
+			
+              <div>Views: 32 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/abby-bangser">Abby Bangser</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/anne-marie-charrett-test-management-revisited"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_H_70Qfse0U/hqdefault.jpg" alt="Test Management Revisited" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/anne-marie-charrett-test-management-revisited">Test Management Revisited</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 47:09</div>
+			
+			
+              <div>Views: 44 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anne-marie-charrett">Anne Marie Charrett</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/chris-matts-we-dont-need-testers-what-we-really-need-is-testers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/j56nhcEzta0/hqdefault.jpg" alt="We don't need testers! What we really need is testers!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/chris-matts-we-dont-need-testers-what-we-really-need-is-testers">We don't need testers! What we really need is testers!</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 49:47</div>
+			
+			
+              <div>Views: 160 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-matts">Chris Matts</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/christina-ohanian-unleash-your-creativity-and-become-a-better-tester"><img class="list-thumbnail" src="https://i.ytimg.com/vi/m-noJQvR4gk/hqdefault.jpg" alt="Unleash Your Creativity and Become a Better Tester" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/christina-ohanian-unleash-your-creativity-and-become-a-better-tester">Unleash Your Creativity and Become a Better Tester</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 28:17</div>
+			
+			
+              <div>Views: 63 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christina-ohanian">Christina Ohanian</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/claudia-rosu-developer-experience-to-testing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MriidhWFDHA/hqdefault.jpg" alt="Developer Experience to Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/claudia-rosu-developer-experience-to-testing">Developer Experience to Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 25:04</div>
+			
+			
+              <div>Views: 38 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/claudia-rosu">Claudia Rosu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/emma-keaveny-dark-patterns-a-testers-quandary"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DrmdZ9NHmzA/hqdefault.jpg" alt="Dark Patterns, A Tester's Quandary" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/emma-keaveny-dark-patterns-a-testers-quandary">Dark Patterns, A Tester's Quandary</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 35:18</div>
+			
+			
+              <div>Views: 47 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/emma-keaveny">Emma Keaveny</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/erik-talboom"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X_Cr9dKHzxM/hqdefault.jpg" alt="Software Craftsmanship and Testing - why SoCraTes is right" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/erik-talboom">Software Craftsmanship and Testing - why SoCraTes is right</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 51:28</div>
+			
+			
+              <div>Views: 12 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/erik-talboom">Erik Talboom</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/franziska-sauerwein-experiences-in-outside-in-test-driven-development"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zj1axmNy8uk/hqdefault.jpg" alt="Experiences in Outside In Test-Driven Development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/franziska-sauerwein-experiences-in-outside-in-test-driven-development">Experiences in Outside In Test-Driven Development</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 30:35</div>
+			
+			
+              <div>Views: 78 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/franziska-sauerwein">Franziska Sauerwein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/jesse-alford-everybody-tests-balanced-teams-extreme-programming-and-exploration"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Nf9skPMaqYk/hqdefault.jpg" alt="Everybody tests: Balanced teams, Extreme Programming, and Exploration" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/jesse-alford-everybody-tests-balanced-teams-extreme-programming-and-exploration">Everybody tests: Balanced teams, Extreme Programming, and Exploration</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 32:19</div>
+			
+			
+              <div>Views: 73 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jesse-thomas-alford">Jesse Thomas Alford</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/julian-harty-symbiosis-of-mobile-analytics-and-software-testing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UUZiC4mTUZY/hqdefault.jpg" alt="Symbiosis of Mobile Analytics and Software Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/julian-harty-symbiosis-of-mobile-analytics-and-software-testing">Symbiosis of Mobile Analytics and Software Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 37:00</div>
+			
+			
+              <div>Views: 14 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/julian-harty">Julian Harty</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/linda-rising-the-power-of-an-agile-mindset"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SMvVJwwMn5A/hqdefault.jpg" alt="The Power of an Agile Mindset" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/linda-rising-the-power-of-an-agile-mindset">The Power of an Agile Mindset</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 47:20</div>
+			
+			
+              <div>Views: 382 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/linda-rising">Linda Rising</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/maaret-pyhajarvi-learning-in-layers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mhYeLfMIzzU/hqdefault.jpg" alt="Learning in Layers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/maaret-pyhajarvi-learning-in-layers">Learning in Layers</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 31:16</div>
+			
+			
+              <div>Views: 73 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maaret-pyhajarvi">Maaret Pyhäjärvi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/makingof-etc"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wbp-jSBEOWs/hqdefault.jpg" alt="Making of ETC" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/makingof-etc">Making of ETC</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 02:43</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/mieke-gevers-agile-and-performance-testing-a-contradiction-of-terms"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UF5ERStlaHg/hqdefault.jpg" alt="Agile and Performance testing? "A Contradiction of terms?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/mieke-gevers-agile-and-performance-testing-a-contradiction-of-terms">Agile and Performance testing? "A Contradiction of terms?</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 29:04</div>
+			
+			
+              <div>Views: 120 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mieke-gevers">Mieke Gevers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/richard-bradshaw-my-experiences-with-testing-and-checking"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Xvs0YXbXQ3U/hqdefault.jpg" alt="My experiences with Testing and Checking" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/richard-bradshaw-my-experiences-with-testing-and-checking">My experiences with Testing and Checking</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 34:47</div>
+			
+			
+              <div>Views: 49 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/richard-bradshaw">Richard Bradshaw</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/ru-cindrea-dealing-with-device-fragmentation-in-mobile-games-testing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/51ajUBemB_k/hqdefault.jpg" alt="Dealing with Device Fragmentation in Mobile Games Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/ru-cindrea-dealing-with-device-fragmentation-in-mobile-games-testing">Dealing with Device Fragmentation in Mobile Games Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 27:52</div>
+			
+			
+              <div>Views: 106 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ru-cindrea">Ru Cindrea</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/simon-p-schrijver-why-pair-testing-can-and-will-improve-the-quality-of-your-work"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BVpCOTR7Z6U/hqdefault.jpg" alt="Why Pair Testing can (and will) improve the quality of your work" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/simon-p-schrijver-why-pair-testing-can-and-will-improve-the-quality-of-your-work">Why Pair Testing can (and will) improve the quality of your work</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 33:29</div>
+			
+			
+              <div>Views: 50 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-peter-schrijver">Simon Peter Schrijver</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/thomas-sundberg-how-deep-are-your-tests-utilizing-different-levels-of-automated-tests"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v5nfuaw-llk/hqdefault.jpg" alt="How Deep Are Your Tests? - Utilizing different levels of automated tests" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/thomas-sundberg-how-deep-are-your-tests-utilizing-different-levels-of-automated-tests">How Deep Are Your Tests? - Utilizing different levels of automated tests</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 31:41</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-sundberg">Thomas Sundberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/europeantestingconference-2016/wouter-lagerweij-testing-in-a-continuous-delivery-world"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JwUPk3aod4Y/hqdefault.jpg" alt="Testing in a Continuous Delivery World" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/europeantestingconference-2016/wouter-lagerweij-testing-in-a-continuous-delivery-world">Testing in a Continuous Delivery World</a></h4>
+          <footer>
+            <div class="recorded">2016-02-11</div>
+			
+			  <div>Length: 28:17</div>
+			
+			
+              <div>Views: 53 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/europeantestingconference-2016">European Testing Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/wouter-lagerweij">Wouter Lagerweij</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL_9ioxG4tU7sz_BwjPjHeLWr2CIoFNT10">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>T-DOSE 2014</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>T-DOSE 2014</h1>
+
+<div><a href="http://www.t-dose.org/2014/schedule">T-DOSE 2014</a></div>
+
+
+<div>Start date: 2014-10-25</div>
+<div>End date: 2014-10-26</div>
+
+<div>Location:
+  Eindhoven
+  
+  <a href="/l/the-netherlands">The Netherlands</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/opensource">OpenSource</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/TDOSE">@TDOSE</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/tdosenl">https://www.facebook.com/tdosenl</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=T-DOSE%202014%20on%202014-10-25%20in%20Eindhoven%2C%20%20The%20Netherlands%20%40TDOSE%20http%3A//www.t-dose.org/2014/schedule%20%23OpenSource%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2014/t-dose-2014-building-a-business-continuity-plan-with-bareos-and-rear-gratien-dhaese"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cNwa2KE5zUU/hqdefault.jpg" alt="Building a Business Continuity Plan with Bareos and rear" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2014/t-dose-2014-building-a-business-continuity-plan-with-bareos-and-rear-gratien-dhaese">Building a Business Continuity Plan with Bareos and rear</a></h4>
+          <footer>
+            <div class="recorded">2014-10-25</div>
+			
+			  <div>Length: 50:45</div>
+			
+			
+              <div>Views: 466 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/t-dose-2014">T-DOSE 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gratien-dhaese">Gratien D'haese</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2014/t-dose-2014-closure-jean-paul-saman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FJYX7DfNCgI/hqdefault.jpg" alt="Closure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2014/t-dose-2014-closure-jean-paul-saman">Closure</a></h4>
+          <footer>
+            <div class="recorded">2014-10-25</div>
+			
+			  <div>Length: 03:10</div>
+			
+			
+              <div>Views: 33 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2014">T-DOSE 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jean-paul-saman">Jean-Paul Saman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2014/t-dose-2014-code4prosperity-free-and-open-software-development-community-paul-bessems"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Qyr7l_5QJTM/hqdefault.jpg" alt="Code4Prosperity, free and open software development community" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2014/t-dose-2014-code4prosperity-free-and-open-software-development-community-paul-bessems">Code4Prosperity, free and open software development community</a></h4>
+          <footer>
+            <div class="recorded">2014-10-25</div>
+			
+			  <div>Length: 43:22</div>
+			
+			
+              <div>Views: 128 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2014">T-DOSE 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-bessems">Paul Bessems</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2014/t-dose-2014-digital-sovereignty-for-europe-mauriceverheesen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_2GsjF0UQ6k/hqdefault.jpg" alt="Digital Sovereignty For Europe" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2014/t-dose-2014-digital-sovereignty-for-europe-mauriceverheesen">Digital Sovereignty For Europe</a></h4>
+          <footer>
+            <div class="recorded">2014-10-25</div>
+			
+			  <div>Length: 32:22</div>
+			
+			
+              <div>Views: 96 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/t-dose-2014">T-DOSE 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maurice-verheesen">Maurice Verheesen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2014/t-dose-2014-free-and-open-source-software-in-europe-policies-and-implementations-gijs-hillenius"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O3MF56fBp7k/hqdefault.jpg" alt="Free And Open Source Software In Europe Policies And Implementations, Gijs Hillenius" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2014/t-dose-2014-free-and-open-source-software-in-europe-policies-and-implementations-gijs-hillenius">Free And Open Source Software In Europe Policies And Implementations, Gijs Hillenius</a></h4>
+          <footer>
+            <div class="recorded">2014-10-25</div>
+			
+			  <div>Length: 42:48</div>
+			
+			
+              <div>Views: 133 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2014">T-DOSE 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2014/t-dose-2014-in-the-cloud-with-android-and-openstack-matt-rechenburg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AYhdjbgphl0/hqdefault.jpg" alt="In the Cloud with Android and OpenStack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2014/t-dose-2014-in-the-cloud-with-android-and-openstack-matt-rechenburg">In the Cloud with Android and OpenStack</a></h4>
+          <footer>
+            <div class="recorded">2014-10-25</div>
+			
+			  <div>Length: 33:33</div>
+			
+			
+              <div>Views: 172 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2014">T-DOSE 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-rechenburg">Matt Rechenburg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2014/t-dose-2014-inside-an-emulator-maarten-ter-huurne"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v7VTWEtmfRk/hqdefault.jpg" alt="Inside an emulator" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2014/t-dose-2014-inside-an-emulator-maarten-ter-huurne">Inside an emulator</a></h4>
+          <footer>
+            <div class="recorded">2014-10-25</div>
+			
+			  <div>Length: 52:42</div>
+			
+			
+              <div>Views: 269 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/t-dose-2014">T-DOSE 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2014/t-dose-2014-open-singularity-education-drupal-floris-van-geel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/M40yOrOAnBc/hqdefault.jpg" alt="Open Singularity, Education & Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2014/t-dose-2014-open-singularity-education-drupal-floris-van-geel">Open Singularity, Education & Drupal</a></h4>
+          <footer>
+            <div class="recorded">2014-10-25</div>
+			
+			  <div>Length: 35:22</div>
+			
+			
+              <div>Views: 120 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/t-dose-2014">T-DOSE 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/floris-van-geel">Floris van Geel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2014/t-dose-2014-opening-t-dose-2014-open-source-software-event-jean-paul-saman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7VETXTQ1u_E/hqdefault.jpg" alt="Opening T-DOSE 2014 Open Source Software event" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2014/t-dose-2014-opening-t-dose-2014-open-source-software-event-jean-paul-saman">Opening T-DOSE 2014 Open Source Software event</a></h4>
+          <footer>
+            <div class="recorded">2014-10-25</div>
+			
+			  <div>Length: 04:03</div>
+			
+			
+              <div>Views: 365 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2014">T-DOSE 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jean-paul-saman">Jean-Paul Saman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2014/t-dose-2014-testing-video4linux-applications-and-drivers-hans-verkuil"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tusWMvL_ynk/hqdefault.jpg" alt="Testing Video4Linux Applications and Drivers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2014/t-dose-2014-testing-video4linux-applications-and-drivers-hans-verkuil">Testing Video4Linux Applications and Drivers</a></h4>
+          <footer>
+            <div class="recorded">2014-10-25</div>
+			
+			  <div>Length: 36:01</div>
+			
+			
+              <div>Views: 123 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2014">T-DOSE 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hans-verkuil">Hans Verkuil</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2014/t-dose-2014-the-internet-of-things-opportunities-and-dangers-felix-stegerman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TdsA8yDgVos/hqdefault.jpg" alt="The 'Internet of Things' Opportunities and Dangers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2014/t-dose-2014-the-internet-of-things-opportunities-and-dangers-felix-stegerman">The 'Internet of Things' Opportunities and Dangers</a></h4>
+          <footer>
+            <div class="recorded">2014-10-25</div>
+			
+			  <div>Length: 31:26</div>
+			
+			
+              <div>Views: 290 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/t-dose-2014">T-DOSE 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/felix-stegerman">Felix Stegerman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2014/t-dose-2014-the-why-what-and-how-of-owning-your-own-data-jos-poortvliet"><img class="list-thumbnail" src="https://i.ytimg.com/vi/L3zvPH-WKss/hqdefault.jpg" alt="T-Dose 2014, The why, what and how of owning your own data, Jos Poortvliet" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2014/t-dose-2014-the-why-what-and-how-of-owning-your-own-data-jos-poortvliet">T-Dose 2014, The why, what and how of owning your own data, Jos Poortvliet</a></h4>
+          <footer>
+            <div class="recorded">2014-10-25</div>
+			
+			  <div>Length: 54:29</div>
+			
+			
+              <div>Views: 183 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/t-dose-2014">T-DOSE 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2014/t-dose-2014-zimbu-designing-a-programming-language-from-experience-bram-moolenaar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_O-QdG2X1Lw/hqdefault.jpg" alt="Zimbu Designing a Programming Language From Experience" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2014/t-dose-2014-zimbu-designing-a-programming-language-from-experience-bram-moolenaar">Zimbu Designing a Programming Language From Experience</a></h4>
+          <footer>
+            <div class="recorded">2014-10-25</div>
+			
+			  <div>Length: 45:08</div>
+			
+			
+              <div>Views: 1101 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/t-dose-2014">T-DOSE 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bram-moolenaar">Bram Moolenaar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLBZBIkixHEidJ05uKM6orHYps0A0uNQ94">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

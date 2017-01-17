@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Front Porch Austin 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Front Porch Austin 2016</h1>
+
+<div><a href="http://frontporch.io/austin/">Front Porch Austin 2016</a></div>
+
+
+<div>Start date: 2016-07-19</div>
+<div>End date: 2016-07-19</div>
+
+<div>Location:
+  Austin
+  Texas
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://frontporch.io/conduct/">Code of Conduct</a></div>
+<div><a href="https://diversitytickets.org/events/13">Diversity Tickets</a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/frontporchio">@frontporchio</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Front%20Porch%20Austin%202016%20on%202016-07-19%20in%20Austin%2C%20Texas%20USA%20%40frontporchio%20http%3A//frontporch.io/austin/%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/frontporch-austin-2016/front-end-testing-of-nodejs-applications"><img class="list-thumbnail" src="https://i.ytimg.com/vi/I3X9kcROX8o/hqdefault.jpg" alt="Front End Testing of Node.js Applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontporch-austin-2016/front-end-testing-of-nodejs-applications">Front End Testing of Node.js Applications</a></h4>
+          <footer>
+            <div class="recorded">2016-07-19</div>
+			
+			  <div>Length: 40:27</div>
+			
+			
+              <div>Views: 261 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/frontporch-austin-2016">Front Porch Austin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stacy-kirk">Stacy Kirk</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontporch-austin-2016/fun-with-the-web-animations-api"><img class="list-thumbnail" src="https://i.ytimg.com/vi/l371Y04kXf0/hqdefault.jpg" alt="Fun with the Web Animations API" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontporch-austin-2016/fun-with-the-web-animations-api">Fun with the Web Animations API</a></h4>
+          <footer>
+            <div class="recorded">2016-07-19</div>
+			
+			  <div>Length: 33:07</div>
+			
+			
+              <div>Views: 93 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/frontporch-austin-2016">Front Porch Austin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-wilson">Dan Wilson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontporch-austin-2016/react-esnext"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Fs4bJr1b7UU/hqdefault.jpg" alt="React + ES.next = ❤" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontporch-austin-2016/react-esnext">React + ES.next = ❤</a></h4>
+          <footer>
+            <div class="recorded">2016-07-19</div>
+			
+			  <div>Length: 51:04</div>
+			
+			
+              <div>Views: 124 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/frontporch-austin-2016">Front Porch Austin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-ilegbodu">Ben Ilegbodu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontporch-austin-2016/simple-accessible-fast"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AA3WacrYolg/hqdefault.jpg" alt="Simple. Accessible. Fast." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontporch-austin-2016/simple-accessible-fast">Simple. Accessible. Fast.</a></h4>
+          <footer>
+            <div class="recorded">2016-07-19</div>
+			
+			  <div>Length: 36:09</div>
+			
+			
+              <div>Views: 30 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/frontporch-austin-2016">Front Porch Austin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/estelle-weyl">Estelle Weyl</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontporch-austin-2016/visual-regression-testing-with-phantomcss"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Vp8vnXMjIfw/hqdefault.jpg" alt="Visual Regression Testing with PhantomCSS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontporch-austin-2016/visual-regression-testing-with-phantomcss">Visual Regression Testing with PhantomCSS</a></h4>
+          <footer>
+            <div class="recorded">2016-07-19</div>
+			
+			  <div>Length: 29:47</div>
+			
+			
+              <div>Views: 115 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/frontporch-austin-2016">Front Porch Austin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jon-bellah">Jon Bellah</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/frontporch-austin-2016/welcome-to-web-components-with-polymer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Rr-gvROgHZ0/hqdefault.jpg" alt="Welcome to Web Components with Polymer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/frontporch-austin-2016/welcome-to-web-components-with-polymer">Welcome to Web Components with Polymer</a></h4>
+          <footer>
+            <div class="recorded">2016-07-19</div>
+			
+			  <div>Length: 34:57</div>
+			
+			
+              <div>Views: 148 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/frontporch-austin-2016">Front Porch Austin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/josh-kemmerling">Josh Kemmerling</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLQ0rErbcJANon4Dyy32o2EZnhHr-VWqhL">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

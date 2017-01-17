@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>London Perl Workshop 2014</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>London Perl Workshop 2014</h1>
+
+<div><a href="http://act.yapc.eu/lpw2014/">London Perl Workshop 2014</a></div>
+
+
+<div>Start date: 2014-11-08</div>
+<div>End date: 2014-11-08</div>
+
+<div>Location:
+  London
+  
+  <a href="/l/uk">UK</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/perl">Perl</a> 
+   
+       <a href="/t/web">web</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/LondonPerl">@LondonPerl</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=London%20Perl%20Workshop%202014%20on%202014-11-08%20in%20London%2C%20%20UK%20%40LondonPerl%20http%3A//act.yapc.eu/lpw2014/%20%23Perl%20%23web%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-andrew-solomon-database-refactoring-as-a-service"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ux4mfO2r8hU/hqdefault.jpg" alt="LPW2014 Andrew Solomon   ‎Database Refactoring as a Service‎" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-andrew-solomon-database-refactoring-as-a-service">LPW2014 Andrew Solomon   ‎Database Refactoring as a Service‎</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 25:13</div>
+			
+			
+              <div>Views: 66 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-barbie-cpan-testers-how-you-can-help-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oK7scpjq6Go/hqdefault.jpg" alt="LPW2014 Barbie   ‎CPAN Testers   How YOU Can Help‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-barbie-cpan-testers-how-you-can-help-mp4-ff">LPW2014 Barbie   ‎CPAN Testers   How YOU Can Help‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 23:53</div>
+			
+			
+              <div>Views: 150 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-dave-cross-davorg-perl-in-the-internet-of-things-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MLTJ_1w0XrA/hqdefault.jpg" alt="LPW2014 Dave Cross ‎davorg‎   ‎Perl in the Internet of Things‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-dave-cross-davorg-perl-in-the-internet-of-things-mp4-ff">LPW2014 Dave Cross ‎davorg‎   ‎Perl in the Internet of Things‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 01:43:44</div>
+			
+			
+              <div>Views: 146 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-drforr-shiny-happy-testsuites-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/99dVBf2lfuo/hqdefault.jpg" alt="LPW2014 DrForr   ‎Shiny Happy Testsuites‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-drforr-shiny-happy-testsuites-mp4-ff">LPW2014 DrForr   ‎Shiny Happy Testsuites‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 24:36</div>
+			
+			
+              <div>Views: 33 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-ed-freyfogle-the-opencage-geocoder-a-meta-geocoder-made-in-perl-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wtihcCmOB1A/hqdefault.jpg" alt="LPW2014 Ed Freyfogle   ‎The OpenCage geocoder   a meta geocoder made in perl‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-ed-freyfogle-the-opencage-geocoder-a-meta-geocoder-made-in-perl-mp4-ff">LPW2014 Ed Freyfogle   ‎The OpenCage geocoder   a meta geocoder made in perl‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 23:49</div>
+			
+			
+              <div>Views: 45 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-kaitlyn-parkhurst-weightgrapher-the-internet-of-scales-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Xn2jD6gKDFg/hqdefault.jpg" alt="LPW2014 Kaitlyn Parkhurst   ‎WeightGrapher   The Internet of Scales‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-kaitlyn-parkhurst-weightgrapher-the-internet-of-scales-mp4-ff">LPW2014 Kaitlyn Parkhurst   ‎WeightGrapher   The Internet of Scales‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 14:41</div>
+			
+			
+              <div>Views: 46 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-keynote-osfameron-rewriting-the-apocalypse-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_rziLTuXcTY/hqdefault.jpg" alt="LPW2014 Keynote   osfameron   ‎Rewriting the Apocalypse‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-keynote-osfameron-rewriting-the-apocalypse-mp4-ff">LPW2014 Keynote   osfameron   ‎Rewriting the Apocalypse‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 24:10</div>
+			
+			
+              <div>Views: 54 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-barbie-the-statistics-of-cpan-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aXj-MtKhEZA/hqdefault.jpg" alt="LPW2014 Lightning Talk   Barbie   The Statistics Of CPAN‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-barbie-the-statistics-of-cpan-mp4-ff">LPW2014 Lightning Talk   Barbie   The Statistics Of CPAN‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 06:32</div>
+			
+			
+              <div>Views: 20 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-dave-cross-davorg-return-to-the-kingdom-of-the-blind-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/efvtMtIep6M/hqdefault.jpg" alt="LPW2014 Lightning Talk   Dave Cross davorg   Return to the Kingdom of the Blind mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-dave-cross-davorg-return-to-the-kingdom-of-the-blind-mp4-ff">LPW2014 Lightning Talk   Dave Cross davorg   Return to the Kingdom of the Blind mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 06:53</div>
+			
+			
+              <div>Views: 49 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-david-leadbeater-dg-irc-as-glue-for-things-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ak93Op89i78/hqdefault.jpg" alt="LPW2014 Lightning Talk   David Leadbeater ‎dg‎   ‎IRC as glue for things‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-david-leadbeater-dg-irc-as-glue-for-things-mp4-ff">LPW2014 Lightning Talk   David Leadbeater ‎dg‎   ‎IRC as glue for things‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 05:36</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-gaah-steve-work-dammit-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Vk6eyIBeVDM/hqdefault.jpg" alt="LPW2014 Lightning Talk   gaah Steve   WORK DAMMIT!‎‎  mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-gaah-steve-work-dammit-mp4-ff">LPW2014 Lightning Talk   gaah Steve   WORK DAMMIT!‎‎  mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 05:15</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-mike-friedman-friedo-debugging-with-lightning-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/z9o59pP57R4/hqdefault.jpg" alt="LPW2014 Lightning Talk   Mike Friedman ‎friedo‎   Debugging with Lightning‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-mike-friedman-friedo-debugging-with-lightning-mp4-ff">LPW2014 Lightning Talk   Mike Friedman ‎friedo‎   Debugging with Lightning‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 04:24</div>
+			
+			
+              <div>Views: 24 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-paul-evans-leonerd-in-thanks-of-perl-catalysts-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Gb2XXHx3pXE/hqdefault.jpg" alt="LPW2014 Lightning Talk   Paul Evans ‎LeoNerd   In Thanks of Perl Catalysts mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-paul-evans-leonerd-in-thanks-of-perl-catalysts-mp4-ff">LPW2014 Lightning Talk   Paul Evans ‎LeoNerd   In Thanks of Perl Catalysts mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 03:56</div>
+			
+			
+              <div>Views: 31 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-paul-johnson-pjcj-i-am-developer-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/H2IjdFOzVZM/hqdefault.jpg" alt="LPW2014 Lightning Talk   Paul Johnson ‎pjcj‎   I am Developer mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-paul-johnson-pjcj-i-am-developer-mp4-ff">LPW2014 Lightning Talk   Paul Johnson ‎pjcj‎   I am Developer mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 05:04</div>
+			
+			
+              <div>Views: 96 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-ribasushi-walking-around-your-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RQaF4xuw6S0/hqdefault.jpg" alt="LPW2014 Lightning Talk   Ribasushi   Walking Around Your | mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-ribasushi-walking-around-your-mp4-ff">LPW2014 Lightning Talk   Ribasushi   Walking Around Your | mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 07:02</div>
+			
+			
+              <div>Views: 58 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-salve-j-nilsen-sjn-nordic-perl-workshop-2015-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Tq1r0sf6urU/hqdefault.jpg" alt="LPW2014 Lightning Talk   Salve J  Nilsen ‎sjn‎   ‎Nordic Perl Workshop 2015‎‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-salve-j-nilsen-sjn-nordic-perl-workshop-2015-mp4-ff">LPW2014 Lightning Talk   Salve J  Nilsen ‎sjn‎   ‎Nordic Perl Workshop 2015‎‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 04:49</div>
+			
+			
+              <div>Views: 14 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-sam-kington-skington-perltidy-driven-development-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7HDhicsY13E/hqdefault.jpg" alt="LPW2014 Lightning Talk   Sam Kington ‎skington‎   ‎Perltidy driven development‎  mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-sam-kington-skington-perltidy-driven-development-mp4-ff">LPW2014 Lightning Talk   Sam Kington ‎skington‎   ‎Perltidy driven development‎  mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 06:22</div>
+			
+			
+              <div>Views: 75 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-ulrich-habel-rhaen-shhhh-we-are-busy-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cc8tnlrK0eg/hqdefault.jpg" alt="Shhhh, we are busy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-lightning-talk-ulrich-habel-rhaen-shhhh-we-are-busy-mp4-ff">Shhhh, we are busy</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 06:31</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ulrich-habel">Ulrich Habel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-matt-s-trout-mst-the-internet-of-personification-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZuQZAdADiK8/hqdefault.jpg" alt="LPW2014 Matt S Trout ‎mst‎   ‎The Internet of Personification‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-matt-s-trout-mst-the-internet-of-personification-mp4-ff">LPW2014 Matt S Trout ‎mst‎   ‎The Internet of Personification‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 52:06</div>
+			
+			
+              <div>Views: 150 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-mike-friedman-friedo-make-your-own-perl-with-moops-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Fqa8WiG15OM/hqdefault.jpg" alt="LPW2014 Mike Friedman ‎friedo‎   ‎Make Your Own Perl with Moops‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-mike-friedman-friedo-make-your-own-perl-with-moops-mp4-ff">LPW2014 Mike Friedman ‎friedo‎   ‎Make Your Own Perl with Moops‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 23:00</div>
+			
+			
+              <div>Views: 53 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-mike-whitaker-penfold-perl-and-the-green-mill-house-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OpPYsK1GLs8/hqdefault.jpg" alt="LPW2014 Mike Whitaker ‎Penfold‎   ‎Perl and the green Mill House‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-mike-whitaker-penfold-perl-and-the-green-mill-house-mp4-ff">LPW2014 Mike Whitaker ‎Penfold‎   ‎Perl and the green Mill House‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 49:52</div>
+			
+			
+              <div>Views: 37 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-neil-bowers-a-review-of-exporter-modules-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1nyaRYotq1Q/hqdefault.jpg" alt="LPW2014 Neil Bowers   ‎A review of Exporter modules‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-neil-bowers-a-review-of-exporter-modules-mp4-ff">LPW2014 Neil Bowers   ‎A review of Exporter modules‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 19:20</div>
+			
+			
+              <div>Views: 40 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-paul-evans-bus-pirates-and-perls-electronics-hackery"><img class="list-thumbnail" src="https://i.ytimg.com/vi/adKBkaZ3cE4/hqdefault.jpg" alt="LPW2014 Paul Evans   ‎Bus Pirates and Perls   electronics hackery‎" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-paul-evans-bus-pirates-and-perls-electronics-hackery">LPW2014 Paul Evans   ‎Bus Pirates and Perls   electronics hackery‎</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 55:26</div>
+			
+			
+              <div>Views: 112 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-peter-sergeant-pete-how-to-write-a-perl-cv-that-will-get-you-hired-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BNRVKngFOCY/hqdefault.jpg" alt="LPW2014 Peter Sergeant ‎pete‎   ‎How to write a Perl CV that will get you hired‎  mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-peter-sergeant-pete-how-to-write-a-perl-cv-that-will-get-you-hired-mp4-ff">LPW2014 Peter Sergeant ‎pete‎   ‎How to write a Perl CV that will get you hired‎  mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 27:05</div>
+			
+			
+              <div>Views: 256 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-rick-deller-perlrick-recruitment-in-perl-stand-out-from-the-crowd-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9QXDvNwcSDw/hqdefault.jpg" alt="LPW2014 Rick Deller ‎PerlRick‎   ‎Recruitment in Perl   Stand out from the crowd‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-rick-deller-perlrick-recruitment-in-perl-stand-out-from-the-crowd-mp4-ff">LPW2014 Rick Deller ‎PerlRick‎   ‎Recruitment in Perl   Stand out from the crowd‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 25:00</div>
+			
+			
+              <div>Views: 97 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-rolf-langsdorf-lanx-extending-syntax-functional-programming-meets-macros-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/i-Xz_9nFlvI/hqdefault.jpg" alt="LPW2014 Rolf Langsdorf ‎LanX‎   ‎Extending Syntax   Functional Programming meets Macros‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-rolf-langsdorf-lanx-extending-syntax-functional-programming-meets-macros-mp4-ff">LPW2014 Rolf Langsdorf ‎LanX‎   ‎Extending Syntax   Functional Programming meets Macros‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 49:43</div>
+			
+			
+              <div>Views: 68 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-stevan-little-stevan-plackdebugger-a-new-debugger-for-plack-applications"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FPt9wo5MMmA/hqdefault.jpg" alt="LPW2014 Stevan Little ‎stevan‎   ‎Plack::Debugger   A new debugger for Plack Applications‎" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-stevan-little-stevan-plackdebugger-a-new-debugger-for-plack-applications">LPW2014 Stevan Little ‎stevan‎   ‎Plack::Debugger   A new debugger for Plack Applications‎</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 58:30</div>
+			
+			
+              <div>Views: 178 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-steven-goodwin-home-automation-not-as-simple-as-you-think-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/njtoAxGwmzs/hqdefault.jpg" alt="LPW2014 Steven Goodwin   ‎Home automation   Not as simple as you think‎  mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-steven-goodwin-home-automation-not-as-simple-as-you-think-mp4-ff">LPW2014 Steven Goodwin   ‎Home automation   Not as simple as you think‎  mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 22:06</div>
+			
+			
+              <div>Views: 88 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-tim-retout-feature-toggles-and-graphs-for-better-deployments-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ProH8B5aUqk/hqdefault.jpg" alt="LPW2014 Tim Retout   ‎Feature toggles and graphs for better deployments‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-tim-retout-feature-toggles-and-graphs-for-better-deployments-mp4-ff">LPW2014 Tim Retout   ‎Feature toggles and graphs for better deployments‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 51:36</div>
+			
+			
+              <div>Views: 96 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-toby-inkster-tobyink-object-oriented-programming-why-youre-doing-it-wrong"><img class="list-thumbnail" src="https://i.ytimg.com/vi/m9cj9PX-UV0/hqdefault.jpg" alt="LPW2014 Toby Inkster ‎tobyink‎   ‎Object Oriented Programming: Why You're Doing It Wrong ‎‎" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-toby-inkster-tobyink-object-oriented-programming-why-youre-doing-it-wrong">LPW2014 Toby Inkster ‎tobyink‎   ‎Object Oriented Programming: Why You're Doing It Wrong ‎‎</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 17:20</div>
+			
+			
+              <div>Views: 163 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-tom-hukins-http-clients-and-perl-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/x8-rQ24yqec/hqdefault.jpg" alt="LPW2014 Tom Hukins   ‎HTTP Clients and Perl‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-tom-hukins-http-clients-and-perl-mp4-ff">LPW2014 Tom Hukins   ‎HTTP Clients and Perl‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 47:25</div>
+			
+			
+              <div>Views: 71 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-vytas-me-and-googlehome-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WXpMinCmQ40/hqdefault.jpg" alt="LPW2014 vytas   ‎Me and Google@Home mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-vytas-me-and-googlehome-mp4-ff">LPW2014 vytas   ‎Me and Google@Home mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 21:10</div>
+			
+			
+              <div>Views: 30 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-yves-orton-demerphq-an-introduction-to-sereal-a-better-storable-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DaFmisqdBd8/hqdefault.jpg" alt="LPW2014 Yves Orton ‎demerphq‎   ‎An introduction to Sereal, a better Storable‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-yves-orton-demerphq-an-introduction-to-sereal-a-better-storable-mp4-ff">LPW2014 Yves Orton ‎demerphq‎   ‎An introduction to Sereal, a better Storable‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 48:21</div>
+			
+			
+              <div>Views: 121 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2014/lpw2014-yves-orton-demerphq-cracking-perls-old-hash-function-mp4-ff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CsQC_tLhKqM/hqdefault.jpg" alt="LPW2014 Yves Orton ‎demerphq‎   ‎Cracking Perl's Old Hash Function‎ mp4 ff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2014/lpw2014-yves-orton-demerphq-cracking-perls-old-hash-function-mp4-ff">LPW2014 Yves Orton ‎demerphq‎   ‎Cracking Perl's Old Hash Function‎ mp4 ff</a></h4>
+          <footer>
+            <div class="recorded">2014-11-08</div>
+			
+			  <div>Length: 26:32</div>
+			
+			
+              <div>Views: 127 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLxavAW22r8AkOjZQENZzCZZYYgcYAtcg9">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

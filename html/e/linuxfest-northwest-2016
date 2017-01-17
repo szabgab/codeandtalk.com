@@ -1,0 +1,1888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Linuxfest Northwest 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Linuxfest Northwest 2016</h1>
+
+<div><a href="https://www.linuxfestnorthwest.org/2016">Linuxfest Northwest 2016</a></div>
+
+
+<div>Start date: 2016-04-23</div>
+<div>End date: 2016-04-24</div>
+
+<div>Location:
+  Bellingham
+  Washington
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/linux">Linux</a> 
+   
+</div>
+
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Linuxfest%20Northwest%202016%20on%202016-04-23%20in%20Bellingham%2C%20Washington%20USA%20https%3A//www.linuxfestnorthwest.org/2016%20%23Linux%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-20-year-and-counting-secrets-to-enduring-user-groups"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NxzzhBY76Io/hqdefault.jpg" alt="20 Year and Counting: Secrets to enduring user groups" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-20-year-and-counting-secrets-to-enduring-user-groups">20 Year and Counting: Secrets to enduring user groups</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 57:56</div>
+			
+			
+              <div>Views: 158 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-dexter">Michael Dexter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-a-devops-state-of-mind-docker-and-kubernetes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Gff9opJuD7w/hqdefault.jpg" alt="A DevOps State of Mind: Docker and Kubernetes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-a-devops-state-of-mind-docker-and-kubernetes">A DevOps State of Mind: Docker and Kubernetes</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 43:58</div>
+			
+			
+              <div>Views: 718 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-van-tuin">Chris Van Tuin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-application-sandboxing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GaF7_jUJ6MU/hqdefault.jpg" alt="Application Sandboxing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-application-sandboxing">Application Sandboxing</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:00:16</div>
+			
+			
+              <div>Views: 123 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sriram-ramkrishna">Sriram Ramkrishna</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-behind-closed-doors-managing-passwords-in-a-dangerous-world"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TVEfYO-5-RA/hqdefault.jpg" alt="Behind Closed Doors: Managing Passwords in a Dangerous World" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-behind-closed-doors-managing-passwords-in-a-dangerous-world">Behind Closed Doors: Managing Passwords in a Dangerous World</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 42:22</div>
+			
+			
+              <div>Views: 151 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/noah-kantrowitz">Noah Kantrowitz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-break-free-from-spotify-pandora-use-foss-for-music-streaming"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8tZeJfN-4Sc/hqdefault.jpg" alt="Break free from Spotify & Pandora: Use FOSS for music streaming" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-break-free-from-spotify-pandora-use-foss-for-music-streaming">Break free from Spotify & Pandora: Use FOSS for music streaming</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:08:43</div>
+			
+			
+              <div>Views: 318 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marcus-eaton">Marcus Eaton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-building-book-scanners-without-breaking-the-bank"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1TMRzyy7zVE/hqdefault.jpg" alt="Building Book Scanners without Breaking the Bank" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-building-book-scanners-without-breaking-the-bank">Building Book Scanners without Breaking the Bank</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:28:43</div>
+			
+			
+              <div>Views: 381 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jacob-levernier">Jacob Levernier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-camlistore-your-personal-storage-system-for-life"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Vp2kL5q-IQI/hqdefault.jpg" alt="Camlistore: your personal storage system for life" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-camlistore-your-personal-storage-system-for-life">Camlistore: your personal storage system for life</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:00:41</div>
+			
+			
+              <div>Views: 300 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mathieu-lonjaret">Mathieu Lonjaret</a>
+             
+                <a href="/p/brad-fitzpatrick">Brad Fitzpatrick</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-cicd-with-jenkins-and-docker"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5LuEIgv5JEQ/hqdefault.jpg" alt="CI/CD with Jenkins and Docker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-cicd-with-jenkins-and-docker">CI/CD with Jenkins and Docker</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 51:40</div>
+			
+			
+              <div>Views: 191 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-frearson">Thomas Frearson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-debugging-workflows-for-linux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Q11i-Hp_gIk/hqdefault.jpg" alt="Debugging Workflows for Linux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-debugging-workflows-for-linux">Debugging Workflows for Linux</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 43:25</div>
+			
+			
+              <div>Views: 59 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-kero">Ben Kero</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-diy-iot-kegerator"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tybB7R2ngsg/hqdefault.jpg" alt="DIY IoT Kegerator" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-diy-iot-kegerator">DIY IoT Kegerator</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 25:11</div>
+			
+			
+              <div>Views: 173 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-peterman">Michael Peterman</a>
+             
+                <a href="/p/adam-eivy">Adam Eivy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-doc-like-an-egyptian"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mB4bCJ8CewQ/hqdefault.jpg" alt="Doc Like an Egyptian" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-doc-like-an-egyptian">Doc Like an Egyptian</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 42:36</div>
+			
+			
+              <div>Views: 157 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dru-lavigne">Dru Lavigne</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-docker-ansible-the-best-of-both-worlds"><img class="list-thumbnail" src="https://i.ytimg.com/vi/45X8Ag4vaw4/hqdefault.jpg" alt="Docker + Ansible: The Best of Both Worlds" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-docker-ansible-the-best-of-both-worlds">Docker + Ansible: The Best of Both Worlds</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 38:54</div>
+			
+			
+              <div>Views: 1106 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-titus">Michael Titus</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-docker-must-die-heresy-in-the-church-of-docker"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VTkF0kVXtVA/hqdefault.jpg" alt="Docker Must Die: Heresy in the Church of Docker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-docker-must-die-heresy-in-the-church-of-docker">Docker Must Die: Heresy in the Church of Docker</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 46:01</div>
+			
+			
+              <div>Views: 1291 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/corey-quinn">Corey Quinn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-drupal-8-build-something-amazing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/asPrmK_i5Cs/hqdefault.jpg" alt="Drupal 8 - Build Something Amazing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-drupal-8-build-something-amazing">Drupal 8 - Build Something Amazing</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 48:04</div>
+			
+			
+              <div>Views: 81 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/max-bronsema">Max Bronsema</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-encryption-its-a-thing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_lWqRn_Sb74/hqdefault.jpg" alt="Encryption - it's a thing." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-encryption-its-a-thing">Encryption - it's a thing.</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 25:07</div>
+			
+			
+              <div>Views: 99 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-peterman">Michael Peterman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-food-for-thought-is-free-software-vegan-and-open-source-vegetarian"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ydJv8h7xQkg/hqdefault.jpg" alt="Food for thought: Is free software vegan and open source vegetarian?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-food-for-thought-is-free-software-vegan-and-open-source-vegetarian">Food for thought: Is free software vegan and open source vegetarian?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 55:36</div>
+			
+			
+              <div>Views: 110 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-sullivan">John Sullivan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-from-tpp-to-saving-wifi-the-fsf-fights-for-you"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o9hHU4fLVFI/hqdefault.jpg" alt="From TPP to saving WiFi, the FSF fights for you" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-from-tpp-to-saving-wifi-the-fsf-fights-for-you">From TPP to saving WiFi, the FSF fights for you</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:01:38</div>
+			
+			
+              <div>Views: 43 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/donald-robertson">Donald Robertson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-getting-a-great-job-in-linux-and-open-source"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qN9-6wd_huU/hqdefault.jpg" alt="Getting a Great Job in Linux and Open Source" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-getting-a-great-job-in-linux-and-open-source">Getting a Great Job in Linux and Open Source</a></h4>
+          <footer>
+            <div class="recorded">2015-04-25</div>
+			
+			  <div>Length: 01:04:50</div>
+			
+			
+              <div>Views: 186 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ross-brunson">Ross Brunson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-getting-to-know-zfs-on-linux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xz8RMO-DaBY/hqdefault.jpg" alt="Getting to Know ZFS on Linux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-getting-to-know-zfs-on-linux">Getting to Know ZFS on Linux</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 45:52</div>
+			
+			
+              <div>Views: 1272 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jed-reynolds">Jed Reynolds</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-give-me-a-rest"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0frq_Bi07LY/hqdefault.jpg" alt="Give Me a REST!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-give-me-a-rest">Give Me a REST!</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 54:59</div>
+			
+			
+              <div>Views: 139 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amanda-folson">Amanda Folson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-handle-conflict-like-a-boss"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fINjvmCZEug/hqdefault.jpg" alt="Handle Conflict, Like a Boss!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-handle-conflict-like-a-boss">Handle Conflict, Like a Boss!</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 58:28</div>
+			
+			
+              <div>Views: 81 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/deb-nicholson">Deb Nicholson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-have-it-your-way-maximizing-drive-thru-contributions"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ucX46NFhLhU/hqdefault.jpg" alt="Have It Your Way: Maximizing Drive-Thru Contributions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-have-it-your-way-maximizing-drive-thru-contributions">Have It Your Way: Maximizing Drive-Thru Contributions</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 57:03</div>
+			
+			
+              <div>Views: 50 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vicky-brasseur">Vicky Brasseur</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-help-which-software-license-should-i-pick"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YiN9_sTAMss/hqdefault.jpg" alt="Help! Which Software License Should I Pick?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-help-which-software-license-should-i-pick">Help! Which Software License Should I Pick?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 58:49</div>
+			
+			
+              <div>Views: 67 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bradley-m-kuhn">Bradley M. Kuhn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-how-the-internet-works"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rLojliq6n0Q/hqdefault.jpg" alt="How the Internet Works" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-how-the-internet-works">How the Internet Works</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 42:41</div>
+			
+			
+              <div>Views: 323 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/noah-kantrowitz">Noah Kantrowitz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-how-to-get-help-on-irc"><img class="list-thumbnail" src="https://i.ytimg.com/vi/H69tL4xgYYU/hqdefault.jpg" alt="How To Get Help On IRC" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-how-to-get-help-on-irc">How To Get Help On IRC</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 55:41</div>
+			
+			
+              <div>Views: 146 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/e-dunham">E. Dunham</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-how-to-raise-a-gopher-in-record-time"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Svv9A8dZCKM/hqdefault.jpg" alt="How to raise a Gopher in record time" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-how-to-raise-a-gopher-in-record-time">How to raise a Gopher in record time</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 44:55</div>
+			
+			
+              <div>Views: 134 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tiffany-jernigan">Tiffany Jernigan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-improving-computer-science-education-with-foss-style-projects"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oBJHHtD9iVA/hqdefault.jpg" alt="LinuxFest Northwest 2016: Improving Computer Science Education with FOSS-style Projects" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-improving-computer-science-education-with-foss-style-projects">LinuxFest Northwest 2016: Improving Computer Science Education with FOSS-style Projects</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:01:44</div>
+			
+			
+              <div>Views: 63 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/roberto-sanchez">Roberto Sanchez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-internet-of-thingies"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CCbDf-x05WM/hqdefault.jpg" alt="Internet of Thingies" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-internet-of-thingies">Internet of Thingies</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 34:20</div>
+			
+			
+              <div>Views: 187 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ken-eshelby">Ken Eshelby</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-irresistible-apis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LEKblaBf2CA/hqdefault.jpg" alt="Irresistible APIs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-irresistible-apis">Irresistible APIs</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 51:30</div>
+			
+			
+              <div>Views: 136 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kirsten-hunter">Kirsten Hunter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-its-dangerous-to-go-alone-exploring-proc-with-friends"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QVkOteDxio8/hqdefault.jpg" alt="It’s Dangerous to Go Alone - Exploring /proc with Friends" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-its-dangerous-to-go-alone-exploring-proc-with-friends">It’s Dangerous to Go Alone - Exploring /proc with Friends</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 54:54</div>
+			
+			
+              <div>Views: 224 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-juarez">Alex Juarez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-ive-installed-puppet-now-what"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IWMb2_OOVqM/hqdefault.jpg" alt="I've Installed Puppet ... Now What?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-ive-installed-puppet-now-what">I've Installed Puppet ... Now What?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:31:20</div>
+			
+			
+              <div>Views: 141 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gabriel-schuyler">Gabriel Schuyler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-krita-basics-an-introduction-to-digital-art-without-draining-your-wallet"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P-zAyZ0EKVA/hqdefault.jpg" alt="Krita Basics: An introduction to digital art without draining your wallet" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-krita-basics-an-introduction-to-digital-art-without-draining-your-wallet">Krita Basics: An introduction to digital art without draining your wallet</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 53:15</div>
+			
+			
+              <div>Views: 223 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicholas-hamilton">Nicholas Hamilton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-lets-encrypt-our-first-half-million-certs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZTyHwCG8Qio/hqdefault.jpg" alt="Let's Encrypt: Our First Half-Million Certs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-lets-encrypt-our-first-half-million-certs">Let's Encrypt: Our First Half-Million Certs</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 50:02</div>
+			
+			
+              <div>Views: 154 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/seth-schoen">Seth Schoen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-linux-102-choosing-the-right-distro-for-you"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qO_r-e0rPwQ/hqdefault.jpg" alt="Linux 102: Choosing the right distro for you" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-linux-102-choosing-the-right-distro-for-you">Linux 102: Choosing the right distro for you</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 50:08</div>
+			
+			
+              <div>Views: 6492 Likes: 54</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kevin-burkeland">Kevin Burkeland</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-linux-is-freaking-weird"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-OI3gPo_atQ/hqdefault.jpg" alt="Linux is freaking WEIRD." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-linux-is-freaking-weird">Linux is freaking WEIRD.</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 37:29</div>
+			
+			
+              <div>Views: 869 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bryan-lunduke">Bryan Lunduke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-make-the-leap-from-dev-to-production-with-opensuse-leap"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eVXDGnaYbKQ/hqdefault.jpg" alt="Make the Leap from Dev to Production with openSUSE Leap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-make-the-leap-from-dev-to-production-with-opensuse-leap">Make the Leap from Dev to Production with openSUSE Leap</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 40:41</div>
+			
+			
+              <div>Views: 494 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-mason">James Mason</a>
+             
+                <a href="/p/richard-brown">Richard Brown</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-monitor-your-php-app-with-jam"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DDGuDQyjftI/hqdefault.jpg" alt="Monitor your PHP app with JaM" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-monitor-your-php-app-with-jam">Monitor your PHP app with JaM</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 53:41</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jess-portnoy">Jess Portnoy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-monitoring-101-finding-signal-in-the-noise"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Apd6J2uiMrg/hqdefault.jpg" alt="Monitoring 101: Finding Signal in the Noise" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-monitoring-101-finding-signal-in-the-noise">Monitoring 101: Finding Signal in the Noise</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 40:56</div>
+			
+			
+              <div>Views: 84 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ilan-rabinovitch">Ilan Rabinovitch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-mysqls-json-data-type"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Vj2rgMDDMDI/hqdefault.jpg" alt="MySQL's JSON Data Type" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-mysqls-json-data-type">MySQL's JSON Data Type</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 29:35</div>
+			
+			
+              <div>Views: 44 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-stokes">David Stokes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-novena-a-completely-free-hackers-laptop"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LbtKn_itotE/hqdefault.jpg" alt="Novena: A Completely Free Hacker's Laptop" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-novena-a-completely-free-hackers-laptop">Novena: A Completely Free Hacker's Laptop</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 44:40</div>
+			
+			
+              <div>Views: 1396 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-kero">Ben Kero</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-on-crypto-and-fearmongering"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YCVJbS85EmQ/hqdefault.jpg" alt="On Crypto and Fearmongering" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-on-crypto-and-fearmongering">On Crypto and Fearmongering</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:00:25</div>
+			
+			
+              <div>Views: 147 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jared-friend">Jared Friend</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-open-source-for-closed-source-companies"><img class="list-thumbnail" src="https://i.ytimg.com/vi/y4xj2e90c-o/hqdefault.jpg" alt="Open Source for Closed Source Companies" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-open-source-for-closed-source-companies">Open Source for Closed Source Companies</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 38:03</div>
+			
+			
+              <div>Views: 99 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amanda-folson">Amanda Folson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-open-source-geeks-in-a-world-of-silos-two-perspectives"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Vj1s8ILtLHo/hqdefault.jpg" alt="Open Source Geeks in a World of Silos - Two Perspectives" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-open-source-geeks-in-a-world-of-silos-two-perspectives">Open Source Geeks in a World of Silos - Two Perspectives</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:01:11</div>
+			
+			
+              <div>Views: 121 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-mason">James Mason</a>
+             
+                <a href="/p/bryan-lunduke">Bryan Lunduke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-openqa-avoiding-disasters-of-biblical-proportions"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SyBIr_l-hjU/hqdefault.jpg" alt="openQA - Avoiding Disasters of Biblical Proportions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-openqa-avoiding-disasters-of-biblical-proportions">openQA - Avoiding Disasters of Biblical Proportions</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 58:32</div>
+			
+			
+              <div>Views: 358 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/richard-brown">Richard Brown</a>
+             
+                <a href="/p/adam-williamson">Adam Williamson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-openstack-advanced-topics"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h9_PO3hugks/hqdefault.jpg" alt="OpenStack Advanced Topics" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-openstack-advanced-topics">OpenStack Advanced Topics</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 40:17</div>
+			
+			
+              <div>Views: 49 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/spencer-krum">Spencer Krum</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-openstack-vs-ganeti"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ww50iW313H4/hqdefault.jpg" alt="OpenStack vs. Ganeti" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-openstack-vs-ganeti">OpenStack vs. Ganeti</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 58:27</div>
+			
+			
+              <div>Views: 281 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lance-albertson">Lance Albertson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-opportunities-for-open-hardware-with-crowdfunding"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OMIdl7joEpI/hqdefault.jpg" alt="Opportunities for Open Hardware with Crowdfunding" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-opportunities-for-open-hardware-with-crowdfunding">Opportunities for Open Hardware with Crowdfunding</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:01:00</div>
+			
+			
+              <div>Views: 96 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joshua-lifton">Joshua Lifton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-pony-a-language-for-provably-safe-lockless-concurrency"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_nDQ38v0fdU/hqdefault.jpg" alt="Pony - A Language for Provably Safe Lockless Concurrency" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-pony-a-language-for-provably-safe-lockless-concurrency">Pony - A Language for Provably Safe Lockless Concurrency</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:29:38</div>
+			
+			
+              <div>Views: 1823 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joe-mcilvain">Joe McIlvain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-production-trenches-how-i-learned-to-stop-scheduling-downtime"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dIuRyhS_R-c/hqdefault.jpg" alt="Production Trenches: How I learned to stop scheduling downtime" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-production-trenches-how-i-learned-to-stop-scheduling-downtime">Production Trenches: How I learned to stop scheduling downtime</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 59:11</div>
+			
+			
+              <div>Views: 67 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bri-hatch">Bri Hatch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-project-hosting-30"><img class="list-thumbnail" src="https://i.ytimg.com/vi/a5RZTwr58sc/hqdefault.jpg" alt="Project Hosting 3.0" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-project-hosting-30">Project Hosting 3.0</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 37:16</div>
+			
+			
+              <div>Views: 47 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lance-albertson">Lance Albertson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-pumpio-the-community"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uQ6RVTFdYNc/hqdefault.jpg" alt="Pump.io & the community" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-pumpio-the-community">Pump.io & the community</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 47:10</div>
+			
+			
+              <div>Views: 109 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-jordan">Alex Jordan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-python-decorators-inception"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zaHIZW77Ohs/hqdefault.jpg" alt="Python Decorators Inception" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-python-decorators-inception">Python Decorators Inception</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 46:21</div>
+			
+			
+              <div>Views: 140 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-hastings">Steve Hastings</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-pythons-infamous-gil"><img class="list-thumbnail" src="https://i.ytimg.com/vi/k8oWeA7xcvI/hqdefault.jpg" alt="Python's Infamous GIL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-pythons-infamous-gil">Python's Infamous GIL</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 41:54</div>
+			
+			
+              <div>Views: 147 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/larry-hastings">Larry Hastings</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-quality-oriented-drupal-devops"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zLTws0DGueU/hqdefault.jpg" alt="Quality-oriented Drupal DevOps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-quality-oriented-drupal-devops">Quality-oriented Drupal DevOps</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 51:04</div>
+			
+			
+              <div>Views: 105 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-locke">John Locke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-redis-functions-and-data-structures"><img class="list-thumbnail" src="https://i.ytimg.com/vi/H6KFo7AO6YM/hqdefault.jpg" alt="Redis Functions and Data Structures" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-redis-functions-and-data-structures">Redis Functions and Data Structures</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:00:58</div>
+			
+			
+              <div>Views: 243 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-nielsen">Dave Nielsen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-rusts-community-automation"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5aIgOvbCYz8/hqdefault.jpg" alt="Rust's Community Automation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-rusts-community-automation">Rust's Community Automation</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 32:28</div>
+			
+			
+              <div>Views: 201 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/e-dunham">E. Dunham</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-securing-zombie-code-in-your-software"><img class="list-thumbnail" src="https://i.ytimg.com/vi/u3rq9hgTU2A/hqdefault.jpg" alt="Securing Zombie code in your software" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-securing-zombie-code-in-your-software">Securing Zombie code in your software</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 59:25</div>
+			
+			
+              <div>Views: 65 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeff-luszcz">Jeff Luszcz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-security-and-privacy-on-the-web-in-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/s2kU9rjfDag/hqdefault.jpg" alt="Security and Privacy on the Web in 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-security-and-privacy-on-the-web-in-2016">Security and Privacy on the Web in 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 58:43</div>
+			
+			
+              <div>Views: 305 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/francois-marier">François Marier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-so-you-want-to-be-a-sysadmin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Rln0CQv-pcc/hqdefault.jpg" alt="So you want to be a sysadmin." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-so-you-want-to-be-a-sysadmin">So you want to be a sysadmin.</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 56:49</div>
+			
+			
+              <div>Views: 466 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-english">Paul English</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-software-patents-after-alice-a-long-and-sad-tail"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UR0QEQ3VqU0/hqdefault.jpg" alt="Software Patents After Alice: A Long and Sad Tail" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-software-patents-after-alice-a-long-and-sad-tail">Software Patents After Alice: A Long and Sad Tail</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:01:06</div>
+			
+			
+              <div>Views: 120 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/deb-nicholson">Deb Nicholson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-stacki-open-source-linux-server-provisioning-tool"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FfG6Q1zJouI/hqdefault.jpg" alt="Stacki - Open Source Linux Server Provisioning Tool" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-stacki-open-source-linux-server-provisioning-tool">Stacki - Open Source Linux Server Provisioning Tool</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 59:13</div>
+			
+			
+              <div>Views: 275 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anoop-rajendra">Anoop Rajendra</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-terrible-ideas-in-git"><img class="list-thumbnail" src="https://i.ytimg.com/vi/j42Zfl7NTLA/hqdefault.jpg" alt="Terrible Ideas in Git" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-terrible-ideas-in-git">Terrible Ideas in Git</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 43:12</div>
+			
+			
+              <div>Views: 813 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/corey-quinn">Corey Quinn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-the-command-line-a-versitile-future-proof-computing-environment"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ug2Qyu06eBM/hqdefault.jpg" alt="The command line - a versitile, future-proof computing environment" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-the-command-line-a-versitile-future-proof-computing-environment">The command line - a versitile, future-proof computing environment</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:16:00</div>
+			
+			
+              <div>Views: 574 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-monsen">Adam Monsen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-the-contributors-guide-to-the-galaxy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o5UbxZmlhk4/hqdefault.jpg" alt="The Contributors Guide To The Galaxy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-the-contributors-guide-to-the-galaxy">The Contributors Guide To The Galaxy</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 49:16</div>
+			
+			
+              <div>Views: 103 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ronald-farrer">Ronald Farrer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-the-dark-art-of-container-monitoring"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pHCpPRmfWsg/hqdefault.jpg" alt="The Dark Art of Container Monitoring" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-the-dark-art-of-container-monitoring">The Dark Art of Container Monitoring</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 57:39</div>
+			
+			
+              <div>Views: 187 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gianluca-borello">Gianluca Borello</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-the-devil-in-the-details-switching-to-bsd-from-linux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6k1Mf0c6YW8/hqdefault.jpg" alt="The Devil in the Details: Switching to BSD from Linux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-the-devil-in-the-details-switching-to-bsd-from-linux">The Devil in the Details: Switching to BSD from Linux</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:00:57</div>
+			
+			
+              <div>Views: 3227 Likes: 35</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-dexter">Michael Dexter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-the-proper-care-and-feeding-of-a-mysql-database"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kznkwXtok9A/hqdefault.jpg" alt="The Proper Care and Feeding of a MySQL Database" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-the-proper-care-and-feeding-of-a-mysql-database">The Proper Care and Feeding of a MySQL Database</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 55:15</div>
+			
+			
+              <div>Views: 61 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-stokes">David Stokes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-the-secret-life-of-the-bitcoin-blockchain"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_ldWupDG2DA/hqdefault.jpg" alt="The Secret Life of the Bitcoin Blockchain" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-the-secret-life-of-the-bitcoin-blockchain">The Secret Life of the Bitcoin Blockchain</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 56:43</div>
+			
+			
+              <div>Views: 112 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/skye-elijah">Skye Elijah</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-the-twelve-factor-container"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KFaTjE-G5Vo/hqdefault.jpg" alt="The Twelve-Factor Container" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-the-twelve-factor-container">The Twelve-Factor Container</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:32:23</div>
+			
+			
+              <div>Views: 250 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/casey-west">Casey West</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-webserver-security-evaluating-risks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Xa3vEnqLqus/hqdefault.jpg" alt="Webserver Security - Evaluating Risks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-webserver-security-evaluating-risks">Webserver Security - Evaluating Risks</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 55:54</div>
+			
+			
+              <div>Views: 82 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christina-saunders">Christina Saunders</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-why-open-source-matters-to-us-non-techs-too"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PrV3w1pu1vA/hqdefault.jpg" alt="Why Open Source Matters to us Non-Techs, Too" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-why-open-source-matters-to-us-non-techs-too">Why Open Source Matters to us Non-Techs, Too</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 55:33</div>
+			
+			
+              <div>Views: 75 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tamara-clammer">Tamara Clammer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-why-puppylinux-is-awesome-and-why-you-should-use-it"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jebMZpEmQlQ/hqdefault.jpg" alt="Why Puppylinux is awesome and why you should use it" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-why-puppylinux-is-awesome-and-why-you-should-use-it">Why Puppylinux is awesome and why you should use it</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 47:48</div>
+			
+			
+              <div>Views: 2041 Likes: 25</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jt-pennington">JT Pennington</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-writing-open-source-webapps-without-fear"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EJGNSHC7Vas/hqdefault.jpg" alt="Writing Open Source Webapps Without Fear" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-writing-open-source-webapps-without-fear">Writing Open Source Webapps Without Fear</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 43:07</div>
+			
+			
+              <div>Views: 132 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/philip-james">Philip James</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-your-system-calls-and-you-a-brief-exploration-of-using-strace"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Thr-PC9p8Q8/hqdefault.jpg" alt="Your System Calls and You - A Brief Exploration of Using strace" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-your-system-calls-and-you-a-brief-exploration-of-using-strace">Your System Calls and You - A Brief Exploration of Using strace</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 52:42</div>
+			
+			
+              <div>Views: 125 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-juarez">Alex Juarez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-youre-using-open-source-but-are-you-respecting-it"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sOZjlik40Kk/hqdefault.jpg" alt="You’re Using Open Source, but are you respecting it?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/linuxfest-northwest-2016-youre-using-open-source-but-are-you-respecting-it">You’re Using Open Source, but are you respecting it?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 01:05:56</div>
+			
+			
+              <div>Views: 64 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeff-luszcz">Jeff Luszcz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2016/qa-wopensuse-board-members-and-one-other-guy-linuxfest-nw-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VILGTG09pdU/hqdefault.jpg" alt="Q&A w/openSUSE Board Members (and one other guy)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2016/qa-wopensuse-board-members-and-one-other-guy-linuxfest-nw-2016">Q&A w/openSUSE Board Members (and one other guy)</a></h4>
+          <footer>
+            <div class="recorded">2016-04-23</div>
+			
+			  <div>Length: 58:44</div>
+			
+			
+              <div>Views: 51 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-mason">James Mason</a>
+             
+                <a href="/p/richard-brown">Richard Brown</a>
+             
+                <a href="/p/bryan-lunduke">Bryan Lunduke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLjDc7gDlIASSOT81pA1jNRT42gNWmHtGo">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

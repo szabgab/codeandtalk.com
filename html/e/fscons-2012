@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>FSCONS 2012</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>FSCONS 2012</h1>
+
+<div><a href="https://fscons.org/2012/">FSCONS 2012</a></div>
+
+
+<div>Start date: 2012-11-09</div>
+<div>End date: 2012-11-11</div>
+
+<div>Location:
+  Göteborg
+  
+  <a href="/l/sweden">Sweden</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/fscons">@fscons</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=FSCONS%202012%20on%202012-11-09%20in%20G%C3%B6teborg%2C%20%20Sweden%20%40fscons%20https%3A//fscons.org/2012/%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/fscons-2012/aslak-ransby-henrik-chulu-active-internet-politics-in-denmark-and-beyond"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AzWaigBG02Y/hqdefault.jpg" alt="Aslak Ransby & Henrik Chulu: Active internet politics in Denmark (and beyond)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2012/aslak-ransby-henrik-chulu-active-internet-politics-in-denmark-and-beyond">Aslak Ransby & Henrik Chulu: Active internet politics in Denmark (and beyond)</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 54:14</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2012">FSCONS 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2012/ellen-weber-silje-nord-station-x-encouraging-women-to-get-involved-in-our-hackerspace"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rk7OIXq04_8/hqdefault.jpg" alt="Ellen Weber & Silje Nord: Station X - encouraging women to get involved in our hackerspace" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2012/ellen-weber-silje-nord-station-x-encouraging-women-to-get-involved-in-our-hackerspace">Ellen Weber & Silje Nord: Station X - encouraging women to get involved in our hackerspace</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 37:10</div>
+			
+			
+              <div>Views: 26 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2012">FSCONS 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2012/gabriella-coleman-weapons-of-the-geek"><img class="list-thumbnail" src="https://i.ytimg.com/vi/69QQHOUY8Q4/hqdefault.jpg" alt="Gabriella Coleman: Weapons of the Geek" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2012/gabriella-coleman-weapons-of-the-geek">Gabriella Coleman: Weapons of the Geek</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 51:39</div>
+			
+			
+              <div>Views: 318 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/fscons-2012">FSCONS 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2012/hugo-roy-terms-of-services-didnt-read"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1BucCWahq1I/hqdefault.jpg" alt="Hugo Roy: Terms of Services; Didn't Read!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2012/hugo-roy-terms-of-services-didnt-read">Hugo Roy: Terms of Services; Didn't Read!</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 43:32</div>
+			
+			
+              <div>Views: 171 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fscons-2012">FSCONS 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2012/julia-velkova-konstantin-dmitriev-open-animation-projects"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yNGov5v6jpM/hqdefault.jpg" alt="Julia Velkova & Konstantin Dmitriev: Open animation projects" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2012/julia-velkova-konstantin-dmitriev-open-animation-projects">Julia Velkova & Konstantin Dmitriev: Open animation projects</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 52:19</div>
+			
+			
+              <div>Views: 147 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/fscons-2012">FSCONS 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2012/karsten-gerloff-all-watched-over-by-machines-of-loving-grace"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VMqV87rIuiA/hqdefault.jpg" alt="Karsten Gerloff: All watched over by machines of loving grace?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2012/karsten-gerloff-all-watched-over-by-machines-of-loving-grace">Karsten Gerloff: All watched over by machines of loving grace?</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 54:31</div>
+			
+			
+              <div>Views: 3031 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2012">FSCONS 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2012/otto-kekalainen-dirty-tactics-against-libreoffice-in-public-administration-and-how-to-overcome-them"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BRx0j2QKtrE/hqdefault.jpg" alt="Otto Kekäläinen: Dirty tactics against LibreOffice in public administration and how to overcome them" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2012/otto-kekalainen-dirty-tactics-against-libreoffice-in-public-administration-and-how-to-overcome-them">Otto Kekäläinen: Dirty tactics against LibreOffice in public administration and how to overcome them</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 58:34</div>
+			
+			
+              <div>Views: 59 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2012">FSCONS 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2012/sam-tuke-theydontwantyouto"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zqOa3eXDrVs/hqdefault.jpg" alt="Sam Tuke: TheyDontWantYou.To" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2012/sam-tuke-theydontwantyouto">Sam Tuke: TheyDontWantYou.To</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 49:51</div>
+			
+			
+              <div>Views: 108 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2012">FSCONS 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2012/smari-mccarthy-failure-modes-of-the-modern-rational-utopia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oN8l_2lWxRU/hqdefault.jpg" alt="Smári McCarthy: Failure Modes of the Modern Rational Utopia" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2012/smari-mccarthy-failure-modes-of-the-modern-rational-utopia">Smári McCarthy: Failure Modes of the Modern Rational Utopia</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 51:31</div>
+			
+			
+              <div>Views: 512 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/fscons-2012">FSCONS 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL4yYmsifqkVFK9RP9NgwSuya4ZxtsRfof">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

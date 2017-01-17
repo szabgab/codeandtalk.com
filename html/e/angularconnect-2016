@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Angular Connect 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Angular Connect 2016</h1>
+
+<div><a href="http://angularconnect.com/2016/">Angular Connect 2016</a></div>
+
+
+<div>Start date: 2016-09-27</div>
+<div>End date: 2016-09-28</div>
+
+<div>Location:
+  London
+  England
+  <a href="/l/uk">UK</a>
+</div>
+
+<div><a href="http://angularconnect.com/2016/code-of-conduct/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/angularjs">AngularJS</a> 
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/angularconnect">@angularconnect</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/AngularConnect">https://www.facebook.com/AngularConnect</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Angular%20Connect%202016%20on%202016-09-27%20in%20London%2C%20England%20UK%20%40angularconnect%20http%3A//angularconnect.com/2016/%20%23AngularJS%20%23JavaScript%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/360-vr-video-with-angular-2-raul-jimenez"><img class="list-thumbnail" src="https://i.ytimg.com/vi/E3P4KMoE3VU/hqdefault.jpg" alt="360 & VR Vídeo with Angular 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/360-vr-video-with-angular-2-raul-jimenez">360 & VR Vídeo with Angular 2</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 18:42</div>
+			
+			
+              <div>Views: 945 Likes: 25</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/raul-jimenez">Raúl Jiménez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/angular-2-0-animations-matias-niemela"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4VDmIVrML34/hqdefault.jpg" alt="Angular 2 0 Animations" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/angular-2-0-animations-matias-niemela">Angular 2 0 Animations</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 21:43</div>
+			
+			
+              <div>Views: 5050 Likes: 51</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matias-niemela">Matias Niemelä</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/angular-2-forms-kara-erickson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xYv9lsrV0s4/hqdefault.jpg" alt="Angular 2 Forms" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/angular-2-forms-kara-erickson">Angular 2 Forms</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 23:18</div>
+			
+			
+              <div>Views: 14521 Likes: 263</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kara-erickson">Kara Erickson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/angular-cli-stephen-fluin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uBRK6cTr4Vk/hqdefault.jpg" alt="Angular CLI" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/angular-cli-stephen-fluin">Angular CLI</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 17:12</div>
+			
+			
+              <div>Views: 4041 Likes: 74</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephen-fluin">Stephen Fluin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/angular-material-2-jeremy-elbourn-and-kara-erickson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0q9FOeEELPY/hqdefault.jpg" alt="Angular Material 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/angular-material-2-jeremy-elbourn-and-kara-erickson">Angular Material 2</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 22:42</div>
+			
+			
+              <div>Views: 9654 Likes: 184</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kara-erickson">Kara Erickson</a>
+             
+                <a href="/p/jeremy-elbourn">Jeremy Elbourn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/angularjs-in-industry-developing-responsive-aviation-weather-products-with-an-agile-cross-site-te"><img class="list-thumbnail" src="https://i.ytimg.com/vi/act2Q0VN5jY/hqdefault.jpg" alt="AngularJS in industry   Developing responsive aviation weather products with an agile, cross site te" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/angularjs-in-industry-developing-responsive-aviation-weather-products-with-an-agile-cross-site-te">AngularJS in industry   Developing responsive aviation weather products with an agile, cross site te</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 24:28</div>
+			
+			
+              <div>Views: 500 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-hunter">David Hunter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/connect-your-angular-app-to-any-existing-backend-with-graphql-uri-goldstein"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AEjC-gyOTJQ/hqdefault.jpg" alt="Connect your Angular app to any existing backend with GraphQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/connect-your-angular-app-to-any-existing-backend-with-graphql-uri-goldstein">Connect your Angular app to any existing backend with GraphQL</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 26:12</div>
+			
+			
+              <div>Views: 2722 Likes: 31</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/uri-goldstein">Uri Goldstein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/cross-site-request-funkery-securing-your-angular-apps-from-evil-doers-dave-smith"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9inczw6qtpY/hqdefault.jpg" alt="Cross Site Request Funkery   Securing Your Angular Apps From Evil Doers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/cross-site-request-funkery-securing-your-angular-apps-from-evil-doers-dave-smith">Cross Site Request Funkery   Securing Your Angular Apps From Evil Doers</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 22:06</div>
+			
+			
+              <div>Views: 1343 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-smith">Dave Smith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/day-2-keynote-igor-minar-and-rob-wormald"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LWZO_Bu6c2I/hqdefault.jpg" alt="Day 2 Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/day-2-keynote-igor-minar-and-rob-wormald">Day 2 Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 40:34</div>
+			
+			
+              <div>Views: 2222 Likes: 30</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rob-wormald">Rob Wormald</a>
+             
+                <a href="/p/igor-minar">Igor Minar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/from-component-to-component-todd-motto"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-nsedZwvl9U/hqdefault.jpg" alt="From  component to @component" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/from-component-to-component-todd-motto">From  component to @component</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 21:17</div>
+			
+			
+              <div>Views: 2144 Likes: 33</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/todd-motto">Todd Motto</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/go-beast-mode-with-realtime-reactive-interfaces-in-angular-2-firebase-lukas-ruebbelke"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5CTL7aqSvJU/hqdefault.jpg" alt="Go beast mode with realtime reactive interfaces in Angular 2 & Firebase" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/go-beast-mode-with-realtime-reactive-interfaces-in-angular-2-firebase-lukas-ruebbelke">Go beast mode with realtime reactive interfaces in Angular 2 & Firebase</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 25:22</div>
+			
+			
+              <div>Views: 5281 Likes: 92</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lukas-ruebbelke">Lukas Ruebbelke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/how-fast-can-web-apps-be-tim-ruffles"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CIG-PYSFgr0/hqdefault.jpg" alt="How fast can web apps be?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/how-fast-can-web-apps-be-tim-ruffles">How fast can web apps be?</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 22:08</div>
+			
+			
+              <div>Views: 2277 Likes: 33</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-ruffles">Tim Ruffles</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/keynote-jules-kremer-and-misko-hevery"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xQdV7q3e_2w/hqdefault.jpg" alt="Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/keynote-jules-kremer-and-misko-hevery">Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 52:57</div>
+			
+			
+              <div>Views: 5083 Likes: 44</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jules-kremer">Jules Kremer</a>
+             
+                <a href="/p/misko-hevery">Miško Hevery</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/look-deeply-into-your-app-with-augury-igor-kamenetsky"><img class="list-thumbnail" src="https://i.ytimg.com/vi/55vvJbrDgqw/hqdefault.jpg" alt="Look Deeply Into Your App with Augury" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/look-deeply-into-your-app-with-augury-igor-kamenetsky">Look Deeply Into Your App with Augury</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 17:42</div>
+			
+			
+              <div>Views: 1261 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/igor-kamenetsky">Igor Kamenetsky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/mobile-apps-trust-no-one-except-me-jeff-cross"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FP1w89F5OtI/hqdefault.jpg" alt="Mobile apps? Trust no one    except me" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/mobile-apps-trust-no-one-except-me-jeff-cross">Mobile apps? Trust no one    except me</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 26:21</div>
+			
+			
+              <div>Views: 2275 Likes: 35</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeffrey-cross">Jeffrey Cross</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/move-shake-and-drop-with-nativescript-and-angular-2-jen-looper"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aWM-_majn0E/hqdefault.jpg" alt="Move, shake and drop with NativeScript and Angular 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/move-shake-and-drop-with-nativescript-and-angular-2-jen-looper">Move, shake and drop with NativeScript and Angular 2</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 36:51</div>
+			
+			
+              <div>Views: 2783 Likes: 29</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jen-looper">Jen Looper</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/neural-networks-and-machine-learning-building-intelligent-angular-applications-carmen-popoviciu"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6v_S3VkxbD0/hqdefault.jpg" alt="Neural Networks and Machine Learning  Building Intelligent Angular Applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/neural-networks-and-machine-learning-building-intelligent-angular-applications-carmen-popoviciu">Neural Networks and Machine Learning  Building Intelligent Angular Applications</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 26:01</div>
+			
+			
+              <div>Views: 7087 Likes: 141</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/carmen-popoviciu">Carmen Popoviciu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/one-code-to-rule-them-all-cross-platform-development-with-angular-2-cordova-electron-christia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Q6SsswD3YiM/hqdefault.jpg" alt="One Code to rule them all   Cross platform development with Angular 2, Cordova & Electron" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/one-code-to-rule-them-all-cross-platform-development-with-angular-2-cordova-electron-christia">One Code to rule them all   Cross platform development with Angular 2, Cordova & Electron</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 25:56</div>
+			
+			
+              <div>Views: 1723 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christian-weyer">Christian Weyer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/optimizing-angular-2-apps-martin-probst"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_VnV7R4Ncwc/hqdefault.jpg" alt="Optimizing Angular 2 Apps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/optimizing-angular-2-apps-martin-probst">Optimizing Angular 2 Apps</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 30:36</div>
+			
+			
+              <div>Views: 3280 Likes: 51</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/martin-probst">Martin Probst</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/redux-with-angularjs-pavithra-kodmad"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_G-e59CZRqw/hqdefault.jpg" alt="Redux with AngularJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/redux-with-angularjs-pavithra-kodmad">Redux with AngularJS</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 23:22</div>
+			
+			
+              <div>Views: 1500 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pavithra-kodmad">Pavithra Kodmad</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/rescue-your-mobile-experience-alex-rickabaugh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/x0uadsX-HVI/hqdefault.jpg" alt="Rescue your mobile experience!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/rescue-your-mobile-experience-alex-rickabaugh">Rescue your mobile experience!</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 19:12</div>
+			
+			
+              <div>Views: 1055 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-rickabaugh">Alex Rickabaugh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/rxjs-5-thinking-reactively-ben-lesh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3LKMwkuK0ZE/hqdefault.jpg" alt="RxJS 5   Thinking Reactively" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/rxjs-5-thinking-reactively-ben-lesh">RxJS 5   Thinking Reactively</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 39:04</div>
+			
+			
+              <div>Views: 12364 Likes: 223</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-lesh">Ben Lesh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/secure-your-angular-applications-gleb-bahmutov"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8M5JQwVtdxo/hqdefault.jpg" alt="Secure your Angular applications." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/secure-your-angular-applications-gleb-bahmutov">Secure your Angular applications.</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 50:59</div>
+			
+			
+              <div>Views: 1928 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gleb-bahmutov">Gleb Bahmutov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/seo-best-practices-and-requirements-for-modern-sites-john-mueller"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JlP5rBynK3E/hqdefault.jpg" alt="SEO best practices and requirements for modern sites" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/seo-best-practices-and-requirements-for-modern-sites-john-mueller">SEO best practices and requirements for modern sites</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 23:08</div>
+			
+			
+              <div>Views: 3077 Likes: 65</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-mueller">John Mueller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/testing-angular-2-julie-ralph"><img class="list-thumbnail" src="https://i.ytimg.com/vi/f493Xf0F2yU/hqdefault.jpg" alt="Testing Angular 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/testing-angular-2-julie-ralph">Testing Angular 2</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 45:38</div>
+			
+			
+              <div>Views: 4930 Likes: 56</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/julie-ralph">Julie Ralph</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/testing-for-accessibility-in-angular-1-and-2-marcy-sutton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9y2MnXo45cs/hqdefault.jpg" alt="Testing for accessibility in Angular 1 and 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/testing-for-accessibility-in-angular-1-and-2-marcy-sutton">Testing for accessibility in Angular 1 and 2</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 33:20</div>
+			
+			
+              <div>Views: 1039 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marcy-sutton">Marcy Sutton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/the-angular-2-compiler-tobias-bosch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kW9cJsvcsGo/hqdefault.jpg" alt="The Angular 2 Compiler" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/the-angular-2-compiler-tobias-bosch">The Angular 2 Compiler</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 41:49</div>
+			
+			
+              <div>Views: 6020 Likes: 85</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tobias-bosch">Tobias Bosch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/the-angular-router-victor-savkin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QLns6s02O48/hqdefault.jpg" alt="The Angular Router" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/the-angular-router-victor-savkin">The Angular Router</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 20:20</div>
+			
+			
+              <div>Views: 8101 Likes: 126</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/victor-savkin">Victor Savkin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/universal-tooling-jeff-whelpley"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KiAnzAk04uA/hqdefault.jpg" alt="Universal Tooling" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/universal-tooling-jeff-whelpley">Universal Tooling</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 18:26</div>
+			
+			
+              <div>Views: 2148 Likes: 34</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeff-whelpley">Jeff Whelpley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/why-common-sense-is-not-enough-user-testing-and-prototyping-ekaterina-orlova"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sG1vEXL_Qvc/hqdefault.jpg" alt="Why common sense is not enough   user testing and prototyping" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/why-common-sense-is-not-enough-user-testing-and-prototyping-ekaterina-orlova">Why common sense is not enough   user testing and prototyping</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 21:18</div>
+			
+			
+              <div>Views: 656 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ekaterina-orlova">Ekaterina Orlova</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/angularconnect-2016/why-i-am-betting-my-future-on-angular-2-shai-reznik"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9gO93MlTh7A/hqdefault.jpg" alt="Why I am betting my future on Angular 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/angularconnect-2016/why-i-am-betting-my-future-on-angular-2-shai-reznik">Why I am betting my future on Angular 2</a></h4>
+          <footer>
+            <div class="recorded">2016-09-27</div>
+			
+			  <div>Length: 19:12</div>
+			
+			
+              <div>Views: 4276 Likes: 61</div>
+            
+            <div class="event">From <a href="/e/angularconnect-2016">Angular Connect 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shai-reznik">Shai Reznik</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLSQDYUBkwu4vgE2bPugLivPCLH3L_op2b">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

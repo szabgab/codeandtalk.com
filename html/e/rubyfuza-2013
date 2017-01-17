@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Rubyfuza 2013</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Rubyfuza 2013</h1>
+
+<div><a href="http://www.rubyfuza.org/2013.html">Rubyfuza 2013</a></div>
+
+
+<div>Start date: 2013-02-07</div>
+<div>End date: 2013-02-09</div>
+
+<div>Location:
+  Cape Town
+  
+  <a href="/l/south-africa">South Africa</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/ruby">Ruby</a> 
+   
+       <a href="/t/rails">Rails</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/rubyfuza">@rubyfuza</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Rubyfuza%202013%20on%202013-02-07%20in%20Cape%20Town%2C%20%20South%20Africa%20%40rubyfuza%20http%3A//www.rubyfuza.org/2013.html%20%23Ruby%20%23Rails%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/abstracting-a-service-a-case-study-in-forward-thinking-with-soa-stuart-corbishley-0482fa"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kvcbzt8lZwk/hqdefault.jpg" alt="Abstracting a Service - A Case Study in Forward Thinking with SOA - Stuart Corbishley" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/abstracting-a-service-a-case-study-in-forward-thinking-with-soa-stuart-corbishley-0482fa">Abstracting a Service - A Case Study in Forward Thinking with SOA - Stuart Corbishley</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 23:25</div>
+			
+			
+              <div>Views: 304 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/abstracting-a-service-a-case-study-in-forward-thinking-with-soa-stuart-corbishley"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kvcbzt8lZwk/hqdefault.jpg" alt="Abstracting a Service - A Case Study in Forward Thinking with SOA - Stuart Corbishley" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/abstracting-a-service-a-case-study-in-forward-thinking-with-soa-stuart-corbishley">Abstracting a Service - A Case Study in Forward Thinking with SOA - Stuart Corbishley</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 23:25</div>
+			
+			
+              <div>Views: 304 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/applying-rspec-best-practices-kevin-mckelvin-0484b6"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wCjLv1_-ZRQ/hqdefault.jpg" alt="Applying RSpec Best Practices - Kevin McKelvin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/applying-rspec-best-practices-kevin-mckelvin-0484b6">Applying RSpec Best Practices - Kevin McKelvin</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 19:39</div>
+			
+			
+              <div>Views: 496 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/applying-rspec-best-practices-kevin-mckelvin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wCjLv1_-ZRQ/hqdefault.jpg" alt="Applying RSpec Best Practices - Kevin McKelvin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/applying-rspec-best-practices-kevin-mckelvin">Applying RSpec Best Practices - Kevin McKelvin</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 19:39</div>
+			
+			
+              <div>Views: 496 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/bundle-install-y-u-so-slow-server-edition-terrence-lee-0482e0"><img class="list-thumbnail" src="https://i.ytimg.com/vi/m_-lruDQy0Y/hqdefault.jpg" alt="`bundle install` Y U SO SLOW: Server Edition - Terrence Lee" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/bundle-install-y-u-so-slow-server-edition-terrence-lee-0482e0">`bundle install` Y U SO SLOW: Server Edition - Terrence Lee</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 36:43</div>
+			
+			
+              <div>Views: 130 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/bundle-install-y-u-so-slow-server-edition-terrence-lee"><img class="list-thumbnail" src="https://i.ytimg.com/vi/m_-lruDQy0Y/hqdefault.jpg" alt="`bundle install` Y U SO SLOW: Server Edition - Terrence Lee" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/bundle-install-y-u-so-slow-server-edition-terrence-lee">`bundle install` Y U SO SLOW: Server Edition - Terrence Lee</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 36:43</div>
+			
+			
+              <div>Views: 130 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/chatops-at-github-jesse-newland-048455"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NST3u-GjjFw/hqdefault.jpg" alt="ChatOps at GitHub - Jesse Newland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/chatops-at-github-jesse-newland-048455">ChatOps at GitHub - Jesse Newland</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 36:27</div>
+			
+			
+              <div>Views: 19994 Likes: 97</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/chatops-at-github-jesse-newland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NST3u-GjjFw/hqdefault.jpg" alt="ChatOps at GitHub - Jesse Newland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/chatops-at-github-jesse-newland">ChatOps at GitHub - Jesse Newland</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 36:27</div>
+			
+			
+              <div>Views: 19994 Likes: 97</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/developing-multiple-personalities-to-bootstrap-your-first-product-garren-smith-0483e9"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Uj5XGEhB_OQ/hqdefault.jpg" alt="Developing multiple personalities to bootstrap your first product - Garren Smith" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/developing-multiple-personalities-to-bootstrap-your-first-product-garren-smith-0483e9">Developing multiple personalities to bootstrap your first product - Garren Smith</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 23:25</div>
+			
+			
+              <div>Views: 181 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/developing-multiple-personalities-to-bootstrap-your-first-product-garren-smith"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Uj5XGEhB_OQ/hqdefault.jpg" alt="Developing multiple personalities to bootstrap your first product - Garren Smith" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/developing-multiple-personalities-to-bootstrap-your-first-product-garren-smith">Developing multiple personalities to bootstrap your first product - Garren Smith</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 23:25</div>
+			
+			
+              <div>Views: 181 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/do-it-yerself-rube-john-anderson-048475"><img class="list-thumbnail" src="https://i.ytimg.com/vi/W30y30nwMXI/hqdefault.jpg" alt="Do It Yerself, Rube - John Anderson" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/do-it-yerself-rube-john-anderson-048475">Do It Yerself, Rube - John Anderson</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 31:57</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/do-it-yerself-rube-john-anderson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/W30y30nwMXI/hqdefault.jpg" alt="Do It Yerself, Rube - John Anderson" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/do-it-yerself-rube-john-anderson">Do It Yerself, Rube - John Anderson</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 31:57</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/dont-be-an-ahole-danish-kahn-048311"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6Te-HyYfYrM/hqdefault.jpg" alt="Don't Be an A**hole - Danish Kahn" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/dont-be-an-ahole-danish-kahn-048311">Don't Be an A**hole - Danish Kahn</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 30:23</div>
+			
+			
+              <div>Views: 100 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/dont-be-an-ahole-danish-kahn"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6Te-HyYfYrM/hqdefault.jpg" alt="Don't Be an A**hole - Danish Kahn" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/dont-be-an-ahole-danish-kahn">Don't Be an A**hole - Danish Kahn</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 30:23</div>
+			
+			
+              <div>Views: 100 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/dynamic-routing-with-circuit-lance-gleasain-0483bc"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WG0D9duhMfQ/hqdefault.jpg" alt="Dynamic Routing with Circuit - Lance Gleasain" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/dynamic-routing-with-circuit-lance-gleasain-0483bc">Dynamic Routing with Circuit - Lance Gleasain</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 26:50</div>
+			
+			
+              <div>Views: 59 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/dynamic-routing-with-circuit-lance-gleasain"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WG0D9duhMfQ/hqdefault.jpg" alt="Dynamic Routing with Circuit - Lance Gleasain" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/dynamic-routing-with-circuit-lance-gleasain">Dynamic Routing with Circuit - Lance Gleasain</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 26:50</div>
+			
+			
+              <div>Views: 59 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/hey-kid-dont-copy-that-floppy-aaron-kalin-048409"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZussgdjS40M/hqdefault.jpg" alt="Hey Kid! Don't Copy That Floppy! - Aaron Kalin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/hey-kid-dont-copy-that-floppy-aaron-kalin-048409">Hey Kid! Don't Copy That Floppy! - Aaron Kalin</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 28:51</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/hey-kid-dont-copy-that-floppy-aaron-kalin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZussgdjS40M/hqdefault.jpg" alt="Hey Kid! Don't Copy That Floppy! - Aaron Kalin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/hey-kid-dont-copy-that-floppy-aaron-kalin">Hey Kid! Don't Copy That Floppy! - Aaron Kalin</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 28:51</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/how-pet-projects-can-enhance-your-career-simon-stewart"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PA3K0rfke_0/hqdefault.jpg" alt="How pet projects can enhance your career - Simon Stewart" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/how-pet-projects-can-enhance-your-career-simon-stewart">How pet projects can enhance your career - Simon Stewart</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 37:04</div>
+			
+			
+              <div>Views: 270 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/living-with-distributed-systems-jacob-burkhart-048353"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pd3eVLcBaS0/hqdefault.jpg" alt="Living with Distributed Systems - Jacob Burkhart" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/living-with-distributed-systems-jacob-burkhart-048353">Living with Distributed Systems - Jacob Burkhart</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 37:40</div>
+			
+			
+              <div>Views: 62 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/living-with-distributed-systems-jacob-burkhart"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pd3eVLcBaS0/hqdefault.jpg" alt="Living with Distributed Systems - Jacob Burkhart" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/living-with-distributed-systems-jacob-burkhart">Living with Distributed Systems - Jacob Burkhart</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 37:40</div>
+			
+			
+              <div>Views: 62 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/not-quite-object-oriented-aslam-khan-0482ad"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eiivpAwo40E/hqdefault.jpg" alt="Not Quite Object Oriented - Aslam Khan" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/not-quite-object-oriented-aslam-khan-0482ad">Not Quite Object Oriented - Aslam Khan</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 37:40</div>
+			
+			
+              <div>Views: 188 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/not-quite-object-oriented-aslam-khan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eiivpAwo40E/hqdefault.jpg" alt="Not Quite Object Oriented - Aslam Khan" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/not-quite-object-oriented-aslam-khan">Not Quite Object Oriented - Aslam Khan</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 37:40</div>
+			
+			
+              <div>Views: 188 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/rack-based-web-apps-with-jruby-and-torquebox-chris-spring-048436"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tLNZp7Kwc6A/hqdefault.jpg" alt="Rack based web apps with JRuby and TorqueBox - Chris Spring" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/rack-based-web-apps-with-jruby-and-torquebox-chris-spring-048436">Rack based web apps with JRuby and TorqueBox - Chris Spring</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 30:14</div>
+			
+			
+              <div>Views: 748 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/rack-based-web-apps-with-jruby-and-torquebox-chris-spring"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tLNZp7Kwc6A/hqdefault.jpg" alt="Rack based web apps with JRuby and TorqueBox - Chris Spring" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/rack-based-web-apps-with-jruby-and-torquebox-chris-spring">Rack based web apps with JRuby and TorqueBox - Chris Spring</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 30:14</div>
+			
+			
+              <div>Views: 748 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/reusing-your-frontend-js-on-the-server-with-the-ruby-racer-andor-ruby-rhino-kenneth-kalmer-047ee0"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pDgtVhN8Ecw/hqdefault.jpg" alt="Reusing your frontend JS on the server with The Ruby Racer and/or Ruby Rhino - Kenneth Kalmer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/reusing-your-frontend-js-on-the-server-with-the-ruby-racer-andor-ruby-rhino-kenneth-kalmer-047ee0">Reusing your frontend JS on the server with The Ruby Racer and/or Ruby Rhino - Kenneth Kalmer</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 24:24</div>
+			
+			
+              <div>Views: 482 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/reusing-your-frontend-js-on-the-server-with-the-ruby-racer-andor-ruby-rhino-kenneth-kalmer-048295"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pDgtVhN8Ecw/hqdefault.jpg" alt="Reusing your frontend JS on the server with The Ruby Racer and/or Ruby Rhino - Kenneth Kalmer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/reusing-your-frontend-js-on-the-server-with-the-ruby-racer-andor-ruby-rhino-kenneth-kalmer-048295">Reusing your frontend JS on the server with The Ruby Racer and/or Ruby Rhino - Kenneth Kalmer</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 24:24</div>
+			
+			
+              <div>Views: 482 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/reusing-your-frontend-js-on-the-server-with-the-ruby-racer-andor-ruby-rhino-kenneth-kalmer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pDgtVhN8Ecw/hqdefault.jpg" alt="Reusing your frontend JS on the server with The Ruby Racer and/or Ruby Rhino - Kenneth Kalmer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/reusing-your-frontend-js-on-the-server-with-the-ruby-racer-andor-ruby-rhino-kenneth-kalmer">Reusing your frontend JS on the server with The Ruby Racer and/or Ruby Rhino - Kenneth Kalmer</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 24:24</div>
+			
+			
+              <div>Views: 482 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/ruby-where-are-you-going-konstatin-haase-048493"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P7dAwgmnIJw/hqdefault.jpg" alt="Ruby: Where Are You Going? - Konstatin Haase" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/ruby-where-are-you-going-konstatin-haase-048493">Ruby: Where Are You Going? - Konstatin Haase</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 52:11</div>
+			
+			
+              <div>Views: 288 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/ruby-where-are-you-going-konstatin-haase"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P7dAwgmnIJw/hqdefault.jpg" alt="Ruby: Where Are You Going? - Konstatin Haase" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/ruby-where-are-you-going-konstatin-haase">Ruby: Where Are You Going? - Konstatin Haase</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 52:11</div>
+			
+			
+              <div>Views: 288 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/side-effects-are-not-your-friend-ryan-lemmer-0482c8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GaSwjqU28-U/hqdefault.jpg" alt="Side-effects are not your friend - Ryan Lemmer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/side-effects-are-not-your-friend-ryan-lemmer-0482c8">Side-effects are not your friend - Ryan Lemmer</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 31:26</div>
+			
+			
+              <div>Views: 588 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/side-effects-are-not-your-friend-ryan-lemmer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GaSwjqU28-U/hqdefault.jpg" alt="Side-effects are not your friend - Ryan Lemmer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/side-effects-are-not-your-friend-ryan-lemmer">Side-effects are not your friend - Ryan Lemmer</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 31:26</div>
+			
+			
+              <div>Views: 588 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/subprocesses-threads-and-fibers-rory-mckinley-048370"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wCb5HKKhUwc/hqdefault.jpg" alt="Subprocesses, Threads and Fibers - Rory McKinley" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/subprocesses-threads-and-fibers-rory-mckinley-048370">Subprocesses, Threads and Fibers - Rory McKinley</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 20:25</div>
+			
+			
+              <div>Views: 389 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/subprocesses-threads-and-fibers-rory-mckinley"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wCb5HKKhUwc/hqdefault.jpg" alt="Subprocesses, Threads and Fibers - Rory McKinley" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/subprocesses-threads-and-fibers-rory-mckinley">Subprocesses, Threads and Fibers - Rory McKinley</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 20:25</div>
+			
+			
+              <div>Views: 389 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/teaching-ruby-for-fun-and-profit-renee-de-voursney-048339"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gL_MZuQ574g/hqdefault.jpg" alt="Teaching Ruby for Fun and Profit! - Renee de Voursney" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/teaching-ruby-for-fun-and-profit-renee-de-voursney-048339">Teaching Ruby for Fun and Profit! - Renee de Voursney</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 34:54</div>
+			
+			
+              <div>Views: 175 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/teaching-ruby-for-fun-and-profit-renee-de-voursney"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gL_MZuQ574g/hqdefault.jpg" alt="Teaching Ruby for Fun and Profit! - Renee de Voursney" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/teaching-ruby-for-fun-and-profit-renee-de-voursney">Teaching Ruby for Fun and Profit! - Renee de Voursney</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 34:54</div>
+			
+			
+              <div>Views: 175 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/unicorns-die-with-bullets-made-of-glitter-vicent-marti-048395"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rcP0OiUED4c/hqdefault.jpg" alt="Unicorns die with bullets made of glitter - Vicent Martí" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/unicorns-die-with-bullets-made-of-glitter-vicent-marti-048395">Unicorns die with bullets made of glitter - Vicent Martí</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 27:09</div>
+			
+			
+              <div>Views: 284 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2013/unicorns-die-with-bullets-made-of-glitter-vicent-marti"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rcP0OiUED4c/hqdefault.jpg" alt="Unicorns die with bullets made of glitter - Vicent Martí" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2013/unicorns-die-with-bullets-made-of-glitter-vicent-marti">Unicorns die with bullets made of glitter - Vicent Martí</a></h4>
+          <footer>
+            <div class="recorded">2013-02-07</div>
+			
+			  <div>Length: 27:09</div>
+			
+			
+              <div>Views: 284 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2013">Rubyfuza 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLI113oIao_x7L--6pFLvJYtew66oU2j2A">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

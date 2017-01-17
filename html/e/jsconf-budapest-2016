@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>JSConf Budapest 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>JSConf Budapest 2016</h1>
+
+<div><a href="https://jsconfbp.com/">JSConf Budapest 2016</a></div>
+
+
+<div>Start date: 2016-05-12</div>
+<div>End date: 2016-05-13</div>
+
+<div>Location:
+  Budapest
+  
+  <a href="/l/hungary">Hungary</a>
+</div>
+
+<div><a href="https://jsconfbp.com/code-of-conduct.html">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/jsconfbp">@jsconfbp</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/bp.jsconf">https://www.facebook.com/bp.jsconf</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=JSConf%20Budapest%202016%20on%202016-05-12%20in%20Budapest%2C%20%20Hungary%20%40jsconfbp%20https%3A//jsconfbp.com/%20%23JavaScript%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/anand-vemuri-offensive-and-defensive-strategies-for-client-side-js-security-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qNmOUzxGg0Y/hqdefault.jpg" alt="Offensive and Defensive Strategies for Client-Side JS Security" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/anand-vemuri-offensive-and-defensive-strategies-for-client-side-js-security-jsconf-budapest-2016">Offensive and Defensive Strategies for Client-Side JS Security</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 27:47</div>
+			
+			
+              <div>Views: 1366 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anand-vemuri">Anand Vemuri</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/claudia-hernandez-down-the-rabbit-hole-js-in-wonderland-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YXdTfLqnIf8/hqdefault.jpg" alt="Down the Rabbit Hole: JS in Wonderland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/claudia-hernandez-down-the-rabbit-hole-js-in-wonderland-jsconf-budapest-2016">Down the Rabbit Hole: JS in Wonderland</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 24:44</div>
+			
+			
+              <div>Views: 2243 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/claudia-hernandez">Claudia Hernández</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/denys-mishunov-why-performance-matters-jsconf-budapest-201"><img class="list-thumbnail" src="https://i.ytimg.com/vi/j9TrSkLZa5A/hqdefault.jpg" alt="Why Performance Matters" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/denys-mishunov-why-performance-matters-jsconf-budapest-201">Why Performance Matters</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 22:21</div>
+			
+			
+              <div>Views: 1375 Likes: 33</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/denys-mishunov">Denys Mishunov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/jsconf-budapest-2016-intro"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CL8_nlqTcw0/hqdefault.jpg" alt="JSConf Budapest 2016 Intro" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/jsconf-budapest-2016-intro">JSConf Budapest 2016 Intro</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 02:36</div>
+			
+			
+              <div>Views: 1877 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/laurie-voss-what-everybody-should-know-about-npm-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zWEU8kNKi3Q/hqdefault.jpg" alt="What everybody should know about npm" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/laurie-voss-what-everybody-should-know-about-npm-jsconf-budapest-2016">What everybody should know about npm</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 31:21</div>
+			
+			
+              <div>Views: 6816 Likes: 121</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/laurie-voss">Laurie Voss</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/lena-reinhard-works-on-my-machine-or-the-problem-is-between-keyboard-and-chair"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HnaLLoCXS2M/hqdefault.jpg" alt="Works On My Machine, or the Problem is between Keyboard and Chair" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/lena-reinhard-works-on-my-machine-or-the-problem-is-between-keyboard-and-chair">Works On My Machine, or the Problem is between Keyboard and Chair</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 31:15</div>
+			
+			
+              <div>Views: 2376 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lena-reinhard">Lena Reinhard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/maurice-de-beijer-event-sourcing-your-react-flux-applications-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LrkXWj9zxsU/hqdefault.jpg" alt="Event-Sourcing your React-Flux applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/maurice-de-beijer-event-sourcing-your-react-flux-applications-jsconf-budapest-2016">Event-Sourcing your React-Flux applications</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 26:25</div>
+			
+			
+              <div>Views: 1216 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maurice-de-beijer">Maurice De Beijer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/nick-hehr-the-other-side-of-empathy-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kTuAQen5iTA/hqdefault.jpg" alt="The Other Side of Empathy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/nick-hehr-the-other-side-of-empathy-jsconf-budapest-2016">The Other Side of Empathy</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 26:11</div>
+			
+			
+              <div>Views: 671 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-hehr">Nick Hehr</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/nicolas-bevacqua-high-performance-in-the-critical-rendering-path-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1iWSokC29vQ/hqdefault.jpg" alt="High Performance in the Critical Rendering Path" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/nicolas-bevacqua-high-performance-in-the-critical-rendering-path-jsconf-budapest-2016">High Performance in the Critical Rendering Path</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 27:12</div>
+			
+			
+              <div>Views: 1177 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicolas-bevacqua">Nicolás Bevacqua</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/oliver-joseph-ash-building-an-offline-page-for-theguardiancom-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hx1fqAXXViA/hqdefault.jpg" alt="Building an Offline Page for theguardian.com" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/oliver-joseph-ash-building-an-offline-page-for-theguardiancom-jsconf-budapest-2016">Building an Offline Page for theguardian.com</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 24:03</div>
+			
+			
+              <div>Views: 1103 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oliver-joseph-ash">Oliver Joseph Ash</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/princiya-sequeira-natural-user-interface-using-javascript-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GiQuSiZOGww/hqdefault.jpg" alt="Natural User Interface using JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/princiya-sequeira-natural-user-interface-using-javascript-jsconf-budapest-2016">Natural User Interface using JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 29:17</div>
+			
+			
+              <div>Views: 1652 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/princiya-sequeira">Princiya Sequeira</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/rachel-white-internet-of-cats-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PTgqSpclwvE/hqdefault.jpg" alt="Internet of Cats" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/rachel-white-internet-of-cats-jsconf-budapest-2016">Internet of Cats</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 23:41</div>
+			
+			
+              <div>Views: 714 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rachel-white">Rachel White</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/rob-kerr-science-in-the-browser-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mz4N3U5f2tg/hqdefault.jpg" alt="Science in the Browser" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/rob-kerr-science-in-the-browser-jsconf-budapest-2016">Science in the Browser</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 36:53</div>
+			
+			
+              <div>Views: 1297 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rob-kerr">Rob Kerr</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/safia-abdalla-the-hitchhikers-guide-to-all-things-memory-in-javascript-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AeUCN2lPqL8/hqdefault.jpg" alt="The Hitchhiker's Guide to All Things Memory in Javascript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/safia-abdalla-the-hitchhikers-guide-to-all-things-memory-in-javascript-jsconf-budapest-2016">The Hitchhiker's Guide to All Things Memory in Javascript</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 26:17</div>
+			
+			
+              <div>Views: 10087 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/safia-abdalla">Safia Abdalla</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/sam-bellen-changing-live-audio-with-the-web-audio-api-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BEdFcnI-ppk/hqdefault.jpg" alt="Changing live audio with the web-audio-api" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/sam-bellen-changing-live-audio-with-the-web-audio-api-jsconf-budapest-2016">Changing live audio with the web-audio-api</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 21:25</div>
+			
+			
+              <div>Views: 1980 Likes: 78</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sam-bellen">Sam Bellen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/stefan-baumgartner-http2-is-coming-unbundle-all-the-things-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/98z0XjYWX0o/hqdefault.jpg" alt="HTTP/2 is coming! Unbundle all the things?!?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/stefan-baumgartner-http2-is-coming-unbundle-all-the-things-jsconf-budapest-2016">HTTP/2 is coming! Unbundle all the things?!?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 24:59</div>
+			
+			
+              <div>Views: 2579 Likes: 46</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stefan-baumgartner">Stefan Baumgartner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/suz-hinton-the-formulartic-spectrum-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P8Cy2_ZHWI8/hqdefault.jpg" alt="The Formulartic Spectrum" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/suz-hinton-the-formulartic-spectrum-jsconf-budapest-2016">The Formulartic Spectrum</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 25:53</div>
+			
+			
+              <div>Views: 1365 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/suz-hinton">Suz Hinton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/tim-pietrusky-martin-schuhfuss-we-music-the-web-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KkV4alDBVhk/hqdefault.jpg" alt="We ❤ Music & the Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/tim-pietrusky-martin-schuhfuss-we-music-the-web-jsconf-budapest-2016">We ❤ Music & the Web</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 33:28</div>
+			
+			
+              <div>Views: 545 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-pietrusky">Tim Pietrusky</a>
+             
+                <a href="/p/martin-schuhfuss">Martin Schuhfuss</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-budapest-2016/yan-zhu-encrypt-the-web-for-0-jsconf-budapest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n9Fe68xgKUw/hqdefault.jpg" alt="Encrypt the Web For $0" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-budapest-2016/yan-zhu-encrypt-the-web-for-0-jsconf-budapest-2016">Encrypt the Web For $0</a></h4>
+          <footer>
+            <div class="recorded">2016-05-12</div>
+			
+			  <div>Length: 22:19</div>
+			
+			
+              <div>Views: 2457 Likes: 50</div>
+            
+            <div class="event">From <a href="/e/jsconf-budapest-2016">JSConf Budapest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yan-zhu">Yan Zhu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshE6PbF5GB4hvtU3A4HqMfxf">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

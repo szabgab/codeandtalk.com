@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>NodeConf EU 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>NodeConf EU 2015</h1>
+
+<div><a href="http://www.nearform.com/nodecrunch/nodeconf-eu-2015/">NodeConf EU 2015</a></div>
+
+
+<div>Start date: 2015-09-23</div>
+<div>End date: 2015-09-23</div>
+
+<div>Location:
+  Waterford
+  
+  <a href="/l/ireland">Ireland</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/nodejs">NodeJS</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/NodeConfEU">@NodeConfEU</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=NodeConf%20EU%202015%20on%202015-09-23%20in%20Waterford%2C%20%20Ireland%20%40NodeConfEU%20http%3A//www.nearform.com/nodecrunch/nodeconf-eu-2015/%20%23NodeJS%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/danese-cooper-open-source-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FF4gC_7JTH0/hqdefault.jpg" alt="Danese Cooper: "Open Source Talk"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/danese-cooper-open-source-talk">Danese Cooper: "Open Source Talk"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 26:26</div>
+			
+			
+              <div>Views: 18 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/emily-rose-cyborgs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Cj9U4I0-G7I/hqdefault.jpg" alt="Emily Rose: "Cyborgs"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/emily-rose-cyborgs">Emily Rose: "Cyborgs"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 19:58</div>
+			
+			
+              <div>Views: 8 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/hugh-rawlinson-node-musical-performance"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6dC-JqEvBiw/hqdefault.jpg" alt="Hugh Rawlinson: "Node & Musical Performance"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/hugh-rawlinson-node-musical-performance">Hugh Rawlinson: "Node & Musical Performance"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 20:54</div>
+			
+			
+              <div>Views: 12 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/istvan-szmozsanszky-living-tissue-over-a-rusty-endoskeleton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JeJ_q6l_79c/hqdefault.jpg" alt="Istvan Szmozsanszky:  "Living Tissue Over a Rusty Endoskeleton"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/istvan-szmozsanszky-living-tissue-over-a-rusty-endoskeleton">Istvan Szmozsanszky:  "Living Tissue Over a Rusty Endoskeleton"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 24:27</div>
+			
+			
+              <div>Views: 8 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/jeremiah-senkpiel-contributing-to-node-core"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kLsA5lgIRA4/hqdefault.jpg" alt="Jeremiah Senkpiel: "Contributing to Node Core"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/jeremiah-senkpiel-contributing-to-node-core">Jeremiah Senkpiel: "Contributing to Node Core"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 22:18</div>
+			
+			
+              <div>Views: 57 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/kassandra-perch-nodebots-community-and-lights"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FA10ladX3y0/hqdefault.jpg" alt="Kassandra Perch: "NodeBots, Community, and Lights"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/kassandra-perch-nodebots-community-and-lights">Kassandra Perch: "NodeBots, Community, and Lights"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 13:46</div>
+			
+			
+              <div>Views: 7 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/katie-stockton-roberts-migrating-from-legacy-platforms-to-node"><img class="list-thumbnail" src="https://i.ytimg.com/vi/g01whEwN8IU/hqdefault.jpg" alt="Katie Stockton Roberts: "Migrating from legacy platforms to node"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/katie-stockton-roberts-migrating-from-legacy-platforms-to-node">Katie Stockton Roberts: "Migrating from legacy platforms to node"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 19:12</div>
+			
+			
+              <div>Views: 46 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/luca-maraschi-the-magic-dump"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LVKqD8vtRA8/hqdefault.jpg" alt="Luca Maraschi: "The Magic Dump"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/luca-maraschi-the-magic-dump">Luca Maraschi: "The Magic Dump"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 24:39</div>
+			
+			
+              <div>Views: 6 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/matthew-podwysocki-putting-you-in-charge-of-your-data"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5tfygmF2sHs/hqdefault.jpg" alt="Matthew Podwysocki: "Putting You In Charge of Your Data"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/matthew-podwysocki-putting-you-in-charge-of-your-data">Matthew Podwysocki: "Putting You In Charge of Your Data"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 20:49</div>
+			
+			
+              <div>Views: 4 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/michael-dawson-node-on-guard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lHzHvEES3sQ/hqdefault.jpg" alt="Michael Dawson:  "Node on Guard!"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/michael-dawson-node-on-guard">Michael Dawson:  "Node on Guard!"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 14:53</div>
+			
+			
+              <div>Views: 8 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/micheal-ofoghlu-red-hats-mobile-application-platform"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UdJ-JT0Jcmw/hqdefault.jpg" alt="Micheal O'Foghlu: "Red Hat's Mobile Application Platform"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/micheal-ofoghlu-red-hats-mobile-application-platform">Micheal O'Foghlu: "Red Hat's Mobile Application Platform"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 17:44</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/mike-tunnicliffe-dig-deep-v8-profiling"><img class="list-thumbnail" src="https://i.ytimg.com/vi/s1IEJPKMKRI/hqdefault.jpg" alt="Mike Tunnicliffe: "Dig Deep V8 profiling"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/mike-tunnicliffe-dig-deep-v8-profiling">Mike Tunnicliffe: "Dig Deep V8 profiling"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 22:52</div>
+			
+			
+              <div>Views: 17 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/nodeconfeu-2015-panel-discussion"><img class="list-thumbnail" src="https://i.ytimg.com/vi/w_9T7IpkV3s/hqdefault.jpg" alt="NodeConfEU 2015 Panel Discussion" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/nodeconfeu-2015-panel-discussion">NodeConfEU 2015 Panel Discussion</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 42:17</div>
+			
+			
+              <div>Views: 7 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/richard-rodger-nodejs-and-digital-transformation-made-for-each-other"><img class="list-thumbnail" src="https://i.ytimg.com/vi/to3TbPuqwVA/hqdefault.jpg" alt="Richard Rodger: "Node.js and Digital Transformation made for each other"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/richard-rodger-nodejs-and-digital-transformation-made-for-each-other">Richard Rodger: "Node.js and Digital Transformation made for each other"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 24:44</div>
+			
+			
+              <div>Views: 99 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/stephan-bonnemann-dependency-hell-just-froze-over"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0dYI7gRr1yM/hqdefault.jpg" alt="Stephan Bonnemann: "Dependency Hell Just Froze Over"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/stephan-bonnemann-dependency-hell-just-froze-over">Stephan Bonnemann: "Dependency Hell Just Froze Over"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 16:19</div>
+			
+			
+              <div>Views: 7 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/suz-hinton-hacking-the-chipson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0PwOI3SgxDM/hqdefault.jpg" alt="Suz Hinton: "Hacking the Chipson"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/suz-hinton-hacking-the-chipson">Suz Hinton: "Hacking the Chipson"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 21:49</div>
+			
+			
+              <div>Views: 10 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/taron-foxworth-distributed-docker-volumes-fun"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IuOW5wBJifw/hqdefault.jpg" alt="Taron Foxworth: "Distributed Docker Volumes Fun"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/taron-foxworth-distributed-docker-volumes-fun">Taron Foxworth: "Distributed Docker Volumes Fun"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 15:58</div>
+			
+			
+              <div>Views: 13 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/thomas-watson-reverse-engineering-airplay"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oksum6qlmpo/hqdefault.jpg" alt="Thomas Watson: "Reverse Engineering Airplay"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/thomas-watson-reverse-engineering-airplay">Thomas Watson: "Reverse Engineering Airplay"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 21:18</div>
+			
+			
+              <div>Views: 13 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/travis-smith-a-journey-from-computing-in-science-to-science-in-computing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XPmhLv639go/hqdefault.jpg" alt="Travis Smith: "A Journey From Computing in Science to Science in Computing"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/travis-smith-a-journey-from-computing-in-science-to-science-in-computing">Travis Smith: "A Journey From Computing in Science to Science in Computing"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 09:38</div>
+			
+			
+              <div>Views: 8 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/trevor-norris-the-mad-science-of-node"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xRN8Vn9IK70/hqdefault.jpg" alt="Trevor Norris: "The Mad Science of Node"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/trevor-norris-the-mad-science-of-node">Trevor Norris: "The Mad Science of Node"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 23:56</div>
+			
+			
+              <div>Views: 9 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/yosuke-furukawa-hexagonal-sticker-as-a-service"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KKymGcL0PIk/hqdefault.jpg" alt="Yosuke Furukawa: "Hexagonal Sticker as a Service"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/yosuke-furukawa-hexagonal-sticker-as-a-service">Yosuke Furukawa: "Hexagonal Sticker as a Service"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 19:06</div>
+			
+			
+              <div>Views: 8 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2015/yunong-xiao-observable-nodejs-applications"><img class="list-thumbnail" src="https://i.ytimg.com/vi/17a05e61mHs/hqdefault.jpg" alt="Yunong Xiao: "Observable Node.js Applications"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2015/yunong-xiao-observable-nodejs-applications">Yunong Xiao: "Observable Node.js Applications"</a></h4>
+          <footer>
+            <div class="recorded">2015-09-23</div>
+			
+			  <div>Length: 22:29</div>
+			
+			
+              <div>Views: 13 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2015">NodeConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL0CdgOSSGlBYEbJlnGIDIiV9qfc6HaEgE">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

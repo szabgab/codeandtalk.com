@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>FSCONS 2014</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>FSCONS 2014</h1>
+
+<div><a href="https://fscons.org/2014/">FSCONS 2014</a></div>
+
+
+<div>Start date: 2014-10-31</div>
+<div>End date: 2014-11-02</div>
+
+<div>Location:
+  Göteborg
+  
+  <a href="/l/sweden">Sweden</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/fscons">@fscons</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=FSCONS%202014%20on%202014-10-31%20in%20G%C3%B6teborg%2C%20%20Sweden%20%40fscons%20https%3A//fscons.org/2014/%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/andreas-nilsson-cockpit-server-management-done-easy-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-fWkYJGJL1s/hqdefault.jpg" alt="Andreas Nilsson: Cockpit - server management done easy (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/andreas-nilsson-cockpit-server-management-done-easy-fscons-2014">Andreas Nilsson: Cockpit - server management done easy (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 44:50</div>
+			
+			
+              <div>Views: 5 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/christopher-brewster-invisible-infrastructure-and-visible-commons-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FPWoC7iB12Y/hqdefault.jpg" alt="Christopher Brewster: Invisible infrastructure and Visible Commons (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/christopher-brewster-invisible-infrastructure-and-visible-commons-fscons-2014">Christopher Brewster: Invisible infrastructure and Visible Commons (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 18:21</div>
+			
+			
+              <div>Views: 14 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/evren-uzer-public-meal-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TYtg_UNsT-I/hqdefault.jpg" alt="Evren Uzer: Public Meal (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/evren-uzer-public-meal-fscons-2014">Evren Uzer: Public Meal (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 36:26</div>
+			
+			
+              <div>Views: 11 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/george-dafermos-building-a-society-of-the-commons-in-ecuador-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dsmYcFI2NMQ/hqdefault.jpg" alt="George Dafermos: Building a Society of the Commons in Ecuador (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/george-dafermos-building-a-society-of-the-commons-in-ecuador-fscons-2014">George Dafermos: Building a Society of the Commons in Ecuador (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 43:07</div>
+			
+			
+              <div>Views: 16 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/hans-lysglimt-security-aspects-for-email-service-providers-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EdRXdxJ-7XQ/hqdefault.jpg" alt="Hans Lysglimt: Security aspects for email service providers (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/hans-lysglimt-security-aspects-for-email-service-providers-fscons-2014">Hans Lysglimt: Security aspects for email service providers (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 58:11</div>
+			
+			
+              <div>Views: 8 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/johan-soderberg-cinema-the-lucas-plan-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/K96IsD57cGE/hqdefault.jpg" alt="Johan Söderberg: Cinema: The Lucas Plan (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/johan-soderberg-cinema-the-lucas-plan-fscons-2014">Johan Söderberg: Cinema: The Lucas Plan (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 44:55</div>
+			
+			
+              <div>Views: 5 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/karl-fogel-invisible-monopolies-and-the-language-of-freedom-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IydOZwt9MhI/hqdefault.jpg" alt="Karl Fogel: Invisible Monopolies and the Language of Freedom (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/karl-fogel-invisible-monopolies-and-the-language-of-freedom-fscons-2014">Karl Fogel: Invisible Monopolies and the Language of Freedom (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 58:44</div>
+			
+			
+              <div>Views: 17 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/kevin-flanagan-cooperation-and-the-commons-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2ymnDnMoXFc/hqdefault.jpg" alt="Kevin Flanagan: Cooperation and the Commons (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/kevin-flanagan-cooperation-and-the-commons-fscons-2014">Kevin Flanagan: Cooperation and the Commons (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 58:51</div>
+			
+			
+              <div>Views: 26 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/lauri-vosandi-floss-in-estonia-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h1d4kDaAdBk/hqdefault.jpg" alt="Lauri Võsandi: FLOSS in Estonia (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/lauri-vosandi-floss-in-estonia-fscons-2014">Lauri Võsandi: FLOSS in Estonia (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 47:17</div>
+			
+			
+              <div>Views: 20 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/leigh-honeywell-models-we-use-to-change-the-world-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FOF7EF-zK-c/hqdefault.jpg" alt="Leigh Honeywell: Models We Use to Change the World (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/leigh-honeywell-models-we-use-to-change-the-world-fscons-2014">Leigh Honeywell: Models We Use to Change the World (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 46:27</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/lucile-falgueyrac-ttip-and-free-software-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lNoBX2YCDso/hqdefault.jpg" alt="Lucile Falgueyrac: TTIP and Free Software  (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/lucile-falgueyrac-ttip-and-free-software-fscons-2014">Lucile Falgueyrac: TTIP and Free Software  (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 45:19</div>
+			
+			
+              <div>Views: 18 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/maxigas-the-luddite-aspects-of-hackerdom-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FEP-dhiGKd0/hqdefault.jpg" alt="Maxigas: The Luddite Aspects of Hackerdom (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/maxigas-the-luddite-aspects-of-hackerdom-fscons-2014">Maxigas: The Luddite Aspects of Hackerdom (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 32:25</div>
+			
+			
+              <div>Views: 4 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/mikael-ogren-thomas-gramstad-open-source-code-for-traffic-noise-prediction-in-the-eu-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IR9rBl7xAnc/hqdefault.jpg" alt="Mikael Ögren, Thomas Gramstad: Open source code for traffic noise prediction in the EU (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/mikael-ogren-thomas-gramstad-open-source-code-for-traffic-noise-prediction-in-the-eu-fscons-2014">Mikael Ögren, Thomas Gramstad: Open source code for traffic noise prediction in the EU (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 41:17</div>
+			
+			
+              <div>Views: 13 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/ole-tange-snowden-phone-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AFQYfw44x3E/hqdefault.jpg" alt="Ole Tange: Snowden Phone (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/ole-tange-snowden-phone-fscons-2014">Ole Tange: Snowden Phone (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 49:44</div>
+			
+			
+              <div>Views: 9 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/oliver-propst-soumya-chakraborty-the-swedish-mozilla-community-one-year-later-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yvuhDgjRdy4/hqdefault.jpg" alt="Oliver Propst & Soumya Chakraborty: The Swedish Mozilla community one year later (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/oliver-propst-soumya-chakraborty-the-swedish-mozilla-community-one-year-later-fscons-2014">Oliver Propst & Soumya Chakraborty: The Swedish Mozilla community one year later (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 44:20</div>
+			
+			
+              <div>Views: 26 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/patrik-gustafsson-jekyll-blogging-like-a-programmer-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CaUoau1oV1s/hqdefault.jpg" alt="Patrik Gustafsson: Jekyll - Blogging like a programmer (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/patrik-gustafsson-jekyll-blogging-like-a-programmer-fscons-2014">Patrik Gustafsson: Jekyll - Blogging like a programmer (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 44:55</div>
+			
+			
+              <div>Views: 6 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/richard-johansson-learning-the-meaning-of-words-from-text-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uhnBmHNzG-c/hqdefault.jpg" alt="Richard Johansson: Learning the meaning of words from text (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/richard-johansson-learning-the-meaning-of-words-from-text-fscons-2014">Richard Johansson: Learning the meaning of words from text (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 49:14</div>
+			
+			
+              <div>Views: 13 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/rysiek-blurry-line-between-private-service-and-public-infrastructure-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ND3RviQU3eI/hqdefault.jpg" alt="rysiek: Blurry line between private service and public infrastructure (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/rysiek-blurry-line-between-private-service-and-public-infrastructure-fscons-2014">rysiek: Blurry line between private service and public infrastructure (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 51:35</div>
+			
+			
+              <div>Views: 5 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/sam-tuke-the-case-for-crowdfunding-free-software-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bXoSKRcr-84/hqdefault.jpg" alt="Sam Tuke: The case for crowdfunding Free Software (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/sam-tuke-the-case-for-crowdfunding-free-software-fscons-2014">Sam Tuke: The case for crowdfunding Free Software (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 47:39</div>
+			
+			
+              <div>Views: 17 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/saturday-lightning-talks-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dYaMvuAojT4/hqdefault.jpg" alt=": Saturday Lightning Talks (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/saturday-lightning-talks-fscons-2014">: Saturday Lightning Talks (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 59:51</div>
+			
+			
+              <div>Views: 2 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/soumya-chakraborty-ake-nygren-webmaking-connected-learning-libraries-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iAst16edMHM/hqdefault.jpg" alt="Soumya Chakraborty & Åke Nygren: Webmaking, Connected Learning & Libraries (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/soumya-chakraborty-ake-nygren-webmaking-connected-learning-libraries-fscons-2014">Soumya Chakraborty & Åke Nygren: Webmaking, Connected Learning & Libraries (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 46:19</div>
+			
+			
+              <div>Views: 27 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/stefan-larsson-sympathy-for-data-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mht37GXyc_A/hqdefault.jpg" alt="Stefan Larsson: Sympathy for Data (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/stefan-larsson-sympathy-for-data-fscons-2014">Stefan Larsson: Sympathy for Data (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 46:23</div>
+			
+			
+              <div>Views: 124 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/tobias-mueller-whats-cooking-in-gnome-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/w2LOPoVXxjI/hqdefault.jpg" alt="Tobias Mueller: What's cooking in GNOME (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/tobias-mueller-whats-cooking-in-gnome-fscons-2014">Tobias Mueller: What's cooking in GNOME (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 45:40</div>
+			
+			
+              <div>Views: 11 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2014/zeeshan-ali-vala-whats-that-fscons-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IMZzsqWnmnA/hqdefault.jpg" alt="Zeeshan Ali: Vala? What's that? (FSCONS 2014)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2014/zeeshan-ali-vala-whats-that-fscons-2014">Zeeshan Ali: Vala? What's that? (FSCONS 2014)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-31</div>
+			
+			  <div>Length: 45:28</div>
+			
+			
+              <div>Views: 16 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fscons-2014">FSCONS 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL4yYmsifqkVFtqw-NNX_0Tr-d5RYI3qrc">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

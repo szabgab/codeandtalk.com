@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Full Frontal - ffconf 2014</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Full Frontal - ffconf 2014</h1>
+
+<div><a href="https://2014.ffconf.org/">Full Frontal - ffconf 2014</a></div>
+
+
+<div>Start date: 2014-11-07</div>
+<div>End date: 2014-11-07</div>
+
+<div>Location:
+  Brighton
+  England
+  <a href="/l/uk">UK</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/ffconf">@ffconf</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Full%20Frontal%20-%20ffconf%202014%20on%202014-11-07%20in%20Brighton%2C%20England%20UK%20%40ffconf%20https%3A//2014.ffconf.org/%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2014/1-building-the-physical-web-together-scott-jenson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JBIg3eZ0e6A/hqdefault.jpg" alt="Building the Physical Web together" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2014/1-building-the-physical-web-together-scott-jenson">Building the Physical Web together</a></h4>
+          <footer>
+            <div class="recorded">2014-11-07</div>
+			
+			  <div>Length: 32:43</div>
+			
+			
+              <div>Views: 6047 Likes: 76</div>
+            
+            <div class="event">From <a href="/e/ffconf-2014">Full Frontal - ffconf 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/scott-jenson">Scott Jenson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2014/2-moving-seamlessly-through-offline-and-online-caolan-mcmahon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-x3Q61dBAwk/hqdefault.jpg" alt="Moving seamlessly through offline and online" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2014/2-moving-seamlessly-through-offline-and-online-caolan-mcmahon">Moving seamlessly through offline and online</a></h4>
+          <footer>
+            <div class="recorded">2014-11-07</div>
+			
+			  <div>Length: 37:45</div>
+			
+			
+              <div>Views: 888 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/ffconf-2014">Full Frontal - ffconf 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/caolan-mcmahon">Caolan McMahon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2014/3-navigating-open-source-hannah-wolfe"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o3HBe8WhzvE/hqdefault.jpg" alt="Navigating Open Source" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2014/3-navigating-open-source-hannah-wolfe">Navigating Open Source</a></h4>
+          <footer>
+            <div class="recorded">2014-11-07</div>
+			
+			  <div>Length: 39:34</div>
+			
+			
+              <div>Views: 583 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/ffconf-2014">Full Frontal - ffconf 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hannah-wolfe">Hannah Wolfe</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2014/4-self-hosted-js-andy-wingo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YFFvNQWf3Iw/hqdefault.jpg" alt="Self-hosted JS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2014/4-self-hosted-js-andy-wingo">Self-hosted JS</a></h4>
+          <footer>
+            <div class="recorded">2014-11-07</div>
+			
+			  <div>Length: 35:59</div>
+			
+			
+              <div>Views: 4859 Likes: 39</div>
+            
+            <div class="event">From <a href="/e/ffconf-2014">Full Frontal - ffconf 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andy-wingo">Andy Wingo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2014/5-lean-mean-css-machine-tobias-ahlin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0uhlFCQkml4/hqdefault.jpg" alt="Lean Mean CSS Machine" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2014/5-lean-mean-css-machine-tobias-ahlin">Lean Mean CSS Machine</a></h4>
+          <footer>
+            <div class="recorded">2014-11-07</div>
+			
+			  <div>Length: 26:27</div>
+			
+			
+              <div>Views: 679 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/ffconf-2014">Full Frontal - ffconf 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tobias-ahlin">Tobias Ahlin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2014/6-a-single-page-story-henrik-joreteg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hrAssE8meRo/hqdefault.jpg" alt="A Single Page Story" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2014/6-a-single-page-story-henrik-joreteg">A Single Page Story</a></h4>
+          <footer>
+            <div class="recorded">2014-11-07</div>
+			
+			  <div>Length: 36:52</div>
+			
+			
+              <div>Views: 4518 Likes: 74</div>
+            
+            <div class="event">From <a href="/e/ffconf-2014">Full Frontal - ffconf 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/henrik-joreteg">Henrik Joreteg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2014/7-tools-for-the-21st-century-musician-soledad-penades"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F0Iwvp_wtHE/hqdefault.jpg" alt="Tools for the 21st century musician" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2014/7-tools-for-the-21st-century-musician-soledad-penades">Tools for the 21st century musician</a></h4>
+          <footer>
+            <div class="recorded">2014-11-07</div>
+			
+			  <div>Length: 33:40</div>
+			
+			
+              <div>Views: 602 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/ffconf-2014">Full Frontal - ffconf 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/soledad-penades">Soledad Penadés</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2014/8-getting-close-with-the-web-ben-foxall"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NdeJYeFvHnM/hqdefault.jpg" alt="Getting Close with the Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2014/8-getting-close-with-the-web-ben-foxall">Getting Close with the Web</a></h4>
+          <footer>
+            <div class="recorded">2014-11-07</div>
+			
+			  <div>Length: 37:18</div>
+			
+			
+              <div>Views: 707 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/ffconf-2014">Full Frontal - ffconf 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-foxall">Ben Foxall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLXmT1r4krsTqrwW2jjXIXuCtFQ-5BIn-s">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

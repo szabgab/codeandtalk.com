@@ -1,0 +1,3301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Devoxx France 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Devoxx France 2015</h1>
+
+<div><a href="https://www.devoxx.fr/2015/index.html">Devoxx France 2015</a></div>
+
+
+<div>Start date: 2015-04-08</div>
+<div>End date: 2015-04-10</div>
+
+<div>Location:
+  Paris
+  
+  <a href="/l/france">France</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: French, English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/DevoxxFR">@DevoxxFR</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Devoxx%20France%202015%20on%202015-04-08%20in%20Paris%2C%20%20France%20%40DevoxxFR%20https%3A//www.devoxx.fr/2015/index.html%20%23JavaScript%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/10-trucs-que-jai-appris-en-lisant-le-code-source-de-chrome-os"><img class="list-thumbnail" src="https://i.ytimg.com/vi/luz93qMWhRs/hqdefault.jpg" alt="10 trucs que j'ai appris en lisant le code source de Chrome OS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/10-trucs-que-jai-appris-en-lisant-le-code-source-de-chrome-os">10 trucs que j'ai appris en lisant le code source de Chrome OS</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 19:03</div>
+			
+			
+              <div>Views: 171 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/15-minutes-to-setup-and-try-apache-spark-using-the-spark-notebook-and-docker"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZoVycBP573A/hqdefault.jpg" alt="15' minutes to setup and try Apache Spark using the Spark Notebook and Docker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/15-minutes-to-setup-and-try-apache-spark-using-the-spark-notebook-and-docker">15' minutes to setup and try Apache Spark using the Spark Notebook and Docker</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 39:51</div>
+			
+			
+              <div>Views: 365 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/5-reasons-why-its-time-developers-pay-attention-to-robotics"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WmngV5P0qUM/hqdefault.jpg" alt="5 reasons why it's time developers pay attention to robotics" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/5-reasons-why-its-time-developers-pay-attention-to-robotics">5 reasons why it's time developers pay attention to robotics</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 19:14</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/a-gentle-introduction-to-reactive-extensions"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fLZqgc4pI4s/hqdefault.jpg" alt="A Gentle Introduction to Reactive Extensions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/a-gentle-introduction-to-reactive-extensions">A Gentle Introduction to Reactive Extensions</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 45:49</div>
+			
+			
+              <div>Views: 402 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/algorithmes-distribues-pour-le-big-data"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wZWCy0Uxw_4/hqdefault.jpg" alt="Algorithmes distribués pour le Big Data" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/algorithmes-distribues-pour-le-big-data">Algorithmes distribués pour le Big Data</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 45:47</div>
+			
+			
+              <div>Views: 332 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/allons-plus-loin-avec-cdi-12"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DdKcJYTirQU/hqdefault.jpg" alt="Allons plus loin avec CDI 1.2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/allons-plus-loin-avec-cdi-12">Allons plus loin avec CDI 1.2</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 03:01:40</div>
+			
+			
+              <div>Views: 114 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/anatomie-de-linfrastructure-de-prediction-criteo-machine-learning-log-management-hadoop"><img class="list-thumbnail" src="https://i.ytimg.com/vi/p_KdvFPQsQI/hqdefault.jpg" alt="Anatomie de l'infrastructure de prédiction @Criteo: machine learning, log management, Hadoop." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/anatomie-de-linfrastructure-de-prediction-criteo-machine-learning-log-management-hadoop">Anatomie de l'infrastructure de prédiction @Criteo: machine learning, log management, Hadoop.</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:41</div>
+			
+			
+              <div>Views: 248 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/api-asynchrones-en-java-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1TJ_Wsm4E40/hqdefault.jpg" alt="API Asynchrones en Java 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/api-asynchrones-en-java-8">API Asynchrones en Java 8</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:11</div>
+			
+			
+              <div>Views: 206 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/api-hypermedia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Jw2GZCzsHiY/hqdefault.jpg" alt="API hypermedia" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/api-hypermedia">API hypermedia</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:38</div>
+			
+			
+              <div>Views: 94 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/app-engine-managed-vms-et-fluent-http-un-mariage-heureux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fBXJ1lxB2-M/hqdefault.jpg" alt="App Engine Managed VMs et Fluent-http, un mariage heureux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/app-engine-managed-vms-et-fluent-http-un-mariage-heureux">App Engine Managed VMs et Fluent-http, un mariage heureux</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 30:59</div>
+			
+			
+              <div>Views: 31 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/applications-concurrentes-polyglottes-avec-vertx"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1lCfVm82eRg/hqdefault.jpg" alt="Applications Concurrentes Polyglottes avec Vert.x" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/applications-concurrentes-polyglottes-avec-vertx">Applications Concurrentes Polyglottes avec Vert.x</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 57:03</div>
+			
+			
+              <div>Views: 51 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/ask-the-architect-questions-and-answers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jDU-JALUDd0/hqdefault.jpg" alt="Ask the Architect Questions and Answers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/ask-the-architect-questions-and-answers">Ask the Architect Questions and Answers</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:59</div>
+			
+			
+              <div>Views: 399 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/avro-la-souplesse-du-json-les-performances-du-binaire"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KXV1srHQlOM/hqdefault.jpg" alt="Avro: la souplesse du JSON, les performances du binaire" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/avro-la-souplesse-du-json-les-performances-du-binaire">Avro: la souplesse du JSON, les performances du binaire</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 18:20</div>
+			
+			
+              <div>Views: 70 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/barbus-et-barbares"><img class="list-thumbnail" src="https://i.ytimg.com/vi/axpjklk-5HE/hqdefault.jpg" alt="Barbus et Barbares" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/barbus-et-barbares">Barbus et Barbares</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:12</div>
+			
+			
+              <div>Views: 71 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/bluemix-lavenir-du-developpement-dans-le-cloud"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P9lzS3skRsA/hqdefault.jpg" alt="Bluemix: l'avenir du développement dans le Cloud" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/bluemix-lavenir-du-developpement-dans-le-cloud">Bluemix: l'avenir du développement dans le Cloud</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:19</div>
+			
+			
+              <div>Views: 62 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/building-fault-tolerant-microservices"><img class="list-thumbnail" src="https://i.ytimg.com/vi/na4JnimL6bw/hqdefault.jpg" alt="Building fault tolerant microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/building-fault-tolerant-microservices">Building fault tolerant microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:13</div>
+			
+			
+              <div>Views: 32 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/caching-reboot-javaxcache-ehcache-3"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cnj7b98KeRU/hqdefault.jpg" alt="Caching reboot: javax.cache & Ehcache 3" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/caching-reboot-javaxcache-ehcache-3">Caching reboot: javax.cache & Ehcache 3</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:37</div>
+			
+			
+              <div>Views: 140 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/ceylon-idioms"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4Q5mPHIspFU/hqdefault.jpg" alt="Ceylon Idioms" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/ceylon-idioms">Ceylon Idioms</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:35</div>
+			
+			
+              <div>Views: 41 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/changing-the-wheel-of-a-moving-car-faire-evoluer-linfra-sans-interruption"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gEGoD6uYBAs/hqdefault.jpg" alt="Changing the wheel of a moving car - faire évoluer l'infra sans interruption" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/changing-the-wheel-of-a-moving-car-faire-evoluer-linfra-sans-interruption">Changing the wheel of a moving car - faire évoluer l'infra sans interruption</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 47:58</div>
+			
+			
+              <div>Views: 50 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/coder-sans-peur-du-changement-avec-la-meme-pas-mal-architecture-hexagonale"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wZ7cxcU4iPE/hqdefault.jpg" alt="Coder sans peur du changement, avec la "même pas mal !" architecture hexagonale" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/coder-sans-peur-du-changement-avec-la-meme-pas-mal-architecture-hexagonale">Coder sans peur du changement, avec la "même pas mal !" architecture hexagonale</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 03:01:05</div>
+			
+			
+              <div>Views: 1373 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/comment-akka-persistence-fera-de-vous-un-meilleur-developpeur"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AtqVPHV2RYc/hqdefault.jpg" alt="Comment "Akka persistence" fera de vous un meilleur développeur !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/comment-akka-persistence-fera-de-vous-un-meilleur-developpeur">Comment "Akka persistence" fera de vous un meilleur développeur !</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 35:44</div>
+			
+			
+              <div>Views: 91 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/comment-creer-un-web-component-en-moins-de-30-minutes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BWseWGgYJ7s/hqdefault.jpg" alt="Comment créer un Web Component en moins de 30 minutes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/comment-creer-un-web-component-en-moins-de-30-minutes">Comment créer un Web Component en moins de 30 minutes</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 30:41</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/comment-git-a-sauve-notre-projet-ou-presque"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WVZKzFnfii4/hqdefault.jpg" alt="Comment git a sauvé notre projet (ou presque)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/comment-git-a-sauve-notre-projet-ou-presque">Comment git a sauvé notre projet (ou presque)</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 14:52</div>
+			
+			
+              <div>Views: 135 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/comment-manager-des-geeks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oTv5wYJzoRI/hqdefault.jpg" alt="Comment manager des Geeks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/comment-manager-des-geeks">Comment manager des Geeks</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:37</div>
+			
+			
+              <div>Views: 253 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/comment-rater-ses-benchmarks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-n8QQEhVJsw/hqdefault.jpg" alt="Comment rater ses benchmarks ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/comment-rater-ses-benchmarks">Comment rater ses benchmarks ?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 46:58</div>
+			
+			
+              <div>Views: 58 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/comprendre-enfin-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PSeU1IJztkI/hqdefault.jpg" alt="Comprendre enfin JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/comprendre-enfin-javascript">Comprendre enfin JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 03:02:30</div>
+			
+			
+              <div>Views: 4917 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/concurrency-in-enterprise-java"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oRKGoArrhTA/hqdefault.jpg" alt="Concurrency in Enterprise Java" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/concurrency-in-enterprise-java">Concurrency in Enterprise Java</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 48:57</div>
+			
+			
+              <div>Views: 253 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/construire-des-applications-big-data-avec-docker-et-mesos"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CwXMJtqDwW8/hqdefault.jpg" alt="Construire des applications Big Data avec Docker et Mesos." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/construire-des-applications-big-data-avec-docker-et-mesos">Construire des applications Big Data avec Docker et Mesos.</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 38:35</div>
+			
+			
+              <div>Views: 131 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/creer-des-applications-cognitives-avec-ibm-watson-engagement-explorer-et-bluemix"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DbbvmLaIvRU/hqdefault.jpg" alt="Créer des applications cognitives avec IBM Watson Engagement Explorer et Bluemix" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/creer-des-applications-cognitives-avec-ibm-watson-engagement-explorer-et-bluemix">Créer des applications cognitives avec IBM Watson Engagement Explorer et Bluemix</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 45:01</div>
+			
+			
+              <div>Views: 147 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/creer-des-scenes-3d-dans-un-navigateur-web-avec-threejs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/763XrkxwNuw/hqdefault.jpg" alt="Créer des scènes 3D dans un navigateur web avec Three.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/creer-des-scenes-3d-dans-un-navigateur-web-avec-threejs">Créer des scènes 3D dans un navigateur web avec Three.js</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 29:05</div>
+			
+			
+              <div>Views: 182 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/css-pour-les-nuls"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Yyns0uD3Qu4/hqdefault.jpg" alt="CSS pour les nuls" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/css-pour-les-nuls">CSS pour les nuls</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 18:09</div>
+			
+			
+              <div>Views: 415 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/dans-20-ans-des-robots-humanoides-pour-tout-le-monde"><img class="list-thumbnail" src="https://i.ytimg.com/vi/snXIgli1LQM/hqdefault.jpg" alt="Dans 20 ans des robots humanoïdes pour tout le monde" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/dans-20-ans-des-robots-humanoides-pour-tout-le-monde">Dans 20 ans des robots humanoïdes pour tout le monde</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 26:50</div>
+			
+			
+              <div>Views: 116 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/datomic-la-base-de-donnees-qui-noublie-rien"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G6ZmjITAkt4/hqdefault.jpg" alt="Datomic, la base de données qui n'oublie rien" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/datomic-la-base-de-donnees-qui-noublie-rien">Datomic, la base de données qui n'oublie rien</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:32</div>
+			
+			
+              <div>Views: 36 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/de-la-cryptographie-dans-le-navigateur-avec-webcrypto-api"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yO0i5H8O_hc/hqdefault.jpg" alt="De la cryptographie dans le navigateur avec WebCrypto API" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/de-la-cryptographie-dans-le-navigateur-avec-webcrypto-api">De la cryptographie dans le navigateur avec WebCrypto API</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 45:09</div>
+			
+			
+              <div>Views: 66 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/de-lapi-au-protocole"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YTkhmFsuLxA/hqdefault.jpg" alt="De l'API au protocole" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/de-lapi-au-protocole">De l'API au protocole</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 48:20</div>
+			
+			
+              <div>Views: 55 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/de-zero-a-heros-avec-spring-boot"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P55DGb258gY/hqdefault.jpg" alt="De zéro à héros avec Spring Boot" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/de-zero-a-heros-avec-spring-boot">De zéro à héros avec Spring Boot</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 03:01:54</div>
+			
+			
+              <div>Views: 1271 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/deboguage-de-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UNURXC9pqKY/hqdefault.jpg" alt="Déboguage de JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/deboguage-de-javascript">Déboguage de JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 30:10</div>
+			
+			
+              <div>Views: 1840 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/des-objets-connectes-cest-bien-utiles-cest-mieux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1YTccFRu-KA/hqdefault.jpg" alt="Des objets connectés c'est bien, utiles c'est mieux !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/des-objets-connectes-cest-bien-utiles-cest-mieux">Des objets connectés c'est bien, utiles c'est mieux !</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 40:47</div>
+			
+			
+              <div>Views: 79 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/des-tablettes-decriture-aux-tablettes-pour-ecrire"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9bhqLaXnj8I/hqdefault.jpg" alt="Des tablettes d'écriture aux tablettes pour écrire" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/des-tablettes-decriture-aux-tablettes-pour-ecrire">Des tablettes d'écriture aux tablettes pour écrire</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:39</div>
+			
+			
+              <div>Views: 116 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/developpement-web-ce-qui-vous-attend-en-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/irY1_wuqySs/hqdefault.jpg" alt="Développement web : ce qui vous attend en 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/developpement-web-ce-qui-vous-attend-en-2015">Développement web : ce qui vous attend en 2015</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 44:47</div>
+			
+			
+              <div>Views: 67 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/developper-des-applications-multiplateformes-facilement-a-laide-de-ionic-framework"><img class="list-thumbnail" src="https://i.ytimg.com/vi/doYuxU4IqfI/hqdefault.jpg" alt="Développer des applications multiplateformes facilement à l'aide de Ionic Framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/developper-des-applications-multiplateformes-facilement-a-laide-de-ionic-framework">Développer des applications multiplateformes facilement à l'aide de Ionic Framework</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 31:30</div>
+			
+			
+              <div>Views: 619 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/developpeur-sous-influence"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GWNsTPlq3XU/hqdefault.jpg" alt="Développeur sous influence" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/developpeur-sous-influence">Développeur sous influence</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 48:52</div>
+			
+			
+              <div>Views: 85 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/devops-my-code"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hz3oe9bnBNs/hqdefault.jpg" alt="Devops my code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/devops-my-code">Devops my code</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 44:55</div>
+			
+			
+              <div>Views: 92 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/devops-with-java-ee"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hup3bqX5Nt4/hqdefault.jpg" alt="DevOps with Java EE" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/devops-with-java-ee">DevOps with Java EE</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 47:32</div>
+			
+			
+              <div>Views: 496 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/du-100-pur-guice"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nd9dLGtVW0o/hqdefault.jpg" alt="Du 100% pur Guice !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/du-100-pur-guice">Du 100% pur Guice !</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 15:04</div>
+			
+			
+              <div>Views: 161 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/eclipse-is-much-more-than-just-an-ide"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BrMfpZ4kI3c/hqdefault.jpg" alt="Eclipse is much more than just an IDE!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/eclipse-is-much-more-than-just-an-ide">Eclipse is much more than just an IDE!</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 25:59</div>
+			
+			
+              <div>Views: 88 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/elasticsearch-de-limportance-du-mapping"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gPgz2FRe9nY/hqdefault.jpg" alt="Elasticsearch - De l'importance du mapping" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/elasticsearch-de-limportance-du-mapping">Elasticsearch - De l'importance du mapping</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 30:23</div>
+			
+			
+              <div>Views: 644 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/elles-ressemblent-a-quoi-mes-donnees"><img class="list-thumbnail" src="https://i.ytimg.com/vi/e88Q0TRWqjQ/hqdefault.jpg" alt="Elles ressemblent à quoi mes données ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/elles-ressemblent-a-quoi-mes-donnees">Elles ressemblent à quoi mes données ?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 31:55</div>
+			
+			
+              <div>Views: 144 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/faites-votre-guignol-le-bazar-des-modules-puppet"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cnYNyDZYLvY/hqdefault.jpg" alt="Faites votre Guignol : le bazar des modules Puppet" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/faites-votre-guignol-le-bazar-des-modules-puppet">Faites votre Guignol : le bazar des modules Puppet</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 16:46</div>
+			
+			
+              <div>Views: 25 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/finally-security-api-jsr-375"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2Wtc-Y_3eeg/hqdefault.jpg" alt="Finally, Security API JSR 375" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/finally-security-api-jsr-375">Finally, Security API JSR 375</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:45</div>
+			
+			
+              <div>Views: 32 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/flux-larchitecture-de-facebook"><img class="list-thumbnail" src="https://i.ytimg.com/vi/l9RC1M_pVGw/hqdefault.jpg" alt="Flux, l'architecture de Facebook" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/flux-larchitecture-de-facebook">Flux, l'architecture de Facebook</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 19:41</div>
+			
+			
+              <div>Views: 67 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/gitflow-in-action"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HhnQ5W1JFzk/hqdefault.jpg" alt="Gitflow in action" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/gitflow-in-action">Gitflow in action</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 34:15</div>
+			
+			
+              <div>Views: 364 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/groovy-avec-le-style"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jgv0R-t5QTI/hqdefault.jpg" alt="Groovy avec le style !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/groovy-avec-le-style">Groovy avec le style !</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:25</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/groovy-et-son-process-de-release-nous-lavons-rendu-grooooooovy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BUhjoibUOpI/hqdefault.jpg" alt="Groovy et son process de release: nous l’avons rendu « grooooooovy » !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/groovy-et-son-process-de-release-nous-lavons-rendu-grooooooovy">Groovy et son process de release: nous l’avons rendu « grooooooovy » !</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 49:54</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/haproxy-level-2-des-bases-aux-problematiques-de-scaling"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-cSmCNh8X4I/hqdefault.jpg" alt="HAProxy level 2 : des bases aux problématiques de scaling" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/haproxy-level-2-des-bases-aux-problematiques-de-scaling">HAProxy level 2 : des bases aux problématiques de scaling</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 29:57</div>
+			
+			
+              <div>Views: 132 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/hashons-peu-mais-hashons-bien"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ffvy2b8lcHA/hqdefault.jpg" alt="Hashons peu mais hashons bien" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/hashons-peu-mais-hashons-bien">Hashons peu mais hashons bien</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:10</div>
+			
+			
+              <div>Views: 223 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/holo-to-material-design-transition"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0w5oTxHdotA/hqdefault.jpg" alt="Holo to Material Design Transition" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/holo-to-material-design-transition">Holo to Material Design Transition</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:19</div>
+			
+			
+              <div>Views: 141 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/http2-a-deux-cest-mieux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/y2YLYToDSqE/hqdefault.jpg" alt="http/2: A deux c'est mieux!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/http2-a-deux-cest-mieux">http/2: A deux c'est mieux!</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 42:24</div>
+			
+			
+              <div>Views: 82 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/i-dont-always-write-reactive-applications-but-when-i-do-it-runs-on-raspberry-pi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RS9CA7sHTss/hqdefault.jpg" alt="I don't always write Reactive applications, but when I do, it runs on Raspberry Pi" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/i-dont-always-write-reactive-applications-but-when-i-do-it-runs-on-raspberry-pi">I don't always write Reactive applications, but when I do, it runs on Raspberry Pi</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:57</div>
+			
+			
+              <div>Views: 78 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/infinite-infinispan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fFXlRao1qEU/hqdefault.jpg" alt="Infinite Infinispan" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/infinite-infinispan">Infinite Infinispan</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:46</div>
+			
+			
+              <div>Views: 255 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/influxdb-la-base-de-donnees-chronologique-opensource-autonome"><img class="list-thumbnail" src="https://i.ytimg.com/vi/C9OV-yTvqwk/hqdefault.jpg" alt="InfluxDB : la base de données chronologique OpenSource autonome" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/influxdb-la-base-de-donnees-chronologique-opensource-autonome">InfluxDB : la base de données chronologique OpenSource autonome</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 36:13</div>
+			
+			
+              <div>Views: 203 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/integrer-et-exploiter-le-format-de-donnees-ouvert-gtfs-fails-et-succes-ce-qui-marche-et-ce-qui-ne"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lOcNye47S3Y/hqdefault.jpg" alt="Intégrer et exploiter le format de données ouvert GTFS. Fails et succès, ce qui marche et ce qui ne" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/integrer-et-exploiter-le-format-de-donnees-ouvert-gtfs-fails-et-succes-ce-qui-marche-et-ce-qui-ne">Intégrer et exploiter le format de données ouvert GTFS. Fails et succès, ce qui marche et ce qui ne</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 20:50</div>
+			
+			
+              <div>Views: 51 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/interview-devoxxfr-2015-avec-jean-francois-garreau-chrome-devtools-webrtc"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4_7W7_b7oLg/hqdefault.jpg" alt="Interview DevoxxFR 2015 avec Jean-François Garreau - Chrome DevTools & WebRTC" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/interview-devoxxfr-2015-avec-jean-francois-garreau-chrome-devtools-webrtc">Interview DevoxxFR 2015 avec Jean-François Garreau - Chrome DevTools & WebRTC</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 06:55</div>
+			
+			
+              <div>Views: 62 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/interview-devoxxfr-2015-avec-sami-jaber-le-futur-de-gwt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ei-6YNUsO2Q/hqdefault.jpg" alt="Interview DevoxxFR 2015 avec Sami Jaber - Le futur de GWT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/interview-devoxxfr-2015-avec-sami-jaber-le-futur-de-gwt">Interview DevoxxFR 2015 avec Sami Jaber - Le futur de GWT</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 06:50</div>
+			
+			
+              <div>Views: 184 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/interview-devoxxfr-2015-eyal-lezmy-sur-les-plugins-gradle"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XERdkcgHZgw/hqdefault.jpg" alt="Interview DevoxxFR 2015 - Eyal Lezmy sur les plugins Gradle" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/interview-devoxxfr-2015-eyal-lezmy-sur-les-plugins-gradle">Interview DevoxxFR 2015 - Eyal Lezmy sur les plugins Gradle</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 08:23</div>
+			
+			
+              <div>Views: 24 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/interview-devoxxfr-2015-francesc-campoy-sur-go"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EW1bUOoBWTc/hqdefault.jpg" alt="Interview DevoxxFR 2015 - Francesc Campoy sur Go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/interview-devoxxfr-2015-francesc-campoy-sur-go">Interview DevoxxFR 2015 - Francesc Campoy sur Go</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 09:37</div>
+			
+			
+              <div>Views: 92 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/interview-devoxxfr-2015-google-cloud-platform-avec-david-gageot-et-ludovic-champenois"><img class="list-thumbnail" src="https://i.ytimg.com/vi/54ua_5LAkH4/hqdefault.jpg" alt="Interview DevoxxFR 2015 - Google Cloud Platform avec David Gageot et Ludovic Champenois" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/interview-devoxxfr-2015-google-cloud-platform-avec-david-gageot-et-ludovic-champenois">Interview DevoxxFR 2015 - Google Cloud Platform avec David Gageot et Ludovic Champenois</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 14:31</div>
+			
+			
+              <div>Views: 33 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/interview-devoxxfr-2015-thierry-chatel-sur-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gs_HtVIVdqY/hqdefault.jpg" alt="Interview DevoxxFR 2015 - Thierry Chatel sur JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/interview-devoxxfr-2015-thierry-chatel-sur-javascript">Interview DevoxxFR 2015 - Thierry Chatel sur JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 09:05</div>
+			
+			
+              <div>Views: 93 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/iot-java-and-autonomous-drones"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IwjchV4O698/hqdefault.jpg" alt="IoT, Java, and Autonomous Drones" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/iot-java-and-autonomous-drones">IoT, Java, and Autonomous Drones</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 46:19</div>
+			
+			
+              <div>Views: 140 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/java-8-in-anger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ehwjiw871uc/hqdefault.jpg" alt="Java 8 in Anger" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/java-8-in-anger">Java 8 in Anger</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:31</div>
+			
+			
+              <div>Views: 98 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/java-ee-7-batch-processing-in-the-real-world"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qAActqw73wE/hqdefault.jpg" alt="Java EE 7 Batch Processing in the Real World" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/java-ee-7-batch-processing-in-the-real-world">Java EE 7 Batch Processing in the Real World</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 53:02</div>
+			
+			
+              <div>Views: 354 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/java-ee-8-a-snapshot-overview"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YUT60OFSjiI/hqdefault.jpg" alt="Java EE 8, a snapshot overview" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/java-ee-8-a-snapshot-overview">Java EE 8, a snapshot overview</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:30</div>
+			
+			
+              <div>Views: 62 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/java-mission-control-for-earthlings"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n65XC0eceSM/hqdefault.jpg" alt="Java Mission Control for Earthlings" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/java-mission-control-for-earthlings">Java Mission Control for Earthlings</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 39:45</div>
+			
+			
+              <div>Views: 378 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/java-the-next-20-years"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GShJ2P6kSAs/hqdefault.jpg" alt="Java: The Next 20 Years" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/java-the-next-20-years">Java: The Next 20 Years</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 22:56</div>
+			
+			
+              <div>Views: 88 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/jdbc-jpa-hibernate-sans-maitrise-la-puissance-nest-rien"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RW-csngOCUs/hqdefault.jpg" alt="JDBC / JPA / Hibernate: Sans maîtrise la puissance n'est rien" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/jdbc-jpa-hibernate-sans-maitrise-la-puissance-nest-rien">JDBC / JPA / Hibernate: Sans maîtrise la puissance n'est rien</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 49:58</div>
+			
+			
+              <div>Views: 295 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/je-deploie-dans-mon-datacenter-virtuel-avec-openstack"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XmVLTzqZ9Ns/hqdefault.jpg" alt="Je déploie dans mon datacenter virtuel avec OpenStack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/je-deploie-dans-mon-datacenter-virtuel-avec-openstack">Je déploie dans mon datacenter virtuel avec OpenStack</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 49:05</div>
+			
+			
+              <div>Views: 887 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/jeu-de-role-en-ligne-massivement-multijoueur-avec-firebase"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KMXVFkcRJWg/hqdefault.jpg" alt="Jeu de rôle en ligne massivement multijoueur avec Firebase" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/jeu-de-role-en-ligne-massivement-multijoueur-avec-firebase">Jeu de rôle en ligne massivement multijoueur avec Firebase</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 32:46</div>
+			
+			
+              <div>Views: 355 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/jhipster-le-generateur-dapplications-spring-boot-angularjs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KE2mu5nZIIY/hqdefault.jpg" alt="JHipster, le générateur d'applications Spring Boot + AngularJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/jhipster-le-generateur-dapplications-spring-boot-angularjs">JHipster, le générateur d'applications Spring Boot + AngularJS</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:03</div>
+			
+			
+              <div>Views: 2152 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/keynote-de-lequipe-devoxx-france-d92f3e"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Whn5P3N9jBg/hqdefault.jpg" alt="Keynote de l'équipe Devoxx France" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/keynote-de-lequipe-devoxx-france-d92f3e">Keynote de l'équipe Devoxx France</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 01:28:11</div>
+			
+			
+              <div>Views: 117 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/keynote-de-lequipe-devoxx-france"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gf0WxLUHpQE/hqdefault.jpg" alt="Keynote de l’équipe Devoxx France" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/keynote-de-lequipe-devoxx-france">Keynote de l’équipe Devoxx France</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 24:18</div>
+			
+			
+              <div>Views: 212 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/la-google-cloud-plaform-au-dela-des-simples-demos-university"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nLsUUIq8gIs/hqdefault.jpg" alt="La Google Cloud Plaform - Au delà des simples démos University" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/la-google-cloud-plaform-au-dela-des-simples-demos-university">La Google Cloud Plaform - Au delà des simples démos University</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 01:28:28</div>
+			
+			
+              <div>Views: 108 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/la-phygitalisation-le-super-pouvoir-du-developpeur-pour-creer-des-objets-connectes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FXA1WKTEUDI/hqdefault.jpg" alt="La phygitalisation, le super pouvoir du développeur pour créer des objets connectés!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/la-phygitalisation-le-super-pouvoir-du-developpeur-pour-creer-des-objets-connectes">La phygitalisation, le super pouvoir du développeur pour créer des objets connectés!</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 31:58</div>
+			
+			
+              <div>Views: 227 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/la-problematique-du-controle-des-technologies-de-linformation"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Vfb_bgGWptg/hqdefault.jpg" alt="La problématique du contrôle des Technologies de l’information" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/la-problematique-du-controle-des-technologies-de-linformation">La problématique du contrôle des Technologies de l’information</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 18:28</div>
+			
+			
+              <div>Views: 147 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/la-revolution-hors-ligne-du-web-arrive-avec-les-service-workers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rCjVVYt5Qoo/hqdefault.jpg" alt="La révolution hors-ligne du Web arrive avec les Service Workers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/la-revolution-hors-ligne-du-web-arrive-avec-les-service-workers">La révolution hors-ligne du Web arrive avec les Service Workers</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:59</div>
+			
+			
+              <div>Views: 379 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/le-continuous-merge-chez-lesfuretscom"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8P0vyWIyAXM/hqdefault.jpg" alt="Le Continuous Merge chez LesFurets.com" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/le-continuous-merge-chez-lesfuretscom">Le Continuous Merge chez LesFurets.com</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 01:02:22</div>
+			
+			
+              <div>Views: 135 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/le-retour-en-force-de-gwt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZFDRtM6thsY/hqdefault.jpg" alt="Le retour en force de GWT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/le-retour-en-force-de-gwt">Le retour en force de GWT</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 48:16</div>
+			
+			
+              <div>Views: 284 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/le-tare-du-terminal-outil-pour-le-developpeur-de-lextreme"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vKH_aI6bJTc/hqdefault.jpg" alt="Le taré du terminal: outil pour le développeur de l'extrême" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/le-tare-du-terminal-outil-pour-le-developpeur-de-lextreme">Le taré du terminal: outil pour le développeur de l'extrême</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 31:53</div>
+			
+			
+              <div>Views: 141 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/lecosysteme-docker-sur-azure"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wU4wq04yO8M/hqdefault.jpg" alt="L'ecosysteme Docker sur Azure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/lecosysteme-docker-sur-azure">L'ecosysteme Docker sur Azure</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 49:02</div>
+			
+			
+              <div>Views: 102 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/les-cast-codeurs-podcast-table-ronde"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BNotVmjG2ko/hqdefault.jpg" alt="Les Cast Codeurs Podcast : table ronde" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/les-cast-codeurs-podcast-table-ronde">Les Cast Codeurs Podcast : table ronde</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:41</div>
+			
+			
+              <div>Views: 34 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/les-developpeurs-aussi-maitrisent-le-systemd"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gA9z-jlnKfU/hqdefault.jpg" alt="Les développeurs aussi maîtrisent le systemd" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/les-developpeurs-aussi-maitrisent-le-systemd">Les développeurs aussi maîtrisent le systemd</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 46:06</div>
+			
+			
+              <div>Views: 117 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/les-idees-recues-de-linformatique-quand-nos-erreurs-de-raisonnement-nous-limitent"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OLfh11_P078/hqdefault.jpg" alt="Les idées reçues de l'informatique : Quand nos erreurs de raisonnement nous limitent." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/les-idees-recues-de-linformatique-quand-nos-erreurs-de-raisonnement-nous-limitent">Les idées reçues de l'informatique : Quand nos erreurs de raisonnement nous limitent.</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 46:55</div>
+			
+			
+              <div>Views: 192 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/les-monoides-demystifies-en-java-et-avec-des-verres-de-biere"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_jr8E5GVnBA/hqdefault.jpg" alt="Les monoïdes démystifiés, en Java et avec des verres de bière" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/les-monoides-demystifies-en-java-et-avec-des-verres-de-biere">Les monoïdes démystifiés, en Java et avec des verres de bière</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:10</div>
+			
+			
+              <div>Views: 382 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/les-nouveaux-outils-du-developpeur-web"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XSrVztKxC6Q/hqdefault.jpg" alt="Les nouveaux outils du développeur web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/les-nouveaux-outils-du-developpeur-web">Les nouveaux outils du développeur web</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 56:22</div>
+			
+			
+              <div>Views: 1896 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/les-tests-exploratoires"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LIVpOlNGb9g/hqdefault.jpg" alt="Les tests exploratoires" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/les-tests-exploratoires">Les tests exploratoires</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 53:28</div>
+			
+			
+              <div>Views: 77 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/level-up-your-dev-skills-with-static-analysis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KLeMsYWY0vw/hqdefault.jpg" alt="Level Up your Dev Skills with Static Analysis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/level-up-your-dev-skills-with-static-analysis">Level Up your Dev Skills with Static Analysis</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:02</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/lexperience-utilisateur-est-importante-pour-nous"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LZkeobwYJKY/hqdefault.jpg" alt="L'expérience utilisateur est importante pour nous" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/lexperience-utilisateur-est-importante-pour-nous">L'expérience utilisateur est importante pour nous</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 46:10</div>
+			
+			
+              <div>Views: 54 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/livrer-chaque-jour-ce-qui-est-pret-points-cles-du-developpement-dun-produit-avec-une-livraison-p"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AU4dKMsqFiE/hqdefault.jpg" alt="Livrer chaque jour ce qui est prêt ! Points clés du développement d'un produit avec une livraison p" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/livrer-chaque-jour-ce-qui-est-pret-points-cles-du-developpement-dun-produit-avec-une-livraison-p">Livrer chaque jour ce qui est prêt ! Points clés du développement d'un produit avec une livraison p</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 01:01:51</div>
+			
+			
+              <div>Views: 160 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/logstash-larme-secrete-pour-vaincre-le-cote-obscur-de-vos-logs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-zawsoOhz70/hqdefault.jpg" alt="Logstash: l’arme secrète pour vaincre le coté obscur de vos logs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/logstash-larme-secrete-pour-vaincre-le-cote-obscur-de-vos-logs">Logstash: l’arme secrète pour vaincre le coté obscur de vos logs</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:46</div>
+			
+			
+              <div>Views: 250 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/ma-grand-mere-excel-en-grammaire-antlr"><img class="list-thumbnail" src="https://i.ytimg.com/vi/c59FV9eF9eg/hqdefault.jpg" alt="Ma grand-mère Excel en grammaire Antlr" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/ma-grand-mere-excel-en-grammaire-antlr">Ma grand-mère Excel en grammaire Antlr</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 49:06</div>
+			
+			
+              <div>Views: 119 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/machine-learning-avec-spark-mllib-et-d3js"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O4VhfJ5IGfE/hqdefault.jpg" alt="Machine Learning avec Spark, MLLib et D3.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/machine-learning-avec-spark-mllib-et-d3js">Machine Learning avec Spark, MLLib et D3.js</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:03</div>
+			
+			
+              <div>Views: 517 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/machine-learning-et-regulation-numerique"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9NuzSP12Byg/hqdefault.jpg" alt="Machine learning et régulation numérique" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/machine-learning-et-regulation-numerique">Machine learning et régulation numérique</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 53:53</div>
+			
+			
+              <div>Views: 105 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/making-java-more-dynamic"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vjv4idwQL7k/hqdefault.jpg" alt="Making Java more dynamic" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/making-java-more-dynamic">Making Java more dynamic</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:39</div>
+			
+			
+              <div>Views: 193 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/mesos-university"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BzfATx5lrwg/hqdefault.jpg" alt="Mesos University" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/mesos-university">Mesos University</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 02:59:42</div>
+			
+			
+              <div>Views: 122 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/migration-dune-webapp-tomcat-vers-vertx"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uicW0Oe_7J8/hqdefault.jpg" alt="Migration d'une webapp Tomcat vers Vert.x" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/migration-dune-webapp-tomcat-vers-vertx">Migration d'une webapp Tomcat vers Vert.x</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 49:36</div>
+			
+			
+              <div>Views: 171 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/modern-enterprise-java-architectures-with-spring-41"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sX16N0mwlyw/hqdefault.jpg" alt="Modern Enterprise Java Architectures with Spring 4.1" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/modern-enterprise-java-architectures-with-spring-41">Modern Enterprise Java Architectures with Spring 4.1</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:46</div>
+			
+			
+              <div>Views: 228 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/modular-java-platform"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rja57NGs8Qk/hqdefault.jpg" alt="Modular Java Platform" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/modular-java-platform">Modular Java Platform</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:31</div>
+			
+			
+              <div>Views: 121 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/no-one-at-google-uses-mapreduce-anymore-cloud-dataflow-explained-for-dummies"><img class="list-thumbnail" src="https://i.ytimg.com/vi/g0uJScZ8kbg/hqdefault.jpg" alt=""No one at Google uses MapReduce anymore" - Cloud Dataflow explained for dummies" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/no-one-at-google-uses-mapreduce-anymore-cloud-dataflow-explained-for-dummies">"No one at Google uses MapReduce anymore" - Cloud Dataflow explained for dummies</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 55:24</div>
+			
+			
+              <div>Views: 268 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/on-nest-pas-que-des-cobayes-orm-et-nosql-sont-ils-solubles"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F3__SKR54rA/hqdefault.jpg" alt="On n'est pas que des cobayes: ORM et NoSQL sont-ils solubles?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/on-nest-pas-que-des-cobayes-orm-et-nosql-sont-ils-solubles">On n'est pas que des cobayes: ORM et NoSQL sont-ils solubles?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 49:58</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/openbci-ou-comment-lire-dans-les-pensees-en-java"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2q9vCYdpmxA/hqdefault.jpg" alt="OpenBCI ou comment lire dans les pensées en Java" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/openbci-ou-comment-lire-dans-les-pensees-en-java">OpenBCI ou comment lire dans les pensées en Java</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 34:57</div>
+			
+			
+              <div>Views: 154 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/optaplanner-ou-comment-optimiser-les-itineraires-les-plannings-et-bien-plus-encore"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sJHPjHsSsXQ/hqdefault.jpg" alt="OptaPlanner ou comment optimiser les itinéraires, les plannings et bien plus encore..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/optaplanner-ou-comment-optimiser-les-itineraires-les-plannings-et-bien-plus-encore">OptaPlanner ou comment optimiser les itinéraires, les plannings et bien plus encore...</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 49:04</div>
+			
+			
+              <div>Views: 221 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/oserez-vous-remplacer-jpa-par-un-micro-orm"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lF5iPwB1Pmo/hqdefault.jpg" alt="Oserez vous remplacer JPA par un micro ORM?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/oserez-vous-remplacer-jpa-par-un-micro-orm">Oserez vous remplacer JPA par un micro ORM?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 29:07</div>
+			
+			
+              <div>Views: 42 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/packaging-et-deploiement-dune-application-javaee-avec-docker-et-ansible"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zzglD4Vhi0M/hqdefault.jpg" alt="Packaging et déploiement d’une application JavaEE avec Docker et Ansible" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/packaging-et-deploiement-dune-application-javaee-avec-docker-et-ansible">Packaging et déploiement d’une application JavaEE avec Docker et Ansible</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 18:12</div>
+			
+			
+              <div>Views: 221 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/plugin-gradle-prenez-le-controle-du-build"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ERu3iSmoZ2s/hqdefault.jpg" alt="Plugin Gradle, prenez le contrôle du build !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/plugin-gradle-prenez-le-controle-du-build">Plugin Gradle, prenez le contrôle du build !</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:01</div>
+			
+			
+              <div>Views: 130 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/presentation-de-rust-le-langage-le-plus-excitant-depuis-larrivee-de-scala"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2N4lgc44WOk/hqdefault.jpg" alt="Présentation de Rust, le langage le plus excitant depuis l'arrivée de Scala" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/presentation-de-rust-le-langage-le-plus-excitant-depuis-larrivee-de-scala">Présentation de Rust, le langage le plus excitant depuis l'arrivée de Scala</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:59</div>
+			
+			
+              <div>Views: 606 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/priming-java-for-speed"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YVJ8LWQ470I/hqdefault.jpg" alt="Priming Java for Speed" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/priming-java-for-speed">Priming Java for Speed</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:19</div>
+			
+			
+              <div>Views: 154 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/programmation-lock-free-les-techniques-des-pros"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HdgAIbF7MjM/hqdefault.jpg" alt="Programmation Lock-Free : les techniques des pros" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/programmation-lock-free-les-techniques-des-pros">Programmation Lock-Free : les techniques des pros</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 03:03:27</div>
+			
+			
+              <div>Views: 50 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/proxy-20"><img class="list-thumbnail" src="https://i.ytimg.com/vi/noXPKssAnuY/hqdefault.jpg" alt="Proxy 2.0" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/proxy-20">Proxy 2.0</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:37</div>
+			
+			
+              <div>Views: 77 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/quand-java-prend-de-la-vitesse-apache-maven-vous-garde-sur-les-rails"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pfzcWqUdjeA/hqdefault.jpg" alt="Quand Java prend de la vitesse, Apache Maven vous garde sur les rails" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/quand-java-prend-de-la-vitesse-apache-maven-vous-garde-sur-les-rails">Quand Java prend de la vitesse, Apache Maven vous garde sur les rails</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 32:37</div>
+			
+			
+              <div>Views: 116 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/react-une-autre-facon-de-penser-vos-composants-graphiques"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PQX9Zd4bLgQ/hqdefault.jpg" alt="React, une autre façon de penser vos composants graphiques" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/react-une-autre-facon-de-penser-vos-composants-graphiques">React, une autre façon de penser vos composants graphiques</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 30:47</div>
+			
+			
+              <div>Views: 219 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/reading-and-writing-in-20-years"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b53ovKvBPyo/hqdefault.jpg" alt="Reading and Writing in 20 years" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/reading-and-writing-in-20-years">Reading and Writing in 20 years</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 17:06</div>
+			
+			
+              <div>Views: 94 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/recettes-cqrs-pour-bien-cuisiner-son-architecture"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2HQ9Uw64Ecw/hqdefault.jpg" alt="Recettes CQRS, pour bien cuisiner son architecture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/recettes-cqrs-pour-bien-cuisiner-son-architecture">Recettes CQRS, pour bien cuisiner son architecture</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 55:24</div>
+			
+			
+              <div>Views: 75 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/refactoring-to-functional"><img class="list-thumbnail" src="https://i.ytimg.com/vi/judIc2-gpzw/hqdefault.jpg" alt="Refactoring to Functional" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/refactoring-to-functional">Refactoring to Functional</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 47:48</div>
+			
+			
+              <div>Views: 105 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/revision-des-fondamentaux-equals-et-hashcode-cest-important"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YbrPvrxkvM4/hqdefault.jpg" alt="Révision des fondamentaux : equals et hashCode c'est important" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/revision-des-fondamentaux-equals-et-hashcode-cest-important">Révision des fondamentaux : equals et hashCode c'est important</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 17:13</div>
+			
+			
+              <div>Views: 112 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/rxjava-from-future-to-rx"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TT8TLS2Ac0o/hqdefault.jpg" alt="RxJava - From Future To Rx" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/rxjava-from-future-to-rx">RxJava - From Future To Rx</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 30:46</div>
+			
+			
+              <div>Views: 240 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/savoir-faire-le-deuil-de-son-code"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ovmgcy-45qA/hqdefault.jpg" alt="Savoir faire le deuil de son code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/savoir-faire-le-deuil-de-son-code">Savoir faire le deuil de son code</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 09:21</div>
+			
+			
+              <div>Views: 113 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/scaling-docker-with-kubernetes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rtEylVlbhiM/hqdefault.jpg" alt="Scaling Docker with Kubernetes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/scaling-docker-with-kubernetes">Scaling Docker with Kubernetes</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:00</div>
+			
+			
+              <div>Views: 1690 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/se-preparer-des-maintenant-a-larrivee-dangular-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PAr9IjhNZAg/hqdefault.jpg" alt="Se préparer dès maintenant à l'arrivée d'Angular 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/se-preparer-des-maintenant-a-larrivee-dangular-2">Se préparer dès maintenant à l'arrivée d'Angular 2</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 14:32</div>
+			
+			
+              <div>Views: 115 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/securiser-votre-produit-from-scratch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CkL81T1_xyA/hqdefault.jpg" alt="Sécuriser votre produit, from scratch" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/securiser-votre-produit-from-scratch">Sécuriser votre produit, from scratch</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:20</div>
+			
+			
+              <div>Views: 98 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/stockage-et-analyse-temps-reel-devenements-avec-riak-chez-bookingcom"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jzrSdDfcy2k/hqdefault.jpg" alt="Stockage et analyse temps réel d'événements avec Riak chez Booking.com" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/stockage-et-analyse-temps-reel-devenements-avec-riak-chez-bookingcom">Stockage et analyse temps réel d'événements avec Riak chez Booking.com</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:44</div>
+			
+			
+              <div>Views: 94 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/strategie-de-mise-en-place-de-revues-de-code"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3JCMwYx0zN8/hqdefault.jpg" alt="Stratégie de mise en place de revues de code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/strategie-de-mise-en-place-de-revues-de-code">Stratégie de mise en place de revues de code</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 16:02</div>
+			
+			
+              <div>Views: 153 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/streamingkafka-avance"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gr0bfB4oIFI/hqdefault.jpg" alt="Streaming/Kafka Avancé" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/streamingkafka-avance">Streaming/Kafka Avancé</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 57:06</div>
+			
+			
+              <div>Views: 193 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/the-end-of-server-management-hosting-have-to-become-a-commodity"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qwIE4ZSDGMI/hqdefault.jpg" alt="The end of server management : hosting have to become a commodity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/the-end-of-server-management-hosting-have-to-become-a-commodity">The end of server management : hosting have to become a commodity</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 24:08</div>
+			
+			
+              <div>Views: 63 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/the-upcoming-decentralisation-singularity"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-MmMLJSOfjM/hqdefault.jpg" alt="The upcoming decentralisation singularity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/the-upcoming-decentralisation-singularity">The upcoming decentralisation singularity</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 17:11</div>
+			
+			
+              <div>Views: 90 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/tour-dhorizon-des-outils-pour-etre-un-developpeur-web-productif"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iOZFFCOVgrA/hqdefault.jpg" alt="Tour d’horizon des outils pour être un développeur web productif" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/tour-dhorizon-des-outils-pour-etre-un-developpeur-web-productif">Tour d’horizon des outils pour être un développeur web productif</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 32:06</div>
+			
+			
+              <div>Views: 1060 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/tout-ce-que-vous-avez-toujours-voulu-savoir-sur-les-clients-java-http-concurrents-asynchrones-san"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IQqqzUVLloA/hqdefault.jpg" alt="Tout ce que vous avez toujours voulu savoir sur les clients Java HTTP concurrents, asynchrones, san" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/tout-ce-que-vous-avez-toujours-voulu-savoir-sur-les-clients-java-http-concurrents-asynchrones-san">Tout ce que vous avez toujours voulu savoir sur les clients Java HTTP concurrents, asynchrones, san</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 33:47</div>
+			
+			
+              <div>Views: 40 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/trois-heures-a-lassaut-dune-application-reactive"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kgeI0JTak90/hqdefault.jpg" alt="Trois heures à l’assaut d’une application réactive" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/trois-heures-a-lassaut-dune-application-reactive">Trois heures à l’assaut d’une application réactive</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 03:02:55</div>
+			
+			
+              <div>Views: 183 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/typescript-le-javascript-statiquement-type"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YjI7mi7AGzA/hqdefault.jpg" alt="TypeScript, le JavaScript statiquement typé" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/typescript-le-javascript-statiquement-type">TypeScript, le JavaScript statiquement typé</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 30:54</div>
+			
+			
+              <div>Views: 310 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/ubfc-ultimate-bug-fighting-championship"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8aCfN9Ar2Tc/hqdefault.jpg" alt="UBFC - Ultimate Bug Fighting Championship" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/ubfc-ultimate-bug-fighting-championship">UBFC - Ultimate Bug Fighting Championship</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 35:03</div>
+			
+			
+              <div>Views: 75 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/un-jenkins-ameliore-avec-docker-mesos-et-marathon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8e3EwLPYoGY/hqdefault.jpg" alt="Un Jenkins amélioré avec Docker, Mesos et Marathon" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/un-jenkins-ameliore-avec-docker-mesos-et-marathon">Un Jenkins amélioré avec Docker, Mesos et Marathon</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 35:21</div>
+			
+			
+              <div>Views: 306 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/un-monde-ou-1-ms-vaut-100-meur"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ArgrfZeHncs/hqdefault.jpg" alt="Un monde où 1 ms vaut 100 M€" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/un-monde-ou-1-ms-vaut-100-meur">Un monde où 1 ms vaut 100 M€</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 49:31</div>
+			
+			
+              <div>Views: 104 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/un-news-feed-temps-reel-personnalise-pour-65-millions-dutilisateurs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/M6_HfGTIK3I/hqdefault.jpg" alt="Un News Feed temps réel personnalisé pour 65 millions d’utilisateurs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/un-news-feed-temps-reel-personnalise-pour-65-millions-dutilisateurs">Un News Feed temps réel personnalisé pour 65 millions d’utilisateurs</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 37:22</div>
+			
+			
+              <div>Views: 31 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/understanding-latency-application-responsiveness"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ElbYf2uiPmQ/hqdefault.jpg" alt="Understanding Latency & Application Responsiveness" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/understanding-latency-application-responsiveness">Understanding Latency & Application Responsiveness</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 02:51:31</div>
+			
+			
+              <div>Views: 348 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/uniformisez-vos-postes-de-developpement-avec-fig"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JUQa8MjBT8s/hqdefault.jpg" alt="Uniformisez vos postes de développement avec Fig" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/uniformisez-vos-postes-de-developpement-avec-fig">Uniformisez vos postes de développement avec Fig</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 15:35</div>
+			
+			
+              <div>Views: 86 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/unit-testing-concurrent-code"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FvH4RBn2gJ8/hqdefault.jpg" alt="Unit testing concurrent code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/unit-testing-concurrent-code">Unit testing concurrent code</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 20:14</div>
+			
+			
+              <div>Views: 283 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/utilisation-de-sparksql-pour-analyser-vos-donnees-cassandra-en-java-scala-et-python"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lllVEB2SKZY/hqdefault.jpg" alt="Utilisation de SparkSQL pour analyser vos données Cassandra en Java, Scala et Python" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/utilisation-de-sparksql-pour-analyser-vos-donnees-cassandra-en-java-scala-et-python">Utilisation de SparkSQL pour analyser vos données Cassandra en Java, Scala et Python</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 27:29</div>
+			
+			
+              <div>Views: 131 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/ux-le-poids-des-mots"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AZBCFFBWtBA/hqdefault.jpg" alt="UX : le Poids des Mots..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/ux-le-poids-des-mots">UX : le Poids des Mots...</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 43:19</div>
+			
+			
+              <div>Views: 115 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/venez-decouvrir-cdi-la-perle-de-java-ee"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5_yk2b3d9RM/hqdefault.jpg" alt="Venez découvrir CDI, la perle de Java EE !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/venez-decouvrir-cdi-la-perle-de-java-ee">Venez découvrir CDI, la perle de Java EE !</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:49</div>
+			
+			
+              <div>Views: 233 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/vos-managers-ne-veulent-pas-entendre-parler-de-la-dette-technique-tant-mieux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hpGxwgVrGDU/hqdefault.jpg" alt="Vos managers ne veulent pas entendre parler de la dette technique, tant mieux !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/vos-managers-ne-veulent-pas-entendre-parler-de-la-dette-technique-tant-mieux">Vos managers ne veulent pas entendre parler de la dette technique, tant mieux !</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 16:52</div>
+			
+			
+              <div>Views: 298 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/web-components-polymer-and-material-design"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ocv9ClNPRMU/hqdefault.jpg" alt="Web Components, Polymer and Material Design" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/web-components-polymer-and-material-design">Web Components, Polymer and Material Design</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 48:31</div>
+			
+			
+              <div>Views: 237 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/why-postgres-sql-deserve-nosql-fan-respect"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SsQ6Aw9kPpw/hqdefault.jpg" alt="Why postgres SQL deserve noSQL fan respect" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/why-postgres-sql-deserve-nosql-fan-respect">Why postgres SQL deserve noSQL fan respect</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 47:24</div>
+			
+			
+              <div>Views: 125 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2015/write-in-asciidoc-publish-everywhere"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kyGJEVEjfAs/hqdefault.jpg" alt="Write in AsciiDoc, Publish Everywhere!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2015/write-in-asciidoc-publish-everywhere">Write in AsciiDoc, Publish Everywhere!</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:08</div>
+			
+			
+              <div>Views: 850 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2015">Devoxx France 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLklQqdqnBkPgctKh1xIvF4eFGtmvUvE2b">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

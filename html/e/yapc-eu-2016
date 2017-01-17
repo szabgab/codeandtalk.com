@@ -1,0 +1,1904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>YAPC - European Perl Conference 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>YAPC - European Perl Conference 2016</h1>
+
+<div><a href="http://act.yapc.eu/ye2016/">YAPC - European Perl Conference 2016</a></div>
+
+
+<div>Start date: 2016-08-24</div>
+<div>End date: 2016-08-26</div>
+
+<div>Location:
+  Cluj-Napoca
+  
+  <a href="/l/romania">Romania</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/perl">Perl</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/yapceu">@yapceu</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=YAPC%20-%20European%20Perl%20Conference%202016%20on%202016-08-24%20in%20Cluj-Napoca%2C%20%20Romania%20%40yapceu%20http%3A//act.yapc.eu/ye2016/%20%23Perl%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/albert-hilazo-first-months-as-a-new-perl-developer-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/upocEh6L-_8/hqdefault.jpg" alt="First months as a new Perl developer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/albert-hilazo-first-months-as-a-new-perl-developer-yapceurope-2016">First months as a new Perl developer</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 33:57</div>
+			
+			
+              <div>Views: 317 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/albert-hilazo">Albert Hilazo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/alex-muntada-from-debian-with-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BrdwNvly_XY/hqdefault.jpg" alt="From Debian, with ♥" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/alex-muntada-from-debian-with-yapceurope-2016">From Debian, with ♥</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 56:51</div>
+			
+			
+              <div>Views: 57 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-muntada">Alex Muntada</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/andre-walker-running-perl-6-in-a-sailfishos-phone-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MxHYdxE7Vlk/hqdefault.jpg" alt="Running Perl 6 in a SailfishOS phone" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/andre-walker-running-perl-6-in-a-sailfishos-phone-yapceurope-2016">Running Perl 6 in a SailfishOS phone</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 30:50</div>
+			
+			
+              <div>Views: 160 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andre-walker">André Walker</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/andreea-popescu-the-neuroscience-beyond-the-usability-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/huAjI5xEmKI/hqdefault.jpg" alt="The neuroscience beyond the usability" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/andreea-popescu-the-neuroscience-beyond-the-usability-yapceurope-2016">The neuroscience beyond the usability</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 40:21</div>
+			
+			
+              <div>Views: 54 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andreea-popescu">Andreea Popescu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/andrew-shitov-bots-for-telegram-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cLzvs6b1zZg/hqdefault.jpg" alt="Bots for Telegram" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/andrew-shitov-bots-for-telegram-yapceurope-2016">Bots for Telegram</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 33:22</div>
+			
+			
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-shitov">Andrew Shitov - Андрей Шитов</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/andrew-yates-perl-bioinformatics-and-the-ensembl-project-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xhxMH80JBAE/hqdefault.jpg" alt="Perl, Bioinformatics and the Ensembl Project" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/andrew-yates-perl-bioinformatics-and-the-ensembl-project-yapceurope-2016">Perl, Bioinformatics and the Ensembl Project</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 33:03</div>
+			
+			
+              <div>Views: 34 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-yates">Andrew Yates</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/attila-mihaly-balazs-low-level-details-for-high-level-developers-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/df2RXJzWnyI/hqdefault.jpg" alt="Low level details for high level developers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/attila-mihaly-balazs-low-level-details-for-high-level-developers-yapceurope-2016">Low level details for high level developers</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 35:01</div>
+			
+			
+              <div>Views: 126 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/attila-mihaly-balazs">Attila-Mihaly Balazs</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/bulk-88-writing-xs-in-plain-c-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/COjVlgbPVn4/hqdefault.jpg" alt="Writing XS in plain C" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/bulk-88-writing-xs-in-plain-c-yapceurope-2016">Writing XS in plain C</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 23:11</div>
+			
+			
+              <div>Views: 54 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bulk-88">Bulk 88</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/choroba-karel-educational-programming-language-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rhoM2gQQy7M/hqdefault.jpg" alt="Karel, Educational programming language" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/choroba-karel-educational-programming-language-yapceurope-2016">Karel, Educational programming language</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 29:54</div>
+			
+			
+              <div>Views: 50 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/e-choroba">E. Choroba</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/claudiu-campean-a-tale-of-a-perl-start-up-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/p1RcVHQUlGU/hqdefault.jpg" alt="A tale of a Perl start-up" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/claudiu-campean-a-tale-of-a-perl-start-up-yapceurope-2016">A tale of a Perl start-up</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 32:07</div>
+			
+			
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/claudiu-campean">Claudiu Campean</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/curtis-poe-keynote-day-1-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ta-1OT0Ec2I/hqdefault.jpg" alt="Keynote Day 1" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/curtis-poe-keynote-day-1-yapceurope-2016">Keynote Day 1</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 39:54</div>
+			
+			
+              <div>Views: 123 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/curtis-ovid-poe">Curtis Poe</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/curtis-poe-when-you-dont-want-agile-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rTi59nkWOZ0/hqdefault.jpg" alt="When you don't want Agile" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/curtis-poe-when-you-dont-want-agile-yapceurope-2016">When you don't want Agile</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 50:15</div>
+			
+			
+              <div>Views: 152 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/curtis-ovid-poe">Curtis Poe</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/dave-cross-errors-free-programming-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-gFgRbXXLc0/hqdefault.jpg" alt="Errors Free Programming" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/dave-cross-errors-free-programming-yapceurope-2016">Errors Free Programming</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 20:13</div>
+			
+			
+              <div>Views: 70 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-cross">Dave Cross</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/diego-kuperman-resque-to-the-resque-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lPR8yVHZk6E/hqdefault.jpg" alt="Resque to the resque!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/diego-kuperman-resque-to-the-resque-yapceurope-2016">Resque to the resque!</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 33:52</div>
+			
+			
+              <div>Views: 43 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/diego-kuperman">Diego Kuperman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/drforr-incepti0n-in-perl-6-design-your-own-language-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JPsnkPDhNOg/hqdefault.jpg" alt="Incepti0n in Perl 6 Design your own language" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/drforr-incepti0n-in-perl-6-design-your-own-language-yapceurope-2016">Incepti0n in Perl 6 Design your own language</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 01:01:56</div>
+			
+			
+              <div>Views: 206 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeffrey-goff">Jeffrey Goff</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/drforr-ten-things-you-need-to-know-about-perl-6-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TH1XPvvwW8Y/hqdefault.jpg" alt="Ten Things you Need to Know About Perl 6" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/drforr-ten-things-you-need-to-know-about-perl-6-yapceurope-2016">Ten Things you Need to Know About Perl 6</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 36:55</div>
+			
+			
+              <div>Views: 302 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeffrey-goff">Jeffrey Goff</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/erik-huelsman-bdd-webapp-testing-with-pherkinweasel-perls-behatmink-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/L9uNbp15ino/hqdefault.jpg" alt="BDD webapp testing with Pherkin+Weasel perl's Behat+Mink" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/erik-huelsman-bdd-webapp-testing-with-pherkinweasel-perls-behatmink-yapceurope-2016">BDD webapp testing with Pherkin+Weasel perl's Behat+Mink</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 55:44</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/erik-huelsman">Erik Huelsman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/gonzalo-diethelm-finding-dead-code-with-develquickcover-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kjn1Rr1zTUU/hqdefault.jpg" alt="Finding dead code with DevelQuickCover" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/gonzalo-diethelm-finding-dead-code-with-develquickcover-yapceurope-2016">Finding dead code with DevelQuickCover</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 25:29</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gonzalo-diethelm">Gonzalo Diethelm</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/h-merijn-brand-csv-with-flexible-headers-perl5-perl6-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yAjzV38FjIU/hqdefault.jpg" alt="CSV with flexible headers perl5 & perl6" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/h-merijn-brand-csv-with-flexible-headers-perl5-perl6-yapceurope-2016">CSV with flexible headers perl5 & perl6</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 35:57</div>
+			
+			
+              <div>Views: 252 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/merijn-brand">H. Merijn Brand</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/ilya-chesnokov-experience-of-perl-development-for-raspberry-pi-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dxwZ3bbmpWA/hqdefault.jpg" alt="Experience of Perl development for Raspberry PI" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/ilya-chesnokov-experience-of-perl-development-for-raspberry-pi-yapceurope-2016">Experience of Perl development for Raspberry PI</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 23:21</div>
+			
+			
+              <div>Views: 47 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ilya-chesnokov">Ilya Chesnokov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/ilya-chesnokov-is-javascript-perl-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xMo0X6CIKbI/hqdefault.jpg" alt="Is Javascript Perl" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/ilya-chesnokov-is-javascript-perl-yapceurope-2016">Is Javascript Perl</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 29:05</div>
+			
+			
+              <div>Views: 106 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ilya-chesnokov">Ilya Chesnokov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/jan-seidl-why-you-should-do-centralized-monitoring-logging-and-how-we-do-it-in-avast-in-perl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/p3dX3qt1VIk/hqdefault.jpg" alt="Why you should do centralized monitoring, logging and how we do it in Avast in Perl" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/jan-seidl-why-you-should-do-centralized-monitoring-logging-and-how-we-do-it-in-avast-in-perl">Why you should do centralized monitoring, logging and how we do it in Avast in Perl</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 17:27</div>
+			
+			
+              <div>Views: 68 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jan-seidl">Jan Seidl</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/jason-clifford-fraudulent-perl-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WHZB1iNtBSc/hqdefault.jpg" alt="Fraudulent Perl" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/jason-clifford-fraudulent-perl-yapceurope-2016">Fraudulent Perl</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 25:35</div>
+			
+			
+              <div>Views: 71 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-clifford">Jason Clifford</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/jj-merelo-quantifying-creativity-using-perl-to-analyze-the-process-of-writing-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rUL5MOwQl5U/hqdefault.jpg" alt="Quantifying creativity using Perl to analyze the process of writing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/jj-merelo-quantifying-creativity-using-perl-to-analyze-the-process-of-writing-yapceurope-2016">Quantifying creativity using Perl to analyze the process of writing</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 31:03</div>
+			
+			
+              <div>Views: 32 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jj-merelo">Juan Julián Merelo Guervós</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/job-van-achterberg-making-your-web-application-work-for-everyone-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kysW8WSk41Y/hqdefault.jpg" alt="Making your web application work for everyone" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/job-van-achterberg-making-your-web-application-work-for-everyone-yapceurope-2016">Making your web application work for everyone</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 52:26</div>
+			
+			
+              <div>Views: 122 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/job-van-achterberg">Job van Achterberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/john-haltiwanger-ballistic-programming-as-a-bootstrap-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TaCYxKKYqq0/hqdefault.jpg" alt="Ballistic Programming as a Bootstrap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/john-haltiwanger-ballistic-programming-as-a-bootstrap-yapceurope-2016">Ballistic Programming as a Bootstrap</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 25:32</div>
+			
+			
+              <div>Views: 274 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-haltiwanger">John Haltiwanger</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/john-lightsey-vulnerability-discovery-response-and-remediation-for-developers-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dlIg4kQ4nRY/hqdefault.jpg" alt="Vulnerability discovery, response and remediation for developers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/john-lightsey-vulnerability-discovery-response-and-remediation-for-developers-yapceurope-2016">Vulnerability discovery, response and remediation for developers</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 49:03</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-lightsey">John Lightsey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/john-napiorkowski-building-the-modern-perl-catalyst-application-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Xmc95QJW8nU/hqdefault.jpg" alt="Building the Modern Perl Catalyst Application" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/john-napiorkowski-building-the-modern-perl-catalyst-application-yapceurope-2016">Building the Modern Perl Catalyst Application</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 01:22:40</div>
+			
+			
+              <div>Views: 138 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-napiorkowski">John Napiorkowski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/john-napiorkowski-perl-catalyst-design-pattern-deep-dive-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/l-vSQOozboY/hqdefault.jpg" alt="Perl Catalyst Design Pattern Deep Dive" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/john-napiorkowski-perl-catalyst-design-pattern-deep-dive-yapceurope-2016">Perl Catalyst Design Pattern Deep Dive</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 01:27:09</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-napiorkowski">John Napiorkowski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/jose-luis-martinez-torres-how-aws-rest-apis-work-and-how-paws-is-built-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tFIzlrOdpnU/hqdefault.jpg" alt="How AWS REST APIs work, and how Paws is built" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/jose-luis-martinez-torres-how-aws-rest-apis-work-and-how-paws-is-built-yapceurope-2016">How AWS REST APIs work, and how Paws is built</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 49:31</div>
+			
+			
+              <div>Views: 41 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jose-luis-martinez-torres">Jose Luis Martinez Torres</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/jose-luis-perez-diez-why-i-joined-to-cpan-prc-and-why-i-keep-on-it-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1gO8FzhAgRA/hqdefault.jpg" alt="Why I joined to CPAN PRC and why I keep on it" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/jose-luis-perez-diez-why-i-joined-to-cpan-prc-and-why-i-keep-on-it-yapceurope-2016">Why I joined to CPAN PRC and why I keep on it</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 35:20</div>
+			
+			
+              <div>Views: 22 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jose-luis-perez-diez">Jose Luis Perez Diez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/jussi-kinnula-imagertrim-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YuBVp5roxY4/hqdefault.jpg" alt="Imager::Trim" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/jussi-kinnula-imagertrim-yapceurope-2016">Imager::Trim</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 17:07</div>
+			
+			
+              <div>Views: 26 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jussi-kinnula">Jussi Kinnula</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/larry-wall-strange-consistency-keynote-day-3-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IMXqAPxAyec/hqdefault.jpg" alt="Strange Consistency, Keynote Day 3" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/larry-wall-strange-consistency-keynote-day-3-yapceurope-2016">Strange Consistency, Keynote Day 3</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 01:02:58</div>
+			
+			
+              <div>Views: 392 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/larry-wall">Larry Wall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/laurent-dami-studying-geneva-real-estate-prices-using-perl-grammars-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oJUDrDm-8Is/hqdefault.jpg" alt="Studying Geneva real estate prices using Perl grammars" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/laurent-dami-studying-geneva-real-estate-prices-using-perl-grammars-yapceurope-2016">Studying Geneva real estate prices using Perl grammars</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 32:14</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/laurent-dami">Laurent Dami</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/lee-johnson-a-few-git-bits-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/T2-52y3b10I/hqdefault.jpg" alt="A few git bits" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/lee-johnson-a-few-git-bits-yapceurope-2016">A few git bits</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 14:59</div>
+			
+			
+              <div>Views: 34 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lee-johnson">Lee Johnson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/lee-johnson-battling-a-legacy-schema-with-dbixclass-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EnG3DvaLpks/hqdefault.jpg" alt="Battling a Legacy Schema with DBIx::Class" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/lee-johnson-battling-a-legacy-schema-with-dbixclass-yapceurope-2016">Battling a Legacy Schema with DBIx::Class</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 46:52</div>
+			
+			
+              <div>Views: 44 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lee-johnson">Lee Johnson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/lee-johnson-mocking-apis-for-emulation-driven-development-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yulCXfVdoq0/hqdefault.jpg" alt="Mocking APIs for Emulation Driven Development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/lee-johnson-mocking-apis-for-emulation-driven-development-yapceurope-2016">Mocking APIs for Emulation Driven Development</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 15:45</div>
+			
+			
+              <div>Views: 12 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lee-johnson">Lee Johnson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/lightning-talks-day-3-r-geoffrey-avery-yapc-europe-2016-closing-notes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sh6K0slJVcM/hqdefault.jpg" alt="‎Lightning Talks Day 3 (R Geoffrey Avery)‎ & YAPC Europe 2016 Closing Notes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/lightning-talks-day-3-r-geoffrey-avery-yapc-europe-2016-closing-notes">‎Lightning Talks Day 3 (R Geoffrey Avery)‎ & YAPC Europe 2016 Closing Notes</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 01:34:30</div>
+			
+			
+              <div>Views: 71 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/lukas-mai-from-5-12-to-5-24-upgrading-a-business-application-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6wS8cku8zPk/hqdefault.jpg" alt="From 5 12 to 5 24 Upgrading a business application" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/lukas-mai-from-5-12-to-5-24-upgrading-a-business-application-yapceurope-2016">From 5 12 to 5 24 Upgrading a business application</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 30:37</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lukas-mai">Lukas Mai</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/marco-pessotto-amusewiki-a-year-of-development-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CUb9gXFot1A/hqdefault.jpg" alt="Amusewiki - a year of development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/marco-pessotto-amusewiki-a-year-of-development-yapceurope-2016">Amusewiki - a year of development</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 32:30</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marco-pessotto">Marco Pessotto</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/matt-s-trout-a-decade-of-dubious-decisions-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/21xaaHFcGlU/hqdefault.jpg" alt="A decade of dubious decisions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/matt-s-trout-a-decade-of-dubious-decisions-yapceurope-2016">A decade of dubious decisions</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 30:20</div>
+			
+			
+              <div>Views: 100 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-s-trout">Matt S. Trout</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/matt-s-trout-the-raptor-and-the-butterfly-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/j3r-lKlrrRg/hqdefault.jpg" alt="The raptor and the butterfly" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/matt-s-trout-the-raptor-and-the-butterfly-yapceurope-2016">The raptor and the butterfly</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 21:43</div>
+			
+			
+              <div>Views: 287 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-s-trout">Matt S. Trout</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/max-maischein-a-local-search-engine-using-elasticsearch-and-dancer-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TXSM-Izmia8/hqdefault.jpg" alt="A local search engine using Elasticsearch and Dancer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/max-maischein-a-local-search-engine-using-elasticsearch-and-dancer-yapceurope-2016">A local search engine using Elasticsearch and Dancer</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 29:39</div>
+			
+			
+              <div>Views: 56 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/max-maischein">Max Maischein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/mickey-nasriachi-ponapi-lets-rest-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/I7WllBvK8u4/hqdefault.jpg" alt="PONAPI let's REST" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/mickey-nasriachi-ponapi-lets-rest-yapceurope-2016">PONAPI let's REST</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 28:56</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mickey-nasriachi">Mickey Nasriachi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/mirela-iclodean-velociraptor-in-a-modern-world-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ylc17ZzusKo/hqdefault.jpg" alt="Velociraptor in a Modern World" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/mirela-iclodean-velociraptor-in-a-modern-world-yapceurope-2016">Velociraptor in a Modern World</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 18:09</div>
+			
+			
+              <div>Views: 109 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mirela-iclodean">Mirela Iclodean</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/miroslav-tynovsky-symbiosis-of-docker-and-perl-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EfEpl37cAzU/hqdefault.jpg" alt="Symbiosis of Docker and Perl" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/miroslav-tynovsky-symbiosis-of-docker-and-perl-yapceurope-2016">Symbiosis of Docker and Perl</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 46:09</div>
+			
+			
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/miroslav-tynovsky">Miroslav Týnovský</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/naim-shafiyev-using-perl-in-monitoring-iptv-streams-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1DqJy-gu9mc/hqdefault.jpg" alt="Using Perl in Monitoring IPTV streams" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/naim-shafiyev-using-perl-in-monitoring-iptv-streams-yapceurope-2016">Using Perl in Monitoring IPTV streams</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 20:55</div>
+			
+			
+              <div>Views: 33 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/naim-shafiyev">Naim Shafiyev</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/nicholas-clark-the-non-butterfly-effect-a-universe-where-camelia-didnt-flap-her-wings"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MAKhV9wKblk/hqdefault.jpg" alt="The non butterfly effect, a universe where Camelia didn't flap her wings" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/nicholas-clark-the-non-butterfly-effect-a-universe-where-camelia-didnt-flap-her-wings">The non butterfly effect, a universe where Camelia didn't flap her wings</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 54:19</div>
+			
+			
+              <div>Views: 194 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicholas-clark">Nicholas Clark</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/nigel-hamilton-starting-up-with-perl-6-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mZczCDKZbt8/hqdefault.jpg" alt="Starting up with Perl 6" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/nigel-hamilton-starting-up-with-perl-6-yapceurope-2016">Starting up with Perl 6</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 48:59</div>
+			
+			
+              <div>Views: 356 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nigel-hamilton">Nigel Hamilton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/patrice-auffret-the-metabrik-platform-rapid-development-of-reusable-security-tools"><img class="list-thumbnail" src="https://i.ytimg.com/vi/g4KbiZ775f0/hqdefault.jpg" alt="The Metabrik Platform Rapid Development of Reusable Security Tools" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/patrice-auffret-the-metabrik-platform-rapid-development-of-reusable-security-tools">The Metabrik Platform Rapid Development of Reusable Security Tools</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 29:44</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patrice-auffret">Patrice Auffret</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/pavel-scherbinin-index-optimization-from-b-tree-to-icp-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IZYQTzLfNlY/hqdefault.jpg" alt="Index optimization from B tree to ICP" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/pavel-scherbinin-index-optimization-from-b-tree-to-icp-yapceurope-2016">Index optimization from B tree to ICP</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 45:12</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pavel-scherbinin">Pavel Scherbinin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/r-geoffrey-avery-jenkins-101-getting-started-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Nj84bBCssps/hqdefault.jpg" alt="Jenkins 101, Getting started" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/r-geoffrey-avery-jenkins-101-getting-started-yapceurope-2016">Jenkins 101, Getting started</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 53:37</div>
+			
+			
+              <div>Views: 66 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/geoffrey-avery">R Geoffrey Avery</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/r-geoffrey-avery-lightning-talks-day-1-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/52oMgCOC5a0/hqdefault.jpg" alt="R Geoffrey Avery: Lightning Talks Day 1 - YAPC::Europe 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/r-geoffrey-avery-lightning-talks-day-1-yapceurope-2016">R Geoffrey Avery: Lightning Talks Day 1 - YAPC::Europe 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 01:06:22</div>
+			
+			
+              <div>Views: 31 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/raja-renga-bashyam-rx-a-cross-language-scalable-extendable-code-db-obfuscator"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iL3qaLfaUV4/hqdefault.jpg" alt="Rx – A cross language scalable & extendable code & db obfuscator" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/raja-renga-bashyam-rx-a-cross-language-scalable-extendable-code-db-obfuscator">Rx – A cross language scalable & extendable code & db obfuscator</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 22:02</div>
+			
+			
+              <div>Views: 54 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/raja-renga-bashyam">Raja Renga Bashyam</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/rene-schickbauer-10-years-of-maplat-framework-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dJulNDpKDJY/hqdefault.jpg" alt="10 years of Maplat framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/rene-schickbauer-10-years-of-maplat-framework-yapceurope-2016">10 years of Maplat framework</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 45:39</div>
+			
+			
+              <div>Views: 13 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rene-schickbauer">Rene Schickbauer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/rick-deller-hows-the-perl-jobs-market-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZWLjWaFldUk/hqdefault.jpg" alt="How's the Perl Jobs market" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/rick-deller-hows-the-perl-jobs-market-yapceurope-2016">How's the Perl Jobs market</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 40:00</div>
+			
+			
+              <div>Views: 151 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rick-deller">Rick Deller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/rolf-langsdorf-emacs-as-perl-ide-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jauckPY4EwU/hqdefault.jpg" alt="Emacs as Perl IDE" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/rolf-langsdorf-emacs-as-perl-ide-yapceurope-2016">Emacs as Perl IDE</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 34:33</div>
+			
+			
+              <div>Views: 437 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rolf-langsdorf">Rolf Langsdorf</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/rolf-langsdorf-extending-syntax-signatures-operators-and-compound-statements"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NQqxy5gQCwQ/hqdefault.jpg" alt="Extending Syntax Signatures, Operators and Compound Statements" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/rolf-langsdorf-extending-syntax-signatures-operators-and-compound-statements">Extending Syntax Signatures, Operators and Compound Statements</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 01:03:01</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rolf-langsdorf">Rolf Langsdorf</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/sawyer-x-keynote-day-2-the-state-of-the-velociraptor-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b4v-_FFLFtc/hqdefault.jpg" alt="Keynote Day 2, The State of the Velociraptor" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/sawyer-x-keynote-day-2-the-state-of-the-velociraptor-yapceurope-2016">Keynote Day 2, The State of the Velociraptor</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 01:12:53</div>
+			
+			
+              <div>Views: 47 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sawyer">Sawyer X</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/sawyer-x-refutil-more-than-you-ever-wanted-to-know-about-ref-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/haj_oYoxYkg/hqdefault.jpg" alt="RefUtil more than you ever wanted to know about ref()" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/sawyer-x-refutil-more-than-you-ever-wanted-to-know-about-ref-yapceurope-2016">RefUtil more than you ever wanted to know about ref()</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 50:30</div>
+			
+			
+              <div>Views: 64 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sawyer">Sawyer X</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/sawyerx-perl-5-24-and-the-zen-of-motorcycle-maintenance-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LlhhyeXQgMo/hqdefault.jpg" alt="Perl 5 24 and the Zen of Motorcycle Maintenance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/sawyerx-perl-5-24-and-the-zen-of-motorcycle-maintenance-yapceurope-2016">Perl 5 24 and the Zen of Motorcycle Maintenance</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 50:36</div>
+			
+			
+              <div>Views: 107 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sawyer">Sawyer X</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/sergey-aleynikov-xs-accessors-under-the-hood-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PYCbumw0Fis/hqdefault.jpg" alt="XS accessors under the hood" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/sergey-aleynikov-xs-accessors-under-the-hood-yapceurope-2016">XS accessors under the hood</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 41:01</div>
+			
+			
+              <div>Views: 33 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sergey-aleynikov">Sergey Aleynikov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/soren-lund-documenting-code-patterns-and-anti-patterns-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gtV3oweV5FQ/hqdefault.jpg" alt="Documenting Code Patterns and Anti-Patterns" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/soren-lund-documenting-code-patterns-and-anti-patterns-yapceurope-2016">Documenting Code Patterns and Anti-Patterns</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 31:57</div>
+			
+			
+              <div>Views: 63 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/soren-lund">Søren Lund</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/stefan-hornburg-no-act-on-act-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yN_azbUodxo/hqdefault.jpg" alt="No Act on ACT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/stefan-hornburg-no-act-on-act-yapceurope-2016">No Act on ACT</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 29:00</div>
+			
+			
+              <div>Views: 30 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stefan-hornburg">Stefan Hornburg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/sue-spence-go-for-perl-programmers-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QDAOi2fefhA/hqdefault.jpg" alt="Go for Perl Programmers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/sue-spence-go-for-perl-programmers-yapceurope-2016">Go for Perl Programmers</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 33:48</div>
+			
+			
+              <div>Views: 93 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sue-spence">Sue Spence</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/sweth-chandramouli-a-quick-tour-of-swift-for-perl-programmers-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZeApCPBgYJM/hqdefault.jpg" alt="A Quick Tour of Swift for Perl Programmers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/sweth-chandramouli-a-quick-tour-of-swift-for-perl-programmers-yapceurope-2016">A Quick Tour of Swift for Perl Programmers</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 24:21</div>
+			
+			
+              <div>Views: 55 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sweth-chandramouli">Sweth Chandramouli</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/theo-van-hoesel-making-the-first-hard-thing-easy-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/H3vckSMhed4/hqdefault.jpg" alt="Making the 'First Hard Thing' easy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/theo-van-hoesel-making-the-first-hard-thing-easy-yapceurope-2016">Making the 'First Hard Thing' easy</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 28:07</div>
+			
+			
+              <div>Views: 47 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/theo-van-hoesel">Theo van Hoesel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/thomas-klausner-9-postgresql-features-i-wish-i-learned-earlier-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DiqIxHYdrf8/hqdefault.jpg" alt="9 PostgreSQL features I wish I learned earlier" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/thomas-klausner-9-postgresql-features-i-wish-i-learned-earlier-yapceurope-2016">9 PostgreSQL features I wish I learned earlier</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 30:09</div>
+			
+			
+              <div>Views: 139 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-klausner">Thomas Klausner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/thomas-klausner-how-to-write-an-api-endpoint-in-2016-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yfXen872yEI/hqdefault.jpg" alt="How to write an API endpoint in 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/thomas-klausner-how-to-write-an-api-endpoint-in-2016-yapceurope-2016">How to write an API endpoint in 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 31:36</div>
+			
+			
+              <div>Views: 90 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-klausner">Thomas Klausner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/tina-muller-why-you-want-to-use-swaggeropenapi-for-your-rest-api-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QmFCiTFIIBk/hqdefault.jpg" alt="Why you want to use SwaggerOpenAPI for your REST API" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/tina-muller-why-you-want-to-use-swaggeropenapi-for-your-rest-api-yapceurope-2016">Why you want to use SwaggerOpenAPI for your REST API</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 17:01</div>
+			
+			
+              <div>Views: 55 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tina-mueller">Tina Müller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/tina-muller-writing-command-line-tools-made-easy-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9qtYSJ9GXXo/hqdefault.jpg" alt="Writing command line tools made easy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/tina-muller-writing-command-line-tools-made-easy-yapceurope-2016">Writing command line tools made easy</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 26:32</div>
+			
+			
+              <div>Views: 93 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tina-mueller">Tina Müller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/tom-hukins-better-code-review-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iEgoL6muB5U/hqdefault.jpg" alt="Better Code Review?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/tom-hukins-better-code-review-yapceurope-2016">Better Code Review?</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 15:54</div>
+			
+			
+              <div>Views: 74 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tom-hukins">Tom Hukins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/tom-hukins-htmlformhandler-web-forms-and-more-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/L0VtP-tZprk/hqdefault.jpg" alt="HTML::FormHandler Web Forms and More" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/tom-hukins-htmlformhandler-web-forms-and-more-yapceurope-2016">HTML::FormHandler Web Forms and More</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 30:14</div>
+			
+			
+              <div>Views: 77 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tom-hukins">Tom Hukins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/vickenty-fesunov-writing-perl-extensions-in-rust-yapceurope-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EZfm5rEnqBc/hqdefault.jpg" alt="Writing Perl extensions in Rust" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/vickenty-fesunov-writing-perl-extensions-in-rust-yapceurope-2016">Writing Perl extensions in Rust</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 21:38</div>
+			
+			
+              <div>Views: 58 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vickenty-fesunov">Vickenty Fesunov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/welcome-to-yapceurope-2016-amalia-pomian-mihai-pop"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Jmtl2jPZcXU/hqdefault.jpg" alt="Welcome to YAPC::Europe 2016: Amalia Pomian, Mihai Pop" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/welcome-to-yapceurope-2016-amalia-pomian-mihai-pop">Welcome to YAPC::Europe 2016: Amalia Pomian, Mihai Pop</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 10:38</div>
+			
+			
+              <div>Views: 20 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/yapc-europe-2016-cluj-napoca-the-aftermovie"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cVg7wVLk0p4/hqdefault.jpg" alt="YAPC Europe 2016 Cluj Napoca - The Aftermovie" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/yapc-europe-2016-cluj-napoca-the-aftermovie">YAPC Europe 2016 Cluj Napoca - The Aftermovie</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 02:59</div>
+			
+			
+              <div>Views: 798 Likes: 30</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/yapc-europe-2016-day-2-main-room"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9w4dNi2wu_E/hqdefault.jpg" alt="YAPC Europe 2016 - Day 2, Main Room" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/yapc-europe-2016-day-2-main-room">YAPC Europe 2016 - Day 2, Main Room</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 10:24:02</div>
+			
+			
+              <div>Views: 565 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-eu-2016/yapc-europe-2016-day-3-main-room"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LfrlqxzeSSE/hqdefault.jpg" alt="YAPC Europe 2016 - Day 3, Main Room" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-eu-2016/yapc-europe-2016-day-3-main-room">YAPC Europe 2016 - Day 3, Main Room</a></h4>
+          <footer>
+            <div class="recorded">2016-08-24</div>
+			
+			  <div>Length: 10:51:15</div>
+			
+			
+              <div>Views: 609 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/yapc-eu-2016">YAPC - European Perl Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLwWkaoei-PoS7VkfhznhSiMKykH22AqhK">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

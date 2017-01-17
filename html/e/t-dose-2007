@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>T-DOSE 2007</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>T-DOSE 2007</h1>
+
+<div><a href="http://www.t-dose.org/2007/schedule">T-DOSE 2007</a></div>
+
+
+<div>Start date: 2007-10-13</div>
+<div>End date: 2007-10-14</div>
+
+<div>Location:
+  Eindhoven
+  
+  <a href="/l/the-netherlands">The Netherlands</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/opensource">OpenSource</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/TDOSE">@TDOSE</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/tdosenl">https://www.facebook.com/tdosenl</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=T-DOSE%202007%20on%202007-10-13%20in%20Eindhoven%2C%20%20The%20Netherlands%20%40TDOSE%20http%3A//www.t-dose.org/2007/schedule%20%23OpenSource%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2007/t-dose-2007-an-introduction-to-haiku-an-open-source-os-for-the-desktop-niels-sascha-reedijk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1sh-LmoDOok/hqdefault.jpg" alt="An Introduction to Haiku, an Open Source OS For the Desktop" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2007/t-dose-2007-an-introduction-to-haiku-an-open-source-os-for-the-desktop-niels-sascha-reedijk">An Introduction to Haiku, an Open Source OS For the Desktop</a></h4>
+          <footer>
+            <div class="recorded">2007-10-14</div>
+			
+			  <div>Length: 49:24</div>
+			
+			
+              <div>Views: 206 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/t-dose-2007">T-DOSE 2007</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/niels-sascha-reedijk">Niels Sascha Reedijk</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2007/t-dose-2007-automated-rapid-deployment-in-modern-data-centers-matt-rechenburg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0t8L5IqsqcI/hqdefault.jpg" alt="Automated Rapid deployment in modern data centers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2007/t-dose-2007-automated-rapid-deployment-in-modern-data-centers-matt-rechenburg">Automated Rapid deployment in modern data centers</a></h4>
+          <footer>
+            <div class="recorded">2007-10-13</div>
+			
+			  <div>Length: 58:46</div>
+			
+			
+              <div>Views: 11 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2007">T-DOSE 2007</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-rechenburg">Matt Rechenburg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2007/t-dose-2007-effective-enterprise-application-monitoring-with-nagioscacti-atos-origin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fNXuqo2qf5s/hqdefault.jpg" alt="Effective enterprise application monitoring with Nagios/Cacti, Atos origin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2007/t-dose-2007-effective-enterprise-application-monitoring-with-nagioscacti-atos-origin">Effective enterprise application monitoring with Nagios/Cacti, Atos origin</a></h4>
+          <footer>
+            <div class="recorded">2007-10-13</div>
+			
+			  <div>Length: 59:09</div>
+			
+			
+              <div>Views: 161 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2007">T-DOSE 2007</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2007/t-dose-2007-free-software-events-in-europe-sven-guckes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1ToirKkIZX0/hqdefault.jpg" alt="Free software events in Europe" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2007/t-dose-2007-free-software-events-in-europe-sven-guckes">Free software events in Europe</a></h4>
+          <footer>
+            <div class="recorded">2007-10-14</div>
+			
+			  <div>Length: 59:16</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2007">T-DOSE 2007</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sven-guckes">Sven Guckes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2007/t-dose-2007-free-software-in-telecom-keynote-knut-yrving"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Sg-sMQscx_g/hqdefault.jpg" alt="Free Software in telecom, (Keynote)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2007/t-dose-2007-free-software-in-telecom-keynote-knut-yrving">Free Software in telecom, (Keynote)</a></h4>
+          <footer>
+            <div class="recorded">2007-10-13</div>
+			
+			  <div>Length: 55:22</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2007">T-DOSE 2007</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/knut-yrving">Knut Yrving</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2007/t-dose-2007-linux-desktop-demo-hans-bollen-en-rene-elders-dutch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uqHQlZr_Dpc/hqdefault.jpg" alt="Linux Desktop Demo (Dutch)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2007/t-dose-2007-linux-desktop-demo-hans-bollen-en-rene-elders-dutch">Linux Desktop Demo (Dutch)</a></h4>
+          <footer>
+            <div class="recorded">2007-10-14</div>
+			
+			  <div>Length: 58:11</div>
+			
+			
+              <div>Views: 25 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2007">T-DOSE 2007</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hans-bollen">Hans Bollen</a>
+             
+                <a href="/p/rene-elders">Rene Elders</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2007/t-dose-2007-lodel-publishing-tool-odile-benassy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YEDM7tsUgI0/hqdefault.jpg" alt="Lodel publishing tool" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2007/t-dose-2007-lodel-publishing-tool-odile-benassy">Lodel publishing tool</a></h4>
+          <footer>
+            <div class="recorded">2007-10-13</div>
+			
+			  <div>Length: 47:29</div>
+			
+			
+              <div>Views: 81 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2007">T-DOSE 2007</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/odile-benassy">Odile Benassy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2007/t-dose-2007-overtaking-propriatery-software-whithout-writing-code-olivier-cleynen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tCx__zkXf1Q/hqdefault.jpg" alt="Overtaking Propriatery Software Whithout Writing Code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2007/t-dose-2007-overtaking-propriatery-software-whithout-writing-code-olivier-cleynen">Overtaking Propriatery Software Whithout Writing Code</a></h4>
+          <footer>
+            <div class="recorded">2007-10-13</div>
+			
+			  <div>Length: 50:23</div>
+			
+			
+              <div>Views: 214 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/t-dose-2007">T-DOSE 2007</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/olivier-cleynen">Olivier Cleynen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2007/t-dose-2007-red-hat-jboss-communications-platform-quinten-laureijs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KTXQZYnQ2-o/hqdefault.jpg" alt="Red Hat JBoss Communications Platform" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2007/t-dose-2007-red-hat-jboss-communications-platform-quinten-laureijs">Red Hat JBoss Communications Platform</a></h4>
+          <footer>
+            <div class="recorded">2007-10-13</div>
+			
+			  <div>Length: 35:16</div>
+			
+			
+              <div>Views: 53 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2007">T-DOSE 2007</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/quinten-laureijs">Quinten Laureijs</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2007/t-dose-2007-search-engine-development-with-advas-frank-hofmann"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Rc08XhtNMpM/hqdefault.jpg" alt="Search Engine Development with AdvaS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2007/t-dose-2007-search-engine-development-with-advas-frank-hofmann">Search Engine Development with AdvaS</a></h4>
+          <footer>
+            <div class="recorded">2007-10-13</div>
+			
+			  <div>Length: 33:27</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2007">T-DOSE 2007</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/frank-hofmann">Frank Hofmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLBZBIkixHEieGLtIxfaL1y1QPBLTUSegB">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

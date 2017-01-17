@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>NodeConf London 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>NodeConf London 2016</h1>
+
+<div><a href="http://london.nodeconf.com/">NodeConf London 2016</a></div>
+
+
+<div>Start date: 2016-05-11</div>
+<div>End date: 2016-05-11</div>
+
+<div>Location:
+  London
+  England
+  <a href="/l/uk">UK</a>
+</div>
+
+<div><a href="http://london.nodeconf.com/code-of-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/nodejs">NodeJS</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/nodeconf_london">@nodeconf_london</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=NodeConf%20London%202016%20on%202016-05-11%20in%20London%2C%20England%20UK%20%40nodeconf_london%20http%3A//london.nodeconf.com/%20%23NodeJS%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-london-2016/avoiding-release-paralysis-andrew-martin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vOMcJ3kRMVo/hqdefault.jpg" alt="Avoiding release paralysis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-london-2016/avoiding-release-paralysis-andrew-martin">Avoiding release paralysis</a></h4>
+          <footer>
+            <div class="recorded">2016-05-11</div>
+			
+			  <div>Length: 40:20</div>
+			
+			
+              <div>Views: 892 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/nodeconf-london-2016">NodeConf London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-martin">Andrew Martin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-london-2016/how-i-learned-to-stop-worrying-emily-rose"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gcHDuQFwAqY/hqdefault.jpg" alt="How I learned to stop worrying" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-london-2016/how-i-learned-to-stop-worrying-emily-rose">How I learned to stop worrying</a></h4>
+          <footer>
+            <div class="recorded">2016-05-11</div>
+			
+			  <div>Length: 17:09</div>
+			
+			
+              <div>Views: 1021 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodeconf-london-2016">NodeConf London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/emily-rose">Emily Rose</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-london-2016/it-goes-to-eleven-thomas-watson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ayvAx6yuMYc/hqdefault.jpg" alt="It goes to eleven" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-london-2016/it-goes-to-eleven-thomas-watson">It goes to eleven</a></h4>
+          <footer>
+            <div class="recorded">2016-05-11</div>
+			
+			  <div>Length: 18:28</div>
+			
+			
+              <div>Views: 457 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodeconf-london-2016">NodeConf London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-watson">Thomas Watson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-london-2016/kill-all-humans-jan-lehnardt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZXyx_1kN1L8/hqdefault.jpg" alt="Kill all humans" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-london-2016/kill-all-humans-jan-lehnardt">Kill all humans</a></h4>
+          <footer>
+            <div class="recorded">2016-05-11</div>
+			
+			  <div>Length: 27:39</div>
+			
+			
+              <div>Views: 953 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/nodeconf-london-2016">NodeConf London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jan-lehnardt">Jan Lehnardt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-london-2016/making-es6-happen-with-chakracore-and-node-christian-heilmann"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jHTSCXQ3-hU/hqdefault.jpg" alt="Making ES6 happen with ChakraCore and Node" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-london-2016/making-es6-happen-with-chakracore-and-node-christian-heilmann">Making ES6 happen with ChakraCore and Node</a></h4>
+          <footer>
+            <div class="recorded">2016-05-11</div>
+			
+			  <div>Length: 31:53</div>
+			
+			
+              <div>Views: 1121 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/nodeconf-london-2016">NodeConf London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christian-heilmann">Christian Heilmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-london-2016/node-conf-london-panel-discussion"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dvvu7aZjhB8/hqdefault.jpg" alt="Panel Discussion" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-london-2016/node-conf-london-panel-discussion">Panel Discussion</a></h4>
+          <footer>
+            <div class="recorded">2016-05-11</div>
+			
+			  <div>Length: 22:02</div>
+			
+			
+              <div>Views: 241 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-london-2016">NodeConf London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-london-2016/nodeconf-london-2016-highlights"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vj04oZ4W7EI/hqdefault.jpg" alt="NodeConf London 2016 - Highlights" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-london-2016/nodeconf-london-2016-highlights">NodeConf London 2016 - Highlights</a></h4>
+          <footer>
+            <div class="recorded">2016-05-11</div>
+			
+			  <div>Length: 02:22</div>
+			
+			
+              <div>Views: 252 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/nodeconf-london-2016">NodeConf London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-london-2016/nodejs-thats-hugely-reliable-fast-and-scalable-matthew-clark"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pxmXiKlh5OU/hqdefault.jpg" alt="Node.js that's hugely reliable, fast, and scalable - Matthew Clark" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-london-2016/nodejs-thats-hugely-reliable-fast-and-scalable-matthew-clark">Node.js that's hugely reliable, fast, and scalable - Matthew Clark</a></h4>
+          <footer>
+            <div class="recorded">2016-05-11</div>
+			
+			  <div>Length: 31:19</div>
+			
+			
+              <div>Views: 1321 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/nodeconf-london-2016">NodeConf London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-london-2016/robots-code-and-people-kas-perch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/edYnouynBxg/hqdefault.jpg" alt="Robots, code and people" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-london-2016/robots-code-and-people-kas-perch">Robots, code and people</a></h4>
+          <footer>
+            <div class="recorded">2016-05-11</div>
+			
+			  <div>Length: 28:45</div>
+			
+			
+              <div>Views: 2242 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/nodeconf-london-2016">NodeConf London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kassandra-perch">Kassandra Perch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-london-2016/server-less-architecture-in-the-wild-nikhila-ravi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SwJUH3Le91s/hqdefault.jpg" alt="Server-less architecture in the wild" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-london-2016/server-less-architecture-in-the-wild-nikhila-ravi">Server-less architecture in the wild</a></h4>
+          <footer>
+            <div class="recorded">2016-05-11</div>
+			
+			  <div>Length: 22:36</div>
+			
+			
+              <div>Views: 3103 Likes: 57</div>
+            
+            <div class="event">From <a href="/e/nodeconf-london-2016">NodeConf London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nikhila-ravi">Nikhila Ravi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-london-2016/state-of-nodejs-core-colin-ihrig"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kn0Trjl7ZRE/hqdefault.jpg" alt="State of Node.js Core" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-london-2016/state-of-nodejs-core-colin-ihrig">State of Node.js Core</a></h4>
+          <footer>
+            <div class="recorded">2016-05-11</div>
+			
+			  <div>Length: 26:54</div>
+			
+			
+              <div>Views: 934 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/nodeconf-london-2016">NodeConf London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/colin-ihrig">Colin Ihrig</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-london-2016/swimming-in-the-microservices-ocean-luca-maraschi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TK7eeL3RQ4M/hqdefault.jpg" alt="SWIMming in the microservices ocean" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-london-2016/swimming-in-the-microservices-ocean-luca-maraschi">SWIMming in the microservices ocean</a></h4>
+          <footer>
+            <div class="recorded">2016-05-11</div>
+			
+			  <div>Length: 27:58</div>
+			
+			
+              <div>Views: 600 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nodeconf-london-2016">NodeConf London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luca-maraschi">Luca Maraschi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-london-2016/the-disintermediated-web-substack"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6jcQoSraHcw/hqdefault.jpg" alt="The disintermediated web - Substack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-london-2016/the-disintermediated-web-substack">The disintermediated web - Substack</a></h4>
+          <footer>
+            <div class="recorded">2016-05-11</div>
+			
+			  <div>Length: 19:44</div>
+			
+			
+              <div>Views: 1194 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/nodeconf-london-2016">NodeConf London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-halliday">James Halliday</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL0CdgOSSGlBYnHAl_DZoy9BWvdVQjNKE2">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

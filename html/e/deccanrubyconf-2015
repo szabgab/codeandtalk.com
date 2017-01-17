@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Deccan RubyConf 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Deccan RubyConf 2015</h1>
+
+<div><a href="http://lanyrd.com/2015/drbc2015/">Deccan RubyConf 2015</a></div>
+
+
+<div>Start date: 2015-08-08</div>
+<div>End date: 2015-08-08</div>
+
+<div>Location:
+  Pune
+  Maharashtra
+  <a href="/l/india">India</a>
+</div>
+
+<div><a href="http://www.deccanrubyconf.org/coc.html">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/ruby">Ruby</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/deccanrubyconf">@deccanrubyconf</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/deccanrubyconf">https://www.facebook.com/deccanrubyconf</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Deccan%20RubyConf%202015%20on%202015-08-08%20in%20Pune%2C%20Maharashtra%20India%20%40deccanrubyconf%20http%3A//lanyrd.com/2015/drbc2015/%20%23Ruby%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/accessibility-in-rails-form-viable-with-waiable-shantanu-choudhary-sanghapal-bhowate"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WBhlGOWEv40/hqdefault.jpg" alt="Accessibility in rails form viable with WAIAble" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/accessibility-in-rails-form-viable-with-waiable-shantanu-choudhary-sanghapal-bhowate">Accessibility in rails form viable with WAIAble</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 31:39</div>
+			
+			
+              <div>Views: 347 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sanghapal-bhowate">Sanghapal Bhowate</a>
+             
+                <a href="/p/shantanu-choudhary">Shantanu Choudhary</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/concurrent-ruby-with-celluloid-dilum-navanjana"><img class="list-thumbnail" src="https://i.ytimg.com/vi/U4oeH-3za1M/hqdefault.jpg" alt="Concurrent Ruby with Celluloid" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/concurrent-ruby-with-celluloid-dilum-navanjana">Concurrent Ruby with Celluloid</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 19:38</div>
+			
+			
+              <div>Views: 207 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dilum-navanjana">Dilum Navanjana</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/lightening-talk-productivity-and-health-hacks-manoj-mathai"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n12ocxmHTgE/hqdefault.jpg" alt="Productivity and Health hacks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/lightening-talk-productivity-and-health-hacks-manoj-mathai">Productivity and Health hacks</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 06:01</div>
+			
+			
+              <div>Views: 20 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/manoj-mathai">Manoj Mathai</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/lightning-talk-beautiful-global-models-atul-bhosale"><img class="list-thumbnail" src="https://i.ytimg.com/vi/caElI6ggmxk/hqdefault.jpg" alt="Beautiful Global models" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/lightning-talk-beautiful-global-models-atul-bhosale">Beautiful Global models</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 04:45</div>
+			
+			
+              <div>Views: 64 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/atul-bhosale">Atul Bhosale</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/lightning-talk-digital-nomading-on-rails-ratnadeep-deshmane"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TvMCLDPbUhY/hqdefault.jpg" alt="Digital Nomading on Rails" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/lightning-talk-digital-nomading-on-rails-ratnadeep-deshmane">Digital Nomading on Rails</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 06:27</div>
+			
+			
+              <div>Views: 53 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ratnadeep-deshmane">Ratnadeep Deshmane</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/lightning-talk-easy-server-setup-with-simple-provision-pritesh-jain"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RLoRYFPapQQ/hqdefault.jpg" alt="Easy server setup with Simple Provision" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/lightning-talk-easy-server-setup-with-simple-provision-pritesh-jain">Easy server setup with Simple Provision</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 07:37</div>
+			
+			
+              <div>Views: 17 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pritesh-jain">Pritesh Jain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/lightning-talk-how-i-missed-my-date-manohar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0MG_jrV7km4/hqdefault.jpg" alt="How I missed my date" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/lightning-talk-how-i-missed-my-date-manohar">How I missed my date</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 06:07</div>
+			
+			
+              <div>Views: 49 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/manohar-amrutkar">Manohar Amrutkar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/lightning-talk-podcasts-what-why-when-and-how-mohnish-jadwani"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b7u35Q7Yyrs/hqdefault.jpg" alt="Podcasts - What, Why, When and How" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/lightning-talk-podcasts-what-why-when-and-how-mohnish-jadwani">Podcasts - What, Why, When and How</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 05:23</div>
+			
+			
+              <div>Views: 103 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mohnish-jadwani">Mohnish Jadwani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/lightning-talk-pry-state-gem-sudhagar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KK-kC-f-YQQ/hqdefault.jpg" alt="Lightning talk - pry-state gem - Sudhagar" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/lightning-talk-pry-state-gem-sudhagar">Lightning talk - pry-state gem - Sudhagar</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 03:43</div>
+			
+			
+              <div>Views: 19 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/lightning-talk-why-we-chose-ember-over-angular-and-react-bilal-budhani"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NBbH8C3KZ_Y/hqdefault.jpg" alt="Why we chose Ember over Angular and React" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/lightning-talk-why-we-chose-ember-over-angular-and-react-bilal-budhani">Why we chose Ember over Angular and React</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 04:15</div>
+			
+			
+              <div>Views: 1154 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bilal-budhani">Bilal Budhani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/microservice-architecture-patterns-with-gilmour-piyush-verma"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ydqa_28FTCk/hqdefault.jpg" alt="Microservice architecture patterns with Gilmour" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/microservice-architecture-patterns-with-gilmour-piyush-verma">Microservice architecture patterns with Gilmour</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 33:40</div>
+			
+			
+              <div>Views: 93 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/piyush-verma">Piyush Verma</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/panel-discussion-with-satish-talim"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xfWg5IiBSQI/hqdefault.jpg" alt="Panel discussion with Satish Talim" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/panel-discussion-with-satish-talim">Panel discussion with Satish Talim</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 01:08:00</div>
+			
+			
+              <div>Views: 247 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/satish-talim">Satish Talim</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/rails-assets-pipeline-web-marries-ruby-abhinandan-kothari"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kS07emitO8U/hqdefault.jpg" alt="Rails assets pipeline - Web marries Ruby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/rails-assets-pipeline-web-marries-ruby-abhinandan-kothari">Rails assets pipeline - Web marries Ruby</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 19:10</div>
+			
+			
+              <div>Views: 96 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/abhinandan-kothari">Abhinandan Kothari</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/rails-request-middlewares-santosh-wadghule"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2jkkyT2HIxw/hqdefault.jpg" alt="Rails Request & Middlewares" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/rails-request-middlewares-santosh-wadghule">Rails Request & Middlewares</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 30:03</div>
+			
+			
+              <div>Views: 65 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/santosh-wadghule">Santosh Wadghule</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/rfid-technology-with-the-internet-of-things-tworit-kumar-dash"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oS7UNDmaQ58/hqdefault.jpg" alt="RFID Technology with the Internet of Things" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/rfid-technology-with-the-internet-of-things-tworit-kumar-dash">RFID Technology with the Internet of Things</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 18:59</div>
+			
+			
+              <div>Views: 253 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tworit-kumar-dash">Tworit Kumar Dash</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/see-data-clearly-with-daru-sameer-deshmukh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nebhnjBiZrY/hqdefault.jpg" alt="See data clearly with daru" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/see-data-clearly-with-daru-sameer-deshmukh">See data clearly with daru</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 24:05</div>
+			
+			
+              <div>Views: 176 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sameer-deshmukh">Sameer Deshmukh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/str-resume-what-encoding-is-that-in-satish-perala"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Bd_U2I-jR2o/hqdefault.jpg" alt="str = "Résumé". What encoding is that in? - Satish Perala" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/str-resume-what-encoding-is-that-in-satish-perala">str = "Résumé". What encoding is that in? - Satish Perala</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 33:59</div>
+			
+			
+              <div>Views: 58 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/satish-perala">Satish Perala</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2015/trailblazer-keynote-by-nick-sutterer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PJZQkqn8g4U/hqdefault.jpg" alt="Trailblazer - Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2015/trailblazer-keynote-by-nick-sutterer">Trailblazer - Keynote</a></h4>
+          <footer>
+            <div class="recorded">2015-08-08</div>
+			
+			  <div>Length: 51:55</div>
+			
+			
+              <div>Views: 398 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2015">Deccan RubyConf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-sutterer">Nick Sutterer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLdBNOee0vmiJM__IYjFuNl7MM0niT8U8c">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

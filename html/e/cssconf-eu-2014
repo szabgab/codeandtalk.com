@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>CSSConf EU 2014</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>CSSConf EU 2014</h1>
+
+<div><a href="http://2014.cssconf.eu/">CSSConf EU 2014</a></div>
+
+
+<div>Start date: 2014-09-12</div>
+<div>End date: 2014-09-12</div>
+
+<div>Location:
+  Berlin
+  
+  <a href="/l/germany">Germany</a>
+</div>
+
+<div><a href="http://2014.cssconf.eu/code-of-conduct/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+       <a href="/t/css">CSS</a> 
+   
+       <a href="/t/ux">UX</a> 
+   
+       <a href="/t/design">Design</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/cssconfeu">@cssconfeu</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=CSSConf%20EU%202014%20on%202014-09-12%20in%20Berlin%2C%20%20Germany%20%40cssconfeu%20http%3A//2014.cssconf.eu/%20%23JavaScript%20%23FrontEnd%20%23CSS%20%23UX%20%23Design%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2014/cssconf-eu-2014-addy-osmani-css-performance-tooling"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FEs2jgZBaQA/hqdefault.jpg" alt="CSS Performance Tooling" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2014/cssconf-eu-2014-addy-osmani-css-performance-tooling">CSS Performance Tooling</a></h4>
+          <footer>
+            <div class="recorded">2014-09-12</div>
+			
+			  <div>Length: 46:28</div>
+			
+			
+              <div>Views: 32725 Likes: 564</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2014">CSSConf EU 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/addy-osmani">Addy Osmani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2014/cssconf-eu-2014-bram-stein-the-state-of-web-typography"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VbCqFQ1sTYQ/hqdefault.jpg" alt="The State of Web Typography" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2014/cssconf-eu-2014-bram-stein-the-state-of-web-typography">The State of Web Typography</a></h4>
+          <footer>
+            <div class="recorded">2014-09-12</div>
+			
+			  <div>Length: 26:08</div>
+			
+			
+              <div>Views: 2557 Likes: 44</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2014">CSSConf EU 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bram-stein">Bram Stein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2014/cssconf-eu-2014-jed-schmidt-intro"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bdQ-Okw9gPY/hqdefault.jpg" alt="Intro" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2014/cssconf-eu-2014-jed-schmidt-intro">Intro</a></h4>
+          <footer>
+            <div class="recorded">2014-09-12</div>
+			
+			  <div>Length: 08:06</div>
+			
+			
+              <div>Views: 2267 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2014">CSSConf EU 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jed-schmidt">Jed Schmidt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2014/cssconf-eu-2014-jina-bolton-living-design-systems"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-CRp5Cx7NZw/hqdefault.jpg" alt="Living Design Systems" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2014/cssconf-eu-2014-jina-bolton-living-design-systems">Living Design Systems</a></h4>
+          <footer>
+            <div class="recorded">2014-09-12</div>
+			
+			  <div>Length: 20:30</div>
+			
+			
+              <div>Views: 2582 Likes: 26</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2014">CSSConf EU 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jina-bolton">Jina Bolton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2014/cssconf-eu-2014-john-brown-a-css-dive-trough-googles-powers-of-tech"><img class="list-thumbnail" src="https://i.ytimg.com/vi/I9_jE4V_E7w/hqdefault.jpg" alt="A CSS Dive Trough Google's Powers Of Tech" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2014/cssconf-eu-2014-john-brown-a-css-dive-trough-googles-powers-of-tech">A CSS Dive Trough Google's Powers Of Tech</a></h4>
+          <footer>
+            <div class="recorded">2014-09-12</div>
+			
+			  <div>Length: 26:42</div>
+			
+			
+              <div>Views: 2228 Likes: 32</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2014">CSSConf EU 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-brown">John Brown</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2014/cssconf-eu-2014-karolina-szczur-validate-me"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZlxpF9taprI/hqdefault.jpg" alt="Validate Me" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2014/cssconf-eu-2014-karolina-szczur-validate-me">Validate Me</a></h4>
+          <footer>
+            <div class="recorded">2014-09-12</div>
+			
+			  <div>Length: 34:30</div>
+			
+			
+              <div>Views: 3579 Likes: 35</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2014">CSSConf EU 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/karolina-szczur">Karolina Szczur</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2014/cssconf-eu-2014-mathias-bynens-314-things-i-didnt-know-about-css"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WjP7TEKB7Uo/hqdefault.jpg" alt="3.14 Things I Didn't Know About CSS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2014/cssconf-eu-2014-mathias-bynens-314-things-i-didnt-know-about-css">3.14 Things I Didn't Know About CSS</a></h4>
+          <footer>
+            <div class="recorded">2014-09-12</div>
+			
+			  <div>Length: 28:35</div>
+			
+			
+              <div>Views: 9920 Likes: 240</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2014">CSSConf EU 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mathias-bynens">Mathias Bynens</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2014/cssconf-eu-2014-patrick-hamann-css-and-the-critical-path"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_0Fk85to6hA/hqdefault.jpg" alt="CSS and the Critical Path" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2014/cssconf-eu-2014-patrick-hamann-css-and-the-critical-path">CSS and the Critical Path</a></h4>
+          <footer>
+            <div class="recorded">2014-09-12</div>
+			
+			  <div>Length: 33:43</div>
+			
+			
+              <div>Views: 3926 Likes: 85</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2014">CSSConf EU 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patrick-hamann">Patrick Hamann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2014/cssconf-eu-2014-rachel-andrew-css-grid-layout"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GRexIOtGhBU/hqdefault.jpg" alt="CSS Grid Layout" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2014/cssconf-eu-2014-rachel-andrew-css-grid-layout">CSS Grid Layout</a></h4>
+          <footer>
+            <div class="recorded">2014-09-12</div>
+			
+			  <div>Length: 28:57</div>
+			
+			
+              <div>Views: 11271 Likes: 136</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2014">CSSConf EU 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rachel-andrew">Rachel Andrew</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2014/cssconf-eu-2014-sara-soueidan-styling-and-animating-scalable-vector-graphics-with-css"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lf7L8X6ZBu8/hqdefault.jpg" alt="Styling and Animating Scalable Vector Graphics with CSS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2014/cssconf-eu-2014-sara-soueidan-styling-and-animating-scalable-vector-graphics-with-css">Styling and Animating Scalable Vector Graphics with CSS</a></h4>
+          <footer>
+            <div class="recorded">2014-09-12</div>
+			
+			  <div>Length: 29:17</div>
+			
+			
+              <div>Views: 20421 Likes: 346</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2014">CSSConf EU 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sara-soueidan">Sara Soueidan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2014/cssconf-eu-2014-stoyan-stefanov-shrinking-css"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6lKqXrvbXJ0/hqdefault.jpg" alt="Shrinking CSS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2014/cssconf-eu-2014-stoyan-stefanov-shrinking-css">Shrinking CSS</a></h4>
+          <footer>
+            <div class="recorded">2014-09-12</div>
+			
+			  <div>Length: 25:23</div>
+			
+			
+              <div>Views: 2288 Likes: 24</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2014">CSSConf EU 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stoyan-stefanov">Stoyan Stefanov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2014/cssconf-eu-mood-film"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BhMf-DFEdOA/hqdefault.jpg" alt="CSSconf EU | Mood Film" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2014/cssconf-eu-mood-film">CSSconf EU | Mood Film</a></h4>
+          <footer>
+            <div class="recorded">2014-09-12</div>
+			
+			  <div>Length: 03:46</div>
+			
+			
+              <div>Views: 13911 Likes: 48</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2014">CSSConf EU 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshHAnqFlTxhd0MIXWjLBbM3R">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

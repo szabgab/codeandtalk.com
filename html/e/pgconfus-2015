@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>PGConf US 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>PGConf US 2015</h1>
+
+<div><a href="http://www.pgconf.us/2015/">PGConf US 2015</a></div>
+
+
+<div>Start date: 2015-03-25</div>
+<div>End date: 2015-03-27</div>
+
+<div>Location:
+  New York
+  New York
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://www.pgconf.us/2017/policies/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/postgresql">PostgreSQL</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/pgconfus">@pgconfus</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/pgconf.us">https://www.facebook.com/pgconf.us</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=PGConf%20US%202015%20on%202015-03-25%20in%20New%20York%2C%20New%20York%20USA%20%40pgconfus%20http%3A//www.pgconf.us/2015/%20%23PostgreSQL%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/a-look-at-the-elephants-trunk-postgresql-95"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cX8twOs7xvM/hqdefault.jpg" alt="A look at the Elephants trunk - PostgreSQL 9.5" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/a-look-at-the-elephants-trunk-postgresql-95">A look at the Elephants trunk - PostgreSQL 9.5</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 50:42</div>
+			
+			
+              <div>Views: 1282 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/a-tardis-for-your-orm-application-level-time-travel-in-postgresql"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TRgni5q0YM8/hqdefault.jpg" alt="A TARDIS for your ORM - application level time travel in PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/a-tardis-for-your-orm-application-level-time-travel-in-postgresql">A TARDIS for your ORM - application level time travel in PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 51:28</div>
+			
+			
+              <div>Views: 624 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/advanced-use-of-pg_stat_statements-filtering-regression-testing-more"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hrBchZ_W6GE/hqdefault.jpg" alt="Advanced use of pg_stat_statements: Filtering, Regression Testing & More" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/advanced-use-of-pg_stat_statements-filtering-regression-testing-more">Advanced use of pg_stat_statements: Filtering, Regression Testing & More</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 43:37</div>
+			
+			
+              <div>Views: 563 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/alter-database-add-more-sanity-af1c8b"><img class="list-thumbnail" src="https://i.ytimg.com/vi/y5pNMmJNsK8/hqdefault.jpg" alt="ALTER DATABASE ADD more SANITY" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/alter-database-add-more-sanity-af1c8b">ALTER DATABASE ADD more SANITY</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 57:40</div>
+			
+			
+              <div>Views: 92 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/alter-database-add-more-sanity"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wEnqhwUUa1k/hqdefault.jpg" alt="ALTER DATABASE ADD more SANITY" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/alter-database-add-more-sanity">ALTER DATABASE ADD more SANITY</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 57:40</div>
+			
+			
+              <div>Views: 202 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/amazon-rds-for-postgresql-whats-new-and-lessons-learned"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zYedvEX2qBo/hqdefault.jpg" alt="Amazon RDS for PostgreSQL - What's new and lessons learned" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/amazon-rds-for-postgresql-whats-new-and-lessons-learned">Amazon RDS for PostgreSQL - What's new and lessons learned</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 48:06</div>
+			
+			
+              <div>Views: 886 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/an-introduction-to-temporal-databases-af1864"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5A1M_dAl8rg/hqdefault.jpg" alt="An Introduction to Temporal Databases" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/an-introduction-to-temporal-databases-af1864">An Introduction to Temporal Databases</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 50:10</div>
+			
+			
+              <div>Views: 288 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/an-introduction-to-temporal-databases"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1VYhTOHhzbc/hqdefault.jpg" alt="An Introduction to Temporal Databases" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/an-introduction-to-temporal-databases">An Introduction to Temporal Databases</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 50:09</div>
+			
+			
+              <div>Views: 1664 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/at-the-heart-of-a-giant-postgres-at-tripadvisor"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YquXmwZNnfg/hqdefault.jpg" alt="At The Heart Of A Giant: Postgres At TripAdvisor" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/at-the-heart-of-a-giant-postgres-at-tripadvisor">At The Heart Of A Giant: Postgres At TripAdvisor</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 48:24</div>
+			
+			
+              <div>Views: 1780 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/building-a-database-of-things-with-foreign-data-wrappers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MhfunWx7bgI/hqdefault.jpg" alt="Building a 'Database of Things' with Foreign Data Wrappers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/building-a-database-of-things-with-foreign-data-wrappers">Building a 'Database of Things' with Foreign Data Wrappers</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 56:36</div>
+			
+			
+              <div>Views: 949 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/challenges-in-moving-a-postgres-dbaas-to-openstack"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QOJE0Zy0gsc/hqdefault.jpg" alt="Challenges in Moving a Postgres DBaaS to OpenStack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/challenges-in-moving-a-postgres-dbaas-to-openstack">Challenges in Moving a Postgres DBaaS to OpenStack</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 45:14</div>
+			
+			
+              <div>Views: 102 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/choosing-a-logical-replication-system"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YgNjLtUcHBo/hqdefault.jpg" alt="Choosing a Logical Replication System" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/choosing-a-logical-replication-system">Choosing a Logical Replication System</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 44:53</div>
+			
+			
+              <div>Views: 244 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/citus-data-scale-out-postgresql"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8F78rOM6q1Y/hqdefault.jpg" alt="Citus Data: Scale out PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/citus-data-scale-out-postgresql">Citus Data: Scale out PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 10:40</div>
+			
+			
+              <div>Views: 527 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/connection-pooling-routing-and-queuing-with-pgbouncer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CAKI_eZiRAU/hqdefault.jpg" alt="Connection pooling, routing, and queuing with PgBouncer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/connection-pooling-routing-and-queuing-with-pgbouncer">Connection pooling, routing, and queuing with PgBouncer</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 45:31</div>
+			
+			
+              <div>Views: 1474 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/cstore_fdw-columnar-store-for-postgresql"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5VPRDt8wRw8/hqdefault.jpg" alt="cstore_fdw: Columnar store for PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/cstore_fdw-columnar-store-for-postgresql">cstore_fdw: Columnar store for PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 50:48</div>
+			
+			
+              <div>Views: 363 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/design-solutions-for-building-a-rapid-population-health-analytic-platform-using-postgres-and-postgis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TzCt79rN108/hqdefault.jpg" alt="Design solutions for building a rapid population health analytic platform using Postgres and PostGIS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/design-solutions-for-building-a-rapid-population-health-analytic-platform-using-postgres-and-postgis">Design solutions for building a rapid population health analytic platform using Postgres and PostGIS</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 48:37</div>
+			
+			
+              <div>Views: 155 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/enterprise-grade-deployment-and-security-with-postgresql"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tP1zIiIA7aY/hqdefault.jpg" alt="Enterprise Grade Deployment and Security with PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/enterprise-grade-deployment-and-security-with-postgresql">Enterprise Grade Deployment and Security with PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 42:06</div>
+			
+			
+              <div>Views: 221 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/event-driven-systems-with-postgres-and-pgq"><img class="list-thumbnail" src="https://i.ytimg.com/vi/i7zx08eJ0b8/hqdefault.jpg" alt="Event-driven systems with Postgres and PgQ" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/event-driven-systems-with-postgres-and-pgq">Event-driven systems with Postgres and PgQ</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 39:15</div>
+			
+			
+              <div>Views: 386 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/fashion-is-hard-postgresql-is-easy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1Ug3aCkBRfg/hqdefault.jpg" alt="Fashion Is Hard. PostgreSQL Is Easy." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/fashion-is-hard-postgresql-is-easy">Fashion Is Hard. PostgreSQL Is Easy.</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 23:44</div>
+			
+			
+              <div>Views: 12097 Likes: 46</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/fighting-for-small-data"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_T4hnEwoJ40/hqdefault.jpg" alt="Fighting for Small Data" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/fighting-for-small-data">Fighting for Small Data</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 37:08</div>
+			
+			
+              <div>Views: 96 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/fun-with-functions-by-example"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cIo5nA2jEdg/hqdefault.jpg" alt="Fun with Functions, by Example" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/fun-with-functions-by-example">Fun with Functions, by Example</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 52:57</div>
+			
+			
+              <div>Views: 1515 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/how-does-postgresql-work-with-disks-a-dbas-checklist-in-detail"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lbx-JVcGIFo/hqdefault.jpg" alt="How does PostgreSQL work with disks: a DBA’s checklist in detail" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/how-does-postgresql-work-with-disks-a-dbas-checklist-in-detail">How does PostgreSQL work with disks: a DBA’s checklist in detail</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 47:46</div>
+			
+			
+              <div>Views: 1928 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/how-postgresql-powers-a-growing-biomedical-and-health-informatics-research-program"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v7x-4mwJ7xI/hqdefault.jpg" alt="How PostgreSQL powers a growing biomedical and health informatics research program" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/how-postgresql-powers-a-growing-biomedical-and-health-informatics-research-program">How PostgreSQL powers a growing biomedical and health informatics research program</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 46:18</div>
+			
+			
+              <div>Views: 225 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/json-and-postgresql-the-state-of-the-art"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o8WGJ0NZaM8/hqdefault.jpg" alt="JSON and PostgreSQL, the State of the Art" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/json-and-postgresql-the-state-of-the-art">JSON and PostgreSQL, the State of the Art</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 44:29</div>
+			
+			
+              <div>Views: 2085 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/managing-postgresql-with-puppet"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ghwrh7BcTbE/hqdefault.jpg" alt="Managing PostgreSQL with Puppet" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/managing-postgresql-with-puppet">Managing PostgreSQL with Puppet</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 48:51</div>
+			
+			
+              <div>Views: 315 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/monitoring-postgres-from-the-ground-up-the-metrics-that-matter"><img class="list-thumbnail" src="https://i.ytimg.com/vi/t60MGju8RR8/hqdefault.jpg" alt="Monitoring Postgres from the ground up: the metrics that matter" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/monitoring-postgres-from-the-ground-up-the-metrics-that-matter">Monitoring Postgres from the ground up: the metrics that matter</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 50:36</div>
+			
+			
+              <div>Views: 1408 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/over-the-fifo-and-through-psql-to-postgresql-we-go-migrating-from-sybase-to-postgres"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kI1mD5amtR4/hqdefault.jpg" alt="Over the fifo and Through psql to PostgreSQL We Go: Migrating from Sybase to Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/over-the-fifo-and-through-psql-to-postgresql-we-go-migrating-from-sybase-to-postgres">Over the fifo and Through psql to PostgreSQL We Go: Migrating from Sybase to Postgres</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 38:38</div>
+			
+			
+              <div>Views: 57 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/poor-mans-parallel-processing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZiN-sBOMx4k/hqdefault.jpg" alt="Poor Man's Parallel Processing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/poor-mans-parallel-processing">Poor Man's Parallel Processing</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 39:35</div>
+			
+			
+              <div>Views: 224 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/postgresql-community-meets-business-af1c4a"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LCQXJHkGbg4/hqdefault.jpg" alt="PostgreSQL - Community meets Business" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/postgresql-community-meets-business-af1c4a">PostgreSQL - Community meets Business</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 47:17</div>
+			
+			
+              <div>Views: 102 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/postgresql-community-meets-business"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oeGlbT9QJb8/hqdefault.jpg" alt="PostgreSQL - Community meets Business" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/postgresql-community-meets-business">PostgreSQL - Community meets Business</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 47:17</div>
+			
+			
+              <div>Views: 54 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/postgresql-disaster-recovery-with-barman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SGZ_WRUZQGQ/hqdefault.jpg" alt="PostgreSQL Disaster Recovery with Barman" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/postgresql-disaster-recovery-with-barman">PostgreSQL Disaster Recovery with Barman</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 01:04:23</div>
+			
+			
+              <div>Views: 3068 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/postgresql-performance-presentation-95devel-edition"><img class="list-thumbnail" src="https://i.ytimg.com/vi/K0xHOPXZq9g/hqdefault.jpg" alt="PostgreSQL Performance Presentation (9.5devel edition)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/postgresql-performance-presentation-95devel-edition">PostgreSQL Performance Presentation (9.5devel edition)</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 52:20</div>
+			
+			
+              <div>Views: 1502 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/rank-your-results-using-full-text-search-with-natural-language-queries-to-get-ranked-results"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ynlCCqKM4cY/hqdefault.jpg" alt="Rank Your Results: Using Full Text Search with Natural Language Queries to get Ranked Results" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/rank-your-results-using-full-text-search-with-natural-language-queries-to-get-ranked-results">Rank Your Results: Using Full Text Search with Natural Language Queries to get Ranked Results</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 54:49</div>
+			
+			
+              <div>Views: 446 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/riggs-then-beer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JvhH6dOKXGY/hqdefault.jpg" alt="Riggs, Then Beer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/riggs-then-beer">Riggs, Then Beer</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 17:58</div>
+			
+			
+              <div>Views: 135 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/row-level-security"><img class="list-thumbnail" src="https://i.ytimg.com/vi/__NKfEfvYuI/hqdefault.jpg" alt="Row Level Security" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/row-level-security">Row Level Security</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 49:41</div>
+			
+			
+              <div>Views: 249 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/scale-out-postgresql-with-postgres-xl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XX-0y2Ryaic/hqdefault.jpg" alt="Scale-out PostgreSQL with Postgres-XL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/scale-out-postgresql-with-postgres-xl">Scale-out PostgreSQL with Postgres-XL</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 49:59</div>
+			
+			
+              <div>Views: 2906 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/shootout-at-the-aws-corral"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UWcECqg7m78/hqdefault.jpg" alt="Shootout at the AWS Corral" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/shootout-at-the-aws-corral">Shootout at the AWS Corral</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 52:53</div>
+			
+			
+              <div>Views: 81 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/the-elephants-in-the-room-limitations-of-the-postgresql-core-technology"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zsF1vfHBMBI/hqdefault.jpg" alt="The Elephants In The Room: Limitations of the PostgreSQL Core Technology" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/the-elephants-in-the-room-limitations-of-the-postgresql-core-technology">The Elephants In The Room: Limitations of the PostgreSQL Core Technology</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 51:18</div>
+			
+			
+              <div>Views: 5366 Likes: 39</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/the-future-of-postgresql-multi-master-replication"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4klaPUjbMZo/hqdefault.jpg" alt="The Future of PostgreSQL Multi-Master Replication" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/the-future-of-postgresql-multi-master-replication">The Future of PostgreSQL Multi-Master Replication</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 51:32</div>
+			
+			
+              <div>Views: 2901 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/the-image-of-postgres"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hAuV0AYzMuQ/hqdefault.jpg" alt="The Image of Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/the-image-of-postgres">The Image of Postgres</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 26:13</div>
+			
+			
+              <div>Views: 1176 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/think-your-postgres-backups-and-disaster-recovery-are-safe-lets-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9ceRXMqPyJQ/hqdefault.jpg" alt="Think Your Postgres Backups And Disaster Recovery Are Safe? Let's talk." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/think-your-postgres-backups-and-disaster-recovery-are-safe-lets-talk">Think Your Postgres Backups And Disaster Recovery Are Safe? Let's talk.</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 42:46</div>
+			
+			
+              <div>Views: 206 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/three-easy-pieces-to-todays-postgres"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5HYIAYF4tjc/hqdefault.jpg" alt="Three Easy Pieces to Today's Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/three-easy-pieces-to-todays-postgres">Three Easy Pieces to Today's Postgres</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 18:07</div>
+			
+			
+              <div>Views: 179 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/torodb-a-new-open-source-document-oriented-json-database-built-on-postgres"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Pm_OKGVuqVo/hqdefault.jpg" alt="ToroDB: a new, open-source, document-oriented, JSON database, built on Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/torodb-a-new-open-source-document-oriented-json-database-built-on-postgres">ToroDB: a new, open-source, document-oriented, JSON database, built on Postgres</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 46:04</div>
+			
+			
+              <div>Views: 729 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/vitesse-db-100-postgresql-100-times-faster-for-analytics"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PEmVuYjhQFo/hqdefault.jpg" alt="Vitesse DB: 100% PostgreSQL, 100 Times Faster for Analytics" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/vitesse-db-100-postgresql-100-times-faster-for-analytics">Vitesse DB: 100% PostgreSQL, 100 Times Faster for Analytics</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 29:17</div>
+			
+			
+              <div>Views: 956 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2015/webscales-dead-long-live-postgresql"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HtVLQD38yvU/hqdefault.jpg" alt="Webscale's dead; long live PostgreSQL!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2015/webscales-dead-long-live-postgresql">Webscale's dead; long live PostgreSQL!</a></h4>
+          <footer>
+            <div class="recorded">2015-03-25</div>
+			
+			  <div>Length: 49:41</div>
+			
+			
+              <div>Views: 1033 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2015">PGConf US 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLCExcFCoaxiOqqT_wN48hV4O_B5dspmsM">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

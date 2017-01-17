@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>T-DOSE 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>T-DOSE 2016</h1>
+
+<div><a href="http://www.t-dose.org/">T-DOSE 2016</a></div>
+
+
+<div>Start date: 2016-11-12</div>
+<div>End date: 2016-11-13</div>
+
+<div>Location:
+  Eindhoven
+  
+  <a href="/l/the-netherlands">The Netherlands</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/opensource">OpenSource</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/TDOSE">@TDOSE</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/tdosenl">https://www.facebook.com/tdosenl</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=T-DOSE%202016%20on%202016-11-12%20in%20Eindhoven%2C%20%20The%20Netherlands%20%40TDOSE%20http%3A//www.t-dose.org/%20%23OpenSource%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2016/t-dose-2016-adem-breathe-dag-wieers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CD8rwRjx4w4/hqdefault.jpg" alt="ADEM (Breathe) - An Arduino based device to measure air pollution" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2016/t-dose-2016-adem-breathe-dag-wieers">ADEM (Breathe) - An Arduino based device to measure air pollution</a></h4>
+          <footer>
+            <div class="recorded">2016-11-12</div>
+			
+			  <div>Length: 62:31</div>
+			
+			
+            <div class="event">From <a href="/e/t-dose-2016">T-DOSE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dag-wieers">Dag Wieers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2016/t-dose-2016-digital-personal-locker-your-open-source-ehealth-privacy-box-maurice-verheesen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3g4cIQHaZmA/hqdefault.jpg" alt="Digital personal locker - your open source ehealth privacy box" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2016/t-dose-2016-digital-personal-locker-your-open-source-ehealth-privacy-box-maurice-verheesen">Digital personal locker - your open source ehealth privacy box</a></h4>
+          <footer>
+            <div class="recorded">2016-11-12</div>
+			
+			  <div>Length: 23:50</div>
+			
+			
+              <div>Views: 47 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/t-dose-2016">T-DOSE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maurice-verheesen">Maurice Verheesen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2016/t-dose-2016-from-unix-to-linux-a-time-lapse-of-45-years-hendrik-jan-thomassen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/boahlBmc-NY/hqdefault.jpg" alt="From UNIX to Linux, a time lapse of 45 years" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2016/t-dose-2016-from-unix-to-linux-a-time-lapse-of-45-years-hendrik-jan-thomassen">From UNIX to Linux, a time lapse of 45 years</a></h4>
+          <footer>
+            <div class="recorded">2016-11-12</div>
+			
+			  <div>Length: 56:28</div>
+			
+			
+              <div>Views: 104 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/t-dose-2016">T-DOSE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hendrik-jan-thomassen">Hendrik Jan Thomassen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2016/t-dose-2016-government-de-overheid-open-source-en-privacy-lennart-huizing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/goPK9vi4e6w/hqdefault.jpg" alt="Government  (de overheid), Open Source en Privacy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2016/t-dose-2016-government-de-overheid-open-source-en-privacy-lennart-huizing">Government  (de overheid), Open Source en Privacy</a></h4>
+          <footer>
+            <div class="recorded">2016-11-12</div>
+			
+			  <div>Length: 27:32</div>
+			
+			
+              <div>Views: 40 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2016">T-DOSE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lennart-huizing">Lennart Huizing</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2016/t-dose-2016-in-a-digital-society-opensource-is-the-only-way-brenno-de-winter"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QBhiubiLtjQ/hqdefault.jpg" alt="In a digital society, opensource is the only way" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2016/t-dose-2016-in-a-digital-society-opensource-is-the-only-way-brenno-de-winter">In a digital society, opensource is the only way</a></h4>
+          <footer>
+            <div class="recorded">2016-11-12</div>
+			
+			  <div>Length: 28:56</div>
+			
+			
+            <div class="event">From <a href="/e/t-dose-2016">T-DOSE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brenno-de-winter">Brenno de Winter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2016/t-dose-2016-perspectives-on-privacy-laurine-blonk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AfauSLV5-90/hqdefault.jpg" alt="Perspectives on privacy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2016/t-dose-2016-perspectives-on-privacy-laurine-blonk">Perspectives on privacy</a></h4>
+          <footer>
+            <div class="recorded">2016-11-12</div>
+			
+			  <div>Length: 25:02</div>
+			
+			
+              <div>Views: 30 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2016">T-DOSE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/laurine-blonk">Laurine Blonk</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2016/t-dose-2016-solving-complex-problems-using-foss-tools-maikel-mardjan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/D9HZBTPvWho/hqdefault.jpg" alt="Solving complex problems using FOSS tools" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2016/t-dose-2016-solving-complex-problems-using-foss-tools-maikel-mardjan">Solving complex problems using FOSS tools</a></h4>
+          <footer>
+            <div class="recorded">2016-11-12</div>
+			
+			  <div>Length: 42:23</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2016">T-DOSE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maikel-mardjan">Maikel Mardjan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2016/t-dose-2016-the-lsociety-won-emiel-brok"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tvjKDj4trwQ/hqdefault.jpg" alt="The Lsociety Won!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2016/t-dose-2016-the-lsociety-won-emiel-brok">The Lsociety Won!</a></h4>
+          <footer>
+            <div class="recorded">2016-11-12</div>
+			
+			  <div>Length: 53:05</div>
+			
+			
+              <div>Views: 50 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/t-dose-2016">T-DOSE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/emiel-brok">Emiel Brok</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2016/t-dose-2016-why-we-are-all-going-to-shit-in-the-next-30-years-due-to-computers-jeroen-baten"><img class="list-thumbnail" src="https://i.ytimg.com/vi/y02-2h8ZOWE/hqdefault.jpg" alt="Why we are all going to shit in the next 30 years due to computers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2016/t-dose-2016-why-we-are-all-going-to-shit-in-the-next-30-years-due-to-computers-jeroen-baten">Why we are all going to shit in the next 30 years due to computers</a></h4>
+          <footer>
+            <div class="recorded">2016-11-12</div>
+			
+			  <div>Length: 31:26</div>
+			
+			
+            <div class="event">From <a href="/e/t-dose-2016">T-DOSE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeroen-baten">Jeroen Baten</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2016/t-dose2016-architecture-open-architecture-and-foss-tools-maikel-mardjan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PifzCV9Wtg4/hqdefault.jpg" alt="Architecture, Open Architecture and FOSS tools" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2016/t-dose2016-architecture-open-architecture-and-foss-tools-maikel-mardjan">Architecture, Open Architecture and FOSS tools</a></h4>
+          <footer>
+            <div class="recorded">2016-11-12</div>
+			
+			  <div>Length: 41:28</div>
+			
+			
+              <div>Views: 27 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/t-dose-2016">T-DOSE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maikel-mardjan">Maikel Mardjan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2016/t-dose2016-dns-i-know-who-you-are-devdas-bhagat"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rQhimVnGJVo/hqdefault.jpg" alt="DNS - I know who you are!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2016/t-dose2016-dns-i-know-who-you-are-devdas-bhagat">DNS - I know who you are!</a></h4>
+          <footer>
+            <div class="recorded">2016-11-12</div>
+			
+			  <div>Length: 50:23</div>
+			
+			
+              <div>Views: 31 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2016">T-DOSE 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/devdas-bhagat">Devdas Bhagat</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLBZBIkixHEieq0N5M3iYTclBeOfgO0v9q">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>CSSConf EU 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>CSSConf EU 2015</h1>
+
+<div><a href="http://2015.cssconf.eu/">CSSConf EU 2015</a></div>
+
+
+<div>Start date: 2015-09-26</div>
+<div>End date: 2015-09-26</div>
+
+<div>Location:
+  Berlin
+  
+  <a href="/l/germany">Germany</a>
+</div>
+
+<div><a href="http://2015.cssconf.eu/code-of-conduct/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+       <a href="/t/css">CSS</a> 
+   
+       <a href="/t/ux">UX</a> 
+   
+       <a href="/t/design">Design</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/cssconfeu">@cssconfeu</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=CSSConf%20EU%202015%20on%202015-09-26%20in%20Berlin%2C%20%20Germany%20%40cssconfeu%20http%3A//2015.cssconf.eu/%20%23JavaScript%20%23FrontEnd%20%23CSS%20%23UX%20%23Design%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2015/cssconf-2015-tammie-lister-emotion-through-css"><img class="list-thumbnail" src="https://i.ytimg.com/vi/C9im1tkit0E/hqdefault.jpg" alt="Emotion Through CSS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2015/cssconf-2015-tammie-lister-emotion-through-css">Emotion Through CSS</a></h4>
+          <footer>
+            <div class="recorded">2015-09-26</div>
+			
+			  <div>Length: 25:06</div>
+			
+			
+              <div>Views: 2911 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2015">CSSConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tammie-lister">Tammie Lister</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2015/cssconf-2015-zoe-m-gillenwater-enhancing-responsiveness-with-flexbox"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_98SE8WUvLk/hqdefault.jpg" alt="Enhancing Responsiveness With Flexbox" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2015/cssconf-2015-zoe-m-gillenwater-enhancing-responsiveness-with-flexbox">Enhancing Responsiveness With Flexbox</a></h4>
+          <footer>
+            <div class="recorded">2015-09-26</div>
+			
+			  <div>Length: 37:14</div>
+			
+			
+              <div>Views: 12164 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2015">CSSConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/zoe-m-gillenwater">Zoe M. Gillenwater</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2015/cssconf-eu-2015-claudina-sarahe-the-front-end-revolution"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0gpraHLQ0L0/hqdefault.jpg" alt="The Front-End Revolution" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2015/cssconf-eu-2015-claudina-sarahe-the-front-end-revolution">The Front-End Revolution</a></h4>
+          <footer>
+            <div class="recorded">2015-09-26</div>
+			
+			  <div>Length: 21:58</div>
+			
+			
+              <div>Views: 4868 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2015">CSSConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/claudina-sarahe">Claudina Sarahe</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2015/cssconf-eu-2015-glen-maddern-interoperable-css"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aIyhhHTmsXE/hqdefault.jpg" alt="Interoperable CSS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2015/cssconf-eu-2015-glen-maddern-interoperable-css">Interoperable CSS</a></h4>
+          <footer>
+            <div class="recorded">2015-09-26</div>
+			
+			  <div>Length: 28:38</div>
+			
+			
+              <div>Views: 5450 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2015">CSSConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/glen-maddern">Glen Maddern</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2015/cssconf-eu-2015-horia-dragomir-i-dont-want-to-be-on-facebook-all-day"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rSx5RxuaZfc/hqdefault.jpg" alt="I Don't Want To Be On Facebook All Day!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2015/cssconf-eu-2015-horia-dragomir-i-dont-want-to-be-on-facebook-all-day">I Don't Want To Be On Facebook All Day!</a></h4>
+          <footer>
+            <div class="recorded">2015-09-26</div>
+			
+			  <div>Length: 25:58</div>
+			
+			
+              <div>Views: 3903 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2015">CSSConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/horia-dragomir">Horia Dragomir</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2015/cssconf-eu-2015-katie-kurkoski-developing-for-localization"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CNNUCECrjso/hqdefault.jpg" alt="Developing for Localization" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2015/cssconf-eu-2015-katie-kurkoski-developing-for-localization">Developing for Localization</a></h4>
+          <footer>
+            <div class="recorded">2015-09-26</div>
+			
+			  <div>Length: 28:20</div>
+			
+			
+              <div>Views: 1327 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2015">CSSConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/katie-kurkoski">Katie Kurkoski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2015/cssconf-eu-2015-lea-verou-the-missing-slice"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eVnUDTtOLE0/hqdefault.jpg" alt="The Missing Slice" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2015/cssconf-eu-2015-lea-verou-the-missing-slice">The Missing Slice</a></h4>
+          <footer>
+            <div class="recorded">2015-09-26</div>
+			
+			  <div>Length: 43:20</div>
+			
+			
+              <div>Views: 9501 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2015">CSSConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lea-verou">Lea Verou</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2015/cssconf-eu-2015-michael-mifsud-its-all-just-functions-and-variables"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sijmNe9Yp5Q/hqdefault.jpg" alt="It’s All Just Functions And Variables" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2015/cssconf-eu-2015-michael-mifsud-its-all-just-functions-and-variables">It’s All Just Functions And Variables</a></h4>
+          <footer>
+            <div class="recorded">2015-09-26</div>
+			
+			  <div>Length: 34:00</div>
+			
+			
+              <div>Views: 2269 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2015">CSSConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-mifsud">Michael Mifsud</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2015/cssconf-eu-2015-mood-film"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yO-ypk8HOfg/hqdefault.jpg" alt="CSSconf EU 2015 – Mood Film" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2015/cssconf-eu-2015-mood-film">CSSconf EU 2015 – Mood Film</a></h4>
+          <footer>
+            <div class="recorded">2015-09-26</div>
+			
+			  <div>Length: 03:25</div>
+			
+			
+              <div>Views: 12195 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2015">CSSConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2015/cssconf-eu-2015-nick-hehr-intro"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0zbHNUbADgM/hqdefault.jpg" alt="Intro" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2015/cssconf-eu-2015-nick-hehr-intro">Intro</a></h4>
+          <footer>
+            <div class="recorded">2015-09-26</div>
+			
+			  <div>Length: 08:12</div>
+			
+			
+              <div>Views: 2414 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2015">CSSConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-hehr">Nick Hehr</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2015/cssconf-eu-2015-tim-holman-funcss"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5HP6k43T0yM/hqdefault.jpg" alt="Fun.css" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2015/cssconf-eu-2015-tim-holman-funcss">Fun.css</a></h4>
+          <footer>
+            <div class="recorded">2015-09-26</div>
+			
+			  <div>Length: 30:11</div>
+			
+			
+              <div>Views: 4208 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2015">CSSConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-holman">Tim Holman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-eu-2015/cssconf-eu-2015-una-kravets-photoshop-is-dead-editing-images-in-css"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LY65F2e4B5w/hqdefault.jpg" alt="Photoshop is Dead!: Editing Images in CSS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-eu-2015/cssconf-eu-2015-una-kravets-photoshop-is-dead-editing-images-in-css">Photoshop is Dead!: Editing Images in CSS</a></h4>
+          <footer>
+            <div class="recorded">2015-09-26</div>
+			
+			  <div>Length: 28:43</div>
+			
+			
+              <div>Views: 10592 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-eu-2015">CSSConf EU 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/una-kravets">Una Kravets</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshHoV6GgvG9WWAP6rjnEdAs9">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

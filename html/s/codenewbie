@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>CodeNewbie with Saron Yitbarek</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>CodeNewbie with Saron Yitbarek</h1>
+    <div><a href="http://www.codenewbie.org/">CodeNewbie with Saron Yitbarek</a></div>
+    <div>
+       <a href="http://feeds.codenewbie.org/cnpodcast.xml" class="rss" target="_blank">RSS</a> 
+       <a href="https://itunes.apple.com/us/podcast/codenewbie/id919219256" class="itunes" target="_blank">ITUNES</a>
+    </div>
+    <ul>
+    
+        <li>
+           2014-09-16 <div class="ep">1</div> <a href="http://www.codenewbie.org/podcast/ep-1-bootcamps-water-coolers-and-hiring-devs">Bootcamps, Water Coolers, and Hiring Devs</a>
+               (
+                 
+                    <a href="/p/carlos-lazo">carlos-lazo</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-09-22 <div class="ep">2</div> <a href="http://www.codenewbie.org/podcast/ep-2-coding-like-a-boss-w-brian-douglas">Coding Like A Boss</a>
+               (
+                 
+                    <a href="/p/brian-douglas">brian-douglas</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-09-28 <div class="ep">3</div> <a href="http://www.codenewbie.org/podcast/ep-3-code-couple">Code Couple</a>
+               (
+                 
+                    <a href="/p/felicia-o-garro">felicia-o-garro</a>
+                 
+                    <a href="/p/jamal-o-garro">jamal-o-garro</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-10-05 <div class="ep">4</div> <a href="http://www.codenewbie.org/podcast/wearing-all-the-hats">Wearing All The Hats</a>
+               (
+                 
+                    <a href="/p/kinsey-ann-durham">kinsey-ann-durham</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-10-12 <div class="ep">5</div> <a href="http://www.codenewbie.org/podcast/ep-5-speaking-of-speaking">Speaking of Speaking</a>
+               (
+                 
+                    <a href="/p/marty-haught">marty-haught</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-10-20 <div class="ep">6</div> <a href="http://www.codenewbie.org/podcast/comics-and-code">Comics and Code</a>
+               (
+                 
+                    <a href="/p/rachel-nabors">rachel-nabors</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-10-26 <div class="ep">7</div> <a href="http://www.codenewbie.org/podcast/meteor">Meteor</a>
+               (
+                 
+                    <a href="/p/ciara-burkett">ciara-burkett</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-11-03 <div class="ep">8</div> <a href="http://www.codenewbie.org/podcast/from-student-project-to-big-app">From Student Project to Big App</a>
+               (
+                 
+                    <a href="/p/william-jeffries">william-jeffries</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-11-09 <div class="ep">9</div> <a href="http://www.codenewbie.org/podcast/how-to-build-a-product">How To Build A Product</a>
+               (
+                 
+                    <a href="/p/poornima-vijayashanker">poornima-vijayashanker</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-11-16 <div class="ep">10</div> <a href="http://www.codenewbie.org/podcast/nitpicks-and-devils">Nitpicks and Devils</a>
+               (
+                 
+                    <a href="/p/katrina-owen">katrina-owen</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-11-23 <div class="ep">11</div> <a href="http://www.codenewbie.org/podcast/24-pull-requests">24 Pull Requests</a>
+               (
+                 
+                    <a href="/p/andrew-nesbitt">andrew-nesbitt</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-11-30 <div class="ep">12</div> <a href="http://www.codenewbie.org/podcast/mother-coders">Mother Coders</a>
+               (
+                 
+                    <a href="/p/tina-lee">tina-lee</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-12-07 <div class="ep">13</div> <a href="http://www.codenewbie.org/podcast/the-not-so-amateur-programmer">The Not-So-Amateur Programmer</a>
+               (
+                 
+                    <a href="/p/lauren-orsini">lauren-orsini</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-12-14 <div class="ep">14</div> <a href="http://www.codenewbie.org/podcast/on-testing">On Testing</a>
+               (
+                 
+                    <a href="/p/noel-rappin">noel-rappin</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-12-21 <div class="ep">15</div> <a href="http://www.codenewbie.org/podcast/intro-to-devops">Intro to DevOps</a>
+               (
+                 
+                    <a href="/p/christopher-webber">christopher-webber</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2014-12-28 <div class="ep">16</div> <a href="http://www.codenewbie.org/podcast/code-ghost">Code Ghost</a>
+               (
+                 
+                    <a href="/p/jenn-schiffer">jenn-schiffer</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2015-01-04 <div class="ep">17</div> <a href="http://www.codenewbie.org/podcast/getting-involved">Getting Involved</a>
+               (
+                 
+                    <a href="/p/scott-hanselman">scott-hanselman</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2015-01-12 <div class="ep">18</div> <a href="http://www.codenewbie.org/podcast/autotune-inclusivity-and-getting-a-job">Autotune, Inclusivity, and Getting A Job</a>
+               (
+                 
+                    <a href="/p/vanessa-hurst">vanessa-hurst</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2015-01-19 <div class="ep">19</div> <a href="http://www.codenewbie.org/podcast/the-hard-way">The Hard Way</a>
+               (
+                 
+                    <a href="/p/zed-a-shaw">zed-a-shaw</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2015-01-26 <div class="ep">20</div> <a href="http://www.codenewbie.org/podcast/accessibility">accessibility</a>
+               (
+                 
+                    <a href="/p/joseph-mclarty">joseph-mclarty</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2015-02-02 <div class="ep">21</div> <a href="http://www.codenewbie.org/podcast/teaching-kids-to-code">Teaching Kids To Code</a>
+               (
+                 
+                    <a href="/p/rebecca-garcia">rebecca-garcia</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2015-02-09 <div class="ep">22</div> <a href="www.codenewbie.org/podcast/intro-to-ux">Intro to UX</a>
+               (
+                 
+                    <a href="/p/catt-small">catt-small</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2015-02-16 <div class="ep">23</div> <a href="http://www.codenewbie.org/podcast/ask-codenewbie">Ask CodeNewbie</a>
+               (
+                 
+                    <a href="/p/scott-hanselman">scott-hanselman</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2015-02-23 <div class="ep">24</div> <a href="http://www.codenewbie.org/podcast/monsters-and-code">Monsters And Code</a>
+               (
+                 
+                    <a href="/p/sarah-frisk">sarah-frisk</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2015-03-02 <div class="ep">25</div> <a href="http://www.codenewbie.org/podcast/from-software-to-hardware">From Software To Hardware</a>
+               (
+                 
+                    <a href="/p/sara-chipps">sara-chipps</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2015-03-09 <div class="ep">26</div> <a href="http://www.codenewbie.org/podcast/the-hardware-marketplace">The Hardware Marketplace</a>
+               (
+                 
+                    <a href="/p/julia-grace">julia-grace</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2015-03-16 <div class="ep">27</div> <a href="http://www.codenewbie.org/podcast/intro-to-raspberry-pi">Intro to Raspberry Pi</a>
+               (
+                 
+                    <a href="/p/matt-richardson">matt-richardson</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2015-03-23 <div class="ep">28</div> <a href="http://www.codenewbie.org/podcast/coding-printers">Coding Printers</a>
+               (
+                 
+                    <a href="/p/kate-donahue">kate-donahue</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2015-03-30 <div class="ep">29</div> <a href="http://www.codenewbie.org/podcast/a-children-s-makerspace">A Children's Makerspace</a>
+               (
+                 
+                    <a href="/p/gokul-krishnan">gokul-krishnan</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2015-10-12 <div class="ep">57</div> <a href="http://www.codenewbie.org/podcast/podcasting-with-changelog">Podcasting with Changelog</a>
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/jerod-santo">jerod-santo</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/saron-yitbarek">saron-yitbarek</a>
+                 
+               )
+        </li>
+    
+    </ul>
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Rolling Scopes 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Rolling Scopes 2015</h1>
+
+<div><a href="https://2015.conf.rollingscopes.com/">Rolling Scopes 2015</a></div>
+
+
+<div>Start date: 2015-02-01</div>
+<div>End date: 2015-02-01</div>
+
+<div>Location:
+  Minsk
+  
+  <a href="/l/belarus">Belarus</a>
+</div>
+
+<div><a href="https://2015.conf.rollingscopes.com/codeofconduct.html">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/rollingscopes">@rollingscopes</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/groups/TheRollingScopes/">https://www.facebook.com/groups/TheRollingScopes/</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Rolling%20Scopes%202015%20on%202015-02-01%20in%20Minsk%2C%20%20Belarus%20%40rollingscopes%20https%3A//2015.conf.rollingscopes.com/%20%23JavaScript%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/rollingscopes-2015/rsconf-dmitry-lomov-javascript-at-the-speed-of-light"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xAEY4Xmaep0/hqdefault.jpg" alt="JavaScript at the speed of light." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rollingscopes-2015/rsconf-dmitry-lomov-javascript-at-the-speed-of-light">JavaScript at the speed of light.</a></h4>
+          <footer>
+            <div class="recorded">2015-02-01</div>
+			
+			  <div>Length: 52:28</div>
+			
+			
+              <div>Views: 1337 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/rollingscopes-2015">Rolling Scopes 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dmitry-lomov">Dmitry Lomov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rollingscopes-2015/rsconf-dnevnik-chast-pervaia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1Vtnu_K7QvQ/hqdefault.jpg" alt="#RSConf Дневник. Часть первая" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rollingscopes-2015/rsconf-dnevnik-chast-pervaia">#RSConf Дневник. Часть первая</a></h4>
+          <footer>
+            <div class="recorded">2015-02-01</div>
+			
+			  <div>Length: 06:37</div>
+			
+			
+              <div>Views: 326 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/rollingscopes-2015">Rolling Scopes 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rollingscopes-2015/rsconf-dnevnik-chast-tretia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JXZUmnrXauY/hqdefault.jpg" alt="#RSConf Дневник. Часть третья" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rollingscopes-2015/rsconf-dnevnik-chast-tretia">#RSConf Дневник. Часть третья</a></h4>
+          <footer>
+            <div class="recorded">2015-02-01</div>
+			
+			  <div>Length: 05:55</div>
+			
+			
+              <div>Views: 187 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/rollingscopes-2015">Rolling Scopes 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rollingscopes-2015/rsconf-dnevnik-chast-vtoraia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rlnruNCb2Qc/hqdefault.jpg" alt="#RSConf Дневник. Часть вторая" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rollingscopes-2015/rsconf-dnevnik-chast-vtoraia">#RSConf Дневник. Часть вторая</a></h4>
+          <footer>
+            <div class="recorded">2015-02-01</div>
+			
+			  <div>Length: 07:24</div>
+			
+			
+              <div>Views: 282 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/rollingscopes-2015">Rolling Scopes 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rollingscopes-2015/rsconf-dr-axel-rauschmayer-using-ecmascript-6-today-part-i"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Fg3bEZIcnUw/hqdefault.jpg" alt="Using ECMAScript 6 today. Part I" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rollingscopes-2015/rsconf-dr-axel-rauschmayer-using-ecmascript-6-today-part-i">Using ECMAScript 6 today. Part I</a></h4>
+          <footer>
+            <div class="recorded">2015-02-01</div>
+			
+			  <div>Length: 40:45</div>
+			
+			
+              <div>Views: 13750 Likes: 119</div>
+            
+            <div class="event">From <a href="/e/rollingscopes-2015">Rolling Scopes 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dr-axel-rauschmayer">Dr. Axel Rauschmayer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rollingscopes-2015/rsconf-dr-axel-rauschmayer-using-ecmascript-6-today-part-ii"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Vhhq1WpzsnM/hqdefault.jpg" alt="Using ECMAScript 6 today. Part II" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rollingscopes-2015/rsconf-dr-axel-rauschmayer-using-ecmascript-6-today-part-ii">Using ECMAScript 6 today. Part II</a></h4>
+          <footer>
+            <div class="recorded">2015-02-01</div>
+			
+			  <div>Length: 53:05</div>
+			
+			
+              <div>Views: 4965 Likes: 62</div>
+            
+            <div class="event">From <a href="/e/rollingscopes-2015">Rolling Scopes 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dr-axel-rauschmayer">Dr. Axel Rauschmayer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rollingscopes-2015/rsconf-ember-angular-react-andrei-listochkin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RgJMIbAB5Yg/hqdefault.jpg" alt="#RSConf - Ember = Angular = React, Андрей Листочкин" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rollingscopes-2015/rsconf-ember-angular-react-andrei-listochkin">#RSConf - Ember = Angular = React, Андрей Листочкин</a></h4>
+          <footer>
+            <div class="recorded">2015-02-01</div>
+			
+			  <div>Length: 59:45</div>
+			
+			
+              <div>Views: 16609 Likes: 267</div>
+            
+            <div class="event">From <a href="/e/rollingscopes-2015">Rolling Scopes 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrey-listochkin">Andrey Listochkin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rollingscopes-2015/rsconf-gregor-adams-discovering-fractals-with-css"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fjcOe4sYErk/hqdefault.jpg" alt="Discovering fractals with CSS." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rollingscopes-2015/rsconf-gregor-adams-discovering-fractals-with-css">Discovering fractals with CSS.</a></h4>
+          <footer>
+            <div class="recorded">2015-02-01</div>
+			
+			  <div>Length: 34:28</div>
+			
+			
+              <div>Views: 684 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/rollingscopes-2015">Rolling Scopes 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gregor-adams">Gregor Adams</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rollingscopes-2015/rsconf-hakon-wium-lie-why-css-was-invented"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lgs38ih7Evk/hqdefault.jpg" alt="Why CSS was invented" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rollingscopes-2015/rsconf-hakon-wium-lie-why-css-was-invented">Why CSS was invented</a></h4>
+          <footer>
+            <div class="recorded">2015-02-01</div>
+			
+			  <div>Length: 59:18</div>
+			
+			
+              <div>Views: 726 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/rollingscopes-2015">Rolling Scopes 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hakon-wium-lie">Håkon Wium Lie</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rollingscopes-2015/rsconf-juha-paananen-frp-with-baconjs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3HS3i8LW8dQ/hqdefault.jpg" alt="FRP with Bacon.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rollingscopes-2015/rsconf-juha-paananen-frp-with-baconjs">FRP with Bacon.js</a></h4>
+          <footer>
+            <div class="recorded">2015-02-01</div>
+			
+			  <div>Length: 45:34</div>
+			
+			
+              <div>Views: 846 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/rollingscopes-2015">Rolling Scopes 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/juha-paananen">Juha Paananen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rollingscopes-2015/rsconf-kiryl-dziamura-aperiodic-tiling"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n1hJikvfOuk/hqdefault.jpg" alt="Aperiodic tiling." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rollingscopes-2015/rsconf-kiryl-dziamura-aperiodic-tiling">Aperiodic tiling.</a></h4>
+          <footer>
+            <div class="recorded">2015-02-01</div>
+			
+			  <div>Length: 11:54</div>
+			
+			
+              <div>Views: 393 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rollingscopes-2015">Rolling Scopes 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kiryl-dziamura">Kiryl Dziamura</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rollingscopes-2015/rsconf-martin-naumann-the-visual-web-of-today-and-tomorrow-webgl-and-webvr"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9bhPyGVp3iA/hqdefault.jpg" alt="The visual web of today and tomorrow - WebGL and WebVR." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rollingscopes-2015/rsconf-martin-naumann-the-visual-web-of-today-and-tomorrow-webgl-and-webvr">The visual web of today and tomorrow - WebGL and WebVR.</a></h4>
+          <footer>
+            <div class="recorded">2015-02-01</div>
+			
+			  <div>Length: 44:55</div>
+			
+			
+              <div>Views: 415 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/rollingscopes-2015">Rolling Scopes 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/martin-naumann">Martin Naumann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLe--kalBDwjgrOqRSbJrJd-o7M3-KlOff">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

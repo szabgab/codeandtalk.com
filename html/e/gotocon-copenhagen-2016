@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>GOTO Copenhagen 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>GOTO Copenhagen 2016</h1>
+
+<div><a href="https://gotocon.com/cph-2016/">GOTO Copenhagen 2016</a></div>
+
+
+<div>Start date: 2016-10-03</div>
+<div>End date: 2016-10-04</div>
+
+<div>Location:
+  Copenhagen
+  
+  <a href="/l/denmark">Denmark</a>
+</div>
+
+<div><a href="https://gotocon.com/cph-2016/codeofconduct/">Code of Conduct</a></div>
+<div><a href="https://diversitytickets.org/events/38">Diversity Tickets</a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/GOTOcph">@GOTOcph</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/GOTOConference">https://www.facebook.com/GOTOConference</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=GOTO%20Copenhagen%202016%20on%202016-10-03%20in%20Copenhagen%2C%20%20Denmark%20%40GOTOcph%20https%3A//gotocon.com/cph-2016/%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-a-quick-introduction-to-angular-2-tiberiu-cavaci"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ge8ZY5Bn8rY/hqdefault.jpg" alt="A Quick Introduction to Angular 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-a-quick-introduction-to-angular-2-tiberiu-cavaci">A Quick Introduction to Angular 2</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 50:39</div>
+			
+			
+              <div>Views: 722 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tiberiu-cavaci">Tiberiu Covaci</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-appsec-and-microservices-sam-newman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wlt7nCRWx_w/hqdefault.jpg" alt="Appsec and Microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-appsec-and-microservices-sam-newman">Appsec and Microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 52:57</div>
+			
+			
+              <div>Views: 873 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sam-newman">Sam Newman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-automated-driving-taking-the-human-factors-researcher-out-of-the-loop-sanna-pampel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HAiJUMuyg_k/hqdefault.jpg" alt="Automated Driving - Taking the Human Factors Researcher out of the Loop" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-automated-driving-taking-the-human-factors-researcher-out-of-the-loop-sanna-pampel">Automated Driving - Taking the Human Factors Researcher out of the Loop</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 42:29</div>
+			
+			
+              <div>Views: 194 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sanna-pampe">Sanna Pampel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-better-android-development-with-kotlin-and-gradle-ty-smith"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_DaZQ374Chc/hqdefault.jpg" alt="Better Android Development with Kotlin and Gradle" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-better-android-development-with-kotlin-and-gradle-ty-smith">Better Android Development with Kotlin and Gradle</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 40:07</div>
+			
+			
+              <div>Views: 1907 Likes: 32</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ty-smith">Ty Smith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-building-a-high-performance-team-is-everyones-job-camille-fournier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Pd7ObKc6NrY/hqdefault.jpg" alt="Building a High-Performance Team is Everyone's Job" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-building-a-high-performance-team-is-everyones-job-camille-fournier">Building a High-Performance Team is Everyone's Job</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 49:06</div>
+			
+			
+              <div>Views: 1149 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/camille-fournier">Camille Fournier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-communities-of-practice-the-missing-piece-of-your-agile-organisation-emily-webber"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9Owrovki73o/hqdefault.jpg" alt="Communities of Practice, the Missing Piece of Your Agile Organisation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-communities-of-practice-the-missing-piece-of-your-agile-organisation-emily-webber">Communities of Practice, the Missing Piece of Your Agile Organisation</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 48:18</div>
+			
+			
+              <div>Views: 497 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/emily-webber">Emily Webber</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-continuous-retrospectives-linda-rising"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kJBKYAVZf6o/hqdefault.jpg" alt="Continuous Retrospectives" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-continuous-retrospectives-linda-rising">Continuous Retrospectives</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 46:39</div>
+			
+			
+              <div>Views: 1465 Likes: 28</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/linda-rising">Linda Rising</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-deep-learning-what-is-it-and-what-it-can-do-for-you-diogo-moitinho-de-almeida"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fvNsz7XMM9w/hqdefault.jpg" alt="Deep Learning - What is it and What It Can Do For You" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-deep-learning-what-is-it-and-what-it-can-do-for-you-diogo-moitinho-de-almeida">Deep Learning - What is it and What It Can Do For You</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 50:51</div>
+			
+			
+              <div>Views: 1209 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/diogo-moitinho-de-almeida">Diogo Moitinho de Almeida</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-discovering-research-ideas-using-semantic-vectors-machine-learning-mads-rydahl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uMsoP0X0t34/hqdefault.jpg" alt="Discovering Research Ideas Using Semantic Vectors & Machine Learning" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-discovering-research-ideas-using-semantic-vectors-machine-learning-mads-rydahl">Discovering Research Ideas Using Semantic Vectors & Machine Learning</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 49:16</div>
+			
+			
+              <div>Views: 487 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mads-rydahl">Mads Rydahl</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-distributed-of-systems-and-teams-bridget-kromhout"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qCoR4M9Xrfc/hqdefault.jpg" alt="Distributed - of Systems and Teams" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-distributed-of-systems-and-teams-bridget-kromhout">Distributed - of Systems and Teams</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 47:01</div>
+			
+			
+              <div>Views: 505 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bridget-kromhout">Bridget Kromhout</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-effecient-android-layouts-daniel-lew"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X4qMBpDsVnM/hqdefault.jpg" alt="Effecient Android Layouts" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-effecient-android-layouts-daniel-lew">Effecient Android Layouts</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 47:39</div>
+			
+			
+              <div>Views: 2991 Likes: 71</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-lew">Daniel Lew</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-elm-friendly-functional-programming-for-the-web-luke-westby"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tN5UmM2yZPY/hqdefault.jpg" alt="Elm-Friendly Functional Programming For The Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-elm-friendly-functional-programming-for-the-web-luke-westby">Elm-Friendly Functional Programming For The Web</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 50:51</div>
+			
+			
+              <div>Views: 1716 Likes: 25</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luke-westby">Luke Westby</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-everything-floats-a-look-into-the-chinese-mirror-gert-sylvest"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7k15MlOPFLE/hqdefault.jpg" alt="Everything Floats - A look into the Chinese mirror" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-everything-floats-a-look-into-the-chinese-mirror-gert-sylvest">Everything Floats - A look into the Chinese mirror</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 54:00</div>
+			
+			
+              <div>Views: 363 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gert-sylvest">Gert Sylvest</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-exploring-rxjava-2-for-android-jake-wharton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/htIXKI5gOQU/hqdefault.jpg" alt="Exploring RxJava 2 for Android" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-exploring-rxjava-2-for-android-jake-wharton">Exploring RxJava 2 for Android</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 44:15</div>
+			
+			
+              <div>Views: 9167 Likes: 182</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jake-wharton">Jake Wharton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-exploring-stackoverflow-data-evelina-gabasova"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qlKZKN7il7c/hqdefault.jpg" alt="Exploring StackOverflow Data" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-exploring-stackoverflow-data-evelina-gabasova">Exploring StackOverflow Data</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 47:16</div>
+			
+			
+              <div>Views: 2440 Likes: 66</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/evelina-gabasova">Evelina Gabasova</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-exploring-swift-memory-layout-mike-ash"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ERYNyrfXjlg/hqdefault.jpg" alt="Exploring Swift Memory Layout" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-exploring-swift-memory-layout-mike-ash">Exploring Swift Memory Layout</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 57:18</div>
+			
+			
+              <div>Views: 909 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-ash">Mike Ash</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-fixing-the-image-problems-of-the-web-using-machine-learning-chris-heilmann"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BLvFRgiDNlo/hqdefault.jpg" alt="Fixing the Image Problems of the Web using Machine Learning" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-fixing-the-image-problems-of-the-web-using-machine-learning-chris-heilmann">Fixing the Image Problems of the Web using Machine Learning</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 38:12</div>
+			
+			
+              <div>Views: 527 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christian-heilmann">Christian Heilmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-hand-to-hand-combat-with-a-gorilla-wont-work-tony-grout"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jQkMGIdoLgQ/hqdefault.jpg" alt="Hand to Hand Combat with a Gorilla Won't Work" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-hand-to-hand-combat-with-a-gorilla-wont-work-tony-grout">Hand to Hand Combat with a Gorilla Won't Work</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 49:01</div>
+			
+			
+              <div>Views: 436 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tony-grout">Tony Grout</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-how-to-survive-in-the-robotics-industry-as-a-software-developer-gregory-pelcha"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vmxtrmFFy-Q/hqdefault.jpg" alt="How to Survive in the Robotics Industry as a Software Developer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-how-to-survive-in-the-robotics-industry-as-a-software-developer-gregory-pelcha">How to Survive in the Robotics Industry as a Software Developer</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 38:28</div>
+			
+			
+              <div>Views: 417 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gregory-pelcha">Gregory Pelcha</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-inspect-adapt-then-what-corey-haines"><img class="list-thumbnail" src="https://i.ytimg.com/vi/d3rCIAuAlI8/hqdefault.jpg" alt="Inspect & Adapt, then What?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-inspect-adapt-then-what-corey-haines">Inspect & Adapt, then What?</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 44:24</div>
+			
+			
+              <div>Views: 386 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/corey-haines">Corey Haines</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-interoperability-between-r-and-other-languages-john-d-cook"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gMNX1Zb7p58/hqdefault.jpg" alt="Interoperability between R and other Languages" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-interoperability-between-r-and-other-languages-john-d-cook">Interoperability between R and other Languages</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 43:04</div>
+			
+			
+              <div>Views: 258 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-d-cook">John D. Cook</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-kotlin-ready-for-production-hadi-hariri"><img class="list-thumbnail" src="https://i.ytimg.com/vi/R0J_Jl7bKY8/hqdefault.jpg" alt="Kotlin - Ready for Production" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-kotlin-ready-for-production-hadi-hariri">Kotlin - Ready for Production</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 58:47</div>
+			
+			
+              <div>Views: 3265 Likes: 51</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hadi-hariri">Hadi Hariri</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-leakcanary-then-what-nuking-nasty-memory-leaks-pierre-yves-ricau"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7A7Uv9ZBE2U/hqdefault.jpg" alt="LeakCanary, then what? Nuking Nasty Memory Leaks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-leakcanary-then-what-nuking-nasty-memory-leaks-pierre-yves-ricau">LeakCanary, then what? Nuking Nasty Memory Leaks</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 36:56</div>
+			
+			
+              <div>Views: 1112 Likes: 32</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pierre-yves-ricau">Pierre-Yves Ricau</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-microservices-a-utopian-mystery-praveena-fernandes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OIqcR5yi_to/hqdefault.jpg" alt="Microservices: A Utopian Mystery" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-microservices-a-utopian-mystery-praveena-fernandes">Microservices: A Utopian Mystery</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 51:49</div>
+			
+			
+              <div>Views: 1368 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/praveena-fernandes">Praveena Fernandes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-microservices-in-go-matt-heath"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WiCru2zIWWs/hqdefault.jpg" alt="Microservices in Go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-microservices-in-go-matt-heath">Microservices in Go</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 50:30</div>
+			
+			
+              <div>Views: 4359 Likes: 90</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-heath">Matt Heath</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-panel-discussion-the-future-of-robotics"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iSpreBatyf0/hqdefault.jpg" alt="GOTO 2016 • Panel Discussion: The Future of Robotics" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-panel-discussion-the-future-of-robotics">GOTO 2016 • Panel Discussion: The Future of Robotics</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 47:12</div>
+			
+			
+              <div>Views: 363 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-phoenix-a-web-framework-for-the-new-web-jose-valim"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bk3icU8iIto/hqdefault.jpg" alt="Phoenix a Web Framework for the New Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-phoenix-a-web-framework-for-the-new-web-jose-valim">Phoenix a Web Framework for the New Web</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 59:51</div>
+			
+			
+              <div>Views: 1990 Likes: 35</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jose-valim">Jose Valim</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-progressive-web-apps-the-return-of-the-web-chris-heilmann"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QyToQUl4Ou0/hqdefault.jpg" alt="Progressive Web Apps - the Return of the Web?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-progressive-web-apps-the-return-of-the-web-chris-heilmann">Progressive Web Apps - the Return of the Web?</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 43:09</div>
+			
+			
+              <div>Views: 1416 Likes: 29</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christian-heilmann">Christian Heilmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-retrospective-anti-patterns-aino-vonge-corry"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Os7_lF6VMXw/hqdefault.jpg" alt="Retrospective Anti-Patterns" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-retrospective-anti-patterns-aino-vonge-corry">Retrospective Anti-Patterns</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 48:52</div>
+			
+			
+              <div>Views: 1452 Likes: 25</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aino-vonge-corry">Aino Vonge Corry</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-scaling-iot-freek-van-gool-michiel-fokke"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h4zq9hUxJg8/hqdefault.jpg" alt="Scaling IoT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-scaling-iot-freek-van-gool-michiel-fokke">Scaling IoT</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 49:30</div>
+			
+			
+              <div>Views: 425 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michiel-fokke">Michiel Fokke</a>
+             
+                <a href="/p/freek-van-gool">Freek van Gool</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-secrets-of-high-performing-teams-science-edition-jez-humble"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EmDtmYwDs50/hqdefault.jpg" alt="Secrets of High Performing Teams: Science Edition" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-secrets-of-high-performing-teams-science-edition-jez-humble">Secrets of High Performing Teams: Science Edition</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 51:40</div>
+			
+			
+              <div>Views: 3509 Likes: 54</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jez-humble">Jez Humble</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-shepherding-government-towards-effective-delivery-stephen-foreshew-cain"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8_doeXsmIVw/hqdefault.jpg" alt="Shepherding Government Towards Effective Delivery" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-shepherding-government-towards-effective-delivery-stephen-foreshew-cain">Shepherding Government Towards Effective Delivery</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 51:38</div>
+			
+			
+              <div>Views: 149 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephen-foreshew-cain">Stephen Foreshew-Cain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-smoke-mirrors-the-magic-behind-wonderful-ui-in-android-israel-ferrer-camacho"><img class="list-thumbnail" src="https://i.ytimg.com/vi/912hbLVdIQE/hqdefault.jpg" alt="Smoke & Mirrors the Magic behind Wonderful UI in Android" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-smoke-mirrors-the-magic-behind-wonderful-ui-in-android-israel-ferrer-camacho">Smoke & Mirrors the Magic behind Wonderful UI in Android</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 36:07</div>
+			
+			
+              <div>Views: 854 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/israel-ferrer-camacho">Israel Ferrer Camacho</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-solving-diabetes-with-open-source-software-hardware-scott-hanselman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uNhYhlBQoEY/hqdefault.jpg" alt="Solving Diabetes with Open Source Software & Hardware" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-solving-diabetes-with-open-source-software-hardware-scott-hanselman">Solving Diabetes with Open Source Software & Hardware</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 50:57</div>
+			
+			
+              <div>Views: 1142 Likes: 34</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/scott-hanselman">Scott Hanselman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-taking-storage-for-a-ride-rene-schmidt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kq4gp90QUcs/hqdefault.jpg" alt="Taking Storage for a Ride" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-taking-storage-for-a-ride-rene-schmidt">Taking Storage for a Ride</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 51:33</div>
+			
+			
+              <div>Views: 419 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rene-schmidt">Rene Schmidt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-the-return-of-stream-io-andre-staltz-medeiros"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Tkjg179M-Nc/hqdefault.jpg" alt="The Return of Stream I/O" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-the-return-of-stream-io-andre-staltz-medeiros">The Return of Stream I/O</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 42:43</div>
+			
+			
+              <div>Views: 1683 Likes: 53</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andre-staltz-medeiros">André Staltz Medeiros</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-the-ultimate-arduino-bootstrap-preben-thoro"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zNmweu4xiNE/hqdefault.jpg" alt="The Ultimate Arduino Bootstrap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-the-ultimate-arduino-bootstrap-preben-thoro">The Ultimate Arduino Bootstrap</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 46:25</div>
+			
+			
+              <div>Views: 256 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/preben-thoro">Preben Thoro</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-transforming-car-development-neelan-choksi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iJGHLicOZkg/hqdefault.jpg" alt="Transforming Car Development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-transforming-car-development-neelan-choksi">Transforming Car Development</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 38:37</div>
+			
+			
+              <div>Views: 141 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/neelan-choksi">Neelan Choksi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-using-open-source-techs-to-unearth-the-stories-of-the-panama-papers-michael-hunger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MxlLDSUBJX8/hqdefault.jpg" alt="Using Open Source Techs to Unearth the Stories of the Panama Papers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-using-open-source-techs-to-unearth-the-stories-of-the-panama-papers-michael-hunger">Using Open Source Techs to Unearth the Stories of the Panama Papers</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 51:52</div>
+			
+			
+              <div>Views: 212 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-hunger">Michael Hunger</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-visualise-document-and-explore-your-software-architechture-simon-brown"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GM_J_jRp62g/hqdefault.jpg" alt="Visualise, Document and Explore Your Software Architechture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-visualise-document-and-explore-your-software-architechture-simon-brown">Visualise, Document and Explore Your Software Architechture</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 49:48</div>
+			
+			
+              <div>Views: 993 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-brown">Simon Brown</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-what-our-brains-can-teach-us-about-software-engineering-julie-pitt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5whMQwyW9Zw/hqdefault.jpg" alt="What our Brains can Teach us About Software Engineering" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-what-our-brains-can-teach-us-about-software-engineering-julie-pitt">What our Brains can Teach us About Software Engineering</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 42:07</div>
+			
+			
+              <div>Views: 958 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/julie-pitt">Julie Pitt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-when-devops-meets-regulation-integrating-continuous-with-government-jez-humble"><img class="list-thumbnail" src="https://i.ytimg.com/vi/STRpThSqKDk/hqdefault.jpg" alt="When DevOps Meets Regulation: Integrating 'Continuous' with 'Government'" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-when-devops-meets-regulation-integrating-continuous-with-government-jez-humble">When DevOps Meets Regulation: Integrating 'Continuous' with 'Government'</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 47:58</div>
+			
+			
+              <div>Views: 448 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jez-humble">Jez Humble</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-why-cross-functional-teams-build-better-microservices-peter-gillard-moss"><img class="list-thumbnail" src="https://i.ytimg.com/vi/J_bhu84SspM/hqdefault.jpg" alt="Why Cross-Functional Teams Build Better Microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-why-cross-functional-teams-build-better-microservices-peter-gillard-moss">Why Cross-Functional Teams Build Better Microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 45:53</div>
+			
+			
+              <div>Views: 642 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-gillard-moss">Peter-Gillard Moss</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-copenhagen-2016/goto-2016-why-you-should-take-another-look-at-c-mads-torgersen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zQXNq-isqFI/hqdefault.jpg" alt="Why You Should Take Another Look at C#" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-copenhagen-2016/goto-2016-why-you-should-take-another-look-at-c-mads-torgersen">Why You Should Take Another Look at C#</a></h4>
+          <footer>
+            <div class="recorded">2016-10-03</div>
+			
+			  <div>Length: 53:38</div>
+			
+			
+              <div>Views: 4145 Likes: 59</div>
+            
+            <div class="event">From <a href="/e/gotocon-copenhagen-2016">GOTO Copenhagen 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mads-torgersen">Mads Torgersen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLEx5khR4g7PIu7g3dXpwnGFdV69Wp-wce">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

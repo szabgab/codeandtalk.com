@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>ChangeLog</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>ChangeLog</h1>
+    <div><a href="https://changelog.com/podcast/">ChangeLog</a></div>
+    <div>
+       <a href="http://feeds.5by5.tv/changelog" class="rss" target="_blank">RSS</a> 
+       <a href="https://itunes.apple.com/podcast/the-changelog/id341623264" class="itunes" target="_blank">ITUNES</a>
+    </div>
+    <ul>
+    
+        <li>
+           2009-11-25 <div class="ep">2</div> <a href="https://changelog.com/2/">The Original Changelog Weekly</a>
+               (
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2009-11-27 <div class="ep">3</div> <a href="https://changelog.com/3/">The Go Programming Language from Google with Rob Pike</a>
+               (
+                 
+                    <a href="/p/rob-pike">rob-pike</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2009-12-01 <div class="ep">4</div> <a href="https://changelog.com/4/">Chrome OS, Thor and ROaR</a>
+               (
+                 
+                    <a href="/p/rob-pike">rob-pike</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2009-12-06 <div class="ep">5</div> <a href="https://changelog.com/5/">Document Cloud and Underscore.js with Jeremy Ashkenas</a>
+               (
+                 
+                    <a href="/p/jeremy-ashkenas">jeremy-ashkenas</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2009-12-15 <div class="ep">6</div> <a href="https://changelog.com/6/">The Weekly News with Steven Bristol</a>
+               (
+                 
+                    <a href="/p/steven-bristol">steven-bristol</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2009-12-17 <div class="ep">7</div> <a href="https://changelog.com/7/">10gen and MongoDB with Mike Dirolf</a>
+               (
+                 
+                    <a href="/p/mike-dirolf">mike-dirolf</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-01-14 <div class="ep">8</div> <a href="https://changelog.com/8/">Appcelerator's Titanium and Titanium Mobile with Marshall Culpepper</a>
+               (
+                 
+                    <a href="/p/marshall-culpepper">marshall-culpepper</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-01-19 <div class="ep">9</div> <a href="https://changelog.com/9/">Fix-me, Configliere, and more Node.js</a>
+               (
+                 
+                    <a href="/p/marshall-culpepper">marshall-culpepper</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-01-25 <div class="ep">10</div> <a href="https://changelog.com/10/">All Things GitHub with Chris Wanstrath</a>
+               (
+                 
+                    <a href="/p/chris-wanstrath">chris-wanstrath</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-01-29 <div class="ep">11</div> <a href="https://changelog.com/11/">Ordered List, RailsTips.org, and MongoMapper with John Nunemaker</a>
+               (
+                 
+                    <a href="/p/john-nunemaker">john-nunemaker</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-02-03 <div class="ep">12</div> <a href="https://changelog.com/12/">Gordon is such a Showoff</a>
+               (
+                 
+                    <a href="/p/john-nunemaker">john-nunemaker</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-02-10 <div class="ep">13</div> <a href="https://changelog.com/13/">Civic hacking with Luigi Montanez and Jeremy Carbaugh</a>
+               (
+                 
+                    <a href="/p/luigi-ray-montanez">luigi-ray-montanez</a>
+                 
+                    <a href="/p/jeremy-carbaugh">jeremy-carbaugh</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-02-18 <div class="ep">14</div> <a href="https://changelog.com/14/">Riak, the New Erlang-based NoSQL Store with Andy Gross and Sean Cribbs</a>
+               (
+                 
+                    <a href="/p/andy-gross">andy-gross</a>
+                 
+                    <a href="/p/sean-cribbs">sean-cribbs</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-02-27 <div class="ep">15</div> <a href="https://changelog.com/15/">OAuth, Hurl.it, and Baconfile with Leah Culver</a>
+               (
+                 
+                    <a href="/p/leah-culver">leah-culver</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-03-08 <div class="ep">16</div> <a href="https://changelog.com/16/">Ajax.org frameworks with Ruben Daniels and Rik Arends</a>
+               (
+                 
+                    <a href="/p/rik-arends">rik-arends</a>
+                 
+                    <a href="/p/ruben-daniels">ruben-daniels</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-03-11 <div class="ep">17</div> <a href="https://changelog.com/17/">Open Source Publishing with Geoffrey Grosenbach, Brandon Mathis, and Tim Caswell</a>
+               (
+                 
+                    <a href="/p/brandon-mathis">brandon-mathis</a>
+                 
+                    <a href="/p/geoffrey-grosenbach">geoffrey-grosenbach</a>
+                 
+                    <a href="/p/tim-caswell">tim-caswell</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-03-18 <div class="ep">18</div> <a href="https://changelog.com/18/">NoSQL Smackdown!</a>
+               (
+                 
+                    <a href="/p/stu-hood">stu-hood</a>
+                 
+                    <a href="/p/werner-vogels">werner-vogels</a>
+                 
+                    <a href="/p/jan-lehnardt">jan-lehnardt</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-03-30 <div class="ep">19</div> <a href="https://changelog.com/19/">Ruby, TextMate, and Red Dirt Ruby Conf with James Edward Gray</a>
+               (
+                 
+                    <a href="/p/james-edward-gray-ii">james-edward-gray-ii</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2011-04-06 <div class="ep">20</div> <a href="https://changelog.com/20/">Node.js and Server-Side JavaScript with Felix Geisendörfer</a>
+               (
+                 
+                    <a href="/p/felix-geisendorfer">felix-geisendorfer</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-04-20 <div class="ep">21</div> <a href="https://changelog.com/21/">Tweets from Chirp, Twitter's Developer Conference</a>
+               (
+                 
+                    <a href="/p/christie-koehler">christie-koehler</a>
+                 
+                    <a href="/p/hayes-davis">hayes-davis</a>
+                 
+                    <a href="/p/john-manoogian-iii">john-manoogian-iii</a>
+                 
+                    <a href="/p/erik-michaels-ober">erik-michaels-ober</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-04-20 <div class="ep">22</div> <a href="https://changelog.com/22/">Sammy.js and Semantic Versioning with Aaron Quint</a>
+               (
+                 
+                    <a href="/p/aaron-quint">aaron-quint</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-05-11 <div class="ep">23</div> <a href="https://changelog.com/23/">The Ruby Racer with Charles Lowell</a>
+               (
+                 
+                    <a href="/p/charles-lowell">charles-lowell</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+                    <a href="/p/gregg-pollack">gregg-pollack</a>
+                 
+               )
+        </li>
+    
+        <li>
+           2010-05-18 <div class="ep">24</div> <a href="https://changelog.com/24/">Tornado, Hip-hop, and Three20 with David Recordon</a>
+               (
+                 
+                    <a href="/p/paul-buchheit">paul-buchheit</a>
+                 
+                    <a href="/p/joe-hewitt">joe-hewitt</a>
+                 
+                    <a href="/p/haiping-zhou">haiping-zhou</a>
+                 
+                    <a href="/p/david-recordon">david-recordon</a>
+                 
+                    <a href="/p/scott-macvicar">scott-macvicar</a>
+                 
+                    <a href="/p/owen-yamauchi">owen-yamauchi</a>
+                 
+               )
+               (
+                 
+                    <a href="/p/adam-stacoviak">adam-stacoviak</a>
+                 
+                    <a href="/p/wynn-netherland">wynn-netherland</a>
+                 
+               )
+        </li>
+    
+    </ul>
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

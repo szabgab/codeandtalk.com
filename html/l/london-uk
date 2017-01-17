@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Open source conferences in London, UK</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Open source conferences in London, UK</h1>
+
+
+<table id="conferences" class="display compact">
+  <thead>
+    <tr><th>Start</th><th>CFP</th><th>CoC</th><th>A11y</th><th>Videos?</th><th>What</th><th>Where</th></tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <td>2017-02-16</td>
+      <td class="cfp_past">2016-10-17</td>
+      <td><a href="http://phpconference.co.uk/conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/phpconference-uk-2017">PHP UK Conference</a></td>
+      <td>London,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-02-17</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/reasons-2017">Reasons To 2017</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-28</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://react.london/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/react-london-2017">React London 2017</a></td>
+      <td>London,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-11</td>
+      <td class="cfp_past">2017-01-16</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/devoxx-uk-2017">Devoxx UK 2017</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-24</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://2017.uxlondon.com/conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td><a href="http://2017.uxlondon.com/accessibility"><i class="fa fa-universal-access"></i></a></td>
+      <td></td>
+      <td><a href="/e/uxlondon-2017">UX London 2017</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-11-07</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://angularconnect.com/2017/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/angularconnect-2017">Angular Connect 2017</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+
+<h2>Earlier events</h2>
+<table id="earlier" class="display compact">
+  <thead>
+    <tr><th>Start</th><th>CFP</th><th>CoC</th><th>A11y</th><th>Videos?</th><th>What</th><th>Where</th></tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <td>2009-12-05</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/london-perl-workshop-2009">London Perl Workshop 2009</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2010-12-04</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/london-perl-workshop-2010">London Perl Workshop 2010</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2011-11-12</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/london-perl-workshop-2011">London Perl Workshop 2011</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2012-11-24</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/london-perl-workshop-2012">London Perl Workshop 2012</a></td>
+      <td>London,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2013-11-30</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/london-perl-workshop-2013">London Perl Workshop 2013</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2014-11-08</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/london-perl-workshop-2014">London Perl Workshop 2014</a></td>
+      <td>London,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-12-12</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></td>
+      <td>London,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-05-11</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://london.nodeconf.com/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/nodeconf-london-2016">NodeConf London 2016</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-05-18</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://2016.uxlondon.com/conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td><a href="http://2016.uxlondon.com/accessibility"><i class="fa fa-universal-access"></i></a></td>
+      <td></td>
+      <td><a href="/e/uxlondon-2016">UX London 2016</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-06-08</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-09-09</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://container.camp/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/container-camp-uk-2016">Container Camp UK 2016</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-09-27</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://angularconnect.com/2016/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/angularconnect-2016">Angular Connect 2016</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-12</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://gotocon.com/london-2016/coc/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/gotocon-london-2016">GOTO London 2016</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-20</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/devseccon-london-2016">DevSecCon London 2016</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-27</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/droidcon-uk-2016">DroidCon London 2016</a></td>
+      <td>London,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-28</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/mozfest-2016">Mozfest 2016</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-11-01</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/futuredecoded-2016">Future Decoded 2016</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-11-14</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://2016.seleniumconf.co.uk/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-11-17</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/gotocon-accelerate-2016">GOTO Accelerate 2016</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-12-01</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://skillsmatter.com/go/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/clojure-exchange-2016">Clojure Exchange 2016</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-12-03</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/london-perl-workshop-2016">London Perl Workshop 2016</a></td>
+      <td>London,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-01-16</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://ndc-london.com/page/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/ndc-london-2017">NDC London 2017</a></td>
+      <td>London, England,  <a href="/l/uk">UK</a></td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

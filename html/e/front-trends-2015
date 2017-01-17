@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Front-Trends 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Front-Trends 2015</h1>
+
+<div><a href="https://2015.front-trends.com/">Front-Trends 2015</a></div>
+
+
+<div>Start date: 2015-05-06</div>
+<div>End date: 2015-05-08</div>
+
+<div>Location:
+  Warsaw
+  
+  <a href="/l/poland">Poland</a>
+</div>
+
+<div><a href="https://2015.front-trends.com/code-of-conduct/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/html">HTML</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+       <a href="/t/web">web</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/fronttrends">@fronttrends</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/FrontTrends">https://www.facebook.com/FrontTrends</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Front-Trends%202015%20on%202015-05-06%20in%20Warsaw%2C%20%20Poland%20%40fronttrends%20https%3A//2015.front-trends.com/%20%23JavaScript%20%23HTML%20%23FrontEnd%20%23web%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/aria-accessibility-apis-and-coding-like-you-give-a-damn-leonie-watson-front-trends-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qdB8SRhqvFc/hqdefault.jpg" alt="ARIA, Accessibility APIs and coding like you give a damn! – Léonie Watson / Front-Trends 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/aria-accessibility-apis-and-coding-like-you-give-a-damn-leonie-watson-front-trends-2015">ARIA, Accessibility APIs and coding like you give a damn! – Léonie Watson / Front-Trends 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 32:18</div>
+			
+			
+              <div>Views: 2620 Likes: 40</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/bastian-albers-lightning-talk-at-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zLZhqHagr64/hqdefault.jpg" alt="Bastian Albers / Lightning Talk at Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/bastian-albers-lightning-talk-at-front-trends-2015-warsaw-poland">Bastian Albers / Lightning Talk at Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 06:02</div>
+			
+			
+              <div>Views: 65 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/css-fractal-art-gregor-adams-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EQqdTAT0Zyc/hqdefault.jpg" alt="CSS Fractal Art – Gregor Adams / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/css-fractal-art-gregor-adams-front-trends-2015-warsaw-poland">CSS Fractal Art – Gregor Adams / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 33:44</div>
+			
+			
+              <div>Views: 708 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/designing-web-interfaces-for-kids-trine-falbe-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/t1hMdMV4ytQ/hqdefault.jpg" alt="Designing web interfaces for kids – Trine Falbe / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/designing-web-interfaces-for-kids-trine-falbe-front-trends-2015-warsaw-poland">Designing web interfaces for kids – Trine Falbe / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 40:34</div>
+			
+			
+              <div>Views: 517 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/ecmascript-6-highlights-and-recommendations-axel-rauschmayer-front-trends-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/k_Dwu_rqAYY/hqdefault.jpg" alt="ECMAScript 6: highlights and recommendations – Axel Rauschmayer / Front-Trends 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/ecmascript-6-highlights-and-recommendations-axel-rauschmayer-front-trends-2015">ECMAScript 6: highlights and recommendations – Axel Rauschmayer / Front-Trends 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 54:21</div>
+			
+			
+              <div>Views: 1943 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/friendlier-more-powerful-glen-maddern-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hOW-IWHmd_Y/hqdefault.jpg" alt="Friendlier, More Powerful – Glen Maddern / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/friendlier-more-powerful-glen-maddern-front-trends-2015-warsaw-poland">Friendlier, More Powerful – Glen Maddern / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 33:12</div>
+			
+			
+              <div>Views: 641 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/front-trends-2015-highlights"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DPMx-Fp6lT0/hqdefault.jpg" alt="Front-Trends 2015 Highlights" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/front-trends-2015-highlights">Front-Trends 2015 Highlights</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 01:04</div>
+			
+			
+              <div>Views: 3438 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/front-trends-2015-reel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/trfjeM43lD4/hqdefault.jpg" alt="Front Trends 2015 Reel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/front-trends-2015-reel">Front Trends 2015 Reel</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 03:26</div>
+			
+			
+              <div>Views: 987 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/functional-and-reactive-jetpack-for-javascript-dmytrii-shchadei-front-trends-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/M38uJ5llnrc/hqdefault.jpg" alt="Functional and Reactive Jetpack for Javascript – Dmytrii Shchadei / Front-Trends 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/functional-and-reactive-jetpack-for-javascript-dmytrii-shchadei-front-trends-2015">Functional and Reactive Jetpack for Javascript – Dmytrii Shchadei / Front-Trends 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 26:34</div>
+			
+			
+              <div>Views: 525 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/how-to-build-a-streaming-parser-peter-van-der-zee-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2akq3myhBt0/hqdefault.jpg" alt="How to build a streaming parser – Peter van der Zee / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/how-to-build-a-streaming-parser-peter-van-der-zee-front-trends-2015-warsaw-poland">How to build a streaming parser – Peter van der Zee / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 26:58</div>
+			
+			
+              <div>Views: 208 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/how-to-build-photoshop-webgl-not-just-for-3d-felix-palmer-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/x6fXhY17atI/hqdefault.jpg" alt="How to build Photoshop – WebGL not just for 3D – Felix Palmer / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/how-to-build-photoshop-webgl-not-just-for-3d-felix-palmer-front-trends-2015-warsaw-poland">How to build Photoshop – WebGL not just for 3D – Felix Palmer / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 35:12</div>
+			
+			
+              <div>Views: 772 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/kornel-lesinski-lightning-talk-at-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uWR0fstrFnA/hqdefault.jpg" alt="Kornel Lesiński / Lightning Talk at Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/kornel-lesinski-lightning-talk-at-front-trends-2015-warsaw-poland">Kornel Lesiński / Lightning Talk at Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 11:13</div>
+			
+			
+              <div>Views: 85 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/lets-mashup-the-web-and-the-real-world-sayanee-basu-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lomoXHDoZJo/hqdefault.jpg" alt="Let's mashup the web and the real world – Sayanee Basu / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/lets-mashup-the-web-and-the-real-world-sayanee-basu-front-trends-2015-warsaw-poland">Let's mashup the web and the real world – Sayanee Basu / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 30:27</div>
+			
+			
+              <div>Views: 967 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/making-development-workflows-simple-peter-muller-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yBtQBvOv1z8/hqdefault.jpg" alt="Making development workflows simple – Peter Müller / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/making-development-workflows-simple-peter-muller-front-trends-2015-warsaw-poland">Making development workflows simple – Peter Müller / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 34:22</div>
+			
+			
+              <div>Views: 1560 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/meaningful-animations-making-ux-exceptional-zach-saucier-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oS-rFKC-Wwc/hqdefault.jpg" alt="Meaningful Animations: Making UX Exceptional – Zach Saucier / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/meaningful-animations-making-ux-exceptional-zach-saucier-front-trends-2015-warsaw-poland">Meaningful Animations: Making UX Exceptional – Zach Saucier / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 37:26</div>
+			
+			
+              <div>Views: 971 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/mikolaj-dadela-lightning-talk-at-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bjF-D36bxWY/hqdefault.jpg" alt="Mikołaj Dadela / Lightning Talk at Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/mikolaj-dadela-lightning-talk-at-front-trends-2015-warsaw-poland">Mikołaj Dadela / Lightning Talk at Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 16:36</div>
+			
+			
+              <div>Views: 179 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/nerd-disco-the-next-generation-tim-pietrusky-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PGHgZT2aI8o/hqdefault.jpg" alt="NERD DISCO: The Next Generation – Tim Pietrusky / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/nerd-disco-the-next-generation-tim-pietrusky-front-trends-2015-warsaw-poland">NERD DISCO: The Next Generation – Tim Pietrusky / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 23:48</div>
+			
+			
+              <div>Views: 1209 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/nuqjatlh-what-does-it-mean-gunnar-bittersmann-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ocfeaFFxoNc/hqdefault.jpg" alt="nuqjatlh (What does it mean?) – Gunnar Bittersmann / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/nuqjatlh-what-does-it-mean-gunnar-bittersmann-front-trends-2015-warsaw-poland">nuqjatlh (What does it mean?) – Gunnar Bittersmann / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 40:05</div>
+			
+			
+              <div>Views: 497 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/punched-card-coding-javascript-functionality-with-css-mark-robbins-front-trends-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xhUfiOSOk3g/hqdefault.jpg" alt="Punched card coding – Javascript functionality with CSS – Mark Robbins / Front-Trends 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/punched-card-coding-javascript-functionality-with-css-mark-robbins-front-trends-2015">Punched card coding – Javascript functionality with CSS – Mark Robbins / Front-Trends 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 32:44</div>
+			
+			
+              <div>Views: 4546 Likes: 63</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/realistic-responsive-design-inayaili-de-leon-persson-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TJioWiZjTMo/hqdefault.jpg" alt="Realistic responsive design – Inayaili de León Persson / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/realistic-responsive-design-inayaili-de-leon-persson-front-trends-2015-warsaw-poland">Realistic responsive design – Inayaili de León Persson / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 30:02</div>
+			
+			
+              <div>Views: 516 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/stas-malolepszy-lightning-talk-at-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gAoZCdlYokg/hqdefault.jpg" alt="Staś Małolepszy / Lightning Talk at Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/stas-malolepszy-lightning-talk-at-front-trends-2015-warsaw-poland">Staś Małolepszy / Lightning Talk at Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 07:11</div>
+			
+			
+              <div>Views: 167 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/stefan-judis-lightning-talk-at-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QCDP3G588HU/hqdefault.jpg" alt="Stefan Judis / Lightning Talk at Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/stefan-judis-lightning-talk-at-front-trends-2015-warsaw-poland">Stefan Judis / Lightning Talk at Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 04:54</div>
+			
+			
+              <div>Views: 180 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/szymon-nowak-lightning-talk-at-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tA7M8kSgKUw/hqdefault.jpg" alt="Szymon Nowak / Lightning Talk at Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/szymon-nowak-lightning-talk-at-front-trends-2015-warsaw-poland">Szymon Nowak / Lightning Talk at Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 05:33</div>
+			
+			
+              <div>Views: 78 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/the-human-element-damian-wielgosik-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1ahYKHc202s/hqdefault.jpg" alt="The Human Element – Damian Wielgosik / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/the-human-element-damian-wielgosik-front-trends-2015-warsaw-poland">The Human Element – Damian Wielgosik / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 33:19</div>
+			
+			
+              <div>Views: 1015 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/the-javascript-board-games-of-your-childhood-michal-budzynski-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/02IDgNX0Om0/hqdefault.jpg" alt="The JavaScript board games of your childhood – Michał Budzyński / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/the-javascript-board-games-of-your-childhood-michal-budzynski-front-trends-2015-warsaw-poland">The JavaScript board games of your childhood – Michał Budzyński / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 29:31</div>
+			
+			
+              <div>Views: 516 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/the-style-guide-platform-robert-haritonov-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vw2Ii2pPxzQ/hqdefault.jpg" alt="The Style Guide Platform – Robert Haritonov / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/the-style-guide-platform-robert-haritonov-front-trends-2015-warsaw-poland">The Style Guide Platform – Robert Haritonov / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 37:30</div>
+			
+			
+              <div>Views: 739 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/this-is-for-everyone-shaun-dunne-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WYcGVtUi6yE/hqdefault.jpg" alt="This is for everyone – Shaun Dunne / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/this-is-for-everyone-shaun-dunne-front-trends-2015-warsaw-poland">This is for everyone – Shaun Dunne / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 33:45</div>
+			
+			
+              <div>Views: 222 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/tomasz-stryjewski-lightning-talk-at-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gsMq7zq0dxo/hqdefault.jpg" alt="Tomasz Stryjewski / Lightning Talk at Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/tomasz-stryjewski-lightning-talk-at-front-trends-2015-warsaw-poland">Tomasz Stryjewski / Lightning Talk at Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 04:33</div>
+			
+			
+              <div>Views: 103 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/umar-hansa-lightning-talk-at-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SGQ9n0FvcV0/hqdefault.jpg" alt="Umar Hansa / Lightning Talk at Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/umar-hansa-lightning-talk-at-front-trends-2015-warsaw-poland">Umar Hansa / Lightning Talk at Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 06:40</div>
+			
+			
+              <div>Views: 157 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/ux-terror-know-your-rights-natalia-rozycka-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BG19bo1Uyq8/hqdefault.jpg" alt="UX terror. Know your rights. – Natalia Różycka / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/ux-terror-know-your-rights-natalia-rozycka-front-trends-2015-warsaw-poland">UX terror. Know your rights. – Natalia Różycka / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 28:50</div>
+			
+			
+              <div>Views: 769 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/whatrtc-connecting-browsers-to-the-world-phil-nash-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xknuSzGywP8/hqdefault.jpg" alt="WhatRTC? Connecting browsers to the world – Phil Nash / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/whatrtc-connecting-browsers-to-the-world-phil-nash-front-trends-2015-warsaw-poland">WhatRTC? Connecting browsers to the world – Phil Nash / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 34:51</div>
+			
+			
+              <div>Views: 266 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2015/zombie-code-marco-cedaro-front-trends-2015-warsaw-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YmGFq3rIzK8/hqdefault.jpg" alt="Zombie Code – Marco Cedaro / Front-Trends 2015, Warsaw, Poland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2015/zombie-code-marco-cedaro-front-trends-2015-warsaw-poland">Zombie Code – Marco Cedaro / Front-Trends 2015, Warsaw, Poland</a></h4>
+          <footer>
+            <div class="recorded">2015-05-06</div>
+			
+			  <div>Length: 26:29</div>
+			
+			
+              <div>Views: 249 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/front-trends-2015">Front-Trends 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLBevk0eXLOGfkVhE7PArRg6nKHqmMKgtB">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

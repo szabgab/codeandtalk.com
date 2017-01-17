@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>GopherCon Denver 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>GopherCon Denver 2016</h1>
+
+<div><a href="https://gophercon.com/">GopherCon Denver 2016</a></div>
+
+
+<div>Start date: 2016-07-11</div>
+<div>End date: 2016-07-13</div>
+
+<div>Location:
+  Denver
+  Colorado
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="https://golang.org/conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/go">Go</a> 
+   
+       <a href="/t/golang">GoLang</a> 
+   
+</div>
+
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=GopherCon%20Denver%202016%20on%202016-07-11%20in%20Denver%2C%20Colorado%20USA%20https%3A//gophercon.com/%20%23Go%20%23GoLang%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-adrian-cockcroft-communicating-sequential-goroutines"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gO1qF19y6KQ/hqdefault.jpg" alt="Communicating Sequential Goroutines" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-adrian-cockcroft-communicating-sequential-goroutines">Communicating Sequential Goroutines</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 50:16</div>
+			
+			
+              <div>Views: 2359 Likes: 24</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adrian-cockcroft">Adrian Cockcroft</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-alan-donovan-navigating-unfamiliar-code-with-the-go-guru"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ak97oH0D6fI/hqdefault.jpg" alt="Navigating Unfamiliar Code with the Go Guru" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-alan-donovan-navigating-unfamiliar-code-with-the-go-guru">Navigating Unfamiliar Code with the Go Guru</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 28:47</div>
+			
+			
+              <div>Views: 4997 Likes: 69</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alan-donovan">Alan Donovan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-bernerd-schaefer-go-without-the-operating-system"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F2Ls6xZdSrE/hqdefault.jpg" alt="Go Without the Operating System" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-bernerd-schaefer-go-without-the-operating-system">Go Without the Operating System</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 25:53</div>
+			
+			
+              <div>Views: 4126 Likes: 42</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bernerd-schaefer">Bernerd Schaefer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-bill-ofarrell-porting-go-to-the-ibm-z-architecture"><img class="list-thumbnail" src="https://i.ytimg.com/vi/z0f4Wgi94eo/hqdefault.jpg" alt="Porting Go to the IBM z Architecture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-bill-ofarrell-porting-go-to-the-ibm-z-architecture">Porting Go to the IBM z Architecture</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 39:22</div>
+			
+			
+              <div>Views: 400 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bill-ofarrell">Bill O'Farrell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-carolyn-van-slyck-grow-your-users-from-an-unlikely-source-windows-developers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UOeeR7odY1I/hqdefault.jpg" alt="Grow your users from an unlikely source: Windows Developers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-carolyn-van-slyck-grow-your-users-from-an-unlikely-source-windows-developers">Grow your users from an unlikely source: Windows Developers</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 35:26</div>
+			
+			
+              <div>Views: 257 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/carolyn-van-slyck">Carolyn Van Slyck</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-daniel-whitenack-go-for-data-science"><img class="list-thumbnail" src="https://i.ytimg.com/vi/D5tDubyXLrQ/hqdefault.jpg" alt="Go for Data Science" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-daniel-whitenack-go-for-data-science">Go for Data Science</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 29:32</div>
+			
+			
+              <div>Views: 5160 Likes: 103</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-whitenack">Daniel Whitenack</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-dave-cheney-dont-just-check-errors-handle-them-gracefully"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lsBF58Q-DnY/hqdefault.jpg" alt="Dont Just Check Errors Handle Them Gracefully" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-dave-cheney-dont-just-check-errors-handle-them-gracefully">Dont Just Check Errors Handle Them Gracefully</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 22:13</div>
+			
+			
+              <div>Views: 5793 Likes: 124</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-cheney">Dave Cheney</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-day-1-speaker-q-a"><img class="list-thumbnail" src="https://i.ytimg.com/vi/x1XDWmtxymQ/hqdefault.jpg" alt="GopherCon 2016: Day 1 Speaker Q & A" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-day-1-speaker-q-a">GopherCon 2016: Day 1 Speaker Q & A</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 45:27</div>
+			
+			
+              <div>Views: 1261 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-day-2-speaker-q-a"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NN3L_DzYujs/hqdefault.jpg" alt="GopherCon 2016: Day 2 Speaker Q & A" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-day-2-speaker-q-a">GopherCon 2016: Day 2 Speaker Q & A</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 45:08</div>
+			
+			
+              <div>Views: 1265 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-donnie-berkholz-mining-the-go-developer-community"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-R1tl2dGeIY/hqdefault.jpg" alt="Mining the Go Developer Community" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-donnie-berkholz-mining-the-go-developer-community">Mining the Go Developer Community</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 46:16</div>
+			
+			
+              <div>Views: 1644 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/donnie-berkholz">Donnie Berkholz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-emily-gu-the-power-and-elegance-of-reflection"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lI17OEJCPVw/hqdefault.jpg" alt="The Power and Elegance of Reflection" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-emily-gu-the-power-and-elegance-of-reflection">The Power and Elegance of Reflection</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 45:17</div>
+			
+			
+              <div>Views: 645 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/emily-gu">Emily Gu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-filippo-valsorda-cgo-safely-taming-the-beast"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lhMhApWQp2E/hqdefault.jpg" alt="cgo Safely Taming the Beast" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-filippo-valsorda-cgo-safely-taming-the-beast">cgo Safely Taming the Beast</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 48:21</div>
+			
+			
+              <div>Views: 548 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/filippo-valsorda">Filippo Valsorda</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-francesc-campoy-understanding-nil"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ynoY2xz-F8s/hqdefault.jpg" alt="Understanding nil" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-francesc-campoy-understanding-nil">Understanding nil</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 30:59</div>
+			
+			
+              <div>Views: 6108 Likes: 116</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/francesc-campoy">Francesc Campoy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-george-tankersley-go-for-crypto-developers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2r_KMzXB74w/hqdefault.jpg" alt="Go for Crypto Developers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-george-tankersley-go-for-crypto-developers">Go for Crypto Developers</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 31:15</div>
+			
+			
+              <div>Views: 623 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/george-tankersley">George Tankersley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-ivan-danyliuk-visualizing-concurrency-in-go"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KyuFeiG3Y60/hqdefault.jpg" alt="Visualizing Concurrency in Go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-ivan-danyliuk-visualizing-concurrency-in-go">Visualizing Concurrency in Go</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 19:41</div>
+			
+			
+              <div>Views: 2667 Likes: 95</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ivan-danyliuk">Ivan Danyliuk</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-jack-lindamood-practical-advice-for-go-library-authors"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5v2fqm_8jYI/hqdefault.jpg" alt="Practical Advice for Go Library Authors" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-jack-lindamood-practical-advice-for-go-library-authors">Practical Advice for Go Library Authors</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 41:27</div>
+			
+			
+              <div>Views: 1226 Likes: 29</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jack-lindamood">Jack Lindamood</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-john-leon-packet-capture-analysis-and-injection-with-go"><img class="list-thumbnail" src="https://i.ytimg.com/vi/APDnbmTKjgM/hqdefault.jpg" alt="Packet Capture, Analysis, and Injection with Go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-john-leon-packet-capture-analysis-and-injection-with-go">Packet Capture, Analysis, and Injection with Go</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 37:15</div>
+			
+			
+              <div>Views: 983 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-leon">John Leon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-jose-carlos-nieto-go-mobile-as-the-backbone-of-lantern-for-android"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IZgAk6o67Ek/hqdefault.jpg" alt="Go Mobile as the backbone of Lantern for Android" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-jose-carlos-nieto-go-mobile-as-the-backbone-of-lantern-for-android">Go Mobile as the backbone of Lantern for Android</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 28:54</div>
+			
+			
+              <div>Views: 2287 Likes: 27</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jose-carlos-nieto">Jose Carlos Nieto</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-katrina-owen-mind-the-gap"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ClPIeuL9HnI/hqdefault.jpg" alt="Mind the Gap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-katrina-owen-mind-the-gap">Mind the Gap</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 26:45</div>
+			
+			
+              <div>Views: 5815 Likes: 108</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/katrina-owen">Katrina Owen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-keith-randall-inside-the-map-implementation"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Tl7mi9QmLns/hqdefault.jpg" alt="Inside the Map Implementation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-keith-randall-inside-the-map-implementation">Inside the Map Implementation</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 26:50</div>
+			
+			
+              <div>Views: 4823 Likes: 64</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/keith-randall">Keith Randall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-kelsey-hightower-building-a-custom-kubernetes-scheduler"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IYcL0Un1io0/hqdefault.jpg" alt="Building a custom Kubernetes scheduler" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-kelsey-hightower-building-a-custom-kubernetes-scheduler">Building a custom Kubernetes scheduler</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 39:58</div>
+			
+			
+              <div>Views: 1183 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kelsey-hightower">Kelsey Hightower</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-abel-mathew"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JxM9STwy4Bk/hqdefault.jpg" alt="Building a Go Debugger" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-abel-mathew">Building a Go Debugger</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 06:11</div>
+			
+			
+              <div>Views: 177 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/abel-mathew">Abel Mathew</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-anand-babu-periasamy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QqoYTP9UF3s/hqdefault.jpg" alt="minio - Minimalist Object Storage" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-anand-babu-periasamy">minio - Minimalist Object Storage</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 06:00</div>
+			
+			
+              <div>Views: 285 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anand-babu-periasamy">Anand Babu Periasamy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-antoine-grondin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Iqw38rsjurM/hqdefault.jpg" alt="Structured Logging and You" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-antoine-grondin">Structured Logging and You</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 06:09</div>
+			
+			
+              <div>Views: 198 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/antoine-grondin">Antoine Grondin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-ben-johnson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LMSbsW1Xpwg/hqdefault.jpg" alt="Structuring Applications for Growth" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-ben-johnson">Structuring Applications for Growth</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 04:39</div>
+			
+			
+              <div>Views: 468 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-johnson">Ben Johnson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-brad-fitzpatrick"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4yFb-b5GYWc/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-brad-fitzpatrick">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 05:35</div>
+			
+			
+              <div>Views: 1007 Likes: 47</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brad-fitzpatrick">Brad Fitzpatrick</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-carlisia-campos"><img class="list-thumbnail" src="https://i.ytimg.com/vi/snJD-O7qBi4/hqdefault.jpg" alt="You Found Love in a Gopher Face. Now What?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-carlisia-campos">You Found Love in a Gopher Face. Now What?</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 06:08</div>
+			
+			
+              <div>Views: 328 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/carlisia-campos">Carlisia Campos</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-chris-broadfood"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0F7etKqvkmI/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-chris-broadfood">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 06:26</div>
+			
+			
+              <div>Views: 195 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-broadfood">Chris Broadfood</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-derek-parker"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QfP1SFLqUQw/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-derek-parker">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 06:18</div>
+			
+			
+              <div>Views: 190 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/derek-parker">Derek Parker</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-edward-muller"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VjnVjGRUDro/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-edward-muller">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 06:26</div>
+			
+			
+              <div>Views: 285 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/edward-muller">Edward Muller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-hari-bhaskaran"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tsJ8HFz7tQg/hqdefault.jpg" alt="Cardinality Estimates Using HLL in Go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-hari-bhaskaran">Cardinality Estimates Using HLL in Go</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 06:18</div>
+			
+			
+              <div>Views: 187 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hari-bhaskaran">Hari Bhaskaran</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-harvey-kandola"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0gqb24bogUc/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-harvey-kandola">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 04:13</div>
+			
+			
+              <div>Views: 161 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/harvey-kandola">Harvey Kandola</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-jess-frazelle"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xjJ33Sd95Xk/hqdefault.jpg" alt="Things I am not proud of" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-jess-frazelle">Things I am not proud of</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 05:56</div>
+			
+			
+              <div>Views: 394 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jess-frazelle">Jess Frazelle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-jonathan-harlap"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9C-XHOHZg0M/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-jonathan-harlap">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 06:09</div>
+			
+			
+              <div>Views: 172 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jonathan-harlap">Jonathan Harlap</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-landon-jones"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Weohm3YZF88/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-landon-jones">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 03:53</div>
+			
+			
+              <div>Views: 170 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/landon-jones">Landon Jones</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-marty-schoch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wx5lVS_N_tg/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-marty-schoch">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 06:38</div>
+			
+			
+              <div>Views: 254 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marty-schoch">Marty Schoch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-matt-aimonetti"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LwBBgfdI-AA/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-matt-aimonetti">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 01:53</div>
+			
+			
+              <div>Views: 178 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-aimonetti">Matt Aimonetti</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-peggy-li"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TuVXiwBhryo/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-peggy-li">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 07:00</div>
+			
+			
+              <div>Views: 447 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peggy-li">Peggy Li</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-robert-griesemer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/t-w6MyI2qlU/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-robert-griesemer">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 06:45</div>
+			
+			
+              <div>Views: 641 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robert-griesemer">Robert Griesemer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-ron-evans"><img class="list-thumbnail" src="https://i.ytimg.com/vi/94BZ_2A6KLI/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-ron-evans">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 06:45</div>
+			
+			
+              <div>Views: 435 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ron-evans">Ron Evans</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-scott-manfield"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sttxPp2j7s0/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-scott-manfield">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 05:21</div>
+			
+			
+              <div>Views: 180 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/scott-mansfield">Scott Mansfield</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-shantanu-joshi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Nlr9OzchbpI/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-shantanu-joshi">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 05:49</div>
+			
+			
+              <div>Views: 166 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shantanu-joshi">Shantanu Joshi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-taichi-nakashima"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PaVyMSgWUmk/hqdefault.jpg" alt="Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-lightning-talk-taichi-nakashima">Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 05:41</div>
+			
+			
+              <div>Views: 221 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/taichi-nakashima">Taichi Nakashima</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-marcel-van-lohuizen-handling-text-from-around-the-world-in-go"><img class="list-thumbnail" src="https://i.ytimg.com/vi/K7rMS9Y7_x0/hqdefault.jpg" alt="Handling Text from Around the World in Go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-marcel-van-lohuizen-handling-text-from-around-the-world-in-go">Handling Text from Around the World in Go</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 36:37</div>
+			
+			
+              <div>Views: 536 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marcel-van-lohuizen">Marcel van Lohuizen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-michael-matloob-contributing-the-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cxVvDYG_myQ/hqdefault.jpg" alt="CONTRIBUTING: The Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-michael-matloob-contributing-the-talk">CONTRIBUTING: The Talk</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 40:32</div>
+			
+			
+              <div>Views: 358 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-matloob">Michael Matloob</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-raphael-simon-goa-a-new-approach-to-microservice-development-in-go"><img class="list-thumbnail" src="https://i.ytimg.com/vi/t1MxuSKVXPc/hqdefault.jpg" alt="goa: A New Approach to Microservice Development in Go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-raphael-simon-goa-a-new-approach-to-microservice-development-in-go">goa: A New Approach to Microservice Development in Go</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 46:51</div>
+			
+			
+              <div>Views: 3286 Likes: 31</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/raphael-simon">Raphael Simon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-renee-french-the-go-gopher-a-character-study"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4rw_B4yY69k/hqdefault.jpg" alt="The Go Gopher A Character Study" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-renee-french-the-go-gopher-a-character-study">The Go Gopher A Character Study</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 21:13</div>
+			
+			
+              <div>Views: 3214 Likes: 65</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/renee-french">Renee French</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-rob-pike-the-design-of-the-go-assembler"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KINIAgRpkDA/hqdefault.jpg" alt="The Design of the Go Assembler" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-rob-pike-the-design-of-the-go-assembler">The Design of the Go Assembler</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 23:57</div>
+			
+			
+              <div>Views: 16130 Likes: 242</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rob-pike">Rob Pike</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-takuya-ueda-go-for-mobile-games"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7yfhmni2Uo8/hqdefault.jpg" alt="Go for Mobile Games" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-takuya-ueda-go-for-mobile-games">Go for Mobile Games</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 43:36</div>
+			
+			
+              <div>Views: 627 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/takuya-ueda">Takuya Ueda</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gophercon-denver-2016/gophercon-2016-wisdom-omuya-go-vendoring-deconstructed"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6gdVhHMxNTo/hqdefault.jpg" alt="Go Vendoring Deconstructed" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gophercon-denver-2016/gophercon-2016-wisdom-omuya-go-vendoring-deconstructed">Go Vendoring Deconstructed</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 24:53</div>
+			
+			
+              <div>Views: 2037 Likes: 28</div>
+            
+            <div class="event">From <a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/wisdom-omuya">Wisdom Omuya</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdliXelGAItjzTMxy2WQh0P PL2ntRZ1ySWBfdNd2SHwX2eMyFWKW_zfAq">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

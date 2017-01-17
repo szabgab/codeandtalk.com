@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>View Source Berlin 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>View Source Berlin 2016</h1>
+
+<div><a href="https://viewsourceconf.org/berlin-2016/">View Source Berlin 2016</a></div>
+
+
+<div>Start date: 2016-09-13</div>
+<div>End date: 2016-09-14</div>
+
+<div>Location:
+  Berlin
+  
+  <a href="/l/germany">Germany</a>
+</div>
+
+<div><a href="https://viewsourceconf.org/berlin-2016/code-of-conduct/">Code of Conduct</a></div>
+<div><a href="https://diversitytickets.org/events/32">Diversity Tickets</a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/viewsourceconf">@viewsourceconf</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=View%20Source%20Berlin%202016%20on%202016-09-13%20in%20Berlin%2C%20%20Germany%20%40viewsourceconf%20https%3A//viewsourceconf.org/berlin-2016/%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/design-for-non-designers-viewsource-conference-talk-by-tracy-osborn"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lsPrhA_m6ss/hqdefault.jpg" alt="Design for Non-Designers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/design-for-non-designers-viewsource-conference-talk-by-tracy-osborn">Design for Non-Designers</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 24:32</div>
+			
+			
+              <div>Views: 335 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tracy-osborn">Tracy Osborn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/existing-in-tech-view-source-conference-opening-keynote-by-lena-reinhard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vpUY_ryWtc8/hqdefault.jpg" alt="Existing in Tech" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/existing-in-tech-view-source-conference-opening-keynote-by-lena-reinhard">Existing in Tech</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 22:46</div>
+			
+			
+              <div>Views: 603 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lena-reinhard">Lena Reinhard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/how-to-make-browsers-compatible-with-the-web-view-source-conference-talk-by-mike-taylor"><img class="list-thumbnail" src="https://i.ytimg.com/vi/q2kK_wd1xzY/hqdefault.jpg" alt="How to make browsers compatible with the web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/how-to-make-browsers-compatible-with-the-web-view-source-conference-talk-by-mike-taylor">How to make browsers compatible with the web</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 22:58</div>
+			
+			
+              <div>Views: 475 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-taylor">Mike Taylor</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/im-offline-cool-what-now-view-source-conference-talk-by-ola-gasidlo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ksIEPbdpuYQ/hqdefault.jpg" alt="I'm offline, cool! What now?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/im-offline-cool-what-now-view-source-conference-talk-by-ola-gasidlo">I'm offline, cool! What now?</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 25:34</div>
+			
+			
+              <div>Views: 384 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ola-gasidlo">Ola Gasidlo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/inclusive-markup-view-source-conference-talk-by-estelle-weyl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FN3g39bnSRA/hqdefault.jpg" alt="Inclusive Markup" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/inclusive-markup-view-source-conference-talk-by-estelle-weyl">Inclusive Markup</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 28:47</div>
+			
+			
+              <div>Views: 1144 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/estelle-weyl">Estelle Weyl</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/laying-out-the-future-with-grid-and-flexbox-view-source-conference-talk-by-rachel-andrew"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ibeF6rbzD70/hqdefault.jpg" alt="Laying out the future with Grid and Flexbox" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/laying-out-the-future-with-grid-and-flexbox-view-source-conference-talk-by-rachel-andrew">Laying out the future with Grid and Flexbox</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 25:45</div>
+			
+			
+              <div>Views: 5484 Likes: 103</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rachel-andrew">Rachel Andrew</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/nodejs-releases-view-source-conference-talk-by-myles-borins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JOR2ne84QQg/hqdefault.jpg" alt="Node.js Releases" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/nodejs-releases-view-source-conference-talk-by-myles-borins">Node.js Releases</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 24:34</div>
+			
+			
+              <div>Views: 661 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/myles-borins">Myles Borins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/performance-and-web-typography-view-source-conference-talk-by-helen-holmes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/emLfXChvVPQ/hqdefault.jpg" alt="Performance and Web Typography" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/performance-and-web-typography-view-source-conference-talk-by-helen-holmes">Performance and Web Typography</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 26:38</div>
+			
+			
+              <div>Views: 1741 Likes: 32</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/helen-holmes">Helen Holmes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/progressive-web-apps-is-the-new-ajax-view-source-conference-talk-by-chris-wilson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EErueQdEXMA/hqdefault.jpg" alt="Progressive Web Apps is the new Ajax" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/progressive-web-apps-is-the-new-ajax-view-source-conference-talk-by-chris-wilson">Progressive Web Apps is the new Ajax</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 32:35</div>
+			
+			
+              <div>Views: 2107 Likes: 46</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-wilson">Chris Wilson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/real-art-direction-on-the-web-view-source-conference-talk-by-jen-simmons"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5Z7lSSMwRgo/hqdefault.jpg" alt="Real Art Direction on the Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/real-art-direction-on-the-web-view-source-conference-talk-by-jen-simmons">Real Art Direction on the Web</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 31:41</div>
+			
+			
+              <div>Views: 5338 Likes: 102</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jen-simmons">Jen Simmons</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/resilience-view-source-conference-closing-keynote-by-jeremy-keith"><img class="list-thumbnail" src="https://i.ytimg.com/vi/W7wj7EDrSko/hqdefault.jpg" alt="Resilience" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/resilience-view-source-conference-closing-keynote-by-jeremy-keith">Resilience</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 26:16</div>
+			
+			
+              <div>Views: 224 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeremy-keith">Jeremy Keith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/state-of-the-web-view-source-conference-opening-keynote-by-hadley-beeman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gAojJh2h9pI/hqdefault.jpg" alt="State of the Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/state-of-the-web-view-source-conference-opening-keynote-by-hadley-beeman">State of the Web</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 22:52</div>
+			
+			
+              <div>Views: 550 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hadley-beeman">Hadley Beeman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/the-future-of-the-web-view-source-conference-closing-keynote-by-robert-nyman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2vu5TucZVUw/hqdefault.jpg" alt="The Future of the Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/the-future-of-the-web-view-source-conference-closing-keynote-by-robert-nyman">The Future of the Web</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 45:38</div>
+			
+			
+              <div>Views: 653 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robert-nyman">Robert Nyman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/things-you-can-do-in-es6-that-cant-be-done-in-es5-view-source-talk-by-dan-shappir"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GbVAMgU3Jj0/hqdefault.jpg" alt="Things You Can Do In ES6 That Can't Be Done In ES5" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/things-you-can-do-in-es6-that-cant-be-done-in-es5-view-source-talk-by-dan-shappir">Things You Can Do In ES6 That Can't Be Done In ES5</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 24:10</div>
+			
+			
+              <div>Views: 3503 Likes: 89</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-shappir">Dan Shappir</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/web-meet-virtual-reality-view-source-confernce-talk-by-dominique-hazael-massieux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DSzfFCrCrmk/hqdefault.jpg" alt="Web, meet Virtual Reality" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/web-meet-virtual-reality-view-source-confernce-talk-by-dominique-hazael-massieux">Web, meet Virtual Reality</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 26:27</div>
+			
+			
+              <div>Views: 188 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dominique-hazael-massieux">Dominique Hazael-Massieux</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/viewsourceconf-berlin-2016/you-might-not-need-a-css-framework-view-source-conference-talk-by-belen-albeza"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5FdHqVDlXu0/hqdefault.jpg" alt="You might not need a CSS framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/viewsourceconf-berlin-2016/you-might-not-need-a-css-framework-view-source-conference-talk-by-belen-albeza">You might not need a CSS framework</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 22:46</div>
+			
+			
+              <div>Views: 1839 Likes: 42</div>
+            
+            <div class="event">From <a href="/e/viewsourceconf-berlin-2016">View Source Berlin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/belen-albeza">Belen Albeza</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLo3w8EB99pqJBRZU8kUrtoznwE-yyT2Yh">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

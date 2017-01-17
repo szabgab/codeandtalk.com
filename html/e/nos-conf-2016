@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>NOS - Nitte Open Source Conference 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>NOS - Nitte Open Source Conference 2016</h1>
+
+<div><a href="http://nosconf.github.io/">NOS - Nitte Open Source Conference 2016</a></div>
+
+
+<div>Start date: 2016-03-18</div>
+<div>End date: 2016-03-19</div>
+
+<div>Location:
+  Nitte
+  Karnataka
+  <a href="/l/india">India</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/opensource">OpenSource</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/nosconf">@nosconf</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=NOS%20-%20Nitte%20Open%20Source%20Conference%202016%20on%202016-03-18%20in%20Nitte%2C%20Karnataka%20India%20%40nosconf%20http%3A//nosconf.github.io/%20%23OpenSource%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/concurrent-is-not-parallel-joseph-elwin-fernandes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rE1p3szuw0g/hqdefault.jpg" alt="Concurrent is NOT Parallel!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/concurrent-is-not-parallel-joseph-elwin-fernandes">Concurrent is NOT Parallel!</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 37:45</div>
+			
+			
+              <div>Views: 89 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joseph-elwin-fernandes">Joseph Elwin Fernandes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/containers-in-linux-dan-lambright"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iTkWDF6tnek/hqdefault.jpg" alt="Containers in Linux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/containers-in-linux-dan-lambright">Containers in Linux</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 35:54</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-lambright">Dan Lambright</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/from-idea-to-distribution-distributing-your-software-for-linux-kaleb-s-keithley"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EVPQ1B_Rskk/hqdefault.jpg" alt="Distributing your Software for Linux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/from-idea-to-distribution-distributing-your-software-for-linux-kaleb-s-keithley">Distributing your Software for Linux</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 50:04</div>
+			
+			
+              <div>Views: 13 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kaleb-s-keithley">Kaleb S. KEITHLEY</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/future-of-graphics-in-open-source-hemanth-k"><img class="list-thumbnail" src="https://i.ytimg.com/vi/j1p0M1GJI9U/hqdefault.jpg" alt="Future of Graphics in Open-Source" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/future-of-graphics-in-open-source-hemanth-k">Future of Graphics in Open-Source</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 47:34</div>
+			
+			
+              <div>Views: 88 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hemanth-kumar">Hemanth Kumar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/introduction-to-sdn-saumya-hegde"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3P-lWGD0R2s/hqdefault.jpg" alt="Introduction to SDN" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/introduction-to-sdn-saumya-hegde">Introduction to SDN</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 46:06</div>
+			
+			
+              <div>Views: 74 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/saumya-hegde">Saumya Hegde</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/lightening-talk-3-efficient-online-consumer-products-marketing-mood-analysis-pooja-r-p"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jWl5jqgTAUs/hqdefault.jpg" alt="Lightening talk 3 : Efficient online consumer products marketing- Mood analysis : Pooja R. P" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/lightening-talk-3-efficient-online-consumer-products-marketing-mood-analysis-pooja-r-p">Lightening talk 3 : Efficient online consumer products marketing- Mood analysis : Pooja R. P</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 18:25</div>
+			
+			
+              <div>Views: 11 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/lightening-talk-4-intro-to-glusterfs-karthik-u-s"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eVJephp-CAk/hqdefault.jpg" alt="Lightening talk 4: Intro to GlusterFS : Karthik U S" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/lightening-talk-4-intro-to-glusterfs-karthik-u-s">Lightening talk 4: Intro to GlusterFS : Karthik U S</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 14:47</div>
+			
+			
+              <div>Views: 61 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/lightening-talk-56"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sH0Iphk3H7Y/hqdefault.jpg" alt="Lightening Talk 5/6" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/lightening-talk-56">Lightening Talk 5/6</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 37:41</div>
+			
+			
+              <div>Views: 86 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/lightening-talk-open-stack-deep-nirmal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1gb3RhK2BBA/hqdefault.jpg" alt="Lightening Talk :  Open Stack : Deep Nirmal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/lightening-talk-open-stack-deep-nirmal">Lightening Talk :  Open Stack : Deep Nirmal</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 21:28</div>
+			
+			
+              <div>Views: 43 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/lightening-talks-12"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dAVvf6lh2tU/hqdefault.jpg" alt="Lightening Talks : 1/2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/lightening-talks-12">Lightening Talks : 1/2</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 30:38</div>
+			
+			
+              <div>Views: 21 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/lightening-talks-78"><img class="list-thumbnail" src="https://i.ytimg.com/vi/H-ina7CNKoU/hqdefault.jpg" alt="Lightening Talks 7/8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/lightening-talks-78">Lightening Talks 7/8</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 35:57</div>
+			
+			
+              <div>Views: 20 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/linux-distro-fedora-and-centos-lalatendu-mohanty-6f78a4"><img class="list-thumbnail" src="https://i.ytimg.com/vi/foi0qkrxjnw/hqdefault.jpg" alt="Linux Distro: Fedora and CentOS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/linux-distro-fedora-and-centos-lalatendu-mohanty-6f78a4">Linux Distro: Fedora and CentOS</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 28:54</div>
+			
+			
+              <div>Views: 104 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lalatendu-mohanty">Lalatendu Mohanty</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/linux-distro-fedora-and-centos-lalatendu-mohanty"><img class="list-thumbnail" src="https://i.ytimg.com/vi/foi0qkrxjnw/hqdefault.jpg" alt="Linux Distro: Fedora and CentOS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/linux-distro-fedora-and-centos-lalatendu-mohanty">Linux Distro: Fedora and CentOS</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 28:54</div>
+			
+			
+              <div>Views: 104 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lalatendu-mohanty">Lalatendu Mohanty</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/network-traffic-inspections-fasten-your-security-belt-niels-de-vos"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6i7wJbsUZM8/hqdefault.jpg" alt="Network traffic inspections, fasten your security belt" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/network-traffic-inspections-fasten-your-security-belt-niels-de-vos">Network traffic inspections, fasten your security belt</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 40:00</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/niels-de-vos">Niels de Vos</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/raft-distributed-consensus-protocol-rafi-kc"><img class="list-thumbnail" src="https://i.ytimg.com/vi/he0ybPeHyMI/hqdefault.jpg" alt="Distributed Consensus Protocol" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/raft-distributed-consensus-protocol-rafi-kc">Distributed Consensus Protocol</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 51:13</div>
+			
+			
+              <div>Views: 140 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rafi-kavungal-chundattu-parambil">Rafi Kavungal Chundattu Parambil</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/ready-to-go-atin-mukherjee"><img class="list-thumbnail" src="https://i.ytimg.com/vi/idQ6tO1Jb9w/hqdefault.jpg" alt="Ready to GO!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/ready-to-go-atin-mukherjee">Ready to GO!</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 31:38</div>
+			
+			
+              <div>Views: 58 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/atin-mukherjee">Atin Mukherjee</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/version-control-systems-with-git-and-github-as-an-example-gaurav-garg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KdWyikqvrT8/hqdefault.jpg" alt="Version Control Systems with git (and github) as an example" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/version-control-systems-with-git-and-github-as-an-example-gaurav-garg">Version Control Systems with git (and github) as an example</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 27:04</div>
+			
+			
+              <div>Views: 26 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gaurav-garg">Gaurav Garg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/zero-to-millions-in-one-patch-soumya-deb-6f7676"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cSyUElZwQY0/hqdefault.jpg" alt="Zero to Millions, in one patch!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/zero-to-millions-in-one-patch-soumya-deb-6f7676">Zero to Millions, in one patch!</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 33:04</div>
+			
+			
+              <div>Views: 24 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/soumya-deb">Soumya Deb</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nos-conf-2016/zero-to-millions-in-one-patch-soumya-deb"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cSyUElZwQY0/hqdefault.jpg" alt="Zero to Millions, in one patch!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nos-conf-2016/zero-to-millions-in-one-patch-soumya-deb">Zero to Millions, in one patch!</a></h4>
+          <footer>
+            <div class="recorded">2016-03-18</div>
+			
+			  <div>Length: 33:04</div>
+			
+			
+              <div>Views: 24 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nos-conf-2016">NOS - Nitte Open Source Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/soumya-deb">Soumya Deb</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL6EgGnxhd1PftZtwZCwvsVHrDeDpgiSxO">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

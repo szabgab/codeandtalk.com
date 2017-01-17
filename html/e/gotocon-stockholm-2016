@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>GOTO Stockholm 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>GOTO Stockholm 2016</h1>
+
+<div><a href="https://gotosthlm.com/">GOTO Stockholm 2016</a></div>
+
+
+<div>Start date: 2016-05-09</div>
+<div>End date: 2016-05-11</div>
+
+<div>Location:
+  Stockholm
+  
+  <a href="/l/sweden">Sweden</a>
+</div>
+
+<div><a href="https://gotosthlm.com/2016/code-of-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/gotosthlm">@gotosthlm</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/GOTOConference">https://www.facebook.com/GOTOConference</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=GOTO%20Stockholm%202016%20on%202016-05-09%20in%20Stockholm%2C%20%20Sweden%20%40gotosthlm%20https%3A//gotosthlm.com/%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-a-practical-guide-to-container-scheduling-mandy-waite"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hmB8GP5-cMg/hqdefault.jpg" alt="A Practical Guide to Container Scheduling" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-a-practical-guide-to-container-scheduling-mandy-waite">A Practical Guide to Container Scheduling</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 43:58</div>
+			
+			
+              <div>Views: 858 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mandy-waite">Mandy Waite</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-aws-lambda-logic-in-the-cloud-without-back-end-ian-massingham"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1i3FF4gyINo/hqdefault.jpg" alt="AWS Lambda - Logic in the Cloud without Back-end" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-aws-lambda-logic-in-the-cloud-without-back-end-ian-massingham">AWS Lambda - Logic in the Cloud without Back-end</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 33:16</div>
+			
+			
+              <div>Views: 1349 Likes: 33</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ian-massingham">Ian Massingham</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-back-to-the-future-robert-virding"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jqKbO4whCjk/hqdefault.jpg" alt="Back to the Future" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-back-to-the-future-robert-virding">Back to the Future</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 09:31</div>
+			
+			
+              <div>Views: 913 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robert-virding">Robert Virding</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-building-a-metrics-optimised-pipeline-full-automation-andrew-phillips"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QUzRRnX7qkk/hqdefault.jpg" alt="GBuilding a Metrics Optimised Pipeline (Full Automation)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-building-a-metrics-optimised-pipeline-full-automation-andrew-phillips">GBuilding a Metrics Optimised Pipeline (Full Automation)</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 36:43</div>
+			
+			
+              <div>Views: 962 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-phillips">Andrew Phillips</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-building-a-modern-infrastructure-stack-steven-borelli"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n8QGk4e3nl4/hqdefault.jpg" alt="Building a Modern Infrastructure Stack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-building-a-modern-infrastructure-stack-steven-borelli">Building a Modern Infrastructure Stack</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 39:50</div>
+			
+			
+              <div>Views: 2090 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steven-borelli">Steven Borelli</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-deploying-code-resource-to-microsoft-azure-kristofer-liljeblad"><img class="list-thumbnail" src="https://i.ytimg.com/vi/L3uiibWISUE/hqdefault.jpg" alt="Deploying Code & Resource to Microsoft Azure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-deploying-code-resource-to-microsoft-azure-kristofer-liljeblad">Deploying Code & Resource to Microsoft Azure</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 38:31</div>
+			
+			
+              <div>Views: 348 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kristofer-liljeblad">Kristofer Liljeblad</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-docker-security-adrian-mouat"><img class="list-thumbnail" src="https://i.ytimg.com/vi/A32Yjizt2_s/hqdefault.jpg" alt="Docker Security" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-docker-security-adrian-mouat">Docker Security</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 34:56</div>
+			
+			
+              <div>Views: 1118 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adrian-mouat">Adrian Mouat</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-event-logging-valtteri-wallden"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aeRR_bfYYjQ/hqdefault.jpg" alt="Event Logging" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-event-logging-valtteri-wallden">Event Logging</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 10:36</div>
+			
+			
+              <div>Views: 1270 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/valtteri-wallden">Valtteri Wallden</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-exploring-neo4j-david-montag"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4CQUWuolHvc/hqdefault.jpg" alt="Exploring Neo4j" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-exploring-neo4j-david-montag">Exploring Neo4j</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 07:38</div>
+			
+			
+              <div>Views: 743 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-montag">David Montag</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-from-monolith-to-microservices-at-zalando-rodrigue-schaefer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gEeHZwjwehs/hqdefault.jpg" alt="From Monolith to Microservices at Zalando" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-from-monolith-to-microservices-at-zalando-rodrigue-schaefer">From Monolith to Microservices at Zalando</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 37:39</div>
+			
+			
+              <div>Views: 7901 Likes: 114</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rodrigue-schaefer">Rodrigue Schaefer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-higher-order-infrastructure-microservices-on-the-docker-swarm-nicola-paolucci"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eQ-XMDzuvxY/hqdefault.jpg" alt="Higher Order Infrastructure - Microservices on the Docker Swarm" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-higher-order-infrastructure-microservices-on-the-docker-swarm-nicola-paolucci">Higher Order Infrastructure - Microservices on the Docker Swarm</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 35:47</div>
+			
+			
+              <div>Views: 1473 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicola-paolucci">Nicola Paolucci</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-how-platforms-work-casey-west"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-26RloHucrE/hqdefault.jpg" alt="How Platforms Work" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-how-platforms-work-casey-west">How Platforms Work</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 43:16</div>
+			
+			
+              <div>Views: 1037 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/casey-west">Casey West</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-it-is-not-just-microservices-fred-george"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_dSA71NjVFE/hqdefault.jpg" alt="It is not just Microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-it-is-not-just-microservices-fred-george">It is not just Microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 46:48</div>
+			
+			
+              <div>Views: 4066 Likes: 64</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fred-george">Fred George</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-its-simple-adrian-cockcroft"><img class="list-thumbnail" src="https://i.ytimg.com/vi/a8Re9Cvv6nU/hqdefault.jpg" alt="It's Simple" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-its-simple-adrian-cockcroft">It's Simple</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 37:36</div>
+			
+			
+              <div>Views: 6150 Likes: 64</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adrian-cockcroft">Adrian Cockcroft</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-monitoring-microservices-tom-wilkie"><img class="list-thumbnail" src="https://i.ytimg.com/vi/emaPPg_zxb4/hqdefault.jpg" alt="Monitoring Microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-monitoring-microservices-tom-wilkie">Monitoring Microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 34:42</div>
+			
+			
+              <div>Views: 1703 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tom-wilkie">Tom Wilkie</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-nomad-scheduling-applications-at-scale-seth-vargo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hllS4Gutams/hqdefault.jpg" alt="Nomad: Scheduling Applications at Scale" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-nomad-scheduling-applications-at-scale-seth-vargo">Nomad: Scheduling Applications at Scale</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 39:57</div>
+			
+			
+              <div>Views: 1595 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/seth-vargo">Seth Vargo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-pragmatic-microservices-randy-shoup"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9vS7TbgirgY/hqdefault.jpg" alt="Pragmatic Microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-pragmatic-microservices-randy-shoup">Pragmatic Microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 44:17</div>
+			
+			
+              <div>Views: 6079 Likes: 114</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/randy-shoup">Randy Shoup</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-self-service-infrastructure-daniele-sluijters"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qiT3Zn4whaA/hqdefault.jpg" alt="Self-Service Infrastructure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-self-service-infrastructure-daniele-sluijters">Self-Service Infrastructure</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 08:44</div>
+			
+			
+              <div>Views: 794 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniele-sluijters">Daniele Sluijters</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-seven-secrets-of-maintainable-codebases-adam-tornhill"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0oDporwhToQ/hqdefault.jpg" alt="Seven Secrets of Maintainable Codebases" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-seven-secrets-of-maintainable-codebases-adam-tornhill">Seven Secrets of Maintainable Codebases</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 39:17</div>
+			
+			
+              <div>Views: 9951 Likes: 109</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-tornhill">Adam Tornhill</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-strategy-on-big-programmes-jamie-dobson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GExaueeJ9Pk/hqdefault.jpg" alt="Strategy on Big Programmes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-strategy-on-big-programmes-jamie-dobson">Strategy on Big Programmes</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 32:33</div>
+			
+			
+              <div>Views: 1710 Likes: 29</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jamie-dobson">Jamie Dobson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-the-sparkling-solution-that-scales-to-iot-ken-sipe"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OqHM2C74Mpo/hqdefault.jpg" alt="The Sparkling Solution that Scales to IoT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-the-sparkling-solution-that-scales-to-iot-ken-sipe">The Sparkling Solution that Scales to IoT</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 39:00</div>
+			
+			
+              <div>Views: 423 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ken-sipe">Ken Sipe</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-stockholm-2016/goto-2016-what-is-a-cdn-and-why-developers-should-care-about-using-one-artur-bergman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/farO15_0NUQ/hqdefault.jpg" alt="What is a CDN and why Developers should Care about using one" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-stockholm-2016/goto-2016-what-is-a-cdn-and-why-developers-should-care-about-using-one-artur-bergman">What is a CDN and why Developers should Care about using one</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 32:10</div>
+			
+			
+              <div>Views: 2695 Likes: 37</div>
+            
+            <div class="event">From <a href="/e/gotocon-stockholm-2016">GOTO Stockholm 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/artur-bergman">Artur Bergman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLEx5khR4g7PIPT7o5LKMIAcWyIRUX2p3j">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

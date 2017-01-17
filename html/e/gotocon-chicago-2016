@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>GOTO Chicago 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>GOTO Chicago 2016</h1>
+
+<div><a href="https://gotocon.com/chicago-2016/">GOTO Chicago 2016</a></div>
+
+
+<div>Start date: 2016-05-23</div>
+<div>End date: 2016-05-26</div>
+
+<div>Location:
+  Chicago
+  Illinois
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="https://gotocon.com/chicago-2016/anti-harassment-policy/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/gotochgo">@gotochgo</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/GOTOConference">https://www.facebook.com/GOTOConference</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=GOTO%20Chicago%202016%20on%202016-05-23%20in%20Chicago%2C%20Illinois%20USA%20%40gotochgo%20https%3A//gotocon.com/chicago-2016/%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-a-comment-on-learning-aino-vonge-corry"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xI5oxExAj1U/hqdefault.jpg" alt="A Comment on Learning" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-a-comment-on-learning-aino-vonge-corry">A Comment on Learning</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 51:22</div>
+			
+			
+              <div>Views: 802 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aino-vonge-corry">Aino Vonge Corry</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-a-peek-inside-erlangs-otp-steve-vinoski"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PkHZPTn1brc/hqdefault.jpg" alt="A Peek Inside Erlang's OTP" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-a-peek-inside-erlangs-otp-steve-vinoski">A Peek Inside Erlang's OTP</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 50:20</div>
+			
+			
+              <div>Views: 941 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-vinoski">Steve Vinoski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-adventures-in-elm-jessica-kerr"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cgXhMc8M4X4/hqdefault.jpg" alt="Adventures in Elm" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-adventures-in-elm-jessica-kerr">Adventures in Elm</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 50:59</div>
+			
+			
+              <div>Views: 10021 Likes: 136</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jessica-kerr">Jessica Kerr</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-an-approach-for-the-internet-of-things-christopher-meiklejohn"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zvS0iR4X8hU/hqdefault.jpg" alt="An Approach For The Internet Of Things" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-an-approach-for-the-internet-of-things-christopher-meiklejohn">An Approach For The Internet Of Things</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 42:55</div>
+			
+			
+              <div>Views: 668 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christopher-meiklejohn">Christopher Meiklejohn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-applications-in-the-emerging-world-of-stream-processing-neha-narkhede"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WuBQBTET8Qg/hqdefault.jpg" alt="Applications in the Emerging World of Stream Processing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-applications-in-the-emerging-world-of-stream-processing-neha-narkhede">Applications in the Emerging World of Stream Processing</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 45:06</div>
+			
+			
+              <div>Views: 1694 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/neha-narkhede">Neha Narkhede</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-bare-metal-devops-chris-read"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UIRJrmywahE/hqdefault.jpg" alt="Bare Metal DevOps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-bare-metal-devops-chris-read">Bare Metal DevOps</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 50:09</div>
+			
+			
+              <div>Views: 1110 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-read">Chris Read</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-building-a-clustered-service-in-go-wilfried-schobeiri"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vizFS-36wLU/hqdefault.jpg" alt="Building a Clustered Service in Go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-building-a-clustered-service-in-go-wilfried-schobeiri">Building a Clustered Service in Go</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 39:25</div>
+			
+			
+              <div>Views: 1689 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/wilfried-schobeiri">Wilfried Schobeiri</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-building-a-distributed-build-system-at-google-scale-aysylu-greenberg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/y0IutoPKTNE/hqdefault.jpg" alt="Building a Distributed Build System at Google Scale" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-building-a-distributed-build-system-at-google-scale-aysylu-greenberg">Building a Distributed Build System at Google Scale</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 30:18</div>
+			
+			
+              <div>Views: 1283 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aysylu-greenberg">Aysylu Greenberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-building-a-high-performance-team-is-everyones-job-camille-fournier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pTf5mqOrwvY/hqdefault.jpg" alt="Building a High-Performance Team is Everyone's Job" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-building-a-high-performance-team-is-everyones-job-camille-fournier">Building a High-Performance Team is Everyone's Job</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 51:20</div>
+			
+			
+              <div>Views: 4602 Likes: 59</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/camille-fournier">Camille Fournier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-building-low-latency-microservices-monoliths-in-java-peter-lawrey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4FJufP8zwgg/hqdefault.jpg" alt="Building Low Latency Microservices & Monoliths in Java" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-building-low-latency-microservices-monoliths-in-java-peter-lawrey">Building Low Latency Microservices & Monoliths in Java</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 40:56</div>
+			
+			
+              <div>Views: 2761 Likes: 37</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-lawrey">Peter Lawrey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-challenging-the-internet-of-things-joshua-birk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7lX1SifmtP0/hqdefault.jpg" alt="Challenging the Internet of Things" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-challenging-the-internet-of-things-joshua-birk">Challenging the Internet of Things</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 44:25</div>
+			
+			
+              <div>Views: 759 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joshua-birk">Joshua Birk</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-chaos-intuition-engineering-at-netflix-casey-rosenthal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Q4nniyAarbs/hqdefault.jpg" alt="Chaos & Intuition Engineering at Netflix" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-chaos-intuition-engineering-at-netflix-casey-rosenthal">Chaos & Intuition Engineering at Netflix</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 49:05</div>
+			
+			
+              <div>Views: 2587 Likes: 57</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/casey-rosenthal">Casey Rosenthal</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-cryptography-pitfalls-john-downey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nucBqQLHv-A/hqdefault.jpg" alt="Cryptography Pitfalls" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-cryptography-pitfalls-john-downey">Cryptography Pitfalls</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 44:28</div>
+			
+			
+              <div>Views: 1235 Likes: 37</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-downey">John Downey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-deploying-and-scaling-microservices-sam-newman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sO0RKuVhfw4/hqdefault.jpg" alt="Deploying And Scaling Microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-deploying-and-scaling-microservices-sam-newman">Deploying And Scaling Microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 50:45</div>
+			
+			
+              <div>Views: 2833 Likes: 42</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sam-newman">Sam Newman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-devops-the-good-the-bad-the-ugly-jeff-smith"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qLUt6bwNnks/hqdefault.jpg" alt="DevOps - The Good, The Bad, The Ugly" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-devops-the-good-the-bad-the-ugly-jeff-smith">DevOps - The Good, The Bad, The Ugly</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 47:37</div>
+			
+			
+              <div>Views: 1869 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeff-smith">Jeff Smith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-emulating-a-6502-system-in-javascript-matt-godbolt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7WuRq-Wmw5o/hqdefault.jpg" alt="Emulating a 6502 system in Javascript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-emulating-a-6502-system-in-javascript-matt-godbolt">Emulating a 6502 system in Javascript</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 45:23</div>
+			
+			
+              <div>Views: 4341 Likes: 104</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-godbolt">Matt Godbolt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-enabling-microservices-at-orbitz-steve-hoffman-rick-fast"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gY7JSjWDFJc/hqdefault.jpg" alt="Enabling Microservices at Orbitz" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-enabling-microservices-at-orbitz-steve-hoffman-rick-fast">Enabling Microservices at Orbitz</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 39:27</div>
+			
+			
+              <div>Views: 795 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-hoffman">Steve Hoffman</a>
+             
+                <a href="/p/rick-fast">Rick Fast</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-fast-track-to-docker-for-developers-bud-siddhisena"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nRXZh25m50M/hqdefault.jpg" alt="Fast Track to Docker for Developers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-fast-track-to-docker-for-developers-bud-siddhisena">Fast Track to Docker for Developers</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 44:21</div>
+			
+			
+              <div>Views: 1753 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bud-siddhisena">Bud Siddhisena</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-go-tooling-in-action-francesc-campoy-flores"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O-bJ4s8OdcA/hqdefault.jpg" alt="Go Tooling in Action" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-go-tooling-in-action-francesc-campoy-flores">Go Tooling in Action</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 50:43</div>
+			
+			
+              <div>Views: 2245 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/francesc-campoy-flores">Francesc Campoy Flores</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-growing-up-geek-sarah-johnson-bob-paulin-tim-steele"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GLU3ARt4GIY/hqdefault.jpg" alt="Growing Up Geek" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-growing-up-geek-sarah-johnson-bob-paulin-tim-steele">Growing Up Geek</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 49:39</div>
+			
+			
+              <div>Views: 753 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sarah-johnson">Sarah Johnson</a>
+             
+                <a href="/p/bob-paulin">Bob Paulin</a>
+             
+                <a href="/p/tim-steele">Tim Steele</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-high-bandwidth-data-low-latency-java-ryan-pratt-justin-flude-michael-vander-pluym"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3o1oUkZ3XHM/hqdefault.jpg" alt="High Bandwidth Data & Low-latency Java" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-high-bandwidth-data-low-latency-java-ryan-pratt-justin-flude-michael-vander-pluym">High Bandwidth Data & Low-latency Java</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 50:35</div>
+			
+			
+              <div>Views: 1371 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ryan-pratt">Ryan Pratt</a>
+             
+                <a href="/p/justin-flude">Justin Flude</a>
+             
+                <a href="/p/michael-vander-pluym">Michael Vander Pluym</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-ionic-mobile-app-development-with-a-superpowered-platform-matt-kremer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P7NPfjqeXPY/hqdefault.jpg" alt="Ionic: Mobile App Development with a Superpowered Platform" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-ionic-mobile-app-development-with-a-superpowered-platform-matt-kremer">Ionic: Mobile App Development with a Superpowered Platform</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 39:24</div>
+			
+			
+              <div>Views: 756 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-kremer">Matt Kremer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-knowledge-is-power-getting-out-of-trouble-by-understanding-git-steve-smith"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WLn1hhYWSxA/hqdefault.jpg" alt="Knowledge is Power: Getting out of Trouble by Understanding Git" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-knowledge-is-power-getting-out-of-trouble-by-understanding-git-steve-smith">Knowledge is Power: Getting out of Trouble by Understanding Git</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 55:52</div>
+			
+			
+              <div>Views: 1330 Likes: 30</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-smith">Steve Smith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-language-as-an-interface-spencer-kelley"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WuPVS2tCg8s/hqdefault.jpg" alt="Language as an Interface" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-language-as-an-interface-spencer-kelley">Language as an Interface</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 29:27</div>
+			
+			
+              <div>Views: 852 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/spencer-kelley">Spencer Kelley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-lean-enterprise-barry-oreilly"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pQJxlGUz5xY/hqdefault.jpg" alt="Lean Enterprise" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-lean-enterprise-barry-oreilly">Lean Enterprise</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 53:49</div>
+			
+			
+              <div>Views: 1720 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/barry-o-reilly">Barry O'Reilly</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-microservice-panel-f-george-r-johnson-j-kerr-m-nygard-s-newman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/r18BaOHRpE8/hqdefault.jpg" alt="Microservice Panel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-microservice-panel-f-george-r-johnson-j-kerr-m-nygard-s-newman">Microservice Panel</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 46:43</div>
+			
+			
+              <div>Views: 1976 Likes: 29</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fred-george">Fred George</a>
+             
+                <a href="/p/michael-t-nygard">Michael T. Nygard</a>
+             
+                <a href="/p/jessica-kerr">Jessica Kerr</a>
+             
+                <a href="/p/rod-johnson">Rod Johnson</a>
+             
+                <a href="/p/sam-newman">Sam Newman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-modding-security-privacy-barry-galster"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UB14dFOfqkY/hqdefault.jpg" alt="Modding Security & Privacy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-modding-security-privacy-barry-galster">Modding Security & Privacy</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 41:12</div>
+			
+			
+              <div>Views: 296 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/barry-galster">Barry Galster</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-practical-microservice-security-laura-bell"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CseYwoLjBb0/hqdefault.jpg" alt="Practical Microservice Security" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-practical-microservice-security-laura-bell">Practical Microservice Security</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 48:49</div>
+			
+			
+              <div>Views: 1716 Likes: 26</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/laura-bell">Laura Bell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-providing-flexible-database-consistency-levels-with-manhattan-at-twitter-boaz-avital"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gvdXBC-NReQ/hqdefault.jpg" alt="Providing Flexible Database Consistency Levels with Manhattan at Twitter" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-providing-flexible-database-consistency-levels-with-manhattan-at-twitter-boaz-avital">Providing Flexible Database Consistency Levels with Manhattan at Twitter</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 39:40</div>
+			
+			
+              <div>Views: 639 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/boaz-avital">Boaz Avital</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-resilient-predictive-data-pipelines-siddharth-sid-anand"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xUSjzBy0VMs/hqdefault.jpg" alt="Resilient Predictive Data Pipelines" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-resilient-predictive-data-pipelines-siddharth-sid-anand">Resilient Predictive Data Pipelines</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 45:29</div>
+			
+			
+              <div>Views: 580 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/siddharth-anand">Siddharth Anand</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-scala-the-unpredicted-lingua-franca-for-data-science-dean-wampler"><img class="list-thumbnail" src="https://i.ytimg.com/vi/C7g66xYVQPE/hqdefault.jpg" alt="Scala: The Unpredicted Lingua Franca for Data Science" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-scala-the-unpredicted-lingua-franca-for-data-science-dean-wampler">Scala: The Unpredicted Lingua Franca for Data Science</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 47:26</div>
+			
+			
+              <div>Views: 898 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dean-wampler">Dean Wampler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-stability-patterns-antipatterns-michael-t-nygard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VZePNGQojfA/hqdefault.jpg" alt="Stability Patterns & Antipatterns" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-stability-patterns-antipatterns-michael-t-nygard">Stability Patterns & Antipatterns</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 48:47</div>
+			
+			
+              <div>Views: 5985 Likes: 90</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-t-nygard">Michael T. Nygard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-the-entity-microservice-trap-you-may-be-doing-it-wrong-fred-george"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vs_XiP5Lkgg/hqdefault.jpg" alt="The Entity Microservice Trap You May Be Doing It Wrong" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-the-entity-microservice-trap-you-may-be-doing-it-wrong-fred-george">The Entity Microservice Trap You May Be Doing It Wrong</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 29:50</div>
+			
+			
+              <div>Views: 2706 Likes: 35</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fred-george">Fred George</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-the-formulartic-spectrum-suz-hinton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6H5oOP7S4DE/hqdefault.jpg" alt="The Formulartic Spectrum" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-the-formulartic-spectrum-suz-hinton">The Formulartic Spectrum</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 29:53</div>
+			
+			
+              <div>Views: 607 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/suz-hinton">Suz Hinton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-the-idiots-guide-to-quashing-microservices-hani-suleiman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ungfwiHovnA/hqdefault.jpg" alt="The Idiot’s Guide to Quashing Microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-the-idiots-guide-to-quashing-microservices-hani-suleiman">The Idiot’s Guide to Quashing Microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 40:11</div>
+			
+			
+              <div>Views: 7473 Likes: 86</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hani-suleiman">Hani Suleiman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-the-miracle-of-generators-bodil-stokke"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6mCkLZ0cwAI/hqdefault.jpg" alt="The Miracle of Generators" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-the-miracle-of-generators-bodil-stokke">The Miracle of Generators</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 51:15</div>
+			
+			
+              <div>Views: 1810 Likes: 29</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bodil-stokke">BOdil Stokke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-the-verification-of-a-distributed-system-caitie-mccaffrey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kDh5BrqiGhI/hqdefault.jpg" alt="The Verification of a Distributed System" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-the-verification-of-a-distributed-system-caitie-mccaffrey">The Verification of a Distributed System</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 37:44</div>
+			
+			
+              <div>Views: 2243 Likes: 37</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/caitie-mccaffrey">Caitie McCaffrey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-treat-your-code-as-a-crime-scene-adam-tornhill"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7FApEq8wum4/hqdefault.jpg" alt="Treat Your Code as a Crime Scene" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-treat-your-code-as-a-crime-scene-adam-tornhill">Treat Your Code as a Crime Scene</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 48:43</div>
+			
+			
+              <div>Views: 1130 Likes: 24</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-tornhill">Adam Tornhill</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-using-modern-c-in-anger-todd-montgomery"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9KljYagEPnE/hqdefault.jpg" alt="Using Modern C++ In Anger" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-using-modern-c-in-anger-todd-montgomery">Using Modern C++ In Anger</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 43:50</div>
+			
+			
+              <div>Views: 1983 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/todd-montgomery">Todd Montgomery</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-want-to-be-a-better-programmer-lars-bak-kasper-lund"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P8ltWIqDPzo/hqdefault.jpg" alt="Want to be a Better Programmer?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-want-to-be-a-better-programmer-lars-bak-kasper-lund">Want to be a Better Programmer?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 01:06:05</div>
+			
+			
+              <div>Views: 13071 Likes: 87</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kasper-lund">Kasper Lund</a>
+             
+                <a href="/p/lars-bak">Lars Bak</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-what-i-wish-i-had-known-before-scaling-uber-to-1000-services-matt-ranney"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kb-m2fasdDY/hqdefault.jpg" alt="What I Wish I Had Known Before Scaling Uber to 1000 Services" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-what-i-wish-i-had-known-before-scaling-uber-to-1000-services-matt-ranney">What I Wish I Had Known Before Scaling Uber to 1000 Services</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 46:39</div>
+			
+			
+              <div>Views: 85252 Likes: 924</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-ranney">Matt Ranney</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-chicago-2016/goto-2016-what-is-rugged-all-about-matt-konda"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KsTMz8V2b48/hqdefault.jpg" alt="What is Rugged All About?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-chicago-2016/goto-2016-what-is-rugged-all-about-matt-konda">What is Rugged All About?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-23</div>
+			
+			  <div>Length: 45:03</div>
+			
+			
+              <div>Views: 366 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-konda">Matt Konda</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLEx5khR4g7PIfvppVcaTPa5IKWTjoASRU">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

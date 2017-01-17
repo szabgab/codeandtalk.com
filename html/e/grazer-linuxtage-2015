@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Grazer LinuxTage 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Grazer LinuxTage 2015</h1>
+
+<div><a href="https://glt15.linuxtage.at/">Grazer LinuxTage 2015</a></div>
+
+
+<div>Start date: 2015-04-24</div>
+<div>End date: 2015-04-25</div>
+
+<div>Location:
+  Graz
+  
+  <a href="/l/austria">Austria</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: German</div>
+<div>Topics:
+   
+       <a href="/t/linux">Linux</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/linuxtage">@linuxtage</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/groups/grazerlinuxtage/">https://www.facebook.com/groups/grazerlinuxtage/</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Grazer%20LinuxTage%202015%20on%202015-04-24%20in%20Graz%2C%20%20Austria%20%40linuxtage%20https%3A//glt15.linuxtage.at/%20%23Linux%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/analyzing-and-breaking-simple-custom-encryption-david-gstir"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fmwrk55lu1A/hqdefault.jpg" alt="Analyzing and breaking simple custom encryption" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/analyzing-and-breaking-simple-custom-encryption-david-gstir">Analyzing and breaking simple custom encryption</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 27:15</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-gstir">David Gstir</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/beautiful-bash-aaron-zauner"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-kX8HSYe6sk/hqdefault.jpg" alt="Beautiful Bash" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/beautiful-bash-aaron-zauner">Beautiful Bash</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 30:54</div>
+			
+			
+              <div>Views: 76 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aaron-zauner">Aaron Zauner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/einfuhrung-in-python3-gerald-senarclens-de-grancy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dTjoMy7aNqQ/hqdefault.jpg" alt="Einführung in Python3" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/einfuhrung-in-python3-gerald-senarclens-de-grancy">Einführung in Python3</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 52:34</div>
+			
+			
+              <div>Views: 65 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gerald-senarclens-de-grancy">Gerald Senarclens de Grancy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/foss-vs-globale-ueberwachung-andreas-krisch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/no3Wej0w3lg/hqdefault.jpg" alt="FOSS vs Globale Ueberwachung" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/foss-vs-globale-ueberwachung-andreas-krisch">FOSS vs Globale Ueberwachung</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 33:42</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andreas-krisch">Andreas Krisch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/grafik-kungfoo-mit-imagemagick-pdfkungfoo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DMKqXM_yUHQ/hqdefault.jpg" alt="Grafik Kungfoo mit Imagemagick" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/grafik-kungfoo-mit-imagemagick-pdfkungfoo">Grafik Kungfoo mit Imagemagick</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 54:16</div>
+			
+			
+              <div>Views: 37 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kurt-pfeifle">Kurt Pfeifle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/hochverfugbares-iscsi-storage-mit-ceph-stephan-seitz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Z00VYJEUAbc/hqdefault.jpg" alt="Hochverfügbares ISCSI Storage mit Ceph" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/hochverfugbares-iscsi-storage-mit-ceph-stephan-seitz">Hochverfügbares ISCSI Storage mit Ceph</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 53:18</div>
+			
+			
+              <div>Views: 113 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephan-seitz">Stephan Seitz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/introduction-to-mesos-ulrich-dangel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UnMpCnyl61g/hqdefault.jpg" alt="Introduction to Mesos" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/introduction-to-mesos-ulrich-dangel">Introduction to Mesos</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 44:18</div>
+			
+			
+              <div>Views: 55 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ulrich-dangel">Ulrich Dangel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/linux-clustering-michael-musenbrock"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7pa0hqYDXsE/hqdefault.jpg" alt="Linux Clustering" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/linux-clustering-michael-musenbrock">Linux Clustering</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 42:27</div>
+			
+			
+              <div>Views: 46 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-musenbrock">Michael Musenbrock</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/linux-container-richard-weinberger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zpo9GVjTxuU/hqdefault.jpg" alt="Linux Container" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/linux-container-richard-weinberger">Linux Container</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 45:08</div>
+			
+			
+              <div>Views: 119 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/richard-weinberger">Richard Weinberger</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/lts-gentoo-michael-haubenwallner"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n-5GWHZjPJw/hqdefault.jpg" alt="LTS Gentoo" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/lts-gentoo-michael-haubenwallner">LTS Gentoo</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 52:15</div>
+			
+			
+              <div>Views: 60 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-haubenwallner">Michael Haubenwallner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/matplotlib-und-numpy-dietmar-thaler"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wXyKyoxVL1A/hqdefault.jpg" alt="Matplotlib und Numpy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/matplotlib-und-numpy-dietmar-thaler">Matplotlib und Numpy</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 24:38</div>
+			
+			
+              <div>Views: 36 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dietmar-thaler">Dietmar Thaler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/namecoin-daniel-kraft"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bp2V281-AnE/hqdefault.jpg" alt="Namecoin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/namecoin-daniel-kraft">Namecoin</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 32:50</div>
+			
+			
+              <div>Views: 47 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-kraft">Daniel Kraft</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/open-source-projekte-mit-python-thomas-aglassinger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2jtKWlrnJ8A/hqdefault.jpg" alt="Open Source Projekte mit Python" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/open-source-projekte-mit-python-thomas-aglassinger">Open Source Projekte mit Python</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 52:35</div>
+			
+			
+              <div>Views: 74 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-aglassinger">Thomas Aglassinger</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/performance-copilot-michele-baldessari"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZwnkImzbjvg/hqdefault.jpg" alt="Performance Copilot" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/performance-copilot-michele-baldessari">Performance Copilot</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 47:39</div>
+			
+			
+              <div>Views: 72 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michele-baldessari">Michele Baldessari</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/postgresql-the-nosql-way-hans-jurgen-schonig"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rJVvRp1JvZg/hqdefault.jpg" alt="PostgreSQL the NoSQL Way" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/postgresql-the-nosql-way-hans-jurgen-schonig">PostgreSQL the NoSQL Way</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 48:45</div>
+			
+			
+              <div>Views: 59 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hans-jurgen-schonig">Hans-Jürgen Schönig</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/regulaere-ausdruecke-fuer-fortgeschrittene-lukas-prokop"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LpOVm90oYXY/hqdefault.jpg" alt="Regulaere Ausdruecke fuer Fortgeschrittene" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/regulaere-ausdruecke-fuer-fortgeschrittene-lukas-prokop">Regulaere Ausdruecke fuer Fortgeschrittene</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 56:07</div>
+			
+			
+              <div>Views: 65 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lukas-prokop">Lukas Prokop</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/semantic-mediawiki-am-beispiel-grazwiki-martin-brunner"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Kpf8d1FeqAE/hqdefault.jpg" alt="Semantic Mediawiki am Beispiel Grazwiki" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/semantic-mediawiki-am-beispiel-grazwiki-martin-brunner">Semantic Mediawiki am Beispiel Grazwiki</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 26:37</div>
+			
+			
+              <div>Views: 40 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/martin-brunner">Martin Brunner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/sicher-kommunizieren-olaf-p"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Hfwhwz1WksE/hqdefault.jpg" alt="Sicher kommunizieren - Olaf P." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/sicher-kommunizieren-olaf-p">Sicher kommunizieren - Olaf P.</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 24:50</div>
+			
+			
+              <div>Views: 46 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/usability-spurt-man-nicht-dominic-panholzer-und-karl-voit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iweI8HseGR4/hqdefault.jpg" alt="Usability spürt man nicht" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/usability-spurt-man-nicht-dominic-panholzer-und-karl-voit">Usability spürt man nicht</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 43:42</div>
+			
+			
+              <div>Views: 46 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dominic-panholzer">Dominic Panholzer</a>
+             
+                <a href="/p/karl-voit">Karl Voit</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/webtracking-und-gegenmassnahmen-mr-x-und-bernhard-z"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fDHU0oIM9rk/hqdefault.jpg" alt="Webtracking und Gegenmassnahmen - Mr. X und Bernhard Z." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/webtracking-und-gegenmassnahmen-mr-x-und-bernhard-z">Webtracking und Gegenmassnahmen - Mr. X und Bernhard Z.</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 55:29</div>
+			
+			
+              <div>Views: 125 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/wie-man-sein-papierleben-digitalisiert-karl-voit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wFI56J3JmBw/hqdefault.jpg" alt="Wie man sein Papierleben digitalisiert" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/wie-man-sein-papierleben-digitalisiert-karl-voit">Wie man sein Papierleben digitalisiert</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 55:51</div>
+			
+			
+              <div>Views: 162 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/karl-voit">Karl Voit</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2015/youtuben-mit-linux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aUwW_M1B-1o/hqdefault.jpg" alt="Youtuben mit Linux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2015/youtuben-mit-linux">Youtuben mit Linux</a></h4>
+          <footer>
+            <div class="recorded">2015-04-24</div>
+			
+			  <div>Length: 35:16</div>
+			
+			
+              <div>Views: 110 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2015">Grazer LinuxTage 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLWHx0EvwLLUGCaFuyyAbwnTWwdgRDajVD">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Refresh 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Refresh 2016</h1>
+
+<div><a href="http://2016.refresh.rocks/">Refresh 2016</a></div>
+
+
+<div>Start date: 2016-09-09</div>
+<div>End date: 2016-09-09</div>
+
+<div>Location:
+  Tallin
+  
+  <a href="/l/estonia">Estonia</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/web">web</a> 
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/REFRESHRocks">@REFRESHRocks</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/refresh.rocks">https://www.facebook.com/refresh.rocks</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Refresh%202016%20on%202016-09-09%20in%20Tallin%2C%20%20Estonia%20%40REFRESHRocks%20http%3A//2016.refresh.rocks/%20%23web%20%23JavaScript%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/refresh-2016/refresh2016-amid-moradganjeh-design-without-designers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/c9x_ZhNHJmo/hqdefault.jpg" alt="Design without designers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/refresh-2016/refresh2016-amid-moradganjeh-design-without-designers">Design without designers</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 38:35</div>
+			
+			
+              <div>Views: 84 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/refresh-2016">Refresh 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amid-moradganjeh">Amid Moradganjeh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/refresh-2016/refresh2016-duncan-lamb-what-is-good-exploring-design-impact-and-quality"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VPFUhythjrY/hqdefault.jpg" alt="What is "Good"?: Exploring Design, Impact and Quality" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/refresh-2016/refresh2016-duncan-lamb-what-is-good-exploring-design-impact-and-quality">What is "Good"?: Exploring Design, Impact and Quality</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 36:15</div>
+			
+			
+              <div>Views: 329 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/refresh-2016">Refresh 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/duncan-lamb">Duncan Lamb</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/refresh-2016/refresh2016-indrek-vainu-bots-as-the-new-interface-in-facebook-messenger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rPte37dvjB8/hqdefault.jpg" alt="Bots as the new interface in Facebook Messenger" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/refresh-2016/refresh2016-indrek-vainu-bots-as-the-new-interface-in-facebook-messenger">Bots as the new interface in Facebook Messenger</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 29:09</div>
+			
+			
+              <div>Views: 26 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/refresh-2016">Refresh 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/indrek-vainu">Indrek Vainu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/refresh-2016/refresh2016-kate-ivey-williams-martin-jordan-designers-help-make-government-better-for-everyone"><img class="list-thumbnail" src="https://i.ytimg.com/vi/p-ruwEaJtFY/hqdefault.jpg" alt="Designers help make government better for everyone" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/refresh-2016/refresh2016-kate-ivey-williams-martin-jordan-designers-help-make-government-better-for-everyone">Designers help make government better for everyone</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 52:31</div>
+			
+			
+              <div>Views: 176 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/refresh-2016">Refresh 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/martin-jordan">Martin Jordan</a>
+             
+                <a href="/p/kate-ivey-williams">Kate Ivey-Williams</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/refresh-2016/refresh2016-luis-bosque-what-drives-a-geospatial-product-evolution-and-what-does-it-mean"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Z4aENfsj-ic/hqdefault.jpg" alt="What drives a geospatial product evolution and what does it mean" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/refresh-2016/refresh2016-luis-bosque-what-drives-a-geospatial-product-evolution-and-what-does-it-mean">What drives a geospatial product evolution and what does it mean</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 34:37</div>
+			
+			
+              <div>Views: 138 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/refresh-2016">Refresh 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luis-bosque">Luis Bosque</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/refresh-2016/refresh2016-mariusz-ciesla-being-useful-a-short-introduction-to-proactive-user-experience"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QWgB-IK7uN8/hqdefault.jpg" alt="Being Useful: A short introduction to proactive user experience" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/refresh-2016/refresh2016-mariusz-ciesla-being-useful-a-short-introduction-to-proactive-user-experience">Being Useful: A short introduction to proactive user experience</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 34:24</div>
+			
+			
+              <div>Views: 33 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/refresh-2016">Refresh 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mariusz-ciesla">Mariusz Ciesla</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/refresh-2016/refresh2016-marko-kruustuk-productizing-and-scaling-services-business"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wYuSVkkA4FM/hqdefault.jpg" alt="Productizing and scaling services business" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/refresh-2016/refresh2016-marko-kruustuk-productizing-and-scaling-services-business">Productizing and scaling services business</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 32:13</div>
+			
+			
+              <div>Views: 40 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/refresh-2016">Refresh 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marko-kruustuk">Marko Kruustük</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/refresh-2016/refresh2016-phil-nash-an-introduction-to-service-workers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9d8RzvW-C4w/hqdefault.jpg" alt="An introduction to Service Workers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/refresh-2016/refresh2016-phil-nash-an-introduction-to-service-workers">An introduction to Service Workers</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 37:35</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/refresh-2016">Refresh 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/phil-nash">Phil Nash</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/refresh-2016/refresh2016-sten-tamkivi-how-could-launching-too-many-too-early-not-be-insane-for-a-startup"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vpQBiMX6S54/hqdefault.jpg" alt="How could launching too many & too early not be insane for a startup?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/refresh-2016/refresh2016-sten-tamkivi-how-could-launching-too-many-too-early-not-be-insane-for-a-startup">How could launching too many & too early not be insane for a startup?</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 39:56</div>
+			
+			
+              <div>Views: 46 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/refresh-2016">Refresh 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sten-tamkivi">Sten Tamkivi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/refresh-2016/refresh2016-stenver-jerkku-rxjs-destroy-the-state-machine"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YRyXxQjtSI0/hqdefault.jpg" alt="RxJS - destroy the state machine!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/refresh-2016/refresh2016-stenver-jerkku-rxjs-destroy-the-state-machine">RxJS - destroy the state machine!</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 31:10</div>
+			
+			
+              <div>Views: 56 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/refresh-2016">Refresh 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stenver-jerkku">Stenver Jerkku</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/refresh-2016/refresh2016-tiffany-conroy-beautiful-authentication-tear-down-the-barbed-wire"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_qzLmsaUwOs/hqdefault.jpg" alt="Beautiful authentication: Tear down the barbed wire" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/refresh-2016/refresh2016-tiffany-conroy-beautiful-authentication-tear-down-the-barbed-wire">Beautiful authentication: Tear down the barbed wire</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 30:42</div>
+			
+			
+              <div>Views: 71 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/refresh-2016">Refresh 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tiffany-conroy">Tiffany Conroy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/refresh-2016/refresh2016-yulia-puchnina-canvas-is-new-flash-or-how-to-create-a-game-in-30-minutes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eLQZpfZJyNk/hqdefault.jpg" alt="Canvas is new Flash, or how to create a game in 30 minutes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/refresh-2016/refresh2016-yulia-puchnina-canvas-is-new-flash-or-how-to-create-a-game-in-30-minutes">Canvas is new Flash, or how to create a game in 30 minutes</a></h4>
+          <footer>
+            <div class="recorded">2016-09-09</div>
+			
+			  <div>Length: 37:48</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/refresh-2016">Refresh 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yulia-puchnina">Yulia Puchnina</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLzClMJDCN301MbMXlN8yu0BbzSGGZ4VAS">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

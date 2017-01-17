@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>ScaleConf 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>ScaleConf 2016</h1>
+
+<div><a href="http://scaleconf.org/speakers/2016">ScaleConf 2016</a></div>
+
+
+<div>Start date: 2016-03-10</div>
+<div>End date: 2016-03-11</div>
+
+<div>Location:
+  Cape Town
+  
+  <a href="/l/south-africa">South Africa</a>
+</div>
+
+<div><a href="http://scaleconf.org/codeofconduct/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/scaleconf">@scaleconf</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=ScaleConf%202016%20on%202016-03-10%20in%20Cape%20Town%2C%20%20South%20Africa%20%40scaleconf%20http%3A//scaleconf.org/speakers/2016%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/scaleconf-sa-2016/bethany-macri-retrospective-scaling-infrastructure-at-etsy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LfqyhM1LeIU/hqdefault.jpg" alt="Retrospective: Scaling Infrastructure at Etsy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/scaleconf-sa-2016/bethany-macri-retrospective-scaling-infrastructure-at-etsy">Retrospective: Scaling Infrastructure at Etsy</a></h4>
+          <footer>
+            <div class="recorded">2016-03-10</div>
+			
+			  <div>Length: 43:40</div>
+			
+			
+              <div>Views: 94 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/scaleconf-sa-2016">ScaleConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bethany-macri">Bethany Macri</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/scaleconf-sa-2016/bridget-kromhout-containers-will-not-fix-your-broken-culture-and-other-hard-truths"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hALDyVBVVz0/hqdefault.jpg" alt="Containers will not fix your broken culture (and other hard truths)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/scaleconf-sa-2016/bridget-kromhout-containers-will-not-fix-your-broken-culture-and-other-hard-truths">Containers will not fix your broken culture (and other hard truths)</a></h4>
+          <footer>
+            <div class="recorded">2016-03-10</div>
+			
+			  <div>Length: 49:59</div>
+			
+			
+              <div>Views: 200 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/scaleconf-sa-2016">ScaleConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bridget-kromhout">Bridget Kromhout</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/scaleconf-sa-2016/damian-schenkelman-the-dirty-secrets-of-building-large-highly-available-scalable-http-apis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OoA-gx-19tQ/hqdefault.jpg" alt="The dirty secrets of building large, highly available, scalable HTTP APIs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/scaleconf-sa-2016/damian-schenkelman-the-dirty-secrets-of-building-large-highly-available-scalable-http-apis">The dirty secrets of building large, highly available, scalable HTTP APIs</a></h4>
+          <footer>
+            <div class="recorded">2016-03-10</div>
+			
+			  <div>Length: 30:54</div>
+			
+			
+              <div>Views: 1271 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/scaleconf-sa-2016">ScaleConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/damian-schenkelman">Damian Schenkelman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/scaleconf-sa-2016/dewald-viljoen-rapid-reproducible-builds-treating-our-build-servers-like-production"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1VitHrVkr94/hqdefault.jpg" alt="Rapid, Reproducible Builds - Treating our build servers like production" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/scaleconf-sa-2016/dewald-viljoen-rapid-reproducible-builds-treating-our-build-servers-like-production">Rapid, Reproducible Builds - Treating our build servers like production</a></h4>
+          <footer>
+            <div class="recorded">2016-03-10</div>
+			
+			  <div>Length: 54:32</div>
+			
+			
+              <div>Views: 47 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/scaleconf-sa-2016">ScaleConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dewald-viljoen">Dewald Viljoen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/scaleconf-sa-2016/jamie-hewland-planting-seed"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uWk8zCqvtyw/hqdefault.jpg" alt="Planting Seed" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/scaleconf-sa-2016/jamie-hewland-planting-seed">Planting Seed</a></h4>
+          <footer>
+            <div class="recorded">2016-03-10</div>
+			
+			  <div>Length: 27:41</div>
+			
+			
+              <div>Views: 47 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/scaleconf-sa-2016">ScaleConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jamie-hewland">Jamie Hewland</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/scaleconf-sa-2016/job-thomas-scaling-support-by-educating-customers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZP1jImalXfU/hqdefault.jpg" alt="Job Thomas - Scaling Support by Educating Customers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/scaleconf-sa-2016/job-thomas-scaling-support-by-educating-customers">Job Thomas - Scaling Support by Educating Customers</a></h4>
+          <footer>
+            <div class="recorded">2016-03-10</div>
+			
+			  <div>Length: 42:46</div>
+			
+			
+              <div>Views: 51 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/scaleconf-sa-2016">ScaleConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/job-thomas">Job Thomas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/scaleconf-sa-2016/len-weincier-fud-at-scale"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GbhtKaIyazk/hqdefault.jpg" alt="FUD at scale" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/scaleconf-sa-2016/len-weincier-fud-at-scale">FUD at scale</a></h4>
+          <footer>
+            <div class="recorded">2016-03-10</div>
+			
+			  <div>Length: 36:03</div>
+			
+			
+              <div>Views: 40 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/scaleconf-sa-2016">ScaleConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/len-weincier">Len Weincier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/scaleconf-sa-2016/michael-gorven-continuous-deployment-to-millions-of-users-40-times-a-day"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ha2s_K9_91k/hqdefault.jpg" alt="Michael Gorven - Continuous deployment to millions of users 40 times a day" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/scaleconf-sa-2016/michael-gorven-continuous-deployment-to-millions-of-users-40-times-a-day">Michael Gorven - Continuous deployment to millions of users 40 times a day</a></h4>
+          <footer>
+            <div class="recorded">2016-03-10</div>
+			
+			  <div>Length: 43:04</div>
+			
+			
+              <div>Views: 138 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/scaleconf-sa-2016">ScaleConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-gorven">Michael Gorven</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/scaleconf-sa-2016/michael-needham-design-patterns-for-product-launch-success"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ozf5LaB6XZU/hqdefault.jpg" alt="Design patterns for product launch success" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/scaleconf-sa-2016/michael-needham-design-patterns-for-product-launch-success">Design patterns for product launch success</a></h4>
+          <footer>
+            <div class="recorded">2016-03-10</div>
+			
+			  <div>Length: 44:10</div>
+			
+			
+              <div>Views: 50 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/scaleconf-sa-2016">ScaleConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-needham">Michael Needham</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/scaleconf-sa-2016/quinton-parker-the-strangler-pattern"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PAqhDkx8G8U/hqdefault.jpg" alt="The Strangler Pattern" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/scaleconf-sa-2016/quinton-parker-the-strangler-pattern">The Strangler Pattern</a></h4>
+          <footer>
+            <div class="recorded">2016-03-10</div>
+			
+			  <div>Length: 45:55</div>
+			
+			
+              <div>Views: 177 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/scaleconf-sa-2016">ScaleConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/quinton-parker">Quinton Parker</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/scaleconf-sa-2016/sunil-shah-and-philip-norman-scaling-like-twitter-with-apache-mesos"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3qVOlzPvGhQ/hqdefault.jpg" alt="Scaling Like Twitter With Apache Mesos" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/scaleconf-sa-2016/sunil-shah-and-philip-norman-scaling-like-twitter-with-apache-mesos">Scaling Like Twitter With Apache Mesos</a></h4>
+          <footer>
+            <div class="recorded">2016-03-10</div>
+			
+			  <div>Length: 47:46</div>
+			
+			
+              <div>Views: 161 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/scaleconf-sa-2016">ScaleConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/philip-norman">Philip Norman</a>
+             
+                <a href="/p/sunil-shah">Sunil Shah</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/scaleconf-sa-2016/tyler-mcmullen-load-balancing-is-impossible"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kpvbOzHUakA/hqdefault.jpg" alt="Load Balancing is Impossible" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/scaleconf-sa-2016/tyler-mcmullen-load-balancing-is-impossible">Load Balancing is Impossible</a></h4>
+          <footer>
+            <div class="recorded">2016-03-10</div>
+			
+			  <div>Length: 47:15</div>
+			
+			
+              <div>Views: 279 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/scaleconf-sa-2016">ScaleConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tyler-mcmullen">Tyler McMullen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLvc0z7koOqJllgA9Cizs9llQcKTDX2ZaA">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

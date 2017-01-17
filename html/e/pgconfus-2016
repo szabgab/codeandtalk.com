@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>PGConf US 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>PGConf US 2016</h1>
+
+<div><a href="http://www.pgconf.us/2016/">PGConf US 2016</a></div>
+
+
+<div>Start date: 2016-04-18</div>
+<div>End date: 2016-04-20</div>
+
+<div>Location:
+  New York
+  New York
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://www.pgconf.us/2016/policies/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/postgresql">PostgreSQL</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/pgconfus">@pgconfus</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/pgconf.us">https://www.facebook.com/pgconf.us</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=PGConf%20US%202016%20on%202016-04-18%20in%20New%20York%2C%20New%20York%20USA%20%40pgconfus%20http%3A//www.pgconf.us/2016/%20%23PostgreSQL%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/a-look-at-the-elephants-trunk-postgresql-9-6-magnus-hagander"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HjAeLE9aNhQ/hqdefault.jpg" alt="A look at the Elephants trunk PostgreSQL 9.6" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/a-look-at-the-elephants-trunk-postgresql-9-6-magnus-hagander">A look at the Elephants trunk PostgreSQL 9.6</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 51:34</div>
+			
+			
+              <div>Views: 646 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/magnus-hagander">Magnus Hagander</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/achieving-a-state-of-flow-continuous-integration-and-practical-event-sourcing-w-postgresql-paolo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Cz42p3-KpvA/hqdefault.jpg" alt="Achieving a State of Flow  Continuous Integration and Practical Event Sourcing w/ PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/achieving-a-state-of-flow-continuous-integration-and-practical-event-sourcing-w-postgresql-paolo">Achieving a State of Flow  Continuous Integration and Practical Event Sourcing w/ PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 50:55</div>
+			
+			
+              <div>Views: 89 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paolo-lim">Paolo Lim</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/amazon-rds-for-postgresql-deep-dive-on-new-features-and-learnings-grant-mcalister"><img class="list-thumbnail" src="https://i.ytimg.com/vi/S0WvcQULeVQ/hqdefault.jpg" alt="Amazon RDS for PostgreSQL Deep Dive on New Features and Learnings" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/amazon-rds-for-postgresql-deep-dive-on-new-features-and-learnings-grant-mcalister">Amazon RDS for PostgreSQL Deep Dive on New Features and Learnings</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 48:37</div>
+			
+			
+              <div>Views: 180 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/grant-mcalister">Grant McAlister</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/analysis-in-cartodb"><img class="list-thumbnail" src="https://i.ytimg.com/vi/N3TGTlwcisA/hqdefault.jpg" alt="Analysis in CartoDB" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/analysis-in-cartodb">Analysis in CartoDB</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 22:39</div>
+			
+			
+              <div>Views: 88 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andy-eschbacher">Andy Eschbacher</a>
+             
+                <a href="/p/chaula-jain">Chaula Jain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/citus-architecture-extending-postgres-to-build"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ys5t6It6su0/hqdefault.jpg" alt="Citus Architecture Extending Postgres to Build" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/citus-architecture-extending-postgres-to-build">Citus Architecture Extending Postgres to Build</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 48:29</div>
+			
+			
+              <div>Views: 65 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ozgun-erdogan">Ozgun Erdogan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/data-integration-in-the-world-of-microservices-valentine-gogichashvili"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MkZJ2_4zKtU/hqdefault.jpg" alt="Data Integration in the World of Microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/data-integration-in-the-world-of-microservices-valentine-gogichashvili">Data Integration in the World of Microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 42:40</div>
+			
+			
+              <div>Views: 64 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/valentine-gogichashvili">Valentine Gogichashvili</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/deep-dive-into-postgressql-statistics"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4wUZBKGw7Xs/hqdefault.jpg" alt="Deep Dive into PostgresSQL Statistics" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/deep-dive-into-postgressql-statistics">Deep Dive into PostgresSQL Statistics</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 42:01</div>
+			
+			
+              <div>Views: 137 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alexey-lesovsky">Alexey Lesovsky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/deploying-and-managing-postgresql-with-ansible-david-hollenberger-mp4"><img class="list-thumbnail" src="https://i.ytimg.com/vi/S5esbHdnuJo/hqdefault.jpg" alt="Deploying and Managing PostgreSQL with Ansible" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/deploying-and-managing-postgresql-with-ansible-david-hollenberger-mp4">Deploying and Managing PostgreSQL with Ansible</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 27:20</div>
+			
+			
+              <div>Views: 138 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-hollenberger">David Hollenberger</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/efficiently-backing-up-terabytes-of-data-with-pgbackrest-david-steele"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qPZFANlS6OM/hqdefault.jpg" alt="Efficiently Backing up Terabytes of Data with pgBackRest" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/efficiently-backing-up-terabytes-of-data-with-pgbackrest-david-steele">Efficiently Backing up Terabytes of Data with pgBackRest</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 47:56</div>
+			
+			
+              <div>Views: 90 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-steele">David Steele</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/esa-sky-new-window-to-the-stars-using-postgresql-pilar-de-teodoro"><img class="list-thumbnail" src="https://i.ytimg.com/vi/I_OqI-E5TQ0/hqdefault.jpg" alt="ESA Sky  New window to the stars using PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/esa-sky-new-window-to-the-stars-using-postgresql-pilar-de-teodoro">ESA Sky  New window to the stars using PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 34:34</div>
+			
+			
+              <div>Views: 53 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pilar-de-teodoro">Pilar de Teodoro</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/ha-postgresql-cluster-with-repmgr-and-pgbouncer-jaime-casanova"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DjNbNpURyz4/hqdefault.jpg" alt="HA PostgreSQL cluster with repmgr and pgbouncer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/ha-postgresql-cluster-with-repmgr-and-pgbouncer-jaime-casanova">HA PostgreSQL cluster with repmgr and pgbouncer</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 46:25</div>
+			
+			
+              <div>Views: 320 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jaime-casanova">Jaime Casanova</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/hawkeye-on-postgresql-adarsh-sharma"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rAlfnyJJ1HE/hqdefault.jpg" alt="HawkEye On Postgresql" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/hawkeye-on-postgresql-adarsh-sharma">HawkEye On Postgresql</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 37:34</div>
+			
+			
+              <div>Views: 68 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adarsh-sharma">Adarsh Sharma</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/how-postgressql-is-tested"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-sjyjpUbYO0/hqdefault.jpg" alt="How PostgresSQL is tested" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/how-postgressql-is-tested">How PostgresSQL is tested</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 52:15</div>
+			
+			
+              <div>Views: 94 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-eisentraut">Peter Eisentraut</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/how-tencent-uses-postgres-xc-for-their-high-volume-wechat-payment-system-jasonys-li-mp4"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ln3RsWmM9GE/hqdefault.jpg" alt="How Tencent uses Postgres XC for their high volume WeChat payment system" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/how-tencent-uses-postgres-xc-for-their-high-volume-wechat-payment-system-jasonys-li-mp4">How Tencent uses Postgres XC for their high volume WeChat payment system</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 46:17</div>
+			
+			
+              <div>Views: 91 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jasonys-li">Jasonys Li</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/how-we-made-greenplum-open-source-andreas-scherbaum"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1cY5AxLZs9w/hqdefault.jpg" alt="How we made Greenplum Open Source" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/how-we-made-greenplum-open-source-andreas-scherbaum">How we made Greenplum Open Source</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 41:00</div>
+			
+			
+              <div>Views: 56 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andreas-scherbaum">Andreas Scherbaum</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/io-in-postgres-architecture-tuning-problems-andres-freund"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xGsyZVOhEh4/hqdefault.jpg" alt="IO in Postgres   Architecture, Tuning, Problems" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/io-in-postgres-architecture-tuning-problems-andres-freund">IO in Postgres   Architecture, Tuning, Problems</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 39:26</div>
+			
+			
+              <div>Views: 331 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andres-freund">Andres Freund</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/kicking-the-donkey-of-postgresql-replication-joshua-d-drake"><img class="list-thumbnail" src="https://i.ytimg.com/vi/f95O9pPdAZg/hqdefault.jpg" alt="Kicking the Donkey of PostgreSQL Replication" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/kicking-the-donkey-of-postgresql-replication-joshua-d-drake">Kicking the Donkey of PostgreSQL Replication</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 52:07</div>
+			
+			
+              <div>Views: 269 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joshua-d-drake">Joshua D. Drake</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/lessons-learned-operating-postgres-at-scale-dave-pirotte"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-LCOAQZuuVo/hqdefault.jpg" alt="Lessons Learned Operating Postgres at Scale" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/lessons-learned-operating-postgres-at-scale-dave-pirotte">Lessons Learned Operating Postgres at Scale</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 33:27</div>
+			
+			
+              <div>Views: 114 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-pirotte">Dave Pirotte</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/migrating-a-live-postgres-database-into-rds-with-no-downtime-experiences-and-lessons-learned-david"><img class="list-thumbnail" src="https://i.ytimg.com/vi/44JPXkoOVPg/hqdefault.jpg" alt="Migrating a live Postgres database into RDS with no downtime  Experiences and Lessons Learned  David" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/migrating-a-live-postgres-database-into-rds-with-no-downtime-experiences-and-lessons-learned-david">Migrating a live Postgres database into RDS with no downtime  Experiences and Lessons Learned  David</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 38:56</div>
+			
+			
+              <div>Views: 69 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-benoit">David Benoit</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/mls-postgresql-implementing-multi-level-security-in-postgresql-with-rls-and-selinux-joe-conway-mp4"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TK1AEt4zvIc/hqdefault.jpg" alt="MLS PostgreSQL Implementing Multi level Security in PostgreSQL with RLS and SELinux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/mls-postgresql-implementing-multi-level-security-in-postgresql-with-rls-and-selinux-joe-conway-mp4">MLS PostgreSQL Implementing Multi level Security in PostgreSQL with RLS and SELinux</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 25:10</div>
+			
+			
+              <div>Views: 42 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joe-conway">Joe Conway</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/on-providing-scalable-managed-postgresql-services-to-cloud-foundry-xiujiao-gao-mp4"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rHkgDpFHASc/hqdefault.jpg" alt="On Providing Scalable Managed PostgreSQL services to Cloud Foundry" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/on-providing-scalable-managed-postgresql-services-to-cloud-foundry-xiujiao-gao-mp4">On Providing Scalable Managed PostgreSQL services to Cloud Foundry</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 45:38</div>
+			
+			
+              <div>Views: 42 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/xiujiao-gao">Xiujiao Gao</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/overcoming-first-principles-a-guide-for-accessing-the-features-of-postgresql-in-test-driven-develop"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4Vigf4NG6-s/hqdefault.jpg" alt="Overcoming First Principles  A guide for accessing the features of PostgreSQL in test driven develop" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/overcoming-first-principles-a-guide-for-accessing-the-features-of-postgresql-in-test-driven-develop">Overcoming First Principles  A guide for accessing the features of PostgreSQL in test driven develop</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 50:01</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eric-radman">Eric Radman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/parallel-query-in-postgresql-robert-haas"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pjEySZAv9Kw/hqdefault.jpg" alt="Parallel Query In PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/parallel-query-in-postgresql-robert-haas">Parallel Query In PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 49:19</div>
+			
+			
+              <div>Views: 308 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robert-haas">Robert Haas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/postgresql-devops-with-chef-puppet-scott-mead"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MyVTZ7ORt9A/hqdefault.jpg" alt="PostgreSQL DevOps with Chef & Puppet  Scott Mead" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/postgresql-devops-with-chef-puppet-scott-mead">PostgreSQL DevOps with Chef & Puppet  Scott Mead</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 51:36</div>
+			
+			
+              <div>Views: 79 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/scott-mead">Scott Mead</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/postgresql-ha-database-clusters-through-containment-quan-ha-le-mp4"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KGcqysqyKb8/hqdefault.jpg" alt="PostgreSQL HA Database Clusters through Containment" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/postgresql-ha-database-clusters-through-containment-quan-ha-le-mp4">PostgreSQL HA Database Clusters through Containment</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 44:47</div>
+			
+			
+              <div>Views: 114 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/quan-ha-le">Quan Ha Le (lê hải quân)</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/postgresql-high-availability-and-geographic-locality-using-consul-sean-chittenden"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QnpPNxHPY7k/hqdefault.jpg" alt="PostgreSQL High Availability and Geographic Locality using consul" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/postgresql-high-availability-and-geographic-locality-using-consul-sean-chittenden">PostgreSQL High Availability and Geographic Locality using consul</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 39:47</div>
+			
+			
+              <div>Views: 102 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-chittenden">Sean Chittenden</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/postgresql-in-the-polyglot-enterprise-mitch-pirtle"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0nmpLarFgMg/hqdefault.jpg" alt="PostgreSQL in the Polyglot Enterprise" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/postgresql-in-the-polyglot-enterprise-mitch-pirtle">PostgreSQL in the Polyglot Enterprise</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 50:27</div>
+			
+			
+              <div>Views: 53 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mitch-pirtle">Mitch Pirtle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/postgresql-java-past-present-and-future-alvaro-hernandez"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UcL3a2ydIak/hqdefault.jpg" alt="PostgreSQL  Java Past Present and Future" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/postgresql-java-past-present-and-future-alvaro-hernandez">PostgreSQL  Java Past Present and Future</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 45:16</div>
+			
+			
+              <div>Views: 74 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alvaro-hernandez">Alvaro Hernandez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/postgresql-monitoring-kevin-kempter"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uTP2Y35cULM/hqdefault.jpg" alt="PostgreSQL Monitoring" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/postgresql-monitoring-kevin-kempter">PostgreSQL Monitoring</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 43:56</div>
+			
+			
+              <div>Views: 139 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kevin-kempter">Kevin Kempter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/postgresql-performance-presentation-9-6devel-edition-mark-wong"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G-5w-2dAAow/hqdefault.jpg" alt="PostgreSQL Performance Presentation, 9.6devel Edition" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/postgresql-performance-presentation-9-6devel-edition-mark-wong">PostgreSQL Performance Presentation, 9.6devel Edition</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 45:43</div>
+			
+			
+              <div>Views: 115 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-wong">Mark Wong</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/postgresql-power-on-power-michael-meskes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mWlOFjjzHPw/hqdefault.jpg" alt="PostgreSQL Power on Power" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/postgresql-power-on-power-michael-meskes">PostgreSQL Power on Power</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 33:56</div>
+			
+			
+              <div>Views: 41 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-meskes">Michael Meskes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/postgresqls-secret-nosql-superpowers-amanda-gilmore-mp4"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iGnJFwnNTME/hqdefault.jpg" alt="PostgreSQLs secret NoSQL superpowers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/postgresqls-secret-nosql-superpowers-amanda-gilmore-mp4">PostgreSQLs secret NoSQL superpowers</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 25:13</div>
+			
+			
+              <div>Views: 99 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amanda-gilmore">Amanda Gilmore</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/postgressql-development"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OSN1jKMBNlg/hqdefault.jpg" alt="PostgresSQL Development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/postgressql-development">PostgresSQL Development</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 47:52</div>
+			
+			
+              <div>Views: 63 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-riggs">Simon Riggs</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/practical-lessons-learned-when-using-postgresql-at-a-web-startup-lukas-fittl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/T-AGvR3Pz9A/hqdefault.jpg" alt="Practical Lessons Learned when using PostgreSQL at a Web Startup" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/practical-lessons-learned-when-using-postgresql-at-a-web-startup-lukas-fittl">Practical Lessons Learned when using PostgreSQL at a Web Startup</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 45:39</div>
+			
+			
+              <div>Views: 159 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lukas-fittl">Lukas Fittl</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/predictive-analytics-in-postgres-jim-nasby"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YdUoL8b7CXw/hqdefault.jpg" alt="Predictive Analytics IN Postgres  Jim Nasby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/predictive-analytics-in-postgres-jim-nasby">Predictive Analytics IN Postgres  Jim Nasby</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 50:36</div>
+			
+			
+              <div>Views: 91 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jim-nasby">Jim Nasby</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/programming-the-sql-way-with-common-table-expressions-bruce-momjian-mp4"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nNVFMHpB4GM/hqdefault.jpg" alt="Programming the SQL Way with Common Table Expressions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/programming-the-sql-way-with-common-table-expressions-bruce-momjian-mp4">Programming the SQL Way with Common Table Expressions</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 25:32</div>
+			
+			
+              <div>Views: 106 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bruce-momjian">Bruce Momjian</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/pubsub-with-postgresql-gian-biondi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mCG-AtwMMtM/hqdefault.jpg" alt="PubSub with Postgresql" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/pubsub-with-postgresql-gian-biondi">PubSub with Postgresql</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 30:21</div>
+			
+			
+              <div>Views: 162 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gian-biondi">Gian Biondi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/ranges-partitioning-and-limitations-corey-huinker-mp4"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mXGZ2JzGSQ4/hqdefault.jpg" alt="Ranges, Partitioning and Limitations" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/ranges-partitioning-and-limitations-corey-huinker-mp4">Ranges, Partitioning and Limitations</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 25:43</div>
+			
+			
+              <div>Views: 46 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/corey-huinker">Corey Huinker</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/sorting-through-the-ages-gregory-stark"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iET9kgTYGUc/hqdefault.jpg" alt="Sorting Through the Ages" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/sorting-through-the-ages-gregory-stark">Sorting Through the Ages</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 49:11</div>
+			
+			
+              <div>Views: 51 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gregory-stark">Gregory Stark</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/sql-and-mongodb-how-postgresql-brought-them-together-asya-kamsky"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oBOemU3KzII/hqdefault.jpg" alt="SQL and MongoDB how PostgreSQL brought them together" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/sql-and-mongodb-how-postgresql-brought-them-together-asya-kamsky">SQL and MongoDB how PostgreSQL brought them together</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 52:25</div>
+			
+			
+              <div>Views: 139 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/asya-kamsky">Asya Kamsky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/that-sql-looks-pretty-complicated-where-are-the-tests-james-e-marca-mp4"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eDFaZFBoJwU/hqdefault.jpg" alt="That SQL looks pretty complicated  Where are the tests" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/that-sql-looks-pretty-complicated-where-are-the-tests-james-e-marca-mp4">That SQL looks pretty complicated  Where are the tests</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 25:26</div>
+			
+			
+              <div>Views: 97 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-e-marca">James E. Marca</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/top-10-problems-solved-by-postgis-leo-hsu"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_BOP0_Ubny0/hqdefault.jpg" alt="Top 10 Problems Solved by PostGIS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/top-10-problems-solved-by-postgis-leo-hsu">Top 10 Problems Solved by PostGIS</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 44:41</div>
+			
+			
+              <div>Views: 159 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/leo-hsu">Leo Hsu</a>
+             
+                <a href="/p/regina-obe">Regina Obe</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/using-postgresql-to-manage-arcgis-spatial-data"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FTYVCU9DNJM/hqdefault.jpg" alt="Using PostgreSQL to manage ArcGIS spatial data" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/using-postgresql-to-manage-arcgis-spatial-data">Using PostgreSQL to manage ArcGIS spatial data</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 23:59</div>
+			
+			
+              <div>Views: 125 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andy-eschbacher">Andy Eschbacher</a>
+             
+                <a href="/p/chaula-jain">Chaula Jain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/pgconfus-2016/youd-better-have-tested-backups-dimitri-fontaine"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QkTmnqnUbmc/hqdefault.jpg" alt="You'd better have tested backups" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/pgconfus-2016/youd-better-have-tested-backups-dimitri-fontaine">You'd better have tested backups</a></h4>
+          <footer>
+            <div class="recorded">2016-04-18</div>
+			
+			  <div>Length: 37:15</div>
+			
+			
+              <div>Views: 229 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/pgconfus-2016">PGConf US 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dimitri-fontaine">Dimitri Fontaine</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLCExcFCoaxiOXOe3KjJN1SX2ThVKfmUmn">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

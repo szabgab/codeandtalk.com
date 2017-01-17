@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>You Gotta Love Frontend Conference 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>You Gotta Love Frontend Conference 2015</h1>
+
+<div><a href="http://2015.yougottalovefrontend.com/">You Gotta Love Frontend Conference 2015</a></div>
+
+
+<div>Start date: 2015-06-08</div>
+<div>End date: 2015-06-09</div>
+
+<div>Location:
+  Tel Aviv
+  
+  <a href="/l/israel">Israel</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/YGLFConf">@YGLFConf</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/YouGottaLoveFrontend">https://www.facebook.com/YouGottaLoveFrontend</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=You%20Gotta%20Love%20Frontend%20Conference%202015%20on%202015-06-08%20in%20Tel%20Aviv%2C%20%20Israel%20%40YGLFConf%20http%3A//2015.yougottalovefrontend.com/%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/alex-wolkov-coding-your-company-culture-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6FgJwSoWneY/hqdefault.jpg" alt="Coding Your Company Culture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/alex-wolkov-coding-your-company-culture-yglf2015">Coding Your Company Culture</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 27:29</div>
+			
+			
+              <div>Views: 524 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-wolkov">Alex Wolkov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/alexander-kotliarskyi-react-native-under-the-hood-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hDviGU-57lU/hqdefault.jpg" alt="React Native: Under the Hood" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/alexander-kotliarskyi-react-native-under-the-hood-yglf2015">React Native: Under the Hood</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 26:08</div>
+			
+			
+              <div>Views: 5734 Likes: 43</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alexander-kotliarskyi">Alexander Kotliarskyi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/benjamin-gruenbaum-iojs-and-the-future-of-server-side-javascript-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LGpmUyFnyuQ/hqdefault.jpg" alt="io.js and the future of server side JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/benjamin-gruenbaum-iojs-and-the-future-of-server-side-javascript-yglf2015">io.js and the future of server side JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 28:58</div>
+			
+			
+              <div>Views: 4028 Likes: 57</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/benjamin-gruenbaum">Benjamin Gruenbaum</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/douglas-crockford-upgrading-the-web-keynote-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7TwrABEAfTk/hqdefault.jpg" alt="Upgrading the Web (Keynote)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/douglas-crockford-upgrading-the-web-keynote-yglf2015">Upgrading the Web (Keynote)</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 37:21</div>
+			
+			
+              <div>Views: 1250 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/douglas-crockford">Douglas Crockford</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/efim-dimenstein-itai-chejanovsky-bringing-it-all-together-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jIvo8ZeWaMo/hqdefault.jpg" alt="Bringing it all together" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/efim-dimenstein-itai-chejanovsky-bringing-it-all-together-yglf2015">Bringing it all together</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 29:57</div>
+			
+			
+              <div>Views: 263 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/itai-chejanovsky">Itai Chejanovsky</a>
+             
+                <a href="/p/efim-dimenstein">Efim Dimenstein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/eran-zinman-boom-performance-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Rj7eXClApNA/hqdefault.jpg" alt="BOOM Performance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/eran-zinman-boom-performance-yglf2015">BOOM Performance</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 28:13</div>
+			
+			
+              <div>Views: 486 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eran-zinman">Eran Zinman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/gil-tayar-old-gods-new-a-vision-of-backend-frontend-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yc2Ug2GySCg/hqdefault.jpg" alt="Old Gods & New: A Vision of Backend & Frontend" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/gil-tayar-old-gods-new-a-vision-of-backend-frontend-yglf2015">Old Gods & New: A Vision of Backend & Frontend</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 30:25</div>
+			
+			
+              <div>Views: 1835 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gil-tayar">Gil Tayar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/igal-steklov-landing-your-dream-job-as-a-fed-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/a1cBQatHWrw/hqdefault.jpg" alt="Landing your dream job as a FED" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/igal-steklov-landing-your-dream-job-as-a-fed-yglf2015">Landing your dream job as a FED</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 23:25</div>
+			
+			
+              <div>Views: 417 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/igal-steklov">Igal Steklov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/lea-verou-the-missing-slice-keynote-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/I_fBM1cEc_8/hqdefault.jpg" alt="The missing slice (Keynote)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/lea-verou-the-missing-slice-keynote-yglf2015">The missing slice (Keynote)</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 01:01:16</div>
+			
+			
+              <div>Views: 1055 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lea-verou">Lea Verou</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/martin-kleppe-the-aleph-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ET3iKgqPzjw/hqdefault.jpg" alt="The Aleph" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/martin-kleppe-the-aleph-yglf2015">The Aleph</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 55:47</div>
+			
+			
+              <div>Views: 528 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/martin-kleppe">Martin Kleppe</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/or-hiltch-binary-data-adventures-in-browser-javascript-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yfy5VpeA4Yo/hqdefault.jpg" alt="Binary Data Adventures in Browser JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/or-hiltch-binary-data-adventures-in-browser-javascript-yglf2015">Binary Data Adventures in Browser JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 25:59</div>
+			
+			
+              <div>Views: 556 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/or-hiltch">Or Hiltch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/phil-nash-the-web-is-getting-pushy-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4BYjvS4b_Bo/hqdefault.jpg" alt="The web is getting pushy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/phil-nash-the-web-is-getting-pushy-yglf2015">The web is getting pushy</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 31:09</div>
+			
+			
+              <div>Views: 444 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/phil-nash">Phil Nash</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/serge-krul-leading-a-front-end-development-team-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kFgJcq-h88Q/hqdefault.jpg" alt="Leading a Front End Development Team" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/serge-krul-leading-a-front-end-development-team-yglf2015">Leading a Front End Development Team</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 29:04</div>
+			
+			
+              <div>Views: 314 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/serge-krul">Serge Krul</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/shay-chen-creepy-frontend-mistakes-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IbXl5K6P2KA/hqdefault.jpg" alt="Creepy frontend mistakes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/shay-chen-creepy-frontend-mistakes-yglf2015">Creepy frontend mistakes</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 21:15</div>
+			
+			
+              <div>Views: 657 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shay-chen">Shay Chen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2015/yelena-jetpyspayeva-vladimir-grinenko-bem-building-em-modular-yglf2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/huQp7gr3WPE/hqdefault.jpg" alt="BEM - Building 'em modular" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2015/yelena-jetpyspayeva-vladimir-grinenko-bem-building-em-modular-yglf2015">BEM - Building 'em modular</a></h4>
+          <footer>
+            <div class="recorded">2015-06-08</div>
+			
+			  <div>Length: 33:59</div>
+			
+			
+              <div>Views: 1084 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2015">You Gotta Love Frontend Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vladimir-grinenko">Vladimir Grinenko</a>
+             
+                <a href="/p/yelena-jetpyspayeva">Yelena Jetpyspayeva</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLII-CO3Ff0qbx_zJYVsmg0pIgf32zyB5p">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

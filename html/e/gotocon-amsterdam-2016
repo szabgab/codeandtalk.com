@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>GOTO Amsterdam 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>GOTO Amsterdam 2016</h1>
+
+<div><a href="https://gotocon.com/amsterdam-2016/">GOTO Amsterdam 2016</a></div>
+
+
+<div>Start date: 2016-06-14</div>
+<div>End date: 2016-06-15</div>
+
+<div>Location:
+  Amsterdam
+  
+  <a href="/l/the-netherlands">The Netherlands</a>
+</div>
+
+<div><a href="https://gotocon.com/amsterdam-2016/code-of-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/GOTOamst">@GOTOamst</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/GOTOConference">https://www.facebook.com/GOTOConference</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=GOTO%20Amsterdam%202016%20on%202016-06-14%20in%20Amsterdam%2C%20%20The%20Netherlands%20%40GOTOamst%20https%3A//gotocon.com/amsterdam-2016/%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-advanced-spring-cloud-joris-kuipers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XCItVwAZl_I/hqdefault.jpg" alt="Advanced Spring Cloud" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-advanced-spring-cloud-joris-kuipers">Advanced Spring Cloud</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 49:21</div>
+			
+			
+              <div>Views: 448 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joris-kuipers">Joris Kuipers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-beyond-budgeting-an-agile-mngmt-model-for-new-business-people-realities-b-bogsnes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4gq0Q7AoT94/hqdefault.jpg" alt="Beyond Budgeting - An Agile Mngmt Model for New Business & People Realities" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-beyond-budgeting-an-agile-mngmt-model-for-new-business-people-realities-b-bogsnes">Beyond Budgeting - An Agile Mngmt Model for New Business & People Realities</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 51:02</div>
+			
+			
+              <div>Views: 1312 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bjarte-bogsnes">Bjarte Bogsnes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-beyond-flux-scalable-frontend-architectures-built-upon-publishsubscribe-m-kurze"><img class="list-thumbnail" src="https://i.ytimg.com/vi/82rrMIf48Zk/hqdefault.jpg" alt="Beyond Flux - Scalable Frontend Architectures built upon Publish/Subscribe" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-beyond-flux-scalable-frontend-architectures-built-upon-publishsubscribe-m-kurze">Beyond Flux - Scalable Frontend Architectures built upon Publish/Subscribe</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 41:50</div>
+			
+			
+              <div>Views: 960 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-kurze">Michael Kurze</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-busy-developers-guide-to-meteorjs-ted-neward"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uMSY-vWB23w/hqdefault.jpg" alt="Busy Developer's Guide to MeteorJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-busy-developers-guide-to-meteorjs-ted-neward">Busy Developer's Guide to MeteorJS</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 57:57</div>
+			
+			
+              <div>Views: 516 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ted-neward">Ted Neward</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-cloud-native-java-josh-long"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sOP3x6ODQWQ/hqdefault.jpg" alt="Cloud Native Java" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-cloud-native-java-josh-long">Cloud Native Java</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 54:08</div>
+			
+			
+              <div>Views: 3296 Likes: 41</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/josh-long">Josh Long</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-cracking-the-cipher-challenge-simon-singh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/T59hl2nlrT0/hqdefault.jpg" alt="Cracking the Cipher Challenge" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-cracking-the-cipher-challenge-simon-singh">Cracking the Cipher Challenge</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 40:36</div>
+			
+			
+              <div>Views: 2579 Likes: 50</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-singh">Simon Singh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-data-as-software-as-data-andrea-burbank"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LOMk8TD6l5k/hqdefault.jpg" alt="Data as Software as Data" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-data-as-software-as-data-andrea-burbank">Data as Software as Data</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 40:28</div>
+			
+			
+              <div>Views: 3933 Likes: 64</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrea-burbank">Andrea Burbank</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-data-science-vs-data-alchemy-lukas-vermeer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wcNwUNqTYc8/hqdefault.jpg" alt="Data Science vs. Data Alchemy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-data-science-vs-data-alchemy-lukas-vermeer">Data Science vs. Data Alchemy</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 37:11</div>
+			
+			
+              <div>Views: 2151 Likes: 43</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lukas-vermeer">Lukas Vermeer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-devops-bolcom-our-journey-to-grow-from-10-to-50-teams-in-3-years-m-tunaru-m-vis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yrdjKUtF-Ng/hqdefault.jpg" alt="DevOps @bol.com: Our Journey to Grow from 10 to 50 Teams in 3 Years" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-devops-bolcom-our-journey-to-grow-from-10-to-50-teams-in-3-years-m-tunaru-m-vis">DevOps @bol.com: Our Journey to Grow from 10 to 50 Teams in 3 Years</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 48:53</div>
+			
+			
+              <div>Views: 730 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mihaela-tunaru">Mihaela Tunaru</a>
+             
+                <a href="/p/menno-vis">Menno Vis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-digital-infrastructure-and-digital-utilities-clemens-vasters"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IAJMtqPHURE/hqdefault.jpg" alt="Digital Infrastructure and Digital Utilities" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-digital-infrastructure-and-digital-utilities-clemens-vasters">Digital Infrastructure and Digital Utilities</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 53:51</div>
+			
+			
+              <div>Views: 447 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/clemens-vasters">Clemens Vasters</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-embrace-the-past-how-sw-evolution-lets-you-understand-large-codebases-adam-tornhill"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0cY0vkFw7cY/hqdefault.jpg" alt="Embrace the Past: How SW Evolution Lets You Understand Large Codebases" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-embrace-the-past-how-sw-evolution-lets-you-understand-large-codebases-adam-tornhill">Embrace the Past: How SW Evolution Lets You Understand Large Codebases</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 43:58</div>
+			
+			
+              <div>Views: 1021 Likes: 26</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-tornhill">Adam Tornhill</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-enterprise-just-got-entrepreneurial-barry-oreilly"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5hzZrGhRE7M/hqdefault.jpg" alt="Enterprise Just Got Entrepreneurial" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-enterprise-just-got-entrepreneurial-barry-oreilly">Enterprise Just Got Entrepreneurial</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 49:24</div>
+			
+			
+              <div>Views: 660 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/barry-o-reilly">Barry O'Reilly</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-even-faster-how-rugged-devops-sw-supply-chains-attack-developer-waste-joshua-corman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dogofef4HWg/hqdefault.jpg" alt="Even Faster: How Rugged DevOps & SW Supply Chains Attack Developer Waste" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-even-faster-how-rugged-devops-sw-supply-chains-attack-developer-waste-joshua-corman">Even Faster: How Rugged DevOps & SW Supply Chains Attack Developer Waste</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 49:30</div>
+			
+			
+              <div>Views: 669 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joshua-corman">Joshua Corman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-farleys-laws-dave-farley"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dQzkT5A95Go/hqdefault.jpg" alt="Farley's Laws" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-farleys-laws-dave-farley">Farley's Laws</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 53:42</div>
+			
+			
+              <div>Views: 1214 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-farley">Dave Farley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-from-zero-to-hero-with-spring-boot-stephane-nicoll"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X6WcGaUKwoU/hqdefault.jpg" alt="From Zero to Hero with Spring Boot" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-from-zero-to-hero-with-spring-boot-stephane-nicoll">From Zero to Hero with Spring Boot</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 45:28</div>
+			
+			
+              <div>Views: 1321 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephane-nicoll">Stephane Nicoll</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-iot-smart-products-smart-places-but-most-of-all-smart-people-lorna-goulden"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tkeeHge-gVA/hqdefault.jpg" alt="IoT - Smart Products, Smart Places but most of all Smart People" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-iot-smart-products-smart-places-but-most-of-all-smart-people-lorna-goulden">IoT - Smart Products, Smart Places but most of all Smart People</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 40:11</div>
+			
+			
+              <div>Views: 647 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lorna-goulden">Lorna Goulden</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-java-based-microservices-containers-kubernetes-how-to-ray-tsang-arjen-wassink"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8qSpvRKrgHk/hqdefault.jpg" alt="Java-Based Microservices, Containers, Kubernetes - How To" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-java-based-microservices-containers-kubernetes-how-to-ray-tsang-arjen-wassink">Java-Based Microservices, Containers, Kubernetes - How To</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 50:56</div>
+			
+			
+              <div>Views: 2620 Likes: 24</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ray-tsang">Ray Tsang</a>
+             
+                <a href="/p/arjen-wassink">Arjen Wassink</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-javascript-performance-through-the-spyglass-vyacheslav-egorov"><img class="list-thumbnail" src="https://i.ytimg.com/vi/r76ZjdzFExg/hqdefault.jpg" alt="JavaScript Performance Through the Spyglass" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-javascript-performance-through-the-spyglass-vyacheslav-egorov">JavaScript Performance Through the Spyglass</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 46:09</div>
+			
+			
+              <div>Views: 3634 Likes: 80</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vyacheslav-egorov">Vyacheslav Egorov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-journey-from-monolith-to-microservices-devops-aviran-mordo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jeMNaKIrsu8/hqdefault.jpg" alt="Journey from Monolith to Microservices & DevOps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-journey-from-monolith-to-microservices-devops-aviran-mordo">Journey from Monolith to Microservices & DevOps</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 48:59</div>
+			
+			
+              <div>Views: 2344 Likes: 42</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aviran-mordo">Aviran Mordo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-machine-learning-with-google-cloud-platform-kaz-sato"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_Pxlfz7cXOg/hqdefault.jpg" alt="Machine Learning with Google Cloud Platform" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-machine-learning-with-google-cloud-platform-kaz-sato">Machine Learning with Google Cloud Platform</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 41:50</div>
+			
+			
+              <div>Views: 1014 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kaz-sato">Kaz Sato</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-micropython-the-internet-of-things-damien-george"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EvGhPmPPzko/hqdefault.jpg" alt="MicroPython & the Internet of Things" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-micropython-the-internet-of-things-damien-george">MicroPython & the Internet of Things</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 46:57</div>
+			
+			
+              <div>Views: 2914 Likes: 61</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/damien-george">Damien George</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-microservices-at-netflix-scale-principles-tradeoffs-lessons-learned-r-meshenberg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/57UK46qfBLY/hqdefault.jpg" alt="Microservices at Netflix Scale: Principles, Tradeoffs & Lessons Learned" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-microservices-at-netflix-scale-principles-tradeoffs-lessons-learned-r-meshenberg">Microservices at Netflix Scale: Principles, Tradeoffs & Lessons Learned</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 48:34</div>
+			
+			
+              <div>Views: 33702 Likes: 435</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ruslan-meshenberg">Ruslan Meshenberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-philosophical-reflections-on-technology-haroon-sheikh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G5gB2rtxA5M/hqdefault.jpg" alt="Philosophical Reflections on Technology" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-philosophical-reflections-on-technology-haroon-sheikh">Philosophical Reflections on Technology</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 01:00:17</div>
+			
+			
+              <div>Views: 369 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/haroon-sheikh">Haroon Sheikh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-psychology-philosophy-programming-ted-neward"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XShcmCBK93E/hqdefault.jpg" alt="Psychology, Philosophy & Programming" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-psychology-philosophy-programming-ted-neward">Psychology, Philosophy & Programming</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 01:02:30</div>
+			
+			
+              <div>Views: 4653 Likes: 102</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ted-neward">Ted Neward</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-pure-functional-programming-in-excel-felienne-hermans"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0yKf8TrLUOw/hqdefault.jpg" alt="Pure Functional Programming in Excel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-pure-functional-programming-in-excel-felienne-hermans">Pure Functional Programming in Excel</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 43:16</div>
+			
+			
+              <div>Views: 5425 Likes: 102</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/felienne-hermans">Felienne Hermans</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-rugged-being-secure-agile-michael-brunton-spall"><img class="list-thumbnail" src="https://i.ytimg.com/vi/txEWO4uyVnY/hqdefault.jpg" alt="Rugged: Being Secure & Agile" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-rugged-being-secure-agile-michael-brunton-spall">Rugged: Being Secure & Agile</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 49:45</div>
+			
+			
+              <div>Views: 1912 Likes: 24</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-brunton-spall">Michael Brunton-Spall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-secure-coding-patterns-andreas-hallberg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oqd9bxy5Hvc/hqdefault.jpg" alt="Secure Coding Patterns" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-secure-coding-patterns-andreas-hallberg">Secure Coding Patterns</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 50:26</div>
+			
+			
+              <div>Views: 2432 Likes: 47</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andreas-hallberg">Andreas Hallberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-self-driving-cars-jonathan-sprinkle"><img class="list-thumbnail" src="https://i.ytimg.com/vi/L-EGfuhhxTo/hqdefault.jpg" alt="Self-Driving Cars" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-self-driving-cars-jonathan-sprinkle">Self-Driving Cars</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 56:56</div>
+			
+			
+              <div>Views: 1158 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jonathan-sprinkle">Jonathan Sprinkle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-software-faster-dan-north"><img class="list-thumbnail" src="https://i.ytimg.com/vi/USc-yLHXNUg/hqdefault.jpg" alt="Software, Faster" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-software-faster-dan-north">Software, Faster</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 54:20</div>
+			
+			
+              <div>Views: 11323 Likes: 194</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-north">Dan North</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-software-that-fits-in-your-head-dan-north"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4Y0tOi7QWqM/hqdefault.jpg" alt="Software that Fits in Your Head" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-software-that-fits-in-your-head-dan-north">Software that Fits in Your Head</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 37:22</div>
+			
+			
+              <div>Views: 7306 Likes: 129</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-north">Dan North</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-spring-boot-for-the-web-tier-brian-clozel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rcwyF9y5mS4/hqdefault.jpg" alt="Spring Boot for the Web Tier" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-spring-boot-for-the-web-tier-brian-clozel">Spring Boot for the Web Tier</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 54:47</div>
+			
+			
+              <div>Views: 616 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-clozel">Brian Clozel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-spring-framework-50-preview-roadmap-juergen-hoeller"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cGxGbqB12pU/hqdefault.jpg" alt="Spring Framework 5.0 - Preview & Roadmap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-spring-framework-50-preview-roadmap-juergen-hoeller">Spring Framework 5.0 - Preview & Roadmap</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 55:06</div>
+			
+			
+              <div>Views: 2326 Likes: 27</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/juergen-hoeller">Juergen Hoeller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-the-impostor-syndrome-gitte-klitgaard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vLpqq0ljawE/hqdefault.jpg" alt="The Impostor Syndrome" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-the-impostor-syndrome-gitte-klitgaard">The Impostor Syndrome</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 49:52</div>
+			
+			
+              <div>Views: 3295 Likes: 66</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gitte-klitgaard">Gitte Klitgaard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-the-post-mvc-age-maarten-hus"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QQxNr6t1HEc/hqdefault.jpg" alt="The Post-MVC Age" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-the-post-mvc-age-maarten-hus">The Post-MVC Age</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 47:29</div>
+			
+			
+              <div>Views: 3540 Likes: 26</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maarten-hus">Maarten Hus</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gotocon-amsterdam-2016/goto-2016-the-ultimate-arduino-bootstrap-preben-thoro"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rVG7X1yn5o4/hqdefault.jpg" alt="The Ultimate Arduino Bootstrap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gotocon-amsterdam-2016/goto-2016-the-ultimate-arduino-bootstrap-preben-thoro">The Ultimate Arduino Bootstrap</a></h4>
+          <footer>
+            <div class="recorded">2016-06-14</div>
+			
+			  <div>Length: 44:09</div>
+			
+			
+              <div>Views: 1086 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/gotocon-amsterdam-2016">GOTO Amsterdam 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/preben-thoro">Preben Thoro</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLEx5khR4g7PIBIQHkNnOyRy2kclkq25Bh">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

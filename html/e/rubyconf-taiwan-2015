@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Ruby Conf Taiwan 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Ruby Conf Taiwan 2015</h1>
+
+<div><a href="http://2015.rubyconf.tw/">Ruby Conf Taiwan 2015</a></div>
+
+
+<div>Start date: 2015-09-11</div>
+<div>End date: 2015-09-12</div>
+
+<div>Location:
+  Taipei
+  
+  <a href="/l/taiwan">Taiwan</a>
+</div>
+
+<div><a href="http://2015.rubyconf.tw/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: Chinese, English</div>
+<div>Topics:
+   
+       <a href="/t/ruby">Ruby</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/rubyconftw">@rubyconftw</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/rubyconftw">https://www.facebook.com/rubyconftw</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Ruby%20Conf%20Taiwan%202015%20on%202015-09-11%20in%20Taipei%2C%20%20Taiwan%20%40rubyconftw%20http%3A//2015.rubyconf.tw/%20%23Ruby%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-day1-r2-04-jian-wei-hang-gulp-on-rails-return-front-end-back-to-front-end-developers-huan-gei-qian-duan-gong-cheng-shi-yi-ge-tian-kong"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BLwBJfVQux0/hqdefault.jpg" alt="RubyConf Day1 R2 04 簡煒航：Gulp on Rails   Return Front end back to Front end Developers 還給前端工程師一個天空" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-day1-r2-04-jian-wei-hang-gulp-on-rails-return-front-end-back-to-front-end-developers-huan-gei-qian-duan-gong-cheng-shi-yi-ge-tian-kong">RubyConf Day1 R2 04 簡煒航：Gulp on Rails   Return Front end back to Front end Developers 還給前端工程師一個天空</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 26:21</div>
+			
+			
+              <div>Views: 73 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-day2-r0-04-tkaru-he-yong-golang-bang-ruby-zhuan-an-jia-su"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TjQmnxitMDs/hqdefault.jpg" alt="RubyConf Day2 R0 04 tka：如何用 golang 幫 ruby 專案加速" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-day2-r0-04-tkaru-he-yong-golang-bang-ruby-zhuan-an-jia-su">RubyConf Day2 R0 04 tka：如何用 golang 幫 ruby 專案加速</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 22:45</div>
+			
+			
+              <div>Views: 14 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-01-ruddy-lee-li-zhi-hua-wei-lai-de-zhuan-an-kai-fa-the-future-of-project-development"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KCtiGybxWQI/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day1 R0 01 Ruddy Lee  李智樺：未來的專案開發 The future of project development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-01-ruddy-lee-li-zhi-hua-wei-lai-de-zhuan-an-kai-fa-the-future-of-project-development">RubyConf Taiwan 2015-Day1 R0 01 Ruddy Lee  李智樺：未來的專案開發 The future of project development</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 53:59</div>
+			
+			
+              <div>Views: 88 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-02-assaf-gelberbeating-poker-with-the-help-of-ruby"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Q2zIL9V2VIw/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day1 R0 02 Assaf Gelber：Beating Poker With The Help Of Ruby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-02-assaf-gelberbeating-poker-with-the-help-of-ruby">RubyConf Taiwan 2015-Day1 R0 02 Assaf Gelber：Beating Poker With The Help Of Ruby</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 27:03</div>
+			
+			
+              <div>Views: 51 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-03-lin-jian-xin-have-you-seen-the-mock-muack-yet"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7z_HTxxfvvo/hqdefault.jpg" alt="RubyConf Taiwan 2015 Day1 R0 03 林健欣：Have you seen the Mock Muack yet" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-03-lin-jian-xin-have-you-seen-the-mock-muack-yet">RubyConf Taiwan 2015 Day1 R0 03 林健欣：Have you seen the Mock Muack yet</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 30:56</div>
+			
+			
+              <div>Views: 6 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-04-ronald-hsu-hotherobai-da-mei-ti-wang-zhan-cong-wordpress-dao-rails-de-da-xiao-shi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-mW2lzqkBEA/hqdefault.jpg" alt="RubyConf Taiwan 2015 Day1 R0 04 Ronald Hsu Hothero：百大媒體網站從 WordPress 到 Rails 的大小事" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-04-ronald-hsu-hotherobai-da-mei-ti-wang-zhan-cong-wordpress-dao-rails-de-da-xiao-shi">RubyConf Taiwan 2015 Day1 R0 04 Ronald Hsu Hothero：百大媒體網站從 WordPress 到 Rails 的大小事</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 50:07</div>
+			
+			
+              <div>Views: 49 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-05-juanito-fatasrspec-for-practical-rubyist"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uatFCBHXJqU/hqdefault.jpg" alt="RubyConf Taiwan 2015 Day1 R0 05 Juanito Fatas：RSpec for Practical Rubyist" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-05-juanito-fatasrspec-for-practical-rubyist">RubyConf Taiwan 2015 Day1 R0 05 Juanito Fatas：RSpec for Practical Rubyist</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 50:10</div>
+			
+			
+              <div>Views: 32 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-06-lin-yu-xiang-john-linneed-for-speed-boost-ruby-with-ffi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NtL54WD2oFk/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day1 R0 06 林鈺翔John Lin：Need for Speed   Boost ruby with FFI" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-06-lin-yu-xiang-john-linneed-for-speed-boost-ruby-with-ffi">RubyConf Taiwan 2015-Day1 R0 06 林鈺翔John Lin：Need for Speed   Boost ruby with FFI</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 16:27</div>
+			
+			
+              <div>Views: 41 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-07-rens-verstegengame-development-with-ruby-on-rails"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MqiG1Aza8DQ/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day1 R0 07 Rens Verstegen：Game Development with Ruby on Rails" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-07-rens-verstegengame-development-with-ruby-on-rails">RubyConf Taiwan 2015-Day1 R0 07 Rens Verstegen：Game Development with Ruby on Rails</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 18:09</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-09-yukihiro-matz-matsumotolazy-programmers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cydW3bvUOKQ/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day1 R0 09 Yukihiro Matz Matsumoto：Lazy Programmers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r0-09-yukihiro-matz-matsumotolazy-programmers">RubyConf Taiwan 2015-Day1 R0 09 Yukihiro Matz Matsumoto：Lazy Programmers</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 53:51</div>
+			
+			
+              <div>Views: 44 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r2-01-grzegorz-witekfrom-international-to-global"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tHbex4qMfPs/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day1 R2 01 Grzegorz Witek：From international to global" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r2-01-grzegorz-witekfrom-international-to-global">RubyConf Taiwan 2015-Day1 R2 01 Grzegorz Witek：From international to global</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 25:44</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r2-02-xie-sheng-you-automating-our-daily-tasks-with-scripting"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wkJ6Sc3627A/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day1 R2 02 謝昇佑：Automating our daily tasks with scripting" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r2-02-xie-sheng-you-automating-our-daily-tasks-with-scripting">RubyConf Taiwan 2015-Day1 R2 02 謝昇佑：Automating our daily tasks with scripting</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 21:40</div>
+			
+			
+              <div>Views: 50 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r2-03-xu-si-kai-szu-kai-hsu-brucehsuevolution-of-gobies"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9m4FzGPtGig/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day1 R2 03 許斯凱  Szu Kai Hsu brucehsu：Evolution of Gobies" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r2-03-xu-si-kai-szu-kai-hsu-brucehsuevolution-of-gobies">RubyConf Taiwan 2015-Day1 R2 03 許斯凱  Szu Kai Hsu brucehsu：Evolution of Gobies</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 24:46</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r2-05-jason-lee-li-zhi-xian-ru-he-zai-jvm-shang-tou-guo-warbler-bu-shu-rails-ying-yong"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MFafFUe_4r0/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day1 R2 05 Jason Lee 李致賢：如何在 JVM 上透過 Warbler 部署 Rails 應用" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r2-05-jason-lee-li-zhi-xian-ru-he-zai-jvm-shang-tou-guo-warbler-bu-shu-rails-ying-yong">RubyConf Taiwan 2015-Day1 R2 05 Jason Lee 李致賢：如何在 JVM 上透過 Warbler 部署 Rails 應用</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 23:28</div>
+			
+			
+              <div>Views: 19 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r2-07-hiroshi-shibatamiddleware-as-code-with-mruby"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vKPtLI0JCG4/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day1 R2 07 Hiroshi SHIBATA：Middleware as Code with mruby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r2-07-hiroshi-shibatamiddleware-as-code-with-mruby">RubyConf Taiwan 2015-Day1 R2 07 Hiroshi SHIBATA：Middleware as Code with mruby</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 24:57</div>
+			
+			
+              <div>Views: 4 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r206-manuel-vidaurreusing-ruby-to-implement-e-commerce"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yXgkDNmKUmU/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day1-R206 Manuel Vidaurre：Using Ruby to Implement e commerce" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day1-r206-manuel-vidaurreusing-ruby-to-implement-e-commerce">RubyConf Taiwan 2015-Day1-R206 Manuel Vidaurre：Using Ruby to Implement e commerce</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 20:43</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r0-01-sarah-allentransparency-wins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-2_9WFtEvaA/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day2 R0 01 Sarah Allen：Transparency Wins" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r0-01-sarah-allentransparency-wins">RubyConf Taiwan 2015-Day2 R0 01 Sarah Allen：Transparency Wins</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 58:58</div>
+			
+			
+              <div>Views: 62 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r0-02-joseph-ku-gu-jie-fang-rb-when-ruby-met-bitcoin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PnG5jgpsZOU/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day2 R0 02 Joseph Ku 古傑芳：R&B   When Ruby Met Bitcoin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r0-02-joseph-ku-gu-jie-fang-rb-when-ruby-met-bitcoin">RubyConf Taiwan 2015-Day2 R0 02 Joseph Ku 古傑芳：R&B   When Ruby Met Bitcoin</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 58:13</div>
+			
+			
+              <div>Views: 28 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r0-03-wu-jiang-yong-swaggershi-zuo-web-apiwen-dang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ACXPGMu5kXU/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day2 R0 03 吳江：用Swagger實作Web API文檔" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r0-03-wu-jiang-yong-swaggershi-zuo-web-apiwen-dang">RubyConf Taiwan 2015-Day2 R0 03 吳江：用Swagger實作Web API文檔</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 23:15</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r0-05-laurent-sansonettiwhats-new-in-rubymotion-4-0"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kg-lpyuTOGM/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day2 R0 05 Laurent Sansonetti：What's new in RubyMotion 4 0" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r0-05-laurent-sansonettiwhats-new-in-rubymotion-4-0">RubyConf Taiwan 2015-Day2 R0 05 Laurent Sansonetti：What's new in RubyMotion 4 0</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 54:22</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r0-06-ricky-paitools-for-culture-and-happiness"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AL2KtMo3oWE/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day2 R0 06 Ricky Pai：Tools for Culture and Happiness" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r0-06-ricky-paitools-for-culture-and-happiness">RubyConf Taiwan 2015-Day2 R0 06 Ricky Pai：Tools for Culture and Happiness</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 49:56</div>
+			
+			
+              <div>Views: 11 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r0-07-aaron-pattersonrequest-and-response"><img class="list-thumbnail" src="https://i.ytimg.com/vi/u5AaZRVhecI/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day2 R0 07 Aaron Patterson：Request and Response" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r0-07-aaron-pattersonrequest-and-response">RubyConf Taiwan 2015-Day2 R0 07 Aaron Patterson：Request and Response</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 01:00:20</div>
+			
+			
+              <div>Views: 130 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-01-kuniaki-igarashidebugging-basics-for-rails-applications"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VVain__fKm8/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day2 R2 01 Kuniaki IGARASHI：Debugging basics for Rails applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-01-kuniaki-igarashidebugging-basics-for-rails-applications">RubyConf Taiwan 2015-Day2 R2 01 Kuniaki IGARASHI：Debugging basics for Rails applications</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 23:44</div>
+			
+			
+              <div>Views: 11 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-02-rvipul-a-mreact-on-rails"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KgGA9PJL3TQ/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day2 R2 02 RVipul A M：React on Rails" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-02-rvipul-a-mreact-on-rails">RubyConf Taiwan 2015-Day2 R2 02 RVipul A M：React on Rails</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 34:49</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-03-ted-johanssonbeyond-the-mvc-an-object-taxonomy-for-rails"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IAGDBMaFEg0/hqdefault.jpg" alt="RubyConf Taiwan 2015-Day2 R2 03 Ted Johansson：Beyond the MVC   An Object Taxonomy for Rails" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-03-ted-johanssonbeyond-the-mvc-an-object-taxonomy-for-rails">RubyConf Taiwan 2015-Day2 R2 03 Ted Johansson：Beyond the MVC   An Object Taxonomy for Rails</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 21:49</div>
+			
+			
+              <div>Views: 28 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-04-don-wervemaker-to-manager"><img class="list-thumbnail" src="https://i.ytimg.com/vi/InRCrvkyiX0/hqdefault.jpg" alt="RubyConf Taiwan 2015 Day2 R2 04 Don Werve：Maker to Manager" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-04-don-wervemaker-to-manager">RubyConf Taiwan 2015 Day2 R2 04 Don Werve：Maker to Manager</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 23:37</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-05-nico-hagenburgerget-rid-of-that-front-end"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ecdb0DTpRa8/hqdefault.jpg" alt="RubyConf Taiwan 2015 Day2 R2 05 Nico Hagenburger：Get rid of that front end" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-05-nico-hagenburgerget-rid-of-that-front-end">RubyConf Taiwan 2015 Day2 R2 05 Nico Hagenburger：Get rid of that front end</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 24:05</div>
+			
+			
+              <div>Views: 59 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-06-lulalalarewriting-an-imageboard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HsfhdGF26a4/hqdefault.jpg" alt="RubyConf Taiwan 2015 Day2 R2 06 lulalala：Rewriting an imageboard" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-06-lulalalarewriting-an-imageboard">RubyConf Taiwan 2015 Day2 R2 06 lulalala：Rewriting an imageboard</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 22:39</div>
+			
+			
+              <div>Views: 13 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-07-judy-tuanmake-your-rails-app-more-interactive-with-angular"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Mgtic-H_u-Y/hqdefault.jpg" alt="RubyConf Taiwan-2015 Day2 R2 07 Judy Tuan：Make Your Rails App more Interactive with Angular" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-07-judy-tuanmake-your-rails-app-more-interactive-with-angular">RubyConf Taiwan-2015 Day2 R2 07 Judy Tuan：Make Your Rails App more Interactive with Angular</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 29:02</div>
+			
+			
+              <div>Views: 14 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-08-he-ze-qing-tse-ching-hogem-webpack-rails"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vbdVuEctCCQ/hqdefault.jpg" alt="RubyConf Taiwan 2015 Day2 R2 08 何澤清 Tse Ching Ho：gem 'webpack rails'" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-day2-r2-08-he-ze-qing-tse-ching-hogem-webpack-rails">RubyConf Taiwan 2015 Day2 R2 08 何澤清 Tse Ching Ho：gem 'webpack rails'</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 27:35</div>
+			
+			
+              <div>Views: 55 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-01-bai-shi-ming-benrails-minitest-and-selenium"><img class="list-thumbnail" src="https://i.ytimg.com/vi/W529CidA9B8/hqdefault.jpg" alt="RubyConf Taiwan 2015-LT-01 白世銘 Ben：Rails, Minitest and Selenium" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-01-bai-shi-ming-benrails-minitest-and-selenium">RubyConf Taiwan 2015-LT-01 白世銘 Ben：Rails, Minitest and Selenium</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 05:31</div>
+			
+			
+              <div>Views: 29 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-02-hiroaki-iwaseruby-based-distributed-key-value-store-roma"><img class="list-thumbnail" src="https://i.ytimg.com/vi/B3rzAoQ_UJk/hqdefault.jpg" alt="RubyConf Taiwan 2015-LT-02 Hiroaki Iwase：Ruby based Distributed Key Value Store ROMA" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-02-hiroaki-iwaseruby-based-distributed-key-value-store-roma">RubyConf Taiwan 2015-LT-02 Hiroaki Iwase：Ruby based Distributed Key Value Store ROMA</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 05:07</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-03-jaime-chamusing-redis-to-index-activerecord-objects-the-easy-way"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cXpe61ZNz2w/hqdefault.jpg" alt="RubyConf Taiwan 2015-LT-03 Jaime Cham：Using Redis to index ActiveRecord objects the easy way" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-03-jaime-chamusing-redis-to-index-activerecord-objects-the-easy-way">RubyConf Taiwan 2015-LT-03 Jaime Cham：Using Redis to index ActiveRecord objects the easy way</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 05:54</div>
+			
+			
+              <div>Views: 25 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-04-yuta-kurotakienterprise-rails-application-tips"><img class="list-thumbnail" src="https://i.ytimg.com/vi/S6URFqYCL-I/hqdefault.jpg" alt="RubyConf Taiwan 2015-LT-04 Yuta Kurotaki：Enterprise Rails Application Tips" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-04-yuta-kurotakienterprise-rails-application-tips">RubyConf Taiwan 2015-LT-04 Yuta Kurotaki：Enterprise Rails Application Tips</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 05:18</div>
+			
+			
+              <div>Views: 6 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-05-jeddieauto-scaling-with-amazon-web-services"><img class="list-thumbnail" src="https://i.ytimg.com/vi/V0FJRZ4O8zY/hqdefault.jpg" alt="RubyConf Taiwan 2015 LT 05 JeDDie：Auto scaling with Amazon Web Services" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-05-jeddieauto-scaling-with-amazon-web-services">RubyConf Taiwan 2015 LT 05 JeDDie：Auto scaling with Amazon Web Services</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 04:10</div>
+			
+			
+              <div>Views: 20 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-06-li-jun-feng-wu-fen-zhong-da-zao-gong-si-zhuan-shu-de-private-gem-storage"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iTDxDkaNajo/hqdefault.jpg" alt="RubyConf Taiwan 2015-LT-06 李俊鋒：五分鐘打造公司專屬的 Private Gem Storage" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-06-li-jun-feng-wu-fen-zhong-da-zao-gong-si-zhuan-shu-de-private-gem-storage">RubyConf Taiwan 2015-LT-06 李俊鋒：五分鐘打造公司專屬的 Private Gem Storage</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 05:00</div>
+			
+			
+              <div>Views: 34 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-07-luo-hong-wu-wei-shi-mo-ni-ying-gai-lian-xi-xie-gem"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vCtuJWHQOIo/hqdefault.jpg" alt="RubyConf Taiwan 2015 LT 07 羅泓武：為什麼你應該練習寫 gem" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-07-luo-hong-wu-wei-shi-mo-ni-ying-gai-lian-xi-xie-gem">RubyConf Taiwan 2015 LT 07 羅泓武：為什麼你應該練習寫 gem</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 04:54</div>
+			
+			
+              <div>Views: 31 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-08-elvis-saraviaventuring-into-social-e-commerce-platforms"><img class="list-thumbnail" src="https://i.ytimg.com/vi/53rHYs4_RoM/hqdefault.jpg" alt="Venturing into Social E Commerce Platforms" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-08-elvis-saraviaventuring-into-social-e-commerce-platforms">Venturing into Social E Commerce Platforms</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 05:19</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/elvis-saravia">Elvis Saravia</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-09-evadne-wurunning-with-sockets-in-production"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NKLV-qt5Uus/hqdefault.jpg" alt="Running with Sockets in Production" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-09-evadne-wurunning-with-sockets-in-production">Running with Sockets in Production</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 05:43</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/evadne-wu">Evadne Wu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-10-michelle-leucodeme-gong-cheng-shi-de-you-xi-hua-cheng-jiu-xi-tong"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6pnhIa-vkn4/hqdefault.jpg" alt="CodeMe" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-taiwan-2015/rubyconf-taiwan-2015-lt-10-michelle-leucodeme-gong-cheng-shi-de-you-xi-hua-cheng-jiu-xi-tong">CodeMe</a></h4>
+          <footer>
+            <div class="recorded">2015-09-11</div>
+			
+			  <div>Length: 04:15</div>
+			
+			
+              <div>Views: 53 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-taiwan-2015">Ruby Conf Taiwan 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michelle-leu">Michelle Leu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLhKZ4RWngmpDVKgAH_p_X7gtLSGsvmMJj , PLhKZ4RWngmpCKAOhazFj7jE2iezHjZ4Jv">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

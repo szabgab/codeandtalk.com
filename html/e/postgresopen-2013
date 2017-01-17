@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Postgres Open 2013</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Postgres Open 2013</h1>
+
+<div><a href="http://postgresopen.org/2013/">Postgres Open 2013</a></div>
+
+
+<div>Start date: 2013-09-16</div>
+<div>End date: 2013-09-18</div>
+
+<div>Location:
+  Chicago
+  Illinois
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/postgresql">PostgreSQL</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/postgresopen">@postgresopen</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/PostgresOpen">https://www.facebook.com/PostgresOpen</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Postgres%20Open%202013%20on%202013-09-16%20in%20Chicago%2C%20Illinois%20USA%20%40postgresopen%20http%3A//postgresopen.org/2013/%20%23PostgreSQL%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/andrew-dunstan-using-json-with-postgres-9-3"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oVLRlly6H0g/hqdefault.jpg" alt="Andrew Dunstan: Using JSON with Postgres 9 3" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/andrew-dunstan-using-json-with-postgres-9-3">Andrew Dunstan: Using JSON with Postgres 9 3</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 49:55</div>
+			
+			
+              <div>Views: 1596 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/brent-friedman-database-normalization-for-everybody-part-1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gpPsL8ust_k/hqdefault.jpg" alt="Brent Friedman: Database Normalization for Everybody, Part 1" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/brent-friedman-database-normalization-for-everybody-part-1">Brent Friedman: Database Normalization for Everybody, Part 1</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 42:38</div>
+			
+			
+              <div>Views: 415 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/brent-friedman-database-normalization-for-everybody-part-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8w5KlIwFIo0/hqdefault.jpg" alt="Brent Friedman: Database Normalization for Everybody, Part 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/brent-friedman-database-normalization-for-everybody-part-2">Brent Friedman: Database Normalization for Everybody, Part 2</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 44:32</div>
+			
+			
+              <div>Views: 654 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/bruce-momjian-inside-postgresql-shared-memory"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Nwk-UfjlUn8/hqdefault.jpg" alt="Bruce Momjian: Inside PostgreSQL Shared Memory" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/bruce-momjian-inside-postgresql-shared-memory">Bruce Momjian: Inside PostgreSQL Shared Memory</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 49:30</div>
+			
+			
+              <div>Views: 1974 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/christine-normile-geographically-distributed-prallel-databases-a-reality"><img class="list-thumbnail" src="https://i.ytimg.com/vi/REh-ko388mo/hqdefault.jpg" alt="Christine Normile: Geographically Distributed Prallel Databases - A Reality!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/christine-normile-geographically-distributed-prallel-databases-a-reality">Christine Normile: Geographically Distributed Prallel Databases - A Reality!</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 36:04</div>
+			
+			
+              <div>Views: 93 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/clark-c-evans-multi-database-colaboration-and-extract-transform-load-with-htsql"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zO97lKaeLD8/hqdefault.jpg" alt="Clark C  Evans: Multi Database Colaboration and Extract - Transform - Load with HTSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/clark-c-evans-multi-database-colaboration-and-extract-transform-load-with-htsql">Clark C  Evans: Multi Database Colaboration and Extract - Transform - Load with HTSQL</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 47:26</div>
+			
+			
+              <div>Views: 138 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/craig-kerstiens-postgres-what-they-really-use"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MT2gzzbyWpw/hqdefault.jpg" alt="Craig Kerstiens: Postgres What They Really Use" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/craig-kerstiens-postgres-what-they-really-use">Craig Kerstiens: Postgres What They Really Use</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 44:48</div>
+			
+			
+              <div>Views: 218 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/craig-kerstiens-scalable-uniques-in-postgres-hyperloglog"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bV2m8eBeuu0/hqdefault.jpg" alt="Craig Kerstiens: Scalable Uniques in Postgres - HyperLogLog" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/craig-kerstiens-scalable-uniques-in-postgres-hyperloglog">Craig Kerstiens: Scalable Uniques in Postgres - HyperLogLog</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 12:29</div>
+			
+			
+              <div>Views: 1047 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/david-benoit-middleware-is-dead"><img class="list-thumbnail" src="https://i.ytimg.com/vi/i-oPL7Sxm1M/hqdefault.jpg" alt="David Benoit: Middleware is Dead!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/david-benoit-middleware-is-dead">David Benoit: Middleware is Dead!</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 41:54</div>
+			
+			
+              <div>Views: 208 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/david-keeney-sql-database-server-request-from-the-browser"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fFWqZYOJ-xU/hqdefault.jpg" alt="David Keeney: SQl Database Server Request from the Browser" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/david-keeney-sql-database-server-request-from-the-browser">David Keeney: SQl Database Server Request from the Browser</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 46:41</div>
+			
+			
+              <div>Views: 106 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/denish-patel-scaling-postgres"><img class="list-thumbnail" src="https://i.ytimg.com/vi/V8yeO_1tAM0/hqdefault.jpg" alt="Denish Patel: Scaling Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/denish-patel-scaling-postgres">Denish Patel: Scaling Postgres</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 57:33</div>
+			
+			
+              <div>Views: 331 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/greg-smith-surviving-server-overload-part-1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XB_QV7djrhQ/hqdefault.jpg" alt="Greg Smith: Surviving Server Overload, Part 1" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/greg-smith-surviving-server-overload-part-1">Greg Smith: Surviving Server Overload, Part 1</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 42:54</div>
+			
+			
+              <div>Views: 1007 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/greg-smith-surviving-server-overload-part-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xNdJUCLttwI/hqdefault.jpg" alt="Greg Smith: Surviving Server Overload, Part 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/greg-smith-surviving-server-overload-part-2">Greg Smith: Surviving Server Overload, Part 2</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 43:54</div>
+			
+			
+              <div>Views: 217 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/gurjeet-singh-how-postgres-is-different-read-better-than-your-database"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Tu3D2z9v1xs/hqdefault.jpg" alt="Gurjeet Singh: How Postgres is Different (read BETTER than) your database" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/gurjeet-singh-how-postgres-is-different-read-better-than-your-database">Gurjeet Singh: How Postgres is Different (read BETTER than) your database</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 50:50</div>
+			
+			
+              <div>Views: 192 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/hans-hrasna-postgres-plus-cloud-database"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_piKkICDMfY/hqdefault.jpg" alt="Hans Hrasna: Postgres Plus Cloud Database" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/hans-hrasna-postgres-plus-cloud-database">Hans Hrasna: Postgres Plus Cloud Database</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 41:27</div>
+			
+			
+              <div>Views: 74 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/henrietta-dombrovaskaya-new-approach-to-resolve-objectrelational-impedance-mismatch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hamQIe9YZJw/hqdefault.jpg" alt="Henrietta Dombrovaskaya: New Approach to Resolve objectrelational impedance mismatch" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/henrietta-dombrovaskaya-new-approach-to-resolve-objectrelational-impedance-mismatch">Henrietta Dombrovaskaya: New Approach to Resolve objectrelational impedance mismatch</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 01:01:17</div>
+			
+			
+              <div>Views: 173 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/jesse-noller-keynote-embracing-openness-as-a-competitive-advantage"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gdx9gYZV37I/hqdefault.jpg" alt="Jesse Noller: Keynote - Embracing Openness as a Competitive Advantage" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/jesse-noller-keynote-embracing-openness-as-a-competitive-advantage">Jesse Noller: Keynote - Embracing Openness as a Competitive Advantage</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 53:00</div>
+			
+			
+              <div>Views: 195 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/jignesh-shahmy-experience-with-embedding-postgressql"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TzAVPLWuzEA/hqdefault.jpg" alt="Jignesh Shah:My Experience with Embedding PostgresSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/jignesh-shahmy-experience-with-embedding-postgressql">Jignesh Shah:My Experience with Embedding PostgresSQL</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 45:04</div>
+			
+			
+              <div>Views: 71 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/john-melesky-federating-queries-using-postgres_fdw"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UZ1eqzOeIg0/hqdefault.jpg" alt="John Melesky: Federating Queries Using postgres_fdw" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/john-melesky-federating-queries-using-postgres_fdw">John Melesky: Federating Queries Using postgres_fdw</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 53:34</div>
+			
+			
+              <div>Views: 377 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/john-s-jones-newsql-leveraging-postgresql"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AmZr5zZpmbE/hqdefault.jpg" alt="John S Jones: NewSQL Leveraging PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/john-s-jones-newsql-leveraging-postgresql">John S Jones: NewSQL Leveraging PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 12:14</div>
+			
+			
+              <div>Views: 308 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/jonathan-s-katz-postgres-sql-data-type-safari-part-1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b-2JHeN7oFE/hqdefault.jpg" alt="Jonathan S. Katz: Postgres SQL Data Type Safari, Part 1" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/jonathan-s-katz-postgres-sql-data-type-safari-part-1">Jonathan S. Katz: Postgres SQL Data Type Safari, Part 1</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 01:55:06</div>
+			
+			
+              <div>Views: 669 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/jonathan-s-katz-postgres-sql-data-type-safari-part-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WaDmOgoUJU0/hqdefault.jpg" alt="Jonathan S. Katz: Postgres SQL Data Type Safari, Part 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/jonathan-s-katz-postgres-sql-data-type-safari-part-2">Jonathan S. Katz: Postgres SQL Data Type Safari, Part 2</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 01:28:21</div>
+			
+			
+              <div>Views: 164 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/julier-baumler-case-study-converting-the-catme-application-from-mysql-to-postgres"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TLBjDXx23FU/hqdefault.jpg" alt="Julier Baumler: Case Study, Converting the CATME application from MySQL to Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/julier-baumler-case-study-converting-the-catme-application-from-mysql-to-postgres">Julier Baumler: Case Study, Converting the CATME application from MySQL to Postgres</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 56:58</div>
+			
+			
+              <div>Views: 65 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/keith-fiske-when-postgres-cant-you-can"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sVN3lSgUHws/hqdefault.jpg" alt="Keith Fiske: When Postgres Can't, You Can!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/keith-fiske-when-postgres-cant-you-can">Keith Fiske: When Postgres Can't, You Can!</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 51:02</div>
+			
+			
+              <div>Views: 92 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/keith-paskett-postgresql-on-zfs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6rJwnwJrL6o/hqdefault.jpg" alt="Keith Paskett: PostgreSQL on ZFS:" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/keith-paskett-postgresql-on-zfs">Keith Paskett: PostgreSQL on ZFS:</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 51:00</div>
+			
+			
+              <div>Views: 672 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/kevin-kempter-postgresql-backup-and-recovery-methods"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YdgKkuU-p1A/hqdefault.jpg" alt="Kevin Kempter: PostgreSQL Backup and Recovery Methods" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/kevin-kempter-postgresql-backup-and-recovery-methods">Kevin Kempter: PostgreSQL Backup and Recovery Methods</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 50:05</div>
+			
+			
+              <div>Views: 540 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/koichi-suzuki-postgres-xc-dynamic-cluster-managment"><img class="list-thumbnail" src="https://i.ytimg.com/vi/65Fddd1Y3-o/hqdefault.jpg" alt="Koichi Suzuki: Postgres-XC dynamic cluster managment" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/koichi-suzuki-postgres-xc-dynamic-cluster-managment">Koichi Suzuki: Postgres-XC dynamic cluster managment</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 57:45</div>
+			
+			
+              <div>Views: 629 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/lightning-talks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZMhbwKCGfao/hqdefault.jpg" alt="Lightning Talks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/lightning-talks">Lightning Talks</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 51:06</div>
+			
+			
+              <div>Views: 90 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/magnus-hagander-secure-your-web-webapp-passwords-in-postgresql"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MuLMIQBB4Ew/hqdefault.jpg" alt="Magnus Hagander: Secure Your Web Webapp passwords in PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/magnus-hagander-secure-your-web-webapp-passwords-in-postgresql">Magnus Hagander: Secure Your Web Webapp passwords in PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 23:31</div>
+			
+			
+              <div>Views: 273 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/magnus-hagander-whats-new-in-postgressql-93"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Tfszl_8Mr1g/hqdefault.jpg" alt="Magnus Hagander: What's New in PostgresSQL 9.3" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/magnus-hagander-whats-new-in-postgressql-93">Magnus Hagander: What's New in PostgresSQL 9.3</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 55:10</div>
+			
+			
+              <div>Views: 739 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/michael-pequier-taking-advantage-of-custom-background-workers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ct1FidoFd_o/hqdefault.jpg" alt="Michael Pequier: Taking advantage of custom background workers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/michael-pequier-taking-advantage-of-custom-background-workers">Michael Pequier: Taking advantage of custom background workers</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 01:00:15</div>
+			
+			
+              <div>Views: 115 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/mike-bayer-introduction-to-sqlalchemy-part-1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KufdF1kyI-g/hqdefault.jpg" alt="Mike Bayer: Introduction to SQLAlchemy, Part 1" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/mike-bayer-introduction-to-sqlalchemy-part-1">Mike Bayer: Introduction to SQLAlchemy, Part 1</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 01:33:12</div>
+			
+			
+              <div>Views: 1519 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/mike-bayer-introduction-to-sqlalchemy-part-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cNmJM7Or4YU/hqdefault.jpg" alt="Mike Bayer: Introduction to SQLAlchemy, Part 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/mike-bayer-introduction-to-sqlalchemy-part-2">Mike Bayer: Introduction to SQLAlchemy, Part 2</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 01:33:59</div>
+			
+			
+              <div>Views: 409 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/peter-geoghegan-concurrency-in-postgres"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lXUdlR9pQrQ/hqdefault.jpg" alt="Peter Geoghegan: Concurrency in Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/peter-geoghegan-concurrency-in-postgres">Peter Geoghegan: Concurrency in Postgres</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 58:15</div>
+			
+			
+              <div>Views: 742 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/robert-bernier-recovering-from-a-damaged-cluster"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3iglxGOq7Y0/hqdefault.jpg" alt="Robert Bernier: Recovering from a damaged cluster" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/robert-bernier-recovering-from-a-damaged-cluster">Robert Bernier: Recovering from a damaged cluster</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 44:47</div>
+			
+			
+              <div>Views: 84 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/robert-haas-query-planning-gone-wrong"><img class="list-thumbnail" src="https://i.ytimg.com/vi/24axSv6PIuk/hqdefault.jpg" alt="Robert Haas: Query Planning Gone Wrong" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/robert-haas-query-planning-gone-wrong">Robert Haas: Query Planning Gone Wrong</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 55:49</div>
+			
+			
+              <div>Views: 1319 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/ryan-jarvinen-writing-portable-postgresql-backed-network-applications-for-the-open-cloud"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TfmSHGf8o2s/hqdefault.jpg" alt="Ryan Jarvinen: Writing Portable PostgreSQL - backed network applications for the open cloud" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/ryan-jarvinen-writing-portable-postgresql-backed-network-applications-for-the-open-cloud">Ryan Jarvinen: Writing Portable PostgreSQL - backed network applications for the open cloud</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 01:00:07</div>
+			
+			
+              <div>Views: 102 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/sehrope-sarkuni-jackdb-database-development-in-your-web-browser"><img class="list-thumbnail" src="https://i.ytimg.com/vi/z2y7ekKnz2I/hqdefault.jpg" alt="Sehrope Sarkuni: JackDB Database Development in your web browser" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/sehrope-sarkuni-jackdb-database-development-in-your-web-browser">Sehrope Sarkuni: JackDB Database Development in your web browser</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 51:54</div>
+			
+			
+              <div>Views: 542 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/selena-deckelmann-sane-schema-migrations-with-alembic-and-postgres"><img class="list-thumbnail" src="https://i.ytimg.com/vi/y4EQsBssn_0/hqdefault.jpg" alt="Selena Deckelmann: Sane schema migrations with Alembic and Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/selena-deckelmann-sane-schema-migrations-with-alembic-and-postgres">Selena Deckelmann: Sane schema migrations with Alembic and Postgres</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 55:45</div>
+			
+			
+              <div>Views: 255 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/simon-riggs-replication-refresh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Aysa-HuLzJ0/hqdefault.jpg" alt="Simon Riggs: Replication Refresh" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/simon-riggs-replication-refresh">Simon Riggs: Replication Refresh</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 47:35</div>
+			
+			
+              <div>Views: 235 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/stephen-frost-using-postgres-fdw-with-a-sharded-postgresql-database"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3JQrfgb3Av0/hqdefault.jpg" alt="Stephen Frost: Using Postgres FDW with a sharded PostgreSQL Database" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/stephen-frost-using-postgres-fdw-with-a-sharded-postgresql-database">Stephen Frost: Using Postgres FDW with a sharded PostgreSQL Database</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 50:54</div>
+			
+			
+              <div>Views: 1404 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/steve-singer-managing-postgresql-with-puppet"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GS4SUYWqr_Y/hqdefault.jpg" alt="Steve Singer: Managing PostgreSQL with Puppet" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/steve-singer-managing-postgresql-with-puppet">Steve Singer: Managing PostgreSQL with Puppet</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 54:32</div>
+			
+			
+              <div>Views: 447 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2013/syed-faisal-akber-a-comparison-of-postgresql-encryption-options"><img class="list-thumbnail" src="https://i.ytimg.com/vi/J_56l47eNPE/hqdefault.jpg" alt="Syed Faisal Akber: A comparison of PostgreSQL Encryption Options" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2013/syed-faisal-akber-a-comparison-of-postgresql-encryption-options">Syed Faisal Akber: A comparison of PostgreSQL Encryption Options</a></h4>
+          <footer>
+            <div class="recorded">2013-09-16</div>
+			
+			  <div>Length: 29:20</div>
+			
+			
+              <div>Views: 790 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2013">Postgres Open 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLN8NEqxwuywQmlcjjzNGD68PGG2-N5TBf, PLN8NEqxwuywTmoKshsOJrKq5pszVzRa17">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

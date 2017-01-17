@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Laracon EU 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Laracon EU 2016</h1>
+
+<div><a href="http://laracon.eu/2016/">Laracon EU 2016</a></div>
+
+
+<div>Start date: 2016-08-23</div>
+<div>End date: 2016-08-24</div>
+
+<div>Location:
+  Amsterdam
+  
+  <a href="/l/the-netherlands">The Netherlands</a>
+</div>
+
+<div><a href="http://laracon.eu/2016/code-of-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/laravel">Laravel</a> 
+   
+       <a href="/t/php">PHP</a> 
+   
+       <a href="/t/web">web</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/LaraconEU">@LaraconEU</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Laracon%20EU%202016%20on%202016-08-23%20in%20Amsterdam%2C%20%20The%20Netherlands%20%40LaraconEU%20http%3A//laracon.eu/2016/%20%23Laravel%20%23PHP%20%23web%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/abed-halawi-the-lucid-architecture-for-building-scalable-applications-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wSnM4JkyxPw/hqdefault.jpg" alt="The lucid architecture for building scalable applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/abed-halawi-the-lucid-architecture-for-building-scalable-applications-laracon-eu-2016">The lucid architecture for building scalable applications</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 46:23</div>
+			
+			
+              <div>Views: 1361 Likes: 32</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/abed-halawi">Abed Halawi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/adam-wathan-curing-the-common-loop-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/crSUWtRYw-M/hqdefault.jpg" alt="Curing the common loop" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/adam-wathan-curing-the-common-loop-laracon-eu-2016">Curing the common loop</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 45:31</div>
+			
+			
+              <div>Views: 1736 Likes: 39</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-wathan">Adam Wathan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/caryn-humphreys-jesse-obrien-project-utopia-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WARtjv330mg/hqdefault.jpg" alt="Project Utopia" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/caryn-humphreys-jesse-obrien-project-utopia-laracon-eu-2016">Project Utopia</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 48:39</div>
+			
+			
+              <div>Views: 421 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jesse-o-brien">Jesse O'Brien</a>
+             
+                <a href="/p/caryn-humphreys">Caryn Humphreys</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/christophe-willemsen-your-own-recomendation-engine-with-neo4j-and-reco4php-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wSXYos7Jvsc/hqdefault.jpg" alt="Your own recomendation Engine with Neo4j AND Reco4PHP" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/christophe-willemsen-your-own-recomendation-engine-with-neo4j-and-reco4php-laracon-eu-2016">Your own recomendation Engine with Neo4j AND Reco4PHP</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 46:20</div>
+			
+			
+              <div>Views: 468 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christophe-willemsen">Christophe Willemsen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/edward-coleridge-smith-how-to-avoid-database-migration-hell-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lH-FLJ363-Q/hqdefault.jpg" alt="How to avoid database migration hell" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/edward-coleridge-smith-how-to-avoid-database-migration-hell-laracon-eu-2016">How to avoid database migration hell</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 43:27</div>
+			
+			
+              <div>Views: 915 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/edward-coleridge-smith">Edward Coleridge Smith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/evan-you-modern-frontend-with-vuejs-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/D_z-RAweP1k/hqdefault.jpg" alt="Modern Frontend with Vue.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/evan-you-modern-frontend-with-vuejs-laracon-eu-2016">Modern Frontend with Vue.js</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 38:58</div>
+			
+			
+              <div>Views: 10094 Likes: 143</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/evan-you">Evan You</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/frank-de-jonge-one-box-doesnt-fit-all-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0bq8619JijU/hqdefault.jpg" alt="One Box Doesn't fit all" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/frank-de-jonge-one-box-doesnt-fit-all-laracon-eu-2016">One Box Doesn't fit all</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 41:28</div>
+			
+			
+              <div>Views: 613 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/frank-de-jonge">Frank de Jonge</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/franz-liedke-web-accessibility-for-artisans-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lgc8vTYj5sI/hqdefault.jpg" alt="Web accessibility for Artisans" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/franz-liedke-web-accessibility-for-artisans-laracon-eu-2016">Web accessibility for Artisans</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 43:46</div>
+			
+			
+              <div>Views: 373 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/franz-liedke">Franz Liedke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/freek-van-der-herten-taking-care-of-backups-with-laravel-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fORNQ06K8LY/hqdefault.jpg" alt="Taking care of backups with Laravel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/freek-van-der-herten-taking-care-of-backups-with-laravel-laracon-eu-2016">Taking care of backups with Laravel</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 35:02</div>
+			
+			
+              <div>Views: 1096 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/freek-van-der-herten">Freek van der Herten</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/gabriela-davila-making-the-most-out-of-mysql-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DlVESXLNyAc/hqdefault.jpg" alt="Making the most out of MySQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/gabriela-davila-making-the-most-out-of-mysql-laracon-eu-2016">Making the most out of MySQL</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 39:17</div>
+			
+			
+              <div>Views: 1360 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gabriela-d-avila">Gabriela D'avila</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/gemma-cameron-bringing-user-stories-to-life-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pvWQCuyTPsg/hqdefault.jpg" alt="Bringing User Stories to Life" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/gemma-cameron-bringing-user-stories-to-life-laracon-eu-2016">Bringing User Stories to Life</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 36:23</div>
+			
+			
+              <div>Views: 498 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gemma-cameron">Gemma Cameron</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/geshan-manandhar-embrace-chatops-stop-installing-deployment-software-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SZ3UfwBACIo/hqdefault.jpg" alt="Embrace chatops, stop installing deployment software" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/geshan-manandhar-embrace-chatops-stop-installing-deployment-software-laracon-eu-2016">Embrace chatops, stop installing deployment software</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 41:59</div>
+			
+			
+              <div>Views: 855 Likes: 26</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/geshan-manandhar">Geshan Manandhar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/hannes-van-de-vreken-ioc-container-beyond-constructor-injection-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WMT8txJHdKI/hqdefault.jpg" alt="IOC container beyond constructor injection" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/hannes-van-de-vreken-ioc-container-beyond-constructor-injection-laracon-eu-2016">IOC container beyond constructor injection</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 37:41</div>
+			
+			
+              <div>Views: 938 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hannes-van-de-vreken">Hannes Van De Vreken</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/jeroen-vd-gulik-how-to-effectively-grow-a-development-team-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pqr0_qRLPA0/hqdefault.jpg" alt="How to Effectively grow a Development team" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/jeroen-vd-gulik-how-to-effectively-grow-a-development-team-laracon-eu-2016">How to Effectively grow a Development team</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 47:23</div>
+			
+			
+              <div>Views: 772 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeroen-vd-gulik">Jeroen Van Der Gulik</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/jon-acker-tdd-is-dead-long-live-tdd-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Q9wSvlmywhI/hqdefault.jpg" alt="TDD is dead, long live TDD" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/jon-acker-tdd-is-dead-long-live-tdd-laracon-eu-2016">TDD is dead, long live TDD</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 49:24</div>
+			
+			
+              <div>Views: 1354 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jon-acker">Jon Acker</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/lily-dart-no-excuse-user-research-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yGj_r_4vQH8/hqdefault.jpg" alt="No Excuse, User Research" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/lily-dart-no-excuse-user-research-laracon-eu-2016">No Excuse, User Research</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 39:31</div>
+			
+			
+              <div>Views: 499 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lily-dart">Lily Dart</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/matthias-noback-please-understand-me-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2A1CykoizgY/hqdefault.jpg" alt="Please Understand Me" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/matthias-noback-please-understand-me-laracon-eu-2016">Please Understand Me</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 35:10</div>
+			
+			
+              <div>Views: 769 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matthias-noback">Matthias Noback</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/mattias-geniar-varnish-for-php-developers-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nAFpkV5-vuI/hqdefault.jpg" alt="Varnish for PHP developers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/mattias-geniar-varnish-for-php-developers-laracon-eu-2016">Varnish for PHP developers</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 46:20</div>
+			
+			
+              <div>Views: 2870 Likes: 35</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mattias-geniar">Mattias Geniar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/memories-of-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8LdpsSJIUto/hqdefault.jpg" alt="Memories of Laracon EU 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/memories-of-laracon-eu-2016">Memories of Laracon EU 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 01:54</div>
+			
+			
+              <div>Views: 2808 Likes: 38</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/mitchell-van-wijngaarden-future-is-a-thing-of-the-past-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Kq3wgGRsVvs/hqdefault.jpg" alt="Future is a thing of the past" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/mitchell-van-wijngaarden-future-is-a-thing-of-the-past-laracon-eu-2016">Future is a thing of the past</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 46:30</div>
+			
+			
+              <div>Views: 615 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mitchell-van-wijngaarden">Mitchell van Wijngaarden</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/taylor-otwell-keynote-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mTRH6vjWG_E/hqdefault.jpg" alt="Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/taylor-otwell-keynote-laracon-eu-2016">Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 49:36</div>
+			
+			
+              <div>Views: 6023 Likes: 81</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/taylor-otwell">Taylor Otwell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/laracon-eu-2016/tihomir-opacic-the-state-of-content-management-laracon-eu-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/E-YimAMyIcE/hqdefault.jpg" alt="The State Of Content Management" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/laracon-eu-2016/tihomir-opacic-the-state-of-content-management-laracon-eu-2016">The State Of Content Management</a></h4>
+          <footer>
+            <div class="recorded">2016-08-23</div>
+			
+			  <div>Length: 43:09</div>
+			
+			
+              <div>Views: 1726 Likes: 53</div>
+            
+            <div class="event">From <a href="/e/laracon-eu-2016">Laracon EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tihomir-opacic">Tihomir Opacic</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLMdXHJK-lGoCMkOxqe82hOC8tgthqhHCN">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

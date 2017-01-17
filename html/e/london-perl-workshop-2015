@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>London Perl Workshop 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>London Perl Workshop 2015</h1>
+
+<div><a href="http://act.yapc.eu/lpw2015/">London Perl Workshop 2015</a></div>
+
+
+<div>Start date: 2015-12-12</div>
+<div>End date: 2015-12-12</div>
+
+<div>Location:
+  London
+  
+  <a href="/l/uk">UK</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/perl">Perl</a> 
+   
+       <a href="/t/web">web</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/LondonPerl">@LondonPerl</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=London%20Perl%20Workshop%202015%20on%202015-12-12%20in%20London%2C%20%20UK%20%40LondonPerl%20http%3A//act.yapc.eu/lpw2015/%20%23Perl%20%23web%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-aaron-crane-write-once-data-writing-perl-like-haskell"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qcuTdy9uaM0/hqdefault.jpg" alt="Write once data: writing Perl like Haskell" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-aaron-crane-write-once-data-writing-perl-like-haskell">Write once data: writing Perl like Haskell</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 36:30</div>
+			
+			
+              <div>Views: 44 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aaron-crane">Aaron Crane</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-andrew-beverley-dancer2-system-logging"><img class="list-thumbnail" src="https://i.ytimg.com/vi/S1eW5tE967c/hqdefault.jpg" alt="Dancer2 system logging" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-andrew-beverley-dancer2-system-logging">Dancer2 system logging</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 25:16</div>
+			
+			
+              <div>Views: 59 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-beverley">Andrew Beverley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-andrew-beverley-globally-accessible-data-store-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bKx-dOwxSxw/hqdefault.jpg" alt="Globally Accessible Data Store Lightning Talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-andrew-beverley-globally-accessible-data-store-lightning-talk">Globally Accessible Data Store Lightning Talk</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 07:05</div>
+			
+			
+              <div>Views: 12 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-beverley">Andrew Beverley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-andrew-solomon-how-to-grow-a-perl-team"><img class="list-thumbnail" src="https://i.ytimg.com/vi/D0htngJQEMk/hqdefault.jpg" alt="How to Grow a Perl Team" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-andrew-solomon-how-to-grow-a-perl-team">How to Grow a Perl Team</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 44:05</div>
+			
+			
+              <div>Views: 50 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-solomon">Andrew Solomon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-dave-cross-conference-driven-publishing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fU7OURue1nE/hqdefault.jpg" alt="Conference Driven Publishing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-dave-cross-conference-driven-publishing">Conference Driven Publishing</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 22:13</div>
+			
+			
+              <div>Views: 18 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-cross">Dave Cross</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-dave-cross-improving-dev-assissant-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YTTwMuoVTrI/hqdefault.jpg" alt="Improving Dev  Assissant" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-dave-cross-improving-dev-assissant-lightning-talk">Improving Dev  Assissant</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 06:28</div>
+			
+			
+              <div>Views: 24 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-cross">Dave Cross</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-drforr-an-unconventional-convention-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VHIJLTkrMOc/hqdefault.jpg" alt="An Unconventional Convention" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-drforr-an-unconventional-convention-lightning-talk">An Unconventional Convention</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 14:24</div>
+			
+			
+              <div>Views: 13 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeffrey-goff">Jeffrey Goff</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-drforr-from-regular-expressions-to-parsing-javascript-learn-perl6-grammars"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YaGB2zPr0o8/hqdefault.jpg" alt="LPW2015 DrForr -  ‎From Regular Expressions to Parsing JavaScript: Learn Perl6 Grammars‎" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-drforr-from-regular-expressions-to-parsing-javascript-learn-perl6-grammars">LPW2015 DrForr -  ‎From Regular Expressions to Parsing JavaScript: Learn Perl6 Grammars‎</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 46:37</div>
+			
+			
+              <div>Views: 108 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeffrey-goff">Jeffrey Goff</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-elizabeth-mattijsen-the-end-of-the-beginning"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jG_t23B8hDI/hqdefault.jpg" alt="The end of the beginning" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-elizabeth-mattijsen-the-end-of-the-beginning">The end of the beginning</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 50:45</div>
+			
+			
+              <div>Views: 71 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/elizabeth-mattijsen">Elizabeth Mattijsen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-lee-johnson-using-mojolicious-for-fun-and-nonprofit-an-update"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dywft_QfGLI/hqdefault.jpg" alt="Using Mojolicious for Fun and Nonprofit An Update" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-lee-johnson-using-mojolicious-for-fun-and-nonprofit-an-update">Using Mojolicious for Fun and Nonprofit An Update</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 25:00</div>
+			
+			
+              <div>Views: 240 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lee-johnson">Lee Johnson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-leon-brocard-making-your-website-seem-faster"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Slqpv3_Kigs/hqdefault.jpg" alt="Making your website seem faster" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-leon-brocard-making-your-website-seem-faster">Making your website seem faster</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 29:54</div>
+			
+			
+              <div>Views: 40 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/leon-brocard">Léon Brocard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-matt-s-trout-export-strength-importing-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bM3LJLZM6AI/hqdefault.jpg" alt="Export Strength Importing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-matt-s-trout-export-strength-importing-lightning-talk">Export Strength Importing</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 07:56</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-s-trout">Matt S. Trout</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-matt-s-trout-mst-a-decade-of-dubious-decisions"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BaeXXA5UyYg/hqdefault.jpg" alt="A decade of dubious decisions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-matt-s-trout-mst-a-decade-of-dubious-decisions">A decade of dubious decisions</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 49:36</div>
+			
+			
+              <div>Views: 157 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-s-trout">Matt S. Trout</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-maxim-vuets-processing-toki-pona-with-perl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FZa2v5T2nNY/hqdefault.jpg" alt="Processing toki pona with Perl" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-maxim-vuets-processing-toki-pona-with-perl">Processing toki pona with Perl</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 47:26</div>
+			
+			
+              <div>Views: 323 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maxim-vuets">Maxim Vuets</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-michael-jemmeson-making-a-mockery-test-mocking-and-method-fixtures"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KhstfE_jy4w/hqdefault.jpg" alt="Making a mockery   test mocking and method fixtures" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-michael-jemmeson-making-a-mockery-test-mocking-and-method-fixtures">Making a mockery   test mocking and method fixtures</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 23:17</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-jemmeson">Michael Jemmeson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-michael-jemmeson-michael-postcodes-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0JZgZGxPckg/hqdefault.jpg" alt="Postcodes!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-michael-jemmeson-michael-postcodes-lightning-talk">Postcodes!</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 07:25</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-jemmeson">Michael Jemmeson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-mickey-nasriachi-mickey-ponapi-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FyR73q6lYKo/hqdefault.jpg" alt="Ponapi" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-mickey-nasriachi-mickey-ponapi-lightning-talk">Ponapi</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 05:21</div>
+			
+			
+              <div>Views: 26 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mickey-nasriachi">Mickey Nasriachi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-neil-bowers-boosting-community-engagement-with-cpan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8-KJq5UqwX8/hqdefault.jpg" alt="Boosting community engagement with CPAN" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-neil-bowers-boosting-community-engagement-with-cpan">Boosting community engagement with CPAN</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 26:13</div>
+			
+			
+              <div>Views: 26 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/neil-bowers">Neil Bowers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-neil-bowers-dependencies-and-the-river-of-cpan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-1VnYoc7mBc/hqdefault.jpg" alt="Dependencies and the River of CPAN" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-neil-bowers-dependencies-and-the-river-of-cpan">Dependencies and the River of CPAN</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 27:00</div>
+			
+			
+              <div>Views: 26 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/neil-bowers">Neil Bowers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-neil-bowers-neilb-start-your-own-company-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lhvHjVjSV1c/hqdefault.jpg" alt="Start your own company!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-neil-bowers-neilb-start-your-own-company-lightning-talk">Start your own company!</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 07:41</div>
+			
+			
+              <div>Views: 36 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/neil-bowers">Neil Bowers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-nigel-hamilton-the-joy-of-six"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v4avPqv60Xg/hqdefault.jpg" alt="The Joy of Six" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-nigel-hamilton-the-joy-of-six">The Joy of Six</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 40:23</div>
+			
+			
+              <div>Views: 89 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nigel-hamilton">Nigel Hamilton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-paul-evans-why-perl-5-is-isnt-a-scheme"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Cy78-Zc7onE/hqdefault.jpg" alt="Why Perl 5 is isnt a scheme" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-paul-evans-why-perl-5-is-isnt-a-scheme">Why Perl 5 is isnt a scheme</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 52:44</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-evans">Paul Evans</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-prabhakar-somu-perl-and-pdf"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5_yFwl5zN8w/hqdefault.jpg" alt="Perl and PDF" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-prabhakar-somu-perl-and-pdf">Perl and PDF</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 48:15</div>
+			
+			
+              <div>Views: 112 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/prabhakar-somu">Prabhakar Somu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-rick-deller-developing-your-brand"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DcPCJJrgEuo/hqdefault.jpg" alt="Developing Your Brand" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-rick-deller-developing-your-brand">Developing Your Brand</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 37:44</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rick-deller">Rick Deller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-sawyer-x-three-talk-medley-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DTzaPrZI-D8/hqdefault.jpg" alt="Three Talk Medley" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-sawyer-x-three-talk-medley-lightning-talk">Three Talk Medley</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 06:21</div>
+			
+			
+              <div>Views: 44 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sawyer">Sawyer X</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-smylers-dont-do-that-code-interface-mistakes-to-avoid"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fKcRBxGTp4U/hqdefault.jpg" alt="Don't Do That Code Interface Mistakes to Avoid" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-smylers-dont-do-that-code-interface-mistakes-to-avoid">Don't Do That Code Interface Mistakes to Avoid</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 23:18</div>
+			
+			
+              <div>Views: 32 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/smylers">Smylers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-stevan-little-p5-mop-final-final-v5-this-is-the-last-one-i-promise-tar-gz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Srdwhdr5wPc/hqdefault.jpg" alt="p5 mop final final v5 this is the last one i promise tar gz" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-stevan-little-p5-mop-final-final-v5-this-is-the-last-one-i-promise-tar-gz">p5 mop final final v5 this is the last one i promise tar gz</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 35:35</div>
+			
+			
+              <div>Views: 122 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stevan-little">Stevan Little</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-steve-mynott-itz-perl-6-grammars"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pPuVpWnftq4/hqdefault.jpg" alt="Perl 6 Grammars" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-steve-mynott-itz-perl-6-grammars">Perl 6 Grammars</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 27:18</div>
+			
+			
+              <div>Views: 113 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-mynott">Steve Mynott</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-theo-van-hoesel-dancer2-rest-assured"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aL5rJvfwy1I/hqdefault.jpg" alt="Dancer2 REST assured" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-theo-van-hoesel-dancer2-rest-assured">Dancer2 REST assured</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 53:59</div>
+			
+			
+              <div>Views: 54 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/theo-van-hoesel">Theo van Hoesel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-tom-hukins-escaping-insanity"><img class="list-thumbnail" src="https://i.ytimg.com/vi/alosmt3aGWI/hqdefault.jpg" alt="Escaping Insanity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-tom-hukins-escaping-insanity">Escaping Insanity</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 23:02</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tom-hukins">Tom Hukins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/london-perl-workshop-2015/lpw2015-zefram-the-emperors-new-programming-language"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fZZBYRT5Ghc/hqdefault.jpg" alt="The emperor's new programming language" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/london-perl-workshop-2015/lpw2015-zefram-the-emperors-new-programming-language">The emperor's new programming language</a></h4>
+          <footer>
+            <div class="recorded">2015-12-12</div>
+			
+			  <div>Length: 22:58</div>
+			
+			
+              <div>Views: 235 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/london-perl-workshop-2015">London Perl Workshop 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/zefram">Zefram</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLxavAW22r8Ams2hyXl2TfBsOcInCYStzK">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

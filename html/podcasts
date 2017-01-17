@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>List of podcasts</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>List of podcasts</h1>
+
+    <ul id="podcasts">
+    
+        <li><a href="/s/dotnetrocks">.NET Rocks</a> (0)</li>
+    
+        <li><a href="/s/backendy">A Bit More Backendy</a> (0)</li>
+    
+        <li><a href="/s/atp">Accidental Tech Podcast</a> (0)</li>
+    
+        <li><a href="/s/adv-in-angular">Adventures in Angular</a> (0)</li>
+    
+        <li><a href="/s/androidbackstage">Android backstage</a> (0)</li>
+    
+        <li><a href="/s/appbizdev">App Biz Dev</a> (0)</li>
+    
+        <li><a href="/s/appmasters">Appmasters</a> (0)</li>
+    
+        <li><a href="/s/arresteddevops">Arrested DevOps</a> (0)</li>
+    
+        <li><a href="/s/cppcast">C++ Cast</a> (0)</li>
+    
+        <li><a href="/s/changelog">ChangeLog</a> (23)</li>
+    
+        <li><a href="/s/codewinds">Code Winds</a> (0)</li>
+    
+        <li><a href="/s/cmos">Code-Maven Open Source podcast and video interviews</a> (17)</li>
+    
+        <li><a href="/s/codenewbie">CodeNewbie with Saron Yitbarek</a> (30)</li>
+    
+        <li><a href="/s/coderradio">Coder Radio</a> (0)</li>
+    
+        <li><a href="/s/coding-101">Coding 101</a> (0)</li>
+    
+        <li><a href="/s/coreint">Core Intuition</a> (0)</li>
+    
+        <li><a href="/s/creativecoding">Creative Coding Podcast</a> (0)</li>
+    
+        <li><a href="/s/debug">Debug</a> (0)</li>
+    
+        <li><a href="/s/devopscafe">DevOps Cafe</a> (0)</li>
+    
+        <li><a href="/s/devopsmastery">DevOps Mastery</a> (0)</li>
+    
+        <li><a href="/s/developeronfire">Developer On Fire</a> (6)</li>
+    
+        <li><a href="/s/developer-tea">Developer Tea</a> (0)</li>
+    
+        <li><a href="/s/developingperspective">Developing Perspective</a> (0)</li>
+    
+        <li><a href="/s/entreprogrammers">Entre Programmers</a> (0)</li>
+    
+        <li><a href="/s/fivejs-codeschool">FiveJS</a> (0)</li>
+    
+        <li><a href="/s/flawcode">Flaw Code - The other side story!!</a> (3)</li>
+    
+        <li><a href="/s/floss-weekly">Floss Weekly</a> (408)</li>
+    
+        <li><a href="/s/fogcreek">Fog Creek </a> (1)</li>
+    
+        <li><a href="/s/foodfightshow">Food Fight Show</a> (0)</li>
+    
+        <li><a href="/s/freelancers">Freelancers</a> (0)</li>
+    
+        <li><a href="/s/frontside">Frontside Podcast</a> (0)</li>
+    
+        <li><a href="/s/fullstackradio">Full Stack Radio</a> (0)</li>
+    
+        <li><a href="/s/functionalgeekery">Functional Geekery</a> (0)</li>
+    
+        <li><a href="/s/getupandcode">Get Up and CODE</a> (0)</li>
+    
+        <li><a href="/s/giantrobots">Giant Robots smashing Into Other Giant Robots</a> (1)</li>
+    
+        <li><a href="/s/gonemobile">Gone Mobile</a> (0)</li>
+    
+        <li><a href="/s/greaterthancode">Greater Than Code</a> (0)</li>
+    
+        <li><a href="/s/hellotechpros">Hello Tech Pros</a> (0)</li>
+    
+        <li><a href="/s/herdingcode">Herding {code}</a> (0)</li>
+    
+        <li><a href="/s/javaposse">Java Posse</a> (0)</li>
+    
+        <li><a href="/s/js-jabber">JavaScript Jabber</a> (1)</li>
+    
+        <li><a href="/s/learntocodewith-me">Learn to Code with Me</a> (0)</li>
+    
+        <li><a href="/s/msdevshow">MS Dev Show</a> (0)</li>
+    
+        <li><a href="/s/mostlyerlang">Mostly Erlang</a> (0)</li>
+    
+        <li><a href="/s/mostlylazy">Mostly λazy…a Clojure podcast</a> (0)</li>
+    
+        <li><a href="/s/nodeup">Node Up</a> (0)</li>
+    
+        <li><a href="/s/other">Other videos and shows that are not categorized yet</a> (0)</li>
+    
+        <li><a href="/s/phptownhall">PHP Townhall</a> (0)</li>
+    
+        <li><a href="/s/pythonpodcast">Podcast.__init__</a> (1)</li>
+    
+        <li><a href="/s/programmingthrowdown">Programming Throwdown</a> (0)</li>
+    
+        <li><a href="/s/puppet">Puppet Podcast</a> (0)</li>
+    
+        <li><a href="/s/pycon-2015">PyCon 2015 Montreal</a> (1)</li>
+    
+        <li><a href="/s/pythontesting">Python Testing</a> (0)</li>
+    
+        <li><a href="/s/react-native-radio">React Native Radio</a> (0)</li>
+    
+        <li><a href="/s/rfc">Request For Commits</a> (7)</li>
+    
+        <li><a href="/s/ruby-rogues">Ruby Rogues</a> (2)</li>
+    
+        <li><a href="/s/rubyonrails">Ruby on Rails Podcast</a> (0)</li>
+    
+        <li><a href="/s/ruby5-codeschool">Ruby5</a> (0)</li>
+    
+        <li><a href="/s/shoptalkshow">Shop Talk Show</a> (0)</li>
+    
+        <li><a href="/s/software-engineering-daily">Software Engineering Daily</a> (1)</li>
+    
+        <li><a href="/s/se-radio">Software Engineering Radio</a> (0)</li>
+    
+        <li><a href="/s/startupmadnessacademy">Startup Madness Academy</a> (1)</li>
+    
+        <li><a href="/s/stateofdevelopment">State of Development Podcast</a> (0)</li>
+    
+        <li><a href="/s/talkpython">Talk Python to Me</a> (65)</li>
+    
+        <li><a href="/s/bikeshed">The Bike Shed</a> (0)</li>
+    
+        <li><a href="/s/thecloudcast">The Cloud Cast</a> (0)</li>
+    
+        <li><a href="/s/thedebuglog">The Debug Log - Game Development</a> (0)</li>
+    
+        <li><a href="/s/hanselminutes">The Hanselminutes podcast</a> (0)</li>
+    
+        <li><a href="/s/theshipshow">The Ship Show</a> (0)</li>
+    
+        <li><a href="/s/thisdeveloperslife">This Developer's Life</a> (0)</li>
+    
+        <li><a href="/s/xamarin">Xamarin</a> (0)</li>
+    
+        <li><a href="/s/yet-another-podcast">Yet Another Podcast</a> (0)</li>
+    
+        <li><a href="/s/iosbytes">iOS Bytes</a> (0)</li>
+    
+        <li><a href="/s/iphreaks">iPhreaks - iOS</a> (0)</li>
+    
+        <li><a href="/s/codingblocks">{CodingBlocks}.NET</a> (0)</li>
+    
+    </ul>
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

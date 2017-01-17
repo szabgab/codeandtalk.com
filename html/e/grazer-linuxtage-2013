@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Grazer LinuxTage 2013</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Grazer LinuxTage 2013</h1>
+
+<div><a href="https://glt13.linuxtage.at/">Grazer LinuxTage 2013</a></div>
+
+
+<div>Start date: 2013-04-20</div>
+<div>End date: 2013-04-20</div>
+
+<div>Location:
+  Graz
+  
+  <a href="/l/austria">Austria</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: German</div>
+<div>Topics:
+   
+       <a href="/t/linux">Linux</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/linuxtage">@linuxtage</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/groups/grazerlinuxtage/">https://www.facebook.com/groups/grazerlinuxtage/</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Grazer%20LinuxTage%202013%20on%202013-04-20%20in%20Graz%2C%20%20Austria%20%40linuxtage%20https%3A//glt13.linuxtage.at/%20%23Linux%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/a-day-in-a-life-with-org-mode-karl-voit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zR6Gy4YpfAo/hqdefault.jpg" alt="A day in a life with Org-mode - Karl Voit" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/a-day-in-a-life-with-org-mode-karl-voit">A day in a life with Org-mode - Karl Voit</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 44:47</div>
+			
+			
+              <div>Views: 3324 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/alles-blender-dorian-santner"><img class="list-thumbnail" src="https://i.ytimg.com/vi/m4kFg8d2kaI/hqdefault.jpg" alt="Alles Blender - Dorian Santner" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/alles-blender-dorian-santner">Alles Blender - Dorian Santner</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 43:58</div>
+			
+			
+              <div>Views: 224 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/anwendung-von-freien-geodaten-auf-mobilen-navigationsgeraten-stefan-tiran"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oW_ymI0FKC0/hqdefault.jpg" alt="Anwendung von freien Geodaten auf mobilen Navigationsgeräten - Stefan Tiran" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/anwendung-von-freien-geodaten-auf-mobilen-navigationsgeraten-stefan-tiran">Anwendung von freien Geodaten auf mobilen Navigationsgeräten - Stefan Tiran</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 21:37</div>
+			
+			
+              <div>Views: 117 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/aufnehmen-mischen-mastern-peter-bubestinger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hN6htLbx0w0/hqdefault.jpg" alt="Aufnehmen. Mischen. Mastern. - Peter Bubestinger" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/aufnehmen-mischen-mastern-peter-bubestinger">Aufnehmen. Mischen. Mastern. - Peter Bubestinger</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 43:58</div>
+			
+			
+              <div>Views: 1409 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/bitcoin-larsschimmer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ktz2rKQPaXc/hqdefault.jpg" alt="Bitcoin - LarsSchimmer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/bitcoin-larsschimmer">Bitcoin - LarsSchimmer</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 45:11</div>
+			
+			
+              <div>Views: 335 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/cloud4education-helmuth-peer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lanl-nxT1VU/hqdefault.jpg" alt="cloud4education - Helmuth Peer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/cloud4education-helmuth-peer">cloud4education - Helmuth Peer</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 20:35</div>
+			
+			
+              <div>Views: 100 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/das-monitoring-okosystem-sebastian-tokkee-harl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ssQxHHPgUHU/hqdefault.jpg" alt="Das Monitoring Ökosystem -      Sebastian "tokkee" Harl" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/das-monitoring-okosystem-sebastian-tokkee-harl">Das Monitoring Ökosystem -      Sebastian "tokkee" Harl</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 47:49</div>
+			
+			
+              <div>Views: 213 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/das-teckelboard-hagen-sankowski"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Uoo4IIlnqIA/hqdefault.jpg" alt="Das TeckelBoard - Hagen Sankowski" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/das-teckelboard-hagen-sankowski">Das TeckelBoard - Hagen Sankowski</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 42:42</div>
+			
+			
+              <div>Views: 170 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/datenschutz-und-cloud-computing-markus-dorfler"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kEr_yy9YAXU/hqdefault.jpg" alt="Datenschutz und Cloud-Computing - Markus Dörfler" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/datenschutz-und-cloud-computing-markus-dorfler">Datenschutz und Cloud-Computing - Markus Dörfler</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 46:28</div>
+			
+			
+              <div>Views: 320 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/der-urheberrechts-wahnsinn-thomas-warwaris"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7v21Tl3pOfI/hqdefault.jpg" alt="Der Urheberrechts-Wahnsinn - Thomas Warwaris" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/der-urheberrechts-wahnsinn-thomas-warwaris">Der Urheberrechts-Wahnsinn - Thomas Warwaris</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 56:26</div>
+			
+			
+              <div>Views: 132 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/einsatz-von-groupware-in-unternehmen-matthias-praunegger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eB-k-KX6t4E/hqdefault.jpg" alt="Einsatz von Groupware in Unternehmen - Matthias Praunegger" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/einsatz-von-groupware-in-unternehmen-matthias-praunegger">Einsatz von Groupware in Unternehmen - Matthias Praunegger</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 22:40</div>
+			
+			
+              <div>Views: 320 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/embedded-linux-mit-gnublin-benedikt-sauter"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nqVokteh_zQ/hqdefault.jpg" alt="Embedded Linux mit GNUBLIN - Benedikt Sauter" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/embedded-linux-mit-gnublin-benedikt-sauter">Embedded Linux mit GNUBLIN - Benedikt Sauter</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 43:40</div>
+			
+			
+              <div>Views: 763 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/free-your-android-albert-dengg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lx2G4OUTOH8/hqdefault.jpg" alt="Free Your Android - Albert Dengg" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/free-your-android-albert-dengg">Free Your Android - Albert Dengg</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 46:44</div>
+			
+			
+              <div>Views: 239 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/gnupg-lukas-prokop"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ECe3dMXsDfg/hqdefault.jpg" alt="GnuPG - Lukas Prokop" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/gnupg-lukas-prokop">GnuPG - Lukas Prokop</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 44:57</div>
+			
+			
+              <div>Views: 511 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/keynote-die-vier-elemente-digitaler-freiheit-michael-bauer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P3zyCstWjGQ/hqdefault.jpg" alt="Keynote: Die vier Elemente digitaler Freiheit - Michael Bauer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/keynote-die-vier-elemente-digitaler-freiheit-michael-bauer">Keynote: Die vier Elemente digitaler Freiheit - Michael Bauer</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 21:32</div>
+			
+			
+              <div>Views: 258 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/kollaborateure-vom-einzelkaempfer-zum-mitarbeiter-sven-guckes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pl1yfqy20Gk/hqdefault.jpg" alt="Kollaborateure? Vom Einzelkaempfer zum Mitarbeiter - Sven Guckes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/kollaborateure-vom-einzelkaempfer-zum-mitarbeiter-sven-guckes">Kollaborateure? Vom Einzelkaempfer zum Mitarbeiter - Sven Guckes</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 42:24</div>
+			
+			
+              <div>Views: 704 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/lightening-talk-geraet-kaputt-oder"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_HKQbzYXg6w/hqdefault.jpg" alt="Lightening Talk: $GERAET kaputt? oder..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/lightening-talk-geraet-kaputt-oder">Lightening Talk: $GERAET kaputt? oder...</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 09:19</div>
+			
+			
+              <div>Views: 65 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/lightening-talk-grazwiki"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zSefNw0X-wc/hqdefault.jpg" alt="Lightening Talk: Grazwiki" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/lightening-talk-grazwiki">Lightening Talk: Grazwiki</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 04:40</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/lightening-talk-semantic-mediawiki"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xP203Vaqid4/hqdefault.jpg" alt="Lightening Talk: Semantic Mediawiki" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/lightening-talk-semantic-mediawiki">Lightening Talk: Semantic Mediawiki</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 09:47</div>
+			
+			
+              <div>Views: 87 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/lightening-talk-werkstadt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/d4SR-Ey8Ouw/hqdefault.jpg" alt="Lightening Talk: werk.stadt (German)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/lightening-talk-werkstadt">Lightening Talk: werk.stadt (German)</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 03:05</div>
+			
+			
+              <div>Views: 28 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/linux-essentials-michael-gisbers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h6BAS0NiqpM/hqdefault.jpg" alt="Linux Essentials - Michael Gisbers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/linux-essentials-michael-gisbers">Linux Essentials - Michael Gisbers</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 24:45</div>
+			
+			
+              <div>Views: 523 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/losungsorientierte-fehlerbehandlung-thomas-aglassinger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Joponf2gHc8/hqdefault.jpg" alt="Lösungsorientierte Fehlerbehandlung - Thomas Aglassinger" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/losungsorientierte-fehlerbehandlung-thomas-aglassinger">Lösungsorientierte Fehlerbehandlung - Thomas Aglassinger</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 47:48</div>
+			
+			
+              <div>Views: 78 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/mediastreaming-im-heimnetzwerk-bernhard-trummer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2Rv3NhBirvw/hqdefault.jpg" alt="Mediastreaming im Heimnetzwerk -  Bernhard Trummer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/mediastreaming-im-heimnetzwerk-bernhard-trummer">Mediastreaming im Heimnetzwerk -  Bernhard Trummer</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 31:51</div>
+			
+			
+              <div>Views: 256 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/monitoring-the-internet-of-things-goesta-smekal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bzzGWsES08k/hqdefault.jpg" alt="Monitoring the Internet of Things - Goesta Smekal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/monitoring-the-internet-of-things-goesta-smekal">Monitoring the Internet of Things - Goesta Smekal</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 44:49</div>
+			
+			
+              <div>Views: 139 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/netzneutralitat-michael-renner"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h1GNvuML8mI/hqdefault.jpg" alt="Netzneutralität - Michael Renner" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/netzneutralitat-michael-renner">Netzneutralität - Michael Renner</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 55:15</div>
+			
+			
+              <div>Views: 79 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/open-knowledge-foundation-stefan-kasberger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CWxESgkthhE/hqdefault.jpg" alt="Open Knowledge Foundation - Stefan Kasberger" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/open-knowledge-foundation-stefan-kasberger">Open Knowledge Foundation - Stefan Kasberger</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 25:34</div>
+			
+			
+              <div>Views: 69 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/open-source-virtualisierung-mit-ovirt-rene-koch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_SL8VTIACg8/hqdefault.jpg" alt="Open Source Virtualisierung mit oVirt - René Koch" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/open-source-virtualisierung-mit-ovirt-rene-koch">Open Source Virtualisierung mit oVirt - René Koch</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 43:03</div>
+			
+			
+              <div>Views: 543 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/petabyte-storage-mit-ceph-martin-gerhard-loschwitz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/E4yWs0EjkeQ/hqdefault.jpg" alt="Petabyte-Storage mit Ceph - Martin Gerhard Loschwitz" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/petabyte-storage-mit-ceph-martin-gerhard-loschwitz">Petabyte-Storage mit Ceph - Martin Gerhard Loschwitz</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 50:40</div>
+			
+			
+              <div>Views: 1696 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/python-2-vs-python-3-gerald-senarclens-de-grancy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/02NTKVtN5EU/hqdefault.jpg" alt="Python 2 vs. Python 3 - Gerald Senarclens de Grancy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/python-2-vs-python-3-gerald-senarclens-de-grancy">Python 2 vs. Python 3 - Gerald Senarclens de Grancy</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 41:45</div>
+			
+			
+              <div>Views: 306 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/raspberry-pi-als-htpc-mit-xbmc-martin-strohmayer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4Jhj8L80zac/hqdefault.jpg" alt="Raspberry Pi als HTPC mit XBMC - Martin Strohmayer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/raspberry-pi-als-htpc-mit-xbmc-martin-strohmayer">Raspberry Pi als HTPC mit XBMC - Martin Strohmayer</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 46:39</div>
+			
+			
+              <div>Views: 1902 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2013/was-ssh-kann-auch-das-martin-leyrer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UXBZXdPhc6g/hqdefault.jpg" alt="Was, SSH kann auch das? - Martin Leyrer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2013/was-ssh-kann-auch-das-martin-leyrer">Was, SSH kann auch das? - Martin Leyrer</a></h4>
+          <footer>
+            <div class="recorded">2013-04-20</div>
+			
+			  <div>Length: 43:57</div>
+			
+			
+              <div>Views: 453 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2013">Grazer LinuxTage 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLWHx0EvwLLUFBeI_t8RDyyCxZirzoK4ua">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

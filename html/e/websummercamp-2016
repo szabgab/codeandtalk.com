@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Web Summer Camp 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Web Summer Camp 2016</h1>
+
+<div><a href="http://2016.websummercamp.com/">Web Summer Camp 2016</a></div>
+
+
+<div>Start date: 2016-08-31</div>
+<div>End date: 2016-09-03</div>
+
+<div>Location:
+  Rovinj
+  
+  <a href="/l/croatia">Croatia</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/web">web</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/WebSummerCamp">@WebSummerCamp</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/WebSummerCamp/">https://www.facebook.com/WebSummerCamp/</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Web%20Summer%20Camp%202016%20on%202016-08-31%20in%20Rovinj%2C%20%20Croatia%20%40WebSummerCamp%20http%3A//2016.websummercamp.com/%20%23FrontEnd%20%23JavaScript%20%23web%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d01l01-track-1-burn-down-your-keyboard-get-the-most-out-of-your-phpstorm"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sROFnyIO74k/hqdefault.jpg" alt="Burn down your keyboard - get the most out of your PhpStorm" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d01l01-track-1-burn-down-your-keyboard-get-the-most-out-of-your-phpstorm">Burn down your keyboard - get the most out of your PhpStorm</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 02:17:43</div>
+			
+			
+              <div>Views: 113 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patrik-karisch">Patrik Karisch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d01l01-track-2-running-php-in-docker-containers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1mAj2iJO9c0/hqdefault.jpg" alt="Running PHP in Docker containers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d01l01-track-2-running-php-in-docker-containers">Running PHP in Docker containers</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 02:14:28</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marek-matulka">Marek Matulka</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d01l01-track-3-creating-a-website-using-the-latest-version-of-ez-platform"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dp96KSi2moU/hqdefault.jpg" alt="Creating a website using the latest version of eZ Platform" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d01l01-track-3-creating-a-website-using-the-latest-version-of-ez-platform">Creating a website using the latest version of eZ Platform</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 02:44:24</div>
+			
+			
+              <div>Views: 38 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-christian-liedle">David Christian Liedle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d01l02-track-1-extending-sylius-adding-a-multilingual-blog"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rRmc93cd1C4/hqdefault.jpg" alt="Extending Sylius: Adding a multilingual blog" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d01l02-track-1-extending-sylius-adding-a-multilingual-blog">Extending Sylius: Adding a multilingual blog</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 02:37:21</div>
+			
+			
+              <div>Views: 41 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-leech">Daniel Leech</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d01l02-track-2-lightning-fast-tests"><img class="list-thumbnail" src="https://i.ytimg.com/vi/S-JCeb6Lg4w/hqdefault.jpg" alt="Lightning fast tests" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d01l02-track-2-lightning-fast-tests">Lightning fast tests</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 01:04:44</div>
+			
+			
+              <div>Views: 30 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jakub-jalas">Jakub Zalas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d01l02-track-3-practical-apis-with-ez-publish-ez-platform"><img class="list-thumbnail" src="https://i.ytimg.com/vi/B-9iKfqpS-o/hqdefault.jpg" alt="Practical APIs with eZ Publish / eZ Platform" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d01l02-track-3-practical-apis-with-ez-publish-ez-platform">Practical APIs with eZ Publish / eZ Platform</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 01:35:31</div>
+			
+			
+              <div>Views: 32 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/urban-etter">Urban Etter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d02l01-track-1-using-behat-and-phpspec-for-emergent-design-with-ubiquitous-language"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ipqDYskJhLo/hqdefault.jpg" alt="Using Behat and PHPSpec for emergent design with ubiquitous language" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d02l01-track-1-using-behat-and-phpspec-for-emergent-design-with-ubiquitous-language">Using Behat and PHPSpec for emergent design with ubiquitous language</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 02:24:29</div>
+			
+			
+              <div>Views: 30 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/florian-klein">Florian Klein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d02l01-track-2-writing-api-clients-with-httplug"><img class="list-thumbnail" src="https://i.ytimg.com/vi/I2pVYjVT9Fw/hqdefault.jpg" alt="Writing API clients with HTTPlug" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d02l01-track-2-writing-api-clients-with-httplug">Writing API clients with HTTPlug</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 02:02:43</div>
+			
+			
+              <div>Views: 20 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-sagi-kazar">Márk Sági-Kazár</a>
+             
+                <a href="/p/david-buchmann">David Buchmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d02l01-track-3-extending-ez-platform-ez-enterprise"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zViZb87NC5U/hqdefault.jpg" alt="Extending eZ Platform & eZ Enterprise" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d02l01-track-3-extending-ez-platform-ez-enterprise">Extending eZ Platform & eZ Enterprise</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 02:43:22</div>
+			
+			
+              <div>Views: 30 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/piotr-nalepa">Piotr Nalepa</a>
+             
+                <a href="/p/kamil-musia">Kamil Musia</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d02l02-track-1-lets-play-a-game-no-extends-advanced-oop-with-symfony-3"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mNohsP_EHDU/hqdefault.jpg" alt="Let's play a game: No extends. Advanced OOP with Symfony 3" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d02l02-track-1-lets-play-a-game-no-extends-advanced-oop-with-symfony-3">Let's play a game: No extends. Advanced OOP with Symfony 3</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 02:10:02</div>
+			
+			
+              <div>Views: 54 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-jegat">David Jegat</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d02l02-track-2-clean-code"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tALxJ_87S-Y/hqdefault.jpg" alt="Clean code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d02l02-track-2-clean-code">Clean code</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 01:47:29</div>
+			
+			
+              <div>Views: 41 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tobias-schlitt">Tobias Schlitt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d02l02-track-3-using-ez-platform-as-a-headless-cms"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2Iq3-VbAvoc/hqdefault.jpg" alt="Using eZ Platform as a Headless CMS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d02l02-track-3-using-ez-platform-as-a-headless-cms">Using eZ Platform as a Headless CMS</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 02:47:32</div>
+			
+			
+              <div>Views: 31 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jani-tarvainen">Jani Tarvainen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d03l01-track-1-forms-in-symfony-3"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GMBUgfiyglE/hqdefault.jpg" alt="Forms in Symfony 3" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d03l01-track-1-forms-in-symfony-3">Forms in Symfony 3</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 49:09</div>
+			
+			
+              <div>Views: 31 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bernhard-schussek">Bernhard Schussek</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d03l01-track-2-the-framework-is-dead-long-live-the-framework"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lJ52xBC27xw/hqdefault.jpg" alt="The framework is dead, long live the framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d03l01-track-2-the-framework-is-dead-long-live-the-framework">The framework is dead, long live the framework</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 02:34:50</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bruno-skvorc">Bruno Škvorc</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d03l01-track-3-rewrite-legacy-datatype-to-ez-platform-field-type"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RmOZgFvsOMo/hqdefault.jpg" alt="Rewrite legacy datatype to eZ Platform field type" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d03l01-track-3-rewrite-legacy-datatype-to-ez-platform-field-type">Rewrite legacy datatype to eZ Platform field type</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 02:37:58</div>
+			
+			
+              <div>Views: 14 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/edi-modric">Edi Modric</a>
+             
+                <a href="/p/hrvoje-knezevic">Hrvoje Knežević</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d03l02-track-1-getting-started-with-the-sulu-cms"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fEBl0qcCGPo/hqdefault.jpg" alt="Getting Started with the Sulu CMS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d03l02-track-1-getting-started-with-the-sulu-cms">Getting Started with the Sulu CMS</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 01:04:12</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-rotter">Daniel Rotter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d03l02-track-2-practical-rabbitmq-workshop"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iaiwGwpMRfU/hqdefault.jpg" alt="Practical RabbitMq workshop" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d03l02-track-2-practical-rabbitmq-workshop">Practical RabbitMq workshop</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 02:59:02</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/srdjan-vranac">Srdjan Vranac</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/websummercamp-2016/websc2016-d03l02-track-3-ez-publish-5-from-zero-to-automated-deployment-in-one-afternoon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CoxNvFGxTQU/hqdefault.jpg" alt="eZ Publish 5: from zero to automated deployment in one afternoon" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/websummercamp-2016/websc2016-d03l02-track-3-ez-publish-5-from-zero-to-automated-deployment-in-one-afternoon">eZ Publish 5: from zero to automated deployment in one afternoon</a></h4>
+          <footer>
+            <div class="recorded">2016-08-31</div>
+			
+			  <div>Length: 02:44:24</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/websummercamp-2016">Web Summer Camp 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gaetano-giunta">Gaetano Giunta</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLsL1X_98-_XBbePuG2xfhHGSiqfJcunrw">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

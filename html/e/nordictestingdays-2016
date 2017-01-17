@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Nordic Testing Days 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Nordic Testing Days 2016</h1>
+
+<div><a href="http://nordictestingdays.eu/archive/2016">Nordic Testing Days 2016</a></div>
+
+
+<div>Start date: 2016-06-01</div>
+<div>End date: 2016-06-03</div>
+
+<div>Location:
+  Tallin
+  
+  <a href="/l/estonia">Estonia</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/testing">testing</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/nordictestdays">@nordictestdays</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Nordic%20Testing%20Days%202016%20on%202016-06-01%20in%20Tallin%2C%20%20Estonia%20%40nordictestdays%20http%3A//nordictestingdays.eu/archive/2016%20%23testing%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/nordictestingdays-2016/andres-kutt-nordic-testing-days-2016-how-to-test-an-ecosystem-keynote"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eqTvXuMLClw/hqdefault.jpg" alt="How to Test an Ecosystem" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordictestingdays-2016/andres-kutt-nordic-testing-days-2016-how-to-test-an-ecosystem-keynote">How to Test an Ecosystem</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 57:56</div>
+			
+			
+              <div>Views: 136 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nordictestingdays-2016">Nordic Testing Days 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andres-kutt">Andres Kütt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordictestingdays-2016/lloyd-roden-nordic-testing-days-2016-top-testing-challenges-we-face-today-keynote"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3bP6V4hWcs8/hqdefault.jpg" alt="Top Testing Challenges We Face Today" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordictestingdays-2016/lloyd-roden-nordic-testing-days-2016-top-testing-challenges-we-face-today-keynote">Top Testing Challenges We Face Today</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 01:07:43</div>
+			
+			
+              <div>Views: 82 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nordictestingdays-2016">Nordic Testing Days 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lloyd-roden">Lloyd Roden</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordictestingdays-2016/mikko-hypponen-nordic-testing-days-2016-state-of-the-net-keynote"><img class="list-thumbnail" src="https://i.ytimg.com/vi/k_uOdUYbIUA/hqdefault.jpg" alt="State of The Net" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordictestingdays-2016/mikko-hypponen-nordic-testing-days-2016-state-of-the-net-keynote">State of The Net</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 47:30</div>
+			
+			
+              <div>Views: 2178 Likes: 37</div>
+            
+            <div class="event">From <a href="/e/nordictestingdays-2016">Nordic Testing Days 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mikko-hypponen">Mikko Hypponen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eOAr47qqJD4/hqdefault.jpg" alt="Interview with Joep Schuurkes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-1">Interview with Joep Schuurkes</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 03:11</div>
+			
+			
+              <div>Views: 49 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nordictestingdays-2016">Nordic Testing Days 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joep-schuurkes">Joep Schuurkes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eAZoHyVNFXE/hqdefault.jpg" alt="Interview with Huib Schoots" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-2">Interview with Huib Schoots</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 02:08</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nordictestingdays-2016">Nordic Testing Days 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/huib-schoots">Huib Schoots</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-3"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AZxdJ5j0IQE/hqdefault.jpg" alt="Interview with Elo Eilonen" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-3">Interview with Elo Eilonen</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 02:06</div>
+			
+			
+              <div>Views: 53 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nordictestingdays-2016">Nordic Testing Days 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/elo-eilonen">Elo Eilonen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-4"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iJ4m3XCBbvE/hqdefault.jpg" alt="Interview with Nikita Hasis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-4">Interview with Nikita Hasis</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 02:05</div>
+			
+			
+              <div>Views: 46 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nordictestingdays-2016">Nordic Testing Days 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nikita-hasis">Nikita Hasis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-5"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jUobO_gY3pE/hqdefault.jpg" alt="Interview with Karl Tiirik" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-5">Interview with Karl Tiirik</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 01:52</div>
+			
+			
+              <div>Views: 38 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nordictestingdays-2016">Nordic Testing Days 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/karl-tiirik">Karl Tiirik</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-6"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JJIqVLW2f7E/hqdefault.jpg" alt="Interview with Lim Sim" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-6">Interview with Lim Sim</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 01:52</div>
+			
+			
+              <div>Views: 64 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nordictestingdays-2016">Nordic Testing Days 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lim-sim">Lim Sim</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-7"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jwB5AJo7nOw/hqdefault.jpg" alt="Interview 7 with Abby Bangse" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-7">Interview 7 with Abby Bangse</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 01:17</div>
+			
+			
+              <div>Views: 45 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nordictestingdays-2016">Nordic Testing Days 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/abby-bangser">Abby Bangser</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3SSpyfDO-ew/hqdefault.jpg" alt="Interview 8 - with Gita Malinovska" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordictestingdays-2016/nordic-testing-days-2016-interview-8">Interview 8 - with Gita Malinovska</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 02:46</div>
+			
+			
+              <div>Views: 77 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nordictestingdays-2016">Nordic Testing Days 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gita-malinovska">Gita Malinovska</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordictestingdays-2016/nordic-testing-days2016-photo-teaser"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gRc-sAbOEUc/hqdefault.jpg" alt="Photo Teaser" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordictestingdays-2016/nordic-testing-days2016-photo-teaser">Photo Teaser</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 04:09</div>
+			
+			
+              <div>Views: 63 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nordictestingdays-2016">Nordic Testing Days 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/elen-valli">Elen Valli</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordictestingdays-2016/targo-tennisberg-nordic-testing-days-2016-why-does-software-have-bugs-keynote"><img class="list-thumbnail" src="https://i.ytimg.com/vi/---HrBr3TBU/hqdefault.jpg" alt="Why Does Software Have Bugs (Keynote)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordictestingdays-2016/targo-tennisberg-nordic-testing-days-2016-why-does-software-have-bugs-keynote">Why Does Software Have Bugs (Keynote)</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 01:00:54</div>
+			
+			
+              <div>Views: 290 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/nordictestingdays-2016">Nordic Testing Days 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/targo-tennisberg">Targo Tennisberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLF_V0R0nbO9xg0U47xwAJVRMbXCiD6Noj">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

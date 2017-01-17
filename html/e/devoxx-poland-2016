@@ -1,0 +1,2335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Devoxx Poland 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Devoxx Poland 2016</h1>
+
+<div><a href="http://devoxx.pl/">Devoxx Poland 2016</a></div>
+
+
+<div>Start date: 2016-06-22</div>
+<div>End date: 2016-06-25</div>
+
+<div>Location:
+  Krakow
+  
+  <a href="/l/poland">Poland</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/devoxxpl">@devoxxpl</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/devoxxcom">https://www.facebook.com/devoxxcom</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Devoxx%20Poland%202016%20on%202016-06-22%20in%20Krakow%2C%20%20Poland%20%40devoxxpl%20http%3A//devoxx.pl/%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/can-the-java-community-learn-from-the-elixir-community"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FBtK8dZIhWE/hqdefault.jpg" alt="Can the Java Community Learn from the Elixir Community?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/can-the-java-community-learn-from-the-elixir-community">Can the Java Community Learn from the Elixir Community?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 03:18</div>
+			
+			
+              <div>Views: 38 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-adam-bien-coding-microservices-effectively"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pbwZnzuHHao/hqdefault.jpg" alt="Devoxx Poland 2016 - Adam Bien - Coding Microservices Effectively" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-adam-bien-coding-microservices-effectively">Devoxx Poland 2016 - Adam Bien - Coding Microservices Effectively</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 53:38</div>
+			
+			
+              <div>Views: 580 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-adriana-vasiu-continuos-delivery-with-kubernetes-sky"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aAvuIaR3XeY/hqdefault.jpg" alt="Devoxx Poland 2016 - Adriana Vasiu - Continuos Delivery with Kubernetes @Sky" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-adriana-vasiu-continuos-delivery-with-kubernetes-sky">Devoxx Poland 2016 - Adriana Vasiu - Continuos Delivery with Kubernetes @Sky</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 48:26</div>
+			
+			
+              <div>Views: 565 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-aleksandar-seovic-the-illusion-of-statelessness"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h0Y6MyklD04/hqdefault.jpg" alt="Devoxx Poland 2016 - Aleksandar Seovic - The Illusion of Statelessness" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-aleksandar-seovic-the-illusion-of-statelessness">Devoxx Poland 2016 - Aleksandar Seovic - The Illusion of Statelessness</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 32:38</div>
+			
+			
+              <div>Views: 395 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-andres-almiray-java-libraries-you-cant-afford-to-miss"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cbEYH45ni-E/hqdefault.jpg" alt="Devoxx Poland 2016 - Andres Almiray - Java libraries you can't afford to miss" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-andres-almiray-java-libraries-you-cant-afford-to-miss">Devoxx Poland 2016 - Andres Almiray - Java libraries you can't afford to miss</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 48:47</div>
+			
+			
+              <div>Views: 408 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-arkadiusz-benedykt-o-co-biega-w-iot"><img class="list-thumbnail" src="https://i.ytimg.com/vi/U7tHym5d6xw/hqdefault.jpg" alt="Devoxx Poland 2016 - Arkadiusz Benedykt - O co biega w IoT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-arkadiusz-benedykt-o-co-biega-w-iot">Devoxx Poland 2016 - Arkadiusz Benedykt - O co biega w IoT</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 43:39</div>
+			
+			
+              <div>Views: 191 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-axel-fontaine-immutable-infrastructure-rise-of-the-machine-images"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KZZzCNwbVB8/hqdefault.jpg" alt="Devoxx Poland 2016 - Axel Fontaine - Immutable Infrastructure: Rise of the Machine Images" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-axel-fontaine-immutable-infrastructure-rise-of-the-machine-images">Devoxx Poland 2016 - Axel Fontaine - Immutable Infrastructure: Rise of the Machine Images</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 53:50</div>
+			
+			
+              <div>Views: 308 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-ayushman-jain-tips-tricks-for-a-java-team"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gdOYnOaYWCM/hqdefault.jpg" alt="Devoxx Poland 2016 - Ayushman Jain - Tips & Tricks for a Java team" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-ayushman-jain-tips-tricks-for-a-java-team">Devoxx Poland 2016 - Ayushman Jain - Tips & Tricks for a Java team</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 36:23</div>
+			
+			
+              <div>Views: 166 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-bartek-nowakowski-kuba-marchwicki-nianczenie-programistow-vs-zarzadzanie"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RaXTXXEcjU0/hqdefault.jpg" alt="Devoxx Poland 2016 - Bartek Nowakowski, Kuba Marchwicki - Niańczenie programistów vs. zarządzanie..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-bartek-nowakowski-kuba-marchwicki-nianczenie-programistow-vs-zarzadzanie">Devoxx Poland 2016 - Bartek Nowakowski, Kuba Marchwicki - Niańczenie programistów vs. zarządzanie...</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 42:40</div>
+			
+			
+              <div>Views: 883 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-bartek-zdanowski-developer-develop-yourself"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9yOnqYE7SMg/hqdefault.jpg" alt="Devoxx Poland 2016 - Bartek Zdanowski - Developer, develop yourself!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-bartek-zdanowski-developer-develop-yourself">Devoxx Poland 2016 - Bartek Zdanowski - Developer, develop yourself!</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 43:41</div>
+			
+			
+              <div>Views: 235 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-bartek-zdanowski-piotr-jagielski-sputnik-ci-kill-all-bugs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BxUf1Tb5rRs/hqdefault.jpg" alt="Devoxx Poland 2016 - Bartek Zdanowski, Piotr Jagielski - Sputnik CI - kill all bugs ;)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-bartek-zdanowski-piotr-jagielski-sputnik-ci-kill-all-bugs">Devoxx Poland 2016 - Bartek Zdanowski, Piotr Jagielski - Sputnik CI - kill all bugs ;)</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 20:31</div>
+			
+			
+              <div>Views: 124 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-bartosz-czerwinski-failure-is-an-option"><img class="list-thumbnail" src="https://i.ytimg.com/vi/d4siqCs_hQE/hqdefault.jpg" alt="Devoxx Poland 2016 - Bartosz Czerwiński - Failure is an option" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-bartosz-czerwinski-failure-is-an-option">Devoxx Poland 2016 - Bartosz Czerwiński - Failure is an option</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 46:08</div>
+			
+			
+              <div>Views: 105 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-boleslaw-dawidowicz-security-in-the-era-of-modern-applications-and-services"><img class="list-thumbnail" src="https://i.ytimg.com/vi/71YqetGL-vA/hqdefault.jpg" alt="Devoxx Poland 2016 - Boleslaw Dawidowicz - Security in the era of modern applications and services" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-boleslaw-dawidowicz-security-in-the-era-of-modern-applications-and-services">Devoxx Poland 2016 - Boleslaw Dawidowicz - Security in the era of modern applications and services</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 40:27</div>
+			
+			
+              <div>Views: 308 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-bruce-tate-the-climb"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o6QlN-xOfNY/hqdefault.jpg" alt="Devoxx Poland 2016 - Bruce Tate - The Climb" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-bruce-tate-the-climb">Devoxx Poland 2016 - Bruce Tate - The Climb</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 40:52</div>
+			
+			
+              <div>Views: 135 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-bruce-tate-the-pendulum"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4fHzitk3d4c/hqdefault.jpg" alt="Devoxx Poland 2016 - Bruce Tate - The Pendulum" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-bruce-tate-the-pendulum">Devoxx Poland 2016 - Bruce Tate - The Pendulum</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 40:32</div>
+			
+			
+              <div>Views: 80 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-christoph-engelbert-a-post-apocalyptic-sunmiscunsafe-world"><img class="list-thumbnail" src="https://i.ytimg.com/vi/V6VwQ3wTvVk/hqdefault.jpg" alt="Devoxx Poland 2016 - Christoph Engelbert - A Post-Apocalyptic sun.misc.Unsafe World" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-christoph-engelbert-a-post-apocalyptic-sunmiscunsafe-world">Devoxx Poland 2016 - Christoph Engelbert - A Post-Apocalyptic sun.misc.Unsafe World</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 51:39</div>
+			
+			
+              <div>Views: 114 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-christopher-batey-the-java-developers-guide-to-asynchronous-programming"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F32XoAPijTo/hqdefault.jpg" alt="Devoxx Poland 2016 - Christopher Batey - The Java developers' guide to asynchronous programming" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-christopher-batey-the-java-developers-guide-to-asynchronous-programming">Devoxx Poland 2016 - Christopher Batey - The Java developers' guide to asynchronous programming</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 51:05</div>
+			
+			
+              <div>Views: 1330 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-christopher-batey-the-jvm-and-docker-a-good-idea"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Vt4G-pHXfs4/hqdefault.jpg" alt="Devoxx Poland 2016 - Christopher Batey - The JVM and Docker, a good idea?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-christopher-batey-the-jvm-and-docker-a-good-idea">Devoxx Poland 2016 - Christopher Batey - The JVM and Docker, a good idea?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 50:01</div>
+			
+			
+              <div>Views: 739 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-clemens-prerovsky-rest-in-peace"><img class="list-thumbnail" src="https://i.ytimg.com/vi/c0nQEwfKlsM/hqdefault.jpg" alt="Devoxx Poland 2016 - Clemens Prerovsky - REST in Peace" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-clemens-prerovsky-rest-in-peace">Devoxx Poland 2016 - Clemens Prerovsky - REST in Peace</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 36:18</div>
+			
+			
+              <div>Views: 577 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-daniel-sawano-daniel-deogun-beyond-lambdas-the-aftermath"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sbcXQJA0EQc/hqdefault.jpg" alt="Devoxx Poland 2016 - Daniel Sawano, Daniel Deogun - Beyond lambdas - the aftermath" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-daniel-sawano-daniel-deogun-beyond-lambdas-the-aftermath">Devoxx Poland 2016 - Daniel Sawano, Daniel Deogun - Beyond lambdas - the aftermath</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 47:52</div>
+			
+			
+              <div>Views: 310 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-danilo-poccia-machine-learning-for-developers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pNghqexk5dk/hqdefault.jpg" alt="Devoxx Poland 2016 - Danilo Poccia - Machine Learning for Developers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-danilo-poccia-machine-learning-for-developers">Devoxx Poland 2016 - Danilo Poccia - Machine Learning for Developers</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 45:13</div>
+			
+			
+              <div>Views: 155 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-dmitry-chuyko-hotspot-aot"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dFL-fS27rdo/hqdefault.jpg" alt="Devoxx Poland 2016 - Dmitry Chuyko - Hotspot & AOT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-dmitry-chuyko-hotspot-aot">Devoxx Poland 2016 - Dmitry Chuyko - Hotspot & AOT</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 41:25</div>
+			
+			
+              <div>Views: 66 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-dominik-kundel-2fa-wtf"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b5ZJZETkCoM/hqdefault.jpg" alt="Devoxx Poland 2016 - Dominik Kundel - 2FA, WTF?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-dominik-kundel-2fa-wtf">Devoxx Poland 2016 - Dominik Kundel - 2FA, WTF?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 40:17</div>
+			
+			
+              <div>Views: 67 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-douglas-hawkins-a-peak-inside-the-jit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6ICU2xo427M/hqdefault.jpg" alt="Devoxx Poland 2016 - Douglas Hawkins - A Peak Inside the JIT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-douglas-hawkins-a-peak-inside-the-jit">Devoxx Poland 2016 - Douglas Hawkins - A Peak Inside the JIT</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 50:45</div>
+			
+			
+              <div>Views: 249 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-douglas-hawkins-how-to-lie-to-yourself-about-performance"><img class="list-thumbnail" src="https://i.ytimg.com/vi/teYzwaWmi-8/hqdefault.jpg" alt="Devoxx Poland 2016 - Douglas Hawkins - How to Lie (to Yourself) about Performance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-douglas-hawkins-how-to-lie-to-yourself-about-performance">Devoxx Poland 2016 - Douglas Hawkins - How to Lie (to Yourself) about Performance</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 48:26</div>
+			
+			
+              <div>Views: 526 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-duyhai-doan-annotation-processor-the-power-of-byte-code-manipulation"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KnwZ-IjzHGw/hqdefault.jpg" alt="Devoxx Poland 2016 - DuyHai DOAN - Annotation Processor, the power of byte code manipulation..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-duyhai-doan-annotation-processor-the-power-of-byte-code-manipulation">Devoxx Poland 2016 - DuyHai DOAN - Annotation Processor, the power of byte code manipulation...</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 18:13</div>
+			
+			
+              <div>Views: 106 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-duyhai-doan-new-cassandra-3-features-that-change-your-developer-life"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mv0GzLRPYlc/hqdefault.jpg" alt="Devoxx Poland 2016 - DuyHai DOAN - New Cassandra 3 features that change your (developer) life" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-duyhai-doan-new-cassandra-3-features-that-change-your-developer-life">Devoxx Poland 2016 - DuyHai DOAN - New Cassandra 3 features that change your (developer) life</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 41:57</div>
+			
+			
+              <div>Views: 191 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-grzegorz-duda-closing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lEfmEPHNgqs/hqdefault.jpg" alt="Devoxx Poland 2016 - Grzegorz Duda - Closing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-grzegorz-duda-closing">Devoxx Poland 2016 - Grzegorz Duda - Closing</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 06:04</div>
+			
+			
+              <div>Views: 72 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-jakub-kubrynski-jvm-dive-for-mere-mortals"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9yzZ4d3xueU/hqdefault.jpg" alt="Devoxx Poland 2016 - Jakub Kubrynski - JVM dive for mere mortals" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-jakub-kubrynski-jvm-dive-for-mere-mortals">Devoxx Poland 2016 - Jakub Kubrynski - JVM dive for mere mortals</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 49:59</div>
+			
+			
+              <div>Views: 339 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-jakub-kubrynski-marcin-grzejszczak-accurest-throw-away-your"><img class="list-thumbnail" src="https://i.ytimg.com/vi/msRFcQM07-Y/hqdefault.jpg" alt="Devoxx Poland 2016 - Jakub Kubryński, Marcin Grzejszczak - Accurest - throw away your ..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-jakub-kubrynski-marcin-grzejszczak-accurest-throw-away-your">Devoxx Poland 2016 - Jakub Kubryński, Marcin Grzejszczak - Accurest - throw away your ...</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 17:02</div>
+			
+			
+              <div>Views: 687 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-james-lewis-microservices-and-conways-law"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iVHdn7alYVU/hqdefault.jpg" alt="Devoxx Poland 2016 - James Lewis - Microservices and Conway's Law" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-james-lewis-microservices-and-conways-law">Devoxx Poland 2016 - James Lewis - Microservices and Conway's Law</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 49:28</div>
+			
+			
+              <div>Views: 314 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-johannes-weigend-real-world-analytics-with-solr-cloud-and-spark"><img class="list-thumbnail" src="https://i.ytimg.com/vi/l1tg_FdTKgo/hqdefault.jpg" alt="Devoxx Poland 2016 - Johannes Weigend - Real-world analytics with Solr Cloud and Spark" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-johannes-weigend-real-world-analytics-with-solr-cloud-and-spark">Devoxx Poland 2016 - Johannes Weigend - Real-world analytics with Solr Cloud and Spark</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 49:05</div>
+			
+			
+              <div>Views: 72 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-john-thompson-getting-hip-with-jhipster"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hc84F0XuCg8/hqdefault.jpg" alt="Devoxx Poland 2016 - John Thompson - Getting Hip with JHipster" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-john-thompson-getting-hip-with-jhipster">Devoxx Poland 2016 - John Thompson - Getting Hip with JHipster</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 34:30</div>
+			
+			
+              <div>Views: 162 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-josh-long-cloud-native-java"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-Vcw9tKMLCA/hqdefault.jpg" alt="Devoxx Poland 2016 - Josh Long - Cloud Native Java" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-josh-long-cloud-native-java">Devoxx Poland 2016 - Josh Long - Cloud Native Java</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 54:51</div>
+			
+			
+              <div>Views: 416 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-kirk-pepperdine-using-the-g1gc"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F7Dn9bCZjGA/hqdefault.jpg" alt="Devoxx Poland 2016 - Kirk Pepperdine - Using the G1GC" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-kirk-pepperdine-using-the-g1gc">Devoxx Poland 2016 - Kirk Pepperdine - Using the G1GC</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 50:26</div>
+			
+			
+              <div>Views: 84 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-krzysztof-kudrynski-blazej-kubiak-real-time-mapping-with-the-drone"><img class="list-thumbnail" src="https://i.ytimg.com/vi/g1eypgIbRrU/hqdefault.jpg" alt="Devoxx Poland 2016 - Krzysztof Kudrynski, Blazej Kubiak - Real-time mapping with the drone" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-krzysztof-kudrynski-blazej-kubiak-real-time-mapping-with-the-drone">Devoxx Poland 2016 - Krzysztof Kudrynski, Blazej Kubiak - Real-time mapping with the drone</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 43:40</div>
+			
+			
+              <div>Views: 770 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-kuba-marchwicki-reverse-engineering-the-clean-code"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UwZN91JC4zk/hqdefault.jpg" alt="Devoxx Poland 2016 - Kuba Marchwicki - Reverse engineering the clean code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-kuba-marchwicki-reverse-engineering-the-clean-code">Devoxx Poland 2016 - Kuba Marchwicki - Reverse engineering the clean code</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 14:01</div>
+			
+			
+              <div>Views: 304 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-laurent-doguin-a-practical-rxjava-example-with-ratpack"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gSL0OSCQcsY/hqdefault.jpg" alt="Devoxx Poland 2016 - Laurent Doguin - A practical RxJava example with Ratpack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-laurent-doguin-a-practical-rxjava-example-with-ratpack">Devoxx Poland 2016 - Laurent Doguin - A practical RxJava example with Ratpack</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 48:31</div>
+			
+			
+              <div>Views: 183 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-louis-jacomet-data-consistency-analyse-understand-and-decide"><img class="list-thumbnail" src="https://i.ytimg.com/vi/t7nMNy4YoVY/hqdefault.jpg" alt="Devoxx Poland 2016 - Louis Jacomet - Data consistency: Analyse, understand and decide" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-louis-jacomet-data-consistency-analyse-understand-and-decide">Devoxx Poland 2016 - Louis Jacomet - Data consistency: Analyse, understand and decide</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 40:17</div>
+			
+			
+              <div>Views: 98 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-louis-jacomet-ehcache-out-of-his-element"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RSpgLZ1U75g/hqdefault.jpg" alt="Devoxx Poland 2016 - Louis Jacomet - Ehcache out of his Element" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-louis-jacomet-ehcache-out-of-his-element">Devoxx Poland 2016 - Louis Jacomet - Ehcache out of his Element</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 30:27</div>
+			
+			
+              <div>Views: 441 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-luca-milanesio-use-bigdata-to-speed-up-your-continuous-delivery-pipeline"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O3bAR60b_uM/hqdefault.jpg" alt="Devoxx Poland 2016 - Luca Milanesio - Use BigData to speed up your Continuous Delivery Pipeline" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-luca-milanesio-use-bigdata-to-speed-up-your-continuous-delivery-pipeline">Devoxx Poland 2016 - Luca Milanesio - Use BigData to speed up your Continuous Delivery Pipeline</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 51:51</div>
+			
+			
+              <div>Views: 88 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-lukasz-karwacki-business-vs-it-how-to-avoid-delays-in-deadlines"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Z2S6cx32boc/hqdefault.jpg" alt="Devoxx Poland 2016 - Łukasz Karwacki - Business vs IT. How to avoid delays in deadlines" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-lukasz-karwacki-business-vs-it-how-to-avoid-delays-in-deadlines">Devoxx Poland 2016 - Łukasz Karwacki - Business vs IT. How to avoid delays in deadlines</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 18:14</div>
+			
+			
+              <div>Views: 146 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-lukasz-szydlo-preconditions-for-good-code-review"><img class="list-thumbnail" src="https://i.ytimg.com/vi/r4sA4hrYDs0/hqdefault.jpg" alt="Devoxx Poland 2016 - Łukasz Szydło - Preconditions for good code review" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-lukasz-szydlo-preconditions-for-good-code-review">Devoxx Poland 2016 - Łukasz Szydło - Preconditions for good code review</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 16:17</div>
+			
+			
+              <div>Views: 304 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-marcin-grzejszczak-microservices-tracing-with-spring-cloud-and-zipkin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eQV71Mw1u1c/hqdefault.jpg" alt="Devoxx Poland 2016 - Marcin Grzejszczak - Microservices tracing with Spring Cloud and Zipkin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-marcin-grzejszczak-microservices-tracing-with-spring-cloud-and-zipkin">Devoxx Poland 2016 - Marcin Grzejszczak - Microservices tracing with Spring Cloud and Zipkin</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 56:58</div>
+			
+			
+              <div>Views: 2087 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-marcin-zajaczkowski-lukasz-szczesny-jenkins-as-a-code"><img class="list-thumbnail" src="https://i.ytimg.com/vi/898pnw72tzU/hqdefault.jpg" alt="Devoxx Poland 2016 - Marcin Zajączkowski, Łukasz Szczęsny - Jenkins as a Code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-marcin-zajaczkowski-lukasz-szczesny-jenkins-as-a-code">Devoxx Poland 2016 - Marcin Zajączkowski, Łukasz Szczęsny - Jenkins as a Code</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 38:35</div>
+			
+			
+              <div>Views: 135 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-marek-grochowski-cezary-zminkowski-successful-startup-is-not-enough"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7AoMeFgTmAE/hqdefault.jpg" alt="Devoxx Poland 2016 - Marek Grochowski, Cezary Zminkowski - Successful startup is NOT enough..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-marek-grochowski-cezary-zminkowski-successful-startup-is-not-enough">Devoxx Poland 2016 - Marek Grochowski, Cezary Zminkowski - Successful startup is NOT enough...</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 49:11</div>
+			
+			
+              <div>Views: 79 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-mark-heckler-microservices-minus-the-hype-how-to-build-and-why"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0szo_FLDSRY/hqdefault.jpg" alt="Devoxx Poland 2016 - Mark Heckler - Microservices Minus the Hype: How to Build and Why" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-mark-heckler-microservices-minus-the-hype-how-to-build-and-why">Devoxx Poland 2016 - Mark Heckler - Microservices Minus the Hype: How to Build and Why</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 51:24</div>
+			
+			
+              <div>Views: 203 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-mark-heckler-this-stuff-is-cool-but-how-can-i-get-my-company-to-do-it"><img class="list-thumbnail" src="https://i.ytimg.com/vi/D4bwYrHlJEY/hqdefault.jpg" alt="Devoxx Poland 2016 - Mark Heckler - This stuff is cool, but HOW CAN I GET MY COMPANY TO DO IT??!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-mark-heckler-this-stuff-is-cool-but-how-can-i-get-my-company-to-do-it">Devoxx Poland 2016 - Mark Heckler - This stuff is cool, but HOW CAN I GET MY COMPANY TO DO IT??!</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 49:14</div>
+			
+			
+              <div>Views: 97 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-mark-van-cuijk-blockchain-and-distributed-ledgers-for-developers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3RN8bnNe-Is/hqdefault.jpg" alt="Devoxx Poland 2016 - Mark van Cuijk - Blockchain and distributed ledgers for developers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-mark-van-cuijk-blockchain-and-distributed-ledgers-for-developers">Devoxx Poland 2016 - Mark van Cuijk - Blockchain and distributed ledgers for developers</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 32:42</div>
+			
+			
+              <div>Views: 251 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-matt-stine-antifragile-architectures"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GKQwzAVud60/hqdefault.jpg" alt="Devoxx Poland 2016 - Matt Stine - Antifragile Architectures" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-matt-stine-antifragile-architectures">Devoxx Poland 2016 - Matt Stine - Antifragile Architectures</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 43:38</div>
+			
+			
+              <div>Views: 166 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-matt-stine-reactive-fault-tolerant-programing-with-hystrix-and-rxjava"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sRJmjO5D3KE/hqdefault.jpg" alt="Devoxx Poland 2016 - Matt Stine - Reactive Fault Tolerant Programing with Hystrix and RxJava" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-matt-stine-reactive-fault-tolerant-programing-with-hystrix-and-rxjava">Devoxx Poland 2016 - Matt Stine - Reactive Fault Tolerant Programing with Hystrix and RxJava</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 50:41</div>
+			
+			
+              <div>Views: 316 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-maxim-salnikov-getting-started-with-angular2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yD54qN8YIv8/hqdefault.jpg" alt="Devoxx Poland 2016 - Maxim Salnikov - Getting started with Angular2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-maxim-salnikov-getting-started-with-angular2">Devoxx Poland 2016 - Maxim Salnikov - Getting started with Angular2</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 33:01</div>
+			
+			
+              <div>Views: 170 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-maximiliano-firtman-breaking-the-limits-of-the-web"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AAie5as8lHQ/hqdefault.jpg" alt="Devoxx Poland 2016 - Maximiliano Firtman - Breaking the Limits of the Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-maximiliano-firtman-breaking-the-limits-of-the-web">Devoxx Poland 2016 - Maximiliano Firtman - Breaking the Limits of the Web</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 44:25</div>
+			
+			
+              <div>Views: 180 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-maximiliano-firtman-the-physical-world-meets-the-web"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Zrm9pd2u0Xo/hqdefault.jpg" alt="Devoxx Poland 2016 - Maximiliano Firtman - The Physical World meets the Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-maximiliano-firtman-the-physical-world-meets-the-web">Devoxx Poland 2016 - Maximiliano Firtman - The Physical World meets the Web</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 50:20</div>
+			
+			
+              <div>Views: 150 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-michael-cote-better-ways-of-developing-software-or-coding-like-a-unicorn"><img class="list-thumbnail" src="https://i.ytimg.com/vi/snsdZ5gViJU/hqdefault.jpg" alt="Devoxx Poland 2016 - Michael Coté - Better ways of developing software or, coding like a unicorn" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-michael-cote-better-ways-of-developing-software-or-coding-like-a-unicorn">Devoxx Poland 2016 - Michael Coté - Better ways of developing software or, coding like a unicorn</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 51:09</div>
+			
+			
+              <div>Views: 136 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-michael-cote-how-to-survive-and-thrive-in-a-bigco"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UFqz5xkgRbs/hqdefault.jpg" alt="Devoxx Poland 2016 - Michael Coté - How to survive and thrive in a BigCo" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-michael-cote-how-to-survive-and-thrive-in-a-bigco">Devoxx Poland 2016 - Michael Coté - How to survive and thrive in a BigCo</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 43:29</div>
+			
+			
+              <div>Views: 181 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-michal-gruca-continuous-improvement-developing-yourself-and-others"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6j19mIMAYVE/hqdefault.jpg" alt="Devoxx Poland 2016 - Michal Gruca - Continuous improvement, developing yourself and others" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-michal-gruca-continuous-improvement-developing-yourself-and-others">Devoxx Poland 2016 - Michal Gruca - Continuous improvement, developing yourself and others</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 46:00</div>
+			
+			
+              <div>Views: 77 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-michal-krzywucki-dominik-radziszowski-easily-scale-up-your-jee-stack-with"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NzCg2Sb-GRc/hqdefault.jpg" alt="Devoxx Poland 2016 - Michał Krzywucki, Dominik Radziszowski - Easily scale up your JEE stack with..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-michal-krzywucki-dominik-radziszowski-easily-scale-up-your-jee-stack-with">Devoxx Poland 2016 - Michał Krzywucki, Dominik Radziszowski - Easily scale up your JEE stack with...</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 52:06</div>
+			
+			
+              <div>Views: 236 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-misko-hevery-angular-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MQ_wjrZYw8Y/hqdefault.jpg" alt="Devoxx Poland 2016 - Miško Hevery - Angular 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-misko-hevery-angular-2">Devoxx Poland 2016 - Miško Hevery - Angular 2</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 49:40</div>
+			
+			
+              <div>Views: 595 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-neal-ford-evolutionary-architectures"><img class="list-thumbnail" src="https://i.ytimg.com/vi/c3yDwKztsfU/hqdefault.jpg" alt="Devoxx Poland 2016 - Neal Ford - Evolutionary Architectures" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-neal-ford-evolutionary-architectures">Devoxx Poland 2016 - Neal Ford - Evolutionary Architectures</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 50:43</div>
+			
+			
+              <div>Views: 354 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-neal-ford-why-does-yesterdays-best-practice-become-tomorrows-antipattern"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Kp5YJBQsCPE/hqdefault.jpg" alt="Devoxx Poland 2016 - Neal Ford - Why does Yesterday's Best Practice Become Tomorrow's Antipattern?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-neal-ford-why-does-yesterdays-best-practice-become-tomorrows-antipattern">Devoxx Poland 2016 - Neal Ford - Why does Yesterday's Best Practice Become Tomorrow's Antipattern?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 01:06:45</div>
+			
+			
+              <div>Views: 1620 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-nicola-paolucci-transformative-git-practices-new-techniques"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KZUSHCJ-dQ8/hqdefault.jpg" alt="Devoxx Poland 2016 - Nicola Paolucci - Transformative Git practices: new techniques..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-nicola-paolucci-transformative-git-practices-new-techniques">Devoxx Poland 2016 - Nicola Paolucci - Transformative Git practices: new techniques...</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 42:38</div>
+			
+			
+              <div>Views: 417 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-nicolai-parlog-comment-your-code"><img class="list-thumbnail" src="https://i.ytimg.com/vi/t_PEeSMqztc/hqdefault.jpg" alt="Devoxx Poland 2016 - Nicolai Parlog - Comment Your &*☠# Code!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-nicolai-parlog-comment-your-code">Devoxx Poland 2016 - Nicolai Parlog - Comment Your &*☠# Code!</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 50:48</div>
+			
+			
+              <div>Views: 1309 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-nicolai-parlog-junit-5-next-generation-testing-on-the-jvm"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oG80XZUN1lQ/hqdefault.jpg" alt="Devoxx Poland 2016 - Nicolai Parlog - JUnit 5: Next Generation Testing on the JVM" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-nicolai-parlog-junit-5-next-generation-testing-on-the-jvm">Devoxx Poland 2016 - Nicolai Parlog - JUnit 5: Next Generation Testing on the JVM</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 47:59</div>
+			
+			
+              <div>Views: 420 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-oleg-selajev-functional-data-structures-with-java-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2QWVmTiGvJE/hqdefault.jpg" alt="Devoxx Poland 2016 - Oleg Šelajev - Functional data structures with Java 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-oleg-selajev-functional-data-structures-with-java-8">Devoxx Poland 2016 - Oleg Šelajev - Functional data structures with Java 8</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 51:17</div>
+			
+			
+              <div>Views: 396 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-oleg-selajev-how-to-create-a-new-jvm-language-in-under-an-hour"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Tz7Ceny-YxI/hqdefault.jpg" alt="Devoxx Poland 2016 - Oleg Šelajev - How to Create a New JVM Language in Under an Hour" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-oleg-selajev-how-to-create-a-new-jvm-language-in-under-an-hour">Devoxx Poland 2016 - Oleg Šelajev - How to Create a New JVM Language in Under an Hour</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 57:21</div>
+			
+			
+              <div>Views: 233 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-oliver-gondza-threaddump-analysis-with-dumpling"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RwyKKTElXcQ/hqdefault.jpg" alt="Devoxx Poland 2016 - Oliver Gondža - Threaddump analysis with Dumpling" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-oliver-gondza-threaddump-analysis-with-dumpling">Devoxx Poland 2016 - Oliver Gondža - Threaddump analysis with Dumpling</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 24:39</div>
+			
+			
+              <div>Views: 86 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-piotr-betkier-building-common-libraries-and-not-failing-at-it"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PeioFobaq94/hqdefault.jpg" alt="Devoxx Poland 2016 - Piotr Betkier - Building common libraries and not failing at it" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-piotr-betkier-building-common-libraries-and-not-failing-at-it">Devoxx Poland 2016 - Piotr Betkier - Building common libraries and not failing at it</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 51:05</div>
+			
+			
+              <div>Views: 155 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-pratik-patel-continuous-integration-for-web-javascript-projects"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Q6lKYNAvkpo/hqdefault.jpg" alt="Devoxx Poland 2016 - Pratik Patel - Continuous Integration for Web & JavaScript Projects" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-pratik-patel-continuous-integration-for-web-javascript-projects">Devoxx Poland 2016 - Pratik Patel - Continuous Integration for Web & JavaScript Projects</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 45:16</div>
+			
+			
+              <div>Views: 86 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-pratik-patel-reactjs-a-modern-web-framework"><img class="list-thumbnail" src="https://i.ytimg.com/vi/S3uBDhYthqk/hqdefault.jpg" alt="Devoxx Poland 2016 - Pratik Patel - React.js: A Modern Web Framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-pratik-patel-reactjs-a-modern-web-framework">Devoxx Poland 2016 - Pratik Patel - React.js: A Modern Web Framework</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 43:59</div>
+			
+			
+              <div>Views: 157 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-radek-ostrowski-finding-your-perfect-weather-with-apache-spark-docker-and"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jBsHWOza7vc/hqdefault.jpg" alt="Devoxx Poland 2016 - Radek Ostrowski - Finding Your Perfect Weather with Apache Spark, Docker and..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-radek-ostrowski-finding-your-perfect-weather-with-apache-spark-docker-and">Devoxx Poland 2016 - Radek Ostrowski - Finding Your Perfect Weather with Apache Spark, Docker and...</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 28:25</div>
+			
+			
+              <div>Views: 114 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-radek-smogura-java-9-compiler-integration"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MbkpXBj5AFA/hqdefault.jpg" alt="Devoxx Poland 2016 - Radek Smogura - Java 9 compiler integration" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-radek-smogura-java-9-compiler-integration">Devoxx Poland 2016 - Radek Smogura - Java 9 compiler integration</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 10:53</div>
+			
+			
+              <div>Views: 1462 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-ray-tsang-grpc-101-for-java-developers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kQ6sNVjWWMw/hqdefault.jpg" alt="Devoxx Poland 2016 - Ray Tsang - gRPC 101 for Java Developers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-ray-tsang-grpc-101-for-java-developers">Devoxx Poland 2016 - Ray Tsang - gRPC 101 for Java Developers</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 33:39</div>
+			
+			
+              <div>Views: 466 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-ray-tsang-scaling-with-kubernetes-automatically-learn-kubernetes-api"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RvMiHulMqME/hqdefault.jpg" alt="Devoxx Poland 2016 - Ray Tsang - Scaling with Kubernetes, Automatically! Learn Kubernetes API..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-ray-tsang-scaling-with-kubernetes-automatically-learn-kubernetes-api">Devoxx Poland 2016 - Ray Tsang - Scaling with Kubernetes, Automatically! Learn Kubernetes API...</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 44:44</div>
+			
+			
+              <div>Views: 129 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-rob-harrop-going-reactive"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Qj8u2tkEU_Q/hqdefault.jpg" alt="Devoxx Poland 2016 - Rob Harrop - Going Reactive" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-rob-harrop-going-reactive">Devoxx Poland 2016 - Rob Harrop - Going Reactive</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 55:23</div>
+			
+			
+              <div>Views: 239 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-rob-harrop-understanding-microservice-performance"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GpG9_emteuY/hqdefault.jpg" alt="Devoxx Poland 2016 - Rob Harrop - Understanding Microservice performance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-rob-harrop-understanding-microservice-performance">Devoxx Poland 2016 - Rob Harrop - Understanding Microservice performance</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 47:43</div>
+			
+			
+              <div>Views: 161 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-robert-firek-shape-your-infrastructure-with-terraform"><img class="list-thumbnail" src="https://i.ytimg.com/vi/io8lSN4fAqM/hqdefault.jpg" alt="Devoxx Poland 2016 - Robert Firek - Shape your infrastructure with Terraform" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-robert-firek-shape-your-infrastructure-with-terraform">Devoxx Poland 2016 - Robert Firek - Shape your infrastructure with Terraform</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 32:38</div>
+			
+			
+              <div>Views: 178 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-sebastian-malaca-code-review-how-to-do-it-better"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iRu1m7kp2C8/hqdefault.jpg" alt="Devoxx Poland 2016 - Sebastian Malaca - Code Review - how to do it better?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-sebastian-malaca-code-review-how-to-do-it-better">Devoxx Poland 2016 - Sebastian Malaca - Code Review - how to do it better?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 22:11</div>
+			
+			
+              <div>Views: 196 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-sebastien-arbogast-lean-startup-for-developers-conference"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8kJ5eltr4fY/hqdefault.jpg" alt="Devoxx Poland 2016 - Sebastien Arbogast - Lean Startup for Developers Conference" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-sebastien-arbogast-lean-startup-for-developers-conference">Devoxx Poland 2016 - Sebastien Arbogast - Lean Startup for Developers Conference</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 52:55</div>
+			
+			
+              <div>Views: 55 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-simon-ritter-faster-java-by-adding-structs-sort-of"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TE9yDsjNCOI/hqdefault.jpg" alt="Devoxx Poland 2016 - Simon Ritter - Faster Java By Adding Structs (Sort Of)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-simon-ritter-faster-java-by-adding-structs-sort-of">Devoxx Poland 2016 - Simon Ritter - Faster Java By Adding Structs (Sort Of)</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 49:58</div>
+			
+			
+              <div>Views: 244 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-simon-ritter-project-jigsaw-in-jdk-9-modularity-comes-to-java"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PY0jZyBmOr4/hqdefault.jpg" alt="Devoxx Poland 2016 - Simon Ritter - Project Jigsaw in JDK 9: Modularity Comes To Java" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-simon-ritter-project-jigsaw-in-jdk-9-modularity-comes-to-java">Devoxx Poland 2016 - Simon Ritter - Project Jigsaw in JDK 9: Modularity Comes To Java</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 49:41</div>
+			
+			
+              <div>Views: 1203 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-slawek-sobotka-prezentacje-i-wystapienia-jak-nie-tylko-przetrwac-ale"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pYA5lu0W9_U/hqdefault.jpg" alt="Devoxx Poland 2016 - Sławek Sobótka - Prezentacje i wystąpienia - jak nie tylko przetrwać ale..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-slawek-sobotka-prezentacje-i-wystapienia-jak-nie-tylko-przetrwac-ale">Devoxx Poland 2016 - Sławek Sobótka - Prezentacje i wystąpienia - jak nie tylko przetrwać ale...</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 51:55</div>
+			
+			
+              <div>Views: 1525 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-steve-smith-tracking-huge-files-with-git-lfs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/27FjXNTOiZ4/hqdefault.jpg" alt="Devoxx Poland 2016 - Steve Smith - Tracking huge files with Git LFS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-steve-smith-tracking-huge-files-with-git-lfs">Devoxx Poland 2016 - Steve Smith - Tracking huge files with Git LFS</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 46:36</div>
+			
+			
+              <div>Views: 111 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-summary"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Y0vQe99RCQM/hqdefault.jpg" alt="Devoxx Poland 2016 - Summary" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-summary">Devoxx Poland 2016 - Summary</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 04:01</div>
+			
+			
+              <div>Views: 303 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-sven-ruppert-practical-proxy-deep-dive"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JFcK88ME4YM/hqdefault.jpg" alt="Devoxx Poland 2016 - Sven Ruppert - Practical Proxy Deep Dive" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-sven-ruppert-practical-proxy-deep-dive">Devoxx Poland 2016 - Sven Ruppert - Practical Proxy Deep Dive</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 54:39</div>
+			
+			
+              <div>Views: 92 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-svetlana-isakova-you-can-do-better-with-kotlin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YwG4mCNIx2s/hqdefault.jpg" alt="Devoxx Poland 2016 - Svetlana Isakova - You can do better with Kotlin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-svetlana-isakova-you-can-do-better-with-kotlin">Devoxx Poland 2016 - Svetlana Isakova - You can do better with Kotlin</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 58:06</div>
+			
+			
+              <div>Views: 453 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-szczepan-faber-scaling-engineering-at-linkedin-california"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DUGndqHf13c/hqdefault.jpg" alt="Devoxx Poland 2016 - Szczepan Faber - Scaling engineering at LinkedIn California" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-szczepan-faber-scaling-engineering-at-linkedin-california">Devoxx Poland 2016 - Szczepan Faber - Scaling engineering at LinkedIn California</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 50:00</div>
+			
+			
+              <div>Views: 503 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-ted-neward-pragmatic-architecture"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jNgZtM6SQmE/hqdefault.jpg" alt="Devoxx Poland 2016 - Ted Neward - Pragmatic Architecture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-ted-neward-pragmatic-architecture">Devoxx Poland 2016 - Ted Neward - Pragmatic Architecture</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 59:57</div>
+			
+			
+              <div>Views: 1434 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-ted-neward-why-functional-programming-matters"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7hOM5PPzMC8/hqdefault.jpg" alt="Devoxx Poland 2016 - Ted Neward - Why Functional Programming Matters" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-ted-neward-why-functional-programming-matters">Devoxx Poland 2016 - Ted Neward - Why Functional Programming Matters</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 50:28</div>
+			
+			
+              <div>Views: 517 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-tom-bujok-scale-your-application-out"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ipSDrZOrChA/hqdefault.jpg" alt="Devoxx Poland 2016 - Tom Bujok - Scale your application out!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-tom-bujok-scale-your-application-out">Devoxx Poland 2016 - Tom Bujok - Scale your application out!</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 46:11</div>
+			
+			
+              <div>Views: 202 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-tom-maule-now-tv-and-linear-streaming-the-unpredictable-scalability"><img class="list-thumbnail" src="https://i.ytimg.com/vi/E7PGQJCGOPg/hqdefault.jpg" alt="Devoxx Poland 2016 - Tom Maule - NOW TV and Linear Streaming: The unpredictable scalability..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-tom-maule-now-tv-and-linear-streaming-the-unpredictable-scalability">Devoxx Poland 2016 - Tom Maule - NOW TV and Linear Streaming: The unpredictable scalability...</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 36:02</div>
+			
+			
+              <div>Views: 210 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-vaughn-vernon-odds-ends"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EQ2MLSFI14M/hqdefault.jpg" alt="Devoxx Poland 2016 - Vaughn Vernon - oDDs & enDs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-vaughn-vernon-odds-ends">Devoxx Poland 2016 - Vaughn Vernon - oDDs & enDs</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 47:17</div>
+			
+			
+              <div>Views: 647 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-vaughn-vernon-reactive-microservices-with-ddd-and-actors"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NVsSHY3vrFI/hqdefault.jpg" alt="Devoxx Poland 2016 - Vaughn Vernon - Reactive Microservices with DDD and Actors" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-vaughn-vernon-reactive-microservices-with-ddd-and-actors">Devoxx Poland 2016 - Vaughn Vernon - Reactive Microservices with DDD and Actors</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 48:21</div>
+			
+			
+              <div>Views: 555 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-wojciech-seliga-ten-lessons-i-painfully-learnt-while-moving-from-software"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ffXpiFEq1jE/hqdefault.jpg" alt="Devoxx Poland 2016 - Wojciech Seliga - Ten lessons I painfully learnt while moving from software ..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-wojciech-seliga-ten-lessons-i-painfully-learnt-while-moving-from-software">Devoxx Poland 2016 - Wojciech Seliga - Ten lessons I painfully learnt while moving from software ...</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 54:30</div>
+			
+			
+              <div>Views: 2132 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-wolf-schlegel-coding-a-better-world"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MKbuSnhdn0U/hqdefault.jpg" alt="Devoxx Poland 2016 - Wolf Schlegel - Coding a better world" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-wolf-schlegel-coding-a-better-world">Devoxx Poland 2016 - Wolf Schlegel - Coding a better world</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 52:28</div>
+			
+			
+              <div>Views: 97 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-wolf-schlegel-highway-to-heaven-building-microservices-in-the-cloud"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MwKSNcshcrM/hqdefault.jpg" alt="Devoxx Poland 2016 - Wolf Schlegel - Highway to heaven - Building microservices in the cloud" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-wolf-schlegel-highway-to-heaven-building-microservices-in-the-cloud">Devoxx Poland 2016 - Wolf Schlegel - Highway to heaven - Building microservices in the cloud</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 57:37</div>
+			
+			
+              <div>Views: 137 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-yann-cebron-stephane-nicoll-40-tips-tricks-for-spring-in-intellij-idea"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4LDkSdB4Stk/hqdefault.jpg" alt="Devoxx Poland 2016 - Yann Cébron, Stéphane Nicoll - 40 Tips & Tricks for Spring in IntelliJ IDEA" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-yann-cebron-stephane-nicoll-40-tips-tricks-for-spring-in-intellij-idea">Devoxx Poland 2016 - Yann Cébron, Stéphane Nicoll - 40 Tips & Tricks for Spring in IntelliJ IDEA</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 49:27</div>
+			
+			
+              <div>Views: 238 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-yuriy-chulovskyy-why-i-use-groovy-and-why-i-dont-like-it"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iJavq-nKT04/hqdefault.jpg" alt="Devoxx Poland 2016 - Yuriy Chulovskyy - Why I use Groovy and why I don't like it" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-yuriy-chulovskyy-why-i-use-groovy-and-why-i-dont-like-it">Devoxx Poland 2016 - Yuriy Chulovskyy - Why I use Groovy and why I don't like it</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 51:51</div>
+			
+			
+              <div>Views: 235 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/devoxx-poland-2016-yves-hwang-enterprise-it-is-dead-long-live-enterprise-it"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eK5EOkDxALI/hqdefault.jpg" alt="Devoxx Poland 2016 - Yves Hwang - ENTERPRISE I.T. IS DEAD, LONG LIVE ENTERPRISE I.T.!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/devoxx-poland-2016-yves-hwang-enterprise-it-is-dead-long-live-enterprise-it">Devoxx Poland 2016 - Yves Hwang - ENTERPRISE I.T. IS DEAD, LONG LIVE ENTERPRISE I.T.!</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 39:22</div>
+			
+			
+              <div>Views: 233 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/how-will-immutable-infrastructure-change-our-way-of-working"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8P_C9qKuDpQ/hqdefault.jpg" alt="How will Immutable Infrastructure change our way of working?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/how-will-immutable-infrastructure-change-our-way-of-working">How will Immutable Infrastructure change our way of working?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 05:11</div>
+			
+			
+              <div>Views: 65 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/project-sherlock"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MCepcDn1Yks/hqdefault.jpg" alt="Project Sherlock" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/project-sherlock">Project Sherlock</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 08:59</div>
+			
+			
+              <div>Views: 52 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/selling-dreams-the-future-of-java"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qWa5QqeZwfY/hqdefault.jpg" alt="Selling Dreams - the Future of Java" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/selling-dreams-the-future-of-java">Selling Dreams - the Future of Java</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 05:23</div>
+			
+			
+              <div>Views: 216 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/understand-and-analyse-your-data-consistency"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VLm3RAQcPVY/hqdefault.jpg" alt="Understand and Analyse Your Data Consistency" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/understand-and-analyse-your-data-consistency">Understand and Analyse Your Data Consistency</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 07:28</div>
+			
+			
+              <div>Views: 56 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/use-your-dev-skills-for-good-and-help-improve-the-world"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dm5aC3Fc6M8/hqdefault.jpg" alt="Use Your Dev Skills for Good and Help Improve the World" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/use-your-dev-skills-for-good-and-help-improve-the-world">Use Your Dev Skills for Good and Help Improve the World</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 03:49</div>
+			
+			
+              <div>Views: 47 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-poland-2016/whats-new-and-happening-at-devoxx-poland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VafA-J0oH7o/hqdefault.jpg" alt="What's New and Happening at Devoxx Poland?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-poland-2016/whats-new-and-happening-at-devoxx-poland">What's New and Happening at Devoxx Poland?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-22</div>
+			
+			  <div>Length: 08:02</div>
+			
+			
+              <div>Views: 29 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-poland-2016">Devoxx Poland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLH21tc7N2sw3b70g4GtUQ3-nXBt4aWaL_">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

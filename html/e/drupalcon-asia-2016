@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>DrupalCon Asia 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>DrupalCon Asia 2016</h1>
+
+<div><a href="https://events.drupal.org/asia2016">DrupalCon Asia 2016</a></div>
+
+
+<div>Start date: 2016-02-18</div>
+<div>End date: 2016-02-21</div>
+
+<div>Location:
+  Mumbai
+  Maharashtra
+  <a href="/l/india">India</a>
+</div>
+
+<div><a href="https://events.drupal.org/asia2016/code-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/drupal">Drupal</a> 
+   
+       <a href="/t/php">PHP</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/DrupalConAsia">@DrupalConAsia</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/DrupalCon">https://www.facebook.com/DrupalCon</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=DrupalCon%20Asia%202016%20on%202016-02-18%20in%20Mumbai%2C%20Maharashtra%20India%20%40DrupalConAsia%20https%3A//events.drupal.org/asia2016%20%23Drupal%20%23PHP%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-a-brand-new-website"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ci7eLrpvvxQ/hqdefault.jpg" alt="DrupalCon Asia 2016: A brand new website" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-a-brand-new-website">DrupalCon Asia 2016: A brand new website</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 52:55</div>
+			
+			
+              <div>Views: 91 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-always-under-construction"><img class="list-thumbnail" src="https://i.ytimg.com/vi/K7GNXLhoBMQ/hqdefault.jpg" alt="DrupalCon Asia 2016: Always Under Construction" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-always-under-construction">DrupalCon Asia 2016: Always Under Construction</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 56:08</div>
+			
+			
+              <div>Views: 31 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-art-of-debugging"><img class="list-thumbnail" src="https://i.ytimg.com/vi/s-7_9YtDsDs/hqdefault.jpg" alt="DrupalCon Asia 2016: Art of debugging" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-art-of-debugging">DrupalCon Asia 2016: Art of debugging</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 01:08:15</div>
+			
+			
+              <div>Views: 63 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-automated-mobile-testing-using-aapium"><img class="list-thumbnail" src="https://i.ytimg.com/vi/x5XIrHoXAD4/hqdefault.jpg" alt="DrupalCon Asia 2016: Automated Mobile Testing using AAPIUM" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-automated-mobile-testing-using-aapium">DrupalCon Asia 2016: Automated Mobile Testing using AAPIUM</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 01:01:14</div>
+			
+			
+              <div>Views: 66 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-automation-testing-and-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/itxThk1rUO0/hqdefault.jpg" alt="DrupalCon Asia 2016: Automation Testing and Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-automation-testing-and-drupal-8">DrupalCon Asia 2016: Automation Testing and Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 01:02:47</div>
+			
+			
+              <div>Views: 186 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-bangalore-community"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JTk29OPrFEI/hqdefault.jpg" alt="DrupalCon Asia 2016: Bangalore community" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-bangalore-community">DrupalCon Asia 2016: Bangalore community</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 18:59</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-build-mobile-applications-with-headliess-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/glFOsNsNILA/hqdefault.jpg" alt="DrupalCon Asia 2016: BUILD MOBILE APPLICATIONS WITH HEADLIESS DRUPAL 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-build-mobile-applications-with-headliess-drupal-8">DrupalCon Asia 2016: BUILD MOBILE APPLICATIONS WITH HEADLIESS DRUPAL 8</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 01:03:23</div>
+			
+			
+              <div>Views: 108 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-building-layouts-from-07-to-08"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wKCk-EoZfKc/hqdefault.jpg" alt="DrupalCon Asia 2016: BUILDING LAYOUTS FROM 07 TO 08" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-building-layouts-from-07-to-08">DrupalCon Asia 2016: BUILDING LAYOUTS FROM 07 TO 08</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 01:01:48</div>
+			
+			
+              <div>Views: 54 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-consumption-to-contribution"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o1Miba3lS-o/hqdefault.jpg" alt="DrupalCon Asia 2016: Consumption to Contribution" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-consumption-to-contribution">DrupalCon Asia 2016: Consumption to Contribution</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 52:53</div>
+			
+			
+              <div>Views: 29 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-contribution-emma"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pGsq-NZDJY8/hqdefault.jpg" alt="DrupalCon Asia 2016: Contribution Emma" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-contribution-emma">DrupalCon Asia 2016: Contribution Emma</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 56:59</div>
+			
+			
+              <div>Views: 73 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-d8-backbone-and-underscore"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9RsHkfNKBJA/hqdefault.jpg" alt="DrupalCon Asia 2016: D8 backbone and underscore" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-d8-backbone-and-underscore">DrupalCon Asia 2016: D8 backbone and underscore</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 37:46</div>
+			
+			
+              <div>Views: 59 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-decoupled-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gLuyVeK-Z70/hqdefault.jpg" alt="DrupalCon Asia 2016:  Decoupled Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-decoupled-drupal">DrupalCon Asia 2016:  Decoupled Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 53:44</div>
+			
+			
+              <div>Views: 69 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-delivering-the-mail"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zsUi_C_MP0Q/hqdefault.jpg" alt="DrupalCon Asia 2016: Delivering the mail" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-delivering-the-mail">DrupalCon Asia 2016: Delivering the mail</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 50:55</div>
+			
+			
+              <div>Views: 124 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-deploying-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QwOo4G8gSoE/hqdefault.jpg" alt="DrupalCon Asia 2016:  Deploying DRUPAL 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-deploying-drupal-8">DrupalCon Asia 2016:  Deploying DRUPAL 8</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 53:40</div>
+			
+			
+              <div>Views: 80 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-disentanglement-principles-conflict-at-a-distance"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bU1KEdFL_E4/hqdefault.jpg" alt="DrupalCon Asia 2016: Disentanglement principles, Conflict at a distance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-disentanglement-principles-conflict-at-a-distance">DrupalCon Asia 2016: Disentanglement principles, Conflict at a distance</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 56:07</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-drupal-8-lightning"><img class="list-thumbnail" src="https://i.ytimg.com/vi/a6qXET6jCmM/hqdefault.jpg" alt="DrupalCon Asia 2016: Drupal 8 lightning" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-drupal-8-lightning">DrupalCon Asia 2016: Drupal 8 lightning</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 37:39</div>
+			
+			
+              <div>Views: 156 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-drupal-8-theming-experience"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yrkXf5F3nDw/hqdefault.jpg" alt="DrupalCon Asia 2016: DRUPAL 8 THEMING EXPERIENCE" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-drupal-8-theming-experience">DrupalCon Asia 2016: DRUPAL 8 THEMING EXPERIENCE</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 53:12</div>
+			
+			
+              <div>Views: 112 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-drupal-and-isomorphic-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/T-yVKZPDBLI/hqdefault.jpg" alt="DrupalCon Asia 2016: DRUPAL AND ISOMORPHIC JAVASCRIPT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-drupal-and-isomorphic-javascript">DrupalCon Asia 2016: DRUPAL AND ISOMORPHIC JAVASCRIPT</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 38:41</div>
+			
+			
+              <div>Views: 77 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-drupal-perfect-document-management"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gl2ooULajwA/hqdefault.jpg" alt="DrupalCon Asia 2016: Drupal perfect document management" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-drupal-perfect-document-management">DrupalCon Asia 2016: Drupal perfect document management</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 50:59</div>
+			
+			
+              <div>Views: 131 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-everything-multilingual-in-d8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jOCUhkxIobU/hqdefault.jpg" alt="DrupalCon Asia 2016: Everything Multilingual in D8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-everything-multilingual-in-d8">DrupalCon Asia 2016: Everything Multilingual in D8</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 50:37</div>
+			
+			
+              <div>Views: 49 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-features-vs-cmi-the-battle-for-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/79cZOl76XLw/hqdefault.jpg" alt="DrupalCon Asia 2016: Features VS CMI - The battle for Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-features-vs-cmi-the-battle-for-drupal-8">DrupalCon Asia 2016: Features VS CMI - The battle for Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 55:06</div>
+			
+			
+              <div>Views: 99 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-flashmob"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xoJH3qZwsHc/hqdefault.jpg" alt="DrupalCon Asia 2016: Flashmob" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-flashmob">DrupalCon Asia 2016: Flashmob</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 05:20</div>
+			
+			
+              <div>Views: 1854 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-hooks-events-plugins-and-services"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2_FlH0D_ks8/hqdefault.jpg" alt="DrupalCon Asia 2016: Hooks events plugins and services" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-hooks-events-plugins-and-services">DrupalCon Asia 2016: Hooks events plugins and services</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 47:45</div>
+			
+			
+              <div>Views: 80 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-how-can-cmo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UFqQ3L4usPY/hqdefault.jpg" alt="DrupalCon Asia 2016: How can CMO" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-how-can-cmo">DrupalCon Asia 2016: How can CMO</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 29:49</div>
+			
+			
+              <div>Views: 36 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-how-to-publish-a-module"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JWLb--cb33E/hqdefault.jpg" alt="DrupalCon Asia 2016: How to publish a module" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-how-to-publish-a-module">DrupalCon Asia 2016: How to publish a module</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 50:26</div>
+			
+			
+              <div>Views: 122 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-innovation-policy-platform-a-case-study"><img class="list-thumbnail" src="https://i.ytimg.com/vi/La6WtvCn5JQ/hqdefault.jpg" alt="DrupalCon Asia 2016: Innovation policy platform, A case study" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-innovation-policy-platform-a-case-study">DrupalCon Asia 2016: Innovation policy platform, A case study</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 41:32</div>
+			
+			
+              <div>Views: 19 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-let-your-code-do-your-job"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VD5UwOs1ah8/hqdefault.jpg" alt="DrupalCon Asia 2016: Let your code do your job" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-let-your-code-do-your-job">DrupalCon Asia 2016: Let your code do your job</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 53:09</div>
+			
+			
+              <div>Views: 115 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-lets-get-ready-for-drupal-8-theme"><img class="list-thumbnail" src="https://i.ytimg.com/vi/g6S0kGUTYYE/hqdefault.jpg" alt="DrupalCon Asia 2016: Lets get ready for Drupal 8 theme" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-lets-get-ready-for-drupal-8-theme">DrupalCon Asia 2016: Lets get ready for Drupal 8 theme</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 40:02</div>
+			
+			
+              <div>Views: 114 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-meet-php-fig"><img class="list-thumbnail" src="https://i.ytimg.com/vi/j3Adq4vzsAk/hqdefault.jpg" alt="DrupalCon Asia 2016: Meet PHP Fig" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-meet-php-fig">DrupalCon Asia 2016: Meet PHP Fig</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 50:36</div>
+			
+			
+              <div>Views: 63 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-migrated-50-most-visited-into-decoupled"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UneRSUefX1I/hqdefault.jpg" alt="DrupalCon Asia 2016: Migrated 50 most visited into decoupled" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-migrated-50-most-visited-into-decoupled">DrupalCon Asia 2016: Migrated 50 most visited into decoupled</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 53:21</div>
+			
+			
+              <div>Views: 183 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-migration-to-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rKnSb8ymdUo/hqdefault.jpg" alt="DrupalCon Asia 2016: Migration to Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-migration-to-drupal-8">DrupalCon Asia 2016: Migration to Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 58:08</div>
+			
+			
+              <div>Views: 40 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-mobile-in-its-dna"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UdvvC_KyPxI/hqdefault.jpg" alt="DrupalCon Asia 2016: Mobile in its DNA" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-mobile-in-its-dna">DrupalCon Asia 2016: Mobile in its DNA</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 35:22</div>
+			
+			
+              <div>Views: 59 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-outsourcing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dq-FGstWnMw/hqdefault.jpg" alt="DrupalCon Asia 2016: Outsourcing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-outsourcing">DrupalCon Asia 2016: Outsourcing</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 43:46</div>
+			
+			
+              <div>Views: 32 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-php-pattern"><img class="list-thumbnail" src="https://i.ytimg.com/vi/L1FnidkMAVY/hqdefault.jpg" alt="DrupalCon Asia 2016: PHP Pattern" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-php-pattern">DrupalCon Asia 2016: PHP Pattern</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 41:12</div>
+			
+			
+              <div>Views: 57 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-scaling"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dWk7vEbc4gQ/hqdefault.jpg" alt="DrupalCon Asia 2016:  SCALING" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-scaling">DrupalCon Asia 2016:  SCALING</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 57:18</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-seamless-interoperability-of-web-and-mobility-using-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/740slJ-ARZ8/hqdefault.jpg" alt="DrupalCon Asia 2016: Seamless Interoperability of Web and Mobility using Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-seamless-interoperability-of-web-and-mobility-using-drupal">DrupalCon Asia 2016: Seamless Interoperability of Web and Mobility using Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 47:34</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-starting-a-drupal8-project"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uxutmCe-kuI/hqdefault.jpg" alt="DrupalCon Asia 2016: Starting a Drupal8 Project" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-starting-a-drupal8-project">DrupalCon Asia 2016: Starting a Drupal8 Project</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 46:52</div>
+			
+			
+              <div>Views: 85 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-state-of-contrib-module-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GAJl9FsvA8o/hqdefault.jpg" alt="DrupalCon Asia 2016: State of Contrib Module Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-state-of-contrib-module-drupal-8">DrupalCon Asia 2016: State of Contrib Module Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 40:16</div>
+			
+			
+              <div>Views: 57 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-sustainable-contribution-culture"><img class="list-thumbnail" src="https://i.ytimg.com/vi/x5b5c3zQV4Y/hqdefault.jpg" alt="DrupalCon Asia 2016: SUSTAINABLE CONTRIBUTION CULTURE" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-sustainable-contribution-culture">DrupalCon Asia 2016: SUSTAINABLE CONTRIBUTION CULTURE</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 58:05</div>
+			
+			
+              <div>Views: 28 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-sustenance"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xrQlqcceVtk/hqdefault.jpg" alt="DrupalCon Asia 2016: SUSTENANCE" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-sustenance">DrupalCon Asia 2016: SUSTENANCE</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 54:25</div>
+			
+			
+              <div>Views: 21 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-the-largest-drupal-8-sites"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fr_PuVT5lIY/hqdefault.jpg" alt="DrupalCon Asia 2016: The largest Drupal 8 sites" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-the-largest-drupal-8-sites">DrupalCon Asia 2016: The largest Drupal 8 sites</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 41:47</div>
+			
+			
+              <div>Views: 99 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-the-new-mobile-web-trinity-callahad"><img class="list-thumbnail" src="https://i.ytimg.com/vi/e9PypgTZ7tM/hqdefault.jpg" alt="DrupalCon Asia 2016: The New Mobile Web Trinity Callahad" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-the-new-mobile-web-trinity-callahad">DrupalCon Asia 2016: The New Mobile Web Trinity Callahad</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 51:33</div>
+			
+			
+              <div>Views: 24 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-theming-mortendk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Vdk-bGizuXQ/hqdefault.jpg" alt="DrupalCon Asia 2016: Theming Mortendk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-2016-theming-mortendk">DrupalCon Asia 2016: Theming Mortendk</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 47:50</div>
+			
+			
+              <div>Views: 74 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-asia-2016/drupalcon-asia-recap"><img class="list-thumbnail" src="https://i.ytimg.com/vi/POLl7zXLo7o/hqdefault.jpg" alt="DrupalCon Asia: Recap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-asia-2016/drupalcon-asia-recap">DrupalCon Asia: Recap</a></h4>
+          <footer>
+            <div class="recorded">2016-02-18</div>
+			
+			  <div>Length: 18:57</div>
+			
+			
+              <div>Views: 172 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-asia-2016">DrupalCon Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLpeDXSh4nHjQCIZmkxg3VSdpR5e87X5eB">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

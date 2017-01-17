@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Full Frontal - ffconf 2012</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Full Frontal - ffconf 2012</h1>
+
+<div><a href="https://2012.ffconf.org/">Full Frontal - ffconf 2012</a></div>
+
+
+<div>Start date: 2012-11-09</div>
+<div>End date: 2012-11-09</div>
+
+<div>Location:
+  Brighton
+  England
+  <a href="/l/uk">UK</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/ffconf">@ffconf</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Full%20Frontal%20-%20ffconf%202012%20on%202012-11-09%20in%20Brighton%2C%20England%20UK%20%40ffconf%20https%3A//2012.ffconf.org/%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2012/1-all-you-need-is-angle-bracketbodyangle-bracket"><img class="list-thumbnail" src="https://i.ytimg.com/vi/32wer_j5soQ/hqdefault.jpg" alt="All you need is (angle bracket)body/(angle bracket)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2012/1-all-you-need-is-angle-bracketbodyangle-bracket">All you need is (angle bracket)body/(angle bracket)</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 37:56</div>
+			
+			
+              <div>Views: 3977 Likes: 52</div>
+            
+            <div class="event">From <a href="/e/ffconf-2012">Full Frontal - ffconf 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-pearce">James Pearce</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2012/2-is-html-relevent-in-the-era-of-web-apps"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KTqIGKmCqd0/hqdefault.jpg" alt="Is HTML relevent in the era of web apps?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2012/2-is-html-relevent-in-the-era-of-web-apps">Is HTML relevent in the era of web apps?</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 40:38</div>
+			
+			
+              <div>Views: 2958 Likes: 30</div>
+            
+            <div class="event">From <a href="/e/ffconf-2012">Full Frontal - ffconf 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-allsopp">John Allsop</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2012/3-offline-rules"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RrGo1Sz4IgQ/hqdefault.jpg" alt="Offline Rules" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2012/3-offline-rules">Offline Rules</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 31:01</div>
+			
+			
+              <div>Views: 1659 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/ffconf-2012">Full Frontal - ffconf 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-betts">Andrew Betts</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2012/4-exploring-the-game-console-browser-landscape"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lGWyXVyCZhs/hqdefault.jpg" alt="Exploring the game console browser landscape" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2012/4-exploring-the-game-console-browser-landscape">Exploring the game console browser landscape</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 36:07</div>
+			
+			
+              <div>Views: 2913 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/ffconf-2012">Full Frontal - ffconf 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anna-debenham">Anna Debenham</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2012/5-building-web-apps-of-the-future-tomorrow-today-and-yesterday"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O3AukCYymEU/hqdefault.jpg" alt="Building Web Apps of the future. Tomorrow, today and yesterday." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2012/5-building-web-apps-of-the-future-tomorrow-today-and-yesterday">Building Web Apps of the future. Tomorrow, today and yesterday.</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 41:30</div>
+			
+			
+              <div>Views: 1771 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/ffconf-2012">Full Frontal - ffconf 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-kinlan">Paul Kinlan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2012/6-writing-testable-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OzjogCFO4Zo/hqdefault.jpg" alt="Writing Testable JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2012/6-writing-testable-javascript">Writing Testable JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 40:12</div>
+			
+			
+              <div>Views: 28035 Likes: 267</div>
+            
+            <div class="event">From <a href="/e/ffconf-2012">Full Frontal - ffconf 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rebecca-murphey">Rebecca Murphey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2012/7-making-things-with-maths"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ONN3jBly364/hqdefault.jpg" alt="Making things with Maths" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2012/7-making-things-with-maths">Making things with Maths</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 40:33</div>
+			
+			
+              <div>Views: 32031 Likes: 675</div>
+            
+            <div class="event">From <a href="/e/ffconf-2012">Full Frontal - ffconf 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steven-wittens">Steven Wittens</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2012/8-tales-of-suckage-and-awesomeness"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XiFJWL83KaA/hqdefault.jpg" alt="Tales of Suckage and Awesomeness" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2012/8-tales-of-suckage-and-awesomeness">Tales of Suckage and Awesomeness</a></h4>
+          <footer>
+            <div class="recorded">2012-11-09</div>
+			
+			  <div>Length: 43:27</div>
+			
+			
+              <div>Views: 798 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/ffconf-2012">Full Frontal - ffconf 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-wilson">Chris Wilson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLXmT1r4krsTrXThZIxcnzogf_YLOHRUZv">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

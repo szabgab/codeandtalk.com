@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Container Camp USA 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Container Camp USA 2016</h1>
+
+<div><a href="https://container.camp/usa/2016">Container Camp USA 2016</a></div>
+
+
+<div>Start date: 2016-04-15</div>
+<div>End date: 2016-04-15</div>
+
+<div>Location:
+  San Francisco
+  California
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="https://container.camp/code-of-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/containercamp">@containercamp</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Container%20Camp%20USA%202016%20on%202016-04-15%20in%20San%20Francisco%2C%20California%20USA%20%40containercamp%20https%3A//container.camp/usa/2016%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/container-camp-usa-2016/an-introduction-to-container-security-thomas-cameron"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cjebRvyg30I/hqdefault.jpg" alt="An introduction to container security" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-usa-2016/an-introduction-to-container-security-thomas-cameron">An introduction to container security</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 24:26</div>
+			
+			
+              <div>Views: 321 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/container-camp-usa-2016">Container Camp USA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-cameron">Thomas Cameron</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-usa-2016/application-sandboxes-vs-containers-jessie-frazelle"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mfnhSX6SJVA/hqdefault.jpg" alt="Application Sandboxes vs. Containers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-usa-2016/application-sandboxes-vs-containers-jessie-frazelle">Application Sandboxes vs. Containers</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 22:47</div>
+			
+			
+              <div>Views: 1320 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/container-camp-usa-2016">Container Camp USA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jessie-frazelle">Jessie Frazelle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-usa-2016/clarity-about-container-orchestration-for-a-very-confused-market-alex-williams-the-new-stack"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WK7Pt4cSZII/hqdefault.jpg" alt="Clarity About Container Orchestration for a Very Confused Market" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-usa-2016/clarity-about-container-orchestration-for-a-very-confused-market-alex-williams-the-new-stack">Clarity About Container Orchestration for a Very Confused Market</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 23:32</div>
+			
+			
+              <div>Views: 251 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/container-camp-usa-2016">Container Camp USA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-williams">Alex Williams</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-usa-2016/container-standards-and-interfaces-an-update-brandon-philips"><img class="list-thumbnail" src="https://i.ytimg.com/vi/08JtddVhrAc/hqdefault.jpg" alt="Container Standards and Interfaces: An Update" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-usa-2016/container-standards-and-interfaces-an-update-brandon-philips">Container Standards and Interfaces: An Update</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 22:11</div>
+			
+			
+              <div>Views: 267 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/container-camp-usa-2016">Container Camp USA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brandon-philips">Brandon Philips</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-usa-2016/containing-databases-jonathan-rudenberg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v7eFueaD6yg/hqdefault.jpg" alt="Containing Databases" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-usa-2016/containing-databases-jonathan-rudenberg">Containing Databases</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 18:55</div>
+			
+			
+              <div>Views: 332 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/container-camp-usa-2016">Container Camp USA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jonathan-rudenberg">Jonathan Rudenberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-usa-2016/everything-we-need-to-know-about-devops-we-learned-from-sci-fi-movies-casey-bisson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Dt_z4wNcVW4/hqdefault.jpg" alt="Everything we need to know about devops we learned from sci-fi movies" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-usa-2016/everything-we-need-to-know-about-devops-we-learned-from-sci-fi-movies-casey-bisson">Everything we need to know about devops we learned from sci-fi movies</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 26:43</div>
+			
+			
+              <div>Views: 373 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/container-camp-usa-2016">Container Camp USA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/casey-bisson">Casey Bisson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-usa-2016/kubernetes-paas-bringing-containers-to-production-jason-hansen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tl23uTVe8Ck/hqdefault.jpg" alt="Kubernetes + PaaS: Bringing Containers to Production" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-usa-2016/kubernetes-paas-bringing-containers-to-production-jason-hansen">Kubernetes + PaaS: Bringing Containers to Production</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 19:46</div>
+			
+			
+              <div>Views: 438 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/container-camp-usa-2016">Container Camp USA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-hansen">Jason Hansen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-usa-2016/reproducible-data-science-with-docker-containers-ben-hamner"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cYavmPa3aFQ/hqdefault.jpg" alt="Reproducible Data Science with Docker Containers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-usa-2016/reproducible-data-science-with-docker-containers-ben-hamner">Reproducible Data Science with Docker Containers</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 23:26</div>
+			
+			
+              <div>Views: 818 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/container-camp-usa-2016">Container Camp USA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-hamner">Ben Hamner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-usa-2016/security-is-pretty-security-is-good-but-it-should-never-be-pretty-good-cynthia-thomas"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tOBHglqjFhw/hqdefault.jpg" alt="Security is pretty. Security is good. But it should never be pretty good." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-usa-2016/security-is-pretty-security-is-good-but-it-should-never-be-pretty-good-cynthia-thomas">Security is pretty. Security is good. But it should never be pretty good.</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 27:47</div>
+			
+			
+              <div>Views: 178 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/container-camp-usa-2016">Container Camp USA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cynthia-thomas">Cynthia Thomas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-usa-2016/unikernels-practical-advice-for-juggling-chainsaws-john-feminella"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rV6FZZY2jUM/hqdefault.jpg" alt="Unikernels: Practical Advice for Juggling Chainsaws" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-usa-2016/unikernels-practical-advice-for-juggling-chainsaws-john-feminella">Unikernels: Practical Advice for Juggling Chainsaws</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 27:21</div>
+			
+			
+              <div>Views: 242 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/container-camp-usa-2016">Container Camp USA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-feminella">John Feminella</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-usa-2016/whats-new-in-docker-mano-marks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xzdjc_aUDXI/hqdefault.jpg" alt="What's new in Docker?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-usa-2016/whats-new-in-docker-mano-marks">What's new in Docker?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 16:16</div>
+			
+			
+              <div>Views: 840 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/container-camp-usa-2016">Container Camp USA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mano-marks">Mano Marks</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-usa-2016/whats-new-in-kubernetes-tim-hockin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/k6vCEc86ihI/hqdefault.jpg" alt="What's new in Kubernetes?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-usa-2016/whats-new-in-kubernetes-tim-hockin">What's new in Kubernetes?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 26:29</div>
+			
+			
+            <div class="event">From <a href="/e/container-camp-usa-2016">Container Camp USA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-hockin">Tim Hockin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/container-camp-usa-2016/yunong-xiao-slaying-monoliths-with-docker-and-nodejs-a-netflix-original"><img class="list-thumbnail" src="https://i.ytimg.com/vi/B90OabhYJpA/hqdefault.jpg" alt="Slaying Monoliths with Docker and Node.js, a Netflix Original" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/container-camp-usa-2016/yunong-xiao-slaying-monoliths-with-docker-and-nodejs-a-netflix-original">Slaying Monoliths with Docker and Node.js, a Netflix Original</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 22:46</div>
+			
+			
+              <div>Views: 3533 Likes: 46</div>
+            
+            <div class="event">From <a href="/e/container-camp-usa-2016">Container Camp USA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yunong-xiao">Yunong J Xiao</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLcHZXHMeDzxWplPGtoF5DxhiswgQL2TDA">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

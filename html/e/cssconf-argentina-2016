@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>CSSConf Argentina 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>CSSConf Argentina 2016</h1>
+
+<div><a href="http://cssconfar.com/">CSSConf Argentina 2016</a></div>
+
+
+<div>Start date: 2016-08-07</div>
+<div>End date: 2016-08-07</div>
+
+<div>Location:
+  Buenos Aires
+  
+  <a href="/l/argentina">Argentina</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: Spanish, English</div>
+<div>Topics:
+   
+       <a href="/t/css">CSS</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/Css_Conf_AR">@Css_Conf_AR</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=CSSConf%20Argentina%202016%20on%202016-08-07%20in%20Buenos%20Aires%2C%20%20Argentina%20%40Css_Conf_AR%20http%3A//cssconfar.com/%20%23CSS%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/cssconf-argentina-2016/alice-in-web-animations-api-land-rachel-nabors"><img class="list-thumbnail" src="https://i.ytimg.com/vi/q6F-2t4mv6U/hqdefault.jpg" alt="Alice in Web Animations API Land" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-argentina-2016/alice-in-web-animations-api-land-rachel-nabors">Alice in Web Animations API Land</a></h4>
+          <footer>
+            <div class="recorded">2016-08-07</div>
+			
+			  <div>Length: 39:53</div>
+			
+			
+              <div>Views: 343 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-argentina-2016">CSSConf Argentina 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rachel-nabors">Rachel Nabors</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-argentina-2016/building-and-maintaining-messengercom-horia-dragomir"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eWIwQFqjVxU/hqdefault.jpg" alt="Building and maintaining messenger.com" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-argentina-2016/building-and-maintaining-messengercom-horia-dragomir">Building and maintaining messenger.com</a></h4>
+          <footer>
+            <div class="recorded">2016-08-07</div>
+			
+			  <div>Length: 24:20</div>
+			
+			
+              <div>Views: 495 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-argentina-2016">CSSConf Argentina 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/horia-dragomir">Horia Dragomir</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-argentina-2016/css-grids-or-how-i-learned-to-stop-worrying-and-love-the-new-spec-ariel-wiznia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rOB6fVQVvsw/hqdefault.jpg" alt="CSS Grids or: How I learned to Stop Worrying and love the new spec" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-argentina-2016/css-grids-or-how-i-learned-to-stop-worrying-and-love-the-new-spec-ariel-wiznia">CSS Grids or: How I learned to Stop Worrying and love the new spec</a></h4>
+          <footer>
+            <div class="recorded">2016-08-07</div>
+			
+			  <div>Length: 34:03</div>
+			
+			
+              <div>Views: 545 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-argentina-2016">CSSConf Argentina 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ariel-wiznia">Ariel Wiznia</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-argentina-2016/cssconf-argentina-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n1ibVVoMpEM/hqdefault.jpg" alt="CSSconf Argentina 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-argentina-2016/cssconf-argentina-2016">CSSconf Argentina 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-08-07</div>
+			
+			  <div>Length: 02:37</div>
+			
+			
+              <div>Views: 1556 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/cssconf-argentina-2016">CSSConf Argentina 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-argentina-2016/game-dev-for-web-designers-werther-azevedo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tjnk1zjsWUY/hqdefault.jpg" alt="Game Dev for Web Designers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-argentina-2016/game-dev-for-web-designers-werther-azevedo">Game Dev for Web Designers</a></h4>
+          <footer>
+            <div class="recorded">2016-08-07</div>
+			
+			  <div>Length: 26:39</div>
+			
+			
+              <div>Views: 506 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-argentina-2016">CSSConf Argentina 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/werther-azevedo">Werther Azevedo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-argentina-2016/practical-blend-modes-una-kravets"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4opL0dLJMGA/hqdefault.jpg" alt="Practical Blend Modes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-argentina-2016/practical-blend-modes-una-kravets">Practical Blend Modes</a></h4>
+          <footer>
+            <div class="recorded">2016-08-07</div>
+			
+			  <div>Length: 29:22</div>
+			
+			
+              <div>Views: 230 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-argentina-2016">CSSConf Argentina 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/una-kravets">Una Kravets</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-argentina-2016/refactoring-css-without-losing-your-mind-harry-roberts"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kbGYPm9uYfk/hqdefault.jpg" alt="Refactoring CSS Without Losing Your Mind" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-argentina-2016/refactoring-css-without-losing-your-mind-harry-roberts">Refactoring CSS Without Losing Your Mind</a></h4>
+          <footer>
+            <div class="recorded">2016-08-07</div>
+			
+			  <div>Length: 42:10</div>
+			
+			
+              <div>Views: 1045 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-argentina-2016">CSSConf Argentina 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/harry-roberts">Harry Roberts</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-argentina-2016/slippy-map-style-geo-canvas-design-with-cartocss-aurelia-moser"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NxxDE5EEItY/hqdefault.jpg" alt="Slippy Map Style: Geo-canvas design with CartoCSS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-argentina-2016/slippy-map-style-geo-canvas-design-with-cartocss-aurelia-moser">Slippy Map Style: Geo-canvas design with CartoCSS</a></h4>
+          <footer>
+            <div class="recorded">2016-08-07</div>
+			
+			  <div>Length: 36:35</div>
+			
+			
+              <div>Views: 246 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-argentina-2016">CSSConf Argentina 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aurelia-moser">Aurelia Moser</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-argentina-2016/speed-up-critical-css-to-the-rescue-spanish-ami-reynoso"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VLobYS2ILpg/hqdefault.jpg" alt="Speed up! Critical CSS to the rescue" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-argentina-2016/speed-up-critical-css-to-the-rescue-spanish-ami-reynoso">Speed up! Critical CSS to the rescue</a></h4>
+          <footer>
+            <div class="recorded">2016-08-07</div>
+			
+			  <div>Length: 27:07</div>
+			
+			
+              <div>Views: 395 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-argentina-2016">CSSConf Argentina 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ami-reynoso">Ami Reynoso</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cssconf-argentina-2016/what-not-to-do-in-css-spanish-sergio-behrends"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WRnf0n2FSz4/hqdefault.jpg" alt="What NOT to do in CSS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cssconf-argentina-2016/what-not-to-do-in-css-spanish-sergio-behrends">What NOT to do in CSS</a></h4>
+          <footer>
+            <div class="recorded">2016-08-07</div>
+			
+			  <div>Length: 18:19</div>
+			
+			
+              <div>Views: 557 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cssconf-argentina-2016">CSSConf Argentina 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sergio-behrends">Sergio Behrends</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshH43ChP2G5cBWoCniUj5LHa">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

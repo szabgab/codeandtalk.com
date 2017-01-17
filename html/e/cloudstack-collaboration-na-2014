@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>CloudStack Collaboration Conference North America 2014</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>CloudStack Collaboration Conference North America 2014</h1>
+
+<div><a href="http://events.linuxfoundation.org/events/cloudstack-collaboration-conference-north-america">CloudStack Collaboration Conference North America 2014</a></div>
+
+
+<div>Start date: 2014-04-09</div>
+<div>End date: 2014-04-11</div>
+
+<div>Location:
+  Denver
+  Colorado
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://events.linuxfoundation.org/event-code-of-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/cloudstack">CloudStack</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/cloudstack">@cloudstack</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/CloudStack">https://www.facebook.com/CloudStack</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=CloudStack%20Collaboration%20Conference%20North%20America%202014%20on%202014-04-09%20in%20Denver%2C%20Colorado%20USA%20%40cloudstack%20http%3A//events.linuxfoundation.org/events/cloudstack-collaboration-conference-north-america%20%23CloudStack%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/a-real-life-case-study-uri-cohen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P5oExhMx_2g/hqdefault.jpg" alt="A Real life Case Study - Uri Cohen" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/a-real-life-case-study-uri-cohen">A Real life Case Study - Uri Cohen</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 25:03</div>
+			
+			
+              <div>Views: 42 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/adding-a-feature-a-deep-dive-into-the-rocks-daan-hoogland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TavHzCOgZzQ/hqdefault.jpg" alt="Adding a Feature: A Deep Dive into the Rocks - Daan Hoogland" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/adding-a-feature-a-deep-dive-into-the-rocks-daan-hoogland">Adding a Feature: A Deep Dive into the Rocks - Daan Hoogland</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 26:45</div>
+			
+			
+              <div>Views: 46 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/adventures-with-asc-and-odl-schuberg-philis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MFo8gm15UMs/hqdefault.jpg" alt="Adventures with ASC and ODL - Schuberg Philis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/adventures-with-asc-and-odl-schuberg-philis">Adventures with ASC and ODL - Schuberg Philis</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 24:33</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/an-implementation-nguyen-anh-tu"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PC6FjpOfK3k/hqdefault.jpg" alt="An Implementation - Nguyen Anh Tu" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/an-implementation-nguyen-anh-tu">An Implementation - Nguyen Anh Tu</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 25:43</div>
+			
+			
+              <div>Views: 155 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/apache-stratos-incubating-samisa-abeysinghe"><img class="list-thumbnail" src="https://i.ytimg.com/vi/br1NE6i2st4/hqdefault.jpg" alt="Apache Stratos Incubating - Samisa Abeysinghe" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/apache-stratos-incubating-samisa-abeysinghe">Apache Stratos Incubating - Samisa Abeysinghe</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 22:31</div>
+			
+			
+              <div>Views: 157 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/automatic-workload-management-in-clusters-managed-by-cloudstack-rajesh-battala"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hJKdZcSpGNQ/hqdefault.jpg" alt="Automatic Workload Management in Clusters Managed by CloudStack - Rajesh Battala" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/automatic-workload-management-in-clusters-managed-by-cloudstack-rajesh-battala">Automatic Workload Management in Clusters Managed by CloudStack - Rajesh Battala</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 19:22</div>
+			
+			
+              <div>Views: 172 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/aws-and-gce-interface-sebastien-goasguen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rws9BrlM47A/hqdefault.jpg" alt="AWS and GCE Interface - Sebastien Goasguen" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/aws-and-gce-interface-sebastien-goasguen">AWS and GCE Interface - Sebastien Goasguen</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 27:04</div>
+			
+			
+              <div>Views: 67 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/begin-open-source-multi-cloud-mulri-tenant-automation-marc-elian"><img class="list-thumbnail" src="https://i.ytimg.com/vi/emEFardu76k/hqdefault.jpg" alt="Begin Open Source Multi Cloud Mulri Tenant Automation... - Marc Elian" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/begin-open-source-multi-cloud-mulri-tenant-automation-marc-elian">Begin Open Source Multi Cloud Mulri Tenant Automation... - Marc Elian</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 33:37</div>
+			
+			
+              <div>Views: 94 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/bringing-netapp-data-ontap-apache-cloudstack-together-david-la-motta"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EskCrahxJcM/hqdefault.jpg" alt="Bringing NetApp Data ONTAP & Apache Cloudstack Together - David La Motta" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/bringing-netapp-data-ontap-apache-cloudstack-together-david-la-motta">Bringing NetApp Data ONTAP & Apache Cloudstack Together - David La Motta</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 26:26</div>
+			
+			
+              <div>Views: 206 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/building-an-iaas-is-easier-than-you-think-with-cloudstack-kirk-jantzer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EVLrSFkcpC0/hqdefault.jpg" alt="Building an IaaS is easier than you think with CloudStack - Kirk Jantzer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/building-an-iaas-is-easier-than-you-think-with-cloudstack-kirk-jantzer">Building an IaaS is easier than you think with CloudStack - Kirk Jantzer</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 21:02</div>
+			
+			
+              <div>Views: 156 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/ceph-and-cloudstack-integrating-the-ceph-block-device-into-your-cloudstack-deployment-ian-colle"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IvhvH5Ktcn0/hqdefault.jpg" alt="Ceph and Cloudstack: Integrating the Ceph Block Device into your Cloudstack Deployment - Ian Colle" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/ceph-and-cloudstack-integrating-the-ceph-block-device-into-your-cloudstack-deployment-ian-colle">Ceph and Cloudstack: Integrating the Ceph Block Device into your Cloudstack Deployment - Ian Colle</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 23:19</div>
+			
+			
+              <div>Views: 348 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/chef-automation-for-the-cloud-part-1-michael-ducy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YfZe1JhoXQM/hqdefault.jpg" alt="Chef Automation for the Cloud, Part 1 - Michael Ducy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/chef-automation-for-the-cloud-part-1-michael-ducy">Chef Automation for the Cloud, Part 1 - Michael Ducy</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 49:59</div>
+			
+			
+              <div>Views: 1681 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/chef-automation-for-the-cloud-part-2-michael-ducy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QLu4w9VE1Zk/hqdefault.jpg" alt="Chef Automation for the Cloud, Part 2 - Michael Ducy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/chef-automation-for-the-cloud-part-2-michael-ducy">Chef Automation for the Cloud, Part 2 - Michael Ducy</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 01:07:37</div>
+			
+			
+              <div>Views: 368 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/chef-automation-for-the-cloud-part-3-michael-ducy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Hpo098u0yuI/hqdefault.jpg" alt="Chef Automation for the Cloud, Part 3 - Michael Ducy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/chef-automation-for-the-cloud-part-3-michael-ducy">Chef Automation for the Cloud, Part 3 - Michael Ducy</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 51:49</div>
+			
+			
+              <div>Views: 407 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/cloud-ui-building-a-cloudstack-web-interface-for-the-enterprise-bill-jones-david-grizzanti"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4hA8kGCRCOE/hqdefault.jpg" alt="Cloud UI: Building a CloudStack Web Interface for the Enterprise - Bill Jones, David Grizzanti" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/cloud-ui-building-a-cloudstack-web-interface-for-the-enterprise-bill-jones-david-grizzanti">Cloud UI: Building a CloudStack Web Interface for the Enterprise - Bill Jones, David Grizzanti</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 29:28</div>
+			
+			
+              <div>Views: 645 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/cloudstack-and-ansible-cloud-era-configuration-management-paul-angus"><img class="list-thumbnail" src="https://i.ytimg.com/vi/k8DqhM1uZaw/hqdefault.jpg" alt="CloudStack and Ansible - Cloud Era Configuration Management - Paul Angus" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/cloudstack-and-ansible-cloud-era-configuration-management-paul-angus">CloudStack and Ansible - Cloud Era Configuration Management - Paul Angus</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 32:16</div>
+			
+			
+              <div>Views: 160 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/cloudstack-and-heartbleed-john-kinsella"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4gzQg5mT_hk/hqdefault.jpg" alt="CloudStack and  HeartBleed - John Kinsella" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/cloudstack-and-heartbleed-john-kinsella">CloudStack and  HeartBleed - John Kinsella</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 02:06</div>
+			
+			
+              <div>Views: 36 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/cloudstack-clients-and-tools-sebastien-goasguen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/l1CeQmSMqdA/hqdefault.jpg" alt="CloudStack Clients and Tools - Sebastien Goasguen" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/cloudstack-clients-and-tools-sebastien-goasguen">CloudStack Clients and Tools - Sebastien Goasguen</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 03:18:51</div>
+			
+			
+              <div>Views: 96 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/cloudstack-development-from-kvm-in-a-virtual-machine-marcus-sorensen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QF4L3hJ0Ock/hqdefault.jpg" alt="CloudStack Development from KVM in a Virtual Machine - Marcus Sorensen" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/cloudstack-development-from-kvm-in-a-virtual-machine-marcus-sorensen">CloudStack Development from KVM in a Virtual Machine - Marcus Sorensen</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 01:23</div>
+			
+			
+              <div>Views: 134 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/cloudstack-identity-and-access-management-min-chen-prachi-damle"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iUThjMl2yl8/hqdefault.jpg" alt="CloudStack Identity and Access Management - Min Chen, Prachi Damle" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/cloudstack-identity-and-access-management-min-chen-prachi-damle">CloudStack Identity and Access Management - Min Chen, Prachi Damle</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 26:11</div>
+			
+			
+              <div>Views: 141 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/cloudstack-in-production-paul-angus"><img class="list-thumbnail" src="https://i.ytimg.com/vi/B0iEpUrl3Ks/hqdefault.jpg" alt="CloudStack in Production - Paul Angus" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/cloudstack-in-production-paul-angus">CloudStack in Production - Paul Angus</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 32:48</div>
+			
+			
+              <div>Views: 98 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/cloudstack-jenkins-set-up-schuberg-philis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RZNizQQYAJo/hqdefault.jpg" alt="CloudStack Jenkins Set-up - Schuberg Philis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/cloudstack-jenkins-set-up-schuberg-philis">CloudStack Jenkins Set-up - Schuberg Philis</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 28:28</div>
+			
+			
+              <div>Views: 77 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/cloudstack-metering-working-with-the-usage-data-tariq-iqbal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KogHrhTfUNc/hqdefault.jpg" alt="CloudStack Metering Working with the Usage Data - Tariq Iqbal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/cloudstack-metering-working-with-the-usage-data-tariq-iqbal">CloudStack Metering Working with the Usage Data - Tariq Iqbal</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 29:30</div>
+			
+			
+              <div>Views: 85 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/cloudstack-networking-paul-angus"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GF9dq0aSb_I/hqdefault.jpg" alt="CloudStack Networking - Paul Angus" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/cloudstack-networking-paul-angus">CloudStack Networking - Paul Angus</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 31:57</div>
+			
+			
+              <div>Views: 336 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/cloudstack-never-heard-of-it-giles-sirett"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kflRiFocdUs/hqdefault.jpg" alt="CloudStack, Never Heard of it! - Giles Sirett" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/cloudstack-never-heard-of-it-giles-sirett">CloudStack, Never Heard of it! - Giles Sirett</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 29:58</div>
+			
+			
+              <div>Views: 241 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/cloudstack-the-best-kept-secret-in-the-cloud-mark-hinkle"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IxIGElx_oIs/hqdefault.jpg" alt="CloudStack the Best Kept Secret in the Cloud - Mark Hinkle" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/cloudstack-the-best-kept-secret-in-the-cloud-mark-hinkle">CloudStack the Best Kept Secret in the Cloud - Mark Hinkle</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 28:30</div>
+			
+			
+              <div>Views: 68 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/decisions-behind-hypervisor-selection-in-cloudstack-43-tim-mackey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CcjpA2ilqKI/hqdefault.jpg" alt="Decisions Behind Hypervisor Selection in CloudStack 4.3 - Tim Mackey" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/decisions-behind-hypervisor-selection-in-cloudstack-43-tim-mackey">Decisions Behind Hypervisor Selection in CloudStack 4.3 - Tim Mackey</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 28:47</div>
+			
+			
+              <div>Views: 149 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/diving-into-salt-objectives-part-1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-_HbvBuxPTo/hqdefault.jpg" alt="Diving into Salt Objectives, Part  1" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/diving-into-salt-objectives-part-1">Diving into Salt Objectives, Part  1</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 02:17</div>
+			
+			
+              <div>Views: 33 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/diving-into-salt-objectives-part-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9dv_AE6rDr4/hqdefault.jpg" alt="Diving into Salt Objectives, Part 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/diving-into-salt-objectives-part-2">Diving into Salt Objectives, Part 2</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 02:19</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/diving-into-salt-objectives-part-3"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VG6e0gqUSGc/hqdefault.jpg" alt="Diving into Salt Objectives, Part 3" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/diving-into-salt-objectives-part-3">Diving into Salt Objectives, Part 3</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 01:41</div>
+			
+			
+              <div>Views: 20 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/does-your-infrastructure-zone-match-your-application-workload-aaron-delp"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tufLZODBuv0/hqdefault.jpg" alt="Does your Infrastructure Zone Match Your Application Workload - Aaron Delp" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/does-your-infrastructure-zone-match-your-application-workload-aaron-delp">Does your Infrastructure Zone Match Your Application Workload - Aaron Delp</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 30:45</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/dont-break-the-glass-in-case-of-emergency-john-kinsella"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yQ52JsYMX-0/hqdefault.jpg" alt="Don't break the glass! In case of emergency... - John Kinsella" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/dont-break-the-glass-in-case-of-emergency-john-kinsella">Don't break the glass! In case of emergency... - John Kinsella</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 30:24</div>
+			
+			
+              <div>Views: 48 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/enabling-netscaler-ssl-functionality-in-cloudstack-43-syed-amed"><img class="list-thumbnail" src="https://i.ytimg.com/vi/t6rLY4M1x7s/hqdefault.jpg" alt="Enabling NetScaler SSL functionality in CloudStack 4.3 - Syed Amed" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/enabling-netscaler-ssl-functionality-in-cloudstack-43-syed-amed">Enabling NetScaler SSL functionality in CloudStack 4.3 - Syed Amed</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 01:53</div>
+			
+			
+              <div>Views: 101 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/going-from-legacy-to-cloud-native-aaron-delp-kenneth-hui"><img class="list-thumbnail" src="https://i.ytimg.com/vi/a0m5cu0ICVI/hqdefault.jpg" alt="Going from Legacy to Cloud Native - Aaron Delp & Kenneth Hui" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/going-from-legacy-to-cloud-native-aaron-delp-kenneth-hui">Going from Legacy to Cloud Native - Aaron Delp & Kenneth Hui</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 27:15</div>
+			
+			
+              <div>Views: 71 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/integration-of-citrix-xendesktop-and-xenapp-with-cloudstack-paul-howard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pAd-GmY5N8c/hqdefault.jpg" alt="Integration of Citrix XenDesktop and XenApp with CloudStack - Paul Howard" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/integration-of-citrix-xendesktop-and-xenapp-with-cloudstack-paul-howard">Integration of Citrix XenDesktop and XenApp with CloudStack - Paul Howard</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 29:44</div>
+			
+			
+              <div>Views: 311 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/introduction-to-tosca-yaron-parasol"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EgzwaQi03l8/hqdefault.jpg" alt="Introduction to TOSCA - Yaron Parasol" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/introduction-to-tosca-yaron-parasol">Introduction to TOSCA - Yaron Parasol</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 33:32</div>
+			
+			
+              <div>Views: 302 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/its-the-app-stupid-uri-cohen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qImLp1bwqZQ/hqdefault.jpg" alt="It's the App, Stupid! - Uri Cohen" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/its-the-app-stupid-uri-cohen">It's the App, Stupid! - Uri Cohen</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 30:46</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/job-oriented-vm-state-syncronization-in-cloudstack-kelven-yang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0jA6hO2qs04/hqdefault.jpg" alt="Job Oriented VM State Syncronization in CloudStack - Kelven Yang" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/job-oriented-vm-state-syncronization-in-cloudstack-kelven-yang">Job Oriented VM State Syncronization in CloudStack - Kelven Yang</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 29:41</div>
+			
+			
+              <div>Views: 25 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/key-design-considerations-for-your-cloud-storage-mike-tutkowski"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6Z0pB5QtpYk/hqdefault.jpg" alt="Key Design Considerations for your Cloud Storage - Mike Tutkowski" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/key-design-considerations-for-your-cloud-storage-mike-tutkowski">Key Design Considerations for your Cloud Storage - Mike Tutkowski</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 33:45</div>
+			
+			
+              <div>Views: 312 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/make-your-first-cloudstack-cloud-successful-tim-mackey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Vf1rWPTE_qk/hqdefault.jpg" alt="Make Your First CloudStack Cloud Successful - Tim Mackey" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/make-your-first-cloudstack-cloud-successful-tim-mackey">Make Your First CloudStack Cloud Successful - Tim Mackey</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 27:10</div>
+			
+			
+              <div>Views: 183 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/making-the-move-from-iaas-to-iaas-chip-childers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lygKGU4lCGw/hqdefault.jpg" alt="Making the Move from Iaas to IaaS+ - Chip Childers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/making-the-move-from-iaas-to-iaas-chip-childers">Making the Move from Iaas to IaaS+ - Chip Childers</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 25:00</div>
+			
+			
+              <div>Views: 51 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/managing-apache-cloudstack-releases-animesh-chatuvedi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RE17jOpNsQ4/hqdefault.jpg" alt="Managing Apache CloudStack Releases - Animesh Chatuvedi" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/managing-apache-cloudstack-releases-animesh-chatuvedi">Managing Apache CloudStack Releases - Animesh Chatuvedi</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 47:21</div>
+			
+			
+              <div>Views: 85 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/moving-up-the-stack-with-stacktician-amogh-vasekar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jFQcuO-q6vg/hqdefault.jpg" alt="Moving up the stack with Stacktician - Amogh Vasekar" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/moving-up-the-stack-with-stacktician-amogh-vasekar">Moving up the stack with Stacktician - Amogh Vasekar</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 30:17</div>
+			
+			
+              <div>Views: 74 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/my-experience-writing-a-dr-service-for-cloudstack-alena-prokharchyk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2YEXC3WNL0s/hqdefault.jpg" alt="My Experience Writing a DR Service for CloudStack - Alena Prokharchyk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/my-experience-writing-a-dr-service-for-cloudstack-alena-prokharchyk">My Experience Writing a DR Service for CloudStack - Alena Prokharchyk</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 24:36</div>
+			
+			
+              <div>Views: 466 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/open-cloud-networking-with-opencontrol-and-cloudstack-milan-markovic"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mwgm8AVDKzo/hqdefault.jpg" alt="Open Cloud Networking with OPENCONTROL and CloudStack - Milan Markovic" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/open-cloud-networking-with-opencontrol-and-cloudstack-milan-markovic">Open Cloud Networking with OPENCONTROL and CloudStack - Milan Markovic</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 30:28</div>
+			
+			
+              <div>Views: 101 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/paas-vs-iaas-does-it-matter-reuven-cohen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7aC4P7ovY08/hqdefault.jpg" alt="PaaS vS Iaas  Does it Matter - Reuven Cohen" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/paas-vs-iaas-does-it-matter-reuven-cohen">PaaS vS Iaas  Does it Matter - Reuven Cohen</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 31:39</div>
+			
+			
+              <div>Views: 77 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/passing-of-the-torch-with-the-outgoing-and-incoming-apache-cloudstack-vps-childers-and-trippers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qf1f5MLmin0/hqdefault.jpg" alt="Passing of the Torch with the Outgoing and Incoming Apache CloudStack VPs - Childers and Trippers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/passing-of-the-torch-with-the-outgoing-and-incoming-apache-cloudstack-vps-childers-and-trippers">Passing of the Torch with the Outgoing and Incoming Apache CloudStack VPs - Childers and Trippers</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 15:50</div>
+			
+			
+              <div>Views: 98 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/stackwatch-a-prototype-cloudwatch-service-for-cloudstack-chiradeep-vittal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/j2KMko8_Dao/hqdefault.jpg" alt="StackWatch: A Prototype CloudWatch Service for CloudStack - Chiradeep Vittal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/stackwatch-a-prototype-cloudwatch-service-for-cloudstack-chiradeep-vittal">StackWatch: A Prototype CloudWatch Service for CloudStack - Chiradeep Vittal</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 26:31</div>
+			
+			
+              <div>Views: 160 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/start-using-configuration-management-in-5-steps-remi-bergsma"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xOIZE-2_Cq8/hqdefault.jpg" alt="Start using configuration management in 5 steps - Remi Bergsma" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/start-using-configuration-management-in-5-steps-remi-bergsma">Start using configuration management in 5 steps - Remi Bergsma</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 26:32</div>
+			
+			
+              <div>Views: 269 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/state-of-the-cloud-alex-huang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RJMSUDTl6Ds/hqdefault.jpg" alt="State of the Cloud - Alex Huang" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/state-of-the-cloud-alex-huang">State of the Cloud - Alex Huang</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 28:17</div>
+			
+			
+              <div>Views: 67 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/success-story-bring-your-vmware-infrastructure-to-the-next-level-bousquet-gaudreault"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TB7mrLem_k0/hqdefault.jpg" alt="Success Story: Bring your VMware Infrastructure to the next level... -  Bousquet & Gaudreault" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/success-story-bring-your-vmware-infrastructure-to-the-next-level-bousquet-gaudreault">Success Story: Bring your VMware Infrastructure to the next level... -  Bousquet & Gaudreault</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 35:29</div>
+			
+			
+              <div>Views: 225 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/supporting-apache-brands-while-making-a-profit-shane-curcuru"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WVwauL508Mk/hqdefault.jpg" alt="Supporting Apache Brands While Making A Profit - Shane Curcuru" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/supporting-apache-brands-while-making-a-profit-shane-curcuru">Supporting Apache Brands While Making A Profit - Shane Curcuru</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 26:54</div>
+			
+			
+              <div>Views: 60 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/supporting-opendaylight-in-cloudstack-1-hugo-trippaers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wrIHV-3ZHC8/hqdefault.jpg" alt="Supporting OpenDaylight in CloudStack 1 - Hugo Trippaers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/supporting-opendaylight-in-cloudstack-1-hugo-trippaers">Supporting OpenDaylight in CloudStack 1 - Hugo Trippaers</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 24:33</div>
+			
+			
+              <div>Views: 344 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/supporting-palo-alto-networks-firewalls-in-cloudstack-syed-ahmed"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kyen2bJtYHs/hqdefault.jpg" alt="Supporting Palo Alto Networks Firewalls in CloudStack - Syed Ahmed" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/supporting-palo-alto-networks-firewalls-in-cloudstack-syed-ahmed">Supporting Palo Alto Networks Firewalls in CloudStack - Syed Ahmed</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 39:04</div>
+			
+			
+              <div>Views: 305 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/taking-cloudstack-to-the-next-step-arjan-eriks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mcY7SNTeX_k/hqdefault.jpg" alt="Taking CloudStack to the Next Step - Arjan Eriks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/taking-cloudstack-to-the-next-step-arjan-eriks">Taking CloudStack to the Next Step - Arjan Eriks</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 32:10</div>
+			
+			
+              <div>Views: 365 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/the-new-cloud-stack-dan-lambright"><img class="list-thumbnail" src="https://i.ytimg.com/vi/H7D2nuxMl-0/hqdefault.jpg" alt="The New Cloud Stack - Dan Lambright" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/the-new-cloud-stack-dan-lambright">The New Cloud Stack - Dan Lambright</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 26:23</div>
+			
+			
+              <div>Views: 53 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/towards-and-automated-testing-environment-amogh-vasekar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9BI9cKuFZdg/hqdefault.jpg" alt="Towards and Automated Testing Environment - Amogh Vasekar" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/towards-and-automated-testing-environment-amogh-vasekar">Towards and Automated Testing Environment - Amogh Vasekar</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 30:50</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/troubleshooting-apache-cloudstack-environments-kirk-kosinski"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7UnPMlo8FMI/hqdefault.jpg" alt="Troubleshooting Apache CloudStack Environments - Kirk Kosinski" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/troubleshooting-apache-cloudstack-environments-kirk-kosinski">Troubleshooting Apache CloudStack Environments - Kirk Kosinski</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 33:07</div>
+			
+			
+              <div>Views: 100 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/understanding-costs-of-cloud-infrastructure-praneet-wadge"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9te4xVKgNW0/hqdefault.jpg" alt="Understanding Costs of Cloud Infrastructure - Praneet Wadge" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/understanding-costs-of-cloud-infrastructure-praneet-wadge">Understanding Costs of Cloud Infrastructure - Praneet Wadge</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 25:31</div>
+			
+			
+              <div>Views: 191 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/usage-management-billing-for-cloudstack-pierre-vacherand"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZA-VPb7WAy8/hqdefault.jpg" alt="Usage Management & Billing for CloudStack - Pierre Vacherand" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/usage-management-billing-for-cloudstack-pierre-vacherand">Usage Management & Billing for CloudStack - Pierre Vacherand</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 26:31</div>
+			
+			
+              <div>Views: 388 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/using-chef-to-automate-the-deployment-of-cloudstack-pierre-luc-dion"><img class="list-thumbnail" src="https://i.ytimg.com/vi/V7Pt4pkGTNU/hqdefault.jpg" alt="Using Chef to Automate the Deployment of CloudStack - Pierre-Luc Dion" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/using-chef-to-automate-the-deployment-of-cloudstack-pierre-luc-dion">Using Chef to Automate the Deployment of CloudStack - Pierre-Luc Dion</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 28:27</div>
+			
+			
+              <div>Views: 110 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/virtual-router-in-cloudstack-44-sheng-yang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0lxaYOjvghQ/hqdefault.jpg" alt="Virtual Router in CloudStack 4.4 - Sheng Yang" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/virtual-router-in-cloudstack-44-sheng-yang">Virtual Router in CloudStack 4.4 - Sheng Yang</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 31:02</div>
+			
+			
+              <div>Views: 514 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/we-need-you-building-a-better-cloud-community-one-voice-at-a-time-aaron-delp-kenneth-hui"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6CLpKenLwTs/hqdefault.jpg" alt="We Need you! Building a Better Cloud Community One Voice at a Time - Aaron Delp & Kenneth Hui" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/we-need-you-building-a-better-cloud-community-one-voice-at-a-time-aaron-delp-kenneth-hui">We Need you! Building a Better Cloud Community One Voice at a Time - Aaron Delp & Kenneth Hui</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 29:07</div>
+			
+			
+              <div>Views: 47 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cloudstack-collaboration-na-2014/xen-project-44-features-and-futures-russell-pavlicek"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mIZv3ksD4nI/hqdefault.jpg" alt="Xen Project 4.4  Features and Futures - Russell Pavlicek" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cloudstack-collaboration-na-2014/xen-project-44-features-and-futures-russell-pavlicek">Xen Project 4.4  Features and Futures - Russell Pavlicek</a></h4>
+          <footer>
+            <div class="recorded">2014-04-09</div>
+			
+			  <div>Length: 28:11</div>
+			
+			
+              <div>Views: 1965 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLU2OcwpQkYCyPx_cwJxyOK0YKSM86Mj9n">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

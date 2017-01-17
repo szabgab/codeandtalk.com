@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Texas LinuxFest 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Texas LinuxFest 2015</h1>
+
+<div><a href="http://2015.texaslinuxfest.org/">Texas LinuxFest 2015</a></div>
+
+
+<div>Start date: 2015-08-21</div>
+<div>End date: 2015-08-22</div>
+
+<div>Location:
+  San Marcos
+  Texas
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://2015.texaslinuxfest.org/code-of-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/linux">Linux</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/texaslinuxfest">@texaslinuxfest</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Texas%20LinuxFest%202015%20on%202015-08-21%20in%20San%20Marcos%2C%20Texas%20USA%20%40texaslinuxfest%20http%3A//2015.texaslinuxfest.org/%20%23Linux%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/texaslinuxfest-2015/ipv6-what-is-it-good-for-now-texas-linux-fest"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qksUJDZT5_g/hqdefault.jpg" alt="IPv6, What is it good for now?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/texaslinuxfest-2015/ipv6-what-is-it-good-for-now-texas-linux-fest">IPv6, What is it good for now?</a></h4>
+          <footer>
+            <div class="recorded">2015-08-21</div>
+			
+			  <div>Length: 47:28</div>
+			
+			
+            <div class="event">From <a href="/e/texaslinuxfest-2015">Texas LinuxFest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jim-wildman">Jim Wildman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-aaron-poffenberger-bsd-for-linux-users"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NGiR4z76uxQ/hqdefault.jpg" alt="BSD for Linux Users" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-aaron-poffenberger-bsd-for-linux-users">BSD for Linux Users</a></h4>
+          <footer>
+            <div class="recorded">2015-08-21</div>
+			
+			  <div>Length: 59:37</div>
+			
+			
+              <div>Views: 1229 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/texaslinuxfest-2015">Texas LinuxFest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aaron-poffenberger">Aaron Poffenberger</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-dave-boucha-saltstack-beyond-configuration-management"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1_laHzTmi7I/hqdefault.jpg" alt="SaltStack Beyond Configuration Management" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-dave-boucha-saltstack-beyond-configuration-management">SaltStack Beyond Configuration Management</a></h4>
+          <footer>
+            <div class="recorded">2015-08-21</div>
+			
+			  <div>Length: 43:28</div>
+			
+			
+              <div>Views: 106 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/texaslinuxfest-2015">Texas LinuxFest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-boucha">Dave Boucha</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-deb-nicholson-surveillance-and-the-erosion-of-wierdness"><img class="list-thumbnail" src="https://i.ytimg.com/vi/U3ipdhcEVLg/hqdefault.jpg" alt="Surveillance and the Erosion of Wierdness" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-deb-nicholson-surveillance-and-the-erosion-of-wierdness">Surveillance and the Erosion of Wierdness</a></h4>
+          <footer>
+            <div class="recorded">2015-08-21</div>
+			
+			  <div>Length: 49:32</div>
+			
+			
+              <div>Views: 94 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/texaslinuxfest-2015">Texas LinuxFest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/deb-nicholson">Deb Nicholson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-joan-touzet-evolve-or-perish-improving-oss-communities-the-apache-way"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iKKkKkWATDo/hqdefault.jpg" alt="Evolve or Perish! Improving OSS Communities the Apache Way" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-joan-touzet-evolve-or-perish-improving-oss-communities-the-apache-way">Evolve or Perish! Improving OSS Communities the Apache Way</a></h4>
+          <footer>
+            <div class="recorded">2015-08-21</div>
+			
+			  <div>Length: 01:02:55</div>
+			
+			
+              <div>Views: 314 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/texaslinuxfest-2015">Texas LinuxFest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joan-touzet">Joan Touzet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-ken-starks-text-to-speech-and-linux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bQr_8yLfV-c/hqdefault.jpg" alt="Text to Speech and Linux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-ken-starks-text-to-speech-and-linux">Text to Speech and Linux</a></h4>
+          <footer>
+            <div class="recorded">2015-08-21</div>
+			
+			  <div>Length: 22:54</div>
+			
+			
+              <div>Views: 248 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/texaslinuxfest-2015">Texas LinuxFest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ken-starks">Ken Starks</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-major-hayden-be-an-inspiration-not-an-impostor"><img class="list-thumbnail" src="https://i.ytimg.com/vi/K7mq_aJ9VPk/hqdefault.jpg" alt="Be an Inspiration, Not an Impostor" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-major-hayden-be-an-inspiration-not-an-impostor">Be an Inspiration, Not an Impostor</a></h4>
+          <footer>
+            <div class="recorded">2015-08-21</div>
+			
+			  <div>Length: 23:13</div>
+			
+			
+              <div>Views: 138 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/texaslinuxfest-2015">Texas LinuxFest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/major-hayden">Major Hayden</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-robinson-tryon-introduction-to-libreoffice-qa-bibisecting"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IJNv17YZ8Ak/hqdefault.jpg" alt="Introduction to LibreOffice QA: Bibisecting" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-robinson-tryon-introduction-to-libreoffice-qa-bibisecting">Introduction to LibreOffice QA: Bibisecting</a></h4>
+          <footer>
+            <div class="recorded">2015-08-21</div>
+			
+			  <div>Length: 52:04</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/texaslinuxfest-2015">Texas LinuxFest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robinson-tryon">Robinson Tryon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-ted-gould-ubuntu-phone-application-lifecycle"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v5iY2NgaBeY/hqdefault.jpg" alt="Ubuntu Phone: Application Lifecycle" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/texaslinuxfest-2015/tx-linux-fest-2015-ted-gould-ubuntu-phone-application-lifecycle">Ubuntu Phone: Application Lifecycle</a></h4>
+          <footer>
+            <div class="recorded">2015-08-21</div>
+			
+			  <div>Length: 28:31</div>
+			
+			
+              <div>Views: 724 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/texaslinuxfest-2015">Texas LinuxFest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ted-gould">Ted Gould</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLUstGj9Muzi6KfoDrxzHHulTTKaeYtRZl">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

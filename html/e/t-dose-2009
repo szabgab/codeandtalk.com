@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>T-DOSE 2009</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>T-DOSE 2009</h1>
+
+<div><a href="http://www.t-dose.org/2009/schedule">T-DOSE 2009</a></div>
+
+
+<div>Start date: 2009-10-03</div>
+<div>End date: 2009-10-04</div>
+
+<div>Location:
+  Eindhoven
+  
+  <a href="/l/the-netherlands">The Netherlands</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/opensource">OpenSource</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/TDOSE">@TDOSE</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/tdosenl">https://www.facebook.com/tdosenl</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=T-DOSE%202009%20on%202009-10-03%20in%20Eindhoven%2C%20%20The%20Netherlands%20%40TDOSE%20http%3A//www.t-dose.org/2009/schedule%20%23OpenSource%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2009/t-dose-2009-open-source-dag-wieers-the-year-of-the-wiimote"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O80RHYkZa4w/hqdefault.jpg" alt="The year of the Wiimote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2009/t-dose-2009-open-source-dag-wieers-the-year-of-the-wiimote">The year of the Wiimote</a></h4>
+          <footer>
+            <div class="recorded">2009-10-04</div>
+			
+			  <div>Length: 01:03:35</div>
+			
+			
+              <div>Views: 25 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2009">T-DOSE 2009</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dag-wieers">Dag Wieers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2009/t-dose-2009-open-source-eric-hameleers-a-history-of-slackware-development"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pIv0KoKrj0c/hqdefault.jpg" alt="A history of Slackware development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2009/t-dose-2009-open-source-eric-hameleers-a-history-of-slackware-development">A history of Slackware development</a></h4>
+          <footer>
+            <div class="recorded">2009-10-03</div>
+			
+			  <div>Length: 01:01:06</div>
+			
+			
+              <div>Views: 63 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/t-dose-2009">T-DOSE 2009</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eric-hameleers">Eric Hameleers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2009/t-dose-2009-open-source-frank-hoffmann-using-etokens-on-linux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CBlN01WckXU/hqdefault.jpg" alt="Using eTokens on Linux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2009/t-dose-2009-open-source-frank-hoffmann-using-etokens-on-linux">Using eTokens on Linux</a></h4>
+          <footer>
+            <div class="recorded">2009-10-03</div>
+			
+			  <div>Length: 43:35</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2009">T-DOSE 2009</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/frank-hoffmann">Frank Hoffmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2009/t-dose-2009-open-source-geert-dietger-hoffmann-how-to-tell-the-cloud-what-to-do"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iRaEVE4Xr_E/hqdefault.jpg" alt="How to tell the cloud what to do" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2009/t-dose-2009-open-source-geert-dietger-hoffmann-how-to-tell-the-cloud-what-to-do">How to tell the cloud what to do</a></h4>
+          <footer>
+            <div class="recorded">2009-10-03</div>
+			
+			  <div>Length: 42:27</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2009">T-DOSE 2009</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/geert-dietger-hoffmann">Geert-Dietger Hoffmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2009/t-dose-2009-open-source-george-dafermos-en-ludo-gorzeman-the-case-of-freebsd"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JzHBNiZ-QWU/hqdefault.jpg" alt="The case of FreeBSD" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2009/t-dose-2009-open-source-george-dafermos-en-ludo-gorzeman-the-case-of-freebsd">The case of FreeBSD</a></h4>
+          <footer>
+            <div class="recorded">2009-10-03</div>
+			
+			  <div>Length: 40:58</div>
+			
+			
+              <div>Views: 103 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2009">T-DOSE 2009</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/george-dafermos">George Dafermos</a>
+             
+                <a href="/p/ludo-gorzeman">Ludo Gorzeman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2009/t-dose-2009-open-source-gerard-mourits-wifisofts-network-event-kit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dJ_KBE4fo8c/hqdefault.jpg" alt="Wifisofts: Network Event Kit" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2009/t-dose-2009-open-source-gerard-mourits-wifisofts-network-event-kit">Wifisofts: Network Event Kit</a></h4>
+          <footer>
+            <div class="recorded">2009-10-03</div>
+			
+			  <div>Length: 16:28</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2009">T-DOSE 2009</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gerard-mourits">Gerard Mourits</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2009/t-dose-2009-open-source-jan-stedehouder-ubuntu-towards-a-viable-open-source-desktop"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2RmuL-UW4Ms/hqdefault.jpg" alt="Ubuntu - Towards a viable open source desktop" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2009/t-dose-2009-open-source-jan-stedehouder-ubuntu-towards-a-viable-open-source-desktop">Ubuntu - Towards a viable open source desktop</a></h4>
+          <footer>
+            <div class="recorded">2009-10-03</div>
+			
+			  <div>Length: 57:16</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2009">T-DOSE 2009</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jan-stedehouder">Jan Stedehouder</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2009/t-dose-2009-open-source-kris-buytaert-virtsec-hot-topic-in-virtualization-town-do-we-need-it"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gLDKslprdII/hqdefault.jpg" alt="VirtSec, hot topic in virtualization town, Do we need it ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2009/t-dose-2009-open-source-kris-buytaert-virtsec-hot-topic-in-virtualization-town-do-we-need-it">VirtSec, hot topic in virtualization town, Do we need it ?</a></h4>
+          <footer>
+            <div class="recorded">2009-10-03</div>
+			
+			  <div>Length: 49:55</div>
+			
+			
+              <div>Views: 8 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2009">T-DOSE 2009</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kris-buytaert">Kris Buytaert</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2009/t-dose-2009-open-source-ludovic-dubost-next-gen-wikis-mixing-content-oriented-apps-with-wikis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X_iE0fsUJl4/hqdefault.jpg" alt="Next-Gen Wikis, Mixing Content-Oriented Apps with Wikis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2009/t-dose-2009-open-source-ludovic-dubost-next-gen-wikis-mixing-content-oriented-apps-with-wikis">Next-Gen Wikis, Mixing Content-Oriented Apps with Wikis</a></h4>
+          <footer>
+            <div class="recorded">2009-10-03</div>
+			
+			  <div>Length: 01:02:25</div>
+			
+			
+              <div>Views: 19 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/t-dose-2009">T-DOSE 2009</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ludovic-dubost">Ludovic Dubost</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2009/t-dose-2009-open-source-shane-kerr-robustness-in-error-handling-in-bind-10"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MgtxURrcUDk/hqdefault.jpg" alt="Robustness in error handling in BIND 10" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2009/t-dose-2009-open-source-shane-kerr-robustness-in-error-handling-in-bind-10">Robustness in error handling in BIND 10</a></h4>
+          <footer>
+            <div class="recorded">2009-10-03</div>
+			
+			  <div>Length: 01:00:05</div>
+			
+			
+              <div>Views: 28 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2009">T-DOSE 2009</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shane-kerr">sShane Kerr</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2009/t-dose-2009-open-source-ywein-van-den-brande-foss-and-intellectual-property"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HRJZCcrOWuQ/hqdefault.jpg" alt="F/OSS and Intellectual Property" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2009/t-dose-2009-open-source-ywein-van-den-brande-foss-and-intellectual-property">F/OSS and Intellectual Property</a></h4>
+          <footer>
+            <div class="recorded">2009-10-03</div>
+			
+			  <div>Length: 36:56</div>
+			
+			
+              <div>Views: 135 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2009">T-DOSE 2009</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ywein-van-den-brande">Ywein van den Brande</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLBZBIkixHEidOL0BaiuTZDx19TsAlbD4F">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

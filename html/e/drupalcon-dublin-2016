@@ -1,0 +1,3525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>DrupalCon Dublin 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>DrupalCon Dublin 2016</h1>
+
+<div><a href="https://events.drupal.org/dublin2016">DrupalCon Dublin 2016</a></div>
+
+
+<div>Start date: 2016-09-26</div>
+<div>End date: 2016-09-30</div>
+
+<div>Location:
+  Dublin
+  
+  <a href="/l/ireland">Ireland</a>
+</div>
+
+<div><a href="https://events.drupal.org/dublin2016/code-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/drupal">Drupal</a> 
+   
+       <a href="/t/php">PHP</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/drupalconeur">@drupalconeur</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/DrupalCon">https://www.facebook.com/DrupalCon</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=DrupalCon%20Dublin%202016%20on%202016-09-26%20in%20Dublin%2C%20%20Ireland%20%40drupalconeur%20https%3A//events.drupal.org/dublin2016%20%23Drupal%20%23PHP%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-21-things-i-learned-with-twig-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-GyeZ2QeVl0/hqdefault.jpg" alt="21 things i learned with Twig & Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-21-things-i-learned-with-twig-drupal">21 things i learned with Twig & Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:01:11</div>
+			
+			
+              <div>Views: 1203 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/morten-birch-heide-jorgensen">Morten Birch Heide-Jørgensen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-4x-high-performance-for-drupal-step-by-step-the-ultimate-beginners-guide"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6z0bZTuLZhw/hqdefault.jpg" alt="4x High Performance for Drupal - Step by Step - The ultimate beginner's guide" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-4x-high-performance-for-drupal-step-by-step-the-ultimate-beginners-guide">4x High Performance for Drupal - Step by Step - The ultimate beginner's guide</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 56:43</div>
+			
+			
+              <div>Views: 436 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fabian-franz">Fabian Franz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-7-hurdles-to-reach-scrum-drupal-nirvana-in-projects"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KNW9NiHLQ6U/hqdefault.jpg" alt="7 hurdles to reach Scrum Drupal Nirvana in projects." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-7-hurdles-to-reach-scrum-drupal-nirvana-in-projects">7 hurdles to reach Scrum Drupal Nirvana in projects.</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:00:50</div>
+			
+			
+              <div>Views: 123 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nancy-beers">Nancy Beers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-a-cautionary-tale-for-defensive-programmers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1QKTbqOp7ZA/hqdefault.jpg" alt="A Cautionary Tale for Defensive Programmers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-a-cautionary-tale-for-defensive-programmers">A Cautionary Tale for Defensive Programmers</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 52:41</div>
+			
+			
+              <div>Views: 87 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bart-feenstra">Bart Feenstra</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-a-tale-about-building-businesses-and-sleeping-on-sofas"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EvPSroZrfWM/hqdefault.jpg" alt="A tale about building businesses and sleeping on sofas" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-a-tale-about-building-businesses-and-sleeping-on-sofas">A tale about building businesses and sleeping on sofas</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 49:55</div>
+			
+			
+              <div>Views: 89 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dania-gerhardt">Dania Gerhardt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-about-your-drupalcon-dublin-sponsorship"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cJbun-80pxA/hqdefault.jpg" alt="DrupalCon Dublin 2016: About Your DrupalCon Dublin Sponsorship" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-about-your-drupalcon-dublin-sponsorship">DrupalCon Dublin 2016: About Your DrupalCon Dublin Sponsorship</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 59:56</div>
+			
+			
+              <div>Views: 884 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-advanced-web-services-with-json-api"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ogs7qAWSlnQ/hqdefault.jpg" alt="Advanced web services with JSON API" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-advanced-web-services-with-json-api">Advanced web services with JSON API</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 54:20</div>
+			
+			
+              <div>Views: 244 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mateu-aguilo-bosch">Mateu Aguilo Bosch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-agency-workflows-on-pantheon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uAXndeT9umE/hqdefault.jpg" alt="Agency Workflows on Pantheon" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-agency-workflows-on-pantheon">Agency Workflows on Pantheon</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 36:16</div>
+			
+			
+              <div>Views: 60 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-persch">Steve Persch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-agile-your-agile-changing-process-one-step-at-a-time"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cgoo7-WipTI/hqdefault.jpg" alt="Agile Your Agile: Changing process one step at a time" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-agile-your-agile-changing-process-one-step-at-a-time">Agile Your Agile: Changing process one step at a time</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 53:24</div>
+			
+			
+              <div>Views: 143 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-persch">Steve Persch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-animate-your-site"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G2KF6wcjnDw/hqdefault.jpg" alt="Animate Your Site" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-animate-your-site">Animate Your Site</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 57:50</div>
+			
+			
+              <div>Views: 309 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nikhil-sukul">Nikhil Sukul</a>
+             
+                <a href="/p/vidit-anjaria">Vidit Anjaria</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-api-first-initiative"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oxI0-TSdouQ/hqdefault.jpg" alt="API-first initiative" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-api-first-initiative">API-first initiative</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 59:08</div>
+			
+			
+              <div>Views: 198 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mateu-aguilo-bosch">Mateu Aguilo Bosch</a>
+             
+                <a href="/p/preston-so">Preston So</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-approaches-for-ux-changes-big-and-small-the-european-edition"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cYrLkzrRzrM/hqdefault.jpg" alt="Approaches for UX changes big and small, the European edition" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-approaches-for-ux-changes-big-and-small-the-european-edition">Approaches for UX changes big and small, the European edition</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 42:00</div>
+			
+			
+              <div>Views: 58 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/roy-scholten">Roy Scholten</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-automated-browser-testing-with-nightwatchjs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FuAI-JQ8L5Q/hqdefault.jpg" alt="Automated browser testing with Nightwatch.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-automated-browser-testing-with-nightwatchjs">Automated browser testing with Nightwatch.js</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 38:43</div>
+			
+			
+              <div>Views: 714 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vladimir-roudakov">Vladimir Roudakov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-automated-testing-phpunit-all-the-way"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jcdEp3YGa94/hqdefault.jpg" alt="Automated Testing: PHPUnit all the way" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-automated-testing-phpunit-all-the-way">Automated Testing: PHPUnit all the way</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:05:29</div>
+			
+			
+              <div>Views: 428 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-wehner">Daniel Wehner</a>
+             
+                <a href="/p/klaus-purer">Klaus Purer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-branch-out-of-your-comfort-zone-with-twig-templates"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9qhJS0cQAn4/hqdefault.jpg" alt="Branch Out of Your Comfort Zone with Twig Templates" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-branch-out-of-your-comfort-zone-with-twig-templates">Branch Out of Your Comfort Zone with Twig Templates</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 35:35</div>
+			
+			
+              <div>Views: 195 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/larry-walangitan">Larry Walangitan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-bridging-communities"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iA_pCGuBwNU/hqdefault.jpg" alt="Bridging Communities" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-bridging-communities">Bridging Communities</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 49:38</div>
+			
+			
+              <div>Views: 93 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jenny-wong">Jenny Wong</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-bridging-the-phonegap-getting-started-creating-hybrid-mobile-apps"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gubZKr1gFso/hqdefault.jpg" alt="Bridging the PhoneGap: Getting Started Creating Hybrid Mobile Apps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-bridging-the-phonegap-getting-started-creating-hybrid-mobile-apps">Bridging the PhoneGap: Getting Started Creating Hybrid Mobile Apps</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 47:15</div>
+			
+			
+              <div>Views: 191 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-conroy">Mark Conroy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-british-council-130-country-multi-site-migration-to-containers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/p4Ri6rtcXOQ/hqdefault.jpg" alt="British Council - 130 country multi-site migration to containers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-british-council-130-country-multi-site-migration-to-containers">British Council - 130 country multi-site migration to containers</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:02:15</div>
+			
+			
+              <div>Views: 133 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robert-douglass">Robert Douglass</a>
+             
+                <a href="/p/kieron-sambrook">Kieron Sambrook</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-building-a-co-lingual-website-lessons-learned-from-irelandie"><img class="list-thumbnail" src="https://i.ytimg.com/vi/V5yTGkATs3k/hqdefault.jpg" alt="Building a co-lingual website - lessons learned from ireland.ie" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-building-a-co-lingual-website-lessons-learned-from-irelandie">Building a co-lingual website - lessons learned from ireland.ie</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 58:18</div>
+			
+			
+              <div>Views: 75 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alan-burke">Alan Burke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-building-a-security-framework-for-your-website-assets"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Fm83tOdfzTE/hqdefault.jpg" alt="Building a Security Framework for Your Website Assets" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-building-a-security-framework-for-your-website-assets">Building a Security Framework for Your Website Assets</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 49:27</div>
+			
+			
+              <div>Views: 80 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tony-perez">Tony Perez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-building-high-available-elk-for-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tqG0YVdJIck/hqdefault.jpg" alt="Building High Available ELK for Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-building-high-available-elk-for-drupal">Building High Available ELK for Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 51:30</div>
+			
+			
+              <div>Views: 129 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marji-cermak">Marji Cermak</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-burnout-at-scale"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jkyPCwO9v9o/hqdefault.jpg" alt="Burnout at Scale" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-burnout-at-scale">Burnout at Scale</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:03:12</div>
+			
+			
+              <div>Views: 242 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alina-mackenzie">Alina Mackenzie</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-cdns-more-than-just-performance-improvement"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ted5L1H_a8M/hqdefault.jpg" alt="CDNs - more than just performance improvement" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-cdns-more-than-just-performance-improvement">CDNs - more than just performance improvement</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 47:56</div>
+			
+			
+              <div>Views: 125 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/leon-brocard">Léon Brocard</a>
+             
+                <a href="/p/david-strauss">David Strauss</a>
+             
+                <a href="/p/rudy-grigar">Rudy Grigar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-checking-on-drupal-8s-rapid-innovation-promises"><img class="list-thumbnail" src="https://i.ytimg.com/vi/W3h1Z9YBsU8/hqdefault.jpg" alt="Checking on Drupal 8's rapid innovation promises" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-checking-on-drupal-8s-rapid-innovation-promises">Checking on Drupal 8's rapid innovation promises</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 59:28</div>
+			
+			
+              <div>Views: 200 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gabor-hojtsy">Gábor Hojtsy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-choosing-drupal-insights-from-an-irish-multinational"><img class="list-thumbnail" src="https://i.ytimg.com/vi/woMk6Jz0OLI/hqdefault.jpg" alt="Choosing Drupal - Insights from an Irish multinational" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-choosing-drupal-insights-from-an-irish-multinational">Choosing Drupal - Insights from an Irish multinational</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 51:59</div>
+			
+			
+              <div>Views: 126 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aisling-furlong">Aisling Furlong</a>
+             
+                <a href="/p/alan-burke">Alan Burke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-choosing-the-right-agile-methodology-for-your-drupal-projects"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Xi-47L-Mfmg/hqdefault.jpg" alt="Choosing The "Right Agile Methodology" for Your Drupal Projects" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-choosing-the-right-agile-methodology-for-your-drupal-projects">Choosing The "Right Agile Methodology" for Your Drupal Projects</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 52:08</div>
+			
+			
+              <div>Views: 161 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/prabhat-sinha">Prabhat Sinha</a>
+             
+                <a href="/p/shani-memfy">Shani Memfy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-closing-session"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dI822aGpvIg/hqdefault.jpg" alt="DrupalCon Dublin 2016: Closing Session" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-closing-session">DrupalCon Dublin 2016: Closing Session</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 26:55</div>
+			
+			
+              <div>Views: 302 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-closing-the-gaps-prioritizing-accessibility-in-custom-themes-with-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cg5gDrfYg78/hqdefault.jpg" alt="Closing the Gaps: Prioritizing Accessibility in Custom Themes with Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-closing-the-gaps-prioritizing-accessibility-in-custom-themes-with-drupal-8">Closing the Gaps: Prioritizing Accessibility in Custom Themes with Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:02:58</div>
+			
+			
+              <div>Views: 122 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/erin-marchak">Erin Marchak</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-community-keynote-lessons-learnt-from-my-tour"><img class="list-thumbnail" src="https://i.ytimg.com/vi/clxizOD0IbY/hqdefault.jpg" alt="Community Keynote: Lessons Learnt From My Tour" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-community-keynote-lessons-learnt-from-my-tour">Community Keynote: Lessons Learnt From My Tour</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:01:46</div>
+			
+			
+              <div>Views: 416 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eduardo-enzo-garcia">enzo -Eduardo Garcia</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-composer-based-workflows-for-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1KTQxbM4W-s/hqdefault.jpg" alt="Composer based workflows for Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-composer-based-workflows-for-drupal-8">Composer based workflows for Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 56:23</div>
+			
+			
+              <div>Views: 675 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kevin-moll">Kevin Moll</a>
+             
+                <a href="/p/pablo-fabregat">Pablo Fabregat</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-confessions-of-a-control-freak-a-guide-to-letting-go"><img class="list-thumbnail" src="https://i.ytimg.com/vi/chf9cJf-wt8/hqdefault.jpg" alt="Confessions of a control freak: A guide to letting go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-confessions-of-a-control-freak-a-guide-to-letting-go">Confessions of a control freak: A guide to letting go</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 53:27</div>
+			
+			
+              <div>Views: 100 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-coghlan">Jason Coghlan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-configuration-management-theory-and-practice"><img class="list-thumbnail" src="https://i.ytimg.com/vi/57t_CS2wbHI/hqdefault.jpg" alt="Configuration Management: theory and practice" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-configuration-management-theory-and-practice">Configuration Management: theory and practice</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 59:50</div>
+			
+			
+              <div>Views: 931 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrea-pescetti">Andrea Pescetti</a>
+             
+                <a href="/p/antonio-de-marco">Antonio De Marco</a>
+             
+                <a href="/p/fabian-bircher">Fabian Bircher</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-containing-chaos-with-kubernetes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6Atwi5UBCuU/hqdefault.jpg" alt="Containing Chaos with Kubernetes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-containing-chaos-with-kubernetes">Containing Chaos with Kubernetes</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 56:25</div>
+			
+			
+              <div>Views: 170 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/terrence-ryan">Terrence Ryan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-content-creation-ux-wonderland-with-entity-browser"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VXor-HZiYrs/hqdefault.jpg" alt="Content creation UX wonderland with Entity browser" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-content-creation-ux-wonderland-with-entity-browser">Content creation UX wonderland with Entity browser</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:02:31</div>
+			
+			
+              <div>Views: 228 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/janez-urevc">Janez Urevc</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-contextual-configuration-in-core-do-we-want-it-and-can-we-do-it"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FEBHHTQilqY/hqdefault.jpg" alt="Contextual configuration in core: do we want it and can we do it?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-contextual-configuration-in-core-do-we-want-it-and-can-we-do-it">Contextual configuration in core: do we want it and can we do it?</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 36:48</div>
+			
+			
+              <div>Views: 67 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ken-rickard">Ken Rickard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-continuous-integration-to-automate-your-drupal-workflow"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DysbTwsl5SA/hqdefault.jpg" alt="Continuous Integration to automate your Drupal workflow" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-continuous-integration-to-automate-your-drupal-workflow">Continuous Integration to automate your Drupal workflow</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 52:18</div>
+			
+			
+              <div>Views: 376 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bas-van-der-heijden">Bas van der Heijden</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-cracking-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AAnn7e2dLQI/hqdefault.jpg" alt="Cracking Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-cracking-drupal">Cracking Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 52:23</div>
+			
+			
+              <div>Views: 209 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/moshe-weitzman">Moshe Weitzman</a>
+             
+                <a href="/p/peter-wolanin">Peter Wolanin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-create-new-user-facing-core-theme-initiative"><img class="list-thumbnail" src="https://i.ytimg.com/vi/S7tl3Gpf0iw/hqdefault.jpg" alt="Create new user-facing core theme initiative" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-create-new-user-facing-core-theme-initiative">Create new user-facing core theme initiative</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:08:43</div>
+			
+			
+              <div>Views: 170 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lauri-eskola">Lauri Eskola</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-creating-layouts-and-landing-pages-for-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EZkMQCl96PQ/hqdefault.jpg" alt="Creating Layouts and Landing Pages for Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-creating-layouts-and-landing-pages-for-drupal-8">Creating Layouts and Landing Pages for Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 46:21</div>
+			
+			
+              <div>Views: 1222 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/suzanne-dergacheva">Suzanne Dergacheva</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-data-driven-post-mortems"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5p7wqvaKA_U/hqdefault.jpg" alt="Data-driven Post-mortems" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-data-driven-post-mortems">Data-driven Post-mortems</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 54:57</div>
+			
+			
+              <div>Views: 68 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-yee">Jason Yee</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-debugging-effectively"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yo8B03ZLCs4/hqdefault.jpg" alt="Debugging Effectively" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-debugging-effectively">Debugging Effectively</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 47:09</div>
+			
+			
+              <div>Views: 225 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/colin-odell">Colin O'Dell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-decoupled-drupal-and-ember"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qiY8H6UWDm0/hqdefault.jpg" alt="Decoupled Drupal and Ember" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-decoupled-drupal-and-ember">Decoupled Drupal and Ember</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:07:07</div>
+			
+			
+              <div>Views: 731 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/preston-so">Preston So</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-design-principles-for-minimum-viable-product"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QzV4fdzkU3s/hqdefault.jpg" alt="Design Principles for Minimum Viable Product" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-design-principles-for-minimum-viable-product">Design Principles for Minimum Viable Product</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 26:54</div>
+			
+			
+              <div>Views: 242 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/junaid-masoodi">Junaid Masoodi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-documentation-is-getting-an-overhaul"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9KVfQV3Djd0/hqdefault.jpg" alt="Documentation Is Getting An Overhaul" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-documentation-is-getting-an-overhaul">Documentation Is Getting An Overhaul</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:03:52</div>
+			
+			
+              <div>Views: 38 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joe-shindelar">Joe Shindelar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-dont-panic-website-disaster-planning-for-the-rest-of-us"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rbJaNySYxRY/hqdefault.jpg" alt="Don't Panic: Website disaster planning for the rest of us" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-dont-panic-website-disaster-planning-for-the-rest-of-us">Don't Panic: Website disaster planning for the rest of us</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 46:19</div>
+			
+			
+              <div>Views: 70 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ronan-dowling">Ronan Dowling</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-double-your-toolbox-the-shared-goodies-of-d8-and-symfony"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mUToEr6CBJY/hqdefault.jpg" alt="Double your toolbox: the shared goodies of D8 and Symfony" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-double-your-toolbox-the-shared-goodies-of-d8-and-symfony">Double your toolbox: the shared goodies of D8 and Symfony</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 54:47</div>
+			
+			
+              <div>Views: 327 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicolas-grekas">Nicolas Grekas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-dream-team-therapy-or-how-to-maintain-humans-within-a-team"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0HljeAE_j7E/hqdefault.jpg" alt="Dream Team therapy or how to maintain humans within a team." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-dream-team-therapy-or-how-to-maintain-humans-within-a-team">Dream Team therapy or how to maintain humans within a team.</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 45:29</div>
+			
+			
+              <div>Views: 105 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrii-podanenko">Andrii Podanenko</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-8-and-the-panels-ecosystem"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KD0IrtkONcc/hqdefault.jpg" alt="Drupal 8 and the Panels Ecosystem" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-8-and-the-panels-ecosystem">Drupal 8 and the Panels Ecosystem</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:02:25</div>
+			
+			
+              <div>Views: 1349 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jakob-perry">Jakob Perry</a>
+             
+                <a href="/p/kris-vanderwater">Kris Vanderwater</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-8-blocks-who-knew"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sLhBQZZyi3s/hqdefault.jpg" alt="Drupal 8 Blocks: Who Knew?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-8-blocks-who-knew">Drupal 8 Blocks: Who Knew?</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 50:45</div>
+			
+			
+              <div>Views: 444 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ted-bowman">Ted Bowman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-8-hidden-power-entity-reference-as-a-component-based-site-builder"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SpeGobk4JZ0/hqdefault.jpg" alt="Drupal 8 hidden power: Entity Reference as a component-based site builder" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-8-hidden-power-entity-reference-as-a-component-based-site-builder">Drupal 8 hidden power: Entity Reference as a component-based site builder</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 53:46</div>
+			
+			
+              <div>Views: 631 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anton-staroverov">Anton Staroverov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-8-pursue-for-best-practices"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LE7b-N12Qs4/hqdefault.jpg" alt="Drupal 8: Pursue for Best Practices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-8-pursue-for-best-practices">Drupal 8: Pursue for Best Practices</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 37:00</div>
+			
+			
+              <div>Views: 337 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/branislav-bujisic">Branislav Bujisic</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-8-theming-in-depth"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GeTSvPAESQA/hqdefault.jpg" alt="Drupal 8 theming in depth" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-8-theming-in-depth">Drupal 8 theming in depth</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 44:18</div>
+			
+			
+              <div>Views: 579 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lauri-eskola">Lauri Eskola</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-8s-multilingual-apis-building-for-the-entire-world"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ldwKLMyEA30/hqdefault.jpg" alt="Drupal 8's Multilingual APIs: Building for the Entire World" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-8s-multilingual-apis-building-for-the-entire-world">Drupal 8's Multilingual APIs: Building for the Entire World</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 48:38</div>
+			
+			
+              <div>Views: 344 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christian-lopez-espinola">Christian López Espínola</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-and-the-physical-world-medical-simulators-in-a-learning-environment"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qhyWnZEryB0/hqdefault.jpg" alt="Drupal and the physical world: Medical simulators in a learning environment" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-and-the-physical-world-medical-simulators-in-a-learning-environment">Drupal and the physical world: Medical simulators in a learning environment</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 57:52</div>
+			
+			
+              <div>Views: 112 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeremiah-davis">Jeremiah Davis</a>
+             
+                <a href="/p/allie-micka">Allie Micka</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-console-an-overview-of-the-new-drupal-cli"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zBqdae_sves/hqdefault.jpg" alt="Drupal Console: An Overview of the New Drupal CLI" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-console-an-overview-of-the-new-drupal-cli">Drupal Console: An Overview of the New Drupal CLI</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 49:31</div>
+			
+			
+              <div>Views: 299 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eduardo-enzo-garcia">enzo -Eduardo Garcia</a>
+             
+                <a href="/p/jesus-manuel-olivas">Jesus Manuel Olivas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-in-the-dark-offline-ready-decoupled-drupal-8-using-react-pouchdb"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8BWS3cF3u-I/hqdefault.jpg" alt="Drupal in the Dark: Offline-ready Decoupled Drupal 8 Using React & PouchDB" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-in-the-dark-offline-ready-decoupled-drupal-8-using-react-pouchdb">Drupal in the Dark: Offline-ready Decoupled Drupal 8 Using React & PouchDB</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 46:48</div>
+			
+			
+              <div>Views: 258 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/erin-marchak">Erin Marchak</a>
+             
+                <a href="/p/justin-longbottom">Justin Longbottom</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-qa-the-testing-process"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vAyhKOG3cmI/hqdefault.jpg" alt="Drupal & QA: The Testing Process" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-qa-the-testing-process">Drupal & QA: The Testing Process</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 57:21</div>
+			
+			
+              <div>Views: 68 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anastasios-daskalopoulos">Anastasios Daskalopoulos</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-security-there-is-a-mini-drupalgeddon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ej8yiPHota4/hqdefault.jpg" alt="Drupal Security: There is a Mini-DrupalGeddon" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-drupal-security-there-is-a-mini-drupalgeddon">Drupal Security: There is a Mini-DrupalGeddon</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 51:01</div>
+			
+			
+              <div>Views: 193 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/manuel-pistner">Manuel Pistner</a>
+             
+                <a href="/p/michael-schmid">Michael Schmid</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-enterprise-level-content-staging-with-deploy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tgmypdEOEVs/hqdefault.jpg" alt="Enterprise level content staging with Deploy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-enterprise-level-content-staging-with-deploy">Enterprise level content staging with Deploy</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 43:40</div>
+			
+			
+              <div>Views: 151 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dick-olsson">Dick Olsson</a>
+             
+                <a href="/p/tim-millwood">Tim Millwood</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-entity-validation-the-kick-ass-road-to-data-integrity"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FI_eDzmd0-o/hqdefault.jpg" alt="Entity validation: The kick-ass road to data integrity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-entity-validation-the-kick-ass-road-to-data-integrity">Entity validation: The kick-ass road to data integrity</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 36:38</div>
+			
+			
+              <div>Views: 138 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kristiaan-van-den-eynde">Kristiaan Van den Eynde</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-faster-and-more-scalable-than-memcacheredis-tiered-storage-with-lcache"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rezn59U9CAk/hqdefault.jpg" alt="Faster and More Scalable than Memcache/Redis: Tiered Storage with LCache" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-faster-and-more-scalable-than-memcacheredis-tiered-storage-with-lcache">Faster and More Scalable than Memcache/Redis: Tiered Storage with LCache</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:09:53</div>
+			
+			
+              <div>Views: 305 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-strauss">David Strauss</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-future-directions-for-drupal-accessibility"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iD5vBC5Ttx4/hqdefault.jpg" alt="Future Directions for Drupal Accessibility" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-future-directions-for-drupal-accessibility">Future Directions for Drupal Accessibility</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:02:24</div>
+			
+			
+              <div>Views: 77 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-macpherson">Andrew Macpherson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-future-is-a-thing-of-the-past"><img class="list-thumbnail" src="https://i.ytimg.com/vi/trvD7d6O9bI/hqdefault.jpg" alt="Future is a Thing of the Past" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-future-is-a-thing-of-the-past">Future is a Thing of the Past</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 49:51</div>
+			
+			
+              <div>Views: 63 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mitchell-van-wijngaarden">Mitchell van Wijngaarden</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-getting-it-done-with-acquia-pipelines-lightning-blt-content-hub-and-more"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IdIRPmB0K7o/hqdefault.jpg" alt="Getting it done with Acquia: Pipelines, Lightning, BLT, Content Hub, and more" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-getting-it-done-with-acquia-pipelines-lightning-blt-content-hub-and-more">Getting it done with Acquia: Pipelines, Lightning, BLT, Content Hub, and more</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 53:57</div>
+			
+			
+              <div>Views: 197 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cameron-tod">Cameron Tod</a>
+             
+                <a href="/p/will-eisner">Will Eisner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-growing-your-drupal-business-via-strategic-account-management-framework"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o6uU5XCDUd0/hqdefault.jpg" alt="Growing your Drupal Business via Strategic Account Management Framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-growing-your-drupal-business-via-strategic-account-management-framework">Growing your Drupal Business via Strategic Account Management Framework</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 43:43</div>
+			
+			
+              <div>Views: 82 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/piyush-poddar">Piyush Poddar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-guzzle-extraordinary-http-client"><img class="list-thumbnail" src="https://i.ytimg.com/vi/znDRn_lI6Lo/hqdefault.jpg" alt="Guzzle: Extraordinary HTTP Client" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-guzzle-extraordinary-http-client">Guzzle: Extraordinary HTTP Client</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:02:51</div>
+			
+			
+              <div>Views: 162 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rob-allen">Rob Allen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-happiness-is-remote-working"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KjZN0kxEl80/hqdefault.jpg" alt="Happiness is... remote working." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-happiness-is-remote-working">Happiness is... remote working.</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 56:58</div>
+			
+			
+              <div>Views: 183 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anthony-lindsay">Anthony Lindsay</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-al-jazeera-built-a-future-focused-digital-platform-with-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NCx0fx-FWSc/hqdefault.jpg" alt="How Al Jazeera built a future-focused Digital Platform with Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-al-jazeera-built-a-future-focused-digital-platform-with-drupal-8">How Al Jazeera built a future-focused Digital Platform with Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:02:03</div>
+			
+			
+              <div>Views: 262 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mai-irie">Mai Irie</a>
+             
+                <a href="/p/tian-chen">Tian Chen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-do-i-typed-data-in-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v7m6qOxH1t0/hqdefault.jpg" alt="How do I Typed Data in Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-do-i-typed-data-in-drupal-8">How do I Typed Data in Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 49:48</div>
+			
+			
+              <div>Views: 149 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matthew-radcliffe">Matthew Radcliffe</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-is-drupal-8-working-out-for-agencies-a-survey-of-the-marketplace"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2EU3p3wv-w4/hqdefault.jpg" alt="How is Drupal 8 working out for agencies? A survey of the marketplace" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-is-drupal-8-working-out-for-agencies-a-survey-of-the-marketplace">How is Drupal 8 working out for agencies? A survey of the marketplace</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 38:10</div>
+			
+			
+              <div>Views: 627 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-wilding">Ben Wilding</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-our-competitors-are-kicking-drupals-ass-and-what-we-can-do-about-it"><img class="list-thumbnail" src="https://i.ytimg.com/vi/C-sXsu1r4_E/hqdefault.jpg" alt="How our competitors are kicking Drupal's ass (and what we can do about it)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-our-competitors-are-kicking-drupals-ass-and-what-we-can-do-about-it">How our competitors are kicking Drupal's ass (and what we can do about it)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:11:16</div>
+			
+			
+              <div>Views: 2970 Likes: 31</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/angie-byron">Angie Byron</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-to-contribute-to-drupal-minus-code"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eZ9TiiGNJK4/hqdefault.jpg" alt="How to contribute to Drupal minus code?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-to-contribute-to-drupal-minus-code">How to contribute to Drupal minus code?</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 40:18</div>
+			
+			
+              <div>Views: 103 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rakhi-mandhania">Rakhi Mandhania</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-to-create-content-layouts-in-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sdLwuijfU_E/hqdefault.jpg" alt="How to create content layouts in Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-to-create-content-layouts-in-drupal-8">How to create content layouts in Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 54:32</div>
+			
+			
+              <div>Views: 1016 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ingrid-talbot">Ingrid Talbot</a>
+             
+                <a href="/p/josef-dabernig">Josef Dabernig</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-to-deal-with-a-life-of-crazy-and-keep-your-cool-mostly"><img class="list-thumbnail" src="https://i.ytimg.com/vi/A5qXPsbGzWc/hqdefault.jpg" alt="How to deal with a life of crazy and keep your cool, mostly" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-to-deal-with-a-life-of-crazy-and-keep-your-cool-mostly">How to deal with a life of crazy and keep your cool, mostly</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 22:36</div>
+			
+			
+              <div>Views: 105 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/justine-pocock">Justine Pocock</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-to-maximize-your-sponsorship"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XjDZHa2MuV4/hqdefault.jpg" alt="DrupalCon Dublin 2016: How to Maximize Your Sponsorship" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-to-maximize-your-sponsorship">DrupalCon Dublin 2016: How to Maximize Your Sponsorship</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 57:28</div>
+			
+			
+              <div>Views: 78 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-to-say-no-without-actually-saying-no"><img class="list-thumbnail" src="https://i.ytimg.com/vi/d_oymYI3In4/hqdefault.jpg" alt="How to say "No" (Without actually saying "No")" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-how-to-say-no-without-actually-saying-no">How to say "No" (Without actually saying "No")</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 52:20</div>
+			
+			
+              <div>Views: 152 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-brownell">Peter Brownell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-http-for-web-developers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oQUdY6Trvnw/hqdefault.jpg" alt="HTTP For Web Developers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-http-for-web-developers">HTTP For Web Developers</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 55:37</div>
+			
+			
+              <div>Views: 192 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lorna-jane-mitchell">Lorna Jane Mitchell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-http2-what-no-one-is-telling-you"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0yzJAKknE_k/hqdefault.jpg" alt="HTTP/2: what no one is telling you" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-http2-what-no-one-is-telling-you">HTTP/2: what no one is telling you</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 59:44</div>
+			
+			
+              <div>Views: 4050 Likes: 60</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hooman-beheshti">Hooman Beheshti</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-implementing-design-patterns-with-php"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7ZQeYxkNLJg/hqdefault.jpg" alt="Implementing Design Patterns with PHP" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-implementing-design-patterns-with-php">Implementing Design Patterns with PHP</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 57:59</div>
+			
+			
+              <div>Views: 302 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hugo-hamon">Hugo Hamon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-impostor-syndrome-and-individual-competence"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TOws0ZXwgLc/hqdefault.jpg" alt="Impostor Syndrome and Individual Competence" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-impostor-syndrome-and-individual-competence">Impostor Syndrome and Individual Competence</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 32:25</div>
+			
+			
+              <div>Views: 88 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jessica-rose">Jessica Rose</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-improving-the-drupal-contributor-experience"><img class="list-thumbnail" src="https://i.ytimg.com/vi/p4hJ5yEGKPc/hqdefault.jpg" alt="Improving the Drupal Contributor Experience" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-improving-the-drupal-contributor-experience">Improving the Drupal Contributor Experience</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 52:39</div>
+			
+			
+              <div>Views: 116 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/george-demet">George DeMet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-improving-the-responsive-web-design-process-in-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/152J_74KGl0/hqdefault.jpg" alt="Improving the Responsive Web Design Process in 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-improving-the-responsive-web-design-process-in-2016">Improving the Responsive Web Design Process in 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 47:14</div>
+			
+			
+              <div>Views: 446 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cristina-chumillas">Cristina Chumillas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-intuitive-project-management"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HkDVr4j4kSw/hqdefault.jpg" alt="Intuitive Project Management" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-intuitive-project-management">Intuitive Project Management</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 58:32</div>
+			
+			
+              <div>Views: 133 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/molly-byrnes">Molly Byrnes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-javascript-unit-testing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/126XgrDKnFw/hqdefault.jpg" alt="JavaScript Unit Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-javascript-unit-testing">JavaScript Unit Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 40:41</div>
+			
+			
+              <div>Views: 82 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matthew-grill">Matthew Grill</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-jenkins-2-pipelines-as-a-continuous-integration-platform-for-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Dlqv42EiZ1s/hqdefault.jpg" alt="Jenkins 2 pipelines as a Continuous Integration platform for Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-jenkins-2-pipelines-as-a-continuous-integration-platform-for-drupal">Jenkins 2 pipelines as a Continuous Integration platform for Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 59:49</div>
+			
+			
+              <div>Views: 209 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aleksey-tkachenko">Aleksey Tkachenko</a>
+             
+                <a href="/p/alexander-tolstikov">Alexander Toldtikov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-keynote-driesnote"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eQLzrlMeySU/hqdefault.jpg" alt="DrupalCon Dublin 2016: Keynote - Driesnote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-keynote-driesnote">DrupalCon Dublin 2016: Keynote - Driesnote</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:29:47</div>
+			
+			
+              <div>Views: 5441 Likes: 69</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-keynote-emer-coleman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mNLNtmVdfws/hqdefault.jpg" alt="DrupalCon Dublin 2016: Keynote - Emer Coleman" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-keynote-emer-coleman">DrupalCon Dublin 2016: Keynote - Emer Coleman</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 41:34</div>
+			
+			
+              <div>Views: 421 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-launching-online-stores-with-commerce-2x-on-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/D9nBCP_tPlQ/hqdefault.jpg" alt="Launching online stores with Commerce 2.x on Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-launching-online-stores-with-commerce-2x-on-drupal-8">Launching online stores with Commerce 2.x on Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:02:30</div>
+			
+			
+              <div>Views: 1525 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-glaman">Matt Glaman</a>
+             
+                <a href="/p/ryan-szrama">Ryan Szrama</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-leading-healthy-teams"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_FsZoez6U_M/hqdefault.jpg" alt="Leading Healthy Teams" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-leading-healthy-teams">Leading Healthy Teams</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 58:10</div>
+			
+			
+              <div>Views: 156 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-parks">Steve Parks</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-learn-the-new-things-in-drupal-8-via-debugging"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b6AYtvrznmM/hqdefault.jpg" alt="Learn the new things in Drupal 8 via debugging" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-learn-the-new-things-in-drupal-8-via-debugging">Learn the new things in Drupal 8 via debugging</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 41:34</div>
+			
+			
+              <div>Views: 223 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eduardo-enzo-garcia">enzo -Eduardo Garcia</a>
+             
+                <a href="/p/jesus-manuel-olivas">Jesus Manuel Olivas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-let-me-help-you-help-me-selfish-empowerment-of-others"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4B4qH0l7ywU/hqdefault.jpg" alt="Let me help you help me - Selfish empowerment of others" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-let-me-help-you-help-me-selfish-empowerment-of-others">Let me help you help me - Selfish empowerment of others</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 42:45</div>
+			
+			
+              <div>Views: 45 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/josef-dabernig">Josef Dabernig</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-let-the-machines-do-the-work"><img class="list-thumbnail" src="https://i.ytimg.com/vi/f6v3fqrKV6Q/hqdefault.jpg" alt="Let the Machines do the Work" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-let-the-machines-do-the-work">Let the Machines do the Work</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 37:53</div>
+			
+			
+              <div>Views: 194 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-hall">Dave Hall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-lighting-talks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AoSmW_vica8/hqdefault.jpg" alt="Lighting Talks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-lighting-talks">Lighting Talks</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 44:57</div>
+			
+			
+              <div>Views: 135 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gary-hockin">Gary Hockin</a>
+             
+                <a href="/p/kresten-wiingaard">Kresten Wiingaard</a>
+             
+                <a href="/p/daniel-kanchev">Daniel Kanchev</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-manage-over-500-duty-free-boutiques-all-around-the-world-with-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CDyN2DllKKQ/hqdefault.jpg" alt="Manage over 500 duty free boutiques all around the world with Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-manage-over-500-duty-free-boutiques-all-around-the-world-with-drupal">Manage over 500 duty free boutiques all around the world with Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 44:52</div>
+			
+			
+              <div>Views: 69 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maxime-topolov">Maxime Topolov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-managing-an-agile-team-of-internal-and-external-partners"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LZWWGKqzG6w/hqdefault.jpg" alt="Managing an agile team of internal and external partners" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-managing-an-agile-team-of-internal-and-external-partners">Managing an agile team of internal and external partners</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 51:04</div>
+			
+			
+              <div>Views: 110 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tassos-koutlas">Tassos Koutlas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-mastering-dependency-injection-in-d8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WjRdgWeKnsE/hqdefault.jpg" alt="Mastering Dependency Injection in D8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-mastering-dependency-injection-in-d8">Mastering Dependency Injection in D8</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 59:10</div>
+			
+			
+              <div>Views: 215 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicolas-grekas">Nicolas Grekas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-midcamp-madness-and-planning-human-centered-events"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QaBkXhZN740/hqdefault.jpg" alt="MidCamp madness and planning human-centered events" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-midcamp-madness-and-planning-human-centered-events">MidCamp madness and planning human-centered events</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 49:23</div>
+			
+			
+              <div>Views: 51 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/avi-schwab">Avi Schwab</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-multi-media-asset-management-in-core"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yx4jjtL8LTk/hqdefault.jpg" alt="Multi-media asset management in core" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-multi-media-asset-management-in-core">Multi-media asset management in core</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 59:54</div>
+			
+			
+              <div>Views: 506 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/janez-urevc">Janez Urevc</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-multilingual-in-a-month-how-lingotek-drupal-made-it-happen-for-inin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QFsP8JT98_s/hqdefault.jpg" alt="Multilingual in a Month! How Lingotek & Drupal Made it Happen for ININ" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-multilingual-in-a-month-how-lingotek-drupal-made-it-happen-for-inin">Multilingual in a Month! How Lingotek & Drupal Made it Happen for ININ</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 32:09</div>
+			
+			
+              <div>Views: 67 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/clark-fuller">Clark Fuller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-no-compromises-react-relay-and-graphql-on-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yhyoQwuSUWo/hqdefault.jpg" alt="No compromises – React, Relay and GraphQL on Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-no-compromises-react-relay-and-graphql-on-drupal-8">No compromises – React, Relay and GraphQL on Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 58:56</div>
+			
+			
+              <div>Views: 621 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/moshe-weitzman">Moshe Weitzman</a>
+             
+                <a href="/p/campbell-vertesi">Campbell Vertesi</a>
+             
+                <a href="/p/sebastian-siemssen">Sebastian Siemssen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-offline-first"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HognhYc62Jk/hqdefault.jpg" alt="Offline First" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-offline-first">Offline First</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 43:05</div>
+			
+			
+              <div>Views: 111 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/erik-erskine">Erik Erskine</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-one-size-fits-all-usability-for-site-builders-and-administrators"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UX5583FH2jE/hqdefault.jpg" alt="One size fits all? Usability for site builders and administrators" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-one-size-fits-all-usability-for-site-builders-and-administrators">One size fits all? Usability for site builders and administrators</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 59:01</div>
+			
+			
+              <div>Views: 61 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/antje-lorch">Antje Lorch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-origin-edge-client-where-to-do-the-work"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lt4XOqa_yMI/hqdefault.jpg" alt="Origin, Edge, Client: Where to do the work?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-origin-edge-client-where-to-do-the-work">Origin, Edge, Client: Where to do the work?</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 37:39</div>
+			
+			
+              <div>Views: 69 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-davis">Matt Davis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-people-metrics-how-to-use-team-data-to-produce-positive-change"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7XcyS334qQ0/hqdefault.jpg" alt="People Metrics: How to Use Team Data to Produce Positive Change" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-people-metrics-how-to-use-team-data-to-produce-positive-change">People Metrics: How to Use Team Data to Produce Positive Change</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 56:41</div>
+			
+			
+              <div>Views: 131 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amin-astaneh">Amin Astaneh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-php-fig-a-part-of-a-balanced-php-diet"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hPLYSuyqVI0/hqdefault.jpg" alt="PHP-FIG: A part of a balanced PHP diet" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-php-fig-a-part-of-a-balanced-php-diet">PHP-FIG: A part of a balanced PHP diet</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:02:45</div>
+			
+			
+              <div>Views: 94 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/larry-garfield">Larry Garfield</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-plans-are-useless-but-planning-is-indispensable"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rxet4bPb1NM/hqdefault.jpg" alt="Plans are useless, but planning is indispensable." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-plans-are-useless-but-planning-is-indispensable">Plans are useless, but planning is indispensable.</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 49:09</div>
+			
+			
+              <div>Views: 176 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-eddings">Sean Eddings</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-practical-caching-in-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gkATpbhecPw/hqdefault.jpg" alt="Practical Caching in Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-practical-caching-in-drupal-8">Practical Caching in Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:01:26</div>
+			
+			
+              <div>Views: 283 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alexei-gorobets">Alexei Gorobets</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-prenote-is-the-pot-of-gold-in-scope"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FEklYAeQ0nU/hqdefault.jpg" alt="DrupalCon Dublin 2016: PRENOTE - IS THE POT OF GOLD IN SCOPE?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-prenote-is-the-pot-of-gold-in-scope">DrupalCon Dublin 2016: PRENOTE - IS THE POT OF GOLD IN SCOPE?</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 33:28</div>
+			
+			
+              <div>Views: 629 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-react-front-end-for-your-drupal-8-back-end"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aoQzbhgxmcg/hqdefault.jpg" alt="React Front-end For Your Drupal 8 Back-end" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-react-front-end-for-your-drupal-8-back-end">React Front-end For Your Drupal 8 Back-end</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 42:28</div>
+			
+			
+              <div>Views: 769 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bassam-ismail">Bassam Ismail</a>
+             
+                <a href="/p/aliya-khan">Aliya Khan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-restelfi-built-by-humans-for-humans"><img class="list-thumbnail" src="https://i.ytimg.com/vi/l5_5TaV2bwo/hqdefault.jpg" alt="Restel.fi: built by humans, for humans" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-restelfi-built-by-humans-for-humans">Restel.fi: built by humans, for humans</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 51:53</div>
+			
+			
+              <div>Views: 187 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bart-feenstra">Bart Feenstra</a>
+             
+                <a href="/p/jonna-tiainen">Jonna Tiainen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-ride-the-whale-docker-for-drupalists"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DevIohAnkDI/hqdefault.jpg" alt="Ride the Whale! Docker for Drupalists" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-ride-the-whale-docker-for-drupalists">Ride the Whale! Docker for Drupalists</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 59:20</div>
+			
+			
+              <div>Views: 996 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tess-flynn">Tess Flynn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-routing-in-drupal-9-and-lessons-learned-in-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-a2zsX0QrX0/hqdefault.jpg" alt="Routing in Drupal 9, and lessons learned in Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-routing-in-drupal-9-and-lessons-learned-in-drupal-8">Routing in Drupal 9, and lessons learned in Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 56:47</div>
+			
+			
+              <div>Views: 130 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-wolanin">Peter Wolanin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-scalable-javascript-architecture"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EAbGkIucYpg/hqdefault.jpg" alt="Scalable JavaScript architecture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-scalable-javascript-architecture">Scalable JavaScript architecture</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:03:52</div>
+			
+			
+              <div>Views: 157 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/frank-baele">Frank Baele</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-scale-a-drupalshop-from-1meur-to-12meur-of-revenue"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ih37HbceY5Q/hqdefault.jpg" alt="Scale a Drupalshop from 1M€ to 12M€ of revenue" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-scale-a-drupalshop-from-1meur-to-12meur-of-revenue">Scale a Drupalshop from 1M€ to 12M€ of revenue</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 56:33</div>
+			
+			
+              <div>Views: 220 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maxime-topolov">Maxime Topolov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-search-and-beyond-with-elasticsearch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ioxuWdmzrT0/hqdefault.jpg" alt="Search and beyond with Elasticsearch" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-search-and-beyond-with-elasticsearch">Search and beyond with Elasticsearch</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 50:47</div>
+			
+			
+              <div>Views: 238 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/florian-loretan">Florian Loretan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-search-api-ecosystem-in-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/raPD9BNQqoE/hqdefault.jpg" alt="DrupalCon Dublin 2016: Search API ecosystem in drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-search-api-ecosystem-in-drupal-8">DrupalCon Dublin 2016: Search API ecosystem in drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 44:18</div>
+			
+			
+              <div>Views: 245 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-self-managing-organizations-teal-and-holacracy-in-practice-one-year-later"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_gWnDQbmUY8/hqdefault.jpg" alt="Self managing organizations, Teal and Holacracy in practice - one year later" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-self-managing-organizations-teal-and-holacracy-in-practice-one-year-later">Self managing organizations, Teal and Holacracy in practice - one year later</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:03:46</div>
+			
+			
+              <div>Views: 156 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tonio-zemp">Tonio Zemp</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-sitebuild-speedrun-with-panels-media-and-many-more"><img class="list-thumbnail" src="https://i.ytimg.com/vi/m0Mqdr7Ark8/hqdefault.jpg" alt="Sitebuild Speedrun with Panels, Media and many more" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-sitebuild-speedrun-with-panels-media-and-many-more">Sitebuild Speedrun with Panels, Media and many more</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 58:50</div>
+			
+			
+              <div>Views: 757 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/phena-proxima">Phéna Proxima</a>
+             
+                <a href="/p/john-kennedy">John Kennedy</a>
+             
+                <a href="/p/adam-balsam">Adam Balsam</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-spatial-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fX4vT0KBAl8/hqdefault.jpg" alt="DrupalCon Dublin 2016: Spatial Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-spatial-drupal">DrupalCon Dublin 2016: Spatial Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 41:02</div>
+			
+			
+              <div>Views: 102 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/floris-van-geel">Floris van Geel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-sre-create-ultra-scalable-and-highly-reliable-systems"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4DWXv9zyIGg/hqdefault.jpg" alt="S.R.E. - create ultra-scalable and highly reliable systems" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-sre-create-ultra-scalable-and-highly-reliable-systems">S.R.E. - create ultra-scalable and highly reliable systems</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 47:34</div>
+			
+			
+              <div>Views: 92 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ricardo-amaro">Ricardo Amaro</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-stream-your-way-to-success-bigpipe-refreshless-esi-ajax-and-more"><img class="list-thumbnail" src="https://i.ytimg.com/vi/boW7pOOHmw4/hqdefault.jpg" alt="Stream your way to Success: BigPipe, Refreshless, ESI, AJAX and more" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-stream-your-way-to-success-bigpipe-refreshless-esi-ajax-and-more">Stream your way to Success: BigPipe, Refreshless, ESI, AJAX and more</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 51:51</div>
+			
+			
+              <div>Views: 192 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fabian-franz">Fabian Franz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-streamlined-front-end-development-with-pattern-lab-and-twig"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Og0ICdASO_Y/hqdefault.jpg" alt="Streamlined Front-end Development with Pattern Lab and Twig" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-streamlined-front-end-development-with-pattern-lab-and-twig">Streamlined Front-end Development with Pattern Lab and Twig</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 53:47</div>
+			
+			
+              <div>Views: 677 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chaz-chumley">Chaz Chumley</a>
+             
+                <a href="/p/adam-juran">Adam Juran</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-structure-for-creativity"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MgNq-Twehvc/hqdefault.jpg" alt="Structure for Creativity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-structure-for-creativity">Structure for Creativity</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 52:43</div>
+			
+			
+              <div>Views: 194 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mads-thines">Mads Thines</a>
+             
+                <a href="/p/janne-bjorsted">Janne Bjorsted</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-super-collaborative-design-processes-for-teams"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X2fUDYcGc4A/hqdefault.jpg" alt="DrupalCon Dublin 2016: Super Collaborative Design Processes for Teams" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-super-collaborative-design-processes-for-teams">DrupalCon Dublin 2016: Super Collaborative Design Processes for Teams</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 38:03</div>
+			
+			
+              <div>Views: 95 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lewis-nyman">Lewis Nyman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-survive-thrive-and-stay-alive-small-business-secrets"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oXOY3jzrk2w/hqdefault.jpg" alt="Survive, Thrive, and Stay Alive? Small business secrets." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-survive-thrive-and-stay-alive-small-business-secrets">Survive, Thrive, and Stay Alive? Small business secrets.</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 39:34</div>
+			
+			
+              <div>Views: 89 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/donna-benjamin">Donna Benjamin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-testing-your-code-as-part-of-an-industrial-grade-workflow"><img class="list-thumbnail" src="https://i.ytimg.com/vi/d9oCjnTQC7I/hqdefault.jpg" alt="Testing Your Code as Part of an Industrial Grade Workflow" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-testing-your-code-as-part-of-an-industrial-grade-workflow">Testing Your Code as Part of an Industrial Grade Workflow</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 46:29</div>
+			
+			
+              <div>Views: 108 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-cheney">Matt Cheney</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-the-3-phases-of-successful-open-software-companies"><img class="list-thumbnail" src="https://i.ytimg.com/vi/q06RA9Vsqnc/hqdefault.jpg" alt="The 3 phases of successful open software companies" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-the-3-phases-of-successful-open-software-companies">The 3 phases of successful open software companies</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:00:25</div>
+			
+			
+              <div>Views: 199 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/taco-potze">Taco Potze</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-the-dating-game-pm-methodology-panel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/E5tBO6uajlU/hqdefault.jpg" alt="The Dating Game: PM Methodology Panel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-the-dating-game-pm-methodology-panel">The Dating Game: PM Methodology Panel</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 56:49</div>
+			
+			
+              <div>Views: 113 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeffrey-a-mcguire">Jeffrey A. McGuire</a>
+             
+                <a href="/p/jenn-sramek">Jenn Sramek</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-the-imposter-monologues"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5TaJnKY_WtE/hqdefault.jpg" alt="The Imposter Monologues" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-the-imposter-monologues">The Imposter Monologues</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 56:03</div>
+			
+			
+              <div>Views: 161 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-hwang">David Hwang</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-the-state-of-hooking-into-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kkxeuGl25MQ/hqdefault.jpg" alt="The state of hooking into Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-the-state-of-hooking-into-drupal">The state of hooking into Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 54:25</div>
+			
+			
+              <div>Views: 319 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nida-ismail-shah">Nida Ismail Shah</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-the-views-field-plugin-in-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/unBTKZMPphU/hqdefault.jpg" alt="The views field plugin in Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-the-views-field-plugin-in-drupal-8">The views field plugin in Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 28:13</div>
+			
+			
+              <div>Views: 196 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jibran-ijaz">Jibran Ijaz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-the-weather-company-as-an-inspiration-to-extend-tmgmt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dOjCHxjdF18/hqdefault.jpg" alt="The Weather Company as an inspiration to extend TMGMT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-the-weather-company-as-an-inspiration-to-extend-tmgmt">The Weather Company as an inspiration to extend TMGMT</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 41:12</div>
+			
+			
+              <div>Views: 82 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-to-cdn-and-beyond-speed-up-websites-beyond-the-us-and-europe"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zBbzuit2IoA/hqdefault.jpg" alt="To CDN and beyond! Speed up websites beyond the US and Europe" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-to-cdn-and-beyond-speed-up-websites-beyond-the-us-and-europe">To CDN and beyond! Speed up websites beyond the US and Europe</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 37:30</div>
+			
+			
+              <div>Views: 84 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bastian-widmer">Bastian Widmer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-to-specialise-or-not-to-specialise"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HkBMWvC0ESY/hqdefault.jpg" alt="To specialise or not to specialise" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-to-specialise-or-not-to-specialise">To specialise or not to specialise</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 55:54</div>
+			
+			
+              <div>Views: 132 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michel-van-velde">Michel van Velde</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-transitioning-to-fixed-teams"><img class="list-thumbnail" src="https://i.ytimg.com/vi/f2f8ctZdomg/hqdefault.jpg" alt="Transitioning to fixed teams" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-transitioning-to-fixed-teams">Transitioning to fixed teams</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 57:10</div>
+			
+			
+              <div>Views: 123 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mieszko-czyzyk">Mieszko Czyzyk</a>
+             
+                <a href="/p/evelien-schut">Evelien Schut</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-using-scrum-agile-in-remote-development"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4ElsrcFzPXk/hqdefault.jpg" alt="Using scrum agile in remote development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-using-scrum-agile-in-remote-development">Using scrum agile in remote development</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:06:59</div>
+			
+			
+              <div>Views: 112 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kasper-myram">Kasper Myram</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-varnish-and-vcl-beyond-copypaste-from-the-internet"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XZa0FikMcnE/hqdefault.jpg" alt="Varnish and VCL: Beyond copy/paste from the internet" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-varnish-and-vcl-beyond-copypaste-from-the-internet">Varnish and VCL: Beyond copy/paste from the internet</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 01:01:26</div>
+			
+			
+              <div>Views: 117 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-porter">David Porter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-web-user-experience-in-2021"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7cbiEHCw8Ks/hqdefault.jpg" alt="Web User Experience in 2021" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-web-user-experience-in-2021">Web User Experience in 2021</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 47:19</div>
+			
+			
+              <div>Views: 123 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/drew-gorton">Drew Gorton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-what-your-database-query-is-really-doing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IRNQwmPlw6Y/hqdefault.jpg" alt="What Your Database Query Is Really Doing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-what-your-database-query-is-really-doing">What Your Database Query Is Really Doing</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 49:11</div>
+			
+			
+              <div>Views: 88 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-stokes">David Stokes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-when-good-is-good-enough-how-perfectionism-is-holding-you-back"><img class="list-thumbnail" src="https://i.ytimg.com/vi/y606JlLdvPU/hqdefault.jpg" alt="When "Good" Is Good Enough: How Perfectionism Is Holding You Back" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-when-good-is-good-enough-how-perfectionism-is-holding-you-back">When "Good" Is Good Enough: How Perfectionism Is Holding You Back</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 41:50</div>
+			
+			
+              <div>Views: 141 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/derek-deraps">Derek DeRaps</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-where-to-next-with-migrate"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BIzqUTM7-0A/hqdefault.jpg" alt="Where to next with Migrate" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-where-to-next-with-migrate">Where to next with Migrate</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 52:58</div>
+			
+			
+              <div>Views: 85 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-dougherty">Ben Dougherty</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-who-cares-about-drupal-how-to-win-the-hearts-and-minds-of-businesses"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mwEx2wLbnsg/hqdefault.jpg" alt="Who cares about Drupal? How to win the hearts and minds of businesses" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-who-cares-about-drupal-how-to-win-the-hearts-and-minds-of-businesses">Who cares about Drupal? How to win the hearts and minds of businesses</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 47:33</div>
+			
+			
+              <div>Views: 103 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/imre-gmelig-meijling">Imre Gmelig Meijling</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-why-estimations-go-wrong-and-how-to-avoid-it"><img class="list-thumbnail" src="https://i.ytimg.com/vi/W5Rrjo5YVfc/hqdefault.jpg" alt="Why estimations go wrong and how to avoid it" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-why-estimations-go-wrong-and-how-to-avoid-it">Why estimations go wrong and how to avoid it</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 47:17</div>
+			
+			
+              <div>Views: 151 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pamela-barone">Pamela Barone</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-workbench-for-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ff-dQyRYvtU/hqdefault.jpg" alt="Workbench for Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-workbench-for-drupal-8">Workbench for Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 59:20</div>
+			
+			
+              <div>Views: 380 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ken-rickard">Ken Rickard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-workflow-initiative"><img class="list-thumbnail" src="https://i.ytimg.com/vi/m5y9vKQL6Q8/hqdefault.jpg" alt="Workflow Initiative" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-dublin-2016/drupalcon-dublin-2016-workflow-initiative">Workflow Initiative</a></h4>
+          <footer>
+            <div class="recorded">2016-09-26</div>
+			
+			  <div>Length: 48:01</div>
+			
+			
+              <div>Views: 221 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-dublin-2016">DrupalCon Dublin 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dick-olsson">Dick Olsson</a>
+             
+                <a href="/p/tim-millwood">Tim Millwood</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLpeDXSh4nHjQAM63-KW_8x_qEB-dio1tA">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>React.js Conf 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>React.js Conf 2016</h1>
+
+<div><a href="http://conf.reactjs.com/">React.js Conf 2016</a></div>
+
+
+<div>Start date: 2016-02-22</div>
+<div>End date: 2016-02-23</div>
+
+<div>Location:
+  San Francisco
+  California
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://conf.reactjs.com/code-of-conduct.html">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/react">React</a> 
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/web">web</a> 
+   
+</div>
+
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=React.js%20Conf%202016%20on%202016-02-22%20in%20San%20Francisco%2C%20California%20USA%20http%3A//conf.reactjs.com/%20%23React%20%23JavaScript%20%23web%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-aditya-punjani-building-a-progressive-web-app"><img class="list-thumbnail" src="https://i.ytimg.com/vi/m2tvYGCdOzs/hqdefault.jpg" alt="Building a Progressive Web App" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-aditya-punjani-building-a-progressive-web-app">Building a Progressive Web App</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 20:49</div>
+			
+			
+              <div>Views: 17269 Likes: 240</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aditya-punjani">Aditya Punjani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-andrew-clark-back-to-react"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZVYVtUFDf28/hqdefault.jpg" alt="Back to React" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-andrew-clark-back-to-react">Back to React</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 35:00</div>
+			
+			
+              <div>Views: 8376 Likes: 64</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-clark">Andrew Clark</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-ben-alpert-what-lies-ahead"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-RJf2jYzs8A/hqdefault.jpg" alt="What Lies Ahead" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-ben-alpert-what-lies-ahead">What Lies Ahead</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 27:45</div>
+			
+			
+              <div>Views: 31155 Likes: 273</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-alpert">Ben Alpert</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-bhuwan-khattar-speeding-up-startup-for-large-react-apps"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SnAq9tbeRm4/hqdefault.jpg" alt="Speeding up Startup for Large React Apps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-bhuwan-khattar-speeding-up-startup-for-large-react-apps">Speeding up Startup for Large React Apps</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 31:21</div>
+			
+			
+              <div>Views: 10336 Likes: 70</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bhuwan-khattar">Bhuwan Khattar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-eric-florenzano-react-meet-virtual-reality"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ty2bFeOdGeI/hqdefault.jpg" alt="React, Meet Virtual Reality" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-eric-florenzano-react-meet-virtual-reality">React, Meet Virtual Reality</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 30:08</div>
+			
+			
+              <div>Views: 9000 Likes: 80</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eric-florenzano">Eric Florenzano</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-gaetan-renaudeau-universal-gl-effects-for-web-and-native"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Xnqy_zkBAew/hqdefault.jpg" alt="React.js Conf 2016 - Gaetan Renaudeau - Universal GL Effects for Web and Native" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-gaetan-renaudeau-universal-gl-effects-for-web-and-native">React.js Conf 2016 - Gaetan Renaudeau - Universal GL Effects for Web and Native</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 28:47</div>
+			
+			
+              <div>Views: 5676 Likes: 40</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gaetan-renaudeau">Gaetan Renaudeau</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-helena-milosevic-demystifying-tech-recruiting"><img class="list-thumbnail" src="https://i.ytimg.com/vi/N233T0epWTs/hqdefault.jpg" alt="Demystifying Tech Recruiting" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-helena-milosevic-demystifying-tech-recruiting">Demystifying Tech Recruiting</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 19:57</div>
+			
+			
+              <div>Views: 12690 Likes: 96</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/helena-milosevic">Helena Milosevic</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-isaac-salier-hellendag-rich-text-editing-with-react"><img class="list-thumbnail" src="https://i.ytimg.com/vi/feUYwoLhE_4/hqdefault.jpg" alt="Rich Text Editing with React" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-isaac-salier-hellendag-rich-text-editing-with-react">Rich Text Editing with React</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 25:13</div>
+			
+			
+              <div>Views: 29944 Likes: 349</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/isaac-salier-hellendag">Isaac Salier-Hellendag</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-james-ide-team-x-technology"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2Zthnq-hIXA/hqdefault.jpg" alt="Team × Technology" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-james-ide-team-x-technology">Team × Technology</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 23:09</div>
+			
+			
+              <div>Views: 7670 Likes: 44</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-ide">James Ide</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-jamison-dance-rethinking-all-practices-building-applications-in-elm"><img class="list-thumbnail" src="https://i.ytimg.com/vi/txxKx_I39a8/hqdefault.jpg" alt="Rethinking All Practices: Building Applications in Elm" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-jamison-dance-rethinking-all-practices-building-applications-in-elm">Rethinking All Practices: Building Applications in Elm</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 29:07</div>
+			
+			
+              <div>Views: 21149 Likes: 438</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jamison-dance">Jamison Dance</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-jared-forsyth-redux-re-frame-relay-omnext-oh-my"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-jwQ3sGoiXg/hqdefault.jpg" alt="Redux, Re-frame, Relay, Om/next, oh my!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-jared-forsyth-redux-re-frame-relay-omnext-oh-my">Redux, Re-frame, Relay, Om/next, oh my!</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 21:32</div>
+			
+			
+              <div>Views: 18172 Likes: 231</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jared-forsyth">Jared Forsyth</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-keith-poplawski-how-to-use-react-in-a-wedding-gift-without-being-a-bad-friend"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GnIrNYtmRDg/hqdefault.jpg" alt="How To Use React In A Wedding Gift Without Being A Bad Friend" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-keith-poplawski-how-to-use-react-in-a-wedding-gift-without-being-a-bad-friend">How To Use React In A Wedding Gift Without Being A Bad Friend</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 25:45</div>
+			
+			
+              <div>Views: 8287 Likes: 62</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/keith-poplawski">Keith Poplawski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talk-scott-kyle"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JyGFTGEFn-A/hqdefault.jpg" alt="Lightning Talk - Scott Kyle" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talk-scott-kyle">Lightning Talk - Scott Kyle</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 05:57</div>
+			
+			
+              <div>Views: 4432 Likes: 29</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/scott-kyle">Scott Kyle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-adam-wolff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n4Hn1kdgd5g/hqdefault.jpg" alt="Lightning Talks - Adam Wolff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-adam-wolff">Lightning Talks - Adam Wolff</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 07:51</div>
+			
+			
+              <div>Views: 2571 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-wolff">Adam Wolff</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-andres-suarez"><img class="list-thumbnail" src="https://i.ytimg.com/vi/f1Sj48rJE3I/hqdefault.jpg" alt="React.js Conf 2016 - Lightning Talks - Andres Suarez" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-andres-suarez">React.js Conf 2016 - Lightning Talks - Andres Suarez</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 05:32</div>
+			
+			
+              <div>Views: 6907 Likes: 67</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andres-suarez">Andres Suarez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-andy-matuschak"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uBYPqb83C7k/hqdefault.jpg" alt="Joined boundaries: Gestures, Graphs, Gaffes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-andy-matuschak">Joined boundaries: Gestures, Graphs, Gaffes</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 06:41</div>
+			
+			
+              <div>Views: 9663 Likes: 143</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andy-matuschak">Andy Matuschak</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-cole-voss"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TZF_6cQmvg0/hqdefault.jpg" alt="Lightning Talks - Cole Voss" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-cole-voss">Lightning Talks - Cole Voss</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 04:28</div>
+			
+			
+              <div>Views: 2394 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cole-voss">Cole Voss</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-devon-lindsey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EUjQB3I53iI/hqdefault.jpg" alt="Lightning Talks - Devon Lindsey" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-devon-lindsey">Lightning Talks - Devon Lindsey</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 05:18</div>
+			
+			
+              <div>Views: 4258 Likes: 61</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/devon-lindsey">Devon Lindsey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-elie-rotenberg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n63XXHY4A7I/hqdefault.jpg" alt="Lightning Talks - Elie Rotenberg" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-elie-rotenberg">Lightning Talks - Elie Rotenberg</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 04:40</div>
+			
+			
+              <div>Views: 2845 Likes: 40</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/elie-rotenberg">Elie Rotenberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-eric-sauter"><img class="list-thumbnail" src="https://i.ytimg.com/vi/impQkQOCbMw/hqdefault.jpg" alt="Lightning Talks - Eric Sauter" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-eric-sauter">Lightning Talks - Eric Sauter</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 05:21</div>
+			
+			
+              <div>Views: 2615 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eric-sauter">Eric Sauter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-eric-vlad-vicenti"><img class="list-thumbnail" src="https://i.ytimg.com/vi/09ddrCaLo10/hqdefault.jpg" alt="Lightning Talks - Eric Vlad Vicenti" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-eric-vlad-vicenti">Lightning Talks - Eric Vlad Vicenti</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 05:25</div>
+			
+			
+              <div>Views: 4629 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eric-vlad-vicenti">Eric Vlad Vicenti</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-gabe-scholz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Zx4mmvMaAUk/hqdefault.jpg" alt="Lightning Talks - Gabe Scholz" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-gabe-scholz">Lightning Talks - Gabe Scholz</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 05:45</div>
+			
+			
+              <div>Views: 3333 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gabe-scholz">Gabe Scholz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-jake-taylor"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LdUJokEcA4I/hqdefault.jpg" alt="React.js Conf 2016 - Lightning Talks - Jake Taylor" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-jake-taylor">React.js Conf 2016 - Lightning Talks - Jake Taylor</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 05:19</div>
+			
+			
+              <div>Views: 3618 Likes: 29</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jake-taylor">Jake Taylor</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-ken-wheeler"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gC6tR4Udrzw/hqdefault.jpg" alt="Lightning Talks -  Ken Wheeler" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-ken-wheeler">Lightning Talks -  Ken Wheeler</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 06:09</div>
+			
+			
+              <div>Views: 3279 Likes: 24</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ken-wheeler">Ken Wheeler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-kyle-matthews"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RFkNRKL6ZoE/hqdefault.jpg" alt="Lightning Talks - Kyle Matthews" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-kyle-matthews">Lightning Talks - Kyle Matthews</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 06:14</div>
+			
+			
+              <div>Views: 3903 Likes: 33</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kyle-matthews">Kyle Matthews</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-leland-richardson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/V5N0Ukb8LGg/hqdefault.jpg" alt="Lightning Talks - Leland Richardson" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-leland-richardson">Lightning Talks - Leland Richardson</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 05:17</div>
+			
+			
+              <div>Views: 6322 Likes: 62</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/leland-richardson">Leland Richardson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-maria-hollweck"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Zoerbz5Mu5U/hqdefault.jpg" alt="Lightning Talks - Maria Hollweck" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-maria-hollweck">Lightning Talks - Maria Hollweck</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 04:07</div>
+			
+			
+              <div>Views: 3997 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maria-hollweck">Maria Hollweck</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-nicolas-gallagher"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RBg2_uQE4KM/hqdefault.jpg" alt="Lightning Talks - Nicolas Gallagher" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-nicolas-gallagher">Lightning Talks - Nicolas Gallagher</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 05:29</div>
+			
+			
+              <div>Views: 5498 Likes: 44</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicolas-gallagher">Nicolas Gallagher</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-nikolay-bachiyski"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2YHtnuvfeaM/hqdefault.jpg" alt="Lightning Talks - Nikolay Bachiyski" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-nikolay-bachiyski">Lightning Talks - Nikolay Bachiyski</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 05:34</div>
+			
+			
+              <div>Views: 2367 Likes: 27</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nikolay-bachiyski">Nikolay Bachiyski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-vivek-patel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KNGj8Y0J01Q/hqdefault.jpg" alt="Lightning Talks - Vivek Patel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-vivek-patel">Lightning Talks - Vivek Patel</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 04:37</div>
+			
+			
+              <div>Views: 4306 Likes: 25</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vivek-patel">Vivek Patel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-vivian-cromwell"><img class="list-thumbnail" src="https://i.ytimg.com/vi/d3VVfA9hWjc/hqdefault.jpg" alt="React Native Infinite List Done Right" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-vivian-cromwell">React Native Infinite List Done Right</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 6:08</div>
+			
+			
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vivian-cromwell">Vivian Cromwell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-zak-el-fassi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wuLKELLuwVk/hqdefault.jpg" alt="Lightning Talks - Zak El Fassi" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lightning-talks-zak-el-fassi">Lightning Talks - Zak El Fassi</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 05:31</div>
+			
+			
+              <div>Views: 4422 Likes: 33</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/zak-el-fassi">Zak El Fassi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-lin-clark-a-cartoon-guide-to-the-wilds-of-data-handling"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WIqbzHdEPVM/hqdefault.jpg" alt="A Cartoon Guide to the Wilds of Data Handling" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-lin-clark-a-cartoon-guide-to-the-wilds-of-data-handling">A Cartoon Guide to the Wilds of Data Handling</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 24:39</div>
+			
+			
+              <div>Views: 18086 Likes: 158</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lin-clark">Lin Clark</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-nick-schrock-keynote"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MGuKhcnrqGA/hqdefault.jpg" alt="Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-nick-schrock-keynote">Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 29:48</div>
+			
+			
+              <div>Views: 49669 Likes: 294</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-schrock">Nick Schrock</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-parashuram-n-web-like-release-agility-for-native-apps"><img class="list-thumbnail" src="https://i.ytimg.com/vi/B8J8xn3pLpk/hqdefault.jpg" alt="React.js Conf 2016 - Parashuram N - Web-like Release Agility for Native Apps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-parashuram-n-web-like-release-agility-for-native-apps">React.js Conf 2016 - Parashuram N - Web-like Release Agility for Native Apps</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 15:28</div>
+			
+			
+              <div>Views: 8336 Likes: 66</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-steve-mcguire-performance-without-compromise"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kDARP5QZ6nU/hqdefault.jpg" alt="Performance Without Compromise" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-steve-mcguire-performance-without-compromise">Performance Without Compromise</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 25:21</div>
+			
+			
+              <div>Views: 5710 Likes: 47</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-mcguire">Steve McGuire</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-syrus-akbary-a-graphql-framework-in-non-js-servers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RNoyPSrQyPs/hqdefault.jpg" alt="A GraphQL Framework in Non-JS Servers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-syrus-akbary-a-graphql-framework-in-non-js-servers">A GraphQL Framework in Non-JS Servers</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 21:33</div>
+			
+			
+              <div>Views: 4965 Likes: 54</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/syrus-akbary">Syrus Akbary</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2016/reactjs-conf-2016-tadeu-zagallo-optimising-react-native-tools-and-tips"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0MlT74erp60/hqdefault.jpg" alt="Optimising React Native: Tools and Tips" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2016/reactjs-conf-2016-tadeu-zagallo-optimising-react-native-tools-and-tips">Optimising React Native: Tools and Tips</a></h4>
+          <footer>
+            <div class="recorded">2016-02-22</div>
+			
+			  <div>Length: 24:13</div>
+			
+			
+              <div>Views: 9188 Likes: 68</div>
+            
+            <div class="event">From <a href="/e/react-conf-2016">React.js Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tadeu-zagallo">Tadeu Zagallo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLb0IAmt7-GS0M8Q95RIc2lOM6nc77q1IY">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,3734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>DrupalCon New Orleans 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>DrupalCon New Orleans 2016</h1>
+
+<div><a href="https://events.drupal.org/neworleans2016">DrupalCon New Orleans 2016</a></div>
+
+
+<div>Start date: 2016-05-09</div>
+<div>End date: 2016-05-13</div>
+
+<div>Location:
+  New Orleans
+  Louisiana
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="https://events.drupal.org/neworleans2016/code-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/drupal">Drupal</a> 
+   
+       <a href="/t/php">PHP</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/drupalconNA">@drupalconNA</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/DrupalCon">https://www.facebook.com/DrupalCon</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=DrupalCon%20New%20Orleans%202016%20on%202016-05-09%20in%20New%20Orleans%2C%20Louisiana%20USA%20%40drupalconNA%20https%3A//events.drupal.org/neworleans2016%20%23Drupal%20%23PHP%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-10-lessons-clients-teach-me-everyday"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jaHmjpVeSas/hqdefault.jpg" alt="10 Lessons Clients Teach Me Everyday" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-10-lessons-clients-teach-me-everyday">10 Lessons Clients Teach Me Everyday</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 41:01</div>
+			
+			
+              <div>Views: 134 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lynn-winter">Lynn Winter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-10-reasons-to-standardize-on-pantheon-for-development"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DEL5KiltFEw/hqdefault.jpg" alt="10 Reasons to Standardize on Pantheon for Development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-10-reasons-to-standardize-on-pantheon-for-development">10 Reasons to Standardize on Pantheon for Development</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 33:24</div>
+			
+			
+              <div>Views: 107 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-persch">Steve Persch</a>
+             
+                <a href="/p/ryan-sears">Ryan Sears</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-about-your-sponsorship"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lgj2QxPvhdI/hqdefault.jpg" alt="DrupalCon New Orleans 2016: "About Your Sponsorship"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-about-your-sponsorship">DrupalCon New Orleans 2016: "About Your Sponsorship"</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 02:11</div>
+			
+			
+              <div>Views: 1270 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-agile-d8-builds-doing-the-most-without-php"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ds19kdVHoiU/hqdefault.jpg" alt="Agile D8 Builds: Doing the Most Without PHP" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-agile-d8-builds-doing-the-most-without-php">Agile D8 Builds: Doing the Most Without PHP</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 47:46</div>
+			
+			
+              <div>Views: 324 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-strauss">David Strauss</a>
+             
+                <a href="/p/matt-cheney">Matt Cheney</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-aha-understanding-and-using-render-arrays-in-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_bJsCD-tIdM/hqdefault.jpg" alt="Aha! Understanding and Using Render Arrays in Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-aha-understanding-and-using-render-arrays-in-drupal-8">Aha! Understanding and Using Render Arrays in Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 46:46</div>
+			
+			
+              <div>Views: 1022 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gus-childs">Gus Childs</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-altering-extending-and-enhancing-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tMM-I70ksQA/hqdefault.jpg" alt="Altering, Extending, and Enhancing Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-altering-extending-and-enhancing-drupal-8">Altering, Extending, and Enhancing Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:07:11</div>
+			
+			
+              <div>Views: 755 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joe-shindelar">Joe Shindelar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-amazing-user-experiences-with-drupal-and-ember"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O12qBp1lWUc/hqdefault.jpg" alt="Amazing User Experiences with Drupal and Ember" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-amazing-user-experiences-with-drupal-and-ember">Amazing User Experiences with Drupal and Ember</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 45:04</div>
+			
+			
+              <div>Views: 3238 Likes: 52</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/edward-faulkner">Edward Faulkner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-amping-up-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/14xnoIui-CE/hqdefault.jpg" alt="AMPing up Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-amping-up-drupal">AMPing up Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:02:09</div>
+			
+			
+              <div>Views: 461 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/karen-stevenson">Karen Stevenson</a>
+             
+                <a href="/p/marc-drummond">Marc Drummond</a>
+             
+                <a href="/p/matthew-tift">Matthew Tift</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-api-integration-modules-drupal-contribs-commercial-horizon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/70mTeUJX9Kg/hqdefault.jpg" alt="API integration modules: Drupal contribs commercial horizon" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-api-integration-modules-drupal-contribs-commercial-horizon">API integration modules: Drupal contribs commercial horizon</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 46:13</div>
+			
+			
+              <div>Views: 83 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kristof-van-tomme">Kristof Van Tomme</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-approaches-for-ux-changes-big-and-small"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Z99gZTEZO_E/hqdefault.jpg" alt="Approaches for UX changes big and small" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-approaches-for-ux-changes-big-and-small">Approaches for UX changes big and small</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 59:29</div>
+			
+			
+              <div>Views: 272 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/roy-scholten">Roy Scholten</a>
+             
+                <a href="/p/chris-weber">Chris Weber</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-ask-not-what-open-source-can-do-for-you"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hwTEq7oyzZU/hqdefault.jpg" alt="Ask Not What Open Source Can Do For You" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-ask-not-what-open-source-can-do-for-you">Ask Not What Open Source Can Do For You</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 57:32</div>
+			
+			
+              <div>Views: 76 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeff-walpole">Jeff Walpole</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-automated-javascript-testing-where-we-are-and-what-we-actually-want"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Uf0cc3Nnm_k/hqdefault.jpg" alt="Automated javascript testing: where we are and what we actually want" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-automated-javascript-testing-where-we-are-and-what-we-actually-want">Automated javascript testing: where we are and what we actually want</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 48:33</div>
+			
+			
+              <div>Views: 255 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-wehner">Daniel Wehner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-becoming-a-tpm-dos-and-donts-of-technical-project-management"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cPZrm22jw3U/hqdefault.jpg" alt="Becoming a TPM: Dos and Don'ts of Technical Project Management" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-becoming-a-tpm-dos-and-donts-of-technical-project-management">Becoming a TPM: Dos and Don'ts of Technical Project Management</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 56:51</div>
+			
+			
+              <div>Views: 252 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jessi-fischer">Jessi Fischer</a>
+             
+                <a href="/p/anne-stefanyk">Anne Stefanyk</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-behat-behavior-driven-development-functional-tests"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nnbpE7s-9J4/hqdefault.jpg" alt="Behat: Behavior-Driven Development, Functional Tests" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-behat-behavior-driven-development-functional-tests">Behat: Behavior-Driven Development, Functional Tests</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:12:04</div>
+			
+			
+              <div>Views: 437 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ryan-weaver">Ryan Weaver</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-beyond-the-blink-add-drupal-to-your-iot-playground"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aQe6Lgb2peY/hqdefault.jpg" alt="Beyond the Blink: Add Drupal to Your IoT Playground" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-beyond-the-blink-add-drupal-to-your-iot-playground">Beyond the Blink: Add Drupal to Your IoT Playground</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 57:25</div>
+			
+			
+              <div>Views: 152 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amber-himes-matz">Amber Himes Matz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-bigpipe"><img class="list-thumbnail" src="https://i.ytimg.com/vi/spnFCx4lDGw/hqdefault.jpg" alt="DrupalCon New Orleans 2016: BigPipe" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-bigpipe">DrupalCon New Orleans 2016: BigPipe</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:10:23</div>
+			
+			
+              <div>Views: 952 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/wim-leers">Wim Leers</a>
+             
+                <a href="/p/fabian-franz">Fabian Franz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-building-empathy-in-the-enterprise"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Pt3c0dQciBk/hqdefault.jpg" alt="Building Empathy in the Enterprise" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-building-empathy-in-the-enterprise">Building Empathy in the Enterprise</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 26:20</div>
+			
+			
+              <div>Views: 80 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dani-nordin">Dani Nordin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-building-rich-apps-with-angular-2-and-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PGneK_G5zhA/hqdefault.jpg" alt="Building Rich Apps with Angular 2 and Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-building-rich-apps-with-angular-2-and-drupal">Building Rich Apps with Angular 2 and Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 42:43</div>
+			
+			
+              <div>Views: 1362 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephen-fluin">Stephen Fluin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-building-your-devops-gameplan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oB3Pml0aDVw/hqdefault.jpg" alt="Building your DevOps gameplan" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-building-your-devops-gameplan">Building your DevOps gameplan</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 48:54</div>
+			
+			
+              <div>Views: 241 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-stielau">Nick Stielau</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-case-study-brainshark-migration-from-sitecore-in-90-days"><img class="list-thumbnail" src="https://i.ytimg.com/vi/y_dXiZhB2Vc/hqdefault.jpg" alt="Brainshark - Migration from Sitecore in 90 Days" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-case-study-brainshark-migration-from-sitecore-in-90-days">Brainshark - Migration from Sitecore in 90 Days</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 43:27</div>
+			
+			
+              <div>Views: 126 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-haggerty">Michael Haggerty</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-chatops-for-distributed-teams-fun-and-profit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YmXNYB_OuXw/hqdefault.jpg" alt="ChatOps for Distributed Teams, Fun, and Profit" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-chatops-for-distributed-teams-fun-and-profit">ChatOps for Distributed Teams, Fun, and Profit</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 37:38</div>
+			
+			
+              <div>Views: 117 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-urban">Chris Urban</a>
+             
+                <a href="/p/michael-sherron">Michael Sherron</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-closing-session"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YhGgsBZcFow/hqdefault.jpg" alt="DrupalCon New Orleans 2016: Closing Session" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-closing-session">DrupalCon New Orleans 2016: Closing Session</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 34:46</div>
+			
+			
+              <div>Views: 414 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-community-keynote-michael-schmid"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZA95tpXUIos/hqdefault.jpg" alt="DrupalCon New Orleans 2016: Community Keynote: Michael Schmid" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-community-keynote-michael-schmid">DrupalCon New Orleans 2016: Community Keynote: Michael Schmid</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:00:25</div>
+			
+			
+              <div>Views: 580 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-configuration-management-composer-git-and-drush-in-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1bxQJtiHy4k/hqdefault.jpg" alt="Configuration Management, Composer, Git and Drush in Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-configuration-management-composer-git-and-drush-in-drupal-8">Configuration Management, Composer, Git and Drush in Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 46:41</div>
+			
+			
+              <div>Views: 1095 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-lewis">Brian Lewis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-configuration-management-for-developers-in-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F9E0jPwwu54/hqdefault.jpg" alt="Configuration Management for Developers in Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-configuration-management-for-developers-in-drupal-8">Configuration Management for Developers in Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:03:59</div>
+			
+			
+              <div>Views: 1204 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-pott">Alex Pott</a>
+             
+                <a href="/p/matthew-tift">Matthew Tift</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-connecting-the-silos-site-building-tools"><img class="list-thumbnail" src="https://i.ytimg.com/vi/U5jCYVoNRlk/hqdefault.jpg" alt="Connecting the Silos: Site Building Tools" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-connecting-the-silos-site-building-tools">Connecting the Silos: Site Building Tools</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 58:56</div>
+			
+			
+              <div>Views: 186 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeff-diecks">Jeff Diecks</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-content-driven-ux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/c6y8N4nvlYE/hqdefault.jpg" alt="Content-Driven UX" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-content-driven-ux">Content-Driven UX</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 57:45</div>
+			
+			
+              <div>Views: 816 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/june-parent">June Parent</a>
+             
+                <a href="/p/bjorn-thomson">Bjorn Thomson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-content-strategy-in-popular-culture"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sJxtCPRde4k/hqdefault.jpg" alt="Content Strategy in Popular Culture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-content-strategy-in-popular-culture">Content Strategy in Popular Culture</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 57:10</div>
+			
+			
+              <div>Views: 134 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brett-meyer">Brett Meyer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-continuous-delivery-with-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-v7WBY2EuIU/hqdefault.jpg" alt="Continuous Delivery with Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-continuous-delivery-with-drupal">Continuous Delivery with Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 42:16</div>
+			
+			
+              <div>Views: 611 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jody-hamilton">Jody Hamilton</a>
+             
+                <a href="/p/greg-knaddison">Greg Knaddison</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-creating-online-stores-with-commerce-2x-on-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EQxA3VYal54/hqdefault.jpg" alt="Creating online stores with Commerce 2.x on Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-creating-online-stores-with-commerce-2x-on-drupal-8">Creating online stores with Commerce 2.x on Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 59:45</div>
+			
+			
+              <div>Views: 2546 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-glaman">Matt Glaman</a>
+             
+                <a href="/p/bojan-zivanovic">Bojan Živanović</a>
+             
+                <a href="/p/ryan-szrama">Ryan Szrama</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-d8-module-acceleration-program"><img class="list-thumbnail" src="https://i.ytimg.com/vi/W1DzogY9yFc/hqdefault.jpg" alt="D8 Module Acceleration Program" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-d8-module-acceleration-program">D8 Module Acceleration Program</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 55:01</div>
+			
+			
+              <div>Views: 143 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dick-olsson">Dick Olsson</a>
+             
+                <a href="/p/larry-garfield">Larry Garfield</a>
+             
+                <a href="/p/john-kennedy">John Kennedy</a>
+             
+                <a href="/p/david-snopek">David Snopek</a>
+             
+                <a href="/p/ken-rickard">Ken Rickard</a>
+             
+                <a href="/p/ted-bowman">Ted Bowman</a>
+             
+                <a href="/p/tim-millwood">Tim Millwood</a>
+             
+                <a href="/p/seth-brown">Seth Brown</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-debugging-during-development-creating-breaking-and-fixing-a-module"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1LlZd-0noiI/hqdefault.jpg" alt="Debugging During Development: Creating, Breaking and Fixing a Module" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-debugging-during-development-creating-breaking-and-fixing-a-module">Debugging During Development: Creating, Breaking and Fixing a Module</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 29:55</div>
+			
+			
+              <div>Views: 328 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/allie-jones">Allie Jones</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-debugging-profiling-rocking-out-with-browser-based-developer-tools"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IK1GT3ojo1g/hqdefault.jpg" alt="Debugging, Profiling, & Rocking Out with Browser-Based Developer Tools!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-debugging-profiling-rocking-out-with-browser-based-developer-tools">Debugging, Profiling, & Rocking Out with Browser-Based Developer Tools!</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 57:50</div>
+			
+			
+              <div>Views: 427 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-herchel">Michael Herchel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-demystifying-ajax-callback-commands-in-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7XND83bsoG8/hqdefault.jpg" alt="Demystifying AJAX Callback Commands in Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-demystifying-ajax-callback-commands-in-drupal-8">Demystifying AJAX Callback Commands in Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 47:38</div>
+			
+			
+              <div>Views: 487 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-miles">Michael Miles</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-dependency-injection-in-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0SdBVmxuCZg/hqdefault.jpg" alt="Dependency injection in Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-dependency-injection-in-drupal-8">Dependency injection in Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 39:26</div>
+			
+			
+              <div>Views: 497 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ashwini-kumar">Ashwini Kumar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-digital-transformation-drupal-as-a-platform-for-the-us-government"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QtFTliYqY-o/hqdefault.jpg" alt="Digital Transformation, Drupal as a platform for the US Government" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-digital-transformation-drupal-as-a-platform-for-the-us-government">Digital Transformation, Drupal as a platform for the US Government</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 57:25</div>
+			
+			
+              <div>Views: 171 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sushil-tripathi">Sushil Tripathi</a>
+             
+                <a href="/p/david-gallerizzo">David Gallerizzo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-documentation-is-getting-an-overhaul"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sIsuh8ckrtc/hqdefault.jpg" alt="Documentation Is Getting An Overhaul" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-documentation-is-getting-an-overhaul">Documentation Is Getting An Overhaul</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:05:04</div>
+			
+			
+              <div>Views: 207 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joe-shindelar">Joe Shindelar</a>
+             
+                <a href="/p/tatiana-ugriumova">Tatiana Ugriumova</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-double-your-toolbox-the-shared-goodies-of-d8-and-symfony"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Mrpn6GR3yV8/hqdefault.jpg" alt="Double your toolbox: the shared goodies of D8 and Symfony" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-double-your-toolbox-the-shared-goodies-of-d8-and-symfony">Double your toolbox: the shared goodies of D8 and Symfony</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 51:53</div>
+			
+			
+              <div>Views: 295 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ryan-weaver">Ryan Weaver</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-driesnote"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ksp5JVFryEg/hqdefault.jpg" alt="DrupalCon New Orleans 2016: Driesnote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-driesnote">DrupalCon New Orleans 2016: Driesnote</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:03:25</div>
+			
+			
+              <div>Views: 5590 Likes: 46</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupal-8-kickstart"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uVHLPuvDFQc/hqdefault.jpg" alt="Drupal 8 Kickstart" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupal-8-kickstart">Drupal 8 Kickstart</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:01:34</div>
+			
+			
+              <div>Views: 649 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-sawczynec">Peter Sawczynec</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupal-8-where-did-the-code-go-from-info-hook-to-plugin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BdK0qyF5o40/hqdefault.jpg" alt="Drupal 8, where did the code go? From info hook to plugin." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupal-8-where-did-the-code-go-from-info-hook-to-plugin">Drupal 8, where did the code go? From info hook to plugin.</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 55:41</div>
+			
+			
+              <div>Views: 256 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-wolanin">Peter Wolanin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupal-8s-multilingual-apis-integrate-with-all-the-things"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Y9ZcoHvm_zo/hqdefault.jpg" alt="Drupal 8's multilingual APIs -- integrate with all the things" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupal-8s-multilingual-apis-integrate-with-all-the-things">Drupal 8's multilingual APIs -- integrate with all the things</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 53:03</div>
+			
+			
+              <div>Views: 148 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gabor-hojtsy">Gábor Hojtsy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupal-admin-as-an-application-more-javascript-in-core"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Sn4jDELDNMY/hqdefault.jpg" alt="Drupal (admin) as an application: More JavaScript in core?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupal-admin-as-an-application-more-javascript-in-core">Drupal (admin) as an application: More JavaScript in core?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:06:20</div>
+			
+			
+              <div>Views: 248 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marc-drummond">Marc Drummond</a>
+             
+                <a href="/p/preston-so">Preston So</a>
+             
+                <a href="/p/dani-nordin">Dani Nordin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupal-admin-its-not-about-us"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KSe_AWq_muE/hqdefault.jpg" alt="Drupal Admin: It's Not About Us" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupal-admin-its-not-about-us">Drupal Admin: It's Not About Us</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 57:40</div>
+			
+			
+              <div>Views: 120 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tom-martin">Tom Martin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupal-and-logstash-centralised-logging"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hnLiVUQtpvE/hqdefault.jpg" alt="Drupal and Logstash: centralised logging" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupal-and-logstash-centralised-logging">Drupal and Logstash: centralised logging</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 52:16</div>
+			
+			
+              <div>Views: 524 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marji-cermak">Marji Cermak</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupal8-theming-am-i-doing-this-right"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2ficK-9daic/hqdefault.jpg" alt="Drupal8 Theming - Am I doing this right?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupal8-theming-am-i-doing-this-right">Drupal8 Theming - Am I doing this right?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:05:15</div>
+			
+			
+              <div>Views: 1983 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/morten-birch-heide-jorgensen">Morten Birch Heide-Jørgensen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupalorg-infrastructure-take-home-lessons"><img class="list-thumbnail" src="https://i.ytimg.com/vi/K0KLUJsY0Pc/hqdefault.jpg" alt="Drupal.org Infrastructure, take home lessons" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupalorg-infrastructure-take-home-lessons">Drupal.org Infrastructure, take home lessons</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 55:02</div>
+			
+			
+              <div>Views: 86 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/narayan-newton">Narayan Newton</a>
+             
+                <a href="/p/michael-hess">Michael Hess</a>
+             
+                <a href="/p/ryan-aslett">Ryan Aslett</a>
+             
+                <a href="/p/rudy-grigar">Rudy Grigar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupalorg-is-changing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ReAkCdvmMqU/hqdefault.jpg" alt="Drupal.org is changing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupalorg-is-changing">Drupal.org is changing</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 56:25</div>
+			
+			
+              <div>Views: 98 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ryan-aslett">Ryan Aslett</a>
+             
+                <a href="/p/joshua-mitchell">Joshua Mitchell</a>
+             
+                <a href="/p/tatiana-ugriumova">Tatiana Ugriumova</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupals-big-b2b-commerce-opportunity"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yELSQtkkMX4/hqdefault.jpg" alt="Drupal's Big B2B Commerce Opportunity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-drupals-big-b2b-commerce-opportunity">Drupal's Big B2B Commerce Opportunity</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:06:27</div>
+			
+			
+              <div>Views: 207 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-rooney">Chris Rooney</a>
+             
+                <a href="/p/madison-major">Madison Major</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-dynamic-self-service-notification-platform-tugboat"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1VcQBLDQyzg/hqdefault.jpg" alt="Dynamic Self-Service Notification Platform | Tugboat" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-dynamic-self-service-notification-platform-tugboat">Dynamic Self-Service Notification Platform | Tugboat</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 42:14</div>
+			
+			
+              <div>Views: 71 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matthew-oliveira">Matthew Oliveira</a>
+             
+                <a href="/p/james-sansbury">James Sansbury</a>
+             
+                <a href="/p/rahul-dewan">Rahul Dewan</a>
+             
+                <a href="/p/pradeep-aradhya">Pradeep Aradhya</a>
+             
+                <a href="/p/ben-chavet">Ben Chavet</a>
+             
+                <a href="/p/matt-westgate">Matt Westgate</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-easy-accessibility-in-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3AD_XpciFZ4/hqdefault.jpg" alt="Easy Accessibility in Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-easy-accessibility-in-drupal-8">Easy Accessibility in Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 53:43</div>
+			
+			
+              <div>Views: 364 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/catharine-mcnally">Catharine McNally</a>
+             
+                <a href="/p/david-spira">David Spira</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-elm-frontend-with-guarantees"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7DGbotcbUfY/hqdefault.jpg" alt="Elm - Frontend with Guarantees" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-elm-frontend-with-guarantees">Elm - Frontend with Guarantees</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 40:20</div>
+			
+			
+              <div>Views: 698 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amitai-burstein">Amitai Burstein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-entities-101-understanding-data-structures-in-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jJIOMRChBu4/hqdefault.jpg" alt="Entities 101 : Understanding Data Structures in Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-entities-101-understanding-data-structures-in-drupal">Entities 101 : Understanding Data Structures in Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 44:15</div>
+			
+			
+              <div>Views: 1229 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ron-northcutt">Ron Northcutt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-exploring-drupal-8-frontend-landscape-through-polymer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QJlD0fyCEmE/hqdefault.jpg" alt="Exploring Drupal 8 Frontend landscape through Polymer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-exploring-drupal-8-frontend-landscape-through-polymer">Exploring Drupal 8 Frontend landscape through Polymer</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 53:59</div>
+			
+			
+              <div>Views: 424 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/saket-kumar">Saket Kumar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-fifth-year-using-drupal-a-look-at-georgias-return-on-investment"><img class="list-thumbnail" src="https://i.ytimg.com/vi/N5xkWKWoIR8/hqdefault.jpg" alt="Fifth year using Drupal: A look at Georgia's return on investment" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-fifth-year-using-drupal-a-look-at-georgias-return-on-investment">Fifth year using Drupal: A look at Georgia's return on investment</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:09:08</div>
+			
+			
+              <div>Views: 139 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nikhil-deshpande">Nikhil Deshpande</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-finding-your-purpose-as-a-drupal-agency"><img class="list-thumbnail" src="https://i.ytimg.com/vi/r0tqzEXeRQA/hqdefault.jpg" alt="Finding Your Purpose as a Drupal Agency" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-finding-your-purpose-as-a-drupal-agency">Finding Your Purpose as a Drupal Agency</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 50:39</div>
+			
+			
+              <div>Views: 99 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/george-demet">George DeMet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-from-4-releases-per-year-to-4-releases-per-day"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b6uxRJ7HcTo/hqdefault.jpg" alt="From 4 releases per year to 4 releases per day" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-from-4-releases-per-year-to-4-releases-per-day">From 4 releases per year to 4 releases per day</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 43:00</div>
+			
+			
+              <div>Views: 120 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pieter-frenssen">Pieter Frenssen</a>
+             
+                <a href="/p/frederic-dewinne">Frédéric Dewinne</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-ge-energy-connections-ffw"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rzwYw8wo92M/hqdefault.jpg" alt="DrupalCon New Orleans 2016: GE Energy Connections & FFW" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-ge-energy-connections-ffw">DrupalCon New Orleans 2016: GE Energy Connections & FFW</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 59:23</div>
+			
+			
+              <div>Views: 226 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brent-bice">Brent Bice</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-get-off-the-island-but-build-bridges-back"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X-yLgslxxwc/hqdefault.jpg" alt="Get off the island! But build bridges back" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-get-off-the-island-but-build-bridges-back">Get off the island! But build bridges back</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 47:35</div>
+			
+			
+              <div>Views: 227 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ronald-ashri">Ronald Ashri</a>
+             
+                <a href="/p/adrian-rollett">Adrian Rollett</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-government-security-frameworks-where-do-i-begin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hEhU8Z69h3w/hqdefault.jpg" alt="Government Security Frameworks: Where Do I Begin?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-government-security-frameworks-where-do-i-begin">Government Security Frameworks: Where Do I Begin?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 56:40</div>
+			
+			
+              <div>Views: 95 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-ford">Jason Ford</a>
+             
+                <a href="/p/doug-goldberg">Doug Goldberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-graphql-meets-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3zFpiYmRIkc/hqdefault.jpg" alt="GraphQL meets Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-graphql-meets-drupal">GraphQL meets Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:03:55</div>
+			
+			
+              <div>Views: 595 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sebastian-siemssen">Sebastian Siemssen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-grow-your-own"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JWTMfT3vIsE/hqdefault.jpg" alt="Grow Your Own" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-grow-your-own">Grow Your Own</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 58:05</div>
+			
+			
+              <div>Views: 150 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jody-hamilton">Jody Hamilton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-handling-powerball-night-scaling-patchcom"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h1zmA0aqVLE/hqdefault.jpg" alt="DrupalCon New Orleans 2016: Handling Powerball Night: Scaling Patch.com" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-handling-powerball-night-scaling-patchcom">DrupalCon New Orleans 2016: Handling Powerball Night: Scaling Patch.com</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 54:14</div>
+			
+			
+              <div>Views: 125 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-strauss">David Strauss</a>
+             
+                <a href="/p/abe-brewster">Abe Brewster</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-hey-where-are-my-margins-why-dont-i-drive-a-maserati"><img class="list-thumbnail" src="https://i.ytimg.com/vi/E-CuyouMDQg/hqdefault.jpg" alt="Hey Where are My Margins & Why Don't I Drive a Maserati?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-hey-where-are-my-margins-why-dont-i-drive-a-maserati">Hey Where are My Margins & Why Don't I Drive a Maserati?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:14:47</div>
+			
+			
+              <div>Views: 293 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/susan-rust">Susan Rust</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-how-drupal-8-makes-your-website-more-easily-accessible"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BuYxPZzCpbo/hqdefault.jpg" alt="How Drupal 8 Makes Your Website More Easily Accessible" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-how-drupal-8-makes-your-website-more-easily-accessible">How Drupal 8 Makes Your Website More Easily Accessible</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:01:46</div>
+			
+			
+              <div>Views: 245 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-gifford">Mike Gifford</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-how-major-league-soccer-scores-superior-digital-experiences"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CUIUH5YeK8U/hqdefault.jpg" alt="DrupalCon New Orleans 2016: How Major League Soccer Scores Superior Digital Experiences" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-how-major-league-soccer-scores-superior-digital-experiences">DrupalCon New Orleans 2016: How Major League Soccer Scores Superior Digital Experiences</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:01:53</div>
+			
+			
+              <div>Views: 271 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steven-merrill">Steven Merrill</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-how-puppet-labs-runs-drupal-on-aws"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vTlDgnUSHUg/hqdefault.jpg" alt="How Puppet Labs runs Drupal on AWS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-how-puppet-labs-runs-drupal-on-aws">How Puppet Labs runs Drupal on AWS</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 59:43</div>
+			
+			
+              <div>Views: 240 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-dreier">Daniel Dreier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-how-to-audit-drupal-sites-for-performance-content-and-best-practices"><img class="list-thumbnail" src="https://i.ytimg.com/vi/A0XCRETqfYk/hqdefault.jpg" alt="How to audit Drupal Sites for performance, content and best practices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-how-to-audit-drupal-sites-for-performance-content-and-best-practices">How to audit Drupal Sites for performance, content and best practices</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 44:07</div>
+			
+			
+              <div>Views: 391 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jon-peck">Jon Peck</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-how-to-grow-support-to-become-a-cornerstone-of-your-business"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wpr4wQEknHI/hqdefault.jpg" alt="How To Grow Support To Become A Cornerstone Of Your Business" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-how-to-grow-support-to-become-a-cornerstone-of-your-business">How To Grow Support To Become A Cornerstone Of Your Business</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 59:11</div>
+			
+			
+              <div>Views: 106 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/katy-pool">Katy Pool</a>
+             
+                <a href="/p/john-ouellet">John Ouellet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-how-to-implement-performance-metrics"><img class="list-thumbnail" src="https://i.ytimg.com/vi/q7gopctEBiE/hqdefault.jpg" alt="How to implement performance metrics" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-how-to-implement-performance-metrics">How to implement performance metrics</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 52:24</div>
+			
+			
+              <div>Views: 163 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/casey-cobb">Casey Cobb</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-im-a-scrumberjack-and-im-ok"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iP-xxcOE14s/hqdefault.jpg" alt="I'm a Scrumberjack and I'm OK!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-im-a-scrumberjack-and-im-ok">I'm a Scrumberjack and I'm OK!</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:02:59</div>
+			
+			
+              <div>Views: 95 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aimee-degnan">Aimee Degnan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-is-size-just-a-number"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uAkBPj4DDIM/hqdefault.jpg" alt="Is size just a number?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-is-size-just-a-number">Is size just a number?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:01:18</div>
+			
+			
+              <div>Views: 124 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jess">Jess</a>
+             
+                <a href="/p/david-hernandez">David Hernandez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-json-powered-forms-in-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0MPI32kR92I/hqdefault.jpg" alt="JSON Powered Forms in Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-json-powered-forms-in-drupal">JSON Powered Forms in Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 48:32</div>
+			
+			
+              <div>Views: 446 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/randall-knutson">Randall Knutson</a>
+             
+                <a href="/p/travis-tidwell">Travis Tidwell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-just-right-goldilocks-and-cms-theme-systems"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F88ryt1CB3A/hqdefault.jpg" alt="Just Right: Goldilocks and CMS theme systems" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-just-right-goldilocks-and-cms-theme-systems">Just Right: Goldilocks and CMS theme systems</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 56:22</div>
+			
+			
+              <div>Views: 138 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lauri-eskola">Lauri Eskola</a>
+             
+                <a href="/p/scott-reeves">Scott Reeves</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-keynote-sara-wachter-boettcher"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UcjT63hl4l4/hqdefault.jpg" alt="DrupalCon New Orleans 2016: Keynote: Sara Wachter-Boettcher" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-keynote-sara-wachter-boettcher">DrupalCon New Orleans 2016: Keynote: Sara Wachter-Boettcher</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:07:59</div>
+			
+			
+              <div>Views: 968 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-learning-to-let-go-contrib-burnout-and-module-giveaway"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wm09T97gdtk/hqdefault.jpg" alt="Learning to Let Go (Contrib Burnout) and Module Giveaway" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-learning-to-let-go-contrib-burnout-and-module-giveaway">Learning to Let Go (Contrib Burnout) and Module Giveaway</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 49:11</div>
+			
+			
+              <div>Views: 95 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-reid">Dave Reid</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-leaving-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_yUZjTusq7k/hqdefault.jpg" alt="Leaving Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-leaving-drupal">Leaving Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 55:12</div>
+			
+			
+              <div>Views: 1020 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-hwang">David Hwang</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-lessons-from-wordpress-core"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JeoCHqzvUFY/hqdefault.jpg" alt="Lessons from WordPress Core" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-lessons-from-wordpress-core">Lessons from WordPress Core</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 57:20</div>
+			
+			
+              <div>Views: 298 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-persch">Steve Persch</a>
+             
+                <a href="/p/andrew-taylor">Andrew taylor</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-lets-be-honest-estimation-is-guessing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rcYYOquSk-Y/hqdefault.jpg" alt="Let's be honest: Estimation is guessing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-lets-be-honest-estimation-is-guessing">Let's be honest: Estimation is guessing</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 57:21</div>
+			
+			
+              <div>Views: 229 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ashwini-kumar">Ashwini Kumar</a>
+             
+                <a href="/p/gaurav-mishra">Gaurav Mishra</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-lighting-talks-case-studies"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5PutFNzwIj8/hqdefault.jpg" alt="Lighting Talks: Case Studies" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-lighting-talks-case-studies">Lighting Talks: Case Studies</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 47:33</div>
+			
+			
+              <div>Views: 142 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-kuebrich">Dan Kuebrich</a>
+             
+                <a href="/p/mark-ferree">Mark Ferree</a>
+             
+                <a href="/p/rogier-docwilco-mulhuijzen">Rogier 'DocWilco' Mulhuijzen</a>
+             
+                <a href="/p/augustin-delaporte">Augustin Delaporte</a>
+             
+                <a href="/p/fabian-franz">Fabian Franz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-limbering-drupal-8-up-with-flexible-layouts-wysiwyg-templates-more"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rj2L1W-Pi34/hqdefault.jpg" alt="Limbering Drupal 8 Up with Flexible Layouts, WYSIWYG Templates, & More" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-limbering-drupal-8-up-with-flexible-layouts-wysiwyg-templates-more">Limbering Drupal 8 Up with Flexible Layouts, WYSIWYG Templates, & More</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 52:54</div>
+			
+			
+              <div>Views: 615 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/clay-marshall">Clay Marshall</a>
+             
+                <a href="/p/kat-kuhl">Kat Kuhl</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-live-the-dream-work-remote"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NUx7an4qGjg/hqdefault.jpg" alt="Live The Dream, Work Remote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-live-the-dream-work-remote">Live The Dream, Work Remote</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 58:22</div>
+			
+			
+              <div>Views: 279 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anne-stefanyk">Anne Stefanyk</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-loft-your-web-platform-into-the-clouds-with-immutable-infrastructure"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vMNv93wTRRk/hqdefault.jpg" alt="Loft Your Web Platform Into the Clouds with Immutable Infrastructure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-loft-your-web-platform-into-the-clouds-with-immutable-infrastructure">Loft Your Web Platform Into the Clouds with Immutable Infrastructure</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:00:41</div>
+			
+			
+              <div>Views: 111 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steven-merrill">Steven Merrill</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-making-infrastructure-smores-with-chef"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hDxNgtpXEKg/hqdefault.jpg" alt="Making Infrastructure S'mores with Chef" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-making-infrastructure-smores-with-chef">Making Infrastructure S'mores with Chef</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 55:07</div>
+			
+			
+              <div>Views: 167 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-stratton">Matt Stratton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-media-ads-performance"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bmmjiMJIYIY/hqdefault.jpg" alt="Media + Ads + Performance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-media-ads-performance">Media + Ads + Performance</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 34:56</div>
+			
+			
+              <div>Views: 140 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ian-carrico">Ian Carrico</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-minimalist-theming-how-to-build-a-lean-mean-drupal-8-theme"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2PhTCZo6KPk/hqdefault.jpg" alt="Minimalist Theming: How to Build a Lean, Mean Drupal 8 Theme" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-minimalist-theming-how-to-build-a-lean-mean-drupal-8-theme">Minimalist Theming: How to Build a Lean, Mean Drupal 8 Theme</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 55:42</div>
+			
+			
+              <div>Views: 812 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/suzanne-dergacheva">Suzanne Dergacheva</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-monitoring-101-finding-signal-in-the-noise"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dGj_v15_nX0/hqdefault.jpg" alt="Monitoring 101: Finding Signal in the Noise" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-monitoring-101-finding-signal-in-the-noise">Monitoring 101: Finding Signal in the Noise</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 36:34</div>
+			
+			
+              <div>Views: 71 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ilan-rabinovitch">Ilan Rabinovitch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-must-be-intuitive-and-easy-to-use-how-to-solidify-vague-requirements"><img class="list-thumbnail" src="https://i.ytimg.com/vi/96r4B-1mZkU/hqdefault.jpg" alt="Must be Intuitive and Easy to Use”: How to Solidify Vague Requirements" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-must-be-intuitive-and-easy-to-use-how-to-solidify-vague-requirements">Must be Intuitive and Easy to Use”: How to Solidify Vague Requirements</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 56:42</div>
+			
+			
+              <div>Views: 168 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vanessa-turke">Vanessa Turke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-navigating-the-php-community"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KdiBvBAx65k/hqdefault.jpg" alt="Navigating the PHP Community" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-navigating-the-php-community">Navigating the PHP Community</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 44:55</div>
+			
+			
+              <div>Views: 62 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oscar-merida">Oscar Merida</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-navigating-the-website-security-threat-landscape"><img class="list-thumbnail" src="https://i.ytimg.com/vi/c7w6Db_IHrI/hqdefault.jpg" alt="Navigating The Website Security Threat Landscape" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-navigating-the-website-security-threat-landscape">Navigating The Website Security Threat Landscape</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 56:18</div>
+			
+			
+              <div>Views: 111 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tony-perez">Tony Perez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-new-and-improved-selling-the-value-of-new-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rl5yQpKynSE/hqdefault.jpg" alt="New and improved ... Selling the value of new Drupal 8 technical features" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-new-and-improved-selling-the-value-of-new-drupal-8">New and improved ... Selling the value of new Drupal 8 technical features</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 57:00</div>
+			
+			
+              <div>Views: 190 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeffrey-a-mcguire">Jeffrey A. McGuire</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-next-level-drupal-applied-progressive-decoupling-with-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/McowKqqxaFU/hqdefault.jpg" alt="Next-level Drupal: Applied progressive decoupling with JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-next-level-drupal-applied-progressive-decoupling-with-javascript">Next-level Drupal: Applied progressive decoupling with JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 58:44</div>
+			
+			
+              <div>Views: 1068 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/preston-so">Preston So</a>
+             
+                <a href="/p/matt-davis">Matt Davis</a>
+             
+                <a href="/p/john-kennedy">John Kennedy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-next-level-git"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6p5LjWetzfc/hqdefault.jpg" alt="Next Level Git" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-next-level-git">Next Level Git</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 49:23</div>
+			
+			
+              <div>Views: 509 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brad-erickson">Brad Erickson</a>
+             
+                <a href="/p/mark-ferree">Mark Ferree</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-offline-capable-decoupled-drupal-8-with-reactjs-and-react-native"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ovc8eHq6LXY/hqdefault.jpg" alt="Offline-capable, decoupled Drupal 8 with React.js and React Native" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-offline-capable-decoupled-drupal-8-with-reactjs-and-react-native">Offline-capable, decoupled Drupal 8 with React.js and React Native</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 40:10</div>
+			
+			
+              <div>Views: 1146 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dick-olsson">Dick Olsson</a>
+             
+                <a href="/p/mikkel-hogh">Mikkel Høgh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-on-inheriting-someone-elses-mess"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3fjocWKCTig/hqdefault.jpg" alt="On Inheriting Someone Else's Mess" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-on-inheriting-someone-elses-mess">On Inheriting Someone Else's Mess</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:03:18</div>
+			
+			
+              <div>Views: 118 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marcus-iannozzi">Marcus Iannozzi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-once-upon-a-drop-cap"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mnRssmBxmJw/hqdefault.jpg" alt="Once Upon a Drop Cap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-once-upon-a-drop-cap">Once Upon a Drop Cap</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 51:10</div>
+			
+			
+              <div>Views: 318 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-pamental">Jason Pamental</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-oop-is-nothing-to-be-afraid-of"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ruI6bYTJaqM/hqdefault.jpg" alt="OOP Is Nothing To Be Afraid Of" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-oop-is-nothing-to-be-afraid-of">OOP Is Nothing To Be Afraid Of</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 45:51</div>
+			
+			
+              <div>Views: 291 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/geoff-appleby">Geoff Appleby</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-php-7-the-new-new-php"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zGpaswrhFGQ/hqdefault.jpg" alt="PHP 7: The New New PHP" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-php-7-the-new-new-php">PHP 7: The New New PHP</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:01:31</div>
+			
+			
+              <div>Views: 770 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/larry-garield">Larry Garield</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-prenote-drupal-8-come-join-the-party"><img class="list-thumbnail" src="https://i.ytimg.com/vi/u6VoeELTfvM/hqdefault.jpg" alt="DrupalCon New Orleans 2016: Prenote - Drupal 8, Come Join the Party!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-prenote-drupal-8-come-join-the-party">DrupalCon New Orleans 2016: Prenote - Drupal 8, Come Join the Party!</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 49:01</div>
+			
+			
+              <div>Views: 571 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-production-is-an-artifact-of-development"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vQHheaESpvE/hqdefault.jpg" alt="Production is an Artifact of Development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-production-is-an-artifact-of-development">Production is an Artifact of Development</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 53:18</div>
+			
+			
+              <div>Views: 133 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michelle-krejci">Michelle Krejci</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-project-management-case-study-building-a-top-10-website"><img class="list-thumbnail" src="https://i.ytimg.com/vi/J5o12RDoW-U/hqdefault.jpg" alt="Project management case study: Building a Top 10 website" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-project-management-case-study-building-a-top-10-website">Project management case study: Building a Top 10 website</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:04:17</div>
+			
+			
+              <div>Views: 412 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-kapp">Adam Kapp</a>
+             
+                <a href="/p/jesse-browne">Jesse Browne</a>
+             
+                <a href="/p/sophie-matson">Sophie Matson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-real-talk-on-front-end-performance-only-you-can-prevent-slow-websites"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DUTNB-y_sHM/hqdefault.jpg" alt="Real Talk on Front-End Performance: Only You Can Prevent Slow Websites" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-real-talk-on-front-end-performance-only-you-can-prevent-slow-websites">Real Talk on Front-End Performance: Only You Can Prevent Slow Websites</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:03:33</div>
+			
+			
+              <div>Views: 713 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/josh-koenig">Josh Koenig</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-recap"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IMUAfHaeWcI/hqdefault.jpg" alt="DrupalCon New Orleans 2016: Recap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-recap">DrupalCon New Orleans 2016: Recap</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 21:44</div>
+			
+			
+              <div>Views: 416 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-recoupling-bridging-design-and-structured-content"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XorLpn6U8Ls/hqdefault.jpg" alt="Recoupling: Bridging Design and Structured Content" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-recoupling-bridging-design-and-structured-content">Recoupling: Bridging Design and Structured Content</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:02:15</div>
+			
+			
+              <div>Views: 427 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeff-eaton">Jeff Eaton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-recruiting-and-retaining-dedicated-volunteers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7HJy75UXWXw/hqdefault.jpg" alt="Recruiting and retaining dedicated volunteers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-recruiting-and-retaining-dedicated-volunteers">Recruiting and retaining dedicated volunteers</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 50:14</div>
+			
+			
+              <div>Views: 59 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephanie-el-hajj">Stephanie El-Hajj</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-reinventing-international-development-with-rapid-drupal-development"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7I0BrzrkRHM/hqdefault.jpg" alt="Reinventing International Development With Rapid Drupal Development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-reinventing-international-development-with-rapid-drupal-development">Reinventing International Development With Rapid Drupal Development</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 50:00</div>
+			
+			
+              <div>Views: 142 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patrick-burch">Patrick Burch</a>
+             
+                <a href="/p/chaz-chumley">Chaz Chumley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-rethinking-loops"><img class="list-thumbnail" src="https://i.ytimg.com/vi/p2K2JHFMh1o/hqdefault.jpg" alt="Rethinking Loops" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-rethinking-loops">Rethinking Loops</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:00:34</div>
+			
+			
+              <div>Views: 671 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-kary">John Kary</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-road-runner-rules-more-what-you-d-call-guidelines-for-fesign-systems"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BAQUo2QM1kg/hqdefault.jpg" alt="Road Runner Rules: More what youd call Guidelines for Design Systems" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-road-runner-rules-more-what-you-d-call-guidelines-for-fesign-systems">Road Runner Rules: More what youd call Guidelines for Design Systems</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 57:26</div>
+			
+			
+              <div>Views: 390 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/micah-godbolt">Micah Godbolt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-sales-pm-x-productive-collaboration-happy-team-happy-client"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O7yn8S6-6So/hqdefault.jpg" alt="(Sales + PM) x productive collaboration = happy team + happy client" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-sales-pm-x-productive-collaboration-happy-team-happy-client">(Sales + PM) x productive collaboration = happy team + happy client</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:04:11</div>
+			
+			
+              <div>Views: 74 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kyle-theobald">Kyle Theobald</a>
+             
+                <a href="/p/ashleigh-thevenet">Ashleigh Thevenet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-scopey-changey-management-in-drupal-8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/URYn_IAOnvo/hqdefault.jpg" alt="Scopey Changey Management in Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-scopey-changey-management-in-drupal-8">Scopey Changey Management in Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 54:58</div>
+			
+			
+              <div>Views: 146 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/molly-byrnes">Molly Byrnes</a>
+             
+                <a href="/p/ellie-power">Ellie Power</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-selling-drupal-modules-distros"><img class="list-thumbnail" src="https://i.ytimg.com/vi/69z1b1NdvU4/hqdefault.jpg" alt="Selling Drupal modules & distros" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-selling-drupal-modules-distros">Selling Drupal modules & distros</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 58:07</div>
+			
+			
+              <div>Views: 348 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/taco-potze">Taco Potze</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-service-workers-internals"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gKNR4rLdUU8/hqdefault.jpg" alt="Service Workers Internals" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-service-workers-internals">Service Workers Internals</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:03:11</div>
+			
+			
+              <div>Views: 262 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/piyuesh-kumar">Piyuesh Kumar</a>
+             
+                <a href="/p/saket-kumar">Saket Kumar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-simplifying-security-protecting-your-clients-and-your-company"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n3pMvYWHR0o/hqdefault.jpg" alt="Simplifying Security: Protecting your Clients and your Company" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-simplifying-security-protecting-your-clients-and-your-company">Simplifying Security: Protecting your Clients and your Company</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 59:12</div>
+			
+			
+              <div>Views: 413 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luke-probasco">Luke Probasco</a>
+             
+                <a href="/p/chris-teitzel">Chris Teitzel</a>
+             
+                <a href="/p/drew-gorton">Drew Gorton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-six-easy-pieces-for-the-new-front-end-development"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HFkt1P6rVGs/hqdefault.jpg" alt="Six Easy Pieces for the New Front-end Development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-six-easy-pieces-for-the-new-front-end-development">Six Easy Pieces for the New Front-end Development</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:09:27</div>
+			
+			
+              <div>Views: 602 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-albin-wilkins">John Albin Wilkins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-sizing-up-responsive-images-make-a-plan-before-you-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3BF5WE_NOIU/hqdefault.jpg" alt="Sizing up responsive images: Make a plan before you Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-sizing-up-responsive-images-make-a-plan-before-you-drupal">Sizing up responsive images: Make a plan before you Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:09:38</div>
+			
+			
+              <div>Views: 365 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marc-drummond">Marc Drummond</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-spotlight-on-the-featured-showcase-writing-great-case-studies"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PuEYKcOwidE/hqdefault.jpg" alt="Spotlight on the Featured Showcase: Writing Great Case Studies" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-spotlight-on-the-featured-showcase-writing-great-case-studies">Spotlight on the Featured Showcase: Writing Great Case Studies</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 30:35</div>
+			
+			
+              <div>Views: 92 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/leigh-carver-anderson">Leigh Carver Anderson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-state-of-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ct0IYLgPYos/hqdefault.jpg" alt="State of Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-state-of-drupal">State of Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:04:32</div>
+			
+			
+              <div>Views: 316 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jess">Jess</a>
+             
+                <a href="/p/dries-buytaert">Dries Buytaert</a>
+             
+                <a href="/p/gabor-hojtsy">Gábor Hojtsy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-symfony-debug-vardumper-your-daily-must-have"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Pr2PV3DPfe0/hqdefault.jpg" alt="Symfony Debug & VarDumper - Your daily Must-Have" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-symfony-debug-vardumper-your-daily-must-have">Symfony Debug & VarDumper - Your daily Must-Have</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 51:17</div>
+			
+			
+              <div>Views: 247 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicolas-grekas">Nicolas Grekas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-art-of-noestimates"><img class="list-thumbnail" src="https://i.ytimg.com/vi/B4UfPrueb4c/hqdefault.jpg" alt="The art of #NoEstimates" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-art-of-noestimates">The art of #NoEstimates</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 59:22</div>
+			
+			
+              <div>Views: 263 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/piyush-poddar">Piyush Poddar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-big-easy-streamlined-front-end-development"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-sQD7_2nDuI/hqdefault.jpg" alt="The Big Easy: Streamlined Front-end Development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-big-easy-streamlined-front-end-development">The Big Easy: Streamlined Front-end Development</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 56:08</div>
+			
+			
+              <div>Views: 1123 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chaz-chumley">Chaz Chumley</a>
+             
+                <a href="/p/adam-juran">Adam Juran</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-big-picture-how-ux-affects-pretty-much-everything"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4uadCzK1JpQ/hqdefault.jpg" alt="The Big Picture: How UX Affects Pretty Much Everything" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-big-picture-how-ux-affects-pretty-much-everything">The Big Picture: How UX Affects Pretty Much Everything</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 49:11</div>
+			
+			
+              <div>Views: 126 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/charles-b-kreitzberg">Charles B. Kreitzberg</a>
+             
+                <a href="/p/mary-a-albert">Mary A. Albert</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-future-of-drupal-performance-parallel-worlds"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ykrPYAGIYvU/hqdefault.jpg" alt="The future of Drupal Performance - Parallel worlds" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-future-of-drupal-performance-parallel-worlds">The future of Drupal Performance - Parallel worlds</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:00:04</div>
+			
+			
+              <div>Views: 208 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fabian-franz">Fabian Franz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-infinite-wonder-of-the-symfony-event-dispatcher"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tEMom4kP39w/hqdefault.jpg" alt="The Infinite Wonder of the Symfony Event Dispatcher" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-infinite-wonder-of-the-symfony-event-dispatcher">The Infinite Wonder of the Symfony Event Dispatcher</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:06:01</div>
+			
+			
+              <div>Views: 360 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-englander">Adam Englander</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-multilingual-makeover-a-side-by-side-comparison"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Un3b78brgFY/hqdefault.jpg" alt="The Multilingual Makeover: A side-by-side comparison" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-multilingual-makeover-a-side-by-side-comparison">The Multilingual Makeover: A side-by-side comparison</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 44:31</div>
+			
+			
+              <div>Views: 149 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aimee-degnan">Aimee Degnan</a>
+             
+                <a href="/p/kristen-pol">Kristen Pol</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-path-to-becoming-an-accidental-architect"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P4kZ4pu1EN4/hqdefault.jpg" alt="The Path to Becoming an Accidental Architect" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-path-to-becoming-an-accidental-architect">The Path to Becoming an Accidental Architect</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 55:32</div>
+			
+			
+              <div>Views: 394 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patrick-teglia">Patrick Teglia</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-potential-in-drupal-8x-and-how-to-realize-it"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ddZ-McBq-Hg/hqdefault.jpg" alt="The potential in Drupal 8.x and how to realize it" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-potential-in-drupal-8x-and-how-to-realize-it">The potential in Drupal 8.x and how to realize it</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:12:41</div>
+			
+			
+              <div>Views: 319 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gabor-hojtsy">Gábor Hojtsy</a>
+             
+                <a href="/p/angie-byron">Angie Byron</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-story-of-successful-drupal-integrations-in-3-acts"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5_kGzydXuJs/hqdefault.jpg" alt="The Story of Successful Drupal Integrations in 3 Acts" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-story-of-successful-drupal-integrations-in-3-acts">The Story of Successful Drupal Integrations in 3 Acts</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 54:16</div>
+			
+			
+              <div>Views: 108 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lev-tsypin">Lev Tsypin</a>
+             
+                <a href="/p/tauno-hogue">Tauno Hogue</a>
+             
+                <a href="/p/gabriel-carleton-barnes">Gabriel Carleton-Barnes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-symfony-monolith-repository"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4w3-f6Xhvu8/hqdefault.jpg" alt="The Symfony Monolith Repository" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-symfony-monolith-repository">The Symfony Monolith Repository</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 51:03</div>
+			
+			
+              <div>Views: 787 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fabien-potencier">Fabien Potencier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-ultimate-super-duper-guide-to-content-quality"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0dCpfQPOiGQ/hqdefault.jpg" alt="The Ultimate Super Duper Guide to Content Quality" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-the-ultimate-super-duper-guide-to-content-quality">The Ultimate Super Duper Guide to Content Quality</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 55:56</div>
+			
+			
+              <div>Views: 175 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kristina-bjoran">Kristina Bjoran</a>
+             
+                <a href="/p/courtney-clark">Courtney Clark</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-theme-driven-development-launches-travelport-onto-drupal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/L7OU-2GovE8/hqdefault.jpg" alt="Theme-driven development launches Travelport onto Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-theme-driven-development-launches-travelport-onto-drupal">Theme-driven development launches Travelport onto Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 45:32</div>
+			
+			
+              <div>Views: 200 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeff-diecks">Jeff Diecks</a>
+             
+                <a href="/p/allan-paquette">Allan Paquette</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-together-we-can-make-drupal-the-example-for-diversity-in-tech"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TYNGnPV3HKo/hqdefault.jpg" alt="Together we can make Drupal The Example for Diversity in Tech!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-together-we-can-make-drupal-the-example-for-diversity-in-tech">Together we can make Drupal The Example for Diversity in Tech!</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 57:34</div>
+			
+			
+              <div>Views: 116 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/karyn-cassio">Karyn Cassio</a>
+             
+                <a href="/p/nikki-stevens">Nikki Stevens</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-total-value-of-ownership-drupal-8-and-beyond"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CFeKOxAV3kM/hqdefault.jpg" alt="Total value of ownership: Drupal 8 and beyond" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-total-value-of-ownership-drupal-8-and-beyond">Total value of ownership: Drupal 8 and beyond</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 55:45</div>
+			
+			
+              <div>Views: 109 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-russo">Chris Russo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-typed-drupal-a-great-combination-of-drupal-8-and-php-7"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SkNBilOAzns/hqdefault.jpg" alt="Typed Drupal - A great combination of Drupal 8 and PHP 7" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-typed-drupal-a-great-combination-of-drupal-8-and-php-7">Typed Drupal - A great combination of Drupal 8 and PHP 7</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 52:10</div>
+			
+			
+              <div>Views: 524 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aditya-ghan">Aditya Ghan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-understanding-the-critical-metrics-for-your-drupal-business"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5O0wZl5uNpQ/hqdefault.jpg" alt="Understanding the Critical Metrics for Your Drupal Business" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-understanding-the-critical-metrics-for-your-drupal-business">Understanding the Critical Metrics for Your Drupal Business</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 58:11</div>
+			
+			
+              <div>Views: 301 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-terry">Dave Terry</a>
+             
+                <a href="/p/michael-silverman">Michael Silverman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-using-a-mallet-when-you-really-need-a-mjolnir-rundown-of-sprint-tools"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G1orkvbRujg/hqdefault.jpg" alt="Using a mallet when you really need a Mjölnir: Rundown of Sprint tools" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-using-a-mallet-when-you-really-need-a-mjolnir-rundown-of-sprint-tools">Using a mallet when you really need a Mjölnir: Rundown of Sprint tools</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:14:13</div>
+			
+			
+              <div>Views: 180 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-urban">Chris Urban</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-using-blackfireio-to-profile-your-loading-time"><img class="list-thumbnail" src="https://i.ytimg.com/vi/K0vHmZJ3yuw/hqdefault.jpg" alt="Using Blackfire.io to Profile Your Loading Time" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-using-blackfireio-to-profile-your-loading-time">Using Blackfire.io to Profile Your Loading Time</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 49:46</div>
+			
+			
+              <div>Views: 220 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-dergachev">Alex Dergachev</a>
+             
+                <a href="/p/dave-vasilevsky">Dave Vasilevsky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-using-paragraphs-to-weave-a-beautiful-content-tapestry"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Msa6HclvPtk/hqdefault.jpg" alt="Using Paragraphs to Weave a Beautiful Content Tapestry" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-using-paragraphs-to-weave-a-beautiful-content-tapestry">Using Paragraphs to Weave a Beautiful Content Tapestry</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 51:17</div>
+			
+			
+              <div>Views: 1358 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-needham">David Needham</a>
+             
+                <a href="/p/les-lim">Les Lim</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-visualizing-drupal-community-through-drupalorg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/63KkbKWNhyA/hqdefault.jpg" alt="Visualizing Drupal Community through drupal.org" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-visualizing-drupal-community-through-drupalorg">Visualizing Drupal Community through drupal.org</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 37:49</div>
+			
+			
+              <div>Views: 54 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hussain-abbas">Hussain Abbas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-watch-the-hacker-hack"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ek8FswgBvW4/hqdefault.jpg" alt="Watch the Hacker Hack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-watch-the-hacker-hack">Watch the Hacker Hack</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 52:15</div>
+			
+			
+              <div>Views: 972 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-jeavons">Ben Jeavons</a>
+             
+                <a href="/p/michael-hess">Michael Hess</a>
+             
+                <a href="/p/greg-knaddison">Greg Knaddison</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-web-accessibility-101-principles-concepts-and-financial-viability"><img class="list-thumbnail" src="https://i.ytimg.com/vi/I0OmrBFPbtU/hqdefault.jpg" alt="Web Accessibility 101: Principles, Concepts, and Financial Viability" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-web-accessibility-101-principles-concepts-and-financial-viability">Web Accessibility 101: Principles, Concepts, and Financial Viability</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 50:56</div>
+			
+			
+              <div>Views: 172 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/helena-zubkow">Helena Zubkow</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-web-personalization-for-drupal-your-roadmap-to-get-started"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oglhXJPsQhI/hqdefault.jpg" alt="Web Personalization for Drupal: Your Roadmap to Get Started" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-web-personalization-for-drupal-your-roadmap-to-get-started">Web Personalization for Drupal: Your Roadmap to Get Started</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:00:49</div>
+			
+			
+              <div>Views: 386 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-sawyer">Dave Sawyer</a>
+             
+                <a href="/p/john-money">John Money</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-web-user-experience-in-2020"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BglX5__1TMo/hqdefault.jpg" alt="Web User Experience in 2020" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-web-user-experience-in-2020">Web User Experience in 2020</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 50:49</div>
+			
+			
+              <div>Views: 188 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/drew-gorton">Drew Gorton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-what-type-of-testing-is-good-for-me"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P81DeT921Mk/hqdefault.jpg" alt="What type of testing is good for me?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-what-type-of-testing-is-good-for-me">What type of testing is good for me?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 43:36</div>
+			
+			
+              <div>Views: 160 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yuriy-gerasimov">Yuriy Gerasimov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-wheres-the-fire-aka-my-site-is-down-now-what"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SefzBwhVS5k/hqdefault.jpg" alt="Where's the fire? AKA: My site is down... now what?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-wheres-the-fire-aka-my-site-is-down-now-what">Where's the fire? AKA: My site is down... now what?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 57:18</div>
+			
+			
+              <div>Views: 94 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kristen-pol">Kristen Pol</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-wireframes-to-widgets-using-paragraphs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b_cqauY6sJo/hqdefault.jpg" alt="DrupalCon New Orleans 2016: Wireframes to Widgets: Using Paragraphs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-wireframes-to-widgets-using-paragraphs">DrupalCon New Orleans 2016: Wireframes to Widgets: Using Paragraphs</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 51:07</div>
+			
+			
+              <div>Views: 1328 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-bloom">Chris Bloom</a>
+             
+                <a href="/p/chris-wright">Chris Wright</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-workflow-initiative-drupal-is-a-cms"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_rAB8DJnc8Y/hqdefault.jpg" alt="DrupalCon New Orleans 2016: Workflow Initiative (Drupal is a CMS)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-workflow-initiative-drupal-is-a-cms">DrupalCon New Orleans 2016: Workflow Initiative (Drupal is a CMS)</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:00:56</div>
+			
+			
+              <div>Views: 397 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-millwood">Tim Millwood</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-writing-command-line-tools-for-drupal-8-modules"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xWg3cIbJcs4/hqdefault.jpg" alt="Writing Command Line Tools for Drupal 8 Modules" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-writing-command-line-tools-for-drupal-8-modules">Writing Command Line Tools for Drupal 8 Modules</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 34:47</div>
+			
+			
+              <div>Views: 254 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/moshe-weitzman">Moshe Weitzman</a>
+             
+                <a href="/p/darryl-norris">Darryl Norris</a>
+             
+                <a href="/p/jesus-molivas">Jesus Molivas</a>
+             
+                <a href="/p/greg-anderson">Greg Anderson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-writing-modular-javascript-with-browserify"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3hu4yDLFN5g/hqdefault.jpg" alt="Writing Modular JavaScript with Browserify" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-writing-modular-javascript-with-browserify">Writing Modular JavaScript with Browserify</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 57:01</div>
+			
+			
+              <div>Views: 231 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-ferris">John Ferris</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-your-api-is-a-ui"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7qIBd4-JNSA/hqdefault.jpg" alt="Your API is a UI" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-2016-your-api-is-a-ui">Your API is a UI</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 51:21</div>
+			
+			
+              <div>Views: 210 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christopher-hoult">Christopher Hoult</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-maximizing-your-sponsorship"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-DD1tWzMMd4/hqdefault.jpg" alt="DrupalCon New Orleans   Maximizing Your Sponsorship" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalcon-new-orleans-2016/drupalcon-new-orleans-maximizing-your-sponsorship">DrupalCon New Orleans   Maximizing Your Sponsorship</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:02:36</div>
+			
+			
+              <div>Views: 308 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLpeDXSh4nHjTY67K6N8RZHEiJhQL-dnUf">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

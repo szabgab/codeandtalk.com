@@ -1,0 +1,2362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Open Source Bridge 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Open Source Bridge 2016</h1>
+
+<div><a href="http://opensourcebridge.org/y2015/">Open Source Bridge 2016</a></div>
+
+
+<div>Start date: 2015-06-23</div>
+<div>End date: 2015-06-26</div>
+
+<div>Location:
+  Portland
+  Oregon
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://opensourcebridge.org/about/code-of-conduct/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/osbridge">@osbridge</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Open%20Source%20Bridge%202016%20on%202015-06-23%20in%20Portland%2C%20Oregon%20USA%20%40osbridge%20http%3A//opensourcebridge.org/y2015/%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-a-developers-eye-view-of-api-client-libraries-frances-hocutt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AlqL0LV3lG4/hqdefault.jpg" alt="A Developer's-Eye View of API Client Libraries" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-a-developers-eye-view-of-api-client-libraries-frances-hocutt">A Developer's-Eye View of API Client Libraries</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 37:53</div>
+			
+			
+              <div>Views: 32 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/frances-hocutt">Frances Hocutt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-a-huge-green-fierce-snake-bars-the-way-or-building-a-text-adventure-game-in-python"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SpE6Joy5dk4/hqdefault.jpg" alt=""A huge green fierce snake bars the way!"; or, Building a Text Adventure Game in Python" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-a-huge-green-fierce-snake-bars-the-way-or-building-a-text-adventure-game-in-python">"A huge green fierce snake bars the way!"; or, Building a Text Adventure Game in Python</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 28:07</div>
+			
+			
+              <div>Views: 118 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/katie-silverio">Katie Silverio</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-a-matter-of-time-john-feminella"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Tto26Fogvv0/hqdefault.jpg" alt="A Matter of Time" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-a-matter-of-time-john-feminella">A Matter of Time</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 38:29</div>
+			
+			
+              <div>Views: 51 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-feminella">John Feminella</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-a-pair-programming-workshop-moss-collum-laura-dean"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XgAe5EGZSJw/hqdefault.jpg" alt="A Pair Programming Workshop" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-a-pair-programming-workshop-moss-collum-laura-dean">A Pair Programming Workshop</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 22:03</div>
+			
+			
+              <div>Views: 32 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/laura-dean">Laura Dean</a>
+             
+                <a href="/p/moss-collum">Moss Collum</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-a-profile-of-performance-profiling-with-pprof-lauren-voswinkel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ER4JirsI7wI/hqdefault.jpg" alt="A Profile of Performance Profiling With pprof" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-a-profile-of-performance-profiling-with-pprof-lauren-voswinkel">A Profile of Performance Profiling With pprof</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 37:55</div>
+			
+			
+              <div>Views: 222 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lauren-voswinkel">Lauren Voswinkel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-aesthetics-and-the-evolution-of-code-coraline-ada-ehmke"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qmBL4THJtuM/hqdefault.jpg" alt="Aesthetics and the Evolution of Code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-aesthetics-and-the-evolution-of-code-coraline-ada-ehmke">Aesthetics and the Evolution of Code</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 25:35</div>
+			
+			
+              <div>Views: 131 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oraline-ada-ehmke">Coraline Ada Ehmke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-bridging-the-digital-divide-with-sms-bots-briar-schreiber"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Q1Hmh6mxSSc/hqdefault.jpg" alt="Bridging the Digital Divide with SMS Bots" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-bridging-the-digital-divide-with-sms-bots-briar-schreiber">Bridging the Digital Divide with SMS Bots</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 38:14</div>
+			
+			
+              <div>Views: 69 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/briar-schreiber">Briar Schreiber</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-bringing-non-technical-people-to-the-freelibreopen-world-and-why-it-matters"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UoexwmVNmu0/hqdefault.jpg" alt="Bringing non-technical people to the Free/Libre/Open world and why it matters" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-bringing-non-technical-people-to-the-freelibreopen-world-and-why-it-matters">Bringing non-technical people to the Free/Libre/Open world and why it matters</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 34:18</div>
+			
+			
+              <div>Views: 67 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aaron-wolf">Aaron Wolf</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-bringing-security-to-your-open-source-project-terri-oda"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-w3e1fBuEfM/hqdefault.jpg" alt="Bringing Security to Your Open Source Project" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-bringing-security-to-your-open-source-project-terri-oda">Bringing Security to Your Open Source Project</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 37:12</div>
+			
+			
+              <div>Views: 43 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/terri-oda">Terri Oda</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-build-a-web-map-with-open-source-tools-lyzi-diamond-682171"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3hXWkJUqlWA/hqdefault.jpg" alt="Build a Web Map with Open Source Tools" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-build-a-web-map-with-open-source-tools-lyzi-diamond-682171">Build a Web Map with Open Source Tools</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 01:33:33</div>
+			
+			
+              <div>Views: 139 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lyzi-diamond">Lyzi Diamond</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-build-a-web-map-with-open-source-tools-lyzi-diamond"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-d7AJEvUe34/hqdefault.jpg" alt="Build a Web Map with Open Source Tools" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-build-a-web-map-with-open-source-tools-lyzi-diamond">Build a Web Map with Open Source Tools</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 43:26</div>
+			
+			
+              <div>Views: 61 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lyzi-diamond">Lyzi Diamond</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-building-and-maintaining-a-healthy-community-priyanka-nag"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZYoJMCju37E/hqdefault.jpg" alt="Building and maintaining a healthy community" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-building-and-maintaining-a-healthy-community-priyanka-nag">Building and maintaining a healthy community</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 38:19</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/priyanka-nag">Priyanka Nag</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-building-diverse-social-networks-lynn-cyrin-jon-pincus"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3M_v35HMx80/hqdefault.jpg" alt="Building Diverse Social Networks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-building-diverse-social-networks-lynn-cyrin-jon-pincus">Building Diverse Social Networks</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 44:16</div>
+			
+			
+              <div>Views: 40 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jon-pincus">Jon Pincus</a>
+             
+                <a href="/p/lynn-cyrin-conway">Lynn 'Cyrin' Conway</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-building-mentoring-into-an-os-community-that-welcomes-and-values-new-contributors"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pOQ80bn6Nzo/hqdefault.jpg" alt="Building mentoring into an os community that welcomes and values new contributors" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-building-mentoring-into-an-os-community-that-welcomes-and-values-new-contributors">Building mentoring into an os community that welcomes and values new contributors</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 37:17</div>
+			
+			
+              <div>Views: 18 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cathy-theys">Cathy Theys</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-calculating-guilt-using-open-source-software-in-forensic-dna-testing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vOFbPWHhVnM/hqdefault.jpg" alt="Calculating Guilt: Using open-source software in forensic DNA testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-calculating-guilt-using-open-source-software-in-forensic-dna-testing">Calculating Guilt: Using open-source software in forensic DNA testing</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 41:22</div>
+			
+			
+              <div>Views: 41 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sarah-chenoweth">Sarah Chenoweth</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-care-and-feeding-of-a-healthy-job-hunt-vm-brasseur"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dqFZJRH60kY/hqdefault.jpg" alt="Care and Feeding of a Healthy Job Hunt" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-care-and-feeding-of-a-healthy-job-hunt-vm-brasseur">Care and Feeding of a Healthy Job Hunt</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 48:02</div>
+			
+			
+              <div>Views: 50 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vicky-brasseur">Vicky Brasseur</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-cassandra-at-the-keyboard-whistleblowing-at-all-scales-heidi-waterhouse"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eAPFMTz8ppY/hqdefault.jpg" alt="Cassandra at the Keyboard: Whistleblowing at all scales" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-cassandra-at-the-keyboard-whistleblowing-at-all-scales-heidi-waterhouse">Cassandra at the Keyboard: Whistleblowing at all scales</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 32:33</div>
+			
+			
+              <div>Views: 59 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/heidi-waterhouse">Heidi Waterhouse</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-cat-herds-crook-enforcing-standards-in-10-programming-languages"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OBjU_xYtPmA/hqdefault.jpg" alt="Cat-herd's Crook: Enforcing Standards in 10 Programming Languages" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-cat-herds-crook-enforcing-standards-in-10-programming-languages">Cat-herd's Crook: Enforcing Standards in 10 Programming Languages</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 42:09</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/a-jesse-jiryu-davis">A. Jesse Jiryu Davis</a>
+             
+                <a href="/p/samantha-ritter">Samantha Ritter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-catalyzing-diversity-practical-advice-for-navigating-minority-stem-communities"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NMZUaM35gOI/hqdefault.jpg" alt="Catalyzing Diversity: Practical Advice for Navigating Minority STEM Communities..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-catalyzing-diversity-practical-advice-for-navigating-minority-stem-communities">Catalyzing Diversity: Practical Advice for Navigating Minority STEM Communities...</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 44:51</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alberto-roca">Alberto Roca</a>
+             
+                <a href="/p/shauna-gordon-mckeon">Shauna Gordon-McKeon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-community-moderation-you-cant-always-halt-a-flamewar-with-one-raised-eyebrow"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GoSGgPAIoS8/hqdefault.jpg" alt="Community Moderation: you can't always halt a flamewar with one raised eyebrow..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-community-moderation-you-cant-always-halt-a-flamewar-with-one-raised-eyebrow">Community Moderation: you can't always halt a flamewar with one raised eyebrow...</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 43:57</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/azure-lunatic">Azure Lunatic</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-community-public-offerings-a-new-way-to-engage-markets-and-investors-in-oregon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UywDGf2dKMc/hqdefault.jpg" alt="Community Public Offerings: A New Way to Engage Markets (and Investors) in Oregon" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-community-public-offerings-a-new-way-to-engage-markets-and-investors-in-oregon">Community Public Offerings: A New Way to Engage Markets (and Investors) in Oregon</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 36:16</div>
+			
+			
+              <div>Views: 8 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kristin-wolff">Kristin Wolff</a>
+             
+                <a href="/p/simon-love">Simon Love</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-consequences-of-an-insightful-algorithm-carina-c-zona"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XrV73drJxI0/hqdefault.jpg" alt="Consequences of an Insightful Algorithm" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-consequences-of-an-insightful-algorithm-carina-c-zona">Consequences of an Insightful Algorithm</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 41:33</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/carina-c-zona">Carina C. Zona</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-desigining-for-renaming-emma-humphries"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WJa_taQh0q8/hqdefault.jpg" alt="Desigining for Renaming" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-desigining-for-renaming-emma-humphries">Desigining for Renaming</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 39:34</div>
+			
+			
+              <div>Views: 101 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/emma-humphries">Emma Humphries</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-developer-and-the-dom-a-history-of-manipulation-and-abstraction"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9wISVMoErxQ/hqdefault.jpg" alt="Developer and the DOM - A history of manipulation and abstraction" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-developer-and-the-dom-a-history-of-manipulation-and-abstraction">Developer and the DOM - A history of manipulation and abstraction</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 29:08</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/zachary-michael">Zachary Michael</a>
+             
+                <a href="/p/gregory-noack">Gregory Noack</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-dog-food-is-for-dogs-escape-the-crate-of-your-perspective-with-user-research"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tp2ekq9wAtk/hqdefault.jpg" alt="Dog Food is for Dogs: Escape the Crate of Your Perspective with User Research" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-dog-food-is-for-dogs-escape-the-crate-of-your-perspective-with-user-research">Dog Food is for Dogs: Escape the Crate of Your Perspective with User Research</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 24:38</div>
+			
+			
+              <div>Views: 18 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amelia-abreu">Amelia Abreu</a>
+             
+                <a href="/p/rachel-shadoan">Rachel Shadoan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-dr-jekyll-and-mr-pelican-a-comparison-of-static-site-generators-lucy-wyman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4Yonwd98XW8/hqdefault.jpg" alt="Dr. Jekyll and Mr. Pelican: A Comparison of Static Site Generators" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-dr-jekyll-and-mr-pelican-a-comparison-of-static-site-generators-lucy-wyman">Dr. Jekyll and Mr. Pelican: A Comparison of Static Site Generators</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 24:25</div>
+			
+			
+              <div>Views: 584 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lucy-wyman">Lucy Wyman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-economics-of-volunteer-labor-three-stories-from-debian-asheesh-laroia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3RzYbDtUyXA/hqdefault.jpg" alt="Economics of Volunteer Labor: Three stories from Debian" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-economics-of-volunteer-labor-three-stories-from-debian-asheesh-laroia">Economics of Volunteer Labor: Three stories from Debian</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 43:41</div>
+			
+			
+              <div>Views: 17 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/asheesh-laroia">Asheesh Laroia</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-email-as-distributed-protocol-transport-how-meeting-invites-work"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Jfg3CVrjsU0/hqdefault.jpg" alt="Email as Distributed Protocol Transport: How Meeting Invites Work" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-email-as-distributed-protocol-transport-how-meeting-invites-work">Email as Distributed Protocol Transport: How Meeting Invites Work</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 34:31</div>
+			
+			
+              <div>Views: 112 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christine-spang">Christine Spang</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-failing-with-grace-sean-oconnor"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oO3raqLgnl8/hqdefault.jpg" alt="Failing With Grace" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-failing-with-grace-sean-oconnor">Failing With Grace</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 36:25</div>
+			
+			
+              <div>Views: 13 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-o-connor">Sean O'Connor</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-fear-driven-development-ryan-kennedy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OFE7PsdZN-c/hqdefault.jpg" alt="Fear Driven Development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-fear-driven-development-ryan-kennedy">Fear Driven Development</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 37:14</div>
+			
+			
+              <div>Views: 120 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ryan-kennedy">Ryan Kennedy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-five-years-1000-students-the-story-of-open-source-comes-to-campus-asheesh-laroia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/niU6bIvvPRM/hqdefault.jpg" alt="Five years, 1000 students: The story of Open Source Comes to Campus" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-five-years-1000-students-the-story-of-open-source-comes-to-campus-asheesh-laroia">Five years, 1000 students: The story of Open Source Comes to Campus</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 43:38</div>
+			
+			
+              <div>Views: 4 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/asheesh-laroia">Asheesh Laroia</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-for-love-and-for-money-audrey-eschright"><img class="list-thumbnail" src="https://i.ytimg.com/vi/83YkzIjvPVk/hqdefault.jpg" alt="For Love and For Money" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-for-love-and-for-money-audrey-eschright">For Love and For Money</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 33:13</div>
+			
+			
+              <div>Views: 52 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/audrey-eschright">Audrey Eschright</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-free-your-money-open-source-crowdfunding-tips-tools-skyler-corbett"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JknHI7jeS_I/hqdefault.jpg" alt="Free Your Money: Open Source Crowdfunding Tips & Tools" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-free-your-money-open-source-crowdfunding-tips-tools-skyler-corbett">Free Your Money: Open Source Crowdfunding Tips & Tools</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 29:19</div>
+			
+			
+              <div>Views: 60 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/skyler-corbett">Skyler Corbett</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-from-the-inside-out-how-self-talk-affects-your-community-kat-toomajian"><img class="list-thumbnail" src="https://i.ytimg.com/vi/C5HE8PiQDoM/hqdefault.jpg" alt="From the Inside Out: How Self-Talk Affects Your Community" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-from-the-inside-out-how-self-talk-affects-your-community-kat-toomajian">From the Inside Out: How Self-Talk Affects Your Community</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 38:34</div>
+			
+			
+              <div>Views: 53 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/katherine-toomajian">Katherine Toomajian</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-from-the-unicorns-mouth-stories-of-managing-multiple-diverse-identities-in-tech"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F4ScIunQkZs/hqdefault.jpg" alt="From the Unicorn’s Mouth: Stories of Managing Multiple Diverse Identities in Tech" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-from-the-unicorns-mouth-stories-of-managing-multiple-diverse-identities-in-tech">From the Unicorn’s Mouth: Stories of Managing Multiple Diverse Identities in Tech</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 45:41</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thalida-noel">Thalida Noel</a>
+             
+                <a href="/p/lisa-sy">Lisa Sy</a>
+             
+                <a href="/p/megan-baker">Megan Baker</a>
+             
+                <a href="/p/nichole-burton">Nichole Burton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-funding-for-open-source-projects-is-a-universal-basic-income-the-solution"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5ZkJyEchXhI/hqdefault.jpg" alt="Funding for Open Source Projects: Is a Universal Basic Income the Solution?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-funding-for-open-source-projects-is-a-universal-basic-income-the-solution">Funding for Open Source Projects: Is a Universal Basic Income the Solution?</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 41:20</div>
+			
+			
+              <div>Views: 234 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luc-perkins">Luc Perkins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-good-enough-voter-verification-other-identity-architecture-schemes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mBRmBt5J4LY/hqdefault.jpg" alt="Good Enough Voter Verification & Other Identity Architecture Schemes..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-good-enough-voter-verification-other-identity-architecture-schemes">Good Enough Voter Verification & Other Identity Architecture Schemes...</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 01:38:00</div>
+			
+			
+              <div>Views: 34 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ele-mooney">Ele Mooney</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-hacking-minecraft-jonan-scheffler"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qrphkxsKlwI/hqdefault.jpg" alt="Hacking Minecraft!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-hacking-minecraft-jonan-scheffler">Hacking Minecraft!</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 41:38</div>
+			
+			
+              <div>Views: 48 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jonan-scheffler">Jonan Scheffler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-hello-my-name-is-__________-nova-patch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RqB2P5SPfgM/hqdefault.jpg" alt="Hello, my name is __________." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-hello-my-name-is-__________-nova-patch">Hello, my name is __________.</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 33:39</div>
+			
+			
+              <div>Views: 120 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nova-patch">Nova Patch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-hosting-events-that-the-whole-community-loves-meg-hartley"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NM8OdElmcs0/hqdefault.jpg" alt="Hosting Events that the Whole Community Loves" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-hosting-events-that-the-whole-community-loves-meg-hartley">Hosting Events that the Whole Community Loves</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 38:57</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/meg-hartley">Meg Hartley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-how-do-python-coroutines-work-a-jesse-jiryu-davis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GSk0tIjDT10/hqdefault.jpg" alt="How Do Python Coroutines Work?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-how-do-python-coroutines-work-a-jesse-jiryu-davis">How Do Python Coroutines Work?</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 34:53</div>
+			
+			
+              <div>Views: 2429 Likes: 33</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/a-jesse-jiryu-davis">A. Jesse Jiryu Davis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-how-the-internet-works-noah-kantrowitz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XrjeonFuyeo/hqdefault.jpg" alt="How the Internet Works" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-how-the-internet-works-noah-kantrowitz">How the Internet Works</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 41:54</div>
+			
+			
+              <div>Views: 269 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/noah-kantrowitz">Noah Kantrowitz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-how-to-be-a-great-developer-edward-finkler"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gdQE0oUZwlQ/hqdefault.jpg" alt="How To Be A Great Developer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-how-to-be-a-great-developer-edward-finkler">How To Be A Great Developer</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 39:16</div>
+			
+			
+              <div>Views: 110 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/edward-finkler">Edward Finkler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-how-to-read-a-stack-trace-moss-collum"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CzBJzjMLzzY/hqdefault.jpg" alt="How to Read a Stack Trace" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-how-to-read-a-stack-trace-moss-collum">How to Read a Stack Trace</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 38:21</div>
+			
+			
+              <div>Views: 536 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/moss-collum">Moss Collum</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-how-to-really-get-git-susan-tan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LaN-nvvDHFc/hqdefault.jpg" alt="How to Really Get Git" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-how-to-really-get-git-susan-tan">How to Really Get Git</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 28:23</div>
+			
+			
+              <div>Views: 129 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/susan-tan">Susan Tan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-how-to-teach-git-georgia-reh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/K8rtDiyh_kI/hqdefault.jpg" alt="How to Teach Git" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-how-to-teach-git-georgia-reh">How to Teach Git</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 41:45</div>
+			
+			
+              <div>Views: 213 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/georgia-reh">Georgia Reh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-how-we-learned-to-stop-worrying-and-love-or-at-least-live-with-github"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EWtMEM-cXXQ/hqdefault.jpg" alt="How We Learned To Stop Worrying And Love (Or At Least Live With) GitHub" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-how-we-learned-to-stop-worrying-and-love-or-at-least-live-with-github">How We Learned To Stop Worrying And Love (Or At Least Live With) GitHub</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 37:13</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jen-griffin">Jen Griffin</a>
+             
+                <a href="/p/athena-yao">Athena Yao</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-how-you-tell-the-story-matters-telling-better-stories-and-making-better-technologies"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uI6Jr3mCFts/hqdefault.jpg" alt="How you tell the story matters: telling better stories and making better technologies" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-how-you-tell-the-story-matters-telling-better-stories-and-making-better-technologies">How you tell the story matters: telling better stories and making better technologies</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 27:08</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amelia-abreu">Amelia Abreu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-http-can-do-that-sumana-harihareswara"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mnOlgKSh5R0/hqdefault.jpg" alt="HTTP Can Do That?!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-http-can-do-that-sumana-harihareswara">HTTP Can Do That?!</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 43:01</div>
+			
+			
+              <div>Views: 151 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sumana-harihareswara">Sumana Harihareswara</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-humanising-math-and-physics-on-computer-science-hanneli-tavante"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DRm6reu5ON0/hqdefault.jpg" alt="Humanising Math and Physics on Computer Science" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-humanising-math-and-physics-on-computer-science-hanneli-tavante">Humanising Math and Physics on Computer Science</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 40:54</div>
+			
+			
+              <div>Views: 66 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hanneli-tavante">Hanneli Tavante</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-internet-of-things-militia-paramilitary-training-for-your-iot-devices"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SCTq3WnETOk/hqdefault.jpg" alt="Internet of Things Militia: Paramilitary Training for your IoT devices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-internet-of-things-militia-paramilitary-training-for-your-iot-devices">Internet of Things Militia: Paramilitary Training for your IoT devices</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 28:06</div>
+			
+			
+              <div>Views: 44 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/terri-oda">Terri Oda</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-introduction-to-data-munging-with-pandas-and-ipython-notebook-melissa-lewis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SyRoLhJmxPM/hqdefault.jpg" alt="Introduction to data munging with pandas and IPython Notebook" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-introduction-to-data-munging-with-pandas-and-ipython-notebook-melissa-lewis">Introduction to data munging with pandas and IPython Notebook</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 34:56</div>
+			
+			
+              <div>Views: 539 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/melissa-lewis">Melissa Lewis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-kenny_grb-making-ruby-write-smooth-jazz-tim-krajcar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cR97koHW7WE/hqdefault.jpg" alt="kenny_g.rb: Making Ruby Write Smooth Jazz" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-kenny_grb-making-ruby-write-smooth-jazz-tim-krajcar">kenny_g.rb: Making Ruby Write Smooth Jazz</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 20:13</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-krajcar">Tim Krajcar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-learning-and-knowing-with-federated-wiki-ward-cunningham"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FRHBSX3QZFY/hqdefault.jpg" alt="Learning and Knowing with Federated Wiki" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-learning-and-knowing-with-federated-wiki-ward-cunningham">Learning and Knowing with Federated Wiki</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 31:34</div>
+			
+			
+              <div>Views: 79 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ward-cunningham">Ward Cunningham</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-leveraging-docker-to-enable-learning-kirsten-hunter"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xGblWWBCSTY/hqdefault.jpg" alt="Leveraging Docker to Enable Learning" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-leveraging-docker-to-enable-learning-kirsten-hunter">Leveraging Docker to Enable Learning</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 24:40</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kirsten-hunter">Kirsten Hunter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-making-docker-actually-work-simon-mcfarlane"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qlf6YogG-k4/hqdefault.jpg" alt="Making Docker Actually Work" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-making-docker-actually-work-simon-mcfarlane">Making Docker Actually Work</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 21:26</div>
+			
+			
+              <div>Views: 52 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-ncfarlane">Simon McFarlane</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-making-the-web-fun-again-kyle-drake-victoria-wang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/B5bE0dfBy5o/hqdefault.jpg" alt="Making the web fun again" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-making-the-web-fun-again-kyle-drake-victoria-wang">Making the web fun again</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 41:39</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kyle-drake">Kyle Drake</a>
+             
+                <a href="/p/victoria-wang">Victoria Wang</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-micropub-the-emerging-api-standard-for-indieweb-apps-aaron-parecki"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YM1Y85zKZbQ/hqdefault.jpg" alt="Micropub: The Emerging API Standard for IndieWeb Apps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-micropub-the-emerging-api-standard-for-indieweb-apps-aaron-parecki">Micropub: The Emerging API Standard for IndieWeb Apps</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 30:55</div>
+			
+			
+              <div>Views: 177 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aaron-parecki">Aaron Parecki</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-monads-made-semi-understandable-libby-kent"><img class="list-thumbnail" src="https://i.ytimg.com/vi/J3Djb1VyzkM/hqdefault.jpg" alt="Monads Made Semi-Understandable" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-monads-made-semi-understandable-libby-kent">Monads Made Semi-Understandable</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 38:13</div>
+			
+			
+              <div>Views: 523 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/libby-kent">Libby Kent</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-on-device-open-source-mobile-vector-rendering-of-openstreetmap-justin-miller"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4JTKzdVO_Hw/hqdefault.jpg" alt="On-device, open source mobile vector rendering of OpenStreetMap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-on-device-open-source-mobile-vector-rendering-of-openstreetmap-justin-miller">On-device, open source mobile vector rendering of OpenStreetMap</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 32:36</div>
+			
+			
+              <div>Views: 63 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/justin-miller">Justin Miller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-open-source-tools-of-the-hardware-hacking-trade-joe-grand"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HlcMBR2Xpmk/hqdefault.jpg" alt="Open Source Tools of the Hardware Hacking Trade" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-open-source-tools-of-the-hardware-hacking-trade-joe-grand">Open Source Tools of the Hardware Hacking Trade</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 49:04</div>
+			
+			
+              <div>Views: 492 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joe-grand">Joe Grand</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-open-source-your-circuit-design-with-kicad-jenner-hanni"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h6sH6In8pnQ/hqdefault.jpg" alt="Open Source your Circuit Design with KiCAD" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-open-source-your-circuit-design-with-kicad-jenner-hanni">Open Source your Circuit Design with KiCAD</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 42:50</div>
+			
+			
+              <div>Views: 249 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jenner-hanni">Jenner Hanni</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-opening-up-the-current-open-source-blueprint-stephanie-morillo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cythZIuufGI/hqdefault.jpg" alt="Opening Up The Current Open Source Blueprint" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-opening-up-the-current-open-source-blueprint-stephanie-morillo">Opening Up The Current Open Source Blueprint</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 23:05</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephanie-morillo">Stephanie Morillo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-probably-bart-massey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/l6NsS3XPhAc/hqdefault.jpg" alt="Probably" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-probably-bart-massey">Probably</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 42:20</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bart-massey">Bart Massey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-project-fear-adam-edgerton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QZM5xVKVIzg/hqdefault.jpg" alt="Project Fear" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-project-fear-adam-edgerton">Project Fear</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 35:16</div>
+			
+			
+              <div>Views: 49 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-edgerton">Adam Edgerton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-put-up-or-shut-up-an-open-letter-to-tech-companies-seeking-diverse-teams"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0H6BZxDBeYo/hqdefault.jpg" alt="Put Up or Shut Up: An Open Letter to Tech Companies Seeking Diverse Teams" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-put-up-or-shut-up-an-open-letter-to-tech-companies-seeking-diverse-teams">Put Up or Shut Up: An Open Letter to Tech Companies Seeking Diverse Teams</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 38:23</div>
+			
+			
+              <div>Views: 692 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kronda-adair">Kronda Adair</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-r-you-ready-for-some-football-hacking-fantasy-sports-with-open-source-software"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sUnocfF7zI0/hqdefault.jpg" alt=""R" You Ready for Some Football? Hacking Fantasy Sports with Open Source Software" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-r-you-ready-for-some-football-hacking-fantasy-sports-with-open-source-software">"R" You Ready for Some Football? Hacking Fantasy Sports with Open Source Software</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 41:23</div>
+			
+			
+              <div>Views: 911 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/edward-borasky">Edward Borasky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-reinventing-black-boxes-daniel-johnson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hGf_f5QoMWk/hqdefault.jpg" alt="Reinventing black boxes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-reinventing-black-boxes-daniel-johnson">Reinventing black boxes</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 42:05</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-johnson">Daniel Johnson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-removing-barriers-ascend-project-post-mortem"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hZOv7trTVBI/hqdefault.jpg" alt="OSB 2015 - Removing Barriers: Ascend Project Post Mortem" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-removing-barriers-ascend-project-post-mortem">OSB 2015 - Removing Barriers: Ascend Project Post Mortem</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 45:03</div>
+			
+			
+              <div>Views: 17 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lukas-blakk">Lukas Blakk</a>
+             
+                <a href="/p/kronda-adair">Kronda Adair</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-so-how-do-you-reach-every-person-on-the-planet-internationalization-at-twitter"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ixsGHzOuWZA/hqdefault.jpg" alt="So how do you reach every person on the planet: Internationalization at Twitter" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-so-how-do-you-reach-every-person-on-the-planet-internationalization-at-twitter">So how do you reach every person on the planet: Internationalization at Twitter</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 40:17</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alolita-sharma">Alolita Sharma</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-software-archeology-and-the-code-of-doom-kerri-miller"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2YlO9MGlrXY/hqdefault.jpg" alt="Software Archeology and The Code Of Doom" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-software-archeology-and-the-code-of-doom-kerri-miller">Software Archeology and The Code Of Doom</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 50:35</div>
+			
+			
+              <div>Views: 92 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kerri-miller">Kerri Miller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-stronger-than-fear-mental-health-in-the-developer-community-ed-finkler"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eEqnUQgRrl0/hqdefault.jpg" alt="Stronger Than Fear: Mental Health in the Developer Community" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-stronger-than-fear-mental-health-in-the-developer-community-ed-finkler">Stronger Than Fear: Mental Health in the Developer Community</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 38:03</div>
+			
+			
+              <div>Views: 28 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/edward-finkler">Edward Finkler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-teaching-and-managing-for-technologists-lennon-day-reynolds"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iWcI9kOw8PY/hqdefault.jpg" alt="Teaching and managing for technologists" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-teaching-and-managing-for-technologists-lennon-day-reynolds">Teaching and managing for technologists</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 50:59</div>
+			
+			
+              <div>Views: 20 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lennon-day-reynolds">Lennon Day-Reynolds</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-testing-the-multiverse-jason-clark"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VERzcYBkQg0/hqdefault.jpg" alt="Testing the Multiverse" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-testing-the-multiverse-jason-clark">Testing the Multiverse</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 37:31</div>
+			
+			
+              <div>Views: 14 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-clark">Jason Clark</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-the-graceful-exit-approaches-for-changing-ones-role-in-an-open-community-kate-chapman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UaLbhI7k_ko/hqdefault.jpg" alt="The Graceful Exit: Approaches for Changing One's Role in an Open Community" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-the-graceful-exit-approaches-for-changing-ones-role-in-an-open-community-kate-chapman">The Graceful Exit: Approaches for Changing One's Role in an Open Community</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 27:36</div>
+			
+			
+              <div>Views: 14 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kate-chapman">Kate Chapman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-the-open-source-writing-stack-thursday-bram"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LMG38r8JZ90/hqdefault.jpg" alt="The Open Source Writing Stack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-the-open-source-writing-stack-thursday-bram">The Open Source Writing Stack</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 23:42</div>
+			
+			
+              <div>Views: 27 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thursday-bram">Thursday Bram</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-the-public-library-as-an-almost-open-source-institution-alex-byrne"><img class="list-thumbnail" src="https://i.ytimg.com/vi/N5Hy4UuQGcY/hqdefault.jpg" alt="The Public Library As An (Almost) Open Source Institution" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-the-public-library-as-an-almost-open-source-institution-alex-byrne">The Public Library As An (Almost) Open Source Institution</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 41:33</div>
+			
+			
+              <div>Views: 34 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-byrne">Alex Byrne</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-the-quantified-self-in-the-smart-city-geo-visualizing-the-open-data-of-you"><img class="list-thumbnail" src="https://i.ytimg.com/vi/T-XqLOWtWb8/hqdefault.jpg" alt="The Quantified Self in the Smart City: Geo-Visualizing the Open Data of YOU" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-the-quantified-self-in-the-smart-city-geo-visualizing-the-open-data-of-you">The Quantified Self in the Smart City: Geo-Visualizing the Open Data of YOU</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 25:34</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/arlene-ducao">Arlene Ducao</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-through-the-warp-zone-hacking-super-mario-brothers-shawna-scott-emily-st"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hnEbYHvG_iQ/hqdefault.jpg" alt="Through the Warp Zone: Hacking Super Mario Brothers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-through-the-warp-zone-hacking-super-mario-brothers-shawna-scott-emily-st">Through the Warp Zone: Hacking Super Mario Brothers</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 47:53</div>
+			
+			
+              <div>Views: 59 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/emily-st">Emily St</a>
+             
+                <a href="/p/shawna-scott">Shawna Scott</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-tricking-out-the-terminal-an-introduction-lydia-katsamberis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1X_lRMS0t_M/hqdefault.jpg" alt="Tricking Out the Terminal: An Introduction" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-tricking-out-the-terminal-an-introduction-lydia-katsamberis">Tricking Out the Terminal: An Introduction</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 43:38</div>
+			
+			
+              <div>Views: 194 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lydia-katsamberis">Lydia Katsamberis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-troubleshooting-in-distributed-systems-megan-baker"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LVNBBFxgZCk/hqdefault.jpg" alt="Troubleshooting In Distributed Systems" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-troubleshooting-in-distributed-systems-megan-baker">Troubleshooting In Distributed Systems</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 28:49</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/megan-baker">Megan Baker</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-trustworthy-software-in-the-real-world-jamey-sharp"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zhhtQ_-t1pw/hqdefault.jpg" alt="Trustworthy software in the real world" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-trustworthy-software-in-the-real-world-jamey-sharp">Trustworthy software in the real world</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 39:00</div>
+			
+			
+              <div>Views: 60 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jamey-sharp">Jamey Sharp</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-universal-web-design-how-to-create-an-awesome-experience-for-every-user"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GaX21O6mgVQ/hqdefault.jpg" alt="Universal Web Design: How to create an awesome experience for *every* user" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-universal-web-design-how-to-create-an-awesome-experience-for-every-user">Universal Web Design: How to create an awesome experience for *every* user</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 40:37</div>
+			
+			
+              <div>Views: 147 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-newton">David Newton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-user-research-for-non-researchers-jane-davis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nwc8f8yOBFs/hqdefault.jpg" alt="User Research For Non-Researchers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-user-research-for-non-researchers-jane-davis">User Research For Non-Researchers</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 37:34</div>
+			
+			
+              <div>Views: 22 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jane-davis">Jane Davis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-using-asterisk-to-stop-robocallers-michael-pigg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OeTWPSJazRw/hqdefault.jpg" alt="Using Asterisk to Stop Robocallers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-using-asterisk-to-stop-robocallers-michael-pigg">Using Asterisk to Stop Robocallers</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 35:50</div>
+			
+			
+              <div>Views: 38 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-pigg">Michael Pigg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-using-julia-d3-to-analyse-web-performance-data-philip-tellis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/T1Ys6aQYVNc/hqdefault.jpg" alt="Using Julia & D3 to analyse web performance data" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-using-julia-d3-to-analyse-web-performance-data-philip-tellis">Using Julia & D3 to analyse web performance data</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 47:26</div>
+			
+			
+              <div>Views: 73 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/philip-tellis">Philip Tellis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-venturing-into-the-spooky-science-of-ruby-zoe-kay"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UOiDkpsxd64/hqdefault.jpg" alt="Venturing into the Spooky Science of Ruby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-venturing-into-the-spooky-science-of-ruby-zoe-kay">Venturing into the Spooky Science of Ruby</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 33:05</div>
+			
+			
+              <div>Views: 55 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/zoe-kay">Zoe Kay</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-what-is-localwiki-and-why-is-it-so-much-fun-lets-edit-it-britta-gustafson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nATLGnKfQvE/hqdefault.jpg" alt="What is LocalWiki, and why is it so much fun? Let's edit it!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-what-is-localwiki-and-why-is-it-so-much-fun-lets-edit-it-britta-gustafson">What is LocalWiki, and why is it so much fun? Let's edit it!</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 28:56</div>
+			
+			
+              <div>Views: 94 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/britta-gustafson">Britta Gustafson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-what-stuttering-taught-me-about-marketing-not-your-typical-soft-skills-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DYjJevmFJpo/hqdefault.jpg" alt="What stuttering taught me about marketing - not your typical soft skills talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-what-stuttering-taught-me-about-marketing-not-your-typical-soft-skills-talk">What stuttering taught me about marketing - not your typical soft skills talk</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 15:36</div>
+			
+			
+              <div>Views: 936 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sharon-steed">Sharon Steed</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-whats-in-a-name-phonetic-algorithms-for-search-and-similarity"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ULwApj7uFXc/hqdefault.jpg" alt="OSB 2015 - What's in a name? Phonetic Algorithms for Search and Similarity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-whats-in-a-name-phonetic-algorithms-for-search-and-similarity">OSB 2015 - What's in a name? Phonetic Algorithms for Search and Similarity</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 24:04</div>
+			
+			
+              <div>Views: 98 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mercedes-coyle">Mercedes Coyle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-when-your-codebase-is-nearly-old-enough-to-vote-denise-paolucci"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wRHAwdHi5HE/hqdefault.jpg" alt="When Your Codebase Is Nearly Old Enough To Vote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-when-your-codebase-is-nearly-old-enough-to-vote-denise-paolucci">When Your Codebase Is Nearly Old Enough To Vote</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 40:15</div>
+			
+			
+              <div>Views: 33 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/denise-paolucci">Denise Paolucci</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-why-making-a-programming-language-is-awesome-michael-r-fairhurst"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fxF_WaAUzng/hqdefault.jpg" alt="Why Making a Programming Language is Awesome" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-why-making-a-programming-language-is-awesome-michael-r-fairhurst">Why Making a Programming Language is Awesome</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 32:22</div>
+			
+			
+              <div>Views: 175 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-r-fairhurst">Michael R Fairhurst</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-why-relationships-matter-in-community-building"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ij0GfbWaVyI/hqdefault.jpg" alt="Why Relationships Matter in Community Building..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-why-relationships-matter-in-community-building">Why Relationships Matter in Community Building...</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 18:55</div>
+			
+			
+              <div>Views: 17 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/josh-lim">Josh Lim</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-write-it-down-process-documentation-from-the-ground-up-kat-toomajian"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZEYd-ouH6us/hqdefault.jpg" alt="Write It Down: Process Documentation from the Ground Up" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-write-it-down-process-documentation-from-the-ground-up-kat-toomajian">Write It Down: Process Documentation from the Ground Up</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 34:44</div>
+			
+			
+              <div>Views: 85 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/katherine-toomajian">Katherine Toomajian</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-you-got-your-idris-in-my-c-a-first-look-at-denotational-design-ian-dees"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v4aoSpzBRDE/hqdefault.jpg" alt="You Got Your Idris in My C++! A First Look at Denotational Design" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-you-got-your-idris-in-my-c-a-first-look-at-denotational-design-ian-dees">You Got Your Idris in My C++! A First Look at Denotational Design</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 39:01</div>
+			
+			
+              <div>Views: 342 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ian-dees">Ian Dees</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/opensourcebridge-2015/osb-2015-your-job-is-political-tech-money-in-politics-kelsey-gilmore-innis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KGJvYza8PH0/hqdefault.jpg" alt="Your Job is Political: Tech Money in Politics" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/opensourcebridge-2015/osb-2015-your-job-is-political-tech-money-in-politics-kelsey-gilmore-innis">Your Job is Political: Tech Money in Politics</a></h4>
+          <footer>
+            <div class="recorded">2015-06-23</div>
+			
+			  <div>Length: 43:16</div>
+			
+			
+              <div>Views: 41 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kelsey-gilmore-innis">Kelsey Gilmore-Innis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLfwE4lxvXUNmuWwoNBoywOqrBcZZLiV4o">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

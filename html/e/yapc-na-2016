@@ -1,0 +1,1906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>YAPC::NA 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>YAPC::NA 2016</h1>
+
+<div><a href="http://www.yapcna.org/yn2016/">YAPC::NA 2016</a></div>
+
+
+<div>Start date: 2016-06-20</div>
+<div>End date: 2016-06-22</div>
+
+<div>Location:
+  Orlando
+  Florida
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://www.yapcna.org/yn2016/conduct.html">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/perl">Perl</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/yapcna">@yapcna</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/tpf.perl">https://www.facebook.com/tpf.perl</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=YAPC%3A%3ANA%202016%20on%202016-06-20%20in%20Orlando%2C%20Florida%20USA%20%40yapcna%20http%3A//www.yapcna.org/yn2016/%20%23Perl%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-a-brief-overview-of-resources-for-the-perl-programmer-david-adler"><img class="list-thumbnail" src="https://i.ytimg.com/vi/C_Tz6U5jJ9M/hqdefault.jpg" alt="A Brief Overview of Resources for the Perl Programmer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-a-brief-overview-of-resources-for-the-perl-programmer-david-adler">A Brief Overview of Resources for the Perl Programmer</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 18:53</div>
+			
+			
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-h-adler">David H. Adler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-a-million-billion-squiggly-characters-ricardo-signes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TmTeXcEixEg/hqdefault.jpg" alt="A Million Billion Squiggly Characters" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-a-million-billion-squiggly-characters-ricardo-signes">A Million Billion Squiggly Characters</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 01:28:56</div>
+			
+			
+              <div>Views: 1325 Likes: 29</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ricardo-signes">Ricardo Signes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-all-the-regex-i-can-stuff-into-50-minutes-jeremy-holland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OwUgdm63aGs/hqdefault.jpg" alt="All the Regex I Can Stuff Into 50 Minutes!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-all-the-regex-i-can-stuff-into-50-minutes-jeremy-holland">All the Regex I Can Stuff Into 50 Minutes!</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 49:35</div>
+			
+			
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeremy-holland">Jeremy Holland</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-basic-oo-in-perl-6-dave-rolsky"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7mkmZVIizFY/hqdefault.jpg" alt="Basic OO in Perl 6" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-basic-oo-in-perl-6-dave-rolsky">Basic OO in Perl 6</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 46:25</div>
+			
+			
+              <div>Views: 650 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-rolsky">Dave Rolsky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-battling-a-legacy-schema-with-dbixclass-lee-johnson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ltckzIJYwHg/hqdefault.jpg" alt="Battling a legacy schema with DBIx::Class" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-battling-a-legacy-schema-with-dbixclass-lee-johnson">Battling a legacy schema with DBIx::Class</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 44:08</div>
+			
+			
+              <div>Views: 253 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lee-johnson">Lee Johnson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-becoming-a-polyglot-kirsten-hunter"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pJgpaJpz6sI/hqdefault.jpg" alt="Becoming a polyglot (Fortune cookies in 5 languages)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-becoming-a-polyglot-kirsten-hunter">Becoming a polyglot (Fortune cookies in 5 languages)</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 49:23</div>
+			
+			
+              <div>Views: 231 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kirsten-hunter">Kirsten Hunter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-beginning-with-perl-and-vagrant-james-lance"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3hjzQsvNjgM/hqdefault.jpg" alt="Beginning with Perl and Vagrant (and Ansible)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-beginning-with-perl-and-vagrant-james-lance">Beginning with Perl and Vagrant (and Ansible)</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 20:06</div>
+			
+			
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-lance">James Lance</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-big-data-on-little-linux-daniel-sterling"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QG9FIFKDKOU/hqdefault.jpg" alt="big data on little linux:  hard-won lessons managing dozens of servers processing petabytes of data" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-big-data-on-little-linux-daniel-sterling">big data on little linux:  hard-won lessons managing dozens of servers processing petabytes of data</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 21:18</div>
+			
+			
+              <div>Views: 473 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-sterling">Daniel Sterling</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-bugzilla-dylan-hardison"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wF9YljsE0Ak/hqdefault.jpg" alt="Bugzilla" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-bugzilla-dylan-hardison">Bugzilla</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 21:22</div>
+			
+			
+              <div>Views: 254 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dylan-hardison">Dylan William Hardison</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-cutting-some-slack-decoding-irc-vm-brasseur"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O4T5_KVHL2I/hqdefault.jpg" alt="Cutting Some Slack: Decoding IRC" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-cutting-some-slack-decoding-irc-vm-brasseur">Cutting Some Slack: Decoding IRC</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 49:15</div>
+			
+			
+              <div>Views: 260 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vicky-brasseur">Vicky Brasseur</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-distributed-nmap-scanning-with-perl-paul-johnson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UcPw2DEzXoE/hqdefault.jpg" alt="Distributed Nmap Scanning with Perl" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-distributed-nmap-scanning-with-perl-paul-johnson">Distributed Nmap Scanning with Perl</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 14:36</div>
+			
+			
+              <div>Views: 51 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-johnson">Paul Johnson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-dont-fear-the-meta-simple-trait-programming-for-fun-and-profit-chris-weyl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dOPYjQ1mdgw/hqdefault.jpg" alt="Don't Fear the Meta: Simple trait programming for fun and profit" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-dont-fear-the-meta-simple-trait-programming-for-fun-and-profit-chris-weyl">Don't Fear the Meta: Simple trait programming for fun and profit</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 34:42</div>
+			
+			
+              <div>Views: 193 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-weyl">Chris Weyl</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-duct-tape-and-the-camel-what-ive-learned-from-maintenance-brian-carlson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sb_EmYbc798/hqdefault.jpg" alt="Duct Tape and the Camel: What I've Learned from Maintenance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-duct-tape-and-the-camel-what-ive-learned-from-maintenance-brian-carlson">Duct Tape and the Camel: What I've Learned from Maintenance</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 22:07</div>
+			
+			
+              <div>Views: 379 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-carlson">Brian Carlson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-everyones-a-critic-a-constructive-look-at-perlcritic-d-ruth-bavousett"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EXPElOT2fRE/hqdefault.jpg" alt="Everyone's a Critic: A Constructive Look at perlcritic" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-everyones-a-critic-a-constructive-look-at-perlcritic-d-ruth-bavousett">Everyone's a Critic: A Constructive Look at perlcritic</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 48:26</div>
+			
+			
+              <div>Views: 183 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/d-ruth-bavousett">D Ruth Bavousett</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-everything-you-never-knew-you-wanted-to-ask-about-time-series-databases-brad-lhotsky"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GgBh8XzI6no/hqdefault.jpg" alt="Everything You Never Knew You Wanted to Ask About Time Series Databases" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-everything-you-never-knew-you-wanted-to-ask-about-time-series-databases-brad-lhotsky">Everything You Never Knew You Wanted to Ask About Time Series Databases</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 50:32</div>
+			
+			
+              <div>Views: 147 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brad-lhotsky">Brad Lhotsky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-finding-dead-code-the-quick-and-easy-way-with-develquickcover-gonzalo-diethelm-0b55c7"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7EbLC3M5n6g/hqdefault.jpg" alt="2016 - Finding dead code, the quick and easy way, with Devel::QuickCover‎  - Gonzalo Diethelm" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-finding-dead-code-the-quick-and-easy-way-with-develquickcover-gonzalo-diethelm-0b55c7">2016 - Finding dead code, the quick and easy way, with Devel::QuickCover‎  - Gonzalo Diethelm</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 20:38</div>
+			
+			
+              <div>Views: 250 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-finding-dead-code-the-quick-and-easy-way-with-develquickcover-gonzalo-diethelm"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HLRkmvLerxI/hqdefault.jpg" alt="Finding dead code, the quick and easy way, with Devel::QuickCover" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-finding-dead-code-the-quick-and-easy-way-with-develquickcover-gonzalo-diethelm">Finding dead code, the quick and easy way, with Devel::QuickCover</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 20:39</div>
+			
+			
+              <div>Views: 49 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gonzalo-diethelm">Gonzalo Diethelm</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-from-regular-expressions-to-javascript-learn-perl6-grammars-drforr"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KxnRc0hbuBI/hqdefault.jpg" alt="From Regular Expressions to Javascript - Learn Perl6 Grammars" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-from-regular-expressions-to-javascript-learn-perl6-grammars-drforr">From Regular Expressions to Javascript - Learn Perl6 Grammars</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 49:16</div>
+			
+			
+              <div>Views: 214 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeffrey-goff">Jeffrey Goff</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-geoparsertext-geocoding-locations-parsed-from-text-ervin-ruci"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hshprKTodEA/hqdefault.jpg" alt="Geo::Parser::Text - Geocoding locations Parsed from Text." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-geoparsertext-geocoding-locations-parsed-from-text-ervin-ruci">Geo::Parser::Text - Geocoding locations Parsed from Text.</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 18:07</div>
+			
+			
+              <div>Views: 97 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ervin-ruci">Ervin Ruci</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-getting-started-with-modern-web-development-in-perl-gabor-szabo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oAkasBMJJ18/hqdefault.jpg" alt="Getting started with modern web development in Perl" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-getting-started-with-modern-web-development-in-perl-gabor-szabo">Getting started with modern web development in Perl</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 54:10</div>
+			
+			
+              <div>Views: 1054 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gabor-szabo">Gábor Szabó</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-getting-the-most-out-of-travis-ci-for-perl-doug-bell"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QeY3ucrjnxc/hqdefault.jpg" alt="Getting the Most out of Travis CI for Perl" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-getting-the-most-out-of-travis-ci-for-perl-doug-bell">Getting the Most out of Travis CI for Perl</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 22:07</div>
+			
+			
+              <div>Views: 85 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/doug-bell">Doug Bell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-hands-on-rapidapp-from-bootstrapping-to-dockerized-deployment-henry-van-styn-0b5611"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-dRacuBY85U/hqdefault.jpg" alt="2016 - Hands-on RapidApp: from bootstrapping to dockerized deployment‎ - Henry Van Styn" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-hands-on-rapidapp-from-bootstrapping-to-dockerized-deployment-henry-van-styn-0b5611">2016 - Hands-on RapidApp: from bootstrapping to dockerized deployment‎ - Henry Van Styn</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 51:38</div>
+			
+			
+              <div>Views: 336 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-hands-on-rapidapp-from-bootstrapping-to-dockerized-deployment-henry-van-styn"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TxcFABfAJj8/hqdefault.jpg" alt="Hands-on RapidApp: from bootstrapping to dockerized deployment" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-hands-on-rapidapp-from-bootstrapping-to-dockerized-deployment-henry-van-styn">Hands-on RapidApp: from bootstrapping to dockerized deployment</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 51:36</div>
+			
+			
+              <div>Views: 24 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/henry-van-styn">Henry Van Styn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-happy-campers-lessons-learned-from-scoutings-premier-leadership-course-chris-prather"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Yl0ZVJZyJwo/hqdefault.jpg" alt="Happy Campers: Lessons Learned from Scouting's Premier Leadership Course" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-happy-campers-lessons-learned-from-scoutings-premier-leadership-course-chris-prather">Happy Campers: Lessons Learned from Scouting's Premier Leadership Course</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 43:43</div>
+			
+			
+              <div>Views: 128 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-prather">Chris Prather</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-hashing-a-tree-glacier-hashes-fp-and-perl-steve-lembark"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7zHwNymO7BE/hqdefault.jpg" alt="Hashing a Tree: Glacier hashes, FP, and Perl" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-hashing-a-tree-glacier-hashes-fp-and-perl-steve-lembark">Hashing a Tree: Glacier hashes, FP, and Perl</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 39:33</div>
+			
+			
+              <div>Views: 149 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steven-lembark">Steven Lembark</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-have-it-your-way-maximizing-drive-thru-contributions-vm-brasseur-0b55ec"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9jdBz9Mscc0/hqdefault.jpg" alt="2016 - ‎Have It Your Way: Maximizing Drive-Thru Contributions‎  - VM Brasseur" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-have-it-your-way-maximizing-drive-thru-contributions-vm-brasseur-0b55ec">2016 - ‎Have It Your Way: Maximizing Drive-Thru Contributions‎  - VM Brasseur</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 49:21</div>
+			
+			
+              <div>Views: 378 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-have-it-your-way-maximizing-drive-thru-contributions-vm-brasseur"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HHY26bkWL3g/hqdefault.jpg" alt="Have It Your Way: Maximizing Drive-Thru Contributions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-have-it-your-way-maximizing-drive-thru-contributions-vm-brasseur">Have It Your Way: Maximizing Drive-Thru Contributions</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 49:21</div>
+			
+			
+              <div>Views: 17 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vicky-brasseur">Vicky Brasseur</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-immutable-and-continuous-deployments-logan-bell"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sk-6OSb1QDA/hqdefault.jpg" alt="Immutable and Continuous Deployments" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-immutable-and-continuous-deployments-logan-bell">Immutable and Continuous Deployments</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 22:33</div>
+			
+			
+              <div>Views: 132 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/logan-bell">Logan Bell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-intro-to-json-schema-with-go-and-generating-validators-and-skeletons-daisuke-maki"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iu9Bc4yYisw/hqdefault.jpg" alt="Intro to JSON Schema with Go, and Generating Validators And Skeletons" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-intro-to-json-schema-with-go-and-generating-validators-and-skeletons-daisuke-maki">Intro to JSON Schema with Go, and Generating Validators And Skeletons</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 37:10</div>
+			
+			
+              <div>Views: 294 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daisuke-maki">Daisuke Maki</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-introducing-prancer-a-web-framework-for-perl-6-drforr"><img class="list-thumbnail" src="https://i.ytimg.com/vi/W1iTkACkbcM/hqdefault.jpg" alt="Introducing Prancer, a Web Framework for Perl 6" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-introducing-prancer-a-web-framework-for-perl-6-drforr">Introducing Prancer, a Web Framework for Perl 6</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 46:21</div>
+			
+			
+              <div>Views: 524 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeffrey-goff">Jeffrey Goff</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-introduction-to-meta-object-protocol-upasana-shukla"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bqoi1WNV6tw/hqdefault.jpg" alt="Introduction to meta object protocol" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-introduction-to-meta-object-protocol-upasana-shukla">Introduction to meta object protocol</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 30:06</div>
+			
+			
+              <div>Views: 242 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/upasana-shukla">Upasana Shukla</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-introduction-to-perl-testing-david-oswald"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JYGH6I6B6TM/hqdefault.jpg" alt="Introduction to Perl Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-introduction-to-perl-testing-david-oswald">Introduction to Perl Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 50:25</div>
+			
+			
+              <div>Views: 179 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-oswald">David Oswald</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-introduction-to-rex-doug-bell"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nEVgui7-f78/hqdefault.jpg" alt="Introduction to Rex" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-introduction-to-rex-doug-bell">Introduction to Rex</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 20:24</div>
+			
+			
+              <div>Views: 113 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/doug-bell">Doug Bell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-lightning-talks-day-3"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2Ln0YHtKgaI/hqdefault.jpg" alt="2016 - Lightning Talks Day 3‎" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-lightning-talks-day-3">2016 - Lightning Talks Day 3‎</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 01:05:41</div>
+			
+			
+              <div>Views: 616 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-locking-with-perl-hard-things-should-be-possible-david-oswald"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tWdmxrtPiKs/hqdefault.jpg" alt="Locking with Perl (...hard things should be possible)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-locking-with-perl-hard-things-should-be-possible-david-oswald">Locking with Perl (...hard things should be possible)</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 44:56</div>
+			
+			
+              <div>Views: 202 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-oswald">David Oswald</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-logging-and-analytics-using-perl-and-fluentd-jason-crome"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G6773RJZJNA/hqdefault.jpg" alt="Logging and Analytics using Perl and fluentd" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-logging-and-analytics-using-perl-and-fluentd-jason-crome">Logging and Analytics using Perl and fluentd</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 49:02</div>
+			
+			
+              <div>Views: 119 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-crome">Jason A. Crome</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-modern-perl-for-the-unfrozen-paleolithic-perl-programmer-john-anderson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/32Q3omIVZrc/hqdefault.jpg" alt="Modern Perl for the Unfrozen Paleolithic Perl Programmer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-modern-perl-for-the-unfrozen-paleolithic-perl-programmer-john-anderson">Modern Perl for the Unfrozen Paleolithic Perl Programmer</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 20:14</div>
+			
+			
+              <div>Views: 833 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-anderson">John SJ Anderson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-more-modern-perl-with-docker-jason-hall"><img class="list-thumbnail" src="https://i.ytimg.com/vi/V7-a3giGuDA/hqdefault.jpg" alt="More Modern Perl with Docker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-more-modern-perl-with-docker-jason-hall">More Modern Perl with Docker</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 22:53</div>
+			
+			
+              <div>Views: 420 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-hall">Jason Hall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-on-the-shoulders-of-giants-damian-conway"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Nq2HkAYbG5o/hqdefault.jpg" alt="On The Shoulders Of Giants" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-on-the-shoulders-of-giants-damian-conway">On The Shoulders Of Giants</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 01:07:43</div>
+			
+			
+              <div>Views: 5073 Likes: 74</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/damian-conway">Damian Conway</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-open-street-maps-with-perl-delorean-dashboard-pt-ii-micheal-conrad"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ruBzlFMxwyw/hqdefault.jpg" alt="Open Street Maps with Perl - DeLorean Dashboard Pt. II" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-open-street-maps-with-perl-delorean-dashboard-pt-ii-micheal-conrad">Open Street Maps with Perl - DeLorean Dashboard Pt. II</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 23:54</div>
+			
+			
+              <div>Views: 90 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-conrad">Michael Conrad</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-perl-6-and-the-zen-of-erlang-ben-tyler"><img class="list-thumbnail" src="https://i.ytimg.com/vi/73-XQEn6HfI/hqdefault.jpg" alt="Perl 6 and the Zen of Erlang" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-perl-6-and-the-zen-of-erlang-ben-tyler">Perl 6 and the Zen of Erlang</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 47:15</div>
+			
+			
+              <div>Views: 865 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-tyler">Ben Tyler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-perl-6-for-beginners-part-1-of-2-patrick-michaud"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ySch4xpoPA0/hqdefault.jpg" alt="Perl 6 for beginners -- part 1 of 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-perl-6-for-beginners-part-1-of-2-patrick-michaud">Perl 6 for beginners -- part 1 of 2</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 51:40</div>
+			
+			
+              <div>Views: 1219 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patrick-michaud">Patrick R. Michaud</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-perl-6-for-beginners-part-2-of-2-patrick-michaud"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ycLU424NPUw/hqdefault.jpg" alt="Perl 6 for beginners -- part 2 of 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-perl-6-for-beginners-part-2-of-2-patrick-michaud">Perl 6 for beginners -- part 2 of 2</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 52:28</div>
+			
+			
+              <div>Views: 763 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patrick-michaud">Patrick R. Michaud</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-perl-6-why-did-they-do-that-bruce-gray"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Jw657US719s/hqdefault.jpg" alt="Perl 6 - Why did they do *that*?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-perl-6-why-did-they-do-that-bruce-gray">Perl 6 - Why did they do *that*?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 50:09</div>
+			
+			
+              <div>Views: 731 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bruce-gray">Bruce Gray</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-perl-dependencies-playing-with-inc-and-profiling-memory-nicolas-rochelemagne"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AMa1JWgG4yY/hqdefault.jpg" alt="Perl dependencies: playing with %INC and profiling memory" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-perl-dependencies-playing-with-inc-and-profiling-memory-nicolas-rochelemagne">Perl dependencies: playing with %INC and profiling memory</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 51:42</div>
+			
+			
+              <div>Views: 123 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicolas-rochelemagne">Nicolas Rochelemagne</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-perls-worst-best-practices-daina-pettit-0b4dec"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KRVhuAs-CEk/hqdefault.jpg" alt="2016 - Perl's worst best practices - Daina Pettit" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-perls-worst-best-practices-daina-pettit-0b4dec">2016 - Perl's worst best practices - Daina Pettit</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 44:25</div>
+			
+			
+              <div>Views: 64 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-perls-worst-best-practices-daina-pettit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Y1I1KcKvz9Q/hqdefault.jpg" alt="Perl's Worst Best Practices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-perls-worst-best-practices-daina-pettit">Perl's Worst Best Practices</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 44:25</div>
+			
+			
+              <div>Views: 578 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daina-pettit">Daina Pettit</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-ponapi-lets-rest-mickey-nasriachi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pQTt0yWgKUY/hqdefault.jpg" alt="PONAPI: Let's REST" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-ponapi-lets-rest-mickey-nasriachi">PONAPI: Let's REST</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 20:44</div>
+			
+			
+              <div>Views: 172 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mickey-nasriachi">Mickey Nasriachi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-practical-consistency-david-golden"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hTAedFCex2A/hqdefault.jpg" alt="Practical Consistency" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-practical-consistency-david-golden">Practical Consistency</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 36:57</div>
+			
+			
+              <div>Views: 294 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-golden">David Golden</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-qa-with-larry-wall"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O8ZmqhaqaYw/hqdefault.jpg" alt="Q&A With Larry Wall" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-qa-with-larry-wall">Q&A With Larry Wall</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 01:08:26</div>
+			
+			
+              <div>Views: 1750 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/larry-wall">Larry Wall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-refutil-accurate-functions-in-xs-for-checking-references-sawyer-x"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gv-DCM9I8v0/hqdefault.jpg" alt="Ref::Util: accurate functions in XS for checking references" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-refutil-accurate-functions-in-xs-for-checking-references-sawyer-x">Ref::Util: accurate functions in XS for checking references</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 47:08</div>
+			
+			
+              <div>Views: 172 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sawyer">Sawyer X</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-releasing-to-cpan-david-oswald"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mz_pjG4i19I/hqdefault.jpg" alt="Releasing to CPAN" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-releasing-to-cpan-david-oswald">Releasing to CPAN</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 50:38</div>
+			
+			
+              <div>Views: 66 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-oswald">David Oswald</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-rperl-perl-11-and-the-future-of-perl-performance-will-braswell"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8EoEZrXSUfw/hqdefault.jpg" alt="RPerl, Perl 11, and The Future of Perl Performance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-rperl-perl-11-and-the-future-of-perl-performance-will-braswell">RPerl, Perl 11, and The Future of Perl Performance</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 42:11</div>
+			
+			
+              <div>Views: 652 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/will-braswell">Will Braswell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-secrets-of-the-dead-what-modern-programmers-can-learn-from-cobol-walt-mankowski"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pHQfEGgI030/hqdefault.jpg" alt="Secrets of the dead: What modern programmers can learn from COBOL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-secrets-of-the-dead-what-modern-programmers-can-learn-from-cobol-walt-mankowski">Secrets of the dead: What modern programmers can learn from COBOL</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 21:14</div>
+			
+			
+              <div>Views: 400 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/walt-mankowski">Walt Mankowski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-so-you-want-to-host-a-perl-event-dan-wright"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9bMHY2HsX0E/hqdefault.jpg" alt="So, you want to host a Perl event?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-so-you-want-to-host-a-perl-event-dan-wright">So, you want to host a Perl event?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 20:18</div>
+			
+			
+              <div>Views: 42 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-wright">Dan Wright</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-solving-wordbrain-a-depth-first-search-of-a-problem-of-great-breadth-robert-stone"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_1fnTyJg7uA/hqdefault.jpg" alt="Solving WordBrain - A Depth First Search of a Problem Of Great Breadth" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-solving-wordbrain-a-depth-first-search-of-a-problem-of-great-breadth-robert-stone">Solving WordBrain - A Depth First Search of a Problem Of Great Breadth</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 51:31</div>
+			
+			
+              <div>Views: 68 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robert-stone">Robert Stone</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-static-analysis-and-perl-stevan-little"><img class="list-thumbnail" src="https://i.ytimg.com/vi/T6igWSZrxDE/hqdefault.jpg" alt="Static Analysis and Perl" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-static-analysis-and-perl-stevan-little">Static Analysis and Perl</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 48:14</div>
+			
+			
+              <div>Views: 830 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stevan-little">Stevan Little</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-stranger-in-a-strange-land-postgresql-for-mysql-users-josh-lavin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sH41r_MOSH0/hqdefault.jpg" alt="Stranger in a Strange Land: PostgreSQL for MySQL users" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-stranger-in-a-strange-land-postgresql-for-mysql-users-josh-lavin">Stranger in a Strange Land: PostgreSQL for MySQL users</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 17:37</div>
+			
+			
+              <div>Views: 204 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/josh-lavin">Josh Lavin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-strategies-for-leading-a-remote-team-logan-bell"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uW4UX8UBAjg/hqdefault.jpg" alt="Strategies for leading a remote team" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-strategies-for-leading-a-remote-team-logan-bell">Strategies for leading a remote team</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 19:38</div>
+			
+			
+              <div>Views: 91 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/logan-bell">Logan Bell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-stronger-than-fear-mental-health-in-the-developer-community-ed-finkler"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bWqSuBg8AMo/hqdefault.jpg" alt="Stronger Than Fear: Mental Health in the Developer Community" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-stronger-than-fear-mental-health-in-the-developer-community-ed-finkler">Stronger Than Fear: Mental Health in the Developer Community</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 49:16</div>
+			
+			
+              <div>Views: 114 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/edward-finkler">Edward Finkler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-test2-for-test-writers-chad-granum"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MmUVPLrtD-g/hqdefault.jpg" alt="Test2 for test writers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-test2-for-test-writers-chad-granum">Test2 for test writers</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 47:11</div>
+			
+			
+              <div>Views: 294 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chad-granum">Chad Granum</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-testing-with-testclassmoose-dave-rolsky"><img class="list-thumbnail" src="https://i.ytimg.com/vi/r_3kt_tJsjI/hqdefault.jpg" alt="Testing with Test::Class::Moose" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-testing-with-testclassmoose-dave-rolsky">Testing with Test::Class::Moose</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 21:12</div>
+			
+			
+              <div>Views: 80 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-rolsky">Dave Rolsky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-the-best-conventions-other-teams-are-using-that-you-need-to-know-steve-nolte"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uBlSGMXr7G8/hqdefault.jpg" alt="The best conventions other teams are using that you need to know" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-the-best-conventions-other-teams-are-using-that-you-need-to-know-steve-nolte">The best conventions other teams are using that you need to know</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 24:19</div>
+			
+			
+              <div>Views: 386 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-nolte">Steve Nolte</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-the-dark-art-of-boatbuilding-and-project-management-art-eaton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VxtJqwKrETA/hqdefault.jpg" alt="The Dark Art of Boatbuilding and Project Management" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-the-dark-art-of-boatbuilding-and-project-management-art-eaton">The Dark Art of Boatbuilding and Project Management</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 01:14:52</div>
+			
+			
+              <div>Views: 200 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/art-eaton">Art Eaton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-the-ongoing-disaster-that-is-perl-5-ricardo-signes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gmmVGPdcItM/hqdefault.jpg" alt="The Ongoing Disaster That Is Perl 5" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-the-ongoing-disaster-that-is-perl-5-ricardo-signes">The Ongoing Disaster That Is Perl 5</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 33:35</div>
+			
+			
+              <div>Views: 4420 Likes: 51</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ricardo-signes">Ricardo Signes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-the-perl-paradox-tom-radcliffe"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Df5Q4iPBNKM/hqdefault.jpg" alt="The Perl paradox" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-the-perl-paradox-tom-radcliffe">The Perl paradox</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 41:13</div>
+			
+			
+              <div>Views: 1237 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tom-radcliffe">Tom Radcliffe</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-tuesday-lightning-talks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/s8BvPwkvBEI/hqdefault.jpg" alt="2016 - Tuesday Lightning Talks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-tuesday-lightning-talks">2016 - Tuesday Lightning Talks</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 43:20</div>
+			
+			
+              <div>Views: 690 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-userspace-entropy-you-too-can-dabble-in-voodoo-dana-jacobsen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Mv_BmVFuDQM/hqdefault.jpg" alt="Userspace entropy: You too can dabble in voodoo!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-userspace-entropy-you-too-can-dabble-in-voodoo-dana-jacobsen">Userspace entropy: You too can dabble in voodoo!</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 21:16</div>
+			
+			
+              <div>Views: 50 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dana-jacobsen">Dana Jacobsen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-utiaji-building-an-application-specific-web-server-in-perl6-brian-duggan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-8oTgdnP-y4/hqdefault.jpg" alt="Utiaji: Building an Application Specific Web Server in Perl6" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-utiaji-building-an-application-specific-web-server-in-perl6-brian-duggan">Utiaji: Building an Application Specific Web Server in Perl6</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 20:54</div>
+			
+			
+              <div>Views: 150 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-duggan">Brian Duggan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-vim-as-a-perl-ide-damian-conway"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9u6O0dLuqhI/hqdefault.jpg" alt="VIM as a Perl IDE" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-vim-as-a-perl-ide-damian-conway">VIM as a Perl IDE</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 21:11</div>
+			
+			
+              <div>Views: 4037 Likes: 73</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/damian-conway">Damian Conway</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-wading-into-the-perl-community-with-the-prc-jason-hall"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1KZB1jV_Ygo/hqdefault.jpg" alt="Wading Into the Perl Community with the PRC" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-wading-into-the-perl-community-with-the-prc-jason-hall">Wading Into the Perl Community with the PRC</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 19:46</div>
+			
+			
+              <div>Views: 58 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-hall">Jason Hall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-welcome-to-the-perl-conference-perl-foundation-sotv-dan-wright"><img class="list-thumbnail" src="https://i.ytimg.com/vi/73e6quzJU9U/hqdefault.jpg" alt="Welcome to The Perl Conference‎ / Perl Foundation / SOTV" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-welcome-to-the-perl-conference-perl-foundation-sotv-dan-wright">Welcome to The Perl Conference‎ / Perl Foundation / SOTV</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 01:48:42</div>
+			
+			
+              <div>Views: 1086 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-wright">Dan Wright</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-why-a-new-cpan-client-cpm-is-fast-shoichi-kaji"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CdpBV8BgPI4/hqdefault.jpg" alt="Why a new CPAN client "cpm" is fast" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-why-a-new-cpan-client-cpm-is-fast-shoichi-kaji">Why a new CPAN client "cpm" is fast</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 16:20</div>
+			
+			
+              <div>Views: 136 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shoichi-kaji">Shoichi Kaji</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-writing-command-line-tools-for-other-people-brad-lhotsky"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DzRYGudfu0s/hqdefault.jpg" alt="Writing Command Line Tools for Other People" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-writing-command-line-tools-for-other-people-brad-lhotsky">Writing Command Line Tools for Other People</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 22:13</div>
+			
+			
+              <div>Views: 317 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brad-lhotsky">Brad Lhotsky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-writing-effective-documentation-doug-bell"><img class="list-thumbnail" src="https://i.ytimg.com/vi/T8BIEDdFSwo/hqdefault.jpg" alt="Writing Effective Documentation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-writing-effective-documentation-doug-bell">Writing Effective Documentation</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 21:02</div>
+			
+			
+              <div>Views: 87 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/doug-bell">Doug Bell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-writing-perl-extensions-in-rust-vickenty-fesunov"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GwS8eDOYz_U/hqdefault.jpg" alt="Writing Perl extensions in Rust" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-writing-perl-extensions-in-rust-vickenty-fesunov">Writing Perl extensions in Rust</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 14:46</div>
+			
+			
+              <div>Views: 136 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vickenty-fesunov">Vickenty Fesunov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-writing-xs-in-plain-c-bulk-88"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3arnEXLykDc/hqdefault.jpg" alt="Writing XS in plain C" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-writing-xs-in-plain-c-bulk-88">Writing XS in plain C</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 21:53</div>
+			
+			
+              <div>Views: 131 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bulk-88">Bulk 88</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yapc-na-2016/2016-writing-your-own-tools-for-development-andrew-fresh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tESvLTDSl8E/hqdefault.jpg" alt="Writing your own tools for development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yapc-na-2016/2016-writing-your-own-tools-for-development-andrew-fresh">Writing your own tools for development</a></h4>
+          <footer>
+            <div class="recorded">2016-06-20</div>
+			
+			  <div>Length: 42:58</div>
+			
+			
+              <div>Views: 223 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/yapc-na-2016">YAPC::NA 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-fresh">Andrew Hewus Fresh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLA9_Hq3zhoFykB5TDa4OjI6uoTg9OtABT">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

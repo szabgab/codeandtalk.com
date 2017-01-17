@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>JSConf Uruguay 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>JSConf Uruguay 2016</h1>
+
+<div><a href="https://jsconf.uy/">JSConf Uruguay 2016</a></div>
+
+
+<div>Start date: 2016-04-15</div>
+<div>End date: 2016-04-16</div>
+
+<div>Location:
+  Montevideo
+  
+  <a href="/l/uruguay">Uruguay</a>
+</div>
+
+<div><a href="https://jsconf.uy/code-of-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/JSConfUY">@JSConfUY</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/JSConfUY">https://www.facebook.com/JSConfUY</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=JSConf%20Uruguay%202016%20on%202016-04-15%20in%20Montevideo%2C%20%20Uruguay%20%40JSConfUY%20https%3A//jsconf.uy/%20%23JavaScript%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/alan-souza-reactjs-tips-and-tricks-to-create-accessible-svg-components"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Qo0BHIkKzqo/hqdefault.jpg" alt="REACTJS: TIPS AND TRICKS TO CREATE ACCESSIBLE SVG COMPONENTS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/alan-souza-reactjs-tips-and-tricks-to-create-accessible-svg-components">REACTJS: TIPS AND TRICKS TO CREATE ACCESSIBLE SVG COMPONENTS</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 29:18</div>
+			
+			
+              <div>Views: 652 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alan-souza">Alan Souza</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/alejandro-oviedo-the-future-of-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n84fLyM_88w/hqdefault.jpg" alt="THE !FUTURE OF JAVASCRIPT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/alejandro-oviedo-the-future-of-javascript">THE !FUTURE OF JAVASCRIPT</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 23:47</div>
+			
+			
+              <div>Views: 755 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alejandro-oviedo">Alejandro Oviedo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/ben-vinegar-why-johnny-cant-collect-browser-errors"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HjVJUAOqVNE/hqdefault.jpg" alt="WHY JOHNNY CAN'T COLLECT BROWSER ERRORS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/ben-vinegar-why-johnny-cant-collect-browser-errors">WHY JOHNNY CAN'T COLLECT BROWSER ERRORS</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 24:18</div>
+			
+			
+              <div>Views: 149 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-vinegar">Ben Vinegar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/clay-smith-code-at-the-speed-of-light-content-delivery-networks-for-javascripters"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zYM7bCRkotM/hqdefault.jpg" alt="CODE AT THE SPEED OF LIGHT: CONTENT DELIVERY NETWORKS FOR JAVASCRIPTERS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/clay-smith-code-at-the-speed-of-light-content-delivery-networks-for-javascripters">CODE AT THE SPEED OF LIGHT: CONTENT DELIVERY NETWORKS FOR JAVASCRIPTERS</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 21:20</div>
+			
+			
+              <div>Views: 130 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/clay-smith">Clay Smith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/david-neal-cross-platform-desktop-apps-using-electron"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zEAoCCBCuLk/hqdefault.jpg" alt="CROSS-PLATFORM DESKTOP APPS USING ELECTRON" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/david-neal-cross-platform-desktop-apps-using-electron">CROSS-PLATFORM DESKTOP APPS USING ELECTRON</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 35:21</div>
+			
+			
+              <div>Views: 791 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-neal">DAVID NEAL</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/david-simons-statistical-programming-with-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dDHxEqbJUGg/hqdefault.jpg" alt="STATISTICAL PROGRAMMING WITH JAVASCRIPT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/david-simons-statistical-programming-with-javascript">STATISTICAL PROGRAMMING WITH JAVASCRIPT</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 33:14</div>
+			
+			
+              <div>Views: 128 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-simons">David Simons</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/federico-kereki-isomorphic-universal-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bNYDgfo4AME/hqdefault.jpg" alt="ISOMORPHIC UNIVERSAL JAVASCRIPT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/federico-kereki-isomorphic-universal-javascript">ISOMORPHIC UNIVERSAL JAVASCRIPT</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 29:58</div>
+			
+			
+              <div>Views: 563 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/federico-kereki">Federico Kereki</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/guillermo-rauch-programming-the-javascript-future"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pLRqfn-warM/hqdefault.jpg" alt="PROGRAMMING THE JAVASCRIPT FUTURE" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/guillermo-rauch-programming-the-javascript-future">PROGRAMMING THE JAVASCRIPT FUTURE</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 25:51</div>
+			
+			
+              <div>Views: 450 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/guillermo-rauch">Guillermo Rauch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/guy-bedford-design-decisions-in-jspm"><img class="list-thumbnail" src="https://i.ytimg.com/vi/btSTy8pHFy8/hqdefault.jpg" alt="DESIGN DECISIONS IN JSPM" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/guy-bedford-design-decisions-in-jspm">DESIGN DECISIONS IN JSPM</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 33:34</div>
+			
+			
+              <div>Views: 746 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/guy-bedford">Guy Bedford</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/irina-shestak-taking-on-genetically-evolving-cellular-automata-with-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cSHh32cr1pg/hqdefault.jpg" alt="TAKING ON GENETICALLY EVOLVING CELLULAR AUTOMATA WITH JAVASCRIPT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/irina-shestak-taking-on-genetically-evolving-cellular-automata-with-javascript">TAKING ON GENETICALLY EVOLVING CELLULAR AUTOMATA WITH JAVASCRIPT</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 27:46</div>
+			
+			
+              <div>Views: 148 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/irina-shestak">Irina Shestak</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/juan-caicedo-elm-javascript-how-to-enjoy-functional-programming-in-es5"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UmxPZpam7o0/hqdefault.jpg" alt="ELM  JAVASCRIPT, HOW TO ENJOY FUNCTIONAL PROGRAMMING IN ES5" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/juan-caicedo-elm-javascript-how-to-enjoy-functional-programming-in-es5">ELM  JAVASCRIPT, HOW TO ENJOY FUNCTIONAL PROGRAMMING IN ES5</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 28:46</div>
+			
+			
+              <div>Views: 355 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/juan-caicedo">Juan Caicedo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/leonardo-val-eng-scientific-computing-with-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DP00xId6k-Q/hqdefault.jpg" alt="SCIENTIFIC COMPUTING WITH JAVASCRIPT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/leonardo-val-eng-scientific-computing-with-javascript">SCIENTIFIC COMPUTING WITH JAVASCRIPT</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 25:15</div>
+			
+			
+              <div>Views: 122 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/leonardo-val">Leonardo Val</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/leonardo-val-spa-scientific-computing-with-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EQ4PH6P-U7E/hqdefault.jpg" alt="SCIENTIFIC COMPUTING WITH JAVASCRIPT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/leonardo-val-spa-scientific-computing-with-javascript">SCIENTIFIC COMPUTING WITH JAVASCRIPT</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 25:15</div>
+			
+			
+              <div>Views: 87 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/leonardo-val">Leonardo Val</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/lightning-talks-eng"><img class="list-thumbnail" src="https://i.ytimg.com/vi/R6F6lnbnNbc/hqdefault.jpg" alt="LIGHTNING TALKS (Eng)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/lightning-talks-eng">LIGHTNING TALKS (Eng)</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 25:08</div>
+			
+			
+              <div>Views: 53 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/lightning-talks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uCZXKdHUiGY/hqdefault.jpg" alt="LIGHTNING TALKS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/lightning-talks">LIGHTNING TALKS</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 25:08</div>
+			
+			
+              <div>Views: 66 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/matt-zeunert-effective-javascript-debugging-with-chromes-developer-tools"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FGK3VYUSBog/hqdefault.jpg" alt="EFFECTIVE JAVASCRIPT DEBUGGING WITH CHROME’S DEVELOPER TOOLS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/matt-zeunert-effective-javascript-debugging-with-chromes-developer-tools">EFFECTIVE JAVASCRIPT DEBUGGING WITH CHROME’S DEVELOPER TOOLS</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 21:08</div>
+			
+			
+              <div>Views: 298 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-zeunert">Matt Zeunert</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/matteo-figus-opencomponents-as-microservices-in-the-front-end-world"><img class="list-thumbnail" src="https://i.ytimg.com/vi/M4OXXRdCpyQ/hqdefault.jpg" alt="OPENCOMPONENTS AS MICROSERVICES IN THE FRONT-END WORLD" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/matteo-figus-opencomponents-as-microservices-in-the-front-end-world">OPENCOMPONENTS AS MICROSERVICES IN THE FRONT-END WORLD</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 34:12</div>
+			
+			
+              <div>Views: 229 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matteo-figus">Matteo Figus</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/mike-tylor-web-compatible-javascript-and-css"><img class="list-thumbnail" src="https://i.ytimg.com/vi/anrwNMn6wRo/hqdefault.jpg" alt="WEB COMPATIBLE JAVASCRIPT AND CSS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/mike-tylor-web-compatible-javascript-and-css">WEB COMPATIBLE JAVASCRIPT AND CSS</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 29:20</div>
+			
+			
+              <div>Views: 112 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-taylor">Mike Taylor</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/myles-borins-nodejs-releases-how-do-they-work"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5un1I2qkojg/hqdefault.jpg" alt="NODE.JS RELEASES, HOW DO THEY WORK?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/myles-borins-nodejs-releases-how-do-they-work">NODE.JS RELEASES, HOW DO THEY WORK?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 27:16</div>
+			
+			
+              <div>Views: 1834 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/myles-borins">Myles Borins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/patrick-kettner-building-graphical-command-line-applications-in-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yUpmf8ZD5UQ/hqdefault.jpg" alt="BUILDING GRAPHICAL COMMAND LINE APPLICATIONS IN JAVASCRIPT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/patrick-kettner-building-graphical-command-line-applications-in-javascript">BUILDING GRAPHICAL COMMAND LINE APPLICATIONS IN JAVASCRIPT</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 16:23</div>
+			
+			
+              <div>Views: 314 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patrick-kettner">Patrick Kettner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/rod-vagg-how-the-node-project-works"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VlqpXK1WZ_A/hqdefault.jpg" alt="HOW THE NODE PROJECT WORKS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/rod-vagg-how-the-node-project-works">HOW THE NODE PROJECT WORKS</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 31:08</div>
+			
+			
+              <div>Views: 1181 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rod-vagg">Rod Vagg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/ruth-john-lets-talk-about-midi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/khsBjXKJOPs/hqdefault.jpg" alt="LET’S TALK ABOUT MIDI" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/ruth-john-lets-talk-about-midi">LET’S TALK ABOUT MIDI</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 33:48</div>
+			
+			
+              <div>Views: 338 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ruth-john">Ruth John</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-uruguay-2016/summary-jsconf-uruguay-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IBti_q9Y6G8/hqdefault.jpg" alt="Summary JSCONF Uruguay 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-uruguay-2016/summary-jsconf-uruguay-2016">Summary JSCONF Uruguay 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-04-15</div>
+			
+			  <div>Length: 00:47</div>
+			
+			
+              <div>Views: 174 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/jsconf-uruguay-2016">JSConf Uruguay 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLleHIBVx1SeSz1Ti0jpXl4Zt7ZtWOk49x">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>JSConf USA 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>JSConf USA 2015</h1>
+
+<div><a href="http://2015.jsconf.us/">JSConf USA 2015</a></div>
+
+
+<div>Start date: 2015-05-27</div>
+<div>End date: 2015-05-29</div>
+
+<div>Location:
+  Amelia Island
+  Florida
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://jsconf.com/codeofconduct.html">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/jsconf">@jsconf</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/JsConf">https://www.facebook.com/JsConf</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=JSConf%20USA%202015%20on%202015-05-27%20in%20Amelia%20Island%2C%20Florida%20USA%20%40jsconf%20http%3A//2015.jsconf.us/%20%23JavaScript%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/ashley-williams-if-you-wish-to-learn-es62015-from-scratch-you-must-first-invent-the-universe"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DN4yLZB1vUQ/hqdefault.jpg" alt="Ashley Williams: If you wish to learn ES6/2015 from scratch, you must first invent the universe" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/ashley-williams-if-you-wish-to-learn-es62015-from-scratch-you-must-first-invent-the-universe">Ashley Williams: If you wish to learn ES6/2015 from scratch, you must first invent the universe</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 25:49</div>
+			
+			
+              <div>Views: 49269 Likes: 721</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/dann-toliver-visualizing-process-evolution-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QPCXsG_iMlc/hqdefault.jpg" alt="Dann Toliver: Visualizing process evolution | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/dann-toliver-visualizing-process-evolution-jsconf-us-2015">Dann Toliver: Visualizing process evolution | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 29:58</div>
+			
+			
+              <div>Views: 1217 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/felipe-de-albuquerque-accessibility-and-js-side-by-side-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1CZZfDe8ocU/hqdefault.jpg" alt="Felipe de Albuquerque: Accessibility and JS: side-by-side | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/felipe-de-albuquerque-accessibility-and-js-side-by-side-jsconf-us-2015">Felipe de Albuquerque: Accessibility and JS: side-by-side | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 33:23</div>
+			
+			
+              <div>Views: 1334 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jacob-roufa-maintaining-a-local-dev-meetup-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1pBxxuxvCjU/hqdefault.jpg" alt="Jacob Roufa: Maintaining a Local Dev Meetup | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jacob-roufa-maintaining-a-local-dev-meetup-jsconf-us-2015">Jacob Roufa: Maintaining a Local Dev Meetup | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 29:53</div>
+			
+			
+              <div>Views: 1033 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jafar-husain-async-programming-in-es7-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lil4YCCXRYc/hqdefault.jpg" alt="Jafar Husain: Async Programming in ES7 | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jafar-husain-async-programming-in-es7-jsconf-us-2015">Jafar Husain: Async Programming in ES7 | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 32:57</div>
+			
+			
+              <div>Views: 24441 Likes: 481</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jan-jongboom-altering-the-real-world-with-javascript-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uQwM7VUgLK0/hqdefault.jpg" alt="Jan Jongboom: Altering the real world with JavaScript | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jan-jongboom-altering-the-real-world-with-javascript-jsconf-us-2015">Jan Jongboom: Altering the real world with JavaScript | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 32:33</div>
+			
+			
+              <div>Views: 4397 Likes: 62</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/john-brown-math-art-art-code-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Z1q71gFeRqM/hqdefault.jpg" alt="John Brown: (math == art && art == code) | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/john-brown-math-art-art-code-jsconf-us-2015">John Brown: (math == art && art == code) | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 27:00</div>
+			
+			
+              <div>Views: 3539 Likes: 37</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-andrew-rota"><img class="list-thumbnail" src="https://i.ytimg.com/vi/77FCJvaYsOM/hqdefault.jpg" alt="JSConf 2015   Andrew Rota" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-andrew-rota">JSConf 2015   Andrew Rota</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 22:17</div>
+			
+			
+              <div>Views: 371 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-charlie-mcconnell"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6xZeJS4_2J8/hqdefault.jpg" alt="JSConf 2015   Charlie McConnell" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-charlie-mcconnell">JSConf 2015   Charlie McConnell</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 25:39</div>
+			
+			
+              <div>Views: 656 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-chris-lorenzo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_DidZqns8eY/hqdefault.jpg" alt="JSConf 2015   Chris Lorenzo" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-chris-lorenzo">JSConf 2015   Chris Lorenzo</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 22:50</div>
+			
+			
+              <div>Views: 825 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-dave-cadwallader"><img class="list-thumbnail" src="https://i.ytimg.com/vi/e3hkjeM_DUQ/hqdefault.jpg" alt="JSConf 2015   Dave Cadwallader" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-dave-cadwallader">JSConf 2015   Dave Cadwallader</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 30:04</div>
+			
+			
+              <div>Views: 640 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-gord-tanner"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2ZPpgIwcAN4/hqdefault.jpg" alt="JSConf 2015   Gord Tanner" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-gord-tanner">JSConf 2015   Gord Tanner</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 29:07</div>
+			
+			
+              <div>Views: 450 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-john-david-dalton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2DzaOnOyCqE/hqdefault.jpg" alt="JSConf 2015   John David Dalton" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-john-david-dalton">JSConf 2015   John David Dalton</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 17:59</div>
+			
+			
+              <div>Views: 661 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-jonathan-martin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zpD2R2iXiiU/hqdefault.jpg" alt="JSConf 2015   Jonathan Martin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-jonathan-martin">JSConf 2015   Jonathan Martin</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 36:21</div>
+			
+			
+              <div>Views: 614 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-jory-burson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Yn9RHDPwSic/hqdefault.jpg" alt="JSConf 2015   Jory Burson" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-jory-burson">JSConf 2015   Jory Burson</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 23:53</div>
+			
+			
+              <div>Views: 652 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-kassandra-perch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/M5gUJntx-CY/hqdefault.jpg" alt="JSConf 2015   Kassandra Perch" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-kassandra-perch">JSConf 2015   Kassandra Perch</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 28:34</div>
+			
+			
+              <div>Views: 520 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-kyle-tyacke"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wjpix0VCeoE/hqdefault.jpg" alt="JSConf 2015   Kyle Tyacke" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-kyle-tyacke">JSConf 2015   Kyle Tyacke</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 36:15</div>
+			
+			
+              <div>Views: 566 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-laney-kuenzel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mmke4w4gc6c/hqdefault.jpg" alt="JSConf 2015   Laney Kuenzel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-laney-kuenzel">JSConf 2015   Laney Kuenzel</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 28:54</div>
+			
+			
+              <div>Views: 3667 Likes: 44</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-mike-ball"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aGIJWWKLzF8/hqdefault.jpg" alt="JSConf 2015   Mike Ball" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-mike-ball">JSConf 2015   Mike Ball</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 27:25</div>
+			
+			
+              <div>Views: 683 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-mike-obrien"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5g3NUT8QGGg/hqdefault.jpg" alt="JSConf 2015   Mike O'Brien" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-mike-obrien">JSConf 2015   Mike O'Brien</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 31:01</div>
+			
+			
+              <div>Views: 1263 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-myles-borins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gmQ1kcj8Q2k/hqdefault.jpg" alt="JSConf 2015   Myles Borins" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-myles-borins">JSConf 2015   Myles Borins</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 24:33</div>
+			
+			
+              <div>Views: 1097 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-peter-piekarczyk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X7njm67K6QA/hqdefault.jpg" alt="JSConf 2015   Peter Piekarczyk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-peter-piekarczyk">JSConf 2015   Peter Piekarczyk</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 23:28</div>
+			
+			
+              <div>Views: 632 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/jsconf-2015-rey-bango"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CatholRh8bo/hqdefault.jpg" alt="JSConf 2015   Rey Bango" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/jsconf-2015-rey-bango">JSConf 2015   Rey Bango</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 28:08</div>
+			
+			
+              <div>Views: 653 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/kate-hudson-beyond-responsive-building-a-mobile-web-youre-fing-proud-of-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Y4ZTRztwLrg/hqdefault.jpg" alt="Kate Hudson: Beyond Responsive: Building a mobile web you're f*ing proud of | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/kate-hudson-beyond-responsive-building-a-mobile-web-youre-fing-proud-of-jsconf-us-2015">Kate Hudson: Beyond Responsive: Building a mobile web you're f*ing proud of | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 27:44</div>
+			
+			
+              <div>Views: 3419 Likes: 47</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/marcy-sutton-30-minutes-or-less-the-magic-of-automated-accessibility-testing-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-XUmf_RPF8k/hqdefault.jpg" alt="Marcy Sutton: 30 Minutes or Less: The Magic of Automated Accessibility Testing | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/marcy-sutton-30-minutes-or-less-the-magic-of-automated-accessibility-testing-jsconf-us-2015">Marcy Sutton: 30 Minutes or Less: The Magic of Automated Accessibility Testing | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 32:02</div>
+			
+			
+              <div>Views: 9453 Likes: 118</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/mariko-kosaka-knitting-for-javascripters-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X1Cc1vrvjdY/hqdefault.jpg" alt="Mariko Kosaka: Knitting for Javascripters | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/mariko-kosaka-knitting-for-javascripters-jsconf-us-2015">Mariko Kosaka: Knitting for Javascripters | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 26:26</div>
+			
+			
+              <div>Views: 4027 Likes: 69</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/matt-edelman-nemo-the-natural-nodejs-automation-solution-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1DoveeFXptY/hqdefault.jpg" alt="Matt Edelman: Nemo. The natural nodejs automation solution | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/matt-edelman-nemo-the-natural-nodejs-automation-solution-jsconf-us-2015">Matt Edelman: Nemo. The natural nodejs automation solution | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 28:07</div>
+			
+			
+              <div>Views: 6254 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/michael-matuzak-amazing-things-one-can-do-with-js-and-the-nes-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NiOW-swy2Ys/hqdefault.jpg" alt="Michael Matuzak: Amazing Things One Can Do With JS and the NES | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/michael-matuzak-amazing-things-one-can-do-with-js-and-the-nes-jsconf-us-2015">Michael Matuzak: Amazing Things One Can Do With JS and the NES | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 23:29</div>
+			
+			
+              <div>Views: 2573 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/naveed-ihsanullah-parallelism-experiments-in-javascript-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h_M_uscOKJM/hqdefault.jpg" alt="Naveed Ihsanullah: Parallelism experiments in JavaScript | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/naveed-ihsanullah-parallelism-experiments-in-javascript-jsconf-us-2015">Naveed Ihsanullah: Parallelism experiments in JavaScript | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 32:40</div>
+			
+			
+              <div>Views: 15356 Likes: 267</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/sam-saccone-recreating-a-dialup-modem-in-javascript-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UKa20yPzGbU/hqdefault.jpg" alt="Sam Saccone: Recreating a dialup modem in javascript | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/sam-saccone-recreating-a-dialup-modem-in-javascript-jsconf-us-2015">Sam Saccone: Recreating a dialup modem in javascript | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 32:26</div>
+			
+			
+              <div>Views: 3774 Likes: 81</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/sebastian-mckenzie-javascript-transformation-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rKuNbEwoQfQ/hqdefault.jpg" alt="Sebastian McKenzie: JavaScript Transformation | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/sebastian-mckenzie-javascript-transformation-jsconf-us-2015">Sebastian McKenzie: JavaScript Transformation | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 20:24</div>
+			
+			
+              <div>Views: 13819 Likes: 134</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/steve-kinney-building-a-musical-instrument-with-the-web-audio-api-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/56spBAgOYfg/hqdefault.jpg" alt="Steve Kinney: Building a musical instrument with the Web Audio API | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/steve-kinney-building-a-musical-instrument-with-the-web-audio-api-jsconf-us-2015">Steve Kinney: Building a musical instrument with the Web Audio API | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 30:13</div>
+			
+			
+              <div>Views: 3536 Likes: 65</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/tim-griesser-making-relational-cool-again-or-javascript-on-acid-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/19Av0Lxml-I/hqdefault.jpg" alt="Tim Griesser: Making Relational Cool Again (or: JavaScript on ACID) | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/tim-griesser-making-relational-cool-again-or-javascript-on-acid-jsconf-us-2015">Tim Griesser: Making Relational Cool Again (or: JavaScript on ACID) | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 27:26</div>
+			
+			
+              <div>Views: 2267 Likes: 36</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-us-2015/tracy-hinds-re-examining-recipe-search-jsconf-us-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IZONih1l4As/hqdefault.jpg" alt="Tracy Hinds: Re-examining recipe search | JSConf US 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-us-2015/tracy-hinds-re-examining-recipe-search-jsconf-us-2015">Tracy Hinds: Re-examining recipe search | JSConf US 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-05-27</div>
+			
+			  <div>Length: 28:21</div>
+			
+			
+              <div>Views: 941 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/jsconf-us-2015">JSConf USA 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshEkVjFZlLm1krvx0mPYPOoq">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

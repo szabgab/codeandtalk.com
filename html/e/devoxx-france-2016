@@ -1,0 +1,3912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Devoxx France 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Devoxx France 2016</h1>
+
+<div><a href="http://www.devoxx.fr/">Devoxx France 2016</a></div>
+
+
+<div>Start date: 2016-04-20</div>
+<div>End date: 2016-04-22</div>
+
+<div>Location:
+  Paris
+  
+  <a href="/l/france">France</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: French, English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/DevoxxFR">@DevoxxFR</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Devoxx%20France%202016%20on%202016-04-20%20in%20Paris%2C%20%20France%20%40DevoxxFR%20http%3A//www.devoxx.fr/%20%23JavaScript%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/10-enseignements-quon-peut-tirer-des-31463-commits-qui-ont-cree-le-langage-simone-civetta"><img class="list-thumbnail" src="https://i.ytimg.com/vi/q9yJhKQArFU/hqdefault.jpg" alt="10 enseignements qu'on peut tirer des 31.463 commits qui ont créé le langage" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/10-enseignements-quon-peut-tirer-des-31463-commits-qui-ont-cree-le-langage-simone-civetta">10 enseignements qu'on peut tirer des 31.463 commits qui ont créé le langage</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 11:02</div>
+			
+			
+              <div>Views: 269 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simone-civetta">Simone Civetta</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/100-stateless-avec-jwt-json-web-token-hubert-sablonniere"><img class="list-thumbnail" src="https://i.ytimg.com/vi/A2-YImhNVMU/hqdefault.jpg" alt="100% Stateless avec JWT (JSON Web Token)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/100-stateless-avec-jwt-json-web-token-hubert-sablonniere">100% Stateless avec JWT (JSON Web Token)</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:30</div>
+			
+			
+              <div>Views: 2357 Likes: 45</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hubert-sablonniere">Hubert SABLONNIÈRE</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/3-nuances-de-mom-guillaume-arnaud"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Bc0QeaupQ78/hqdefault.jpg" alt="3 nuances de MoM" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/3-nuances-de-mom-guillaume-arnaud">3 nuances de MoM</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 37:35</div>
+			
+			
+              <div>Views: 460 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/guillaume-arnaud">Guillaume Arnaud</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/a-la-decouverte-du-service-discovery-jean-eudes-couignoux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b28hxLw2gDg/hqdefault.jpg" alt="A la découverte du service discovery" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/a-la-decouverte-du-service-discovery-jean-eudes-couignoux">A la découverte du service discovery</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:46</div>
+			
+			
+              <div>Views: 277 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jean-eudes-couignoux">Jean-Eudes Couignoux</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/action-publique-et-numerique-matti-schneider"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qAFm3HhoZNI/hqdefault.jpg" alt="Action publique et Numérique" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/action-publique-et-numerique-matti-schneider">Action publique et Numérique</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 18:16</div>
+			
+			
+              <div>Views: 328 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matti-schneider">Matti Schneider</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/akka-decouvrons-les-bases-guillaume-scheibel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kLHpRApyeWg/hqdefault.jpg" alt="Akka: découvrons les bases" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/akka-decouvrons-les-bases-guillaume-scheibel">Akka: découvrons les bases</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 30:24</div>
+			
+			
+              <div>Views: 267 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/guillaume-scheibel">Guillaume Scheibel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/algorithmes-distribues-pour-le-big-data-saison-2-duyhai-doan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DyyXvKaZyaw/hqdefault.jpg" alt="Algorithmes distribués pour le Big Data, saison 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/algorithmes-distribues-pour-le-big-data-saison-2-duyhai-doan">Algorithmes distribués pour le Big Data, saison 2</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 47:27</div>
+			
+			
+              <div>Views: 274 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/duyhai-doan">DuyHai DOAN</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/algorithmes-les-nouveaux-pouvoirs-du-developpeur-fabrice-epelboin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h8UgB_-bXMc/hqdefault.jpg" alt="Algorithmes, les nouveaux pouvoirs du développeur" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/algorithmes-les-nouveaux-pouvoirs-du-developpeur-fabrice-epelboin">Algorithmes, les nouveaux pouvoirs du développeur</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 21:21</div>
+			
+			
+              <div>Views: 1963 Likes: 30</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fabrice-epelboin">Fabrice Epelboin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/analytics-et-big-data-une-histoire-de-cubes-mathias-kluba-mehdi-ben-haj-abbes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xTPJuPGy6uc/hqdefault.jpg" alt="Analytics et Big Data, une histoire de cubes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/analytics-et-big-data-une-histoire-de-cubes-mathias-kluba-mehdi-ben-haj-abbes">Analytics et Big Data, une histoire de cubes</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:38</div>
+			
+			
+              <div>Views: 477 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mathias-kluba">Mathias Kluba</a>
+             
+                <a href="/p/mehdi-ben-haj-abbes">Mehdi Ben Haj Abbes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/angular-2-preparez-vous-des-maintenant-a-la-migration-benoit-lemoine"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5U4OasGuo0o/hqdefault.jpg" alt="Angular 2 : Préparez vous dès maintenant à la migration" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/angular-2-preparez-vous-des-maintenant-a-la-migration-benoit-lemoine">Angular 2 : Préparez vous dès maintenant à la migration</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 36:56</div>
+			
+			
+              <div>Views: 930 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/benoit-lemoine">Benoît Lemoine</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/ansible-hors-des-sentiers-battus-aurelien-maury"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jePp5ZP1n14/hqdefault.jpg" alt="Ansible hors des sentiers battus" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/ansible-hors-des-sentiers-battus-aurelien-maury">Ansible hors des sentiers battus</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 48:36</div>
+			
+			
+              <div>Views: 768 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aurelien-maury">Aurélien Maury</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/apache-maven-java-9-et-le-projet-jigsaw-herve-boutemy-arnaud-heritier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6Aqka-QtzxY/hqdefault.jpg" alt="Apache Maven, Java 9 et le projet Jigsaw" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/apache-maven-java-9-et-le-projet-jigsaw-herve-boutemy-arnaud-heritier">Apache Maven, Java 9 et le projet Jigsaw</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 29:59</div>
+			
+			
+              <div>Views: 496 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/herve-boutemy">Hervé Boutemy</a>
+             
+                <a href="/p/arnaud-heritier">Arnaud Héritier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/apache-zeppelin-un-notebook-davenir-pour-leco-systeme-big-data-duyhai-doan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eZyL61gMayE/hqdefault.jpg" alt="Apache Zeppelin, un notebook d'avenir pour l'éco-système Big Data" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/apache-zeppelin-un-notebook-davenir-pour-leco-systeme-big-data-duyhai-doan">Apache Zeppelin, un notebook d'avenir pour l'éco-système Big Data</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 33:09</div>
+			
+			
+              <div>Views: 395 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/duyhai-doan">DuyHai DOAN</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/application-performance-management-facilitateur-de-devops-etude-du-cas-groupama-gilles-portier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mmLkKph4LhA/hqdefault.jpg" alt="Application Performance Management : facilitateur de DevOps. Etude du cas Groupama" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/application-performance-management-facilitateur-de-devops-etude-du-cas-groupama-gilles-portier">Application Performance Management : facilitateur de DevOps. Etude du cas Groupama</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:51</div>
+			
+			
+              <div>Views: 203 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gilles-portier">Gilles Portier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/apprendre-a-utiliser-la-cryptographie-par-lattaque-thierry-abalea"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HH0fuE47X3s/hqdefault.jpg" alt="Apprendre à utiliser la cryptographie par l’attaque" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/apprendre-a-utiliser-la-cryptographie-par-lattaque-thierry-abalea">Apprendre à utiliser la cryptographie par l’attaque</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 41:12</div>
+			
+			
+              <div>Views: 1036 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thierry-abalea">Thierry Abaléa</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/architecture-android-et-bonnes-pratiques-mathias-seguy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yXWWuauVVEE/hqdefault.jpg" alt="Architecture Android et bonnes pratiques" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/architecture-android-et-bonnes-pratiques-mathias-seguy">Architecture Android et bonnes pratiques</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 02:48:23</div>
+			
+			
+              <div>Views: 963 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mathias-seguy">Mathias Seguy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/architecture-decouplee-grace-aux-reactive-extensions-david-wursteisen-brice-dutheil"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4To7s3qln2s/hqdefault.jpg" alt="Architecture découplée grâce aux Reactive Extensions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/architecture-decouplee-grace-aux-reactive-extensions-david-wursteisen-brice-dutheil">Architecture découplée grâce aux Reactive Extensions</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 02:19:16</div>
+			
+			
+              <div>Views: 543 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brice-dutheil">Brice Dutheil</a>
+             
+                <a href="/p/david-wursteisen">David Wursteisen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/arraylist-et-linkedlist-sont-dans-un-bateau-jose-paumard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Y3b_Wey-KEY/hqdefault.jpg" alt="ArrayList et LinkedList sont dans un bateau" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/arraylist-et-linkedlist-sont-dans-un-bateau-jose-paumard">ArrayList et LinkedList sont dans un bateau</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 02:23:37</div>
+			
+			
+              <div>Views: 913 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jose-paumard">José Paumard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/big-data-applications-et-visualisations-avec-google-bigquery-et-cartodb-thomas-park"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Nk1i5aPG_xY/hqdefault.jpg" alt="Big Data : Applications et Visualisations avec Google BigQuery et CartoDB" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/big-data-applications-et-visualisations-avec-google-bigquery-et-cartodb-thomas-park">Big Data : Applications et Visualisations avec Google BigQuery et CartoDB</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:07</div>
+			
+			
+              <div>Views: 237 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-park">Thomas Park</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/blockchain-as-a-trust-machine-vers-une-economie-programmable-francois-galilee-heykel-jelassi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v53caX5egMo/hqdefault.jpg" alt="Blockchain as a Trust Machine ? Vers une économie programmable" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/blockchain-as-a-trust-machine-vers-une-economie-programmable-francois-galilee-heykel-jelassi">Blockchain as a Trust Machine ? Vers une économie programmable</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 43:50</div>
+			
+			
+              <div>Views: 833 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/francois-galilee">Francois Galilee</a>
+             
+                <a href="/p/heykel-jelassi">Heykel Jelassi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/boostez-votre-amelioration-continue-avec-popcorn-flow-anne-gabrillagues"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0AX8dBIVzew/hqdefault.jpg" alt="Boostez votre amélioration continue avec Popcorn Flow !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/boostez-votre-amelioration-continue-avec-popcorn-flow-anne-gabrillagues">Boostez votre amélioration continue avec Popcorn Flow !</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 16:15</div>
+			
+			
+              <div>Views: 364 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anne-gabrillagues">Anne Gabrillagues</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/bouchez-vos-fuites-memoires-avec-leakcanary-pierre-yves-ricau"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rzpPtRcuMZg/hqdefault.jpg" alt="Bouchez vos fuites mémoires avec LeakCanary!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/bouchez-vos-fuites-memoires-avec-leakcanary-pierre-yves-ricau">Bouchez vos fuites mémoires avec LeakCanary!</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 28:47</div>
+			
+			
+              <div>Views: 268 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pierre-yves-ricau">Pierre-Yves Ricau</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/boucle-de-feedback-pour-le-developpeur-christophe-jollivet-mickael-debonnaire"><img class="list-thumbnail" src="https://i.ytimg.com/vi/i2L1hfbJJ6s/hqdefault.jpg" alt="Boucle de feedback pour le développeur" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/boucle-de-feedback-pour-le-developpeur-christophe-jollivet-mickael-debonnaire">Boucle de feedback pour le développeur</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 27:11</div>
+			
+			
+              <div>Views: 348 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mickael-debonnaire">Mickael Débonnaire</a>
+             
+                <a href="/p/christophe_jollivet">Christophe Jollivet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/combining-stream-processing-and-in-memory-datagrids-o-mallassi-a-vasseur-c-morrison"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mM0bOC2Bwnk/hqdefault.jpg" alt="Combining stream processing and in-memory datagrids" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/combining-stream-processing-and-in-memory-datagrids-o-mallassi-a-vasseur-c-morrison">Combining stream processing and in-memory datagrids</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:26</div>
+			
+			
+              <div>Views: 283 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/olivier-mallassi">Olivier Mallassi</a>
+             
+                <a href="/p/craig-morrison">Craig Morrison</a>
+             
+                <a href="/p/alexandre-vasseur">Alexandre Vasseur</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/comment-asciidoctor-peut-vous-aider-pour-votre-doc-jeremie-bresson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Uyx7AVg2dQw/hqdefault.jpg" alt="Comment Asciidoctor peut vous aider pour votre doc" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/comment-asciidoctor-peut-vous-aider-pour-votre-doc-jeremie-bresson">Comment Asciidoctor peut vous aider pour votre doc</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 14:13</div>
+			
+			
+              <div>Views: 310 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeremie-bresson">Jérémie Bresson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/comment-concevoir-la-navigation-sur-mobile-amelie-boucher"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Fht3CbRN7gY/hqdefault.jpg" alt="Comment concevoir la navigation sur mobile ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/comment-concevoir-la-navigation-sur-mobile-amelie-boucher">Comment concevoir la navigation sur mobile ?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:27</div>
+			
+			
+              <div>Views: 352 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amelie-boucher">Amelie Boucher</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/comment-faire-tourner-une-jvm-de-16-to-par-ceux-qui-lont-fait-antoine-chambille-romain-colle"><img class="list-thumbnail" src="https://i.ytimg.com/vi/l--_z6YBLiI/hqdefault.jpg" alt="Comment faire tourner une JVM de 16 To, par ceux qui l'ont fait" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/comment-faire-tourner-une-jvm-de-16-to-par-ceux-qui-lont-fait-antoine-chambille-romain-colle">Comment faire tourner une JVM de 16 To, par ceux qui l'ont fait</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:00</div>
+			
+			
+              <div>Views: 437 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/romain-colle">Romain Colle</a>
+             
+                <a href="/p/antoine-chambille">Antoine Chambille</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/communiquer-en-ble-avec-vos-objets-connectes-les-pieges-a-eviter-alexis-duque-fabien-grenier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/efzf1k5D_4U/hqdefault.jpg" alt="Communiquer en BLE avec vos objets connectés, les pièges à éviter" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/communiquer-en-ble-avec-vos-objets-connectes-les-pieges-a-eviter-alexis-duque-fabien-grenier">Communiquer en BLE avec vos objets connectés, les pièges à éviter</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 29:55</div>
+			
+			
+              <div>Views: 115 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alexis-duque">Alexis Duque</a>
+             
+                <a href="/p/fabien-grenier">Fabien Grenier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/conquerir-le-desktop-avec-electron-thomas-brisbout"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xFS52yUfLbA/hqdefault.jpg" alt="Conquérir le desktop avec Electron" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/conquerir-le-desktop-avec-electron-thomas-brisbout">Conquérir le desktop avec Electron</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 33:49</div>
+			
+			
+              <div>Views: 731 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-brisbout">Thomas BRISBOUT</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/construire-un-fitbit-like-pour-chien-et-chat-daniel-petisme-paul-pinault"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Fbk6QvRX0Ps/hqdefault.jpg" alt="Construire un Fitbit-like pour chien et chat" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/construire-un-fitbit-like-pour-chien-et-chat-daniel-petisme-paul-pinault">Construire un Fitbit-like pour chien et chat</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 30:31</div>
+			
+			
+              <div>Views: 197 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-petisme">Daniel PETISME</a>
+             
+                <a href="/p/paul-pinault">Paul Pinault</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/containers-vms-comment-ces-technologies-fonctionnent-et-comment-les-differencier-quentin-adam"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wG4_JQXvZIc/hqdefault.jpg" alt="Containers, VMs... Comment ces technologies fonctionnent et comment les différencier?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/containers-vms-comment-ces-technologies-fonctionnent-et-comment-les-differencier-quentin-adam">Containers, VMs... Comment ces technologies fonctionnent et comment les différencier?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 46:08</div>
+			
+			
+              <div>Views: 2991 Likes: 42</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/quentin-adam">Quentin Adam</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/continuous-delivery-avec-gocd-vincent-spiewak"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5zqU2YMPx0A/hqdefault.jpg" alt="Continuous Delivery avec GoCD" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/continuous-delivery-avec-gocd-vincent-spiewak">Continuous Delivery avec GoCD</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 32:43</div>
+			
+			
+              <div>Views: 749 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vincent-spiewak">Vincent Spiewak</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/cycle-de-vie-des-images-docker-problemes-et-solutions-fred-simon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/M1iw_8tlRL0/hqdefault.jpg" alt="Cycle de vie des images Docker : problèmes et solutions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/cycle-de-vie-des-images-docker-problemes-et-solutions-fred-simon">Cycle de vie des images Docker : problèmes et solutions</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 39:47</div>
+			
+			
+              <div>Views: 360 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fred-simon">Fred Simon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/d3js-en-action-des-donnees-aux-graphiques-interactifs-thomas-fournaise"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6g24FG57Z4o/hqdefault.jpg" alt="D3.JS en action : des données aux graphiques interactifs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/d3js-en-action-des-donnees-aux-graphiques-interactifs-thomas-fournaise">D3.JS en action : des données aux graphiques interactifs</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 30:55</div>
+			
+			
+              <div>Views: 261 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-fournaise">Thomas Fournaise</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/dashing-deux-en-un-pour-un-dashboard-etincelant-nathaniel-richand"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BAsRHKC4iqk/hqdefault.jpg" alt="Dashing deux en un, pour un dashboard étincelant!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/dashing-deux-en-un-pour-un-dashboard-etincelant-nathaniel-richand">Dashing deux en un, pour un dashboard étincelant!</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 30:27</div>
+			
+			
+              <div>Views: 521 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nathaniel-richand">Nathaniel Richand</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/ddd-en-vrai-pour-le-developpeur-cyrille-martraire"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h3DLKrvp5V8/hqdefault.jpg" alt="DDD, en vrai pour le développeur" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/ddd-en-vrai-pour-le-developpeur-cyrille-martraire">DDD, en vrai pour le développeur</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:31</div>
+			
+			
+              <div>Views: 1429 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cyrille-martraire">Cyrille Martraire</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/ddd-et-si-on-reprenait-lhistoire-par-le-bon-bout-thomas-pierrain-jeremie-grodziski"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o3thkx3EuiA/hqdefault.jpg" alt="DDD: et si on reprenait l'histoire par le bon bout ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/ddd-et-si-on-reprenait-lhistoire-par-le-bon-bout-thomas-pierrain-jeremie-grodziski">DDD: et si on reprenait l'histoire par le bon bout ?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 44:17</div>
+			
+			
+              <div>Views: 3201 Likes: 44</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeremie-grodziski">Jérémie Grodziski</a>
+             
+                <a href="/p/thomas-pierrain">Thomas Pierrain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/de-jenkins-mavenfreestyle-a-pipeline-adrien-lecharpentier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lLc1MY9Bpuk/hqdefault.jpg" alt="De Jenkins Maven/Freestyle à Pipeline" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/de-jenkins-mavenfreestyle-a-pipeline-adrien-lecharpentier">De Jenkins Maven/Freestyle à Pipeline</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 30:30</div>
+			
+			
+              <div>Views: 1166 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adrien-lecharpentier">Adrien Lecharpentier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/de-lutopie-de-la-fin-du-travail-au-digital-labour-sebastien-broca"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OZazNYtl_bs/hqdefault.jpg" alt="De l'utopie de la fin du travail au digital labour" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/de-lutopie-de-la-fin-du-travail-au-digital-labour-sebastien-broca">De l'utopie de la fin du travail au digital labour</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 20:42</div>
+			
+			
+              <div>Views: 550 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sebastien-broca">sébastien broca</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/des-leds-pour-remplacer-votre-routeur-wifi-alexis-duque"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_jxSZVh_v88/hqdefault.jpg" alt="Des LEDs pour remplacer votre routeur WIFI ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/des-leds-pour-remplacer-votre-routeur-wifi-alexis-duque">Des LEDs pour remplacer votre routeur WIFI ?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 14:23</div>
+			
+			
+              <div>Views: 236 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alexis-duque">Alexis Duque</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/developpez-une-application-decentralisee-sur-la-blockchain-avec-ethereum-et-embark-p-antoine"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RZF6aryEzy4/hqdefault.jpg" alt="Développez une application décentralisée sur la blockchain avec Ethereum et Embark" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/developpez-une-application-decentralisee-sur-la-blockchain-avec-ethereum-et-embark-p-antoine">Développez une application décentralisée sur la blockchain avec Ethereum et Embark</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 14:42</div>
+			
+			
+              <div>Views: 684 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/philippe-antoine">Philippe Antoine</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/devenez-un-king-avec-kong-cedric-tran-xuan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MwMILmc63dg/hqdefault.jpg" alt="Devenez un King avec Kong" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/devenez-un-king-avec-kong-cedric-tran-xuan">Devenez un King avec Kong</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 14:54</div>
+			
+			
+              <div>Views: 266 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cedric-tran-xuan">Cédric Tran-Xuan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/devops-sur-android-dun-git-push-a-une-release-sur-le-play-store-jeremie-martinez"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3Ises8TgAp4/hqdefault.jpg" alt="DevOps sur Android : D'un git push à une release sur le Play Store" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/devops-sur-android-dun-git-push-a-une-release-sur-le-play-store-jeremie-martinez">DevOps sur Android : D'un git push à une release sur le Play Store</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 40:58</div>
+			
+			
+              <div>Views: 362 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeremie-martinez">Jeremie Martinez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/devops-vu-par-un-hacker-hicham-tolimat"><img class="list-thumbnail" src="https://i.ytimg.com/vi/is4f-yreYHg/hqdefault.jpg" alt="DevOps vu par un Hacker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/devops-vu-par-un-hacker-hicham-tolimat">DevOps vu par un Hacker</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 44:59</div>
+			
+			
+              <div>Views: 697 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hicham-tolimat">Hicham Tolimat</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/devoxx-france-2016-remerciements"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hYg7eMMUNtk/hqdefault.jpg" alt="Devoxx France 2016 remerciements" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/devoxx-france-2016-remerciements">Devoxx France 2016 remerciements</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 03:39</div>
+			
+			
+              <div>Views: 421 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/docker-for-windows-mac-mais-pourquoi-on-na-pas-eu-ca-des-le-debut-david-gageot"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8VAYSn2DmJM/hqdefault.jpg" alt="Docker for Windows & Mac : mais pourquoi on n'a pas eu ça dès le début ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/docker-for-windows-mac-mais-pourquoi-on-na-pas-eu-ca-des-le-debut-david-gageot">Docker for Windows & Mac : mais pourquoi on n'a pas eu ça dès le début ?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:38</div>
+			
+			
+              <div>Views: 1749 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-gageot">David Gageot</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/dockerized-system-testing-with-a-dash-of-chaos-aslak-knutsen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gil1qZ2X3zs/hqdefault.jpg" alt="Dockerized system testing, with a dash of chaos" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/dockerized-system-testing-with-a-dash-of-chaos-aslak-knutsen">Dockerized system testing, with a dash of chaos</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 37:13</div>
+			
+			
+              <div>Views: 226 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aslak-knutsen">Aslak Knutsen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/dropwizard-creation-de-services-rest-production-ready-en-25mn-alexander-dejanovski"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TFKnOxfllx4/hqdefault.jpg" alt="Dropwizard : création de services REST "production-ready" en 25mn" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/dropwizard-creation-de-services-rest-production-ready-en-25mn-alexander-dejanovski">Dropwizard : création de services REST "production-ready" en 25mn</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 30:27</div>
+			
+			
+              <div>Views: 243 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alexander-dejanovski">Alexander DEJANOVSKI</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/ehcache-hors-de-son-element-louis-jacomet"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7Ytt93mGrMY/hqdefault.jpg" alt="Ehcache hors de son Element" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/ehcache-hors-de-son-element-louis-jacomet">Ehcache hors de son Element</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 31:00</div>
+			
+			
+              <div>Views: 168 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/louis-jacomet">Louis Jacomet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/elasticsearch-et-hibernate-sont-sur-un-bateau-emmanuel-bernard-david-pilato"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pQJY-Mu-yGA/hqdefault.jpg" alt="Elasticsearch et Hibernate sont sur un bateau..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/elasticsearch-et-hibernate-sont-sur-un-bateau-emmanuel-bernard-david-pilato">Elasticsearch et Hibernate sont sur un bateau...</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 30:29</div>
+			
+			
+              <div>Views: 821 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/emmanuel-bernard">Emmanuel Bernard</a>
+             
+                <a href="/p/david-pilato">David Pilato</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/entrer-dans-les-entrailles-de-git-ou-comment-faire-un-commit-sans-faire-du-git-alexandre-garnier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Hd_UpJPDlik/hqdefault.jpg" alt="Entrer dans les entrailles de Git, ou comment faire un commit sans faire du Git" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/entrer-dans-les-entrailles-de-git-ou-comment-faire-un-commit-sans-faire-du-git-alexandre-garnier">Entrer dans les entrailles de Git, ou comment faire un commit sans faire du Git</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 32:01</div>
+			
+			
+              <div>Views: 706 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alexandre-garnier">Alexandre Garnier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/es6-maintenant-christophe-porteneuve"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KJzlllc7Jq8/hqdefault.jpg" alt="ES6+ maintenant !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/es6-maintenant-christophe-porteneuve">ES6+ maintenant !</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 44:39</div>
+			
+			
+              <div>Views: 1652 Likes: 25</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christophe-porteneuve">Christophe Porteneuve</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/et-si-on-liberait-tous-les-talents-pour-changer-le-monde-natacha-quester-semeon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MmnWokF4-pk/hqdefault.jpg" alt="Et si on libérait tous les talents pour changer le monde ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/et-si-on-liberait-tous-les-talents-pour-changer-le-monde-natacha-quester-semeon">Et si on libérait tous les talents pour changer le monde ?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 18:21</div>
+			
+			
+              <div>Views: 268 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/natacha-quester-semeon">Natacha Quester-Séméon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/feignant-in-action-igor-laborie"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IeY5C24SjGQ/hqdefault.jpg" alt="Feign(ant) in Action" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/feignant-in-action-igor-laborie">Feign(ant) in Action</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 30:48</div>
+			
+			
+              <div>Views: 396 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/igor-laborie">Igor Laborie</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/flexbox-et-le-css-redevient-fun-hubert-sablonniere"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5F_ngjHDcJQ/hqdefault.jpg" alt="Flexbox, et le CSS redevient fun !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/flexbox-et-le-css-redevient-fun-hubert-sablonniere">Flexbox, et le CSS redevient fun !</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 30:52</div>
+			
+			
+              <div>Views: 2669 Likes: 64</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hubert-sablonniere">Hubert SABLONNIÈRE</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/gerer-les-erreurs-avec-laide-du-systeme-de-types-de-scala-david-sferruzza"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TwJQKrZ23Vs/hqdefault.jpg" alt="Gérer les erreurs avec l'aide du système de types de Scala !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/gerer-les-erreurs-avec-laide-du-systeme-de-types-de-scala-david-sferruzza">Gérer les erreurs avec l'aide du système de types de Scala !</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 44:37</div>
+			
+			
+              <div>Views: 207 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-sferruzza">David Sferruzza</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/get-back-in-control-of-your-sql-with-jooq-lukas-eder"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XRPWFoBWoDU/hqdefault.jpg" alt="Get Back in Control of Your SQL with jOOQ" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/get-back-in-control-of-your-sql-with-jooq-lukas-eder">Get Back in Control of Your SQL with jOOQ</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:13</div>
+			
+			
+              <div>Views: 430 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lukas-eder">Lukas Eder</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/get-hip-with-jhipster-spring-boot-angularjs-bootstrap-matt-raible"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kkHN2G_nXV0/hqdefault.jpg" alt="Get Hip with JHipster: Spring Boot + AngularJS + Bootstrap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/get-hip-with-jhipster-spring-boot-angularjs-bootstrap-matt-raible">Get Hip with JHipster: Spring Boot + AngularJS + Bootstrap</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 46:17</div>
+			
+			
+              <div>Views: 5349 Likes: 28</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-raible">Matt Raible</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/git-tips-tricks-alexandre-garnier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/B5F1tU9dFOo/hqdefault.jpg" alt="Git : tips & tricks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/git-tips-tricks-alexandre-garnier">Git : tips & tricks</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 15:46</div>
+			
+			
+              <div>Views: 694 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alexandre-garnier">Alexandre Garnier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/google-dataflow-the-new-open-model-for-batch-and-stream-processing-sara-robinson-felipe-hoffa"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4ifC_6AVkUw/hqdefault.jpg" alt="Google Dataflow : The new open model for batch and stream processing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/google-dataflow-the-new-open-model-for-batch-and-stream-processing-sara-robinson-felipe-hoffa">Google Dataflow : The new open model for batch and stream processing</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 40:56</div>
+			
+			
+              <div>Views: 1218 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/felipe-hoffa">Felipe Hoffa</a>
+             
+                <a href="/p/sara-robinson">Sara Robinson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/gradle-harder-better-stronger-faster-andres-almiray"><img class="list-thumbnail" src="https://i.ytimg.com/vi/avhobsAgS3o/hqdefault.jpg" alt="Gradle: Harder, Better, Stronger, Faster" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/gradle-harder-better-stronger-faster-andres-almiray">Gradle: Harder, Better, Stronger, Faster</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 46:10</div>
+			
+			
+              <div>Views: 485 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andres-almiray">Andres Almiray</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/gruntjs-in-action-sarah-buisson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mI_2ZcdHeY4/hqdefault.jpg" alt="GruntJs in Action" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/gruntjs-in-action-sarah-buisson">GruntJs in Action</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 28:06</div>
+			
+			
+              <div>Views: 209 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sarah-buisson">Sarah Buisson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/h2o-lanalyse-predictive-sans-coder-ou-presque-claude-falguiere"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pA3eZQzkzwo/hqdefault.jpg" alt="H2O, l'analyse prédictive sans coder ... ou presque" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/h2o-lanalyse-predictive-sans-coder-ou-presque-claude-falguiere">H2O, l'analyse prédictive sans coder ... ou presque</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 31:58</div>
+			
+			
+              <div>Views: 307 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/claude-falguiere">Claude Falguiere</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/hackons-une-app-applewatch-corinne-krych"><img class="list-thumbnail" src="https://i.ytimg.com/vi/d1ah4NqS6xw/hqdefault.jpg" alt="Hackons une app AppleWatch" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/hackons-une-app-applewatch-corinne-krych">Hackons une app AppleWatch</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 33:01</div>
+			
+			
+              <div>Views: 91 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/corinne-krych">Corinne Krych</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/hadoop-a-grande-echelle-comment-croitre-sur-le-long-terme-nicolas-helleringer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HhhYPGacoBw/hqdefault.jpg" alt="Hadoop à grande échelle : comment croître sur le long terme" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/hadoop-a-grande-echelle-comment-croitre-sur-le-long-terme-nicolas-helleringer">Hadoop à grande échelle : comment croître sur le long terme</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 43:54</div>
+			
+			
+              <div>Views: 391 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicolas-helleringer">Nicolas Helleringer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/hibernate-tu-connais-mais-en-fait-tu-connais-pas-emmanuel-bernard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SJaLBX2Yv5o/hqdefault.jpg" alt="Hibernate tu connais... mais en fait tu connais pas" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/hibernate-tu-connais-mais-en-fait-tu-connais-pas-emmanuel-bernard">Hibernate tu connais... mais en fait tu connais pas</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 43:57</div>
+			
+			
+              <div>Views: 1347 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/emmanuel-bernard">Emmanuel Bernard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/high-performance-hibernate-vlad-mihalcea"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BTdTEe9QL5k/hqdefault.jpg" alt="High-Performance Hibernate" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/high-performance-hibernate-vlad-mihalcea">High-Performance Hibernate</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 44:12</div>
+			
+			
+              <div>Views: 3835 Likes: 46</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vlad-mihalcea">Vlad Mihalcea</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/how-does-clever-cloud-work-clement-delafargue-quentin-adam"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CeaoTAXkIZE/hqdefault.jpg" alt="How does Clever Cloud work?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/how-does-clever-cloud-work-clement-delafargue-quentin-adam">How does Clever Cloud work?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 02:48:37</div>
+			
+			
+              <div>Views: 1887 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/quentin-adam">Quentin Adam</a>
+             
+                <a href="/p/clement-delafargue">Clément Delafargue</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/how-microsoft-learned-to-love-java-brian-benz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jnkZfjSmbVw/hqdefault.jpg" alt="How Microsoft learned to love Java" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/how-microsoft-learned-to-love-java-brian-benz">How Microsoft learned to love Java</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:28</div>
+			
+			
+              <div>Views: 341 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-benz">Brian Benz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/how-to-defeat-feature-gluttony-kasia-mrowca"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Fa9aswTONjY/hqdefault.jpg" alt="How to defeat feature gluttony?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/how-to-defeat-feature-gluttony-kasia-mrowca">How to defeat feature gluttony?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 43:44</div>
+			
+			
+              <div>Views: 299 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kasia-mrowca">Kasia Mrowca</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/how-to-stop-wasting-your-time-and-start-performing-useful-code-reviews-maria-khalusova"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-tcy4z0hszg/hqdefault.jpg" alt="How to stop wasting your time and start performing useful code reviews" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/how-to-stop-wasting-your-time-and-start-performing-useful-code-reviews-maria-khalusova">How to stop wasting your time and start performing useful code reviews</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 42:16</div>
+			
+			
+              <div>Views: 710 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maria-khalusova">Maria Khalusova</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/https-naura-plus-de-secret-pour-vous-gregory-paul"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NCPgs4YlijU/hqdefault.jpg" alt="HTTPS n’aura plus de secret pour vous" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/https-naura-plus-de-secret-pour-vous-gregory-paul">HTTPS n’aura plus de secret pour vous</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 44:38</div>
+			
+			
+              <div>Views: 1414 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gregory-paul">Grégory Paul</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/ignite-talk-1-cfpio-nicolas-de-loof"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5PiqRw3yVsQ/hqdefault.jpg" alt="Ignite talk 1 - CFP.IO" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/ignite-talk-1-cfpio-nicolas-de-loof">Ignite talk 1 - CFP.IO</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 05:34</div>
+			
+			
+              <div>Views: 551 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicolas-de-loof">Nicolas de Loof</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/ignite-talk-2-live-code-review-mathieu-gandin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/32_DCD8IOwU/hqdefault.jpg" alt="Ignite talk 2 - Live code review" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/ignite-talk-2-live-code-review-mathieu-gandin">Ignite talk 2 - Live code review</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 05:33</div>
+			
+			
+              <div>Views: 484 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mathieu-gandin">Mathieu Gandin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/ignite-talk-3-quand-moulinex-et-dautres-liberent-la-femme-betty-moreau"><img class="list-thumbnail" src="https://i.ytimg.com/vi/umF8ma4FJFM/hqdefault.jpg" alt="Ignite talk 3 - Quand Moulinex (et d'autres...) libèrent la femme" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/ignite-talk-3-quand-moulinex-et-dautres-liberent-la-femme-betty-moreau">Ignite talk 3 - Quand Moulinex (et d'autres...) libèrent la femme</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 05:27</div>
+			
+			
+              <div>Views: 345 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/betty-moreau">Betty Moreau</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/ignite-talk-4-purger-son-stress-grace-au-vtt-daniel-de-luca"><img class="list-thumbnail" src="https://i.ytimg.com/vi/c5IYZGh3kPU/hqdefault.jpg" alt="Ignite talk 4 - Purger son stress grâce au VTT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/ignite-talk-4-purger-son-stress-grace-au-vtt-daniel-de-luca">Ignite talk 4 - Purger son stress grâce au VTT</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 05:38</div>
+			
+			
+              <div>Views: 1371 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-de-luca">Daniel de Luca</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/im-a-cto-bitch-ou-peregrination-dun-cto-youen-chene"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oOSxt6kzKas/hqdefault.jpg" alt="I'm a CTO bitch! ou Pérégrination d'un CTO" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/im-a-cto-bitch-ou-peregrination-dun-cto-youen-chene">I'm a CTO bitch! ou Pérégrination d'un CTO</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:26</div>
+			
+			
+              <div>Views: 820 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/youen-chene">Youen Chéné</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/infra-as-code-choisissez-vous-la-pilule-rouge-ou-la-pilule-bleue-a-raoul-f-arcellier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DTaodkp5R0c/hqdefault.jpg" alt="Infra as Code, choisissez vous la pilule rouge ou la pilule bleue ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/infra-as-code-choisissez-vous-la-pilule-rouge-ou-la-pilule-bleue-a-raoul-f-arcellier">Infra as Code, choisissez vous la pilule rouge ou la pilule bleue ?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 44:25</div>
+			
+			
+              <div>Views: 368 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fabien-arcellier">Fabien Arcellier</a>
+             
+                <a href="/p/alexandre-raoul">Alexandre Raoul</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/integration-et-deploiement-en-continu-github-alain-helaili"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jCwzf9adAtE/hqdefault.jpg" alt="Intégration et déploiement en continu @ Github" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/integration-et-deploiement-en-continu-github-alain-helaili">Intégration et déploiement en continu @ Github</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 44:53</div>
+			
+			
+              <div>Views: 972 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alain-helaili">Alain Hélaïli</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/iot-streaming-and-machine-learning-to-make-music-fred-cecilia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/00NLCJKSkJQ/hqdefault.jpg" alt="IOT Streaming and Machine Learning to make Music !!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/iot-streaming-and-machine-learning-to-make-music-fred-cecilia">IOT Streaming and Machine Learning to make Music !!</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:50</div>
+			
+			
+              <div>Views: 280 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fred-cecilia">Fred CECILIA</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/java-8-experiments-francois-sarradin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/evS3iwZLS4s/hqdefault.jpg" alt="Java (8) eXperiments" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/java-8-experiments-francois-sarradin">Java (8) eXperiments</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 41:41</div>
+			
+			
+              <div>Views: 1500 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/francois-sarradin">François Sarradin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/java-agent-en-action-reveler-la-face-cachee-de-vos-applications-yoann-buch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fkpm9NHY91k/hqdefault.jpg" alt="Java Agent en Action - Révéler la face cachée de vos applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/java-agent-en-action-reveler-la-face-cachee-de-vos-applications-yoann-buch">Java Agent en Action - Révéler la face cachée de vos applications</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 13:46</div>
+			
+			
+              <div>Views: 221 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yoann-buch">Yoann Buch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/java-se-8-pour-les-developpeurs-java-ee-jose-paumard-david-delabassee"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qf_YluoHmaw/hqdefault.jpg" alt="Java SE 8 pour les développeurs Java EE" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/java-se-8-pour-les-developpeurs-java-ee-jose-paumard-david-delabassee">Java SE 8 pour les développeurs Java EE</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:28</div>
+			
+			
+              <div>Views: 460 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jose-paumard">José Paumard</a>
+             
+                <a href="/p/david-delabassee">David Delabassee</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/jenkins-docker-orchestrons-le-continuous-delivery-nicolas-de-loof-yoann-dubreuil"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ij1-MNcRBSQ/hqdefault.jpg" alt="Jenkins, Docker Orchestrons le Continuous Delivery" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/jenkins-docker-orchestrons-le-continuous-delivery-nicolas-de-loof-yoann-dubreuil">Jenkins, Docker Orchestrons le Continuous Delivery</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 46:17</div>
+			
+			
+              <div>Views: 1093 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yoann-dubreuil">Yoann Dubreuil</a>
+             
+                <a href="/p/nicolas-de-loof">Nicolas de Loof</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/jigsaw-est-la-pour-nous-sauver-remi-forax"><img class="list-thumbnail" src="https://i.ytimg.com/vi/a8xnnR3Bz6w/hqdefault.jpg" alt="Jigsaw est là pour nous sauver" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/jigsaw-est-la-pour-nous-sauver-remi-forax">Jigsaw est là pour nous sauver</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 49:02</div>
+			
+			
+              <div>Views: 1410 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/remi-forax">Remi Forax</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/just-enough-app-server-antonio-goncalves"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cBEUnbX5YC8/hqdefault.jpg" alt="Just enough app server" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/just-enough-app-server-antonio-goncalves">Just enough app server</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:38</div>
+			
+			
+              <div>Views: 1194 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/antonio-goncalves">Antonio Goncalves</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/keynotes-du-jeudi-21-avril-2016-version-complete"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pGoh8CjghM0/hqdefault.jpg" alt="Keynotes du jeudi 21 avril 2016, version complète" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/keynotes-du-jeudi-21-avril-2016-version-complete">Keynotes du jeudi 21 avril 2016, version complète</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 01:46:31</div>
+			
+			
+              <div>Views: 326 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/keynotes-du-vendredi-22-avril-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uV6zy5DIads/hqdefault.jpg" alt="Keynotes du vendredi 22 avril 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/keynotes-du-vendredi-22-avril-2016">Keynotes du vendredi 22 avril 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 01:23:39</div>
+			
+			
+              <div>Views: 266 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/kill-all-the-rest-with-the-falcor-hugo-wood"><img class="list-thumbnail" src="https://i.ytimg.com/vi/woOg4UyNHn8/hqdefault.jpg" alt="Kill all the REST with the Falcor" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/kill-all-the-rest-with-the-falcor-hugo-wood">Kill all the REST with the Falcor</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:10</div>
+			
+			
+              <div>Views: 600 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hugo-wood">Hugo Wood</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/kubernetes-api-in-depth-with-a-custom-autoscaler-ray-tsang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TgrVPMYmvqI/hqdefault.jpg" alt="Kubernetes API in depth with a custom autoscaler" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/kubernetes-api-in-depth-with-a-custom-autoscaler-ray-tsang">Kubernetes API in depth with a custom autoscaler</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:41</div>
+			
+			
+              <div>Views: 923 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ray-tsang">Ray Tsang</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/kubernetes-university-cap-sur-lorchestration-docker-jb-claramonte-g-egron-c-hauber"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QDvxQWKY17s/hqdefault.jpg" alt="Kubernetes University, Cap sur l’orchestration Docker !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/kubernetes-university-cap-sur-lorchestration-docker-jb-claramonte-g-egron-c-hauber">Kubernetes University, Cap sur l’orchestration Docker !</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 02:43:10</div>
+			
+			
+              <div>Views: 589 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jean-baptiste-claramonte">Jean-Baptiste Claramonte</a>
+             
+                <a href="/p/cedric-hauber">Cédric Hauber</a>
+             
+                <a href="/p/gerome-egron">Gérôme EGRON</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/la-blockchain-en-detail-benoit-lafontaine-yann-rouillard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/J0MgFQ-j6nE/hqdefault.jpg" alt="La Blockchain en détail" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/la-blockchain-en-detail-benoit-lafontaine-yann-rouillard">La Blockchain en détail</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 02:53:25</div>
+			
+			
+              <div>Views: 6340 Likes: 48</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/benoit-lafontaine">Benoît Lafontaine</a>
+             
+                <a href="/p/yann-rouillard">Yann Rouillard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/la-medecine-de-demain-jean-michel-billaut"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8agk41AL1g4/hqdefault.jpg" alt="La Médecine de Demain" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/la-medecine-de-demain-jean-michel-billaut">La Médecine de Demain</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 21:13</div>
+			
+			
+              <div>Views: 751 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jean-michel-billaut">Jean-Michel Billaut</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/la-modularisation-avant-lheure-compiler-openjdk-8-en-10mo-thomas-lorblanches"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9xWtbyHGnuA/hqdefault.jpg" alt="La modularisation avant l'heure : compiler OpenJDK 8 en 10Mo !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/la-modularisation-avant-lheure-compiler-openjdk-8-en-10mo-thomas-lorblanches">La modularisation avant l'heure : compiler OpenJDK 8 en 10Mo !</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 43:25</div>
+			
+			
+              <div>Views: 125 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-lorblanches">Thomas Lorblanchès</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/la-quete-du-graaljs-siegfried-ehret-romain-maton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Husw3PKFIpg/hqdefault.jpg" alt="la-quête-du-graal.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/la-quete-du-graaljs-siegfried-ehret-romain-maton">la-quête-du-graal.js</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 44:58</div>
+			
+			
+              <div>Views: 446 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/siegfried-ehret">Siegfried Ehret</a>
+             
+                <a href="/p/romain-maton">Romain Maton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/larchitecture-redux-en-rxjs-florent-le-gall"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hf2PN0jfn20/hqdefault.jpg" alt="L'architecture Redux en RxJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/larchitecture-redux-en-rxjs-florent-le-gall">L'architecture Redux en RxJS</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 14:50</div>
+			
+			
+              <div>Views: 389 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/florent-le-gall">Florent Le Gall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/le-design-dapi-rest-un-debat-sans-fin-guillaume-laforge"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6onHFNqMUwY/hqdefault.jpg" alt="Le design d'API REST, un débat sans fin ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/le-design-dapi-rest-un-debat-sans-fin-guillaume-laforge">Le design d'API REST, un débat sans fin ?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:21</div>
+			
+			
+              <div>Views: 1855 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/guillaume-laforge">Guillaume Laforge</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/le-pattern-builder-a-lheure-de-java-8-jerome-mainaud"><img class="list-thumbnail" src="https://i.ytimg.com/vi/68tjJayboUA/hqdefault.jpg" alt="Le pattern builder à l'heure de Java 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/le-pattern-builder-a-lheure-de-java-8-jerome-mainaud">Le pattern builder à l'heure de Java 8</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 15:19</div>
+			
+			
+              <div>Views: 503 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jerome-mainaud">Jérôme Mainaud</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/le-reveil-de-la-thread-david-shay"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Z0o-DOvgvjQ/hqdefault.jpg" alt="Le réveil de la Thread" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/le-reveil-de-la-thread-david-shay">Le réveil de la Thread</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 15:20</div>
+			
+			
+              <div>Views: 351 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-shay">David Shay</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/lean-startup-pour-les-developpeurs-sebastien-arbogast"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5flLBWONZTk/hqdefault.jpg" alt="Lean Startup pour les développeurs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/lean-startup-pour-les-developpeurs-sebastien-arbogast">Lean Startup pour les développeurs</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 02:32:22</div>
+			
+			
+              <div>Views: 639 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sebastien-arbogast">Sebastien Arbogast</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/les-cast-codeurs-font-la-fermeture"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IUEJ_SYAkmk/hqdefault.jpg" alt="Les Cast Codeurs font la fermeture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/les-cast-codeurs-font-la-fermeture">Les Cast Codeurs font la fermeture</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 43:39</div>
+			
+			
+              <div>Views: 247 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/les-nouveautes-de-cdi-20-antoine-sabot-durand-jose-paumard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/albO_9cI7Pg/hqdefault.jpg" alt="Les nouveautés de CDI 2.0" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/les-nouveautes-de-cdi-20-antoine-sabot-durand-jose-paumard">Les nouveautés de CDI 2.0</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 46:54</div>
+			
+			
+              <div>Views: 562 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jose-paumard">José Paumard</a>
+             
+                <a href="/p/antoine-sabot-durand">Antoine Sabot-Durand</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/lets-react-mathieu-ancelin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IFM8krjbKmQ/hqdefault.jpg" alt="Let's React" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/lets-react-mathieu-ancelin">Let's React</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 42:29</div>
+			
+			
+              <div>Views: 713 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mathieu-ancelin">Mathieu ANCELIN</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/lexperience-developpeur-et-votre-api-nicolas-garnier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CEnB-IS5z1Y/hqdefault.jpg" alt="L'Expérience Développeur et votre API" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/lexperience-developpeur-et-votre-api-nicolas-garnier">L'Expérience Développeur et votre API</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 13:15</div>
+			
+			
+              <div>Views: 839 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicolas-garnier">Nicolas Garnier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/lintelligence-artificielle-avec-les-services-ibm-watson-sur-la-plateforme-bluemix-philippe-comte"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LghgJtMsEKg/hqdefault.jpg" alt="L'intelligence artificielle avec les services IBM Watson sur la plateforme Bluemix" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/lintelligence-artificielle-avec-les-services-ibm-watson-sur-la-plateforme-bluemix-philippe-comte">L'intelligence artificielle avec les services IBM Watson sur la plateforme Bluemix</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 43:26</div>
+			
+			
+              <div>Views: 637 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/philippe-comte">Philippe COMTE</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/living-documentation-vous-allez-aimer-la-documentation-cyrille-martraire"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Tw-wcps7WqU/hqdefault.jpg" alt="Living Documentation : vous allez aimer la documentation !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/living-documentation-vous-allez-aimer-la-documentation-cyrille-martraire">Living Documentation : vous allez aimer la documentation !</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 46:44</div>
+			
+			
+              <div>Views: 860 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cyrille-martraire">Cyrille Martraire</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/lodyssee-du-continuous-delivery-diego-lemos-david-caramelo-nicolas-bourgeois"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P9G7jBBwLjc/hqdefault.jpg" alt="L'odyssée du Continuous Delivery Diego Lemos David Caramelo" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/lodyssee-du-continuous-delivery-diego-lemos-david-caramelo-nicolas-bourgeois">L'odyssée du Continuous Delivery Diego Lemos David Caramelo</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 44:51</div>
+			
+			
+              <div>Views: 407 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicolas-bourgeois">Nicolas Bourgeois</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/microservices-irl-ca-fonctionne-chez-un-client-on-vous-dit-comment-s-lagraulet-o-revial"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CeODpq9FdIA/hqdefault.jpg" alt="Microservices IRL: ça fonctionne chez un client, on vous dit comment!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/microservices-irl-ca-fonctionne-chez-un-client-on-vous-dit-comment-s-lagraulet-o-revial">Microservices IRL: ça fonctionne chez un client, on vous dit comment!</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 44:32</div>
+			
+			
+              <div>Views: 1816 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephane-lagraulet">Stéphane Lagraulet</a>
+             
+                <a href="/p/olivier-revial">Olivier Revial</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/mise-en-oeuvre-de-libm-bluemix-garage-method-avec-devops-toolchains-p-mulet-c-chateauvieux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NQFTvUusnno/hqdefault.jpg" alt="Mise en oeuvre de l'IBM Bluemix Garage Method avec DevOps Toolchains" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/mise-en-oeuvre-de-libm-bluemix-garage-method-avec-devops-toolchains-p-mulet-c-chateauvieux">Mise en oeuvre de l'IBM Bluemix Garage Method avec DevOps Toolchains</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 46:57</div>
+			
+			
+              <div>Views: 132 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christian-chateauvieux">Christian Châteauvieux</a>
+             
+                <a href="/p/philippe-mulet">Philippe Mulet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/modular-monoliths-simon-brown"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h_rBDIC51C4/hqdefault.jpg" alt="Modular monoliths" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/modular-monoliths-simon-brown">Modular monoliths</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:56</div>
+			
+			
+              <div>Views: 1659 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-brown">Simon Brown</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/modulariser-votre-javascript-avec-jspm-et-systemjs-benoit-lemoine-samuel-vaillant"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VxUkWK7wjwk/hqdefault.jpg" alt="Modulariser votre JavaScript avec JSPM et SystemJs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/modulariser-votre-javascript-avec-jspm-et-systemjs-benoit-lemoine-samuel-vaillant">Modulariser votre JavaScript avec JSPM et SystemJs</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 29:50</div>
+			
+			
+              <div>Views: 260 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/samuel-vaillant">Samuel Vaillant</a>
+             
+                <a href="/p/benoit-lemoine">Benoît Lemoine</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/mon-appli-est-secure-enfin-je-crois-jean-louis-boudart-nicolas-poirier-"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BE9IGxt69tE/hqdefault.jpg" alt="Mon appli est secure ! Enfin je crois..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/mon-appli-est-secure-enfin-je-crois-jean-louis-boudart-nicolas-poirier-">Mon appli est secure ! Enfin je crois...</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 28:28</div>
+			
+			
+              <div>Views: 679 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicolas-poirier">Nicolas Poirier</a>
+             
+                <a href="/p/jean-louis-boudart">Jean-Louis Boudart</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/new-data-science-functional-distributed-jvm-and-agile-andy-petrella"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TZJchWM3eL8/hqdefault.jpg" alt="New Data Science: Functional, Distributed, JVM... and Agile" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/new-data-science-functional-distributed-jvm-and-agile-andy-petrella">New Data Science: Functional, Distributed, JVM... and Agile</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 46:07</div>
+			
+			
+              <div>Views: 148 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andy-petrella">Andy Petrella</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/ou-sont-passes-mes-serveurs-gerome-egron"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Fell0Yu_ywc/hqdefault.jpg" alt="Où sont passés mes serveurs ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/ou-sont-passes-mes-serveurs-gerome-egron">Où sont passés mes serveurs ?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 13:45</div>
+			
+			
+              <div>Views: 368 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gerome-egron">Gérôme EGRON</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/oubliez-les-migraines-faites-de-lasynchrone-synchrone-jordane-grenat"><img class="list-thumbnail" src="https://i.ytimg.com/vi/J09wjZBzJGg/hqdefault.jpg" alt="Oubliez les migraines, faîtes de l'asynchrone... synchrone !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/oubliez-les-migraines-faites-de-lasynchrone-synchrone-jordane-grenat">Oubliez les migraines, faîtes de l'asynchrone... synchrone !</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 28:20</div>
+			
+			
+              <div>Views: 385 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jordane-grenat">Jordane Grenat</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/outofmemoryexception-quel-est-le-cout-des-objets-en-java-jean-philippe-bempel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UZ42RF0ozBk/hqdefault.jpg" alt="OutOfMemoryException : Quel est le coût des objets en Java ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/outofmemoryexception-quel-est-le-cout-des-objets-en-java-jean-philippe-bempel">OutOfMemoryException : Quel est le coût des objets en Java ?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 43:40</div>
+			
+			
+              <div>Views: 969 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jean-philippe-bempel">Jean-Philippe Bempel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/paris-est-resilient-eric-horesnyi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EYjuFuB7hMg/hqdefault.jpg" alt="Paris est résilient" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/paris-est-resilient-eric-horesnyi">Paris est résilient</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 42:14</div>
+			
+			
+              <div>Views: 296 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eric-horesnyi">Eric Horesnyi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/performance-java-vous-declare-sa-flamme-vincent-beretti-nicolas-peters"><img class="list-thumbnail" src="https://i.ytimg.com/vi/saCGp-T6saQ/hqdefault.jpg" alt="Performance: Java vous déclare sa flamme" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/performance-java-vous-declare-sa-flamme-vincent-beretti-nicolas-peters">Performance: Java vous déclare sa flamme</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 29:35</div>
+			
+			
+              <div>Views: 558 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vincent-beretti">Vincent Beretti</a>
+             
+                <a href="/p/nicolas-peters">Nicolas Peters</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/postgresql-la-nouvelle-base-orientee-document-yan-bonnel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iOwnUPSY0KI/hqdefault.jpg" alt="Postgresql : la nouvelle base orientée document" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/postgresql-la-nouvelle-base-orientee-document-yan-bonnel">Postgresql : la nouvelle base orientée document</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 30:28</div>
+			
+			
+              <div>Views: 918 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yan-bonnel">Yan Bonnel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/pourquoi-il-ne-suffira-pas-de-faire-du-http-20-pour-faire-des-applications-performantes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GL-euKX5XEk/hqdefault.jpg" alt="Pourquoi il ne suffira pas de faire du HTTP 2.0 pour faire des applications performantes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/pourquoi-il-ne-suffira-pas-de-faire-du-http-20-pour-faire-des-applications-performantes">Pourquoi il ne suffira pas de faire du HTTP 2.0 pour faire des applications performantes</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 02:41:38</div>
+			
+			
+              <div>Views: 516 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/pourquoi-maurice-ne-doit-surtout-pas-coder-en-go-jean-laurent-de-morlhon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LIFZPzupwgs/hqdefault.jpg" alt="Pourquoi Maurice ne doit surtout pas coder en GO" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/pourquoi-maurice-ne-doit-surtout-pas-coder-en-go-jean-laurent-de-morlhon">Pourquoi Maurice ne doit surtout pas coder en GO</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 49:02</div>
+			
+			
+              <div>Views: 2341 Likes: 32</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jean-laurent-de-morlhon">Jean-Laurent de Morlhon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/progressive-web-apps-cyril-balit-florian-orpeliere"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kqi4Xa1ViOQ/hqdefault.jpg" alt="Progressive Web Apps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/progressive-web-apps-cyril-balit-florian-orpeliere">Progressive Web Apps</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 38:57</div>
+			
+			
+              <div>Views: 582 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cyril-balit">Cyril Balit</a>
+             
+                <a href="/p/florian-orpeliere">Florian Orpelière</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/property-based-testing-enfin-pour-tout-le-monde-cyrille-martraire-romeu-moura"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O-LWbSUaEQU/hqdefault.jpg" alt="Property-Based Testing, enfin pour tout le monde" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/property-based-testing-enfin-pour-tout-le-monde-cyrille-martraire-romeu-moura">Property-Based Testing, enfin pour tout le monde</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 02:23:53</div>
+			
+			
+              <div>Views: 661 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cyrille-martraire">Cyrille Martraire</a>
+             
+                <a href="/p/romeu-moura">Romeu MOURA</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/quoi-de-neuf-pour-jhipster-en-2016-julien-dubois"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nnkxLSJcFLQ/hqdefault.jpg" alt="Quoi de neuf pour JHipster en 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/quoi-de-neuf-pour-jhipster-en-2016-julien-dubois">Quoi de neuf pour JHipster en 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 46:01</div>
+			
+			
+              <div>Views: 2838 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/julien-dubois">Julien Dubois</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/quoi-dneuf-docker-live-docker-sur-arm-nicolas-de-loof-christophe-labouisse"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EQNj5GBGg9Y/hqdefault.jpg" alt="Quoi d'neuf Docker - live Docker sur ARM " /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/quoi-dneuf-docker-live-docker-sur-arm-nicolas-de-loof-christophe-labouisse">Quoi d'neuf Docker - live Docker sur ARM </a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 27:28</div>
+			
+			
+              <div>Views: 471 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christophe-labouisse">Christophe Labouisse</a>
+             
+                <a href="/p/nicolas-de-loof">Nicolas de Loof</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/raml-une-autre-facon-de-concevoir-vos-apis-restful-sebastien-lecacheur"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4oLUXZXUZYc/hqdefault.jpg" alt="RAML une autre façon de concevoir vos APIs RESTful" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/raml-une-autre-facon-de-concevoir-vos-apis-restful-sebastien-lecacheur">RAML une autre façon de concevoir vos APIs RESTful</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 31:26</div>
+			
+			
+              <div>Views: 924 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sebastien-lecacheur">Sébastien LECACHEUR</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/ratez-vos-revues-de-code-en-5-lecons-michel-domenjoud"><img class="list-thumbnail" src="https://i.ytimg.com/vi/V4J-m3o5JWg/hqdefault.jpg" alt="Ratez vos revues de code en 5 leçons !" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/ratez-vos-revues-de-code-en-5-lecons-michel-domenjoud">Ratez vos revues de code en 5 leçons !</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 15:15</div>
+			
+			
+              <div>Views: 1491 Likes: 24</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michel-domenjoud">Michel Domenjoud</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/rawr-unified-time-series-expressions-with-timelion-rashid-khan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/L5LvP_Cj0A0/hqdefault.jpg" alt="Rawr. Unified time series expressions with Timelion" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/rawr-unified-time-series-expressions-with-timelion-rashid-khan">Rawr. Unified time series expressions with Timelion</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 41:50</div>
+			
+			
+              <div>Views: 1517 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rashid-khan">Rashid Khan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/retours-sur-java-8-jean-michel-doudoux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Se8yS9BdND4/hqdefault.jpg" alt="Retours sur Java 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/retours-sur-java-8-jean-michel-doudoux">Retours sur Java 8</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 43:13</div>
+			
+			
+              <div>Views: 1791 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jean-michel-doudoux">Jean-Michel Doudoux</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/securiser-ses-applications-back-et-front-facilement-avec-keycloak-sebastien-blanc"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bVidgluUcg0/hqdefault.jpg" alt="Sécuriser ses applications back et front facilement avec Keycloak" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/securiser-ses-applications-back-et-front-facilement-avec-keycloak-sebastien-blanc">Sécuriser ses applications back et front facilement avec Keycloak</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 31:36</div>
+			
+			
+              <div>Views: 1026 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sebastien-blanc">Sebastien Blanc</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/securisez-vos-applications-web-gratuitement-en-quelques-minutes-avec-lets-encrypt-damien-lecan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hD4923vHXsY/hqdefault.jpg" alt="Sécurisez vos applications Web gratuitement en quelques minutes avec Let's Encrypt" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/securisez-vos-applications-web-gratuitement-en-quelques-minutes-avec-lets-encrypt-damien-lecan">Sécurisez vos applications Web gratuitement en quelques minutes avec Let's Encrypt</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 30:23</div>
+			
+			
+              <div>Views: 447 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/damien-lecan">Damien Lecan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/sharper-better-faster-dagger-pierre-yves-ricau"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dfyEzLFS-uA/hqdefault.jpg" alt="Sharper Better Faster Dagger" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/sharper-better-faster-dagger-pierre-yves-ricau">Sharper Better Faster Dagger</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 36:51</div>
+			
+			
+              <div>Views: 201 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pierre-yves-ricau">Pierre-Yves Ricau</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/societe-programmable-developpeurs-citoyens-eric-horesnyi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/p42DQA7rLH8/hqdefault.jpg" alt="Société programmable : développeurs citoyens" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/societe-programmable-developpeurs-citoyens-eric-horesnyi">Société programmable : développeurs citoyens</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 48:20</div>
+			
+			
+              <div>Views: 514 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eric-horesnyi">Eric Horesnyi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/software-development-responsibility-and-ethics-the-coming-crisis-richard-fontana"><img class="list-thumbnail" src="https://i.ytimg.com/vi/___k3hCQHEU/hqdefault.jpg" alt="Software development, responsibility and ethics: the coming crisis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/software-development-responsibility-and-ethics-the-coming-crisis-richard-fontana">Software development, responsibility and ethics: the coming crisis</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 17:20</div>
+			
+			
+              <div>Views: 231 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/richard-fontana">Richard Fontana</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/spring-boot-13-pour-le-web-brian-clozel-stephane-nicoll"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sR8PyhJa-Zw/hqdefault.jpg" alt="Spring Boot 1.3 pour le web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/spring-boot-13-pour-le-web-brian-clozel-stephane-nicoll">Spring Boot 1.3 pour le web</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 02:40:17</div>
+			
+			
+              <div>Views: 1483 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-clozel">Brian Clozel</a>
+             
+                <a href="/p/stephane-nicoll">Stephane Nicoll</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/spring-cloud-exploring-spring-cloud-implementations-spencer-gibb"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sESK0svJ4Gs/hqdefault.jpg" alt="Spring Cloud *: Exploring Spring Cloud Implementations" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/spring-cloud-exploring-spring-cloud-implementations-spencer-gibb">Spring Cloud *: Exploring Spring Cloud Implementations</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 46:02</div>
+			
+			
+              <div>Views: 637 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/spencer-gibb">Spencer Gibb</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/sql-on-everything-avec-apache-drill-tugdual-grall"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YnRwTrDuW_o/hqdefault.jpg" alt=""SQL on Everything" avec Apache Drill" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/sql-on-everything-avec-apache-drill-tugdual-grall">"SQL on Everything" avec Apache Drill</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 30:14</div>
+			
+			
+              <div>Views: 346 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tugdual-grall">Tugdual Grall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/sse-le-streaming-simple-et-efficace-sans-websocket-alexandre-victoor"><img class="list-thumbnail" src="https://i.ytimg.com/vi/klCxLCW0C70/hqdefault.jpg" alt="SSE : le Streaming Simple et Efficace, sans WebSocket" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/sse-le-streaming-simple-et-efficace-sans-websocket-alexandre-victoor">SSE : le Streaming Simple et Efficace, sans WebSocket</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 15:34</div>
+			
+			
+              <div>Views: 305 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alexandre-victoor">Alexandre Victoor</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/stack-overflow-behind-the-scenes-how-its-made-oded-coster"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5i6RrqqU4FE/hqdefault.jpg" alt="Stack Overflow behind the scenes - how it's made" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/stack-overflow-behind-the-scenes-how-its-made-oded-coster">Stack Overflow behind the scenes - how it's made</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 44:44</div>
+			
+			
+              <div>Views: 2101 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oded-coster">Oded Coster</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/stream-processing-avec-les-acteurs-akka-vincent-heuschling"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rfiTqddyQGc/hqdefault.jpg" alt="Stream processing avec les acteurs AKKA" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/stream-processing-avec-les-acteurs-akka-vincent-heuschling">Stream processing avec les acteurs AKKA</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 30:53</div>
+			
+			
+              <div>Views: 320 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vincent-heuschling">Vincent Heuschling</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/string-concatenation-de-1-a-9-remi-forax"><img class="list-thumbnail" src="https://i.ytimg.com/vi/U97zT8kA7G4/hqdefault.jpg" alt="String Concatenation de 1 à 9" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/string-concatenation-de-1-a-9-remi-forax">String Concatenation de 1 à 9</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:51</div>
+			
+			
+              <div>Views: 1209 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/remi-forax">Remi Forax</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/swift-nouvelles-du-front-simone-civetta-fabien-mirault"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o8Sup8ytrXA/hqdefault.jpg" alt="Swift : nouvelles du front" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/swift-nouvelles-du-front-simone-civetta-fabien-mirault">Swift : nouvelles du front</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 40:12</div>
+			
+			
+              <div>Views: 164 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simone-civetta">Simone Civetta</a>
+             
+                <a href="/p/fabien-mirault">Fabien Mirault</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/terracotta-off-heap-pour-les-nuls-ludovic-orban"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ezTrDlrIz5o/hqdefault.jpg" alt="Terracotta Off-Heap pour les nuls" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/terracotta-off-heap-pour-les-nuls-ludovic-orban">Terracotta Off-Heap pour les nuls</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 43:08</div>
+			
+			
+              <div>Views: 197 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ludovic-orban">Ludovic Orban</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/test-driven-infrastructure-avec-docker-seven-le-mesle"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gKthgdhM0TQ/hqdefault.jpg" alt="Test Driven Infrastructure avec Docker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/test-driven-infrastructure-avec-docker-seven-le-mesle">Test Driven Infrastructure avec Docker</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 38:44</div>
+			
+			
+              <div>Views: 274 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/seven-le-mesle">Séven Le Mesle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/the-art-of-angular-in-2016-matt-raible"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v-RwFXwYhUw/hqdefault.jpg" alt="The Art of Angular in 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/the-art-of-angular-in-2016-matt-raible">The Art of Angular in 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 42:27</div>
+			
+			
+              <div>Views: 1373 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-raible">Matt Raible</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/the-bootiful-microservice-josh-long"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rqQOSG0DWPY/hqdefault.jpg" alt="The Bootiful Microservice" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/the-bootiful-microservice-josh-long">The Bootiful Microservice</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 48:01</div>
+			
+			
+              <div>Views: 5898 Likes: 71</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/josh-long">Josh Long</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/the-eclipse-ide-the-force-awakens-mikael-barbero"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ek5pCnI0Zps/hqdefault.jpg" alt="The Eclipse IDE: The Force Awakens" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/the-eclipse-ide-the-force-awakens-mikael-barbero">The Eclipse IDE: The Force Awakens</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 43:46</div>
+			
+			
+              <div>Views: 286 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mikael-barbero">Mikaël Barbero</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/the-impact-of-code-in-society-joel-spolsky"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WtM3wPVhkik/hqdefault.jpg" alt="The Impact of Code in Society" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/the-impact-of-code-in-society-joel-spolsky">The Impact of Code in Society</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 20:55</div>
+			
+			
+              <div>Views: 7284 Likes: 192</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joel-spolsky">Joel Spolsky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/the-state-of-open-source-licensing-richard-fontana"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F3OxXSirek4/hqdefault.jpg" alt="The State of Open Source Licensing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/the-state-of-open-source-licensing-richard-fontana">The State of Open Source Licensing</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 47:40</div>
+			
+			
+              <div>Views: 162 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/richard-fontana">Richard Fontana</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/toast-tk-lautomatisation-de-tests-facile-collaborative-et-open-source-sallah-kokaina"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7DW700rgeVs/hqdefault.jpg" alt="Toast Tk : l’automatisation de tests facile, collaborative et open source" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/toast-tk-lautomatisation-de-tests-facile-collaborative-et-open-source-sallah-kokaina">Toast Tk : l’automatisation de tests facile, collaborative et open source</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 22:45</div>
+			
+			
+              <div>Views: 418 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sallah-kokaina">Sallah Kokaina</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/todo-implementer-le-modele-de-lentreprise-de-service-de-demain-carl-azoury"><img class="list-thumbnail" src="https://i.ytimg.com/vi/A2yBQjDKrWY/hqdefault.jpg" alt="// TODO Implémenter le modèle de l’entreprise [de service] de demain" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/todo-implementer-le-modele-de-lentreprise-de-service-de-demain-carl-azoury">// TODO Implémenter le modèle de l’entreprise [de service] de demain</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 45:42</div>
+			
+			
+              <div>Views: 963 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/carl-azoury">Carl Azoury</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/traefik-a-modern-reverse-proxy-emile-vauge"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QvAz9mVx5TI/hqdefault.jpg" alt="Traefik, a modern reverse-proxy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/traefik-a-modern-reverse-proxy-emile-vauge">Traefik, a modern reverse-proxy</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 46:22</div>
+			
+			
+              <div>Views: 9477 Likes: 54</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/emile-vauge">Emile Vauge</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/traiter-3-milliards-de-requetes-par-jour-quavons-nous-appris-bertrand-paquet"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VsCE-VCFnXA/hqdefault.jpg" alt="Traiter 3 milliards de requêtes par jour. Qu'avons nous appris ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/traiter-3-milliards-de-requetes-par-jour-quavons-nous-appris-bertrand-paquet">Traiter 3 milliards de requêtes par jour. Qu'avons nous appris ?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 42:40</div>
+			
+			
+              <div>Views: 1965 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bertrand-paquet">Bertrand Paquet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/typescript-typer-pour-mieux-coder-vincent-beretti"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BO-BFIgEkpU/hqdefault.jpg" alt="Typescript, typer pour mieux coder" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/typescript-typer-pour-mieux-coder-vincent-beretti">Typescript, typer pour mieux coder</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 30:19</div>
+			
+			
+              <div>Views: 451 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vincent-beretti">Vincent Beretti</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/un-assembleur-dynamique-sur-la-jvm-guillaume-bort"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3wV9Rob1Y_g/hqdefault.jpg" alt="Un assembleur dynamique sur la JVM ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/un-assembleur-dynamique-sur-la-jvm-guillaume-bort">Un assembleur dynamique sur la JVM ?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 44:24</div>
+			
+			
+              <div>Views: 282 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/guillaume-bort">Guillaume Bort</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/un-cluster-hadoop-de-1117-noeuds-doit-avoir-un-frere-stuart-pook"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AHykPHVFOq8/hqdefault.jpg" alt="Un cluster Hadoop de 1117 noeuds doit avoir un frère" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/un-cluster-hadoop-de-1117-noeuds-doit-avoir-un-frere-stuart-pook">Un cluster Hadoop de 1117 noeuds doit avoir un frère</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 31:07</div>
+			
+			
+              <div>Views: 186 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stuart-pook">Stuart Pook</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/une-histoire-du-streaming-a-criteo-y-schwartz-s-danzanvilliers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xM5t8yL-0io/hqdefault.jpg" alt="Une histoire du Streaming à Criteo" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/une-histoire-du-streaming-a-criteo-y-schwartz-s-danzanvilliers">Une histoire du Streaming à Criteo</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 46:10</div>
+			
+			
+              <div>Views: 604 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yann-schwartz">Yann Schwartz</a>
+             
+                <a href="/p/serge-danzanvilliers">Serge Danzanvilliers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/unikernel-with-java-and-saturnism-ray-tsang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LlSuug_D1aU/hqdefault.jpg" alt="Unikernel with Java and @saturnism" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/unikernel-with-java-and-saturnism-ray-tsang">Unikernel with Java and @saturnism</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 15:46</div>
+			
+			
+              <div>Views: 717 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ray-tsang">Ray Tsang</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/unit-test-my-search-zouheir-cadi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DvRlejp6q5o/hqdefault.jpg" alt="Unit test my search" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/unit-test-my-search-zouheir-cadi">Unit test my search</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 31:45</div>
+			
+			
+              <div>Views: 123 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/zouheir-cadi">Zouheir Cadi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/vuejs-une-alternative-plus-simple-que-reactjs-et-angular2-philippe-antoine"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fsDJ3kL6Nzc/hqdefault.jpg" alt="Vue.js une alternative plus simple que React.js et Angular2 ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/vuejs-une-alternative-plus-simple-que-reactjs-et-angular2-philippe-antoine">Vue.js une alternative plus simple que React.js et Angular2 ?</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 29:42</div>
+			
+			
+              <div>Views: 2933 Likes: 27</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/philippe-antoine">Philippe Antoine</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/were-watching-you-learn-what-you-can-do-about-it-serge-huber"><img class="list-thumbnail" src="https://i.ytimg.com/vi/R_4BlcqgUHw/hqdefault.jpg" alt="We’re watching you. Learn what you can do about it." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/were-watching-you-learn-what-you-can-do-about-it-serge-huber">We’re watching you. Learn what you can do about it.</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 32:27</div>
+			
+			
+              <div>Views: 248 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/serge-huber">Serge Huber</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-france-2016/writing-an-infoq-mini-book-with-asciidoctor-matt-raible"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mVFr3RzBPu8/hqdefault.jpg" alt="Writing an InfoQ Mini Book with Asciidoctor" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-france-2016/writing-an-infoq-mini-book-with-asciidoctor-matt-raible">Writing an InfoQ Mini Book with Asciidoctor</a></h4>
+          <footer>
+            <div class="recorded">2016-04-20</div>
+			
+			  <div>Length: 17:08</div>
+			
+			
+              <div>Views: 339 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-france-2016">Devoxx France 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-raible">Matt Raible</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLTbQvx84FrAS5clN9i8_LFUQxcMY7qXAO">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

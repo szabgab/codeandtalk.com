@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Postgres Open 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Postgres Open 2016</h1>
+
+<div><a href="http://2016.postgresopen.org/">Postgres Open 2016</a></div>
+
+
+<div>Start date: 2016-09-13</div>
+<div>End date: 2016-09-15</div>
+
+<div>Location:
+  Dallas
+  Texas
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="https://2016.postgresopen.org/policies/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/postgresql">PostgreSQL</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/postgresopen">@postgresopen</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/PostgresOpen">https://www.facebook.com/PostgresOpen</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Postgres%20Open%202016%20on%202016-09-13%20in%20Dallas%2C%20Texas%20USA%20%40postgresopen%20http%3A//2016.postgresopen.org/%20%23PostgreSQL%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-bartunov1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XmVUAJHNV5M/hqdefault.jpg" alt="CREATE INDEX ... USING RUM. RUM index and its applications to FTS." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-bartunov1">CREATE INDEX ... USING RUM. RUM index and its applications to FTS.</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 59:33</div>
+			
+			
+              <div>Views: 26 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oleg-bartunov">Oleg Bartunov</a>
+             
+                <a href="/p/alexander-korotkov">Alexander Korotkov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-chittenden1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IVyNUCmp9Sc/hqdefault.jpg" alt="Assume database credentials have leaked: Dynamic credentials..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-chittenden1">Assume database credentials have leaked: Dynamic credentials...</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 51:17</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-chittenden">Sean Chittenden</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-coleman1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WEN5UZAxWnk/hqdefault.jpg" alt="Shall We Play a Game? (with CTEs)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-coleman1">Shall We Play a Game? (with CTEs)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 39:47</div>
+			
+			
+              <div>Views: 34 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-coleman">James Coleman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-cramer1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/unMry9jtYH0/hqdefault.jpg" alt="JDBC performance from the inside" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-cramer1">JDBC performance from the inside</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 40:47</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-cramer">Dave Cramer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-eisentraut1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bsM4DUwMLOY/hqdefault.jpg" alt="An opinionated guide to PostgreSQL replication" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-eisentraut1">An opinionated guide to PostgreSQL replication</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 50:41</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-eisentraut">Peter Eisentraut</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-fiske1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZH6E_lYTUMw/hqdefault.jpg" alt="Managing OS Provided PostgreSQL Packages" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-fiske1">Managing OS Provided PostgreSQL Packages</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 52:28</div>
+			
+			
+              <div>Views: 51 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/keith-fiske">Keith Fiske</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-freund1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CbmEL3sRJpM/hqdefault.jpg" alt="Understanding Durability in Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-freund1">Understanding Durability in Postgres</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 49:26</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andres-freund">Andres Freund</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-frost1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yhOkob2PQFQ/hqdefault.jpg" alt="Identifying Slow Queries and Fixing Them!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-frost1">Identifying Slow Queries and Fixing Them!</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 54:37</div>
+			
+			
+              <div>Views: 65 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephen-frost">Stephen Frost</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-hagander1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wQGOeXhVAyc/hqdefault.jpg" alt="A look at the Elephants trunk - PostgreSQL 9.6" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-hagander1">A look at the Elephants trunk - PostgreSQL 9.6</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 52:43</div>
+			
+			
+              <div>Views: 42 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/magnus-hagander">Magnus Hagander</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-hagander2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rcgo4TWsUgA/hqdefault.jpg" alt="PostgreSQL Backups the modern ways" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-hagander2">PostgreSQL Backups the modern ways</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 48:58</div>
+			
+			
+              <div>Views: 97 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/magnus-hagander">Magnus Hagander</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-hagar1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iwzQZhdlV98/hqdefault.jpg" alt="Using PostgreSQL in a Small Business" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-hagar1">Using PostgreSQL in a Small Business</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 51:31</div>
+			
+			
+              <div>Views: 38 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/preston-hagar">Preston Hagar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-herron1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O6neZN4vJTc/hqdefault.jpg" alt="Using PostGIS to Handle Geospatial Data as Vectors and Rasters" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-herron1">Using PostGIS to Handle Geospatial Data as Vectors and Rasters</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 36:14</div>
+			
+			
+              <div>Views: 26 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dylan-herron">Dylan Herron</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-jelinek1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KbwXsqkU5TE/hqdefault.jpg" alt="PGLogical - the logical replication for PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-jelinek1">PGLogical - the logical replication for PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 50:01</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/petr-jelinek">Petr Jelinek</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-kempter1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rLuufJOAUyY/hqdefault.jpg" alt="Data Architecture with PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-kempter1">Data Architecture with PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 42:34</div>
+			
+			
+              <div>Views: 26 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kevin-kempter">Kevin Kempter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-kosmodemiansky1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gqn5ep-EM9Y/hqdefault.jpg" alt="PostgreSQL worst practices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-kosmodemiansky1">PostgreSQL worst practices</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 43:28</div>
+			
+			
+              <div>Views: 34 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ilya-kosmodemiansky">Ilya Kosmodemiansky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-kumar1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bJCyCKhAf9k/hqdefault.jpg" alt="Locked Up: Advances in Postgres Data Encryption" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-kumar1">Locked Up: Advances in Postgres Data Encryption</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 52:47</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vibhor-kumar">Vibhor Kumar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-lightningtalks1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2cZ7Wd4SGT0/hqdefault.jpg" alt="Lightning Talks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-lightningtalks1">Lightning Talks</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 36:04</div>
+			
+			
+              <div>Views: 38 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-mcalister1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CufjaRRfZYw/hqdefault.jpg" alt="Amazon RDS for PostgreSQL: New Features and Lessons Learned" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-mcalister1">Amazon RDS for PostgreSQL: New Features and Lessons Learned</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 51:57</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/grant-mcalister">Grant McAlister</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-mccormick1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JnA1xB0kACo/hqdefault.jpg" alt="Administering Postgres using Docker and Openshift" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-mccormick1">Administering Postgres using Docker and Openshift</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 59:39</div>
+			
+			
+              <div>Views: 60 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeff-mccormick">Jeff McCormick</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-mead1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nym8xoDunKE/hqdefault.jpg" alt="PostgreSQL with Chef & Puppet" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-mead1">PostgreSQL with Chef & Puppet</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 52:21</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/scott-mead">Scott Mead</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-momjian1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Xhi6u--9860/hqdefault.jpg" alt="Flexible Indexing with Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-momjian1">Flexible Indexing with Postgres</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 50:56</div>
+			
+			
+              <div>Views: 63 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bruce-momjian">Bruce Momjian</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-momjian2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nfBeNHFw_z4/hqdefault.jpg" alt="Non-Relational Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-momjian2">Non-Relational Postgres</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 52:26</div>
+			
+			
+              <div>Views: 78 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bruce-momjian">Bruce Momjian</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-nasby1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/D1PxA2y_bjM/hqdefault.jpg" alt="All the Big Data Sciency stuff you never knew Postgres could do" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-nasby1">All the Big Data Sciency stuff you never knew Postgres could do</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 50:22</div>
+			
+			
+              <div>Views: 55 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jim-nasby">Jim Nasby</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-patel1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JqG0xtaHqCg/hqdefault.jpg" alt="Advanced Postgres Monitoring" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-patel1">Advanced Postgres Monitoring</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 51:12</div>
+			
+			
+              <div>Views: 60 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/denish-patel">Denish Patel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-riggs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Sg9m8cr5o0Q/hqdefault.jpg" alt="Big Data with PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-riggs">Big Data with PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 52:34</div>
+			
+			
+              <div>Views: 64 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-riggs">Simon Riggs</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-riggs1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RGgrP92vELQ/hqdefault.jpg" alt="Diamond Keynote Address" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-riggs1">Diamond Keynote Address</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 23:58</div>
+			
+			
+              <div>Views: 64 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-riggs">Simon Riggs</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-robertson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RIoROvHVLgg/hqdefault.jpg" alt="Data Analysis with PL/Python" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-robertson">Data Analysis with PL/Python</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 32:43</div>
+			
+			
+              <div>Views: 40 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/keith-robertson">Keith Robertson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-slaughter-dombrovskaya"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WBlaWwTnorI/hqdefault.jpg" alt="Bitemporal Data Model: making it happened in Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-slaughter-dombrovskaya">Bitemporal Data Model: making it happened in Postgres</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 49:57</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chad-slaughter">Chad Slaughter</a>
+             
+                <a href="/p/henrietta-dombrovskaya">Henrietta Dombrovskaya</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-stark-1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/I3g5wSX6zrQ/hqdefault.jpg" alt="A Look at the Elephant's Tail" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-stark-1">A Look at the Elephant's Tail</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 52:25</div>
+			
+			
+              <div>Views: 51 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/greg-stark">Greg Stark</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-steele"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DyVLa94B6J0/hqdefault.jpg" alt="Efficiently Backing up Terabytes of Data with pgBackRest" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-steele">Efficiently Backing up Terabytes of Data with pgBackRest</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 49:54</div>
+			
+			
+              <div>Views: 97 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-steele">David Steele</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-steele2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FzNXFJ2-r0s/hqdefault.jpg" alt="Reviewing PostgreSQL Patches for Fun and Profi" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-steele2">Reviewing PostgreSQL Patches for Fun and Profi</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 42:48</div>
+			
+			
+              <div>Views: 46 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-steele">David Steele</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-thomas1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bUlzbKoFQ54/hqdefault.jpg" alt="Elephant Herd as a Service: Managing Hundreds of Postgres Instances" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-thomas1">Elephant Herd as a Service: Managing Hundreds of Postgres Instances</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 36:18</div>
+			
+			
+              <div>Views: 49 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shaun-thomas">Shaun Thomas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-vacca1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/t9Y5ba7AWNc/hqdefault.jpg" alt="The Elephant Meets the Whale - Bringing PostgreSQL to Production on Docker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-vacca1">The Elephant Meets the Whale - Bringing PostgreSQL to Production on Docker</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 49:25</div>
+			
+			
+              <div>Views: 69 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/phil-vacca">Phil Vacca</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-vondra1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CkvYpedTILc/hqdefault.jpg" alt="Performance Improvements in PostgreSQL 9.5, 9.6 and beyond" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-vondra1">Performance Improvements in PostgreSQL 9.5, 9.6 and beyond</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 53:58</div>
+			
+			
+              <div>Views: 77 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tomas-vondra">Tomas Vondra</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2016/postgres-open-2016-wagner1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8NQYOX6lvgo/hqdefault.jpg" alt="Permissions in Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2016/postgres-open-2016-wagner1">Permissions in Postgres</a></h4>
+          <footer>
+            <div class="recorded">2016-09-13</div>
+			
+			  <div>Length: 52:39</div>
+			
+			
+              <div>Views: 85 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2016">Postgres Open 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nathan-wagner">Nathan Wagner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLN8NEqxwuywTaXp0v5O-iO-mBaFb5k8nI">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>PolyConf - Polyglot Programmers Unite - 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>PolyConf - Polyglot Programmers Unite - 2016</h1>
+
+<div><a href="http://polyconf.com/">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+
+
+<div>Start date: 2016-06-30</div>
+<div>End date: 2016-07-02</div>
+
+<div>Location:
+  Poznan
+  
+  <a href="/l/poland">Poland</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/web">web</a> 
+   
+       <a href="/t/react">React</a> 
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/elm">Elm</a> 
+   
+</div>
+
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=PolyConf%20-%20Polyglot%20Programmers%20Unite%20-%202016%20on%202016-06-30%20in%20Poznan%2C%20%20Poland%20http%3A//polyconf.com/%20%23web%20%23React%20%23JavaScript%20%23Elm%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-a-brief-history-of-f-rachel-reese"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cbDjpi727aY/hqdefault.jpg" alt="A brief history of F#" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-a-brief-history-of-f-rachel-reese">A brief history of F#</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 39:00</div>
+			
+			
+              <div>Views: 848 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rachel-reese">Rachel Reese</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-back-to-basic-discussing-prototypes-with-the-terminator-christoph-gockel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6rVfqhtWJ6g/hqdefault.jpg" alt="Back to Basic Discussing Prototypes with the Terminator" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-back-to-basic-discussing-prototypes-with-the-terminator-christoph-gockel">Back to Basic Discussing Prototypes with the Terminator</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 22:49</div>
+			
+			
+              <div>Views: 172 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christoph-gockel">Christoph Gockel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-becoming-a-polyglot-apis-in-4-languages-kirsten-hunter"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZfqfLpV26yY/hqdefault.jpg" alt="Becoming a Polyglot - APIs in 4 Languages" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-becoming-a-polyglot-apis-in-4-languages-kirsten-hunter">Becoming a Polyglot - APIs in 4 Languages</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 37:16</div>
+			
+			
+              <div>Views: 161 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kirsten-hunter">Kirsten Hunter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-datomic-in-production-1-year-in-hans-hubner"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0y6QK813new/hqdefault.jpg" alt="Datomic in production, 1 year in" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-datomic-in-production-1-year-in-hans-hubner">Datomic in production, 1 year in</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 26:15</div>
+			
+			
+              <div>Views: 556 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hans-hubner">Hans Hubner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-dynamic-linking-in-the-browser-guy-bedford"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cRSBi1EAOCo/hqdefault.jpg" alt="Dynamic Linking in the Browser" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-dynamic-linking-in-the-browser-guy-bedford">Dynamic Linking in the Browser</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 42:13</div>
+			
+			
+              <div>Views: 261 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/guy-bedford">Guy Bedford</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-dynamics-of-change-why-reactivity-matters-andre-staltz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v68ppDlvHqs/hqdefault.jpg" alt="Dynamics of change: why reactivity matters" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-dynamics-of-change-why-reactivity-matters-andre-staltz">Dynamics of change: why reactivity matters</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 30:54</div>
+			
+			
+              <div>Views: 1622 Likes: 47</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andre-staltz-medeiros">André Staltz Medeiros</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-ecto-vs-activerecord-a-tale-of-two-orms-brad-urani"><img class="list-thumbnail" src="https://i.ytimg.com/vi/96YwY7Lld0Q/hqdefault.jpg" alt="Ecto vs. ActiveRecord - A Tale of Two ORMs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-ecto-vs-activerecord-a-tale-of-two-orms-brad-urani">Ecto vs. ActiveRecord - A Tale of Two ORMs</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 32:45</div>
+			
+			
+              <div>Views: 388 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brad-urani">Brad Urani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-elm-for-javascript-developers-jack-franklin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tOkOmWgDLOM/hqdefault.jpg" alt="Elm for JavaScript Developers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-elm-for-javascript-developers-jack-franklin">Elm for JavaScript Developers</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 38:40</div>
+			
+			
+              <div>Views: 4493 Likes: 79</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jack-franklin">Jack Franklin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-erlang-in-the-land-of-lisp-jan-stepien"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qVMKIKJrUd8/hqdefault.jpg" alt="Erlang in The Land of Lisp" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-erlang-in-the-land-of-lisp-jan-stepien">Erlang in The Land of Lisp</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 30:43</div>
+			
+			
+              <div>Views: 433 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jan-stepien">Jan Stepien</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-experience-report-clojure-on-ios-with-react-native-jelle-akkerman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UHRITqJGadU/hqdefault.jpg" alt="Experience report - Clojure on iOS with React Native" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-experience-report-clojure-on-ios-with-react-native-jelle-akkerman">Experience report - Clojure on iOS with React Native</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 24:17</div>
+			
+			
+              <div>Views: 1044 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jelle-akkerman">Jelle Akkerman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-exploring-the-universal-library-szymon-kaliski"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qByrsLPxjHs/hqdefault.jpg" alt="Exploring The Universal Library" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-exploring-the-universal-library-szymon-kaliski">Exploring The Universal Library</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 28:22</div>
+			
+			
+              <div>Views: 165 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/szymon-kaliski">Szymon Kaliski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-from-unikernels-to-databases-to-uis-truly-full-stack-apps-in-ocaml-sean-grove"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F2dPXk__B6M/hqdefault.jpg" alt="From Unikernels to Databases to UIs - Truly full-stack apps in OCaml" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-from-unikernels-to-databases-to-uis-truly-full-stack-apps-in-ocaml-sean-grove">From Unikernels to Databases to UIs - Truly full-stack apps in OCaml</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 26:45</div>
+			
+			
+              <div>Views: 679 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-grove">Sean Grove</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-functional-thinking-artur-czajka"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Nx9pEQng8H8/hqdefault.jpg" alt="Functional Thinking" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-functional-thinking-artur-czajka">Functional Thinking</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 20:50</div>
+			
+			
+              <div>Views: 463 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/artur-czajka">Artur Czajka</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-getting-your-nodejs-app-production-ready-zbyszek-tenerowicz-56b9f5"><img class="list-thumbnail" src="https://i.ytimg.com/vi/orLYv91T5io/hqdefault.jpg" alt="Getting your NodeJS app production ready" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-getting-your-nodejs-app-production-ready-zbyszek-tenerowicz-56b9f5">Getting your NodeJS app production ready</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 34:30</div>
+			
+			
+              <div>Views: 116 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/zbyszek-tenerowicz">Zbyszek Tenerowicz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-getting-your-nodejs-app-production-ready-zbyszek-tenerowicz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hME4c8y_B-s/hqdefault.jpg" alt="Getting your NodeJS app production ready" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-getting-your-nodejs-app-production-ready-zbyszek-tenerowicz">Getting your NodeJS app production ready</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 34:30</div>
+			
+			
+              <div>Views: 159 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/zbyszek-tenerowicz">Zbyszek Tenerowicz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-introducing-clojurespec-arne-brasseur"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CVO0M8CTV78/hqdefault.jpg" alt="Introducing clojure.spec" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-introducing-clojurespec-arne-brasseur">Introducing clojure.spec</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 30:32</div>
+			
+			
+              <div>Views: 1667 Likes: 25</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/arne-brasseur">Arne Brasseur</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-kemal-building-lightning-fast-web-applications-with-simplicity-serdar-dogruyol"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KJB-nAoRSr8/hqdefault.jpg" alt="Kemal - Building Lightning Fast Web Applications with Simplicity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-kemal-building-lightning-fast-web-applications-with-simplicity-serdar-dogruyol">Kemal - Building Lightning Fast Web Applications with Simplicity</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 28:05</div>
+			
+			
+              <div>Views: 1511 Likes: 35</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/serdar-dogruyol">Serdar Dogruyol</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-knit-chisel-hack-building-programs-in-guile-scheme-andy-wingo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TVO8WXFYDIA/hqdefault.jpg" alt="Knit, Chisel, Hack: Building Programs in Guile Scheme" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-knit-chisel-hack-building-programs-in-guile-scheme-andy-wingo">Knit, Chisel, Hack: Building Programs in Guile Scheme</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 38:08</div>
+			
+			
+              <div>Views: 961 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andy-wingo">Andy Wingo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-language-agnostic-static-analysis-with-abstract-asts-marcin-wyszynski"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0YHXFY_NSfA/hqdefault.jpg" alt="Language-agnostic static analysis with abstract ASTs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-language-agnostic-static-analysis-with-abstract-asts-marcin-wyszynski">Language-agnostic static analysis with abstract ASTs</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 33:11</div>
+			
+			
+              <div>Views: 128 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marcin-wyszynski">Marcin Wyszynski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-lighting-talks-session-day-1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/de-EiEXo3tA/hqdefault.jpg" alt="PolyConf 16 / Lighting Talks Session / Day 1" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-lighting-talks-session-day-1">PolyConf 16 / Lighting Talks Session / Day 1</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 27:59</div>
+			
+			
+              <div>Views: 203 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-lighting-talks-session-day-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AbqByKfar8o/hqdefault.jpg" alt="PolyConf 16 / Lighting Talks Session / Day 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-lighting-talks-session-day-2">PolyConf 16 / Lighting Talks Session / Day 2</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 31:25</div>
+			
+			
+              <div>Views: 408 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-lwan-an-experimental-scalable-high-performance-http-server-leandro-pereira"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cttY9FdCzUE/hqdefault.jpg" alt="Lwan - an experimental, scalable, high-performance http server" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-lwan-an-experimental-scalable-high-performance-http-server-leandro-pereira">Lwan - an experimental, scalable, high-performance http server</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 27:49</div>
+			
+			
+              <div>Views: 348 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/leandro-pereira">Leandro Pereira</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-memories"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1-WchvCQfPA/hqdefault.jpg" alt="⭐️  PolyConf 16 Memories" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-memories">⭐️  PolyConf 16 Memories</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 03:46</div>
+			
+			
+              <div>Views: 737 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-my-adventure-with-elm-yan-cui"><img class="list-thumbnail" src="https://i.ytimg.com/vi/28jCDXfZCgE/hqdefault.jpg" alt="My adventure with Elm" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-my-adventure-with-elm-yan-cui">My adventure with Elm</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 27:37</div>
+			
+			
+              <div>Views: 1013 Likes: 29</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yan-cui">Yan Cui</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-nim-async-voodoo-andreas-rumpf"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hwArqelfBBY/hqdefault.jpg" alt="Nim async voodoo" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-nim-async-voodoo-andreas-rumpf">Nim async voodoo</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 29:09</div>
+			
+			
+              <div>Views: 711 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andreas-rumpf">Andreas Rumpf</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-oden-a-functional-programming-language-for-the-go-ecosystem-oskar-wickstrom"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qRm_58RA9ns/hqdefault.jpg" alt="Oden - A Functional Programming Language for the Go Ecosystem" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-oden-a-functional-programming-language-for-the-go-ecosystem-oskar-wickstrom">Oden - A Functional Programming Language for the Go Ecosystem</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 30:13</div>
+			
+			
+              <div>Views: 546 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oskar-wickstrom">Oskar Wickstrom</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-oop-to-fp-julia-gao"><img class="list-thumbnail" src="https://i.ytimg.com/vi/R_TQtthAGQc/hqdefault.jpg" alt="OOP to FP" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-oop-to-fp-julia-gao">OOP to FP</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 31:06</div>
+			
+			
+              <div>Views: 695 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/julia-gao">Julia Gao</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-owning-ownership-sean-griffin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PBV6j2BhEGE/hqdefault.jpg" alt="Owning Ownership" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-owning-ownership-sean-griffin">Owning Ownership</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 27:40</div>
+			
+			
+              <div>Views: 453 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-griffin">Sean Griffin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-pick-your-battles-zef-hemel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/J_44tCwpChY/hqdefault.jpg" alt="Pick Your Battles" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-pick-your-battles-zef-hemel">Pick Your Battles</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 30:02</div>
+			
+			
+              <div>Views: 320 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/zef-hemel">Zef Hemel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-scaling-react-applications-max-stoiber"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iNNiqWZtUHg/hqdefault.jpg" alt="Scaling React Applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-scaling-react-applications-max-stoiber">Scaling React Applications</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 31:25</div>
+			
+			
+              <div>Views: 136 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/max-stoiber">Max Stoiber</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-the-linguistic-relativity-of-programming-languages-jenna-zeigen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XV3vUZ9y8AU/hqdefault.jpg" alt="The Linguistic Relativity of Programming Languages" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-the-linguistic-relativity-of-programming-languages-jenna-zeigen">The Linguistic Relativity of Programming Languages</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 26:21</div>
+			
+			
+              <div>Views: 552 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jenna-zeigen">Jenna Zeigen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-the-seif-project-douglas-crockford"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O9AwYiwIvXE/hqdefault.jpg" alt="The Seif Project" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-the-seif-project-douglas-crockford">The Seif Project</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 54:42</div>
+			
+			
+              <div>Views: 1347 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/douglas-crockford">Douglas Crockford</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/polyconf-2016/polyconf-16-why-system-programming-is-for-everyone-julia-evans"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HjASqh5z8ck/hqdefault.jpg" alt="Why System Programming is for Everyone" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/polyconf-2016/polyconf-16-why-system-programming-is-for-everyone-julia-evans">Why System Programming is for Everyone</a></h4>
+          <footer>
+            <div class="recorded">2016-06-30</div>
+			
+			  <div>Length: 40:13</div>
+			
+			
+              <div>Views: 932 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/polyconf-2016">PolyConf - Polyglot Programmers Unite - 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/julia-evans">Julia Evans</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLf8usAIVnNBYBTDIf2LiBHfWTXGr6K01s">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

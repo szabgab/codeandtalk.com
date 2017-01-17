@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Eclipse Summit India 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Eclipse Summit India 2016</h1>
+
+<div><a href="http://blog.eclipsesummit.in/hours-away-from-eclipse-summit-india/">Eclipse Summit India 2016</a></div>
+
+
+<div>Start date: 2016-08-25</div>
+<div>End date: 2016-08-27</div>
+
+<div>Location:
+  Bangalore
+  Karnataka
+  <a href="/l/india">India</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/eclipse">Eclipse</a> 
+   
+       <a href="/t/java">Java</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/EclipseSummit">@EclipseSummit</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/eclipsesummit">https://www.facebook.com/eclipsesummit</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Eclipse%20Summit%20India%202016%20on%202016-08-25%20in%20Bangalore%2C%20Karnataka%20India%20%40EclipseSummit%20http%3A//blog.eclipsesummit.in/hours-away-from-eclipse-summit-india/%20%23Eclipse%20%23Java%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/beyond-java-9-an-overview-of-project-valhalla-by-srikanth-sankaran-at-eclipsesummit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/107w7HezvKU/hqdefault.jpg" alt="Beyond Java 9 - An Overview of Project Valhalla" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/beyond-java-9-an-overview-of-project-valhalla-by-srikanth-sankaran-at-eclipsesummit">Beyond Java 9 - An Overview of Project Valhalla</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 01:04:41</div>
+			
+			
+              <div>Views: 86 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/srikanth-sankaran">Srikanth Sankaran</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/build-run-and-manage-mobilefirst-apps-using-eclipse-by-vidyasagar-at-eclipsesummit16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OilcZD7KxyA/hqdefault.jpg" alt="Build, run and manage MobileFirst apps using Eclipse" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/build-run-and-manage-mobilefirst-apps-using-eclipse-by-vidyasagar-at-eclipsesummit16">Build, run and manage MobileFirst apps using Eclipse</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 44:16</div>
+			
+			
+              <div>Views: 139 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vidyasagar-machupalli">Vidyasagar Machupalli</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/building-an-open-source-community-around-julia-by-viral-b-shah-at-eclipsesummit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CoPlflpCiWE/hqdefault.jpg" alt="Building an Open Source Community around Julia" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/building-an-open-source-community-around-julia-by-viral-b-shah-at-eclipsesummit">Building an Open Source Community around Julia</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 29:23</div>
+			
+			
+              <div>Views: 75 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/viral-b-shah">Viral B. Shah</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/cloud-development-using-eclipse-by-pradeep-balachandran-at-eclipsesummit16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/C63cF6mOpPc/hqdefault.jpg" alt="Cloud development using Eclipse" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/cloud-development-using-eclipse-by-pradeep-balachandran-at-eclipsesummit16">Cloud development using Eclipse</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 29:10</div>
+			
+			
+              <div>Views: 10 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pradeep-balachandran">Pradeep Balachandran</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/deploy-microservices-on-openshift-3-by-fred-bricon-at-eclipsesummit16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MeNeiMCSNyQ/hqdefault.jpg" alt="Deploy microservices on OpenShift 3" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/deploy-microservices-on-openshift-3-by-fred-bricon-at-eclipsesummit16">Deploy microservices on OpenShift 3</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 25:23</div>
+			
+			
+              <div>Views: 64 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fred-bricon">Fred Bricon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/eclipse-summit-india-2016-conference"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lrerhkiuqd4/hqdefault.jpg" alt="Eclipse Summit India 2016 Conference" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/eclipse-summit-india-2016-conference">Eclipse Summit India 2016 Conference</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 01:52</div>
+			
+			
+              <div>Views: 101 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/eclipse-summit-india-2016-photos"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h_gJDDcbFQg/hqdefault.jpg" alt="Eclipse Summit India 2016 - Photos" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/eclipse-summit-india-2016-photos">Eclipse Summit India 2016 - Photos</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 00:58</div>
+			
+			
+              <div>Views: 42 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/faster-index-for-java-from-crazy-idea-to-reality-by-sergey-prigogin-eclipsesummit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gGEMDyg77jo/hqdefault.jpg" alt="Faster index for Java, from crazy idea to reality" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/faster-index-for-java-from-crazy-idea-to-reality-by-sergey-prigogin-eclipsesummit">Faster index for Java, from crazy idea to reality</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 01:00:07</div>
+			
+			
+              <div>Views: 49 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sergey-prigogin">Sergey Prigogin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/invokedynamic-under-the-hood-by-nadeesh-tv-at-eclipsesummit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XZuiZC-TI1Q/hqdefault.jpg" alt="Invokedynamic under the hood" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/invokedynamic-under-the-hood-by-nadeesh-tv-at-eclipsesummit">Invokedynamic under the hood</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 51:44</div>
+			
+			
+              <div>Views: 41 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nadeesh-tv">Nadeesh TV</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/invokedynamic-under-the-hood-by-nadeesh-tv-at-eclipsesummit16-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Jvdy9IRyf5I/hqdefault.jpg" alt="Invokedynamic under the hood" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/invokedynamic-under-the-hood-by-nadeesh-tv-at-eclipsesummit16-trailer">Invokedynamic under the hood</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 03:00</div>
+			
+			
+              <div>Views: 8 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nadeesh-tv">Nadeesh TV</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/java-9-a-boon-to-enterprises-by-allahbaksh-avitash-at-eclipsesummit16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ob8yTZ_hq08/hqdefault.jpg" alt="Java 9 a boon to Enterprises" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/java-9-a-boon-to-enterprises-by-allahbaksh-avitash-at-eclipsesummit16">Java 9 a boon to Enterprises</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 01:07:13</div>
+			
+			
+              <div>Views: 58 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/allahbaksh-asadullah">Allahbaksh Asadullah</a>
+             
+                <a href="/p/avitash-purohit">Avitash Purohit</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/jdk-9-modules-and-java-linker-jlink-by-g-bhanu-prakash-at-eclipsesummit16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NaBBVdMIPLk/hqdefault.jpg" alt="JDK 9 Modules and Java Linker JLink" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/jdk-9-modules-and-java-linker-jlink-by-g-bhanu-prakash-at-eclipsesummit16">JDK 9 Modules and Java Linker JLink</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 40:54</div>
+			
+			
+              <div>Views: 93 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/g-bhanu-prakash">G Bhanu Prakash</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/keynote-q-a-with-the-eclipse-committee-by-pradeep-benjamin-mike-daniel-stephan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JQhO5mynwOM/hqdefault.jpg" alt="Keynote: Q & A with the Eclipse Committee" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/keynote-q-a-with-the-eclipse-committee-by-pradeep-benjamin-mike-daniel-stephan">Keynote: Q & A with the Eclipse Committee</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 37:27</div>
+			
+			
+              <div>Views: 37 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-milinkovich">Mike Milinkovich</a>
+             
+                <a href="/p/daniel-megert">Daniel Megert</a>
+             
+                <a href="/p/pradeep-balachandran">Pradeep Balachandran</a>
+             
+                <a href="/p/benjamin-cabe">Benjamin Cabe</a>
+             
+                <a href="/p/stephan-herrmann">Stephan Herrmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/open-iot-by-mike-milinkovich-at-eclipsesummit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/q8QzVOqEcKc/hqdefault.jpg" alt="Open #IoT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/open-iot-by-mike-milinkovich-at-eclipsesummit">Open #IoT</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 54:50</div>
+			
+			
+              <div>Views: 126 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-milinkovich">Mike Milinkovich</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/preparing-your-code-for-jdk-9-by-deepu-xavier-at-eclipsesummit16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bNmP8uYPQ4g/hqdefault.jpg" alt="Preparing your code for JDK 9" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/preparing-your-code-for-jdk-9-by-deepu-xavier-at-eclipsesummit16">Preparing your code for JDK 9</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 46:03</div>
+			
+			
+              <div>Views: 66 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/deepu-xavier">Deepu Xavier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/runtime-specialization-java-has-never-been-so-dynamic-before-by-stephan-herrmann-eclipsesummit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OFl6X_j4Q_I/hqdefault.jpg" alt="Runtime Specialization - Java has never been so dynamic before" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/runtime-specialization-java-has-never-been-so-dynamic-before-by-stephan-herrmann-eclipsesummit">Runtime Specialization - Java has never been so dynamic before</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 58:58</div>
+			
+			
+              <div>Views: 49 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephan-herrmann">Stephan Herrmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/sleep-peacefully-as-maven-tycho-build-your-product-by-subramanyam-annamalai-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TiwI_mgBPoY/hqdefault.jpg" alt="Sleep Peacefully as Maven Tycho Build your Product" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/sleep-peacefully-as-maven-tycho-build-your-product-by-subramanyam-annamalai-trailer">Sleep Peacefully as Maven Tycho Build your Product</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 03:12</div>
+			
+			
+              <div>Views: 32 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/annamalai-chockalingam">Annamalai Chockalingam</a>
+             
+                <a href="/p/subramanyam-c">Subramanyam C</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/sleep-peacefully-as-maven-tycho-build-your-product-by-subramanyam-annamalai"><img class="list-thumbnail" src="https://i.ytimg.com/vi/93r6rOZ5Fkk/hqdefault.jpg" alt="Sleep Peacefully as Maven Tycho Build your Product" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/sleep-peacefully-as-maven-tycho-build-your-product-by-subramanyam-annamalai">Sleep Peacefully as Maven Tycho Build your Product</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 50:56</div>
+			
+			
+              <div>Views: 135 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/annamalai-chockalingam">Annamalai Chockalingam</a>
+             
+                <a href="/p/subramanyam-c">Subramanyam C</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/tech-driven-innovation-in-indian-context-by-sumit-rao-at-eclipsesummit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3GNuMCWcC9k/hqdefault.jpg" alt="Tech Driven Innovation in Indian Context" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/tech-driven-innovation-in-indian-context-by-sumit-rao-at-eclipsesummit">Tech Driven Innovation in Indian Context</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 33:24</div>
+			
+			
+              <div>Views: 147 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sumit-rao">Sumit Rao</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/the-eclipse-way-by-daniel-megert-at-eclipsesummit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vvt3plr82HI/hqdefault.jpg" alt="The Eclipse Way" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/the-eclipse-way-by-daniel-megert-at-eclipsesummit">The Eclipse Way</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 37:31</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-megert">Daniel Megert</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/eclipsesummit-india-2016/welcoming-g1-garbage-collector-with-eclipse-by-vaibhav-at-eclipsesummit16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QWh1PWUfiB0/hqdefault.jpg" alt="Welcoming G1 Garbage Collector With Eclipse" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/eclipsesummit-india-2016/welcoming-g1-garbage-collector-with-eclipse-by-vaibhav-at-eclipsesummit16">Welcoming G1 Garbage Collector With Eclipse</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 32:48</div>
+			
+			
+              <div>Views: 51 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/eclipsesummit-india-2016">Eclipse Summit India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vaibhav-choudhary">Vaibhav Choudhary</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL9Z-JgiTsOYQn3pZxOb5qxya6tII96hqd">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

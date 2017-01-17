@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>T-DOSE 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>T-DOSE 2015</h1>
+
+<div><a href="http://www.t-dose.org/2015/schedule">T-DOSE 2015</a></div>
+
+
+<div>Start date: 2015-11-28</div>
+<div>End date: 2015-11-29</div>
+
+<div>Location:
+  Eindhoven
+  
+  <a href="/l/the-netherlands">The Netherlands</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/opensource">OpenSource</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/TDOSE">@TDOSE</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/tdosenl">https://www.facebook.com/tdosenl</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=T-DOSE%202015%20on%202015-11-28%20in%20Eindhoven%2C%20%20The%20Netherlands%20%40TDOSE%20http%3A//www.t-dose.org/2015/schedule%20%23OpenSource%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2015/t-dose-2015-30-years-of-free-software-maurice-verheesen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VRlyIyzKvqs/hqdefault.jpg" alt="30 years of Free Software" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2015/t-dose-2015-30-years-of-free-software-maurice-verheesen">30 years of Free Software</a></h4>
+          <footer>
+            <div class="recorded">2015-11-28</div>
+			
+			  <div>Length: 43:28</div>
+			
+			
+              <div>Views: 76 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/t-dose-2015">T-DOSE 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maurice-verheesen">Maurice Verheesen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2015/t-dose-2015-a-canonical-password-strength-measure-eugene-panferov"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Sh-KDL_yRlA/hqdefault.jpg" alt="A Canonical Password Strength Measure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2015/t-dose-2015-a-canonical-password-strength-measure-eugene-panferov">A Canonical Password Strength Measure</a></h4>
+          <footer>
+            <div class="recorded">2015-11-28</div>
+			
+			  <div>Length: 46:57</div>
+			
+			
+              <div>Views: 144 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/t-dose-2015">T-DOSE 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eugene-panferov">Eugene Panferov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2015/t-dose-2015-arduino-eclipse-plugin-code-and-debug-your-arduino-jan-baeyens"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wls692-j5_Q/hqdefault.jpg" alt="Arduino Eclipse plugin Code and debug your arduino" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2015/t-dose-2015-arduino-eclipse-plugin-code-and-debug-your-arduino-jan-baeyens">Arduino Eclipse plugin Code and debug your arduino</a></h4>
+          <footer>
+            <div class="recorded">2015-11-28</div>
+			
+			  <div>Length: 49:24</div>
+			
+			
+              <div>Views: 542 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/t-dose-2015">T-DOSE 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jan-baeyens">Jan Baeyens</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2015/t-dose-2015-better-it-security-go-for-open-architecture-open-security-app-maikel-mardjan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1VG8hYiY0vg/hqdefault.jpg" alt="Better IT security, Go for open architecture, open security app" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2015/t-dose-2015-better-it-security-go-for-open-architecture-open-security-app-maikel-mardjan">Better IT security, Go for open architecture, open security app</a></h4>
+          <footer>
+            <div class="recorded">2015-11-28</div>
+			
+			  <div>Length: 47:11</div>
+			
+			
+              <div>Views: 58 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2015">T-DOSE 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maikel-mardjan">Maikel Mardjan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2015/t-dose-2015-cloudabi-cloud-computing-meets-fine-grained-capabilities-ed-schouten"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SgX5pgDuQB0/hqdefault.jpg" alt="CloudABI: Cloud computing meets fine-grained capabilities" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2015/t-dose-2015-cloudabi-cloud-computing-meets-fine-grained-capabilities-ed-schouten">CloudABI: Cloud computing meets fine-grained capabilities</a></h4>
+          <footer>
+            <div class="recorded">2015-11-28</div>
+			
+			  <div>Length: 51:27</div>
+			
+			
+              <div>Views: 60 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2015">T-DOSE 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ed-schouten">Ed Schouten</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2015/t-dose-2015-introducing-open-source-hardware-oshwa-nl-diderik-van-wingerden"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fEbkoBhD7-E/hqdefault.jpg" alt="Introducing Open Source Hardware, OSHWA NL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2015/t-dose-2015-introducing-open-source-hardware-oshwa-nl-diderik-van-wingerden">Introducing Open Source Hardware, OSHWA NL</a></h4>
+          <footer>
+            <div class="recorded">2015-11-28</div>
+			
+			  <div>Length: 44:00</div>
+			
+			
+              <div>Views: 57 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2015">T-DOSE 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/diderik-van-wingerden">Diderik van Wingerden</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2015/t-dose-2015-kodi-mediacenter-xbmc-past-present-and-future-martijn-kaijser"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KxmMR-tYKBw/hqdefault.jpg" alt="Kodi mediacenter XBMC past, present and future" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2015/t-dose-2015-kodi-mediacenter-xbmc-past-present-and-future-martijn-kaijser">Kodi mediacenter XBMC past, present and future</a></h4>
+          <footer>
+            <div class="recorded">2015-11-28</div>
+			
+			  <div>Length: 35:12</div>
+			
+			
+              <div>Views: 96 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2015">T-DOSE 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/martijn-kaijser">Martijn Kaijser</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2015/t-dose-2015-no-need-for-gemalto-do-it-yourself-privacyidea-cornelius-kolbel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/i29OzV6ICII/hqdefault.jpg" alt="No need for Gemalto, Do it yourself!, privacyIDEA" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2015/t-dose-2015-no-need-for-gemalto-do-it-yourself-privacyidea-cornelius-kolbel">No need for Gemalto, Do it yourself!, privacyIDEA</a></h4>
+          <footer>
+            <div class="recorded">2015-11-28</div>
+			
+			  <div>Length: 01:02:26</div>
+			
+			
+              <div>Views: 198 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/t-dose-2015">T-DOSE 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cornelius-kolbel">Cornelius Kölbel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2015/t-dose-2015-open-education-open-science-benefits-robert-schuwer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zhd8kKUOybM/hqdefault.jpg" alt="Open Education, Open Science, benefits" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2015/t-dose-2015-open-education-open-science-benefits-robert-schuwer">Open Education, Open Science, benefits</a></h4>
+          <footer>
+            <div class="recorded">2015-11-28</div>
+			
+			  <div>Length: 57:44</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2015">T-DOSE 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robert-schuwer">Robert Schuwer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2015/t-dose-2015-open-source-has-won-now-what-nico-rikken"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IB_crzIAHUM/hqdefault.jpg" alt="Open Source has won, now what?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2015/t-dose-2015-open-source-has-won-now-what-nico-rikken">Open Source has won, now what?</a></h4>
+          <footer>
+            <div class="recorded">2015-11-28</div>
+			
+			  <div>Length: 53:36</div>
+			
+			
+              <div>Views: 99 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/t-dose-2015">T-DOSE 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nico-rikken">Nico Rikken</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2015/t-dose-2015-open-source-monitoring-in-2015-kris-buytaert"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wwJxFeqAXJg/hqdefault.jpg" alt="Open Source Monitoring in 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2015/t-dose-2015-open-source-monitoring-in-2015-kris-buytaert">Open Source Monitoring in 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-11-28</div>
+			
+			  <div>Length: 41:22</div>
+			
+			
+              <div>Views: 119 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2015">T-DOSE 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kris-buytaert">Kris Buytaert</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2015/t-dose-2015-web-application-development-using-grails-koen-aben"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LOXUm7qnxFE/hqdefault.jpg" alt="T-DOSE 2015 , Web Application Development using Grails, Koen Aben" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2015/t-dose-2015-web-application-development-using-grails-koen-aben">T-DOSE 2015 , Web Application Development using Grails, Koen Aben</a></h4>
+          <footer>
+            <div class="recorded">2015-11-28</div>
+			
+			  <div>Length: 53:11</div>
+			
+			
+              <div>Views: 139 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2015">T-DOSE 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLBZBIkixHEidK62nG3FR0mWZxRLzxnm0d">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

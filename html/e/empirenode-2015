@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Empire Node 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Empire Node 2015</h1>
+
+<div><a href="http://2015.empirenode.org/">Empire Node 2015</a></div>
+
+
+<div>Start date: 2015-10-23</div>
+<div>End date: 2015-10-23</div>
+
+<div>Location:
+  New York
+  New York
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/nodejs">NodeJS</a> 
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/empirenode">@empirenode</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Empire%20Node%202015%20on%202015-10-23%20in%20New%20York%2C%20New%20York%20USA%20%40empirenode%20http%3A//2015.empirenode.org/%20%23NodeJS%20%23JavaScript%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/empirenode-2015/1-how-did-we-get-here-rod-vagg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/J7HeSnxp0R4/hqdefault.jpg" alt="How Did We Get Here" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirenode-2015/1-how-did-we-get-here-rod-vagg">How Did We Get Here</a></h4>
+          <footer>
+            <div class="recorded">2015-10-23</div>
+			
+			  <div>Length: 28:42</div>
+			
+			
+              <div>Views: 148 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/empirenode-2015">Empire Node 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rod-vagg">Rod Vagg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirenode-2015/10-refactoring-the-dinosaur-suz-hinton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AScZPmXlLlI/hqdefault.jpg" alt="Refactoring the dinosaur" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirenode-2015/10-refactoring-the-dinosaur-suz-hinton">Refactoring the dinosaur</a></h4>
+          <footer>
+            <div class="recorded">2015-10-23</div>
+			
+			  <div>Length: 30:04</div>
+			
+			
+              <div>Views: 96 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/empirenode-2015">Empire Node 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/suz-hinton">Suz Hinton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirenode-2015/11-the-social-coding-contract-justin-searls"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PlagRkD4e8s/hqdefault.jpg" alt="The Social Coding Contract" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirenode-2015/11-the-social-coding-contract-justin-searls">The Social Coding Contract</a></h4>
+          <footer>
+            <div class="recorded">2015-10-23</div>
+			
+			  <div>Length: 29:00</div>
+			
+			
+              <div>Views: 912 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/empirenode-2015">Empire Node 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/justin-searls">Justin Searls</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirenode-2015/2-the-importance-of-import-and-export-ben-newman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-zch_YmKfa0/hqdefault.jpg" alt="The Importance of import and export" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirenode-2015/2-the-importance-of-import-and-export-ben-newman">The Importance of import and export</a></h4>
+          <footer>
+            <div class="recorded">2015-10-23</div>
+			
+			  <div>Length: 32:25</div>
+			
+			
+              <div>Views: 615 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/empirenode-2015">Empire Node 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-newman">Ben Newman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirenode-2015/3-data-analysis-with-javascript-nathan-epstein"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eoY3IQk-2rk/hqdefault.jpg" alt="Data Analysis with JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirenode-2015/3-data-analysis-with-javascript-nathan-epstein">Data Analysis with JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2015-10-23</div>
+			
+			  <div>Length: 18:18</div>
+			
+			
+              <div>Views: 330 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/empirenode-2015">Empire Node 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nathan-epstein">Nathan Epstein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirenode-2015/4-managing-changes-to-your-data-with-dat-karissa-mckelvey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FSljZcPvFhQ/hqdefault.jpg" alt="Managing changes to your data with dat" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirenode-2015/4-managing-changes-to-your-data-with-dat-karissa-mckelvey">Managing changes to your data with dat</a></h4>
+          <footer>
+            <div class="recorded">2015-10-23</div>
+			
+			  <div>Length: 24:33</div>
+			
+			
+              <div>Views: 234 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/empirenode-2015">Empire Node 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/karissa-mckelvey">Karissa McKelvey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirenode-2015/5-using-graph-theory-to-build-a-recommendation-engine-in-node-js-keith-horwood"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KthdKB4LqGs/hqdefault.jpg" alt="Using Graph Theory to Build a Recommendation Engine in Node js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirenode-2015/5-using-graph-theory-to-build-a-recommendation-engine-in-node-js-keith-horwood">Using Graph Theory to Build a Recommendation Engine in Node js</a></h4>
+          <footer>
+            <div class="recorded">2015-10-23</div>
+			
+			  <div>Length: 27:25</div>
+			
+			
+              <div>Views: 459 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/empirenode-2015">Empire Node 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/keith-horwood">Keith Horwood</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirenode-2015/6-making-front-end-modules-actually-work-lin-clark"><img class="list-thumbnail" src="https://i.ytimg.com/vi/m8Y7OV1yig0/hqdefault.jpg" alt="Making front end modules actually work" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirenode-2015/6-making-front-end-modules-actually-work-lin-clark">Making front end modules actually work</a></h4>
+          <footer>
+            <div class="recorded">2015-10-23</div>
+			
+			  <div>Length: 19:15</div>
+			
+			
+              <div>Views: 160 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/empirenode-2015">Empire Node 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lin-clark">Lin Clark</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirenode-2015/7-rapidly-developing-microservices-with-node-js-and-docker-william-blankenship"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SUNxn0omNi4/hqdefault.jpg" alt="Rapidly Developing Microservices with Node js and Docker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirenode-2015/7-rapidly-developing-microservices-with-node-js-and-docker-william-blankenship">Rapidly Developing Microservices with Node js and Docker</a></h4>
+          <footer>
+            <div class="recorded">2015-10-23</div>
+			
+			  <div>Length: 21:36</div>
+			
+			
+              <div>Views: 1977 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/empirenode-2015">Empire Node 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/william-blankenship">William Blankenship</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirenode-2015/8-building-desktop-applications-with-node-and-electron-steve-kinney"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rbSvc8_BHaw/hqdefault.jpg" alt="Building Desktop Applications with Node and Electron" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirenode-2015/8-building-desktop-applications-with-node-and-electron-steve-kinney">Building Desktop Applications with Node and Electron</a></h4>
+          <footer>
+            <div class="recorded">2015-10-23</div>
+			
+			  <div>Length: 21:49</div>
+			
+			
+              <div>Views: 4810 Likes: 40</div>
+            
+            <div class="event">From <a href="/e/empirenode-2015">Empire Node 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-kinney">Steve Kinney</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirenode-2015/9-thin-client-nodebots-and-the-future-of-js-in-iot-kassandra-perch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WmjOrGJIxgo/hqdefault.jpg" alt="Thin Client NodeBots and the future of JS in IoT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirenode-2015/9-thin-client-nodebots-and-the-future-of-js-in-iot-kassandra-perch">Thin Client NodeBots and the future of JS in IoT</a></h4>
+          <footer>
+            <div class="recorded">2015-10-23</div>
+			
+			  <div>Length: 30:55</div>
+			
+			
+              <div>Views: 119 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/empirenode-2015">Empire Node 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kassandra-perch">Kassandra Perch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL31ehRjJCA6EB_ZI3YscW_UMP34XrguOt">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

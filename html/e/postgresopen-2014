@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Postgres Open 2014</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Postgres Open 2014</h1>
+
+<div><a href="http://postgresopen.org/2014/">Postgres Open 2014</a></div>
+
+
+<div>Start date: 2014-09-17</div>
+<div>End date: 2014-09-19</div>
+
+<div>Location:
+  Chicago
+  Illinois
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/postgresql">PostgreSQL</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/postgresopen">@postgresopen</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/PostgresOpen">https://www.facebook.com/PostgresOpen</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Postgres%20Open%202014%20on%202014-09-17%20in%20Chicago%2C%20Illinois%20USA%20%40postgresopen%20http%3A//postgresopen.org/2014/%20%23PostgreSQL%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/a-quantitive-look-at-partitions-john-melesky"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Hl3FXv8uBUo/hqdefault.jpg" alt="A Quantitive Look at Partitions - John Melesky" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/a-quantitive-look-at-partitions-john-melesky">A Quantitive Look at Partitions - John Melesky</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 50:44</div>
+			
+			
+              <div>Views: 63 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/automated-performance-testing-of-postgres-greg-burek"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QHxoXboBllo/hqdefault.jpg" alt="Automated Performance Testing of Postgres - Greg Burek" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/automated-performance-testing-of-postgres-greg-burek">Automated Performance Testing of Postgres - Greg Burek</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 35:52</div>
+			
+			
+              <div>Views: 310 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/collectd-and-graphite-monitoring-postgresql-wstyle-shaun-thomas"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZFwrQ18qBOE/hqdefault.jpg" alt="Collectd and Graphite: Monitoring PostgreSQL w/Style - Shaun Thomas" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/collectd-and-graphite-monitoring-postgresql-wstyle-shaun-thomas">Collectd and Graphite: Monitoring PostgreSQL w/Style - Shaun Thomas</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 51:08</div>
+			
+			
+              <div>Views: 2037 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/columnar-store-for-postgresql-ben-redman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XwCgcPVmGEE/hqdefault.jpg" alt="Columnar Store for PostgreSQL - Ben Redman" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/columnar-store-for-postgresql-ben-redman">Columnar Store for PostgreSQL - Ben Redman</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 45:31</div>
+			
+			
+              <div>Views: 83 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/explaining-the-postgres-query-optimizer-bruce-momjian"><img class="list-thumbnail" src="https://i.ytimg.com/vi/svqQzYFBPIo/hqdefault.jpg" alt="Explaining the Postgres Query Optimizer - Bruce Momjian" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/explaining-the-postgres-query-optimizer-bruce-momjian">Explaining the Postgres Query Optimizer - Bruce Momjian</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 51:27</div>
+			
+			
+              <div>Views: 1726 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/frictionless-data-science-wpython-catherine-devlin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pPv5RievH_4/hqdefault.jpg" alt="Frictionless Data Science w/Python - Catherine Devlin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/frictionless-data-science-wpython-catherine-devlin">Frictionless Data Science w/Python - Catherine Devlin</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 45:51</div>
+			
+			
+              <div>Views: 64 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/heavy-duty-backup-wpgbackrest-david-steele"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bmV4ZAQ5oO8/hqdefault.jpg" alt="Heavy Duty Backup w/PgBackRest - David Steele" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/heavy-duty-backup-wpgbackrest-david-steele">Heavy Duty Backup w/PgBackRest - David Steele</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 51:27</div>
+			
+			
+              <div>Views: 176 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/holistic-database-application-tuning-grant-evans-henrietta-dombrovskaya"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oj3qLs2Yxcs/hqdefault.jpg" alt="Holistic Database Application Tuning - Grant Evans, Henrietta Dombrovskaya" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/holistic-database-application-tuning-grant-evans-henrietta-dombrovskaya">Holistic Database Application Tuning - Grant Evans, Henrietta Dombrovskaya</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 42:02</div>
+			
+			
+              <div>Views: 73 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/how-databases-work-for-developers-accidental-dbas-and-managers-gurjeet-singh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OUM_Mww8gkw/hqdefault.jpg" alt="How Databases Work - For Developers, Accidental DBA's and Managers - Gurjeet Singh" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/how-databases-work-for-developers-accidental-dbas-and-managers-gurjeet-singh">How Databases Work - For Developers, Accidental DBA's and Managers - Gurjeet Singh</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 48:46</div>
+			
+			
+              <div>Views: 185 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/immutable-data-in-postgres-gary-sieling"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vpMf5JkZ5Zs/hqdefault.jpg" alt="Immutable Data in Postgres - Gary Sieling" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/immutable-data-in-postgres-gary-sieling">Immutable Data in Postgres - Gary Sieling</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 46:04</div>
+			
+			
+              <div>Views: 330 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/migrating-away-from-mysql-for-an-awesome-full-text-search-peter-bengstsson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KjRaai9s29Y/hqdefault.jpg" alt="Migrating Away from MySQL for an awesome full text search - Peter Bengstsson" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/migrating-away-from-mysql-for-an-awesome-full-text-search-peter-bengstsson">Migrating Away from MySQL for an awesome full text search - Peter Bengstsson</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 43:11</div>
+			
+			
+              <div>Views: 155 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/on-beyond-data-types-jonathan-katz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ws95X8g-q5s/hqdefault.jpg" alt="On Beyond Data Types - Jonathan Katz" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/on-beyond-data-types-jonathan-katz">On Beyond Data Types - Jonathan Katz</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 53:08</div>
+			
+			
+              <div>Views: 134 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/poastgresql-auditing-authentication-and-security-sehrope-sarkuni"><img class="list-thumbnail" src="https://i.ytimg.com/vi/A03NzWldWsU/hqdefault.jpg" alt="PoastgreSQL Auditing, Authentication, and Security - Sehrope Sarkuni" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/poastgresql-auditing-authentication-and-security-sehrope-sarkuni">PoastgreSQL Auditing, Authentication, and Security - Sehrope Sarkuni</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 40:06</div>
+			
+			
+              <div>Views: 98 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/postgres-in-amazon-rds-denish-patel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kbaAcmnW_Hs/hqdefault.jpg" alt="Postgres in Amazon RDS - Denish Patel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/postgres-in-amazon-rds-denish-patel">Postgres in Amazon RDS - Denish Patel</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 53:05</div>
+			
+			
+              <div>Views: 224 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/postgres-on-openstack-dave-page"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lTTXHE9iwYU/hqdefault.jpg" alt="Postgres on OpenStack - Dave Page" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/postgres-on-openstack-dave-page">Postgres on OpenStack - Dave Page</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 51:02</div>
+			
+			
+              <div>Views: 160 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/postgresql-and-java-best-practices-alvaro-hernandez"><img class="list-thumbnail" src="https://i.ytimg.com/vi/i93hFl3n_e8/hqdefault.jpg" alt="PostgreSQL and Java: Best Practices - Alvaro Hernandez" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/postgresql-and-java-best-practices-alvaro-hernandez">PostgreSQL and Java: Best Practices - Alvaro Hernandez</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 51:48</div>
+			
+			
+              <div>Views: 990 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/postgresql-for-developers-dimitri-fontaine"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Mq5tMcT31bY/hqdefault.jpg" alt="PostgreSQL for Developers - Dimitri Fontaine" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/postgresql-for-developers-dimitri-fontaine">PostgreSQL for Developers - Dimitri Fontaine</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 43:36</div>
+			
+			
+              <div>Views: 332 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/postgresql-scale-out-at-inmobi-sivakumar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O37Hkl65YS8/hqdefault.jpg" alt="PostgreSQL Scale-Out at inMobi - Sivakumar" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/postgresql-scale-out-at-inmobi-sivakumar">PostgreSQL Scale-Out at inMobi - Sivakumar</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 50:28</div>
+			
+			
+              <div>Views: 156 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/row-estimation-revelation-and-the-monolithic-query-syndrome-jeff-amiel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gsmoLrrdyHo/hqdefault.jpg" alt="Row-Estimation Revelation and the Monolithic Query Syndrome - Jeff Amiel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/row-estimation-revelation-and-the-monolithic-query-syndrome-jeff-amiel">Row-Estimation Revelation and the Monolithic Query Syndrome - Jeff Amiel</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 41:16</div>
+			
+			
+              <div>Views: 71 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/row-level-security-stephen-frost"><img class="list-thumbnail" src="https://i.ytimg.com/vi/k1Q7G398nbA/hqdefault.jpg" alt="Row Level Security - Stephen Frost" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/row-level-security-stephen-frost">Row Level Security - Stephen Frost</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 53:19</div>
+			
+			
+              <div>Views: 71 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/scalability-consistency-replication-availability-and-performance-simon-riggs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cu0S0_7iuww/hqdefault.jpg" alt="Scalability, Consistency, Replication, Availability and Performance - Simon Riggs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/scalability-consistency-replication-availability-and-performance-simon-riggs">Scalability, Consistency, Replication, Availability and Performance - Simon Riggs</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 53:26</div>
+			
+			
+              <div>Views: 538 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/so-youre-new-to-postgres-michael-alan-brewer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ePhP7-LD5nM/hqdefault.jpg" alt="So you're new to Postgres... - Michael Alan Brewer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/so-youre-new-to-postgres-michael-alan-brewer">So you're new to Postgres... - Michael Alan Brewer</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 51:30</div>
+			
+			
+              <div>Views: 107 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/sponsor-keynote-2-simon-riggs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9vGMkqbn3G0/hqdefault.jpg" alt="Sponsor Keynote #2 - Simon Riggs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/sponsor-keynote-2-simon-riggs">Sponsor Keynote #2 - Simon Riggs</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 18:38</div>
+			
+			
+              <div>Views: 134 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/supersized-postgres-postgres-xl-for-oltp-and-big-data-analytics-mason-sharp"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ixOO-Yv5its/hqdefault.jpg" alt="Supersized Postgres: Postgres-XL for OLTP and Big Data Analytics - Mason Sharp" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/supersized-postgres-postgres-xl-for-oltp-and-big-data-analytics-mason-sharp">Supersized Postgres: Postgres-XL for OLTP and Big Data Analytics - Mason Sharp</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 50:15</div>
+			
+			
+              <div>Views: 1048 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/survival-analysis-of-customer-retention-using-postgres-sql-and-r-gleb-arshinov"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dLPzx6qEIJM/hqdefault.jpg" alt="Survival Analysis of Customer Retention using Postgres, SQL and R - Gleb Arshinov" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/survival-analysis-of-customer-retention-using-postgres-sql-and-r-gleb-arshinov">Survival Analysis of Customer Retention using Postgres, SQL and R - Gleb Arshinov</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 51:32</div>
+			
+			
+              <div>Views: 550 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/tales-from-the-postgres-front-and-what-we-can-learn-marc-linster"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5G-Qjlf501Y/hqdefault.jpg" alt="Tales from the Postgres Front, and What We Can Learn - Marc Linster" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/tales-from-the-postgres-front-and-what-we-can-learn-marc-linster">Tales from the Postgres Front, and What We Can Learn - Marc Linster</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 36:16</div>
+			
+			
+              <div>Views: 83 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/the-nosql-way-in-postgresql-vibhor-kumar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O3d44FkCjIA/hqdefault.jpg" alt="The NoSQL Way in PostgreSQL - Vibhor Kumar" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/the-nosql-way-in-postgresql-vibhor-kumar">The NoSQL Way in PostgreSQL - Vibhor Kumar</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 48:16</div>
+			
+			
+              <div>Views: 450 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/the-three-musketeers-authentication-authorization-and-accounting-sarah-conway"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-r7KyjysSpg/hqdefault.jpg" alt="The Three Musketeers (Authentication, Authorization, and Accounting) - Sarah Conway" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/the-three-musketeers-authentication-authorization-and-accounting-sarah-conway">The Three Musketeers (Authentication, Authorization, and Accounting) - Sarah Conway</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 35:26</div>
+			
+			
+              <div>Views: 107 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/understanding-logical-decoding-and-replication-michael-paquier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gPqMUfYFBLs/hqdefault.jpg" alt="Understanding Logical Decoding and Replication - Michael Paquier" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/understanding-logical-decoding-and-replication-michael-paquier">Understanding Logical Decoding and Replication - Michael Paquier</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 54:20</div>
+			
+			
+              <div>Views: 159 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/use-postgresql-not-rails-to-make-rails-faster-dan-mcclain"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tYTw3Jshrqo/hqdefault.jpg" alt="Use PostgreSQL, not Rails, to make Rails Faster! - Dan McClain" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/use-postgresql-not-rails-to-make-rails-faster-dan-mcclain">Use PostgreSQL, not Rails, to make Rails Faster! - Dan McClain</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 45:54</div>
+			
+			
+              <div>Views: 132 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/whats-new-in-postgresql-94-magnus-hagander"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5ErjZNp3EeQ/hqdefault.jpg" alt="What's New in PostgreSQL 9.4 - Magnus Hagander" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/whats-new-in-postgresql-94-magnus-hagander">What's New in PostgreSQL 9.4 - Magnus Hagander</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 48:18</div>
+			
+			
+              <div>Views: 3619 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2014/whos-the-fairest-of-them-all-postgres-interface-performance-joe-conway"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MbJCpfD3c-E/hqdefault.jpg" alt="Who's the Fairest of Them All? Postgres Interface Performance - Joe Conway" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2014/whos-the-fairest-of-them-all-postgres-interface-performance-joe-conway">Who's the Fairest of Them All? Postgres Interface Performance - Joe Conway</a></h4>
+          <footer>
+            <div class="recorded">2014-09-17</div>
+			
+			  <div>Length: 48:07</div>
+			
+			
+              <div>Views: 216 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2014">Postgres Open 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLN8NEqxwuywQtBouzmMrlRzr2nS-n0sFE">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

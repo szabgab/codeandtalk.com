@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>FSCONS 2013</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>FSCONS 2013</h1>
+
+<div><a href="https://fscons.org/2013/">FSCONS 2013</a></div>
+
+
+<div>Start date: 2013-11-08</div>
+<div>End date: 2013-11-10</div>
+
+<div>Location:
+  Göteborg
+  
+  <a href="/l/sweden">Sweden</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/fscons">@fscons</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=FSCONS%202013%20on%202013-11-08%20in%20G%C3%B6teborg%2C%20%20Sweden%20%40fscons%20https%3A//fscons.org/2013/%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/anders-arnholm-designing-an-open-source-robot"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IcVnoEQ0sfg/hqdefault.jpg" alt="Anders Arnholm: Designing an open source robot" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/anders-arnholm-designing-an-open-source-robot">Anders Arnholm: Designing an open source robot</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 37:03</div>
+			
+			
+              <div>Views: 26 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/anders-arnholm-test-driven-development-for-arduino"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OIpD5IpBVFM/hqdefault.jpg" alt="Anders Arnholm: Test Driven Development For Arduino" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/anders-arnholm-test-driven-development-for-arduino">Anders Arnholm: Test Driven Development For Arduino</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 47:05</div>
+			
+			
+              <div>Views: 406 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/anna-bjorkman-administering-the-revolution"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OKsaocT6_-Y/hqdefault.jpg" alt="Anna Björkman - Administering the revolution" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/anna-bjorkman-administering-the-revolution">Anna Björkman - Administering the revolution</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 51:35</div>
+			
+			
+              <div>Views: 86 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/aurelija-lukoseviciene-human-rights-perspectives-on-intellectual-property-problems"><img class="list-thumbnail" src="https://i.ytimg.com/vi/z5WigDOOob0/hqdefault.jpg" alt="Aurelija Lukoseviciene: Human Rights Perspectives on Intellectual Property Problems" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/aurelija-lukoseviciene-human-rights-perspectives-on-intellectual-property-problems">Aurelija Lukoseviciene: Human Rights Perspectives on Intellectual Property Problems</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 47:45</div>
+			
+			
+              <div>Views: 93 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/bjarni-einarsson-mailpile"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v_hCmxTH9ag/hqdefault.jpg" alt="Bjarni Einarsson: Mailpile" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/bjarni-einarsson-mailpile">Bjarni Einarsson: Mailpile</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 49:20</div>
+			
+			
+              <div>Views: 372 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/cristian-prisacariu-the-logics-for-terms-of-services-and-their-usefulness-for-automation-part-1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0PDAnlv0fUs/hqdefault.jpg" alt="Cristian Prisacariu: The Logics for Terms of Services and their Usefulness for Automation (part 1)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/cristian-prisacariu-the-logics-for-terms-of-services-and-their-usefulness-for-automation-part-1">Cristian Prisacariu: The Logics for Terms of Services and their Usefulness for Automation (part 1)</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 37:14</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/cristian-prisacariu-the-logics-for-terms-of-services-and-their-usefulness-for-automation-part-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BNMEXqeP0Ls/hqdefault.jpg" alt="Cristian Prisacariu: The Logics for Terms of Services and their Usefulness for Automation (Part 2)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/cristian-prisacariu-the-logics-for-terms-of-services-and-their-usefulness-for-automation-part-2">Cristian Prisacariu: The Logics for Terms of Services and their Usefulness for Automation (Part 2)</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 50:13</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/dan-eric-archer-sustainable-banking-according-to-jak"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hPxpJc0w0ys/hqdefault.jpg" alt="Dan-Eric Archer: Sustainable banking according to JAK" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/dan-eric-archer-sustainable-banking-according-to-jak">Dan-Eric Archer: Sustainable banking according to JAK</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 43:53</div>
+			
+			
+              <div>Views: 42 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/dougald-hine-making-ourselves-scarce"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4hkdvORdJng/hqdefault.jpg" alt="Dougald Hine: Making Ourselves Scarce" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/dougald-hine-making-ourselves-scarce">Dougald Hine: Making Ourselves Scarce</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 46:45</div>
+			
+			
+              <div>Views: 159 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/edmund-laugasson-why-is-free-software-important-in-education"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GontuD-9_34/hqdefault.jpg" alt="Edmund Laugasson: Why is free software important in education?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/edmund-laugasson-why-is-free-software-important-in-education">Edmund Laugasson: Why is free software important in education?</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 46:36</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/eric-luth-wpglobal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ujrrt8X5sno/hqdefault.jpg" alt="Eric Luth: WP:Global?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/eric-luth-wpglobal">Eric Luth: WP:Global?</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 40:43</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/erik-lundin-openstreetmap-how-we-switched-license"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zhg5cH0JS70/hqdefault.jpg" alt="Erik Lundin: OpenStreetMap -- how we switched license" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/erik-lundin-openstreetmap-how-we-switched-license">Erik Lundin: OpenStreetMap -- how we switched license</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 55:58</div>
+			
+			
+              <div>Views: 65 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/fatuma-awil-august-nilsson-a-sustainable-economy-next-steps-for-action"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Jh77sw1Vz34/hqdefault.jpg" alt="Fatuma Awil & August Nilsson: A sustainable economy -- next steps for action!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/fatuma-awil-august-nilsson-a-sustainable-economy-next-steps-for-action">Fatuma Awil & August Nilsson: A sustainable economy -- next steps for action!</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 10:32</div>
+			
+			
+              <div>Views: 19 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/frank-karlitscheck-owncloud"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QEhaJVuD_iI/hqdefault.jpg" alt="Frank Karlitscheck: ownCloud" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/frank-karlitscheck-owncloud">Frank Karlitscheck: ownCloud</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 48:23</div>
+			
+			
+              <div>Views: 221 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/fredrik-stromberg-markets-beyond-bitcoin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VjzZPdQ_VV0/hqdefault.jpg" alt="Fredrik Stromberg: Markets beyond Bitcoin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/fredrik-stromberg-markets-beyond-bitcoin">Fredrik Stromberg: Markets beyond Bitcoin</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 45:08</div>
+			
+			
+              <div>Views: 46 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/georg-greve-kolab"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BNaoqOX7UX0/hqdefault.jpg" alt="Georg Greve: Kolab" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/georg-greve-kolab">Georg Greve: Kolab</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 59:41</div>
+			
+			
+              <div>Views: 2042 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/henri-bergius-noflo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CogvlrTS2Xc/hqdefault.jpg" alt="Henri Bergius: NoFlo" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/henri-bergius-noflo">Henri Bergius: NoFlo</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 45:31</div>
+			
+			
+              <div>Views: 357 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/jasmine-idun-lyman-make-space"><img class="list-thumbnail" src="https://i.ytimg.com/vi/N9ViyYWmzDc/hqdefault.jpg" alt="Jasmine Idun Lyman: Make Space" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/jasmine-idun-lyman-make-space">Jasmine Idun Lyman: Make Space</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 42:03</div>
+			
+			
+              <div>Views: 78 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/johannes-grenzfurthner-monochrom-subverting-subversion"><img class="list-thumbnail" src="https://i.ytimg.com/vi/62nbMe_KlGg/hqdefault.jpg" alt="Johannes Grenzfurthner (monochrom): Subverting Subversion" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/johannes-grenzfurthner-monochrom-subverting-subversion">Johannes Grenzfurthner (monochrom): Subverting Subversion</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 49:54</div>
+			
+			
+              <div>Views: 73 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/jonas-liljegren-peter-iwanek-democracy-in-organisations-regions-and-nations"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DGOnMQJTGD8/hqdefault.jpg" alt="Jonas Liljegren & Peter Iwanek: Democracy in organisations, regions and nations" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/jonas-liljegren-peter-iwanek-democracy-in-organisations-regions-and-nations">Jonas Liljegren & Peter Iwanek: Democracy in organisations, regions and nations</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 47:34</div>
+			
+			
+              <div>Views: 137 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/jonas-smedegaard-debianparl-catmandu-and-acta"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KhDUBF-OvBI/hqdefault.jpg" alt="Jonas Smedegaard: DebianParl, Catmandu and ACTA" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/jonas-smedegaard-debianparl-catmandu-and-acta">Jonas Smedegaard: DebianParl, Catmandu and ACTA</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 52:19</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/karen-sandler-proactivism"><img class="list-thumbnail" src="https://i.ytimg.com/vi/z6NvCH7A8Vs/hqdefault.jpg" alt="Karen Sandler: Proactivism" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/karen-sandler-proactivism">Karen Sandler: Proactivism</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 50:54</div>
+			
+			
+              <div>Views: 119 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/lennart-guldbrandsson-the-wikipedia-gendergap-and-what-were-trying-to-do-about-it"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kCrORlq_5aY/hqdefault.jpg" alt="Lennart Guldbrandsson: The Wikipedia gendergap and what we're trying to do about it" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/lennart-guldbrandsson-the-wikipedia-gendergap-and-what-were-trying-to-do-about-it">Lennart Guldbrandsson: The Wikipedia gendergap and what we're trying to do about it</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 57:21</div>
+			
+			
+              <div>Views: 18 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/markus-samnell-piracy-is-liberation"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X6V1NfmqvEw/hqdefault.jpg" alt="Markus Samnell: Piracy is Liberation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/markus-samnell-piracy-is-liberation">Markus Samnell: Piracy is Liberation</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 36:38</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/matthias-strubel-piratebox"><img class="list-thumbnail" src="https://i.ytimg.com/vi/l8O8SZ9iMyQ/hqdefault.jpg" alt="Matthias Strubel: PirateBox" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/matthias-strubel-piratebox">Matthias Strubel: PirateBox</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 31:09</div>
+			
+			
+              <div>Views: 440 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/michael-monty-widenius-the-mysql-and-mariadb-story"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JxyBNdwmpzM/hqdefault.jpg" alt="Michael Monty Widenius: The MySQL and MariaDB story" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/michael-monty-widenius-the-mysql-and-mariadb-story">Michael Monty Widenius: The MySQL and MariaDB story</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 01:13:46</div>
+			
+			
+              <div>Views: 162 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/miguel-ganzo-ethical-banks-from-an-international-perspective"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cWu2ykQEMCY/hqdefault.jpg" alt="Miguel Ganzo: Ethical banks from an international perspective" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/miguel-ganzo-ethical-banks-from-an-international-perspective">Miguel Ganzo: Ethical banks from an international perspective</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 42:29</div>
+			
+			
+              <div>Views: 45 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/mike-gogulski-the-4th-pillar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0uUTx8m6XfU/hqdefault.jpg" alt="Mike Gogulski: The 4th Pillar" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/mike-gogulski-the-4th-pillar">Mike Gogulski: The 4th Pillar</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 44:19</div>
+			
+			
+              <div>Views: 150 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/olle-bjerkas-martin-jordo-universal-basic-income-can-we-get-paid-for-being"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YXDQY5zjAhA/hqdefault.jpg" alt="Olle Bjerkås & Martin Jordö: Universal Basic Income -- can we get paid for being?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/olle-bjerkas-martin-jordo-universal-basic-income-can-we-get-paid-for-being">Olle Bjerkås & Martin Jordö: Universal Basic Income -- can we get paid for being?</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 51:28</div>
+			
+			
+              <div>Views: 261 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/per-johansson-one-persons-utopia-is-anothers-dystopia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Q-kdG8G2_Zg/hqdefault.jpg" alt="Per Johansson: One Person's Utopia Is Another's Dystopia" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/per-johansson-one-persons-utopia-is-anothers-dystopia">Per Johansson: One Person's Utopia Is Another's Dystopia</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 36:50</div>
+			
+			
+              <div>Views: 36 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/smari-mccarthy-engineering-our-way-out-of-fascism"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0N55BLw0Z-E/hqdefault.jpg" alt="Smári McCarthy - Engineering our way out of Fascism" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/smari-mccarthy-engineering-our-way-out-of-fascism">Smári McCarthy - Engineering our way out of Fascism</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 54:42</div>
+			
+			
+              <div>Views: 1662 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/stefan-marsiske-post-snowden-crypto"><img class="list-thumbnail" src="https://i.ytimg.com/vi/l_fW63ghJo4/hqdefault.jpg" alt="Stefan Marsiske: Post-Snowden Crypto" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/stefan-marsiske-post-snowden-crypto">Stefan Marsiske: Post-Snowden Crypto</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 50:21</div>
+			
+			
+              <div>Views: 56 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/stephan-urbach-local-action-and-world-politics"><img class="list-thumbnail" src="https://i.ytimg.com/vi/34qU_epwJ6c/hqdefault.jpg" alt="Stephan Urbach: Local action and world politics" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/stephan-urbach-local-action-and-world-politics">Stephan Urbach: Local action and world politics</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 48:57</div>
+			
+			
+              <div>Views: 144 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/sverker-johansson-writing-wikipedia-articles-by-the-million"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2nJJqPWx1-c/hqdefault.jpg" alt="Sverker Johansson: Writing Wikipedia articles by the million" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/sverker-johansson-writing-wikipedia-articles-by-the-million">Sverker Johansson: Writing Wikipedia articles by the million</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 01:05:17</div>
+			
+			
+              <div>Views: 1144 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/timo-sirainen-dovecot"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mX-fOEaion4/hqdefault.jpg" alt="Timo Sirainen: Dovecot" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/timo-sirainen-dovecot">Timo Sirainen: Dovecot</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 46:39</div>
+			
+			
+              <div>Views: 200 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/trond-trosterud-sjur-norstebo-moshagen-an-open-source-infrastructure-for-language-technology"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VOy_APEQSV0/hqdefault.jpg" alt="Trond Trosterud & Sjur Nørstebø Moshagen: An Open Source Infrastructure for Language Technology" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/trond-trosterud-sjur-norstebo-moshagen-an-open-source-infrastructure-for-language-technology">Trond Trosterud & Sjur Nørstebø Moshagen: An Open Source Infrastructure for Language Technology</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 57:27</div>
+			
+			
+              <div>Views: 34 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/trond-trosterud-sjur-norstebo-moshagen-linguistics-as-open-source-code"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aOPaHGsZeE8/hqdefault.jpg" alt="Trond Trosterud & Sjur Nørstebø Moshagen: Linguistics as Open Source Code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/trond-trosterud-sjur-norstebo-moshagen-linguistics-as-open-source-code">Trond Trosterud & Sjur Nørstebø Moshagen: Linguistics as Open Source Code</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 53:23</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/vladan-joler-keep-calm-and-code-new-laws"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Tl6FjyPFiEY/hqdefault.jpg" alt="Vladan Joler: Keep Calm and Code New Laws" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/vladan-joler-keep-calm-and-code-new-laws">Vladan Joler: Keep Calm and Code New Laws</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 47:07</div>
+			
+			
+              <div>Views: 91 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fscons-2013/yoshi-frey-threats-of-the-monetary-system-and-economic-growth-dependency"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OHCDH7bMEzU/hqdefault.jpg" alt="Yoshi Frey: Threats of the monetary system and economic growth dependency" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fscons-2013/yoshi-frey-threats-of-the-monetary-system-and-economic-growth-dependency">Yoshi Frey: Threats of the monetary system and economic growth dependency</a></h4>
+          <footer>
+            <div class="recorded">2013-11-08</div>
+			
+			  <div>Length: 49:46</div>
+			
+			
+              <div>Views: 177 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/fscons-2013">FSCONS 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL4yYmsifqkVEpKp_P5n-sbVebsLzMzqtn">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

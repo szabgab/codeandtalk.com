@@ -1,0 +1,2336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>RailsConf 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>RailsConf 2016</h1>
+
+<div><a href="http://railsconf.com/2016">RailsConf 2016</a></div>
+
+
+<div>Start date: 2016-05-04</div>
+<div>End date: 2016-05-06</div>
+
+<div>Location:
+  Kansas City
+  Missouri
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/rails">Rails</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/railsconf">@railsconf</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=RailsConf%202016%20on%202016-05-04%20in%20Kansas%20City%2C%20Missouri%20USA%20%40railsconf%20http%3A//railsconf.com/2016%20%23Rails%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/con-2016-a-million-things-to-do-with-a-computer-by-tef"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vU9myNJI9l4/hqdefault.jpg" alt="A million things to do with a computer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/con-2016-a-million-things-to-do-with-a-computer-by-tef">A million things to do with a computer</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 14:00</div>
+			
+			
+              <div>Views: 335 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tef">Tef</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/con-2016-how-i-code-and-use-a-computer-at-1000-wpm-by-sina-bahram"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G1r55efei5c/hqdefault.jpg" alt="How I Code and Use a Computer at 1,000 WPM" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/con-2016-how-i-code-and-use-a-computer-at-1000-wpm-by-sina-bahram">How I Code and Use a Computer at 1,000 WPM</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 13:29</div>
+			
+			
+              <div>Views: 6900 Likes: 68</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sina-bahram">Sina Bahram</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/con-2016-keynote-the-unfortunate-value-of-failure-by-ramsey-nasser"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JrwBDKV-6pQ/hqdefault.jpg" alt="Keynote: The Unfortunate Value of Failure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/con-2016-keynote-the-unfortunate-value-of-failure-by-ramsey-nasser">Keynote: The Unfortunate Value of Failure</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 34:35</div>
+			
+			
+              <div>Views: 395 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ramsey-nasser">Ramsey Nasser</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/con-2016-lol-im-so-random-by-mark-wunsch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pdUCK_io9SQ/hqdefault.jpg" alt="lol im so random" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/con-2016-lol-im-so-random-by-mark-wunsch">lol im so random</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 14:20</div>
+			
+			
+              <div>Views: 217 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-wunsch">Mark Wunsch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/con-2016-making-money-disappear-with-hash-functions-by-brendan-cordy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GU8YzFmBIc4/hqdefault.jpg" alt="Making Money Disappear with Hash Functions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/con-2016-making-money-disappear-with-hash-functions-by-brendan-cordy">Making Money Disappear with Hash Functions</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 12:30</div>
+			
+			
+              <div>Views: 323 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brendan-cordy">Brendan Cordy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/con-2016-my-favorite-unicode-character-the-zero-width-joiner-by-anne-decusatis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4wevZ1vohDY/hqdefault.jpg" alt="My favorite Unicode character: the zero-width joiner" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/con-2016-my-favorite-unicode-character-the-zero-width-joiner-by-anne-decusatis">My favorite Unicode character: the zero-width joiner</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 11:37</div>
+			
+			
+              <div>Views: 561 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anne-decusatis">Anne Decusatis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-3x-rails-tuning-the-framework-internals-by-akira-matsuda"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hVXsxhHV1yY/hqdefault.jpg" alt="3x Rails: Tuning the Framework Internals" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-3x-rails-tuning-the-framework-internals-by-akira-matsuda">3x Rails: Tuning the Framework Internals</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 42:12</div>
+			
+			
+              <div>Views: 933 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/akira-matsuda">Akira Matsuda</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-5-practical-ways-to-advocate-for-diversity-by-tony-wieczorek"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zi335PDgL7A/hqdefault.jpg" alt="5 Practical Ways to Advocate for Diversity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-5-practical-ways-to-advocate-for-diversity-by-tony-wieczorek">5 Practical Ways to Advocate for Diversity</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 29:46</div>
+			
+			
+              <div>Views: 495 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tony-wieczorek">Tony Wieczorek</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-actioncable-for-not-another-chat-app-please-by-jesse-wolgamott"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IeYGfM32Iqs/hqdefault.jpg" alt="ActionCable for Not-Another-Chat-App-Please" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-actioncable-for-not-another-chat-app-please-by-jesse-wolgamott">ActionCable for Not-Another-Chat-App-Please</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 39:17</div>
+			
+			
+              <div>Views: 2975 Likes: 37</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jesse-wolgamott">Jesse Wolgamott</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-activerecord-vs-ecto-a-tale-of-two-orms-by-brad-urani"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_wD25uHx_Sw/hqdefault.jpg" alt="ActiveRecord vs. Ecto: A Tale of Two ORMs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-activerecord-vs-ecto-a-tale-of-two-orms-by-brad-urani">ActiveRecord vs. Ecto: A Tale of Two ORMs</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 39:09</div>
+			
+			
+              <div>Views: 5836 Likes: 96</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brad-urani">Brad Urani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-booting-up-hiring-and-growing-boot-camp-graduates-by-eric-weinstein"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RlnA9IXmDQ0/hqdefault.jpg" alt="Booting Up: Hiring and Growing Boot Camp Graduates" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-booting-up-hiring-and-growing-boot-camp-graduates-by-eric-weinstein">Booting Up: Hiring and Growing Boot Camp Graduates</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 40:57</div>
+			
+			
+              <div>Views: 350 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eric-weinstein">Eric Weinstein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-bridging-the-gap-between-designers-and-developers-by-ryan-r-hughes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mweTM1hsn84/hqdefault.jpg" alt="Bridging the Gap between Designers and Developers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-bridging-the-gap-between-designers-and-developers-by-ryan-r-hughes">Bridging the Gap between Designers and Developers</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 20:24</div>
+			
+			
+              <div>Views: 221 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ryan-r-hughes">Ryan R Hughes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-build-realtime-apps-with-ruby-pakyow-by-bryan-powell"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ttnlh_Y0XJM/hqdefault.jpg" alt="Build Realtime Apps with Ruby & Pakyow" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-build-realtime-apps-with-ruby-pakyow-by-bryan-powell">Build Realtime Apps with Ruby & Pakyow</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 30:46</div>
+			
+			
+              <div>Views: 1933 Likes: 29</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bryan-powell">Bryan Powell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-building-applications-better-the-first-time-by-jessica-roper"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MA3f7aWCTL4/hqdefault.jpg" alt="Building Applications Better the First Time" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-building-applications-better-the-first-time-by-jessica-roper">Building Applications Better the First Time</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 27:02</div>
+			
+			
+              <div>Views: 665 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jessica-roper">Jessica Roper</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-but-doesnt-rails-take-care-of-security-for-me-by-justin-collins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3P9naxOfUC4/hqdefault.jpg" alt="But Doesn't Rails Take Care of Security for Me?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-but-doesnt-rails-take-care-of-security-for-me-by-justin-collins">But Doesn't Rails Take Care of Security for Me?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 43:17</div>
+			
+			
+              <div>Views: 2193 Likes: 45</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/justin-collins">Justin Collins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-can-time-travel-keep-you-from-blowing-up-the-enterprise-by-david-copeland"><img class="list-thumbnail" src="https://i.ytimg.com/vi/23NhP4x3AAE/hqdefault.jpg" alt="Can Time-Travel Keep You From Blowing Up The Enterprise?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-can-time-travel-keep-you-from-blowing-up-the-enterprise-by-david-copeland">Can Time-Travel Keep You From Blowing Up The Enterprise?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 27:20</div>
+			
+			
+              <div>Views: 464 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-copeland">David Copeland</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-clientserver-architecture-past-present-future-by-mike-groseclose"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-ZqQRUWkomk/hqdefault.jpg" alt="Client/Server Architecture: Past, Present, & Future" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-clientserver-architecture-past-present-future-by-mike-groseclose">Client/Server Architecture: Past, Present, & Future</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 23:17</div>
+			
+			
+              <div>Views: 741 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-groseclose">Mike Groseclose</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-closing-keynote-paul-lamere"><img class="list-thumbnail" src="https://i.ytimg.com/vi/f7XN3RuDzmc/hqdefault.jpg" alt="Closing Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-closing-keynote-paul-lamere">Closing Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 59:29</div>
+			
+			
+              <div>Views: 1723 Likes: 40</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-lamere">Paul Lamere</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-continuous-visual-integration-for-rails-by-mike-fotinakis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5h-JJ2wqiIw/hqdefault.jpg" alt="Continuous Visual Integration for Rails" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-continuous-visual-integration-for-rails-by-mike-fotinakis">Continuous Visual Integration for Rails</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 31:49</div>
+			
+			
+              <div>Views: 912 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-fotinakis">Mike Fotinakis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-crushing-it-with-rake-tasks-by-barrett-clark"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8HRJQUr2Y3Q/hqdefault.jpg" alt="Crushing It With Rake Tasks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-crushing-it-with-rake-tasks-by-barrett-clark">Crushing It With Rake Tasks</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 29:48</div>
+			
+			
+              <div>Views: 557 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/barrett-clark">Barrett Clark</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-day-1-closing-keynote-skunk-works-by-nickolas-means"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ggPE-JHzfAM/hqdefault.jpg" alt="Day 1 Closing Keynote: Skunk Works" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-day-1-closing-keynote-skunk-works-by-nickolas-means">Day 1 Closing Keynote: Skunk Works</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 48:10</div>
+			
+			
+              <div>Views: 3769 Likes: 70</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nickolas-means">Nickolas Means</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-day-2-opening-keynote-by-chanelle-henry"><img class="list-thumbnail" src="https://i.ytimg.com/vi/f3RcrToGIEQ/hqdefault.jpg" alt="Day 2 Opening Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-day-2-opening-keynote-by-chanelle-henry">Day 2 Opening Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 48:20</div>
+			
+			
+              <div>Views: 2161 Likes: 126</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chanelle-henry">Chanelle Henry</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-developing-and-maintaining-a-platform-with-rails-and-lotus-by-simone-carletti"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FkWt7ep5XRM/hqdefault.jpg" alt="Developing and Maintaining a Platform With Rails and Lotus" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-developing-and-maintaining-a-platform-with-rails-and-lotus-by-simone-carletti">Developing and Maintaining a Platform With Rails and Lotus</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 36:52</div>
+			
+			
+              <div>Views: 830 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simone-carletti">Simone Carletti</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-dont-forget-the-network-your-app-is-slower-than-you-think-by-andre-arko"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KP1nKRprj0Q/hqdefault.jpg" alt="Don't Forget the Network: Your App is Slower Than You Think" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-dont-forget-the-network-your-app-is-slower-than-you-think-by-andre-arko">Don't Forget the Network: Your App is Slower Than You Think</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 40:23</div>
+			
+			
+              <div>Views: 626 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andre-arko">Andre Arko</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-excellence-through-diversity-by-andreas-fast"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_mwcreHuqNA/hqdefault.jpg" alt="Excellence Through Diversity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-excellence-through-diversity-by-andreas-fast">Excellence Through Diversity</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 28:17</div>
+			
+			
+              <div>Views: 209 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andreas-fast">Andreas Fast</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-facepalm-to-foolproof-avoiding-common-production-pitfalls-by-jon-mccartie"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yDJV9mr--Yo/hqdefault.jpg" alt="Facepalm to Foolproof: Avoiding Common Production Pitfalls" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-facepalm-to-foolproof-avoiding-common-production-pitfalls-by-jon-mccartie">Facepalm to Foolproof: Avoiding Common Production Pitfalls</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 30:39</div>
+			
+			
+              <div>Views: 866 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jon-mccartie">Jon McCartie</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-finding-translations-localization-and-internationalization-by-valerie-woolard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uFOwICzjrvU/hqdefault.jpg" alt="Finding Translations: Localization and Internationalization" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-finding-translations-localization-and-internationalization-by-valerie-woolard">Finding Translations: Localization and Internationalization</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 29:28</div>
+			
+			
+              <div>Views: 605 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/valerie-woolard">Valerie Woolard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-foreign-api-simulation-with-sinatra-by-konstantin-tennhard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LAR7foT9kUE/hqdefault.jpg" alt="Foreign API Simulation with Sinatra" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-foreign-api-simulation-with-sinatra-by-konstantin-tennhard">Foreign API Simulation with Sinatra</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 28:54</div>
+			
+			
+              <div>Views: 480 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/konstantin-tennhard">Konstantin Tennhard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-frameworks-for-feedback-by-rebecca-miller-webster"><img class="list-thumbnail" src="https://i.ytimg.com/vi/q8K_66PA2qw/hqdefault.jpg" alt="Frameworks for Feedback" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-frameworks-for-feedback-by-rebecca-miller-webster">Frameworks for Feedback</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 28:46</div>
+			
+			
+              <div>Views: 504 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rebecca-miller-webster">Rebecca Miller-Webster</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-from-director-to-intern-changing-careers-as-a-single-mom-by-teresa-martyny"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hZLz9p58ZqU/hqdefault.jpg" alt="From Director to Intern: Changing Careers as a Single Mom" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-from-director-to-intern-changing-careers-as-a-single-mom-by-teresa-martyny">From Director to Intern: Changing Careers as a Single Mom</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 42:16</div>
+			
+			
+              <div>Views: 632 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/teresa-martyny">Teresa Martyny</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-from-excel-to-rails-a-path-to-enlightened-internal-software-by-nick-reavill"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8vV8SvQARuU/hqdefault.jpg" alt="From Excel to Rails: A Path to Enlightened Internal Software" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-from-excel-to-rails-a-path-to-enlightened-internal-software-by-nick-reavill">From Excel to Rails: A Path to Enlightened Internal Software</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 32:43</div>
+			
+			
+              <div>Views: 680 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-reavill">Nick Reavill</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-from-zero-to-api-hero-consuming-apis-like-a-pro-by-cecy-correa"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Af5HDgvGuXk/hqdefault.jpg" alt="From Zero to API Hero: Consuming APIs like a Pro" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-from-zero-to-api-hero-consuming-apis-like-a-pro-by-cecy-correa">From Zero to API Hero: Consuming APIs like a Pro</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 39:19</div>
+			
+			
+              <div>Views: 1072 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cecy-correa">Cecy Correa</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-get-a-whiff-of-this-by-sandi-metz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PJjHfa5yxlU/hqdefault.jpg" alt="Get a Whiff of This" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-get-a-whiff-of-this-by-sandi-metz">Get a Whiff of This</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 38:15</div>
+			
+			
+              <div>Views: 10038 Likes: 211</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sandi-metz">Sandi Metz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-going-serverless-by-jeremy-green"><img class="list-thumbnail" src="https://i.ytimg.com/vi/stOpBNo5l-E/hqdefault.jpg" alt="Going Serverless" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-going-serverless-by-jeremy-green">Going Serverless</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 28:06</div>
+			
+			
+              <div>Views: 1058 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeremy-green">Jeremy Green</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-hiring-developers-with-science-by-joe-mastey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZCGGMxcJMZk/hqdefault.jpg" alt="Hiring Developers, with Science!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-hiring-developers-with-science-by-joe-mastey">Hiring Developers, with Science!</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 32:31</div>
+			
+			
+              <div>Views: 542 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joe-mastey">Joe Mastey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-how-compose-uses-rails-to-scale-work-now-open-sourced-by-jp-phillips"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_3L5k_zozzw/hqdefault.jpg" alt="How Compose uses Rails to Scale Work, Now Open-Sourced" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-how-compose-uses-rails-to-scale-work-now-open-sourced-by-jp-phillips">How Compose uses Rails to Scale Work, Now Open-Sourced</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 19:08</div>
+			
+			
+              <div>Views: 330 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joey-primiani">Joey Primiani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-how-sprockets-works-by-rafael-franca"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CzFFYelG7WY/hqdefault.jpg" alt="How Sprockets works" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-how-sprockets-works-by-rafael-franca">How Sprockets works</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 30:08</div>
+			
+			
+              <div>Views: 2498 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rafael-franca">Rafael Franca</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-how-to-build-a-skyscraper-by-ernie-miller"><img class="list-thumbnail" src="https://i.ytimg.com/vi/x8mSR9iAm74/hqdefault.jpg" alt="How to Build a Skyscraper" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-how-to-build-a-skyscraper-by-ernie-miller">How to Build a Skyscraper</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 42:06</div>
+			
+			
+              <div>Views: 431 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ernie-miller">Ernie Miller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-how-to-get-and-love-your-first-rails-job-by-molly-black"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-4KKqYuYHno/hqdefault.jpg" alt="How to Get and Love Your First Rails Job" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-how-to-get-and-love-your-first-rails-job-by-molly-black">How to Get and Love Your First Rails Job</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 39:05</div>
+			
+			
+              <div>Views: 954 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/molly-morgan-black">Molly Morgan Black</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-how-we-deploy-shopify-by-kat-drobnjakovic"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HNH7El_BEsw/hqdefault.jpg" alt="How We Deploy Shopify" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-how-we-deploy-shopify-by-kat-drobnjakovic">How We Deploy Shopify</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 17:12</div>
+			
+			
+              <div>Views: 1067 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kat-drobnjakovic">Kat Drobnjakovic</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-how-we-scaled-gitlab-for-a-30k-employee-company-by-minqi-pan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/byZcOH92CiY/hqdefault.jpg" alt="How We Scaled GitLab For a 30k-employee Company" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-how-we-scaled-gitlab-for-a-30k-employee-company-by-minqi-pan">How We Scaled GitLab For a 30k-employee Company</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 38:24</div>
+			
+			
+              <div>Views: 1261 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/minqi-pan">Minqi Pan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-i-cant-believe-its-not-a-queue-using-kafka-with-rails-by-terence-lee"><img class="list-thumbnail" src="https://i.ytimg.com/vi/s3VQIGD5iGo/hqdefault.jpg" alt="I Can't Believe It's Not A Queue: Using Kafka with Rails" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-i-cant-believe-its-not-a-queue-using-kafka-with-rails-by-terence-lee">I Can't Believe It's Not A Queue: Using Kafka with Rails</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 33:05</div>
+			
+			
+              <div>Views: 1861 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/terence-lee">Terence Lee</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-implementing-the-lhc-on-a-whiteboard-by-james-edward-gray-ii"><img class="list-thumbnail" src="https://i.ytimg.com/vi/g5lWfHEeibs/hqdefault.jpg" alt="Implementing the LHC on a Whiteboard" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-implementing-the-lhc-on-a-whiteboard-by-james-edward-gray-ii">Implementing the LHC on a Whiteboard</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 35:43</div>
+			
+			
+              <div>Views: 1885 Likes: 28</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-edward-gray-ii">James Edward Gray II</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-inside-activejob-by-jerry-dantonio"><img class="list-thumbnail" src="https://i.ytimg.com/vi/E-1ICY8DMh4/hqdefault.jpg" alt="Inside ActiveJob" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-inside-activejob-by-jerry-dantonio">Inside ActiveJob</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 40:51</div>
+			
+			
+              <div>Views: 652 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jerry-d-antonio">Jerry D'Antonio</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-internships-good-for-the-intern-great-for-the-team-by-lillie-chilen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/75LK0MOvyjQ/hqdefault.jpg" alt="Internships: Good for the Intern, Great for the Team" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-internships-good-for-the-intern-great-for-the-team-by-lillie-chilen">Internships: Good for the Intern, Great for the Team</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 31:06</div>
+			
+			
+              <div>Views: 173 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lillie-chilen">Lillie Chilen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-introduction-to-concurrency-in-ruby-by-thijs-cadier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5AxtY4dfuwc/hqdefault.jpg" alt="Introduction to Concurrency in Ruby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-introduction-to-concurrency-in-ruby-by-thijs-cadier">Introduction to Concurrency in Ruby</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 36:16</div>
+			
+			
+              <div>Views: 2820 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thijs-cadier">Thijs Cadier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-level-up-your-activerecord-skills-learn-sql-by-ryan-dlugosz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4xjSXp-oBvc/hqdefault.jpg" alt="Level-up Your ActiveRecord Skills: Learn SQL!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-level-up-your-activerecord-skills-learn-sql-by-ryan-dlugosz">Level-up Your ActiveRecord Skills: Learn SQL!</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 39:56</div>
+			
+			
+              <div>Views: 1156 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ryan-dlugosz">Ryan Dlugosz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-lightning-talks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DHHHnPwSY5I/hqdefault.jpg" alt="RailsConf 2016 -  Lightning Talks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-lightning-talks">RailsConf 2016 -  Lightning Talks</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 01:33:15</div>
+			
+			
+              <div>Views: 599 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-make-them-click-by-roy-tomeij"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vsc4HmLCxY4/hqdefault.jpg" alt="Make Them Click" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-make-them-click-by-roy-tomeij">Make Them Click</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 35:59</div>
+			
+			
+              <div>Views: 204 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/roy-tomeij">Roy Tomeij</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-making-a-rails-app-with-140-characters-or-less-by-nate-berkopec"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SXV-RRsjsFc/hqdefault.jpg" alt="Making a Rails App with 140 Characters (or less)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-making-a-rails-app-with-140-characters-or-less-by-nate-berkopec">Making a Rails App with 140 Characters (or less)</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 40:05</div>
+			
+			
+              <div>Views: 2230 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nate-berkopec">Nate Berkopec</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-managing-growing-pains-thinking-big-while-being-small-by-joe-arnold"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7H-Cy-80ynM/hqdefault.jpg" alt="Managing Growing Pains: Thinking Big While Being Small" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-managing-growing-pains-thinking-big-while-being-small-by-joe-arnold">Managing Growing Pains: Thinking Big While Being Small</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 30:59</div>
+			
+			
+              <div>Views: 276 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joe-arnold">Joe Arnold</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-multi-table-full-text-search-with-postgres-by-caleb-thompson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OzHhJPlgZaw/hqdefault.jpg" alt="Multi-table Full Text Search with Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-multi-table-full-text-search-with-postgres-by-caleb-thompson">Multi-table Full Text Search with Postgres</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 27:19</div>
+			
+			
+              <div>Views: 891 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/caleb-thompson">Caleb Thompson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-opening-day-3-keynote-by-aaron-patterson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xMFs9DTympQ/hqdefault.jpg" alt="Opening Day 3 Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-opening-day-3-keynote-by-aaron-patterson">Opening Day 3 Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 51:18</div>
+			
+			
+              <div>Views: 8178 Likes: 100</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aaron-patterson">Aaron Patterson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-opening-keynote-jeremy-daer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nUVsZ4vS1Y8/hqdefault.jpg" alt="Opening Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-opening-keynote-jeremy-daer">Opening Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 01:11:44</div>
+			
+			
+              <div>Views: 7354 Likes: 26</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeremy-daer">Jeremy Daer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-packaging-and-shipping-rails-applications-in-docker-by-allan-espinosa"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lpHgNC5bCbo/hqdefault.jpg" alt="Packaging and Shipping Rails Applications in Docker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-packaging-and-shipping-rails-applications-in-docker-by-allan-espinosa">Packaging and Shipping Rails Applications in Docker</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 28:47</div>
+			
+			
+              <div>Views: 1697 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/allan-espinosa">Allan Espinosa</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-pat-packet-visits-ruby-rails-by-jeremy-fairbank"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5N--xAEtGbo/hqdefault.jpg" alt="Pat Packet Visits Ruby Rails" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-pat-packet-visits-ruby-rails-by-jeremy-fairbank">Pat Packet Visits Ruby Rails</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 40:11</div>
+			
+			
+              <div>Views: 272 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeremy-fairbank">Jeremy Fairbank</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-postcards-from-gorbypuff-by-aja-hammerly"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_lQIwkjXE0Y/hqdefault.jpg" alt="Postcards from GorbyPuff" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-postcards-from-gorbypuff-by-aja-hammerly">Postcards from GorbyPuff</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 23:09</div>
+			
+			
+              <div>Views: 247 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aja-hammerly">Aja Hammerly</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-power-up-your-development-with-rubymine-by-tatiana-vasilyeva"><img class="list-thumbnail" src="https://i.ytimg.com/vi/issom99iWDs/hqdefault.jpg" alt="Power up Your Development with RubyMine" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-power-up-your-development-with-rubymine-by-tatiana-vasilyeva">Power up Your Development with RubyMine</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 39:52</div>
+			
+			
+              <div>Views: 3867 Likes: 34</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tatiana-vasilyeva">Tatiana Vasilyeva</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-pragmatic-lessons-of-rails-ruby-in-the-enterprise-by-nathan-beyer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6BI5RFi_A0M/hqdefault.jpg" alt="Pragmatic Lessons of Rails & Ruby in the Enterprise" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-pragmatic-lessons-of-rails-ruby-in-the-enterprise-by-nathan-beyer">Pragmatic Lessons of Rails & Ruby in the Enterprise</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 41:11</div>
+			
+			
+              <div>Views: 830 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nathan-beyer">Nathan Beyer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-precompiling-ruby-scripts-myth-and-fact-by-koichi-sasada"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aBhygk4c1PY/hqdefault.jpg" alt="Precompiling Ruby scripts - Myth and Fact" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-precompiling-ruby-scripts-myth-and-fact-by-koichi-sasada">Precompiling Ruby scripts - Myth and Fact</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 38:18</div>
+			
+			
+              <div>Views: 829 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/koichi-sasada">Koichi Sasada</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-priming-you-for-your-job-search"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RrN0NA4rRbU/hqdefault.jpg" alt="RailsConf 2016 -  Priming You for Your Job Search" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-priming-you-for-your-job-search">RailsConf 2016 -  Priming You for Your Job Search</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 25:30</div>
+			
+			
+              <div>Views: 241 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-mcdonald">Mark McDonald</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-quit-frustrating-your-new-developers-tips-from-a-teacher-by-miki-rezentes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/L0cYUD0-XNs/hqdefault.jpg" alt="Quit Frustrating Your New Developers - Tips From a Teacher" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-quit-frustrating-your-new-developers-tips-from-a-teacher-by-miki-rezentes">Quit Frustrating Your New Developers - Tips From a Teacher</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 37:37</div>
+			
+			
+              <div>Views: 632 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/miki-rezentes">Miki Rezentes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-rails-5-features-you-havent-heard-about-by-sean-griffin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b010Nh-A0vY/hqdefault.jpg" alt="Rails 5 Features You Haven't Heard About" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-rails-5-features-you-havent-heard-about-by-sean-griffin">Rails 5 Features You Haven't Heard About</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 33:42</div>
+			
+			
+              <div>Views: 2881 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-griffin">Sean Griffin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-rails-to-phoenix-by-brian-cardarella"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OxhTQdcieQE/hqdefault.jpg" alt="Rails to Phoenix by" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-rails-to-phoenix-by-brian-cardarella">Rails to Phoenix by</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 28:33</div>
+			
+			
+              <div>Views: 8370 Likes: 161</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-cardarella">Brian Cardarella</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-real-world-docker-for-the-rubyist-by-jason-clark"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DyBvMrNX1ZY/hqdefault.jpg" alt="Real World Docker for the Rubyist" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-real-world-docker-for-the-rubyist-by-jason-clark">Real World Docker for the Rubyist</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 39:16</div>
+			
+			
+              <div>Views: 840 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-clark">Jason Clark</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-rediscovering-activerecord-by-mario-chavez"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VMKsZn0-Es4/hqdefault.jpg" alt="Rediscovering ActiveRecord" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-rediscovering-activerecord-by-mario-chavez">Rediscovering ActiveRecord</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 27:14</div>
+			
+			
+              <div>Views: 1164 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mario-chavez">Mario Chavez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-reduce-small-team-culture-shock-with-agile-by-jamie-riedesel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qHTKw6Djhbw/hqdefault.jpg" alt="Reduce Small-Team Culture Shock with Agile" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-reduce-small-team-culture-shock-with-agile-by-jamie-riedesel">Reduce Small-Team Culture Shock with Agile</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 32:32</div>
+			
+			
+              <div>Views: 223 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jamie-riedesel">Jamie Riedesel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-riding-the-latest-rails-for-charity-by-joseph-dean"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CgQ_NEzNJss/hqdefault.jpg" alt="Riding the Latest Rails for Charity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-riding-the-latest-rails-for-charity-by-joseph-dean">Riding the Latest Rails for Charity</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 40:47</div>
+			
+			
+              <div>Views: 130 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joseph-dean">Joseph Dean</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-rspec-and-rails-5-by-justin-searls"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vntVoC5uSYk/hqdefault.jpg" alt="RSpec and Rails 5" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-rspec-and-rails-5-by-justin-searls">RSpec and Rails 5</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 40:20</div>
+			
+			
+              <div>Views: 3280 Likes: 72</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/justin-searls">Justin Searls</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-ruby-hero-awards"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JSNogJGaMms/hqdefault.jpg" alt="RailsConf 2016 - Ruby Hero Awards" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-ruby-hero-awards">RailsConf 2016 - Ruby Hero Awards</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 09:46</div>
+			
+			
+              <div>Views: 574 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-saving-sprockets-by-richard-schneeman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/imE397wVWgY/hqdefault.jpg" alt="Saving Sprockets" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-saving-sprockets-by-richard-schneeman">Saving Sprockets</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 38:07</div>
+			
+			
+              <div>Views: 1034 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/richard-schneeman">Richard Schneeman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-secrets-of-testing-rails-5-apps-by-prathamesh-sonpatki"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_qG7A9LxBPw/hqdefault.jpg" alt="Secrets of Testing Rails 5 apps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-secrets-of-testing-rails-5-apps-by-prathamesh-sonpatki">Secrets of Testing Rails 5 apps</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 43:08</div>
+			
+			
+              <div>Views: 804 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/prathamesh-sonpatki">Prathamesh Sonpatki</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-site-availability-is-for-everybody-by-stella-cotton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hgpNRhQWWNw/hqdefault.jpg" alt="Site Availability is for Everybody" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-site-availability-is-for-everybody-by-stella-cotton">Site Availability is for Everybody</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 29:09</div>
+			
+			
+              <div>Views: 734 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stella-cotton">Stella Cotton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-small-details-big-impact-by-yehuda-katz-and-liz-baillie"><img class="list-thumbnail" src="https://i.ytimg.com/vi/533rIdxPF10/hqdefault.jpg" alt="Small Details, Big Impact" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-small-details-big-impact-by-yehuda-katz-and-liz-baillie">Small Details, Big Impact</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 37:59</div>
+			
+			
+              <div>Views: 1444 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/liz-baillie">Liz Baillie</a>
+             
+                <a href="/p/yehuda-katz">Yehuda Katz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-sponsor-hired-by-bradley-herman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7-apgRR5O5k/hqdefault.jpg" alt="Sponsor: Hired by Bradley Herman" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-sponsor-hired-by-bradley-herman">Sponsor: Hired by Bradley Herman</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 08:45</div>
+			
+			
+              <div>Views: 166 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bradley-herman">Bradley Herman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-sponsor-indeed-by-chris-colon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Zt4euou1r1U/hqdefault.jpg" alt="Sponsor: Indeed" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-sponsor-indeed-by-chris-colon">Sponsor: Indeed</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 11:14</div>
+			
+			
+              <div>Views: 94 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-colon">Chris Colon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-step-1-hack-step-2-step-3-profit-by-bradley-herman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rktRuNfmW9I/hqdefault.jpg" alt="Step 1) Hack, Step 2) ?, Step 3) Profit" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-step-1-hack-step-2-step-3-profit-by-bradley-herman">Step 1) Hack, Step 2) ?, Step 3) Profit</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 35:32</div>
+			
+			
+              <div>Views: 445 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bradley-herman">Bradley Herman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-storytelling-with-code-by-michael-rau"><img class="list-thumbnail" src="https://i.ytimg.com/vi/B3Bu22XaKGg/hqdefault.jpg" alt="Storytelling with Code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-storytelling-with-code-by-michael-rau">Storytelling with Code</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 34:07</div>
+			
+			
+              <div>Views: 334 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-rau">Michael Rau</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-strong-practices-for-rails-applications-continuous-delivery"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zX3Kggw1Y-c/hqdefault.jpg" alt="RailsConf 2016 - Strong Practices for Rails Applications Continuous Delivery" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-strong-practices-for-rails-applications-continuous-delivery">RailsConf 2016 - Strong Practices for Rails Applications Continuous Delivery</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 34:23</div>
+			
+			
+              <div>Views: 576 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robb-kidd">Robb Kidd</a>
+             
+                <a href="/p/nathan-smith">Nathan Smith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-stuck-in-the-middle-leverage-the-power-of-rack-middleware-by-amy-unger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WeXpka50tHY/hqdefault.jpg" alt="Stuck in the Middle: Leverage the power of Rack Middleware" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-stuck-in-the-middle-leverage-the-power-of-rack-middleware-by-amy-unger">Stuck in the Middle: Leverage the power of Rack Middleware</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 35:17</div>
+			
+			
+              <div>Views: 1280 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amy-unger">Amy Unger</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-style-documentation-for-the-resource-limited-by-betsy-haibel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wR0h5RyeSGQ/hqdefault.jpg" alt="Style Documentation for the Resource-Limited" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-style-documentation-for-the-resource-limited-by-betsy-haibel">Style Documentation for the Resource-Limited</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 36:32</div>
+			
+			
+              <div>Views: 169 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/betsy-haibel">Betsy Haibel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-succession-by-katrina-owen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/59YClXmkCVM/hqdefault.jpg" alt="Succession" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-succession-by-katrina-owen">Succession</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 40:39</div>
+			
+			
+              <div>Views: 3930 Likes: 85</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/katrina-owen">Katrina Owen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-surviving-the-framework-hype-cycle-by-brandon-hayes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O6TtfK9gGvA/hqdefault.jpg" alt="Surviving the Framework Hype Cycle" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-surviving-the-framework-hype-cycle-by-brandon-hayes">Surviving the Framework Hype Cycle</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 34:07</div>
+			
+			
+              <div>Views: 1737 Likes: 51</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brandon-hayes">Brandon Hayes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-testing-rails-at-scale-by-emil-stolarsky"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zWR477ypEsc/hqdefault.jpg" alt="Testing Rails at Scale" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-testing-rails-at-scale-by-emil-stolarsky">Testing Rails at Scale</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 20:40</div>
+			
+			
+              <div>Views: 954 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/emil-stolarsky">Emil Stolarsky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-the-guest-a-guide-to-code-hospitality-by-nadia-odunayo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hHzWG1FltaE/hqdefault.jpg" alt="The Guest: A Guide To Code Hospitality" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-the-guest-a-guide-to-code-hospitality-by-nadia-odunayo">The Guest: A Guide To Code Hospitality</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 34:52</div>
+			
+			
+              <div>Views: 369 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nadia-odunayo">Nadia Odunayo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-the-rails-boot-process-by-xavier-noria"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vSza2FZucV8/hqdefault.jpg" alt="The Rails Boot Process" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-the-rails-boot-process-by-xavier-noria">The Rails Boot Process</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 39:28</div>
+			
+			
+              <div>Views: 2518 Likes: 27</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/xavier-noria">Xavier Noria</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-the-state-of-web-security-by-mike-milner"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UoiCylwUoq4/hqdefault.jpg" alt="The State of Web Security" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-the-state-of-web-security-by-mike-milner">The State of Web Security</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 33:59</div>
+			
+			
+              <div>Views: 433 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-milner">Mike Milner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-turbo-rails-with-rust-by-godfrey-chan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PbJI8yCsEkA/hqdefault.jpg" alt="Turbo Rails with Rust" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-turbo-rails-with-rust-by-godfrey-chan">Turbo Rails with Rust</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 41:53</div>
+			
+			
+              <div>Views: 6828 Likes: 58</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/godfrey-chan">Godfrey Chan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-turbolinks-5-i-cant-believe-its-not-native-by-sam-stephenson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SWEts0rlezA/hqdefault.jpg" alt="Turbolinks 5: I Can't Believe It's Not Native!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-turbolinks-5-i-cant-believe-its-not-native-by-sam-stephenson">Turbolinks 5: I Can't Believe It's Not Native!</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 37:37</div>
+			
+			
+              <div>Views: 24556 Likes: 403</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sam-stephenson">Sam Stephenson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-tweaking-ruby-gc-parameters-for-fun-speed-and-profit-by-helio-cola"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0nUV9MXlcwo/hqdefault.jpg" alt="Tweaking Ruby GC Parameters for Fun, Speed, and Profit" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-tweaking-ruby-gc-parameters-for-fun-speed-and-profit-by-helio-cola">Tweaking Ruby GC Parameters for Fun, Speed, and Profit</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 41:54</div>
+			
+			
+              <div>Views: 285 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/helio-cola">Helio Cola</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-will-it-inject-a-look-at-sql-injections-and-activerecord-by-jessica-rudder"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2GHWAYys1is/hqdefault.jpg" alt="Will It Inject? A Look at SQL injections and ActiveRecord" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-will-it-inject-a-look-at-sql-injections-and-activerecord-by-jessica-rudder">Will It Inject? A Look at SQL injections and ActiveRecord</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 32:40</div>
+			
+			
+              <div>Views: 2775 Likes: 45</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jessica-rudder">Jessica Rudder</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-writing-a-test-framework-from-scratch-by-ryan-davis-5fa4bf"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VPr5pmlAq20/hqdefault.jpg" alt="Writing a Test Framework from Scratch" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-writing-a-test-framework-from-scratch-by-ryan-davis-5fa4bf">Writing a Test Framework from Scratch</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 31:32</div>
+			
+			
+              <div>Views: 1643 Likes: 34</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ryan-davis">Ryan Davis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-writing-a-test-framework-from-scratch-by-ryan-davis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yj_ODdTWGcQ/hqdefault.jpg" alt="Writing a Test Framework from Scratch" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-writing-a-test-framework-from-scratch-by-ryan-davis">Writing a Test Framework from Scratch</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 33:26</div>
+			
+			
+              <div>Views: 592 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ryan-davis">Ryan Davis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-your-first-legacy-codebase-by-coraline-ehmke"><img class="list-thumbnail" src="https://i.ytimg.com/vi/D6I__S3krbA/hqdefault.jpg" alt="Your First Legacy Codebase" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-your-first-legacy-codebase-by-coraline-ehmke">Your First Legacy Codebase</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 30:30</div>
+			
+			
+              <div>Views: 555 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/coraline-ada-ehmke">Coraline Ada Ehmke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-your-software-is-broken-pay-attention-by-james-smith"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F6g_Fx8qqCU/hqdefault.jpg" alt="Your Software is Broken - Pay Attention" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-your-software-is-broken-pay-attention-by-james-smith">Your Software is Broken - Pay Attention</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 36:50</div>
+			
+			
+              <div>Views: 353 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-smith">James Smith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/railsconf-2016/railsconf-2016-zen-and-the-art-of-the-controller-by-michael-kelly"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KVkQ9UEQk0Y/hqdefault.jpg" alt="Zen and the Art of the Controller" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/railsconf-2016/railsconf-2016-zen-and-the-art-of-the-controller-by-michael-kelly">Zen and the Art of the Controller</a></h4>
+          <footer>
+            <div class="recorded">2016-05-04</div>
+			
+			  <div>Length: 28:01</div>
+			
+			
+              <div>Views: 1458 Likes: 24</div>
+            
+            <div class="event">From <a href="/e/railsconf-2016">RailsConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-kelly">Michael Kelly</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLE7tQUdRKcyZGYLfj6oRQWPxB6ijg1YsC">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

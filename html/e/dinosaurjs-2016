@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>DinosaurJS</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>DinosaurJS</h1>
+
+<div><a href="https://dinosaurjs.org/">DinosaurJS</a></div>
+
+
+<div>Start date: 2016-06-24</div>
+<div>End date: 2016-06-24</div>
+
+<div>Location:
+  Denver
+  Colorado
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="https://dinosaurjs.org/code-of-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=DinosaurJS%20on%202016-06-24%20in%20Denver%2C%20Colorado%20USA%20https%3A//dinosaurjs.org/%20%23JavaScript%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/dinosaurjs-2016/dinosaurjs-2016-jenna-zeigen-server-farm-to-table"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yK5G4VnMGpo/hqdefault.jpg" alt="Server Farm to Table or, how the Internet works" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/dinosaurjs-2016/dinosaurjs-2016-jenna-zeigen-server-farm-to-table">Server Farm to Table or, how the Internet works</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 26:33</div>
+			
+			
+            <div class="event">From <a href="/e/dinosaurjs-2016">DinosaurJS</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jenna-zeigen">Jenna Zeigen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/dinosaurjs-2016/dinosaurjs-2016-mark-dimarco-whatever-happened-to-those-dinosaurs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kQphswa7Yds/hqdefault.jpg" alt="Whatever Happened To Those Dinosaurs - visualizing Asteroids using D3.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/dinosaurjs-2016/dinosaurjs-2016-mark-dimarco-whatever-happened-to-those-dinosaurs">Whatever Happened To Those Dinosaurs - visualizing Asteroids using D3.js</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 25:11</div>
+			
+			
+            <div class="event">From <a href="/e/dinosaurjs-2016">DinosaurJS</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-dimarco">Mark DiMarco</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/dinosaurjs-2016/dinosaurjs-2016-mike-taylor-doing-the-unstuck"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BXQcLomMoKc/hqdefault.jpg" alt="Doing The Unstuck: How To Make Browsers Compatible with Web JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/dinosaurjs-2016/dinosaurjs-2016-mike-taylor-doing-the-unstuck">Doing The Unstuck: How To Make Browsers Compatible with Web JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 30:10</div>
+			
+			
+            <div class="event">From <a href="/e/dinosaurjs-2016">DinosaurJS</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-taylor">Mike Taylor</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/dinosaurjs-2016/dinosaurjs-2016-rachel-white-javascript-as-play"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MUeUYEzpTgc/hqdefault.jpg" alt="JavaScript as Play" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/dinosaurjs-2016/dinosaurjs-2016-rachel-white-javascript-as-play">JavaScript as Play</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 29:14</div>
+			
+			
+              <div>Views: 14 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/dinosaurjs-2016">DinosaurJS</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rachel-white">Rachel White</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/dinosaurjs-2016/dinosaurjs-2016-recap"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ueExmSBznpY/hqdefault.jpg" alt="Dinosaur.js 2016 Recap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/dinosaurjs-2016/dinosaurjs-2016-recap">Dinosaur.js 2016 Recap</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 01:19</div>
+			
+			
+              <div>Views: 65 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/dinosaurjs-2016">DinosaurJS</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/dinosaurjs-2016/dinosaurjs-joanne-cheng-getting-started-with-webgl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YcVaC7iSaFY/hqdefault.jpg" alt="Getting Started with WebGL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/dinosaurjs-2016/dinosaurjs-joanne-cheng-getting-started-with-webgl">Getting Started with WebGL</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 29:22</div>
+			
+			
+              <div>Views: 14 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/dinosaurjs-2016">DinosaurJS</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joanne-cheng">Joanne Cheng</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLw7UYp3N0eUafmV1LrTgsAlLX-VzdCtIu">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

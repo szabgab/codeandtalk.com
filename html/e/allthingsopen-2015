@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>All Things Open 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>All Things Open 2015</h1>
+
+<div><a href="https://allthingsopen.org/2015">All Things Open 2015</a></div>
+
+
+<div>Start date: 2015-10-19</div>
+<div>End date: 2015-10-20</div>
+
+<div>Location:
+  Raleigh
+  North Carolina
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="https://allthingsopen.org/code-of-conduct/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/devops">DevOps</a> 
+   
+       <a href="/t/databases">databases</a> 
+   
+       <a href="/t/bigdata">BigData</a> 
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/python">Python</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/AllThingsOpen">@AllThingsOpen</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/AllThingsOpen">https://www.facebook.com/AllThingsOpen</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=All%20Things%20Open%202015%20on%202015-10-19%20in%20Raleigh%2C%20North%20Carolina%20USA%20%40AllThingsOpen%20https%3A//allthingsopen.org/2015%20%23DevOps%20%23databases%20%23BigData%20%23JavaScript%20%23Python%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-aaron-huslage-docker-everything-you-should-know"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ymzPw1xfPBA/hqdefault.jpg" alt="Docker: Everything you should know" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-aaron-huslage-docker-everything-you-should-know">Docker: Everything you should know</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 52:38</div>
+			
+			
+              <div>Views: 73 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aaron-huslage">Aaron Huslage</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-adrian-pomillo-teradata-the-lonely-road-of-svg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Hrnkrq85TM0/hqdefault.jpg" alt="Teradata | The Lonely Road of SVG" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-adrian-pomillo-teradata-the-lonely-road-of-svg">Teradata | The Lonely Road of SVG</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 44:28</div>
+			
+			
+              <div>Views: 17 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adrian-pomillo">Adrian Pomillo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-andy-watson-ionic-security-how-to-build-your-first-web-app-in-go"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rOcAvXYrwsw/hqdefault.jpg" alt="Ionic Security | How to Build your First Web App in Go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-andy-watson-ionic-security-how-to-build-your-first-web-app-in-go">Ionic Security | How to Build your First Web App in Go</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 38:53</div>
+			
+			
+              <div>Views: 77 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andy-watson">Andy Watson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-bermon-painter-cardinal-solutions-improve-your-workflow-with-modular-sass-75f047"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TJHYoIrfSck/hqdefault.jpg" alt="All Things Open 2015 | Bermon Painter - Cardinal Solutions | Improve your Workflow with Modular Sass" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-bermon-painter-cardinal-solutions-improve-your-workflow-with-modular-sass-75f047">All Things Open 2015 | Bermon Painter - Cardinal Solutions | Improve your Workflow with Modular Sass</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 40:09</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-bermon-painter-cardinal-solutions-improve-your-workflow-with-modular-sass"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TJHYoIrfSck/hqdefault.jpg" alt="Cardinal Solutions | Improve your Workflow with Modular Sass" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-bermon-painter-cardinal-solutions-improve-your-workflow-with-modular-sass">Cardinal Solutions | Improve your Workflow with Modular Sass</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 40:09</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bermon-painter">Bermon Painter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-brad-blake-phase2-performance-profiling-tools-and-tricks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hsj0clNybng/hqdefault.jpg" alt="Phase2 | Performance Profiling Tools and Tricks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-brad-blake-phase2-performance-profiling-tools-and-tricks">Phase2 | Performance Profiling Tools and Tricks</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 40:51</div>
+			
+			
+              <div>Views: 20 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brad-blake">Brad Blake</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-brandon-philips-coreos-application-containers-stack-rkt-to-kubernetes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F8qBqcF94Zg/hqdefault.jpg" alt="CoreOS | Application Containers Stack, RKT to Kubernetes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-brandon-philips-coreos-application-containers-stack-rkt-to-kubernetes">CoreOS | Application Containers Stack, RKT to Kubernetes</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 43:15</div>
+			
+			
+              <div>Views: 139 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brandon-philips">Brandon Philips</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-brendan-lee-52-inc-open-source-for-the-ios-developer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BqrO2UySP6Q/hqdefault.jpg" alt="52 Inc. | Open Source for the IOS Developer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-brendan-lee-52-inc-open-source-for-the-ios-developer">52 Inc. | Open Source for the IOS Developer</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 38:21</div>
+			
+			
+              <div>Views: 9 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brendan-lee">Brendan Lee</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-bryan-powell-metabahn-building-apps-without-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GczaIFH0wIY/hqdefault.jpg" alt="Metabahn | Building Apps without Javascript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-bryan-powell-metabahn-building-apps-without-javascript">Metabahn | Building Apps without Javascript</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 27:24</div>
+			
+			
+              <div>Views: 9 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bryan-powell">Bryan Powell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-carina-c-zona-callbackwomen-consequences-of-an-insightful-algorithm"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1H9NrgyUw3Q/hqdefault.jpg" alt="CallbackWomen | Consequences of an Insightful Algorithm" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-carina-c-zona-callbackwomen-consequences-of-an-insightful-algorithm">CallbackWomen | Consequences of an Insightful Algorithm</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 36:50</div>
+			
+			
+              <div>Views: 13 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/carina-c-zona">Carina C. Zona</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-carlos-santana-ibm-building-enterprise-apps-using"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4fTCs18V9v4/hqdefault.jpg" alt="IBM | Building Enterprise Apps using" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-carlos-santana-ibm-building-enterprise-apps-using">IBM | Building Enterprise Apps using</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 42:14</div>
+			
+			
+              <div>Views: 22 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/carlos-santana">Carlos Santana</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-chris-hoge-openstack-foundation-interoperability-at-openstack"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v45yWVf5B1g/hqdefault.jpg" alt="OpenStack Foundation | Interoperability at Openstack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-chris-hoge-openstack-foundation-interoperability-at-openstack">OpenStack Foundation | Interoperability at Openstack</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 31:03</div>
+			
+			
+              <div>Views: 25 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-hoge">Chris Hoge</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-christian-heilmann-microsoft-the-es6-for-smart-devices"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0G4MNHA_TlM/hqdefault.jpg" alt="Microsoft | The ES6 for Smart Devices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-christian-heilmann-microsoft-the-es6-for-smart-devices">Microsoft | The ES6 for Smart Devices</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 32:51</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christian-heilmann">Christian Heilmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-christine-abernathy-facebook-react-native"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qDAMcunuI48/hqdefault.jpg" alt="Facebook | React Native" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-christine-abernathy-facebook-react-native">Facebook | React Native</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 41:02</div>
+			
+			
+              <div>Views: 66 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christine-abernathy">Christine Abernathy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-cynthia-savard-saucier-shopify-hostile-design"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0w_lBWmmYPY/hqdefault.jpg" alt="Shopify | Hostile Design" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-cynthia-savard-saucier-shopify-hostile-design">Shopify | Hostile Design</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 40:20</div>
+			
+			
+              <div>Views: 83 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cynthia-savard-saucier">Cynthia Savard Saucier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-garth-braithwaite-adobe-opensource-is-ugly-improving-ui-and-ux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vBAHGSm7Mt4/hqdefault.jpg" alt="Adobe | OpenSource is Ugly: Improving UI and UX" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-garth-braithwaite-adobe-opensource-is-ugly-improving-ui-and-ux">Adobe | OpenSource is Ugly: Improving UI and UX</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 39:42</div>
+			
+			
+              <div>Views: 24 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/garth-braithwaite">Garth Braithwaite</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-greg-dekoenigsberg-ansible-containers-and-configuration-management"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hHsytHvdbTA/hqdefault.jpg" alt="Ansible | Containers and Configuration Management" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-greg-dekoenigsberg-ansible-containers-and-configuration-management">Ansible | Containers and Configuration Management</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 30:12</div>
+			
+			
+              <div>Views: 132 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/greg-dekoenigsberg">Greg DeKoenigsberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-gunmar-wagenknecht-tasktop-contributing-to-open-source"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mXC8fBoKHd8/hqdefault.jpg" alt="Tasktop | Contributing to Open Source" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-gunmar-wagenknecht-tasktop-contributing-to-open-source">Tasktop | Contributing to Open Source</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 52:02</div>
+			
+			
+              <div>Views: 12 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gunnar-wagenknecht">Gunnar Wagenknecht</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-hampton-lintorn-catlin-wordiest-sass-101"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WKdyfPSzW_c/hqdefault.jpg" alt="Wordiest | Sass 101" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-hampton-lintorn-catlin-wordiest-sass-101">Wordiest | Sass 101</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 41:28</div>
+			
+			
+              <div>Views: 25 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hampton-lintorn-catlin">Hampton Lintorn Catlin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-heather-meeker-omelveny-and-myers-llp-setting-your-could-free"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DFMQHbx6FfE/hqdefault.jpg" alt="O'Melveny and Myers LLP | Setting your Could Free" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-heather-meeker-omelveny-and-myers-llp-setting-your-could-free">O'Melveny and Myers LLP | Setting your Could Free</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 44:19</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/heather-meeker">Heather Meeker</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-jade-applegate-fastly-secure-by-design"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1s_yPSExvrU/hqdefault.jpg" alt="Fastly | Secure by Design" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-jade-applegate-fastly-secure-by-design">Fastly | Secure by Design</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 29:55</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jade-applegate">Jade Applegate</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-jakub-jedryszek-microsoft-tdd-with-typescript-angularjs-and-nodejs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/U_jAuqjn1B0/hqdefault.jpg" alt="Microsoft | TDD with TypeScript, AngularJS and Node.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-jakub-jedryszek-microsoft-tdd-with-typescript-angularjs-and-nodejs">Microsoft | TDD with TypeScript, AngularJS and Node.js</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 36:36</div>
+			
+			
+              <div>Views: 118 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jakub-jedryszek">Jakub Jedryszek</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-jeff-dickey-heroku-writing-modern-web-applications-with-the-mean-stack"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9JVT4REY904/hqdefault.jpg" alt="Heroku | Writing Modern Web Applications with the MEAN Stack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-jeff-dickey-heroku-writing-modern-web-applications-with-the-mean-stack">Heroku | Writing Modern Web Applications with the MEAN Stack</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 25:46</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeff-dickey">Jeff Dickey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-jeff-gehlback-opennms-managing-networks-in-a-software-defined-future"><img class="list-thumbnail" src="https://i.ytimg.com/vi/q-YQbIXoEaM/hqdefault.jpg" alt="OpenNMS | Managing Networks in a Software Defined Future" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-jeff-gehlback-opennms-managing-networks-in-a-software-defined-future">OpenNMS | Managing Networks in a Software Defined Future</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 27:16</div>
+			
+			
+              <div>Views: 31 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeff-gehlbach">Jeff Gehlbach</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-jeff-prestes-braintree-paypal-beacon-squared"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qx-Czq9XefA/hqdefault.jpg" alt="Braintree / Paypal | Beacon Squared" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-jeff-prestes-braintree-paypal-beacon-squared">Braintree / Paypal | Beacon Squared</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 35:48</div>
+			
+			
+              <div>Views: 14 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeff-prestes">Jeff Prestes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-john-wargo-forrester-research-apache-cordova"><img class="list-thumbnail" src="https://i.ytimg.com/vi/p16dGRsdJb8/hqdefault.jpg" alt="Forrester Research | Apache Cordova" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-john-wargo-forrester-research-apache-cordova">Forrester Research | Apache Cordova</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 33:35</div>
+			
+			
+              <div>Views: 10 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-wargo">John Wargo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-joshua-mckenty-pivotal-software-inc-cloud-founder-extended-session"><img class="list-thumbnail" src="https://i.ytimg.com/vi/r0Li09FTyYk/hqdefault.jpg" alt="Pivotal Software Inc | Cloud Founder Extended Session" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-joshua-mckenty-pivotal-software-inc-cloud-founder-extended-session">Pivotal Software Inc | Cloud Founder Extended Session</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 01:21:20</div>
+			
+			
+              <div>Views: 40 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joshua-mckenty">Joshua McKenty</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-kevin-hennessy-applied-information-sciences-angular-20"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DMKs6iEVCEM/hqdefault.jpg" alt="Applied Information Sciences | Angular 2.0" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-kevin-hennessy-applied-information-sciences-angular-20">Applied Information Sciences | Angular 2.0</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 36:55</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kevin-hennessy">Kevin Hennessy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-keynote-harper-reed-ceo-modest-inc"><img class="list-thumbnail" src="https://i.ytimg.com/vi/301MahaUUpE/hqdefault.jpg" alt="Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-keynote-harper-reed-ceo-modest-inc">Keynote</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 25:05</div>
+			
+			
+              <div>Views: 74 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/harper-reed">Harper Reed</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-keynote-panel-hosted-by-delisa-alexander-with-simard-templeton-and-ruff"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HQrkgyArV5k/hqdefault.jpg" alt="Keynote Panel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-keynote-panel-hosted-by-delisa-alexander-with-simard-templeton-and-ruff">Keynote Panel</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 38:26</div>
+			
+			
+              <div>Views: 363 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/caroline-simard">Caroline Simard</a>
+             
+                <a href="/p/john-william-templeton">John William Templeton</a>
+             
+                <a href="/p/delisa-alexander">Delisa Alexander</a>
+             
+                <a href="/p/nithya-ruff">Nithya Ruff</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-keynotes-mark-russinovich-isabel-jimenez-jono-bacon-joshua-mckenty"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4toYR5k_ggE/hqdefault.jpg" alt="Keynotes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-keynotes-mark-russinovich-isabel-jimenez-jono-bacon-joshua-mckenty">Keynotes</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 01:06:05</div>
+			
+			
+              <div>Views: 107 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-russinovich">Mark Russinovich</a>
+             
+                <a href="/p/isabel-jimenez">Isabel Jimenez</a>
+             
+                <a href="/p/joshua-mckenty">Joshua McKenty</a>
+             
+                <a href="/p/jono-bacon">Jono Bacon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-keynotes-mark-skarpness-sarah-novotny-brandon-philips-and-jim-whitehurst"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dAPWmP2ktnk/hqdefault.jpg" alt="Keynotes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-keynotes-mark-skarpness-sarah-novotny-brandon-philips-and-jim-whitehurst">Keynotes</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 01:13:47</div>
+			
+			
+              <div>Views: 75 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-skarpness">Mark Skarpness</a>
+             
+                <a href="/p/brandon-philips">Brandon Philips</a>
+             
+                <a href="/p/sarah-novotny">Sarah Novotny</a>
+             
+                <a href="/p/jim-whitehurst">Jim Whitehurst</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-keynotes-pam-selle-thewebivorecom-christian-hielmann-microsoft"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xpcmvbsLGz4/hqdefault.jpg" alt="Keynotes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-keynotes-pam-selle-thewebivorecom-christian-hielmann-microsoft">Keynotes</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 45:07</div>
+			
+			
+              <div>Views: 22 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pam-selle">Pam Selle</a>
+             
+                <a href="/p/christian-heilmann">Christian Heilmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-lee-faus-github-delivery-free-of-charge"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6UeXzlwebsM/hqdefault.jpg" alt="GitHub | Delivery Free of Charge" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-lee-faus-github-delivery-free-of-charge">GitHub | Delivery Free of Charge</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 45:24</div>
+			
+			
+              <div>Views: 267 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lee-faus">Lee Faus</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-lee-faus-github-github-101-an-introduction"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xyTEkNcpyHU/hqdefault.jpg" alt="Github 101: An Introduction" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-lee-faus-github-github-101-an-introduction">Github 101: An Introduction</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 42:00</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lee-faus">Lee Faus</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-lightning-talks-hosted-by-opensourcecom"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iPcRpEYpbLg/hqdefault.jpg" alt="All Things Open 2015 | Lightning Talks, Hosted by Opensource.com" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-lightning-talks-hosted-by-opensourcecom">All Things Open 2015 | Lightning Talks, Hosted by Opensource.com</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 42:37</div>
+			
+			
+              <div>Views: 49 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-mark-hinkle-citrix-cloud-20-75f1ad"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DOMWfKu4z60/hqdefault.jpg" alt="All Things Open 2015 | Mark Hinkle - Citrix | Cloud 2.0" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-mark-hinkle-citrix-cloud-20-75f1ad">All Things Open 2015 | Mark Hinkle - Citrix | Cloud 2.0</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 44:48</div>
+			
+			
+              <div>Views: 4 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-mark-hinkle-citrix-cloud-20"><img class="list-thumbnail" src="https://i.ytimg.com/vi/reICa7QF_zI/hqdefault.jpg" alt="Citrix | Cloud 2.0" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-mark-hinkle-citrix-cloud-20">Citrix | Cloud 2.0</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 36:00</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-hinkle">Mark Hinkle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-mark-voelker-vmware-openstack-101"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1ltHB_GcFHA/hqdefault.jpg" alt="VMware | Openstack 101" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-mark-voelker-vmware-openstack-101">VMware | Openstack 101</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 37:51</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-t-voelker">Mark T. Voelker</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-michael-hausenblas-mesosphere-inc-container-orchestration"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lwbeOBDG2cc/hqdefault.jpg" alt="Mesosphere Inc. | Container Orchestration" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-michael-hausenblas-mesosphere-inc-container-orchestration">Mesosphere Inc. | Container Orchestration</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 23:49</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-hausenblas">Michael Hausenblas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-michael-laing-new-york-times-the-current-messaging-landscape"><img class="list-thumbnail" src="https://i.ytimg.com/vi/maryZ5ROh74/hqdefault.jpg" alt="New York Times | The Current Messaging Landscape" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-michael-laing-new-york-times-the-current-messaging-landscape">New York Times | The Current Messaging Landscape</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 35:37</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-laing">Michael Laing</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-nathan-harvey-food-fight-show-chef-rails-infrastructure-with-chef"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rjL_BnsNGWg/hqdefault.jpg" alt="Food Fight Show / Chef | Rails Infrastructure with Chef" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-nathan-harvey-food-fight-show-chef-rails-infrastructure-with-chef">Food Fight Show / Chef | Rails Infrastructure with Chef</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 43:00</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nathan-harvey">Nathan Harvey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-pam-seele-thewebivorecom-choosing-a-front-end-framework"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QjTztHlypAI/hqdefault.jpg" alt="Choosing a Front End Framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-pam-seele-thewebivorecom-choosing-a-front-end-framework">Choosing a Front End Framework</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 37:47</div>
+			
+			
+              <div>Views: 33 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pam-selle">Pam Selle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-pam-selle-choosing-a-javascript-framework-75f02a"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oSpQtTmeFKU/hqdefault.jpg" alt="All Things Open 2015 | Pam Selle | Choosing a Javascript Framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-pam-selle-choosing-a-javascript-framework-75f02a">All Things Open 2015 | Pam Selle | Choosing a Javascript Framework</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 39:35</div>
+			
+			
+              <div>Views: 30 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-pam-selle-choosing-a-javascript-framework"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oSpQtTmeFKU/hqdefault.jpg" alt="Choosing a Javascript Framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-pam-selle-choosing-a-javascript-framework">Choosing a Javascript Framework</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 39:35</div>
+			
+			
+              <div>Views: 30 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pam-selle">Pam Selle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-russel-havlicek-citrix-the-next-generation-cloud-power-of-unikernal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PlJ07AAq_yY/hqdefault.jpg" alt="The Next Generation Cloud: Power of Unikernal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-russel-havlicek-citrix-the-next-generation-cloud-power-of-unikernal">The Next Generation Cloud: Power of Unikernal</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 45:01</div>
+			
+			
+              <div>Views: 54 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/russel-havlicek">Russel Havlicek</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-sean-cavanaugh-cumulus-networks-using-devops-tools-modern-data-centers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vXRgb7vbSWU/hqdefault.jpg" alt="Cumulus Networks | Using Devops Tools Modern Data Centers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-sean-cavanaugh-cumulus-networks-using-devops-tools-modern-data-centers">Cumulus Networks | Using Devops Tools Modern Data Centers</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 38:54</div>
+			
+			
+              <div>Views: 171 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-cavanaugh">Sean Cavanaugh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-seth-vargo-hashicorp-vagrant-101-development-environments"><img class="list-thumbnail" src="https://i.ytimg.com/vi/M19V1TzR0cc/hqdefault.jpg" alt="HashiCorp | Vagrant 101: Development Environments" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-seth-vargo-hashicorp-vagrant-101-development-environments">HashiCorp | Vagrant 101: Development Environments</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 45:08</div>
+			
+			
+              <div>Views: 60 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/seth-vargo">Seth Vargo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-shay-howe-belly-how-constraints-cultivate-growth"><img class="list-thumbnail" src="https://i.ytimg.com/vi/t_KkJEDej3A/hqdefault.jpg" alt="Belly | How Constraints Cultivate Growth" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-shay-howe-belly-how-constraints-cultivate-growth">Belly | How Constraints Cultivate Growth</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 39:30</div>
+			
+			
+              <div>Views: 22 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shay-howe">Shay Howe</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-steve-klabnik-author-rust-core-contributor-conventional-apis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5KtEjc-8Dzo/hqdefault.jpg" alt="Conventional APIs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-steve-klabnik-author-rust-core-contributor-conventional-apis">Conventional APIs</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 27:54</div>
+			
+			
+              <div>Views: 49 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-klabnik">Steve Klabnik</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-theresa-neil-smart-apps-for-smart-devices"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aY3LOZ6O2l0/hqdefault.jpg" alt="Smart Apps for Smart Devices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-theresa-neil-smart-apps-for-smart-devices">Smart Apps for Smart Devices</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 01:25:11</div>
+			
+			
+              <div>Views: 22 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/theresa-neil">Theresa Neil</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-thomas-cameron-red-hat-containers-and-security"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TXMQ09r3t4I/hqdefault.jpg" alt="Containers and Security" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-thomas-cameron-red-hat-containers-and-security">Containers and Security</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 34:37</div>
+			
+			
+              <div>Views: 75 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-cameron">Thomas Cameron</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-vicky-brasseur-internet-archive-universal-access-open-apis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/H1TRGeUWpX8/hqdefault.jpg" alt="Universal Access. Open APIs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-vicky-brasseur-internet-archive-universal-access-open-apis">Universal Access. Open APIs</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 47:11</div>
+			
+			
+              <div>Views: 31 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vicky-brasseur">Vicky Brasseur</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-william-hoang-couchbase-inc-no-bars-no-problem"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fXAVMi4uvTY/hqdefault.jpg" alt="No Bars No Problem!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-william-hoang-couchbase-inc-no-bars-no-problem">No Bars No Problem!</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 34:25</div>
+			
+			
+              <div>Views: 70 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/william-hoang">William Hoang</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/allthingsopen-2015/all-things-open-2015-yehuda-katz-tilde-emberjs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Eaaa182aYQg/hqdefault.jpg" alt="Ember.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/allthingsopen-2015/all-things-open-2015-yehuda-katz-tilde-emberjs">Ember.js</a></h4>
+          <footer>
+            <div class="recorded">2015-10-19</div>
+			
+			  <div>Length: 43:37</div>
+			
+			
+              <div>Views: 168 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/allthingsopen-2015">All Things Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yehuda-katz">Yehuda Katz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL6kQg8bP1Ji4kIBNOu60PyAQ8ZIh246KT">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

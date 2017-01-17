@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Postgres Open 2012</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Postgres Open 2012</h1>
+
+<div><a href="https://wiki.postgresql.org/wiki/Postgres_Open_2012">Postgres Open 2012</a></div>
+
+
+<div>Start date: 2012-09-17</div>
+<div>End date: 2012-09-19</div>
+
+<div>Location:
+  Chicago
+  Illinois
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/postgresql">PostgreSQL</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/postgresopen">@postgresopen</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/PostgresOpen">https://www.facebook.com/PostgresOpen</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Postgres%20Open%202012%20on%202012-09-17%20in%20Chicago%2C%20Illinois%20USA%20%40postgresopen%20https%3A//wiki.postgresql.org/wiki/Postgres_Open_2012%20%23PostgreSQL%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/amit-khandekar-a-shared-nothing-cluster-system-postgres-xc"><img class="list-thumbnail" src="https://i.ytimg.com/vi/J8fNAQcfOKI/hqdefault.jpg" alt="Amit Khandekar: A Shared nothing Cluster System   Postgres XC" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/amit-khandekar-a-shared-nothing-cluster-system-postgres-xc">Amit Khandekar: A Shared nothing Cluster System   Postgres XC</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 55:54</div>
+			
+			
+              <div>Views: 485 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/andrew-dunstan-retail-ddl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fBarFKOL3SI/hqdefault.jpg" alt="Andrew Dunstan: Retail DDL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/andrew-dunstan-retail-ddl">Andrew Dunstan: Retail DDL</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 40:49</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/ashutosh-bapat-scaling-out-by-distributing-and-replicating-data-in-postgres-xc"><img class="list-thumbnail" src="https://i.ytimg.com/vi/T1OPKvyj87Q/hqdefault.jpg" alt="Ashutosh Bapat: Scaling out by distributing and replicating data in Postgres XC" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/ashutosh-bapat-scaling-out-by-distributing-and-replicating-data-in-postgres-xc">Ashutosh Bapat: Scaling out by distributing and replicating data in Postgres XC</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 54:02</div>
+			
+			
+              <div>Views: 499 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/bruce-momjian-programming-the-sql-way-with-common-table-expressions"><img class="list-thumbnail" src="https://i.ytimg.com/vi/prKzF93N7z0/hqdefault.jpg" alt="Bruce Momjian: Programming the SQL Way with Common Table Expressions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/bruce-momjian-programming-the-sql-way-with-common-table-expressions">Bruce Momjian: Programming the SQL Way with Common Table Expressions</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 57:20</div>
+			
+			
+              <div>Views: 509 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/christine-normile-translattice-elastic-database-architecture-deep-dive"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wNe0YgEedt4/hqdefault.jpg" alt="Christine Normile: TransLattice Elastic Database Architecture Deep Dive" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/christine-normile-translattice-elastic-database-architecture-deep-dive">Christine Normile: TransLattice Elastic Database Architecture Deep Dive</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 59:29</div>
+			
+			
+              <div>Views: 173 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/christophe-pettus-postgresql-when-its-not-your-job"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fva7qn9Yg3o/hqdefault.jpg" alt="Christophe Pettus: PostgreSQL When It's Not Your Job" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/christophe-pettus-postgresql-when-its-not-your-job">Christophe Pettus: PostgreSQL When It's Not Your Job</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 57:28</div>
+			
+			
+              <div>Views: 1129 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/dan-scott-full-text-search-seek-and-ye-shall-find"><img class="list-thumbnail" src="https://i.ytimg.com/vi/R6nT6UgY7k4/hqdefault.jpg" alt="Dan Scott: Full-text search - seek and ye shall find" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/dan-scott-full-text-search-seek-and-ye-shall-find">Dan Scott: Full-text search - seek and ye shall find</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 59:26</div>
+			
+			
+              <div>Views: 256 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/david-benoit-an-object-oriented-approach-to-data-driven-software-development"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UotbO1_l5Uo/hqdefault.jpg" alt="David Benoit: An Object Oriented Approach to Data Driven Software Development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/david-benoit-an-object-oriented-approach-to-data-driven-software-development">David Benoit: An Object Oriented Approach to Data Driven Software Development</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 40:46</div>
+			
+			
+              <div>Views: 454 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/david-christensen-choosing-a-logical-replication-system-slony-vs-bucardo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ePnQtr9ZHDw/hqdefault.jpg" alt="David Christensen: Choosing a logical replication system:  Slony vs Bucardo" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/david-christensen-choosing-a-logical-replication-system-slony-vs-bucardo">David Christensen: Choosing a logical replication system:  Slony vs Bucardo</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 47:04</div>
+			
+			
+              <div>Views: 881 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/denish-patel-deploying-maximum-ha-architecture-with-postgres"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wnbbE2Q7VKI/hqdefault.jpg" alt="Denish Patel: Deploying Maximum HA Architecture With Postgres" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/denish-patel-deploying-maximum-ha-architecture-with-postgres">Denish Patel: Deploying Maximum HA Architecture With Postgres</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 46:27</div>
+			
+			
+              <div>Views: 228 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/dimitri-fontaine-large-scale-mysql-migration-to-postgresql"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7PlbCbiCFng/hqdefault.jpg" alt="Dimitri Fontaine: Large Scale MySQL Migration to PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/dimitri-fontaine-large-scale-mysql-migration-to-postgresql">Dimitri Fontaine: Large Scale MySQL Migration to PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 58:40</div>
+			
+			
+              <div>Views: 785 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/gabrielle-roth-logging-not-just-for-lumberjacks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/suah_VEX5Ro/hqdefault.jpg" alt="Gabrielle Roth: Logging  Not Just for Lumberjacks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/gabrielle-roth-logging-not-just-for-lumberjacks">Gabrielle Roth: Logging  Not Just for Lumberjacks</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 42:42</div>
+			
+			
+              <div>Views: 83 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/greg-smith-query-logging-and-workload-analysis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nmyUL8s-5WE/hqdefault.jpg" alt="Greg Smith: Query Logging and Workload Analysis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/greg-smith-query-logging-and-workload-analysis">Greg Smith: Query Logging and Workload Analysis</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 57:10</div>
+			
+			
+              <div>Views: 346 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/ines-sombra-postgres-is-the-new-default"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sFfJjfOk9NA/hqdefault.jpg" alt="Ines Sombra: Postgres is the new default" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/ines-sombra-postgres-is-the-new-default">Ines Sombra: Postgres is the new default</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 31:19</div>
+			
+			
+              <div>Views: 102 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/jeff-davis-temporal-database-demo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Hn1O8xlGL8A/hqdefault.jpg" alt="Jeff Davis: Temporal Database Demo" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/jeff-davis-temporal-database-demo">Jeff Davis: Temporal Database Demo</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 01:02:44</div>
+			
+			
+              <div>Views: 1475 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/jignesh-shah-dvdstore-benchmark-and-postgresql"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zPCpUwiZZdE/hqdefault.jpg" alt="Jignesh Shah: DVDStore Benchmark and PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/jignesh-shah-dvdstore-benchmark-and-postgresql">Jignesh Shah: DVDStore Benchmark and PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 54:01</div>
+			
+			
+              <div>Views: 191 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/john-melesky-postgresql-in-the-cloud-theory-and-practice"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4fIhhn74mtA/hqdefault.jpg" alt="John Melesky: PostgreSQL in the cloud:  Theory and Practice" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/john-melesky-postgresql-in-the-cloud-theory-and-practice">John Melesky: PostgreSQL in the cloud:  Theory and Practice</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 42:47</div>
+			
+			
+              <div>Views: 143 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/john-scott-12-calm-years-of-postgresql-in-critical-messaging"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pqUa4lXnS64/hqdefault.jpg" alt="John Scott: 12 Calm Years of PostgreSQL in Critical Messaging" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/john-scott-12-calm-years-of-postgresql-in-critical-messaging">John Scott: 12 Calm Years of PostgreSQL in Critical Messaging</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 55:28</div>
+			
+			
+              <div>Views: 144 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/jonathan-s-katz-range-types-in-postgresql-92-your-life-will-never-be-the-same"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XIcOf7r0dG4/hqdefault.jpg" alt="Jonathan S. Katz: Range Types in PostgreSQL 9.2 - Your Life Will Never Be the Same" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/jonathan-s-katz-range-types-in-postgresql-92-your-life-will-never-be-the-same">Jonathan S. Katz: Range Types in PostgreSQL 9.2 - Your Life Will Never Be the Same</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 49:54</div>
+			
+			
+              <div>Views: 361 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/josh-berkus-super-jumbo-delux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eH37pcvrmgs/hqdefault.jpg" alt="Josh Berkus: Super Jumbo Delux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/josh-berkus-super-jumbo-delux">Josh Berkus: Super Jumbo Delux</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 58:09</div>
+			
+			
+              <div>Views: 167 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/josiah-carlson-scaling-postgres-with-some-help-from-redis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UXnVYb-mqoo/hqdefault.jpg" alt="Josiah Carlson: Scaling Postgres With Some Help from Redis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/josiah-carlson-scaling-postgres-with-some-help-from-redis">Josiah Carlson: Scaling Postgres With Some Help from Redis</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 49:35</div>
+			
+			
+              <div>Views: 431 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/keith-fiske-pg-extractor-a-smarter-pg-dump"><img class="list-thumbnail" src="https://i.ytimg.com/vi/a7P4TV8xUOM/hqdefault.jpg" alt="Keith Fiske: PG Extractor - A smarter pg dump" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/keith-fiske-pg-extractor-a-smarter-pg-dump">Keith Fiske: PG Extractor - A smarter pg dump</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 24:36</div>
+			
+			
+              <div>Views: 206 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/keynote-jacob-kaplan-moss"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uQrzXbh9zEw/hqdefault.jpg" alt="Keynote: Jacob Kaplan-Moss" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/keynote-jacob-kaplan-moss">Keynote: Jacob Kaplan-Moss</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 55:38</div>
+			
+			
+              <div>Views: 356 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/magnus-hagander-postgresql-backup-strategies"><img class="list-thumbnail" src="https://i.ytimg.com/vi/k_btzrKGFlM/hqdefault.jpg" alt="Magnus Hagander: PostgreSQL Backup Strategies" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/magnus-hagander-postgresql-backup-strategies">Magnus Hagander: PostgreSQL Backup Strategies</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 56:02</div>
+			
+			
+              <div>Views: 332 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/ori-herrnstadt-how-akiban-implemented-a-new-database-compatible-with-the-postgresql-protocol"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2P1gcuTAzU8/hqdefault.jpg" alt="Ori Herrnstadt: How Akiban Implemented a New Database Compatible with the PostgreSQL Protocol" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/ori-herrnstadt-how-akiban-implemented-a-new-database-compatible-with-the-postgresql-protocol">Ori Herrnstadt: How Akiban Implemented a New Database Compatible with the PostgreSQL Protocol</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 55:12</div>
+			
+			
+              <div>Views: 80 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/paul-ramsey-this-is-postgis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LSLxLYg3SoA/hqdefault.jpg" alt="Paul Ramsey: This Is PostGIS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/paul-ramsey-this-is-postgis">Paul Ramsey: This Is PostGIS</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 53:13</div>
+			
+			
+              <div>Views: 1291 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/peter-geoghegan-a-batch-of-commit-batching"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CQL954IrJRA/hqdefault.jpg" alt="Peter Geoghegan: A Batch of Commit Batching" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/peter-geoghegan-a-batch-of-commit-batching">Peter Geoghegan: A Batch of Commit Batching</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 46:39</div>
+			
+			
+              <div>Views: 66 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/robert-haas-performance-improvements-in-postgresql9-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QS76_Ma-Tpg/hqdefault.jpg" alt="Robert Haas: Performance Improvements in PostgreSQL9 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/robert-haas-performance-improvements-in-postgresql9-2">Robert Haas: Performance Improvements in PostgreSQL9 2</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 55:47</div>
+			
+			
+              <div>Views: 131 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/shaun-m-thomas-high-availability-with-postgresql-and-pacemaker"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xxKcEUclhZw/hqdefault.jpg" alt="Shaun M. Thomas: High Availability with PostgreSQL and Pacemaker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/shaun-m-thomas-high-availability-with-postgresql-and-pacemaker">Shaun M. Thomas: High Availability with PostgreSQL and Pacemaker</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 55:26</div>
+			
+			
+              <div>Views: 760 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/taras-mitran-leveraging-plv8-in-javascript-heavy-web-applications"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7IscoJYRVe4/hqdefault.jpg" alt="Taras Mitran: Leveraging PLV8 in Javascript heavy Web Applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/taras-mitran-leveraging-plv8-in-javascript-heavy-web-applications">Taras Mitran: Leveraging PLV8 in Javascript heavy Web Applications</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 20:09</div>
+			
+			
+              <div>Views: 259 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2012/will-leinweber-embracing-the-web-with-json-and-plv8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mu2xhd8H5Vw/hqdefault.jpg" alt="Will Leinweber: Embracing the Web with JSON and PLV8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2012/will-leinweber-embracing-the-web-with-json-and-plv8">Will Leinweber: Embracing the Web with JSON and PLV8</a></h4>
+          <footer>
+            <div class="recorded">2012-09-17</div>
+			
+			  <div>Length: 43:05</div>
+			
+			
+              <div>Views: 151 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2012">Postgres Open 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLN8NEqxwuywTdPQ4Zje3OcWRmvL3Q_QWc">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

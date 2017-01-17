@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>T-DOSE 2012</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>T-DOSE 2012</h1>
+
+<div><a href="http://www.t-dose.org/2012/schedule">T-DOSE 2012</a></div>
+
+
+<div>Start date: 2012-10-27</div>
+<div>End date: 2012-10-28</div>
+
+<div>Location:
+  Eindhoven
+  
+  <a href="/l/the-netherlands">The Netherlands</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/opensource">OpenSource</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/TDOSE">@TDOSE</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/tdosenl">https://www.facebook.com/tdosenl</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=T-DOSE%202012%20on%202012-10-27%20in%20Eindhoven%2C%20%20The%20Netherlands%20%40TDOSE%20http%3A//www.t-dose.org/2012/schedule%20%23OpenSource%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2012/t-dose-2012-klaas-van-gend-multithreaded-programming-with-the-new-c11-and-c11-standards"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gRe6Zh2M3zs/hqdefault.jpg" alt="Multithreaded Programming with the new C11 and C++11 standards" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2012/t-dose-2012-klaas-van-gend-multithreaded-programming-with-the-new-c11-and-c11-standards">Multithreaded Programming with the new C11 and C++11 standards</a></h4>
+          <footer>
+            <div class="recorded">2012-10-27</div>
+			
+			  <div>Length: 43:23</div>
+			
+			
+              <div>Views: 1094 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/t-dose-2012">T-DOSE 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/klaas-van-gend">Klaas van Gend</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2012/t-dose-2012-koen-kooi-supporting-200-different-expansionboards-the-broken-promise-of-devicetree"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MOhVdknBOkw/hqdefault.jpg" alt="Supporting 200 different expansionboards: the broken promise of devicetree" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2012/t-dose-2012-koen-kooi-supporting-200-different-expansionboards-the-broken-promise-of-devicetree">Supporting 200 different expansionboards: the broken promise of devicetree</a></h4>
+          <footer>
+            <div class="recorded">2012-10-27</div>
+			
+			  <div>Length: 43:59</div>
+			
+			
+              <div>Views: 295 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2012">T-DOSE 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/koen-kooi">Koen Kooi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2012/t-dose-2012-marcel-nijenhof-check_mk-how-to-configure-system-monitoring-with-nagios"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xVQO3DOH8W8/hqdefault.jpg" alt="Check_mk: How to configure system monitoring with nagios" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2012/t-dose-2012-marcel-nijenhof-check_mk-how-to-configure-system-monitoring-with-nagios">Check_mk: How to configure system monitoring with nagios</a></h4>
+          <footer>
+            <div class="recorded">2012-10-27</div>
+			
+			  <div>Length: 39:34</div>
+			
+			
+              <div>Views: 1406 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/t-dose-2012">T-DOSE 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marcel-nijenhof">Marcel Nijenhof</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2012/t-dose-2012-open-source-arnoud-engelfriet-software-patents-whats-the-problem"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X6SjVVg8k7k/hqdefault.jpg" alt="Software patents, what's the problem?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2012/t-dose-2012-open-source-arnoud-engelfriet-software-patents-whats-the-problem">Software patents, what's the problem?</a></h4>
+          <footer>
+            <div class="recorded">2012-10-27</div>
+			
+			  <div>Length: 01:02:03</div>
+			
+			
+              <div>Views: 216 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/t-dose-2012">T-DOSE 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/arnoud-engelfriet">Arnoud Engelfriet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2012/t-dose-2012-open-source-conferece-closure-by-jean-paul-saman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4qB5cPDgScE/hqdefault.jpg" alt="Conference Closure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2012/t-dose-2012-open-source-conferece-closure-by-jean-paul-saman">Conference Closure</a></h4>
+          <footer>
+            <div class="recorded">2012-10-27</div>
+			
+			  <div>Length: 03:04</div>
+			
+			
+              <div>Views: 56 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2012">T-DOSE 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jean-paul-saman">Jean-Paul Saman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2012/t-dose-2012-open-source-gerard-van-dijnsen-onlinespamfilternl-fighting-spammers-jiu-jitsu-style"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Yq-57YAoOLk/hqdefault.jpg" alt="Onlinespamfilter.nl, Fighting spammers Jiu-Jitsu style" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2012/t-dose-2012-open-source-gerard-van-dijnsen-onlinespamfilternl-fighting-spammers-jiu-jitsu-style">Onlinespamfilter.nl, Fighting spammers Jiu-Jitsu style</a></h4>
+          <footer>
+            <div class="recorded">2012-10-27</div>
+			
+			  <div>Length: 36:25</div>
+			
+			
+              <div>Views: 118 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/t-dose-2012">T-DOSE 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gerard-van-dijnsen">Gerard van Dijnsen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2012/t-dose-2012-open-source-gratien-dhaese-ad-hoc-copy-and-run-adhocr"><img class="list-thumbnail" src="https://i.ytimg.com/vi/z-7X80Hv4j4/hqdefault.jpg" alt="Ad-hoc Copy and Run (adhocr)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2012/t-dose-2012-open-source-gratien-dhaese-ad-hoc-copy-and-run-adhocr">Ad-hoc Copy and Run (adhocr)</a></h4>
+          <footer>
+            <div class="recorded">2012-10-27</div>
+			
+			  <div>Length: 50:04</div>
+			
+			
+              <div>Views: 98 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/t-dose-2012">T-DOSE 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gratien-dhaese">Gratien D'haese</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2012/t-dose-2012-open-source-hans-verkuil-video4linux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tpnTxs7ntb8/hqdefault.jpg" alt="Video4Linux: Current Status and Future Work." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2012/t-dose-2012-open-source-hans-verkuil-video4linux">Video4Linux: Current Status and Future Work.</a></h4>
+          <footer>
+            <div class="recorded">2012-10-27</div>
+			
+			  <div>Length: 45:53</div>
+			
+			
+              <div>Views: 426 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/t-dose-2012">T-DOSE 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hans-verkuil">Hans Verkuil</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2012/t-dose-2012-open-source-lennart-poettering-believe-in-free-software-eindhoven"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TPN2LShgOnQ/hqdefault.jpg" alt="Believe in free software" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2012/t-dose-2012-open-source-lennart-poettering-believe-in-free-software-eindhoven">Believe in free software</a></h4>
+          <footer>
+            <div class="recorded">2012-10-27</div>
+			
+			  <div>Length: 01:03:33</div>
+			
+			
+              <div>Views: 414 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/t-dose-2012">T-DOSE 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lennart-poettering">Lennart Poettering</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2012/t-dose-2012-open-source-lennart-poettering-the-systemd-journal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o1lUeQVYuNs/hqdefault.jpg" alt="The Systemd Journal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2012/t-dose-2012-open-source-lennart-poettering-the-systemd-journal">The Systemd Journal</a></h4>
+          <footer>
+            <div class="recorded">2012-10-27</div>
+			
+			  <div>Length: 58:18</div>
+			
+			
+              <div>Views: 5131 Likes: 37</div>
+            
+            <div class="event">From <a href="/e/t-dose-2012">T-DOSE 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lennart-poettering">Lennart Poettering</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2012/t-dose-2012-open-source-tools-for-your-devops-stack-kris-buytaert"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5gaYmORRftU/hqdefault.jpg" alt="Tools for your devops stack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2012/t-dose-2012-open-source-tools-for-your-devops-stack-kris-buytaert">Tools for your devops stack</a></h4>
+          <footer>
+            <div class="recorded">2012-10-27</div>
+			
+			  <div>Length: 51:25</div>
+			
+			
+              <div>Views: 170 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/t-dose-2012">T-DOSE 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kris-buytaert">Kris Buytaert</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2012/t-dose-2012-toshaan-bharvani-puppet-chef-cfengine-ansible-salt-different-approaches"><img class="list-thumbnail" src="https://i.ytimg.com/vi/T56uN6N_hs0/hqdefault.jpg" alt="Puppet, Chef, CFEngine, Ansible, Salt, different approaches" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2012/t-dose-2012-toshaan-bharvani-puppet-chef-cfengine-ansible-salt-different-approaches">Puppet, Chef, CFEngine, Ansible, Salt, different approaches</a></h4>
+          <footer>
+            <div class="recorded">2012-10-27</div>
+			
+			  <div>Length: 23:50</div>
+			
+			
+              <div>Views: 5004 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/t-dose-2012">T-DOSE 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/toshaan-bharvani">Toshaan Bharvani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2012/t-dose-2012-toshaan-bharvani-virtualization-through-container"><img class="list-thumbnail" src="https://i.ytimg.com/vi/s2FFx6kgyo8/hqdefault.jpg" alt="Virtualization through container" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2012/t-dose-2012-toshaan-bharvani-virtualization-through-container">Virtualization through container</a></h4>
+          <footer>
+            <div class="recorded">2012-10-27</div>
+			
+			  <div>Length: 30:58</div>
+			
+			
+              <div>Views: 484 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/t-dose-2012">T-DOSE 2012</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/toshaan-bharvani">Toshaan Bharvani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLBZBIkixHEieUwHjKqPMc9ckLLsMKiK4j">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

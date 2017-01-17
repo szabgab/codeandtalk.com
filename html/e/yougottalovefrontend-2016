@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>You Gotta Love Frontend Conference 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>You Gotta Love Frontend Conference 2016</h1>
+
+<div><a href="http://yougottalovefrontend.com/">You Gotta Love Frontend Conference 2016</a></div>
+
+
+<div>Start date: 2016-06-27</div>
+<div>End date: 2016-06-28</div>
+
+<div>Location:
+  Tel Aviv
+  
+  <a href="/l/israel">Israel</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/YGLFConf">@YGLFConf</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/YouGottaLoveFrontend">https://www.facebook.com/YouGottaLoveFrontend</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=You%20Gotta%20Love%20Frontend%20Conference%202016%20on%202016-06-27%20in%20Tel%20Aviv%2C%20%20Israel%20%40YGLFConf%20http%3A//yougottalovefrontend.com/%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/ady-levy-using-nodejs-to-build-micro-services-architecture"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CcmFODIDGTc/hqdefault.jpg" alt="Using NodeJS to Build Micro Services Architecture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/ady-levy-using-nodejs-to-build-micro-services-architecture">Using NodeJS to Build Micro Services Architecture</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 31:07</div>
+			
+			
+              <div>Views: 430 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ady-levy">Ady Levy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/amitai-burstein-elm-frontend-with-guarantees"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FgaoOgJ5CAU/hqdefault.jpg" alt="Elm - Frontend with Guarantees" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/amitai-burstein-elm-frontend-with-guarantees">Elm - Frontend with Guarantees</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 25:53</div>
+			
+			
+              <div>Views: 1096 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amitai-burstein">Amitai Burstein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/bruce-lawson-www-world-wide-web-not-wealthy-westerners-web"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uqVRz8CteAg/hqdefault.jpg" alt="WWW: World Wide Web, Not Wealthy Westerners' Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/bruce-lawson-www-world-wide-web-not-wealthy-westerners-web">WWW: World Wide Web, Not Wealthy Westerners' Web</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 50:30</div>
+			
+			
+              <div>Views: 128 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bruce-lawson">Bruce Lawson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/chris-lilley-the-evolution-of-css4-color"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2BReTHTcogM/hqdefault.jpg" alt="The Evolution of CSS4 Color" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/chris-lilley-the-evolution-of-css4-color">The Evolution of CSS4 Color</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 33:45</div>
+			
+			
+              <div>Views: 161 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-lilley">Chris Lilley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/christian-heilmann-automating-the-wrong-things"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HKYviOtA55A/hqdefault.jpg" alt="Automating the Wrong Things..." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/christian-heilmann-automating-the-wrong-things">Automating the Wrong Things...</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 53:00</div>
+			
+			
+              <div>Views: 158 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christian-heilmann">Christian Heilmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/dan-caspi-making-react-native-fast-lean"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9LV4D-Obgj4/hqdefault.jpg" alt="Making React Native Fast & Lean" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/dan-caspi-making-react-native-fast-lean">Making React Native Fast & Lean</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 30:02</div>
+			
+			
+              <div>Views: 1447 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-caspi">Dan Caspi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/gordon-williams-javascript-for-hardware"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5nUSVFUU89s/hqdefault.jpg" alt="JavaScript for Hardware" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/gordon-williams-javascript-for-hardware">JavaScript for Hardware</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 32:47</div>
+			
+			
+              <div>Views: 76 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gordon-williams">Gordon Williams</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/ido-green-amp-under-the-hood-in-under-an-hour"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NBtliZy1Goc/hqdefault.jpg" alt="Amp Under the Hood in Under an Hour!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/ido-green-amp-under-the-hood-in-under-an-hour">Amp Under the Hood in Under an Hour!</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 26:05</div>
+			
+			
+              <div>Views: 43 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ido-green">Ido Green</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/jason-laster-enter-inspector-inception-lets-see-how-browser-developer-tools-work"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O_xViL2TGrU/hqdefault.jpg" alt="Enter Inspector Inception: Let's See How Browser Developer Tools Work!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/jason-laster-enter-inspector-inception-lets-see-how-browser-developer-tools-work">Enter Inspector Inception: Let's See How Browser Developer Tools Work!</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 30:00</div>
+			
+			
+              <div>Views: 95 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-laster">Jason Laster</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/jina-bolton-designing-a-design-system"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7hYOLLO2gc4/hqdefault.jpg" alt="Designing a Design System" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/jina-bolton-designing-a-design-system">Designing a Design System</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 40:31</div>
+			
+			
+              <div>Views: 209 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jina-bolton">Jina Bolton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/jiri-tobisek-embracing-black-magic-the-power-of-code-transpilation"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8HCJQCU2ssM/hqdefault.jpg" alt="Embracing Black Magic: The Power of Code Transpilation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/jiri-tobisek-embracing-black-magic-the-power-of-code-transpilation">Embracing Black Magic: The Power of Code Transpilation</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 32:50</div>
+			
+			
+              <div>Views: 61 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jiri-tobisek">Jiri Tobisek</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/lea-verou-js-ux-writing-code-for-humans"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5-ux7GIGFBo/hqdefault.jpg" alt="JS UX: Writing Code for Humans" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/lea-verou-js-ux-writing-code-for-humans">JS UX: Writing Code for Humans</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 01:01:33</div>
+			
+			
+              <div>Views: 335 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lea-verou">Lea Verou</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/leonie-watson-developers-guide-to-accessibility-mechanics"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qi0tY60Hd6M/hqdefault.jpg" alt="Developer's Guide to Accessibility Mechanics" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/leonie-watson-developers-guide-to-accessibility-mechanics">Developer's Guide to Accessibility Mechanics</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 27:45</div>
+			
+			
+              <div>Views: 177 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/leonie-watson">Léonie Watson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/netta-bondy-how-to-teach-new-programmers-so-that-they-learn"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_7vdburegkw/hqdefault.jpg" alt="How to Teach New Programmers so That They Learn?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/netta-bondy-how-to-teach-new-programmers-so-that-they-learn">How to Teach New Programmers so That They Learn?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 30:05</div>
+			
+			
+              <div>Views: 231 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/netta-bondy">Netta Bondy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/noam-rosenthal-browser-graphics-under-the-hood"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Pw1g8bF0tIc/hqdefault.jpg" alt="Browser Graphics Under the Hood" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/noam-rosenthal-browser-graphics-under-the-hood">Browser Graphics Under the Hood</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 30:05</div>
+			
+			
+              <div>Views: 122 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/noam-rosenthal">Noam Rosenthal</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/yougottalovefrontend-2016/vitaly-friedman-cutting-edge-responsive-web-design"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xPLoLoevrhU/hqdefault.jpg" alt="Cutting-Edge Responsive Web Design" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/yougottalovefrontend-2016/vitaly-friedman-cutting-edge-responsive-web-design">Cutting-Edge Responsive Web Design</a></h4>
+          <footer>
+            <div class="recorded">2016-06-27</div>
+			
+			  <div>Length: 39:27</div>
+			
+			
+              <div>Views: 195 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/yougottalovefrontend-2016">You Gotta Love Frontend Conference 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vitaly-friedman">Vitaly Friedman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLII-CO3Ff0qY1VbkvUyLcUmegS3U7XB1D">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

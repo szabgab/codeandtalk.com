@@ -1,0 +1,2465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>ApacheCon North America 2013</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>ApacheCon North America 2013</h1>
+
+<div><a href="http://na13.apachecon.com/">ApacheCon North America 2013</a></div>
+
+
+<div>Start date: 2013-02-26</div>
+<div>End date: 2013-02-28</div>
+
+<div>Location:
+  Portland
+  Oregon
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/opensource">OpenSource</a> 
+   
+       <a href="/t/community">Community</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/ApacheCon">@ApacheCon</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=ApacheCon%20North%20America%202013%20on%202013-02-26%20in%20Portland%2C%20Oregon%20USA%20%40ApacheCon%20http%3A//na13.apachecon.com/%20%23OpenSource%20%23Community%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/7-deadly-hadoop-misconfigurations"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xwbSDr7dpl0/hqdefault.jpg" alt="7 Deadly Hadoop Misconfigurations" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/7-deadly-hadoop-misconfigurations">7 Deadly Hadoop Misconfigurations</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 41:30</div>
+			
+			
+              <div>Views: 124 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kathleen-ting">Kathleen Ting</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/a-look-at-apache-oodt-balance-framework-1fa48f"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RUlI8E9-Hv0/hqdefault.jpg" alt="A look at Apache OODT Balance framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/a-look-at-apache-oodt-balance-framework-1fa48f">A look at Apache OODT Balance framework</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 22:31</div>
+			
+			
+              <div>Views: 38 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shakeh-khudikyan">Shakeh Khudikyan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/a-look-at-apache-oodt-balance-framework"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RUlI8E9-Hv0/hqdefault.jpg" alt="A look at Apache OODT Balance framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/a-look-at-apache-oodt-balance-framework">A look at Apache OODT Balance framework</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 22:31</div>
+			
+			
+              <div>Views: 38 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shakeh-khudikyan">Shakeh Khudikyan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/access-control-in-apache-httpd-24"><img class="list-thumbnail" src="https://i.ytimg.com/vi/x4tKpFmfF4o/hqdefault.jpg" alt="Access control in Apache httpd 2.4" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/access-control-in-apache-httpd-24">Access control in Apache httpd 2.4</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 51:26</div>
+			
+			
+              <div>Views: 1685 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rich-bowen">Rich Bowen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/advanced-cloudstack-troubleshooting-using-log-analysis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ngv4FDdmMi4/hqdefault.jpg" alt="Advanced CloudStack Troubleshooting using Log Analysis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/advanced-cloudstack-troubleshooting-using-log-analysis">Advanced CloudStack Troubleshooting using Log Analysis</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 48:46</div>
+			
+			
+              <div>Views: 106 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kirk-kosinski">Kirk Kosinski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/apache-airavata-building-gateways-to-innovation"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8tHIcGEnk-E/hqdefault.jpg" alt="Apache Airavata: Building Gateways to innovation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/apache-airavata-building-gateways-to-innovation">Apache Airavata: Building Gateways to innovation</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 01:02:45</div>
+			
+			
+              <div>Views: 449 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/suresh-marru">Suresh Marru</a>
+             
+                <a href="/p/lahiru-gunathilake">Lahiru Gunathilake</a>
+             
+                <a href="/p/marlon-pierce">Marlon Pierce</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/apache-cassandra-transport-and-client-architecture"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9ygybW-9F1E/hqdefault.jpg" alt="Apache Cassandra Transport and Client Architecture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/apache-cassandra-transport-and-client-architecture">Apache Cassandra Transport and Client Architecture</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 36:37</div>
+			
+			
+              <div>Views: 134 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nate-mccall">Nate McCall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/apache-cloudstacks-plugin-model-balancing-the-cathedral-with-a-bazaar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mAiqhjFZEaM/hqdefault.jpg" alt="Apache CloudStack's Plugin Model: Balancing the Cathedral with a Bazaar" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/apache-cloudstacks-plugin-model-balancing-the-cathedral-with-a-bazaar">Apache CloudStack's Plugin Model: Balancing the Cathedral with a Bazaar</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 38:31</div>
+			
+			
+              <div>Views: 63 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/don-lafferty">Don Lafferty</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/apache-http-server-24-problem-diagnosis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DcIRz0yH_eA/hqdefault.jpg" alt="Apache HTTP Server 2.4 Problem Diagnosis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/apache-http-server-24-problem-diagnosis">Apache HTTP Server 2.4 Problem Diagnosis</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 37:22</div>
+			
+			
+              <div>Views: 2421 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeff-trawick">Jeff Trawick</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/apache-httpd-24-the-cloud-killer-app"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zBTmhOTmiMU/hqdefault.jpg" alt="Apache httpd 2.4: The Cloud Killer App" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/apache-httpd-24-the-cloud-killer-app">Apache httpd 2.4: The Cloud Killer App</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 40:28</div>
+			
+			
+              <div>Views: 131 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jim-jagielski">Jim Jagielski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/apache-in-business-panel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Djlxh1bB_w8/hqdefault.jpg" alt="Apache in Business Panel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/apache-in-business-panel">Apache in Business Panel</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 59:22</div>
+			
+			
+              <div>Views: 54 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sally-khudairi">Sally Khudairi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/apache-oodt-from-the-beginning-to-big-data-management"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oM8mxN8ghxI/hqdefault.jpg" alt="Apache OODT: From the beginning to big data management" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/apache-oodt-from-the-beginning-to-big-data-management">Apache OODT: From the beginning to big data management</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 55:23</div>
+			
+			
+              <div>Views: 367 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-crichton">Dan Crichton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/apache-openoffice-project-update-and-future-direction"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WpXUWc1nhso/hqdefault.jpg" alt="Apache OpenOffice: Project Update and Future Direction" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/apache-openoffice-project-update-and-future-direction">Apache OpenOffice: Project Update and Future Direction</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 47:38</div>
+			
+			
+              <div>Views: 87 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/donald-harbison">Donald Harbison</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/apache-streams-enterprise-social-integration"><img class="list-thumbnail" src="https://i.ytimg.com/vi/48KJYCs-NqY/hqdefault.jpg" alt="Apache Streams : Enterprise Social Integration" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/apache-streams-enterprise-social-integration">Apache Streams : Enterprise Social Integration</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 32:16</div>
+			
+			
+              <div>Views: 98 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/craig-mcclanahan">Craig McClanahan</a>
+             
+                <a href="/p/matt-franklin">Matt Franklin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/apache-student-induction-catalyzing-collaborative-student-research-projects"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fMvcaxShhZE/hqdefault.jpg" alt="Apache Student Induction: Catalyzing Collaborative Student Research Projects" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/apache-student-induction-catalyzing-collaborative-student-research-projects">Apache Student Induction: Catalyzing Collaborative Student Research Projects</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 42:44</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/suresh-marru">Suresh Marru</a>
+             
+                <a href="/p/shahani-markus-weerawarna">Shahani Markus Weerawarana</a>
+             
+                <a href="/p/marlon-pierce">Marlon Pierce</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/apache-tomcat-clustering"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rX1zm11AXcA/hqdefault.jpg" alt="Apache Tomcat Clustering" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/apache-tomcat-clustering">Apache Tomcat Clustering</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 56:55</div>
+			
+			
+              <div>Views: 2278 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-thomas">Mark Thomas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/best-practices-for-couchdb-developers-on-windows-azure-1fa3fb"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Vagb1fJOh3Q/hqdefault.jpg" alt="Best Practices for CouchDB Developers on Windows Azure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/best-practices-for-couchdb-developers-on-windows-azure-1fa3fb">Best Practices for CouchDB Developers on Windows Azure</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 38:39</div>
+			
+			
+              <div>Views: 107 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-benz">Brian Benz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/best-practices-for-couchdb-developers-on-windows-azure"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Vagb1fJOh3Q/hqdefault.jpg" alt="Best Practices for CouchDB Developers on Windows Azure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/best-practices-for-couchdb-developers-on-windows-azure">Best Practices for CouchDB Developers on Windows Azure</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 38:39</div>
+			
+			
+              <div>Views: 107 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-benz">Brian Benz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/building-distributed-systems-using-helix-1fa418"><img class="list-thumbnail" src="https://i.ytimg.com/vi/s3IsSfwIPB4/hqdefault.jpg" alt="Building distributed systems using Helix" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/building-distributed-systems-using-helix-1fa418">Building distributed systems using Helix</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 58:00</div>
+			
+			
+              <div>Views: 947 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kishore-gopalakrishna">Kishore Gopalakrishna</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/building-distributed-systems-using-helix"><img class="list-thumbnail" src="https://i.ytimg.com/vi/s3IsSfwIPB4/hqdefault.jpg" alt="Building distributed systems using Helix" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/building-distributed-systems-using-helix">Building distributed systems using Helix</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 58:00</div>
+			
+			
+              <div>Views: 947 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kishore-gopalakrishna">Kishore Gopalakrishna</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/building-new-communities"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2DwH18-Xs0o/hqdefault.jpg" alt="Building New Communities" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/building-new-communities">Building New Communities</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 30:46</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steven-holden">Steven Holden</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/building-scalable-flexible-messaging-systems-using-qpid"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8TsXuuBK_RY/hqdefault.jpg" alt="Building scalable, flexible messaging systems using Qpid" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/building-scalable-flexible-messaging-systems-using-qpid">Building scalable, flexible messaging systems using Qpid</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 45:57</div>
+			
+			
+              <div>Views: 979 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jack-gibson">Jack Gibson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/can-i-depend-on-software-built-by-volunteers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SE9g7ZEbzUo/hqdefault.jpg" alt="Can I depend on Software built By Volunteers?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/can-i-depend-on-software-built-by-volunteers">Can I depend on Software built By Volunteers?</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 36:19</div>
+			
+			
+              <div>Views: 11 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mohammad-nour">Mohammad Nour</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/case-study-apache-oodt-framework-application-for-support-to-the-joint-polar-satellite-system-jpss"><img class="list-thumbnail" src="https://i.ytimg.com/vi/s_AkUFk_hrU/hqdefault.jpg" alt="Case Study: Apache OODT Framework Application for Support to the Joint Polar Satellite System (JPSS)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/case-study-apache-oodt-framework-application-for-support-to-the-joint-polar-satellite-system-jpss">Case Study: Apache OODT Framework Application for Support to the Joint Polar Satellite System (JPSS)</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 44:31</div>
+			
+			
+              <div>Views: 167 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peyush-jain">Peyush Jain</a>
+             
+                <a href="/p/richard-ullman">Richard Ullman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/cassandra-in-action"><img class="list-thumbnail" src="https://i.ytimg.com/vi/023zelhJv_0/hqdefault.jpg" alt="Cassandra in Action" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/cassandra-in-action">Cassandra in Action</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 36:36</div>
+			
+			
+              <div>Views: 53 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/cassandra-internals"><img class="list-thumbnail" src="https://i.ytimg.com/vi/x6YZN0Zg6Bc/hqdefault.jpg" alt="Cassandra Internals" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/cassandra-internals">Cassandra Internals</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 42:27</div>
+			
+			
+              <div>Views: 229 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aaron-morton">Aaron Morton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/continuous-delivery-with-maven-puppet-and-tomcat"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ieE2ye2u-cA/hqdefault.jpg" alt="Continuous Delivery with Maven, Puppet and Tomcat" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/continuous-delivery-with-maven-puppet-and-tomcat">Continuous Delivery with Maven, Puppet and Tomcat</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 56:17</div>
+			
+			
+              <div>Views: 4167 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/carlos-sanchez">Carlos Sanchez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/creating-pools-of-virtual-machines-10s-or-100s"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_NJS46tbOy8/hqdefault.jpg" alt="Creating Pools of Virtual Machines (10s or 100s)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/creating-pools-of-virtual-machines-10s-or-100s">Creating Pools of Virtual Machines (10s or 100s)</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 33:56</div>
+			
+			
+              <div>Views: 104 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrei-savu">Andrei Savu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/designing-a-high-performance-emeddable-protocol-engine-for-next-generation-message-oriented-servers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ligCnhPjKNo/hqdefault.jpg" alt="Designing a high performance emeddable protocol engine for next generation message oriented servers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/designing-a-high-performance-emeddable-protocol-engine-for-next-generation-message-oriented-servers">Designing a high performance emeddable protocol engine for next generation message oriented servers</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 49:11</div>
+			
+			
+              <div>Views: 65 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ted-ross">Ted ross</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/desktop-virtualization-with-apache-vcl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZnLuKALOVhA/hqdefault.jpg" alt="Desktop virtualization with Apache VCL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/desktop-virtualization-with-apache-vcl">Desktop virtualization with Apache VCL</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 45:10</div>
+			
+			
+              <div>Views: 1319 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aaron-coburn">Aaron Coburn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/detecting-radio-astronomical-fast-radio-transient-events-via-an-oodt-based-metadata-processing-pip-1fa471"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oDZUne-kj0k/hqdefault.jpg" alt="Detecting radio-astronomical "Fast Radio Transient Events" via an OODT-based metadata processing pip" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/detecting-radio-astronomical-fast-radio-transient-events-via-an-oodt-based-metadata-processing-pip-1fa471">Detecting radio-astronomical "Fast Radio Transient Events" via an OODT-based metadata processing pip</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 47:31</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luca-cinquini">Luca Cinquini</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/detecting-radio-astronomical-fast-radio-transient-events-via-an-oodt-based-metadata-processing-pip"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oDZUne-kj0k/hqdefault.jpg" alt="Detecting radio-astronomical "Fast Radio Transient Events" via an OODT-based metadata processing pip" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/detecting-radio-astronomical-fast-radio-transient-events-via-an-oodt-based-metadata-processing-pip">Detecting radio-astronomical "Fast Radio Transient Events" via an OODT-based metadata processing pip</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 47:31</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luca-cinquini">Luca Cinquini</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/devcloud-a-cloudstack-sandbox"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OewvGPUrM9c/hqdefault.jpg" alt="DevCloud: A CloudStack SandBox" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/devcloud-a-cloudstack-sandbox">DevCloud: A CloudStack SandBox</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 54:08</div>
+			
+			
+              <div>Views: 276 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sebastien-goasguen">Sebastien Goasguen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/documentation-dont-be-afraid"><img class="list-thumbnail" src="https://i.ytimg.com/vi/f4d-6Sv1vS8/hqdefault.jpg" alt="Documentation: Don't be afraid" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/documentation-dont-be-afraid">Documentation: Don't be afraid</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 57:40</div>
+			
+			
+              <div>Views: 71 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/noirin-plunkett">Noirin Plunkett</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/fast-feather-1-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HDN9stMC2C8/hqdefault.jpg" alt="Fast Feather 1 & 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/fast-feather-1-2">Fast Feather 1 & 2</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 01:33:09</div>
+			
+			
+              <div>Views: 19 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-burch">Nick Burch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/firefox-crash-analysis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/asbmIUObQVY/hqdefault.jpg" alt="Firefox Crash Analysis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/firefox-crash-analysis">Firefox Crash Analysis</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 42:58</div>
+			
+			
+              <div>Views: 34 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/laura-thomson">Laura Thomson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/getting-hadoop-hive-and-hbase-up-and-running-in-less-than-15-minutes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/94nfp5gR568/hqdefault.jpg" alt="Getting Hadoop, Hive and HBase up and running in less than 15 minutes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/getting-hadoop-hive-and-hbase-up-and-running-in-less-than-15-minutes">Getting Hadoop, Hive and HBase up and running in less than 15 minutes</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 37:45</div>
+			
+			
+              <div>Views: 1167 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-grover">Mark Grover</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/getting-to-know-apache-cloudstack"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gseD7x3DqT8/hqdefault.jpg" alt="Getting to Know Apache CloudStack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/getting-to-know-apache-cloudstack">Getting to Know Apache CloudStack</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 39:08</div>
+			
+			
+              <div>Views: 84 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joe-brockmeier">Joe Brockmeier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/growing-authentic-communities"><img class="list-thumbnail" src="https://i.ytimg.com/vi/caiG4RPoaBA/hqdefault.jpg" alt="Growing Authentic Communities" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/growing-authentic-communities">Growing Authentic Communities</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 39:07</div>
+			
+			
+              <div>Views: 48 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luke-kanies">Luke Kanies</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/hadoop-and-hbase-on-the-cloud-a-case-study-on-performance-and-isolation"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dNNwywqIcqg/hqdefault.jpg" alt="Hadoop and HBase on the Cloud: A Case Study on Performance and Isolation." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/hadoop-and-hbase-on-the-cloud-a-case-study-on-performance-and-isolation">Hadoop and HBase on the Cloud: A Case Study on Performance and Isolation.</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 37:20</div>
+			
+			
+              <div>Views: 124 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/konstantin-shvachko">Konstantin Shvachko</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/having-your-cake-and-eating-it-too-with-apache-oodt-and-apache-solr"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wb2p2f4WQ0U/hqdefault.jpg" alt="Having your Cake and Eating it Too with Apache OODT and Apache Solr" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/having-your-cake-and-eating-it-too-with-apache-oodt-and-apache-solr">Having your Cake and Eating it Too with Apache OODT and Apache Solr</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 36:12</div>
+			
+			
+              <div>Views: 239 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-hart">Andrew Hart</a>
+             
+                <a href="/p/paul-ramirez">Paul Ramirez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/how-to-delegate-like-a-boss"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h3MPewsk5PU/hqdefault.jpg" alt="How to Delegate, Like a Boss" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/how-to-delegate-like-a-boss">How to Delegate, Like a Boss</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 38:21</div>
+			
+			
+              <div>Views: 216 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/deb-nicholson">Deb Nicholson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/human-resource-management-in-open-source-communities"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eK1T8YBrgy8/hqdefault.jpg" alt="Human Resource Management in Open Source Communities" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/human-resource-management-in-open-source-communities">Human Resource Management in Open Source Communities</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 37:52</div>
+			
+			
+              <div>Views: 28 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-gruno">Daniel Gruno</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/i-was-voted-to-be-a-committer-now-what"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2lST_4vdIWw/hqdefault.jpg" alt="I was voted to be a committer - now what ?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/i-was-voted-to-be-a-committer-now-what">I was voted to be a committer - now what ?</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 36:26</div>
+			
+			
+              <div>Views: 28 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/isabel-drost-fromm">Isabel Drost-Fromm</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/innovative-foundation-for-an-open-source-api-management-platform-1fa435"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oHjviUhnpNQ/hqdefault.jpg" alt="Innovative foundation for an open source API management platform" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/innovative-foundation-for-an-open-source-api-management-platform-1fa435">Innovative foundation for an open source API management platform</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 39:39</div>
+			
+			
+              <div>Views: 135 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/asanka-abeysinghe">Asanka Abeysinghe</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/innovative-foundation-for-an-open-source-api-management-platform"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oHjviUhnpNQ/hqdefault.jpg" alt="Innovative foundation for an open source API management platform" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/innovative-foundation-for-an-open-source-api-management-platform">Innovative foundation for an open source API management platform</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 39:39</div>
+			
+			
+              <div>Views: 135 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/asanka-abeysinghe">Asanka Abeysinghe</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/instant-integration-into-the-amqp-cloud-with-apache-qpid-messenger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9qU3eB9EQQw/hqdefault.jpg" alt="Instant integration into the AMQP cloud with Apache Qpid Messenger" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/instant-integration-into-the-amqp-cloud-with-apache-qpid-messenger">Instant integration into the AMQP cloud with Apache Qpid Messenger</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 53:32</div>
+			
+			
+              <div>Views: 584 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rafael-schloming">Rafael Schloming</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/integrating-apache-syncope-with-apache-cxf"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-sVVPadMPog/hqdefault.jpg" alt="Integrating Apache Syncope with Apache CXF" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/integrating-apache-syncope-with-apache-cxf">Integrating Apache Syncope with Apache CXF</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 28:43</div>
+			
+			
+              <div>Views: 590 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/colm-o-heigeartaigh">Colm O hEigeartaigh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/integrating-webservices-with-camel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5JT9wvKMJc4/hqdefault.jpg" alt="Integrating WebServices with Camel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/integrating-webservices-with-camel">Integrating WebServices with Camel</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 46:15</div>
+			
+			
+              <div>Views: 15294 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-kulp">Daniel Kulp</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/intra-cluster-replication-in-apache-kafka"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XcvHmqmh16g/hqdefault.jpg" alt="Intra-cluster Replication in Apache Kafka" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/intra-cluster-replication-in-apache-kafka">Intra-cluster Replication in Apache Kafka</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 57:05</div>
+			
+			
+              <div>Views: 1236 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jun-rao">Jun Rao</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/introducing-apache-traffic-server"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6UyXa6MwX10/hqdefault.jpg" alt="Introducing Apache Traffic Server" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/introducing-apache-traffic-server">Introducing Apache Traffic Server</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 47:31</div>
+			
+			
+              <div>Views: 1143 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/igor-galic">Igor Galić</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/introducing-mod_lua"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vAkBIAn7d8c/hqdefault.jpg" alt="Introducing mod_lua" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/introducing-mod_lua">Introducing mod_lua</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 38:25</div>
+			
+			
+              <div>Views: 78 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-gruno">Daniel Gruno</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/introduction-to-apache-flex"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KbC3tp4oMgs/hqdefault.jpg" alt="Introduction to Apache Flex" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/introduction-to-apache-flex">Introduction to Apache Flex</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 35:00</div>
+			
+			
+              <div>Views: 3591 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/justin-mclean">Justin Mclean</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/introduction-to-apache-shiro"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4gXvTeTbgc8/hqdefault.jpg" alt="Introduction to Apache Shiro" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/introduction-to-apache-shiro">Introduction to Apache Shiro</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 58:52</div>
+			
+			
+              <div>Views: 7360 Likes: 28</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/les-hazlewood">Les Hazlewood</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/lessons-in-apache-software-integration"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MVrt0Ie95dc/hqdefault.jpg" alt="Lessons in Apache Software integration" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/lessons-in-apache-software-integration">Lessons in Apache Software integration</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 45:24</div>
+			
+			
+              <div>Views: 769 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/roman-shaposhnik">Roman Shaposhnik</a>
+             
+                <a href="/p/bruno-mah">Bruno Mahe</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/lightning-talks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UqVDzXzEbpM/hqdefault.jpg" alt="Lightning Talks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/lightning-talks">Lightning Talks</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 51:05</div>
+			
+			
+              <div>Views: 83 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rich-bowen">Rich Bowen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/long-running-stateful-processes-with-camel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zuErR_yg9wg/hqdefault.jpg" alt="Long Running Stateful Processes with Camel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/long-running-stateful-processes-with-camel">Long Running Stateful Processes with Camel</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 01:01:59</div>
+			
+			
+              <div>Views: 260 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hadrian-zbarcea">Hadrian Zbarcea</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/managing-open-source-community-brands"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PA-VhGHFzKc/hqdefault.jpg" alt="Managing Open Source Community Brands" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/managing-open-source-community-brands">Managing Open Source Community Brands</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 42:17</div>
+			
+			
+              <div>Views: 93 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shane-curcuru">Shane Curcuru</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/managing-project-risk-when-using-open-source"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2XNlOCJ8MdI/hqdefault.jpg" alt="Managing project risk when using open source" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/managing-project-risk-when-using-open-source">Managing project risk when using open source</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 43:18</div>
+			
+			
+              <div>Views: 25 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-burch">Nick Burch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/mastering-sqoop-for-data-transfer-for-big-data"><img class="list-thumbnail" src="https://i.ytimg.com/vi/irF7MAtDCOY/hqdefault.jpg" alt="Mastering Sqoop for Data Transfer for Big Data" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/mastering-sqoop-for-data-transfer-for-big-data">Mastering Sqoop for Data Transfer for Big Data</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 56:53</div>
+			
+			
+              <div>Views: 227 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kathleen-ting">Kathleen Ting</a>
+             
+                <a href="/p/arvind-prabhakar">Arvind Prabhakar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/monitoring-apache-tomcat-and-the-apache-web-server"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b2iQ7aohfhM/hqdefault.jpg" alt="Monitoring Apache Tomcat and the Apache Web Server" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/monitoring-apache-tomcat-and-the-apache-web-server">Monitoring Apache Tomcat and the Apache Web Server</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 01:02:25</div>
+			
+			
+              <div>Views: 13542 Likes: 26</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rainer-jung">Rainer Jung</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/n-things-you-didnt-know-the-apache-http-server-could-do"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1BjRbXBKRWk/hqdefault.jpg" alt="N things you didn't know the Apache http server could do" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/n-things-you-didnt-know-the-apache-http-server-could-do">N things you didn't know the Apache http server could do</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 56:03</div>
+			
+			
+              <div>Views: 1568 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rich-bowen">Rich Bowen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/near-realtime-processing-over-hbase"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MecziNEsg20/hqdefault.jpg" alt="Near-Realtime Processing over HBase" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/near-realtime-processing-over-hbase">Near-Realtime Processing over HBase</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 55:01</div>
+			
+			
+              <div>Views: 726 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ryan-brush">Ryan Brush</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/next-generation-open-source-messaging-with-apollo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fn7uQTL-bJU/hqdefault.jpg" alt="Next Generation Open Source Messaging with Apollo" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/next-generation-open-source-messaging-with-apollo">Next Generation Open Source Messaging with Apollo</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 52:48</div>
+			
+			
+              <div>Views: 126 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hiram-chirino">Hiram Chirino</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/nosql-takes-over-systems-integration-in-the-nosql-era-with-apache-camel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nB9xUG3V68c/hqdefault.jpg" alt="NoSQL takes over -- Systems Integration in the NoSQL Era with Apache Camel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/nosql-takes-over-systems-integration-in-the-nosql-era-with-apache-camel">NoSQL takes over -- Systems Integration in the NoSQL Era with Apache Camel</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 50:38</div>
+			
+			
+              <div>Views: 269 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kai-wahner">Kai Wähner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/open-development-in-the-enterprise"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lpjeIsJtvVE/hqdefault.jpg" alt="Open Development in the Enterprise" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/open-development-in-the-enterprise">Open Development in the Enterprise</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 58:44</div>
+			
+			
+              <div>Views: 91 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bertrand-delacretaz">Bertrand Delacretaz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/opensocial-embedded-experiences-with-activitystreams-in-apache-rave"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cgXZ8r0ckG0/hqdefault.jpg" alt="OpenSocial Embedded Experiences with ActivityStrea.ms in Apache Rave" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/opensocial-embedded-experiences-with-activitystreams-in-apache-rave">OpenSocial Embedded Experiences with ActivityStrea.ms in Apache Rave</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 59:24</div>
+			
+			
+              <div>Views: 176 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-franklin">Matt Franklin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/performance-optimizations-for-apache-camel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/g-ebJiLzqgU/hqdefault.jpg" alt="Performance optimizations for Apache Camel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/performance-optimizations-for-apache-camel">Performance optimizations for Apache Camel</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 01:01:51</div>
+			
+			
+              <div>Views: 1033 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christian-m">Christian Mueller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/planning-and-deploying-apache-flume"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0TNGXpUm97g/hqdefault.jpg" alt="Planning and Deploying Apache Flume" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/planning-and-deploying-apache-flume">Planning and Deploying Apache Flume</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 41:55</div>
+			
+			
+              <div>Views: 2735 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/arvind-prabhakar">Arvind Prabhakar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/powering-cloudstack-with-ceph-rbd"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DQ203KOfsuk/hqdefault.jpg" alt="Powering CloudStack with Ceph RBD" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/powering-cloudstack-with-ceph-rbd">Powering CloudStack with Ceph RBD</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 40:06</div>
+			
+			
+              <div>Views: 451 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pattrick-mcgarry">Patrick McGarry</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/project-security-war-stories"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kilPxU6gJLU/hqdefault.jpg" alt="Project Security War Stories" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/project-security-war-stories">Project Security War Stories</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 45:02</div>
+			
+			
+              <div>Views: 32 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/reining-in-security-sprawl-certificate-key-management-for-big-data"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7VqpA7mqg3E/hqdefault.jpg" alt="Reining in Security Sprawl: Certificate & Key Management for Big Data" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/reining-in-security-sprawl-certificate-key-management-for-big-data">Reining in Security Sprawl: Certificate & Key Management for Big Data</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 33:28</div>
+			
+			
+              <div>Views: 73 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dustin-kirkland">Dustin Kirkland</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/scalable-object-storage-with-apache-cloudstack-and-apache-hadoop"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ILWLBgkkVrM/hqdefault.jpg" alt="Scalable Object Storage with Apache CloudStack and Apache Hadoop" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/scalable-object-storage-with-apache-cloudstack-and-apache-hadoop">Scalable Object Storage with Apache CloudStack and Apache Hadoop</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 48:21</div>
+			
+			
+              <div>Views: 127 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chiradeep-vittal">Chiradeep Vittal</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/scaling-lessons-learned-and-their-applications-to-apache-culture"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-p2GFYxrXFk/hqdefault.jpg" alt="Scaling: Lessons Learned and Their Applications to Apache Culture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/scaling-lessons-learned-and-their-applications-to-apache-culture">Scaling: Lessons Learned and Their Applications to Apache Culture</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 52:40</div>
+			
+			
+              <div>Views: 142 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/theo-schlossnagle">Theo Schlossnagle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/scripting-apache-openoffice"><img class="list-thumbnail" src="https://i.ytimg.com/vi/p4DeOilMOQA/hqdefault.jpg" alt="Scripting Apache OpenOffice" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/scripting-apache-openoffice">Scripting Apache OpenOffice</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 01:02:39</div>
+			
+			
+              <div>Views: 347 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rony-g-flatscher">Rony G. Flatscher</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/searching-for-cancer-biomarkers-with-apache-oodt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bJ_pEjYNZcA/hqdefault.jpg" alt="Searching for cancer biomarkers with Apache OODT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/searching-for-cancer-biomarkers-with-apache-oodt">Searching for cancer biomarkers with Apache OODT</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 55:45</div>
+			
+			
+              <div>Views: 227 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rishi-verma">Rishi Verma</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/security-response-at-the-asf"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NMll5mjHAHI/hqdefault.jpg" alt="Security Response at the ASF" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/security-response-at-the-asf">Security Response at the ASF</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 39:55</div>
+			
+			
+              <div>Views: 31 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/should-you-bring-your-project-to-the-incubator"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Nq36MGep1QA/hqdefault.jpg" alt="Should you bring your project to the Incubator" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/should-you-bring-your-project-to-the-incubator">Should you bring your project to the Incubator</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 41:59</div>
+			
+			
+              <div>Views: 18 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/benson-margulies">Benson Margulies</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/software-as-infrastructure-at-nsfoci-1fa4ab"><img class="list-thumbnail" src="https://i.ytimg.com/vi/raPFCPIweXE/hqdefault.jpg" alt="Software as Infrastructure at NSF/OCI" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/software-as-infrastructure-at-nsfoci-1fa4ab">Software as Infrastructure at NSF/OCI</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 01:08:25</div>
+			
+			
+              <div>Views: 10 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-katz">Daniel Katz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/software-as-infrastructure-at-nsfoci"><img class="list-thumbnail" src="https://i.ytimg.com/vi/raPFCPIweXE/hqdefault.jpg" alt="Software as Infrastructure at NSF/OCI" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/software-as-infrastructure-at-nsfoci">Software as Infrastructure at NSF/OCI</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 01:08:25</div>
+			
+			
+              <div>Views: 10 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-katz">Daniel Katz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/software-defined-networking-in-apache-cloudstack"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DD9LXoO05BA/hqdefault.jpg" alt="Software Defined Networking in Apache CloudStack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/software-defined-networking-in-apache-cloudstack">Software Defined Networking in Apache CloudStack</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 51:04</div>
+			
+			
+              <div>Views: 148 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chiradeep-vittal">Chiradeep Vittal</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/solr-query-parsing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Hx0o2NV7Ykc/hqdefault.jpg" alt="Solr Query Parsing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/solr-query-parsing">Solr Query Parsing</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 45:18</div>
+			
+			
+              <div>Views: 1253 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/erik-hatcher">Erik Hatcher</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/spdy-in-apache-httpd"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lHp-8_ND2Qg/hqdefault.jpg" alt="SPDY in Apache Httpd" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/spdy-in-apache-httpd">SPDY in Apache Httpd</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 51:41</div>
+			
+			
+              <div>Views: 464 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matthew-steele">Matthew Steele</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/ssl-securing-the-web-with-apache"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lfYTkEniwIs/hqdefault.jpg" alt="SSL: "Securing" the Web with Apache" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/ssl-securing-the-web-with-apache">SSL: "Securing" the Web with Apache</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 38:05</div>
+			
+			
+              <div>Views: 98 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/igor-galic">Igor Galić</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/sso-and-fine-grained-authorization-in-the-cloud"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VGcbBeRD0cM/hqdefault.jpg" alt="SSO and fine grained authorization in the cloud" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/sso-and-fine-grained-authorization-in-the-cloud">SSO and fine grained authorization in the cloud</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 54:09</div>
+			
+			
+              <div>Views: 136 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oliver-wulff">Oliver Wulff</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/state-of-the-feather"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ekrOnF3ihUs/hqdefault.jpg" alt="State of the Feather" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/state-of-the-feather">State of the Feather</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 19:36</div>
+			
+			
+              <div>Views: 70 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jim-jagielski">Jim Jagielski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/synonyms-and-relevancy-strategies-1fa123"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cHvj6OnwQrg/hqdefault.jpg" alt="Synonyms and Relevancy Strategies" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/synonyms-and-relevancy-strategies-1fa123">Synonyms and Relevancy Strategies</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 45:46</div>
+			
+			
+              <div>Views: 139 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/leo-oliveira">Leo Oliveira</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/synonyms-and-relevancy-strategies"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cHvj6OnwQrg/hqdefault.jpg" alt="Synonyms and Relevancy Strategies" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/synonyms-and-relevancy-strategies">Synonyms and Relevancy Strategies</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 45:46</div>
+			
+			
+              <div>Views: 139 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/leo-oliveira">Leo Oliveira</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/taking-the-guesswork-out-of-your-hadoop-infrastructure"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MW77p0c3c0k/hqdefault.jpg" alt="Taking the guesswork out of your Hadoop Infrastructure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/taking-the-guesswork-out-of-your-hadoop-infrastructure">Taking the guesswork out of your Hadoop Infrastructure</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 39:30</div>
+			
+			
+              <div>Views: 42 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-watt">Steve Watt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/text-lacks-empathy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/z14uyKDdWuk/hqdefault.jpg" alt="Text Lacks Empathy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/text-lacks-empathy">Text Lacks Empathy</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 40:14</div>
+			
+			
+              <div>Views: 17 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/noirin-plunkett">Noirin Plunkett</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/the-apache-way"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v1bZwoU_UMA/hqdefault.jpg" alt="The Apache Way" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/the-apache-way">The Apache Way</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 45:07</div>
+			
+			
+              <div>Views: 77 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-burch">Nick Burch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/the-good-the-bad-and-the-ugly-security-vulnerability-reports-from-the-apache-tomcat-project"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SMSR3ahdPfU/hqdefault.jpg" alt="The Good, the Bad and the Ugly: Security Vulnerability Reports from the Apache Tomcat Project" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/the-good-the-bad-and-the-ugly-security-vulnerability-reports-from-the-apache-tomcat-project">The Good, the Bad and the Ugly: Security Vulnerability Reports from the Apache Tomcat Project</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 41:59</div>
+			
+			
+              <div>Views: 139 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-thomas">Mark Thomas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/the-new-face-of-cassandra"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UJB510D7Tac/hqdefault.jpg" alt="The new face of Cassandra" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/the-new-face-of-cassandra">The new face of Cassandra</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 46:21</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-figuiere">Michael Figuiere</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/tomcat-8-update"><img class="list-thumbnail" src="https://i.ytimg.com/vi/B57IRtUHMjg/hqdefault.jpg" alt="Tomcat 8 update" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/tomcat-8-update">Tomcat 8 update</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 49:32</div>
+			
+			
+              <div>Views: 409 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-thomas">Mark Thomas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/top-10-network-issues-in-apache-cloudstack"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9jhMHxqYccg/hqdefault.jpg" alt="Top 10 Network Issues in Apache CloudStack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/top-10-network-issues-in-apache-cloudstack">Top 10 Network Issues in Apache CloudStack</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 46:25</div>
+			
+			
+              <div>Views: 298 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kirk-kosinski">Kirk Kosinski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/transparent-http-proxying-with-apache-traffic-server"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hYn6VkjEGZs/hqdefault.jpg" alt="Transparent HTTP proxying with Apache Traffic Server" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/transparent-http-proxying-with-apache-traffic-server">Transparent HTTP proxying with Apache Traffic Server</a></h4>
+          <footer>
+            <div class="recorded">2013-02-27</div>
+			
+			  <div>Length: 49:40</div>
+			
+			
+              <div>Views: 1466 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alan-carroll">Alan Carroll</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/virtual-nodes-rethinking-topology-in-cassandra"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8ZbZOKJvdCQ/hqdefault.jpg" alt="Virtual Nodes: Rethinking Topology in Cassandra" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/virtual-nodes-rethinking-topology-in-cassandra">Virtual Nodes: Rethinking Topology in Cassandra</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 30:28</div>
+			
+			
+              <div>Views: 111 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eric-evans">Eric Evans</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/welcome-and-introduction"><img class="list-thumbnail" src="https://i.ytimg.com/vi/y1JOVk-5G-Q/hqdefault.jpg" alt="Welcome and Introduction" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/welcome-and-introduction">Welcome and Introduction</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 09:36</div>
+			
+			
+              <div>Views: 288 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steven-holden">Steven Holden</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/wengines-workflows-and-2-years-of-advanced-data-processing-in-apache-oodt-1fa453"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GZC3Zn3VXt8/hqdefault.jpg" alt="Wengines, Workflows, and 2 years of advanced data processing in Apache OODT." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/wengines-workflows-and-2-years-of-advanced-data-processing-in-apache-oodt-1fa453">Wengines, Workflows, and 2 years of advanced data processing in Apache OODT.</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 01:02:41</div>
+			
+			
+              <div>Views: 75 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-mattmann">Chris Mattmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/wengines-workflows-and-2-years-of-advanced-data-processing-in-apache-oodt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GZC3Zn3VXt8/hqdefault.jpg" alt="Wengines, Workflows, and 2 years of advanced data processing in Apache OODT." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/wengines-workflows-and-2-years-of-advanced-data-processing-in-apache-oodt">Wengines, Workflows, and 2 years of advanced data processing in Apache OODT.</a></h4>
+          <footer>
+            <div class="recorded">2013-02-28</div>
+			
+			  <div>Length: 01:02:41</div>
+			
+			
+              <div>Views: 75 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-mattmann">Chris Mattmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2013/whats-new-in-httpd-24"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ElzXfb4n_GA/hqdefault.jpg" alt="What's new in httpd 2.4" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2013/whats-new-in-httpd-24">What's new in httpd 2.4</a></h4>
+          <footer>
+            <div class="recorded">2013-02-26</div>
+			
+			  <div>Length: 46:23</div>
+			
+			
+              <div>Views: 626 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rich-bowen">Rich Bowen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLU2OcwpQkYCyok0TMX0EbB4ub-NXnR2Oy, PLU2OcwpQkYCxgXvQPChDFfANj5eIq7cJh, PLU2OcwpQkYCxbmMMLpDQwzNkaC4uRMGVs">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

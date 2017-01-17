@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Fullstack Fest 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Fullstack Fest 2015</h1>
+
+<div><a href="http://2015.fullstackfest.com/">Fullstack Fest 2015</a></div>
+
+
+<div>Start date: 2015-09-01</div>
+<div>End date: 2015-09-05</div>
+
+<div>Location:
+  Barcelona
+  
+  <a href="/l/spain">Spain</a>
+</div>
+
+<div><a href="http://2015.fullstackfest.com/our-values">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/ruby">Ruby</a> 
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/fullstackfest">@fullstackfest</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Fullstack%20Fest%202015%20on%202015-09-01%20in%20Barcelona%2C%20%20Spain%20%40fullstackfest%20http%3A//2015.fullstackfest.com/%20%23Ruby%20%23JavaScript%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-algorithms-for-animation-by-courtney-hemphill"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2UTvELjqmb0/hqdefault.jpg" alt="Algorithms for Animation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-algorithms-for-animation-by-courtney-hemphill">Algorithms for Animation</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 30:22</div>
+			
+			
+              <div>Views: 438 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/courtney-hemphill">Courtney Hemphill</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-beyond-json-improving-inter-app-communication-by-aaron-quint"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WnUccA7us4A/hqdefault.jpg" alt="Beyond JSON: Improving inter-app communication" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-beyond-json-improving-inter-app-communication-by-aaron-quint">Beyond JSON: Improving inter-app communication</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 34:36</div>
+			
+			
+              <div>Views: 1719 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aaron-quint">Aaron Quint</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-blending-functional-and-oo-programming-in-ruby-by-piotr-solnica"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rMxurF4oqsc/hqdefault.jpg" alt="Blending Functional and OO Programming in Ruby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-blending-functional-and-oo-programming-in-ruby-by-piotr-solnica">Blending Functional and OO Programming in Ruby</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 25:49</div>
+			
+			
+              <div>Views: 4063 Likes: 90</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/piotr-solnica">Piotr Solnica</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-extreme-object-oriented-ruby-by-john-cinnamond"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FDs-sSxo2iY/hqdefault.jpg" alt="Extreme Object-Oriented Ruby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-extreme-object-oriented-ruby-by-john-cinnamond">Extreme Object-Oriented Ruby</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 47:24</div>
+			
+			
+              <div>Views: 3056 Likes: 41</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-cinnamond">John Cinnamond</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-first-do-no-harm-surgical-refactoring-by-nell-shamrell"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9ZY3t9BnMeQ/hqdefault.jpg" alt="First Do No Harm: Surgical Refactoring" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-first-do-no-harm-surgical-refactoring-by-nell-shamrell">First Do No Harm: Surgical Refactoring</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 32:37</div>
+			
+			
+              <div>Views: 352 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nell-shamrell">Nell Shamrell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-fun-with-lambdas-by-corey-haines"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gULkBpl3e7c/hqdefault.jpg" alt="Fun with Lambdas!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-fun-with-lambdas-by-corey-haines">Fun with Lambdas!</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 36:53</div>
+			
+			
+              <div>Views: 998 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/corey-haines">Corey Haines</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-functional-programming-and-curry-cooking-in-js-by-stefanie-schirmer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kSMJvc7yaGE/hqdefault.jpg" alt="Functional programming and curry cooking in JS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-functional-programming-and-curry-cooking-in-js-by-stefanie-schirmer">Functional programming and curry cooking in JS</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 34:38</div>
+			
+			
+              <div>Views: 750 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stefanie-schirmer">Stefanie Schirmer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-hacking-the-front-end-by-alex-sexton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8Dh1guocIvs/hqdefault.jpg" alt="Hacking The Front-End" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-hacking-the-front-end-by-alex-sexton">Hacking The Front-End</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 33:04</div>
+			
+			
+              <div>Views: 600 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-sexton">Alex Sexton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-how-to-build-a-skyscraper-by-ernie-miller"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7MeBuDLbF98/hqdefault.jpg" alt="How to Build a Skyscraper" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-how-to-build-a-skyscraper-by-ernie-miller">How to Build a Skyscraper</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 45:24</div>
+			
+			
+              <div>Views: 773 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ernie-miller">Ernie Miller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-how-to-performance-by-eileen-uchitelle"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HbLPLdLvnVo/hqdefault.jpg" alt="How to Performance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-how-to-performance-by-eileen-uchitelle">How to Performance</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 29:28</div>
+			
+			
+              <div>Views: 850 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eileen-uchitelle">Eileen Uchitelle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-inside-glimmer-what-makes-embers-rendering-engine-tick-by-tom-dale"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VY-r7Ac06ho/hqdefault.jpg" alt="Inside Glimmer: What Makes Ember's Rendering Engine Tick" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-inside-glimmer-what-makes-embers-rendering-engine-tick-by-tom-dale">Inside Glimmer: What Makes Ember's Rendering Engine Tick</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 47:57</div>
+			
+			
+              <div>Views: 3875 Likes: 52</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tom-dale">Tom Dale</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-lessons-from-webbox-customizing-a-javascript-based-os-by-alex-saladrigas"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-MtR5dymZro/hqdefault.jpg" alt="Lessons from webBox, customizing a Javascript based OS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-lessons-from-webbox-customizing-a-javascript-based-os-by-alex-saladrigas">Lessons from webBox, customizing a Javascript based OS</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 23:49</div>
+			
+			
+              <div>Views: 209 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-saladrigas">Alex Saladrigas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-lessons-learnt-visualising-real-world-cities-in-3d-by-robin-hawkes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/327-43fmOws/hqdefault.jpg" alt="Lessons Learnt Visualising Real-World Cities in 3D" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-lessons-learnt-visualising-real-world-cities-in-3d-by-robin-hawkes">Lessons Learnt Visualising Real-World Cities in 3D</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 30:45</div>
+			
+			
+              <div>Views: 481 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robin-hawkes">Robin Hawkes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-lightning-talks-baruco"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0EfomIPH48g/hqdefault.jpg" alt="Lightning Talks Baruco" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-lightning-talks-baruco">Lightning Talks Baruco</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 55:24</div>
+			
+			
+              <div>Views: 316 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-lightning-talks-future-js"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IxTpSNrLTpc/hqdefault.jpg" alt="Lightning Talks Future JS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-lightning-talks-future-js">Lightning Talks Future JS</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 23:12</div>
+			
+			
+              <div>Views: 449 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-natural-physics-simulations-and-canvas-hackery-by-matt-keas"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O_ydH7U2NUY/hqdefault.jpg" alt="Natural physics simulations and canvas hackery" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-natural-physics-simulations-and-canvas-hackery-by-matt-keas">Natural physics simulations and canvas hackery</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 44:36</div>
+			
+			
+              <div>Views: 386 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-keas">Matt Keas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-node-and-the-new-open-source-by-mikeal-rogers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/R5N019eRTp8/hqdefault.jpg" alt="Node and The New Open Source" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-node-and-the-new-open-source-by-mikeal-rogers">Node and The New Open Source</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 36:12</div>
+			
+			
+              <div>Views: 309 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mikeal-rogers">Mikeal Rogers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-nothing-is-something-by-sandi-metz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9mLK_8hKii8/hqdefault.jpg" alt="Nothing is Something" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-nothing-is-something-by-sandi-metz">Nothing is Something</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 41:34</div>
+			
+			
+              <div>Views: 2333 Likes: 51</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sandi-metz">Sandi Metz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-orders-of-magnitude-by-davy-stevenson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_YyzLKhjpiI/hqdefault.jpg" alt="Full Stack Fest 2015: Orders of Magnitude, by Davy Stevenson" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-orders-of-magnitude-by-davy-stevenson">Full Stack Fest 2015: Orders of Magnitude, by Davy Stevenson</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 24:56</div>
+			
+			
+              <div>Views: 474 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/davy-stevenson">Davy Stevenson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-permanent-webapps-by-james-halliday"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PDusOGAFJLQ/hqdefault.jpg" alt="Permanent webapps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-permanent-webapps-by-james-halliday">Permanent webapps</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 33:59</div>
+			
+			
+              <div>Views: 549 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-halliday">James Halliday</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-picking-the-right-tool-for-the-job-html5-vs-unity-by-jesse-freeman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/q8ytiUxG7z8/hqdefault.jpg" alt="Picking the Right Tool for the Job: HTML5 vs Unity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-picking-the-right-tool-for-the-job-html5-vs-unity-by-jesse-freeman">Picking the Right Tool for the Job: HTML5 vs Unity</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 37:21</div>
+			
+			
+              <div>Views: 448 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jesse-freeman">Jesse Freeman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-procedural-content-in-js-by-nick-heiner"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hLQAfANMnFw/hqdefault.jpg" alt="Procedural Content in JS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-procedural-content-in-js-by-nick-heiner">Procedural Content in JS</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 33:16</div>
+			
+			
+              <div>Views: 624 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-heiner">Nick Heiner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-request-and-response-by-aaron-patterson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1EeWXojdqvU/hqdefault.jpg" alt="Request and Response" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-request-and-response-by-aaron-patterson">Request and Response</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 40:38</div>
+			
+			
+              <div>Views: 6039 Likes: 64</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aaron-patterson">Aaron Patterson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-rewriting-a-ruby-c-extension-in-rust-by-yehuda-katz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2BdJeSC4FFI/hqdefault.jpg" alt="Rewriting a Ruby C Extension in Rust" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-rewriting-a-ruby-c-extension-in-rust-by-yehuda-katz">Rewriting a Ruby C Extension in Rust</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 47:14</div>
+			
+			
+              <div>Views: 4243 Likes: 57</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yehuda-katz">Yehuda Katz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-ruby-30-by-yukihiro-matsumoto"><img class="list-thumbnail" src="https://i.ytimg.com/vi/48iKjUcENRE/hqdefault.jpg" alt="Ruby 3.0" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-ruby-30-by-yukihiro-matsumoto">Ruby 3.0</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 45:47</div>
+			
+			
+              <div>Views: 11924 Likes: 194</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yukihiro-matsumoto">Yukihiro Matsumoto</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-running-ruby-apps-by-bryan-liles"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xytTA4dKaP0/hqdefault.jpg" alt="Running Ruby Apps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-running-ruby-apps-by-bryan-liles">Running Ruby Apps</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 39:07</div>
+			
+			
+              <div>Views: 1136 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bryan-liles">Bryan Liles</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-shall-i-compare-thee-to-a-line-of-code-by-lauren-scott"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KvFRf8aDrrU/hqdefault.jpg" alt="Shall I Compare Thee to a Line of Code?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-shall-i-compare-thee-to-a-line-of-code-by-lauren-scott">Shall I Compare Thee to a Line of Code?</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 33:35</div>
+			
+			
+              <div>Views: 411 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lauren-scott">Lauren Scott</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-skynet-for-beginners-by-rin-raeuber"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KlDMZyEwRzk/hqdefault.jpg" alt="Skynet for Beginners" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-skynet-for-beginners-by-rin-raeuber">Skynet for Beginners</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 27:28</div>
+			
+			
+              <div>Views: 2406 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rin-raeuber">Rin Raeuber</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-teaser"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CLPgyri3fEY/hqdefault.jpg" alt="Full Stack Fest 2015 - Teaser" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-teaser">Full Stack Fest 2015 - Teaser</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 00:45</div>
+			
+			
+              <div>Views: 2336 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-the-business-of-front-end-development-by-rachel-andrew"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Fci-rM035XU/hqdefault.jpg" alt="The Business Of Front-End Development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-the-business-of-front-end-development-by-rachel-andrew">The Business Of Front-End Development</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 51:07</div>
+			
+			
+              <div>Views: 1204 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rachel-andrew">Rachel Andrew</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-the-internet-of-browsers-by-ben-foxall"><img class="list-thumbnail" src="https://i.ytimg.com/vi/frWlRtT5UCU/hqdefault.jpg" alt="The internet of browsers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-the-internet-of-browsers-by-ben-foxall">The internet of browsers</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 36:07</div>
+			
+			
+              <div>Views: 486 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-foxall">Ben Foxall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-the-pixel-factory-by-steven-wittens"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4NkjLWAkYZ8/hqdefault.jpg" alt="The Pixel Factory" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-the-pixel-factory-by-steven-wittens">The Pixel Factory</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 38:30</div>
+			
+			
+              <div>Views: 2254 Likes: 80</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steven-wittens">Steven Wittens</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-the-road-to-webvr-by-jaume-sanchez"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MgESUvSiS50/hqdefault.jpg" alt="The Road To WebVR" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-the-road-to-webvr-by-jaume-sanchez">The Road To WebVR</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 39:30</div>
+			
+			
+              <div>Views: 1753 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jaume-sanchez">Jaume Sánchez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-transducers-ftw-by-massimiliano-mantione"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MrDvPB8FSMQ/hqdefault.jpg" alt="Transducers FTW!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-transducers-ftw-by-massimiliano-mantione">Transducers FTW!</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 34:07</div>
+			
+			
+              <div>Views: 1449 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/massimiliano-mantione">Massimiliano Mantione</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-2015-why-i-ruby-by-liz-abinante"><img class="list-thumbnail" src="https://i.ytimg.com/vi/l0YcugodNoE/hqdefault.jpg" alt="Why I Ruby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-2015-why-i-ruby-by-liz-abinante">Why I Ruby</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 10:16</div>
+			
+			
+              <div>Views: 370 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/liz-abinante">Liz Abinante</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2015/full-stack-fest-barcelona-2015-highlights"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UUKh1cEfJ0w/hqdefault.jpg" alt="Full Stack Fest Barcelona 2015 Highlights" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2015/full-stack-fest-barcelona-2015-highlights">Full Stack Fest Barcelona 2015 Highlights</a></h4>
+          <footer>
+            <div class="recorded">2015-09-01</div>
+			
+			  <div>Length: 03:50</div>
+			
+			
+              <div>Views: 1530 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2015">Fullstack Fest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLe9psSNJBf77PgzYZ2yId2RfUkd9_lMMr">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

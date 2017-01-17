@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Front-Trends 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Front-Trends 2016</h1>
+
+<div><a href="https://2016.front-trends.com/">Front-Trends 2016</a></div>
+
+
+<div>Start date: 2016-05-18</div>
+<div>End date: 2016-05-20</div>
+
+<div>Location:
+  Warsaw
+  
+  <a href="/l/poland">Poland</a>
+</div>
+
+<div><a href="https://2016.front-trends.com/code-of-conduct/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/html">HTML</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+       <a href="/t/web">web</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/fronttrends">@fronttrends</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/FrontTrends">https://www.facebook.com/FrontTrends</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Front-Trends%202016%20on%202016-05-18%20in%20Warsaw%2C%20%20Poland%20%40fronttrends%20https%3A//2016.front-trends.com/%20%23JavaScript%20%23HTML%20%23FrontEnd%20%23web%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/building-an-offline-page-for-the-guardian-oliver-joseph-ash-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RyAWdg5MbeY/hqdefault.jpg" alt="Building an Offline Page for The Guardian" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/building-an-offline-page-for-the-guardian-oliver-joseph-ash-front-trends-2016">Building an Offline Page for The Guardian</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 26:23</div>
+			
+			
+              <div>Views: 330 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oliver-joseph-ash">Oliver Joseph Ash</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/cant-you-make-it-more-like-bootstrap-alice-barlett-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/y4ggoN2xtAY/hqdefault.jpg" alt="Can't You Make It More Like Bootstrap?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/cant-you-make-it-more-like-bootstrap-alice-barlett-front-trends-2016">Can't You Make It More Like Bootstrap?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 32:20</div>
+			
+			
+              <div>Views: 754 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alice-bartlett">Alice Bartlett</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/computer-assisted-arts-and-crafts-mariko-kosaka-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Rs4xWafMQfc/hqdefault.jpg" alt="Computer Assisted Arts and Crafts" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/computer-assisted-arts-and-crafts-mariko-kosaka-front-trends-2016">Computer Assisted Arts and Crafts</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 36:29</div>
+			
+			
+              <div>Views: 208 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mariko-kosaka">Mariko Kosaka</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/css-for-software-engineers-for-css-developers-harry-roberts-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wFn5nel3j6w/hqdefault.jpg" alt="CSS for Software Engineers for CSS Developers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/css-for-software-engineers-for-css-developers-harry-roberts-front-trends-2016">CSS for Software Engineers for CSS Developers</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 33:10</div>
+			
+			
+              <div>Views: 3435 Likes: 57</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/harry-roberts">Harry Roberts</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/demo-reel-tiny-javascript-mathieu-henri-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h4MS5zU_C0c/hqdefault.jpg" alt="Demo Reel & Tiny JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/demo-reel-tiny-javascript-mathieu-henri-front-trends-2016">Demo Reel & Tiny JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 37:18</div>
+			
+			
+              <div>Views: 825 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mathieu-henri">Mathieu 'p01' Henri</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/dont-hate-the-player-hate-the-game-tim-holman-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RY8aCIfERHU/hqdefault.jpg" alt="Don't Hate the Player, Hate the Game" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/dont-hate-the-player-hate-the-game-tim-holman-front-trends-2016">Don't Hate the Player, Hate the Game</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 29:09</div>
+			
+			
+              <div>Views: 3484 Likes: 58</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-holman">Tim Holman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/exploring-the-universal-library-szymon-kaliski-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GbtaeMcNbGY/hqdefault.jpg" alt="Exploring the Universal Library" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/exploring-the-universal-library-szymon-kaliski-front-trends-2016">Exploring the Universal Library</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 24:33</div>
+			
+			
+              <div>Views: 627 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/szymon-kaliski">Szymon Kaliski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/first-class-styles-mark-dalgleish-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KmtgJ1d4zuY/hqdefault.jpg" alt="First Class Styles" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/first-class-styles-mark-dalgleish-front-trends-2016">First Class Styles</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 33:48</div>
+			
+			
+              <div>Views: 1133 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-dalgleish">Mark Dalgleish</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/j5F-Hoa-O_w/hqdefault.jpg" alt="Front-Trends 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/front-trends-2016">Front-Trends 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 03:06</div>
+			
+			
+              <div>Views: 3339 Likes: 34</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/leadership-in-an-ever-changing-industry-meri-williams-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lvo78bYm2oI/hqdefault.jpg" alt="Leadership in an Ever-Changing Industry" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/leadership-in-an-ever-changing-industry-meri-williams-front-trends-2016">Leadership in an Ever-Changing Industry</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 23:14</div>
+			
+			
+              <div>Views: 165 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/meri-williams">Meri Williams</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/modern-websites-for-the-modern-web-patrick-kettner-front-trends"><img class="list-thumbnail" src="https://i.ytimg.com/vi/04PLreql9Iw/hqdefault.jpg" alt="Modern Websites for the Modern Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/modern-websites-for-the-modern-web-patrick-kettner-front-trends">Modern Websites for the Modern Web</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 36:02</div>
+			
+			
+              <div>Views: 794 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patrick-kettner">Patrick Kettner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/once-more-with-feeling-tim-kadlec-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0Tuk95vpGzs/hqdefault.jpg" alt="Once More with Feeling" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/once-more-with-feeling-tim-kadlec-front-trends-2016">Once More with Feeling</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 34:07</div>
+			
+			
+              <div>Views: 207 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-kadlec">Tim Kadlec</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/our-eternal-digital-afterlife-alberta-soranzo-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/23OyNx1jpio/hqdefault.jpg" alt="Our Eternal Digital Afterlife" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/our-eternal-digital-afterlife-alberta-soranzo-front-trends-2016">Our Eternal Digital Afterlife</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 30:19</div>
+			
+			
+              <div>Views: 209 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alberta-soranzo">Alberta Soranzo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/pixel-bonding-tammie-lister-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-BU5aXjC_cM/hqdefault.jpg" alt="Pixel Bonding" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/pixel-bonding-tammie-lister-front-trends-2016">Pixel Bonding</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 27:14</div>
+			
+			
+              <div>Views: 165 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tammie-lister">Tammie Lister</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/rxjs-destroy-the-state-machine-stenver-jerkku-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1abiJ9VBsDc/hqdefault.jpg" alt="RxJS: destroy the state machine!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/rxjs-destroy-the-state-machine-stenver-jerkku-front-trends-2016">RxJS: destroy the state machine!</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 25:50</div>
+			
+			
+              <div>Views: 4274 Likes: 36</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stenver-jerkku">Stenver Jerkku</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/static-sites-go-all-hollywood-phil-hawksworth-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_cuZcnJIjls/hqdefault.jpg" alt="Static Sites go all Hollywood" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/static-sites-go-all-hollywood-phil-hawksworth-front-trends-2016">Static Sites go all Hollywood</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 32:17</div>
+			
+			
+              <div>Views: 1223 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/phil-hawksworth">Phil Hawksworth</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/syntax-highlight-everything-kenneth-ormandy-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/s_ooNo2EmMI/hqdefault.jpg" alt="Syntax Highlight Everything" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/syntax-highlight-everything-kenneth-ormandy-front-trends-2016">Syntax Highlight Everything</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 27:42</div>
+			
+			
+              <div>Views: 304 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kenneth-ormandy">Kenneth Ormandy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/taking-over-the-web-platform-with-angular-2-todd-motto-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YV4p8JaA95g/hqdefault.jpg" alt="Taking over the web platform with Angular 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/taking-over-the-web-platform-with-angular-2-todd-motto-front-trends-2016">Taking over the web platform with Angular 2</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 46:44</div>
+			
+			
+              <div>Views: 4022 Likes: 37</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/todd-motto">Todd Motto</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/the-myth-of-the-real-javascript-developer-brenna-obrien-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Xt5qpbiqw2g/hqdefault.jpg" alt="The myth of the “Real JavaScript Developer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/the-myth-of-the-real-javascript-developer-brenna-obrien-front-trends-2016">The myth of the “Real JavaScript Developer</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 27:06</div>
+			
+			
+              <div>Views: 31047 Likes: 769</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brenna-obrien">Brenna O'Brien</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/the-web-in-motion-rachel-nabors-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jX_TWlDe-Is/hqdefault.jpg" alt="The Web in Motion" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/the-web-in-motion-rachel-nabors-front-trends-2016">The Web in Motion</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 45:44</div>
+			
+			
+              <div>Views: 1570 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rachel-nabors">Rachel Nabors</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/untangle-your-code-with-yield-stas-malolepszy-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/B15sTBSAotk/hqdefault.jpg" alt="Untangle your code with yield" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/untangle-your-code-with-yield-stas-malolepszy-front-trends-2016">Untangle your code with yield</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 35:11</div>
+			
+			
+              <div>Views: 509 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stas-malolepszy">Stas Malolepszy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/front-trends-2016/working-with-the-web-and-the-future-sally-jenkinson-front-trends-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/V2m0widDm4w/hqdefault.jpg" alt="Working with the web and the future" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/front-trends-2016/working-with-the-web-and-the-future-sally-jenkinson-front-trends-2016">Working with the web and the future</a></h4>
+          <footer>
+            <div class="recorded">2016-05-18</div>
+			
+			  <div>Length: 30:37</div>
+			
+			
+              <div>Views: 464 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/front-trends-2016">Front-Trends 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sally-jenkinson">Sally Jenkinson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLBevk0eXLOGdZ4yHChA-JW69DCBe7uGkJ">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

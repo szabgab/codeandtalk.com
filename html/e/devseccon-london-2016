@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>DevSecCon London 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>DevSecCon London 2016</h1>
+
+<div><a href="http://www.devseccon.com/london-2016/">DevSecCon London 2016</a></div>
+
+
+<div>Start date: 2016-10-20</div>
+<div>End date: 2016-10-20</div>
+
+<div>Location:
+  London
+  England
+  <a href="/l/uk">UK</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/devseccon">@devseccon</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/DevSecCon/">https://www.facebook.com/DevSecCon/</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=DevSecCon%20London%202016%20on%202016-10-20%20in%20London%2C%20England%20UK%20%40devseccon%20http%3A//www.devseccon.com/london-2016/%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/application-monitoring-in-the-land-of-devsecops"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TfLtfVsHwH4/hqdefault.jpg" alt="Application monitoring in the land of DevSecOps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/application-monitoring-in-the-land-of-devsecops">Application monitoring in the land of DevSecOps</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 23:31</div>
+			
+			
+              <div>Views: 50 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-milner">Mike Milner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/automating-owasp-zap"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3vVnMh6AUkk/hqdefault.jpg" alt="Automating OWASP ZAP" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/automating-owasp-zap">Automating OWASP ZAP</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 58:00</div>
+			
+			
+              <div>Views: 445 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-bennetts">Simon Bennetts</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/devops-security-and-compliance-working-in-unison"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2Rq3q4C1WaU/hqdefault.jpg" alt="DevOps, security, and compliance: Working in unison" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/devops-security-and-compliance-working-in-unison">DevOps, security, and compliance: Working in unison</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 32:31</div>
+			
+			
+              <div>Views: 146 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/elizabeth-lawler">Elizabeth Lawler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/dont-panic-secure-continuous-delivery"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8SZPT39Cx6c/hqdefault.jpg" alt="Don’t panic: Secure continuous delivery" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/dont-panic-secure-continuous-delivery">Don’t panic: Secure continuous delivery</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 32:55</div>
+			
+			
+              <div>Views: 85 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-dare">Chris Dare</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/epic-battle-devops-vs-security"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4FNYZS5kO18/hqdefault.jpg" alt="Epic battle: DevOps vs Security" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/epic-battle-devops-vs-security">Epic battle: DevOps vs Security</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 30:45</div>
+			
+			
+              <div>Views: 160 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fraser-scott">Fraser Scott</a>
+             
+                <a href="/p/nick-drage">Nick Drage</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/how-does-a-traditional-security-team-cope-with-a-move-to-devops"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gEDjtsgun1k/hqdefault.jpg" alt="How does a traditional security team cope with a move to DevOps?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/how-does-a-traditional-security-team-cope-with-a-move-to-devops">How does a traditional security team cope with a move to DevOps?</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 19:11</div>
+			
+			
+              <div>Views: 82 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/colin-domoney">Colin Domoney</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/managing-shared-secrets-with-standard-unix-tools"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O0eWViwUQAI/hqdefault.jpg" alt="Managing shared secrets with standard unix tools" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/managing-shared-secrets-with-standard-unix-tools">Managing shared secrets with standard unix tools</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 24:20</div>
+			
+			
+              <div>Views: 98 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jakob-holderbaum">Jakob Holderbaum</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/monitoring-applications-and-infrastructure-in-aws-and-azure"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FNxVOyq1eyg/hqdefault.jpg" alt="Monitoring applications and infrastructure in AWS and Azure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/monitoring-applications-and-infrastructure-in-aws-and-azure">Monitoring applications and infrastructure in AWS and Azure</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 26:34</div>
+			
+			
+              <div>Views: 50 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alfredo-reino">Alfredo Reino</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/off-the-shelf-automation-to-find-bugs-out-the-box-thinking-to-find-design-flaws"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NCFeXb4Iimc/hqdefault.jpg" alt="Off the shelf automation to find bugs, out the box thinking to find design flaws" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/off-the-shelf-automation-to-find-bugs-out-the-box-thinking-to-find-design-flaws">Off the shelf automation to find bugs, out the box thinking to find design flaws</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 27:22</div>
+			
+			
+              <div>Views: 143 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marcus-pinto">Marcus Pinto</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/securely-automating-infrastructure-in-the-cloud"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8njrUrjeoNI/hqdefault.jpg" alt="Securely automating infrastructure in the Cloud" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/securely-automating-infrastructure-in-the-cloud">Securely automating infrastructure in the Cloud</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 17:43</div>
+			
+			
+              <div>Views: 42 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephen-sadowski">Stephen Sadowski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/security-in-the-wild"><img class="list-thumbnail" src="https://i.ytimg.com/vi/U9S106YpO4M/hqdefault.jpg" alt="Security in the wild" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/security-in-the-wild">Security in the wild</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 27:24</div>
+			
+			
+              <div>Views: 88 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/renato-rodrigues">Renato Rodrigues</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/security-patching-system-packages-is-fun-said-no-one-ever"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1p9R7OrS9-Q/hqdefault.jpg" alt="“Security patching system packages is fun!” said no-one ever" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/security-patching-system-packages-is-fun-said-no-one-ever">“Security patching system packages is fun!” said no-one ever</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 24:32</div>
+			
+			
+              <div>Views: 79 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-carroll">Matt Carroll</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/static-analysis-for-code-and-infrastructure"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vJbh711yRNk/hqdefault.jpg" alt="Static analysis for code and infrastructure​" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/static-analysis-for-code-and-infrastructure">Static analysis for code and infrastructure​</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 22:01</div>
+			
+			
+              <div>Views: 90 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-jones">Nick Jones</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/writing-firewall-policies-in-app-manifests"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DsTab2Ev9GY/hqdefault.jpg" alt="Writing firewall policies in app manifests" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/writing-firewall-policies-in-app-manifests">Writing firewall policies in app manifests</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 21:07</div>
+			
+			
+              <div>Views: 86 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ildefonso-montero">Ildefonso Montero</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devseccon-london-2016/writing-secure-node-code"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2RdAn5OKhmY/hqdefault.jpg" alt="Writing Secure Node Code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devseccon-london-2016/writing-secure-node-code">Writing Secure Node Code</a></h4>
+          <footer>
+            <div class="recorded">2016-10-20</div>
+			
+			  <div>Length: 34:35</div>
+			
+			
+              <div>Views: 75 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devseccon-london-2016">DevSecCon London 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/guy-podjarny">Guy Podjarny</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLZN13UbkqPfWHxhuMBAuKBkb9Vb-PiyI3">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

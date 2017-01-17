@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>ngEurope 2014</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>ngEurope 2014</h1>
+
+<div><a href="https://2015.ngeurope.org/">ngEurope 2014</a></div>
+
+
+<div>Start date: 2014-10-22</div>
+<div>End date: 2014-10-23</div>
+
+<div>Location:
+  Paris
+  
+  <a href="/l/france">France</a>
+</div>
+
+<div><a href="http://confcodeofconduct.com/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/angularjs">AngularJS</a> 
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/ngEurope">@ngEurope</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/ngeuropeconf">https://www.facebook.com/ngeuropeconf</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=ngEurope%202014%20on%202014-10-22%20in%20Paris%2C%20%20France%20%40ngEurope%20https%3A//2015.ngeurope.org/%20%23AngularJS%20%23JavaScript%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/angular-13-by-jeff-cross-brian-ford-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ojMy6m_fcxc/hqdefault.jpg" alt="Angular 1.3" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/angular-13-by-jeff-cross-brian-ford-at-ng-europe-2014">Angular 1.3</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 19:18</div>
+			
+			
+              <div>Views: 16608 Likes: 71</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-ford">Brian Ford</a>
+             
+                <a href="/p/jeffrey-cross">Jeffrey Cross</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/angular-20-core-by-igor-minar-tobias-bosch-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gNmWybAyBHI/hqdefault.jpg" alt="Angular 2.0 Core" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/angular-20-core-by-igor-minar-tobias-bosch-at-ng-europe-2014">Angular 2.0 Core</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 30:15</div>
+			
+			
+              <div>Views: 75887 Likes: 324</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tobias-bosch">Tobias Bosch</a>
+             
+                <a href="/p/igor-minar">Igor Minar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/angular-from-scratch-by-matthieu-lux-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Mk2WwSxK218/hqdefault.jpg" alt="Angular from scratch" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/angular-from-scratch-by-matthieu-lux-at-ng-europe-2014">Angular from scratch</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 32:09</div>
+			
+			
+              <div>Views: 7528 Likes: 117</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matthieu-lux">Matthieu Lux</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/angulardart-under-the-hood-by-victor-berchet-rado-kirov-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RifbDsbfpYA/hqdefault.jpg" alt="AngularDart under the hood" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/angulardart-under-the-hood-by-victor-berchet-rado-kirov-at-ng-europe-2014">AngularDart under the hood</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 35:41</div>
+			
+			
+              <div>Views: 821 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/victor-berchet">Victor Berchet</a>
+             
+                <a href="/p/rado-kirov">Rado Kirov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/angularjs-accessibility-by-marcy-sutton-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dmYDggEgU-s/hqdefault.jpg" alt="AngularJS Accessibility" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/angularjs-accessibility-by-marcy-sutton-at-ng-europe-2014">AngularJS Accessibility</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 29:28</div>
+			
+			
+              <div>Views: 10361 Likes: 49</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marcy-sutton">Marcy Sutton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/angularjs-jump-in-by-manuel-bruschi-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rzTW0fD9sw4/hqdefault.jpg" alt="AngularJS Jump in" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/angularjs-jump-in-by-manuel-bruschi-at-ng-europe-2014">AngularJS Jump in</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 05:29</div>
+			
+			
+              <div>Views: 2635 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/manuel-bruschi">Manuel Bruschi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/angularstrap-lightning-talk-by-olivier-louvignes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5Q4Vmm767yE/hqdefault.jpg" alt="AngularStrap lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/angularstrap-lightning-talk-by-olivier-louvignes">AngularStrap lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 05:52</div>
+			
+			
+              <div>Views: 1719 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/olivier-louvignes">Olivier Louvignes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/animations-sequencer-web-animations-by-matias-niemela-aka-yearofmoo-at-ngeurope-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3hktBbxFxSM/hqdefault.jpg" alt="Animations (sequencer, web animations)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/animations-sequencer-web-animations-by-matias-niemela-aka-yearofmoo-at-ngeurope-2014">Animations (sequencer, web animations)</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 26:17</div>
+			
+			
+              <div>Views: 10097 Likes: 54</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matias-niemela">Matias Niemelä</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/be-a-real-time-cage-dragon-with-angularjs-and-firebase-by-lukas-ruebbelke-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GFTAlC5FSxA/hqdefault.jpg" alt="Be a Real Time Cage Dragon with AngularJS and Firebase" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/be-a-real-time-cage-dragon-with-angularjs-and-firebase-by-lukas-ruebbelke-at-ng-europe-2014">Be a Real Time Cage Dragon with AngularJS and Firebase</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 21:01</div>
+			
+			
+              <div>Views: 2241 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lukas-ruebbelke">Lukas Ruebbelke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/building-games-with-angularjs-by-ari-lerner-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8giyBgNhfkU/hqdefault.jpg" alt="Building games with AngularJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/building-games-with-angularjs-by-ari-lerner-at-ng-europe-2014">Building games with AngularJS</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 31:22</div>
+			
+			
+              <div>Views: 7141 Likes: 69</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ari-lerner">Ari Lerner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/can-we-learn-from-architects-by-vojta-jina-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mqlYLbB9O3g/hqdefault.jpg" alt="Can We Learn from Architects?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/can-we-learn-from-architects-by-vojta-jina-at-ng-europe-2014">Can We Learn from Architects?</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 22:12</div>
+			
+			
+              <div>Views: 2377 Likes: 38</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vojta-jina">Vojta Jína</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/dgeni-documentation-generation-on-steroids-by-pete-bacon-darwin-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PQNROxXajyQ/hqdefault.jpg" alt="Dgeni - Documentation generation on steroids" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/dgeni-documentation-generation-on-steroids-by-pete-bacon-darwin-at-ng-europe-2014">Dgeni - Documentation generation on steroids</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 26:09</div>
+			
+			
+              <div>Views: 4437 Likes: 25</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pete-bacon-darwin">Pete Bacon Darwin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/dont-stop-thinking-about-tomorrow-by-carmen-popoviciu-pascal-precht-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gSTNTXtQwaY/hqdefault.jpg" alt="“Don’t stop thinking about tomorrow”" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/dont-stop-thinking-about-tomorrow-by-carmen-popoviciu-pascal-precht-at-ng-europe-2014">“Don’t stop thinking about tomorrow”</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 29:24</div>
+			
+			
+              <div>Views: 4278 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/carmen-popoviciu">Carmen Popoviciu</a>
+             
+                <a href="/p/pascal-precht">Pascal Precht</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/es6-in-angular-20-by-erik-arvidsson-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iij5RHKi66o/hqdefault.jpg" alt="ES6 in Angular 2.0" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/es6-in-angular-20-by-erik-arvidsson-at-ng-europe-2014">ES6 in Angular 2.0</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 30:12</div>
+			
+			
+              <div>Views: 5789 Likes: 47</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/erik-arvidsson">Erik Arvidsson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/famous-angular-by-zack-brown-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/irbm9MCnznw/hqdefault.jpg" alt="Famo.us Angular" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/famous-angular-by-zack-brown-at-ng-europe-2014">Famo.us Angular</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 21:38</div>
+			
+			
+              <div>Views: 2895 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/zack-brown">Zack Brown</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/feature-oriented-programming-with-deltajs-by-michiel-helvensteijn-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4pnGM3l2O5Q/hqdefault.jpg" alt="Feature-oriented programming with delta.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/feature-oriented-programming-with-deltajs-by-michiel-helvensteijn-at-ng-europe-2014">Feature-oriented programming with delta.js</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 05:16</div>
+			
+			
+              <div>Views: 847 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michiel-helvensteijn">Michiel Helvensteijn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/internationalize-angularjs-by-rahul-doshi-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5CUbBdvl4mE/hqdefault.jpg" alt="Internationalize AngularJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/internationalize-angularjs-by-rahul-doshi-at-ng-europe-2014">Internationalize AngularJS</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 06:17</div>
+			
+			
+              <div>Views: 1832 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rahul-doshi">Rahul Doshi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/ionic-framework-by-andrew-joslin-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZjPRj2Vp74U/hqdefault.jpg" alt="Ionic Framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/ionic-framework-by-andrew-joslin-at-ng-europe-2014">Ionic Framework</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 32:17</div>
+			
+			
+              <div>Views: 13078 Likes: 113</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-joslin">Andrew Joslin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/keynote-on-the-state-of-angular-by-igor-minar-brad-green-and-judy-tuan-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/c5HSqDLfpW0/hqdefault.jpg" alt="Keynote on the state of Angular" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/keynote-on-the-state-of-angular-by-igor-minar-brad-green-and-judy-tuan-at-ng-europe-2014">Keynote on the state of Angular</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 34:54</div>
+			
+			
+              <div>Views: 18554 Likes: 69</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/judy-tuan">Judy Tuan</a>
+             
+                <a href="/p/brad-green">Brad Green</a>
+             
+                <a href="/p/igor-minar">Igor Minar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/lightning-contest-winners-announcement"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rT12rmEQTLk/hqdefault.jpg" alt="Lightning contest winners announcement" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/lightning-contest-winners-announcement">Lightning contest winners announcement</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 01:56</div>
+			
+			
+              <div>Views: 601 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/make-your-angular-app-a-max-security-prison-by-matias-woloski-martin-gontovnikas-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lDb_GANDR8U/hqdefault.jpg" alt="Make your Angular app a max security prison" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/make-your-angular-app-a-max-security-prison-by-matias-woloski-martin-gontovnikas-at-ng-europe-2014">Make your Angular app a max security prison</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 33:12</div>
+			
+			
+              <div>Views: 32264 Likes: 236</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/martin-gontovnikas">Martin Gontovnikas</a>
+             
+                <a href="/p/matias-woloski">Matias Woloski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/material-design-by-thomas-burleson-max-lynch-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2qiyhkQVyxE/hqdefault.jpg" alt="Material Design" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/material-design-by-thomas-burleson-max-lynch-at-ng-europe-2014">Material Design</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 25:27</div>
+			
+			
+              <div>Views: 29425 Likes: 193</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-burleson">Thomas Burleson</a>
+             
+                <a href="/p/max-lynch">Max Lynch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/misko-hevery-keynote-on-atscript-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lGdnh8QSPPk/hqdefault.jpg" alt="Keynote on AtScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/misko-hevery-keynote-on-atscript-at-ng-europe-2014">Keynote on AtScript</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 35:37</div>
+			
+			
+              <div>Views: 24470 Likes: 160</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/misko-hevery">Miško Hevery</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/ngfactory-the-angular-component-development-environment-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Q8ne-GnLR68/hqdefault.jpg" alt="ngFactory: the Angular component development environment" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/ngfactory-the-angular-component-development-environment-at-ng-europe-2014">ngFactory: the Angular component development environment</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 06:13</div>
+			
+			
+              <div>Views: 1675 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/julien-bouquillon">Julien Bouquillon</a>
+             
+                <a href="/p/douglas-duteil">Douglas Duteil</a>
+             
+                <a href="/p/olivier-louvignes">Olivier Louvignes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/ngimprovedtesting-mock-testing-for-angularjs-made-easy-by-emil-van-galen-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YCmKe9WmHgw/hqdefault.jpg" alt="ngImprovedTesting: mock testing for AngularJS made easy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/ngimprovedtesting-mock-testing-for-angularjs-made-easy-by-emil-van-galen-at-ng-europe-2014">ngImprovedTesting: mock testing for AngularJS made easy</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 04:33</div>
+			
+			
+              <div>Views: 814 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/emil-van-galen">Emil van Galen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/no-backend-workflow-with-ngmocke2e-and-gulp-by-gabriel-obregon-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/E5pkE8qFCz0/hqdefault.jpg" alt="No Backend Workflow With ngMockE2E and Gulp" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/no-backend-workflow-with-ngmocke2e-and-gulp-by-gabriel-obregon-at-ng-europe-2014">No Backend Workflow With ngMockE2E and Gulp</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 04:54</div>
+			
+			
+              <div>Views: 1781 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gabriel-obregon">Gabriel Obregon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/paginate-anything-in-angularjs-by-michael-bromley-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tASrOwMSfcg/hqdefault.jpg" alt="Paginate anything in AngularJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/paginate-anything-in-angularjs-by-michael-bromley-at-ng-europe-2014">Paginate anything in AngularJS</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 04:59</div>
+			
+			
+              <div>Views: 15940 Likes: 113</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-bromley">Michael Bromley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/protractor-and-the-testability-api-by-julie-ralph-chirayu-krishnappa-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XgmUkCISabc/hqdefault.jpg" alt="Protractor and the Testability API" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/protractor-and-the-testability-api-by-julie-ralph-chirayu-krishnappa-at-ng-europe-2014">Protractor and the Testability API</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 25:43</div>
+			
+			
+              <div>Views: 4987 Likes: 30</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/julie-ralph">Julie Ralph</a>
+             
+                <a href="/p/chirayu-krishnappa">Chirayu Krishnappa</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/qa-with-angular-team-on-20-atscript-more-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/g-x1QKriY90/hqdefault.jpg" alt="Q&A with Angular team on 2.0, AtScript & more at ng-europe 2014" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/qa-with-angular-team-on-20-atscript-more-at-ng-europe-2014">Q&A with Angular team on 2.0, AtScript & more at ng-europe 2014</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 53:55</div>
+			
+			
+              <div>Views: 10258 Likes: 29</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/responsive-takes-flight-building-the-1st-responsive-airline-website-by-oliver-dore-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o7I1P9yh8Rc/hqdefault.jpg" alt="Responsive Takes Flight: Building The 1st Responsive Airline Website" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/responsive-takes-flight-building-the-1st-responsive-airline-website-by-oliver-dore-ng-europe-2014">Responsive Takes Flight: Building The 1st Responsive Airline Website</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 32:19</div>
+			
+			
+              <div>Views: 6984 Likes: 62</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oliver-dore">Oliver Dore</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/restangular-20-the-future-and-beyond-by-martin-gontovnikas-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fWar75R1NGo/hqdefault.jpg" alt="Restangular 2.0: The future and beyond" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/restangular-20-the-future-and-beyond-by-martin-gontovnikas-at-ng-europe-2014">Restangular 2.0: The future and beyond</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 28:53</div>
+			
+			
+              <div>Views: 8057 Likes: 41</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/martin-gontovnikas">Martin Gontovnikas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/rrm-the-js-object-relational-mapper-by-bart-van-den-burg-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RznBvPSui8g/hqdefault.jpg" alt="RRM, the JS Object Relational Mapper" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/rrm-the-js-object-relational-mapper-by-bart-van-den-burg-at-ng-europe-2014">RRM, the JS Object Relational Mapper</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 04:17</div>
+			
+			
+              <div>Views: 914 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bart-van-den-burg">Bart van den Burg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/software-patterns-and-design-with-angularjs-by-jeremy-elbourn-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AIO2Om7B83s/hqdefault.jpg" alt="Software Patterns and Design with AngularJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/software-patterns-and-design-with-angularjs-by-jeremy-elbourn-at-ng-europe-2014">Software Patterns and Design with AngularJS</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 26:16</div>
+			
+			
+              <div>Views: 4398 Likes: 46</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeremy-elbourn">Jeremy Elbourn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/the-new-router-for-angularjs-by-rob-eisenberg-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h1P_Vh4gSQY/hqdefault.jpg" alt="The new Router for AngularJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/the-new-router-for-angularjs-by-rob-eisenberg-at-ng-europe-2014">The new Router for AngularJS</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 25:54</div>
+			
+			
+              <div>Views: 16376 Likes: 83</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rob-eisenberg">Rob Eisenberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/the-power-of-q-by-dave-smith-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/33kl0iQByME/hqdefault.jpg" alt="The Power of $q" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/the-power-of-q-by-dave-smith-at-ng-europe-2014">The Power of $q</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 26:52</div>
+			
+			
+              <div>Views: 5373 Likes: 84</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-smith">Dave Smith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/tooling-by-brian-ford-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/x8IWsjoCy-M/hqdefault.jpg" alt="Tooling" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/tooling-by-brian-ford-at-ng-europe-2014">Tooling</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 14:56</div>
+			
+			
+              <div>Views: 3750 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-ford">Brian Ford</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/ui-bootstrap-by-pawel-kozlowski-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tfVA1syv-3o/hqdefault.jpg" alt="ui-bootstrap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/ui-bootstrap-by-pawel-kozlowski-at-ng-europe-2014">ui-bootstrap</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 23:50</div>
+			
+			
+              <div>Views: 3261 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pawel-kozlowski">Pawel Kozlowski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/using-angular-phonegap-to-build-hybrid-mobile-applications-by-julien-bouquillon-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yKjgbDEtCgM/hqdefault.jpg" alt="Using Angular & Phonegap to build hybrid mobile applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/using-angular-phonegap-to-build-hybrid-mobile-applications-by-julien-bouquillon-ng-europe-2014">Using Angular & Phonegap to build hybrid mobile applications</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 09:32</div>
+			
+			
+              <div>Views: 2506 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/julien-bouquillon">Julien Bouquillon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/wakanda-lightnings-talk-by-alexandre-morgaut"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cQ0LbKLAvVM/hqdefault.jpg" alt="Wakanda lightning's talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/wakanda-lightnings-talk-by-alexandre-morgaut">Wakanda lightning's talk</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 04:35</div>
+			
+			
+              <div>Views: 815 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alexandre-morgaut">Alexandre Morgaut</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ng-europe-2015/yet-another-way-to-animate-in-angular-by-douglas-duteil-at-ng-europe-2014"><img class="list-thumbnail" src="https://i.ytimg.com/vi/y61juMBLKJg/hqdefault.jpg" alt="Yet another way to animate in Angular" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ng-europe-2015/yet-another-way-to-animate-in-angular-by-douglas-duteil-at-ng-europe-2014">Yet another way to animate in Angular</a></h4>
+          <footer>
+            <div class="recorded">2014-10-22</div>
+			
+			  <div>Length: 17:31</div>
+			
+			
+              <div>Views: 2065 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/ng-europe-2015">ngEurope 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/douglas-duteil">Douglas Duteil</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLhc_bKwZngxVdncLw5I9ePOY2547aRIJJ PLhc_bKwZngxW3_mN7B4Fx-GBCxwTIWj6D PLhc_bKwZngxW_ZlY0NkaGkvKpiA_pzcZ-">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

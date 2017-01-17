@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Linuxfest Northwest 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Linuxfest Northwest 2015</h1>
+
+<div><a href="https://www.linuxfestnorthwest.org/2015">Linuxfest Northwest 2015</a></div>
+
+
+<div>Start date: 2015-04-25</div>
+<div>End date: 2015-04-26</div>
+
+<div>Location:
+  Bellingham
+  Washington
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/linux">Linux</a> 
+   
+</div>
+
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Linuxfest%20Northwest%202015%20on%202015-04-25%20in%20Bellingham%2C%20Washington%20USA%20https%3A//www.linuxfestnorthwest.org/2015%20%23Linux%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2015/linuxfest-northwest-2015-bitcoin-development-getting-started-on-the-block-chain"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gTNKzYrgY04/hqdefault.jpg" alt="LinuxFest Northwest 2015: Bitcoin Development: Getting Started on the Block Chain" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2015/linuxfest-northwest-2015-bitcoin-development-getting-started-on-the-block-chain">LinuxFest Northwest 2015: Bitcoin Development: Getting Started on the Block Chain</a></h4>
+          <footer>
+            <div class="recorded">2015-04-25</div>
+			
+			  <div>Length: 01:12:46</div>
+			
+			
+              <div>Views: 379 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2015">Linuxfest Northwest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2015/linuxfest-northwest-2015-bootstrapping-a-language-workbench"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BA6F3vhe7Kg/hqdefault.jpg" alt="LinuxFest Northwest 2015: Bootstrapping a Language Workbench" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2015/linuxfest-northwest-2015-bootstrapping-a-language-workbench">LinuxFest Northwest 2015: Bootstrapping a Language Workbench</a></h4>
+          <footer>
+            <div class="recorded">2015-04-25</div>
+			
+			  <div>Length: 47:12</div>
+			
+			
+              <div>Views: 67 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2015">Linuxfest Northwest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2015/linuxfest-northwest-2015-elegant-and-efficient-python"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LeQp1BA5r7A/hqdefault.jpg" alt="LinuxFest Northwest 2015: Elegant and Efficient Python" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2015/linuxfest-northwest-2015-elegant-and-efficient-python">LinuxFest Northwest 2015: Elegant and Efficient Python</a></h4>
+          <footer>
+            <div class="recorded">2015-04-25</div>
+			
+			  <div>Length: 01:02:28</div>
+			
+			
+              <div>Views: 797 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2015">Linuxfest Northwest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2015/linuxfest-northwest-2015-openstack-not-just-for-public-clouds"><img class="list-thumbnail" src="https://i.ytimg.com/vi/g9-hHphESXI/hqdefault.jpg" alt="LinuxFest Northwest 2015: OpenStack -- Not just for Public Clouds!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2015/linuxfest-northwest-2015-openstack-not-just-for-public-clouds">LinuxFest Northwest 2015: OpenStack -- Not just for Public Clouds!</a></h4>
+          <footer>
+            <div class="recorded">2015-04-25</div>
+			
+			  <div>Length: 01:03:02</div>
+			
+			
+              <div>Views: 91 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2015">Linuxfest Northwest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2015/linuxfest-northwest-2015-the-bare-metal-hypervisor-as-a-platform-for-innovation"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1_70X8RMEn8/hqdefault.jpg" alt="LinuxFest Northwest 2015: The Bare-Metal Hypervisor as a Platform for Innovation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2015/linuxfest-northwest-2015-the-bare-metal-hypervisor-as-a-platform-for-innovation">LinuxFest Northwest 2015: The Bare-Metal Hypervisor as a Platform for Innovation</a></h4>
+          <footer>
+            <div class="recorded">2015-04-25</div>
+			
+			  <div>Length: 01:09:09</div>
+			
+			
+              <div>Views: 482 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2015">Linuxfest Northwest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/linuxfest-northwest-2015/linuxfest-northwest-2015-the-next-generation-cloud-unleashing-the-power-of-the-unikernel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nHr_EmI4u8E/hqdefault.jpg" alt="LinuxFest Northwest 2015: The Next Generation Cloud: Unleashing the Power of the Unikernel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/linuxfest-northwest-2015/linuxfest-northwest-2015-the-next-generation-cloud-unleashing-the-power-of-the-unikernel">LinuxFest Northwest 2015: The Next Generation Cloud: Unleashing the Power of the Unikernel</a></h4>
+          <footer>
+            <div class="recorded">2015-04-25</div>
+			
+			  <div>Length: 57:47</div>
+			
+			
+              <div>Views: 211 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/linuxfest-northwest-2015">Linuxfest Northwest 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLjDc7gDlIASTbErWsj0M_lywj-nlLSbOK">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,1902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Selenium Conf India 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Selenium Conf India 2016</h1>
+
+<div><a href="http://2016.seleniumconf.in/">Selenium Conf India 2016</a></div>
+
+
+<div>Start date: 2016-06-24</div>
+<div>End date: 2016-06-26</div>
+
+<div>Location:
+  Bangalore
+  Karnataka
+  <a href="/l/india">India</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/selenium">Selenium</a> 
+   
+       <a href="/t/testing">testing</a> 
+   
+       <a href="/t/web">web</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/seleniumconf">@seleniumconf</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/seleniumconf">https://www.facebook.com/seleniumconf</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Selenium%20Conf%20India%202016%20on%202016-06-24%20in%20Bangalore%2C%20Karnataka%20India%20%40seleniumconf%20http%3A//2016.seleniumconf.in/%20%23Selenium%20%23testing%20%23web%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/advanced-appium-by-dan-cuellar-at-selenium-conf-india-2016-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7sYK3XKYyGk/hqdefault.jpg" alt="Advanced Appium" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/advanced-appium-by-dan-cuellar-at-selenium-conf-india-2016-trailer">Advanced Appium</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:12</div>
+			
+			
+              <div>Views: 94 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-cuellar">Dan Cuellar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/advanced-appium-by-dan-cuellar-at-selenium-conf-india-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3pR58LNZhHw/hqdefault.jpg" alt="Advanced Appium" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/advanced-appium-by-dan-cuellar-at-selenium-conf-india-2016">Advanced Appium</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 33:12</div>
+			
+			
+              <div>Views: 323 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-cuellar">Dan Cuellar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/advanced-automated-visual-testing-with-selenium-by-adam-carmi-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YPHuRGdueGU/hqdefault.jpg" alt="Advanced Automated Visual Testing With Selenium" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/advanced-automated-visual-testing-with-selenium-by-adam-carmi-at-seconf16-india-trailer">Advanced Automated Visual Testing With Selenium</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:10</div>
+			
+			
+              <div>Views: 48 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-carmi">Adam Carmi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/advanced-automated-visual-testing-with-selenium-by-adam-carmi-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Tz2wRlNOyhQ/hqdefault.jpg" alt="Advanced Automated Visual Testing With Selenium" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/advanced-automated-visual-testing-with-selenium-by-adam-carmi-at-seconf16-india">Advanced Automated Visual Testing With Selenium</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 53:37</div>
+			
+			
+              <div>Views: 229 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-carmi">Adam Carmi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/automated-accessibility-testing-by-anshul-mathur-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZInXBT11oLM/hqdefault.jpg" alt="Automated Accessibility Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/automated-accessibility-testing-by-anshul-mathur-at-seconf16-india-trailer">Automated Accessibility Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:04</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anshul-mathur">Anshul Mathur</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/automated-accessibility-testing-by-anshul-mathur-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ui0G3llWY34/hqdefault.jpg" alt="Automated Accessibility Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/automated-accessibility-testing-by-anshul-mathur-at-seconf16-india">Automated Accessibility Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 46:31</div>
+			
+			
+              <div>Views: 77 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anshul-mathur">Anshul Mathur</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/automated-analytics-testing-with-open-source-tools-by-marcus-merrell-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/d2qwhfwuSyU/hqdefault.jpg" alt="Automated Analytics Testing with Open Source Tools" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/automated-analytics-testing-with-open-source-tools-by-marcus-merrell-at-seconf16-india-trailer">Automated Analytics Testing with Open Source Tools</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:15</div>
+			
+			
+              <div>Views: 48 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marcus-merrell">Marcus Merrell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/automated-analytics-testing-with-open-source-tools-by-marcus-merrell-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8MOsxykAsrw/hqdefault.jpg" alt="Automated Analytics Testing with Open Source Tools" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/automated-analytics-testing-with-open-source-tools-by-marcus-merrell-at-seconf16-india">Automated Analytics Testing with Open Source Tools</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 43:31</div>
+			
+			
+              <div>Views: 130 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marcus-merrell">Marcus Merrell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/automating-the-responsive-web-design-testing-by-pranathi-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h3WN6j4heaE/hqdefault.jpg" alt="Automating the Responsive Web Design Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/automating-the-responsive-web-design-testing-by-pranathi-at-seconf16-india-trailer">Automating the Responsive Web Design Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:03</div>
+			
+			
+              <div>Views: 72 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pranathi-birudugadda">Pranathi Birudugadda</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/automating-the-responsive-web-design-testing-by-pranathi-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Hha4FoH7iFw/hqdefault.jpg" alt="Automating the Responsive Web Design Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/automating-the-responsive-web-design-testing-by-pranathi-at-seconf16-india">Automating the Responsive Web Design Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 45:00</div>
+			
+			
+              <div>Views: 578 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pranathi-birudugadda">Pranathi Birudugadda</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/better-page-object-handling-with-loadable-component-pattern-by-sargis-at-seconf16-india-trailer-8f81b8"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ti8suWaocXA/hqdefault.jpg" alt="Better Page Object Handling with Loadable Component Pattern" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/better-page-object-handling-with-loadable-component-pattern-by-sargis-at-seconf16-india-trailer-8f81b8">Better Page Object Handling with Loadable Component Pattern</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 57:47</div>
+			
+			
+              <div>Views: 276 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sargis-sargsyan">Sargis Sargsyan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/better-page-object-handling-with-loadable-component-pattern-by-sargis-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oOz0_4oohpo/hqdefault.jpg" alt="Better Page Object Handling with Loadable Component Pattern" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/better-page-object-handling-with-loadable-component-pattern-by-sargis-at-seconf16-india-trailer">Better Page Object Handling with Loadable Component Pattern</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:05</div>
+			
+			
+              <div>Views: 72 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sargis-sargsyan">Sargis Sargsyan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/brace-yourself-from-an-automation-death-trap-by-prasad-kalgutkar-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OIfcgTNk4-4/hqdefault.jpg" alt="Brace yourself from an automation death trap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/brace-yourself-from-an-automation-death-trap-by-prasad-kalgutkar-at-seconf16-india-trailer">Brace yourself from an automation death trap</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:07</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/prasad-kalgutkar">Prasad Kalgutkar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/brace-yourself-from-an-automation-death-trap-by-prasad-kalgutkar-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xzTD5gyXAGI/hqdefault.jpg" alt="Brace yourself from an automation death trap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/brace-yourself-from-an-automation-death-trap-by-prasad-kalgutkar-at-seconf16-india">Brace yourself from an automation death trap</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 43:17</div>
+			
+			
+              <div>Views: 65 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/prasad-kalgutkar">Prasad Kalgutkar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/can-we-have-it-all-by-pooja-shah-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CvuR2ErQU48/hqdefault.jpg" alt="Can we Have it All" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/can-we-have-it-all-by-pooja-shah-at-seconf16-india-trailer">Can we Have it All</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:16</div>
+			
+			
+              <div>Views: 97 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pooja-shah">Pooja Shah</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/can-we-have-it-all-by-pooja-shah-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qtjSKI_cwVQ/hqdefault.jpg" alt="Can we Have it All" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/can-we-have-it-all-by-pooja-shah-at-seconf16-india">Can we Have it All</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 01:05:03</div>
+			
+			
+              <div>Views: 105 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pooja-shah">Pooja Shah</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/checking-as-a-service-by-bret-pettichord-at-selenium-conf-india-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gkWwx3ve60U/hqdefault.jpg" alt="Checking as a Service" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/checking-as-a-service-by-bret-pettichord-at-selenium-conf-india-2016">Checking as a Service</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 59:13</div>
+			
+			
+              <div>Views: 340 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bret-pettichord">Bret Pettichord</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/cross-platform-multi-device-instant-communication-testing-by-vivek-naresh-at-seconf16-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lx4eOIYBoro/hqdefault.jpg" alt="Cross platform, Multi device Instant Communication Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/cross-platform-multi-device-instant-communication-testing-by-vivek-naresh-at-seconf16-trailer">Cross platform, Multi device Instant Communication Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:09</div>
+			
+			
+              <div>Views: 20 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vivek-upreti">Vivek Upreti</a>
+             
+                <a href="/p/naresh-jain">Naresh Jain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/cross-platform-multi-device-instant-communication-testing-by-vivek-naresh-at-seconf16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EBwcYLi5JbQ/hqdefault.jpg" alt="Cross platform, Multi device Instant Communication Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/cross-platform-multi-device-instant-communication-testing-by-vivek-naresh-at-seconf16">Cross platform, Multi device Instant Communication Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 01:06:40</div>
+			
+			
+              <div>Views: 87 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vivek-upreti">Vivek Upreti</a>
+             
+                <a href="/p/naresh-jain">Naresh Jain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/debriefing-the-session-notes-for-exploratory-testing-by-jyothi-rangaiah-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G2Sm-gaWrUw/hqdefault.jpg" alt="Debriefing the Session Notes for Exploratory Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/debriefing-the-session-notes-for-exploratory-testing-by-jyothi-rangaiah-at-seconf16-india-trailer">Debriefing the Session Notes for Exploratory Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:07</div>
+			
+			
+              <div>Views: 33 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jyothi-rangaiah">Jyothi Rangaiah</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/from-pyramids-to-hourglass-by-roy-and-sreevatsa-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rWissx10X5g/hqdefault.jpg" alt="From Pyramids to hourglass" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/from-pyramids-to-hourglass-by-roy-and-sreevatsa-at-seconf16-india-trailer">From Pyramids to hourglass</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:06</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sreevatsa-s">Sreevatsa S</a>
+             
+                <a href="/p/roy-nuriel">Roy Nuriel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/from-pyramids-to-hourglass-by-roy-and-sreevatsa-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fP34PNEnaEQ/hqdefault.jpg" alt="From Pyramids to hourglass" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/from-pyramids-to-hourglass-by-roy-and-sreevatsa-at-seconf16-india">From Pyramids to hourglass</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 34:41</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sreevatsa-s">Sreevatsa S</a>
+             
+                <a href="/p/roy-nuriel">Roy Nuriel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/functional-and-security-testing-by-sarvesh-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/w4zPAf3qTxY/hqdefault.jpg" alt="Functional and Security Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/functional-and-security-testing-by-sarvesh-at-seconf16-india-trailer">Functional and Security Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:06</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sarvesh-shrivastava">Sarvesh Shrivastava</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/functional-and-security-testing-by-sarvesh-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0DQW_eiFoS4/hqdefault.jpg" alt="Functional and Security Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/functional-and-security-testing-by-sarvesh-at-seconf16-india">Functional and Security Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 46:42</div>
+			
+			
+              <div>Views: 119 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sarvesh-shrivastava">Sarvesh Shrivastava</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/generating-and-running-1000000-selenium-tests-in-60-minutes-by-sean-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wVBG3hLmso0/hqdefault.jpg" alt="Generating and Running 1,000,000 Selenium tests in 60 minutes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/generating-and-running-1000000-selenium-tests-in-60-minutes-by-sean-at-seconf16-india-trailer">Generating and Running 1,000,000 Selenium tests in 60 minutes</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:09</div>
+			
+			
+              <div>Views: 48 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-grove">Sean Grove</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/generating-and-running-1000000-selenium-tests-in-60-minutes-by-sean-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Yp7MmskzF9Y/hqdefault.jpg" alt="Generating and Running 1,000,000 Selenium tests in 60 minutes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/generating-and-running-1000000-selenium-tests-in-60-minutes-by-sean-at-seconf16-india">Generating and Running 1,000,000 Selenium tests in 60 minutes</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 49:19</div>
+			
+			
+              <div>Views: 220 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-grove">Sean Grove</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/hands-on-guide-to-object-identification-by-dharmesh-vaya-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aF4uahbDTbk/hqdefault.jpg" alt="Hands on guide to Object Identification" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/hands-on-guide-to-object-identification-by-dharmesh-vaya-at-seconf16-india-trailer">Hands on guide to Object Identification</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:15</div>
+			
+			
+              <div>Views: 54 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dharmesh-vaya">Dharmesh Vaya</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/hands-on-guide-to-object-identification-by-dharmesh-vaya-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FZB6jH7ULCQ/hqdefault.jpg" alt="Hands on guide to Object Identification" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/hands-on-guide-to-object-identification-by-dharmesh-vaya-at-seconf16-india">Hands on guide to Object Identification</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 46:28</div>
+			
+			
+              <div>Views: 107 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dharmesh-vaya">Dharmesh Vaya</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/help-me-help-you-contribute-to-the-selenium-project-by-luke-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/38dqC3hi7Jw/hqdefault.jpg" alt="Help me help you- contribute to the Selenium project" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/help-me-help-you-contribute-to-the-selenium-project-by-luke-at-seconf16-india-trailer">Help me help you- contribute to the Selenium project</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:16</div>
+			
+			
+              <div>Views: 30 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luke-inman-semerau">Luke Inman-Semerau</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/help-me-help-you-contribute-to-the-selenium-project-by-luke-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eGnDOcIoqJY/hqdefault.jpg" alt="Help me help you- contribute to the Selenium project" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/help-me-help-you-contribute-to-the-selenium-project-by-luke-at-seconf16-india">Help me help you- contribute to the Selenium project</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 48:36</div>
+			
+			
+              <div>Views: 63 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luke-inman-semerau">Luke Inman-Semerau</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/how-indeed-used-selenium-to-submit-job-applications-by-seshusasi-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RNu_Y7zx-r0/hqdefault.jpg" alt="How Indeed used Selenium to submit job applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/how-indeed-used-selenium-to-submit-job-applications-by-seshusasi-at-seconf16-india-trailer">How Indeed used Selenium to submit job applications</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:57</div>
+			
+			
+              <div>Views: 62 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/seshumadhav-chaturvedula">Seshumadhav Chaturvedula</a>
+             
+                <a href="/p/sasi-kumar-baratam">Sasi Kumar Baratam</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/how-indeed-used-selenium-to-submit-job-applications-by-seshusasi-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sJDmZ1JG4yo/hqdefault.jpg" alt="How Indeed used Selenium to submit job applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/how-indeed-used-selenium-to-submit-job-applications-by-seshusasi-at-seconf16-india">How Indeed used Selenium to submit job applications</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 47:16</div>
+			
+			
+              <div>Views: 122 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/seshumadhav-chaturvedula">Seshumadhav Chaturvedula</a>
+             
+                <a href="/p/sasi-kumar-baratam">Sasi Kumar Baratam</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/it-is-all-about-prioritization-at-the-end-of-the-day-by-rajini-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Xv_fUuXtiRI/hqdefault.jpg" alt="It Is All About Prioritization, At The End Of The Day" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/it-is-all-about-prioritization-at-the-end-of-the-day-by-rajini-at-seconf16-india-trailer">It Is All About Prioritization, At The End Of The Day</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:11</div>
+			
+			
+              <div>Views: 44 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rajini-padmanaban">Rajini Padmanaban</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/it-is-all-about-prioritization-at-the-end-of-the-day-by-rajini-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QZpE-W6yNK4/hqdefault.jpg" alt="It Is All About Prioritization, At The End Of The Day" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/it-is-all-about-prioritization-at-the-end-of-the-day-by-rajini-at-seconf16-india">It Is All About Prioritization, At The End Of The Day</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 26:22</div>
+			
+			
+              <div>Views: 280 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rajini-padmanaban">Rajini Padmanaban</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/java-swing-java-fx-application-testing-by-dakshinamurthy-at-seconf2016-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BDEFEzBUEcM/hqdefault.jpg" alt="Java Swing, Java FX application testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/java-swing-java-fx-application-testing-by-dakshinamurthy-at-seconf2016-india-trailer">Java Swing, Java FX application testing</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:10</div>
+			
+			
+              <div>Views: 69 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dakshinamurthy-karra">Dakshinamurthy Karra</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/java-swing-java-fx-application-testing-by-dakshinamurthy-at-seconf2016-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bDTC5mkubeE/hqdefault.jpg" alt="Java Swing, Java FX application testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/java-swing-java-fx-application-testing-by-dakshinamurthy-at-seconf2016-india">Java Swing, Java FX application testing</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 49:23</div>
+			
+			
+              <div>Views: 333 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dakshinamurthy-karra">Dakshinamurthy Karra</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/keynoteq-a-with-the-selenium-committee-by-naresh-jain-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7OBAW7HiIQg/hqdefault.jpg" alt="Keynote:Q & A with the Selenium Committee" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/keynoteq-a-with-the-selenium-committee-by-naresh-jain-at-seconf16-india">Keynote:Q & A with the Selenium Committee</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 49:05</div>
+			
+			
+              <div>Views: 261 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/naresh-jain">Naresh Jain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/more-reliable-and-trustworthy-automated-gui-tests-by-julian-harty-at-seconf16-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8-DOnd-kw2g/hqdefault.jpg" alt="[More] Reliable and Trustworthy Automated GUI Tests" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/more-reliable-and-trustworthy-automated-gui-tests-by-julian-harty-at-seconf16-trailer">[More] Reliable and Trustworthy Automated GUI Tests</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:09</div>
+			
+			
+              <div>Views: 53 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/julian-harty">Julian Harty</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/more-reliable-and-trustworthy-automated-gui-tests-by-julian-harty-at-seconf16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/S7HI5uyoPUY/hqdefault.jpg" alt="[More] Reliable and Trustworthy Automated GUI Tests" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/more-reliable-and-trustworthy-automated-gui-tests-by-julian-harty-at-seconf16">[More] Reliable and Trustworthy Automated GUI Tests</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 43:57</div>
+			
+			
+              <div>Views: 175 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/julian-harty">Julian Harty</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/one-page-to-test-them-all-by-priti-biyani-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mZ09H0h_A5k/hqdefault.jpg" alt="One page to test them all" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/one-page-to-test-them-all-by-priti-biyani-at-seconf16-india-trailer">One page to test them all</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:11</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/priti-biyani">Priti Biyani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/one-page-to-test-them-all-by-priti-biyani-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o2GITQ9BAUU/hqdefault.jpg" alt="One page to test them all" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/one-page-to-test-them-all-by-priti-biyani-at-seconf16-india">One page to test them all</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 01:16:59</div>
+			
+			
+              <div>Views: 99 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/priti-biyani">Priti Biyani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/performance-testing-a-mobile-app-used-by-100m-users-by-kumar-pratyush-naresh-jain-at-seconf16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DfUgTz9tmFQ/hqdefault.jpg" alt="Performance Testing a Mobile App Used by 100M Users" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/performance-testing-a-mobile-app-used-by-100m-users-by-kumar-pratyush-naresh-jain-at-seconf16">Performance Testing a Mobile App Used by 100M Users</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 47:26</div>
+			
+			
+              <div>Views: 278 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kumar-pratyush">Kumar Pratyush</a>
+             
+                <a href="/p/naresh-jain">Naresh Jain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/practical-tips-tricks-for-selenium-by-dave-haeffner-at-selenium-conf-india-2016-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tn_lzIR-NbA/hqdefault.jpg" alt="Practical Tips & Tricks for Selenium" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/practical-tips-tricks-for-selenium-by-dave-haeffner-at-selenium-conf-india-2016-trailer">Practical Tips & Tricks for Selenium</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:11</div>
+			
+			
+              <div>Views: 156 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-haeffner">Dave Haeffner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/practical-tips-tricks-for-selenium-by-dave-haeffner-at-selenium-conf-india-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P5n_bIK0cDE/hqdefault.jpg" alt="Practical Tips & Tricks for Selenium" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/practical-tips-tricks-for-selenium-by-dave-haeffner-at-selenium-conf-india-2016">Practical Tips & Tricks for Selenium</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 01:40:09</div>
+			
+			
+              <div>Views: 455 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-haeffner">Dave Haeffner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/robot-handles-giving-selenium-a-helping-hand-by-andy-palmer-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/E2_f4nXBeiA/hqdefault.jpg" alt="Robot Handles: Giving Selenium a Helping Hand" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/robot-handles-giving-selenium-a-helping-hand-by-andy-palmer-at-seconf16-india-trailer">Robot Handles: Giving Selenium a Helping Hand</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:06</div>
+			
+			
+              <div>Views: 28 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andy-palmer">Andy Palmer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/robot-handles-giving-selenium-a-helping-hand-by-andy-palmer-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XMyo93TmRQA/hqdefault.jpg" alt="Robot Handles: Giving Selenium a Helping Hand" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/robot-handles-giving-selenium-a-helping-hand-by-andy-palmer-at-seconf16-india">Robot Handles: Giving Selenium a Helping Hand</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 51:18</div>
+			
+			
+              <div>Views: 124 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andy-palmer">Andy Palmer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/selenium-3-bug-bash-showcase-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lseIHCgGe5c/hqdefault.jpg" alt="Selenium 3 Bug Bash Showcase at SeConf16 India Trailer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/selenium-3-bug-bash-showcase-at-seconf16-india-trailer">Selenium 3 Bug Bash Showcase at SeConf16 India Trailer</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:05</div>
+			
+			
+              <div>Views: 40 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/selenium-3-bug-bash-showcase-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/q5WBZriksOA/hqdefault.jpg" alt="Selenium 3 Bug Bash Showcase at SeConf16 India" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/selenium-3-bug-bash-showcase-at-seconf16-india">Selenium 3 Bug Bash Showcase at SeConf16 India</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 10:32</div>
+			
+			
+              <div>Views: 112 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/selenium-integrated-with-ibm-rational-functional-tester-by-adolfo-luna-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NUzHzENHb64/hqdefault.jpg" alt="Selenium integrated with IBM Rational Functional Tester" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/selenium-integrated-with-ibm-rational-functional-tester-by-adolfo-luna-at-seconf16-india-trailer">Selenium integrated with IBM Rational Functional Tester</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:04</div>
+			
+			
+              <div>Views: 30 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adolfo-luna">Adolfo Luna</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/selenium-integrated-with-ibm-rational-functional-tester-by-adolfo-luna-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FptYOVQNjNc/hqdefault.jpg" alt="Selenium integrated with IBM Rational Functional Tester" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/selenium-integrated-with-ibm-rational-functional-tester-by-adolfo-luna-at-seconf16-india">Selenium integrated with IBM Rational Functional Tester</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 28:23</div>
+			
+			
+              <div>Views: 98 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adolfo-luna">Adolfo Luna</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/selenium-state-of-the-union-by-simon-stewart-at-selenium-conf-india-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MZ_wEaLRW-o/hqdefault.jpg" alt="Selenium: State of the Union" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/selenium-state-of-the-union-by-simon-stewart-at-selenium-conf-india-2016">Selenium: State of the Union</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 49:57</div>
+			
+			
+              <div>Views: 923 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-stewart">Simon Stewart</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/sharing-the-pain-in-automating-with-protractor-webdriver-by-nikitha-anand-at-seconf16-trailer-8f89b9"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XjFcfBfyV9Q/hqdefault.jpg" alt="Sharing the pain in Automating with Protractor & WebDriver" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/sharing-the-pain-in-automating-with-protractor-webdriver-by-nikitha-anand-at-seconf16-trailer-8f89b9">Sharing the pain in Automating with Protractor & WebDriver</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 59:30</div>
+			
+			
+              <div>Views: 441 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nikitha-lyer">Nikitha Iyer</a>
+             
+                <a href="/p/anand-bagmar">Anand Bagmar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/sharing-the-pain-in-automating-with-protractor-webdriver-by-nikitha-anand-at-seconf16-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/z6-I0zlxCnU/hqdefault.jpg" alt="Sharing the pain in Automating with Protractor & WebDriver" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/sharing-the-pain-in-automating-with-protractor-webdriver-by-nikitha-anand-at-seconf16-trailer">Sharing the pain in Automating with Protractor & WebDriver</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:04</div>
+			
+			
+              <div>Views: 77 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nikitha-lyer">Nikitha Iyer</a>
+             
+                <a href="/p/anand-bagmar">Anand Bagmar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/statistical-element-locator-by-oren-rubin-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1R4DLuEG-9w/hqdefault.jpg" alt="Statistical Element Locator" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/statistical-element-locator-by-oren-rubin-at-seconf16-india-trailer">Statistical Element Locator</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:03</div>
+			
+			
+              <div>Views: 36 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oren-rubin">Oren Rubin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/statistical-element-locator-by-oren-rubin-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hKcN-D9b6SI/hqdefault.jpg" alt="Statistical Element Locator" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/statistical-element-locator-by-oren-rubin-at-seconf16-india">Statistical Element Locator</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 35:52</div>
+			
+			
+              <div>Views: 87 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oren-rubin">Oren Rubin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/tales-from-the-dark-side-by-ori-bendet-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AkSwm_7PPLk/hqdefault.jpg" alt="Tales from the Dark Side" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/tales-from-the-dark-side-by-ori-bendet-at-seconf16-india-trailer">Tales from the Dark Side</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:13</div>
+			
+			
+              <div>Views: 58 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ori-bendet">Ori Bendet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/tales-from-the-dark-side-by-ori-bendet-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LA8rapXOK_0/hqdefault.jpg" alt="Tales from the Dark Side" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/tales-from-the-dark-side-by-ori-bendet-at-seconf16-india">Tales from the Dark Side</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 33:08</div>
+			
+			
+              <div>Views: 44 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ori-bendet">Ori Bendet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/test-data-food-for-your-test-automation-framework-by-anand-bagmar-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tlmsXFoZO6s/hqdefault.jpg" alt="Test Data: Food for your Test Automation Framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/test-data-food-for-your-test-automation-framework-by-anand-bagmar-at-seconf16-india-trailer">Test Data: Food for your Test Automation Framework</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:08</div>
+			
+			
+              <div>Views: 46 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anand-bagmar">Anand Bagmar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/test-data-food-for-your-test-automation-framework-by-anand-bagmar-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5_TLeRibqKk/hqdefault.jpg" alt="Test Data: Food for your Test Automation Framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/test-data-food-for-your-test-automation-framework-by-anand-bagmar-at-seconf16-india">Test Data: Food for your Test Automation Framework</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 55:13</div>
+			
+			
+              <div>Views: 249 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anand-bagmar">Anand Bagmar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/testing-as-a-container-using-docker-with-selenium-and-friends-by-irfan-at-seconf-india-16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CCF6A_HDdcI/hqdefault.jpg" alt="Testing as a Container Using Docker with selenium and friends" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/testing-as-a-container-using-docker-with-selenium-and-friends-by-irfan-at-seconf-india-16">Testing as a Container Using Docker with selenium and friends</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 52:30</div>
+			
+			
+              <div>Views: 465 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/irfan-ahmad">Irfan Ahmad</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/testing-as-a-container-using-docker-with-selenium-and-friends-by-irfan-at-seconf16-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cCoYlpmt3LA/hqdefault.jpg" alt="Testing as a Container Using Docker with selenium and friends" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/testing-as-a-container-using-docker-with-selenium-and-friends-by-irfan-at-seconf16-trailer">Testing as a Container Using Docker with selenium and friends</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:03</div>
+			
+			
+              <div>Views: 151 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/irfan-ahmad">Irfan Ahmad</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/testing-desktop-apps-with-selenium-by-michal-vanek-filip-brau-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TKU_aecH_wU/hqdefault.jpg" alt="Testing desktop apps with Selenium" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/testing-desktop-apps-with-selenium-by-michal-vanek-filip-brau-at-seconf16-india-trailer">Testing desktop apps with Selenium</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 02:58</div>
+			
+			
+              <div>Views: 48 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michal-vanek">Michal Vanek</a>
+             
+                <a href="/p/filip-braun">Filip Braun</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/testing-desktop-apps-with-selenium-by-michal-vanek-filip-brau-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xfyDIz7Mk0U/hqdefault.jpg" alt="Testing desktop apps with Selenium" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/testing-desktop-apps-with-selenium-by-michal-vanek-filip-brau-at-seconf16-india">Testing desktop apps with Selenium</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 43:50</div>
+			
+			
+              <div>Views: 416 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michal-vanek">Michal Vanek</a>
+             
+                <a href="/p/filip-braun">Filip Braun</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/thaalavattam-project-a-music-jam-with-100-instruments-at-selenium-conf-india-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Z0OoHmbV9Kk/hqdefault.jpg" alt="Thaalavattam Project: A music jam with 100 instruments at Selenium Conf India 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/thaalavattam-project-a-music-jam-with-100-instruments-at-selenium-conf-india-2016">Thaalavattam Project: A music jam with 100 instruments at Selenium Conf India 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 01:19:10</div>
+			
+			
+              <div>Views: 161 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/the-interviewer-interviewee-and-vice-versa-by-robin-gupta-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/637sVuH7VCM/hqdefault.jpg" alt="The Interviewer, Interviewee and vice versa" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/the-interviewer-interviewee-and-vice-versa-by-robin-gupta-at-seconf16-india-trailer">The Interviewer, Interviewee and vice versa</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 02:57</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robin-gupta">Robin Gupta</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/the-interviewer-interviewee-and-vice-versa-by-robin-gupta-at-seconf16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HSABgUKpu2E/hqdefault.jpg" alt="The Interviewer, Interviewee and vice versa" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/the-interviewer-interviewee-and-vice-versa-by-robin-gupta-at-seconf16">The Interviewer, Interviewee and vice versa</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 30:16</div>
+			
+			
+              <div>Views: 377 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robin-gupta">Robin Gupta</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/the-mobile-grid-getting-started-for-android-ios-by-justin-ison-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PTqHCM_hNCs/hqdefault.jpg" alt="The Mobile Grid – Getting Started for Android & iOS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/the-mobile-grid-getting-started-for-android-ios-by-justin-ison-at-seconf16-india-trailer">The Mobile Grid – Getting Started for Android & iOS</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:04</div>
+			
+			
+              <div>Views: 30 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/justin-ison">Justin Ison</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/the-mobile-grid-getting-started-for-android-ios-by-justin-ison-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KqngegiUZR4/hqdefault.jpg" alt="The Mobile Grid – Getting Started for Android & iOS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/the-mobile-grid-getting-started-for-android-ios-by-justin-ison-at-seconf16-india">The Mobile Grid – Getting Started for Android & iOS</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 49:33</div>
+			
+			
+              <div>Views: 52 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/justin-ison">Justin Ison</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/the-trouble-with-page-objects-by-antonymarcano-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IjTXba7gUPg/hqdefault.jpg" alt="The Trouble with Page Objects" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/the-trouble-with-page-objects-by-antonymarcano-at-seconf16-india-trailer">The Trouble with Page Objects</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:03</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/antony-marcano">Antony Marcano</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/the-trouble-with-page-objects-by-antonymarcano-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_I-6v1UJOmI/hqdefault.jpg" alt="The Trouble with Page Objects" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/the-trouble-with-page-objects-by-antonymarcano-at-seconf16-india">The Trouble with Page Objects</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 50:37</div>
+			
+			
+              <div>Views: 248 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/antony-marcano">Antony Marcano</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/understanding-ux-and-approaches-to-measuring-and-testing-ux-by-julian-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Fn6LYiIuMn0/hqdefault.jpg" alt="Understanding UX, and approaches to measuring and testing UX" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/understanding-ux-and-approaches-to-measuring-and-testing-ux-by-julian-at-seconf16-india-trailer">Understanding UX, and approaches to measuring and testing UX</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:05</div>
+			
+			
+              <div>Views: 27 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/julian-harty">Julian Harty</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/understanding-ux-and-approaches-to-measuring-and-testing-ux-by-julian-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6-5OPMl2-l4/hqdefault.jpg" alt="Understanding UX, and approaches to measuring and testing UX" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/understanding-ux-and-approaches-to-measuring-and-testing-ux-by-julian-at-seconf16-india">Understanding UX, and approaches to measuring and testing UX</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 47:52</div>
+			
+			
+              <div>Views: 57 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/julian-harty">Julian Harty</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/web-push-notification-automation-mystery-solved-by-ankita-jatin-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WxCYydVgC4c/hqdefault.jpg" alt="Web Push Notification Automation Mystery Solved" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/web-push-notification-automation-mystery-solved-by-ankita-jatin-at-seconf16-india-trailer">Web Push Notification Automation Mystery Solved</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:07</div>
+			
+			
+              <div>Views: 22 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ankita-gupta">Ankita Gupta</a>
+             
+                <a href="/p/jatin-makhija">Jatin Makhija</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/web-push-notification-automation-mystery-solved-by-ankita-jatin-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lj9HD-1Pikc/hqdefault.jpg" alt="Web Push Notification Automation Mystery Solved" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/web-push-notification-automation-mystery-solved-by-ankita-jatin-at-seconf16-india">Web Push Notification Automation Mystery Solved</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 32:54</div>
+			
+			
+              <div>Views: 131 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ankita-gupta">Ankita Gupta</a>
+             
+                <a href="/p/jatin-makhija">Jatin Makhija</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/web-scrapping-with-selenium-and-data-analysis-by-vinay-at-seconf16-india-trailer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jDnQV-NSkhM/hqdefault.jpg" alt="Web Scrapping with Selenium and Data Analysis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/web-scrapping-with-selenium-and-data-analysis-by-vinay-at-seconf16-india-trailer">Web Scrapping with Selenium and Data Analysis</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 03:06</div>
+			
+			
+              <div>Views: 50 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vinay-babu">Vinay babu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-india-2016/web-scrapping-with-selenium-and-data-analysis-by-vinay-at-seconf16-india"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mS3dzczv1ZQ/hqdefault.jpg" alt="Web Scrapping with Selenium and Data Analysis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-india-2016/web-scrapping-with-selenium-and-data-analysis-by-vinay-at-seconf16-india">Web Scrapping with Selenium and Data Analysis</a></h4>
+          <footer>
+            <div class="recorded">2016-06-24</div>
+			
+			  <div>Length: 17:14</div>
+			
+			
+              <div>Views: 113 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-india-2016">Selenium Conf India 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vinay-babu">Vinay babu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL9Z-JgiTsOYTd-lsY6fC4zCMLXk1bFzxo">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Deccan RubyConf 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Deccan RubyConf 2016</h1>
+
+<div><a href="http://www.deccanrubyconf.org/">Deccan RubyConf 2016</a></div>
+
+
+<div>Start date: 2016-11-10</div>
+<div>End date: 2016-11-12</div>
+
+<div>Location:
+  Pune
+  Maharashtra
+  <a href="/l/india">India</a>
+</div>
+
+<div><a href="http://www.deccanrubyconf.org/coc.html">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/ruby">Ruby</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/deccanrubyconf">@deccanrubyconf</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/deccanrubyconf">https://www.facebook.com/deccanrubyconf</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Deccan%20RubyConf%202016%20on%202016-11-10%20in%20Pune%2C%20Maharashtra%20India%20%40deccanrubyconf%20http%3A//www.deccanrubyconf.org/%20%23Ruby%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2016/aila-caching-in-rails-by-santosh-wadghule"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bQ9XGMXQMcw/hqdefault.jpg" alt="Aila! Caching in Rails" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2016/aila-caching-in-rails-by-santosh-wadghule">Aila! Caching in Rails</a></h4>
+          <footer>
+            <div class="recorded">2016-11-10</div>
+			
+			  <div>Length: 30:59</div>
+			
+			
+              <div>Views: 30 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2016">Deccan RubyConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/santosh-wadghule">Santosh Wadghule</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2016/announcements-acknowledgments"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BD34ldMQz04/hqdefault.jpg" alt="Announcements & Acknowledgments" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2016/announcements-acknowledgments">Announcements & Acknowledgments</a></h4>
+          <footer>
+            <div class="recorded">2016-11-10</div>
+			
+			  <div>Length: 09:40</div>
+			
+			
+              <div>Views: 16 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2016">Deccan RubyConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2016/glimpses"><img class="list-thumbnail" src="https://i.ytimg.com/vi/w0Diepy9A58/hqdefault.jpg" alt="Glimpses" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2016/glimpses">Glimpses</a></h4>
+          <footer>
+            <div class="recorded">2016-11-10</div>
+			
+			  <div>Length: 01:59</div>
+			
+			
+              <div>Views: 18 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2016">Deccan RubyConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2016/how-not-to-build-scale-teams-by-jim-remsik"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wOovLjurfkw/hqdefault.jpg" alt="How (Not) To Build & Scale Teams" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2016/how-not-to-build-scale-teams-by-jim-remsik">How (Not) To Build & Scale Teams</a></h4>
+          <footer>
+            <div class="recorded">2016-11-10</div>
+			
+			  <div>Length: 42:40</div>
+			
+			
+              <div>Views: 15 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2016">Deccan RubyConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jim-remsik">Jim Remsik</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2016/lightning-talks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/L3xI1RabCrg/hqdefault.jpg" alt="Lightning Talks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2016/lightning-talks">Lightning Talks</a></h4>
+          <footer>
+            <div class="recorded">2016-11-10</div>
+			
+			  <div>Length: 47:11</div>
+			
+			
+              <div>Views: 58 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2016">Deccan RubyConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2016/lost-while-developing-apis-in-rails-by-pramod-shinde"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QRz3TjH-xCg/hqdefault.jpg" alt="Lost while developing API's in Rails?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2016/lost-while-developing-apis-in-rails-by-pramod-shinde">Lost while developing API's in Rails?</a></h4>
+          <footer>
+            <div class="recorded">2016-11-10</div>
+			
+			  <div>Length: 23:59</div>
+			
+			
+              <div>Views: 60 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2016">Deccan RubyConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pramod-shinde">Pramod Shinde</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2016/open-source-power-and-the-passion-by-pat-allan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jhefKyHlrrU/hqdefault.jpg" alt="Open Source: Power and the Passion" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2016/open-source-power-and-the-passion-by-pat-allan">Open Source: Power and the Passion</a></h4>
+          <footer>
+            <div class="recorded">2016-11-10</div>
+			
+			  <div>Length: 38:11</div>
+			
+			
+              <div>Views: 12 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2016">Deccan RubyConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pat-allan">Pat Allan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2016/opening-keynote-by-ernie-miller"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9kh3-_JOkmA/hqdefault.jpg" alt="Opening Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2016/opening-keynote-by-ernie-miller">Opening Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-11-10</div>
+			
+			  <div>Length: 47:23</div>
+			
+			
+              <div>Views: 36 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2016">Deccan RubyConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ernie-miller">Ernie Miller</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2016/party"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Biy3kRisrv8/hqdefault.jpg" alt="Party" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2016/party">Party</a></h4>
+          <footer>
+            <div class="recorded">2016-11-10</div>
+			
+			  <div>Length: 02:26</div>
+			
+			
+              <div>Views: 31 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2016">Deccan RubyConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2016/phoenix-for-rubyists-by-mike-north"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UFpV3BMyTiA/hqdefault.jpg" alt="Phoenix for Rubyists" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2016/phoenix-for-rubyists-by-mike-north">Phoenix for Rubyists</a></h4>
+          <footer>
+            <div class="recorded">2016-11-10</div>
+			
+			  <div>Length: 32:41</div>
+			
+			
+              <div>Views: 559 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2016">Deccan RubyConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-north">Mike North</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2016/programming-in-the-large-designing-with-interfaces-by-aditya-godbole"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Tc6izy_oeus/hqdefault.jpg" alt="Programming in the large - designing with Interfaces" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2016/programming-in-the-large-designing-with-interfaces-by-aditya-godbole">Programming in the large - designing with Interfaces</a></h4>
+          <footer>
+            <div class="recorded">2016-11-10</div>
+			
+			  <div>Length: 27:35</div>
+			
+			
+              <div>Views: 48 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2016">Deccan RubyConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aditya-godbole">Aditya Godbole</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/deccanrubyconf-2016/using-multiple-connections-in-activerecord-by-arthur-neves"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-41V0qETxmE/hqdefault.jpg" alt="Using multiple connections in ActiveRecord" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/deccanrubyconf-2016/using-multiple-connections-in-activerecord-by-arthur-neves">Using multiple connections in ActiveRecord</a></h4>
+          <footer>
+            <div class="recorded">2016-11-10</div>
+			
+			  <div>Length: 23:09</div>
+			
+			
+              <div>Views: 78 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/deccanrubyconf-2016">Deccan RubyConf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/arthur-neves">Arthur Neves</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLo3sQWbYZbskTlzH7Ert-FucR7QmIuwE5">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Reversim Summit 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Reversim Summit 2016</h1>
+
+<div><a href="http://summit2016.reversim.com/">Reversim Summit 2016</a></div>
+
+
+<div>Start date: 2016-09-19</div>
+<div>End date: 2016-09-20</div>
+
+<div>Location:
+  Rehovot
+  
+  <a href="/l/israel">Israel</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: Hebrew, English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/reversim">@reversim</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Reversim%20Summit%202016%20on%202016-09-19%20in%20Rehovot%2C%20%20Israel%20%40reversim%20http%3A//summit2016.reversim.com/%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/10-real-problems-and-solutions-for-your-build-deploy-process-ariel-m-moskovich"><img class="list-thumbnail" src="https://i.ytimg.com/vi/H5Yo5a8SG6g/hqdefault.jpg" alt="10 Real problems and solutions for your Build & Deploy process (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/10-real-problems-and-solutions-for-your-build-deploy-process-ariel-m-moskovich">10 Real problems and solutions for your Build & Deploy process (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 31:32</div>
+			
+			
+              <div>Views: 91 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ariel-m-moskovich">Ariel M. Moskovich</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/a-brand-new-immune-system-for-a-brand-new-google-product-itay-maman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/R9CfZlbkd2g/hqdefault.jpg" alt="A Brand new Immune System for a Brand New Google Product (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/a-brand-new-immune-system-for-a-brand-new-google-product-itay-maman">A Brand new Immune System for a Brand New Google Product (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 39:42</div>
+			
+			
+              <div>Views: 51 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/itay-maman">Itay Maman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/a-call-out-to-engineers-to-become-product-managers-yuval-samet"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Kh5WMFue5do/hqdefault.jpg" alt="A call out to engineers to become product managers (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/a-call-out-to-engineers-to-become-product-managers-yuval-samet">A call out to engineers to become product managers (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 35:03</div>
+			
+			
+              <div>Views: 310 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yuval-samet">Yuval Samet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/a-shallow-introduction-to-deep-learning-eyal-gruss"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KbTFBhy0Aq8/hqdefault.jpg" alt="A shallow introduction to deep learning (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/a-shallow-introduction-to-deep-learning-eyal-gruss">A shallow introduction to deep learning (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 42:33</div>
+			
+			
+              <div>Views: 62 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eyal-gruss">Eyal Gruss</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/can-sci-fi-movies-predict-the-future-hagai-levin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NbvBYGY3Gjw/hqdefault.jpg" alt="Can Sci-Fi movies predict the future? (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/can-sci-fi-movies-predict-the-future-hagai-levin">Can Sci-Fi movies predict the future? (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 05:05</div>
+			
+			
+              <div>Views: 67 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hagai-levin">Hagai Levin - חגי לוין</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/cloud-patterns-tamir-dresher"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fQjshljdEdA/hqdefault.jpg" alt="Cloud Patterns (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/cloud-patterns-tamir-dresher">Cloud Patterns (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 40:17</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tamir-dresher">Tamir Dresher</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/coderetreat-what-why-and-how-erez-lotan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4GIkPRsSzhQ/hqdefault.jpg" alt="Coderetreat - What, Why and How (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/coderetreat-what-why-and-how-erez-lotan">Coderetreat - What, Why and How (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 05:07</div>
+			
+			
+              <div>Views: 33 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/erez-lotan">Erez Lotan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/dealing-with-conway-law-guy-doulberg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3tqCXNJg1Nk/hqdefault.jpg" alt="Dealing with 'Conway law' (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/dealing-with-conway-law-guy-doulberg">Dealing with 'Conway law' (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 05:00</div>
+			
+			
+              <div>Views: 81 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/guy-doulberg">Guy Doulberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/devops-paradigm-in-rd-day-to-day-adi-shacham-shavit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nEu8zAIqTRQ/hqdefault.jpg" alt="DevOps paradigm in R&D day-to-day (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/devops-paradigm-in-rd-day-to-day-adi-shacham-shavit">DevOps paradigm in R&D day-to-day (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 38:30</div>
+			
+			
+              <div>Views: 106 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adi-shacham-shavit">Adi Shacham-Shavit</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/digital-information-preservation-ran-levy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YEPz_VmVcx0/hqdefault.jpg" alt="Digital Information Preservation (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/digital-information-preservation-ran-levy">Digital Information Preservation (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 27:21</div>
+			
+			
+              <div>Views: 89 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ran-levi">Ran Levi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/early-detection-of-cancer-using-nlp-classifiers-to-analyze-medical-research-papers-limor-lahiani"><img class="list-thumbnail" src="https://i.ytimg.com/vi/H0hiqWJYw8c/hqdefault.jpg" alt="Early Detection of Cancer: Using NLP Classifiers to Analyze Medical Research Papers (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/early-detection-of-cancer-using-nlp-classifiers-to-analyze-medical-research-papers-limor-lahiani">Early Detection of Cancer: Using NLP Classifiers to Analyze Medical Research Papers (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 36:43</div>
+			
+			
+              <div>Views: 83 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/limor-lahiani">Limor Lahiani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/farmers-application-mhkhqly-shlomi-zadok"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2LdUi6RlJvU/hqdefault.jpg" alt="Farmers application (מהחקלאי (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/farmers-application-mhkhqly-shlomi-zadok">Farmers application (מהחקלאי (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 06:38</div>
+			
+			
+              <div>Views: 46 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shlomi-zadok">Shlomi Zadok</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/flush-your-head-an-http-performance-optimization-tool-yonatan-mevorach"><img class="list-thumbnail" src="https://i.ytimg.com/vi/f2u0w0n64Z8/hqdefault.jpg" alt="Flush your head! - an HTTP performance optimization tool (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/flush-your-head-an-http-performance-optimization-tool-yonatan-mevorach">Flush your head! - an HTTP performance optimization tool (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 09:23</div>
+			
+			
+              <div>Views: 41 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yonatan-mevorach">Yonatan Mevorach</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/from-400-bugs-to-0-in-2-weeks-what-we-found-below-the-static-analysis-hood-yonatan-maman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lsM346P9-K8/hqdefault.jpg" alt="From 400 bugs to 0 in 2 weeks - What we found below the "Static Analysis hood" ... / (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/from-400-bugs-to-0-in-2-weeks-what-we-found-below-the-static-analysis-hood-yonatan-maman">From 400 bugs to 0 in 2 weeks - What we found below the "Static Analysis hood" ... / (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 05:00</div>
+			
+			
+              <div>Views: 84 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yonatan-maman">Yonatan Maman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/from-quality-assurance-to-quality-enablement-amit-roseberger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pRBrQW_Slo8/hqdefault.jpg" alt="From Quality Assurance to Quality Enablement (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/from-quality-assurance-to-quality-enablement-amit-roseberger">From Quality Assurance to Quality Enablement (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 37:40</div>
+			
+			
+              <div>Views: 218 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amit-roseberger">Amit Roseberger</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/front-end-test-automation-past-present-and-future-oren-rubin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JZ_KMkHOR7M/hqdefault.jpg" alt="Front End Test Automation: past, present and future (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/front-end-test-automation-past-present-and-future-oren-rubin">Front End Test Automation: past, present and future (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 42:17</div>
+			
+			
+              <div>Views: 103 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oren-rubin">Oren Rubin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/functional-programming-paradigms-in-software-architecture-nir-rubinstein"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mBTv4g7xdgU/hqdefault.jpg" alt="Functional Programming Paradigms in Software Architecture (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/functional-programming-paradigms-in-software-architecture-nir-rubinstein">Functional Programming Paradigms in Software Architecture (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 35:59</div>
+			
+			
+              <div>Views: 130 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nir-rubinstein">Nir Rubinstein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/fund-raising-101-experiences-written-in-blood-yuval-kaminka"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AehHGZKjvFM/hqdefault.jpg" alt="Fund Raising 101 - Experiences Written in Blood... (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/fund-raising-101-experiences-written-in-blood-yuval-kaminka">Fund Raising 101 - Experiences Written in Blood... (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 41:46</div>
+			
+			
+              <div>Views: 52 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yuval-kaminka">Yuval Kaminka</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/get-a-life-rethinking-work-life-balance-michal-brosh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eQkH684Y994/hqdefault.jpg" alt="Get a life - Rethinking work life balance (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/get-a-life-rethinking-work-life-balance-michal-brosh">Get a life - Rethinking work life balance (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 04:58</div>
+			
+			
+              <div>Views: 78 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michal-brosh">Michal Brosh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/good-rules-for-building-a-bad-android-app-shem-magnezi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/N65__L1rTm0/hqdefault.jpg" alt="Good rules for building a bad Android app (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/good-rules-for-building-a-bad-android-app-shem-magnezi">Good rules for building a bad Android app (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 41:20</div>
+			
+			
+              <div>Views: 59 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shem-magnezi">Shem Magnezi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/handling-millions-of-connections-in-cowboy-using-elixir-joey-feldberg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Tck4DQkL-Us/hqdefault.jpg" alt="Handling millions of connections in Cowboy using Elixir (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/handling-millions-of-connections-in-cowboy-using-elixir-joey-feldberg">Handling millions of connections in Cowboy using Elixir (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 40:25</div>
+			
+			
+              <div>Views: 82 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joey-feldberg">Joey Feldberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/hardware-transactional-memory-why-you-should-care-uri-shamay"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gRUXJRTvjqM/hqdefault.jpg" alt="Hardware Transactional Memory - Why You Should Care (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/hardware-transactional-memory-why-you-should-care-uri-shamay">Hardware Transactional Memory - Why You Should Care (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 40:15</div>
+			
+			
+              <div>Views: 40 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/uri-shamay">Uri Shamay</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/how-i-learned-to-speak-vulcan-michal-tirosh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/doFsrSL6iho/hqdefault.jpg" alt="How I learned to speak Vulcan (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/how-i-learned-to-speak-vulcan-michal-tirosh">How I learned to speak Vulcan (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 05:17</div>
+			
+			
+              <div>Views: 80 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michal-tirosh">Michal Tirosh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/how-to-build-a-micro-services-infrastructure-in-7-days-gil-tayar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RjNV6Iw6uME/hqdefault.jpg" alt="How to Build a Micro-services Infrastructure In 7 Days (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/how-to-build-a-micro-services-infrastructure-in-7-days-gil-tayar">How to Build a Micro-services Infrastructure In 7 Days (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 26:47</div>
+			
+			
+              <div>Views: 77 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gil-tayar">Gil Tayar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/how-to-make-a-lisp-interpreter-in-56-languages-dov-murik"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VzI0CIqT6s8/hqdefault.jpg" alt="How to make a Lisp interpreter in 56 languages (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/how-to-make-a-lisp-interpreter-in-56-languages-dov-murik">How to make a Lisp interpreter in 56 languages (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 04:58</div>
+			
+			
+              <div>Views: 66 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dov-murik">Dov Murik</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/how-to-make-kids-excited-about-programming-iftach-bar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8uAnfE3LfTY/hqdefault.jpg" alt="How to make kids excited about programming (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/how-to-make-kids-excited-about-programming-iftach-bar">How to make kids excited about programming (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 41:39</div>
+			
+			
+              <div>Views: 166 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/iftach-bar">Iftach Bar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/how-to-really-create-transparency-iris-shoor"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zc3zSSl_a_s/hqdefault.jpg" alt="How to (really) create transparency (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/how-to-really-create-transparency-iris-shoor">How to (really) create transparency (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 33:42</div>
+			
+			
+              <div>Views: 333 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/iris-shoor">Iris Shoor</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/how-we-ditched-our-apps-for-a-chatbot-eyal-yavor"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hqfJ48KVi-0/hqdefault.jpg" alt="How we ditched our apps for a chatbot (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/how-we-ditched-our-apps-for-a-chatbot-eyal-yavor">How we ditched our apps for a chatbot (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 31:28</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eyal-yavor">Eyal Yavor</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/is-it-good-enough-or-what-is-mvp-moran-shimron"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qq_vQgweVRU/hqdefault.jpg" alt="Is it good enough? or - what is MVP? (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/is-it-good-enough-or-what-is-mvp-moran-shimron">Is it good enough? or - what is MVP? (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 04:46</div>
+			
+			
+              <div>Views: 60 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/moran-shimron">Moran Shimron</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/ja-wat-allon-mureinik"><img class="list-thumbnail" src="https://i.ytimg.com/vi/R_M7IgtwRO4/hqdefault.jpg" alt="Ja-WAT? (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/ja-wat-allon-mureinik">Ja-WAT? (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 05:18</div>
+			
+			
+              <div>Views: 47 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/allon-mureinik">Allon Mureinik</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/journey-to-the-realtime-analytics-in-extreme-growth-yulia-trakhtenberg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kuJ--_yWKYM/hqdefault.jpg" alt="Journey to the Realtime Analytics in Extreme Growth (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/journey-to-the-realtime-analytics-in-extreme-growth-yulia-trakhtenberg">Journey to the Realtime Analytics in Extreme Growth (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 29:32</div>
+			
+			
+              <div>Views: 76 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yulia-trakhtenberg">Yulia Trakhtenberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/measuring-and-monitoring-client-side-performance-nir-nahum"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EA-Cd0ZHt6M/hqdefault.jpg" alt="Measuring and monitoring client side performance (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/measuring-and-monitoring-client-side-performance-nir-nahum">Measuring and monitoring client side performance (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 29:18</div>
+			
+			
+              <div>Views: 48 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nir-nahum">Nir Nahum</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/microapps-architecture-the-way-to-do-microservices-for-web-apps-yonatan-maman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XtHCs2odiec/hqdefault.jpg" alt="MicroApps Architecture -- The way to do microservices for web apps (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/microapps-architecture-the-way-to-do-microservices-for-web-apps-yonatan-maman">MicroApps Architecture -- The way to do microservices for web apps (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 35:59</div>
+			
+			
+              <div>Views: 60 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yonatan-maman">Yonatan Maman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/mobile-development-in-2016-a-song-yoni-tsafir"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iYjrLoT-0iY/hqdefault.jpg" alt="Mobile Development in 2016 - A song (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/mobile-development-in-2016-a-song-yoni-tsafir">Mobile Development in 2016 - A song (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 05:11</div>
+			
+			
+              <div>Views: 122 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yoni-tsafir">Yoni Tsafir</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/open-source-hebmorph-hebrew-made-searchable-itamar-syn-hershko"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v8w32wC6ppI/hqdefault.jpg" alt="Open Source / HebMorph - Hebrew made searchable (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/open-source-hebmorph-hebrew-made-searchable-itamar-syn-hershko">Open Source / HebMorph - Hebrew made searchable (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 09:50</div>
+			
+			
+              <div>Views: 87 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/itamar-syn-hershko">Itamar Syn-Hershko</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/open-source-open-source-newbie-an-amazing-story-of-overcoming-very-minor-obstacles-eyal-allweil"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v3mRfkLKYNw/hqdefault.jpg" alt="Open Source / Open Source Newbie: An Amazing Story of Overcoming Very Minor Obstacles (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/open-source-open-source-newbie-an-amazing-story-of-overcoming-very-minor-obstacles-eyal-allweil">Open Source / Open Source Newbie: An Amazing Story of Overcoming Very Minor Obstacles (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 10:24</div>
+			
+			
+              <div>Views: 89 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eyal-allweil">Eyal Allweil</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/open-source-organizing-an-open-source-conference-and-living-to-tell-the-tale-tomer-brisker"><img class="list-thumbnail" src="https://i.ytimg.com/vi/upE95kiCg90/hqdefault.jpg" alt="Open Source / Organizing an open-source conference and living to tell the tale (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/open-source-organizing-an-open-source-conference-and-living-to-tell-the-tale-tomer-brisker">Open Source / Organizing an open-source conference and living to tell the tale (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 09:57</div>
+			
+			
+              <div>Views: 30 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tomer-brisker">Tomer Brisker</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/open-source-redash-from-a-side-project-to-business-arik-fraimovich"><img class="list-thumbnail" src="https://i.ytimg.com/vi/j5elkjovzj4/hqdefault.jpg" alt="Open Source / Re:dash - from a side project to business (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/open-source-redash-from-a-side-project-to-business-arik-fraimovich">Open Source / Re:dash - from a side project to business (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 10:06</div>
+			
+			
+              <div>Views: 30 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/arik-fraimovich">Arik Fraimovich</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/operations-you-keep-using-that-word-but-i-dont-think-it-means-avishai-ish-shalom"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PfCeK6bxmoA/hqdefault.jpg" alt=""Operations" - you keep using that word, but I don’t think it means ... (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/operations-you-keep-using-that-word-but-i-dont-think-it-means-avishai-ish-shalom">"Operations" - you keep using that word, but I don’t think it means ... (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 26:43</div>
+			
+			
+              <div>Views: 272 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/avishai-ish-shalom">Avishai Ish-Shalom</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/performance-limitations-of-react-native-and-how-to-overcome-them-tal-kol"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VOBHQCQ9Xs4/hqdefault.jpg" alt="Performance Limitations of React Native and How to Overcome Them (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/performance-limitations-of-react-native-and-how-to-overcome-them-tal-kol">Performance Limitations of React Native and How to Overcome Them (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 45:09</div>
+			
+			
+              <div>Views: 150 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tal-kol">Tal Kol</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/programing-stress-and-mindfulness-noam-elfanbaum"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bjDprrTnnLg/hqdefault.jpg" alt="Programing, stress and mindfulness (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/programing-stress-and-mindfulness-noam-elfanbaum">Programing, stress and mindfulness (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 31:04</div>
+			
+			
+              <div>Views: 70 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/noam-elfanbaum">Noam Elfanbaum</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/reverse-engineering-the-human-api-for-automation-and-profit-nati-cohen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gzLFDc65VEY/hqdefault.jpg" alt="Reverse Engineering the "Human API" for Automation and Profit (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/reverse-engineering-the-human-api-for-automation-and-profit-nati-cohen">Reverse Engineering the "Human API" for Automation and Profit (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 04:52</div>
+			
+			
+              <div>Views: 47 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nati-cohen">Nati Cohen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/reversim-summit-2016-clip"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Myzo_UVgfYw/hqdefault.jpg" alt="Reversim Summit 2016 CLIP (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/reversim-summit-2016-clip">Reversim Summit 2016 CLIP (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 01:54</div>
+			
+			
+              <div>Views: 146 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/rise-of-the-content-chat-bots-how-nlp-search-and-recommendations-play-together-shaked-bar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gB_1mJ58aDk/hqdefault.jpg" alt="Rise of the (content) chat bots - how NLP, search and recommendations play together (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/rise-of-the-content-chat-bots-how-nlp-search-and-recommendations-play-together-shaked-bar">Rise of the (content) chat bots - how NLP, search and recommendations play together (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 30:23</div>
+			
+			
+              <div>Views: 56 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shaked-bar">Shaked Bar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/selfreproduce-inbal-galai"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Di3t9uWgpjA/hqdefault.jpg" alt="self.reproduce! (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/selfreproduce-inbal-galai">self.reproduce! (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 04:53</div>
+			
+			
+              <div>Views: 61 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/inbal-gilai">Inbal Gilai</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/simple-battle-proven-microservices-strategy-erez-lotan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Rc1K1CXjb7s/hqdefault.jpg" alt="Simple, Battle Proven, Microservices Strategy (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/simple-battle-proven-microservices-strategy-erez-lotan">Simple, Battle Proven, Microservices Strategy (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 44:28</div>
+			
+			
+              <div>Views: 112 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/erez-lotan">Erez Lotan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/social-soccer-betting-application-roi-ezra"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JxdYo_X-H_A/hqdefault.jpg" alt="Social Soccer Betting Application (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/social-soccer-betting-application-roi-ezra">Social Soccer Betting Application (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 07:02</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/roi-ezra">Roi Ezra</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/software-punk-examining-controversial-ideas-in-software-development-lior-bar-on"><img class="list-thumbnail" src="https://i.ytimg.com/vi/D9vFLE3lR-0/hqdefault.jpg" alt="Software Punk: examining controversial ideas in Software Development (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/software-punk-examining-controversial-ideas-in-software-development-lior-bar-on">Software Punk: examining controversial ideas in Software Development (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 39:17</div>
+			
+			
+              <div>Views: 188 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lior-bar-on">Lior Bar-On</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/subdivision-a-tiny-library-for-building-highly-decoupled-and-modular-web-apps-boris-kozorovitzky"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fZy1tO3SGW4/hqdefault.jpg" alt="Subdivision - a tiny library for building highly decoupled and modular web apps (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/subdivision-a-tiny-library-for-building-highly-decoupled-and-modular-web-apps-boris-kozorovitzky">Subdivision - a tiny library for building highly decoupled and modular web apps (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 09:12</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/boris-kozorovitzky">Boris Kozorovitzky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/the-hall-of-shame"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eDP-twWcCUA/hqdefault.jpg" alt="The Hall of Shame (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/the-hall-of-shame">The Hall of Shame (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 18:12</div>
+			
+			
+              <div>Views: 98 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/the-next-linux-superpower-ebpf-primer-sasha-goldshtein"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2_ueSCacllY/hqdefault.jpg" alt="The Next Linux Superpower: eBPF Primer (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/the-next-linux-superpower-ebpf-primer-sasha-goldshtein">The Next Linux Superpower: eBPF Primer (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 38:22</div>
+			
+			
+              <div>Views: 132 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sasha-goldshtein">Sasha Goldshtein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/the-subtle-dynamics-of-leading-without-authority-as-a-technical-lead-oren-ellenbogen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KnNA66H8Rnc/hqdefault.jpg" alt="The Subtle Dynamics Of Leading Without Authority As A Technical Lead (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/the-subtle-dynamics-of-leading-without-authority-as-a-technical-lead-oren-ellenbogen">The Subtle Dynamics Of Leading Without Authority As A Technical Lead (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 38:53</div>
+			
+			
+              <div>Views: 115 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oren-ellenbogen">Oren Ellenbogen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/the-way-to-unified-cicd-using-ansible-hadar-davidovich"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AT1M_MDDJKo/hqdefault.jpg" alt="The way to unified CI/CD using Ansible (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/the-way-to-unified-cicd-using-ansible-hadar-davidovich">The way to unified CI/CD using Ansible (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 35:05</div>
+			
+			
+              <div>Views: 77 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hadar-davidovich">Hadar Davidovich</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/this-_is_-your-job-shai-kfir"><img class="list-thumbnail" src="https://i.ytimg.com/vi/35NTHa8ocCE/hqdefault.jpg" alt="THIS _IS_ YOUR JOB (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/this-_is_-your-job-shai-kfir">THIS _IS_ YOUR JOB (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 40:22</div>
+			
+			
+              <div>Views: 719 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shai-kfir">Shai Kfir</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/user-research-digging-for-gold-kaleb-loosbrock"><img class="list-thumbnail" src="https://i.ytimg.com/vi/11LH06WpqwA/hqdefault.jpg" alt="User Research: Digging for Gold (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/user-research-digging-for-gold-kaleb-loosbrock">User Research: Digging for Gold (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 52:05</div>
+			
+			
+              <div>Views: 62 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kaleb-loosbrock">Kaleb Loosbrock</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reversim-2016/youre-great-at-writing-code-you-need-to-be-greater-at-telling-stories-boaz-gaon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bFnrdPsmoGQ/hqdefault.jpg" alt="You're great at writing code. You need to be greater at telling stories (Hebrew)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reversim-2016/youre-great-at-writing-code-you-need-to-be-greater-at-telling-stories-boaz-gaon">You're great at writing code. You need to be greater at telling stories (Hebrew)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-19</div>
+			
+			  <div>Length: 33:49</div>
+			
+			
+              <div>Views: 86 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/reversim-2016">Reversim Summit 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/boaz-gaon">Boaz Gaon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLqXy0aX6TzQrwbJ_4hG_C9oGQmUDdB2gh">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

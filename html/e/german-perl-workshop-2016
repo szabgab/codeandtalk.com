@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>German Perl Workshop 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>German Perl Workshop 2016</h1>
+
+<div><a href="http://act.yapc.eu/gpw2016/">German Perl Workshop 2016</a></div>
+
+
+<div>Start date: 2016-03-09</div>
+<div>End date: 2016-03-12</div>
+
+<div>Location:
+  Nuremberg
+  
+  <a href="/l/germany">Germany</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: German</div>
+<div>Topics:
+   
+       <a href="/t/perl">Perl</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/perlworkshop">@perlworkshop</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/groups/GermanPerlWorkshop/">https://www.facebook.com/groups/GermanPerlWorkshop/</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=German%20Perl%20Workshop%202016%20on%202016-03-09%20in%20Nuremberg%2C%20%20Germany%20%40perlworkshop%20http%3A//act.yapc.eu/gpw2016/%20%23Perl%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-bernhard-specht-the-beauty-of-perl6"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iHVhqL6Sse0/hqdefault.jpg" alt="gpw2016 Bernhard Specht - ‎the beauty of perl6‎" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-bernhard-specht-the-beauty-of-perl6">gpw2016 Bernhard Specht - ‎the beauty of perl6‎</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 24:32</div>
+			
+			
+              <div>Views: 145 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-carl-maesak-domain-modeling-and-the-real-world"><img class="list-thumbnail" src="https://i.ytimg.com/vi/D1YxXfqP1Ks/hqdefault.jpg" alt="gpw2016 Carl Maesak - Domain modeling and the real world" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-carl-maesak-domain-modeling-and-the-real-world">gpw2016 Carl Maesak - Domain modeling and the real world</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 38:26</div>
+			
+			
+              <div>Views: 58 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-carl-masak-big-hairy-yaks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/P0zoHU_-POw/hqdefault.jpg" alt="gpw2016 Carl Mäsak - Big Hairy Yaks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-carl-masak-big-hairy-yaks">gpw2016 Carl Mäsak - Big Hairy Yaks</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 42:12</div>
+			
+			
+              <div>Views: 47 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-datev-der-platin-sponsor-stellt-sich-vor"><img class="list-thumbnail" src="https://i.ytimg.com/vi/piP9ct88EPc/hqdefault.jpg" alt="gpw2016 Datev - Der Platin Sponsor stellt sich vor" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-datev-der-platin-sponsor-stellt-sich-vor">gpw2016 Datev - Der Platin Sponsor stellt sich vor</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 23:42</div>
+			
+			
+              <div>Views: 70 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-gregor-biswanger-top-5-javascript-tools-und-best-practices-mit-microsoft-aber-ohne-intern"><img class="list-thumbnail" src="https://i.ytimg.com/vi/h_odQ86O-1A/hqdefault.jpg" alt="gpw2016 Gregor Biswanger Top 5 JavaScript Tools und Best Practices   mit Microsoft, aber ohne Intern" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-gregor-biswanger-top-5-javascript-tools-und-best-practices-mit-microsoft-aber-ohne-intern">gpw2016 Gregor Biswanger Top 5 JavaScript Tools und Best Practices   mit Microsoft, aber ohne Intern</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 45:23</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-helmut-wollmersdorfer-fuzzy-matching-in-perl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Gkrn45EHNiY/hqdefault.jpg" alt="gpw2016 Helmut Wollmersdorfer - Fuzzy matching in Perl" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-helmut-wollmersdorfer-fuzzy-matching-in-perl">gpw2016 Helmut Wollmersdorfer - Fuzzy matching in Perl</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 19:36</div>
+			
+			
+              <div>Views: 19 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-helmut-wollmersdorfer-tuning-algorithmdiff-revisited"><img class="list-thumbnail" src="https://i.ytimg.com/vi/67kMid-ABXE/hqdefault.jpg" alt="gpw2016 Helmut Wollmersdorfer - ‎Tuning Algorithm::Diff revisited‎" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-helmut-wollmersdorfer-tuning-algorithmdiff-revisited">gpw2016 Helmut Wollmersdorfer - ‎Tuning Algorithm::Diff revisited‎</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 11:37</div>
+			
+			
+              <div>Views: 3 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-jorg-meyer-perl-in-der-internen-revision-teil-1"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eMTCIxD1LcA/hqdefault.jpg" alt="gpw2016 Jörg Meyer - Perl in der internen Revision Teil 1" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-jorg-meyer-perl-in-der-internen-revision-teil-1">gpw2016 Jörg Meyer - Perl in der internen Revision Teil 1</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 49:41</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-jorg-meyer-perl-in-der-internen-revision-teil-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/A7d02TR2qYw/hqdefault.jpg" alt="gpw2016 Jörg Meyer - Perl in der internen Revision Teil 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-jorg-meyer-perl-in-der-internen-revision-teil-2">gpw2016 Jörg Meyer - Perl in der internen Revision Teil 2</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 42:24</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-martin-becker-perl-526-ideen-fur-die-grosse-schwester-von-perl-6"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bVCva5BIbeA/hqdefault.jpg" alt="gpw2016 Martin Becker - Perl 5.26 Ideen für die große Schwester von Perl 6" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-martin-becker-perl-526-ideen-fur-die-grosse-schwester-von-perl-6">gpw2016 Martin Becker - Perl 5.26 Ideen für die große Schwester von Perl 6</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 42:09</div>
+			
+			
+              <div>Views: 36 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-max-maischein-eine-lokale-suchmaschine-mit-dancer-und-elasticsearch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X4j5LgmfgZY/hqdefault.jpg" alt="gpw2016 Max Maischein - Eine lokale Suchmaschine mit Dancer und Elasticsearch" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-max-maischein-eine-lokale-suchmaschine-mit-dancer-und-elasticsearch">gpw2016 Max Maischein - Eine lokale Suchmaschine mit Dancer und Elasticsearch</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 23:31</div>
+			
+			
+              <div>Views: 36 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-mickey-nasriachi-ponapi-lets-rest"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ojrgM7KHhAU/hqdefault.jpg" alt="gpw2016 Mickey Nasriachi - ‎PONAPI: Let's REST‎" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-mickey-nasriachi-ponapi-lets-rest">gpw2016 Mickey Nasriachi - ‎PONAPI: Let's REST‎</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 22:49</div>
+			
+			
+              <div>Views: 6 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-moritz-lenz-continuous-delivery-pipe-dreams-and-reality"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8PkfF1ioAp4/hqdefault.jpg" alt="gpw2016 Moritz Lenz - Continuous Delivery Pipe dreams and reality" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-moritz-lenz-continuous-delivery-pipe-dreams-and-reality">gpw2016 Moritz Lenz - Continuous Delivery Pipe dreams and reality</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 47:07</div>
+			
+			
+              <div>Views: 36 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-renee-baecker-der-weg-zu-meiner-ersten-million"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nOhIY7XPack/hqdefault.jpg" alt="gpw2016 Renee Baecker - Der Weg zu meiner ersten Million" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-renee-baecker-der-weg-zu-meiner-ersten-million">gpw2016 Renee Baecker - Der Weg zu meiner ersten Million</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 23:16</div>
+			
+			
+              <div>Views: 50 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-salve-j-nilson-ranting-for-perl-lepidopterologists-made-easy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tpOZCTBvs70/hqdefault.jpg" alt="gpw2016 Salve J Nilson - Ranting for Perl Lepidopterologists   Made Easy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-salve-j-nilson-ranting-for-perl-lepidopterologists-made-easy">gpw2016 Salve J Nilson - Ranting for Perl Lepidopterologists   Made Easy</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 45:33</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-sawyer-x-refutil-accurate-functions-in-xs-for-checking-references"><img class="list-thumbnail" src="https://i.ytimg.com/vi/s063VkNrNLU/hqdefault.jpg" alt="gpw2016 Sawyer X - ‎Ref::Util: accurate functions in XS for checking references‎" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-sawyer-x-refutil-accurate-functions-in-xs-for-checking-references">gpw2016 Sawyer X - ‎Ref::Util: accurate functions in XS for checking references‎</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 40:58</div>
+			
+			
+              <div>Views: 7 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-stefan-hornburg-dbixclass-effektiv-nutzen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AdG59iGXgOY/hqdefault.jpg" alt="gpw2016 Stefan Hornburg - ‎DBIx::Class effektiv nutzen‎" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-stefan-hornburg-dbixclass-effektiv-nutzen">gpw2016 Stefan Hornburg - ‎DBIx::Class effektiv nutzen‎</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 43:45</div>
+			
+			
+              <div>Views: 7 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-stefan-seifert-a-look-behind-the-curtains-module-loading-in-perl-6"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uu8auCKCUN4/hqdefault.jpg" alt="gpw2016 Stefan Seifert - A look behind the curtains - module loading in Perl 6" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-stefan-seifert-a-look-behind-the-curtains-module-loading-in-perl-6">gpw2016 Stefan Seifert - A look behind the curtains - module loading in Perl 6</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 22:37</div>
+			
+			
+              <div>Views: 184 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-stefan-seifert-perl-5-and-perl-6-a-great-team"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CEs1g94qNso/hqdefault.jpg" alt="gpw2016 Stefan Seifert - Perl 5 and Perl 6 a great team" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-stefan-seifert-perl-5-and-perl-6-a-great-team">gpw2016 Stefan Seifert - Perl 5 and Perl 6 a great team</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 34:27</div>
+			
+			
+              <div>Views: 464 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-steffen-ullrich-probleme-bei-der-inhaltsanalyse-mit-typischen-perl-modulen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BJMZwuppZd0/hqdefault.jpg" alt="gpw2016 Steffen Ullrich - Probleme bei der Inhaltsanalyse mit typischen Perl Modulen" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-steffen-ullrich-probleme-bei-der-inhaltsanalyse-mit-typischen-perl-modulen">gpw2016 Steffen Ullrich - Probleme bei der Inhaltsanalyse mit typischen Perl Modulen</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 37:16</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-steffen-ullrich-statemachine-fur-bessere-wiederverwendbarkeit-von-modulen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dqClHRP035A/hqdefault.jpg" alt="gpw2016 Steffen Ullrich - ‎Statemachine für bessere Wiederverwendbarkeit von Modulen" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-steffen-ullrich-statemachine-fur-bessere-wiederverwendbarkeit-von-modulen">gpw2016 Steffen Ullrich - ‎Statemachine für bessere Wiederverwendbarkeit von Modulen</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 23:47</div>
+			
+			
+              <div>Views: 9 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-steve-mynott-simple-perl-6-fractals-and-concurrency"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0_-2asURWKk/hqdefault.jpg" alt="gpw2016 Steve Mynott - ‎Simple Perl 6 Fractals and Concurrency" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-steve-mynott-simple-perl-6-fractals-and-concurrency">gpw2016 Steve Mynott - ‎Simple Perl 6 Fractals and Concurrency</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 20:58</div>
+			
+			
+              <div>Views: 287 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-theo-van-hoesel-rest-api-mit-dancer2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4TxX8yAv7i8/hqdefault.jpg" alt="gpw2016 Theo van Hoesel - REST API mit Dancer2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-theo-van-hoesel-rest-api-mit-dancer2">gpw2016 Theo van Hoesel - REST API mit Dancer2</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 35:29</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-thomas-klausner-9-postgresql-features-i-wish-i-learned-earlier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dVMk1vazfBY/hqdefault.jpg" alt="gpw2016 Thomas Klausner - ‎9 PostgreSQL features I wish I learned earlier‎" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-thomas-klausner-9-postgresql-features-i-wish-i-learned-earlier">gpw2016 Thomas Klausner - ‎9 PostgreSQL features I wish I learned earlier‎</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 38:15</div>
+			
+			
+              <div>Views: 6 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-thomas-klausner-measureeverything"><img class="list-thumbnail" src="https://i.ytimg.com/vi/D0NQrd6Oqbc/hqdefault.jpg" alt="gpw2016 Thomas Klausner - ‎Measure::Everything‎" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-thomas-klausner-measureeverything">gpw2016 Thomas Klausner - ‎Measure::Everything‎</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 21:46</div>
+			
+			
+              <div>Views: 13 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-tina-muller-writing-command-line-tools-made-easy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_PHI_oSk9Zo/hqdefault.jpg" alt="gpw2016 Tina Müller - Writing command line tools made easy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-tina-muller-writing-command-line-tools-made-easy">gpw2016 Tina Müller - Writing command line tools made easy</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 17:27</div>
+			
+			
+              <div>Views: 131 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/german-perl-workshop-2016/gpw2016-tobias-leich-perl-6"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MsTvGKBReIo/hqdefault.jpg" alt="gpw2016 Tobias Leich - Perl 6" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/german-perl-workshop-2016/gpw2016-tobias-leich-perl-6">gpw2016 Tobias Leich - Perl 6</a></h4>
+          <footer>
+            <div class="recorded">2016-03-09</div>
+			
+			  <div>Length: 45:32</div>
+			
+			
+              <div>Views: 77 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/german-perl-workshop-2016">German Perl Workshop 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLaDtghjWTaH3PClk6HXrTPE1ty7G-Xvf-">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

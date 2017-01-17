@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Beyond Tellerrand 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Beyond Tellerrand 2016</h1>
+
+<div><a href="https://beyondtellerrand.com/events/duesseldorf-2016">Beyond Tellerrand 2016</a></div>
+
+
+<div>Start date: 2016-05-09</div>
+<div>End date: 2016-05-11</div>
+
+<div>Location:
+  Düsseldorf
+  
+  <a href="/l/germany">Germany</a>
+</div>
+
+<div><a href="https://beyondtellerrand.com/code-of-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/design">Design</a> 
+   
+       <a href="/t/technology">Technology</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/btconf">@btconf</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/beyondtellerrand">https://www.facebook.com/beyondtellerrand</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Beyond%20Tellerrand%202016%20on%202016-05-09%20in%20D%C3%BCsseldorf%2C%20%20Germany%20%40btconf%20https%3A//beyondtellerrand.com/events/duesseldorf-2016%20%23FrontEnd%20%23JavaScript%20%23Design%20%23Technology%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/advice-from-a-young-designer-to-younger-designers-lil-chen-btconfdus-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4JFFg5-Oh44/hqdefault.jpg" alt="Advice from a young designer to younger designers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/advice-from-a-young-designer-to-younger-designers-lil-chen-btconfdus-2016">Advice from a young designer to younger designers</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 27:33</div>
+			
+			
+              <div>Views: 89 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lil-chen">Lil Chen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/an-abusive-relationship-with-angularjs-mario-heiderich-btconfdus-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BvpE5FPXYXo/hqdefault.jpg" alt="An Abusive Relationship with AngularJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/an-abusive-relationship-with-angularjs-mario-heiderich-btconfdus-2016">An Abusive Relationship with AngularJS</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 48:57</div>
+			
+			
+              <div>Views: 116 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mario-heiderich">Mario Heiderich</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/be-stubborn-be-naive-jeff-greenspan-btconfber2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MrxKbxGcP_w/hqdefault.jpg" alt="Be Stubborn. Be Naive" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/be-stubborn-be-naive-jeff-greenspan-btconfber2016">Be Stubborn. Be Naive</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 47:38</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeff-greenspan">Jeff Greenspan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/be-the-black-sheep-mike-kus-btconfber2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/v1kD9QAGHcI/hqdefault.jpg" alt="Be the Black Sheep" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/be-the-black-sheep-mike-kus-btconfber2016">Be the Black Sheep</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 25:22</div>
+			
+			
+              <div>Views: 30 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-kus">Mike Kus</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/beyond-measure-erika-hall-btconfber2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ng6k7anxlWU/hqdefault.jpg" alt="Beyond Measure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/beyond-measure-erika-hall-btconfber2016">Beyond Measure</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 45:53</div>
+			
+			
+              <div>Views: 31 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/erika-hall">Erika Hall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/bye-bye-screen-andrea-krajewski-btconfdus-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kj7X95DkpvI/hqdefault.jpg" alt="Bye, Bye Screen" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/bye-bye-screen-andrea-krajewski-btconfdus-2016">Bye, Bye Screen</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 44:03</div>
+			
+			
+              <div>Views: 109 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrea-krajewski">Andrea Krajewski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/cracking-the-code-david-jonathan-ross-btconfdus-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SzC3qTo0p1k/hqdefault.jpg" alt="Cracking the Code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/cracking-the-code-david-jonathan-ross-btconfdus-2016">Cracking the Code</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 43:16</div>
+			
+			
+              <div>Views: 33 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-jonathan-ross">David Jonathan Ross</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/designing-meaningful-animation-val-head-btconfdus-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OqvQhZ0bTYY/hqdefault.jpg" alt="Designing Meaningful Animation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/designing-meaningful-animation-val-head-btconfdus-2016">Designing Meaningful Animation</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 43:13</div>
+			
+			
+              <div>Views: 412 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/val-head">Val Head</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/designing-socially-impactful-digital-experiences-catt-small-btconfdus-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3LbRaA2N1qc/hqdefault.jpg" alt="Designing Socially Impactful Digital Experiences" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/designing-socially-impactful-digital-experiences-catt-small-btconfdus-2016">Designing Socially Impactful Digital Experiences</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 43:46</div>
+			
+			
+              <div>Views: 61 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/catt-small">Catt Small</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/everyday-matters-danny-gregory-btconfber2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VUl-6Lmnt8I/hqdefault.jpg" alt="Everyday Matters" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/everyday-matters-danny-gregory-btconfber2016">Everyday Matters</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 01:00:11</div>
+			
+			
+              <div>Views: 44 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/danny-gregory">Danny Gregory</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/from-pages-to-patterns-charlotte-jackson-btconfber2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zEXtIhyMSwE/hqdefault.jpg" alt="From Pages to Patterns" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/from-pages-to-patterns-charlotte-jackson-btconfber2016">From Pages to Patterns</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 23:19</div>
+			
+			
+              <div>Views: 47 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/charlotte-jackson">Charlotte Jackson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/how-the-tech-sector-could-move-in-one-direction-sacha-judd-btconfber2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yWY5271QNYA/hqdefault.jpg" alt="How the tech sector could move in One Direction" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/how-the-tech-sector-could-move-in-one-direction-sacha-judd-btconfber2016">How the tech sector could move in One Direction</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 38:30</div>
+			
+			
+              <div>Views: 50 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sacha-judd">Sacha Judd</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/let-us-now-praise-ordinary-people-mike-monteiro-btconfber2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pjk2pTfw3ro/hqdefault.jpg" alt="Let Us Now Praise Ordinary People" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/let-us-now-praise-ordinary-people-mike-monteiro-btconfber2016">Let Us Now Praise Ordinary People</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 46:16</div>
+			
+			
+              <div>Views: 103 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-monteiro">Mike Monteiro</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/progressive-web-amps-paul-bakaus-btconfber2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mtFBuZZ75kE/hqdefault.jpg" alt="Progressive Web AMPs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/progressive-web-amps-paul-bakaus-btconfber2016">Progressive Web AMPs</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 31:55</div>
+			
+			
+              <div>Views: 37 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-bakaus">Paul Bakaus</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/refactoring-css-without-losing-your-mind-harry-roberts-btconfber2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xWuMSuJuDFM/hqdefault.jpg" alt="Refactoring CSS Without Losing Your Mind" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/refactoring-css-without-losing-your-mind-harry-roberts-btconfber2016">Refactoring CSS Without Losing Your Mind</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 45:36</div>
+			
+			
+              <div>Views: 56 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/harry-roberts">Harry Roberts</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/resilience-jeremy-keith-btconfdus-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FkP_v1z4-UI/hqdefault.jpg" alt="Resilience" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/resilience-jeremy-keith-btconfdus-2016">Resilience</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 46:14</div>
+			
+			
+              <div>Views: 79 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeremy-keith">Jeremy Keith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/the-joy-of-optimizing-una-kravets-btconfber2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VzHnudpszmI/hqdefault.jpg" alt="The Joy of Optimizing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/the-joy-of-optimizing-una-kravets-btconfber2016">The Joy of Optimizing</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 36:04</div>
+			
+			
+              <div>Views: 57 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/una-kravets">Una Kravets</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/the-world-is-your-interface-ariel-cotton-btconfber2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ru1MNz07SP8/hqdefault.jpg" alt="The World Is Your Interface" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/the-world-is-your-interface-ariel-cotton-btconfber2016">The World Is Your Interface</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 42:08</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ariel-cotton">Ariel Cotton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/time-creativity-christopher-murphy-btconfdus-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b-tlPJ0hLm0/hqdefault.jpg" alt="Time + Creativity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/time-creativity-christopher-murphy-btconfdus-2016">Time + Creativity</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 37:45</div>
+			
+			
+              <div>Views: 40 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christopher-murphy">Christopher Murphy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/typography-is-code-frank-rausch-btconfber2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ejWqf-ZEinU/hqdefault.jpg" alt="Typography is Code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/typography-is-code-frank-rausch-btconfber2016">Typography is Code</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 30:38</div>
+			
+			
+              <div>Views: 70 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/frank-rausch">Frank Rausch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/typography-on-the-web-is-like-other-typography-only-more-interesting-indra-kupferschmid"><img class="list-thumbnail" src="https://i.ytimg.com/vi/edcQeuPNPms/hqdefault.jpg" alt="Typography on the web is like other typography only more interesting" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/typography-on-the-web-is-like-other-typography-only-more-interesting-indra-kupferschmid">Typography on the web is like other typography only more interesting</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 52:45</div>
+			
+			
+              <div>Views: 107 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/indra-kupferschmid">Indra Kupferschmid</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/unrealjs-michael-chang-btconfdus-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MKA5LifaOtE/hqdefault.jpg" alt="Unreal.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/unrealjs-michael-chang-btconfdus-2016">Unreal.js</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 40:20</div>
+			
+			
+              <div>Views: 817 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-chang">Michael Chang</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/unseen-tim-kadlec-btconfber2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KsNZMzINnQE/hqdefault.jpg" alt="Unseen" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/unseen-tim-kadlec-btconfber2016">Unseen</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 37:19</div>
+			
+			
+              <div>Views: 30 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-kadlec">Tim Kadlec</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/writing-less-damned-code-heydon-pickering-btconfber2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tzfHlEFd2Fk/hqdefault.jpg" alt="Writing Less Damned Code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/writing-less-damned-code-heydon-pickering-btconfber2016">Writing Less Damned Code</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 39:21</div>
+			
+			
+              <div>Views: 57 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/heydon-pickering">Heydon Pickering</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/beyondtellerrand-2016/your-hero-images-need-you-save-the-day-with-http2-image-loading-tobias-baldauf-btconfdus-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/35RQAmmjDN8/hqdefault.jpg" alt="Your Hero Images Need You! Save the Day with HTTP2 Image Loading" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/beyondtellerrand-2016/your-hero-images-need-you-save-the-day-with-http2-image-loading-tobias-baldauf-btconfdus-2016">Your Hero Images Need You! Save the Day with HTTP2 Image Loading</a></h4>
+          <footer>
+            <div class="recorded">2016-05-09</div>
+			
+			  <div>Length: 34:11</div>
+			
+			
+              <div>Views: 94 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/beyondtellerrand-2016">Beyond Tellerrand 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tobias-baldauf">Tobias Baldauf</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL8ZzmQWppBBvT8uEnVr6Xj-rKsMjQs-G-  PL8ZzmQWppBBv5DMFLkVtd2x_XtGajogJN">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Nordic JS 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Nordic JS 2016</h1>
+
+<div><a href="http://2016.nordicjs.com/">Nordic JS 2016</a></div>
+
+
+<div>Start date: 2016-09-08</div>
+<div>End date: 2016-09-09</div>
+
+<div>Location:
+  Stockholm
+  
+  <a href="/l/sweden">Sweden</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/nordicjs">@nordicjs</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/nordicjs">https://www.facebook.com/nordicjs</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Nordic%20JS%202016%20on%202016-09-08%20in%20Stockholm%2C%20%20Sweden%20%40nordicjs%20http%3A//2016.nordicjs.com/%20%23JavaScript%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-abdullah-ali-the-mad-cousin-multi-threaded-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0MmjHuta_ss/hqdefault.jpg" alt="The Mad Cousin- MULTI-THREADED JAVASCRIPT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-abdullah-ali-the-mad-cousin-multi-threaded-javascript">The Mad Cousin- MULTI-THREADED JAVASCRIPT</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 27:20</div>
+			
+			
+              <div>Views: 594 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/abdullah-ali">Abdullah Ali</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-amy-cheng-recreate-masterpieces-of-modern-art-with-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Eu9HdewEU7c/hqdefault.jpg" alt="Recreate Masterpieces of Modern Art with Javascript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-amy-cheng-recreate-masterpieces-of-modern-art-with-javascript">Recreate Masterpieces of Modern Art with Javascript</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 27:14</div>
+			
+			
+              <div>Views: 244 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amy-cheng">Amy Cheng</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-anton-nemtsev-you-dont-know-css-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Yr7kY7wwcl0/hqdefault.jpg" alt="Nordic.js 2016 • Anton Nemtsev - You don't know CSS • Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-anton-nemtsev-you-dont-know-css-lightning-talk">Nordic.js 2016 • Anton Nemtsev - You don't know CSS • Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 04:16</div>
+			
+			
+              <div>Views: 414 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anton-nemtsev">Anton Nemtsev</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-ashley-williams-a-brief-history-and-mishistory-of-modularity"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LfOVyNQK5io/hqdefault.jpg" alt="A brief history and mishistory of modularity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-ashley-williams-a-brief-history-and-mishistory-of-modularity">A brief history and mishistory of modularity</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 30:00</div>
+			
+			
+              <div>Views: 2369 Likes: 38</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ashley-williams">Ashley Williams</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-david-bjorklund-pragmatic-performance-patterns"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KiuNJqdnIOw/hqdefault.jpg" alt="Pragmatic performance patterns" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-david-bjorklund-pragmatic-performance-patterns">Pragmatic performance patterns</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 13:46</div>
+			
+			
+              <div>Views: 466 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-bjorklund">David Bjorklund</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-evan-you-demystifying-frontend-framework-performance"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ag-1wmHWwS4/hqdefault.jpg" alt="Demystifying Frontend Framework Performance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-evan-you-demystifying-frontend-framework-performance">Demystifying Frontend Framework Performance</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 27:19</div>
+			
+			
+              <div>Views: 3763 Likes: 99</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/evan-you">Evan You</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-frans-rosen-the-smorgasbord-of-web-app-hacking"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Gk8gcEtN1mI/hqdefault.jpg" alt="Nordic.js 2016 • Frans Rosén - The Smörgåsbord of web app hacking" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-frans-rosen-the-smorgasbord-of-web-app-hacking">Nordic.js 2016 • Frans Rosén - The Smörgåsbord of web app hacking</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 28:55</div>
+			
+			
+              <div>Views: 887 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/frans-rosen">Frans Rosen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-irina-shestak-javascript-takes-on-genetically-evolving-cellular-automata"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VvON2C-Hfo8/hqdefault.jpg" alt="JavaScript Takes on Genetically Evolving Cellular Automata" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-irina-shestak-javascript-takes-on-genetically-evolving-cellular-automata">JavaScript Takes on Genetically Evolving Cellular Automata</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 29:16</div>
+			
+			
+              <div>Views: 374 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/irina-shestak">Irina Shestak</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-jem-young-embracing-the-future"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CRjGt0KfjzE/hqdefault.jpg" alt="Embracing The Future" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-jem-young-embracing-the-future">Embracing The Future</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 30:15</div>
+			
+			
+              <div>Views: 626 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jem-young">Jem Young</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-jeremy-keith-resilience-tried-and-tested-approaches"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KxsCWCjEi2Q/hqdefault.jpg" alt="Resilience: Tried and tested approaches" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-jeremy-keith-resilience-tried-and-tested-approaches">Resilience: Tried and tested approaches</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 47:46</div>
+			
+			
+              <div>Views: 860 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeremy-keith">Jeremy Keith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-johanna-mansson-grahn-maria-solscher-there-is-a-better-way-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qircYNzrS7E/hqdefault.jpg" alt="What maxLength should this input have? - There is a better way" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-johanna-mansson-grahn-maria-solscher-there-is-a-better-way-lightning-talk">What maxLength should this input have? - There is a better way</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 04:28</div>
+			
+			
+              <div>Views: 107 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maria-solscher">Maria Sölscher</a>
+             
+                <a href="/p/johanna-mansson-grahn">Johanna Månsson Grahn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-kristofer-sommestad-connected-carjs-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ekiUteryY_A/hqdefault.jpg" alt="Nordic.js 2016 • Kristofer Sommestad - connected-car.js • Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-kristofer-sommestad-connected-carjs-lightning-talk">Nordic.js 2016 • Kristofer Sommestad - connected-car.js • Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 04:21</div>
+			
+			
+              <div>Views: 116 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-lin-clark-a-cartoon-guide-to-performance-in-react"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SI2A0ildgG4/hqdefault.jpg" alt="A Cartoon Guide to Performance in React" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-lin-clark-a-cartoon-guide-to-performance-in-react">A Cartoon Guide to Performance in React</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 29:34</div>
+			
+			
+              <div>Views: 392 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lin-clark">Lin Clark</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-mariko-kosaka-magic-of-computer-vision-unraveled"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KQjIl6I-bn8/hqdefault.jpg" alt="Magic of Computer Vision Unraveled" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-mariko-kosaka-magic-of-computer-vision-unraveled">Magic of Computer Vision Unraveled</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 32:04</div>
+			
+			
+              <div>Views: 358 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mariko-kosaka">Mariko Kosaka</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-mattias-petter-johansson-if-you-know-map-i-will-teach-you-monads"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2jp8N6Ha7tY/hqdefault.jpg" alt="If you know map, I will teach you monads" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-mattias-petter-johansson-if-you-know-map-i-will-teach-you-monads">If you know map, I will teach you monads</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 33:31</div>
+			
+			
+              <div>Views: 2697 Likes: 93</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mattias-petter-johansson">Mattias Petter Johansson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-nataliia-uvarova-the-worst-lightning-talk-ever-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/25nuxa_Op5A/hqdefault.jpg" alt="The worst lightning talk ever" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-nataliia-uvarova-the-worst-lightning-talk-ever-lightning-talk">The worst lightning talk ever</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 04:46</div>
+			
+			
+              <div>Views: 248 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nataliia-uvarova">Nataliia Uvarova</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-nicole-rauch-event-sourcing-a-nodejs-application"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tWH-K2E3EIo/hqdefault.jpg" alt="Event Sourcing a Node.js Application" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-nicole-rauch-event-sourcing-a-nodejs-application">Event Sourcing a Node.js Application</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 28:03</div>
+			
+			
+              <div>Views: 473 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nicole-rauch">Nicole Rauch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-per-stenstrom-seo-black-holes-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/w8MTMZ42S7w/hqdefault.jpg" alt="SEO Black Holes • Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-per-stenstrom-seo-black-holes-lightning-talk">SEO Black Holes • Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 07:09</div>
+			
+			
+              <div>Views: 170 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/per-stenstrom">Per Stenstrom</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-peter-allwin-sousvidejs-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FufzL5Dh_pM/hqdefault.jpg" alt="sousvide.js • Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-peter-allwin-sousvidejs-lightning-talk">sousvide.js • Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 04:27</div>
+			
+			
+              <div>Views: 143 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-allwin">Peter Allwin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-pierre-reimertz-i-know-what-you-visited-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LHu8rwLK5sA/hqdefault.jpg" alt="I know what you :visited • Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-pierre-reimertz-i-know-what-you-visited-lightning-talk">I know what you :visited • Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 05:47</div>
+			
+			
+              <div>Views: 761 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pierre-reimertz">Pierre Reimertz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-rachel-white-javascript-as-play"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SLgJTTFQDqE/hqdefault.jpg" alt="JavaScript as Play" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-rachel-white-javascript-as-play">JavaScript as Play</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 25:28</div>
+			
+			
+              <div>Views: 358 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rachel-white">Rachel White</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-tomomi-imura-from-software-to-hard-ware-how-do-i-track-my-cat-with-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AcDZfupBYdY/hqdefault.jpg" alt="From Software to Hard ware: How Do I Track My Cat with JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-tomomi-imura-from-software-to-hard-ware-how-do-i-track-my-cat-with-javascript">From Software to Hard ware: How Do I Track My Cat with JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 25:53</div>
+			
+			
+              <div>Views: 437 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tomomi-imura">Tomomi Imura</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-vitaly-friedman-cutting-edge-responsive-web-design"><img class="list-thumbnail" src="https://i.ytimg.com/vi/a_1--3T8y6Y/hqdefault.jpg" alt="Cutting-Edge Responsive Web Design" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-vitaly-friedman-cutting-edge-responsive-web-design">Cutting-Edge Responsive Web Design</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 33:25</div>
+			
+			
+              <div>Views: 623 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vitaly-friedman">Vitaly Friedman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-vladimir-starkov-real-world-fp-js-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7omtQrpgU84/hqdefault.jpg" alt="Nordic.js 2016 • Vladimir Starkov - real world fp js • Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-vladimir-starkov-real-world-fp-js-lightning-talk">Nordic.js 2016 • Vladimir Starkov - real world fp js • Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 04:51</div>
+			
+			
+              <div>Views: 378 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vladimir-starkov">Vladimir Starkov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016-william-berglund-declarative-testing-of-virtual-dom-trees-lightning-talk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xumK-CSiNxo/hqdefault.jpg" alt="Nordic.js 2016 • William Berglund - Declarative testing of virtual DOM trees • Lightning talk" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016-william-berglund-declarative-testing-of-virtual-dom-trees-lightning-talk">Nordic.js 2016 • William Berglund - Declarative testing of virtual DOM trees • Lightning talk</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 04:31</div>
+			
+			
+              <div>Views: 255 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/william-berglund">William Berglund</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nordicjs-2016/nordicjs-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pEeQMt89DsM/hqdefault.jpg" alt="Nordic.js 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nordicjs-2016/nordicjs-2016">Nordic.js 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-09-08</div>
+			
+			  <div>Length: 01:57</div>
+			
+			
+              <div>Views: 304 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/nordicjs-2016">Nordic JS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLGP3VO5jDf8wIGu0Q-huhv2Wfy2G5trbj">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

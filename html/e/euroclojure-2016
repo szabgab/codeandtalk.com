@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Euro Clojure 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Euro Clojure 2016</h1>
+
+<div><a href="http://euroclojure.org/">Euro Clojure 2016</a></div>
+
+
+<div>Start date: 2016-10-25</div>
+<div>End date: 2016-10-26</div>
+
+<div>Location:
+  Bratislava
+  
+  <a href="/l/slovakia">Slovakia</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/clojure">Clojure</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/EuroClojure">@EuroClojure</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Euro%20Clojure%202016%20on%202016-10-25%20in%20Bratislava%2C%20%20Slovakia%20%40EuroClojure%20http%3A//euroclojure.org/%20%23Clojure%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/a-case-study-of-natural-language-processing-in-clojure-daniel-janus"><img class="list-thumbnail" src="https://i.ytimg.com/vi/u9bmA1r2H1s/hqdefault.jpg" alt="A Case Study of Natural Language Processing in Clojure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/a-case-study-of-natural-language-processing-in-clojure-daniel-janus">A Case Study of Natural Language Processing in Clojure</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 42:53</div>
+			
+			
+              <div>Views: 13310 Likes: 106</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-janus">Daniel Janus</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/a-tale-of-clojurescript-in-production-jean-louis-giordano"><img class="list-thumbnail" src="https://i.ytimg.com/vi/s0QG3QCV1LY/hqdefault.jpg" alt="A Tale of ClojureScript in Production" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/a-tale-of-clojurescript-in-production-jean-louis-giordano">A Tale of ClojureScript in Production</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 32:32</div>
+			
+			
+              <div>Views: 1615 Likes: 36</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jean-louis-giordano">Jean Louis Giordano</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/automating-resilience-testing-with-clojure-and-docker-daniel-lebrero"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xQeatvHejHU/hqdefault.jpg" alt="Automating Resilience Testing with Clojure and Docker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/automating-resilience-testing-with-clojure-and-docker-daniel-lebrero">Automating Resilience Testing with Clojure and Docker</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 27:17</div>
+			
+			
+              <div>Views: 926 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/daniel-lebrero">Daniel Lebrero</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/bare-metal-clojure-with-clojurespec-michael-reitzenstein"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yGko70hIEwk/hqdefault.jpg" alt="Bare Metal Clojure with clojure.Spec" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/bare-metal-clojure-with-clojurespec-michael-reitzenstein">Bare Metal Clojure with clojure.Spec</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 36:08</div>
+			
+			
+              <div>Views: 1675 Likes: 25</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-reitzenstein">Michael Reitzenstein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/clojure-is-a-foreign-country-combining-datomic-with-scala-peter-brachwitz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AFakD8e7WsQ/hqdefault.jpg" alt="Clojure is a Foreign Country: Combining Datomic with Scala" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/clojure-is-a-foreign-country-combining-datomic-with-scala-peter-brachwitz">Clojure is a Foreign Country: Combining Datomic with Scala</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 32:19</div>
+			
+			
+              <div>Views: 1059 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-brachwitz">Peter Brachwitz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/clojure-is-not-afraid-of-the-gpu-dragan-djuric"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bEOOYbscyTs/hqdefault.jpg" alt="Clojure is Not Afraid of the GPU" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/clojure-is-not-afraid-of-the-gpu-dragan-djuric">Clojure is Not Afraid of the GPU</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 42:13</div>
+			
+			
+              <div>Views: 1969 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dragan-djuric">Dragan Djuric</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/clojurebridge-europe-arne-and-malwine"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EblfQQ1GcaI/hqdefault.jpg" alt="ClojureBridge Europe" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/clojurebridge-europe-arne-and-malwine">ClojureBridge Europe</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 32:34</div>
+			
+			
+              <div>Views: 505 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/malwine-gier">Malwine Gier</a>
+             
+                <a href="/p/arne-brasseur">Arne Brasseur</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/communicating-risk-reactively-mike-pearson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-NebRpbMTK8/hqdefault.jpg" alt="Communicating Risk Reactively" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/communicating-risk-reactively-mike-pearson">Communicating Risk Reactively</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 41:08</div>
+			
+			
+              <div>Views: 847 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-pearson">Mike Pearson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/genetic-programming-with-clojurespec-carin-meier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xvk-Gnydn54/hqdefault.jpg" alt="Genetic Programming with clojure.spec" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/genetic-programming-with-clojurespec-carin-meier">Genetic Programming with clojure.spec</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 42:20</div>
+			
+			
+              <div>Views: 1473 Likes: 31</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/carin-meier">Carin Meier</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/georepl-interactive-geometry-with-clojure-thomas-neuhalfen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OYmsPDwgeOk/hqdefault.jpg" alt="GeoRepl - Interactive Geometry with Clojure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/georepl-interactive-geometry-with-clojure-thomas-neuhalfen">GeoRepl - Interactive Geometry with Clojure</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 40:40</div>
+			
+			
+              <div>Views: 783 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-neuhalfen">Thomas Neuhalfen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/live-coding-mathematics-your-first-clojure-proof-frederic-peschanski"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5YTCY7wm0Nw/hqdefault.jpg" alt="Live-Coding Mathematics Your First Clojure Proof" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/live-coding-mathematics-your-first-clojure-proof-frederic-peschanski">Live-Coding Mathematics Your First Clojure Proof</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 41:55</div>
+			
+			
+              <div>Views: 1128 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/frederic-peschanski">Frederic Peschanski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/living-with-spec-simon-belak"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-9dOZX-ERcM/hqdefault.jpg" alt="Living with Spec" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/living-with-spec-simon-belak">Living with Spec</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 37:45</div>
+			
+			
+              <div>Views: 1133 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-belak">Simon Belak</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/machine-learning-with-clojure-and-apache-spark-eric-weinstein"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2Av5n7ffe0M/hqdefault.jpg" alt="Machine Learning with Clojure and Apache Spark" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/machine-learning-with-clojure-and-apache-spark-eric-weinstein">Machine Learning with Clojure and Apache Spark</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 37:48</div>
+			
+			
+              <div>Views: 2123 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eric-weinstein">Eric Weinstein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/making-machines-that-make-music-srihari-sriraman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZvSSeuzN_b4/hqdefault.jpg" alt="Making Machines that Make Music" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/making-machines-that-make-music-srihari-sriraman">Making Machines that Make Music</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 40:53</div>
+			
+			
+              <div>Views: 2049 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/srihari-sriraman">Srihari Sriraman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/now-what-david-nolen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cH4ZJAKZHjQ/hqdefault.jpg" alt="Now what?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/now-what-david-nolen">Now what?</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 41:41</div>
+			
+			
+              <div>Views: 7303 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-nolen">David Nolen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/euroclojure-2016/priority-search-queues-15-dimensional-tree-search-michal-marczyk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pZ9gBKO_qCA/hqdefault.jpg" alt="Priority Search Queues: 1.5 dimensional Tree Search" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/euroclojure-2016/priority-search-queues-15-dimensional-tree-search-michal-marczyk">Priority Search Queues: 1.5 dimensional Tree Search</a></h4>
+          <footer>
+            <div class="recorded">2016-10-25</div>
+			
+			  <div>Length: 43:04</div>
+			
+			
+              <div>Views: 801 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/euroclojure-2016">Euro Clojure 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michal-marczyk">Michal Marczyk</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLZdCLR02grLowQLPjuZ7k3pl2ScEyW7A7">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

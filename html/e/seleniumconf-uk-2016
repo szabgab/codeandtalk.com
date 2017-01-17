@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Selenium Conf UK 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Selenium Conf UK 2016</h1>
+
+<div><a href="http://2016.seleniumconf.co.uk/">Selenium Conf UK 2016</a></div>
+
+
+<div>Start date: 2016-11-14</div>
+<div>End date: 2016-11-16</div>
+
+<div>Location:
+  London
+  England
+  <a href="/l/uk">UK</a>
+</div>
+
+<div><a href="http://2016.seleniumconf.co.uk/code-of-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/selenium">Selenium</a> 
+   
+       <a href="/t/testing">testing</a> 
+   
+       <a href="/t/web">web</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/seleniumconf_UK">@seleniumconf_UK</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/seleniumconf">https://www.facebook.com/seleniumconf</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Selenium%20Conf%20UK%202016%20on%202016-11-14%20in%20London%2C%20England%20UK%20%40seleniumconf_UK%20http%3A//2016.seleniumconf.co.uk/%20%23Selenium%20%23testing%20%23web%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/a-programmers-guide-to-humans-janelle-klein"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0a5gUS649t0/hqdefault.jpg" alt="A Programmer's Guide to Humans" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/a-programmers-guide-to-humans-janelle-klein">A Programmer's Guide to Humans</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 43:57</div>
+			
+			
+              <div>Views: 295 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/janelle-klein">Janelle Klein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/advanced-appium-dan-cuellar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sfnr5XU8oxE/hqdefault.jpg" alt="Advanced Appium" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/advanced-appium-dan-cuellar">Advanced Appium</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 32:24</div>
+			
+			
+              <div>Views: 367 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-cuellar">Dan Cuellar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/advanced-test-automation-techniques-for-responsive-apps-and-sites-adam-carmi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VypemwBVNFg/hqdefault.jpg" alt="Advanced Test Automation Techniques for Responsive Apps and Sites" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/advanced-test-automation-techniques-for-responsive-apps-and-sites-adam-carmi">Advanced Test Automation Techniques for Responsive Apps and Sites</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 34:23</div>
+			
+			
+              <div>Views: 411 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-carmi">Adam Carmi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/automating-the-responsive-website-testing-pranathi-birudugadda"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VxUpbfTpHwo/hqdefault.jpg" alt="Automating the Responsive Website Testing - Introducing Galen" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/automating-the-responsive-website-testing-pranathi-birudugadda">Automating the Responsive Website Testing - Introducing Galen</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 32:00</div>
+			
+			
+              <div>Views: 499 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pranathi-birudugadda">Pranathi Birudugadda</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/big-data-makes-the-flake-go-away-dave-cadwallader"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oRIci6n566w/hqdefault.jpg" alt="Big Data Makes the Flake Go Away" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/big-data-makes-the-flake-go-away-dave-cadwallader">Big Data Makes the Flake Go Away</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 31:26</div>
+			
+			
+              <div>Views: 365 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-cadwallader">Dave Cadwallader</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/building-a-test-engineering-culture-mona-soni"><img class="list-thumbnail" src="https://i.ytimg.com/vi/51Q7dI57rQg/hqdefault.jpg" alt="Building a Test Engineering Culture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/building-a-test-engineering-culture-mona-soni">Building a Test Engineering Culture</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 36:02</div>
+			
+			
+              <div>Views: 206 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mona-soni">Mona Soni</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/can-we-have-it-all-selenium-for-web-mobile-everything-a-product-needs-pooja-shah"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OdYKZHYp60M/hqdefault.jpg" alt="Can We Have It All! {Selenium for Web, Mobile & Everything a Product Needs}" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/can-we-have-it-all-selenium-for-web-mobile-everything-a-product-needs-pooja-shah">Can We Have It All! {Selenium for Web, Mobile & Everything a Product Needs}</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 35:47</div>
+			
+			
+              <div>Views: 478 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pooja-shah">Pooja Shah</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/closing-panel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JK7WayJzBXo/hqdefault.jpg" alt="Closing Panel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/closing-panel">Closing Panel</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 01:00:36</div>
+			
+			
+              <div>Views: 222 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/continuously-testing-online-interactive-curriculum-at-codeorg-brian-jordan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DulrbPYXGUM/hqdefault.jpg" alt="Continuously Testing Online, Interactive Curriculum at Code.org" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/continuously-testing-online-interactive-curriculum-at-codeorg-brian-jordan">Continuously Testing Online, Interactive Curriculum at Code.org</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 34:05</div>
+			
+			
+              <div>Views: 134 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-jordan">Brian Jordan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/distributed-testing-and-test-reporting-christina-thalayasingam"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DzVfainzmYo/hqdefault.jpg" alt="Distributed Testing and Test Reporting" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/distributed-testing-and-test-reporting-christina-thalayasingam">Distributed Testing and Test Reporting</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 34:57</div>
+			
+			
+              <div>Views: 408 Likes: 28</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christina-thalayasingam">Christina Thalayasingam</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/how-to-get-automation-included-in-your-definition-of-done-angie-jones"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HaIoYFtuu-U/hqdefault.jpg" alt="How to Get Automation Included in Your Definition of Done" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/how-to-get-automation-included-in-your-definition-of-done-angie-jones">How to Get Automation Included in Your Definition of Done</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 32:47</div>
+			
+			
+              <div>Views: 577 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/angie-jones">Angie Jones</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/is-it-or-is-it-not-really-visible-seleniums-flawed-vision-david-burns"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hTa1KI6fQpg/hqdefault.jpg" alt="Is It or Is It Not Really Visible    Selenium's Flawed Vision" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/is-it-or-is-it-not-really-visible-seleniums-flawed-vision-david-burns">Is It or Is It Not Really Visible    Selenium's Flawed Vision</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 30:42</div>
+			
+			
+              <div>Views: 191 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-burns">David Burns</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/lets-talk-security-beyond-scanning-dheeraj-joshi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/csE5tp94wfw/hqdefault.jpg" alt="Let's Talk Security   Beyond Scanning" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/lets-talk-security-beyond-scanning-dheeraj-joshi">Let's Talk Security   Beyond Scanning</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 29:16</div>
+			
+			
+              <div>Views: 182 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dheeraj-joshi">Dheeraj Joshi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/lightning-talks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FoTCmWvaQME/hqdefault.jpg" alt="Lightning Talks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/lightning-talks">Lightning Talks</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 39:03</div>
+			
+			
+              <div>Views: 252 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/making-cross-browser-tests-beautiful-meaghan-lewis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Jpfrpw6IglE/hqdefault.jpg" alt="Making Cross Browser Tests Beautiful" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/making-cross-browser-tests-beautiful-meaghan-lewis">Making Cross Browser Tests Beautiful</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 32:29</div>
+			
+			
+              <div>Views: 264 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/meaghan-lewis">Meaghan Lewis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/measuring-web-performance-using-selenium-peter-hedenskog"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cLlZhnZvi1M/hqdefault.jpg" alt="Measuring Web Performance Using Selenium" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/measuring-web-performance-using-selenium-peter-hedenskog">Measuring Web Performance Using Selenium</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 35:06</div>
+			
+			
+              <div>Views: 470 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-hedenskog">Peter Hedenskog</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/moving-from-manual-to-automated-testing-at-a-small-company-kathleen-conway"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EUDKzhx3kY0/hqdefault.jpg" alt="Moving from Manual to Automated Testing at a Small Company" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/moving-from-manual-to-automated-testing-at-a-small-company-kathleen-conway">Moving from Manual to Automated Testing at a Small Company</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 39:10</div>
+			
+			
+              <div>Views: 534 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kathleen-conway">Kathleen Conway</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/refactoring-for-testability-breaking-the-cycle-of-doom-cat-fletcher-ashley-hunsberger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lVNb39ysmy0/hqdefault.jpg" alt="Refactoring for Testability   Breaking the Cycle of Doom" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/refactoring-for-testability-breaking-the-cycle-of-doom-cat-fletcher-ashley-hunsberger">Refactoring for Testability   Breaking the Cycle of Doom</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 36:08</div>
+			
+			
+              <div>Views: 130 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ashley-hunsberger">Ashley Hunsberger</a>
+             
+                <a href="/p/cat-fletcher">Cat Fletcher</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/reliability-patterns-for-large-scale-selenium-tests-waseem-hamshawi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BaTvPSj7dSc/hqdefault.jpg" alt="Reliability Patterns for Large scale Selenium Tests" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/reliability-patterns-for-large-scale-selenium-tests-waseem-hamshawi">Reliability Patterns for Large scale Selenium Tests</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 33:39</div>
+			
+			
+              <div>Views: 372 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/waseem-hamshawi">Waseem Hamshawi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/robots-the-nuclear-option-jason-huggins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hyIMGy38E4s/hqdefault.jpg" alt="Robots  The Nuclear Option" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/robots-the-nuclear-option-jason-huggins">Robots  The Nuclear Option</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 40:20</div>
+			
+			
+              <div>Views: 280 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-huggins">Jason Huggins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/selenium-tests-the-object-oriented-way-corina-adina-pip"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lp5TPrQ_ul4/hqdefault.jpg" alt="Selenium Tests, the Object Oriented Way" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/selenium-tests-the-object-oriented-way-corina-adina-pip">Selenium Tests, the Object Oriented Way</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 28:00</div>
+			
+			
+              <div>Views: 571 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/corina-adina-pip">Corina-Adina Pip</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/sharing-the-pain-in-automating-with-protractor-webdriver-anand-bagmar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YpEC3rFkH5k/hqdefault.jpg" alt="Sharing the Pain in Automating with Protractor & WebDriver" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/sharing-the-pain-in-automating-with-protractor-webdriver-anand-bagmar">Sharing the Pain in Automating with Protractor & WebDriver</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 33:58</div>
+			
+			
+              <div>Views: 341 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anand-bagmar">Anand Bagmar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/stardriver-enterprise-appium-to-the-future-jonathan-lipps"><img class="list-thumbnail" src="https://i.ytimg.com/vi/e61OhZzbsEI/hqdefault.jpg" alt="StarDriver Enterprise   Appium to the Future" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/stardriver-enterprise-appium-to-the-future-jonathan-lipps">StarDriver Enterprise   Appium to the Future</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 33:14</div>
+			
+			
+              <div>Views: 257 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jonathan-lipps">Jonathan Lipps</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/statistical-element-locator-oren-rubin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1wXoh7VhFyg/hqdefault.jpg" alt="Statistical Element Locator" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/statistical-element-locator-oren-rubin">Statistical Element Locator</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 29:04</div>
+			
+			
+              <div>Views: 218 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oren-rubin">Oren Rubin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/test-trend-analysis-towards-robust-reliable-and-timely-tests-hugh-mccamphill"><img class="list-thumbnail" src="https://i.ytimg.com/vi/29fPYx7OJnE/hqdefault.jpg" alt="Test Trend Analysis  Towards Robust, Reliable and Timely Tests" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/test-trend-analysis-towards-robust-reliable-and-timely-tests-hugh-mccamphill">Test Trend Analysis  Towards Robust, Reliable and Timely Tests</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 32:48</div>
+			
+			
+              <div>Views: 627 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hugh-mccamphill">Hugh McCamphill</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/the-screenplay-pattern-a-solid-alternative-to-page-objects-antony-marcano"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8f8tdZBvAbI/hqdefault.jpg" alt="The Screenplay Pattern - a SOLID alternative to Page Objects" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/the-screenplay-pattern-a-solid-alternative-to-page-objects-antony-marcano">The Screenplay Pattern - a SOLID alternative to Page Objects</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 38:46</div>
+			
+			
+              <div>Views: 703 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/antony-marcano">Antony Marcano</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/the-state-of-browser-automation-with-javascript-umar-hansa"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EufdahOSJIc/hqdefault.jpg" alt="The State of Browser Automation with JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/the-state-of-browser-automation-with-javascript-umar-hansa">The State of Browser Automation with JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 38:36</div>
+			
+			
+              <div>Views: 1201 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/umar-hansa">Umar Hansa</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/think-inside-container-building-reliable-scalable-infrastructure-for-selenium-tests-irfan-ahmed"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qYJvwggA6cA/hqdefault.jpg" alt="Think Inside Container: Building Reliable & Scalable Infrastructure for Selenium Tests" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/think-inside-container-building-reliable-scalable-infrastructure-for-selenium-tests-irfan-ahmed">Think Inside Container: Building Reliable & Scalable Infrastructure for Selenium Tests</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 32:23</div>
+			
+			
+              <div>Views: 471 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/irfan-ahmad">Irfan Ahmad</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/turning-ios-end-to-end-testing-up-to-11-lawrence-lomax"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lTxW4rbu6Bk/hqdefault.jpg" alt="Turning iOS End to End Testing up to 11" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/turning-ios-end-to-end-testing-up-to-11-lawrence-lomax">Turning iOS End to End Testing up to 11</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 40:58</div>
+			
+			
+              <div>Views: 191 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lawrence-lomax">Lawrence Lomax</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/seleniumconf-uk-2016/zen-and-the-art-of-open-source-maintenance-simon-stewart"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rOFqg27bqqw/hqdefault.jpg" alt="Zen and the Art of Open Source Maintenance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/seleniumconf-uk-2016/zen-and-the-art-of-open-source-maintenance-simon-stewart">Zen and the Art of Open Source Maintenance</a></h4>
+          <footer>
+            <div class="recorded">2016-11-14</div>
+			
+			  <div>Length: 33:54</div>
+			
+			
+              <div>Views: 328 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/seleniumconf-uk-2016">Selenium Conf UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-stewart">Simon Stewart</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLPJWVzLeEy93T9EBvfn9KAmrYYez3oGcD">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

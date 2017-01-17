@@ -1,0 +1,1723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Open source conferences in USA</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Open source conferences in USA</h1>
+
+
+<table id="conferences" class="display compact">
+  <thead>
+    <tr><th>Start</th><th>CFP</th><th>CoC</th><th>A11y</th><th>Videos?</th><th>What</th><th>Where</th></tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <td>2017-01-18</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/dnnsummit-2017">DNN Summit 2017</a></td>
+      <td>Denver, Colorado,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-01-27</td>
+      <td class="cfp_past">2016-11-30</td>
+      <td><a href="http://confcodeofconduct.com/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/buzzjs-2017">BuzzJS 2017</a></td>
+      <td>New York, New York,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-01-27</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://soember.com/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/soember-2017">So Ember 2017</a></td>
+      <td>San Diego, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-02-04</td>
+      <td class="cfp_past">2016-12-20</td>
+      <td><a href="http://opensource101.com/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/open-source-101">Open Source 101</a></td>
+      <td>Raleigh, North Carolina,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-02-06</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://loopconf.com/code-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/loopconf-2017">LoopConf 2017</a></td>
+      <td>Salt Lake City, Utah,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-02-11</td>
+      <td class="cfp_past">2016-11-22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/developer-week-2017">Developer Week 2017</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-02-15</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://devnexus.com/s/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/devnexus-2016">Dev Nexus 2016</a></td>
+      <td>Atlanta, Georgia,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-02-21</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://events.linuxfoundation.org/EVENT-CODE-OF-CONDUCT"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/embedded-linux-2017">Embedded Linux Conference 2017</a></td>
+      <td>Portland, Oregon,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-02-21</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://events.linuxfoundation.org/EVENT-CODE-OF-CONDUCT"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/open-iot-summit-2017">OpenIoT Summit 2017</a></td>
+      <td>Portland, Oregon,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-02-22</td>
+      <td class="cfp_past">2016-11-01</td>
+      <td><a href="https://devnexus.com/s/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/devnexus-2017">Dev Nexus 2017</a></td>
+      <td>Atlanta, Georgia,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-01</td>
+      <td class="cfp_past">2016-11-15</td>
+      <td><a href="http://confcodeofconduct.com/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/forward-js-2017">Forward JS 2017</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-01</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/mobilewebdevconference-san-francisco-2017">Mobile+Web DevCon 2017</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-02</td>
+      <td class="cfp_past">2016-11-15</td>
+      <td><a href="http://confcodeofconduct.com/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/forward-swift-2017">Forward Swift</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-02</td>
+      <td class="cfp_past">2016-11-15</td>
+      <td><a href="https://www.socallinuxexpo.org/scale/15x/anti-harassment-policy"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/scale-15">Scale 15x - Southern California Linux Expo</a></td>
+      <td>Pasadena, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-07</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://www.elastic.co/community/codeofconduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/elasticon-17">Elastic{on} 17</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-07</td>
+      <td class="cfp_past">2016-12-01</td>
+      <td><a href="http://reactathon.com/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/reactathon-2017">Reactathon 2017</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-08</td>
+      <td class="cfp_past">2016-12-31</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/ocp-2017">OCP US Summit 2017</a></td>
+      <td>Santa Clara, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-13</td>
+      <td class="cfp_past">2017-01-13</td>
+      <td><a href="http://conf.reactjs.com/code-of-conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/react-conf-2017">React.js Conf 2017</a></td>
+      <td>Santa Clara, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-17</td>
+      <td class="cfp_past">2016-11-15</td>
+      <td><a href="https://2017.midwestphp.org/code-of-conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/midwestphp-2017">Midwest PHP 2017</a></td>
+      <td>Minneapolis, Minnesota,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-20</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://events.linuxfoundation.org/events/linux-storage-filesystem-and-mm-summit/attend/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/linux-storage-2017">Linux Storage, Filesystem & MM Summit 2017</a></td>
+      <td>Cambridge, Massachusetts,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-21</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/devoxx-usa-2017">Devoxx USA 2017</a></td>
+      <td>San Jose, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-22</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://jazzcon.tech/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/jazzcon-tech-2017">JazzCon Tech 2017</a></td>
+      <td>New Orleans, Louisiana,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-22</td>
+      <td class="cfp_past">2017-01-14</td>
+      <td><a href="http://events.linuxfoundation.org/events/vault/attend/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/vault-2017">Vault</a></td>
+      <td>Cambridge, Massachusetts,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-24</td>
+      <td class="cfp_past">2017-01-15</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/womenintechsummit-washington-dc-2017">The Women In Tech Summit - Washington DC - 2017</a></td>
+      <td>Washington, DC,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-25</td>
+      <td class="cfp_past">2016-11-14</td>
+      <td><a href="https://libreplanet.org/2017/safe-space-policy/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/libreplanet-2017">LibrePlanet 2017</a></td>
+      <td>Boston, Massachusetts,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-28</td>
+      <td class="cfp_past">2016-11-18</td>
+      <td><a href="http://emberconf.com/code-of-conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/emberconf-2017">emberconf 2017</a></td>
+      <td>Portland, Oregon,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-03-28</td>
+      <td class="cfp_past">2016-11-15</td>
+      <td><a href="http://www.pgconf.us/2017/policies/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/pgconfus-2017">PGConf US 2017</a></td>
+      <td>New York, New York,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-04-03</td>
+      <td class="cfp_future">2017-01-21</td>
+      <td><a href="http://events.linuxfoundation.org/EVENT-CODE-OF-CONDUCT"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/ons-2017">Open Networking Summit</a></td>
+      <td>Santa Clara, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-04-04</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://smashingconf.com/codeofconduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/smashingconf-sanfrancisco-2017">Smashing Conference 2017</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-04-05</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/ng-conf-2017">ng-conf 2017</a></td>
+      <td>Salt Lake City, Utah,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-04-19</td>
+      <td class="cfp_future">2017-02-01</td>
+      <td><a href="http://frontenddesignconference.com/terms.php"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/frontend-design-conference-2017">Frontend Design Conference 2017</a></td>
+      <td>St.Petersburg, Florida,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-04-21</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/codelandconf-2017">Codeland 2017</a></td>
+      <td>New York, New York,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-04-21</td>
+      <td class="cfp_past">2017-01-15</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/womenintechsummit-philadelphia-2017">The Women In Tech Summit - Philadelphia - 2017</a></td>
+      <td>Philadelphia, Pennsylvania,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-04-24</td>
+      <td class="cfp_future">2017-02-01</td>
+      <td><a href="https://www.drupal.org/dcoc"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/drupalcon-baltimore-2017">DrupalCon Baltimore 2017</a></td>
+      <td>Baltimore, Maryland,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-04-25</td>
+      <td class="cfp_future">2017-01-20</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/railsconf-2017">RailsConf 2017</a></td>
+      <td>Phoenix, Arizona,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-01</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://gotochgo.com/2017/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/gotocon-chicago-2017">GOTO Chicago 2017</a></td>
+      <td>Chicago, Illinois,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-01</td>
+      <td class="cfp_past">2016-10-23</td>
+      <td><a href="http://minnewebcon.org/about/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/minnewebcon-2017">MinneWebCon</a></td>
+      <td>Minneapolis, Minnesota,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-01</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/ux-immersion-interactions-2017">UX Immersion: Interactions 2017</a></td>
+      <td>Portland, Oregon,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-06</td>
+      <td class="cfp_future">2017-03-01</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/linuxfest-northwest-2017">Linuxfest Northwest 2017</a></td>
+      <td>Bellingham, Washington,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-08</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/open-stack-summit-boston-2017">Open Stack Summit</a></td>
+      <td>Boston, Massachusetts,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-08</td>
+      <td class="cfp_past">2016-10-25</td>
+      <td><a href="http://www.oreilly.com/conferences/code-of-conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/oscon-tx-2017">OSCON</a></td>
+      <td>Austin, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-11</td>
+      <td class="cfp_past">2016-12-02</td>
+      <td><a href="https://2017.syntaxcon.com/about/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/syntax-2017">Syntax Code & Craft Convention</a></td>
+      <td>North Charleston, South Carolina,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-14</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://www.writethedocs.org/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/writethedocs-na-2017">Write The Docs NA 2017</a></td>
+      <td>Portland, Oregon,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-16</td>
+      <td class="cfp_future">2017-02-11</td>
+      <td><a href="http://events.linuxfoundation.org/EVENT-CODE-OF-CONDUCT"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/apache-big-data-2017">Apache: Big Data 2017</a></td>
+      <td>Miami, Florida,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-16</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://events.linuxfoundation.org/event-code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/apachecon-na-2017">ApacheCon North America 2017</a></td>
+      <td>Miami, Florida,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-17</td>
+      <td class="cfp_past">2017-01-03</td>
+      <td><a href="https://us.pycon.org/2016/about/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/pycon-2017">PyCon 2017</a></td>
+      <td>Portland, Oregon,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-22</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://monitorama.com/#conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/monitorama-2017">Monitorama 2017</a></td>
+      <td>Portland, Oregon,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-22</td>
+      <td class="cfp_past">2016-12-30</td>
+      <td><a href="https://tek.phparch.com/policies"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/phptek-2017">php[tek] 2017</a></td>
+      <td>Atlanta, Georgia,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-05-29</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://ngcruise.com/#/conduct#conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/ngcruise-2017">Angular Cruise 2017</a></td>
+      <td>Miami, Florida,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-06-09</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/southeastlinuxfest-2017">SouthEast LinuxFest 2017</a></td>
+      <td>Charlotte, North Carolina,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-06-13</td>
+      <td class="cfp_future">2017-02-17</td>
+      <td><a href="https://www.cloudfoundry.org/community-summit2017/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/cloud-foundry-2017">Cloud Foundry Summit 2017</a></td>
+      <td>Santa Clara, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-06-14</td>
+      <td class="cfp_future">2017-02-01</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/convergese-2017">ConvergeSE 2017</a></td>
+      <td>Columbia, South Carolina,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-06-18</td>
+      <td class="cfp_future">2017-03-06</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/perlconference-dc-2017">The Perl Conference 2017</a></td>
+      <td>Washington, DC,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-06-19</td>
+      <td class="cfp_past">2017-01-10</td>
+      <td><a href="http://www.oreilly.com/conferences/code-of-conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/fluent-2017">Fluent</a></td>
+      <td>San Jose, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-06-26</td>
+      <td class="cfp_past">2017-01-10</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/hpdc-2017">HPDC 2017</a></td>
+      <td>Washington, DC,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-07-16</td>
+      <td class="cfp_past">2017-01-06</td>
+      <td><a href="https://www.codercruise.com/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/codercruise-2017">CoderCruise 2017</a></td>
+      <td>New Orleans, Louisiana,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-07-22</td>
+      <td class="cfp_past">2017-01-15</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/womenintechsummit-boston-2017">The Women In Tech Summit - Boston - 2017</a></td>
+      <td>Boston, Massachusetts,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-07-25</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/laracon-us-2017">Laracon US 2017</a></td>
+      <td>New York, New York,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-08-30</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/jenkinsworld-2017">Jenkins World 2017</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-09-11</td>
+      <td class="cfp_future">2017-05-06</td>
+      <td><a href="http://events.linuxfoundation.org/EVENT-CODE-OF-CONDUCT"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/open-source-summit-na-2017">Open Source Summit North America 2017</a></td>
+      <td>Los Angeles, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-09-14</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://events.linuxfoundation.org/EVENT-CODE-OF-CONDUCT"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/linux-security-summit-2017">Linux Security Summit 2017</a></td>
+      <td>Los Angeles, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-09-14</td>
+      <td class="cfp_future">2017-05-20</td>
+      <td><a href="http://events.linuxfoundation.org/events/mesoscon-north-america/attend/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/mesos-con-usa-2017">MesosCon North America 2017</a></td>
+      <td>Los Angeles, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2017-12-06</td>
+      <td class="cfp_future">2017-08-21</td>
+      <td><a href="http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-north-america/attend/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/cloudnative-kube-na-2017">CloudNativeCon KubeCon North America 2017</a></td>
+      <td>Austin, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+
+<h2>Earlier events</h2>
+<table id="earlier" class="display compact">
+  <thead>
+    <tr><th>Start</th><th>CFP</th><th>CoC</th><th>A11y</th><th>Videos?</th><th>What</th><th>Where</th></tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <td>2012-01-13</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/perl-oasis-2012">Perl Oasis 2012</a></td>
+      <td>Orlando, Florida,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2012-06-13</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/yapc-na-2012">YAPC::NA 2012</a></td>
+      <td>Madison, Wisconsin,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2012-09-17</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/postgresopen-2012">Postgres Open 2012</a></td>
+      <td>Chicago, Illinois,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2013-02-26</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/apachecon-na-2013">ApacheCon North America 2013</a></td>
+      <td>Portland, Oregon,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2013-06-03</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/yapc-na-2013">YAPC::NA 2013</a></td>
+      <td>Austin, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2013-09-16</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/postgresopen-2013">Postgres Open 2013</a></td>
+      <td>Chicago, Illinois,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2013-10-04</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/pittsburgh-perl-workshop-2013">Pittsburgh Perl Workshop 2013</a></td>
+      <td>Pittsburgh, Pennsylvania,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2014-04-07</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://events.linuxfoundation.org/event-code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></td>
+      <td>Denver, Colorado,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2014-04-09</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://events.linuxfoundation.org/event-code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/cloudstack-collaboration-na-2014">CloudStack Collaboration Conference North America 2014</a></td>
+      <td>Denver, Colorado,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2014-06-23</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/yapc-na-2014">YAPC::NA 2014</a></td>
+      <td>Orlando, Florida,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2014-09-17</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/postgresopen-2014">Postgres Open 2014</a></td>
+      <td>Chicago, Illinois,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2014-10-11</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/accessibility-camp-dc-2014">Accessibility Camp DC 2014</a></td>
+      <td>Washington, DC,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2014-11-15</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/nodevember-2014">Nodevember 2014</a></td>
+      <td>Nashville, Tennessee,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2014-12-06</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/accessibility-camp-los-angeles-2014">Accessibility Camp Los Angeles 2014</a></td>
+      <td>Los Angeles, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-01-28</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://conf.reactjs.com/code-of-conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/react-conf-2015">React.js Conf 2015</a></td>
+      <td>Menlo Park, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-03-21</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/libreplanet-2015">LibrePlanet 2015</a></td>
+      <td>Cambridge, Massachusetts,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-03-25</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://www.pgconf.us/2017/policies/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/pgconfus-2015">PGConf US 2015</a></td>
+      <td>New York, New York,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-04-13</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://events.linuxfoundation.org/event-code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/apachecon-na-2015">ApacheCon North America 2015</a></td>
+      <td>Austin, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-04-20</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://clojurewest.org/policies"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/clojurewest-2015">Clojure West 2015</a></td>
+      <td>Portland, Oregon,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-04-25</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/linuxfest-northwest-2015">Linuxfest Northwest 2015</a></td>
+      <td>Bellingham, Washington,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-05-27</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://jsconf.com/codeofconduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/jsconf-us-2015">JSConf USA 2015</a></td>
+      <td>Amelia Island, Florida,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-06-08</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/yapc-na-2015">YAPC::NA 2015</a></td>
+      <td>Salt Lake City, Utah,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-06-23</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://opensourcebridge.org/about/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/opensourcebridge-2015">Open Source Bridge 2016</a></td>
+      <td>Portland, Oregon,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-08-21</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://2015.texaslinuxfest.org/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/texaslinuxfest-2015">Texas LinuxFest 2015</a></td>
+      <td>San Marcos, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-09-08</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/seleniumconf-usa-2015">Selenium Conf USA 2015</a></td>
+      <td>Portland, Oregon,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-09-16</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://2015.postgresopen.org/policies/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/postgresopen-2015">Postgres Open 2015</a></td>
+      <td>Dallas, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-10-02</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://gothamgo.com/conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/gothamgo-2015">GothamGo Conference 2015</a></td>
+      <td>New York, New York,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-10-16</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://connect.tech/conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/connect-js-2015">Connect.Tech 2015</a></td>
+      <td>Atlanta, Georgia,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-10-19</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://allthingsopen.org/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/allthingsopen-2015">All Things Open 2015</a></td>
+      <td>Raleigh, North Carolina,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-10-19</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://www.zendcon.com/about#tab-1"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/zendcon-2015">ZendCon 2015</a></td>
+      <td>Las Vegas, Nevada,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-10-23</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/empirenode-2015">Empire Node 2015</a></td>
+      <td>New York, New York,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-10-26</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://2015.cssdevconf.com/register/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/cssdevconf-2015">CSS Dev Conf 2015</a></td>
+      <td>Long Beach, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2015-11-14</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://nodevember.org/conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/nodevember-2015">Nodevember 2015</a></td>
+      <td>Nashville, Tennessee,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-01-26</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://nodecommunityconvention.com/san-francisco-2016/get-involved/code-of-conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/nodecommunityconvention-2016">Node Community Convention 2016</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-02-10</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://confcodeofconduct.com/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/forward-js-2016">Forward JS 2016</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-02-22</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://conf.reactjs.com/code-of-conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/react-conf-2016">React.js Conf 2016</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-03-19</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://libreplanet.org/2016/safe-space-policy/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/libreplanet-2016">LibrePlanet 2016</a></td>
+      <td>Cambridge, Massachusetts,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-03-19</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/womenintechsummit-washington-dc-2016">The Women In Tech Summit - Washington DC - 2016</a></td>
+      <td>Washington, DC,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-03-31</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://clarityconf.com/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/clarityconf-2016">Clarity Conf 2016</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-04-09</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/womenintechsummit-philadelphia-2016">The Women In Tech Summit - Philadelphia - 2016</a></td>
+      <td>Philadelphia, Pennsylvania,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-04-15</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://clojurewest.org/policies"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/clojurewest-2016">Clojure West 2016</a></td>
+      <td>Seattle, Washington,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-04-15</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://container.camp/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/container-camp-usa-2016">Container Camp USA 2016</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-04-16</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://dcbpw.org/dcbpw2016/conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/dc-baltimore-perl-workshop-2016">DC-Baltimore Perl Workshop 2016</a></td>
+      <td>Baltimore, Maryland,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-04-18</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://www.pgconf.us/2016/policies/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/pgconfus-2016">PGConf US 2016</a></td>
+      <td>New York, New York,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-04-23</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://devpulsecon.squarespace.com/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/devpulsecon-2016">Dev Plus Code - 2016</a></td>
+      <td>Mountain View, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-04-23</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/linuxfest-northwest-2016">Linuxfest Northwest 2016</a></td>
+      <td>Bellingham, Washington,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-05-04</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/railsconf-2016">RailsConf 2016</a></td>
+      <td>Kansas City, Missouri,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-05-09</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://events.drupal.org/neworleans2016/code-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/drupalcon-new-orleans-2016">DrupalCon New Orleans 2016</a></td>
+      <td>New Orleans, Louisiana,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-05-14</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://www.spacecity.codes/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/spacecity-js-2016">Space City JS 2016</a></td>
+      <td>Houston, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-05-22</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://www.writethedocs.org/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/writethedocs-na-2016">Write The Docs NA 2016</a></td>
+      <td>Portland, Oregon,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-05-23</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://gotocon.com/chicago-2016/anti-harassment-policy/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/gotocon-chicago-2016">GOTO Chicago 2016</a></td>
+      <td>Chicago, Illinois,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-05-26</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://jsconf.com/codeofconduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/empirejs-2016">EmpireJS 2016</a></td>
+      <td>New York, New York,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-06-03</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://confcodeofconduct.com/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/buzzjs-2016">BuzzJS 2016</a></td>
+      <td>New York, New York,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-06-20</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://www.yapcna.org/yn2016/conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/yapc-na-2016">YAPC::NA 2016</a></td>
+      <td>Orlando, Florida,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-06-21</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://opensourcebridge.org/about/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/opensourcebridge-2016">Open Source Bridge 2016</a></td>
+      <td>Portland, Oregon,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-06-24</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://dinosaurjs.org/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/dinosaurjs-2016">DinosaurJS</a></td>
+      <td>Denver, Colorado,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-07-08</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://2016.texaslinuxfest.org/code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/texaslinuxfest-2016">Texas LinuxFest 2016</a></td>
+      <td>Austin, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-07-11</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://golang.org/conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/gophercon-denver-2016">GopherCon Denver 2016</a></td>
+      <td>Denver, Colorado,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-07-17</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://2016.djangocon.us/coc/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/djangocon-usa-2016">DjangoCon USA 2016</a></td>
+      <td>Philadelphia, Pennsylvania,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-07-19</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://frontporch.io/conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/frontporch-austin-2016">Front Porch Austin 2016</a></td>
+      <td>Austin, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-07-27</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/laracon-us-2016">Laracon US 2016</a></td>
+      <td>Louisville, Kentucky,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-07-27</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://nodesummit.com/node-summit-code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/nodesummit-2016">Node Summit 2016</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-08-03</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://github.com/cascadiajs/2016.cascadiajs.com/blob/master/code-of-conduct.md"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/cascadiafest-2016">CascadiaFest 2016</a></td>
+      <td>Semiahmoo, Washington,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-08-25</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://www.reactrally.com/conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/reactrally-2016">React Rally</a></td>
+      <td>Salt Lake City, Utah,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-08-27</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/drupalcamp-los-angeles-2016">DrupalCamp L.A. 2016</a></td>
+      <td>Los Angeles, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-09-13</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://2016.postgresopen.org/policies/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/postgresopen-2016">Postgres Open 2016</a></td>
+      <td>Dallas, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-09-14</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/jenkinsworld-2016">Jenkins World 2016</a></td>
+      <td>Santa Clara, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-09-15</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/devopsdays-dallas-2016">DevOps Days Dallas 2016</a></td>
+      <td>Grapevine, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-09-16</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://nationjs.com/conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/nationjs-2016">NationJS Conference 2016</a></td>
+      <td>Washington, DC,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-09-17</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://a11ynyc.com/camp/codeconduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/accessibility-camp-new-york-2016">Accessibility Camp New York 2016</a></td>
+      <td>New York, New York,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-01</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/womenintechsummit-raleigh-durham-2016">The Women In Tech Summit - Raleigh Durham - 2016</a></td>
+      <td>Philadelphia, Pennsylvania,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-07</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://affectconf.com/coc/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/affectconf-2016">Affect 2016</a></td>
+      <td>Portland, Oregon,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-07</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://ohiolinux.org/about/conduct-policy/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/ohio-linuxfest-2016">Ohio Linuxfest 2016</a></td>
+      <td>Columbus, Ohio,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-14</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://www.devspaceconf.com/conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/devspaceconf-2016">DevSpace 2016</a></td>
+      <td>Huntsville, Alabama,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-17</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://2016.cssdevconf.com/#anti-harrassment-policy"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/cssdevconf-2016">CSS Dev Conf 2016</a></td>
+      <td>San Antonio, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-18</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://www.zendcon.com/about#tab-1"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/zendcon-2016">ZendCon 2016</a></td>
+      <td>Las Vegas, Nevada,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-20</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://connect-js.com/conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/connect-js-2016">Connect.Tech 2016</a></td>
+      <td>Atlanta, Georgia,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-20</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://connect.tech/conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/connect-tech-2016">Connect Tech 2016</a></td>
+      <td>Atlanta, Georgia,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-24</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://frontporch.io/conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/frontporch-dallas-2016">Front Porch Dallas 2016</a></td>
+      <td>Dallas, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-26</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://allthingsopen.org/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/allthingsopen-2016">All Things Open 2016</a></td>
+      <td>Raleigh, North Carolina,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-26</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://www.meteor.com/assets/content/Meteor-Code-of-Conduct.pdf"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/graphqlsummit-2016">GraphQL Summit 2016</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-26</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/madebyfew-2016">Made by Few 2016</a></td>
+      <td>Bentonville, Arkansas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-28</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://www.keeprubyweird.com/code-of-conduct.html"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/keeprubyweird-2016">Keep Ruby Weird 2016</a></td>
+      <td>Austin, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-29</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/accessibility-camp-bay">Accessibility Camp Bay Area 2016</a></td>
+      <td>San Francisco, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-10-31</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://events.linuxfoundation.org/event-code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/linux-kernel-summit-2016">Linux Kernel Summit</a></td>
+      <td>Santa Fe, New Mexico,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-11-03</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://github.com/techlahoma/CodeofConduct/wiki/Techlahoma-Code-of-Conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/thunderplainsconf-2016">Thunder Plains Conf 2016</a></td>
+      <td>Oklahoma City, Oklahoma,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-11-04</td>
+      <td class="cfp_none"></td>
+      <td><a href="https://github.com/RevolutionVA/HRDevFest-Planning/blob/master/CODE-OF-CONDUCT.md"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/hrdevfest-2016">Hampton Road Devfest 2016</a></td>
+      <td>Norfolk, Virginia,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-11-07</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/empirenode-2016">Empire Node 2016</a></td>
+      <td>New York, New York,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-11-10</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://rubyconf.org/policies"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/rubyconf-2016">RubyConf USA</a></td>
+      <td>Cincinnati, Ohio,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-11-10</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/testbash-philadelphia-2016">TestBash Philadelphia 2016</a></td>
+      <td>Philadelphia, Pennsylvania,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-11-12</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/socalcodecamp-losangeles-2016">SoCal Code Camp</a></td>
+      <td>Los Angeles, California,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-11-14</td>
+      <td class="cfp_past">2016-06-24</td>
+      <td><a href="https://www.phparch.com/policies/code-of-conduct/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/phpworld-2016">PHP[World]</a></td>
+      <td>Washington, DC,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-11-14</td>
+      <td class="cfp_none"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/tcl-2016">Tcl/Tk Conference - 2016</a></td>
+      <td>Houston, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-11-18</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://gothamgo.com/conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/gothamgo-2016">GothamGo Conference 2016</a></td>
+      <td>New York, New York,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-11-20</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://nodevember.org/conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/nodevember-2016">Nodevember 2016</a></td>
+      <td>Nashville, Tennessee,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-11-29</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://events.linuxfoundation.org/event-code-of-conduct"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/node-interactive-2016">Node Interactive 2016</a></td>
+      <td>Austin, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-12-01</td>
+      <td class="cfp_none"></td>
+      <td><a href="http://2016.clojure-conj.org/policies/"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td><i class="fa fa-video-camera"></i></td>
+      <td><a href="/e/clojure-conj-2016">Clojure/ConJ</a></td>
+      <td>Austin, Texas,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+    <tr>
+      <td>2016-12-04</td>
+      <td class="cfp_past">2016-04-25</td>
+      <td><a href="https://www.usenix.org/conferences/coc"><i class="fa fa-thumbs-up"></i></a></td>
+      <td></td>
+      <td></td>
+      <td><a href="/e/lisa-2016">LISA 2016</a></td>
+      <td>Boston, Massachusetts,  <a href="/l/usa">USA</a></td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

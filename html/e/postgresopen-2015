@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Postgres Open 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Postgres Open 2015</h1>
+
+<div><a href="http://2015.postgresopen.org/">Postgres Open 2015</a></div>
+
+
+<div>Start date: 2015-09-16</div>
+<div>End date: 2015-09-18</div>
+
+<div>Location:
+  Dallas
+  Texas
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="https://2015.postgresopen.org/policies/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/postgresql">PostgreSQL</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/postgresopen">@postgresopen</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/PostgresOpen">https://www.facebook.com/PostgresOpen</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Postgres%20Open%202015%20on%202015-09-16%20in%20Dallas%2C%20Texas%20USA%20%40postgresopen%20http%3A//2015.postgresopen.org/%20%23PostgreSQL%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/a-tardis-for-your-orm-magnus-hagander"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JsO551E7ySY/hqdefault.jpg" alt="A TARDIS for your ORM - Magnus Hagander" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/a-tardis-for-your-orm-magnus-hagander">A TARDIS for your ORM - Magnus Hagander</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 50:14</div>
+			
+			
+              <div>Views: 93 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/all-the-dirt-on-vacuum-jim-nasby"><img class="list-thumbnail" src="https://i.ytimg.com/vi/L8nErzxPJjQ/hqdefault.jpg" alt="All The Dirt On Vacuum - Jim Nasby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/all-the-dirt-on-vacuum-jim-nasby">All The Dirt On Vacuum - Jim Nasby</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 54:15</div>
+			
+			
+              <div>Views: 553 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/all-the-dirt-on-vacuum-nasby"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CxZo6ca_P6Y/hqdefault.jpg" alt="All The Dirt On Vacuum Nasby" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/all-the-dirt-on-vacuum-nasby">All The Dirt On Vacuum Nasby</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 54:15</div>
+			
+			
+              <div>Views: 0 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/amazon-rds-for-postgresql-grant-mcalister"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bZ0YBcfE-I8/hqdefault.jpg" alt="Amazon RDS for PostgreSQL - Grant McAlister" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/amazon-rds-for-postgresql-grant-mcalister">Amazon RDS for PostgreSQL - Grant McAlister</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 02:30:21</div>
+			
+			
+              <div>Views: 368 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/audit-logging-for-postgresql-david-steele"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UlIgSXEqLeQ/hqdefault.jpg" alt="Audit Logging For PostgreSQL - David Steele" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/audit-logging-for-postgresql-david-steele">Audit Logging For PostgreSQL - David Steele</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 49:32</div>
+			
+			
+              <div>Views: 146 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/bdr-from-the-perspective-of-a-qa-engineer-simon-riggs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2TuqW6hRH7s/hqdefault.jpg" alt="BDR From the Perspective of a QA Engineer - Simon Riggs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/bdr-from-the-perspective-of-a-qa-engineer-simon-riggs">BDR From the Perspective of a QA Engineer - Simon Riggs</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 47:59</div>
+			
+			
+              <div>Views: 179 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/becoming-a-sql-guru-stella-nisenbaum"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6zepKCjbT64/hqdefault.jpg" alt="Becoming a SQL Guru - Stella Nisenbaum" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/becoming-a-sql-guru-stella-nisenbaum">Becoming a SQL Guru - Stella Nisenbaum</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 48:19</div>
+			
+			
+              <div>Views: 281 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/closing-session-stephen-frost"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hN6t2pXZ46Q/hqdefault.jpg" alt="Closing Session - Stephen Frost" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/closing-session-stephen-frost">Closing Session - Stephen Frost</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 10:36</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/database-hardware-selection-guidelines-bruce-momjian"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qIlYZeSuv8w/hqdefault.jpg" alt="Database Hardware Selection Guidelines - Bruce Momjian" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/database-hardware-selection-guidelines-bruce-momjian">Database Hardware Selection Guidelines - Bruce Momjian</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 50:28</div>
+			
+			
+              <div>Views: 270 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/dont-forget-the-elephant-keith-fiske"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Kh_KWfTlc2A/hqdefault.jpg" alt="Don't Forget The Elephant - Keith Fiske" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/dont-forget-the-elephant-keith-fiske">Don't Forget The Elephant - Keith Fiske</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 53:56</div>
+			
+			
+              <div>Views: 49 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/easy-statistical-analysis-joe-conway"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kOSEdMdf4Vw/hqdefault.jpg" alt="Easy Statistical Analysis - Joe Conway" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/easy-statistical-analysis-joe-conway">Easy Statistical Analysis - Joe Conway</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 45:17</div>
+			
+			
+              <div>Views: 51 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/explain-explained-josh-berkus"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aPeNhJM75lo/hqdefault.jpg" alt="Explain Explained - Josh Berkus" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/explain-explained-josh-berkus">Explain Explained - Josh Berkus</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 50:26</div>
+			
+			
+              <div>Views: 372 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/improving-postgres-concurrency-andres-freund"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LCXfHPDeOEk/hqdefault.jpg" alt="Improving Postgres' Concurrency - Andres Freund" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/improving-postgres-concurrency-andres-freund">Improving Postgres' Concurrency - Andres Freund</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 48:51</div>
+			
+			
+              <div>Views: 132 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/keynote-lacey-williams-henschel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yBJ-CkNg5sU/hqdefault.jpg" alt="Keynote - Lacey Williams Henschel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/keynote-lacey-williams-henschel">Keynote - Lacey Williams Henschel</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 27:45</div>
+			
+			
+              <div>Views: 50 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/lightning-talks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gMKd-nykCnI/hqdefault.jpg" alt="Lightning Talks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/lightning-talks">Lightning Talks</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 25:52</div>
+			
+			
+              <div>Views: 45 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/logical-decoding-alvaro-hernandez"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fgNQ0GUhsWw/hqdefault.jpg" alt="Logical Decoding - Alvaro Hernandez" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/logical-decoding-alvaro-hernandez">Logical Decoding - Alvaro Hernandez</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 51:42</div>
+			
+			
+              <div>Views: 88 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/measurements-scales-and-encoding-schemes-joe-celko"><img class="list-thumbnail" src="https://i.ytimg.com/vi/95mS0v4d1M8/hqdefault.jpg" alt="Measurements, scales and encoding schemes - Joe Celko" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/measurements-scales-and-encoding-schemes-joe-celko">Measurements, scales and encoding schemes - Joe Celko</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 48:36</div>
+			
+			
+              <div>Views: 210 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/monitoring-postgresql-kevin-kempter"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Y5l4yLNbC2Y/hqdefault.jpg" alt="Monitoring PostgreSQL - Kevin Kempter" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/monitoring-postgresql-kevin-kempter">Monitoring PostgreSQL - Kevin Kempter</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 50:34</div>
+			
+			
+              <div>Views: 321 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/pacemaker-and-postgresql-brian-cosgrove"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BpzV42Tk8qs/hqdefault.jpg" alt="Pacemaker And PostgreSQL - Brian Cosgrove" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/pacemaker-and-postgresql-brian-cosgrove">Pacemaker And PostgreSQL - Brian Cosgrove</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 25:31</div>
+			
+			
+              <div>Views: 74 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/postgresql-administration-simon-riggs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XqO5drqExGw/hqdefault.jpg" alt="PostgreSQL Administration - Simon Riggs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/postgresql-administration-simon-riggs">PostgreSQL Administration - Simon Riggs</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 47:37</div>
+			
+			
+              <div>Views: 2390 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/postgresql-and-amazon-rds-mcalister"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lguT3PRRaFQ/hqdefault.jpg" alt="PostgreSQL And Amazon RDS McAlister" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/postgresql-and-amazon-rds-mcalister">PostgreSQL And Amazon RDS McAlister</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 50:03</div>
+			
+			
+              <div>Views: 76 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/postgresql-containers-at-scale-jeff-mccormick-and-steven-pousty"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3Wy-bZsqSiU/hqdefault.jpg" alt="PostgreSQL Containers At Scale - Jeff McCormick and Steven Pousty" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/postgresql-containers-at-scale-jeff-mccormick-and-steven-pousty">PostgreSQL Containers At Scale - Jeff McCormick and Steven Pousty</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 56:02</div>
+			
+			
+              <div>Views: 107 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/postgresql-federation-jim-mlodgenski"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UPl0EIbwXrU/hqdefault.jpg" alt="PostgreSQL Federation - Jim Mlodgenski" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/postgresql-federation-jim-mlodgenski">PostgreSQL Federation - Jim Mlodgenski</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 49:23</div>
+			
+			
+              <div>Views: 408 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/postgresql-in-critical-messaging-john-mason-scott"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tNl9pY4PSyg/hqdefault.jpg" alt="PostgreSQL In Critical Messaging - John Mason Scott" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/postgresql-in-critical-messaging-john-mason-scott">PostgreSQL In Critical Messaging - John Mason Scott</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 50:34</div>
+			
+			
+              <div>Views: 106 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/postgresql-in-paxosland-srivathsava-rangarajan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iZxi2vycNQ8/hqdefault.jpg" alt="PostgreSQL In PaxosLand - Srivathsava Rangarajan" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/postgresql-in-paxosland-srivathsava-rangarajan">PostgreSQL In PaxosLand - Srivathsava Rangarajan</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 53:21</div>
+			
+			
+              <div>Views: 91 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/postgresql-performance-benchmarking-mark-wong"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O-8GxTnwPIs/hqdefault.jpg" alt="PostgreSQL Performance Benchmarking - Mark Wong" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/postgresql-performance-benchmarking-mark-wong">PostgreSQL Performance Benchmarking - Mark Wong</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 37:04</div>
+			
+			
+              <div>Views: 135 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/postgresql-scalability-simon-riggs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QEl0LtfPm2c/hqdefault.jpg" alt="PostgreSQL Scalability - Simon Riggs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/postgresql-scalability-simon-riggs">PostgreSQL Scalability - Simon Riggs</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 53:27</div>
+			
+			
+              <div>Views: 409 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/postgresql-service-at-scale-sean-chittenden"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RvpqBWjF4qM/hqdefault.jpg" alt="PostgreSQL Service At Scale - Sean Chittenden" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/postgresql-service-at-scale-sean-chittenden">PostgreSQL Service At Scale - Sean Chittenden</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 47:01</div>
+			
+			
+              <div>Views: 233 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/searching-text-with-postgresql-phil-vacca"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nw2W-E_8R5U/hqdefault.jpg" alt="Searching Text With PostgreSQL - Phil Vacca" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/searching-text-with-postgresql-phil-vacca">Searching Text With PostgreSQL - Phil Vacca</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 47:04</div>
+			
+			
+              <div>Views: 484 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/securing-your-database-in-amazon-rds-sarah-conway"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2gxHBRefDMI/hqdefault.jpg" alt="Securing Your Database in Amazon RDS - Sarah Conway" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/securing-your-database-in-amazon-rds-sarah-conway">Securing Your Database in Amazon RDS - Sarah Conway</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 44:08</div>
+			
+			
+              <div>Views: 30 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/sql-metacode-system-jon-erdman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F6MWVOCZGzc/hqdefault.jpg" alt="SQL Metacode System - Jon Erdman" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/sql-metacode-system-jon-erdman">SQL Metacode System - Jon Erdman</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 45:04</div>
+			
+			
+              <div>Views: 107 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/streaming-sql-with-pipelinedb-derek-nelson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nubwRF54M2M/hqdefault.jpg" alt="Streaming SQL With PipelineDB - Derek Nelson" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/streaming-sql-with-pipelinedb-derek-nelson">Streaming SQL With PipelineDB - Derek Nelson</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 22:37</div>
+			
+			
+              <div>Views: 430 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/the-bones-of-highly-available-postgres-shaun-thomas"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UOzSGUJynvs/hqdefault.jpg" alt="The Bones of Highly Available Postgres - Shaun Thomas" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/the-bones-of-highly-available-postgres-shaun-thomas">The Bones of Highly Available Postgres - Shaun Thomas</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 48:24</div>
+			
+			
+              <div>Views: 128 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/upsert-use-cases-peter-geoghegan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wgLf_ucdFbY/hqdefault.jpg" alt="UPSERT Use Cases - Peter Geoghegan" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/upsert-use-cases-peter-geoghegan">UPSERT Use Cases - Peter Geoghegan</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 51:14</div>
+			
+			
+              <div>Views: 226 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/using-postgres-xl-richard-silva"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cEeEyeo6GEk/hqdefault.jpg" alt="Using Postgres XL - Richard Silva" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/using-postgres-xl-richard-silva">Using Postgres XL - Richard Silva</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 49:44</div>
+			
+			
+              <div>Views: 498 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/wal-standbys-and-postgres-95-michael-paquier"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Hw3l1MN5OH4/hqdefault.jpg" alt="WAL, standbys and Postgres 9.5 - Michael Paquier" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/wal-standbys-and-postgres-95-michael-paquier">WAL, standbys and Postgres 9.5 - Michael Paquier</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 49:13</div>
+			
+			
+              <div>Views: 569 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/welcome-stephen-frost-90ded3"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vo1AnDNreK8/hqdefault.jpg" alt="Welcome - Stephen Frost" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/welcome-stephen-frost-90ded3">Welcome - Stephen Frost</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 07:50</div>
+			
+			
+              <div>Views: 142 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/welcome-stephen-frost"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vo1AnDNreK8/hqdefault.jpg" alt="Welcome - Stephen Frost" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/welcome-stephen-frost">Welcome - Stephen Frost</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 07:50</div>
+			
+			
+              <div>Views: 142 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/welcome-to-postgres-michael-alan-brewer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Vx0_zBfVBQA/hqdefault.jpg" alt="Welcome to Postgres! - Michael Alan Brewer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/welcome-to-postgres-michael-alan-brewer">Welcome to Postgres! - Michael Alan Brewer</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 41:36</div>
+			
+			
+              <div>Views: 73 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/postgresopen-2015/whats-new-in-postgresql-95-magnus-hagander"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ubR3AN6kaGA/hqdefault.jpg" alt="What's new in PostgreSQL 9.5 - Magnus Hagander" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/postgresopen-2015/whats-new-in-postgresql-95-magnus-hagander">What's new in PostgreSQL 9.5 - Magnus Hagander</a></h4>
+          <footer>
+            <div class="recorded">2015-09-16</div>
+			
+			  <div>Length: 52:08</div>
+			
+			
+              <div>Views: 1997 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/postgresopen-2015">Postgres Open 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLN8NEqxwuywTblT58K6ATnCLi3qtwv_Q3">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

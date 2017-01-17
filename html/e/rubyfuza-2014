@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Rubyfuza 2014</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Rubyfuza 2014</h1>
+
+<div><a href="http://www.rubyfuza.org/2014.html">Rubyfuza 2014</a></div>
+
+
+<div>Start date: 2014-02-06</div>
+<div>End date: 2014-02-08</div>
+
+<div>Location:
+  Cape Town
+  
+  <a href="/l/south-africa">South Africa</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/ruby">Ruby</a> 
+   
+       <a href="/t/rails">Rails</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/rubyfuza">@rubyfuza</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Rubyfuza%202014%20on%202014-02-06%20in%20Cape%20Town%2C%20%20South%20Africa%20%40rubyfuza%20http%3A//www.rubyfuza.org/2014.html%20%23Ruby%20%23Rails%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2014/clean-code-applying-object-oriented-principles-kevin-mckelvin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RkZkmgTibI0/hqdefault.jpg" alt="Clean Code: Applying Object Oriented Principles - Kevin McKelvin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2014/clean-code-applying-object-oriented-principles-kevin-mckelvin">Clean Code: Applying Object Oriented Principles - Kevin McKelvin</a></h4>
+          <footer>
+            <div class="recorded">2014-02-06</div>
+			
+			  <div>Length: 26:50</div>
+			
+			
+              <div>Views: 287 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2014">Rubyfuza 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2014/email-delivery-for-rails-folks-sally-lehman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XtGUd174n5A/hqdefault.jpg" alt="Email Delivery for Rails Folks - Sally Lehman" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2014/email-delivery-for-rails-folks-sally-lehman">Email Delivery for Rails Folks - Sally Lehman</a></h4>
+          <footer>
+            <div class="recorded">2014-02-06</div>
+			
+			  <div>Length: 33:57</div>
+			
+			
+              <div>Views: 65 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2014">Rubyfuza 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2014/extreme-makeover-rubygems-edition-andre-arko"><img class="list-thumbnail" src="https://i.ytimg.com/vi/awLBvYoeUSI/hqdefault.jpg" alt="Extreme Makeover: Rubygems Edition - Andre Arko" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2014/extreme-makeover-rubygems-edition-andre-arko">Extreme Makeover: Rubygems Edition - Andre Arko</a></h4>
+          <footer>
+            <div class="recorded">2014-02-06</div>
+			
+			  <div>Length: 36:53</div>
+			
+			
+              <div>Views: 10 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2014">Rubyfuza 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2014/google-apis-for-ruby-on-ruby-on-rails-on-google-compute-engine-daniel-acton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jvRjtfqg7q0/hqdefault.jpg" alt="Google APIs for Ruby on Ruby on Rails on Google Compute Engine - Daniel Acton" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2014/google-apis-for-ruby-on-ruby-on-rails-on-google-compute-engine-daniel-acton">Google APIs for Ruby on Ruby on Rails on Google Compute Engine - Daniel Acton</a></h4>
+          <footer>
+            <div class="recorded">2014-02-06</div>
+			
+			  <div>Length: 24:46</div>
+			
+			
+              <div>Views: 2475 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2014">Rubyfuza 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2014/persistent-data-structures-good-for-ui-danie-roux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZZ3JoRQXABc/hqdefault.jpg" alt="Persistent data structures - good for UI - Danie Roux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2014/persistent-data-structures-good-for-ui-danie-roux">Persistent data structures - good for UI - Danie Roux</a></h4>
+          <footer>
+            <div class="recorded">2014-02-06</div>
+			
+			  <div>Length: 27:32</div>
+			
+			
+              <div>Views: 451 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2014">Rubyfuza 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2014/ping-ping-or-how-i-learned-to-stop-worrying-and-love-remote-paring-ben-janeke"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HE1lCpp63pU/hqdefault.jpg" alt="Ping Ping or: How I learned to stop worrying and love remote paring - Ben Janeke" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2014/ping-ping-or-how-i-learned-to-stop-worrying-and-love-remote-paring-ben-janeke">Ping Ping or: How I learned to stop worrying and love remote paring - Ben Janeke</a></h4>
+          <footer>
+            <div class="recorded">2014-02-06</div>
+			
+			  <div>Length: 30:33</div>
+			
+			
+              <div>Views: 100 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2014">Rubyfuza 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2014/rubymotion-ios-and-osx-development-from-a-ruby-developers-perspective-nelson-pascal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cVK4-OBOv8U/hqdefault.jpg" alt="Rubymotion - iOS and OSX development from a Ruby developer's perspective - Nelson Pascal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2014/rubymotion-ios-and-osx-development-from-a-ruby-developers-perspective-nelson-pascal">Rubymotion - iOS and OSX development from a Ruby developer's perspective - Nelson Pascal</a></h4>
+          <footer>
+            <div class="recorded">2014-02-06</div>
+			
+			  <div>Length: 28:26</div>
+			
+			
+              <div>Views: 235 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2014">Rubyfuza 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2014/software-development-in-africa-charliene-tshitoka"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Y3L3OgIqIkA/hqdefault.jpg" alt="Software Development in Africa - Charliene Tshitoka" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2014/software-development-in-africa-charliene-tshitoka">Software Development in Africa - Charliene Tshitoka</a></h4>
+          <footer>
+            <div class="recorded">2014-02-06</div>
+			
+			  <div>Length: 53:31</div>
+			
+			
+              <div>Views: 159 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2014">Rubyfuza 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2014/tdd-when-the-thrill-has-gone-rory-mckinley"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qQXPRY1M0Xk/hqdefault.jpg" alt="TDD: When the thrill has gone - Rory Mckinley" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2014/tdd-when-the-thrill-has-gone-rory-mckinley">TDD: When the thrill has gone - Rory Mckinley</a></h4>
+          <footer>
+            <div class="recorded">2014-02-06</div>
+			
+			  <div>Length: 28:22</div>
+			
+			
+              <div>Views: 92 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2014">Rubyfuza 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2014/the-art-of-ruby-matthew-mongeau"><img class="list-thumbnail" src="https://i.ytimg.com/vi/R0NQKtjJGzE/hqdefault.jpg" alt="The Art of Ruby - Matthew Mongeau" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2014/the-art-of-ruby-matthew-mongeau">The Art of Ruby - Matthew Mongeau</a></h4>
+          <footer>
+            <div class="recorded">2014-02-06</div>
+			
+			  <div>Length: 28:04</div>
+			
+			
+              <div>Views: 88 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2014">Rubyfuza 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyfuza-2014/what-is-an-object-really-or-when-is-an-object-actually-a-function-john-anderson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uWI-UFm2qAE/hqdefault.jpg" alt="What is an object, really? OR  When is an object actually a function? - John Anderson" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyfuza-2014/what-is-an-object-really-or-when-is-an-object-actually-a-function-john-anderson">What is an object, really? OR  When is an object actually a function? - John Anderson</a></h4>
+          <footer>
+            <div class="recorded">2014-02-06</div>
+			
+			  <div>Length: 41:03</div>
+			
+			
+              <div>Views: 48 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyfuza-2014">Rubyfuza 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLI113oIao_x5wAKhWHVjwuZMx8aschNUg">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

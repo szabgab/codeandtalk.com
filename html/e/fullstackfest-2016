@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Fullstack Fest 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Fullstack Fest 2016</h1>
+
+<div><a href="https://2016.fullstackfest.com/">Fullstack Fest 2016</a></div>
+
+
+<div>Start date: 2016-09-05</div>
+<div>End date: 2016-09-09</div>
+
+<div>Location:
+  Barcelona
+  
+  <a href="/l/spain">Spain</a>
+</div>
+
+<div><a href="https://2016.fullstackfest.com/about/#code-of-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/docker">Docker</a> 
+   
+       <a href="/t/graphql">GraphQL</a> 
+   
+       <a href="/t/reactive">Reactive</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/fullstackfest">@fullstackfest</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Fullstack%20Fest%202016%20on%202016-09-05%20in%20Barcelona%2C%20%20Spain%20%40fullstackfest%20https%3A//2016.fullstackfest.com/%20%23Docker%20%23GraphQL%20%23Reactive%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/architectural-patterns-of-resilient-distributed-systems-ines-sombra-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bUlpp8_Mevk/hqdefault.jpg" alt="Architectural patterns of resilient distributed systems" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/architectural-patterns-of-resilient-distributed-systems-ines-sombra-full-stack-fest-2016">Architectural patterns of resilient distributed systems</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 43:59</div>
+			
+			
+              <div>Views: 979 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ines-sombra">Ines Sombra</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/backend-lightning-talks-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_aFVTJomk-4/hqdefault.jpg" alt="Backend lightning talks - Full Stack Fest 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/backend-lightning-talks-full-stack-fest-2016">Backend lightning talks - Full Stack Fest 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 29:55</div>
+			
+			
+              <div>Views: 502 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/best-practices-on-building-a-ui-component-library-for-your-company-david-wells-fsf-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/j8eBXGPl_5E/hqdefault.jpg" alt="Best Practices on building a UI component library for your company" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/best-practices-on-building-a-ui-component-library-for-your-company-david-wells-fsf-2016">Best Practices on building a UI component library for your company</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 44:20</div>
+			
+			
+              <div>Views: 2228 Likes: 40</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-wells">David Wells</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/beyond-the-tab-executing-javascript-across-browser-contexts-andrew-dunkman-fsf-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xs_QRqGZ8xQ/hqdefault.jpg" alt="Beyond The Tab: Executing JavaScript Across Browser Contexts" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/beyond-the-tab-executing-javascript-across-browser-contexts-andrew-dunkman-fsf-2016">Beyond The Tab: Executing JavaScript Across Browser Contexts</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 34:44</div>
+			
+			
+              <div>Views: 1134 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-dunkman">Andrew Dunkman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/building-a-recommendation-engine-with-machine-learning-techniques-brian-sam-bodden-fsf-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SRnM_P_ygqI/hqdefault.jpg" alt="Building a Recommendation Engine with Machine Learning Techniques" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/building-a-recommendation-engine-with-machine-learning-techniques-brian-sam-bodden-fsf-2016">Building a Recommendation Engine with Machine Learning Techniques</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 55:04</div>
+			
+			
+              <div>Views: 911 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-sam-bodden">Brian Sam-Bodden</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/clients-in-control-building-demand-driven-systems-with-om-next-antonio-nuno-monteiro-fsf-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Zb18iPjDgwM/hqdefault.jpg" alt="Clients in control: building demand-driven systems with Om Next" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/clients-in-control-building-demand-driven-systems-with-om-next-antonio-nuno-monteiro-fsf-2016">Clients in control: building demand-driven systems with Om Next</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 38:27</div>
+			
+			
+              <div>Views: 1072 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/antonio-nuno-monteiro">Antonio Nuno Monteiro</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/computing-the-first-100-years-joe-armstrong-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/itKFrXghGuA/hqdefault.jpg" alt="Computing: The first 100 years" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/computing-the-first-100-years-joe-armstrong-full-stack-fest-2016">Computing: The first 100 years</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 43:52</div>
+			
+			
+              <div>Views: 1768 Likes: 27</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joe-armstrong">Joe Armstrong</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/confident-frontend-with-elm-jack-franklin-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rDQ22Yg3Fms/hqdefault.jpg" alt="Confident Frontend with Elm" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/confident-frontend-with-elm-jack-franklin-full-stack-fest-2016">Confident Frontend with Elm</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 37:51</div>
+			
+			
+              <div>Views: 5998 Likes: 79</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jack-franklin">Jack Franklin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/css4-grid-true-layout-finally-arrives-jen-kramer-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/axVw1Zduqn0/hqdefault.jpg" alt="CSS4 Grid: True Layout Finally Arrives" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/css4-grid-true-layout-finally-arrives-jen-kramer-full-stack-fest-2016">CSS4 Grid: True Layout Finally Arrives</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 39:45</div>
+			
+			
+              <div>Views: 4524 Likes: 64</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jen-kramer">Jen Kramer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/distributed-apps-with-ipfs-juan-benet-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jONZtXMu03w/hqdefault.jpg" alt="Distributed Apps with IPFS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/distributed-apps-with-ipfs-juan-benet-full-stack-fest-2016">Distributed Apps with IPFS</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 51:25</div>
+			
+			
+              <div>Views: 2427 Likes: 57</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/juan-benet">Juan Benet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/from-rest-to-graphql-marc-andre-giroux-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eD7kLFGOgVw/hqdefault.jpg" alt="From REST to GraphQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/from-rest-to-graphql-marc-andre-giroux-full-stack-fest-2016">From REST to GraphQL</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 29:01</div>
+			
+			
+              <div>Views: 3876 Likes: 62</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marc-andre-giroux">Marc-ANdre Giroux</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/frontend-lightning-talks-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Tu5Q-Lg6E58/hqdefault.jpg" alt="Frontend lightning talks - Full Stack Fest 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/frontend-lightning-talks-full-stack-fest-2016">Frontend lightning talks - Full Stack Fest 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 31:39</div>
+			
+			
+              <div>Views: 390 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/full-stack-fest-2016-highlights"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fnG7BE_FMjo/hqdefault.jpg" alt="Full Stack Fest 2016 - Highlights" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/full-stack-fest-2016-highlights">Full Stack Fest 2016 - Highlights</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 02:31</div>
+			
+			
+              <div>Views: 1237 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/full-stack-fest-2016-teaser-problems-of-today-ideas-from-the-future"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vxMASndC3k4/hqdefault.jpg" alt="Full Stack Fest 2016 teaser: Problems of today, ideas from the future" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/full-stack-fest-2016-teaser-problems-of-today-ideas-from-the-future">Full Stack Fest 2016 teaser: Problems of today, ideas from the future</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 01:08</div>
+			
+			
+              <div>Views: 3088 Likes: 34</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/high-availability-with-elixir-and-erlang-sasa-juric-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ba3aCm3A0o8/hqdefault.jpg" alt="High availability with Elixir and Erlang" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/high-availability-with-elixir-and-erlang-sasa-juric-full-stack-fest-2016">High availability with Elixir and Erlang</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 33:08</div>
+			
+			
+              <div>Views: 1752 Likes: 44</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sasa-juric">Sasa Juric</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/how-secure-are-docker-containers-ben-hall-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oANurUSaOFs/hqdefault.jpg" alt="How secure are Docker containers?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/how-secure-are-docker-containers-ben-hall-full-stack-fest-2016">How secure are Docker containers?</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 34:10</div>
+			
+			
+              <div>Views: 743 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-hall">Ben Hall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/how-to-build-a-website-that-will-eventually-work-on-mars-slobodan-stojanovic-fsf-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7rlEidtXlZg/hqdefault.jpg" alt="How to build a website that will (eventually) work on Mars?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/how-to-build-a-website-that-will-eventually-work-on-mars-slobodan-stojanovic-fsf-2016">How to build a website that will (eventually) work on Mars?</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 32:02</div>
+			
+			
+              <div>Views: 342 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/slobodan-stojanovic">Slobodan Stojanovic</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/how-to-write-a-search-engine-in-15-lines-of-code-paul-chiusano-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/f6yA3t0dO-k/hqdefault.jpg" alt="How to write a search engine in 15 lines of code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/how-to-write-a-search-engine-in-15-lines-of-code-paul-chiusano-full-stack-fest-2016">How to write a search engine in 15 lines of code</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 36:05</div>
+			
+			
+              <div>Views: 1795 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-chiusano">Paul Chiusano</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/immutable-user-interfaces-lee-byron-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pLvrZPSzHxo/hqdefault.jpg" alt="Immutable User Interfaces" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/immutable-user-interfaces-lee-byron-full-stack-fest-2016">Immutable User Interfaces</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 39:09</div>
+			
+			
+              <div>Views: 3901 Likes: 67</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lee-byron">Lee Byron</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/low-res-nlp-for-your-everyday-life-duretti-hirpa-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vRb-El8hC-U/hqdefault.jpg" alt="Low-res NLP for your everyday life" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/low-res-nlp-for-your-everyday-life-duretti-hirpa-full-stack-fest-2016">Low-res NLP for your everyday life</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 24:04</div>
+			
+			
+              <div>Views: 328 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/duretti-hirpa">Duretti Hirpa</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/microservice-pipeline-architecture-tim-perry-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vUCr1oTtaKA/hqdefault.jpg" alt="Microservice Pipeline Architecture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/microservice-pipeline-architecture-tim-perry-full-stack-fest-2016">Microservice Pipeline Architecture</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 41:57</div>
+			
+			
+              <div>Views: 1410 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-perry">Tim Perry</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/neurojavascript-alex-castillo-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CSfUr3m0-w8/hqdefault.jpg" alt="NeuroJavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/neurojavascript-alex-castillo-full-stack-fest-2016">NeuroJavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 40:52</div>
+			
+			
+              <div>Views: 2042 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-castillo">Alex Castillo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/reactive-reality-massimiliano-mantione-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DfPPlakRvow/hqdefault.jpg" alt="Reactive Reality" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/reactive-reality-massimiliano-mantione-full-stack-fest-2016">Reactive Reality</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 41:46</div>
+			
+			
+              <div>Views: 397 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/massimiliano-mantione">Massimiliano Mantione</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/see-the-data-flowing-through-your-app-andre-staltz-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/R-GzJgEccEQ/hqdefault.jpg" alt="See the data flowing through your app" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/see-the-data-flowing-through-your-app-andre-staltz-full-stack-fest-2016">See the data flowing through your app</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 33:38</div>
+			
+			
+              <div>Views: 4620 Likes: 129</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andre-staltz-medeiros">André Staltz Medeiros</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/shopify-in-multiple-datacenters-simon-eskildsen-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7UyDK2bDjc4/hqdefault.jpg" alt="Shopify in Multiple Datacenters" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/shopify-in-multiple-datacenters-simon-eskildsen-full-stack-fest-2016">Shopify in Multiple Datacenters</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 33:06</div>
+			
+			
+              <div>Views: 1226 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-eskildsen">Simon Eskildsen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/taming-the-asynchronous-beast-with-csp-channels-in-javascript-vincenzo-chanese-fsf-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/r7yWWxdP_nc/hqdefault.jpg" alt="Taming the Asynchronous Beast with CSP Channels in JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/taming-the-asynchronous-beast-with-csp-channels-in-javascript-vincenzo-chanese-fsf-2016">Taming the Asynchronous Beast with CSP Channels in JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 33:04</div>
+			
+			
+              <div>Views: 820 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vincenzo-chianese">Vincenzo Chianese</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/the-frontend-is-a-full-stack-luca-marchesini-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wtURpqTgtUs/hqdefault.jpg" alt="The Frontend Is a Full Stack" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/the-frontend-is-a-full-stack-luca-marchesini-full-stack-fest-2016">The Frontend Is a Full Stack</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 39:55</div>
+			
+			
+              <div>Views: 3215 Likes: 51</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luca-marchesini">Luca Marchesini</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/the-future-of-es6-jafar-husain-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3pKNRgResq0/hqdefault.jpg" alt="The future of ES6" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/the-future-of-es6-jafar-husain-full-stack-fest-2016">The future of ES6</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 36:44</div>
+			
+			
+              <div>Views: 12460 Likes: 313</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jafar-husain">Jafar Husain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/the-physical-web-building-on-top-of-the-open-web-scott-jenson-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gV72mCdomo4/hqdefault.jpg" alt="The Physical Web: building on top of the open web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/the-physical-web-building-on-top-of-the-open-web-scott-jenson-full-stack-fest-2016">The Physical Web: building on top of the open web</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 38:28</div>
+			
+			
+              <div>Views: 495 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/scott-jenson">Scott Jenson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/the-state-of-serverless-austen-collins-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9IrFIobZUEA/hqdefault.jpg" alt="The State Of Serverless" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/the-state-of-serverless-austen-collins-full-stack-fest-2016">The State Of Serverless</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 45:05</div>
+			
+			
+              <div>Views: 1359 Likes: 32</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/austen-collins">Austen Collins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/unikernels-and-why-theyre-useful-or-not-amir-chaudhry-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XNu2lze6jS0/hqdefault.jpg" alt="Unikernels and why they're useful (or not)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/unikernels-and-why-theyre-useful-or-not-amir-chaudhry-full-stack-fest-2016">Unikernels and why they're useful (or not)</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 25:15</div>
+			
+			
+              <div>Views: 467 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amir-chaudhry">Amir Chaudhry</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/virtual-reality-is-here-in-your-browser-liv-erickson-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ciqucr_Ww9s/hqdefault.jpg" alt="Virtual Reality is Here, in your Browser" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/virtual-reality-is-here-in-your-browser-liv-erickson-full-stack-fest-2016">Virtual Reality is Here, in your Browser</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 38:24</div>
+			
+			
+              <div>Views: 442 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/liv-erickson">Liv Erickson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/webassembly-birth-of-a-virtual-isa-ben-smith-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vmzz17JGPHI/hqdefault.jpg" alt="WebAssembly: birth of a virtual ISA" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/webassembly-birth-of-a-virtual-isa-ben-smith-full-stack-fest-2016">WebAssembly: birth of a virtual ISA</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 31:33</div>
+			
+			
+              <div>Views: 2162 Likes: 48</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-smith">Ben Smith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/what-did-alphago-do-to-beat-the-strongest-human-go-player-tobias-pfeiffer-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b9H9AtbxpPM/hqdefault.jpg" alt="What did AlphaGo do to beat the strongest human Go player?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/what-did-alphago-do-to-beat-the-strongest-human-go-player-tobias-pfeiffer-full-stack-fest-2016">What did AlphaGo do to beat the strongest human Go player?</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 40:18</div>
+			
+			
+              <div>Views: 1603 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tobias-pfeiffer">Tobias Pfeiffer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/fullstackfest-2016/whirlwind-tour-through-the-http2-spec-ole-michaelis-full-stack-fest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CThgMRXS8w8/hqdefault.jpg" alt="Whirlwind tour through the HTTP2 spec" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/fullstackfest-2016/whirlwind-tour-through-the-http2-spec-ole-michaelis-full-stack-fest-2016">Whirlwind tour through the HTTP2 spec</a></h4>
+          <footer>
+            <div class="recorded">2016-09-05</div>
+			
+			  <div>Length: 39:42</div>
+			
+			
+              <div>Views: 870 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/fullstackfest-2016">Fullstack Fest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ole-michaelis">Ole Michaelis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLe9psSNJBf76DOOKMkDpyo_A5PfZk7JWc">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

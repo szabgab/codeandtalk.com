@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>ffconf 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>ffconf 2015</h1>
+
+<div><a href="https://2015.ffconf.org/">ffconf 2015</a></div>
+
+
+<div>Start date: 2015-11-06</div>
+<div>End date: 2015-11-06</div>
+
+<div>Location:
+  Brighton
+  England
+  <a href="/l/uk">UK</a>
+</div>
+
+<div><a href="http://confcodeofconduct.com/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/web">web</a> 
+   
+       <a href="/t/css">CSS</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/ffconf">@ffconf</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=ffconf%202015%20on%202015-11-06%20in%20Brighton%2C%20England%20UK%20%40ffconf%20https%3A//2015.ffconf.org/%20%23web%20%23CSS%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2015/1-javascript-that-doesnt-hurt-your-feelings-robin-mehner"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4NmkIjUBZmU/hqdefault.jpg" alt="JavaScript that doesn't hurt your feelings" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2015/1-javascript-that-doesnt-hurt-your-feelings-robin-mehner">JavaScript that doesn't hurt your feelings</a></h4>
+          <footer>
+            <div class="recorded">2015-11-06</div>
+			
+			  <div>Length: 36:59</div>
+			
+			
+              <div>Views: 1058 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/ffconf-2015">ffconf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robin-mehner">Robin Mehner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2015/2-svg-in-motion-sara-soueidan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3TP2UVkbGHs/hqdefault.jpg" alt="SVG in motion" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2015/2-svg-in-motion-sara-soueidan">SVG in motion</a></h4>
+          <footer>
+            <div class="recorded">2015-11-06</div>
+			
+			  <div>Length: 49:10</div>
+			
+			
+              <div>Views: 1496 Likes: 24</div>
+            
+            <div class="event">From <a href="/e/ffconf-2015">ffconf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sara-soueidan">Sara Soueidan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2015/3-operations-a-developers-guide-anna-shipman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/y6hbrS3DheU/hqdefault.jpg" alt="Operations: a developer's guide" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2015/3-operations-a-developers-guide-anna-shipman">Operations: a developer's guide</a></h4>
+          <footer>
+            <div class="recorded">2015-11-06</div>
+			
+			  <div>Length: 33:21</div>
+			
+			
+              <div>Views: 897 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/ffconf-2015">ffconf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anna-shipman">Anna Shipman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2015/4-the-web-audio-phenomenon-that-shall-not-be-named-john-k-paul"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ztZ3fFlShmg/hqdefault.jpg" alt="The Web Audio Phenomenon that Shall Not Be Named" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2015/4-the-web-audio-phenomenon-that-shall-not-be-named-john-k-paul">The Web Audio Phenomenon that Shall Not Be Named</a></h4>
+          <footer>
+            <div class="recorded">2015-11-06</div>
+			
+			  <div>Length: 41:48</div>
+			
+			
+              <div>Views: 352 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/ffconf-2015">ffconf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-k-paul">John K. Paul</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2015/5-how-to-win-at-mobile-accessibility-marcy-sutton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Jp6-9X-ZClk/hqdefault.jpg" alt="How to win at mobile accessibility" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2015/5-how-to-win-at-mobile-accessibility-marcy-sutton">How to win at mobile accessibility</a></h4>
+          <footer>
+            <div class="recorded">2015-11-06</div>
+			
+			  <div>Length: 39:08</div>
+			
+			
+              <div>Views: 1194 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/ffconf-2015">ffconf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marcy-sutton">Marcy Sutton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2015/6-you-should-use-insert-libraryframework-its-the-bestestest-paul-lewis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_yCz1TA0EL4/hqdefault.jpg" alt="You should use [insert library/framework], it's the bestestest!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2015/6-you-should-use-insert-libraryframework-its-the-bestestest-paul-lewis">You should use [insert library/framework], it's the bestestest!</a></h4>
+          <footer>
+            <div class="recorded">2015-11-06</div>
+			
+			  <div>Length: 33:32</div>
+			
+			
+              <div>Views: 12099 Likes: 181</div>
+            
+            <div class="event">From <a href="/e/ffconf-2015">ffconf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-lewis">Paul Lewis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2015/7-code-calligrams-martin-kleppe"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-QZSJx8oXus/hqdefault.jpg" alt="Code Calligrams" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2015/7-code-calligrams-martin-kleppe">Code Calligrams</a></h4>
+          <footer>
+            <div class="recorded">2015-11-06</div>
+			
+			  <div>Length: 38:05</div>
+			
+			
+              <div>Views: 1061 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/ffconf-2015">ffconf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/martin-kleppe">Martin Kleppe</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2015/8-a-talk-about-everything-lena-reinhard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CZx7rYoq1Uw/hqdefault.jpg" alt="A Talk about Everything" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2015/8-a-talk-about-everything-lena-reinhard">A Talk about Everything</a></h4>
+          <footer>
+            <div class="recorded">2015-11-06</div>
+			
+			  <div>Length: 38:39</div>
+			
+			
+              <div>Views: 1895 Likes: 31</div>
+            
+            <div class="event">From <a href="/e/ffconf-2015">ffconf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lena-reinhard">Lena Reinhard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ffconf-2015/ffconf-2015-behind-the-scenes-morning-prep"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dPtIE0x7O1k/hqdefault.jpg" alt="ffconf 2015 behind the scenes morning prep" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ffconf-2015/ffconf-2015-behind-the-scenes-morning-prep">ffconf 2015 behind the scenes morning prep</a></h4>
+          <footer>
+            <div class="recorded">2015-11-06</div>
+			
+			  <div>Length: 00:41</div>
+			
+			
+              <div>Views: 195 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/ffconf-2015">ffconf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLXmT1r4krsTqtLdWln2ritJZTjd5a06h2">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

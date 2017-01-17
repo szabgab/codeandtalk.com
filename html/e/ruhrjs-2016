@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>RuhrJS 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>RuhrJS 2016</h1>
+
+<div><a href="http://www.ruhrjs.de/">RuhrJS 2016</a></div>
+
+
+<div>Start date: 2016-07-02</div>
+<div>End date: 2016-07-03</div>
+
+<div>Location:
+  Bochum
+  
+  <a href="/l/germany">Germany</a>
+</div>
+
+<div><a href="http://www.ruhrjs.de/#code-of-conduct">Code of Conduct</a></div>
+<div><a href="https://diversitytickets.org/events/12">Diversity Tickets</a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/RuhrJS">@RuhrJS</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/ruhrjs">https://www.facebook.com/ruhrjs</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=RuhrJS%202016%20on%202016-07-02%20in%20Bochum%2C%20%20Germany%20%40RuhrJS%20http%3A//www.ruhrjs.de/%20%23JavaScript%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ending"><img class="list-thumbnail" src="https://i.ytimg.com/vi/J1y6-UOMJvY/hqdefault.jpg" alt="Ending - closing speech" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ending">Ending - closing speech</a></h4>
+          <footer>
+            <div class="recorded">2016-07-03</div>
+			
+			  <div>Length: 05:51</div>
+			
+			
+              <div>Views: 22 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sebastien-deutsch">Sebastien Deutsch</a>
+             
+                <a href="/p/madeleine-neumann">Madeleine Neumann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-bastian-krol-elm-the-game-changer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BQ3fMqwC0zE/hqdefault.jpg" alt="Elm the game changer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-bastian-krol-elm-the-game-changer">Elm the game changer</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 30:21</div>
+			
+			
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bastian-krol">Bastian Krol</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-ben-schwarz-vanity-performance-metrics-are-worthless"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4RipfnP2HWw/hqdefault.jpg" alt="Vanity performance metrics are worthless" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-ben-schwarz-vanity-performance-metrics-are-worthless">Vanity performance metrics are worthless</a></h4>
+          <footer>
+            <div class="recorded">2016-07-03</div>
+			
+			  <div>Length: 24:12</div>
+			
+			
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-schwarz">Ben Schwarz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-ben-schwarz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Wgq6uWwnGbQ/hqdefault.jpg" alt="Ben Schwarz" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-ben-schwarz">Ben Schwarz</a></h4>
+          <footer>
+            <div class="recorded">2016-07-03</div>
+			
+			  <div>Length: 05:45</div>
+			
+			
+              <div>Views: 34 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-schwarz">Ben Schwarz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-damian-schenkelmann-the-dirty-secrets-of-building-large-http-apis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/r_DCNBEcx0Q/hqdefault.jpg" alt="The dirty secrets of building large HTTP APIs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-damian-schenkelmann-the-dirty-secrets-of-building-large-http-apis">The dirty secrets of building large HTTP APIs</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 22:15</div>
+			
+			
+              <div>Views: 137 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/damian-schenkelman">Damian Schenkelman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-elisabeth-engel-getting-started-with-d3js"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ape1hFJv3Q0/hqdefault.jpg" alt="Getting Started with D3.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-elisabeth-engel-getting-started-with-d3js">Getting Started with D3.js</a></h4>
+          <footer>
+            <div class="recorded">2016-07-03</div>
+			
+			  <div>Length: 27:29</div>
+			
+			
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/elisabeth-engel">Elisabeth Engel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-francesco-strazzullo-sacrificial-architecture-in-modern-web-development"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Q2vqjQdw6jU/hqdefault.jpg" alt="Sacrificial Architecture in modern web development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-francesco-strazzullo-sacrificial-architecture-in-modern-web-development">Sacrificial Architecture in modern web development</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 20:05</div>
+			
+			
+              <div>Views: 163 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/francesco-strazzullo">Francesco	Strazzullo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-fritz-van-deventer-super-marioscript-tools-and-tips-for-nes-development"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WRSRVdLQ_-k/hqdefault.jpg" alt="Super MarioScript: Tools and Tips for NES development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-fritz-van-deventer-super-marioscript-tools-and-tips-for-nes-development">Super MarioScript: Tools and Tips for NES development</a></h4>
+          <footer>
+            <div class="recorded">2016-07-03</div>
+			
+			  <div>Length: 25:49</div>
+			
+			
+              <div>Views: 1242 Likes: 20</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fritz-van-deventer">Fritz van Deventer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-igor-galic-voxpopuli"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qx58k-OrlO0/hqdefault.jpg" alt="Voxpopuli - maintaining infrastructure code as a team" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-igor-galic-voxpopuli">Voxpopuli - maintaining infrastructure code as a team</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 04:33</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/igor-galic">Igor Galić</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-istvan-szmozsanszky-responsive-html5-games-on-microcontrollers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XGVP64SFlbU/hqdefault.jpg" alt="Responsive HTML5 games - on microcontrollers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-istvan-szmozsanszky-responsive-html5-games-on-microcontrollers">Responsive HTML5 games - on microcontrollers</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 26:19</div>
+			
+			
+              <div>Views: 40 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/istvan-szmozsanszky">István Szmozsánszky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-istvan-szmozsanszky-the-future-of-the-web"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o55bnqnH2Jc/hqdefault.jpg" alt="The future of the web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-istvan-szmozsanszky-the-future-of-the-web">The future of the web</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 05:33</div>
+			
+			
+              <div>Views: 49 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/istvan-szmozsanszky">István Szmozsánszky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-kelsey-breseman-live-coding-tessel-2"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LMAzOir8tYE/hqdefault.jpg" alt="Live-coding Tessel 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-kelsey-breseman-live-coding-tessel-2">Live-coding Tessel 2</a></h4>
+          <footer>
+            <div class="recorded">2016-07-03</div>
+			
+			  <div>Length: 35:10</div>
+			
+			
+              <div>Views: 599 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kelsey-breseman">Kelsey Breseman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-malte-lantin-microsoft-edge"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ENOzSRJNv2M/hqdefault.jpg" alt="Microsoft Edge" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-malte-lantin-microsoft-edge">Microsoft Edge</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 05:25</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/malte-lantin">Malte Lantin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-max-stoiber-scaling-reactjs-applications"><img class="list-thumbnail" src="https://i.ytimg.com/vi/52Vt8Fg3ZPY/hqdefault.jpg" alt="Scaling React.js Applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-max-stoiber-scaling-reactjs-applications">Scaling React.js Applications</a></h4>
+          <footer>
+            <div class="recorded">2016-07-03</div>
+			
+			  <div>Length: 25:11</div>
+			
+			
+              <div>Views: 770 Likes: 29</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/max-stoiber">Max Stoiber</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-michel-weststrate-magic-mobx-become-a-reactive-wizard-in-30-minutes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TfxfRkNCnmk/hqdefault.jpg" alt="Magic Mobx become a Reactive wizard in 30 minutes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-michel-weststrate-magic-mobx-become-a-reactive-wizard-in-30-minutes">Magic Mobx become a Reactive wizard in 30 minutes</a></h4>
+          <footer>
+            <div class="recorded">2016-07-03</div>
+			
+			  <div>Length: 34:10</div>
+			
+			
+              <div>Views: 2634 Likes: 54</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michel-weststrate">Michel Weststrate</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-moodvideo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VaWMBgM3-hI/hqdefault.jpg" alt="Moodvideo" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-moodvideo">Moodvideo</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 02:44</div>
+			
+			
+              <div>Views: 252 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-verbeek">Paul Verbeek</a>
+             
+                <a href="/p/rami-rihawi">Rami Rihawi</a>
+             
+                <a href="/p/madeleine-neumann">Madeleine Neumann</a>
+             
+                <a href="/p/ben-schwarz">Ben Schwarz</a>
+             
+                <a href="/p/sebastien-deutsch">Sebastien Deutsch</a>
+             
+                <a href="/p/kira-schacht">Kira Schacht</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-oliver-zeigermann-machine-learning-with-deep-neural-networks-in-the-browser"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fvOWCCX_6AI/hqdefault.jpg" alt="Machine Learning with Deep Neural Networks in the Browser" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-oliver-zeigermann-machine-learning-with-deep-neural-networks-in-the-browser">Machine Learning with Deep Neural Networks in the Browser</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 28:41</div>
+			
+			
+              <div>Views: 157 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oliver-zeigermann">Oliver Zeigermann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-pascal-precht-angular-2-change-detection-explained"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X0DLP_rktsc/hqdefault.jpg" alt="Angular 2 change detection explained" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-pascal-precht-angular-2-change-detection-explained">Angular 2 change detection explained</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 33:18</div>
+			
+			
+              <div>Views: 512 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pascal-precht">Pascal Precht</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-paul-verbeek-ecmascript-6-is-so-2015-meet-es2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xfATDpVubK4/hqdefault.jpg" alt="ECMAScript 6 is so 2015! Meet ES2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-paul-verbeek-ecmascript-6-is-so-2015-meet-es2016">ECMAScript 6 is so 2015! Meet ES2016</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 26:11</div>
+			
+			
+              <div>Views: 148 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-verbeek">Paul Verbeek</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-pilar-huidobro-the-mythical-creatures-of-summer-of-code"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rYtl9xiV0hU/hqdefault.jpg" alt="The Mythical Creatures of Summer of Code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-pilar-huidobro-the-mythical-creatures-of-summer-of-code">The Mythical Creatures of Summer of Code</a></h4>
+          <footer>
+            <div class="recorded">2016-07-03</div>
+			
+			  <div>Length: 21:55</div>
+			
+			
+              <div>Views: 81 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pilar-huidobro">Pilar Hoidobro</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-rene-fohring-inchjs-how-to-get-people-excited-about-inline-docs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Xu49CUlLxzo/hqdefault.jpg" alt="InchJS: How to get people excited about inline docs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-rene-fohring-inchjs-how-to-get-people-excited-about-inline-docs">InchJS: How to get people excited about inline docs</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 26:56</div>
+			
+			
+              <div>Views: 67 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rene-fohring">Rene Föhring</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-ruth-john-lets-talk-about-midi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jaVoLmCodZQ/hqdefault.jpg" alt="Let's talk about MIDI" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-ruth-john-lets-talk-about-midi">Let's talk about MIDI</a></h4>
+          <footer>
+            <div class="recorded">2016-07-03</div>
+			
+			  <div>Length: 22:36</div>
+			
+			
+              <div>Views: 161 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ruth-john">Ruth John</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-shelly-coen-be-kind-to-yourself"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5LApO9qKn9s/hqdefault.jpg" alt="Be kind to Yourself" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-shelly-coen-be-kind-to-yourself">Be kind to Yourself</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 05:16</div>
+			
+			
+              <div>Views: 43 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shelly-coen">Shelly Coen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-2016-torsten-helmich-a-brief-introduction-to-javascript-and-architecture"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0ZKP9WHpjEQ/hqdefault.jpg" alt="A brief introduction to JavaScript and Architecture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-2016-torsten-helmich-a-brief-introduction-to-javascript-and-architecture">A brief introduction to JavaScript and Architecture</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 22:04</div>
+			
+			
+              <div>Views: 83 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/torsten-helmich">Torsten Helmich</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/ruhrjs-2016/ruhrjs-welcoming"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EfEgp49m5As/hqdefault.jpg" alt="Welcoming" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/ruhrjs-2016/ruhrjs-welcoming">Welcoming</a></h4>
+          <footer>
+            <div class="recorded">2016-07-02</div>
+			
+			  <div>Length: 04:25</div>
+			
+			
+              <div>Views: 194 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/ruhrjs-2016">RuhrJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/madeleine-neumann">Madeleine Neumann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLZQv2lZnFSKdQUEK2c9KQ1nxQpXTizy_D">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

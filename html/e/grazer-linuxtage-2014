@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Grazer LinuxTage 2014</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Grazer LinuxTage 2014</h1>
+
+<div><a href="https://glt14.linuxtage.at/">Grazer LinuxTage 2014</a></div>
+
+
+<div>Start date: 2014-04-04</div>
+<div>End date: 2014-04-05</div>
+
+<div>Location:
+  Graz
+  
+  <a href="/l/austria">Austria</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: German</div>
+<div>Topics:
+   
+       <a href="/t/linux">Linux</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/linuxtage">@linuxtage</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/groups/grazerlinuxtage/">https://www.facebook.com/groups/grazerlinuxtage/</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Grazer%20LinuxTage%202014%20on%202014-04-04%20in%20Graz%2C%20%20Austria%20%40linuxtage%20https%3A//glt14.linuxtage.at/%20%23Linux%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2014/blog-dich-frei-claudio-schiesl-aka-sivic-co"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Vmg1vnyAiuw/hqdefault.jpg" alt="Blog Dich frei - Claudio Schiesl aka Sivic & Co" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2014/blog-dich-frei-claudio-schiesl-aka-sivic-co">Blog Dich frei - Claudio Schiesl aka Sivic & Co</a></h4>
+          <footer>
+            <div class="recorded">2014-04-04</div>
+			
+			  <div>Length: 01:00:45</div>
+			
+			
+              <div>Views: 162 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2014">Grazer LinuxTage 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2014/can-bus-mit-linux-und-python-jorg-faschingbauer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5XuSr4M9uNI/hqdefault.jpg" alt="CAN-Bus mit Linux und Python - Jörg Faschingbauer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2014/can-bus-mit-linux-und-python-jorg-faschingbauer">CAN-Bus mit Linux und Python - Jörg Faschingbauer</a></h4>
+          <footer>
+            <div class="recorded">2014-04-04</div>
+			
+			  <div>Length: 46:22</div>
+			
+			
+              <div>Views: 2903 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2014">Grazer LinuxTage 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2014/continuous-integration-mit-debianubuntu-paketen-michael-prokop"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Iv97wWbR_Lw/hqdefault.jpg" alt="Continuous Integration mit Debian/Ubuntu-Paketen - Michael Prokop" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2014/continuous-integration-mit-debianubuntu-paketen-michael-prokop">Continuous Integration mit Debian/Ubuntu-Paketen - Michael Prokop</a></h4>
+          <footer>
+            <div class="recorded">2014-04-04</div>
+			
+			  <div>Length: 45:28</div>
+			
+			
+              <div>Views: 190 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2014">Grazer LinuxTage 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2014/debian-gnulinux-in-der-molekularen-pathologie-karl-kashofer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0JS1NNbfVZo/hqdefault.jpg" alt="Debian GNU/Linux in der molekularen Pathologie - Karl Kashofer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2014/debian-gnulinux-in-der-molekularen-pathologie-karl-kashofer">Debian GNU/Linux in der molekularen Pathologie - Karl Kashofer</a></h4>
+          <footer>
+            <div class="recorded">2014-04-04</div>
+			
+			  <div>Length: 43:02</div>
+			
+			
+              <div>Views: 259 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2014">Grazer LinuxTage 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2014/heimautomatisierung-mit-fhem-und-homematic-nico-giefing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WYrEwBUg-Mc/hqdefault.jpg" alt="Heimautomatisierung mit FHEM und HomeMatic - Nico Giefing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2014/heimautomatisierung-mit-fhem-und-homematic-nico-giefing">Heimautomatisierung mit FHEM und HomeMatic - Nico Giefing</a></h4>
+          <footer>
+            <div class="recorded">2014-04-04</div>
+			
+			  <div>Length: 36:54</div>
+			
+			
+              <div>Views: 14672 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2014">Grazer LinuxTage 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2014/neue-features-der-open-source-virtualisierungslosung-ovirt-rene-koch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4RvHK8GUO5s/hqdefault.jpg" alt="Neue Features der Open Source Virtualisierungslösung oVirt - René Koch" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2014/neue-features-der-open-source-virtualisierungslosung-ovirt-rene-koch">Neue Features der Open Source Virtualisierungslösung oVirt - René Koch</a></h4>
+          <footer>
+            <div class="recorded">2014-04-04</div>
+			
+			  <div>Length: 37:02</div>
+			
+			
+              <div>Views: 203 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2014">Grazer LinuxTage 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2014/open-source-goes-to-geo-andreas-voit"><img class="list-thumbnail" src="https://i.ytimg.com/vi/J2AQ3ZPpzDE/hqdefault.jpg" alt="Open Source goes to Geo - Andreas Voit" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2014/open-source-goes-to-geo-andreas-voit">Open Source goes to Geo - Andreas Voit</a></h4>
+          <footer>
+            <div class="recorded">2014-04-04</div>
+			
+			  <div>Length: 45:55</div>
+			
+			
+              <div>Views: 83 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2014">Grazer LinuxTage 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2014/raspberry-pi-gpio-pin-hacking-bernhard-trummer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kNCBP4aYiiI/hqdefault.jpg" alt="Raspberry Pi GPIO Pin Hacking - Bernhard Trummer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2014/raspberry-pi-gpio-pin-hacking-bernhard-trummer">Raspberry Pi GPIO Pin Hacking - Bernhard Trummer</a></h4>
+          <footer>
+            <div class="recorded">2014-04-04</div>
+			
+			  <div>Length: 46:22</div>
+			
+			
+              <div>Views: 648 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2014">Grazer LinuxTage 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2014/smart-sarah-harald-pichler"><img class="list-thumbnail" src="https://i.ytimg.com/vi/d15HblCrdN8/hqdefault.jpg" alt="Smart-SARAH - Harald Pichler" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2014/smart-sarah-harald-pichler">Smart-SARAH - Harald Pichler</a></h4>
+          <footer>
+            <div class="recorded">2014-04-04</div>
+			
+			  <div>Length: 37:32</div>
+			
+			
+              <div>Views: 219 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2014">Grazer LinuxTage 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2014/steuern-und-messen-mit-raspberry-pi-manfred-wallner-und-martin-strohmayer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/95C9yR_yXBU/hqdefault.jpg" alt="Steuern und Messen mit Raspberry Pi - Manfred Wallner und Martin Strohmayer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2014/steuern-und-messen-mit-raspberry-pi-manfred-wallner-und-martin-strohmayer">Steuern und Messen mit Raspberry Pi - Manfred Wallner und Martin Strohmayer</a></h4>
+          <footer>
+            <div class="recorded">2014-04-04</div>
+			
+			  <div>Length: 40:26</div>
+			
+			
+              <div>Views: 4508 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2014">Grazer LinuxTage 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/grazer-linuxtage-2014/sysdb-ein-datenaggregator-fur-system-informationen-sebastian-tokkee-harl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/di9IGqKtln4/hqdefault.jpg" alt="SysDB — ein Datenaggregator für System-Informationen -   Sebastian "tokkee" Harl" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/grazer-linuxtage-2014/sysdb-ein-datenaggregator-fur-system-informationen-sebastian-tokkee-harl">SysDB — ein Datenaggregator für System-Informationen -   Sebastian "tokkee" Harl</a></h4>
+          <footer>
+            <div class="recorded">2014-04-04</div>
+			
+			  <div>Length: 46:11</div>
+			
+			
+              <div>Views: 116 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/grazer-linuxtage-2014">Grazer LinuxTage 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLWHx0EvwLLUHaDLeRf7bHoVjy9wx7IbbB">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>React Rally</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>React Rally</h1>
+
+<div><a href="http://www.reactrally.com/">React Rally</a></div>
+
+
+<div>Start date: 2016-08-25</div>
+<div>End date: 2016-08-26</div>
+
+<div>Location:
+  Salt Lake City
+  Utah
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://www.reactrally.com/conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/react">React</a> 
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/ReactRally">@ReactRally</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=React%20Rally%20on%202016-08-25%20in%20Salt%20Lake%20City%2C%20Utah%20USA%20%40ReactRally%20http%3A//www.reactrally.com/%20%23React%20%23JavaScript%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/ben-lesh-async-redux-actions-with-rxjs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sF5-V-Szo0c/hqdefault.jpg" alt="Async Redux Actions With RxJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/ben-lesh-async-redux-actions-with-rxjs">Async Redux Actions With RxJS</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 35:11</div>
+			
+			
+              <div>Views: 4103 Likes: 65</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-lesh">Ben Lesh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/brian-lonsdorf-oh-composable-world"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SfWR3dKnFIo/hqdefault.jpg" alt="Oh Composable World!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/brian-lonsdorf-oh-composable-world">Oh Composable World!</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 27:32</div>
+			
+			
+              <div>Views: 3432 Likes: 94</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-lonsdorf">Brian Lonsdorf</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/devon-lindsey-react-and-give-back"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6P6QwmMb7G4/hqdefault.jpg" alt="React and Give Back" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/devon-lindsey-react-and-give-back">React and Give Back</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 26:56</div>
+			
+			
+              <div>Views: 313 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/devon-lindsey">Devon Lindsey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/drew-conley-the-danger-crew-lessons-learned-from-building-an-rpg-in-react"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0pfLapmfxdY/hqdefault.jpg" alt="The Danger Crew: Lessons learned from building an RPG in React" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/drew-conley-the-danger-crew-lessons-learned-from-building-an-rpg-in-react">The Danger Crew: Lessons learned from building an RPG in React</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 26:16</div>
+			
+			
+              <div>Views: 646 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/drew-conley">Drew Conley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/james-kyle-from-zero-to-binary-search-tree"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rG9jQ5yQvKQ/hqdefault.jpg" alt="From Zero to Binary Search Tree" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/james-kyle-from-zero-to-binary-search-tree">From Zero to Binary Search Tree</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 27:23</div>
+			
+			
+              <div>Views: 846 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-kyle">James Kyle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/james-long-debugging-your-debugger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gvVpSezT5_M/hqdefault.jpg" alt="Debugging Your Debugger" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/james-long-debugging-your-debugger">Debugging Your Debugger</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 31:03</div>
+			
+			
+              <div>Views: 1162 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-long">James Long</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/jared-forsyth-real-world-react-debugging"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0MGTONvtlrI/hqdefault.jpg" alt="Real World React Debugging" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/jared-forsyth-real-world-react-debugging">Real World React Debugging</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 24:50</div>
+			
+			
+              <div>Views: 370 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jared-forsyth">Jared Forsyth</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/joseph-savona-reintroducing-relay"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TcpS2nvt4-4/hqdefault.jpg" alt="Reintroducing Relay" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/joseph-savona-reintroducing-relay">Reintroducing Relay</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 31:31</div>
+			
+			
+              <div>Views: 519 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joseph-savona">Joseph Savona</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/kate-hudson-writing-better-multi-process-hybrid-apps-with-react-and-redux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CciUEEkqHXU/hqdefault.jpg" alt="Writing better multi-process hybrid apps with React and Redux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/kate-hudson-writing-better-multi-process-hybrid-apps-with-react-and-redux">Writing better multi-process hybrid apps with React and Redux</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 27:42</div>
+			
+			
+              <div>Views: 256 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kate-hudson">Kate Hudson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/kevin-old-deploying-graphql-in-a-serverless-context"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-rNdB-Zfbz8/hqdefault.jpg" alt="Deploying GraphQL in a Serverless Context" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/kevin-old-deploying-graphql-in-a-serverless-context">Deploying GraphQL in a Serverless Context</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 28:39</div>
+			
+			
+              <div>Views: 249 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kevin-old">Kevin Old</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/lukas-fittl-powering-react-based-dashboards-using-graphql-and-postgresql"><img class="list-thumbnail" src="https://i.ytimg.com/vi/K_Cz4qLzV98/hqdefault.jpg" alt="Powering React-based Dashboards using GraphQL and PostgreSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/lukas-fittl-powering-react-based-dashboards-using-graphql-and-postgresql">Powering React-based Dashboards using GraphQL and PostgreSQL</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 28:21</div>
+			
+			
+              <div>Views: 490 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lukas-fittl">Lukas Fittl</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/marcy-sutton-where-in-the-stack-is-carmen-sanfrancisco"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zxsUsgBYCIc/hqdefault.jpg" alt="Where in the Stack is Carmen Sanfrancisco?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/marcy-sutton-where-in-the-stack-is-carmen-sanfrancisco">Where in the Stack is Carmen Sanfrancisco?</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 32:25</div>
+			
+			
+              <div>Views: 332 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marcy-sutton">Marcy Sutton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/michael-trotter-purescript-pux-a-safer-more-expressive-way-to-react"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MvAiOTJNLNQ/hqdefault.jpg" alt="PureScript & Pux -- a safer, more expressive way to React" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/michael-trotter-purescript-pux-a-safer-more-expressive-way-to-react">PureScript & Pux -- a safer, more expressive way to React</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 25:21</div>
+			
+			
+              <div>Views: 285 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-trotter">Michael Trotter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/mike-glukhovsky-rrr-matey-react-rethinkdb-and-raspberry-pi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EtJSJQ5I-Fo/hqdefault.jpg" alt="RRR matey! - React, RethinkDB, and Raspberry Pi" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/mike-glukhovsky-rrr-matey-react-rethinkdb-and-raspberry-pi">RRR matey! - React, RethinkDB, and Raspberry Pi</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 29:18</div>
+			
+			
+              <div>Views: 261 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-glukhovsky">Mike Glukhovsky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/parashuram-rise-of-the-web-workers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BJZx4twjt-I/hqdefault.jpg" alt="Rise of the Web Workers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/parashuram-rise-of-the-web-workers">Rise of the Web Workers</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 31:40</div>
+			
+			
+              <div>Views: 451 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/parashuram">Parashuram</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/paul-o-shannessy-building-react-from-scratch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_MAD4Oly9yg/hqdefault.jpg" alt="Building React From Scratch" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/paul-o-shannessy-building-react-from-scratch">Building React From Scratch</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 33:57</div>
+			
+			
+              <div>Views: 8022 Likes: 95</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-o-shannessy">Paul O'Shannessy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/raquel-moss-all-the-terrible-things-i-did-the-first-time-i-made-a-complex-react-app"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wPNIw1A08Vs/hqdefault.jpg" alt="All the terrible things I did the first time I made a complex React app" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/raquel-moss-all-the-terrible-things-i-did-the-first-time-i-made-a-complex-react-app">All the terrible things I did the first time I made a complex React app</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 26:37</div>
+			
+			
+              <div>Views: 630 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/raquel-moss">Raquel Moss</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/ryan-florence-rethinker-stopfalse"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kp-NOggyz54/hqdefault.jpg" alt="Ryan Florence - ‹Rethinker stop={false}/›" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/ryan-florence-rethinker-stopfalse">Ryan Florence - ‹Rethinker stop={false}/›</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 37:16</div>
+			
+			
+              <div>Views: 2378 Likes: 49</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/saif-hakim-scaling-react-to-accelerate-life-science-research"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Had9nU9N7-0/hqdefault.jpg" alt="Scaling React to Accelerate Life Science Research" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/saif-hakim-scaling-react-to-accelerate-life-science-research">Scaling React to Accelerate Life Science Research</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 38:46</div>
+			
+			
+              <div>Views: 230 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/saif-hakim">Saif Hakim</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/reactrally-2016/sarah-drasner-animating-in-react"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QlmaI7x7SYo/hqdefault.jpg" alt="Animating in React" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/reactrally-2016/sarah-drasner-animating-in-react">Animating in React</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 42:54</div>
+			
+			
+              <div>Views: 4741 Likes: 80</div>
+            
+            <div class="event">From <a href="/e/reactrally-2016">React Rally</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sarah-drasner">Sarah Drasner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLUD4kD-wL_zYSfU3tIYsb4WqfFQzO_EjQ">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>JSConf Europe 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>JSConf Europe 2015</h1>
+
+<div><a href="http://2015.jsconf.eu/">JSConf Europe 2015</a></div>
+
+
+<div>Start date: 2015-09-25</div>
+<div>End date: 2015-09-27</div>
+
+<div>Location:
+  Berlin
+  
+  <a href="/l/germany">Germany</a>
+</div>
+
+<div><a href="http://2015.jsconf.eu/code-of-conduct/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/web">web</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/jsconfeu">@jsconfeu</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=JSConf%20Europe%202015%20on%202015-09-25%20in%20Berlin%2C%20%20Germany%20%40jsconfeu%20http%3A//2015.jsconf.eu/%20%23JavaScript%20%23web%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/alejandro-oviedro-a-fifth-of-century-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oUVT1HXlnls/hqdefault.jpg" alt="Alejandro Oviedro: A fifth of century | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/alejandro-oviedro-a-fifth-of-century-jsconf-eu-2015">Alejandro Oviedro: A fifth of century | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 20:30</div>
+			
+			
+              <div>Views: 700 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/anand-vemuri-what-your-scanner-doesnt-tell-you-can-hurt-you-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GPce5lNUhtc/hqdefault.jpg" alt="Anand Vemuri: What Your Scanner Doesn’t Tell You CAN Hurt You | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/anand-vemuri-what-your-scanner-doesnt-tell-you-can-hurt-you-jsconf-eu-2015">Anand Vemuri: What Your Scanner Doesn’t Tell You CAN Hurt You | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 24:37</div>
+			
+			
+              <div>Views: 980 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/artur-janc-security-in-the-world-of-js-frameworks-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4Qs5mqa4ioU/hqdefault.jpg" alt="Artur Janc: Security in the world of JS frameworks | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/artur-janc-security-in-the-world-of-js-frameworks-jsconf-eu-2015">Artur Janc: Security in the world of JS frameworks | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 29:43</div>
+			
+			
+              <div>Views: 1419 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/brenna-obrien-javascript-community-the-good-parts-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2ypYniQa7_o/hqdefault.jpg" alt="Brenna O'Brien: JavaScript Community: The Good Parts | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/brenna-obrien-javascript-community-the-good-parts-jsconf-eu-2015">Brenna O'Brien: JavaScript Community: The Good Parts | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 22:47</div>
+			
+			
+              <div>Views: 2870 Likes: 63</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/bryan-hughes-getting-involved-and-how-to-do-it-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UcPCAYpgB7k/hqdefault.jpg" alt="Bryan Hughes: Getting Involved and How to Do It | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/bryan-hughes-getting-involved-and-how-to-do-it-jsconf-eu-2015">Bryan Hughes: Getting Involved and How to Do It | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 24:07</div>
+			
+			
+              <div>Views: 849 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/carina-c-zona-consequences-of-an-insightful-algorithm-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/znwWYR1mzzw/hqdefault.jpg" alt="Carina C. Zona:  Consequences of an Insightful Algorithm | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/carina-c-zona-consequences-of-an-insightful-algorithm-jsconf-eu-2015">Carina C. Zona:  Consequences of an Insightful Algorithm | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 30:56</div>
+			
+			
+              <div>Views: 3949 Likes: 49</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/cate-huston-some-things-ive-learned-about-color-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UqSQbS7rltU/hqdefault.jpg" alt="Cate Huston: Some Things I’ve Learned About Color | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/cate-huston-some-things-ive-learned-about-color-jsconf-eu-2015">Cate Huston: Some Things I’ve Learned About Color | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 23:10</div>
+			
+			
+              <div>Views: 1005 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/christoph-pojer-evolving-complex-systems-incrementally-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/d0pOgY8__JM/hqdefault.jpg" alt="Christoph Pojer: Evolving Complex Systems Incrementally | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/christoph-pojer-evolving-complex-systems-incrementally-jsconf-eu-2015">Christoph Pojer: Evolving Complex Systems Incrementally | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 33:27</div>
+			
+			
+              <div>Views: 9212 Likes: 157</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/curtis-lassam-horse-drawing-tycoon-the-worlds-best-horse-drawing-simulator-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BRbcoXq_x2M/hqdefault.jpg" alt="Curtis Lassam: Horse Drawing Tycoon: The World's Best Horse Drawing Simulator | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/curtis-lassam-horse-drawing-tycoon-the-worlds-best-horse-drawing-simulator-jsconf-eu-2015">Curtis Lassam: Horse Drawing Tycoon: The World's Best Horse Drawing Simulator | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 21:47</div>
+			
+			
+              <div>Views: 1342 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/david-valdman-functional-layout-updating-the-dom-at-60fps-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/biJXpv-6XVY/hqdefault.jpg" alt="David Valdman: Functional Layout - Updating the DOM at 60FPS | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/david-valdman-functional-layout-updating-the-dom-at-60fps-jsconf-eu-2015">David Valdman: Functional Layout - Updating the DOM at 60FPS | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 24:57</div>
+			
+			
+              <div>Views: 3633 Likes: 74</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/denis-radin-rendering-html-via-webgl-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9oGQucDOaoY/hqdefault.jpg" alt="Denis Radin: Rendering HTML via WebGL | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/denis-radin-rendering-html-via-webgl-jsconf-eu-2015">Denis Radin: Rendering HTML via WebGL | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 24:34</div>
+			
+			
+              <div>Views: 6399 Likes: 108</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/denys-mishunov-illusion-of-time-when-60-seconds-is-not-1-minute-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/18s7jJEJeOc/hqdefault.jpg" alt="Denys Mishunov: Illusion of Time. When 60 seconds is not 1 minute | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/denys-mishunov-illusion-of-time-when-60-seconds-is-not-1-minute-jsconf-eu-2015">Denys Mishunov: Illusion of Time. When 60 seconds is not 1 minute | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 22:02</div>
+			
+			
+              <div>Views: 1659 Likes: 44</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/dmitry-baranovskiy-zen-of-javascript-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QHs55-5FzgA/hqdefault.jpg" alt="Dmitry Baranovskiy: Zen of JavaScript | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/dmitry-baranovskiy-zen-of-javascript-jsconf-eu-2015">Dmitry Baranovskiy: Zen of JavaScript | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 26:22</div>
+			
+			
+              <div>Views: 5745 Likes: 156</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/etiene-da-cruz-dalcol-what-i-learned-teaching-programming-to-150-beginners-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YuezRMnwyeI/hqdefault.jpg" alt="Etiene da Cruz Dalcol: What I learned teaching programming to 150 beginners | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/etiene-da-cruz-dalcol-what-i-learned-teaching-programming-to-150-beginners-jsconf-eu-2015">Etiene da Cruz Dalcol: What I learned teaching programming to 150 beginners | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 18:45</div>
+			
+			
+              <div>Views: 1984 Likes: 39</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/franziska-hinkelmann-a-trip-to-the-zoo-spidermonkey-squirrelfish-nashorn-v8-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sloddfX9jLE/hqdefault.jpg" alt="Franziska Hinkelmann: A Trip to the Zoo: SpiderMonkey, SquirrelFish, Nashorn, V8* | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/franziska-hinkelmann-a-trip-to-the-zoo-spidermonkey-squirrelfish-nashorn-v8-jsconf-eu-2015">Franziska Hinkelmann: A Trip to the Zoo: SpiderMonkey, SquirrelFish, Nashorn, V8* | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 26:54</div>
+			
+			
+              <div>Views: 1450 Likes: 35</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/gilmore-davidson-time-zone-of-your-life-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2BdFg5JT9lg/hqdefault.jpg" alt="Gilmore Davidson: Time zone of your life | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/gilmore-davidson-time-zone-of-your-life-jsconf-eu-2015">Gilmore Davidson: Time zone of your life | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 23:41</div>
+			
+			
+              <div>Views: 2031 Likes: 67</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/impressions-of-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VHbnuNng0M8/hqdefault.jpg" alt="Impressions of JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/impressions-of-jsconf-eu-2015">Impressions of JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 04:17</div>
+			
+			
+              <div>Views: 1551 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/jennifer-wong-i-think-i-know-what-youre-talking-about-but-im-not-sure-js-conf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aQSz4KnSFvk/hqdefault.jpg" alt="Jennifer Wong: I Think I Know What You’re Talking About, But I’m Not Sure | JS Conf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/jennifer-wong-i-think-i-know-what-youre-talking-about-but-im-not-sure-js-conf-eu-2015">Jennifer Wong: I Think I Know What You’re Talking About, But I’m Not Sure | JS Conf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 26:08</div>
+			
+			
+              <div>Views: 670 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/joa-ebert-jvmjs-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/c9kkqSgxqxQ/hqdefault.jpg" alt="Joa Ebert: JVM/JS | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/joa-ebert-jvmjs-jsconf-eu-2015">Joa Ebert: JVM/JS | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 35:14</div>
+			
+			
+              <div>Views: 527 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/kai-jager-what-its-like-to-live-on-the-edge-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ju8x3z1LuCg/hqdefault.jpg" alt="Kai Jäger: What it’s like to live on the Edge | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/kai-jager-what-its-like-to-live-on-the-edge-jsconf-eu-2015">Kai Jäger: What it’s like to live on the Edge | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 28:53</div>
+			
+			
+              <div>Views: 1320 Likes: 26</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/lewis-cowper-forklift-driver-to-developer-in-9-months-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zKLkHbcjwsc/hqdefault.jpg" alt="Lewis Cowper: Forklift Driver to Developer in 9 Months | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/lewis-cowper-forklift-driver-to-developer-in-9-months-jsconf-eu-2015">Lewis Cowper: Forklift Driver to Developer in 9 Months | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 26:53</div>
+			
+			
+              <div>Views: 1197 Likes: 34</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/lieke-boon-unconscious-bias-were-all-guilty-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5mcyUUf20Ng/hqdefault.jpg" alt="Lieke Boon: Unconscious Bias: we're all guilty | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/lieke-boon-unconscious-bias-were-all-guilty-jsconf-eu-2015">Lieke Boon: Unconscious Bias: we're all guilty | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 17:13</div>
+			
+			
+              <div>Views: 1090 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/marija-selakovic-lets-make-javascript-programs-faster-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Sq4havIoQOo/hqdefault.jpg" alt="Marija Selakovic: Let’s make JavaScript programs faster | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/marija-selakovic-lets-make-javascript-programs-faster-jsconf-eu-2015">Marija Selakovic: Let’s make JavaScript programs faster | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 22:10</div>
+			
+			
+              <div>Views: 2192 Likes: 41</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/marijn-haverbeke-salvaging-contenteditable-building-a-robust-wysiwyg-editor-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EEF2DlOUkag/hqdefault.jpg" alt="Marijn Haverbeke: Salvaging contentEditable: Building a Robust WYSIWYG Editor | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/marijn-haverbeke-salvaging-contenteditable-building-a-robust-wysiwyg-editor-jsconf-eu-2015">Marijn Haverbeke: Salvaging contentEditable: Building a Robust WYSIWYG Editor | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 27:54</div>
+			
+			
+              <div>Views: 1652 Likes: 48</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/martin-schuhfuss-let-there-be-light-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ani_MOZt5_c/hqdefault.jpg" alt="Martin Schuhfuß: Let there be light! | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/martin-schuhfuss-let-there-be-light-jsconf-eu-2015">Martin Schuhfuß: Let there be light! | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 30:54</div>
+			
+			
+              <div>Views: 1581 Likes: 38</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/mathias-bynens-regexpprototypeunicode-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/raJcug_vW0c/hqdefault.jpg" alt="Mathias Bynens: RegExp.prototype.unicode | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/mathias-bynens-regexpprototypeunicode-jsconf-eu-2015">Mathias Bynens: RegExp.prototype.unicode | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 25:17</div>
+			
+			
+              <div>Views: 1554 Likes: 26</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/nested-loops-jsconf-eu-2015-opening-performance"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lJ1kY-CSpBk/hqdefault.jpg" alt="Nested Loops – JSConf EU 2015 Opening Performance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/nested-loops-jsconf-eu-2015-opening-performance">Nested Loops – JSConf EU 2015 Opening Performance</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 06:19</div>
+			
+			
+              <div>Views: 14346 Likes: 200</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/nick-hehr-the-other-side-of-empathy-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6evp7YLDJrg/hqdefault.jpg" alt="Nick Hehr: The Other Side of Empathy | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/nick-hehr-the-other-side-of-empathy-jsconf-eu-2015">Nick Hehr: The Other Side of Empathy | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 23:15</div>
+			
+			
+              <div>Views: 1268 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/ola-adedoyin-applying-3d-engineering-drawing-techniques-to-web-app-diagrams-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/57fth5EZl8E/hqdefault.jpg" alt="Ola Adedoyin: Applying 3D Engineering Drawing Techniques To Web App Diagrams | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/ola-adedoyin-applying-3d-engineering-drawing-techniques-to-web-app-diagrams-jsconf-eu-2015">Ola Adedoyin: Applying 3D Engineering Drawing Techniques To Web App Diagrams | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 26:19</div>
+			
+			
+              <div>Views: 1226 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/olga-madejska-breaking-bad-web-components-in-production-what-worked-for-us-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cRTko6m6U4A/hqdefault.jpg" alt="Olga Madejska: Breaking Bad - Web Components in production, what worked for us | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/olga-madejska-breaking-bad-web-components-in-production-what-worked-for-us-jsconf-eu-2015">Olga Madejska: Breaking Bad - Web Components in production, what worked for us | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 20:53</div>
+			
+			
+              <div>Views: 2740 Likes: 24</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/panos-astithas-write-once-debug-everywhere-from-firefox-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Mju-k0yxLnk/hqdefault.jpg" alt="Panos Astithas: Write once, debug everywhere, from Firefox | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/panos-astithas-write-once-debug-everywhere-from-firefox-jsconf-eu-2015">Panos Astithas: Write once, debug everywhere, from Firefox | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 20:28</div>
+			
+			
+              <div>Views: 909 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/patricia-garcia-good-tech-for-hard-places-fighting-ebola-with-js-offline-apps-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1sLjWlWvCsc/hqdefault.jpg" alt="Patricia Garcia: Good Tech for Hard Places: Fighting Ebola with JS Offline Apps | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/patricia-garcia-good-tech-for-hard-places-fighting-ebola-with-js-offline-apps-jsconf-eu-2015">Patricia Garcia: Good Tech for Hard Places: Fighting Ebola with JS Offline Apps | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 24:21</div>
+			
+			
+              <div>Views: 1960 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/pawel-szymczykowski-javascript-in-near-space-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xzBloghQhO4/hqdefault.jpg" alt="Pawel Szymczykowski: JavaScript in (Near) Space | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/pawel-szymczykowski-javascript-in-near-space-jsconf-eu-2015">Pawel Szymczykowski: JavaScript in (Near) Space | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 24:45</div>
+			
+			
+              <div>Views: 728 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/peter-muller-transpiling-recomposed-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MptY6ff4tOQ/hqdefault.jpg" alt="Peter Müller: Transpiling Recomposed | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/peter-muller-transpiling-recomposed-jsconf-eu-2015">Peter Müller: Transpiling Recomposed | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 24:21</div>
+			
+			
+              <div>Views: 1996 Likes: 30</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/razvan-caliman-disconnected-networking-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zvG97aOfAJM/hqdefault.jpg" alt="Razvan Caliman: Disconnected Networking | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/razvan-caliman-disconnected-networking-jsconf-eu-2015">Razvan Caliman: Disconnected Networking | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 25:57</div>
+			
+			
+              <div>Views: 1189 Likes: 41</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/ryan-seddon-so-how-does-the-browser-actually-render-a-website-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SmE4OwHztCc/hqdefault.jpg" alt="Ryan Seddon: So how does the browser actually render a website | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/ryan-seddon-so-how-does-the-browser-actually-render-a-website-jsconf-eu-2015">Ryan Seddon: So how does the browser actually render a website | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 29:34</div>
+			
+			
+              <div>Views: 24992 Likes: 257</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/sam-richard-domo-arigato-mr-roboto-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pKtG4dO-9Tw/hqdefault.jpg" alt="Sam Richard: Domo Arigato Mr. Roboto | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/sam-richard-domo-arigato-mr-roboto-jsconf-eu-2015">Sam Richard: Domo Arigato Mr. Roboto | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 20:51</div>
+			
+			
+              <div>Views: 632 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/sarah-meyer-life-in-the-wilderness-how-to-pioneer-tech-culture-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2sZsBf-oUj8/hqdefault.jpg" alt="Sarah Meyer: Life in the Wilderness: How to Pioneer Tech Culture | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/sarah-meyer-life-in-the-wilderness-how-to-pioneer-tech-culture-jsconf-eu-2015">Sarah Meyer: Life in the Wilderness: How to Pioneer Tech Culture | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 15:43</div>
+			
+			
+              <div>Views: 601 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/stefanie-grewenig-onconnectionlost-the-life-of-an-offline-web-application-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rw8Q9ZLDkEs/hqdefault.jpg" alt="Stefanie Grewenig: OnConnectionLost: The life of an offline web application | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/stefanie-grewenig-onconnectionlost-the-life-of-an-offline-web-application-jsconf-eu-2015">Stefanie Grewenig: OnConnectionLost: The life of an offline web application | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 24:34</div>
+			
+			
+              <div>Views: 1261 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/stefanie-schirmer-functional-programming-and-curry-cooking-in-js-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6Qx5ZAbfqjo/hqdefault.jpg" alt="Stefanie Schirmer: Functional programming and curry cooking in JS | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/stefanie-schirmer-functional-programming-and-curry-cooking-in-js-jsconf-eu-2015">Stefanie Schirmer: Functional programming and curry cooking in JS | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 26:53</div>
+			
+			
+              <div>Views: 3835 Likes: 50</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/stephan-bonnemann-dependency-hell-just-froze-over-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PA139CERNbc/hqdefault.jpg" alt="Stephan Bönnemann: Dependency Hell Just Froze Over | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/stephan-bonnemann-dependency-hell-just-froze-over-jsconf-eu-2015">Stephan Bönnemann: Dependency Hell Just Froze Over | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 19:09</div>
+			
+			
+              <div>Views: 1418 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/surma-surma-the-mobile-web-is-a-contender-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3fNEkYJIXhc/hqdefault.jpg" alt="Surma Surma: The Mobile Web is a Contender | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/surma-surma-the-mobile-web-is-a-contender-jsconf-eu-2015">Surma Surma: The Mobile Web is a Contender | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 22:07</div>
+			
+			
+              <div>Views: 548 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/suz-hinton-refactoring-the-dinosaur-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VxxTkhSTJbA/hqdefault.jpg" alt="Suz Hinton: Refactoring the dinosaur | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/suz-hinton-refactoring-the-dinosaur-jsconf-eu-2015">Suz Hinton: Refactoring the dinosaur | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 26:00</div>
+			
+			
+              <div>Views: 1405 Likes: 27</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/szymon-nowak-how-to-grow-your-own-babel-fish-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ltMCrW9JCEE/hqdefault.jpg" alt="Szymon Nowak: How to grow your own Babel fish | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/szymon-nowak-how-to-grow-your-own-babel-fish-jsconf-eu-2015">Szymon Nowak: How to grow your own Babel fish | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 19:59</div>
+			
+			
+              <div>Views: 692 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/thomas-gorissen-the-year-of-the-peer-to-peer-web-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CzxQn78uO6c/hqdefault.jpg" alt="Thomas Gorissen: The year of the peer-to-peer web | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/thomas-gorissen-the-year-of-the-peer-to-peer-web-jsconf-eu-2015">Thomas Gorissen: The year of the peer-to-peer web | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 29:29</div>
+			
+			
+              <div>Views: 1170 Likes: 31</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/thomas-watson-airplay-protocol-hacking-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/c5GlZp6L9P4/hqdefault.jpg" alt="Thomas Watson: AirPlay protocol hacking | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/thomas-watson-airplay-protocol-hacking-jsconf-eu-2015">Thomas Watson: AirPlay protocol hacking | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 23:03</div>
+			
+			
+              <div>Views: 1872 Likes: 40</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/tim-slatcher-interactive-visualisations-at-scale-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6FRURtW5qXI/hqdefault.jpg" alt="Tim Slatcher: Interactive Visualisations at Scale | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/tim-slatcher-interactive-visualisations-at-scale-jsconf-eu-2015">Tim Slatcher: Interactive Visualisations at Scale | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 26:01</div>
+			
+			
+              <div>Views: 942 Likes: 21</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/todd-gardner-javascript-forensics-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Xvdnewmdokc/hqdefault.jpg" alt="Todd Gardner: JavaScript Forensics | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/todd-gardner-javascript-forensics-jsconf-eu-2015">Todd Gardner: JavaScript Forensics | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 29:45</div>
+			
+			
+              <div>Views: 1542 Likes: 28</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/txus-the-power-of-small-abstractions-jsconf-2015-eu"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4dwZ-WIJCSo/hqdefault.jpg" alt="Txus: The Power Of Small Abstractions | JSConf 2015 EU" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/txus-the-power-of-small-abstractions-jsconf-2015-eu">Txus: The Power Of Small Abstractions | JSConf 2015 EU</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 24:09</div>
+			
+			
+              <div>Views: 2377 Likes: 34</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-eu-2015/whitney-williams-if-walter-gropius-was-a-javascripter-jsconf-eu-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fuXuirjR5NM/hqdefault.jpg" alt="Whitney Williams: If Walter Gropius was a JavaScripter | JSConf EU 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-eu-2015/whitney-williams-if-walter-gropius-was-a-javascripter-jsconf-eu-2015">Whitney Williams: If Walter Gropius was a JavaScripter | JSConf EU 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-25</div>
+			
+			  <div>Length: 23:03</div>
+			
+			
+              <div>Views: 462 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/jsconf-eu-2015">JSConf Europe 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshH37NxpV6XbgdDpY-w48hMd">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

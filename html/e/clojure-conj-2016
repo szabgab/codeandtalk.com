@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Clojure/ConJ</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Clojure/ConJ</h1>
+
+<div><a href="http://2016.clojure-conj.org/">Clojure/ConJ</a></div>
+
+
+<div>Start date: 2016-12-01</div>
+<div>End date: 2016-12-03</div>
+
+<div>Location:
+  Austin
+  Texas
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://2016.clojure-conj.org/policies/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/clojure">Clojure</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/clojure_conj">@clojure_conj</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Clojure/ConJ%20on%202016-12-01%20in%20Austin%2C%20Texas%20USA%20%40clojure_conj%20http%3A//2016.clojure-conj.org/%20%23Clojure%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/a-clojure-dsl-for-defining-cicd-orchestrations-at-scale-rohit-kumar-viraj-purang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/T-3dPkdG_qc/hqdefault.jpg" alt="A Clojure DSL for defining CI/CD orchestrations at scale" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/a-clojure-dsl-for-defining-cicd-orchestrations-at-scale-rohit-kumar-viraj-purang">A Clojure DSL for defining CI/CD orchestrations at scale</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 44:25</div>
+			
+			
+              <div>Views: 534 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rohit-kumar">Rohit Kumar</a>
+             
+                <a href="/p/viraj-purang">Viraj Purang</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/a-peek-inside-sat-solvers-jon-smock"><img class="list-thumbnail" src="https://i.ytimg.com/vi/d76e4hV1iJY/hqdefault.jpg" alt="A Peek Inside SAT Solvers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/a-peek-inside-sat-solvers-jon-smock">A Peek Inside SAT Solvers</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 35:21</div>
+			
+			
+              <div>Views: 767 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jon-smock">Jon Smock</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/adventures-in-understanding-documents-scott-tuddenham"><img class="list-thumbnail" src="https://i.ytimg.com/vi/94NjRg8zoCA/hqdefault.jpg" alt="Adventures in Understanding Documents" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/adventures-in-understanding-documents-scott-tuddenham">Adventures in Understanding Documents</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 38:52</div>
+			
+			
+              <div>Views: 732 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/scott-tuddenham">Scott Tuddenham</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/audyxcom-40k-locs-to-build-the-first-web-based-sonogram-asher-coren"><img class="list-thumbnail" src="https://i.ytimg.com/vi/K6ZoF3CHsa0/hqdefault.jpg" alt="Audyx.com 40k locs to build the first web-based sonogram" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/audyxcom-40k-locs-to-build-the-first-web-based-sonogram-asher-coren">Audyx.com 40k locs to build the first web-based sonogram</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 36:14</div>
+			
+			
+              <div>Views: 739 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/asher-coren">Asher Coren</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/barliman-trying-the-halting-problem-backwards-blindfolded-william-byrd-greg-rosenblatt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/er_lLvkklsk/hqdefault.jpg" alt="Barliman: trying the halting problem backwards, blindfolded" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/barliman-trying-the-halting-problem-backwards-blindfolded-william-byrd-greg-rosenblatt">Barliman: trying the halting problem backwards, blindfolded</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 36:14</div>
+			
+			
+              <div>Views: 1075 Likes: 37</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/greg-rosenblatt">Greg Rosenblatt</a>
+             
+                <a href="/p/william-byrd">William Byrd</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/becoming-omniscient-with-sayid-bill-piel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ipDhvd1NsmE/hqdefault.jpg" alt="Becoming Omniscient with Sayid" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/becoming-omniscient-with-sayid-bill-piel">Becoming Omniscient with Sayid</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 34:23</div>
+			
+			
+              <div>Views: 1342 Likes: 36</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bill-piel">Bill Piel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/building-a-powerful-double-entry-accounting-system-lucas-cavalcanti"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aw6y4r4NAlw/hqdefault.jpg" alt="Building a powerful Double Entry Accounting system" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/building-a-powerful-double-entry-accounting-system-lucas-cavalcanti">Building a powerful Double Entry Accounting system</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 37:06</div>
+			
+			
+              <div>Views: 1194 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lucas-cavalcanti">Lucas Cavalcanti</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/building-composable-abstractions-eric-normand"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jJIUoaIvD20/hqdefault.jpg" alt="Building composable abstractions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/building-composable-abstractions-eric-normand">Building composable abstractions</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 38:59</div>
+			
+			
+              <div>Views: 1920 Likes: 31</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eric-normand">Eric Normand</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/charting-the-english-languagein-pure-clojure-alexander-mann"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qRXhjElFJJE/hqdefault.jpg" alt="Charting the English Language...in pure Clojure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/charting-the-english-languagein-pure-clojure-alexander-mann">Charting the English Language...in pure Clojure</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 27:40</div>
+			
+			
+              <div>Views: 515 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alexander-mann">Alexander Mann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/clarifying-rules-engines-with-clara-rules-mike-rodriguez"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Q_k5MkZmd-o/hqdefault.jpg" alt="Clarifying Rules Engines with Clara Rules" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/clarifying-rules-engines-with-clara-rules-mike-rodriguez">Clarifying Rules Engines with Clara Rules</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 37:08</div>
+			
+			
+              <div>Views: 748 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-rodriguez">Mike Rodriguez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/clojure-at-datastax-the-long-road-from-python-to-clojure-nick-bailey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wfrajaEyNX0/hqdefault.jpg" alt="Clojure at DataStax: The Long Road From Python to Clojure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/clojure-at-datastax-the-long-road-from-python-to-clojure-nick-bailey">Clojure at DataStax: The Long Road From Python to Clojure</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 29:29</div>
+			
+			
+              <div>Views: 1113 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-bailey">Nick Bailey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/composing-music-with-clojurespec-wojciech-franke"><img class="list-thumbnail" src="https://i.ytimg.com/vi/404UXttr8kw/hqdefault.jpg" alt="Composing music with clojure.spec" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/composing-music-with-clojurespec-wojciech-franke">Composing music with clojure.spec</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 46:31</div>
+			
+			
+              <div>Views: 1514 Likes: 39</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/wojciech-franke">Wojciech Franke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/in-situ-model-based-learning-in-pamela-paul-robertson-tom-marble"><img class="list-thumbnail" src="https://i.ytimg.com/vi/i84i1X9k8_g/hqdefault.jpg" alt="In situ model-based learning in PAMELA" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/in-situ-model-based-learning-in-pamela-paul-robertson-tom-marble">In situ model-based learning in PAMELA</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 39:19</div>
+			
+			
+              <div>Views: 337 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-robertson">Paul Robertson</a>
+             
+                <a href="/p/tom-marble">Tom Marble</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/juggling-patterns-and-programs-steve-miner"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TqG176T69VM/hqdefault.jpg" alt="Juggling Patterns and Programs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/juggling-patterns-and-programs-steve-miner">Juggling Patterns and Programs</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 48:51</div>
+			
+			
+              <div>Views: 877 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-miner">Steve Miner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/overcoming-the-challenges-of-mentoring-kim-crayton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gqnvSW9yniU/hqdefault.jpg" alt="Overcoming the Challenges of Mentoring" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/overcoming-the-challenges-of-mentoring-kim-crayton">Overcoming the Challenges of Mentoring</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 39:15</div>
+			
+			
+              <div>Views: 709 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kim-crayton">Kim Crayton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/powderkeg-teaching-clojure-to-spark-igor-ges-christophe-grand"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OxUHgP4Ox5Q/hqdefault.jpg" alt="Powderkeg: teaching Clojure to Spark" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/powderkeg-teaching-clojure-to-spark-igor-ges-christophe-grand">Powderkeg: teaching Clojure to Spark</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 35:26</div>
+			
+			
+              <div>Views: 721 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/igor-ges">Igor Ges</a>
+             
+                <a href="/p/christophe-grand">Christophe Grand</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/production-rules-on-databases-paula-gearon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8rRzESy0X2k/hqdefault.jpg" alt="Production Rules on Databases" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/production-rules-on-databases-paula-gearon">Production Rules on Databases</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 42:25</div>
+			
+			
+              <div>Views: 1246 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paula-gearon">Paula Gearon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/programming-what-cannot-be-programmed-aesthetics-and-narrative-d-schmudde"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UJ1pD-Z6PEY/hqdefault.jpg" alt="Programming What Cannot Be Programmed: Aesthetics and Narrative" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/programming-what-cannot-be-programmed-aesthetics-and-narrative-d-schmudde">Programming What Cannot Be Programmed: Aesthetics and Narrative</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 35:19</div>
+			
+			
+              <div>Views: 945 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/d-schmudde">D. Schmudde</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/proto-repl-a-new-clojure-development-and-visualization-tool-jason-gilman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/buPPGxOnBnk/hqdefault.jpg" alt="Proto REPL, a New Clojure Development and Visualization Tool" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/proto-repl-a-new-clojure-development-and-visualization-tool-jason-gilman">Proto REPL, a New Clojure Development and Visualization Tool</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 30:11</div>
+			
+			
+              <div>Views: 4328 Likes: 135</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-gilman">Jason Gilman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/re-frame-your-clojurescript-applications-shaun-mahood"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cDzjlx6otCU/hqdefault.jpg" alt="re-frame your ClojureScript applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/re-frame-your-clojurescript-applications-shaun-mahood">re-frame your ClojureScript applications</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 30:35</div>
+			
+			
+              <div>Views: 1353 Likes: 26</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shaun-mahood">Shaun Mahood</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/simplifying-etl-with-clojure-and-datomic-stuart-halloway"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oOON--g1PyU/hqdefault.jpg" alt="Simplifying ETL with Clojure and Datomic" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/simplifying-etl-with-clojure-and-datomic-stuart-halloway">Simplifying ETL with Clojure and Datomic</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 35:51</div>
+			
+			
+              <div>Views: 2491 Likes: 32</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stuart-halloway">Stuart Halloway</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/spec-ulation-keynote-rich-hickey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oyLBGkS5ICk/hqdefault.jpg" alt="Spec-ulation Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/spec-ulation-keynote-rich-hickey">Spec-ulation Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 01:16:14</div>
+			
+			
+              <div>Views: 21443 Likes: 382</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rich-hickey">Rich Hickey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/spectrum-a-library-for-statically-typing-clojurespec-allen-rohner"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hzV7dFYmbAs/hqdefault.jpg" alt="Spectrum, a library for statically "typing" clojure.spec" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/spectrum-a-library-for-statically-typing-clojurespec-allen-rohner">Spectrum, a library for statically "typing" clojure.spec</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 46:10</div>
+			
+			
+              <div>Views: 883 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/allen-rohner">Allen Rohner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/using-clojure-with-c-apis-for-crypto-and-more-lvh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lf-M1ZH6KME/hqdefault.jpg" alt="Using Clojure with C APIs for crypto and more" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/using-clojure-with-c-apis-for-crypto-and-more-lvh">Using Clojure with C APIs for crypto and more</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 41:08</div>
+			
+			
+              <div>Views: 744 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lvh">Lvh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/clojure-conj-2016/wormbase-database-migration-to-datomic-on-aws-a-case-study-adam-wright"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RzE9iencxT0/hqdefault.jpg" alt="WormBase database migration to Datomic on AWS: A case Study" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/clojure-conj-2016/wormbase-database-migration-to-datomic-on-aws-a-case-study-adam-wright">WormBase database migration to Datomic on AWS: A case Study</a></h4>
+          <footer>
+            <div class="recorded">2016-12-01</div>
+			
+			  <div>Length: 31:28</div>
+			
+			
+              <div>Views: 321 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/clojure-conj-2016">Clojure/ConJ</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-wright">Adam Wright</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLZdCLR02grLofiMKo0bCeLHZC0_2rpqsz">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

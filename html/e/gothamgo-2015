@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>GothamGo Conference 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>GothamGo Conference 2015</h1>
+
+<div><a href="http://gothamgo.com/">GothamGo Conference 2015</a></div>
+
+
+<div>Start date: 2015-10-02</div>
+<div>End date: 2015-10-02</div>
+
+<div>Location:
+  New York
+  New York
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://gothamgo.com/conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/go">Go</a> 
+   
+       <a href="/t/golang">GoLang</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/gothamgo">@gothamgo</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=GothamGo%20Conference%202015%20on%202015-10-02%20in%20New%20York%2C%20New%20York%20USA%20%40gothamgo%20http%3A//gothamgo.com/%20%23Go%20%23GoLang%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/gothamgo-2015/gothamgo-2015-boring-is-beautiful-by-kyle-erf"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6l62RYyeLp8/hqdefault.jpg" alt="Boring is Beautiful - programming in Go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gothamgo-2015/gothamgo-2015-boring-is-beautiful-by-kyle-erf">Boring is Beautiful - programming in Go</a></h4>
+          <footer>
+            <div class="recorded">2015-10-02</div>
+			
+			  <div>Length: 23:19</div>
+			
+			
+            <div class="event">From <a href="/e/gothamgo-2015">GothamGo Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kyle-erf">Kyle Erf</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gothamgo-2015/gothamgo-2015-chaos-monkey-on-my-laptop-by-matthew-campbell"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-H_Dyx2sct8/hqdefault.jpg" alt="Chaos Monkey on my Laptop" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gothamgo-2015/gothamgo-2015-chaos-monkey-on-my-laptop-by-matthew-campbell">Chaos Monkey on my Laptop</a></h4>
+          <footer>
+            <div class="recorded">2015-10-02</div>
+			
+			  <div>Length: 17:48</div>
+			
+			
+              <div>Views: 189 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/gothamgo-2015">GothamGo Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matthew-campbell">Matthew Campbell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gothamgo-2015/gothamgo-2015-fuzzing-beyond-security-automated-testing-with-go-fuzz-by-filippo-valsorda"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kOZbFSM7PuI/hqdefault.jpg" alt="Fuzzing Beyond Security: Automated Testing with go-fuzz" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gothamgo-2015/gothamgo-2015-fuzzing-beyond-security-automated-testing-with-go-fuzz-by-filippo-valsorda">Fuzzing Beyond Security: Automated Testing with go-fuzz</a></h4>
+          <footer>
+            <div class="recorded">2015-10-02</div>
+			
+			  <div>Length: 25:15</div>
+			
+			
+              <div>Views: 485 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/gothamgo-2015">GothamGo Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/filippo-valsorda">Filippo Valsorda</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gothamgo-2015/gothamgo-2015-go-can-make-you-better-at-your-job-if-you-let-it-by-brendan-obrien"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3SnMrYtlMwE/hqdefault.jpg" alt="Go Can Make You Better at Your Job, If You Let It" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gothamgo-2015/gothamgo-2015-go-can-make-you-better-at-your-job-if-you-let-it-by-brendan-obrien">Go Can Make You Better at Your Job, If You Let It</a></h4>
+          <footer>
+            <div class="recorded">2015-10-02</div>
+			
+			  <div>Length: 17:54</div>
+			
+			
+              <div>Views: 310 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/gothamgo-2015">GothamGo Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brendan-obrien">Brendan O'Brien</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gothamgo-2015/gothamgo-2015-go-get-news-using-go-and-python-nltk-for-news-analysis-by-jp-robinson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vj81DYrpv_E/hqdefault.jpg" alt="go get -news (Using Go and Python NLTK for news analysis)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gothamgo-2015/gothamgo-2015-go-get-news-using-go-and-python-nltk-for-news-analysis-by-jp-robinson">go get -news (Using Go and Python NLTK for news analysis)</a></h4>
+          <footer>
+            <div class="recorded">2015-10-02</div>
+			
+			  <div>Length: 21:18</div>
+			
+			
+              <div>Views: 212 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/gothamgo-2015">GothamGo Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jp-robinson">Jp Robinson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gothamgo-2015/gothamgo-2015-go-highlights-from-the-new-influxdb-storage-engine-by-paul-dix"><img class="list-thumbnail" src="https://i.ytimg.com/vi/87cCPJ4OK7E/hqdefault.jpg" alt="Go Highlights from the New InfluxDB Storage Engine" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gothamgo-2015/gothamgo-2015-go-highlights-from-the-new-influxdb-storage-engine-by-paul-dix">Go Highlights from the New InfluxDB Storage Engine</a></h4>
+          <footer>
+            <div class="recorded">2015-10-02</div>
+			
+			  <div>Length: 27:47</div>
+			
+			
+              <div>Views: 522 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/gothamgo-2015">GothamGo Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-dix">Paul Dix</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gothamgo-2015/gothamgo-2015-grpc-googles-high-performance-open-source-rpc-framework-by-sameer-ajmani"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sZx3oZt7LVg/hqdefault.jpg" alt="gRPC: Google's high-performance, open-source RPC framework" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gothamgo-2015/gothamgo-2015-grpc-googles-high-performance-open-source-rpc-framework-by-sameer-ajmani">gRPC: Google's high-performance, open-source RPC framework</a></h4>
+          <footer>
+            <div class="recorded">2015-10-02</div>
+			
+			  <div>Length: 29:23</div>
+			
+			
+              <div>Views: 5656 Likes: 50</div>
+            
+            <div class="event">From <a href="/e/gothamgo-2015">GothamGo Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sameer-ajmani">Sameer Ajmani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gothamgo-2015/gothamgo-2015-rubygo-by-brittany-wald-and-jen-eisenberg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aPEaGrL5Jco/hqdefault.jpg" alt="ruby go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gothamgo-2015/gothamgo-2015-rubygo-by-brittany-wald-and-jen-eisenberg">ruby go</a></h4>
+          <footer>
+            <div class="recorded">2015-10-02</div>
+			
+			  <div>Length: 24:01</div>
+			
+			
+              <div>Views: 984 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/gothamgo-2015">GothamGo Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jen-eisenberg">Jen Eisenberg</a>
+             
+                <a href="/p/brittany-wald">Brittany Wald</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gothamgo-2015/gothamgo-2015-the-legacy-of-go-by-dave-cheney"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2y0pmRJNkLA/hqdefault.jpg" alt="The Legacy of Go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gothamgo-2015/gothamgo-2015-the-legacy-of-go-by-dave-cheney">The Legacy of Go</a></h4>
+          <footer>
+            <div class="recorded">2015-10-02</div>
+			
+			  <div>Length: 22:42</div>
+			
+			
+              <div>Views: 203 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/gothamgo-2015">GothamGo Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-cheney">Dave Cheney</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gothamgo-2015/gothamgo-2015-the-modern-garbage-collector-by-veronica-lopez"><img class="list-thumbnail" src="https://i.ytimg.com/vi/85XYf2EKnx0/hqdefault.jpg" alt="The "Modern" Garbage Collector" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gothamgo-2015/gothamgo-2015-the-modern-garbage-collector-by-veronica-lopez">The "Modern" Garbage Collector</a></h4>
+          <footer>
+            <div class="recorded">2015-10-02</div>
+			
+			  <div>Length: 25:12</div>
+			
+			
+              <div>Views: 375 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/gothamgo-2015">GothamGo Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/veronica-lopez">Veronica Lopez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gothamgo-2015/gothamgo-2015-using-gotypes-for-code-comprehension-and-refactoring-tools-by-alan-donovan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/p_cz7AxVdfg/hqdefault.jpg" alt="Using go/types for Code Comprehension and Refactoring Tools" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gothamgo-2015/gothamgo-2015-using-gotypes-for-code-comprehension-and-refactoring-tools-by-alan-donovan">Using go/types for Code Comprehension and Refactoring Tools</a></h4>
+          <footer>
+            <div class="recorded">2015-10-02</div>
+			
+			  <div>Length: 25:35</div>
+			
+			
+              <div>Views: 340 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/gothamgo-2015">GothamGo Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alan-donovan">Alan Donovan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/gothamgo-2015/gothamgo-2015-whats-new-in-go-crypto-by-nick-sullivan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_nsTT0Mvkv4/hqdefault.jpg" alt="What’s new in Go Crypto?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/gothamgo-2015/gothamgo-2015-whats-new-in-go-crypto-by-nick-sullivan">What’s new in Go Crypto?</a></h4>
+          <footer>
+            <div class="recorded">2015-10-02</div>
+			
+			  <div>Length: 20:13</div>
+			
+			
+              <div>Views: 373 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/gothamgo-2015">GothamGo Conference 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-sullivan">Nick Sullivan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLeGxIOPLk9ELh9tsPZMzau6CzMjfMzp9-">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

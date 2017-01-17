@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>DrupalSouth 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>DrupalSouth 2016</h1>
+
+<div><a href="https://goldcoast2016.drupal.org.au/">DrupalSouth 2016</a></div>
+
+
+<div>Start date: 2016-10-26</div>
+<div>End date: 2016-10-28</div>
+
+<div>Location:
+  Gold Coast
+  Queensland
+  <a href="/l/australia">Australia</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/drupal">Drupal</a> 
+   
+       <a href="/t/php">PHP</a> 
+   
+       <a href="/t/web">web</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/drupalsouth">@drupalsouth</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/drupalsouth">https://www.facebook.com/drupalsouth</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=DrupalSouth%202016%20on%202016-10-26%20in%20Gold%20Coast%2C%20Queensland%20Australia%20%40drupalsouth%20https%3A//goldcoast2016.drupal.org.au/%20%23Drupal%20%23PHP%20%23web%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-advanced-performance-optimisation-a-case-study-on-adairscomau-by-scott-anderson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6hY_YjruIiE/hqdefault.jpg" alt="Advanced Performance Optimisation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-advanced-performance-optimisation-a-case-study-on-adairscomau-by-scott-anderson">Advanced Performance Optimisation</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 32:30</div>
+			
+			
+              <div>Views: 54 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/scott-anderson">Scott Anderson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-backdrop-cms-what-i-love-about-it-as-a-site-builder-how-is-it-different-by-g-netsas"><img class="list-thumbnail" src="https://i.ytimg.com/vi/I7HwaJE8Z0Q/hqdefault.jpg" alt="Backdrop CMS: What I love about it as a site builder. How is it different" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-backdrop-cms-what-i-love-about-it-as-a-site-builder-how-is-it-different-by-g-netsas">Backdrop CMS: What I love about it as a site builder. How is it different</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 44:53</div>
+			
+			
+              <div>Views: 63 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/g-netsas">G. Netsas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-beetbox-a-next-generation-vm-for-local-lmp-development-by-thom-toogood"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ff7dEadrY18/hqdefault.jpg" alt="Beetbox - a next generation VM for local L*MP development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-beetbox-a-next-generation-vm-for-local-lmp-development-by-thom-toogood">Beetbox - a next generation VM for local L*MP development</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 44:06</div>
+			
+			
+              <div>Views: 55 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thom-toogood">Thom Toogood</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-blt-and-lightning-a-project-template-for-enterprise-drupal-by-james-gollan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cDB7uqOVJl4/hqdefault.jpg" alt="BLT and Lightning - A project template for enterprise Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-blt-and-lightning-a-project-template-for-enterprise-drupal-by-james-gollan">BLT and Lightning - A project template for enterprise Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 46:41</div>
+			
+			
+              <div>Views: 114 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-gollan">James Gollan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-client-management-building-happy-healthy-client-relationships-by-hannah-del-porto"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YH_QWW7aJPA/hqdefault.jpg" alt="Client Management: Building Happy, Healthy Client Relationships" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-client-management-building-happy-healthy-client-relationships-by-hannah-del-porto">Client Management: Building Happy, Healthy Client Relationships</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 44:01</div>
+			
+			
+              <div>Views: 62 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hannah-del-porto">Hannah Del Porto</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-content-as-code-ditching-the-canonical-database-by-adam-bramley"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-AVRCHR4eXs/hqdefault.jpg" alt="Content as code: Ditching the canonical database" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-content-as-code-ditching-the-canonical-database-by-adam-bramley">Content as code: Ditching the canonical database</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 43:08</div>
+			
+			
+              <div>Views: 92 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-bramley">Adam Bramley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-demo-like-a-champ-by-adam-malone"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aL8OLNBs3MY/hqdefault.jpg" alt="Demo like a champ" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-demo-like-a-champ-by-adam-malone">Demo like a champ</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 35:54</div>
+			
+			
+              <div>Views: 39 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-malone">Adam Malone</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-disruptive-trends-in-the-web-2016-by-sean-hamlin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/x239p7mGJg4/hqdefault.jpg" alt="Disruptive trends in the web 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-disruptive-trends-in-the-web-2016-by-sean-hamlin">Disruptive trends in the web 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 37:11</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-hamlin">Sean Hamlin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-does-drupal-have-an-identity-crisis-drupal-at-15-by-lee-rowlands"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xNzF2QXlY3o/hqdefault.jpg" alt="Does Drupal have an identity crisis? Drupal at 15" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-does-drupal-have-an-identity-crisis-drupal-at-15-by-lee-rowlands">Does Drupal have an identity crisis? Drupal at 15</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 51:20</div>
+			
+			
+              <div>Views: 214 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lee-rowlands">Lee Rowlands</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-drupal-8-and-microservices-by-nick-schuch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mf1aq79sx1I/hqdefault.jpg" alt="Drupal 8 and Microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-drupal-8-and-microservices-by-nick-schuch">Drupal 8 and Microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 31:25</div>
+			
+			
+              <div>Views: 70 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-schuch">Nick Schuch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-drupal-8-on-a-really-small-web-server-by-peter-moulding"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_ZmY5rDdYHM/hqdefault.jpg" alt="Drupal 8 on a really small Web server" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-drupal-8-on-a-really-small-web-server-by-peter-moulding">Drupal 8 on a really small Web server</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 29:23</div>
+			
+			
+              <div>Views: 31 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-moulding">Peter Moulding</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-drupal-content-analysis-elastic-is-here-to-help-by-joshua-li-and-joshua-rich"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BySItbj_U64/hqdefault.jpg" alt="Drupal content analysis: Elastic is here to help" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-drupal-content-analysis-elastic-is-here-to-help-by-joshua-li-and-joshua-rich">Drupal content analysis: Elastic is here to help</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 47:31</div>
+			
+			
+              <div>Views: 34 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joshua-rich">Joshua Rich</a>
+             
+                <a href="/p/joshua-li">Joshua Li</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-drupal-raspberry-pi-and-alcohol-by-mark-corben"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PndBFBfiWEA/hqdefault.jpg" alt="Drupal, Raspberry Pi and Alcohol!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-drupal-raspberry-pi-and-alcohol-by-mark-corben">Drupal, Raspberry Pi and Alcohol!</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 30:46</div>
+			
+			
+              <div>Views: 46 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-corben">Mark Corben</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-govcms-ckan-data-visualisation-in-drupal-7-for-everyone"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_mJ8PRbVK0A/hqdefault.jpg" alt="Session: "govCMS CKAN: Data visualisation in Drupal 7 for everyone!"" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-govcms-ckan-data-visualisation-in-drupal-7-for-everyone">Session: "govCMS CKAN: Data visualisation in Drupal 7 for everyone!"</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 45:16</div>
+			
+			
+              <div>Views: 109 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-human-vs-machine-a-love-story-by-simon-chisnall"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xCe7RayeWXI/hqdefault.jpg" alt="Human vs Machine: A love story" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-human-vs-machine-a-love-story-by-simon-chisnall">Human vs Machine: A love story</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 29:20</div>
+			
+			
+              <div>Views: 8 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-chisnall">Simon Chisnall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-learn-the-new-things-in-drupal-8-via-debugging-by-eduardo-enzo-garcia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ehq9UZO5lS4/hqdefault.jpg" alt="Learn the new things in Drupal 8 via Debugging" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-learn-the-new-things-in-drupal-8-via-debugging-by-eduardo-enzo-garcia">Learn the new things in Drupal 8 via Debugging</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 45:50</div>
+			
+			
+              <div>Views: 75 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eduardo-enzo-garcia">enzo -Eduardo Garcia</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-mapping-and-geolocation-with-drupal-by-kurt-foster"><img class="list-thumbnail" src="https://i.ytimg.com/vi/J5wef6g_aAY/hqdefault.jpg" alt="Mapping and Geolocation with Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-mapping-and-geolocation-with-drupal-by-kurt-foster">Mapping and Geolocation with Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 33:57</div>
+			
+			
+              <div>Views: 45 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kurt-foster">Kurt Foster</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-medecins-sans-frontieres-australia-a-drupal-case-study-by-duarte-garin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cpx2VGcQVOE/hqdefault.jpg" alt="Medecins Sans Frontieres Australia - A Drupal Case Study" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-medecins-sans-frontieres-australia-a-drupal-case-study-by-duarte-garin">Medecins Sans Frontieres Australia - A Drupal Case Study</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 48:47</div>
+			
+			
+              <div>Views: 51 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/duarte-garin">Duarte Garin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-module-a-week-or-how-i-learned-to-love-the-open-source-by-dave-sparks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OrpZzVMcQV8/hqdefault.jpg" alt="Module a Week or: How I Learned to ... Love the Open Source" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-module-a-week-or-how-i-learned-to-love-the-open-source-by-dave-sparks">Module a Week or: How I Learned to ... Love the Open Source</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 47:08</div>
+			
+			
+              <div>Views: 134 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-sparks">Dave Sparks</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-my-top-3-secrets-for-selling-drupal-by-dave-sparks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6hsLL94v9ns/hqdefault.jpg" alt="My Top 3 Secrets for Selling Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-my-top-3-secrets-for-selling-drupal-by-dave-sparks">My Top 3 Secrets for Selling Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 42:29</div>
+			
+			
+              <div>Views: 44 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dave-sparks">Dave Sparks</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-paragraphs-without-pain-by-angus-gordon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4QdY9le4Cuw/hqdefault.jpg" alt="Paragraphs without pain" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-paragraphs-without-pain-by-angus-gordon">Paragraphs without pain</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 44:03</div>
+			
+			
+              <div>Views: 128 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/angus-gordon">Angus Gordon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-personas-what-are-they-good-for-by-amelia-schmidt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CKhtR6kgEw8/hqdefault.jpg" alt="Personas - what are they good for?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-personas-what-are-they-good-for-by-amelia-schmidt">Personas - what are they good for?</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 40:24</div>
+			
+			
+              <div>Views: 46 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amelia-schmidt">Amelia Schmidt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-test-all-the-things-making-use-of-drupal-8s-new-testing-tools-by-sam-becker"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lf5qbbrftI4/hqdefault.jpg" alt="Test all the things! Making use of Drupal 8's new testing tools" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-test-all-the-things-making-use-of-drupal-8s-new-testing-tools-by-sam-becker">Test all the things! Making use of Drupal 8's new testing tools</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 41:04</div>
+			
+			
+              <div>Views: 48 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sam-becker">Sam Becker</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-up-and-running-with-kanban-by-matthew-hodgson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TKsAUAKCH_Y/hqdefault.jpg" alt="Up and Running with Kanban" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-up-and-running-with-kanban-by-matthew-hodgson">Up and Running with Kanban</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 46:10</div>
+			
+			
+              <div>Views: 41 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matthew-hodgson">Matthew Hodgson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-using-svgs-in-drupal-by-rikki-bochow"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0NWH0rYSWzg/hqdefault.jpg" alt="Using SVGs in Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-using-svgs-in-drupal-by-rikki-bochow">Using SVGs in Drupal</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 34:01</div>
+			
+			
+              <div>Views: 66 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rikki-bochow">Rikki Bochow</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-when-dogs-fly-how-flight-centre-and-doghouse-make-outsource-work-by-s-fryer-j-cole"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wcKd3m82SlY/hqdefault.jpg" alt="When Dogs Fly - How Flight Centre and Doghouse make outsource work" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-when-dogs-fly-how-flight-centre-and-doghouse-make-outsource-work-by-s-fryer-j-cole">When Dogs Fly - How Flight Centre and Doghouse make outsource work</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 44:25</div>
+			
+			
+              <div>Views: 79 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/j-cole">J Cole</a>
+             
+                <a href="/p/simon-fryer">Simon Fryer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2016/session-why-estimations-go-wrong-and-how-to-avoid-it-by-pamela-barone"><img class="list-thumbnail" src="https://i.ytimg.com/vi/z8XJ3Qj3Bjo/hqdefault.jpg" alt="Why estimations go wrong and how to avoid it" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2016/session-why-estimations-go-wrong-and-how-to-avoid-it-by-pamela-barone">Why estimations go wrong and how to avoid it</a></h4>
+          <footer>
+            <div class="recorded">2016-10-26</div>
+			
+			  <div>Length: 45:15</div>
+			
+			
+              <div>Views: 55 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2016">DrupalSouth 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pamela-barone">Pamela Barone</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL31TzQhFjH2Lb0hBM66Lo7wgdj1oGIADw">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

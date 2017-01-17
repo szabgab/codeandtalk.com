@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>RubyConf India 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>RubyConf India 2015</h1>
+
+<div><a href="https://github.com/rubyconfindia/rci2015">RubyConf India 2015</a></div>
+
+
+<div>Start date: 2015-04-03</div>
+<div>End date: 2015-04-05</div>
+
+<div>Location:
+  Goa
+  Goa
+  <a href="/l/india">India</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/ruby">Ruby</a> 
+   
+       <a href="/t/rails">Rails</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/rubyconfindia">@rubyconfindia</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/rubyconfindia">https://www.facebook.com/rubyconfindia</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=RubyConf%20India%202015%20on%202015-04-03%20in%20Goa%2C%20Goa%20India%20%40rubyconfindia%20https%3A//github.com/rubyconfindia/rci2015%20%23Ruby%20%23Rails%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-aakash-dharmadikari"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7Q2U1FrdrDI/hqdefault.jpg" alt="RubyConf India 2015 - Aakash Dharmadikari" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-aakash-dharmadikari">RubyConf India 2015 - Aakash Dharmadikari</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 33:43</div>
+			
+			
+              <div>Views: 42 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-anisha-narang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6r-h8YqRSeo/hqdefault.jpg" alt="RubyConf India 2015 - Anisha Narang" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-anisha-narang">RubyConf India 2015 - Anisha Narang</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 30:29</div>
+			
+			
+              <div>Views: 114 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-bryan-helmkamp"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3UVUtf1IhMA/hqdefault.jpg" alt="RubyConf India 2015 - Bryan Helmkamp" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-bryan-helmkamp">RubyConf India 2015 - Bryan Helmkamp</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 27:12</div>
+			
+			
+              <div>Views: 120 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-christopher-rigor"><img class="list-thumbnail" src="https://i.ytimg.com/vi/V6_2uBKBd4g/hqdefault.jpg" alt="RubyConf India 2015 - Christopher Rigor" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-christopher-rigor">RubyConf India 2015 - Christopher Rigor</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 30:22</div>
+			
+			
+              <div>Views: 26 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-eleanor-mchugh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DKoCSHBghmU/hqdefault.jpg" alt="RubyConf India 2015 -- Eleanor McHugh" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-eleanor-mchugh">RubyConf India 2015 -- Eleanor McHugh</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 28:31</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-emil-soman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2dubbpxPVcI/hqdefault.jpg" alt="RubyConf India 2015 - Emil Soman" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-emil-soman">RubyConf India 2015 - Emil Soman</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 32:29</div>
+			
+			
+              <div>Views: 76 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-erik-michaels-ober"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xd8d4kPFZvA/hqdefault.jpg" alt="RubyConf India 2015 - Erik Michaels-Ober" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-erik-michaels-ober">RubyConf India 2015 - Erik Michaels-Ober</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 46:51</div>
+			
+			
+              <div>Views: 62 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-laurent-sansonetti"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iC50uo_F4d8/hqdefault.jpg" alt="RubyConf India 2015 - Laurent Sansonetti" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-laurent-sansonetti">RubyConf India 2015 - Laurent Sansonetti</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 28:17</div>
+			
+			
+              <div>Views: 40 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-prathmesh-sonpatki-vipul-a-m"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KN0et9amAN4/hqdefault.jpg" alt="RubyConf India 2015 - Prathmesh Sonpatki, Vipul A M" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-prathmesh-sonpatki-vipul-a-m">RubyConf India 2015 - Prathmesh Sonpatki, Vipul A M</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 29:34</div>
+			
+			
+              <div>Views: 74 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-rajeev-n-bharshetty"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LK43c6qOXf8/hqdefault.jpg" alt="RubyConf India 2015 - Rajeev N Bharshetty" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-rajeev-n-bharshetty">RubyConf India 2015 - Rajeev N Bharshetty</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 28:02</div>
+			
+			
+              <div>Views: 371 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-ratnadeep-deshmane"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DXZLLNW4gew/hqdefault.jpg" alt="RubyConf India 2015 - Ratnadeep Deshmane" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-ratnadeep-deshmane">RubyConf India 2015 - Ratnadeep Deshmane</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 32:55</div>
+			
+			
+              <div>Views: 296 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-shadab-ahmed"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wmR5hDlCFCk/hqdefault.jpg" alt="RubyConf India 2015 - Shadab Ahmed" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-shadab-ahmed">RubyConf India 2015 - Shadab Ahmed</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 29:12</div>
+			
+			
+              <div>Views: 31 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-sharath-b-p-bharath-b-p"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RZEnT9NsnLI/hqdefault.jpg" alt="RubyConf India 2015 - Sharath B. P., Bharath B. P." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-sharath-b-p-bharath-b-p">RubyConf India 2015 - Sharath B. P., Bharath B. P.</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 20:33</div>
+			
+			
+              <div>Views: 93 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-smit-shah"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZzGBc8UbXIU/hqdefault.jpg" alt="RubyConf India 2015 - Smit Shah" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-smit-shah">RubyConf India 2015 - Smit Shah</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 22:58</div>
+			
+			
+              <div>Views: 98 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-terence-lee"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dcLDs9iNsNk/hqdefault.jpg" alt="RubyConf India 2015 - Terence Lee" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-terence-lee">RubyConf India 2015 - Terence Lee</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 33:47</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-2015-vipul-sharma-aditya-upadhyay"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F_X4CDm8FKs/hqdefault.jpg" alt="RubyConf India 2015 - Vipul Sharma, Aditya Upadhyay" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-2015-vipul-sharma-aditya-upadhyay">RubyConf India 2015 - Vipul Sharma, Aditya Upadhyay</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 25:56</div>
+			
+			
+              <div>Views: 191 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india-lightning-talks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DE_UAZmsmBg/hqdefault.jpg" alt="RubyConf India - Lightning talks." /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india-lightning-talks">RubyConf India - Lightning talks.</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 58:46</div>
+			
+			
+              <div>Views: 87 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2015/rubyconf-india2015-aaron-patterson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/86z3kqCrqEc/hqdefault.jpg" alt="RubyConf India2015  - Aaron Patterson" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2015/rubyconf-india2015-aaron-patterson">RubyConf India2015  - Aaron Patterson</a></h4>
+          <footer>
+            <div class="recorded">2015-04-03</div>
+			
+			  <div>Length: 27:52</div>
+			
+			
+              <div>Views: 127 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2015">RubyConf India 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLNyYRB_d4fk2KcrHt6m-L5X1rIS5AsmJo">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

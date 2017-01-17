@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>ApacheCon North America 2014</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>ApacheCon North America 2014</h1>
+
+<div><a href="http://events.linuxfoundation.org/events/archive/2014/apachecon-north-america">ApacheCon North America 2014</a></div>
+
+
+<div>Start date: 2014-04-07</div>
+<div>End date: 2014-04-09</div>
+
+<div>Location:
+  Denver
+  Colorado
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://events.linuxfoundation.org/event-code-of-conduct">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/opensource">OpenSource</a> 
+   
+       <a href="/t/community">Community</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/apachecon">@apachecon</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/TheLinuxFoundation">https://www.facebook.com/TheLinuxFoundation</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=ApacheCon%20North%20America%202014%20on%202014-04-07%20in%20Denver%2C%20Colorado%20USA%20%40apachecon%20http%3A//events.linuxfoundation.org/events/archive/2014/apachecon-north-america%20%23OpenSource%20%23Community%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/2014-lightning-talks"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sMlUAaHV6bc/hqdefault.jpg" alt="2014 Lightning Talks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/2014-lightning-talks">2014 Lightning Talks</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 01:05:59</div>
+			
+			
+              <div>Views: 85 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/apache-bigtop-a-crash-course-in-deploying-a-hadoop-bigdata-roman-shaposhnik-konstantin-boudnik"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VZzJxsMJahc/hqdefault.jpg" alt="Apache Bigtop, a crash course in deploying a Hadoop bigdata - Roman Shaposhnik, Konstantin Boudnik" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/apache-bigtop-a-crash-course-in-deploying-a-hadoop-bigdata-roman-shaposhnik-konstantin-boudnik">Apache Bigtop, a crash course in deploying a Hadoop bigdata - Roman Shaposhnik, Konstantin Boudnik</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 51:07</div>
+			
+			
+              <div>Views: 1324 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/apache-falcon-simplifying-managing-data-jobs-on-hadoop-shwetha-gs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZjpTGljWcZo/hqdefault.jpg" alt="Apache Falcon -- Simplifying managing data jobs on Hadoop - Shwetha GS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/apache-falcon-simplifying-managing-data-jobs-on-hadoop-shwetha-gs">Apache Falcon -- Simplifying managing data jobs on Hadoop - Shwetha GS</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 40:34</div>
+			
+			
+              <div>Views: 2220 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/apache-hadoop-yarn-the-next-generation-distributed-operating-system-zhijie-shen-and-jian-he"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9Bm6EBQ8t8U/hqdefault.jpg" alt="Apache Hadoop YARN  The Next generation Distributed Operating System - Zhijie Shen and Jian He" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/apache-hadoop-yarn-the-next-generation-distributed-operating-system-zhijie-shen-and-jian-he">Apache Hadoop YARN  The Next generation Distributed Operating System - Zhijie Shen and Jian He</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 48:35</div>
+			
+			
+              <div>Views: 2013 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/apache-stratos-incubating-samisa-abeysinghe"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EXka9rvqvg0/hqdefault.jpg" alt="Apache Stratos (Incubating) - Samisa Abeysinghe" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/apache-stratos-incubating-samisa-abeysinghe">Apache Stratos (Incubating) - Samisa Abeysinghe</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 09:29</div>
+			
+			
+              <div>Views: 467 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/apache-traffic-server-internals-phillip-sorber"><img class="list-thumbnail" src="https://i.ytimg.com/vi/E8fVQ1isd6E/hqdefault.jpg" alt="Apache Traffic Server Internals - Phillip Sorber" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/apache-traffic-server-internals-phillip-sorber">Apache Traffic Server Internals - Phillip Sorber</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 38:53</div>
+			
+			
+              <div>Views: 1103 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/bringing-distributed-transactions-to-hbase-alex-baranau"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AerF7flT4tk/hqdefault.jpg" alt="Bringing Distributed Transactions to HBase - Alex Baranau" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/bringing-distributed-transactions-to-hbase-alex-baranau">Bringing Distributed Transactions to HBase - Alex Baranau</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 54:10</div>
+			
+			
+              <div>Views: 372 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/building-a-large-scale-cdn-with-apache-traffic-server-jan-van-doorn"><img class="list-thumbnail" src="https://i.ytimg.com/vi/q1mndAYZlio/hqdefault.jpg" alt="Building a large scale CDN with Apache Traffic Server - Jan van Doorn" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/building-a-large-scale-cdn-with-apache-traffic-server-jan-van-doorn">Building a large scale CDN with Apache Traffic Server - Jan van Doorn</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 47:38</div>
+			
+			
+              <div>Views: 7641 Likes: 43</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/building-and-running-distributed-systems-using-apache-mesos-benjamin-hindman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hTcZGODnyf0/hqdefault.jpg" alt="Building and Running Distributed Systems using Apache Mesos - Benjamin Hindman" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/building-and-running-distributed-systems-using-apache-mesos-benjamin-hindman">Building and Running Distributed Systems using Apache Mesos - Benjamin Hindman</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 43:22</div>
+			
+			
+              <div>Views: 11104 Likes: 60</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/building-highly-flexible-high-performance-query-engines-neeraja-rentachintala"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jaLObfrl7Lk/hqdefault.jpg" alt="Building Highly Flexible, High Performance Query Engines -- Neeraja Rentachintala" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/building-highly-flexible-high-performance-query-engines-neeraja-rentachintala">Building Highly Flexible, High Performance Query Engines -- Neeraja Rentachintala</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 41:18</div>
+			
+			
+              <div>Views: 238 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/cache-toolkit-api-for-traffic-server-alan-carroll"><img class="list-thumbnail" src="https://i.ytimg.com/vi/54dYSRFffNs/hqdefault.jpg" alt="Cache Toolkit API for Traffic Server - Alan Carroll" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/cache-toolkit-api-for-traffic-server-alan-carroll">Cache Toolkit API for Traffic Server - Alan Carroll</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 45:57</div>
+			
+			
+              <div>Views: 190 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/choosing-an-http-proxy-server-bryan-call"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PDIdCgTxF2Q/hqdefault.jpg" alt="Choosing an HTTP Proxy Server - Bryan Call" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/choosing-an-http-proxy-server-bryan-call">Choosing an HTTP Proxy Server - Bryan Call</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 42:05</div>
+			
+			
+              <div>Views: 284 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/community-code-and-companies-mark-hinkle"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HrWNVvinfEE/hqdefault.jpg" alt="Community, Code and Companies - Mark Hinkle" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/community-code-and-companies-mark-hinkle">Community, Code and Companies - Mark Hinkle</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 11:28</div>
+			
+			
+              <div>Views: 39 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/data-cubes-in-apache-hive-amareshwari-sriramadasu-jaideep-dhok"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AFEvwOl6u40/hqdefault.jpg" alt="Data cubes in Apache Hive - Amareshwari Sriramadasu, Jaideep Dhok" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/data-cubes-in-apache-hive-amareshwari-sriramadasu-jaideep-dhok">Data cubes in Apache Hive - Amareshwari Sriramadasu, Jaideep Dhok</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 40:35</div>
+			
+			
+              <div>Views: 580 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/deploying-and-managing-distributed-applications-in-a-yarn-cluster-zhihong-yu"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KQ4xBaQmXEA/hqdefault.jpg" alt="Deploying and managing distributed applications in a YARN cluster - Zhihong Yu" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/deploying-and-managing-distributed-applications-in-a-yarn-cluster-zhihong-yu">Deploying and managing distributed applications in a YARN cluster - Zhihong Yu</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 32:52</div>
+			
+			
+              <div>Views: 326 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/enterprise-kafka-kafka-as-a-service-todd-palino-clark-haskins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7dkSze52i-o/hqdefault.jpg" alt="Enterprise Kafka: Kafka as a Service - Todd Palino, Clark Haskins" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/enterprise-kafka-kafka-as-a-service-todd-palino-clark-haskins">Enterprise Kafka: Kafka as a Service - Todd Palino, Clark Haskins</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 36:38</div>
+			
+			
+              <div>Views: 8442 Likes: 61</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/extend-yarn-to-support-complicated-workloads-other-than-map-reduce-michael-lv"><img class="list-thumbnail" src="https://i.ytimg.com/vi/D44yvMy4AW0/hqdefault.jpg" alt="Extend YARN To Support Complicated Workloads Other Than Map Reduce - Michael Lv" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/extend-yarn-to-support-complicated-workloads-other-than-map-reduce-michael-lv">Extend YARN To Support Complicated Workloads Other Than Map Reduce - Michael Lv</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 52:29</div>
+			
+			
+              <div>Views: 64 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/extensible-host-resolution-in-traffic-server-alan-carroll"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KL2hc-DB4LI/hqdefault.jpg" alt="Extensible Host Resolution in Traffic Server - Alan Carroll" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/extensible-host-resolution-in-traffic-server-alan-carroll">Extensible Host Resolution in Traffic Server - Alan Carroll</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 53:20</div>
+			
+			
+              <div>Views: 83 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/feeding-the-elephant-optimizing-the-read-path-of-the-hadoop-distributed-filesystem-colin-mccabe"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FV7sfUWuFPw/hqdefault.jpg" alt="Feeding the Elephant  Optimizing the Read Path of the Hadoop Distributed Filesystem - Colin McCabe" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/feeding-the-elephant-optimizing-the-read-path-of-the-hadoop-distributed-filesystem-colin-mccabe">Feeding the Elephant  Optimizing the Read Path of the Hadoop Distributed Filesystem - Colin McCabe</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 48:57</div>
+			
+			
+              <div>Views: 239 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/fine-grained-scheduling-with-helix-kanak-biscuitwala-and-jason-zhang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZJbMDhMq43c/hqdefault.jpg" alt="Fine-Grained Scheduling with Helix - Kanak Biscuitwala and Jason Zhang" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/fine-grained-scheduling-with-helix-kanak-biscuitwala-and-jason-zhang">Fine-Grained Scheduling with Helix - Kanak Biscuitwala and Jason Zhang</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 39:44</div>
+			
+			
+              <div>Views: 512 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/hindex-secondary-indexes-for-faster-hbase-queries-rajeshbabu-chintaguntla"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WDntjkJZM80/hqdefault.jpg" alt="Hindex Secondary indexes for faster HBase queries - Rajeshbabu Chintaguntla" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/hindex-secondary-indexes-for-faster-hbase-queries-rajeshbabu-chintaguntla">Hindex Secondary indexes for faster HBase queries - Rajeshbabu Chintaguntla</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 50:05</div>
+			
+			
+              <div>Views: 920 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/how-apache-phoenix-enables-interactive-low-latency-applications-over-your-hbase-data-james-taylor"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9qfBnFyKZwM/hqdefault.jpg" alt="How Apache Phoenix enables interactive low latency applications over your HBase data - James Taylor" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/how-apache-phoenix-enables-interactive-low-latency-applications-over-your-hbase-data-james-taylor">How Apache Phoenix enables interactive low latency applications over your HBase data - James Taylor</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 48:33</div>
+			
+			
+              <div>Views: 3348 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/interoperability-in-the-apache-hive-ecosystem-sushanth-sowmyan-mithun-radhakrishnan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SA9no60BZEI/hqdefault.jpg" alt="Interoperability in the Apache Hive Ecosystem - Sushanth Sowmyan, Mithun Radhakrishnan" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/interoperability-in-the-apache-hive-ecosystem-sushanth-sowmyan-mithun-radhakrishnan">Interoperability in the Apache Hive Ecosystem - Sushanth Sowmyan, Mithun Radhakrishnan</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 43:19</div>
+			
+			
+              <div>Views: 144 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/introducing-hive-new-command-line-tool-beeline-xuefu-zhang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8VXfuY9Qkz4/hqdefault.jpg" alt="Introducing Hive New Command Line Tool Beeline - Xuefu Zhang" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/introducing-hive-new-command-line-tool-beeline-xuefu-zhang">Introducing Hive New Command Line Tool Beeline - Xuefu Zhang</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 32:19</div>
+			
+			
+              <div>Views: 1540 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/introduction-to-apache-datafu-william-vaughan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JWI9tVsQ1cY/hqdefault.jpg" alt="Introduction to Apache DataFu - William Vaughan" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/introduction-to-apache-datafu-william-vaughan">Introduction to Apache DataFu - William Vaughan</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 31:35</div>
+			
+			
+              <div>Views: 666 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/keynote-allison-randal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/f4o4G02O-ZY/hqdefault.jpg" alt="Keynote - Allison Randal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/keynote-allison-randal">Keynote - Allison Randal</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 19:44</div>
+			
+			
+              <div>Views: 234 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/keynote-hillary-mason"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SpBeJxIiLSs/hqdefault.jpg" alt="Keynote - Hillary Mason" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/keynote-hillary-mason">Keynote - Hillary Mason</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 24:43</div>
+			
+			
+              <div>Views: 469 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/mesos-elastically-scalable-operations-simplified-niklas-nielsen-and-adam-bordelon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EI0ROkf0vks/hqdefault.jpg" alt="Mesos Elastically Scalable Operations, Simplified - Niklas Nielsen and Adam Bordelon" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/mesos-elastically-scalable-operations-simplified-niklas-nielsen-and-adam-bordelon">Mesos Elastically Scalable Operations, Simplified - Niklas Nielsen and Adam Bordelon</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 45:06</div>
+			
+			
+              <div>Views: 935 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/open-source-all-the-communities-jason-hibbets"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bCTDlN_KBFc/hqdefault.jpg" alt="Open Source All The Communities - Jason Hibbets" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/open-source-all-the-communities-jason-hibbets">Open Source All The Communities - Jason Hibbets</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 25:06</div>
+			
+			
+              <div>Views: 196 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/real-time-data-ingest-into-hadoop-using-flume-hari-shreedharan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SR__hkCINNc/hqdefault.jpg" alt="Real Time Data Ingest into Hadoop using Flume - Hari Shreedharan" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/real-time-data-ingest-into-hadoop-using-flume-hari-shreedharan">Real Time Data Ingest into Hadoop using Flume - Hari Shreedharan</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 51:29</div>
+			
+			
+              <div>Views: 15594 Likes: 77</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/scaling-mqtt-using-kafka-tim-kellogg"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VoTclkxSago/hqdefault.jpg" alt="Scaling MQTT Using Kafka - Tim Kellogg" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/scaling-mqtt-using-kafka-tim-kellogg">Scaling MQTT Using Kafka - Tim Kellogg</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 27:38</div>
+			
+			
+              <div>Views: 8184 Likes: 48</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/securing-your-apache-hadoop-cluster-with-apache-sentry-xuefu-zhang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ecF8oYy2sB8/hqdefault.jpg" alt="Securing your Apache Hadoop cluster with Apache Sentry - Xuefu Zhang" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/securing-your-apache-hadoop-cluster-with-apache-sentry-xuefu-zhang">Securing your Apache Hadoop cluster with Apache Sentry - Xuefu Zhang</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 41:21</div>
+			
+			
+              <div>Views: 2577 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/sqoop-2-new-generation-of-big-data-transfers-jaroslav-cecho-abraham-elmahrek"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hg683-GOWP4/hqdefault.jpg" alt="Sqoop 2  New generation of Big Data Transfers - Jaroslav Cecho, Abraham Elmahrek" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/sqoop-2-new-generation-of-big-data-transfers-jaroslav-cecho-abraham-elmahrek">Sqoop 2  New generation of Big Data Transfers - Jaroslav Cecho, Abraham Elmahrek</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 49:30</div>
+			
+			
+              <div>Views: 2226 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/supporting-apache-brands-while-making-a-profit-shane-curcuru"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8cQMhysKeyU/hqdefault.jpg" alt="Supporting Apache Brands While Making A Profit - Shane Curcuru" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/supporting-apache-brands-while-making-a-profit-shane-curcuru">Supporting Apache Brands While Making A Profit - Shane Curcuru</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 26:54</div>
+			
+			
+              <div>Views: 135 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/the-apache-way-in-the-cloud-open-paas-platforms-powered-by-apache-software-james-watters"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KX8ngnl5cRc/hqdefault.jpg" alt="The Apache Way in the Cloud: Open PaaS Platforms Powered by Apache Software- James Watters" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/the-apache-way-in-the-cloud-open-paas-platforms-powered-by-apache-software-james-watters">The Apache Way in the Cloud: Open PaaS Platforms Powered by Apache Software- James Watters</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 31:38</div>
+			
+			
+              <div>Views: 791 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/the-role-of-foundations-jim-zemlin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Srotnl25Q9g/hqdefault.jpg" alt="The Role of Foundations - Jim Zemlin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/the-role-of-foundations-jim-zemlin">The Role of Foundations - Jim Zemlin</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 34:08</div>
+			
+			
+              <div>Views: 130 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/the-tools-geeks-never-talk-about-dh-upayavira"><img class="list-thumbnail" src="https://i.ytimg.com/vi/w3z9SXqTWw8/hqdefault.jpg" alt="The Tools Geeks Never Talk About - Dh Upayavira" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/the-tools-geeks-never-talk-about-dh-upayavira">The Tools Geeks Never Talk About - Dh Upayavira</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 23:37</div>
+			
+			
+              <div>Views: 162 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/apachecon-na-2014/yahoos-adventure-with-apache-traffic-server-shu-kit-chan-vijay-prashanth-hosahithlu"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Uz6XK4txCWM/hqdefault.jpg" alt="Yahoo's Adventure with Apache Traffic Server - Shu Kit Chan, Vijay Prashanth Hosahithlu" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/apachecon-na-2014/yahoos-adventure-with-apache-traffic-server-shu-kit-chan-vijay-prashanth-hosahithlu">Yahoo's Adventure with Apache Traffic Server - Shu Kit Chan, Vijay Prashanth Hosahithlu</a></h4>
+          <footer>
+            <div class="recorded">2014-04-07</div>
+			
+			  <div>Length: 28:56</div>
+			
+			
+              <div>Views: 330 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/apachecon-na-2014">ApacheCon North America 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLU2OcwpQkYCzvGxZgVOunTs-3iEao6YJc">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

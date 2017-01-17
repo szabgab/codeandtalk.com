@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>JSConf Iceland 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>JSConf Iceland 2016</h1>
+
+<div><a href="https://2016.jsconf.is/">JSConf Iceland 2016</a></div>
+
+
+<div>Start date: 2016-08-25</div>
+<div>End date: 2016-08-26</div>
+
+<div>Location:
+  Reykjavik
+  
+  <a href="/l/iceland">Iceland</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/jsconfis">@jsconfis</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=JSConf%20Iceland%202016%20on%202016-08-25%20in%20Reykjavik%2C%20%20Iceland%20%40jsconfis%20https%3A//2016.jsconf.is/%20%23JavaScript%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/alejandro-oviedo-demystifying-javascript-engines-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yJB5k8B0MTQ/hqdefault.jpg" alt="Demystifying (JavaScript) engines" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/alejandro-oviedo-demystifying-javascript-engines-jsconf-iceland-2016">Demystifying (JavaScript) engines</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 17:08</div>
+			
+			
+              <div>Views: 1517 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alejandro-oviedo">Alejandro Oviedo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/alex-kaminsky-the-first-engineers-dilemma-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/w-CSrRquNGI/hqdefault.jpg" alt="The First Engineer's Dilemma" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/alex-kaminsky-the-first-engineers-dilemma-jsconf-iceland-2016">The First Engineer's Dilemma</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 22:50</div>
+			
+			
+              <div>Views: 890 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-kaminsky">Alex Kaminsky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/amy-cheng-recreate-masterpieces-of-modern-art-with-javascript-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G6ZHhDPgmfk/hqdefault.jpg" alt="Recreate Masterpieces of Modern Art with JavaScript!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/amy-cheng-recreate-masterpieces-of-modern-art-with-javascript-jsconf-iceland-2016">Recreate Masterpieces of Modern Art with JavaScript!</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 26:25</div>
+			
+			
+              <div>Views: 799 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amy-cheng">Amy Cheng</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/azat-mardan-you-dont-know-nodejs-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NLtL-EEclRc/hqdefault.jpg" alt="You Don't Know Node.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/azat-mardan-you-dont-know-nodejs-jsconf-iceland-2016">You Don't Know Node.js</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 33:54</div>
+			
+			
+              <div>Views: 6688 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/azat-mardan">Azat Mardan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/berglind-osk-bergsdottir-feeling-like-a-fake-the-impostor-syndrome-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KlozcD5pmPw/hqdefault.jpg" alt="Feeling like a fake - the Impostor Syndrome" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/berglind-osk-bergsdottir-feeling-like-a-fake-the-impostor-syndrome-jsconf-iceland-2016">Feeling like a fake - the Impostor Syndrome</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 21:28</div>
+			
+			
+              <div>Views: 1159 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/berglind-osk-bergsdottir">Berglind Ósk Bergsdóttir</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/brian-holt-react-learn-once-write-anywhere-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G_nh6JnE2_4/hqdefault.jpg" alt="React: Learn Once Write Anywhere" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/brian-holt-react-learn-once-write-anywhere-jsconf-iceland-2016">React: Learn Once Write Anywhere</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 27:28</div>
+			
+			
+              <div>Views: 2140 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-holt">Brian Holt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/dag-inge-aas-user-experience-is-everything-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/r_uYX1x_NTM/hqdefault.jpg" alt="User experience is everything" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/dag-inge-aas-user-experience-is-everything-jsconf-iceland-2016">User experience is everything</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 29:13</div>
+			
+			
+              <div>Views: 844 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dag-inge-aas">Dag-Inge Aas</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/dan-callahan-the-new-mobile-web-service-worker-push-and-app-manifests-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JF-e12S2ZAY/hqdefault.jpg" alt="The New Mobile Web: Service Worker, Push, and App Manifests" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/dan-callahan-the-new-mobile-web-service-worker-push-and-app-manifests-jsconf-iceland-2016">The New Mobile Web: Service Worker, Push, and App Manifests</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 33:12</div>
+			
+			
+              <div>Views: 1338 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-callahan">Dan Callahan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/david-blurton-full-stack-javascript-development-with-docker-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zcSbOl8DYXM/hqdefault.jpg" alt="Full-stack JavaScript development with Docker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/david-blurton-full-stack-javascript-development-with-docker-jsconf-iceland-2016">Full-stack JavaScript development with Docker</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 35:08</div>
+			
+			
+              <div>Views: 4185 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-blurton">David Blurton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/david-khourshid-reactive-animations-with-css-variables-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lTCukb6Zn3g/hqdefault.jpg" alt="Reactive Animations with CSS Variables" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/david-khourshid-reactive-animations-with-css-variables-jsconf-iceland-2016">Reactive Animations with CSS Variables</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 31:03</div>
+			
+			
+              <div>Views: 5840 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-khourshid">David Khourshid</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/david-luecke-meet-mysam-an-open-ai-experiment-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/C1Hld-ONeFA/hqdefault.jpg" alt="Meet MySam - An open AI experiment" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/david-luecke-meet-mysam-an-open-ai-experiment-jsconf-iceland-2016">Meet MySam - An open AI experiment</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 28:12</div>
+			
+			
+              <div>Views: 2172 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-luecke">David Luecke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/denis-rechkunov-progressive-rendering-how-to-make-your-app-render-sooner-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aRaQe9n1lPk/hqdefault.jpg" alt="Progressive Rendering – how to make your app render sooner" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/denis-rechkunov-progressive-rendering-how-to-make-your-app-render-sooner-jsconf-iceland-2016">Progressive Rendering – how to make your app render sooner</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 25:11</div>
+			
+			
+              <div>Views: 1512 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/denis-rechkunov">Denis Rechkunov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/felipe-ribeiro-javascript-spotify-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9UsnX5X_DF0/hqdefault.jpg" alt="JavaScript @ Spotify" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/felipe-ribeiro-javascript-spotify-jsconf-iceland-2016">JavaScript @ Spotify</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 26:37</div>
+			
+			
+              <div>Views: 1687 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/felipe-ribeiro">Felipe Ribeiro</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/heiko-behrens-javascript-on-tiny-wearable-hardware-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zbotfayCIn0/hqdefault.jpg" alt="JavaScript on tiny, wearable hardware" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/heiko-behrens-javascript-on-tiny-wearable-hardware-jsconf-iceland-2016">JavaScript on tiny, wearable hardware</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 34:14</div>
+			
+			
+              <div>Views: 1040 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/heiko-behrens">Heiko Behrens</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/jan-lehnardt-the-state-of-the-javascript-community-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Q6gYFO4iGlk/hqdefault.jpg" alt="The state of the JavaScript Community" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/jan-lehnardt-the-state-of-the-javascript-community-jsconf-iceland-2016">The state of the JavaScript Community</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 24:48</div>
+			
+			
+              <div>Views: 3071 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jan-lehnardt">Jan Lehnardt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/jenna-zeigen-on-how-your-brain-is-conspiring-against-you-making-good-software-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XNfpnCLbRmc/hqdefault.jpg" alt="On How Your Brain is Conspiring Against You Making Good Software" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/jenna-zeigen-on-how-your-brain-is-conspiring-against-you-making-good-software-jsconf-iceland-2016">On How Your Brain is Conspiring Against You Making Good Software</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 29:46</div>
+			
+			
+              <div>Views: 1822 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jenna-zeigen">Jenna Zeigen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/johannes-ewald-the-future-of-frontend-tooling-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VYjBp4z4XjY/hqdefault.jpg" alt="The future of frontend tooling" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/johannes-ewald-the-future-of-frontend-tooling-jsconf-iceland-2016">The future of frontend tooling</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 26:46</div>
+			
+			
+              <div>Views: 2489 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/johannes-ewald">Johannes Ewald</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/justin-falcone-why-is-a-guinea-pig-like-a-microservice-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PoXDa8Mi4YU/hqdefault.jpg" alt="Why is a Guinea Pig Like a Microservice?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/justin-falcone-why-is-a-guinea-pig-like-a-microservice-jsconf-iceland-2016">Why is a Guinea Pig Like a Microservice?</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 24:59</div>
+			
+			
+              <div>Views: 399 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/justin-falcone">Justin Falcone</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/katrina-uychaco-spinning-up-an-electron-app-desktop-apps-in-javascript-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QkfXZ2IFIck/hqdefault.jpg" alt="Spinning up an Electron App - Desktop Apps in JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/katrina-uychaco-spinning-up-an-electron-app-desktop-apps-in-javascript-jsconf-iceland-2016">Spinning up an Electron App - Desktop Apps in JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 24:32</div>
+			
+			
+              <div>Views: 1571 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/katrina-uychaco">Katrina Uychaco</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/lin-clark-a-cartoon-guide-to-performance-in-react-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NGxVLnJKhP8/hqdefault.jpg" alt="A cartoon guide to performance in React" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/lin-clark-a-cartoon-guide-to-performance-in-react-jsconf-iceland-2016">A cartoon guide to performance in React</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 28:15</div>
+			
+			
+              <div>Views: 3169 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lin-clark">Lin Clark</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/liv-erickson-why-you-should-care-about-the-vr-web-and-how-to-build-it-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/skxeCo7xJx8/hqdefault.jpg" alt="Why you should care about the VR Web - and how to build it!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/liv-erickson-why-you-should-care-about-the-vr-web-and-how-to-build-it-jsconf-iceland-2016">Why you should care about the VR Web - and how to build it!</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 29:45</div>
+			
+			
+              <div>Views: 1147 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/liv-erickson">Liv Erickson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/malte-ubl-notalljavascript-how-to-deal-with-3rd-party-js-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jO1TNGNTwpc/hqdefault.jpg" alt="#notalljavascript (How to deal with 3rd party JS)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/malte-ubl-notalljavascript-how-to-deal-with-3rd-party-js-jsconf-iceland-2016">#notalljavascript (How to deal with 3rd party JS)</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 21:58</div>
+			
+			
+              <div>Views: 1797 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/mariko-kosaka-making-a-robot-eye-with-javascript-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sMUj1LXDrBI/hqdefault.jpg" alt="Making a Robot Eye with JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/mariko-kosaka-making-a-robot-eye-with-javascript-jsconf-iceland-2016">Making a Robot Eye with JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 35:44</div>
+			
+			
+              <div>Views: 817 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mariko-kosaka">Mariko Kosaka</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/max-goodman-bicyclejs-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mk6s20Kbbow/hqdefault.jpg" alt="Bicycle.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/max-goodman-bicyclejs-jsconf-iceland-2016">Bicycle.js</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 27:15</div>
+			
+			
+              <div>Views: 1292 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/max-goodman">Max Goodman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/mihai-cirlanaru-speech-recognition-on-the-web-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FDsPUNlANkQ/hqdefault.jpg" alt="Speech Recognition on the Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/mihai-cirlanaru-speech-recognition-on-the-web-jsconf-iceland-2016">Speech Recognition on the Web</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 16:09</div>
+			
+			
+              <div>Views: 392 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mihai-cirlanaru">Mihai Cîrlanaru</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/myles-borins-on-left-pad-and-empathy-understanding-human-connection-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Iak7dspvrZ8/hqdefault.jpg" alt="On left-pad and empathy: understanding human connection" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/myles-borins-on-left-pad-and-empathy-understanding-human-connection-jsconf-iceland-2016">On left-pad and empathy: understanding human connection</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 24:57</div>
+			
+			
+              <div>Views: 2083 Likes: 28</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/myles-borins">Myles Borins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/nick-doiron-if-one-laptop-per-child-were-started-today-how-javascript-y-would-it-be"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8MaH8wJ60eI/hqdefault.jpg" alt="If One Laptop per Child were started today, how JavaScript-y would it be?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/nick-doiron-if-one-laptop-per-child-were-started-today-how-javascript-y-would-it-be">If One Laptop per Child were started today, how JavaScript-y would it be?</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 32:28</div>
+			
+			
+              <div>Views: 271 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-doiron">Nick Doiron</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/raquel-velez-the-npm-website-a-tale-of-wonder-and-woe-and-wombats-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uAT7MJnHnMs/hqdefault.jpg" alt="The npm website: a tale of wonder and woe (and wombats!)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/raquel-velez-the-npm-website-a-tale-of-wonder-and-woe-and-wombats-jsconf-iceland-2016">The npm website: a tale of wonder and woe (and wombats!)</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 26:21</div>
+			
+			
+              <div>Views: 913 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/raquel-velez">Raquel Vélez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/seth-samuel-arbitrary-computation-on-the-gpu-using-webgl-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5lO2wDOGIWI/hqdefault.jpg" alt="Arbitrary Computation on the GPU Using WebGL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/seth-samuel-arbitrary-computation-on-the-gpu-using-webgl-jsconf-iceland-2016">Arbitrary Computation on the GPU Using WebGL</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 23:10</div>
+			
+			
+              <div>Views: 685 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/seth-samuel">Seth Samuel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/tilde-ann-thurium-pivoting-to-react-at-scale-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/t0s97w0GuF4/hqdefault.jpg" alt="Pivoting to React, at scale" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/tilde-ann-thurium-pivoting-to-react-at-scale-jsconf-iceland-2016">Pivoting to React, at scale</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 18:37</div>
+			
+			
+              <div>Views: 1075 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tilde-ann-thurium">Tilde Ann Thurium</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/tryggvi-gylfason-this-will-flow-your-mind-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/p6rybcXZOD0/hqdefault.jpg" alt="This will flow your mind" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/tryggvi-gylfason-this-will-flow-your-mind-jsconf-iceland-2016">This will flow your mind</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 16:37</div>
+			
+			
+              <div>Views: 1249 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tryggvi-gylfason">Tryggvi Gylfason</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/tsubomi-imamura-breaking-the-monolith-with-node-and-docker-at-netflix-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Skafzq6lHlY/hqdefault.jpg" alt="Breaking the monolith with Node and Docker at Netflix" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/tsubomi-imamura-breaking-the-monolith-with-node-and-docker-at-netflix-jsconf-iceland-2016">Breaking the monolith with Node and Docker at Netflix</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 27:15</div>
+			
+			
+              <div>Views: 1021 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tsubomi-imamura">Tsubomi Imamura</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/visnu-pitiyanuvath-hsl-the-rgb-youve-been-waiting-for-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eIUCPpWBrIU/hqdefault.jpg" alt="HSL: The RGB You've Been Waiting For" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/visnu-pitiyanuvath-hsl-the-rgb-youve-been-waiting-for-jsconf-iceland-2016">HSL: The RGB You've Been Waiting For</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 18:57</div>
+			
+			
+              <div>Views: 877 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/visnu-pitiyanuvath">Visnu Pitiyanuvath</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-iceland-2016/vitaly-friedman-dirty-little-front-end-tricks-jsconf-iceland-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DQk9TqO5ets/hqdefault.jpg" alt="Dirty little front-end tricks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-iceland-2016/vitaly-friedman-dirty-little-front-end-tricks-jsconf-iceland-2016">Dirty little front-end tricks</a></h4>
+          <footer>
+            <div class="recorded">2016-08-25</div>
+			
+			  <div>Length: 42:18</div>
+			
+			
+              <div>Views: 7267 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-iceland-2016">JSConf Iceland 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vitaly-friedman">Vitaly Friedman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshGtbb-i7WJqtxZhoe5AGIw4">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

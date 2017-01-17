@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Web Rebels 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Web Rebels 2015</h1>
+
+<div><a href="https://2015.webrebels.org/">Web Rebels 2015</a></div>
+
+
+<div>Start date: 2015-05-21</div>
+<div>End date: 2015-05-22</div>
+
+<div>Location:
+  Oslo
+  
+  <a href="/l/norway">Norway</a>
+</div>
+
+<div><a href="http://jsconf.com/codeofconduct.html">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/web_rebels">@web_rebels</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Web%20Rebels%202015%20on%202015-05-21%20in%20Oslo%2C%20%20Norway%20%40web_rebels%20https%3A//2015.webrebels.org/%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/an-introduction-to-search-index-js-by-fergus-mcdowall-at-web-rebels-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_n-8Gce_Qdk/hqdefault.jpg" alt="An introduction to search index js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/an-introduction-to-search-index-js-by-fergus-mcdowall-at-web-rebels-2015">An introduction to search index js</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 45:40</div>
+			
+			
+              <div>Views: 17 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fergus-mcdowall">Fergus McDowall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/async-programming-at-netflix-by-matthew-podwysocki-at-web-rebels-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QCBcEMVNFN0/hqdefault.jpg" alt="Async Programming at Netflix" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/async-programming-at-netflix-by-matthew-podwysocki-at-web-rebels-2015">Async Programming at Netflix</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 40:26</div>
+			
+			
+              <div>Views: 46 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matthew-podwysocki">Matthew Podwysocki</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/babbling-with-the-merfolk-between-the-layers-of-javascript-hardware-by-suz-hinton"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VlaFSZjVBRs/hqdefault.jpg" alt="Babbling with the merfolk: between the layers of JavaScript hardware" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/babbling-with-the-merfolk-between-the-layers-of-javascript-hardware-by-suz-hinton">Babbling with the merfolk: between the layers of JavaScript hardware</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 41:27</div>
+			
+			
+              <div>Views: 59 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/suz-hinton">Suz Hinton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/cheating-galls-law-by-c-j-silverio-at-web-rebels-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OuhnwqbefVQ/hqdefault.jpg" alt="Cheating Gall’s Law" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/cheating-galls-law-by-c-j-silverio-at-web-rebels-2015">Cheating Gall’s Law</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 28:11</div>
+			
+			
+              <div>Views: 64 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/c-j-silverio">C J Silverio</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/creating-immersive-3d-and-audio-web-experiences-with-babylon-js-by-david-rousset-at-web-rebels-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/23qJrz1pGvU/hqdefault.jpg" alt="Creating immersive 3D and audio web experiences with Babylon js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/creating-immersive-3d-and-audio-web-experiences-with-babylon-js-by-david-rousset-at-web-rebels-2015">Creating immersive 3D and audio web experiences with Babylon js</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 44:22</div>
+			
+			
+              <div>Views: 212 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-rousset">David Rousset</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/immutable-javascript-by-christian-johansen-at-web-rebels-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pi4PZi34hLk/hqdefault.jpg" alt="Immutable JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/immutable-javascript-by-christian-johansen-at-web-rebels-2015">Immutable JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 33:01</div>
+			
+			
+              <div>Views: 200 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christian-johansen">Christian Johansen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/intelligent-design-application-architecture-of-the-human-body-by-brittany-storoz-at-web-rebels-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ep8gOpauUC4/hqdefault.jpg" alt="Intelligent Design  Application Architecture of the Human Body" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/intelligent-design-application-architecture-of-the-human-body-by-brittany-storoz-at-web-rebels-2015">Intelligent Design  Application Architecture of the Human Body</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 29:25</div>
+			
+			
+              <div>Views: 93 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brittany-storoz">Brittany Storoz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/javascript-unicode-by-mathias-bynens-at-web-rebels-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZSUdot0x9Ls/hqdefault.jpg" alt="JavaScript ♥ Unicode" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/javascript-unicode-by-mathias-bynens-at-web-rebels-2015">JavaScript ♥ Unicode</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 38:42</div>
+			
+			
+              <div>Views: 59 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mathias-bynens">Mathias Bynens</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/ladies-and-gentlemen-we-are-floating-in-cyberspace-by-brian-j-brennan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hAT2l0Jy-0o/hqdefault.jpg" alt="Ladies and Gentlemen We Are Floating in Cyberspace" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/ladies-and-gentlemen-we-are-floating-in-cyberspace-by-brian-j-brennan">Ladies and Gentlemen We Are Floating in Cyberspace</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 31:35</div>
+			
+			
+              <div>Views: 18 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-j-brennan">Brian J Brennan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/raising-the-next-generation-of-rebel-by-linda-sandvik-at-web-rebels-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5FjxctJwYds/hqdefault.jpg" alt="Raising the next generation of rebel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/raising-the-next-generation-of-rebel-by-linda-sandvik-at-web-rebels-2015">Raising the next generation of rebel</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 43:48</div>
+			
+			
+              <div>Views: 14 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/linda-sandvik">Linda Sandvik</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/rules-for-rebels-by-mikeal-rogers-at-web-rebels-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NPfW3s5v5UI/hqdefault.jpg" alt="Rules for Rebels" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/rules-for-rebels-by-mikeal-rogers-at-web-rebels-2015">Rules for Rebels</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 43:38</div>
+			
+			
+              <div>Views: 110 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mikeal-rogers">Mikeal Rogers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/shared-memory-multicore-computation-in-javascript-by-lars-hansen-at-web-rebels-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ISiyMsh8SCE/hqdefault.jpg" alt="Shared memory multicore computation in JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/shared-memory-multicore-computation-in-javascript-by-lars-hansen-at-web-rebels-2015">Shared memory multicore computation in JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 30:44</div>
+			
+			
+              <div>Views: 24 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lars-hansen">Lars Hansen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/the-native-web-by-dale-harvey-at-web-rebels-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X3NiY5PGUyk/hqdefault.jpg" alt="The Native Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/the-native-web-by-dale-harvey-at-web-rebels-2015">The Native Web</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 33:19</div>
+			
+			
+              <div>Views: 17 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dale-harvey">Dale Harvey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/third-party-footprint-evaluating-the-performance-of-external-scripts-by-barbara-bermes-at-web-rebel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pfMVn2lk1nw/hqdefault.jpg" alt="Third Party Footprint  Evaluating the Performance of External Scripts" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/third-party-footprint-evaluating-the-performance-of-external-scripts-by-barbara-bermes-at-web-rebel">Third Party Footprint  Evaluating the Performance of External Scripts</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 38:58</div>
+			
+			
+              <div>Views: 14 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/barbara-bermes">Barbara Bermes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/vr-in-the-browser-with-leap-motion-and-google-cardboard-by-mairead-buchan-at-web-rebels-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CtJdv0hEF0g/hqdefault.jpg" alt="VR in the browser with Leap motion and Google cardboard" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/vr-in-the-browser-with-leap-motion-and-google-cardboard-by-mairead-buchan-at-web-rebels-2015">VR in the browser with Leap motion and Google cardboard</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 45:49</div>
+			
+			
+              <div>Views: 946 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mairead-buchan">Mairead Buchan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/webrebels-2015/who-visualized-the-bomp-by-jenn-schiffer-at-web-rebels-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-SabtY6a4sY/hqdefault.jpg" alt="Who Visualized the Bomp?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/webrebels-2015/who-visualized-the-bomp-by-jenn-schiffer-at-web-rebels-2015">Who Visualized the Bomp?</a></h4>
+          <footer>
+            <div class="recorded">2015-05-21</div>
+			
+			  <div>Length: 31:58</div>
+			
+			
+              <div>Views: 58 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/webrebels-2015">Web Rebels 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jenn-schiffer">Jenn Schiffer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLlbIku9ii23rgR9LGHj52PXk35CKh5TEa">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

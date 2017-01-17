@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>RubyConf India 2014</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>RubyConf India 2014</h1>
+
+<div><a href="https://github.com/rubyconfindia/rci2014">RubyConf India 2014</a></div>
+
+
+<div>Start date: 2014-03-22</div>
+<div>End date: 2014-03-23</div>
+
+<div>Location:
+  Goa
+  Goa
+  <a href="/l/india">India</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/ruby">Ruby</a> 
+   
+       <a href="/t/rails">Rails</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/rubyconfindia">@rubyconfindia</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/rubyconfindia">https://www.facebook.com/rubyconfindia</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=RubyConf%20India%202014%20on%202014-03-22%20in%20Goa%2C%20Goa%20India%20%40rubyconfindia%20https%3A//github.com/rubyconfindia/rci2014%20%23Ruby%20%23Rails%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/a-romance-between-ruby-rails-zachary-scott"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Z7N47yCfqok/hqdefault.jpg" alt="A Romance between Ruby & Rails - Zachary Scott" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/a-romance-between-ruby-rails-zachary-scott">A Romance between Ruby & Rails - Zachary Scott</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 35:28</div>
+			
+			
+              <div>Views: 81 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/big-brother-is-watching-and-how-to-secure-your-apps-from-them-sreekanth-vadegiri"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6IMdbs0JZt4/hqdefault.jpg" alt="Big brother is watching and how to secure your apps from them - Sreekanth Vadegiri" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/big-brother-is-watching-and-how-to-secure-your-apps-from-them-sreekanth-vadegiri">Big brother is watching and how to secure your apps from them - Sreekanth Vadegiri</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 31:16</div>
+			
+			
+              <div>Views: 45 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/bringing-concurrency-to-ruby-charles-nutter"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EAbmDyKp0lQ/hqdefault.jpg" alt="Bringing Concurrency to Ruby - Charles Nutter" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/bringing-concurrency-to-ruby-charles-nutter">Bringing Concurrency to Ruby - Charles Nutter</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 45:03</div>
+			
+			
+              <div>Views: 292 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/build-prosperin-an-around-25-minutes-rishi-jain"><img class="list-thumbnail" src="https://i.ytimg.com/vi/E21nhgckYI0/hqdefault.jpg" alt="Build & Prosper(in an around 25 minutes) !! - Rishi Jain" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/build-prosperin-an-around-25-minutes-rishi-jain">Build & Prosper(in an around 25 minutes) !! - Rishi Jain</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 24:55</div>
+			
+			
+              <div>Views: 56 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/building-a-web-for-everybody-arpan-cj"><img class="list-thumbnail" src="https://i.ytimg.com/vi/S7wTiMv_OBs/hqdefault.jpg" alt="Building a Web for Everybody - Arpan CJ" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/building-a-web-for-everybody-arpan-cj">Building a Web for Everybody - Arpan CJ</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 32:00</div>
+			
+			
+              <div>Views: 44 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/building-your-own-code-metrics-tool-for-ruby-deepak-kannan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dPSGXlnzPSo/hqdefault.jpg" alt="Building your own Code metrics tool for Ruby -  Deepak Kannan" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/building-your-own-code-metrics-tool-for-ruby-deepak-kannan">Building your own Code metrics tool for Ruby -  Deepak Kannan</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 30:15</div>
+			
+			
+              <div>Views: 79 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/byorp-build-your-own-ruby-profiler-kashyap-k"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2hPnRp-nFMs/hqdefault.jpg" alt="BYORP. Build your own Ruby Profiler -  Kashyap K" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/byorp-build-your-own-ruby-profiler-kashyap-k">BYORP. Build your own Ruby Profiler -  Kashyap K</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 30:13</div>
+			
+			
+              <div>Views: 77 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/ditch-activerecord-for-activegraph-is-your-new-girlfriend-ujjwal-thaakar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X_mkioYC_PY/hqdefault.jpg" alt="Ditch ActiveRecord for ActiveGraph is your new girlfriend! - Ujjwal Thaakar" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/ditch-activerecord-for-activegraph-is-your-new-girlfriend-ujjwal-thaakar">Ditch ActiveRecord for ActiveGraph is your new girlfriend! - Ujjwal Thaakar</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 27:35</div>
+			
+			
+              <div>Views: 135 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/domain-driven-design-nosql-lucas-dohmen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/waDib-J3D7o/hqdefault.jpg" alt="Domain Driven Design & NoSQL - Lucas Dohmen" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/domain-driven-design-nosql-lucas-dohmen">Domain Driven Design & NoSQL - Lucas Dohmen</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 27:58</div>
+			
+			
+              <div>Views: 601 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/every-penny-saved-is-a-penny-earned-akshay-gupta-sanjeev-mishra"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fBDlMJVbFo8/hqdefault.jpg" alt="Every penny saved is a penny earned - Akshay Gupta, Sanjeev Mishra" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/every-penny-saved-is-a-penny-earned-akshay-gupta-sanjeev-mishra">Every penny saved is a penny earned - Akshay Gupta, Sanjeev Mishra</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 29:24</div>
+			
+			
+              <div>Views: 48 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/how-does-bundler-bundle-smit-shah"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UgbB9V5Ggx0/hqdefault.jpg" alt="How does Bundler bundle? - Smit Shah" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/how-does-bundler-bundle-smit-shah">How does Bundler bundle? - Smit Shah</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 26:16</div>
+			
+			
+              <div>Views: 132 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/keith-and-marios-guide-to-fast-websites-mario-visic"><img class="list-thumbnail" src="https://i.ytimg.com/vi/81mmNwdZOBo/hqdefault.jpg" alt="Keith and Mario's Guide to Fast Websites - Mario Visic" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/keith-and-marios-guide-to-fast-websites-mario-visic">Keith and Mario's Guide to Fast Websites - Mario Visic</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 32:03</div>
+			
+			
+              <div>Views: 70 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/lets-get-real-time-server-sent-events-websockets-and-webrtc-for-the-soul-swanand-pagnis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1yDhdJcgWP4/hqdefault.jpg" alt="Let's get real (time): Server-Sent Events, WebSockets and WebRTC for the soul - Swanand Pagnis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/lets-get-real-time-server-sent-events-websockets-and-webrtc-for-the-soul-swanand-pagnis">Let's get real (time): Server-Sent Events, WebSockets and WebRTC for the soul - Swanand Pagnis</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 31:29</div>
+			
+			
+              <div>Views: 529 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/make-ruby-talk-to-your-users-literally-bhavin-javia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dLp-O1w1Duw/hqdefault.jpg" alt="Make Ruby 'talk' to your users - literally -  Bhavin Javia" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/make-ruby-talk-to-your-users-literally-bhavin-javia">Make Ruby 'talk' to your users - literally -  Bhavin Javia</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 30:35</div>
+			
+			
+              <div>Views: 116 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/natural-language-processing-with-ruby-konstantin-tennhard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oFmy_QBQ5DU/hqdefault.jpg" alt="Natural Language Processing with Ruby - Konstantin Tennhard" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/natural-language-processing-with-ruby-konstantin-tennhard">Natural Language Processing with Ruby - Konstantin Tennhard</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 25:02</div>
+			
+			
+              <div>Views: 572 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/offensive-ruby-ausmarton-fernandes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2fpHRh28ZlE/hqdefault.jpg" alt="Offensive Ruby - Ausmarton Fernandes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/offensive-ruby-ausmarton-fernandes">Offensive Ruby - Ausmarton Fernandes</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 23:43</div>
+			
+			
+              <div>Views: 88 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/ruby-groups-act-locally-think-globally-by-pj-hagerty"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ft7gZY8b2b8/hqdefault.jpg" alt="Ruby Groups: Act Locally - Think Globally by PJ Hagerty" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/ruby-groups-act-locally-think-globally-by-pj-hagerty">Ruby Groups: Act Locally - Think Globally by PJ Hagerty</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 50:56</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/ruby-on-rails-hacking-guide-akira-matsuda"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Od3nfu5jv3s/hqdefault.jpg" alt="Ruby on Rails Hacking Guide - Akira Matsuda" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/ruby-on-rails-hacking-guide-akira-matsuda">Ruby on Rails Hacking Guide - Akira Matsuda</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 45:14</div>
+			
+			
+              <div>Views: 657 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/solid-design-principles-in-ruby-anil-wadghule"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wp-VftYr-jQ/hqdefault.jpg" alt="SOLID Design Principles in Ruby - Anil Wadghule" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/solid-design-principles-in-ruby-anil-wadghule">SOLID Design Principles in Ruby - Anil Wadghule</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 28:08</div>
+			
+			
+              <div>Views: 478 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rubyconf-india-2014/truly-madly-deeply-parallel-ruby-applications-hari-krishnan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9VHWCsprfHI/hqdefault.jpg" alt="Truly Madly Deeply Parallel Ruby Applications - Hari Krishnan" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rubyconf-india-2014/truly-madly-deeply-parallel-ruby-applications-hari-krishnan">Truly Madly Deeply Parallel Ruby Applications - Hari Krishnan</a></h4>
+          <footer>
+            <div class="recorded">2014-03-22</div>
+			
+			  <div>Length: 16:02</div>
+			
+			
+              <div>Views: 100 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rubyconf-india-2014">RubyConf India 2014</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLNyYRB_d4fk2Hz8_HuHIAPv5dJGrnxh14">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

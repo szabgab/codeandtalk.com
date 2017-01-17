@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>React.js Conf 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>React.js Conf 2015</h1>
+
+<div><a href="http://conf2015.reactjs.org/schedule.html">React.js Conf 2015</a></div>
+
+
+<div>Start date: 2015-01-28</div>
+<div>End date: 2015-01-29</div>
+
+<div>Location:
+  Menlo Park
+  California
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://conf.reactjs.com/code-of-conduct.html">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/react">React</a> 
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/web">web</a> 
+   
+</div>
+
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=React.js%20Conf%202015%20on%202015-01-28%20in%20Menlo%20Park%2C%20California%20USA%20http%3A//conf2015.reactjs.org/schedule.html%20%23React%20%23JavaScript%20%23web%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-beyond-the-dom-how-netflix-plans-to-enhance-your-television-experience"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eNC0mRYGWgc/hqdefault.jpg" alt="React.js Conf 2015 - Beyond the DOM: How Netflix plans to enhance your television experience" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-beyond-the-dom-how-netflix-plans-to-enhance-your-television-experience">React.js Conf 2015 - Beyond the DOM: How Netflix plans to enhance your television experience</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 25:55</div>
+			
+			
+              <div>Views: 20486 Likes: 169</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-codecademys-approach-to-component-communication"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZM6wXoFTY3o/hqdefault.jpg" alt="React.js Conf 2015 - Codecademy's approach to component communication" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-codecademys-approach-to-component-communication">React.js Conf 2015 - Codecademy's approach to component communication</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 23:58</div>
+			
+			
+              <div>Views: 10859 Likes: 54</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-communicating-with-channels"><img class="list-thumbnail" src="https://i.ytimg.com/vi/W2DgDNQZOwo/hqdefault.jpg" alt="React.js Conf 2015 - Communicating with channels" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-communicating-with-channels">React.js Conf 2015 - Communicating with channels</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 33:27</div>
+			
+			
+              <div>Views: 15106 Likes: 69</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-data-fetching-for-react-applications-at-facebook"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9sc8Pyc51uU/hqdefault.jpg" alt="React.js Conf 2015 - Data fetching for React applications at Facebook" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-data-fetching-for-react-applications-at-facebook">React.js Conf 2015 - Data fetching for React applications at Facebook</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 26:40</div>
+			
+			
+              <div>Views: 85081 Likes: 610</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-flux-panel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LTj4O7WJJ98/hqdefault.jpg" alt="React.js Conf 2015 - Flux Panel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-flux-panel">React.js Conf 2015 - Flux Panel</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 31:02</div>
+			
+			
+              <div>Views: 11713 Likes: 81</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-formatting-with-formatjs-and-react-intl"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Sla-DkvmIHY/hqdefault.jpg" alt="React.js Conf 2015 - Formatting with FormatJS and react-intl" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-formatting-with-formatjs-and-react-intl">React.js Conf 2015 - Formatting with FormatJS and react-intl</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 28:03</div>
+			
+			
+              <div>Views: 12591 Likes: 101</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-full-stack-flux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KtmjkCuV-EU/hqdefault.jpg" alt="React.js Conf 2015 - Full Stack Flux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-full-stack-flux">React.js Conf 2015 - Full Stack Flux</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 32:35</div>
+			
+			
+              <div>Views: 53619 Likes: 334</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-hype"><img class="list-thumbnail" src="https://i.ytimg.com/vi/z5e7kWSHWTg/hqdefault.jpg" alt="React.js Conf 2015 - Hype!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-hype">React.js Conf 2015 - Hype!</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 31:17</div>
+			
+			
+              <div>Views: 87967 Likes: 747</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-immutable-data-and-react"><img class="list-thumbnail" src="https://i.ytimg.com/vi/I7IdS-PbEgI/hqdefault.jpg" alt="React.js Conf 2015 - Immutable Data and React" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-immutable-data-and-react">React.js Conf 2015 - Immutable Data and React</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 31:11</div>
+			
+			
+              <div>Views: 75228 Likes: 1058</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-keynote-2-a-deep-dive-into-react-native"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7rDsRXj9-cU/hqdefault.jpg" alt="React.js Conf 2015 Keynote 2 - A Deep Dive into React Native" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-keynote-2-a-deep-dive-into-react-native">React.js Conf 2015 Keynote 2 - A Deep Dive into React Native</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 30:14</div>
+			
+			
+              <div>Views: 121760 Likes: 976</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-keynote-introducing-react-native"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KVZ-P-ZI6W4/hqdefault.jpg" alt="React.js Conf 2015 Keynote - Introducing React Native" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-keynote-introducing-react-native">React.js Conf 2015 Keynote - Introducing React Native</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 31:47</div>
+			
+			
+              <div>Views: 232040 Likes: 1975</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-making-your-app-fast-with-high-performance-components"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KYzlpRvWZ6c/hqdefault.jpg" alt="React.js Conf 2015 - Making your app fast with high-performance components" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-making-your-app-fast-with-high-performance-components">React.js Conf 2015 - Making your app fast with high-performance components</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 29:49</div>
+			
+			
+              <div>Views: 60409 Likes: 391</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-qa-with-the-team"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EPpkboSKvPI/hqdefault.jpg" alt="React.js Conf 2015 - Q&A with the team" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-qa-with-the-team">React.js Conf 2015 - Q&A with the team</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 31:08</div>
+			
+			
+              <div>Views: 7786 Likes: 37</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-react-router-increases-your-productivity"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XZfvW1a8Xac/hqdefault.jpg" alt="React.js Conf 2015 - react-router increases your productivity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-react-router-increases-your-productivity">React.js Conf 2015 - react-router increases your productivity</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 32:15</div>
+			
+			
+              <div>Views: 35938 Likes: 299</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-refracting-react"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5hGHdETNteE/hqdefault.jpg" alt="React.js Conf 2015 - Refracting React" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-refracting-react">React.js Conf 2015 - Refracting React</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 31:43</div>
+			
+			
+              <div>Views: 19666 Likes: 149</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-scalable-data-visualization"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2ii1lEkIv1s/hqdefault.jpg" alt="React.js Conf 2015 - Scalable Data Visualization" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-scalable-data-visualization">React.js Conf 2015 - Scalable Data Visualization</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 26:52</div>
+			
+			
+              <div>Views: 21645 Likes: 185</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-static-typing-with-flow-and-typescript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9PTa9-PPVAc/hqdefault.jpg" alt="React.js Conf 2015 - Static typing with Flow and TypeScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-static-typing-with-flow-and-typescript">React.js Conf 2015 - Static typing with Flow and TypeScript</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 31:51</div>
+			
+			
+              <div>Views: 16032 Likes: 91</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-the-complementarity-of-react-and-web-components"><img class="list-thumbnail" src="https://i.ytimg.com/vi/g0TD0efcwVg/hqdefault.jpg" alt="React.js Conf 2015 - The complementarity of React and Web Components" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-the-complementarity-of-react-and-web-components">React.js Conf 2015 - The complementarity of React and Web Components</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 25:47</div>
+			
+			
+              <div>Views: 18720 Likes: 145</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-tweak-your-page-in-real-time"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yaymfLj5tjA/hqdefault.jpg" alt="React.js Conf 2015 - Tweak your page in real time" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-tweak-your-page-in-real-time">React.js Conf 2015 - Tweak your page in real time</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 21:35</div>
+			
+			
+              <div>Views: 27911 Likes: 148</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/react-conf-2015/reactjs-conf-2015-unlocking-the-structure-of-your-react-applications-with-the-ast"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OZGgVxFxSIs/hqdefault.jpg" alt="React.js Conf 2015 - Unlocking the structure of your React applications with the AST" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/react-conf-2015/reactjs-conf-2015-unlocking-the-structure-of-your-react-applications-with-the-ast">React.js Conf 2015 - Unlocking the structure of your React applications with the AST</a></h4>
+          <footer>
+            <div class="recorded">2015-01-28</div>
+			
+			  <div>Length: 28:28</div>
+			
+			
+              <div>Views: 18640 Likes: 89</div>
+            
+            <div class="event">From <a href="/e/react-conf-2015">React.js Conf 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLb0IAmt7-GS1cbw4qonlQztYV1TAW0sCr">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

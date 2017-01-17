@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>JSConf Asia 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>JSConf Asia 2015</h1>
+
+<div><a href="https://2015.jsconf.asia/">JSConf Asia 2015</a></div>
+
+
+<div>Start date: 2015-11-19</div>
+<div>End date: 2015-11-20</div>
+
+<div>Location:
+  Singapore
+  
+  <a href="/l/singapore">Singapore</a>
+</div>
+
+<div><a href="http://2015.devfest.asia/code-of-conduct/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/jsconfasia">@jsconfasia</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/JSConfAsia">https://www.facebook.com/JSConfAsia</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=JSConf%20Asia%202015%20on%202015-11-19%20in%20Singapore%2C%20%20Singapore%20%40jsconfasia%20https%3A//2015.jsconf.asia/%20%23JavaScript%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/alexandre-strzelewicz-production-applications-with-pm2-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/69E5xmF8j-o/hqdefault.jpg" alt="Production Applications with PM2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/alexandre-strzelewicz-production-applications-with-pm2-jsconfasia-2015">Production Applications with PM2</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 32:14</div>
+			
+			
+              <div>Views: 942 Likes: 24</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alexandre-strzelewicz">Alexandre Strzelewicz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/andre-marcelo-tanner-accelerating-the-web-through-amp-lighting-talk-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3cJ1jojScRk/hqdefault.jpg" alt="Accelerating the Web through AMP" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/andre-marcelo-tanner-accelerating-the-web-through-amp-lighting-talk-jsconfasia-2015">Accelerating the Web through AMP</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 06:24</div>
+			
+			
+              <div>Views: 694 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andre-marcelo-tanner">Andre Marcelo-Tanner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/ashwani-goyal-building-responsive-web-apps-with-openui5-lightning-talk-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ovd41HYGcfA/hqdefault.jpg" alt="Building Responsive Web Apps with OPENUI5" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/ashwani-goyal-building-responsive-web-apps-with-openui5-lightning-talk-jsconfasia-2015">Building Responsive Web Apps with OPENUI5</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 05:36</div>
+			
+			
+              <div>Views: 1568 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ashwani-goyal">Ashwani Goyal</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/christian-heilmann-overboardjs-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cl1wzzjmheI/hqdefault.jpg" alt="Overboard.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/christian-heilmann-overboardjs-jsconfasia-2015">Overboard.js</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 51:51</div>
+			
+			
+              <div>Views: 2920 Likes: 82</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christian-heilmann">Christian Heilmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/danese-cooper-the-node-foundation-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MNk5Jxj8Znw/hqdefault.jpg" alt="The Node Foundation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/danese-cooper-the-node-foundation-jsconfasia-2015">The Node Foundation</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 38:02</div>
+			
+			
+              <div>Views: 1403 Likes: 34</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/danese-cooper">Danese Cooper</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/g-kay-lee-bio-inspired-frontend-engineering-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/D2o005ucV30/hqdefault.jpg" alt="Bio-Inspired Frontend Engineering" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/g-kay-lee-bio-inspired-frontend-engineering-jsconfasia-2015">Bio-Inspired Frontend Engineering</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 40:39</div>
+			
+			
+              <div>Views: 691 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/g-kay-lee">G. Kay Lee</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/hamzeen-hameem-unbox-development-in-production-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OTQuAP7OebI/hqdefault.jpg" alt="Unbox Development in Production" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/hamzeen-hameem-unbox-development-in-production-jsconfasia-2015">Unbox Development in Production</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 18:59</div>
+			
+			
+              <div>Views: 575 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hamzeen-hameem">Hamzeen Hameem</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/isaac-johnston-simplicity-through-functions-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lejV59XtPAE/hqdefault.jpg" alt="Simplicity through Functions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/isaac-johnston-simplicity-through-functions-jsconfasia-2015">Simplicity through Functions</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 39:58</div>
+			
+			
+              <div>Views: 1886 Likes: 27</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/isaac-johnston">Isaac Johnston</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/jspardy-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/itnavS5CenU/hqdefault.jpg" alt="JSPardy - JSConf.Asia 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/jspardy-jsconfasia-2015">JSPardy - JSConf.Asia 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 22:27</div>
+			
+			
+              <div>Views: 1420 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/karen-farzam-the-route-to-http2-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/i2ezuw_RV78/hqdefault.jpg" alt="The Route to HTTP/2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/karen-farzam-the-route-to-http2-jsconfasia-2015">The Route to HTTP/2</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 18:06</div>
+			
+			
+              <div>Views: 2071 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/karen-farzam">Karen Farzam</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/kenneth-lim-particle-io-lighting-talk-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7k5NFcZIvMY/hqdefault.jpg" alt="Particle IO" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/kenneth-lim-particle-io-lighting-talk-jsconfasia-2015">Particle IO</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 04:24</div>
+			
+			
+              <div>Views: 874 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kenneth-lim">Kenneth Lim</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/koji-ishimoto-evaluating-your-stylesheets-lighting-talk-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YAhfsPyv7bw/hqdefault.jpg" alt="Evaluating Your Stylesheets" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/koji-ishimoto-evaluating-your-stylesheets-lighting-talk-jsconfasia-2015">Evaluating Your Stylesheets</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 05:22</div>
+			
+			
+              <div>Views: 1213 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/koji-ishimoto">Koji Ishimoto</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/mariko-kosaka-elektroknit-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lj4xPkrTPKs/hqdefault.jpg" alt="Elektroknit!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/mariko-kosaka-elektroknit-jsconfasia-2015">Elektroknit!</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 30:29</div>
+			
+			
+              <div>Views: 1089 Likes: 45</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mariko-kosaka">Mariko Kosaka</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/mathieu-p01-henri-making-realtime-audio-visuals-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/16oLi1kvLHs/hqdefault.jpg" alt="Making Realtime Audio-Visuals" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/mathieu-p01-henri-making-realtime-audio-visuals-jsconfasia-2015">Making Realtime Audio-Visuals</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 47:43</div>
+			
+			
+              <div>Views: 7909 Likes: 270</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mathieu-henri">Mathieu 'p01' Henri</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/matt-mckegg-i-play-the-javascript-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NL0nb8A8FDM/hqdefault.jpg" alt="I Play The JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/matt-mckegg-i-play-the-javascript-jsconfasia-2015">I Play The JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 45:24</div>
+			
+			
+              <div>Views: 3104 Likes: 83</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-mckegg">Matt McKegg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/matthew-campbell-game-programming-for-education-in-javascript-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2p4YunDAzsk/hqdefault.jpg" alt="Game Programming for Education in JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/matthew-campbell-game-programming-for-education-in-javascript-jsconfasia-2015">Game Programming for Education in JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 40:30</div>
+			
+			
+              <div>Views: 1899 Likes: 30</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matthew-campbell">Matthew Campbell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/matthew-podwysocki-reactive-javascript-at-netflix-microsoft-and-the-world-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BwwgmB73Hzw/hqdefault.jpg" alt="Reactive JavaScript at Netflix, Microsoft and the World" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/matthew-podwysocki-reactive-javascript-at-netflix-microsoft-and-the-world-jsconfasia-2015">Reactive JavaScript at Netflix, Microsoft and the World</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 43:18</div>
+			
+			
+              <div>Views: 5872 Likes: 133</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matthew-podwysocki">Matthew Podwysocki</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/paul-adenot-elements-of-dance-music-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ww0jTafmd_w/hqdefault.jpg" alt="Elements of Dance Music" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/paul-adenot-elements-of-dance-music-jsconfasia-2015">Elements of Dance Music</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 41:36</div>
+			
+			
+              <div>Views: 1749 Likes: 47</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-adenot">Paul Adenot</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/prasanna-kanagasabei-js-security-a-pentesters-perspective-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LVamMYljS4Q/hqdefault.jpg" alt="JS Security - A Pentesters Perspective" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/prasanna-kanagasabei-js-security-a-pentesters-perspective-jsconfasia-2015">JS Security - A Pentesters Perspective</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 34:03</div>
+			
+			
+              <div>Views: 1319 Likes: 22</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/prasanna-kanagasabei">Prasanna Kanagasabei</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/princiya-sequeira-web-based-3d-camera-simulator-for-perceptual-computing-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vgWonzhZIww/hqdefault.jpg" alt="Web based 3D Camera Simulator for Perceptual Computing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/princiya-sequeira-web-based-3d-camera-simulator-for-perceptual-computing-jsconfasia-2015">Web based 3D Camera Simulator for Perceptual Computing</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 20:15</div>
+			
+			
+              <div>Views: 626 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/princiya-sequeira">Princiya Sequeira</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/ryan-j-salva-js-performance-in-mobile-web-and-hybrid-apps-because-science-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/53EJcv2chLo/hqdefault.jpg" alt="JS performance in mobile web and hybrid apps… because science!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/ryan-j-salva-js-performance-in-mobile-web-and-hybrid-apps-because-science-jsconfasia-2015">JS performance in mobile web and hybrid apps… because science!</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 40:28</div>
+			
+			
+              <div>Views: 1747 Likes: 34</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ryan-j-salva">Ryan J Salva</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/sarmad-sangi-towards-universal-javascript-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ld3X8PTOgQQ/hqdefault.jpg" alt="Towards Universal JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/sarmad-sangi-towards-universal-javascript-jsconfasia-2015">Towards Universal JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 39:00</div>
+			
+			
+              <div>Views: 789 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sarmad-sangi">Sarmad Sangi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/simon-swain-minimum-viable-warfare-lightning-talk-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zeKNXaM2fsA/hqdefault.jpg" alt="Minimum Viable Warfare" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/simon-swain-minimum-viable-warfare-lightning-talk-jsconfasia-2015">Minimum Viable Warfare</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 05:40</div>
+			
+			
+              <div>Views: 1334 Likes: 67</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-swain">Simon Swain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/tim-messerschmidt-node-js-authentication-and-data-security-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/a8zYmRmtss0/hqdefault.jpg" alt="Node JS Authentication and Data Security" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/tim-messerschmidt-node-js-authentication-and-data-security-jsconfasia-2015">Node JS Authentication and Data Security</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 40:56</div>
+			
+			
+              <div>Views: 3243 Likes: 90</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-messerschmidt">Tim Messerschmidt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2015/tim-oxley-the-structure-of-nodejs-applications-jsconfasia-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yD2lMmmjB2E/hqdefault.jpg" alt="The Structure of Node.JS Applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2015/tim-oxley-the-structure-of-nodejs-applications-jsconfasia-2015">The Structure of Node.JS Applications</a></h4>
+          <footer>
+            <div class="recorded">2015-11-19</div>
+			
+			  <div>Length: 39:01</div>
+			
+			
+              <div>Views: 6763 Likes: 94</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2015">JSConf Asia 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-oxley">Tim Oxley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshGpDJn60AwbJ6xegSHe_cDh">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

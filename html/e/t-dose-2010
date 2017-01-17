@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>T-DOSE 2010</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>T-DOSE 2010</h1>
+
+<div><a href="http://www.t-dose.org/2010/schedule">T-DOSE 2010</a></div>
+
+
+<div>Start date: 2010-11-06</div>
+<div>End date: 2010-11-07</div>
+
+<div>Location:
+  Eindhoven
+  
+  <a href="/l/the-netherlands">The Netherlands</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/opensource">OpenSource</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/TDOSE">@TDOSE</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/tdosenl">https://www.facebook.com/tdosenl</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=T-DOSE%202010%20on%202010-11-06%20in%20Eindhoven%2C%20%20The%20Netherlands%20%40TDOSE%20http%3A//www.t-dose.org/2010/schedule%20%23OpenSource%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2010/t-dose-2010-are-we-loosing-freedom-on-the-internet-sebastian-wilhelm-graf"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mzMSeLn0WTs/hqdefault.jpg" alt="Are we loosing freedom on the Internet?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2010/t-dose-2010-are-we-loosing-freedom-on-the-internet-sebastian-wilhelm-graf">Are we loosing freedom on the Internet?</a></h4>
+          <footer>
+            <div class="recorded">2010-11-06</div>
+			
+			  <div>Length: 34:37</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2010">T-DOSE 2010</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sebastian-wilhelm-graf">Sebastian Wilhelm Graf</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2010/t-dose-2010-be-lazy-manage-configuration-with-puppet-andreas-rogge"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-qmeZwvTG4M/hqdefault.jpg" alt="Be Lazy! - manage configuration with Puppet" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2010/t-dose-2010-be-lazy-manage-configuration-with-puppet-andreas-rogge">Be Lazy! - manage configuration with Puppet</a></h4>
+          <footer>
+            <div class="recorded">2010-11-06</div>
+			
+			  <div>Length: 57:13</div>
+			
+			
+              <div>Views: 47 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2010">T-DOSE 2010</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andreas-rogge">Andreas Rogge</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2010/t-dose-2010-chamilo-2-jean-marie-maes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GU2NuZd-uUc/hqdefault.jpg" alt="Chamilo 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2010/t-dose-2010-chamilo-2-jean-marie-maes">Chamilo 2</a></h4>
+          <footer>
+            <div class="recorded">2010-11-06</div>
+			
+			  <div>Length: 57:49</div>
+			
+			
+              <div>Views: 62 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2010">T-DOSE 2010</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jean-marie-maes">Jean Marie Maes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2010/t-dose-2010-closure-technical-dutch-open-source-event-jean-paul-saman-and-jeroen-baten"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-GgLi6Dt9Bk/hqdefault.jpg" alt="Closure Technical Dutch Open Source Event" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2010/t-dose-2010-closure-technical-dutch-open-source-event-jean-paul-saman-and-jeroen-baten">Closure Technical Dutch Open Source Event</a></h4>
+          <footer>
+            <div class="recorded">2010-11-07</div>
+			
+			  <div>Length: 04:58</div>
+			
+			
+              <div>Views: 34 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2010">T-DOSE 2010</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeroen-baten">Jeroen Baten</a>
+             
+                <a href="/p/jean-paul-saman">Jean-Paul Saman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2010/t-dose-2010-devops-to-devops-patrick-debois-and-kris-buytaert"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ty6iHN4EilY/hqdefault.jpg" alt="Dev/Ops to DevOps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2010/t-dose-2010-devops-to-devops-patrick-debois-and-kris-buytaert">Dev/Ops to DevOps</a></h4>
+          <footer>
+            <div class="recorded">2010-11-06</div>
+			
+			  <div>Length: 42:05</div>
+			
+			
+              <div>Views: 80 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2010">T-DOSE 2010</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kris-buytaert">Kris Buytaert</a>
+             
+                <a href="/p/patrick-debois">Patrick Debois</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2010/t-dose-2010-getting-physic-al-with-webgl-jiglibjs-jim-sangwine"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CJM5SG-4Yl8/hqdefault.jpg" alt="Getting physic-al with WebGL: JigLibJS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2010/t-dose-2010-getting-physic-al-with-webgl-jiglibjs-jim-sangwine">Getting physic-al with WebGL: JigLibJS</a></h4>
+          <footer>
+            <div class="recorded">2010-11-06</div>
+			
+			  <div>Length: 32:51</div>
+			
+			
+              <div>Views: 45 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2010">T-DOSE 2010</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jim-sangwine">Jim Sangwine</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2010/t-dose-2010-interview-with-openstreet-map-dutch-open-source-event-jean-paul-saman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eYO61V4wzu0/hqdefault.jpg" alt="Interview with Henk Hoff about OpenStreet Map" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2010/t-dose-2010-interview-with-openstreet-map-dutch-open-source-event-jean-paul-saman">Interview with Henk Hoff about OpenStreet Map</a></h4>
+          <footer>
+            <div class="recorded">2010-11-07</div>
+			
+			  <div>Length: 03:46</div>
+			
+			
+              <div>Views: 14 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2010">T-DOSE 2010</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jean-paul-saman">Jean-Paul Saman</a>
+             
+                <a href="/p/henk-hoff">Henk Hoff</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2010/t-dose-2010-keynote-it-management-cloud-and-devops-john-willis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/a5pVtqKwDcA/hqdefault.jpg" alt="Keynote IT Management, Cloud and Devops" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2010/t-dose-2010-keynote-it-management-cloud-and-devops-john-willis">Keynote IT Management, Cloud and Devops</a></h4>
+          <footer>
+            <div class="recorded">2010-11-06</div>
+			
+			  <div>Length: 55:11</div>
+			
+			
+              <div>Views: 48 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2010">T-DOSE 2010</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-willis">John Willis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2010/t-dose-2010-selinux-increasing-security-one-compartment-at-a-time-bharvani-toshaan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BlyHisxi2PQ/hqdefault.jpg" alt="SELinux, increasing security one compartment at a time" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2010/t-dose-2010-selinux-increasing-security-one-compartment-at-a-time-bharvani-toshaan">SELinux, increasing security one compartment at a time</a></h4>
+          <footer>
+            <div class="recorded">2010-11-07</div>
+			
+			  <div>Length: 50:40</div>
+			
+			
+              <div>Views: 42 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2010">T-DOSE 2010</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bharvani-toshaan">Bharvani Toshaan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2010/t-dose-201018-months-the-butterfly-effect-klaas-van-gend-and-peter-van-ginneken"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8HtrUCGTNzE/hqdefault.jpg" alt="18 months The Butterfly Effect" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2010/t-dose-201018-months-the-butterfly-effect-klaas-van-gend-and-peter-van-ginneken">18 months The Butterfly Effect</a></h4>
+          <footer>
+            <div class="recorded">2010-11-07</div>
+			
+			  <div>Length: 49:33</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2010">T-DOSE 2010</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/klaas-van-gend">Klaas van Gend</a>
+             
+                <a href="/p/peter-van-ginneken">Peter van Ginneken</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/t-dose-2010/t-dose-2010vooruit-met-open-standaarden-fabrice-mous-dutch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Zdhyz-Z0-48/hqdefault.jpg" alt="Vooruit met open standaarden (Dutch)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/t-dose-2010/t-dose-2010vooruit-met-open-standaarden-fabrice-mous-dutch">Vooruit met open standaarden (Dutch)</a></h4>
+          <footer>
+            <div class="recorded">2010-11-06</div>
+			
+			  <div>Length: 38:18</div>
+			
+			
+              <div>Views: 16 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/t-dose-2010">T-DOSE 2010</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fabrice-mous">Fabrice Mous</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLBZBIkixHEiexKPrA5DTbOEr1i89ty8ax">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

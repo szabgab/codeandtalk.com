@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Rails Israel 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Rails Israel 2015</h1>
+
+<div><a href="https://railsisrael2015.events.co.il/home">Rails Israel 2015</a></div>
+
+
+<div>Start date: 2015-11-24</div>
+<div>End date: 2015-11-24</div>
+
+<div>Location:
+  Tel Aviv
+  
+  <a href="/l/israel">Israel</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/ruby">Ruby</a> 
+   
+       <a href="/t/rails">Rails</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/RailsIsrael">@RailsIsrael</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Rails%20Israel%202015%20on%202015-11-24%20in%20Tel%20Aviv%2C%20%20Israel%20%40RailsIsrael%20https%3A//railsisrael2015.events.co.il/home%20%23Ruby%20%23Rails%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/rails-israel-2015/10-reasons-why-you-need-redislabs-amir-levy-redislabs"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DsetYukcRnI/hqdefault.jpg" alt="10 Reasons why you need Redislabs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rails-israel-2015/10-reasons-why-you-need-redislabs-amir-levy-redislabs">10 Reasons why you need Redislabs</a></h4>
+          <footer>
+            <div class="recorded">2015-11-24</div>
+			
+			  <div>Length: 05:10</div>
+			
+			
+              <div>Views: 84 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rails-israel-2015">Rails Israel 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amir-levy">Amir Levy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rails-israel-2015/20-actionable-tips-to-secure-your-rails-app-by-daniel-lobato-garcia"><img class="list-thumbnail" src="https://i.ytimg.com/vi/W4S8eDxw38c/hqdefault.jpg" alt="20 Actionable Tips to Secure Your Rails App" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rails-israel-2015/20-actionable-tips-to-secure-your-rails-app-by-daniel-lobato-garcia">20 Actionable Tips to Secure Your Rails App</a></h4>
+          <footer>
+            <div class="recorded">2015-11-24</div>
+			
+			  <div>Length: 36:06</div>
+			
+			
+              <div>Views: 88 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rails-israel-2015">Rails Israel 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rails-israel-2015/5-hidden-gems-of-the-ruby-standard-library-by-sergio-gil"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eL-zPihYWBc/hqdefault.jpg" alt="5 Hidden Gems of the Ruby Standard Library" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rails-israel-2015/5-hidden-gems-of-the-ruby-standard-library-by-sergio-gil">5 Hidden Gems of the Ruby Standard Library</a></h4>
+          <footer>
+            <div class="recorded">2015-11-24</div>
+			
+			  <div>Length: 40:36</div>
+			
+			
+              <div>Views: 113 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rails-israel-2015">Rails Israel 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rails-israel-2015/cache-rails-redis-vladislav-shub-at-rails-israel-2015-conference"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6P_7UU6mR20/hqdefault.jpg" alt="Cache, Rails & Redis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rails-israel-2015/cache-rails-redis-vladislav-shub-at-rails-israel-2015-conference">Cache, Rails & Redis</a></h4>
+          <footer>
+            <div class="recorded">2015-11-24</div>
+			
+			  <div>Length: 04:00</div>
+			
+			
+              <div>Views: 196 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rails-israel-2015">Rails Israel 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vladislav-shub">Vladislav Shub</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rails-israel-2015/dancing-with-robots-julian-cheal-at-rails-israel-2015-conference"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MX92HX37zjM/hqdefault.jpg" alt="Dancing with Robots" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rails-israel-2015/dancing-with-robots-julian-cheal-at-rails-israel-2015-conference">Dancing with Robots</a></h4>
+          <footer>
+            <div class="recorded">2015-11-24</div>
+			
+			  <div>Length: 27:51</div>
+			
+			
+              <div>Views: 65 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rails-israel-2015">Rails Israel 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/julian-cheal">Julian Cheal</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rails-israel-2015/elixir-by-a-rubyist-joao-m-d-moura-at-rails-israel-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rvob5e7zRiw/hqdefault.jpg" alt="Elixir by a Rubyist" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rails-israel-2015/elixir-by-a-rubyist-joao-m-d-moura-at-rails-israel-2015">Elixir by a Rubyist</a></h4>
+          <footer>
+            <div class="recorded">2015-11-24</div>
+			
+			  <div>Length: 06:37</div>
+			
+			
+              <div>Views: 94 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rails-israel-2015">Rails Israel 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joao-m-d-moura">João M. D. Moura</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rails-israel-2015/isomorphic-serverclient-ruby-with-opal-max-rozenoer-at-railsisrael-2015-conference"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1bRYTMVJYKw/hqdefault.jpg" alt="Isomorphic Server/Client Ruby with Opal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rails-israel-2015/isomorphic-serverclient-ruby-with-opal-max-rozenoer-at-railsisrael-2015-conference">Isomorphic Server/Client Ruby with Opal</a></h4>
+          <footer>
+            <div class="recorded">2015-11-24</div>
+			
+			  <div>Length: 06:31</div>
+			
+			
+              <div>Views: 107 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/rails-israel-2015">Rails Israel 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/max-rozenoer">Max Rozenoer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rails-israel-2015/just-in-time-elle-meredith-in-rails-israel-2015-conference"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bRbvXRlRzM8/hqdefault.jpg" alt="Just in Time" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rails-israel-2015/just-in-time-elle-meredith-in-rails-israel-2015-conference">Just in Time</a></h4>
+          <footer>
+            <div class="recorded">2015-11-24</div>
+			
+			  <div>Length: 17:26</div>
+			
+			
+              <div>Views: 36 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rails-israel-2015">Rails Israel 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/elle-meredith">Elle Meredith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rails-israel-2015/redis-for-everything-yaron-wittenstein-at-rails-israel-2015-conference"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SIUOCKviitw/hqdefault.jpg" alt="Redis For Everything" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rails-israel-2015/redis-for-everything-yaron-wittenstein-at-rails-israel-2015-conference">Redis For Everything</a></h4>
+          <footer>
+            <div class="recorded">2015-11-24</div>
+			
+			  <div>Length: 25:59</div>
+			
+			
+              <div>Views: 965 Likes: 13</div>
+            
+            <div class="event">From <a href="/e/rails-israel-2015">Rails Israel 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yaron-wittenstein">Yaron Wittenstein</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rails-israel-2015/ruby-is-dead-alive-ben-lovell-at-rails-israel-2015-conference"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eIRrga7QkwI/hqdefault.jpg" alt="Ruby is Dead Alive!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rails-israel-2015/ruby-is-dead-alive-ben-lovell-at-rails-israel-2015-conference">Ruby is Dead Alive!</a></h4>
+          <footer>
+            <div class="recorded">2015-11-24</div>
+			
+			  <div>Length: 35:57</div>
+			
+			
+              <div>Views: 285 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/rails-israel-2015">Rails Israel 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-lovell">Ben Lovell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rails-israel-2015/the-value-of-being-lazy-or-how-i-made-openstruct-10x-faster"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6lQeBfSVrpk/hqdefault.jpg" alt="The Value of Being Lazy, or How I Made OpenStruct 10X Faster" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rails-israel-2015/the-value-of-being-lazy-or-how-i-made-openstruct-10x-faster">The Value of Being Lazy, or How I Made OpenStruct 10X Faster</a></h4>
+          <footer>
+            <div class="recorded">2015-11-24</div>
+			
+			  <div>Length: 36:35</div>
+			
+			
+              <div>Views: 171 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/rails-israel-2015">Rails Israel 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/erik-michaels-ober">Erik Michaels-Ober</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rails-israel-2015/threads-and-processes-ariel-caplan-at-rails-israel-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oDY-NDfzsxc/hqdefault.jpg" alt="Threads and Processes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rails-israel-2015/threads-and-processes-ariel-caplan-at-rails-israel-2015">Threads and Processes</a></h4>
+          <footer>
+            <div class="recorded">2015-11-24</div>
+			
+			  <div>Length: 06:41</div>
+			
+			
+              <div>Views: 111 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/rails-israel-2015">Rails Israel 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ariel-caplan">Ariel Caplan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLGJA60omz8rIPaCX2DOCdWCa6RAa_AqCy">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

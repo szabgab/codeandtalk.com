@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>RejectJS 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>RejectJS 2015</h1>
+
+<div><a href="http://rejectjs.org/">RejectJS 2015</a></div>
+
+
+<div>Start date: 2015-09-24</div>
+<div>End date: 2015-09-24</div>
+
+<div>Location:
+  Berlin
+  
+  <a href="/l/germany">Germany</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+</div>
+
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=RejectJS%202015%20on%202015-09-24%20in%20Berlin%2C%20%20Germany%20http%3A//rejectjs.org/%20%23JavaScript%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/rejectjs-2015/ashley-williams-if-you-wish-to-learn-es62015-from-scratch-you-must-first-invent-the-universe"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HxHBAU0cTHU/hqdefault.jpg" alt="If you wish to learn ES6/2015 from scratch, you must first invent the universe" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rejectjs-2015/ashley-williams-if-you-wish-to-learn-es62015-from-scratch-you-must-first-invent-the-universe">If you wish to learn ES6/2015 from scratch, you must first invent the universe</a></h4>
+          <footer>
+            <div class="recorded">2015-09-24</div>
+			
+			  <div>Length: 28:32</div>
+			
+			
+              <div>Views: 1527 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rejectjs-2015">RejectJS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ashley-williams">Ashley Williams</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rejectjs-2015/chris-ward-geek-health-rejectjs-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-AlmhhnfJ-E/hqdefault.jpg" alt="Geek Health" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rejectjs-2015/chris-ward-geek-health-rejectjs-2015">Geek Health</a></h4>
+          <footer>
+            <div class="recorded">2015-09-24</div>
+			
+			  <div>Length: 27:01</div>
+			
+			
+              <div>Views: 958 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rejectjs-2015">RejectJS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-ward">Chris Ward</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rejectjs-2015/impressions-from-rejectjs-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tLe5yhqTo8E/hqdefault.jpg" alt="Impressions from Reject.JS 2015" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rejectjs-2015/impressions-from-rejectjs-2015">Impressions from Reject.JS 2015</a></h4>
+          <footer>
+            <div class="recorded">2015-09-24</div>
+			
+			  <div>Length: 02:00</div>
+			
+			
+              <div>Views: 1317 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/rejectjs-2015">RejectJS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rejectjs-2015/jenna-zeigen-what-if-your-brain-were-literally-javascript-rejectjs-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Lv29oYa7ENg/hqdefault.jpg" alt="What if your brain were ~*literally*~ JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rejectjs-2015/jenna-zeigen-what-if-your-brain-were-literally-javascript-rejectjs-2015">What if your brain were ~*literally*~ JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2015-09-24</div>
+			
+			  <div>Length: 26:59</div>
+			
+			
+              <div>Views: 1120 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rejectjs-2015">RejectJS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jenna-zeigen">Jenna Zeigen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rejectjs-2015/jennifer-geacone-cruz-perfectly-portable-japanese-mobile-culture-influencing-the-front-end"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fuxJmw2shnU/hqdefault.jpg" alt="Perfectly Portable – Japanese Mobile Culture Influencing the Front-End" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rejectjs-2015/jennifer-geacone-cruz-perfectly-portable-japanese-mobile-culture-influencing-the-front-end">Perfectly Portable – Japanese Mobile Culture Influencing the Front-End</a></h4>
+          <footer>
+            <div class="recorded">2015-09-24</div>
+			
+			  <div>Length: 34:06</div>
+			
+			
+              <div>Views: 1010 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rejectjs-2015">RejectJS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jennifer-geacone-cruz">Jennifer Geacone-Cruz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rejectjs-2015/jocelyn-ho-drew-petersen-using-mobile-technology-in-live-musical-perfomance"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YDZYi7a_7Sg/hqdefault.jpg" alt="Using mobile technology in live musical perfomance" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rejectjs-2015/jocelyn-ho-drew-petersen-using-mobile-technology-in-live-musical-perfomance">Using mobile technology in live musical perfomance</a></h4>
+          <footer>
+            <div class="recorded">2015-09-24</div>
+			
+			  <div>Length: 32:37</div>
+			
+			
+              <div>Views: 470 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rejectjs-2015">RejectJS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jocelyn-ho">Jocelyn Ho</a>
+             
+                <a href="/p/andrew-petersen">Andrew Petersen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rejectjs-2015/lisa-passing-ukulele-hero-rejectjs-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xiX8jf2NajQ/hqdefault.jpg" alt="Ukulele Hero" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rejectjs-2015/lisa-passing-ukulele-hero-rejectjs-2015">Ukulele Hero</a></h4>
+          <footer>
+            <div class="recorded">2015-09-24</div>
+			
+			  <div>Length: 31:01</div>
+			
+			
+              <div>Views: 652 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rejectjs-2015">RejectJS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lisa-passing">Lisa Passing</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rejectjs-2015/mariko-kosaka-once-upon-a-punch-card-how-textiles-can-explain-why-we-have-the-web"><img class="list-thumbnail" src="https://i.ytimg.com/vi/e7wwuZnnM9k/hqdefault.jpg" alt="Once upon a punch card - how textiles can explain why we have the web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rejectjs-2015/mariko-kosaka-once-upon-a-punch-card-how-textiles-can-explain-why-we-have-the-web">Once upon a punch card - how textiles can explain why we have the web</a></h4>
+          <footer>
+            <div class="recorded">2015-09-24</div>
+			
+			  <div>Length: 30:04</div>
+			
+			
+              <div>Views: 1059 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rejectjs-2015">RejectJS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mariko-kosaka">Mariko Kosaka</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rejectjs-2015/melanie-thewlis-better-accessibility-with-javascript-rejectjs-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vUcAg5uWaEE/hqdefault.jpg" alt="Better Accessibility with JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rejectjs-2015/melanie-thewlis-better-accessibility-with-javascript-rejectjs-2015">Better Accessibility with JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2015-09-24</div>
+			
+			  <div>Length: 31:41</div>
+			
+			
+              <div>Views: 514 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rejectjs-2015">RejectJS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/melanie-thewlis">Melanie Thewlis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rejectjs-2015/myles-borins-why-empathy-matters-rejectjs-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GKTSvI8qw_M/hqdefault.jpg" alt="Why Empathy Matters" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rejectjs-2015/myles-borins-why-empathy-matters-rejectjs-2015">Why Empathy Matters</a></h4>
+          <footer>
+            <div class="recorded">2015-09-24</div>
+			
+			  <div>Length: 28:15</div>
+			
+			
+              <div>Views: 743 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rejectjs-2015">RejectJS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/myles-borins">Myles Borins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rejectjs-2015/robert-kerr-science-in-the-browser-orchestrating-and-visualising-neural-simulations"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fq2IFFK08Ik/hqdefault.jpg" alt="Science in the Browser – Orchestrating and Visualising Neural Simulations" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rejectjs-2015/robert-kerr-science-in-the-browser-orchestrating-and-visualising-neural-simulations">Science in the Browser – Orchestrating and Visualising Neural Simulations</a></h4>
+          <footer>
+            <div class="recorded">2015-09-24</div>
+			
+			  <div>Length: 27:47</div>
+			
+			
+              <div>Views: 866 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rejectjs-2015">RejectJS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robert-kerr">Robert Kerr</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/rejectjs-2015/ronald-jaramillo-get-your-hands-dirty-play-with-hardware-rejectjs-2015"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5tvUTk7Jvic/hqdefault.jpg" alt="Get your hands dirty - play with hardware!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/rejectjs-2015/ronald-jaramillo-get-your-hands-dirty-play-with-hardware-rejectjs-2015">Get your hands dirty - play with hardware!</a></h4>
+          <footer>
+            <div class="recorded">2015-09-24</div>
+			
+			  <div>Length: 23:47</div>
+			
+			
+              <div>Views: 1498 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/rejectjs-2015">RejectJS 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ronald-jaramillo">Ronald Jaramillo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshHtusNoObfs0hKDrRjBkzHN">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

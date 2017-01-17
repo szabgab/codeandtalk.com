@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Jenkins World 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Jenkins World 2016</h1>
+
+<div><a href="https://www.cloudbees.com/jenkinsworld/home">Jenkins World 2016</a></div>
+
+
+<div>Start date: 2016-09-14</div>
+<div>End date: 2016-09-15</div>
+
+<div>Location:
+  Santa Clara
+  California
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/jenkins">Jenkins</a> 
+   
+       <a href="/t/testing">testing</a> 
+   
+       <a href="/t/continuous-integration">continuous-integration</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/jenkinsconf">@jenkinsconf</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Jenkins%20World%202016%20on%202016-09-14%20in%20Santa%20Clara%2C%20California%20USA%20%40jenkinsconf%20https%3A//www.cloudbees.com/jenkinsworld/home%20%23Jenkins%20%23testing%20%23continuous-integration%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/how-to-run-selenium-load-testing-as-part-of-your-ci-process"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2QLwQA9-MRs/hqdefault.jpg" alt="How to Run Selenium Load Testing as Part of Your CI Process" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/how-to-run-selenium-load-testing-as-part-of-your-ci-process">How to Run Selenium Load Testing as Part of Your CI Process</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 25:23</div>
+			
+			
+              <div>Views: 237 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alon-girmonsky">Alon Girmonsky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-a-tale-of-two-or-three-jenkins-outages"><img class="list-thumbnail" src="https://i.ytimg.com/vi/awr_S2wqotk/hqdefault.jpg" alt="A Tale of Two (or Three) Jenkins Outages" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-a-tale-of-two-or-three-jenkins-outages">A Tale of Two (or Three) Jenkins Outages</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 38:02</div>
+			
+			
+              <div>Views: 152 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dean-yu">Dean Yu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-azure-devops-integrations-with-jenkins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fBmJRxyJQJU/hqdefault.jpg" alt="Azure DevOps Integrations with Jenkins" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-azure-devops-integrations-with-jenkins">Azure DevOps Integrations with Jenkins</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 45:25</div>
+			
+			
+              <div>Views: 137 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/damien-caro">Damien Caro</a>
+             
+                <a href="/p/arun-chandrasekhar">Arun Chandrasekhar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-blue-ocean-a-new-user-experience-for-jenkins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mn61VFdScuk/hqdefault.jpg" alt="Blue Ocean: A New User Experience for Jenkins" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-blue-ocean-a-new-user-experience-for-jenkins">Blue Ocean: A New User Experience for Jenkins</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 51:11</div>
+			
+			
+              <div>Views: 5656 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-dumay">James Dumay</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-cicd-with-jenkins-and-ansible-tower"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CqjeIiHvy30/hqdefault.jpg" alt="CI/CD with Jenkins and Ansible Tower" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-cicd-with-jenkins-and-ansible-tower">CI/CD with Jenkins and Ansible Tower</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 35:55</div>
+			
+			
+              <div>Views: 690 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dylan-silva">Dylan Silva</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-cloudbees-assurance-program-and-cloudbees-verified"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cMlqxxEKccs/hqdefault.jpg" alt="CloudBees Assurance Program and CloudBees Verified" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-cloudbees-assurance-program-and-cloudbees-verified">CloudBees Assurance Program and CloudBees Verified</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 42:08</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andres-rodriguez">Andres Rodriguez</a>
+             
+                <a href="/p/tracy-kennedy">Tracy Kennedy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-cloudbees-investing-in-the-future-of-jenkins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0UYO7T7BaGU/hqdefault.jpg" alt="CloudBees: Investing in the Future of Jenkins" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-cloudbees-investing-in-the-future-of-jenkins">CloudBees: Investing in the Future of Jenkins</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 43:02</div>
+			
+			
+              <div>Views: 68 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patrick-wolf">Patrick Wolf</a>
+             
+                <a href="/p/james-dumay">James Dumay</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-cloudbees-keynote-by-sacha-labourey-d6fc78"><img class="list-thumbnail" src="https://i.ytimg.com/vi/W9C0qf7mWWk/hqdefault.jpg" alt="Jenkins World 2016 - CloudBees Keynote by Sacha Labourey" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-cloudbees-keynote-by-sacha-labourey-d6fc78">Jenkins World 2016 - CloudBees Keynote by Sacha Labourey</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 36:38</div>
+			
+			
+              <div>Views: 109 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-cloudbees-keynote-by-sacha-labourey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xG94wjYSJhM/hqdefault.jpg" alt="Cloudbees Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-cloudbees-keynote-by-sacha-labourey">Cloudbees Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 36:38</div>
+			
+			
+              <div>Views: 123 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sacha-labourey">Sacha Labourey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-continuous-build-and-delivery-pipelines-for-android"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Gn3ygjUMKUY/hqdefault.jpg" alt="Continuous Build and Delivery Pipelines for Android" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-continuous-build-and-delivery-pipelines-for-android">Continuous Build and Delivery Pipelines for Android</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 42:15</div>
+			
+			
+              <div>Views: 180 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christopher-orr">Christopher Orr</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-continuous-delivery-of-infrastructure-with-jenkins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/M0Sg8zBeHs8/hqdefault.jpg" alt="Continuous Delivery of Infrastructure with Jenkins" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-continuous-delivery-of-infrastructure-with-jenkins">Continuous Delivery of Infrastructure with Jenkins</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 45:57</div>
+			
+			
+              <div>Views: 323 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/r-tyler-croy">R. Tyler Croy</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-continuous-delivery-pipeline-patterns-and-anti-patterns"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F5RRkAwh7o0/hqdefault.jpg" alt="Continuous Delivery Pipeline - Patterns and Anti-Patterns" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-continuous-delivery-pipeline-patterns-and-anti-patterns">Continuous Delivery Pipeline - Patterns and Anti-Patterns</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 46:51</div>
+			
+			
+              <div>Views: 323 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/juni-mukherjee">Juni Mukherjee</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-continuous-deliverydevops-in-the-enterprise-expert-panel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1VmfmhBNVZk/hqdefault.jpg" alt="Continuous Delivery/DevOps in the Enterprise - Expert Panel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-continuous-deliverydevops-in-the-enterprise-expert-panel">Continuous Delivery/DevOps in the Enterprise - Expert Panel</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 43:29</div>
+			
+			
+              <div>Views: 131 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alan-shimel">Alan Shimel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-continuous-performance-testing-feedback"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NKDVm_cfMq0/hqdefault.jpg" alt="Continuous Performance Testing Feedback" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-continuous-performance-testing-feedback">Continuous Performance Testing Feedback</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 40:32</div>
+			
+			
+              <div>Views: 69 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eric-proegler">Eric Proegler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-continuous-testing"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G0BBCZoXZ68/hqdefault.jpg" alt="Continuous Testing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-continuous-testing">Continuous Testing</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 41:49</div>
+			
+			
+              <div>Views: 130 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/casey-vega">Casey Vega</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-continuously-deploying-containers-with-jenkins-pipeline-to-docker-swarm-cluster"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sUcK9iOQ5ic/hqdefault.jpg" alt="Continuously Deploying Containers with Jenkins Pipeline to Docker Swarm Cluster" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-continuously-deploying-containers-with-jenkins-pipeline-to-docker-swarm-cluster">Continuously Deploying Containers with Jenkins Pipeline to Docker Swarm Cluster</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 49:20</div>
+			
+			
+              <div>Views: 569 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/viktor-farcic">Viktor Farcic</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-deliver-software-at-the-speed-of-ideas-with-the-cloudbees-jenkins-platform"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F41N9q19lxI/hqdefault.jpg" alt="Deliver Software at the Speed of Ideas with the CloudBees Jenkins Platform" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-deliver-software-at-the-speed-of-ideas-with-the-cloudbees-jenkins-platform">Deliver Software at the Speed of Ideas with the CloudBees Jenkins Platform</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 42:47</div>
+			
+			
+              <div>Views: 92 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/harpreet-singh">Harpreet Singh</a>
+             
+                <a href="/p/kohsuke-kawaguchi">Kohsuke Kawaguchi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-democratize-your-knowledge-with-knowledge-as-code"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Phak3RBVLTk/hqdefault.jpg" alt="Democratize Your Knowledge with Knowledge as Code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-democratize-your-knowledge-with-knowledge-as-code">Democratize Your Knowledge with Knowledge as Code</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 27:51</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-brown">James Brown</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-directions-for-pipeline"><img class="list-thumbnail" src="https://i.ytimg.com/vi/51fndpAWpYQ/hqdefault.jpg" alt="Directions for Pipeline" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-directions-for-pipeline">Directions for Pipeline</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 45:39</div>
+			
+			
+              <div>Views: 567 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jesse-glick">Jesse Glick</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-docker-image-lifecycle-implemented-with-jenkins-pipeline"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5IvSYZ_lMgk/hqdefault.jpg" alt="Docker Image Lifecycle Implemented with Jenkins Pipeline" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-docker-image-lifecycle-implemented-with-jenkins-pipeline">Docker Image Lifecycle Implemented with Jenkins Pipeline</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 41:01</div>
+			
+			
+              <div>Views: 185 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-galpin">Mark Galpin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-dockerizing-your-jenkins-platform-why-its-important"><img class="list-thumbnail" src="https://i.ytimg.com/vi/toF1MIz_aqM/hqdefault.jpg" alt="Dockerizing Your Jenkins Platform? Why It's Important" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-dockerizing-your-jenkins-platform-why-its-important">Dockerizing Your Jenkins Platform? Why It's Important</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 55:28</div>
+			
+			
+              <div>Views: 391 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cyrille-le-clerc">Cyrille Le Clerc</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-enforcing-jenkins-best-practices"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VbOwh8ErG7E/hqdefault.jpg" alt="Enforcing Jenkins Best Practices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-enforcing-jenkins-best-practices">Enforcing Jenkins Best Practices</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 43:29</div>
+			
+			
+              <div>Views: 164 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-hinske">David Hinske</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-high-velocity-ios-ci-with-native-os-x-virtualization-plugin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ltL00n87_fo/hqdefault.jpg" alt="High Velocity iOS CI with Native OS X Virtualization Plugin" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-high-velocity-ios-ci-with-native-os-x-virtualization-plugin">High Velocity iOS CI with Native OS X Virtualization Plugin</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 39:29</div>
+			
+			
+              <div>Views: 67 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/manisha-arora">Manisha Arora</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-how-a-centralized-structure-helps-achieve-ci-and-cd"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GHGbGMgQ68A/hqdefault.jpg" alt="How a Centralized Structure Helps Achieve CI and CD" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-how-a-centralized-structure-helps-achieve-ci-and-cd">How a Centralized Structure Helps Achieve CI and CD</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 38:17</div>
+			
+			
+              <div>Views: 75 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/neil-manvar">Neil Manvar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-how-to-build-nightly-when-there-is-no-night-with-electronic-arts"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BHALJu99wFA/hqdefault.jpg" alt="How to Build Nightly When There is No Night with Electronic Arts" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-how-to-build-nightly-when-there-is-no-night-with-electronic-arts">How to Build Nightly When There is No Night with Electronic Arts</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 44:12</div>
+			
+			
+              <div>Views: 89 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joshua-nixdorf">Joshua Nixdorf</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-how-to-do-continuous-delivery-with-jenkins-pipeline-docker-and-kubernetes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6g9pRcY-VH0/hqdefault.jpg" alt="How to Do Continuous Delivery with Jenkins Pipeline, Docker and Kubernetes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-how-to-do-continuous-delivery-with-jenkins-pipeline-docker-and-kubernetes">How to Do Continuous Delivery with Jenkins Pipeline, Docker and Kubernetes</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 51:26</div>
+			
+			
+              <div>Views: 1001 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-strachan">James Strachan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-introducing-a-new-way-to-define-jenkins-pipelines"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ALvg4KK25JU/hqdefault.jpg" alt="Introducing a New Way to Define Jenkins Pipelines" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-introducing-a-new-way-to-define-jenkins-pipelines">Introducing a New Way to Define Jenkins Pipelines</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 44:57</div>
+			
+			
+              <div>Views: 1454 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrew-p-bayer">Andrew P Bayer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-intuits-road-to-healthy-and-secure-releases"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vOL0patATNI/hqdefault.jpg" alt="Jenkins World 2016 - Intuit's Road to Healthy and Secure Releases" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-intuits-road-to-healthy-and-secure-releases">Jenkins World 2016 - Intuit's Road to Healthy and Secure Releases</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 34:59</div>
+			
+			
+              <div>Views: 80 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/varsha-raju">Varsha Raju</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-is-devops-bigger-than-agile-what-the-future-holds"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UNT4BaXHsQs/hqdefault.jpg" alt="Is DevOps Bigger than Agile? What the Future Holds" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-is-devops-bigger-than-agile-what-the-future-holds">Is DevOps Bigger than Agile? What the Future Holds</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 37:36</div>
+			
+			
+              <div>Views: 53 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/zubin-irani">Zubin Irani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-jenkins-at-splunk-and-splunking-jenkins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dlsEprySOrg/hqdefault.jpg" alt="Jenkins at Splunk and Splunking Jenkins" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-jenkins-at-splunk-and-splunking-jenkins">Jenkins at Splunk and Splunking Jenkins</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 47:57</div>
+			
+			
+              <div>Views: 233 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bill-houston">Bill Houston</a>
+             
+                <a href="/p/ali-raza">Ali Raza</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-jenkins-community-keynote-by-kohsuke-kawaguchi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NXjeHeIYRRI/hqdefault.jpg" alt="Jenkins Community Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-jenkins-community-keynote-by-kohsuke-kawaguchi">Jenkins Community Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 40:32</div>
+			
+			
+              <div>Views: 484 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kohsuke-kawaguchi">Kohsuke Kawaguchi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-jenkins-for-smarter-operations"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QAxfoyxBuZM/hqdefault.jpg" alt="Jenkins for Smarter Operations" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-jenkins-for-smarter-operations">Jenkins for Smarter Operations</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 37:58</div>
+			
+			
+              <div>Views: 94 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/curry-searle">Curry Searle</a>
+             
+                <a href="/p/christian-mchugh">Christian McHugh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-jenkins-inside-google"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7ERV9C20GSE/hqdefault.jpg" alt="Jenkins Inside Google" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-jenkins-inside-google">Jenkins Inside Google</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 32:53</div>
+			
+			
+              <div>Views: 452 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-hoover">David Hoover</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-jenkins-lsf-enables-rapid-delivery-of-device-driver-sw"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FonXlICz6YU/hqdefault.jpg" alt="Jenkins & LSF Enables Rapid Delivery of Device Driver SW" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-jenkins-lsf-enables-rapid-delivery-of-device-driver-sw">Jenkins & LSF Enables Rapid Delivery of Device Driver SW</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 38:30</div>
+			
+			
+              <div>Views: 52 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-vandegriend">Brian Vandegriend</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-jenkinsops-an-initiative-to-streamline-and-automate-jenkins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qrAf5fjDTXI/hqdefault.jpg" alt="Jenkins World 2016 - JenkinsOps: An Initiative to Streamline and Automate Jenkins" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-jenkinsops-an-initiative-to-streamline-and-automate-jenkins">Jenkins World 2016 - JenkinsOps: An Initiative to Streamline and Automate Jenkins</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 39:40</div>
+			
+			
+              <div>Views: 141 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-miles">Paul Miles</a>
+             
+                <a href="/p/grant-dickie">Grant Dickie</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-keynote-starting-and-scaling-devops-by-gary-gruver"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FgoDgQSYyro/hqdefault.jpg" alt="Keynote: Starting and Scaling DevOps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-keynote-starting-and-scaling-devops-by-gary-gruver">Keynote: Starting and Scaling DevOps</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 53:35</div>
+			
+			
+              <div>Views: 289 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gary-gruver">Gary Gruver</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-lightning-talk-1-continuously-delivering-continuous-delivery-pipelines"><img class="list-thumbnail" src="https://i.ytimg.com/vi/a4RuQgIUnGk/hqdefault.jpg" alt="Continuously Delivering Continuous Delivery Pipelines" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-lightning-talk-1-continuously-delivering-continuous-delivery-pipelines">Continuously Delivering Continuous Delivery Pipelines</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 12:47</div>
+			
+			
+              <div>Views: 57 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/neil-hunt">Neil Hunt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-lightning-talk-1-jenkins-project-google-summer-of-code-2016-results"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fYXu-YYbPYE/hqdefault.jpg" alt="Jenkins Project. Google Summer of Code 2016 Results" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-lightning-talk-1-jenkins-project-google-summer-of-code-2016-results">Jenkins Project. Google Summer of Code 2016 Results</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 10:14</div>
+			
+			
+              <div>Views: 35 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/oleg-nenashev">Oleg Nenashev</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-lightning-talk-2-cd-pipelines-as-code-with-github-and-bitbucket"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gdMOFm_lh88/hqdefault.jpg" alt="CD Pipelines as Code with Github and Bitbucket​" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-lightning-talk-2-cd-pipelines-as-code-with-github-and-bitbucket">CD Pipelines as Code with Github and Bitbucket​</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 18:24</div>
+			
+			
+              <div>Views: 199 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/antonio-muniz">Antonio Muniz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-lightning-talk-3-supporting-jenkins-with-the-support-core-plugin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ELoT8nE1edA/hqdefault.jpg" alt="Supporting Jenkins with the Support Core Plugin​" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-lightning-talk-3-supporting-jenkins-with-the-support-core-plugin">Supporting Jenkins with the Support Core Plugin​</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 14:39</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steven-christou">Steven Christou</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-lightning-talk-3-verizons-journey-to-enterprise-grade-devops"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nbc0nCyQ_6g/hqdefault.jpg" alt="Verizon's Journey to Enterprise Grade DevOps" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-lightning-talk-3-verizons-journey-to-enterprise-grade-devops">Verizon's Journey to Enterprise Grade DevOps</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 29:29</div>
+			
+			
+              <div>Views: 45 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/neeraj-garg">Neeraj Garg</a>
+             
+                <a href="/p/todd-gonzales">Todd Gonzales</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-no-you-shouldnt-do-that-lessons-from-using-pipeline"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lLZwTMFf9GI/hqdefault.jpg" alt="No, You Shouldn't Do That! Lessons from Using Pipeline" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-no-you-shouldnt-do-that-lessons-from-using-pipeline">No, You Shouldn't Do That! Lessons from Using Pipeline</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 44:43</div>
+			
+			
+              <div>Views: 434 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-t-nord">James T Nord</a>
+             
+                <a href="/p/robert-sandell">Robert Sandell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-operating-cicd-at-enterprise-scale-with-private-saas-edition"><img class="list-thumbnail" src="https://i.ytimg.com/vi/01YJrojxaus/hqdefault.jpg" alt="Operating CI/CD at Enterprise Scale with Private SaaS Edition" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-operating-cicd-at-enterprise-scale-with-private-saas-edition">Operating CI/CD at Enterprise Scale with Private SaaS Edition</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 43:47</div>
+			
+			
+              <div>Views: 71 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-pampuch">John Pampuch</a>
+             
+                <a href="/p/kal-vissa">Kal Vissa</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-performance-testing-in-continuous-delivery-pipelines"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EkCoSRH7Lrw/hqdefault.jpg" alt="Performance Testing in Continuous Delivery Pipelines" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-performance-testing-in-continuous-delivery-pipelines">Performance Testing in Continuous Delivery Pipelines</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 41:30</div>
+			
+			
+              <div>Views: 179 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andrey-pokhilko">Andrey Pokhilko</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-pipelining-devops-with-jenkins-and-aws"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vP8sNGGIEGY/hqdefault.jpg" alt="Jenkins World 2016 - Pipelining DevOps with Jenkins and AWS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-pipelining-devops-with-jenkins-and-aws">Jenkins World 2016 - Pipelining DevOps with Jenkins and AWS</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 43:13</div>
+			
+			
+              <div>Views: 288 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-rule-jenkins-with-configuration-as-code"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cXqG9AgxqRc/hqdefault.jpg" alt="Rule Jenkins with Configuration as Code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-rule-jenkins-with-configuration-as-code">Rule Jenkins with Configuration as Code</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 34:44</div>
+			
+			
+              <div>Views: 293 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christian-rasp">Christian Rasp</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-scaling-jenkins-with-docker-swarm-kubernetes-or-mesos"><img class="list-thumbnail" src="https://i.ytimg.com/vi/24X18e4GVbk/hqdefault.jpg" alt="Scaling Jenkins with Docker: Swarm, Kubernetes or Mesos?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-scaling-jenkins-with-docker-swarm-kubernetes-or-mesos">Scaling Jenkins with Docker: Swarm, Kubernetes or Mesos?</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 41:45</div>
+			
+			
+              <div>Views: 677 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/carlos-sanchez">Carlos Sanchez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-secure-container-development-pipelines-with-jenkins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b3_BEly-0C4/hqdefault.jpg" alt="Secure Container Development Pipelines with Jenkins" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-secure-container-development-pipelines-with-jenkins">Secure Container Development Pipelines with Jenkins</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 27:01</div>
+			
+			
+              <div>Views: 55 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anthony-bettini">Anthony Bettini</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-so-you-want-to-build-the-worlds-biggest-jenkins-cluster"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eGA8UuijgA4/hqdefault.jpg" alt="So, You Want to Build the World's Biggest Jenkins Cluster?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-so-you-want-to-build-the-worlds-biggest-jenkins-cluster">So, You Want to Build the World's Biggest Jenkins Cluster?</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 48:56</div>
+			
+			
+              <div>Views: 190 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephen-connolly">Stephen Connolly</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-speed-up-your-continuous-delivery-pipeline-with-jenkins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iFRfV2y-OxE/hqdefault.jpg" alt="Speed up your Continuous Delivery Pipeline with Jenkins" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-speed-up-your-continuous-delivery-pipeline-with-jenkins">Speed up your Continuous Delivery Pipeline with Jenkins</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 43:57</div>
+			
+			
+              <div>Views: 646 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luca-milanesio">Luca Milanesio</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-the-four-quadrants-of-devops-maturity"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uGquT07GlVA/hqdefault.jpg" alt="The Four Quadrants of DevOps Maturity" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-the-four-quadrants-of-devops-maturity">The Four Quadrants of DevOps Maturity</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 46:10</div>
+			
+			
+              <div>Views: 54 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-dawson">Brian Dawson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-the-future-of-ides-eclipse-che-the-next-generation-eclipse-ide"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4wmNzp3qXP0/hqdefault.jpg" alt="The Future of IDEs: Eclipse Che, The Next-Generation Eclipse IDE" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-the-future-of-ides-eclipse-che-the-next-generation-eclipse-ide">The Future of IDEs: Eclipse Che, The Next-Generation Eclipse IDE</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 37:40</div>
+			
+			
+              <div>Views: 202 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tyler-jewell">Tyler Jewell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-the-need-for-speed-building-pipelines-to-be-faster"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7w2uFA5JPLI/hqdefault.jpg" alt="The Need For Speed: Building Pipelines To Be Faster" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-the-need-for-speed-building-pipelines-to-be-faster">The Need For Speed: Building Pipelines To Be Faster</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 38:16</div>
+			
+			
+              <div>Views: 197 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sam-van-oort">Sam Van Oort</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-the-three-pillars-behind-continuous-security"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1kqIcsnMxrE/hqdefault.jpg" alt="The Three Pillars Behind Continuous Security" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-the-three-pillars-behind-continuous-security">The Three Pillars Behind Continuous Security</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 45:38</div>
+			
+			
+              <div>Views: 71 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/meera-subbarao">Meera Subbarao</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-thinking-inside-the-container-a-continuous-delivery-story"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mMvFaEP5mP0/hqdefault.jpg" alt="Thinking Inside the Container: A Continuous Delivery Story" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-thinking-inside-the-container-a-continuous-delivery-story">Thinking Inside the Container: A Continuous Delivery Story</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 46:01</div>
+			
+			
+              <div>Views: 268 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maxfield-f-stewart">Maxfield F Stewart</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-using-jenkins-for-diverse-feedback-on-github"><img class="list-thumbnail" src="https://i.ytimg.com/vi/05o4CWmTh2w/hqdefault.jpg" alt="Using Jenkins for Diverse Feedback on GitHub" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-using-jenkins-for-diverse-feedback-on-github">Using Jenkins for Diverse Feedback on GitHub</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 27:54</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ben-patterson">Ben Patterson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/jenkins-world-2016-value-beyond-the-bits"><img class="list-thumbnail" src="https://i.ytimg.com/vi/S55uvGT2QoM/hqdefault.jpg" alt="Jenkins World 2016 - Value Beyond the Bits" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/jenkins-world-2016-value-beyond-the-bits">Jenkins World 2016 - Value Beyond the Bits</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 27:37</div>
+			
+			
+              <div>Views: 27 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-brown">James Brown</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/lightning-talk-2-external-workspace-manager-plugin-for-jenkins-pipeline"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mZaCngHQaO4/hqdefault.jpg" alt="External Workspace Manager Plugin for Jenkins Pipeline" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/lightning-talk-2-external-workspace-manager-plugin-for-jenkins-pipeline">External Workspace Manager Plugin for Jenkins Pipeline</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 11:41</div>
+			
+			
+              <div>Views: 149 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alexandru-somai">Alexandru Somai</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jenkinsworld-2016/the-cloudbees-network-jenkins-world-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YVj_0VoYrOU/hqdefault.jpg" alt="The CloudBees Network - Jenkins World 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jenkinsworld-2016/the-cloudbees-network-jenkins-world-2016">The CloudBees Network - Jenkins World 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-09-14</div>
+			
+			  <div>Length: 03:28</div>
+			
+			
+              <div>Views: 122 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jenkinsworld-2016">Jenkins World 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLvBBnHmZuNQLnuTaNBgFgHfoyqpzh4yJR">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

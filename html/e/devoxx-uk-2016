@@ -1,0 +1,2159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Devoxx UK 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Devoxx UK 2016</h1>
+
+<div><a href="http://www.devoxx.co.uk/">Devoxx UK 2016</a></div>
+
+
+<div>Start date: 2016-06-08</div>
+<div>End date: 2016-06-10</div>
+
+<div>Location:
+  London
+  England
+  <a href="/l/uk">UK</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/DevoxxUK">@DevoxxUK</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Devoxx%20UK%202016%20on%202016-06-08%20in%20London%2C%20England%20UK%20%40DevoxxUK%20http%3A//www.devoxx.co.uk/%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/10-building-blocks-for-enterprise-javascript-applications-by-geertjan-wielenga"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vY3OLDzrmM0/hqdefault.jpg" alt="10 Building Blocks for Enterprise JavaScript Applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/10-building-blocks-for-enterprise-javascript-applications-by-geertjan-wielenga">10 Building Blocks for Enterprise JavaScript Applications</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 38:17</div>
+			
+			
+              <div>Views: 665 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/geertjan-wielenga">Geertjan Wielenga</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/a-hackers-guide-to-disco-calculating-by-samantha-headleand"><img class="list-thumbnail" src="https://i.ytimg.com/vi/TpxSKPmy2CA/hqdefault.jpg" alt="A Hackers Guide to Disco Calculating" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/a-hackers-guide-to-disco-calculating-by-samantha-headleand">A Hackers Guide to Disco Calculating</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 14:45</div>
+			
+			
+              <div>Views: 48 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/samantha-headleand">Samantha Headleand</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/adventures-with-concurrent-programming-in-java-a-quest-for-predictable-latency-by-martin-thompson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/929OrIvbW18/hqdefault.jpg" alt="Adventures with concurrent programming in Java: A quest for predictable latency" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/adventures-with-concurrent-programming-in-java-a-quest-for-predictable-latency-by-martin-thompson">Adventures with concurrent programming in Java: A quest for predictable latency</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:35</div>
+			
+			
+              <div>Views: 417 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/martin-thompson">Martin Thompson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/ai-ai-captain-a-watson-devoxxed-use-case-by-stephan-janssen-sandhya-kapoor"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KC7CMrLLm14/hqdefault.jpg" alt="AI, AI, Captain - a Watson DeVoxxEd Use Case" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/ai-ai-captain-a-watson-devoxxed-use-case-by-stephan-janssen-sandhya-kapoor">AI, AI, Captain - a Watson DeVoxxEd Use Case</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:06</div>
+			
+			
+              <div>Views: 303 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sandhya-kapoor">Sandhya Kapoor</a>
+             
+                <a href="/p/stephan-janssen">Stephan Janssen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/arduino-and-java-with-the-intel-galileo-by-simon-ritter"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BMOgQnypzss/hqdefault.jpg" alt="Arduino And Java With The Intel Galileo" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/arduino-and-java-with-the-intel-galileo-by-simon-ritter">Arduino And Java With The Intel Galileo</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 01:00:00</div>
+			
+			
+              <div>Views: 93 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-ritter">Simon Ritter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/are-you-taking-your-metadata-seriously-by-yossi-shaul"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ixwCLyFgd78/hqdefault.jpg" alt="Are you taking your metadata seriously?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/are-you-taking-your-metadata-seriously-by-yossi-shaul">Are you taking your metadata seriously?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 16:26</div>
+			
+			
+              <div>Views: 58 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yossi-shaul">Yossi Shaul</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/arquillian-cube-production-near-unit-tests-against-docker-images-by-andy-gumbrecht"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zeLvvwD-6tk/hqdefault.jpg" alt="Arquillian Cube: Production Near Unit Tests Against Docker Images" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/arquillian-cube-production-near-unit-tests-against-docker-images-by-andy-gumbrecht">Arquillian Cube: Production Near Unit Tests Against Docker Images</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 47:45</div>
+			
+			
+              <div>Views: 95 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andy-gumbrecht">Andy Gumbrecht</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/beyond-app-monitoring-the-new-era-of-log-analytics-by-renaud-boutet"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0zrbqA_HZbA/hqdefault.jpg" alt="Beyond app monitoring: the new era of log analytics" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/beyond-app-monitoring-the-new-era-of-log-analytics-by-renaud-boutet">Beyond app monitoring: the new era of log analytics</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 15:05</div>
+			
+			
+              <div>Views: 90 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/renaud-boutet">Renaud Boutet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/book-publishing-for-developers-with-gitbook-by-john-stevenson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7FsJ7CKG-DM/hqdefault.jpg" alt="Book publishing for developers with Gitbook" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/book-publishing-for-developers-with-gitbook-by-john-stevenson">Book publishing for developers with Gitbook</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 18:55</div>
+			
+			
+              <div>Views: 286 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-stevenson">John Stevenson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/build-a-recommender-system-using-apache-spark-and-akka-by-willem-meints"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ezeDQZGjKY0/hqdefault.jpg" alt="Build a recommender system using Apache Spark and Akka" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/build-a-recommender-system-using-apache-spark-and-akka-by-willem-meints">Build a recommender system using Apache Spark and Akka</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 46:05</div>
+			
+			
+              <div>Views: 207 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/willem-meints">Willem Meints</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/building-a-unikernel-java-application-by-ray-tsang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FcMoCXC3xdo/hqdefault.jpg" alt="Building a unikernel Java Application" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/building-a-unikernel-java-application-by-ray-tsang">Building a unikernel Java Application</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 16:32</div>
+			
+			
+              <div>Views: 298 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ray-tsang">Ray Tsang</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/building-cognitive-applications-with-watson-by-jonathan-kaufman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PwG8aTjOo94/hqdefault.jpg" alt="Building Cognitive Applications with Watson" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/building-cognitive-applications-with-watson-by-jonathan-kaufman">Building Cognitive Applications with Watson</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:24</div>
+			
+			
+              <div>Views: 221 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jonathan-kaufman">Jonathan Kaufman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/building-microservices-with-vertx-by-bert-jan-schrijver"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yLg-LPSRjho/hqdefault.jpg" alt="Building microservices with Vert.x" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/building-microservices-with-vertx-by-bert-jan-schrijver">Building microservices with Vert.x</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:23</div>
+			
+			
+              <div>Views: 2841 Likes: 38</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bert-jan-schrijver">Bert Jan Schrijver</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/building-multiplayer-game-using-reactive-streams-by-michal-plachta"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iKTFalVfoSU/hqdefault.jpg" alt="Building multiplayer game using Reactive Streams" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/building-multiplayer-game-using-reactive-streams-by-michal-plachta">Building multiplayer game using Reactive Streams</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 45:25</div>
+			
+			
+              <div>Views: 451 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michal-plachta">Michal Plachta</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/busy-java-developers-guide-to-hacking-in-java-by-ted-neward"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eJVvVCh0u3c/hqdefault.jpg" alt="Busy Java Developer's Guide to Hacking in Java" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/busy-java-developers-guide-to-hacking-in-java-by-ted-neward">Busy Java Developer's Guide to Hacking in Java</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:34</div>
+			
+			
+              <div>Views: 947 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ted-neward">Ted Neward</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/caching-101-caching-on-the-jvm-and-beyond-by-louis-jacomet-aurelien-broszniowski"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FQfd8x29Ud8/hqdefault.jpg" alt="Caching 101: Caching on the JVM (and beyond)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/caching-101-caching-on-the-jvm-and-beyond-by-louis-jacomet-aurelien-broszniowski">Caching 101: Caching on the JVM (and beyond)</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 02:45:40</div>
+			
+			
+              <div>Views: 308 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aurelien-broszniowski">Aurelien Broszniowski</a>
+             
+                <a href="/p/louis-jacomet">Louis Jacomet</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/cloud-native-java-by-josh-long"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sdILCoSykTc/hqdefault.jpg" alt="Cloud Native Java" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/cloud-native-java-by-josh-long">Cloud Native Java</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:19</div>
+			
+			
+              <div>Views: 583 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/josh-long">Josh Long</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/cognitive-cynefin-how-language-and-bias-keep-us-complicated-by-liz-keogh"><img class="list-thumbnail" src="https://i.ytimg.com/vi/z0awdNcFbpE/hqdefault.jpg" alt="Cognitive Cynefin: How Language and Bias keep us Complicated" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/cognitive-cynefin-how-language-and-bias-keep-us-complicated-by-liz-keogh">Cognitive Cynefin: How Language and Bias keep us Complicated</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 49:49</div>
+			
+			
+              <div>Views: 109 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/liz-keogh">Liz Keogh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/composing-music-in-the-cloud-by-james-weaver"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DQ54lvCLL7Y/hqdefault.jpg" alt="Composing Music in the Cloud" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/composing-music-in-the-cloud-by-james-weaver">Composing Music in the Cloud</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 42:49</div>
+			
+			
+              <div>Views: 65 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-weaver">James Weaver</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/connect-and-control-iot-devices-in-minutes-using-voice-and-analytics-by-mark-vanderwiele"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lv513sNyWKo/hqdefault.jpg" alt="Connect and Control IOT Devices in Minutes using Voice and Analytics" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/connect-and-control-iot-devices-in-minutes-using-voice-and-analytics-by-mark-vanderwiele">Connect and Control IOT Devices in Minutes using Voice and Analytics</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:05</div>
+			
+			
+              <div>Views: 125 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mark-vanderwiele">Mark VanderWiele</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/containerless-in-the-cloud-with-aws-lambda-by-ryan-cuprak"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tZtfUz80-uM/hqdefault.jpg" alt="Containerless in the Cloud with AWS Lambda" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/containerless-in-the-cloud-with-aws-lambda-by-ryan-cuprak">Containerless in the Cloud with AWS Lambda</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:45</div>
+			
+			
+              <div>Views: 237 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ryan-cuprak">Ryan Cuprak</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/creating-a-safe-dev-environment-on-a-public-cloud-with-docker-jenkins-rancher-and-openvpn"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZMPuhQPQmqs/hqdefault.jpg" alt="Creating a safe dev environment on a public Cloud with Docker, Jenkins, Rancher and OpenVPN" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/creating-a-safe-dev-environment-on-a-public-cloud-with-docker-jenkins-rancher-and-openvpn">Creating a safe dev environment on a public Cloud with Docker, Jenkins, Rancher and OpenVPN</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 16:35</div>
+			
+			
+              <div>Views: 243 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/cybercrime-and-the-developer-how-to-start-defending-against-the-darker-side-of-the-web"><img class="list-thumbnail" src="https://i.ytimg.com/vi/c9uvV4ChIXw/hqdefault.jpg" alt="Cybercrime and the Developer. How to start defending against the darker side of the web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/cybercrime-and-the-developer-how-to-start-defending-against-the-darker-side-of-the-web">Cybercrime and the Developer. How to start defending against the darker side of the web</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 47:50</div>
+			
+			
+              <div>Views: 160 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/dev-versus-ops-by-dan-hardiker-henry-whincup"><img class="list-thumbnail" src="https://i.ytimg.com/vi/tIYPATalcGs/hqdefault.jpg" alt="Dev versus Ops" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/dev-versus-ops-by-dan-hardiker-henry-whincup">Dev versus Ops</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:35</div>
+			
+			
+              <div>Views: 53 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dan-hardiker">Dan Hardiker</a>
+             
+                <a href="/p/henry-whincup">Henry Whincup</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/dials-to-11-modern-extreme-programming-by-benji-weber"><img class="list-thumbnail" src="https://i.ytimg.com/vi/U0i2Wn9xjLE/hqdefault.jpg" alt="Dials to 11 - Modern Extreme Programming" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/dials-to-11-modern-extreme-programming-by-benji-weber">Dials to 11 - Modern Extreme Programming</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:02</div>
+			
+			
+              <div>Views: 106 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/benji-weber">Benji Weber</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/docker-and-kubernetes-recipes-for-java-developers-by-arun-gupta"><img class="list-thumbnail" src="https://i.ytimg.com/vi/a6lZWaqKSmY/hqdefault.jpg" alt="Docker and Kubernetes Recipes for Java Developers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/docker-and-kubernetes-recipes-for-java-developers-by-arun-gupta">Docker and Kubernetes Recipes for Java Developers</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 02:43:08</div>
+			
+			
+              <div>Views: 430 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/arun-gupta">Arun Gupta</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/embracing-failure-by-mazz-mosley"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hf6PVE2yFgA/hqdefault.jpg" alt="Embracing failure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/embracing-failure-by-mazz-mosley">Embracing failure</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 20:51</div>
+			
+			
+              <div>Views: 90 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mazz-mosley">Mazz Mosley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/everything-you-always-wanted-to-know-about-highly-available-distributed-databases-by-javier-ramirez"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Rxu9xWP78iE/hqdefault.jpg" alt="Everything you always wanted to know about highly available distributed databasess" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/everything-you-always-wanted-to-know-about-highly-available-distributed-databases-by-javier-ramirez">Everything you always wanted to know about highly available distributed databasess</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 49:51</div>
+			
+			
+              <div>Views: 122 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/javier-ramirez">Javier Ramirez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/evolving-to-awesome-technology-by-focusing-on-value-delivery-by-narek-alaverdyan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/X_kK-LGziW0/hqdefault.jpg" alt="Evolving to awesome technology by focusing on value delivery" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/evolving-to-awesome-technology-by-focusing-on-value-delivery-by-narek-alaverdyan">Evolving to awesome technology by focusing on value delivery</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 41:25</div>
+			
+			
+              <div>Views: 74 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/narek-alaverdyan">Narek Alaverdyan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/extreme-profiling-digging-into-hotspots-by-nitsan-wakart"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7PkkxDaFDj8/hqdefault.jpg" alt="Extreme Profiling: Digging Into Hotspots" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/extreme-profiling-digging-into-hotspots-by-nitsan-wakart">Extreme Profiling: Digging Into Hotspots</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:22</div>
+			
+			
+              <div>Views: 1312 Likes: 25</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nitsan-wakart">Nitsan Wakart</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/faster-java-by-adding-structs-sort-of-by-simon-ritter"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iKC2yoTwuvk/hqdefault.jpg" alt="Faster Java By Adding Structs (Sort Of)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/faster-java-by-adding-structs-sort-of-by-simon-ritter">Faster Java By Adding Structs (Sort Of)</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:12</div>
+			
+			
+              <div>Views: 354 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-ritter">Simon Ritter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/from-an-idea-to-a-working-prototype-by-kaushik-chaubal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PQwwoi0z-eU/hqdefault.jpg" alt="From an idea to a working prototype" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/from-an-idea-to-a-working-prototype-by-kaushik-chaubal">From an idea to a working prototype</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 15:38</div>
+			
+			
+              <div>Views: 71 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kaushik-chaubal">Kaushik Chaubal</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/from-object-oriented-to-functional-domain-modelling-by-mario-fusco"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SN_hqTn4N6Y/hqdefault.jpg" alt="From object oriented to functional domain modelling" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/from-object-oriented-to-functional-domain-modelling-by-mario-fusco">From object oriented to functional domain modelling</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 56:27</div>
+			
+			
+              <div>Views: 1040 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mario-fusco">Mario Fusco</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/full-stack-development-with-java-and-nosql-by-laurent-doguin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/S7BWzoelAN0/hqdefault.jpg" alt="Full Stack Development with Java and NoSQL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/full-stack-development-with-java-and-nosql-by-laurent-doguin">Full Stack Development with Java and NoSQL</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:01</div>
+			
+			
+              <div>Views: 246 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/laurent-doguin">Laurent Doguin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/fun-never-stops-introduction-to-haskell-programming-language-by-paul-szulc"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1jZ7j21g028/hqdefault.jpg" alt="Fun never stops. Introduction to Haskell Programming language" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/fun-never-stops-introduction-to-haskell-programming-language-by-paul-szulc">Fun never stops. Introduction to Haskell Programming language</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:26</div>
+			
+			
+              <div>Views: 3989 Likes: 59</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-szulc">Paul Szulc</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/future-of-development-panel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pcWNlu7NMKU/hqdefault.jpg" alt="Future of Development Panel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/future-of-development-panel">Future of Development Panel</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:21</div>
+			
+			
+              <div>Views: 198 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/arun-gupta">Arun Gupta</a>
+             
+                <a href="/p/daniel-bryant">Daniel Bryant</a>
+             
+                <a href="/p/amy-nicholson">Amy Nicholson</a>
+             
+                <a href="/p/christopher-batey">Christopher Batey</a>
+             
+                <a href="/p/dan-hardiker">Dan Hardiker</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/get-hip-with-jhipster-spring-boot-angularjs-bootstrap-by-matt-raible"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UKMn5UNaUM4/hqdefault.jpg" alt="Get Hip with JHipster: Spring Boot + AngularJS + Bootstrap" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/get-hip-with-jhipster-spring-boot-angularjs-bootstrap-by-matt-raible">Get Hip with JHipster: Spring Boot + AngularJS + Bootstrap</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 48:09</div>
+			
+			
+              <div>Views: 500 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-raible">Matt Raible</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/going-voting-devoxx-vote-api-in-4-languages-by-jon-mort"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Y_RYM49-DiM/hqdefault.jpg" alt="Going voting - Devoxx Vote API in 4 languages" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/going-voting-devoxx-vote-api-in-4-languages-by-jon-mort">Going voting - Devoxx Vote API in 4 languages</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 15:33</div>
+			
+			
+              <div>Views: 39 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jon-mort">Jon Mort</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/google-dataflow-the-new-open-model-for-batch-and-stream-processing-by-felipe-hoffa-ray-tsang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o-ZLsmav_hw/hqdefault.jpg" alt="Google Dataflow: The new open model for batch and stream processing" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/google-dataflow-the-new-open-model-for-batch-and-stream-processing-by-felipe-hoffa-ray-tsang">Google Dataflow: The new open model for batch and stream processing</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:00</div>
+			
+			
+              <div>Views: 260 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/felipe-hoffa">Felipe Hoffa</a>
+             
+                <a href="/p/ray-tsang">Ray Tsang</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/harnessing-domain-driven-design-for-distributed-systems-by-andrew-harmel-law-gayathri-thiyagarajan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/j5tFNT55kmM/hqdefault.jpg" alt="Harnessing Domain Driven Design for Distributed Systems" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/harnessing-domain-driven-design-for-distributed-systems-by-andrew-harmel-law-gayathri-thiyagarajan">Harnessing Domain Driven Design for Distributed Systems</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 48:24</div>
+			
+			
+              <div>Views: 429 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gayathri-thiyagarajan">Gayathri Thiyagarajan</a>
+             
+                <a href="/p/andrew-harmel-law">Andrew Harmel-Law</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/how-google-conquered-the-game-of-go-by-roy-van-rijn"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xGZmiqn4Blo/hqdefault.jpg" alt="How Google conquered the game of Go" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/how-google-conquered-the-game-of-go-by-roy-van-rijn">How Google conquered the game of Go</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 19:10</div>
+			
+			
+              <div>Views: 138 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/roy-van-rijn">Roy van Rijn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/how-to-defeat-feature-gluttony-by-kasia-mrowca"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CwDDZ8nLVVc/hqdefault.jpg" alt="How to defeat feature gluttony?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/how-to-defeat-feature-gluttony-by-kasia-mrowca">How to defeat feature gluttony?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 46:45</div>
+			
+			
+              <div>Views: 141 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kasia-mrowca">Kasia Mrowca</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/java-8-best-practices-by-stephen-colebourne"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wOks4LW6I24/hqdefault.jpg" alt="Java 8 best practices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/java-8-best-practices-by-stephen-colebourne">Java 8 best practices</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 44:40</div>
+			
+			
+              <div>Views: 1547 Likes: 14</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephen-colebourne">Stephen Colebourne</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/java-9-modularity-in-action-by-sander-mak-paul-bakker"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XwXL7urUlP4/hqdefault.jpg" alt="Java 9 Modularity in Action" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/java-9-modularity-in-action-by-sander-mak-paul-bakker">Java 9 Modularity in Action</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:50</div>
+			
+			
+              <div>Views: 700 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sander-mak">Sander Mak</a>
+             
+                <a href="/p/paul-bakker">Paul Bakker</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/java-collections-the-force-awakens-by-richard-warburton-raoul-gabriel-urma"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YzKDhkGMbBM/hqdefault.jpg" alt="Java Collections: The Force Awakens" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/java-collections-the-force-awakens-by-richard-warburton-raoul-gabriel-urma">Java Collections: The Force Awakens</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 49:21</div>
+			
+			
+              <div>Views: 777 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/richard-warburton">Richard Warburton</a>
+             
+                <a href="/p/raoul-gabriel-urma">Raoul-Gabriel Urma</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/java-devices-and-the-iot-cloud-by-andy-gilbert"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gRRc6Q23EEw/hqdefault.jpg" alt="Java, Devices and the IoT Cloud" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/java-devices-and-the-iot-cloud-by-andy-gilbert">Java, Devices and the IoT Cloud</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 48:03</div>
+			
+			
+              <div>Views: 108 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andy-gilbert">Andy Gilbert</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/java-ee-8-functional-opportunities-by-david-blevins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MgMrJOdTevk/hqdefault.jpg" alt="Java EE 8 Functional Opportunities" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/java-ee-8-functional-opportunities-by-david-blevins">Java EE 8 Functional Opportunities</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 52:50</div>
+			
+			
+              <div>Views: 203 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-blevins">David Blevins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/java-on-mobile-is-a-thing-and-its-really-good-by-johan-vos"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oUMcWxvamWs/hqdefault.jpg" alt="Java on Mobile is a thing... and it's really good!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/java-on-mobile-is-a-thing-and-its-really-good-by-johan-vos">Java on Mobile is a thing... and it's really good!</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 54:54</div>
+			
+			
+              <div>Views: 1320 Likes: 18</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/johan-vos">Johan Vos</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/just-enough-app-server-by-antonio-goncalves"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iBJ8FlUA3ok/hqdefault.jpg" alt="Just enough app server" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/just-enough-app-server-by-antonio-goncalves">Just enough app server</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:29</div>
+			
+			
+              <div>Views: 1330 Likes: 15</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/antonio-goncalves">Antonio Goncalves</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/keeping-your-cicd-pipeline-as-fast-as-it-needs-to-be-by-abraham-marin-perez"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8JxoKJng_eQ/hqdefault.jpg" alt="Keeping Your CI/CD pipeline as fast as it needs to be" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/keeping-your-cicd-pipeline-as-fast-as-it-needs-to-be-by-abraham-marin-perez">Keeping Your CI/CD pipeline as fast as it needs to be</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 41:49</div>
+			
+			
+              <div>Views: 94 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/abraham-marin-perez">Abraham Marin-Perez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/knowledge-is-power-getting-out-of-trouble-by-understanding-git-by-steve-smith"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5V-6lI3Qz6w/hqdefault.jpg" alt="Knowledge is Power: Getting out of trouble by understanding Git" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/knowledge-is-power-getting-out-of-trouble-by-understanding-git-by-steve-smith">Knowledge is Power: Getting out of trouble by understanding Git</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:11</div>
+			
+			
+              <div>Views: 666 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steve-smith">Steve Smith</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/kubernetes-in-production-blue-green-deployment-auto-scaling-and-deployment-automation"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-Ci4vd4rh4M/hqdefault.jpg" alt="Kubernetes in production - blue-green deployment, auto scaling and deployment automation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/kubernetes-in-production-blue-green-deployment-auto-scaling-and-deployment-automation">Kubernetes in production - blue-green deployment, auto scaling and deployment automation</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 53:10</div>
+			
+			
+              <div>Views: 7553 Likes: 96</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-bakker">Paul Bakker</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/learning-programming-by-osmosis-by-maaret-pyhajarvi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zIFEPCAkZCU/hqdefault.jpg" alt="Learning programming by osmosis" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/learning-programming-by-osmosis-by-maaret-pyhajarvi">Learning programming by osmosis</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:41</div>
+			
+			
+              <div>Views: 112 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maaret-pyhajarvi">Maaret Pyhäjärvi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/leveling-up-your-application-security-program-by-david-rook"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kHP6p66qv14/hqdefault.jpg" alt="Leveling up your application security program" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/leveling-up-your-application-security-program-by-david-rook">Leveling up your application security program</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 48:52</div>
+			
+			
+              <div>Views: 53 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-rook">David Rook</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/managers-are-from-mars-developers-are-from-venus-by-ted-neward"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2lXuYHQmjKk/hqdefault.jpg" alt="Managers are from Mars, Developers are from Venus" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/managers-are-from-mars-developers-are-from-venus-by-ted-neward">Managers are from Mars, Developers are from Venus</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 56:38</div>
+			
+			
+              <div>Views: 430 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ted-neward">Ted Neward</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/maven-taming-the-beast-by-roberto-cortez"><img class="list-thumbnail" src="https://i.ytimg.com/vi/r_50TkgV90c/hqdefault.jpg" alt="Maven - Taming the Beast" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/maven-taming-the-beast-by-roberto-cortez">Maven - Taming the Beast</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 15:37</div>
+			
+			
+              <div>Views: 312 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/roberto-cortez">Roberto Cortez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/microsoft-and-open-source-microsoft-and-java-really-by-giles-davies"><img class="list-thumbnail" src="https://i.ytimg.com/vi/urF0CHOLQDk/hqdefault.jpg" alt="Microsoft and Open Source? Microsoft and Java? Really?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/microsoft-and-open-source-microsoft-and-java-really-by-giles-davies">Microsoft and Open Source? Microsoft and Java? Really?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:45</div>
+			
+			
+              <div>Views: 68 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/giles-davies">Giles Davies</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/migrating-25k-lines-of-ant-scripting-to-gradle-by-hanno-embregts"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7U1n5Sp0eS4/hqdefault.jpg" alt="Migrating 25K lines of Ant scripting to Gradle" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/migrating-25k-lines-of-ant-scripting-to-gradle-by-hanno-embregts">Migrating 25K lines of Ant scripting to Gradle</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 16:24</div>
+			
+			
+              <div>Views: 103 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hanno-embregts">Hanno Embregts</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/modular-monoliths-by-simon-brown"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SV5RVzKZueA/hqdefault.jpg" alt="Modular monoliths" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/modular-monoliths-by-simon-brown">Modular monoliths</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 45:46</div>
+			
+			
+              <div>Views: 699 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-brown">Simon Brown</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/monitoring-101-by-ilan-rabinovitch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eXTZHLHnKgg/hqdefault.jpg" alt="Monitoring 101" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/monitoring-101-by-ilan-rabinovitch">Monitoring 101</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 15:44</div>
+			
+			
+              <div>Views: 103 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ilan-rabinovitch">Ilan Rabinovitch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/monoliths-to-microservices-transforming-the-architecture-of-criminal-justice-by-stephen-strudwick"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AYIYrYsF8dE/hqdefault.jpg" alt="Monoliths to Microservices: Transforming the architecture of Criminal Justice" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/monoliths-to-microservices-transforming-the-architecture-of-criminal-justice-by-stephen-strudwick">Monoliths to Microservices: Transforming the architecture of Criminal Justice</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:59</div>
+			
+			
+              <div>Views: 190 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephen-strudwick">Stephen Strudwick</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/mood-driven-development-by-katharine-fitzpatrick"><img class="list-thumbnail" src="https://i.ytimg.com/vi/NgnZ3gJhUks/hqdefault.jpg" alt="Mood Driven Development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/mood-driven-development-by-katharine-fitzpatrick">Mood Driven Development</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 07:26</div>
+			
+			
+              <div>Views: 63 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/katharine-fitzpatrick">Katharine Fitzpatrick</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/mvc-10-by-example-by-ivar-grimstad"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-cmmvd2FVWE/hqdefault.jpg" alt="MVC 1.0 - by Example" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/mvc-10-by-example-by-ivar-grimstad">MVC 1.0 - by Example</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 45:42</div>
+			
+			
+              <div>Views: 84 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ivar-grimstad">Ivar Grimstad</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/my-slow-internet-vs-docker-by-ray-tsang"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GoGyfkvO0eI/hqdefault.jpg" alt="My Slow Internet vs. Docker" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/my-slow-internet-vs-docker-by-ray-tsang">My Slow Internet vs. Docker</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 16:33</div>
+			
+			
+              <div>Views: 66 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ray-tsang">Ray Tsang</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/offline-first-apps-with-web-components-by-amahdy-abdelaziz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eW3edu03328/hqdefault.jpg" alt="Offline-first apps with Web Components" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/offline-first-apps-with-web-components-by-amahdy-abdelaziz">Offline-first apps with Web Components</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:58</div>
+			
+			
+              <div>Views: 199 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amahdy-abdelaziz">Amahdy Abdelaziz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/on-polymer-and-smileysor-polysmileys-by-carmen-popoviciu"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OH4KSD-rLP8/hqdefault.jpg" alt="On Polymer and smileys...or Polysmileys by Carmen Popoviciu" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/on-polymer-and-smileysor-polysmileys-by-carmen-popoviciu">On Polymer and smileys...or Polysmileys by Carmen Popoviciu</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:28</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/carmen-popoviciu">Carmen Popoviciu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/open-sesame-conversations-with-my-front-door-by-maurice-naftalin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9dzoeEc37Ms/hqdefault.jpg" alt="Open Sesame! Conversations With My Front Door" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/open-sesame-conversations-with-my-front-door-by-maurice-naftalin">Open Sesame! Conversations With My Front Door</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 57:08</div>
+			
+			
+              <div>Views: 53 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maurice-naftalin">Maurice Naftalin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/progressive-apps-in-the-real-world-by-dean-hume"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uo85G7T5Gx8/hqdefault.jpg" alt="Progressive apps in the Real World" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/progressive-apps-in-the-real-world-by-dean-hume">Progressive apps in the Real World</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 46:21</div>
+			
+			
+              <div>Views: 102 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dean-hume">Dean Hume</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/reactor-25-a-jvm-foundation-for-java-8-and-reactive-streams-by-stephane-maldini"><img class="list-thumbnail" src="https://i.ytimg.com/vi/MBRPEwO4OYw/hqdefault.jpg" alt="Reactor 2.5, a JVM foundation for Java 8 and Reactive Streams" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/reactor-25-a-jvm-foundation-for-java-8-and-reactive-streams-by-stephane-maldini">Reactor 2.5, a JVM foundation for Java 8 and Reactive Streams</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:49</div>
+			
+			
+              <div>Views: 407 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephane-maldini">Stephane Maldini</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/refactoring-to-java-8-by-trisha-gee"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dlzMV83RTtw/hqdefault.jpg" alt="Refactoring to Java 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/refactoring-to-java-8-by-trisha-gee">Refactoring to Java 8</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:04</div>
+			
+			
+              <div>Views: 1281 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/trisha-gee">Trisha Gee</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/rest-no-more-use-an-actor-and-lego-and-raspberry-pis-by-johan-janssen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sb1lcmeseEk/hqdefault.jpg" alt="REST no more, use an actor (and Lego and Raspberry Pi’s…)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/rest-no-more-use-an-actor-and-lego-and-raspberry-pis-by-johan-janssen">REST no more, use an actor (and Lego and Raspberry Pi’s…)</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 39:53</div>
+			
+			
+              <div>Views: 124 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/johan-janssen">Johan Janssen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/scaling-engineering-by-hacking-conways-law-by-aviran-mordo"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eG27-f79YX0/hqdefault.jpg" alt="Scaling Engineering by Hacking Conway's Law" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/scaling-engineering-by-hacking-conways-law-by-aviran-mordo">Scaling Engineering by Hacking Conway's Law</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:59</div>
+			
+			
+              <div>Views: 344 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/aviran-mordo">Aviran Mordo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/security-beyond-the-libraries-by-eoin-woods"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-f3eNbdv6rQ/hqdefault.jpg" alt="Security Beyond the Libraries" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/security-beyond-the-libraries-by-eoin-woods">Security Beyond the Libraries</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:02</div>
+			
+			
+              <div>Views: 117 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/eoin-woods">Eoin Woods</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/sharing-code-knowledge-and-cultural-capital-when-tech-meets-anthropology-by-lucy-carey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/9mHyMXDinyI/hqdefault.jpg" alt="Sharing code knowledge and cultural capital - when tech meets anthropology" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/sharing-code-knowledge-and-cultural-capital-when-tech-meets-anthropology-by-lucy-carey">Sharing code knowledge and cultural capital - when tech meets anthropology</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 09:58</div>
+			
+			
+              <div>Views: 34 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lucy-carey">Lucy Carey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/sql-for-json-querying-with-performance-for-nosql-databases-applications-by-arun-gupta"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1ge5Iz9ndTc/hqdefault.jpg" alt="SQL for JSON: Querying with Performance for NoSQL Databases & Applications" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/sql-for-json-querying-with-performance-for-nosql-databases-applications-by-arun-gupta">SQL for JSON: Querying with Performance for NoSQL Databases & Applications</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 47:26</div>
+			
+			
+              <div>Views: 142 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/arun-gupta">Arun Gupta</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/taking-the-friction-out-of-microservice-frameworks-with-lagom-by-markus-eisele"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7LSpgem2VZc/hqdefault.jpg" alt="Taking the friction out of microservice frameworks with Lagom" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/taking-the-friction-out-of-microservice-frameworks-with-lagom-by-markus-eisele">Taking the friction out of microservice frameworks with Lagom</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 44:34</div>
+			
+			
+              <div>Views: 452 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/markus-eisele">Markus Eisele</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/testing-apache-cassandra-with-jepsen-how-to-understand-and-produce-safe-distributed-systems"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OnG1FCr5WTI/hqdefault.jpg" alt="Testing Apache Cassandra with Jepsen: How to Understand and Produce Safe Distributed Systems" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/testing-apache-cassandra-with-jepsen-how-to-understand-and-produce-safe-distributed-systems">Testing Apache Cassandra with Jepsen: How to Understand and Produce Safe Distributed Systems</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 47:25</div>
+			
+			
+              <div>Views: 306 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/joel-knighton">Joel Knighton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/the-art-of-angular-in-2016-by-matt-raible"><img class="list-thumbnail" src="https://i.ytimg.com/vi/T4zsanOnKtk/hqdefault.jpg" alt="The Art of Angular in 2016" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/the-art-of-angular-in-2016-by-matt-raible">The Art of Angular in 2016</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 49:14</div>
+			
+			
+              <div>Views: 739 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matt-raible">Matt Raible</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/the-jvm-and-docker-a-good-idea-by-christopher-batey"><img class="list-thumbnail" src="https://i.ytimg.com/vi/w1rZOY5gbvk/hqdefault.jpg" alt="The JVM and Docker, a good idea?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/the-jvm-and-docker-a-good-idea-by-christopher-batey">The JVM and Docker, a good idea?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:05</div>
+			
+			
+              <div>Views: 1299 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christopher-batey">Christopher Batey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/the-myth-of-the-magical-messaging-fabric-by-jakub-korab"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ie3--CSpCGs/hqdefault.jpg" alt="The Myth of the Magical Messaging Fabric" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/the-myth-of-the-magical-messaging-fabric-by-jakub-korab">The Myth of the Magical Messaging Fabric</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 50:52</div>
+			
+			
+              <div>Views: 351 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jakub-korab">Jakub Korab</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/the-rise-and-rise-of-dataflow-in-the-javaverse-by-russel-winder"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lKs7x_kauN0/hqdefault.jpg" alt="The rise and rise of dataflow in the Javaverse" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/the-rise-and-rise-of-dataflow-in-the-javaverse-by-russel-winder">The rise and rise of dataflow in the Javaverse</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 51:23</div>
+			
+			
+              <div>Views: 214 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/russel-winder">Russel Winder</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/the-silver-bullet-syndrome-by-hadi-hariri"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_xjpO3y_Np4/hqdefault.jpg" alt="The Silver Bullet Syndrome" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/the-silver-bullet-syndrome-by-hadi-hariri">The Silver Bullet Syndrome</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 46:48</div>
+			
+			
+              <div>Views: 296 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hadi-hariri">Hadi Hariri</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/to-ee-or-not-to-ee-panel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vdRu2spgS3s/hqdefault.jpg" alt="To EE or not to EE Panel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/to-ee-or-not-to-ee-panel">To EE or not to EE Panel</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 45:29</div>
+			
+			
+              <div>Views: 216 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/antonio-goncalves">Antonio Goncalves</a>
+             
+                <a href="/p/peter-pilgrim">Peter Pilgrim</a>
+             
+                <a href="/p/martijn-verburg">Martijn Verburg</a>
+             
+                <a href="/p/heather-vancura">Heather Vancura</a>
+             
+                <a href="/p/david-blevins">David Blevins</a>
+             
+                <a href="/p/ian-robinson">Ian Robinson</a>
+             
+                <a href="/p/mark-little">Mark Little</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/top-10-ways-to-be-an-ally-for-women-in-tech-by-heather-vancura"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bKCeKAjPznA/hqdefault.jpg" alt="Top 10 Ways to be an Ally for Women in Tech" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/top-10-ways-to-be-an-ally-for-women-in-tech-by-heather-vancura">Top 10 Ways to be an Ally for Women in Tech</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 20:02</div>
+			
+			
+              <div>Views: 96 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/heather-vancura">Heather Vancura</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/what-the-cult-of-expertise-costs-by-jessica-rose"><img class="list-thumbnail" src="https://i.ytimg.com/vi/N3kBUy2JtTA/hqdefault.jpg" alt="What the Cult of Expertise Costs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/what-the-cult-of-expertise-costs-by-jessica-rose">What the Cult of Expertise Costs</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 47:26</div>
+			
+			
+              <div>Views: 72 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jessica-rose">Jessica Rose</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/wheres-my-free-lunch-by-hadi-hariri"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_58mNj3Chzo/hqdefault.jpg" alt="Where’s my free lunch?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/wheres-my-free-lunch-by-hadi-hariri">Where’s my free lunch?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 20:46</div>
+			
+			
+              <div>Views: 609 Likes: 11</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/hadi-hariri">Hadi Hariri</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/devoxx-uk-2016/wildfly-swarm-in-15-minutes-by-antonio-goncalves"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5BvJVAlZyvo/hqdefault.jpg" alt="WildFly Swarm in 15 minutes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/devoxx-uk-2016/wildfly-swarm-in-15-minutes-by-antonio-goncalves">WildFly Swarm in 15 minutes</a></h4>
+          <footer>
+            <div class="recorded">2016-06-08</div>
+			
+			  <div>Length: 16:59</div>
+			
+			
+              <div>Views: 1027 Likes: 19</div>
+            
+            <div class="event">From <a href="/e/devoxx-uk-2016">Devoxx UK 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/antonio-goncalves">Antonio Goncalves</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLw7UYp3N0eUYG58he1AxvZ9IiHyB_BFZf">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>DrupalSouth 2015</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>DrupalSouth 2015</h1>
+
+<div><a href="https://melbourne2015.drupal.org.au/">DrupalSouth 2015</a></div>
+
+
+<div>Start date: 2015-03-05</div>
+<div>End date: 2015-03-07</div>
+
+<div>Location:
+  Melbourne
+  Victoria
+  <a href="/l/australia">Australia</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/drupal">Drupal</a> 
+   
+       <a href="/t/php">PHP</a> 
+   
+       <a href="/t/web">web</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/drupalsouth">@drupalsouth</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/drupalsouth">https://www.facebook.com/drupalsouth</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=DrupalSouth%202015%20on%202015-03-05%20in%20Melbourne%2C%20Victoria%20Australia%20%40drupalsouth%20https%3A//melbourne2015.drupal.org.au/%20%23Drupal%20%23PHP%20%23web%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/29-million-words-in-two-months-and-then-what-by-peter-henderson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xGsSaAQMAOI/hqdefault.jpg" alt="2.9 million words in two months (and then what)?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/29-million-words-in-two-months-and-then-what-by-peter-henderson">2.9 million words in two months (and then what)?</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 30:43</div>
+			
+			
+              <div>Views: 22 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-hendersons">Peter Hendersons</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/better-remote-work-by-jarkko-oksanen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/x6hzU9j9LHU/hqdefault.jpg" alt="Better Remote Work" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/better-remote-work-by-jarkko-oksanen">Better Remote Work</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 01:13:59</div>
+			
+			
+              <div>Views: 38 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jarkko-oksanen">Jarkko Oksanen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/carrying-the-can-scaling-humans-for-complex-drupal-by-chris-oneill"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sR2xTC6DIkw/hqdefault.jpg" alt="Carrying the Can, Scaling Humans for Complex Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/carrying-the-can-scaling-humans-for-complex-drupal-by-chris-oneill">Carrying the Can, Scaling Humans for Complex Drupal</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 44:04</div>
+			
+			
+              <div>Views: 29 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chris-oneill">Chris O'Neill</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/compete-to-collaborate-exploring-wider-collaboration-mechanisms-in-the-drupal-space-by-anoop-john"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BclWR33vcrk/hqdefault.jpg" alt="Compete to Collaborate - Exploring wider collaboration mechanisms in the Drupal space" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/compete-to-collaborate-exploring-wider-collaboration-mechanisms-in-the-drupal-space-by-anoop-john">Compete to Collaborate - Exploring wider collaboration mechanisms in the Drupal space</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 43:04</div>
+			
+			
+              <div>Views: 9 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anoop-john">Anoop John</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/conference-opening"><img class="list-thumbnail" src="https://i.ytimg.com/vi/O1v-TwQgtF0/hqdefault.jpg" alt="Conference Opening" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/conference-opening">Conference Opening</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 10:10</div>
+			
+			
+              <div>Views: 51 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/configuring-and-extending-shibboleth-to-integrate-drupal-python-and-java-by-gavin-jackson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SmT8X5iEX5Q/hqdefault.jpg" alt="Configuring and extending Shibboleth to integrate Drupal, Python and Java" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/configuring-and-extending-shibboleth-to-integrate-drupal-python-and-java-by-gavin-jackson">Configuring and extending Shibboleth to integrate Drupal, Python and Java</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 31:13</div>
+			
+			
+              <div>Views: 698 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gavin-jackson">Gavin Jackson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/contributing-to-core-without-losing-your-mind-by-lee-rowlands"><img class="list-thumbnail" src="https://i.ytimg.com/vi/leE5tH1wCQg/hqdefault.jpg" alt="Contributing to Core without losing your mind" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/contributing-to-core-without-losing-your-mind-by-lee-rowlands">Contributing to Core without losing your mind</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 44:05</div>
+			
+			
+              <div>Views: 234 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lee-rowlands">Lee Rowlands</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/create-your-own-bespoke-views-style-plugins-for-drupal-8-by-jibran-ijaz"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XjXyFnA-wzM/hqdefault.jpg" alt="Create your own bespoke Views Style Plugins for Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/create-your-own-bespoke-views-style-plugins-for-drupal-8-by-jibran-ijaz">Create your own bespoke Views Style Plugins for Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 33:44</div>
+			
+			
+              <div>Views: 278 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jibran-ijaz">Jibran Ijaz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/design-pitfalls-in-responsive-builds-by-amelia-schmidt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BR9FXPcFAfg/hqdefault.jpg" alt="Design pitfalls in responsive builds" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/design-pitfalls-in-responsive-builds-by-amelia-schmidt">Design pitfalls in responsive builds</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 42:59</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/amelia-schmidt">Amelia Schmidt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/digital-local-government-why-drupal-and-how-to-make-it-work-by-fergal-coleman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XJwgHSm181A/hqdefault.jpg" alt="Digital Local Government – why Drupal and how to make it work" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/digital-local-government-why-drupal-and-how-to-make-it-work-by-fergal-coleman">Digital Local Government – why Drupal and how to make it work</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 48:50</div>
+			
+			
+              <div>Views: 47 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fergal-coleman">Fergal Coleman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/drupal-8-what-you-need-to-know-by-angela-byron"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sEOvYaBFj64/hqdefault.jpg" alt="Drupal 8 -  What you need to know" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/drupal-8-what-you-need-to-know-by-angela-byron">Drupal 8 -  What you need to know</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 54:52</div>
+			
+			
+              <div>Views: 19529 Likes: 94</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/angie-byron">Angie Byron</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/drupal-and-iot-commerce-by-steven-cooper"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iIFgF7YzoY8/hqdefault.jpg" alt="Drupal and IoT Commerce" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/drupal-and-iot-commerce-by-steven-cooper">Drupal and IoT Commerce</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 35:25</div>
+			
+			
+              <div>Views: 53 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steven-cooper">Steven Cooper</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/drupal-and-the-future-of-the-internet-by-tim-siers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/QwO22HYa__E/hqdefault.jpg" alt="Drupal and the future of the internet" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/drupal-and-the-future-of-the-internet-by-tim-siers">Drupal and the future of the internet</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 43:45</div>
+			
+			
+              <div>Views: 38 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-siers">Tim Siers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/drupal-as-an-integration-hub-by-james-purser"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wkEbVx2vI08/hqdefault.jpg" alt="Drupal as an Integration Hub" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/drupal-as-an-integration-hub-by-james-purser">Drupal as an Integration Hub</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 42:20</div>
+			
+			
+              <div>Views: 27 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-purser">James Purser</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/government-as-a-service-architecting-govcms-by-adam-malone"><img class="list-thumbnail" src="https://i.ytimg.com/vi/oMD0q0kPnqM/hqdefault.jpg" alt="Government as a Service, Architecting govCMS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/government-as-a-service-architecting-govcms-by-adam-malone">Government as a Service, Architecting govCMS</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 55:59</div>
+			
+			
+              <div>Views: 82 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-malone">Adam Malone</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/how-everything-is-connected-drupal-8-and-schema-org-by-david-peterson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5pv2aL5lsbw/hqdefault.jpg" alt="How Everything is Connected - Drupal 8 and Schema org" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/how-everything-is-connected-drupal-8-and-schema-org-by-david-peterson">How Everything is Connected - Drupal 8 and Schema org</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 43:19</div>
+			
+			
+              <div>Views: 271 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-peterson">David Peterson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/html5-rocks-the-best-of-the-modern-web-by-sam-thorogood"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eT8VX-lYVmc/hqdefault.jpg" alt="HTML5 Rocks, The best of the modern web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/html5-rocks-the-best-of-the-modern-web-by-sam-thorogood">HTML5 Rocks, The best of the modern web</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 36:15</div>
+			
+			
+              <div>Views: 151 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sam-thorogood">Sam Thorogood</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/idealism-embodied-philosophy-code-empowerment-by-jam"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HbRZZZygdJw/hqdefault.jpg" alt="Idealism embodied, Philosophy, Code, Empowerment" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/idealism-embodied-philosophy-code-empowerment-by-jam">Idealism embodied, Philosophy, Code, Empowerment</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 35:29</div>
+			
+			
+              <div>Views: 19 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeffrey-a-mcguire">Jeffrey A. McGuire</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/intro-to-git-by-gareth-hall"><img class="list-thumbnail" src="https://i.ytimg.com/vi/6INO8r8Ds6I/hqdefault.jpg" alt="Intro to GIT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/intro-to-git-by-gareth-hall">Intro to GIT</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 55:28</div>
+			
+			
+              <div>Views: 56 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gareth-hall">Gareth Hall</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/maps-to-the-max-take-your-maps-further-with-region-awareness-and-aggregations-by-rik-de-boer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/M7bgrJIAEWc/hqdefault.jpg" alt="Maps to the max, take your maps further with region awareness and aggregations" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/maps-to-the-max-take-your-maps-further-with-region-awareness-and-aggregations-by-rik-de-boer">Maps to the max, take your maps further with region awareness and aggregations</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 39:48</div>
+			
+			
+              <div>Views: 54 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rikki-bochow">Rikki Bochow</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/no-cms-is-an-island-entire-of-itself-what-open-source-communities-can-teach-each-other-by-dee-teal"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qcEpR35lfOo/hqdefault.jpg" alt="No CMS is an Island, Entire of Itself; What open source communities can teach each other" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/no-cms-is-an-island-entire-of-itself-what-open-source-communities-can-teach-each-other-by-dee-teal">No CMS is an Island, Entire of Itself; What open source communities can teach each other</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 42:10</div>
+			
+			
+              <div>Views: 42 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dee-teal">Dee Teal</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/on-a-clear-day-you-can-view-forever-by-anton-baggerman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RTmedFLfcX0/hqdefault.jpg" alt="On a clear day you can View forever" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/on-a-clear-day-you-can-view-forever-by-anton-baggerman">On a clear day you can View forever</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 48:53</div>
+			
+			
+              <div>Views: 24 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/anton-baggerman">Anton Baggerman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/open-source-enterprise-continuous-delivery-for-drupal-by-michael-godeck"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XNir7eAWJmg/hqdefault.jpg" alt="Open Source Enterprise Continuous Delivery for Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/open-source-enterprise-continuous-delivery-for-drupal-by-michael-godeck">Open Source Enterprise Continuous Delivery for Drupal</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 51:05</div>
+			
+			
+              <div>Views: 59 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-godeck">Michael Godeck</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/panel-content-strategy-by-pamela-barone-angus-gordon-susan-cowan-michelle-stevens"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2t6bzAmQdSs/hqdefault.jpg" alt="Content strategy" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/panel-content-strategy-by-pamela-barone-angus-gordon-susan-cowan-michelle-stevens">Content strategy</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 55:01</div>
+			
+			
+              <div>Views: 75 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pamela-barone">Pamela Barone</a>
+             
+                <a href="/p/michelle-stevens">Michelle Stevens</a>
+             
+                <a href="/p/angus-gordon">Angus Gordon</a>
+             
+                <a href="/p/susan-cowan">Susan Cowan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/panel-project-manager-war-stories-by-murray-woodman"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_8p6Qj8dAm4/hqdefault.jpg" alt="Project manager war stories" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/panel-project-manager-war-stories-by-murray-woodman">Project manager war stories</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 49:28</div>
+			
+			
+              <div>Views: 85 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/murray-woodman">Murray Woodman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/panel-selling-agile-by-pamela-barone"><img class="list-thumbnail" src="https://i.ytimg.com/vi/M2nNT50iiks/hqdefault.jpg" alt="Selling agile" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/panel-selling-agile-by-pamela-barone">Selling agile</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 48:58</div>
+			
+			
+              <div>Views: 107 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pamela-barone">Pamela Barone</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/performance-not-an-afterthought-by-nick-santamaria"><img class="list-thumbnail" src="https://i.ytimg.com/vi/12idsSDDMDU/hqdefault.jpg" alt="Performance, Not an Afterthought" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/performance-not-an-afterthought-by-nick-santamaria">Performance, Not an Afterthought</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 48:24</div>
+			
+			
+              <div>Views: 36 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-santamaria">Nick Santamaria</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/prototyping-in-user-centered-design-in-drupal-by-chloe-chen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5Awjd5OIz_k/hqdefault.jpg" alt="Prototyping in User Centered Design in Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/prototyping-in-user-centered-design-in-drupal-by-chloe-chen">Prototyping in User Centered Design in Drupal</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 25:30</div>
+			
+			
+              <div>Views: 37 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chloe-chen">Chloe Chen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/scald-media-management-a-new-hope-by-james-gollan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/x4I9TmBt1C8/hqdefault.jpg" alt="Scald media management" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/scald-media-management-a-new-hope-by-james-gollan">Scald media management</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 46:54</div>
+			
+			
+              <div>Views: 645 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-gollan">James Gollan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/services-in-drupal-8-by-vladimir-roudakov-jay-turnbull"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5XA-n9BCpts/hqdefault.jpg" alt="Services in Drupal 8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/services-in-drupal-8-by-vladimir-roudakov-jay-turnbull">Services in Drupal 8</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 52:34</div>
+			
+			
+              <div>Views: 355 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vladimir-roudakov">Vladimir Roudakov</a>
+             
+                <a href="/p/jay-turnbull">Jay Turnbull</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/site-preview-the-holy-grail-of-drupal-by-sean-hamlin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FBVKPOhlnco/hqdefault.jpg" alt="Site preview, the holy grail of Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/site-preview-the-holy-grail-of-drupal-by-sean-hamlin">Site preview, the holy grail of Drupal</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 41:22</div>
+			
+			
+              <div>Views: 50 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-hamlin">Sean Hamlin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/style-guide-driven-development-by-john-albin-wilkins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uHWlUhvBwr0/hqdefault.jpg" alt="Style guide driven development" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/style-guide-driven-development-by-john-albin-wilkins">Style guide driven development</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 44:35</div>
+			
+			
+              <div>Views: 427 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-albin-wilkins">John Albin Wilkins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/the-accidental-content-strategist-content-modelling-in-drupal-by-angus-gordon"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ENXEk8nx3s0/hqdefault.jpg" alt="The accidental content strategist, Content modelling in Drupal" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/the-accidental-content-strategist-content-modelling-in-drupal-by-angus-gordon">The accidental content strategist, Content modelling in Drupal</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 44:54</div>
+			
+			
+              <div>Views: 63 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/angus-gordon">Angus Gordon</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/the-dark-art-of-making-a-non-profit-beyond-contact-management-by-peter-davis"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BGINkwGiisA/hqdefault.jpg" alt="The Dark Art of making a Non Profit beyond contact management" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/the-dark-art-of-making-a-non-profit-beyond-contact-management-by-peter-davis">The Dark Art of making a Non Profit beyond contact management</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 42:13</div>
+			
+			
+              <div>Views: 44 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-davis">Peter Davis</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/the-drupalci-initiative-by-nick-schuch"><img class="list-thumbnail" src="https://i.ytimg.com/vi/aRuCzW23QRc/hqdefault.jpg" alt="The DrupalCI initiative" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/the-drupalci-initiative-by-nick-schuch">The DrupalCI initiative</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 51:18</div>
+			
+			
+              <div>Views: 33 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nick-schuch">Nick Schuch</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/the-future-of-speed-by-peter-moulding"><img class="list-thumbnail" src="https://i.ytimg.com/vi/215BnOoCkd0/hqdefault.jpg" alt="The future of Speed" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/the-future-of-speed-by-peter-moulding">The future of Speed</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 42:06</div>
+			
+			
+              <div>Views: 15 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-moulding">Peter Moulding</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/the-present-and-future-of-intranets-by-rebecca-rodgers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/C9VdHqWipcE/hqdefault.jpg" alt="The present and future of intranets" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/the-present-and-future-of-intranets-by-rebecca-rodgers">The present and future of intranets</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 46:16</div>
+			
+			
+              <div>Views: 47 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rebecca-rodgers">Rebecca Rodgers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/there-and-back-again-an-unexpected-journey-in-agile-documentation-by-lana-brindley"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5rntgE-3xrY/hqdefault.jpg" alt="There and Back Again, An Unexpected Journey in Agile Documentation" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/there-and-back-again-an-unexpected-journey-in-agile-documentation-by-lana-brindley">There and Back Again, An Unexpected Journey in Agile Documentation</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 43:45</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lana-brindley">Lana Brindley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/there-is-a-php-library-for-that-by-josh-taylor"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xCWqKd80MVk/hqdefault.jpg" alt="There is a PHP library for that" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/there-is-a-php-library-for-that-by-josh-taylor">There is a PHP library for that</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 27:48</div>
+			
+			
+              <div>Views: 29 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/josh-taylor">Josh Taylor</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/true-real-and-ideal-designing-for-purpose-delivering-with-impact-by-harriet-wakelam"><img class="list-thumbnail" src="https://i.ytimg.com/vi/dvie58zXUuQ/hqdefault.jpg" alt="True, real and ideal designing for purpose, delivering with impact" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/true-real-and-ideal-designing-for-purpose-delivering-with-impact-by-harriet-wakelam">True, real and ideal designing for purpose, delivering with impact</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 01:01:20</div>
+			
+			
+              <div>Views: 238 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/harriet-wakelam">Harriet Wakelam</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/using-drupal-in-education-by-vladimir-roudakov-josh-martin-michelle-stevens"><img class="list-thumbnail" src="https://i.ytimg.com/vi/J8rzCmnqrPo/hqdefault.jpg" alt="Using Drupal in education" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/using-drupal-in-education-by-vladimir-roudakov-josh-martin-michelle-stevens">Using Drupal in education</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 50:35</div>
+			
+			
+              <div>Views: 89 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/josh-martin">Josh Martin</a>
+             
+                <a href="/p/vladimir-roudakov">Vladimir Roudakov</a>
+             
+                <a href="/p/michelle-stevens">Michelle Stevens</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/who-said-developers-cant-design-by-rikki-bochow"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2iAWBcS8Raw/hqdefault.jpg" alt="Who said developers can't design!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/who-said-developers-cant-design-by-rikki-bochow">Who said developers can't design!</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 23:14</div>
+			
+			
+              <div>Views: 36 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rikki-bochow">Rikki Bochow</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/drupalsouth-2015/why-drupal-8-why-now-ps-drupal-7-is-still-awesome-by-jam"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DQP_qrTP2gI/hqdefault.jpg" alt="Why Drupal 8? Why now? PS: Drupal 7 is still awesome" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/drupalsouth-2015/why-drupal-8-why-now-ps-drupal-7-is-still-awesome-by-jam">Why Drupal 8? Why now? PS: Drupal 7 is still awesome</a></h4>
+          <footer>
+            <div class="recorded">2015-03-05</div>
+			
+			  <div>Length: 40:17</div>
+			
+			
+              <div>Views: 201 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/drupalsouth-2015">DrupalSouth 2015</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeffrey-a-mcguire">Jeffrey A. McGuire</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL31TzQhFjH2IcfNJT6ur9EVVw1ayWcdy-">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

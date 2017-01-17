@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>JSConf Asia 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>JSConf Asia 2016</h1>
+
+<div><a href="https://2016.jsconf.asia/">JSConf Asia 2016</a></div>
+
+
+<div>Start date: 2016-11-25</div>
+<div>End date: 2016-11-26</div>
+
+<div>Location:
+  Singapore
+  
+  <a href="/l/singapore">Singapore</a>
+</div>
+
+<div><a href="http://2016.devfest.asia/code-of-conduct/">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/jsconfasia">@jsconfasia</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/JSConfAsia">https://www.facebook.com/JSConfAsia</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=JSConf%20Asia%202016%20on%202016-11-25%20in%20Singapore%2C%20%20Singapore%20%40jsconfasia%20https%3A//2016.jsconf.asia/%20%23JavaScript%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/alex-castillo-neurojs-capturing-and-visualizing-brainwaves-with-angular-2-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/S7M2Dj-_fwU/hqdefault.jpg" alt="NeuroJS - Capturing And Visualizing Brainwaves With Angular 2" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/alex-castillo-neurojs-capturing-and-visualizing-brainwaves-with-angular-2-jsconfasia-2016">NeuroJS - Capturing And Visualizing Brainwaves With Angular 2</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 34:50</div>
+			
+			
+              <div>Views: 1194 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alex-castillo">Alex Castillo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/alex-gouaillard-daniel-burnett-evolution-of-the-web-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KfDuDfXsZCs/hqdefault.jpg" alt="Evolution Of The Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/alex-gouaillard-daniel-burnett-evolution-of-the-web-jsconfasia-2016">Evolution Of The Web</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 31:23</div>
+			
+			
+              <div>Views: 306 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alexander-gouaillard">Alexander Gouaillard</a>
+             
+                <a href="/p/daniel-c-burnett">Daniel C. Burnett</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/ashwin-vombatkere-js-in-the-enterprise-lessons-learnt-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/loh8MarYBfw/hqdefault.jpg" alt="JS In The Enterprise - Lessons Learnt" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/ashwin-vombatkere-js-in-the-enterprise-lessons-learnt-jsconfasia-2016">JS In The Enterprise - Lessons Learnt</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 16:44</div>
+			
+			
+              <div>Views: 797 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ashwin-vombatkere">Ashwin Vombatkere</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/cheng-zhao-electron-a-community-story-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JDtc1xdZ-a0/hqdefault.jpg" alt="Electron - A Community Story" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/cheng-zhao-electron-a-community-story-jsconfasia-2016">Electron - A Community Story</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 24:54</div>
+			
+			
+              <div>Views: 493 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/cheng-zhao">Cheng Zhao</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/chengxi-li-bootstrapping-a-live-streaming-react-web-app-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RHq6bEgeZD4/hqdefault.jpg" alt="Bootstrapping A Live Streaming React Web App" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/chengxi-li-bootstrapping-a-live-streaming-react-web-app-jsconfasia-2016">Bootstrapping A Live Streaming React Web App</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 34:54</div>
+			
+			
+              <div>Views: 626 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/chengxi-li">Chengxi Li</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/fazli-sapuan-eugene-cheah-gpujs-gpu-accelerated-javascript-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nUAZxpE9s9w/hqdefault.jpg" alt="GPU.JS - GPU Accelerated JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/fazli-sapuan-eugene-cheah-gpujs-gpu-accelerated-javascript-jsconfasia-2016">GPU.JS - GPU Accelerated JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 31:41</div>
+			
+			
+              <div>Views: 768 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fazli-sapuan">Fazli Sapuan</a>
+             
+                <a href="/p/eugene-cheah">Eugene Cheah</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/franziska-hinkelmann-performance-profiling-for-v8-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/B9igDWV5ZUg/hqdefault.jpg" alt="Performance Profiling for V8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/franziska-hinkelmann-performance-profiling-for-v8-jsconfasia-2016">Performance Profiling for V8</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 27:37</div>
+			
+			
+              <div>Views: 1608 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/franziska-hinkelmann">Franziska Hinkelmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/james-kyle-from-zero-to-binary-search-tree-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bM5Wfmh9i5k/hqdefault.jpg" alt="From Zero To Binary Search Tree" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/james-kyle-from-zero-to-binary-search-tree-jsconfasia-2016">From Zero To Binary Search Tree</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 32:19</div>
+			
+			
+              <div>Views: 1772 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-kyle">James Kyle</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/jan-jongboom-run-your-js-app-for-years-on-a-single-coin-cell-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3HLRwcVqgFE/hqdefault.jpg" alt="Run Your JS App For Years On A Single Coin Cell" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/jan-jongboom-run-your-js-app-for-years-on-a-single-coin-cell-jsconfasia-2016">Run Your JS App For Years On A Single Coin Cell</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 16:22</div>
+			
+			
+              <div>Views: 2757 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jan-jongboom">Jan Jongboom</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/jsconfasia-2016-intro"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nN-Uu6yhweo/hqdefault.jpg" alt="JSConf.Asia 2016 - Intro" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/jsconfasia-2016-intro">JSConf.Asia 2016 - Intro</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 08:47</div>
+			
+			
+              <div>Views: 1624 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/kahwee-teng-coding-chat-bots-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/c_hmwFwvO0U/hqdefault.jpg" alt="Coding Chat Bots" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/kahwee-teng-coding-chat-bots-jsconfasia-2016">Coding Chat Bots</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 28:42</div>
+			
+			
+              <div>Views: 1218 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kahwee-teng">KahWee Teng</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/kenneth-auchenberg-devtools-of-the-future-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/KxRX_HRGRo4/hqdefault.jpg" alt="DevTools Of The Future" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/kenneth-auchenberg-devtools-of-the-future-jsconfasia-2016">DevTools Of The Future</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 31:03</div>
+			
+			
+              <div>Views: 2966 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kenneth-auchenberg">Kenneth Auchenberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/khang-hoang-vision-improve-your-workflow-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-EdJzB0O23U/hqdefault.jpg" alt="Vision - Improve Your Workflow" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/khang-hoang-vision-improve-your-workflow-jsconfasia-2016">Vision - Improve Your Workflow</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 20:53</div>
+			
+			
+              <div>Views: 1383 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/khang-hoang">Khang Hoang</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/lian-li-applying-the-magic-of-neural-networks-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rZ_8xTX1LU4/hqdefault.jpg" alt="Applying The Magic Of Neural Networks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/lian-li-applying-the-magic-of-neural-networks-jsconfasia-2016">Applying The Magic Of Neural Networks</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 30:18</div>
+			
+			
+              <div>Views: 1298 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lian-li">Lian Li</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/lim-chee-aun-bridging-connections-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/V0dKzbhtHpQ/hqdefault.jpg" alt="Bridging Connections" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/lim-chee-aun-bridging-connections-jsconfasia-2016">Bridging Connections</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 33:09</div>
+			
+			
+              <div>Views: 323 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lim-chee-aun">Lim Chee Aun</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/marco-cecconi-high-performance-architecture-of-stack-overflow-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uNVlQ1yPsto/hqdefault.jpg" alt="High Performance Architecture Of Stack Overflow" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/marco-cecconi-high-performance-architecture-of-stack-overflow-jsconfasia-2016">High Performance Architecture Of Stack Overflow</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 32:55</div>
+			
+			
+              <div>Views: 1414 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marco-cecconi">Marco Cecconi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/myles-borins-nodejs-versions-how-do-they-work-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/3gkm7oafWxs/hqdefault.jpg" alt="Node.js Versions - How Do They Work?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/myles-borins-nodejs-versions-how-do-they-work-jsconfasia-2016">Node.js Versions - How Do They Work?</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 32:49</div>
+			
+			
+              <div>Views: 916 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/myles-borins">Myles Borins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/raquel-velez-wombat-driven-understanding-an-interactive-guide-to-using-npm-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7MbXsRS-ZLg/hqdefault.jpg" alt="Wombat-Driven Understanding - An Interactive Guide To Using npm" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/raquel-velez-wombat-driven-understanding-an-interactive-guide-to-using-npm-jsconfasia-2016">Wombat-Driven Understanding - An Interactive Guide To Using npm</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 27:41</div>
+			
+			
+              <div>Views: 969 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/raquel-velez">Raquel Vélez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/ruth-john-martin-schuhfuss-and-matt-mckegg-live-js-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Ody93kpAjAY/hqdefault.jpg" alt="{ Live : JS }" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/ruth-john-martin-schuhfuss-and-matt-mckegg-live-js-jsconfasia-2016">{ Live : JS }</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 33:21</div>
+			
+			
+              <div>Views: 1169 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ruth-john">Ruth John</a>
+             
+                <a href="/p/martin-schuhfuss">Martin Schuhfuss</a>
+             
+                <a href="/p/matt-mckegg">Matt McKegg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/sebastiaan-deckers-bundling-with-h2-server-push-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BPcjN_1qsdA/hqdefault.jpg" alt="Bundling With H2 Server Push" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/sebastiaan-deckers-bundling-with-h2-server-push-jsconfasia-2016">Bundling With H2 Server Push</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 15:23</div>
+			
+			
+              <div>Views: 802 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sebastiaan-deckers">Sebastiaan Deckers</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/simon-swain-rats-of-the-maze-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-IvDnvtJ93s/hqdefault.jpg" alt="Rats Of The Maze" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/simon-swain-rats-of-the-maze-jsconfasia-2016">Rats Of The Maze</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 15:36</div>
+			
+			
+              <div>Views: 656 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/simon-swain">Simon Swain</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/steven-gong-the-opportunities-in-tech-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/b4y9-JZkgKI/hqdefault.jpg" alt="The Opportunities In Tech" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/steven-gong-the-opportunities-in-tech-jsconfasia-2016">The Opportunities In Tech</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 13:12</div>
+			
+			
+              <div>Views: 37 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/steven-gong">Steven Gong</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/tyson-hackwood-hemanth-madhavarao-the-api-in-2017-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bHaH1Trqa-4/hqdefault.jpg" alt="The API in 2017" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/tyson-hackwood-hemanth-madhavarao-the-api-in-2017-jsconfasia-2016">The API in 2017</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 30:48</div>
+			
+			
+              <div>Views: 71 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tyson-hackwood">Tyson Hackwood</a>
+             
+                <a href="/p/hemanth-madhavarao">Hemanth Madhavarao</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/vito-chin-automate-your-electronic-life-with-the-js-ecosystem-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HzjwmFv_MWk/hqdefault.jpg" alt="Automate Your Electronic Life With The JS Ecosystem" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/vito-chin-automate-your-electronic-life-with-the-js-ecosystem-jsconfasia-2016">Automate Your Electronic Life With The JS Ecosystem</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 09:53</div>
+			
+			
+              <div>Views: 641 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/vito-chin">Vito Chin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsconf-asia-2016/yosuke-furukawa-exploring-future-node-jsconfasia-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/m1LxOLAFHSo/hqdefault.jpg" alt="Exploring Future Node" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsconf-asia-2016/yosuke-furukawa-exploring-future-node-jsconfasia-2016">Exploring Future Node</a></h4>
+          <footer>
+            <div class="recorded">2016-11-25</div>
+			
+			  <div>Length: 27:13</div>
+			
+			
+              <div>Views: 850 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsconf-asia-2016">JSConf Asia 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yosuke-furukawa">Yosuke Furukawa</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshFn7VjMHjenn8niUTYNe8O7">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

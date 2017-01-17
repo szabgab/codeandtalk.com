@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>CascadiaFest 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>CascadiaFest 2016</h1>
+
+<div><a href="http://2016.cascadiafest.org/">CascadiaFest 2016</a></div>
+
+
+<div>Start date: 2016-08-03</div>
+<div>End date: 2016-08-05</div>
+
+<div>Location:
+  Semiahmoo
+  Washington
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="https://github.com/cascadiajs/2016.cascadiajs.com/blob/master/code-of-conduct.md">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/css">CSS</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/CascadiaJS">@CascadiaJS</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=CascadiaFest%202016%20on%202016-08-03%20in%20Semiahmoo%2C%20Washington%20USA%20%40CascadiaJS%20http%3A//2016.cascadiafest.org/%20%23JavaScript%20%23CSS%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/alan-stearns-becoming-responsible-for-css-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uHDhtRyDR60/hqdefault.jpg" alt="Becoming Responsible for CSS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/alan-stearns-becoming-responsible-for-css-cascadiafest-2016">Becoming Responsible for CSS</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 24:13</div>
+			
+			
+              <div>Views: 243 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alan-stearns">Alan Stearns</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/alejandro-oviedo-demystifying-js-engines-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XOTi-qyGOTw/hqdefault.jpg" alt="Demystifying JS Engines" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/alejandro-oviedo-demystifying-js-engines-cascadiafest-2016">Demystifying JS Engines</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 18:16</div>
+			
+			
+              <div>Views: 171 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alejandro-oviedo">Alejandro Oviedo</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/alice-bartlett-cant-you-just-make-it-more-like-bootstrap-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LAVNOQroZYA/hqdefault.jpg" alt="Can't You Just Make It More like Bootstrap?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/alice-bartlett-cant-you-just-make-it-more-like-bootstrap-cascadiafest-2016">Can't You Just Make It More like Bootstrap?</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 25:46</div>
+			
+			
+              <div>Views: 456 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alice-bartlett">Alice Bartlett</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/bill-automata-require-cyrpto-is-a-human-right-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bjy5sXY1NrQ/hqdefault.jpg" alt="Require Cyrpto is a Human Right" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/bill-automata-require-cyrpto-is-a-human-right-cascadiafest-2016">Require Cyrpto is a Human Right</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 25:30</div>
+			
+			
+              <div>Views: 105 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bill-automata">Bill Automata</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/brock-whitten-to-the-moon-overcoming-latency-for-fun-and-adventure-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/F-mNx7cZkrM/hqdefault.jpg" alt="To the Moon Overcoming Latency for Fun and Adventure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/brock-whitten-to-the-moon-overcoming-latency-for-fun-and-adventure-cascadiafest-2016">To the Moon Overcoming Latency for Fun and Adventure</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 24:16</div>
+			
+			
+              <div>Views: 78 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brock-whitten">Brock Whitten</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/bryan-hughes-api-design-through-the-lens-of-photography-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UGkwBKutxdA/hqdefault.jpg" alt="API Design Through the Lens of Photography" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/bryan-hughes-api-design-through-the-lens-of-photography-cascadiafest-2016">API Design Through the Lens of Photography</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 26:33</div>
+			
+			
+              <div>Views: 92 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bryan-hughes">Bryan Hughes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/clarissa-peterson-creating-beautiful-accessible-and-user-friendly-forms-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/D5ykLP825Bc/hqdefault.jpg" alt="Creating Beautiful, Accessible, and User Friendly Forms" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/clarissa-peterson-creating-beautiful-accessible-and-user-friendly-forms-cascadiafest-2016">Creating Beautiful, Accessible, and User Friendly Forms</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 26:40</div>
+			
+			
+              <div>Views: 214 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/clarissa-peterson">Clarissa Peterson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/dale-bustad-embracre-http2-server-push-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/auKQKaT2qTA/hqdefault.jpg" alt="Embracre HTTP2 Server Push" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/dale-bustad-embracre-http2-server-push-cascadiafest-2016">Embracre HTTP2 Server Push</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 24:26</div>
+			
+			
+              <div>Views: 263 Likes: 9</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dale-bustad">Dale Bustad</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/gregor-martynus-welcoming-communities-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rxux6qluQaQ/hqdefault.jpg" alt="Welcoming Communities" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/gregor-martynus-welcoming-communities-cascadiafest-2016">Welcoming Communities</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 30:35</div>
+			
+			
+              <div>Views: 51 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gregor-martynus">Gregor Martynus</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/ivana-mcconnell-our-identities-have-no-bodies-web-code-and-self-exploration-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8TfRrBz_M0U/hqdefault.jpg" alt="Our Identities Have No Bodies Web, Code and Self Exploration" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/ivana-mcconnell-our-identities-have-no-bodies-web-code-and-self-exploration-cascadiafest-2016">Our Identities Have No Bodies Web, Code and Self Exploration</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 17:37</div>
+			
+			
+              <div>Views: 163 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ivana-mcconnell">Ivana McConnell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/james-steinbach-using-sass-and-postcss-together-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/YpSdBDoPemg/hqdefault.jpg" alt="Using Sass and PostCSS Together" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/james-steinbach-using-sass-and-postcss-together-cascadiafest-2016">Using Sass and PostCSS Together</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 21:24</div>
+			
+			
+              <div>Views: 154 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/james-steinbach">James Steinbach</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/jenn-turner-open-source-beyond-software-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XdCPblnTMCw/hqdefault.jpg" alt="Open Source Beyond Software" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/jenn-turner-open-source-beyond-software-cascadiafest-2016">Open Source Beyond Software</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 29:55</div>
+			
+			
+              <div>Views: 79 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jenn-turner">Jenn Turner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/justin-mcdowell-bauhaus-in-the-browser-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/I49NX1C8qt8/hqdefault.jpg" alt="Bauhaus in the Browser" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/justin-mcdowell-bauhaus-in-the-browser-cascadiafest-2016">Bauhaus in the Browser</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 24:32</div>
+			
+			
+              <div>Views: 457 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/justin-mcdowell">Justin McDowell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/liz-abinante-in-defense-of-static-sites-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XsSdUGh50M4/hqdefault.jpg" alt="In Defense of Static Sites" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/liz-abinante-in-defense-of-static-sites-cascadiafest-2016">In Defense of Static Sites</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 25:46</div>
+			
+			
+              <div>Views: 386 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/liz-abinante">Liz Abinante</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/lourdes-montano-methods-to-organize-your-learning-process-in-css-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IwMDKB27_ko/hqdefault.jpg" alt="Methods to Organize Your Learning Process in CSS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/lourdes-montano-methods-to-organize-your-learning-process-in-css-cascadiafest-2016">Methods to Organize Your Learning Process in CSS</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 21:07</div>
+			
+			
+              <div>Views: 247 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lourdes-montano">Lourdes Montano</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/marcy-sutton-where-in-the-stack-is-carmen-sanfrancisco-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/p9ViNhZDPLc/hqdefault.jpg" alt="Where in the Stack is Carmen Sanfrancisco?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/marcy-sutton-where-in-the-stack-is-carmen-sanfrancisco-cascadiafest-2016">Where in the Stack is Carmen Sanfrancisco?</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 25:45</div>
+			
+			
+              <div>Views: 133 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/marcy-sutton">Marcy Sutton</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/mariko-kosaka-making-a-robot-eye-with-js-or-magic-of-computer-vision-unraveled-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_H0eJw6lGZU/hqdefault.jpg" alt="Making a Robot Eye with JS or Magic of Computer Vision Unraveled" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/mariko-kosaka-making-a-robot-eye-with-js-or-magic-of-computer-vision-unraveled-cascadiafest-2016">Making a Robot Eye with JS or Magic of Computer Vision Unraveled</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 33:38</div>
+			
+			
+              <div>Views: 77 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mariko-kosaka">Mariko Kosaka</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/mike-kivikoski-css-psuedo-hover-after-and-beyond-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IMJ3fw4JqPI/hqdefault.jpg" alt="CSS Psuedo Hover After and Beyond" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/mike-kivikoski-css-psuedo-hover-after-and-beyond-cascadiafest-2016">CSS Psuedo Hover After and Beyond</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 25:55</div>
+			
+			
+              <div>Views: 251 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-kivikoski">Mike Kivikoski</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/miriam-suzanne-code-patterns-for-pattern-making-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cVZreFHgLFw/hqdefault.jpg" alt="Code Patterns for Pattern Making" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/miriam-suzanne-code-patterns-for-pattern-making-cascadiafest-2016">Code Patterns for Pattern Making</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 30:56</div>
+			
+			
+              <div>Views: 396 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/miriam-suzanne">Miriam Suzanne</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/natalya-shelburne-practical-color-theory-for-people-who-code-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PTWLViHkwf4/hqdefault.jpg" alt="Practical Color Theory for People Who Code" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/natalya-shelburne-practical-color-theory-for-people-who-code-cascadiafest-2016">Practical Color Theory for People Who Code</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 25:18</div>
+			
+			
+              <div>Views: 585 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/natalya-shelburne">Natalya Shelburne</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/noah-adams-scripting-in-the-3rd-party-true-tales-of-horror-and-hope-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7wjJsHrL4QE/hqdefault.jpg" alt="Scripting in the 3rd Party True Tales of Horror and Hope" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/noah-adams-scripting-in-the-3rd-party-true-tales-of-horror-and-hope-cascadiafest-2016">Scripting in the 3rd Party True Tales of Horror and Hope</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 26:00</div>
+			
+			
+              <div>Views: 62 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/noah-adams">Noah Adams</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/nolan-lawson-demystifying-web-workers-and-service-workers-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OgLemdR65pE/hqdefault.jpg" alt="Demystifying Web Workers and Service Workers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/nolan-lawson-demystifying-web-workers-and-service-workers-cascadiafest-2016">Demystifying Web Workers and Service Workers</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 24:40</div>
+			
+			
+              <div>Views: 687 Likes: 27</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nolan-lawson">Nolan Lawson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/nwokedi-idika-demystifying-the-darknet-in-30mns-or-less-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/m6pcL5do_nc/hqdefault.jpg" alt="Demystifying the Darknet in 30mns or Less" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/nwokedi-idika-demystifying-the-darknet-in-30mns-or-less-cascadiafest-2016">Demystifying the Darknet in 30mns or Less</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 20:28</div>
+			
+			
+              <div>Views: 116 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nwokedi-idika">Nwokedi Idika</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/pawel-szymczyko-why-did-the-robot-cross-the-road-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/I4D-vy1OTkg/hqdefault.jpg" alt="Why did the Robot Cross the Road?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/pawel-szymczyko-why-did-the-robot-cross-the-road-cascadiafest-2016">Why did the Robot Cross the Road?</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 28:00</div>
+			
+			
+              <div>Views: 73 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/pawel-szymczyko">Pawel Szymczyko</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/rachel-white-javascript-as-play-a-primer-on-getting-started-with-video-games-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/2oKSSnEgBDw/hqdefault.jpg" alt="Javascript as Play A Primer on Getting Started with Video Games" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/rachel-white-javascript-as-play-a-primer-on-getting-started-with-video-games-cascadiafest-2016">Javascript as Play A Primer on Getting Started with Video Games</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 24:54</div>
+			
+			
+              <div>Views: 233 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rachel-white">Rachel White</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/rebecca-murphy-making-it-better-without-making-it-over-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-ZX8y56Tnx4/hqdefault.jpg" alt="Making It Better Without Making It Over" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/rebecca-murphy-making-it-better-without-making-it-over-cascadiafest-2016">Making It Better Without Making It Over</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 23:53</div>
+			
+			
+              <div>Views: 89 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rebecca-murphey">Rebecca Murphey</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/russell-hay-happy-sparkle-glitter-fun-zone-leds-and-javascript-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Epi24kcyXJU/hqdefault.jpg" alt="Happy Sparkle Glitter Fun Zone Leds and Javascript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/russell-hay-happy-sparkle-glitter-fun-zone-leds-and-javascript-cascadiafest-2016">Happy Sparkle Glitter Fun Zone Leds and Javascript</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 24:09</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/russell-hay">Russell Hay</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/safia-abdalla-the-hitchhikers-guide-to-all-things-memory-in-js-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cpM5LYZdfUo/hqdefault.jpg" alt="The Hitchhiker's Guide to All Things Memory in JS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/safia-abdalla-the-hitchhikers-guide-to-all-things-memory-in-js-cascadiafest-2016">The Hitchhiker's Guide to All Things Memory in JS</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 22:17</div>
+			
+			
+              <div>Views: 126 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/safia-abdalla">Safia Abdalla</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/sarah-meyer-javascript-minus-javascript-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xeZm8jO9qNE/hqdefault.jpg" alt="Javascript Minus Javascript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/sarah-meyer-javascript-minus-javascript-cascadiafest-2016">Javascript Minus Javascript</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 22:37</div>
+			
+			
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sarah-meyer">Sarah Saltrick Meyer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/seth-samuel-arbitrary-computation-on-the-gpu-using-webgl-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/rWzCDU7ouHg/hqdefault.jpg" alt="Arbitrary Computation on the GPU Using WebGL" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/seth-samuel-arbitrary-computation-on-the-gpu-using-webgl-cascadiafest-2016">Arbitrary Computation on the GPU Using WebGL</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 24:33</div>
+			
+			
+              <div>Views: 127 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/seth-samuel">Seth Samuel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/stephan-bonneman-managing-dependencies-with-confidence-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/cr__p-ixiIo/hqdefault.jpg" alt="Managing Dependencies with Confidence" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/stephan-bonneman-managing-dependencies-with-confidence-cascadiafest-2016">Managing Dependencies with Confidence</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 23:38</div>
+			
+			
+              <div>Views: 94 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephan-bonneman">Stephan Bönneman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/stephanie-hobson-flipping-tables-displaying-data-on-small-screens-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bGlULfoY6Ls/hqdefault.jpg" alt="Flipping Tables Displaying Data on Small Screens" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/stephanie-hobson-flipping-tables-displaying-data-on-small-screens-cascadiafest-2016">Flipping Tables Displaying Data on Small Screens</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 24:53</div>
+			
+			
+              <div>Views: 206 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stephanie-hobson">Stephanie Hobson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/tara-scherner-onboarding-superheroes-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/WES9jTfvbLg/hqdefault.jpg" alt="Onboarding Superheroes" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/tara-scherner-onboarding-superheroes-cascadiafest-2016">Onboarding Superheroes</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 20:13</div>
+			
+			
+              <div>Views: 62 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tara-scherner">Tara Scherner de la Fuente</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/thomas-wilburn-custom-elements-in-production-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/vpNKUYSeT7g/hqdefault.jpg" alt="Custom Elements in Production" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/thomas-wilburn-custom-elements-in-production-cascadiafest-2016">Custom Elements in Production</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 28:27</div>
+			
+			
+              <div>Views: 118 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thomas-wilburn">Thomas Wilburn</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/cascadiafest-2016/tyler-sticka-svg-so-very-good-cascadiafest-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xLR_1Ud_FwM/hqdefault.jpg" alt="SVG So Very Good" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/cascadiafest-2016/tyler-sticka-svg-so-very-good-cascadiafest-2016">SVG So Very Good</a></h4>
+          <footer>
+            <div class="recorded">2016-08-03</div>
+			
+			  <div>Length: 26:54</div>
+			
+			
+              <div>Views: 1464 Likes: 23</div>
+            
+            <div class="event">From <a href="/e/cascadiafest-2016">CascadiaFest 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tyler-sticka">Tyler Sticka</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLLiioAbFTbKNKyP1m4dmW_xu9byJOPMHe">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

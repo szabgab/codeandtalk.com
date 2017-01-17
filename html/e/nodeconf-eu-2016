@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>NodeConf EU 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>NodeConf EU 2016</h1>
+
+<div><a href="http://www.nodeconf.eu/">NodeConf EU 2016</a></div>
+
+
+<div>Start date: 2016-10-16</div>
+<div>End date: 2016-10-20</div>
+
+<div>Location:
+  Kilkenny City
+  
+  <a href="/l/ireland">Ireland</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/nodejs">NodeJS</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/NodeConfEU">@NodeConfEU</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=NodeConf%20EU%202016%20on%202016-10-16%20in%20Kilkenny%20City%2C%20%20Ireland%20%40NodeConfEU%20http%3A//www.nodeconf.eu/%20%23NodeJS%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-2016-highlights"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1f9jrYXHcQo/hqdefault.jpg" alt="NodeConf EU 2016 Highlights" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-2016-highlights">NodeConf EU 2016 Highlights</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 03:01</div>
+			
+			
+              <div>Views: 113 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-a-deep-dive-into-libuv-saul-ibarra-coretge"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sGTRmPiXD4Y/hqdefault.jpg" alt="A deep dive into libuv" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-a-deep-dive-into-libuv-saul-ibarra-coretge">A deep dive into libuv</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 24:15</div>
+			
+			
+              <div>Views: 108 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/saul-ibarra-coretge">Saul Ibarra Coretge</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-benchmarking-node-js-with-statistics-andreas-madsen"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IPH4C9cHJLg/hqdefault.jpg" alt="Benchmarking Node js with statistics" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-benchmarking-node-js-with-statistics-andreas-madsen">Benchmarking Node js with statistics</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 19:00</div>
+			
+			
+              <div>Views: 68 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/andreas-madsen">Andreas Madsen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-browser-is-the-new-server-gleb-bahnutov"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5zOaN_FYXwk/hqdefault.jpg" alt="Browser is the new server" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-browser-is-the-new-server-gleb-bahnutov">Browser is the new server</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 23:29</div>
+			
+			
+              <div>Views: 125 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gleb-bahmutov">Gleb Bahmutov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-day-1-livestream"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SqBeVIZC4i8/hqdefault.jpg" alt="Nodeconf EU Day 1 Livestream" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-day-1-livestream">Nodeconf EU Day 1 Livestream</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 04:11:36</div>
+			
+			
+              <div>Views: 644 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-day-2-livestream"><img class="list-thumbnail" src="https://i.ytimg.com/vi/K_AfmRc-TLE/hqdefault.jpg" alt="NodeConf EU Day 2 Livestream" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-day-2-livestream">NodeConf EU Day 2 Livestream</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 03:42:52</div>
+			
+			
+              <div>Views: 689 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-day-3-livestream"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UvB9ozRWpEA/hqdefault.jpg" alt="NodeConf EU Day 3 Livestream" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-day-3-livestream">NodeConf EU Day 3 Livestream</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 03:06:13</div>
+			
+			
+              <div>Views: 433 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-how-we-keep-the-registry-running-maciej-malecki"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sZSNY5CwPJI/hqdefault.jpg" alt="How we keep the npm registry running" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-how-we-keep-the-registry-running-maciej-malecki">How we keep the npm registry running</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 24:25</div>
+			
+			
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/maciej-malecki">Maciej Malecki</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-jsoff-a-world-without-json-michael-paulson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7FzkeLu2xag/hqdefault.jpg" alt="JSOFF, a world without JSON" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-jsoff-a-world-without-json-michael-paulson">JSOFF, a world without JSON</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 19:40</div>
+			
+			
+              <div>Views: 72 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/michael-paulson">Michael Paulson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-node-js-microsoft-a-love-story-about-developer-tools-sara-itani"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UHKFmHoyVF0/hqdefault.jpg" alt="Node js & Microsoft: A love story about developer tools" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-node-js-microsoft-a-love-story-about-developer-tools-sara-itani">Node js & Microsoft: A love story about developer tools</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 38:29</div>
+			
+			
+              <div>Views: 91 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sara-itani">Sara Itani</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-node-js-releases-how-do-they-work-myles-borins"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G_mQmDsi9HI/hqdefault.jpg" alt="Node js Releases How do they work?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-node-js-releases-how-do-they-work-myles-borins">Node js Releases How do they work?</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 25:52</div>
+			
+			
+              <div>Views: 41 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/myles-borins">Myles Borins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-node-js-with-chakracore-history-progress-and-where-we-go-from-here-brian-terlson"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xnNDC0bqmA0/hqdefault.jpg" alt="Node js with Chakracore. History, Progress, and where we go from here" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-node-js-with-chakracore-history-progress-and-where-we-go-from-here-brian-terlson">Node js with Chakracore. History, Progress, and where we go from here</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 21:27</div>
+			
+			
+              <div>Views: 48 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-terlson">Brian Terlson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-opening-keynote-with-matteo-collina-paul-savage"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GyiLnGXSoJQ/hqdefault.jpg" alt="Opening Keynote" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-opening-keynote-with-matteo-collina-paul-savage">Opening Keynote</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 04:50</div>
+			
+			
+              <div>Views: 97 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-savage">Paul Savage</a>
+             
+                <a href="/p/matteo-collina">Matteo Collina</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-performance-profiling-for-v8-franziska-hinklemann"><img class="list-thumbnail" src="https://i.ytimg.com/vi/LX7PzH1Cn4s/hqdefault.jpg" alt="Performance Profiling for V8" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-performance-profiling-for-v8-franziska-hinklemann">Performance Profiling for V8</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 24:03</div>
+			
+			
+              <div>Views: 119 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/franziska-hinkelmann">Franziska Hinkelmann</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-real-world-node-core-jeremiah-senkpiel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qgqW4TkjFGw/hqdefault.jpg" alt="Real World Node Core" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-real-world-node-core-jeremiah-senkpiel">Real World Node Core</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 26:50</div>
+			
+			
+              <div>Views: 60 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jeremiah-senkpiel">Jeremiah Senkpiel</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-serverless-node-js-with-webtasks-tomaz-janczuk"><img class="list-thumbnail" src="https://i.ytimg.com/vi/a7FnBNzUj70/hqdefault.jpg" alt="Serverless node js with Webtasks" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-serverless-node-js-with-webtasks-tomaz-janczuk">Serverless node js with Webtasks</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 24:32</div>
+			
+			
+              <div>Views: 54 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tomasz-janczuk">Tomasz Janczuk</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-stranger-danger-fixing-vulnerabilities-in-npm-package-guy-podjamy"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GtVStvEywzU/hqdefault.jpg" alt="Stranger Danger: Fixing vulnerabilities in npm package" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-stranger-danger-fixing-vulnerabilities-in-npm-package-guy-podjamy">Stranger Danger: Fixing vulnerabilities in npm package</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 27:27</div>
+			
+			
+              <div>Views: 250 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/guy-podjarny">Guy Podjarny</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-strangling-monoliths-katie-stockton-roberts"><img class="list-thumbnail" src="https://i.ytimg.com/vi/SvVyEkLG5nY/hqdefault.jpg" alt="Strangling Monoliths" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-strangling-monoliths-katie-stockton-roberts">Strangling Monoliths</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 17:37</div>
+			
+			
+              <div>Views: 52 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/katie-stockton-roberts">Katie Stockton Roberts</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-swimming-in-the-microservices-ocean-luca-maraschi"><img class="list-thumbnail" src="https://i.ytimg.com/vi/APx2hq5oqqI/hqdefault.jpg" alt="SWIMming in the microservices ocean" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-swimming-in-the-microservices-ocean-luca-maraschi">SWIMming in the microservices ocean</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 22:38</div>
+			
+			
+              <div>Views: 106 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/luca-maraschi">Luca Maraschi</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-the-cost-of-logging-matteo-collina-david-mark-clements"><img class="list-thumbnail" src="https://i.ytimg.com/vi/zja-_IYNrFc/hqdefault.jpg" alt="The cost of Logging" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-the-cost-of-logging-matteo-collina-david-mark-clements">The cost of Logging</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 28:42</div>
+			
+			
+              <div>Views: 114 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matteo-collina">Matteo Collina</a>
+             
+                <a href="/p/david-mark-clements">David Mark Clements</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-the-node-community-past-present-and-future-bryan-hughes"><img class="list-thumbnail" src="https://i.ytimg.com/vi/8JVEN5lfhc8/hqdefault.jpg" alt="The Node Community Past, Present and Future" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-the-node-community-past-present-and-future-bryan-hughes">The Node Community Past, Present and Future</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 25:14</div>
+			
+			
+              <div>Views: 43 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bryan-hughes">Bryan Hughes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-towards-a-smaller-faster-web-yoshua-wuyts"><img class="list-thumbnail" src="https://i.ytimg.com/vi/OVW2-NPqAuQ/hqdefault.jpg" alt="Towards a smaller, faster web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-towards-a-smaller-faster-web-yoshua-wuyts">Towards a smaller, faster web</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 23:40</div>
+			
+			
+              <div>Views: 114 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yoshua-wuyts">Yoshua Wuyts</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-turning-the-tanker-and-navigating-rough-seas-gregor-russbuelt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/IGWyVQsuoi0/hqdefault.jpg" alt="Turning the tanker and navigating rough seas" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-turning-the-tanker-and-navigating-rough-seas-gregor-russbuelt">Turning the tanker and navigating rough seas</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 12:02</div>
+			
+			
+              <div>Views: 24 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gregor-russbuelt">Gregor Russbuelt</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconf-eu-zero-risk-microservices-richard-rodger"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jiW9goJA9q8/hqdefault.jpg" alt="Zero Risk Microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconf-eu-zero-risk-microservices-richard-rodger">Zero Risk Microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 28:18</div>
+			
+			
+              <div>Views: 149 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/richard-rodger">Richard Rodger</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconfeu-day-1-morning-highlights"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_K27xcsEUPc/hqdefault.jpg" alt="NodeConfEU Day 1 Morning Highlights" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconfeu-day-1-morning-highlights">NodeConfEU Day 1 Morning Highlights</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 02:01</div>
+			
+			
+              <div>Views: 340 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconfeu-monday-night-tuesday-morning-highlights"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5pPCyRfab_s/hqdefault.jpg" alt="NodeConfEU - Monday Night & Tuesday Morning Highlights" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconfeu-monday-night-tuesday-morning-highlights">NodeConfEU - Monday Night & Tuesday Morning Highlights</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 01:57</div>
+			
+			
+              <div>Views: 212 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/nodeconf-eu-2016/nodeconfeu-tuesday-night-wednesday-morning-highlights"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4nGzvST7rs4/hqdefault.jpg" alt="NodeConfEU  - Tuesday Night &  Wednesday Morning Highlights" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/nodeconf-eu-2016/nodeconfeu-tuesday-night-wednesday-morning-highlights">NodeConfEU  - Tuesday Night &  Wednesday Morning Highlights</a></h4>
+          <footer>
+            <div class="recorded">2016-10-16</div>
+			
+			  <div>Length: 02:07</div>
+			
+			
+              <div>Views: 141 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/nodeconf-eu-2016">NodeConf EU 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL0CdgOSSGlBY4vNGIZndSoVFWHrheWlG8">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>jsinsa - JavaScript in South Africa 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>jsinsa - JavaScript in South Africa 2016</h1>
+
+<div><a href="http://www.jsinsa.com/">jsinsa - JavaScript in South Africa 2016</a></div>
+
+
+<div>Start date: 2016-07-16</div>
+<div>End date: 2016-07-16</div>
+
+<div>Location:
+  Johannesburg
+  
+  <a href="/l/south-africa">South Africa</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/jsinsa">@jsinsa</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=jsinsa%20-%20JavaScript%20in%20South%20Africa%202016%20on%202016-07-16%20in%20Johannesburg%2C%20%20South%20Africa%20%40jsinsa%20http%3A//www.jsinsa.com/%20%23JavaScript%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/jsinsa-2016/feature-toggle-a-js-app-by-charlene-tshitoka"><img class="list-thumbnail" src="https://i.ytimg.com/vi/N-Sg4bRGAps/hqdefault.jpg" alt="Feature toggle a JS App" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsinsa-2016/feature-toggle-a-js-app-by-charlene-tshitoka">Feature toggle a JS App</a></h4>
+          <footer>
+            <div class="recorded">2016-07-16</div>
+			
+			  <div>Length: 29:08</div>
+			
+			
+            <div class="event">From <a href="/e/jsinsa-2016">jsinsa - JavaScript in South Africa 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/charlene-tshitoka">Charlene Tshitoka</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsinsa-2016/getting-started-with-react-native-by-kudakwashe-murungu"><img class="list-thumbnail" src="https://i.ytimg.com/vi/V0-RbWo-VJY/hqdefault.jpg" alt="Getting started with React Native" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsinsa-2016/getting-started-with-react-native-by-kudakwashe-murungu">Getting started with React Native</a></h4>
+          <footer>
+            <div class="recorded">2016-07-16</div>
+			
+			  <div>Length: 27:42</div>
+			
+			
+              <div>Views: 174 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/jsinsa-2016">jsinsa - JavaScript in South Africa 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kudakwashe-murungu">Kudakwashe Murungu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsinsa-2016/hybrid-vs-native-confessions-of-a-native-developer-by-jacques-de-vos"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Haq7ccp_2Wo/hqdefault.jpg" alt="Hybrid vs Native - confessions of a native developer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsinsa-2016/hybrid-vs-native-confessions-of-a-native-developer-by-jacques-de-vos">Hybrid vs Native - confessions of a native developer</a></h4>
+          <footer>
+            <div class="recorded">2016-07-16</div>
+			
+			  <div>Length: 31:34</div>
+			
+			
+            <div class="event">From <a href="/e/jsinsa-2016">jsinsa - JavaScript in South Africa 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jacques-de-vos">Jacques de Vos</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsinsa-2016/introduction-to-promises-by-katharine-white"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n6FltcnwiL8/hqdefault.jpg" alt="Introduction to Promises" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsinsa-2016/introduction-to-promises-by-katharine-white">Introduction to Promises</a></h4>
+          <footer>
+            <div class="recorded">2016-07-16</div>
+			
+			  <div>Length: 9:21</div>
+			
+			
+            <div class="event">From <a href="/e/jsinsa-2016">jsinsa - JavaScript in South Africa 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/katharine-white">Katharine White</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsinsa-2016/khoyo-startup-pitch-by-thabiso-mathebula-team"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VlnUjU8UhOk/hqdefault.jpg" alt="Khoyo - Startup pitch" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsinsa-2016/khoyo-startup-pitch-by-thabiso-mathebula-team">Khoyo - Startup pitch</a></h4>
+          <footer>
+            <div class="recorded">2016-07-16</div>
+			
+			  <div>Length: 17:22</div>
+			
+			
+            <div class="event">From <a href="/e/jsinsa-2016">jsinsa - JavaScript in South Africa 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thabiso-mathebula">Thabiso Mathebula</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsinsa-2016/living-on-the-edgejs-by-duane-mckibbin"><img class="list-thumbnail" src="https://i.ytimg.com/vi/p_kk_CkFgDM/hqdefault.jpg" alt="Living on the edge.js (integrating NodeJS and .NET)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsinsa-2016/living-on-the-edgejs-by-duane-mckibbin">Living on the edge.js (integrating NodeJS and .NET)</a></h4>
+          <footer>
+            <div class="recorded">2016-07-16</div>
+			
+			  <div>Length: 19:27</div>
+			
+			
+            <div class="event">From <a href="/e/jsinsa-2016">jsinsa - JavaScript in South Africa 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/duane-mckibbin">Duane McKibbin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsinsa-2016/making-modern-websites-by-patrick-kettner"><img class="list-thumbnail" src="https://i.ytimg.com/vi/fFWay2jO7hM/hqdefault.jpg" alt="Making modern websites" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsinsa-2016/making-modern-websites-by-patrick-kettner">Making modern websites</a></h4>
+          <footer>
+            <div class="recorded">2016-07-16</div>
+			
+			  <div>Length: 32:22</div>
+			
+			
+              <div>Views: 64 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/jsinsa-2016">jsinsa - JavaScript in South Africa 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patrick-kettner">Patrick Kettner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsinsa-2016/managing-complex-user-interfaces-with-component-libraries-by-garren-smith-ben-janecke"><img class="list-thumbnail" src="https://i.ytimg.com/vi/FD-iymnelnk/hqdefault.jpg" alt="Managing complex user interfaces with component libraries" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsinsa-2016/managing-complex-user-interfaces-with-component-libraries-by-garren-smith-ben-janecke">Managing complex user interfaces with component libraries</a></h4>
+          <footer>
+            <div class="recorded">2016-07-16</div>
+			
+			  <div>Length: 29:29</div>
+			
+			
+              <div>Views: 129 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/jsinsa-2016">jsinsa - JavaScript in South Africa 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/garren-smith">Garren Smith</a>
+             
+                <a href="/p/ben-janecke">Ben Janecke</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsinsa-2016/rapid-cross-platform-desktop-app-development-using-javascript-and-electron-by-gabriel-fortuna"><img class="list-thumbnail" src="https://i.ytimg.com/vi/bo7eL1HpJXM/hqdefault.jpg" alt="Rapid cross platform desktop app development using JavaScript and Electron" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsinsa-2016/rapid-cross-platform-desktop-app-development-using-javascript-and-electron-by-gabriel-fortuna">Rapid cross platform desktop app development using JavaScript and Electron</a></h4>
+          <footer>
+            <div class="recorded">2016-07-16</div>
+			
+			  <div>Length: 40:38</div>
+			
+			
+              <div>Views: 1604 Likes: 26</div>
+            
+            <div class="event">From <a href="/e/jsinsa-2016">jsinsa - JavaScript in South Africa 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gabriel-fortuna">Gabriel Fortuna</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsinsa-2016/riding-the-angular-2-wave-by-mike-geyser"><img class="list-thumbnail" src="https://i.ytimg.com/vi/yMb8vcJcS-s/hqdefault.jpg" alt="Riding the Angular 2 wave" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsinsa-2016/riding-the-angular-2-wave-by-mike-geyser">Riding the Angular 2 wave</a></h4>
+          <footer>
+            <div class="recorded">2016-07-16</div>
+			
+			  <div>Length: 31:00</div>
+			
+			
+              <div>Views: 156 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/jsinsa-2016">jsinsa - JavaScript in South Africa 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-geyser">Mike Geyser</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsinsa-2016/sisonke-rising-by-theo-bohnen-moral-jera"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gSm3kVwd4n0/hqdefault.jpg" alt="Sisonke Rising" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsinsa-2016/sisonke-rising-by-theo-bohnen-moral-jera">Sisonke Rising</a></h4>
+          <footer>
+            <div class="recorded">2016-07-16</div>
+			
+			  <div>Length: 10:02</div>
+			
+			
+              <div>Views: 56 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/jsinsa-2016">jsinsa - JavaScript in South Africa 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/moral-jera">Moral Jera</a>
+             
+                <a href="/p/theo-bohnen">Theo Bohnen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsinsa-2016/the-adventures-of-gery-and-bb-8-with-cylonjs-by-gergana-young"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jDt559_PeWI/hqdefault.jpg" alt="The adventures of Gery and BB-8 with Cylon.js" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsinsa-2016/the-adventures-of-gery-and-bb-8-with-cylonjs-by-gergana-young">The adventures of Gery and BB-8 with Cylon.js</a></h4>
+          <footer>
+            <div class="recorded">2016-07-16</div>
+			
+			  <div>Length: 21:00</div>
+			
+			
+              <div>Views: 45 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/jsinsa-2016">jsinsa - JavaScript in South Africa 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gergana-young">Gergana Young</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsinsa-2016/time-traveling-with-redux-and-reactjs-by-tsatsi-mahase"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RANYf8uoNgQ/hqdefault.jpg" alt="Time traveling with redux and reactjs" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsinsa-2016/time-traveling-with-redux-and-reactjs-by-tsatsi-mahase">Time traveling with redux and reactjs</a></h4>
+          <footer>
+            <div class="recorded">2016-07-16</div>
+			
+			  <div>Length: 19:02</div>
+			
+			
+              <div>Views: 115 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/jsinsa-2016">jsinsa - JavaScript in South Africa 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tsatsi-mahase">Tsatsi Mahase</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/jsinsa-2016/vr-interactions-and-js-by-rishal-hurbans"><img class="list-thumbnail" src="https://i.ytimg.com/vi/wSnQ4Iz04l8/hqdefault.jpg" alt="VR interactions and JS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/jsinsa-2016/vr-interactions-and-js-by-rishal-hurbans">VR interactions and JS</a></h4>
+          <footer>
+            <div class="recorded">2016-07-16</div>
+			
+			  <div>Length: 31:56</div>
+			
+			
+              <div>Views: 35 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/jsinsa-2016">jsinsa - JavaScript in South Africa 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rishal-hurbans">Rishal Hurbans</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PLw7UYp3N0eUaUgeaG3xN4qI4eMojw6u6y">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

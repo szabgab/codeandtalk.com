@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>EmpireJS 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>EmpireJS 2016</h1>
+
+<div><a href="http://2016.empirejs.org/">EmpireJS 2016</a></div>
+
+
+<div>Start date: 2016-05-26</div>
+<div>End date: 2016-05-27</div>
+
+<div>Location:
+  New York
+  New York
+  <a href="/l/usa">USA</a>
+</div>
+
+<div><a href="http://jsconf.com/codeofconduct.html">Code of Conduct</a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/javascript">JavaScript</a> 
+   
+       <a href="/t/frontend">FrontEnd</a> 
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/empirejs">@empirejs</a></div>
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=EmpireJS%202016%20on%202016-05-26%20in%20New%20York%2C%20New%20York%20USA%20%40empirejs%20http%3A//2016.empirejs.org/%20%23JavaScript%20%23FrontEnd%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/abdella-ali-automagic-ui-elements-using-redux"><img class="list-thumbnail" src="https://i.ytimg.com/vi/EhYTyq8cM4M/hqdefault.jpg" alt="Automagic UI Elements Using Redux" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/abdella-ali-automagic-ui-elements-using-redux">Automagic UI Elements Using Redux</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 22:03</div>
+			
+			
+              <div>Views: 55 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/abdella-ali">Abdella Ali</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/adam-baldwin-continuous-security"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-N-WB7hnPsE/hqdefault.jpg" alt="Continuous Security" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/adam-baldwin-continuous-security">Continuous Security</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 31:42</div>
+			
+			
+              <div>Views: 51 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adam-baldwin">Adam Baldwin</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/brian-sinclair-accessible-accessibility"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kfrp4ynBu78/hqdefault.jpg" alt="Accessible Accessibility" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/brian-sinclair-accessible-accessibility">Accessible Accessibility</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 28:56</div>
+			
+			
+              <div>Views: 192 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-sinclair">Brian Sinclair</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/donato-borrello-the-nitty-gritty-of-adaptive-video-transmuxing-in-js"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AgKEmNKz85s/hqdefault.jpg" alt="The Nitty Gritty of Adaptive Video Transmuxing in JS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/donato-borrello-the-nitty-gritty-of-adaptive-video-transmuxing-in-js">The Nitty Gritty of Adaptive Video Transmuxing in JS</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 24:36</div>
+			
+			
+              <div>Views: 40 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/donato-borrello">Donato Borrello</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/edward-finkler-how-to-be-a-great-developer"><img class="list-thumbnail" src="https://i.ytimg.com/vi/lvbun8gybvs/hqdefault.jpg" alt="How To Be A Great Developer" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/edward-finkler-how-to-be-a-great-developer">How To Be A Great Developer</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 34:18</div>
+			
+			
+              <div>Views: 140 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/edward-finkler">Edward Finkler</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/evan-morikawa-desktop-js"><img class="list-thumbnail" src="https://i.ytimg.com/vi/00mAVjF9WEA/hqdefault.jpg" alt="Desktop JS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/evan-morikawa-desktop-js">Desktop JS</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 28:08</div>
+			
+			
+              <div>Views: 165 Likes: 7</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/evan-morikawa">Evan Morikawa</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/gregor-martynus-welcoming-communities"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pWIMWh3xyZE/hqdefault.jpg" alt="Welcoming Communities" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/gregor-martynus-welcoming-communities">Welcoming Communities</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 28:47</div>
+			
+			
+              <div>Views: 43 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/gregor-martynus">Gregor Martynus</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/jason-laster-enter-inspector-inception"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HR_hpnEa7ds/hqdefault.jpg" alt="Enter Inspector Inception" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/jason-laster-enter-inspector-inception">Enter Inspector Inception</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 27:33</div>
+			
+			
+              <div>Views: 98 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jason-laster">Jason Laster</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/jem-young-transpilers-not-so-fast-my-friend"><img class="list-thumbnail" src="https://i.ytimg.com/vi/L3JJ8qSIg2k/hqdefault.jpg" alt="Transpilers: Not So Fast My Friend" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/jem-young-transpilers-not-so-fast-my-friend">Transpilers: Not So Fast My Friend</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 27:13</div>
+			
+			
+              <div>Views: 415 Likes: 16</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/jem-young">Jem Young</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/justin-falcone-why-is-a-guinea-pig-like-a-microservice"><img class="list-thumbnail" src="https://i.ytimg.com/vi/n4vpH2nk1NE/hqdefault.jpg" alt="Why is a Guinea Pig Like a Microservice?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/justin-falcone-why-is-a-guinea-pig-like-a-microservice">Why is a Guinea Pig Like a Microservice?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 22:48</div>
+			
+			
+              <div>Views: 108 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/justin-falcone">Justin Falcone</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/kenton-jacobsen-graphql-is-en-vogue"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G3O7l4uCeKs/hqdefault.jpg" alt="GraphQL is En Vogue" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/kenton-jacobsen-graphql-is-en-vogue">GraphQL is En Vogue</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 28:17</div>
+			
+			
+              <div>Views: 245 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kenton-jacobsen">Kenton Jacobsen</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/kirsten-hunter-quantifying-your-fitness"><img class="list-thumbnail" src="https://i.ytimg.com/vi/5J87wPapTiw/hqdefault.jpg" alt="Quantifying your Fitness" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/kirsten-hunter-quantifying-your-fitness">Quantifying your Fitness</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 20:31</div>
+			
+			
+              <div>Views: 32 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kirsten-hunter">Kirsten Hunter</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/lyzzeth-parody-how-js-is-conquering-the-world-mapping-javascript-conferences"><img class="list-thumbnail" src="https://i.ytimg.com/vi/jWmvsTTlF-s/hqdefault.jpg" alt="How JS is conquering the world... Mapping Javascript Conferences" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/lyzzeth-parody-how-js-is-conquering-the-world-mapping-javascript-conferences">How JS is conquering the world... Mapping Javascript Conferences</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 16:38</div>
+			
+			
+              <div>Views: 97 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/lyzzeth-parody">Lyzzeth Parody Álvarez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/matthew-beale-what-you-see-is-not-what-you-get"><img class="list-thumbnail" src="https://i.ytimg.com/vi/_87wUldacc0/hqdefault.jpg" alt="What you see is not what you get" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/matthew-beale-what-you-see-is-not-what-you-get">What you see is not what you get</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 27:17</div>
+			
+			
+              <div>Views: 95 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matthew-beale">Matthew Beale</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/myles-borins-node-js-releases-how-do-they-work"><img class="list-thumbnail" src="https://i.ytimg.com/vi/hFxAbNlR1ts/hqdefault.jpg" alt="Node js Releases, how do they work?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/myles-borins-node-js-releases-how-do-they-work">Node js Releases, how do they work?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 27:49</div>
+			
+			
+              <div>Views: 85 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/myles-borins">Myles Borins</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/nolan-lawson-i-like-the-way-you-work-it-all-about-web-workers"><img class="list-thumbnail" src="https://i.ytimg.com/vi/loahuEoWPy4/hqdefault.jpg" alt="I like the way you work it   all about Web Workers" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/nolan-lawson-i-like-the-way-you-work-it-all-about-web-workers">I like the way you work it   all about Web Workers</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 27:26</div>
+			
+			
+              <div>Views: 397 Likes: 17</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/nolan-lawson">Nolan Lawson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/patricia-realini-jiro-dreams-of-code-what-startups-can-learn-from-chef-culture"><img class="list-thumbnail" src="https://i.ytimg.com/vi/JW6-XR3fSJA/hqdefault.jpg" alt="Jiro Dreams of Code   What Startups Can Learn From Chef Culture" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/patricia-realini-jiro-dreams-of-code-what-startups-can-learn-from-chef-culture">Jiro Dreams of Code   What Startups Can Learn From Chef Culture</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 29:20</div>
+			
+			
+              <div>Views: 21 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/patricia-realini">Patricia Realini</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/sally-jenkinson-all-these-moments-will-be-lost-in-time-the-web-the-future-and-us"><img class="list-thumbnail" src="https://i.ytimg.com/vi/E5wpz3ytrBE/hqdefault.jpg" alt="All these moments will be lost in time: the web, the future, and us" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/sally-jenkinson-all-these-moments-will-be-lost-in-time-the-web-the-future-and-us">All these moments will be lost in time: the web, the future, and us</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 34:37</div>
+			
+			
+              <div>Views: 51 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sally-jenkinson">Sally Jenkinson</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/sarah-meyer-javascript-minus-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/kFa4rC79jOQ/hqdefault.jpg" alt="JavaScript Minus JavaScript" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/sarah-meyer-javascript-minus-javascript">JavaScript Minus JavaScript</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 29:37</div>
+			
+			
+              <div>Views: 116 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sarah-meyer">Sarah Saltrick Meyer</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/sher-minn-chong-make-art-with-javascript"><img class="list-thumbnail" src="https://i.ytimg.com/vi/HiCK8e1ElRQ/hqdefault.jpg" alt="Make art with JavaScript!" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/sher-minn-chong-make-art-with-javascript">Make art with JavaScript!</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 20:51</div>
+			
+			
+              <div>Views: 125 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sher-minn-chong">Sher Minn Chong</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/tara-lindhal-this-is-your-brain-on-js"><img class="list-thumbnail" src="https://i.ytimg.com/vi/ZKxnJSdMrYU/hqdefault.jpg" alt="This is your brain on JS" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/tara-lindhal-this-is-your-brain-on-js">This is your brain on JS</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 21:38</div>
+			
+			
+              <div>Views: 343 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tara-lindhal">Tara Lindhal</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/the-emcees-of-empirejs-js-tonight"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Jw0WwwicJvM/hqdefault.jpg" alt="The Emcees of EmpireJS JS Tonight" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/the-emcees-of-empirejs-js-tonight">The Emcees of EmpireJS JS Tonight</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 15:38</div>
+			
+			
+              <div>Views: 112 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/thorsten-lorenz-deep-dive-into-the-v8-api"><img class="list-thumbnail" src="https://i.ytimg.com/vi/L1F3JWr_SaQ/hqdefault.jpg" alt="Deep Dive into the v8 API" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/thorsten-lorenz-deep-dive-into-the-v8-api">Deep Dive into the v8 API</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 29:59</div>
+			
+			
+              <div>Views: 102 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/thorsten-lorenz">Thorsten Lorenz</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/empirejs-2016/tim-pietrusky-i-music-the-web"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UpOV5l14jM0/hqdefault.jpg" alt="I ❤ Music & the Web" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/empirejs-2016/tim-pietrusky-i-music-the-web">I ❤ Music & the Web</a></h4>
+          <footer>
+            <div class="recorded">2016-05-26</div>
+			
+			  <div>Length: 31:36</div>
+			
+			
+              <div>Views: 43 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/empirejs-2016">EmpireJS 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tim-pietrusky">Tim Pietrusky</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL31ehRjJCA6GsdqLlLuMe7md1lgxG49BF">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

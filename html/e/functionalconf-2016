@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Functional Conf 2016</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Functional Conf 2016</h1>
+
+<div><a href="http://functionalconf.com/2016/">Functional Conf 2016</a></div>
+
+
+<div>Start date: 2016-10-13</div>
+<div>End date: 2016-10-16</div>
+
+<div>Location:
+  Bangalore
+  Karnataka
+  <a href="/l/india">India</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+</div>
+
+
+<div>Twitter: <a href="https://twitter.com/fnConf">@fnConf</a></div>
+
+
+
+<div>Facebook: <a href="https://www.facebook.com/functionalconf">https://www.facebook.com/functionalconf</a></div>
+
+
+<div>
+<a href="https://twitter.com/home?status=Functional%20Conf%202016%20on%202016-10-13%20in%20Bangalore%2C%20Karnataka%20India%20%40fnConf%20http%3A//functionalconf.com/2016/%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/a-tour-de-force-of-apl-in-16-expressions-by-roger-hui"><img class="list-thumbnail" src="https://i.ytimg.com/vi/e0rywC7-i0U/hqdefault.jpg" alt="A Tour de Force of APL in 16 Expressions" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/a-tour-de-force-of-apl-in-16-expressions-by-roger-hui">A Tour de Force of APL in 16 Expressions</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 01:33:00</div>
+			
+			
+              <div>Views: 268 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/roger-hui">Roger Hui</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/an-algebraic-approach-to-functional-domain-modeling-by-debasish-ghosh-functional-conf-16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0q-w16pOuyc/hqdefault.jpg" alt="An Algebraic Approach to Functional Domain Modeling" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/an-algebraic-approach-to-functional-domain-modeling-by-debasish-ghosh-functional-conf-16">An Algebraic Approach to Functional Domain Modeling</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 45:22</div>
+			
+			
+              <div>Views: 706 Likes: 8</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/debasish-ghosh">Debasish Ghosh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/blow-your-mind-with-functional-programming-demos-by-conference-attendees-at-functional-conference16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/RZjB6mzllDE/hqdefault.jpg" alt="Blow Your Mind with Functional Programming Demos by Conference Attendees at Functional Conference'16" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/blow-your-mind-with-functional-programming-demos-by-conference-attendees-at-functional-conference16">Blow Your Mind with Functional Programming Demos by Conference Attendees at Functional Conference'16</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 01:41:12</div>
+			
+			
+              <div>Views: 998 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/bringing-the-power-of-haskell-to-the-jvm-by-rahul-muttineni-functional-conf-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/CscBSNF6qnE/hqdefault.jpg" alt="Bringing the Power of Haskell to the JVM" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/bringing-the-power-of-haskell-to-the-jvm-by-rahul-muttineni-functional-conf-2016">Bringing the Power of Haskell to the JVM</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 49:21</div>
+			
+			
+              <div>Views: 490 Likes: 10</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rahul-muttineni">Rahul Muttineni</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/erlang-in-a-financial-startup-a-war-story-by-manoj-govindan"><img class="list-thumbnail" src="https://i.ytimg.com/vi/AGUOgp2D_z0/hqdefault.jpg" alt="Erlang in a Financial Startup: A War Story" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/erlang-in-a-financial-startup-a-war-story-by-manoj-govindan">Erlang in a Financial Startup: A War Story</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 49:28</div>
+			
+			
+              <div>Views: 82 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/manoj-govindan">Manoj Govindan</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/going-swiftly-functional-by-pushkar-kulkarni-mamatha"><img class="list-thumbnail" src="https://i.ytimg.com/vi/nfrvlITDpfo/hqdefault.jpg" alt="Going Swiftly Functional" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/going-swiftly-functional-by-pushkar-kulkarni-mamatha">Going Swiftly Functional</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 01:37:08</div>
+			
+			
+              <div>Views: 50 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mamatha-busi">Mamatha Busi</a>
+             
+                <a href="/p/pushkar-kulkarni">Pushkar Kulkarni</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/implementing-spark-like-system-in-haskell-by-yogesh-sajanikar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/o6XddljM3nI/hqdefault.jpg" alt="Implementing Spark like system in Haskell" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/implementing-spark-like-system-in-haskell-by-yogesh-sajanikar">Implementing Spark like system in Haskell</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 01:17:39</div>
+			
+			
+              <div>Views: 70 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/yogesh-sajanikar">Yogesh Sajanikar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/julia-a-lisp-for-fast-number-crunching-by-viral-b-shah-shashi-gowda"><img class="list-thumbnail" src="https://i.ytimg.com/vi/DIDydnUms2c/hqdefault.jpg" alt="Julia: A Lisp for Fast Number Crunching" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/julia-a-lisp-for-fast-number-crunching-by-viral-b-shah-shashi-gowda">Julia: A Lisp for Fast Number Crunching</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 01:14:22</div>
+			
+			
+              <div>Views: 338 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/viral-b-shah">Viral B. Shah</a>
+             
+                <a href="/p/shashi-gowda">Shashi Gowda</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/magic-at-compile-time-metaprogramming-in-scala-by-bartosz-babol-functional-conf-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/uWtEL1spHqc/hqdefault.jpg" alt="Magic at compile time. Metaprogramming in Scala" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/magic-at-compile-time-metaprogramming-in-scala-by-bartosz-babol-functional-conf-2016">Magic at compile time. Metaprogramming in Scala</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 48:40</div>
+			
+			
+              <div>Views: 137 Likes: 5</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/bartosz-babol">Bartosz Babol</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/no-silver-bullets-in-functional-programming-by-brian-mckenna-at-functional-conf-16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/UfowUAjQC3Y/hqdefault.jpg" alt="No Silver Bullets in Functional Programming" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/no-silver-bullets-in-functional-programming-by-brian-mckenna-at-functional-conf-16">No Silver Bullets in Functional Programming</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 46:34</div>
+			
+			
+              <div>Views: 693 Likes: 4</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/brian-mckenna">Brian McKenna</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/notation-for-parallel-thought-by-morten-kromberg-at-functional-conf-16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/-erRtkugsRY/hqdefault.jpg" alt="Notation for Parallel Thought" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/notation-for-parallel-thought-by-morten-kromberg-at-functional-conf-16">Notation for Parallel Thought</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 52:44</div>
+			
+			
+              <div>Views: 57 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/morten-kromberg">Morten Kromberg</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/performance-optimization-with-code-as-data-in-clojure-by-shantanu-kumar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/d70VACWSOeY/hqdefault.jpg" alt="Performance optimization with Code as data in Clojure" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/performance-optimization-with-code-as-data-in-clojure-by-shantanu-kumar">Performance optimization with Code as data in Clojure</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 50:48</div>
+			
+			
+              <div>Views: 100 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/shantanu-kumar">Shantanu Kumar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/pure-functional-programming-on-jvm-with-frege-by-naresha-k"><img class="list-thumbnail" src="https://i.ytimg.com/vi/k1Vc0gI_DhU/hqdefault.jpg" alt="Pure Functional Programming on JVM with Frege" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/pure-functional-programming-on-jvm-with-frege-by-naresha-k">Pure Functional Programming on JVM with Frege</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 43:32</div>
+			
+			
+              <div>Views: 142 Likes: 1</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/naresha-k">Naresha K</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/real-world-functional-programming-in-ads-serving-by-sathish-kumar"><img class="list-thumbnail" src="https://i.ytimg.com/vi/mOlXKadER6M/hqdefault.jpg" alt="Real world functional programming in Ads serving" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/real-world-functional-programming-in-ads-serving-by-sathish-kumar">Real world functional programming in Ads serving</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 45:35</div>
+			
+			
+              <div>Views: 239 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sathish-kumar">Sathish Kumar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/rethinking-state-management-by-tamizhvendan-s-at-functional-conference16"><img class="list-thumbnail" src="https://i.ytimg.com/vi/GneIxgl71NM/hqdefault.jpg" alt="Rethinking State Management" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/rethinking-state-management-by-tamizhvendan-s-at-functional-conference16">Rethinking State Management</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 58:37</div>
+			
+			
+              <div>Views: 742 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/tamizhvendan-s">Tamizhvendan S</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/the-erlang-ecosystem-by-robert-virding-at-functional-conf-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iypTz5HoE-U/hqdefault.jpg" alt="The Erlang Ecosystem" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/the-erlang-ecosystem-by-robert-virding-at-functional-conf-2016">The Erlang Ecosystem</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 47:36</div>
+			
+			
+              <div>Views: 171 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/robert-virding">Robert Virding</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/using-f-in-production-a-retrospective-by-ankit-solanki"><img class="list-thumbnail" src="https://i.ytimg.com/vi/BYRpZ7qEMi0/hqdefault.jpg" alt="Using F# in production: a retrospective" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/using-f-in-production-a-retrospective-by-ankit-solanki">Using F# in production: a retrospective</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 48:15</div>
+			
+			
+              <div>Views: 722 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/ankit-solanki">Ankit Solanki</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/welcome-to-the-machines-by-alois-cochard"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sEfn_x245mE/hqdefault.jpg" alt="Welcome to the Machines" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/welcome-to-the-machines-by-alois-cochard">Welcome to the Machines</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 37:44</div>
+			
+			
+              <div>Views: 661 Likes: 12</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alois-cochard">Alois Cochard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/functionalconf-2016/why-functional-programming-matters-by-john-hughes-at-functional-conf-2016"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XrNdvWqxBvA/hqdefault.jpg" alt="Why Functional Programming Matters" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/functionalconf-2016/why-functional-programming-matters-by-john-hughes-at-functional-conf-2016">Why Functional Programming Matters</a></h4>
+          <footer>
+            <div class="recorded">2016-10-13</div>
+			
+			  <div>Length: 56:10</div>
+			
+			
+              <div>Views: 2648 Likes: 40</div>
+            
+            <div class="event">From <a href="/e/functionalconf-2016">Functional Conf 2016</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/john-hughes">John Hughes</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL9Z-JgiTsOYTdi91N_DlcpWqkCYvMrhA4">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

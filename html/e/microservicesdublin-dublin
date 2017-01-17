@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Microservices Dublin (Meeting)</title>
+
+    <script src="https://use.fontawesome.com/2c3e31423c.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet"
+          href="//cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css"
+          type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+
+    
+
+
+</head>
+<body>
+<nav>
+   <ul id="menu" class="container">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+         <span class="dropbtn">Conferences</span>
+         <div class="dropdown-content">
+           <a href="/conferences" class="dropbtn">Upcoming Conferences</a>
+           <a href="/cfp">Call for Presentations</a>
+           <a href="/countries">Countries</a>
+           <a href="/cities">Cities</a>
+           <a href="/code-of-conduct">Code of Conduct</a>
+           <a href="/diversity-tickets">Diversity Tickets</a>
+           <a href="/series">Event Series</a>
+           <a href="/all-conferences">Past conferences</a>
+         </div>
+     </li>
+     <li><a href="/topics">Topics</a></li>
+     <li><a href="/podcasts">Podcasts</a></li>
+     <li><a href="/people">People</a></li>
+     <li><a href="/videos">Videos</a></li>
+     <li><a href="/about">About</a></li>
+<!--
+     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+-->
+     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+  </ul>
+</nav>
+
+  <nav id="secondary">
+    Get notified when a new video is added:
+    <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/master-blaster">
+    <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
+    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    </form>
+  </nav>
+
+
+<div class="container">
+    <h1>Microservices Dublin (Meeting)</h1>
+
+<div><a href="http://microservicesdublin.com/">Microservices Dublin (Meeting)</a></div>
+
+
+<div>Start date: 2016-11-10</div>
+<div>End date: 2016-11-12</div>
+
+<div>Location:
+  Dublin
+  
+  <a href="/l/ireland">Ireland</a>
+</div>
+
+<div><a href="/code-of-conduct">Code of Conduct <b>not found</b></a></div>
+<div>No <a href="/diversity-tickets">Diversity Tickets</b></a></div>
+<div>Languages: English</div>
+<div>Topics:
+   
+       <a href="/t/microservices">Microservices</a> 
+   
+</div>
+
+
+
+
+
+<div>
+<a href="https://twitter.com/home?status=Microservices%20Dublin%20%28Meeting%29%20on%202016-11-10%20in%20Dublin%2C%20%20Ireland%20http%3A//microservicesdublin.com/%20%23Microservices%20via%20https%3A//codeandtalk.com/" target="_blank">Tweet this event</a>
+</div>
+
+
+  
+  <h2>Videos</h2>
+    
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/adrian-trenaman-scaling-microservices-at-gilt"><img class="list-thumbnail" src="https://i.ytimg.com/vi/C7wGgdimE7Q/hqdefault.jpg" alt="Scaling Microservices at GILT" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/adrian-trenaman-scaling-microservices-at-gilt">Scaling Microservices at GILT</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 49:30</div>
+			
+			
+              <div>Views: 34 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/adrian-trenaman">Adrian Trenaman</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/alan-bradley-miicroservices-with-nsq"><img class="list-thumbnail" src="https://i.ytimg.com/vi/xPkrJketZAk/hqdefault.jpg" alt="Microservices with NSQ" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/alan-bradley-miicroservices-with-nsq">Microservices with NSQ</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 15:41</div>
+			
+			
+              <div>Views: 8 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/alan-bradley">Alan Bradley</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/caoilte-oconnor-domain-service-aggregators-a-structured-approach-to-microservice-composition"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iS6p-SWVuac/hqdefault.jpg" alt="Domain Service Aggregators: A Structured Approach to Microservice Composition" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/caoilte-oconnor-domain-service-aggregators-a-structured-approach-to-microservice-composition">Domain Service Aggregators: A Structured Approach to Microservice Composition</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 58:55</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/caoilte-oconnor">Caoilte O'Connor</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/christian-deger-highway-to-heaven"><img class="list-thumbnail" src="https://i.ytimg.com/vi/0xAShqA8K6o/hqdefault.jpg" alt="Highway to Heaven" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/christian-deger-highway-to-heaven">Highway to Heaven</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 52:19</div>
+			
+			
+              <div>Views: 18 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/christian-deger">Christian Deger</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/david-gonzalez-circuit-breakers-on-steroids"><img class="list-thumbnail" src="https://i.ytimg.com/vi/7M6_Tb2riaA/hqdefault.jpg" alt="Circuit Breakers on Steroids" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/david-gonzalez-circuit-breakers-on-steroids">Circuit Breakers on Steroids</a></h4>
+          <footer>
+            <div class="recorded">2016-04-29</div>
+			
+			  <div>Length: 36:27</div>
+			
+			
+              <div>Views: 297 Likes: 6</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-gonzalez">David Gonzalez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/david-gonzalez-microservices-in-fin-tech-beating-the-organic-growth"><img class="list-thumbnail" src="https://i.ytimg.com/vi/q8PAQtPbXx8/hqdefault.jpg" alt="Microservices in Fin Tech: Beating the organic growth" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/david-gonzalez-microservices-in-fin-tech-beating-the-organic-growth">Microservices in Fin Tech: Beating the organic growth</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 29:17</div>
+			
+			
+              <div>Views: 22 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/david-gonzalez">David Gonzalez</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/dean-mcdonnell-playing-in-the-mud"><img class="list-thumbnail" src="https://i.ytimg.com/vi/sJ8tB_Sp0cg/hqdefault.jpg" alt="Playing in the Mud" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/dean-mcdonnell-playing-in-the-mud">Playing in the Mud</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 39:52</div>
+			
+			
+              <div>Views: 22 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/dean-mcdonnell">Dean McDonnell</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/fred-george-microservices-and-the-latest-tower-of-babel"><img class="list-thumbnail" src="https://i.ytimg.com/vi/pE5BeMhz7oQ/hqdefault.jpg" alt="Microservices and the Latest Tower of Babel" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/fred-george-microservices-and-the-latest-tower-of-babel">Microservices and the Latest Tower of Babel</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 36:29</div>
+			
+			
+              <div>Views: 22 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/fred-george">Fred George</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/kai-wahner-do-good-microservices-architectures-spell-the-death-of-the-enterprise-service-bus"><img class="list-thumbnail" src="https://i.ytimg.com/vi/4Xcgxhjtr3o/hqdefault.jpg" alt="Do Good Microservices Architectures Spell the Death of the Enterprise Service Bus?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/kai-wahner-do-good-microservices-architectures-spell-the-death-of-the-enterprise-service-bus">Do Good Microservices Architectures Spell the Death of the Enterprise Service Bus?</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 01:15:48</div>
+			
+			
+              <div>Views: 36 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/kai-wahner">Kai Wähner</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/matthias-laug-microservices-you-need-to-be-this-tall-to-use-microservices"><img class="list-thumbnail" src="https://i.ytimg.com/vi/VPPz8TaUYyc/hqdefault.jpg" alt="Microservices - You need to be this tall to use microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/matthias-laug-microservices-you-need-to-be-this-tall-to-use-microservices">Microservices - You need to be this tall to use microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 01:13:38</div>
+			
+			
+              <div>Views: 36 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/matthias-laug">Matthias Laug</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/microservices-28june-201529-peter-elger-deploying-micro-services-a-worked-example"><img class="list-thumbnail" src="https://i.ytimg.com/vi/1YD__mAh0MY/hqdefault.jpg" alt="Deploying Micro Services: A Worked Example" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/microservices-28june-201529-peter-elger-deploying-micro-services-a-worked-example">Deploying Micro Services: A Worked Example</a></h4>
+          <footer>
+            <div class="recorded">2015-06-28</div>
+			
+			  <div>Length: 03:47</div>
+			
+			
+              <div>Views: 13 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/peter-elger">Peter Elger</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/mike-gehard-the-journey-from-monolith-to-microservices"><img class="list-thumbnail" src="https://i.ytimg.com/vi/PlOkk0Mk6C8/hqdefault.jpg" alt="The journey from monolith to microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/mike-gehard-the-journey-from-monolith-to-microservices">The journey from monolith to microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-07-11</div>
+			
+			  <div>Length: 58:49</div>
+			
+			
+              <div>Views: 164 Likes: 3</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/mike-gehard">Mike Gehard</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/paul-monney"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qLV-yqTpiB4/hqdefault.jpg" alt="Paul Mooney" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/paul-monney">Paul Mooney</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 53:55</div>
+			
+			
+              <div>Views: 7 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-mooney">Paul Mooney</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/paul-mooney-beginning-microservices-with-net-and-rabbitmq"><img class="list-thumbnail" src="https://i.ytimg.com/vi/K8oEW9097Vw/hqdefault.jpg" alt="Beginning Microservices with NET and RabbitMQ" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/paul-mooney-beginning-microservices-with-net-and-rabbitmq">Beginning Microservices with NET and RabbitMQ</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 53:55</div>
+			
+			
+              <div>Views: 254 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-mooney">Paul Mooney</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/paul-savage-can-business-and-architecture-be-friends"><img class="list-thumbnail" src="https://i.ytimg.com/vi/gFJKKbNYDFs/hqdefault.jpg" alt="Can Business and Architecture Be Friends" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/paul-savage-can-business-and-architecture-be-friends">Can Business and Architecture Be Friends</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 22:39</div>
+			
+			
+              <div>Views: 9 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/paul-savage">Paul Savage</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/richard-rodger-how-microservcies-fail-and-what-to-do-about-it"><img class="list-thumbnail" src="https://i.ytimg.com/vi/N2xlXB3AnKM/hqdefault.jpg" alt="How Microservcies fail and what to do about it" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/richard-rodger-how-microservcies-fail-and-what-to-do-about-it">How Microservcies fail and what to do about it</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 01:00:08</div>
+			
+			
+              <div>Views: 23 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/richard-rodger">Richard Rodger</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/richard-rodger-measuring-microservices"><img class="list-thumbnail" src="https://i.ytimg.com/vi/iEB0BlenAEo/hqdefault.jpg" alt="Measuring Microservices" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/richard-rodger-measuring-microservices">Measuring Microservices</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 29:15</div>
+			
+			
+              <div>Views: 42 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/richard-rodger">Richard Rodger</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/richard-rodger-talking-at-first-ever-microservices-dublin-meetup"><img class="list-thumbnail" src="https://i.ytimg.com/vi/eTpLNhQJyyc/hqdefault.jpg" alt="Richard Rodger talking at first ever microservices Dublin meetup" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/richard-rodger-talking-at-first-ever-microservices-dublin-meetup">Richard Rodger talking at first ever microservices Dublin meetup</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 01:57</div>
+			
+			
+              <div>Views: 13 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/richard-rodger">Richard Rodger</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/rory-walsh-do-microservices-deliver"><img class="list-thumbnail" src="https://i.ytimg.com/vi/XEbQ9fDep1s/hqdefault.jpg" alt="Do Microservices Deliver" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/rory-walsh-do-microservices-deliver">Do Microservices Deliver</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 22:54</div>
+			
+			
+              <div>Views: 25 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/rory-walsh">Rory Walsh</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/sean-farmar-soa-lessons-learnt-or-microservices-done-better"><img class="list-thumbnail" src="https://i.ytimg.com/vi/w9Bc_sX1WfU/hqdefault.jpg" alt="SOA lessons learnt (OR Microservices done better)" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/sean-farmar-soa-lessons-learnt-or-microservices-done-better">SOA lessons learnt (OR Microservices done better)</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 01:01:33</div>
+			
+			
+              <div>Views: 196 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/sean-farmar">Sean Farmar</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/stefan-tilkov-wait-what-our-microservices-have-actual-human-users"><img class="list-thumbnail" src="https://i.ytimg.com/vi/G0_4u6TeREo/hqdefault.jpg" alt="Wait, what!? Our microservices have actual human users?" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/stefan-tilkov-wait-what-our-microservices-have-actual-human-users">Wait, what!? Our microservices have actual human users?</a></h4>
+          <footer>
+            <div class="recorded">2016-06-01</div>
+			
+			  <div>Length: 52:39</div>
+			
+			
+              <div>Views: 253 Likes: 2</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/stefan-tilkov">Stefan Tilkov</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/val-dumitrescu-introducing-cave"><img class="list-thumbnail" src="https://i.ytimg.com/vi/qdKyw7vgkoc/hqdefault.jpg" alt="Introducing Cave" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/val-dumitrescu-introducing-cave">Introducing Cave</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 49:14</div>
+			
+			
+              <div>Views: 20 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/val-dumitrescu">Val Dumitrescu</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+    <div class="video-list-entry">
+       <a href="/v/microservicesdublin-dublin/william-louth-software-memories-and-simulated-machines"><img class="list-thumbnail" src="https://i.ytimg.com/vi/Kg3Lw7rtpD4/hqdefault.jpg" alt="Software Memories and Simulated Machines" /></a>
+       <section class="details">
+          <h4 class="entry-title"><a href="/v/microservicesdublin-dublin/william-louth-software-memories-and-simulated-machines">Software Memories and Simulated Machines</a></h4>
+          <footer>
+            <div class="recorded">2016-05-03</div>
+			
+			  <div>Length: 01:19:46</div>
+			
+			
+              <div>Views: 18 Likes: 0</div>
+            
+            <div class="event">From <a href="/e/microservicesdublin-dublin">Microservices Dublin (Meeting)</a></div>
+            <div class="speakers">
+            By: 
+             
+                <a href="/p/william-louth">William Louth</a>
+             
+            </div>
+          </footer>
+       </section>
+    </div>
+  
+
+
+
+
+<div>
+<a href="https://www.youtube.com/playlist?list=PL0CdgOSSGlBYf_k12O75uGPZAH2k9ZxcQ">Videos</a>
+</div>
+
+
+
+</div><!-- container -->
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12199211-31', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
