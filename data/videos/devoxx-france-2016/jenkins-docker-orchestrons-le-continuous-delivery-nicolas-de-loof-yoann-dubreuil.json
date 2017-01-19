@@ -1,6 +1,7 @@
 {
     "description": "le \"Continuous Delivery\" est un sacr\u00e9 buzz word, et \"Docker\" encore plus, mais les blog que j'ai pu lire sur sujet ne proposent qu'un pipelines naif et minimaliste : compile, test, push docker image, et voil\u00e0.\n\nEn 2015 Jenkins adresse clairement plus que de l'Integration Continue, et avec le support r\u00e9cent du workflow plugin nous pouvons orchestrer avec un DSL des pipelines de grande complexit\u00e9. L'integration avec Docker lui donne encore plus de puissance.\n\nPendant cette session, je vais construire un pipeline de CD pour montrer l'utilisation du workflow et sa flexibilit\u00e9, ainsi que l'apport de Docker \u00e0 votre boite \u00e0 outils de Continuous Delivery, avant de marier les deux - mais chut, ne spoilons pas.",
     "favorite": "0",
+    "language": "French",
     "length": "46:17",
     "likes": "11",
     "recorded": "2016-04-20",
@@ -18,5 +19,4 @@
         }
     ],
     "views": "1093"
-,    "language" : "French"
 }

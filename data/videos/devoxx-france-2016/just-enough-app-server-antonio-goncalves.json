@@ -1,6 +1,7 @@
 {
     "description": "Websphere ou Weblogic sont-ils appropri\u00e9s pour votre projet ? Trop \"gros\" ? Jetty, Tomcat, suffisent-ils \u00e0 r\u00e9pondre \u00e0 vos besoins ? Trop \"petits\" ?\n\nNi trop, ni trop peu. Ce qu'il vous faut c'est \"juste assez de serveur\" pour supporter uniquement le sous-ensemble d'APIs et de services dont votre application a besoin.\n\nDans cette session je ferai l'\u00e9tat des lieux des serveurs d'applications Java EE (Weblogic, Websphere, JBoss, GlassFish), Profile Web (TomEE, Payara, Siwpass) et Servlet (Tomcat, Jetty, Undertow). Et pour vos besoins de microservices, je vous pr\u00e9senterai des solutions plus modulaires comme WildFly Swarm, KumuluzEE, Spring Boot ou Dropwizard. Je vous parlerai de performance, de war, de jar executable, de monitoring, d'administration, d'optimisation, de cas d'utilisation et de retour d'experience... tout \u00e7a en vous montrant du code et en faisant tourner plusieurs types d'applications (de la plus simple \u00e0 la plus complexe) dans plusieurs sortes de containers... et peut-\u00eatre m\u00eame sur un Raspberry Pi.",
     "favorite": "0",
+    "language": "French",
     "length": "45:38",
     "likes": "10",
     "recorded": "2016-04-20",
@@ -17,5 +18,4 @@
         }
     ],
     "views": "1194"
-,    "language" : "French"
 }

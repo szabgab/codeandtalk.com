@@ -1,6 +1,7 @@
 {
     "description": "Elasticsearch est le moteur de recherche, hautement scalable et simple \u00e0 d\u00e9ployer.\n\nUn des d\u00e9fis est de garder la source de donn\u00e9es (RDBMS) et l'index Elasticsearch toujours synchronis\u00e9s.\n\nHibernate ORM est l'outil par excellence pour persister dans les bases de donn\u00e9es.\n\n\u00c7a serait bien si Hiberrnate ORM pouvait automatiquement pousser tous les changements vers Elasticsearch. \u00c7a serait bien si les requ\u00eates Elasticsearch ramenaient des objects du mod\u00e8le m\u00e9tier comme une requ\u00eate HQL le fait.\n\nEntre la derni\u00e8re \u00e9volution d'Hibernate Search, venez d\u00e9couvrir par la pratique comment les univers Elasticsearch et Hibernate se rejoignent.",
     "favorite": "0",
+    "language": "French",
     "length": "30:29",
     "likes": "8",
     "recorded": "2016-04-20",
@@ -18,5 +19,4 @@
         }
     ],
     "views": "821"
-,    "language" : "French"
 }

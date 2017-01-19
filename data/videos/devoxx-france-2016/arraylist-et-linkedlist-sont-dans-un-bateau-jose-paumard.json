@@ -1,6 +1,7 @@
 {
     "description": "Doit-on d\u00e9pr\u00e9cier LinkedList ? Cette question qui a anim\u00e9 Twitter pendant quelques jours ressemblerait \u00e0 une pol\u00e9mique de plus si elle n'\u00e9tait pas pos\u00e9e par Stuart Marks, expert du sujet, qui travaille (entre autres) sur les \u00e9volutions de l'API Collection. On se rend compte que la r\u00e9ponse compl\u00e8te est complexe, touche \u00e0 l'algorithmique, la gestion de la m\u00e9moire, le fonctionnement interne des CPU et notamment de leur syst\u00e8me de cache.\n\nC'est l'objet de cette pr\u00e9sentation : expliquer comment on peut prendre en compte tous ces points pour utiliser les structures de donn\u00e9es les plus performantes possibles. On balaiera plusieurs questions autour de ce sujet, des m\u00e9thodes par d\u00e9faut de l'API Collection, de quelques impl\u00e9mentations alternatives, et de ce qui est en pr\u00e9paration pour Java 9 dans ce domaine. On parlera chasse aux pointeurs, structure des processeurs, performance des algorithmes, mais aussi structures des listes et des tables de hachage, comportement des algorithmes sur ces structures.\n\nLa pr\u00e9sentation est en Java 8, et nous parlerons un peu de ce qui nous attend dans le domaine des collections pour Java 9 et au-del\u00e0.",
     "favorite": "0",
+    "language": "French",
     "length": "02:23:37",
     "likes": "12",
     "recorded": "2016-04-20",
@@ -17,5 +18,4 @@
         }
     ],
     "views": "913"
-,    "language" : "French"
 }

@@ -1,6 +1,7 @@
 {
     "description": "Clever Cloud, comment \u00e7a marche ? Cela fait 5 ans qu'on construit un PaaS avec des microservices.\n\nClever Cloud est un PaaS fran\u00e7ais, pas construit au dessus d'amazon (ni d'aucun autre IaaS). Clever Cloud n'utilise ni cloud foundry ni OpenStack.\n\nPourquoi ces choix ? Pourquoi utilisons-nous des VMs et pas des containers? Comment g\u00e8re-t-on la s\u00e9curit\u00e9 ? Beaucoup de nos choix architecturaux sont diff\u00e9rents de ce qui est fait dans d'autres boites. Pourquoi sommes-nous partis sur cette voie ? Plus important : est-ce que \u00e7a marche ?\n\nClever Cloud est construit autour de microservices (~100 projects qui collaborent pour faire fonctionner la plateforme).\n\nCe talk d\u00e9crit notre architecture, les protocoles utilis\u00e9es (il n'y a pas que HTTP dans la vie). Nous verrons comment nous ajoutons des fonctionnalit\u00e9s et comment l'archi nous permet de g\u00e9rer le changement et de sortir rapidement des features tout en int\u00e9grant de nombreuses technologies.\n\nCette universit\u00e9 est un mix entre retour d'exp\u00e9rience et concepts d'archi.",
     "favorite": "0",
+    "language": "French",
     "length": "02:48:37",
     "likes": "23",
     "recorded": "2016-04-20",
@@ -18,5 +19,4 @@
         }
     ],
     "views": "1887"
-,    "language" : "French"
 }

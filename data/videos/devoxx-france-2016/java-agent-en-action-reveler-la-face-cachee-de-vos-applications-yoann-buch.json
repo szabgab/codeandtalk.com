@@ -1,6 +1,7 @@
 {
     "description": "Les agents java permettent d\u2019observer et de modifier des programmes ex\u00e9cut\u00e9s sur une JVM. Bien que pr\u00e9sents depuis le JDK 1.5 ils sont tr\u00e8s peu utilis\u00e9s hormis par des outils avanc\u00e9s comme New Relic ou JRebel.\n\nA travers un exemple concret, on verra sur quels principes les agents se reposent et qu\u2019en cr\u00e9er un est \u00e0 la port\u00e9e de tous, surtout lorsqu\u2019on utilise Byte Buddy.\n\nL'exemple est un agent java qui permet de visualiser dans un navigateur web le conteneur d'injection de d\u00e9pendances (Spring, CDI, Dagger et Guice) de votre application.",
     "favorite": "0",
+    "language": "French",
     "length": "13:46",
     "likes": "2",
     "recorded": "2016-04-20",
@@ -17,5 +18,4 @@
         }
     ],
     "views": "221"
-,    "language" : "French"
 }

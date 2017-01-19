@@ -1,6 +1,7 @@
 {
     "description": "A Ullink, nos Heaps sont habituellement plut\u00f4t large (jusqu'\u00e0 256 Go) et nous g\u00e9rons un important volume de donn\u00e9es. Mais nous avons observ\u00e9 que la majorit\u00e9 de l'espace occup\u00e9 dans la Heap ne l'est pas par les donn\u00e9es business mais par les structures ! Dans cette pr\u00e9sentation il sera montr\u00e9 quel est le co\u00fbt des objets, quels sont les suspects id\u00e9als dans nos structures de donn\u00e9es habituelles (Lists, Maps, Strings) et ce que nous pouvons faire pour r\u00e9duire l'empreinte m\u00e9moire de l'application.",
     "favorite": "0",
+    "language": "French",
     "length": "43:40",
     "likes": "8",
     "recorded": "2016-04-20",
@@ -17,5 +18,4 @@
         }
     ],
     "views": "969"
-,    "language" : "French"
 }

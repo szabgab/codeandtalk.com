@@ -1,6 +1,7 @@
 {
     "description": "Vous avez aim\u00e9 la premi\u00e8re saison des algorithmes pour le Big Data avec HyperLogLog et Paxos ? La saison 2 est l\u00e0 et vous propose au menu 1 structure de donn\u00e9e et un algorithme tout frais sorti des publications universitaires.\n\nCr\u00e9er une structure de donn\u00e9es qui supporte des op\u00e9rations distribu\u00e9es sans coordination rel\u00e8ve d'une gageure. Mais Marc Shapiro a relev\u00e9 le d\u00e9fi avec les CRDT! Nous allons voir comment, sous r\u00e9serve de respecter quelques propri\u00e9t\u00e9s, on peut obtenir une convergence des donn\u00e9es distribu\u00e9es sans besoin de recourir \u00e0 un lock global.\n\nEx\u00e9cuter des op\u00e9rations de mani\u00e8re atomique sur des architectures distribu\u00e9es est th\u00e9oriquement impossible sans coordination globale (donc quelque part un lock global). Par contre, il est possible d'obtenir une visibilit\u00e9 atomique sans coordination avec l'algorithme RAMP Transaction pr\u00e9sent\u00e9 par Peter Bailis en 2014. Cet algorithme ouvre la porte \u00e0 des perspectives int\u00e9ressantes pour des besoins comme des indexes distribu\u00e9s etc..\n\nComme toujours, chaque structure/algorithme sera pr\u00e9sent\u00e9 avec une impl\u00e9mentation concr\u00e8te pour mieux illustrer les cas d'utilisation.",
     "favorite": "0",
+    "language": "French",
     "length": "47:27",
     "likes": "1",
     "recorded": "2016-04-20",
@@ -17,5 +18,4 @@
         }
     ],
     "views": "274"
-,    "language" : "French"
 }

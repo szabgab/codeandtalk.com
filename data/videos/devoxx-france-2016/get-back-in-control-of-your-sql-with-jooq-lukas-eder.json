@@ -1,6 +1,7 @@
 {
     "description": "Java does not provide an API to directly support the expressiveness and power of SQL. All attention is given to object-relational mapping and abstractions on a higher level, such as OQL, HQL, JPQL, CriteriaQuery.\n\njOOQ is a dual-licensed Open Source product filling this gap. It implements SQL itself as a type safe domain-specific language in Java.\n\njOOQ is a good choice in a Java application where SQL and its proprietary features of the database in use are important. It shows, how a modern domain-specific language can greatly increase developer productivity, internalising SQL into Java.",
     "favorite": "0",
+    "language": "French",
     "length": "45:13",
     "likes": "7",
     "recorded": "2016-04-20",
@@ -17,5 +18,4 @@
         }
     ],
     "views": "430"
-,    "language" : "French"
 }
