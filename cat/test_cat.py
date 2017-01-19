@@ -51,7 +51,7 @@ class TestCat(unittest.TestCase):
         assert 'fa-video-camera' in p.html()
 
 
-
+    def test_event(self):
         rv = self.app.get('/e/ffconf-2009')
         assert rv.status == '200 OK'
         assert b'<h1>Full Frontal - ffconf 2009</h1>' in rv.data
@@ -69,9 +69,25 @@ class TestCat(unittest.TestCase):
         assert b'<a href="/v/jsinsa-2016/feature-toggle-a-js-app-by-charlene-tshitoka">' in rv.data
         assert b'<a href="/p/charlene-tshitoka">Charlene Tshitoka</a>' in rv.data
 
+    def test_featured(self):
         rv = self.app.get('/featured')
+        assert rv.status == '200 OK'
         assert b'<a href="/v/cascadiafest-2016/sarah-meyer-javascript-minus-javascript-cascadiafest-2016">' in rv.data
+
         rv = self.app.get('/featured-by-date')
-        assert b'<a href="/v/cascadiafest-2016/sarah-meyer-javascript-minus-javascript-cascadiafest-2016">' in rv.data
+        self.assertEqual(rv.status, '200 OK')
+        self.assertIn(b'<a href="/v/cascadiafest-2016/sarah-meyer-javascript-minus-javascript-cascadiafest-2016">', rv.data)
+
+    def test_video_pages(self):
+        rv = self.app.get('/v/cascadiafest-2016/sarah-meyer-javascript-minus-javascript-cascadiafest-2016')
+        self.assertEqual(rv.status, '200 OK')
+        self.assertIn(b'<title>Javascript Minus Javascript</title>', rv.data)
+        #print(rv.data)
+
+        rv = self.app.get('/v/devoxx-france-2016/10-enseignements-quon-peut-tirer-des-31463-commits-qui-ont-cree-le-langage-simone-civetta')
+        self.assertEqual(rv.status, '200 OK')
+        self.assertIn(b'<title>10 enseignements qu&#39;on peut tirer des 31.463 commits qui ont cr\xc3\xa9\xc3\xa9 le langage (French)</title>', rv.data)
+        #print(rv.data)
+
 
 # vim: expandtab
