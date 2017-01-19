@@ -119,8 +119,6 @@ class GenerateSite(object):
 
         self.preprocess_events()
 
-        #self.save_search()
-
         cat['tags']  = copy.deepcopy(self.tags)
         cat['stats'] = copy.deepcopy(self.stats)
         cat['series'] = copy.deepcopy(self.series)
@@ -656,19 +654,6 @@ class GenerateSite(object):
         self.stats['coc_future_perc']  = int(100 * self.stats['has_coc_future'] / self.stats['future'])
         self.stats['diversity_tickets_future_perc']  = int(100 * self.stats['has_diversity_tickets_future'] / self.stats['future'])
         self.stats['a11y_future_perc'] = int(100 * self.stats['has_a11y_future'] / self.stats['future'])
-
-        return
-
-    def save_search(self):
-        for p in self.people_search:
-            if 'tags' in self.people_search[p]:
-                if len(self.people_search[p]['tags']) > 0:
-                    self.people_search[p]['tags'] = list(self.people_search[p]['tags'])
-                else:
-                    del(self.people_search[p]['tags'])
-
-        with open(self.html + '/people.json', 'w', encoding="utf-8") as fh:
-            json.dump(self.people_search, fh)
 
         return
 
