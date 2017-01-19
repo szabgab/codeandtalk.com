@@ -5,5 +5,4 @@ python:
   - "3.6"
 install:
    - pip install .
-#  - sudo apt-get install python3-jinja2 
 script: python3 -m unittest discover
