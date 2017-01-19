@@ -92,9 +92,6 @@ has not been added yet:
 * fscons-2012
 * fscons-2013
 * fscons-2014
-* jsconf-eu-2015
-* jsconf-us-2015
-* nodeconf-eu-2015
 * nodevember-2014
 * rubyconf-india-2014
 * rubyconf-india-2015
@@ -102,11 +99,8 @@ has not been added yet:
 * postgresopen-2012
 * postgresopen-2013
 * postgresopen-2014
-* postgresopen-2015
 * rubyfuza-2013
 * rubyfuza-2014
-* front-trends-2015
-* react-conf-2015
 * linuxfest-northwest-2015 - (Here has only 6 json file, but huge lecture in website)
 * rubyconf-taiwan-2015 - (Use Mandarin Language)
 * nordicjs-2014
