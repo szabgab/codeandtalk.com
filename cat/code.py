@@ -12,21 +12,23 @@ from jinja2 import Environment, PackageLoader
 
 from cat import tools
 
+def read_chars():
+    tr = {}
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    with open(os.path.join(root, 'cat', 'chars.csv')) as fh:
+        rd = csv.reader(fh, delimiter=',') 
+        for row in rd:
+            tr[row[0]] = row[1]
+    return tr
+tr = read_chars()
+ 
+
 def topic2path(tag):
     t = tag.lower()
-    tr = {
-        r'í'  : 'i',
-        r'ó'  : 'o',
-        r'ã'  : 'a',
-        r'ü' : 'u',
-        r'ö' : 'o',
-        r'è'  : 'e',
-        r'ł'  : 'l',
-    }
     #t = t.translate(string.maketrans("abc", "def"))
     for k in tr.keys():
         t = re.sub(k, tr[k], t)
-    t = re.sub(r'[.+ ()&’/:]', '-', t)
+    t = re.sub(r'[.+ ()&/:]', '-', t)
     if re.search(r'[^a-z0-9-]', t):
         raise Exception("Character needs to be mapped in '{}'".format(t))
     t = re.sub(r'[^a-z]+', '-', t)
