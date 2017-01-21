@@ -661,7 +661,8 @@ def events_in_location(cat, location):
     return name, future, past
 
 def get_tweet_video(video, speakers, event):
-    tweet_video = '{} https://codeandtalk.com/v/{}/{}'.format(video['title'], video['event'], video['filename'])
+    title = video['title'].encode('ascii', 'ignore') # was needed in Python 2
+    tweet_video = '{} https://codeandtalk.com/v/{}/{}'.format(title, video['event'], video['filename'])
     tw_id = event.get('twitter', '')
     if tw_id:
         tweet_video += ' presented @' + tw_id
