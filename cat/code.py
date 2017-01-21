@@ -12,6 +12,14 @@ from jinja2 import Environment, PackageLoader
 
 from cat import tools
 
+countries = set(['Albania', 'Argentina', 'Australia', 'Austria', 'Belarus', 'Belgium', 'Bulgaria', 'Brasil', 'Canada', 'China',  'Colombia', 'Croatia', 'Czech Republic',  'Denmark', 'Estonia',
+    'Finland', 'France', 'Germany', 'Ghana', 'Greece', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Ireland', 'Isle of Man', 'Israel', 'Italy', 'Japan', 'Kenya', 'Korea',
+    'Latvia', 'Lithuania', 'Malaysia', 'Morocoo', 'New Zealand', 'Norway', 'Poland', 'Portugal',
+    'Philippines', 'Romania', 'Russia', 'Singapore', 'Serbia', 'Slovakia', 'Slovenia', 'South Africa', 'Spain', 'Sweden', 'Switzerland', 'Taiwan', 'The Netherlands', 'Ukraine', 'Uruguay', 'UK', 'USA',
+    'Zimbabwe',
+    'Online' # ???
+])
+
 def read_chars():
     tr = {}
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -199,6 +207,9 @@ class GenerateSite(object):
 
                 if not 'country' in this or not this['country']:
                     raise Exception('Country is missing from {}'.format(this))
+                if this['country'] not in countries:
+                    raise Exception("Country '{}' is not yet(?) in our list".format(this['country']))
+
                 diversity = this.get('diversitytickets')
                 if diversity:
                     if not re.search(r'^\d+$', diversity):
