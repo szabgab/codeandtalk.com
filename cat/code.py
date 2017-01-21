@@ -199,7 +199,11 @@ class GenerateSite(object):
 
                 if not 'country' in this or not this['country']:
                     raise Exception('Country is missing from {}'.format(this))
- 
+                diversity = this.get('diversitytickets')
+                if diversity:
+                    if not re.search(r'^\d+$', diversity):
+                        raise Exception('diversitytickets must be a number. Use diversitytickets_url and diversitytickets_text for alternatives {}'.format(this))
+
                 my_topics = []
                 #print(this)
                 if this['topics']:

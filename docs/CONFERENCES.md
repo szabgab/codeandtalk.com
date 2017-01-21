@@ -23,6 +23,11 @@ accessibility:      URL to document about accessibility
 twitter:            handle         (don't include the @)
 facebook:
 youtube:           Once the event is over, the YouTube playlist of its videos.
+
+diversitytickets        The id number from https://diversitytickets.org/ 
+                        alternatively:
+diversitytickets_url    URL describing the diversity option on the conf site
+diversitytickets_text   Optional text for the above URL
 ```
 
 In the `youtube` field use a single - to indicate tha the conference does not have videos on Youtube.

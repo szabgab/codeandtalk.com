@@ -68,7 +68,21 @@ class TestCat(unittest.TestCase):
         assert b'<h2>Videos</h2>' in rv.data
         assert b'<a href="/v/jsinsa-2016/feature-toggle-a-js-app-by-charlene-tshitoka">' in rv.data
         assert b'<a href="/p/charlene-tshitoka">Charlene Tshitoka</a>' in rv.data
+        self.assertIn(b'<div>No <a href="/diversity-tickets"><b>Diversity Tickets</b></a></div>', rv.data)
 
+        rv = self.app.get('/e/script-2017')
+        self.assertEqual(rv.status, '200 OK')
+        self.assertIn(b'<div><a href="https://diversitytickets.org/events/53">Diversity Tickets</a></div>', rv.data)
+
+        rv = self.app.get('/e/cssconf-eu-2017')
+        self.assertEqual(rv.status, '200 OK')
+        self.assertIn(b'<div><a href="http://2017.cssconf.eu/diversity-support-tickets/">Diversity Tickets</a></div>', rv.data)
+
+        rv = self.app.get('/e/fsto-2017')
+        self.assertEqual(rv.status, '200 OK')
+        self.assertIn(b'<div><a href="http://2017.fsto.co/">Diversity Tickets: see under pricing</a></div>', rv.data)
+
+    
     def test_featured(self):
         rv = self.app.get('/featured')
         assert rv.status == '200 OK'

@@ -394,6 +394,13 @@ def event(nickname):
     if 'youtube' in event and event['youtube'] == '-':
         event['youtube'] = None
 
+    diversity = event.get('diversitytickets', None)
+    if diversity:
+        catapp.logger.debug("Diversity")
+        event['diversitytickets_url'] = "https://diversitytickets.org/events/" + diversity
+    if 'diversitytickets_url' in event and 'diversitytickets_text' not in event:
+        event['diversitytickets_text'] = 'Diversity Tickets'
+
     people = {}
     videos = []
     for video in cat['videos']:
