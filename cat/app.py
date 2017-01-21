@@ -608,7 +608,7 @@ def _calendar(prodid, events):
         uid = re.sub(r'\W+', '-', e['url'])
         uid = re.sub(r'\W+$', '', uid)
         cal += "UID:{}\r\n".format(uid)
-        cal += "SUMMARY:{}\r\n".format(e['name'])
+        cal += "SUMMARY:{}\r\n".format(e['name'].encode('ascii', 'ignore')) # was needed in Python 2
         cal += "DESCRIPTION:{}\r\n".format(e['url'])
         try:
             location = e['city']
