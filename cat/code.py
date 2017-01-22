@@ -12,13 +12,6 @@ from jinja2 import Environment, PackageLoader
 
 from cat import tools
 
-countries = set(['Albania', 'Argentina', 'Australia', 'Austria', 'Belarus', 'Belgium', 'Bulgaria', 'Brasil', 'Canada', 'China',  'Colombia', 'Croatia', 'Czech Republic',  'Denmark', 'Estonia',
-    'Finland', 'France', 'Germany', 'Ghana', 'Greece', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Ireland', 'Isle of Man', 'Israel', 'Italy', 'Japan', 'Kenya', 'Korea',
-    'Latvia', 'Lithuania', 'Malaysia', 'Mauritius', 'Morocoo', 'New Zealand', 'Norway', 'Poland', 'Portugal',
-    'Philippines', 'Romania', 'Russia', 'Singapore', 'Serbia', 'Slovakia', 'Slovenia', 'South Africa', 'Spain', 'Sweden', 'Switzerland', 'Taiwan', 'The Netherlands', 'Ukraine', 'Uruguay', 'UK', 'USA',
-    'United Arab Emirates', 'Zimbabwe',
-    'Online' # ???
-])
 
 def read_chars():
     tr = {}
@@ -167,6 +160,12 @@ class GenerateSite(object):
         return
 
     def read_events(self):
+        countries = []
+        with open(os.path.join(self.root, 'data', 'countries.csv')) as fh:
+            for line in fh:
+                name = line.rstrip("\n")
+                countries.append(name)
+
         for filename in glob.glob(self.data + '/events/*.txt'):
             if filename[len(self.root):] != filename[len(self.root):].lower():
                 raise Exception("filename '{}' is not all lower case".format(filename))
