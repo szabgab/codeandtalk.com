@@ -16,7 +16,7 @@ countries = set(['Albania', 'Argentina', 'Australia', 'Austria', 'Belarus', 'Bel
     'Finland', 'France', 'Germany', 'Ghana', 'Greece', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Ireland', 'Isle of Man', 'Israel', 'Italy', 'Japan', 'Kenya', 'Korea',
     'Latvia', 'Lithuania', 'Malaysia', 'Morocoo', 'New Zealand', 'Norway', 'Poland', 'Portugal',
     'Philippines', 'Romania', 'Russia', 'Singapore', 'Serbia', 'Slovakia', 'Slovenia', 'South Africa', 'Spain', 'Sweden', 'Switzerland', 'Taiwan', 'The Netherlands', 'Ukraine', 'Uruguay', 'UK', 'USA',
-    'Zimbabwe',
+    'United Arab Emirates', 'Zimbabwe',
     'Online' # ???
 ])
 
