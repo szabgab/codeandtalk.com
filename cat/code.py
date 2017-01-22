@@ -14,7 +14,7 @@ from cat import tools
 
 countries = set(['Albania', 'Argentina', 'Australia', 'Austria', 'Belarus', 'Belgium', 'Bulgaria', 'Brasil', 'Canada', 'China',  'Colombia', 'Croatia', 'Czech Republic',  'Denmark', 'Estonia',
     'Finland', 'France', 'Germany', 'Ghana', 'Greece', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Ireland', 'Isle of Man', 'Israel', 'Italy', 'Japan', 'Kenya', 'Korea',
-    'Latvia', 'Lithuania', 'Malaysia', 'Morocoo', 'New Zealand', 'Norway', 'Poland', 'Portugal',
+    'Latvia', 'Lithuania', 'Malaysia', 'Mauritius', 'Morocoo', 'New Zealand', 'Norway', 'Poland', 'Portugal',
     'Philippines', 'Romania', 'Russia', 'Singapore', 'Serbia', 'Slovakia', 'Slovenia', 'South Africa', 'Spain', 'Sweden', 'Switzerland', 'Taiwan', 'The Netherlands', 'Ukraine', 'Uruguay', 'UK', 'USA',
     'United Arab Emirates', 'Zimbabwe',
     'Online' # ???
