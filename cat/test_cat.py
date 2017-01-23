@@ -31,6 +31,7 @@ class TestCat(unittest.TestCase):
         assert b'Oh. There is no page here.' in rv.data
 
     def test_pages(self):
+        print("Platform: " + sys.platform)
         rv = self.app.get('/all-conferences')
         assert rv.status == '200 OK'
         d = PyQuery(rv.data)
