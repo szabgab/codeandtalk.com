@@ -88,14 +88,12 @@ has not been added yet:
 
 * apachecon-na-2014
 * cloudstack-collaboration-na-2014
-* devoxx-france-2015
 * fscons-2012
 * fscons-2013
 * fscons-2014
 * nodevember-2014
 * rubyconf-india-2014
-* rubyconf-india-2015
-* pgconfus-2015
+* pgconfus-2015 - Here has no speakers name, and website could not work
 * postgresopen-2012
 * postgresopen-2013
 * postgresopen-2014
