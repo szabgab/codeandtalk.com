@@ -31,7 +31,7 @@ def topic2path(tag):
         for k in tr.keys():
             t = re.sub(k, tr[k], t)
     else:  # special case for Windows...
-        t = re.sub(r'\W', '', t)
+        t = re.sub(r'[^a-zA-Z]', '', t)
     t = re.sub(r'[.+ ()&/:]', '-', t)
     if re.search(r'[^a-z0-9-]', t):
         raise Exception("Character needs to be mapped in '{}'".format(t))
