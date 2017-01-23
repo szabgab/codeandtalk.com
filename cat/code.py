@@ -22,14 +22,16 @@ def read_chars():
             tr[row[0]] = row[1]
     return tr
 tr = read_chars()
-print(tr)
  
 
 def topic2path(tag):
     t = tag.lower()
     #t = t.translate(string.maketrans("abc", "def"))
-    for k in tr.keys():
-        t = re.sub(k, tr[k], t)
+    if sys.platform in ['darwin', 'linux2']:
+        for k in tr.keys():
+            t = re.sub(k, tr[k], t)
+    else:  # special case for Windows...
+        t = re.sub(r'\W', '', t)
     t = re.sub(r'[.+ ()&/:]', '-', t)
     if re.search(r'[^a-z0-9-]', t):
         raise Exception("Character needs to be mapped in '{}'".format(t))
