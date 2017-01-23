@@ -27,7 +27,7 @@ tr = read_chars()
 def topic2path(tag):
     t = tag.lower()
     #t = t.translate(string.maketrans("abc", "def"))
-    if sys.platform in ['darwin', 'linux2']:
+    if sys.platform in ['darwin', 'linux', 'linux2']:
         for k in tr.keys():
             t = re.sub(k, tr[k], t)
     else:  # special case for Windows...
