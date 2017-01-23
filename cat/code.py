@@ -22,6 +22,7 @@ def read_chars():
             tr[row[0]] = row[1]
     return tr
 tr = read_chars()
+print(tr)
  
 
 def topic2path(tag):
@@ -163,7 +164,7 @@ class GenerateSite(object):
         countries = []
         with open(os.path.join(self.root, 'data', 'countries.csv')) as fh:
             for line in fh:
-                name = line.rstrip("\n")
+                name, continent = line.rstrip("\n").split(",")
                 countries.append(name)
 
         for filename in glob.glob(self.data + '/events/*.txt'):
