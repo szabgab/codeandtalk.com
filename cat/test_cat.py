@@ -104,5 +104,16 @@ class TestCat(unittest.TestCase):
         self.assertIn(b'<title>10 enseignements qu&#39;on peut tirer des 31.463 commits qui ont cr\xc3\xa9\xc3\xa9 le langage (French)</title>', rv.data)
         #print(rv.data)
 
+        rv = self.app.get('/l/goteborg-sweden')
+        self.assertEqual(rv.status, '200 OK')
+        self.assertIn(b'<title>Conferences in b&#39;Gteborg, Sweden&#39;</title>', rv.data)
+        #print(rv.data)
+
+    def test_calendar(self):
+        rv = self.app.get('/cal/all.ics')
+        self.assertEqual(rv.status, '200 OK')
+        rv = self.app.get('/cal/l/dusseldorf-germany.ics')
+        self.assertEqual(rv.status, '200 OK')
+
 
 # vim: expandtab

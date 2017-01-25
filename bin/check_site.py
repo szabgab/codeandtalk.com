@@ -28,6 +28,8 @@ urls = [
 	'https://codeandtalk.com/videos?term=Hebrew&mindate=&maxdate=&mintime=&maxtime=',
 	'https://codeandtalk.com/v/react-conf-2016/reactjs-conf-2016-lightning-talks-vivian-cromwell',
 	'https://codeandtalk.com/v/devoxx-france-2016/10-enseignements-quon-peut-tirer-des-31463-commits-qui-ont-cree-le-langage-simone-civetta', # Has Unicode error
+	'https://codeandtalk.com/l/goteborg-sweden', # Unicode error
+	'https://codeandtalk.com/cal/l/dusseldorf-germany.ics', # Unicode issu?
 
 	'https://codeandtalk.com/about',
 
