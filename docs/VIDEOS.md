@@ -86,19 +86,13 @@ Add the speakers
 The videos of these conferences were already added, but the speaker information
 has not been added yet:
 
-* apachecon-na-2014
-* cloudstack-collaboration-na-2014
 * fscons-2012
 * fscons-2013
-* fscons-2014
-* nodevember-2014
-* rubyconf-india-2014
 * pgconfus-2015 - Here has no speakers name, and website could not work
 * postgresopen-2012
 * postgresopen-2013
 * postgresopen-2014
 * rubyfuza-2013
-* rubyfuza-2014
 * linuxfest-northwest-2015 - (Here has only 6 json file, but huge lecture in website)
 * rubyconf-taiwan-2015 - (Use Mandarin Language)
 * nordicjs-2014
