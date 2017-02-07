@@ -91,20 +91,15 @@ has not been added yet:
 * pgconfus-2015 - Here has no speakers name, and website could not work
 * postgresopen-2012
 * postgresopen-2013
-* postgresopen-2014
 * rubyfuza-2013
 * linuxfest-northwest-2015 - (Here has only 6 json file, but huge lecture in website)
 * rubyconf-taiwan-2015 - (Use Mandarin Language)
-* nordicjs-2014
 * fisl-17
-* london-perl-workshop-2014
 * libreplanet-2015 - (same as 2016)
 * libreplanet-2016 - there are only 5 json files, but in the website https://libreplanet.org/2016/program/grid-schedule.html
 * german-perl-workshop-2016 - schedule Don't match with json talk Link: http://act.yapc.eu/gpw2016/index.html
 * cssconf-budapest-2016 - Here has a single file but see this link: http://cssconfbp.rocks/schedule.html
-* drupalsouth-2014
 * grazer-linuxtage-2013
-* grazer-linuxtage-2014
 * devoxx-poland-2016  - Could not find 2016 Schedule, Link: http://devoxx.pl/
 * drupalcon-asia-2016 - Could not find complete schedule and speakers profile https://events.drupal.org/asia2016/sessions/proposed/business
 
