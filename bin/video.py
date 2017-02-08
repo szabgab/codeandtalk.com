@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
 
-import os
-import sys
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from cat.code import GenerateSite
+import os, sys, json, datetime
 
 # read all the events
 # list the ones that have youtube value which is not - and that does NOT have the video directory.
 # list the ones that have no youtube entry or that it is empty
 # Only show events that have already finished.
 
-gs = GenerateSite()
-gs.read_tags()
-gs.read_events()
+with open(os.path.join('html', 'cat.json')) as fh:
+    cat = json.load(fh)
+
+now = datetime.datetime.now()
+now_str = now.strftime('%Y-%m-%d')
+
 no_videos = ''
 no_youtube = ''
 on_vimeo = ''
-for e in sorted(gs.conferences, key=lambda e: e['start_date'], reverse=True):
+for e in sorted(cat['events'].values(), key=lambda e: e['start_date'], reverse=True):
     #exit(e)
     if e.get('videos_url'):
         continue
@@ -24,7 +24,7 @@ for e in sorted(gs.conferences, key=lambda e: e['start_date'], reverse=True):
     youtube = e.get('youtube')
     vimeo = e.get('vimeo')
 
-    if e['end_date'] > gs.now:
+    if e['end_date'] > now_str:
         if youtube:
             exit("ERROR. There is a youtube entry in a future event {}".format(e['nickname']))
         continue
