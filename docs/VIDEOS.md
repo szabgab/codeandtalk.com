@@ -102,6 +102,7 @@ has not been added yet:
 * grazer-linuxtage-2013
 * devoxx-poland-2016  - Could not find 2016 Schedule, Link: http://devoxx.pl/
 * drupalcon-asia-2016 - Could not find complete schedule and speakers profile https://events.drupal.org/asia2016/sessions/proposed/business
+* enhanceconf-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
