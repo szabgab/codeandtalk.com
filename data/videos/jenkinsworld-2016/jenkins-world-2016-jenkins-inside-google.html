@@ -1,0 +1,21 @@
+Last year, we presented our initial investigations and stress testing as we prepared to deploy a large-scale Jenkins installation at Google.
+Now, with a year of real-world use under our belts, we'll discuss how our expectations held up, what new issues we encountered and how we have addressed them.
+<p>
+<ul>
+  <li>Kokoro</li>
+  <li>1 Master, 500 Build Agents</li>
+  <li>Save the artifacts externally</li>
+  <li>Save the logs externally</li>
+  <li>Virtually no configuration is done via the UI</li>
+  <li>There is a hot failover system waiting for master to crash ...</li>
+</ul>
+
+<h2>Ways to store configuration I version control</h2>
+<ul>
+  <li>Literate</li>
+  <li>YAML</li>
+  <li>Pipelines</li>
+  <li>DSL</li>
+</ul>
+Neither of them met the requirements...
+

@@ -1,5 +1,4 @@
 {
-    "description": "Last year, we presented our initial investigations and stress testing as we prepared to deploy a large-scale Jenkins installation at Google. Now, with a year of real-world use under our belts, we\u2019ll discuss how our expectations held up, what new issues we encountered and how we have addressed them.",
     "favorite": "0",
     "length": "32:53",
     "likes": "3",
@@ -7,7 +6,10 @@
     "speakers": [
         "david-hoover"
     ],
-    "tags": [],
+    "tags": [
+        "Jenkins",
+        "Continuous-integration"
+    ],
     "thumbnail_url": "https://i.ytimg.com/vi/7ERV9C20GSE/hqdefault.jpg",
     "title": "Jenkins Inside Google",
     "videos": [
