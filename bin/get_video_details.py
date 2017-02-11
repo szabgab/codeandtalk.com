@@ -35,14 +35,17 @@ def main():
             if 'length' in video and video['length']:
                 continue
             if video['videos'][0]['type'] == 'youtube':
-                resp = process(args.api_key, video['videos'][0]['code'])
-                #print(resp)
-                for k in resp:
-                    video[k] = resp[k]
-                #print(video)
-                with open(filename, 'w') as fh:
-                    json.dump(video, fh, sort_keys=True, indent=4, separators=(',', ': '))
-                args.limit -= 1
+                try:
+                    resp = process(args.api_key, video['videos'][0]['code'])
+                    #print(resp)
+                    for k in resp:
+                        video[k] = resp[k]
+                    #print(video)
+                    with open(filename, 'w') as fh:
+                        json.dump(video, fh, sort_keys=True, indent=4, separators=(',', ': '))
+                    args.limit -= 1
+                except Exception as e:
+                    print(e)
 
     #parser.print_help()
     #sys.exit(1)
