@@ -1,0 +1,18 @@
+{
+    "description": "For about half a year I\u2019ve been doing a Rust port of a CPU emulator library written in C. This talk will tell you why on earth someone would want to do that, and why the effort likely would have failed without the use of QuickCheck, which has enabled me to thoroughly compare and test that the port has identical behavior to the original (as well as the CPU spec).\n\nIt will also tell the tale of macro madness, the discovery of a O(n\u00b2) bug in the Rust compiler, and why I think most Rust tradeoffs are near-optimal, seen from someone with years of experience with C/C++, C#, Scala and Clojure. It will also explain the complications when using Cargos multi-threaded testing model interfacing a single-threaded C library, and some potential solutions.\n\n---\nFor more go to https://rustfest.eu or follow us on Twitter: https://twitter.com/rustfest\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/2FiT/",
+    "favorite": "0",
+    "length": "26:25",
+    "likes": "8",
+    "recorded": "2016-09-17",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/P4iyEX-4kYI/hqdefault.jpg",
+    "title": "Martin Hellspong - Why you'd be better off using QuickCheck when porting to Rust",
+    "videos": [
+        {
+            "code": "P4iyEX-4kYI",
+            "type": "youtube"
+        }
+    ],
+    "views": "598"
+}

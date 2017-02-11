@@ -1,0 +1,18 @@
+{
+    "description": "Transforming coordinates from one coordinate reference system to another is slow, and usually done in bulk, so it\u2019s a great candidate for low-level, multithreaded code, accessed via FFI from higher-level languages to facilitate easy I/O and visualisation. When Rust hit 1.0 last year, I decided to write a library to convert from latitude and longitude coordinates to British National Grid eastings and northings, in order to learn the language. The result is the lonlat_bng crate and the convertbng Python package.\n\nThis talk will focus on several areas:\n\nExperiences from learning a systems programming language for someone coming from dynamic languages\nEvolving code from single-threaded to multi-threaded, and how to use tests and benchmarks to get there\nComparing the performance of the Crossbeam and Rayon libraries for parallel execution\nUsing Perfect Hashing for fast access to large (300K+ members) HashMaps\nDetecting numerical instability using Herbie, and using Clippy to catch common mistakes and style errors\nImplementing generic functions to keep your code clean and DRY-conformant\nWriting a lot of docs and examples, so people can get going quickly\nIntegrating your Rust binary with your dynamic code, and making it available to the rest of the world, including discussion of linking to system libraries, and the intricacies of building cross-platform libraries.\n\n---\nFor more go to https://rustfest.eu or follow us on Twitter: https://twitter.com/rustfest\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/2FiS/",
+    "favorite": "0",
+    "length": "36:48",
+    "likes": "10",
+    "recorded": "2016-09-17",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/xhoONTb_PdI/hqdefault.jpg",
+    "title": "Stephan H\u00fcgel - Teaching myself Rust through the medium of coordinate system transforms and FFI",
+    "videos": [
+        {
+            "code": "xhoONTb_PdI",
+            "type": "youtube"
+        }
+    ],
+    "views": "470"
+}

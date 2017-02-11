@@ -1,0 +1,18 @@
+{
+    "description": "Panopticon is a libre cross-platform disassembler written in Rust. The project aims to develop a free replacement for tools like IDA Pro and Hopper. What sets Panopticon apart from other free disassembler is that we believe a graphical user interface is crucial in helping analysts understand binary code. Panopticon implements semantic-based analysis to aid reverse engineering and vulnerability discovery. The project started in 2012 but was rewritten in Rust in June 2015 and has grown to 25k lines of code since.\n\nThe talk will be about the architecture, vision and feature set of Panopticon as well as how Rust specific features helped to find bugs and accelerate development. I will also talk about my experience building a 25k LOC project as a complete Rust newbie. The talk will touch on the language itself as well as the availability (or lack) of tooling.\n\n---\nFor more go to https://rustfest.eu or follow us on Twitter: https://twitter.com/rustfest\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/2FiU/",
+    "favorite": "0",
+    "length": "22:20",
+    "likes": "7",
+    "recorded": "2016-09-17",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/7AfAjffJvsw/hqdefault.jpg",
+    "title": "Kai Michaelis - Panopticon - A Libre Cross-Platform Disassembler in Rust",
+    "videos": [
+        {
+            "code": "7AfAjffJvsw",
+            "type": "youtube"
+        }
+    ],
+    "views": "335"
+}

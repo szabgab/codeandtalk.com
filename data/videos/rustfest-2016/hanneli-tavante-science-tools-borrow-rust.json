@@ -1,0 +1,18 @@
+{
+    "description": "The reasons you need a software to perform calculations may vary, but if you come from a science or engineering background, you might need results to project electric circuits, process data or try to predict an output. There are several open source tools to help you with calculations - one of them is Octave, written mostly in C++.\n\n\u201cWhat if we rewrite some of this functions using Rust to see what happens?\u201d\n\nThis talk will answer this question, showing an interesting journey to rewrite linear algebra functions, complex functions and structures often used into Digital Circuit processing or circuit schematics (such as FFT).\n\nTopics:\n\nSome inconveniences of C/C++\nRust as a possible solution to improve collaboration on tools like Octave\nFirst big challenge - I don\u2019t know math\nRewriting basic matrix functions with Rust\nSome functions involving complex numbers and Rust\nAttempts of FFT\nLessons learned on types, safety and Rust Language\nEpilogue\n\n---\nFor more go to https://rustfest.eu or follow us on Twitter: https://twitter.com/rustfest\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/2FiQ/",
+    "favorite": "0",
+    "length": "36:09",
+    "likes": "5",
+    "recorded": "2016-09-17",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/8fs_Pt-kDz4/hqdefault.jpg",
+    "title": "Hanneli Tavante - Science tools borrow Rust",
+    "videos": [
+        {
+            "code": "8fs_Pt-kDz4",
+            "type": "youtube"
+        }
+    ],
+    "views": "303"
+}
