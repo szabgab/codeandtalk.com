@@ -34,7 +34,7 @@ def topic2path(tag):
         t = re.sub(r'[^a-zA-Z]', '', t)
     t = re.sub(r'[.+ ()&/:]', '-', t)
     if re.search(r'[^a-z0-9-]', t):
-        raise Exception("Character needs to be mapped in '{}'".format(t))
+        raise Exception("Characters of '{}' need to be mapped in 'cat/chars.csv'".format(t))
     t = re.sub(r'[^a-z]+', '-', t)
     return t
 
