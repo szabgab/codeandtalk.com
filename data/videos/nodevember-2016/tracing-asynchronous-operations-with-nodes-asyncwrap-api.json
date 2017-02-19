@@ -1,0 +1,18 @@
+{
+    "description": "Lance Ball\nhttp://nodevember.org/talk/Lance%20Ball\nEver felt the pain of useless Node.js stack traces? Ever wanted to understand exactly what is taking so long with that one HTTP request? Tracing asynchronous code paths in Node.js is notoriously difficult, making it very hard to understand what is going wrong when your application blows up. Since Node.js version 4.0, however, Node has included an as-yet undocumented, and still in progress feature known as `AsyncWrap`. In this talk you will learn about the upcoming `AsyncWrap` API and how you can use it to to gain a better understanding of what went wrong when your application fails, and where potential asynchronous processing bottlenecks are lurking.\r\n\r\nIn this talk I will present the `AsyncWrap` API with discussion of its potential usages in user applications and custom frameworks. I will discuss existing packages that provide an abstraction layer over this low-level API, learn where unexpected gotchas lay in wait, and finally demonstrate the development of a simple package, making use of the new `AsyncWrap` API to provide better, more complete stack traces of asynchronous executions.",
+    "favorite": "0",
+    "length": "25:15",
+    "likes": "2",
+    "recorded": "2016-11-20",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/csWAU4ZSwpA/hqdefault.jpg",
+    "title": "Tracing Asynchronous Operations with Node's AsyncWrap API",
+    "videos": [
+        {
+            "code": "csWAU4ZSwpA",
+            "type": "youtube"
+        }
+    ],
+    "views": "110"
+}

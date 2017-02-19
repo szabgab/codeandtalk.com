@@ -1,0 +1,18 @@
+{
+    "description": "Demystifying Channels\n\nSimple concurrency is one of Go's greatest strengths and the reason behind its appeal to many developers. Goroutines and channels are Go's cornerstone primitives that provide an elegant, succinct and easy to reason about way to structure concurrent programs. However, in the recent months, many seasoned Go developers have come out against the use of channels. \"Don't overuse channels!\". \"Don't be clever with channels!\" \"Don't abuse channels - use a mutex instead!\" \"Don't use channels as queues!\"\n\nThis talk aims to understand the design, internals and implementation details of channels and its CSP underpinnings. We will then look good API design both in the standard library and large, popular open source projects written in Go where the use of channels enabled the development of clean and clear abstractions while not sacrificing performance. We'll identify the common use cases and patterns where the (ab)use of channels actually hurts performance and reliability. We will look at how these issues can be circumvented either by better use of channels or by avoiding channels altogether.\n\nCindy Sridharan is a Python developer who learned Go in the fall of 2015. She is interested in operations, infrastructure and systems programming - three fields where Go is rapidly becoming the lingua franca. She lives in San Francsico where she organizes the Prometheus meetup.",
+    "favorite": "0",
+    "length": "21:48",
+    "likes": "3",
+    "recorded": "2016-11-18",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/lXQJACNSA74/hqdefault.jpg",
+    "title": "GothamGo 2016 - Demystifying Channels by Cindy Sridharan",
+    "videos": [
+        {
+            "code": "lXQJACNSA74",
+            "type": "youtube"
+        }
+    ],
+    "views": "540"
+}

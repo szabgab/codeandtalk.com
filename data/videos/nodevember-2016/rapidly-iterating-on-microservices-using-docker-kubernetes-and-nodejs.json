@@ -1,0 +1,18 @@
+{
+    "description": "William Blankenship\nhttp://nodevember.org/talk/William%20Blankenship\nModern application development is service heavy. It\u2019s practical for a seemingly small project to be using Node.js, Postgres, NGinx, Redis, and RabbitMQ all deployed in the cloud. This has brought us to an interesting point, where we may have multiple projects with multiple service dependencies and they may not all be compatible. Each Developer on your team has a special snowflake of a development environment, and the phrase \"works on my machine\" is becoming common place. Docker gives us an easy way out.\r\n\r\nIn this talk, we will walk through capturing your  service dependencies using docker-compose, in the same way that package.json captures module dependencies, then we will leverage this to generate a stable reference environment for your team to develop against. We will show you how to rapidly iterate on a code base using this method. We will live code an example application that uses RabbitMQ, NGinx, and Node.js to demonstrate the power of this workflow, and ultimately push the entire stack to a production Kubernetes cluster.",
+    "favorite": "0",
+    "length": "36:51",
+    "likes": "10",
+    "recorded": "2016-11-20",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/S4ez739fles/hqdefault.jpg",
+    "title": "Rapidly Iterating on Microservices using Docker, Kubernetes, and Node.js",
+    "videos": [
+        {
+            "code": "S4ez739fles",
+            "type": "youtube"
+        }
+    ],
+    "views": "904"
+}

@@ -1,0 +1,18 @@
+{
+    "description": "How to Build a Reliable Checkout Experience - Pedro Teixeira, YLD\n\n\"The checkout experience is usually the one part of the application that delivers the most value, but unfortunately, it's the one that usually contains the most friction. We've all been victims of this: a checkout experience where the spinning wheel of death spins indefinitely, or one that warns you not to move a muscle while the next page is loading, or even one that makes a double reservation when you only wanted to make the one.\n\nNow that you have your shiny new micro-services architecture running and you're able to deploy new features and fixes several times a day, how do you best deliver complex transactions to your customers? How do you deliver payments, trip reservations or purchasing an entire shopping cart with a good user experience?\n\nHTTP has taken us far, but it's probably not the best transport to deliver complex transactions like these, especially when these transactions are performed over flaky mobile networks. A lot of error-handling logic must fall on the client: how does the client react to timeouts or gateway problems? Can it assume the transaction failed with no fear of duplication? Can the transaction survive client crashes? Can the client solve all these existing edge cases without making it overly complex and bug-prone?\n\nThis talk proposes an original architecture style that will sit in front of your micro-service stack and that you can attach to any existing service back-end. The author will show an implementation of this architecture pattern: a proof-of-concept application and a set of client and server open-source libraries built on top of PouchDB, and Node.js.\"",
+    "favorite": "0",
+    "length": "21:07",
+    "likes": "3",
+    "recorded": "2016-11-29",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/q1uo0x1u9vA/hqdefault.jpg",
+    "title": "How to Build a Reliable Checkout Experience - Pedro Teixeira, YLD",
+    "videos": [
+        {
+            "code": "q1uo0x1u9vA",
+            "type": "youtube"
+        }
+    ],
+    "views": "345"
+}

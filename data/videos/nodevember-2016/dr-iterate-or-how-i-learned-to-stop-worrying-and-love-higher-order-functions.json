@@ -1,0 +1,18 @@
+{
+    "description": "Tim Roberts\nhttp://nodevember.org/talk/Tim%20Roberts\n_**The journey of a thousand miles begins with one step**_\r\n\r\nFunctional programming seems to be the coming paradigm for building software and for good reason. Stateless functions produce less bugs and help build modular, reusable code. But making the switch from OOP to functional can be a daunting task. Monads? Functors? Category Theory? What do any of these words mean and how can you actively apply them to the code-base you are currently working on or the project your team is starting?\r\n\r\nThe easiest way to get your feet wet into functional programming in JavaScript is the use of higher-order functions (reduce, filter, map, etc). From the basics of what the syntax is and how it is different than forEach to the power of stateless, composable functions, learning how and why to use higher-order functions will speed up the transition from OOP to functional. Learn how to use and chain together higher-order functions, building uber-microservices, refactoring along the way.",
+    "favorite": "0",
+    "length": "30:05",
+    "likes": "8",
+    "recorded": "2016-11-20",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/d1KPN2YQpSs/hqdefault.jpg",
+    "title": "Dr Iterate or: How I Learned to Stop Worrying and Love Higher-Order Functions",
+    "videos": [
+        {
+            "code": "d1KPN2YQpSs",
+            "type": "youtube"
+        }
+    ],
+    "views": "246"
+}

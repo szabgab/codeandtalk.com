@@ -1,0 +1,18 @@
+{
+    "description": "Aaron Larner\nhttp://nodevember.org/talk/Aaron%20Larner\nAs a kid my life was very scripted. Wake up, eat breakfast, go to school, come home, do homework, eat dinner, watch TV, rinse and repeat. As children we don't have very much power to influence the world around us, which is why I fell in love with programming. It gave me ultimate control over a virtual space of my making, where I could create almost anything that I could imagine. Fifteen years since I first learned to code in BASIC, aspiring developers and seasoned professionals alike now have the power to influence not just virtual spaces, but also the physical world.\r\n\r\nAt the beginning of 2016 I set out to learn how to apply my existing programming skills to hardware. I toyed with Arduino, Raspberry Pi and an AR Drone before I ultimately settled on the Tessel 2 as a way to bring what was in my imagination into the physical world.\r\n\r\nMy goal was to create a wristband for rock climbers to automatically track stats, progress and injuries. To create the wristband I would need to use RFID, Blue Tooth Low Energy, and of course, JavaScript.\r\n\r\nIn this talk I'll share what I learned while prototyping the wristband using Node. I'll give an overview of the landscape for prototyping hardware projects and explain why I settled on the Tessel 2 as my micro controller of choice. Then I'll describe the process I went through to build the prototype, including the steps I took, the challenges I faced and how I overcame them. Finally I'll show a demo of the product and discuss next steps for improving the form factor and bringing it to market.",
+    "favorite": "0",
+    "length": "27:02",
+    "likes": "0",
+    "recorded": "2016-11-20",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/iDU8FJMdAO8/hqdefault.jpg",
+    "title": "Lessons learned prototyping a wearable for rock climbers with Node",
+    "videos": [
+        {
+            "code": "iDU8FJMdAO8",
+            "type": "youtube"
+        }
+    ],
+    "views": "234"
+}
