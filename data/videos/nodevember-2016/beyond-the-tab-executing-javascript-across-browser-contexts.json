@@ -1,10 +1,10 @@
 {
-    "description": "Andrew Dunkman\nhttp://nodevember.org/talk/Andrew%20Dunkman\nKeeping JavaScript from interfering across tabs is great and all, but what about when a web application wants to share state without involving a server? This talk will cover both older as well as emerging web standards to share JavaScript context \u2014 between tabs directly and through background threads that are natively supported by browsers (SharedWorker and ServiceWorker). You\u2019ll leave with enough knowledge to get started and enough wisdom to know when to use these tools.",
+    "description": "Keeping JavaScript from interfering across tabs is great and all, but what about when a web application wants to share state without involving a server? This talk will cover both older as well as emerging web standards to share JavaScript context \u2014 between tabs directly and through background threads that are natively supported by browsers (SharedWorker and ServiceWorker). You\u2019ll leave with enough knowledge to get started and enough wisdom to know when to use these tools.",
     "favorite": "0",
     "length": "34:44",
     "likes": "0",
     "recorded": "2016-11-20",
-    "speakers": [],
+    "speakers": ["andrew-dunkman"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/_1MsH-PYr0E/hqdefault.jpg",
     "title": "Beyond The Tab: Executing JavaScript Across Browser Contexts",
