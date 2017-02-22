@@ -1,10 +1,10 @@
 {
-    "description": "Kassandra Perch\nhttp://nodevember.org/talk/Kassandra%20Perch\nHave you ever:\r\n* Had to install several database technologies locally?\r\n* Had to use a programming language version manager (looking at you, Node.JS, Ruby, and Python!)\r\n* Had 'works on my machine' syndrome?\r\n* Wanted to just give a collaborator access to a copy of your machine?\r\n\r\nThese are all problem many web developers face every day, and they can all be mitigated by Docker and containers. Docker containers allow you to locally develop on your machine, with the benefits of having an isolated, easily replicated system running your project! No more Node Version Manager, no more figuring out how to get Redis to run on your Mac! \r\n\r\nThis talk will go into the whys-- as in, why should I care about Docker? I'm not a sysadmin or devops! It will also go into the hows: in a 25 minute talk you'll go from \"what's a container\" to \"oh my gosh I have to try this! I can definitely do that!\"\r\n\r\nSo say goodbye to your dev environment woes with Docker!",
+    "description": "Have you ever:\r\n* Had to install several database technologies locally?\r\n* Had to use a programming language version manager (looking at you, Node.JS, Ruby, and Python!)\r\n* Had 'works on my machine' syndrome?\r\n* Wanted to just give a collaborator access to a copy of your machine?\r\n\r\nThese are all problem many web developers face every day, and they can all be mitigated by Docker and containers. Docker containers allow you to locally develop on your machine, with the benefits of having an isolated, easily replicated system running your project! No more Node Version Manager, no more figuring out how to get Redis to run on your Mac! \r\n\r\nThis talk will go into the whys-- as in, why should I care about Docker? I'm not a sysadmin or devops! It will also go into the hows: in a 25 minute talk you'll go from \"what's a container\" to \"oh my gosh I have to try this! I can definitely do that!\"\r\n\r\nSo say goodbye to your dev environment woes with Docker!",
     "favorite": "0",
     "length": "35:19",
     "likes": "0",
     "recorded": "2016-11-20",
-    "speakers": [],
+    "speakers": ["kassandra-perch"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/utloWeeaNys/hqdefault.jpg",
     "title": "Docker for Devs: Why you should care about containers!",

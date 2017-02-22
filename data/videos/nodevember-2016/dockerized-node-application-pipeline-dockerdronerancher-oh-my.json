@@ -1,10 +1,10 @@
 {
-    "description": "Jason Greathouse\nhttp://nodevember.org/talk/Jason%20Greathouse\nHow LeanKit uses Docker to build, test, deploy, promote and run our Node Microservices.\r\n\r\nI will show some of the tools we use to quickly deploy and sanely manage microservices in dozens of environments.\r\n\r\nA walk through of our application pipeline\r\n* Code commit to GitHub\r\n* Drone CI build\r\n* Publish to Docker Hub and Rancher-Catalog\r\n* Deployment to Dev in Rancher\r\n* Promotion to Stage, and Production\r\n\r\nFollowed up by quick tour of some of Rancher and some of it's features that we use to make this manageable \r\n* Rancher-Catalog\r\n* Rancher metadata for service-discovery",
+    "description": "How LeanKit uses Docker to build, test, deploy, promote and run our Node Microservices.\r\n\r\nI will show some of the tools we use to quickly deploy and sanely manage microservices in dozens of environments.\r\n\r\nA walk through of our application pipeline\r\n* Code commit to GitHub\r\n* Drone CI build\r\n* Publish to Docker Hub and Rancher-Catalog\r\n* Deployment to Dev in Rancher\r\n* Promotion to Stage, and Production\r\n\r\nFollowed up by quick tour of some of Rancher and some of it's features that we use to make this manageable \r\n* Rancher-Catalog\r\n* Rancher metadata for service-discovery",
     "favorite": "0",
     "length": "29:56",
     "likes": "2",
     "recorded": "2016-11-20",
-    "speakers": [],
+    "speakers": ["jason-greathouse"],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/PggaKQ9QNbw/hqdefault.jpg",
     "title": "Dockerized Node Application Pipeline. Docker/Drone/Rancher Oh My!",
