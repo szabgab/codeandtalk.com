@@ -99,10 +99,7 @@ has not been added yet:
 * cssconf-budapest-2016 - Here has a single file but see this link: http://cssconfbp.rocks/schedule.html
 * devoxx-poland-2016  - Could not find 2016 Schedule, Link: http://devoxx.pl/
 * drupalcon-asia-2016 - Could not find complete schedule and speakers profile https://events.drupal.org/asia2016/sessions/proposed/business
-* codemotionworld-milan-2016
-* gothamgo-2016
 * node-interactive-2016
-* nodevember-2016
 
 ``` grep speaker * | grep '\[\]' ```
 
