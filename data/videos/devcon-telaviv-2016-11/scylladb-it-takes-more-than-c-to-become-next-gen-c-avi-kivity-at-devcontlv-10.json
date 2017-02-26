@@ -1,0 +1,18 @@
+{
+    "description": "Scylla is a new implementation of Apache Cassandra which is wire compatible and 10X faster. Scylla uses any trick in the book to achieve superior performance, from it's own caching, own malloc, log structured allocator and up to a full tcp/ip stack in userspace.\n\nHowever, all these mechanisms are not enough to make it a real contender. A distributed database needs to cope with failures, spikes, timeout, OOM and many other issues.\n\nIn this tech talk, Avi Kivity, Scylla's co-founder and CTO will cover #workloadconditioning which is an umbrella of back-pressure mechanisms that Scylla uses to guarantee stable performance over time with automatic performance tuning.",
+    "favorite": "0",
+    "length": "27:29",
+    "likes": "0",
+    "recorded": "2016-11-15",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/w63C-PdPclM/hqdefault.jpg",
+    "title": "ScyllaDB: It Takes More Than C++ to Become Next Gen C* /Avi Kivity at DevconTLV 10",
+    "videos": [
+        {
+            "code": "w63C-PdPclM",
+            "type": "youtube"
+        }
+    ],
+    "views": "84"
+}

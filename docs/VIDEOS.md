@@ -101,6 +101,16 @@ has not been added yet:
 * drupalcon-asia-2016 - Could not find complete schedule and speakers profile https://events.drupal.org/asia2016/sessions/proposed/business
 * node-interactive-2016
 
+* devday-pl-2012
+* angular-up-2016
+* bee-scala-2016
+* devcon-telaviv-2016-11
+* gotocon-accelerate-2016
+* meetingcpp-2016
+* nodeconf-barcelona-2015
+* rails-israel-2016
+* rubyday-italy-2016
+
 ``` grep speaker * | grep '\[\]' ```
 
 Add tags, update descriptions

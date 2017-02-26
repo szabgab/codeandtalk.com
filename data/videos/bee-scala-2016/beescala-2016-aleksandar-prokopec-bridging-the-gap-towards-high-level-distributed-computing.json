@@ -1,0 +1,18 @@
+{
+    "description": "This talk was recorded at BeeScala 2016 in Ljubljana, Slovenia. Follow along on Twitter @BeeScalaConf and on the website for more information http://bee-scala.org.\n\nAbstract:\n\nToday, there exists a gap between high-level distributed computing frameworks and low-level distributed programming models. On one side of the spectrum, we have high-level frameworks such as Map-Reduce, Spark, distributed file-systems and databases, and peer-to-peer networks. On the other side, we have low-level distributed programming models, such as remote procedure calls (RPCs), and actors, which are the basis for building distributed systems. There does not seem to be a strong middle ground \u2014 a set of reusable intermediate components is missing. High-level frameworks are complex systems, built from low-level primitives during countless engineer hours, whose efforts are repeated every time a new distributed system is created.\n\nSince the appearance of the actor model some 30 years ago, this gap between the high-level and the low-level distributed computing did not significantly decrease. While sequential programmers today build their programs from iterators, monads, zippers, generic collection frameworks, parser combinators, I/O libraries, and UI toolkits, distributed systems engineers still think in terms of low-level RPCs and message passing. While sequential programming paradigms realized the importance of structured programming and high-level abstractions long ago, distributed computing has still not moved far from message passing \u2014 its own assembly. This underlying cause for this situation is the following: existing low-level distributed programming models expose primitives that do not compose well.\n\nIn this talk, I present the recently proposed reactor programming model. I will focus on its main strengths \u2014 modularity and composability, and show how to build reusable message protocols and the distributed computing stack from a handful of simple, but powerful programming primitives. I will demonstrate that these primitives serve as powerful foundation for the next generation of distributed computing.",
+    "favorite": "0",
+    "length": "01:08:56",
+    "likes": "1",
+    "recorded": "2016-11-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/JLar8YECqKg/hqdefault.jpg",
+    "title": "BeeScala 2016: Aleksandar Prokopec - Bridging the gap towards high-level distributed computing",
+    "videos": [
+        {
+            "code": "JLar8YECqKg",
+            "type": "youtube"
+        }
+    ],
+    "views": "46"
+}

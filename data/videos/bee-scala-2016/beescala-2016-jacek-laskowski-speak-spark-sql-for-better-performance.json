@@ -1,0 +1,18 @@
+{
+    "description": "This talk was recorded at BeeScala 2016 in Ljubljana, Slovenia. Follow along on Twitter @BeeScalaConf and on the website for more information http://bee-scala.org.\n\nAbstract:\n\nSpark SQL is now the de-facto driving force behind Apache Spark 2.0\u2019s success. It comes with enough cool features to keep you busy for few days and made Spark MLlib even more pleasant to use. In Spark 2.0, Spark SQL comes with Datasets, encoders, logical and physical plans. They are the frontends to the other low-level components called Catalyst optimizer and Tungsten that are supposed to make your queries be faster. During this presentation you will find out how your structured queries end up as Datasets, the difference between Datasets, DataFrames and RDDs, and finally how Spark SQL\u2019s Catalyst optimizer could make your queries faster when properly structured.",
+    "favorite": "0",
+    "length": "45:49",
+    "likes": "6",
+    "recorded": "2016-11-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/M5aKSJ0C_wk/hqdefault.jpg",
+    "title": "BeeScala 2016: Jacek Laskowski - Speak Spark SQL for better performance",
+    "videos": [
+        {
+            "code": "M5aKSJ0C_wk",
+            "type": "youtube"
+        }
+    ],
+    "views": "89"
+}

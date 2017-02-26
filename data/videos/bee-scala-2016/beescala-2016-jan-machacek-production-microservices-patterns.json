@@ -1,0 +1,18 @@
+{
+    "description": "This talk was recorded at BeeScala 2016 in Ljubljana, Slovenia. Follow along on Twitter @BeeScalaConf and on the website for more information http://bee-scala.org.\n\nAbstract:\n\nJan will talk about microservice messaging patterns applied, with an example in Scala, Kafka, Cassandra and Deelpearning4j. We will build a system that turns tweeted images into stories, using CNNs and RNNs. We will have a distributed domain in Akka / Scala with storage in Apache Cassandra, computer vision components in Deeplearning4j; all connected with Kafka.\nThe talk will show the architectural and code smells that were the result of half-harted reactive implementation and the way to address them.\n\nNOTE: This session was recorded via Skype due to Lufthansa strike which prevented Jan to attend the conference in person. Thank you for your effort.",
+    "favorite": "0",
+    "length": "48:33",
+    "likes": "1",
+    "recorded": "2016-11-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/b8lUfKy_HJo/hqdefault.jpg",
+    "title": "BeeScala 2016: Jan Mach\u00e1\u010dek - Production microservices patterns",
+    "videos": [
+        {
+            "code": "b8lUfKy_HJo",
+            "type": "youtube"
+        }
+    ],
+    "views": "84"
+}

@@ -1,0 +1,18 @@
+{
+    "description": "This talk was recorded at BeeScala 2016 in Ljubljana, Slovenia. Follow along on Twitter @BeeScalaConf and on the website for more information http://bee-scala.org.\n\nAbstract:\n\nAlmost all web & mobile applications need some kind of *session support*: after logging in, state should be maintained which allows to identify the user on the server during subsequent requests in a *secure* way, so that the data cannot be tampered with.\n`akka-http` is a great toolkit for building reactive mobile/web backends, using an elegant DSL; `akka-http-session` builds on top of that to provide secure session management.\nWe\u2019ll discuss how session storage can be implemented, what are the security challenges (with an emphasis on cookies) and what kind of solutions `akka-http-session` provides. We\u2019ll also do a quick introduction to `JWT` (Json Web Tokens), one of the supported formats for encoding session data.\nFinally, no presentation can be complete without a **live demo** showing how using `akka-http-session` looks like in practice.\n\nhttp://twitter.com/adamwarski\nhttp://www.warski.org\nhttps://github.com/softwaremill/akka-http-session",
+    "favorite": "0",
+    "length": "43:39",
+    "likes": "3",
+    "recorded": "2016-11-25",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/4XirKUsnytY/hqdefault.jpg",
+    "title": "BeeScala 2016: Adam Warski - Web & mobile session management using akka-http",
+    "videos": [
+        {
+            "code": "4XirKUsnytY",
+            "type": "youtube"
+        }
+    ],
+    "views": "190"
+}

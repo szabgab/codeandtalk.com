@@ -1,0 +1,18 @@
+{
+    "description": "At eXelate we need to present to our clients the number of unique users who meet a given criteria. The condition is typically a set-theoretic expression over a stream of events for a given time range. Historically, we have used ElasticSearch to answer these types of questions, however, we have encountered major scaling issues. In this presentation we will detail the journey of researching, benchmarking and productionizing a new technology, Druid, with DataSketches, to overcome the limitations we were facing.",
+    "favorite": "0",
+    "length": "23:22",
+    "likes": "0",
+    "recorded": "2016-11-15",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/mJ13HVnAGwg/hqdefault.jpg",
+    "title": "Estimate Set Cardinality using Druid and Datasketches - Yakir Buskila",
+    "videos": [
+        {
+            "code": "mJ13HVnAGwg",
+            "type": "youtube"
+        }
+    ],
+    "views": "11"
+}

@@ -1,0 +1,18 @@
+{
+    "description": "Migration to RESTful microservice architecture might cause a lot of pain, specifically related to sporadic service and network instability. Out of the box ruby solutions do not always work when it comes to higher throughputs.\n\nIn this talk I will concentrate on techniques and solutions that helped us to increase system stability. This includes deeper dive into http calls, caching, service recovery mechanisms and techniques that allow to proceed when external resource is not available at the right time.",
+    "favorite": "0",
+    "length": "16:57",
+    "likes": "1",
+    "recorded": "2016-11-14",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/Ng6XY3xC5wc/hqdefault.jpg",
+    "title": "Microservices Failure Resistance on Rails - Vladimir Shteinman at Rails Israel 2016",
+    "videos": [
+        {
+            "code": "Ng6XY3xC5wc",
+            "type": "youtube"
+        }
+    ],
+    "views": "41"
+}
