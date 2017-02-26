@@ -1,0 +1,26 @@
+
+When you have a web app owned by several teams - very soon you will need to handle issues like: quality, ownership and autonomy. Using the "micro services architecture" hammer is not that trivia when your nail is a monolithic web application. How do you handle: session management, security, cross apps links and user experience ?
+
+In this talk i will describe how we did manage to solve most of the issues, and ended up with smaller web apps (aks microApps) running a modern technology, with full ownership and autonomy.
+
+Technical debt
+
+Why did you build it that way? For historical reasons.
+
+There is a lot of code that was written that could be replaced by a plugin or a configuration option.
+
+How to get from the mess to a nice MicroApplication system? Salami or Scrambled egg?
+
+Implementing a proxy in front of all the MicroApps that handles the authentication, logging, monitoring, etc.
+
+"Infrastructure as a service"
+
+<ul>
+  <li>Session as a service</li>
+  <li>SSL</li>
+  <li>Access logs</li>
+  <li>Security</li>
+  <li>Monitoring</li>
+  <li>CDN Integration</li>
+</ul>
+
