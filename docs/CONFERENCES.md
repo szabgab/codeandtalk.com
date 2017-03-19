@@ -21,6 +21,7 @@ languages:          Portuguese, English
 code_of_conduct:    URL to Code of Conduct
 accessibility:      URL to document about accessibility
 twitter:            handle         (don't include the @)
+hashtag:            hashtag,if not specified the handle will be used (don't include the #)
 facebook:
 youtube:           Once the event is over, the YouTube playlist of its videos.
 
