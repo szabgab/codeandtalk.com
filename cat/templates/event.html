@@ -32,6 +32,12 @@
 <div>Twitter: <a href="https://twitter.com/{{ event['twitter'] }}">@{{ event['twitter'] }}</a></div>
 {% endif %}
 
+{% if event['hashtag'] %}
+<div>Hashtag: <a href="https://twitter.com/hashtag/{{ event['hashtag'] }}">#{{ event['hashtag'] }}</a></div>
+{% elif event['twitter'] %}
+<div>Hashtag: <a href="https://twitter.com/hashtag/{{ event['twitter'] }}">#{{ event['twitter'] }}</a></div>
+{% endif %}
+
 {% if event['facebook'] %}
 <div>Facebook: <a href="{{ event['facebook'] }}">{{ event['facebook'] }}</a></div>
 {% endif %}
