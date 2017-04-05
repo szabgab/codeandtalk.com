@@ -3,13 +3,15 @@ import os
 import json
 import scrapy
 import re
+import logging
 
-# scrapy runspider --nolog fetch_floss_weekly.py -a start=23
+# scrapy runspider bin/fetch_floss_weekly.py -a start=23
+# scrapy runspider --nolog bin/fetch_floss_weekly.py -a start=23
 
 class FlossWeeklySpider(scrapy.Spider):
     name = "floss-weekly"
-    # read data/floss-weekly.json to get the list of already parsed 
-    filename = 'data/floss-weekly.json'
+    # read data/podcasts/floss-weekly.json to get the list of already parsed
+    filename = 'data/podcasts/floss-weekly.json'
     with open(filename) as fh:
         episodes = json.load(fh)
 
