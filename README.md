@@ -103,6 +103,8 @@ Add this information to the data/series.json file Talk to the organizers and tel
 * List of people missing twitter/github
 
  
+* Include screencasts and other non-conference videos.
+* Include a picture of each person?
 
 
 TODO Check for events:
@@ -183,3 +185,43 @@ Ideas for Conferences and other events
   * Game night (playing board games, cards) just socializing
 * Scavenger hunt (described in AB Testing podcast episode 48-49 https://github.com/szabgab/ab-testing
 
+
+Process with command line Git client
+----------------------------
+* In the GitHub interface visit the project https://github.com/szabgab/codeandtalk.com and click on the "Fork" button (top righ).
+It will create a copy in your own user. IF you are called ```foobar``` it will be called https://github.com/foobar/xcast
+
+* On your command line (Linux terminal or Windows Cmd) type in
+
+```git clone git@github.com:foobar/xcast.git```
+
+It will clone (copy) the whole repository from your GitHub homedirectory.
+
+```cd xcast```
+
+```git remote add upstream https://github.com/szabgab/xcast.git```
+
+Now you can edit the files in the ```xcast/data``` directory and add more files you need.
+
+If you'd like to check if the files work well together type in
+
+```python xcast.py --html``` on windows or ```python3 xcast.py --html``` on Linux.
+
+
+
+Instruction on Windows
+----------------------
+* Install Python 3.x.x from https://www.python.org/downloads/windows/
+* Open the command window (Start/Run 'cmd')
+* Type in ```python --version``` to check if the installation worked as expected. It should say something like "Python 3.5.2"
+  If it says "`Python` is not recognized as an internal or external command, operable program or batch file"
+  then you need to configure the PATH environment variable to include the directory of python.exe
+  One way is to enter the following in the command prompt: just replace 'gabor' with your username:
+  ```set PATH=C:\Users\gabor\AppData\Local\Programs\Python\Python35-32\;%PATH%```
+  Then try ```python --version``` again.
+
+* Type in ```pip install jinja2```
+* cd to the xcast/ directory 
+* Type ```python xcast.py --html```   If there is an error in the files, it will complain.
+* If everything works fine the web site is generated in the html/ directory.
+* Run ```python server.py``` then go to your broser and visit http://127.0.0.1:8000/  The updated site should be there.
