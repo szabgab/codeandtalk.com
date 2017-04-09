@@ -10,12 +10,12 @@
            {{ e['date'] }} <div class="ep">{{ e['ep'] }}</div> <a href="{{ e['permalink'] }}">{{ e['title'] }}</a>
                (
                  {% for g in e['guests'] %}
-                    <a href="/p/{{ g }}">{{ g }}</a>
+                    <a href="/p/{{ g }}">{{ e['guests'][g]['name'] }}</a>{% if not loop.last %}, {% endif %}
                  {% endfor %}
                )
                (
                  {% for h in e['hosts'] %}
-                    <a href="/p/{{ h }}">{{ h }}</a>
+                    <a href="/p/{{ h }}">{{ e['hosts'][h]['name'] }}</a>{% if not loop.last %}, {% endif %}
                  {% endfor %}
                )
         </li>

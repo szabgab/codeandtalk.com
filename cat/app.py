@@ -500,10 +500,19 @@ def show_episodes(source):
     cat = _read_json(root + '/html/cat.json')
     for p in cat['podcasts']:
         if p['name'] == source:
-            podcast = p
+            podcast = copy.deepcopy(p)
             break
     else:
         return "404"
+
+    for e in podcast['episodes']:
+        if 'guests' in e:
+            for g in e['guests']:
+                e['guests'][g] = cat['people'][g]['info']
+        if 'hosts' in e:
+            for h in e['hosts']:
+                e['hosts'][h] = cat['people'][h]['info']
+
     return render_template('podcast.html',
         podcast = podcast,
         h1     = podcast['title'],
