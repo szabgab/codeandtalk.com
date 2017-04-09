@@ -115,5 +115,9 @@ class TestCat(unittest.TestCase):
         rv = self.app.get('/cal/l/dusseldorf-germany.ics')
         self.assertEqual(rv.status, '200 OK')
 
+    def test_podcast_participants(self):
+        rv = self.app.get('/s/cmos')
+        self.assertEqual(rv.status, '200 OK')
+        self.assertIn(b'<a href="/p/jason-crome">Jason A. Crome</a>', rv.data)
 
 # vim: expandtab
