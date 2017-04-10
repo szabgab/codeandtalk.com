@@ -9,7 +9,7 @@ Each person has a file in the `data/people` direcotry. The name of the file
 is derived from the full name of the person in lower case. Words are separated by dashes.
 (Feel free to use all the parts of your name. (e.g. we have angel-diaz-maroto-alvarez.txt or anselm-r-garbe.txt)
 
-On the web site people can be found on this page: https://codeandtalk.com/people or linked from videos and podcasts.
+On the web site people can be found on this page: https://codeandtalk.com/people or linked from videos and podcast episodes.
 
 The fields that we try to collect are as follows:
 
@@ -28,7 +28,7 @@ nickname:    (e.g.  szabgab )
 gplus:       (e.g. 102810219707784087582 )
 ```
 
-After all the fields osome files have an entry
+After all the fields some files have an entry
 
 ```
 __DESCRIPTION__
@@ -46,7 +46,7 @@ Required fields: 'name'.
 
 ### Special cases
 
-#### Mmultiple people with the same name
+#### Multiple people with the same name
 
 We'll figure this out when we encounter it.
 
@@ -64,7 +64,7 @@ avoiding the return of typos. When we encounter the "wrong" spelling" again we c
 #### Name changes
 
 For people who change their names we might actully want to add a separate page for both names with a clear indication what is the current name.
-(Especially if the name change also involved gender change.) We should probably also ask the person involved.
+If the name change also involved gender change we should ask the person involved how to represent that.
 
 #### Notes
 

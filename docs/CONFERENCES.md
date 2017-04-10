@@ -1,5 +1,5 @@
 How to add an event:
-There is a `skeleton.txt` in the root of the repository. Use that to create the appropriate file in data/
+There is a file called `data/skeleton-event.txt`. Use that to create the appropriate file in data/events/
 
 Details of the fields
 ------------------------
@@ -31,7 +31,7 @@ diversitytickets_url    URL describing the diversity option on the conf site
 diversitytickets_text   Optional text for the above URL
 ```
 
-In the `youtube` field use a single - to indicate tha the conference does not have videos on Youtube.
+In the `youtube` field use a single - to indicate that the conference does not have videos on Youtube.
 
 Do not mark in such way conferences that have videos in some other place. We still need to figure out how to include
 those.
