@@ -28,7 +28,7 @@ class TestCat(unittest.TestCase):
         #print('Status: ' + rv.status)
         assert rv.status == '404 NOT FOUND'
         assert b'Oh. There is no page here.' in rv.data
-        assert b'<title>Four Oh Four</tile>' in rv.data
+        assert b'<title>Four Oh Four</title>' in rv.data
 
     def test_pages(self):
         print("Platform: " + sys.platform)
