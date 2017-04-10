@@ -44,6 +44,11 @@ class TestCat(unittest.TestCase):
         assert b'Oh. There is no page here.' in rv.data
         assert b'<title>Four Oh Four</title>' in rv.data
 
+        rv = self.app.get('/cal/l/nowhere.ics')
+        assert rv.status == '404 NOT FOUND'
+        assert b'Oh. There is no page here.' in rv.data
+        assert b'<title>Four Oh Four</title>' in rv.data
+
     def test_pages(self):
         print("Platform: " + sys.platform)
         rv = self.app.get('/all-conferences')

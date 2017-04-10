@@ -356,6 +356,10 @@ def calendar(location = None, tag = None):
     else:
         future = _future(cat)
         prodid = 'all'
+
+    if not future:
+        return not_found()
+
     cal = _calendar(prodid, future)
     return cal
     #return Response(cal, mimetype="text/calendar")
@@ -660,10 +664,7 @@ def events_in_location(cat, location):
         name = cat['stats']['cities'][location]['name']
         page = 'city_page'
     else:
-        return render_template('404.html',
-            h1          = '404',
-            title       = 'Four Oh Four',
-        )
+        return None, None, None
 
     future = []
     past = []
