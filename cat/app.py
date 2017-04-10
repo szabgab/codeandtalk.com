@@ -430,8 +430,10 @@ def location(location):
     cat = _read_json(root + '/html/cat.json')
 
     name, future, past = events_in_location(cat, location)
-
+    if future == None:
+        return not_found()
     title = 'Conferences in {}'.format(name.encode('ascii', 'ignore')) # was needed in Python 2
+
     return render_template('list.html',
         h1          = title,
         title       = title,

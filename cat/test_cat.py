@@ -24,12 +24,13 @@ class TestCat(unittest.TestCase):
         assert b'Presentations from tech events worth watching' in rv.data
 
     def test_404(self):
-        for url in ['/abc',
-                    '/p/jane-doe'
-                    '/v/postgresopen-2012/no-video-here'
-                    '/v/no-such-event/no-video-here'
-                    '/cal/l/nowhere.ics'
-                    ]:
+        for url in ('/abc',
+                    '/p/jane-doe',
+                    '/v/postgresopen-2012/no-video-here',
+                    '/v/no-such-event/no-video-here',
+                    '/cal/l/nowhere.ics',
+                    '/l/nowhere',
+                    ):
             rv = self.app.get(url)
             assert rv.status == '404 NOT FOUND'
             assert b'Oh. There is no page here.' in rv.data
