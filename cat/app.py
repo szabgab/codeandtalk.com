@@ -283,10 +283,11 @@ def serve_collections():
 @catapp.route("/v/<event>/<filename>")
 def show_video(event = None, filename = None):
     cat = _read_json(root + '/html/cat.json')
-    for video in cat['videos']:
-        if video['event'] == event and video['filename'] == filename:
+    for vid in cat['videos']:
+        if vid['event'] == event and vid['filename'] == filename:
+            video = vid
             break
-    if not video:
+    else:
         return not_found()
 
     speakers = []
@@ -561,8 +562,8 @@ def show_blaster(nickname):
             blaster = b
             break
     else:
-        return "404"
-        
+        return not_found()
+
     return render_template('blaster.html',
         h1          = blaster['name'] + ' Blaster',
         title       = blaster['name'] + ' Blaster',

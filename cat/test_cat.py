@@ -34,6 +34,15 @@ class TestCat(unittest.TestCase):
         assert b'Oh. There is no page here.' in rv.data
         assert b'<title>Four Oh Four</title>' in rv.data
 
+        rv = self.app.get('/v/postgresopen-2012/no-video-here')
+        assert rv.status == '404 NOT FOUND'
+        assert b'Oh. There is no page here.' in rv.data
+        assert b'<title>Four Oh Four</title>' in rv.data
+
+        rv = self.app.get('/v/no-such-event/no-video-here')
+        assert rv.status == '404 NOT FOUND'
+        assert b'Oh. There is no page here.' in rv.data
+        assert b'<title>Four Oh Four</title>' in rv.data
 
     def test_pages(self):
         print("Platform: " + sys.platform)
