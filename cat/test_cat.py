@@ -29,7 +29,11 @@ class TestCat(unittest.TestCase):
                     '/v/postgresopen-2012/no-video-here',
                     '/v/no-such-event/no-video-here',
                     '/cal/l/nowhere.ics',
+                    '/cal/t/no-such-tag.ics',
                     '/l/nowhere',
+                    '/s/nocast',
+                    '/t/no-such-topic',
+#                   '/e/no-such-event',
                     ):
             rv = self.app.get(url)
             assert rv.status == '404 NOT FOUND'

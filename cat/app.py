@@ -370,6 +370,8 @@ def by_tag(tag):
     now = datetime.now().strftime('%Y-%m-%d')
 
     future, earlier = events_by_tag(cat, tag)
+    if not future:
+        return not_found()
 
     videos = []
     for video in cat['videos']:
@@ -655,6 +657,8 @@ def events_by_tag(cat, tag):
                 future.append(event)
             else:
                 earlier.append(event)
+    if not future and not earlier:
+        return None, None
     return future, earlier
 
 def events_in_location(cat, location):
