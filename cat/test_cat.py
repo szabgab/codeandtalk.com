@@ -33,7 +33,7 @@ class TestCat(unittest.TestCase):
                     '/l/nowhere',
                     '/s/nocast',
                     '/t/no-such-topic',
-#                   '/e/no-such-event',
+                    '/e/no-such-event',
                     ):
             rv = self.app.get(url)
             assert rv.status == '404 NOT FOUND'

@@ -397,6 +397,8 @@ def by_tag(tag):
 @catapp.route("/e/<nickname>")
 def event(nickname):
     cat = _read_json(root + '/html/cat.json')
+    if nickname not in cat['events']:
+        return not_found()
     event = copy.deepcopy(cat['events'][nickname])
     if 'youtube' in event and event['youtube'] == '-':
         event['youtube'] = None
