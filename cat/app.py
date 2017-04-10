@@ -287,7 +287,7 @@ def show_video(event = None, filename = None):
         if video['event'] == event and video['filename'] == filename:
             break
     if not video:
-        return '404'
+        return not_found()
 
     speakers = []
     speaker_twitters = ''
@@ -337,7 +337,7 @@ def show_person(nickname = None):
         #        fh.write('<meta http-equiv="refresh" content="0; url=https://codeandtalk.com/p/{}" />\n'.format(r['to']))
         #        fh.write('<p><a href="https://codeandtalk.com/p/{}">Moved</a></p>\n'.format(r['to']))
     else:
-        return "404"
+        return not_found()
 
 
 @catapp.route("/cal/all.ics")
@@ -503,7 +503,7 @@ def show_episodes(source):
             podcast = copy.deepcopy(p)
             break
     else:
-        return "404"
+        return not_found()
 
     for e in podcast['episodes']:
         if 'guests' in e:

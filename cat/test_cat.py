@@ -25,10 +25,15 @@ class TestCat(unittest.TestCase):
 
     def test_404(self):
         rv = self.app.get('/abc')
-        #print('Status: ' + rv.status)
         assert rv.status == '404 NOT FOUND'
         assert b'Oh. There is no page here.' in rv.data
         assert b'<title>Four Oh Four</title>' in rv.data
+
+        rv = self.app.get('/p/jane-doe')
+        assert rv.status == '404 NOT FOUND'
+        assert b'Oh. There is no page here.' in rv.data
+        assert b'<title>Four Oh Four</title>' in rv.data
+
 
     def test_pages(self):
         print("Platform: " + sys.platform)
