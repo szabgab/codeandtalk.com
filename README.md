@@ -173,7 +173,7 @@ Ideas for Conferences and other events
 Process with command line Git client
 --------------------------------------
 * In the GitHub interface visit the project https://github.com/szabgab/codeandtalk.com and click on the "Fork" button (top righ).
-It will create a copy in your own user. If you are called ```foobar``` it will be called https://github.com/foobar/xcast
+It will create a copy in your own user. If you are called ```foobar``` it will be called https://github.com/foobar/codeandtalk.com
 
 * On your command line (Linux terminal or Windows Cmd) type in
 
