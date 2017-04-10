@@ -539,9 +539,11 @@ def static_file(filename = None):
     #index.html  redirect
 
     mime = 'text/html'
-    content = _read(root + '/html/' + filename)
-    if content == None:
+    try:
+        content = open(root + '/html/' + filename).read()
+    except Exception:
         return not_found()
+
     if filename[-4:] == '.css':
         mime = 'text/css'
     elif filename[-5:] == '.json':
@@ -583,13 +585,6 @@ def crashed(e):
 
 ###### Helper functions
 
-def _read(filename):
-    try:
-        return open(filename).read()
-    except Exception:
-        return None
-
-        
 def _term(field = 'term'):
     value = request.args.get(field, '')
     value = value.lower()
