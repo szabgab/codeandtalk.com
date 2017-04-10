@@ -7,7 +7,7 @@ For each episode in a podcast series we collect the following fields:
 
 ```commandline
 ep:      the episode number
-guests:  a list of the guest, each guest is represented her/his name in full-name  format.
+guests:  a list of the guests, each guest is represented her/his name in "full-name" format.
 ```
 
 The same value, followed by the .txt extension is used to hold information about that person
@@ -24,7 +24,7 @@ title:     The title of the episode.
 date:      The date of the episode.
 ```
 
-The file looks like this:
+The file looks like this: (but see #221)
 
 ```
 [
@@ -50,13 +50,7 @@ See the [People](docs/PEOPLE.md) for the description of the people files.
 
 ```
 
-The ```data/tags.csv``` file contains a mapping of keywords to URLs and descriptions.
-This is mostly relevant for keywords that describe a spefic project (e.g. Dancer)
-but not for generic keywords such as "web".
-
-```
-keyword;http://...
-```
+See also [Tags](docs/TAGS.md)
 
 Collection Process
 -------------------
@@ -69,23 +63,12 @@ Collection Process
 * Add the files to git, commit, push, send a pull-request.
 
 * If you have a local copy of all the files, you can veryfy the correctness of
-the format by running ```python3 xcast.py --html``` fFor this you'll have ```python3```
-installed and the ```jinja2``` package.
+the format by running ```python3 bin/generate.py```
 
-
-Site layout
-------------
-```
-/
-/p/person-code
-/s/source
-/t/tag
-```
 
 TODO (or maybe not?):
 -----------------------
-* Include the episode number for each episode
-* For each source add a description.
+
 * The Floss Weekly had a lot of other "providers" to subscribe through. Check those out.
 * The Floss Weekly has both an audio and video feed. Some other podcast might have too. Shall we include those too?
 

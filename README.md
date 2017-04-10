@@ -14,6 +14,8 @@ For more details visit:
 
 [People](docs/PEOPLE.md)
 
+[Tags](docs/TAGS.md)
+
 SETUP
 ------
 ```
@@ -31,42 +33,36 @@ $ python3 bin/generate.py
 Development server
 -------------------
 ```
-export FLASK_APP=cat.app
-export FLASK_DEBUG=1
-flask run --host 0.0.0.0 --port 5000
-
 FLASK_APP=cat.app FLASK_DEBUG=1 flask run --host 0.0.0.0 --port 5000
 ```
 
+Visit http://127.0.0.1:5000/
+
+
+Site layout
+------------
+```
+/
+/p/person-code
+/s/source
+/t/tag
 ```
 
-http://localhost:5000/
 
 TODO
 -----
 
 These are just ideas, not necessary something I really want to do :-)
 
-* check if there is 'view' and 'like' in the video files, not just 'length'.
+* Calendar of events - Shall we include the cfp deadlines or not?
 
-* Generate Calendar of events
-  - for each geographic area (e.g. Europe)
-  - Shall we include the cfp deadlines or not?
-
-* improve the search for people
-* improve the search for videos
-* show number of videos in the list of people
 * tags should be all lower case in the files and we should have the real case in the tags file. That will make the code simpler
-
-
 * For each event series find out if they have an annuncement mailing list to get notified for the new event, cfp,  videos available.
 Add this information to the data/series.json file Talk to the organizers and tell them why we would like to get such notifications.
 
 * Describe the use of the site.
 * Convert all the data files to JSON, beautify them?
 * Create skeleton for each file-type?
-
-* Include picture of each speaker?
 * Include logo of each event?
 
 * Change the sitemap.xml creating code to use the date of the files for real date.
@@ -78,10 +74,6 @@ Add this information to the data/series.json file Talk to the organizers and tel
 * Search:
   limit the search to people/videos/events/podcasts
 
-* Search for videos
-  limit the search by date
-  limit the search by language (for videos)
-
 
 * Weekly Newsletter with information about events.
   The subscriber should be able to select filter by countries and/or by topics.
@@ -89,20 +81,12 @@ Add this information to the data/series.json file Talk to the organizers and tel
 
 * Add Facebook image code to video pages
 * Improve the UI of the web site, look at what pyvideo has nice.
-* Link from event to other events in the series.
-
-* Another potential use of the data: Help conference and meetup organizers find potential speakers.
-* List people by location (city, state, country)
-* List people by subjects (tags for which they spoke)
-
 * Add "language" field to the videos and allow the user to filter the results to selected language(s). (There are talk in French, German, Spanish, etc.)
 
-* Include the number of videos in the https://codeandtalk.com/people list
 * Create list of people with 0 in everything bin/people.py
 * List of people who only have their name in the file
 * List of people missing twitter/github
 
- 
 * Include screencasts and other non-conference videos.
 * Include a picture of each person?
 
@@ -187,25 +171,25 @@ Ideas for Conferences and other events
 
 
 Process with command line Git client
-----------------------------
+--------------------------------------
 * In the GitHub interface visit the project https://github.com/szabgab/codeandtalk.com and click on the "Fork" button (top righ).
-It will create a copy in your own user. IF you are called ```foobar``` it will be called https://github.com/foobar/xcast
+It will create a copy in your own user. If you are called ```foobar``` it will be called https://github.com/foobar/xcast
 
 * On your command line (Linux terminal or Windows Cmd) type in
 
-```git clone git@github.com:foobar/xcast.git```
+```git clone git@github.com:foobar/codeandtalk.git```
 
 It will clone (copy) the whole repository from your GitHub homedirectory.
 
-```cd xcast```
+```cd codeandtalk.com```
 
-```git remote add upstream https://github.com/szabgab/xcast.git```
+```git remote add upstream https://github.com/szabgab/codeandtalk.git```
 
-Now you can edit the files in the ```xcast/data``` directory and add more files you need.
+Now you can edit the files in the ```data``` directory and add more files you need.
 
 If you'd like to check if the files work well together type in
 
-```python xcast.py --html``` on windows or ```python3 xcast.py --html``` on Linux.
+```python bin/generate.py```
 
 
 
@@ -221,7 +205,8 @@ Instruction on Windows
   Then try ```python --version``` again.
 
 * Type in ```pip install jinja2```
-* cd to the xcast/ directory 
-* Type ```python xcast.py --html```   If there is an error in the files, it will complain.
+* cd to the codeandtalk.com/ directory 
+* Type ```python bin/generate.py```   If there is an error in the files, it will complain.
 * If everything works fine the web site is generated in the html/ directory.
-* Run ```python server.py``` then go to your broser and visit http://127.0.0.1:8000/  The updated site should be there.
+* Run ```FLASK_APP=cat.app FLASK_DEBUG=1 flask run --host 0.0.0.0 --port 5000``` then go to your broser and visit http://127.0.0.1:8000/ 
+The updated site should be there.
