@@ -539,6 +539,8 @@ def static_file(filename = None):
 
     mime = 'text/html'
     content = _read(root + '/html/' + filename)
+    if content == None:
+        return not_found()
     if filename[-4:] == '.css':
         mime = 'text/css'
     elif filename[-5:] == '.json':
@@ -567,16 +569,24 @@ def show_blaster(nickname):
         blaster     = blaster,
     )
 
+@catapp.errorhandler(404)
+def not_found(e = None):
+    return render_template('404.html',
+                       h1='404',
+                       title='Four Oh Four',
+                       ), 404
+
+@catapp.errorhandler(500)
+def crashed(e):
+    return "Our Page crashed", 500
+
 ###### Helper functions
 
 def _read(filename):
     try:
         return open(filename).read()
     except Exception:
-        return render_template('404.html',
-            h1          = '404',
-            title       = 'Four Oh Four',
-        )
+        return None
 
         
 def _term(field = 'term'):

@@ -26,9 +26,9 @@ class TestCat(unittest.TestCase):
     def test_404(self):
         rv = self.app.get('/abc')
         #print('Status: ' + rv.status)
-        assert rv.status == '200 OK' # TODO really this should be 404 but that gives an error: TypeError: Expected bytes
-                    # probably because of the way we pass the values back up in the static_file route
+        assert rv.status == '404 NOT FOUND'
         assert b'Oh. There is no page here.' in rv.data
+        assert b'<title>Four Oh Four</tile>' in rv.data
 
     def test_pages(self):
         print("Platform: " + sys.platform)
