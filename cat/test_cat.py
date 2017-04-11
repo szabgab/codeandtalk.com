@@ -130,5 +130,21 @@ class TestCat(unittest.TestCase):
         rv = self.app.get('/s/cmos')
         self.assertEqual(rv.status, '200 OK')
         self.assertIn(b'<a href="/p/jason-crome">Jason A. Crome</a>', rv.data)
+        self.assertIn('<a href="/p/gabor-szabo">Gábor Szabó</a>'.encode('utf-8'), rv.data)
+
+    def test_people(self):
+        rv = self.app.get('/people')
+        self.assertEqual(rv.status, '200 OK')
+        self.assertIn(b'<title>People who talk at conferences or in podcasts</title>', rv.data)
+
+        rv = self.app.get('/people?term=sz')
+        self.assertEqual(rv.status, '200 OK')
+        self.assertIn(b'<title>People who talk at conferences or in podcasts</title>', rv.data)
+        self.assertIn(b'<a href="/p/jakub-jedryszek">Jakub Jedryszek</a>', rv.data)
+        self.assertIn('<a href="/p/gabor-szabo">Gábor Szabó</a>'.encode('utf-8'), rv.data)
+
+        rv = self.app.get('/p/gabor-szabo')
+        self.assertEqual(rv.status, '200 OK')
+        self.assertIn('<title>Presentations and podcasts by Gábor Szabó</title>'.encode('utf-8'), rv.data)
 
 # vim: expandtab
