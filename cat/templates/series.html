@@ -10,7 +10,7 @@
    </div>
    
    <ul>
-     {% for e in v.events %}
+     {% for e in v.events | sort(attribute = 'name') %}
         <li><a href="/e/{{e.nickname}}">{{e.name}}</a></li>
      {% endfor %}
    </ul>
