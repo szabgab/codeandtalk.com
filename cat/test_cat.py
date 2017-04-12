@@ -42,7 +42,7 @@ class TestCat(unittest.TestCase):
 
 
     def test_pages(self):
-        print("Platform: " + sys.platform)
+        #print("Platform: " + sys.platform)
         rv = self.app.get('/all-conferences')
         assert rv.status == '200 OK'
         d = PyQuery(rv.data)
