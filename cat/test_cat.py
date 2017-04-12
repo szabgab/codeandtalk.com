@@ -146,5 +146,12 @@ class TestCat(unittest.TestCase):
         rv = self.app.get('/p/gabor-szabo')
         self.assertEqual(rv.status, '200 OK')
         self.assertIn('<title>Presentations and podcasts by Gábor Szabó</title>'.encode('utf-8'), rv.data)
+        assert b'<li>2016-08-23 <a href="http://code-maven.com/cmos-1-jason-crome-perl-dancer2">Jason A. Crome on Perl Dancer 2</a> <a href="/s/cmos">cmos</a></li>' in rv.data
+
+
+        rv = self.app.get('/p/adam-stacoviak')
+        self.assertEqual(rv.status, '200 OK')
+        assert b'<li>2015-10-12 <a href="http://www.codenewbie.org/podcast/podcasting-with-changelog">Podcasting with Changelog</a> <a href="/s/codenewbie">codenewbie</a></li>' in rv.data
+        assert b'<li>2009-11-27 <a href="https://changelog.com/3/">The Go Programming Language from Google with Rob Pike</a> <a href="/s/changelog">changelog</a></li>', rv.data
 
 # vim: expandtab

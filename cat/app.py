@@ -324,6 +324,18 @@ def show_person(nickname = None):
     for video in cat['videos']:
         if nickname in video['speakers']:
             person['videos'].append(video)
+
+    podcasts = {
+        'guests' : [],
+        'hosts'  : [],
+    }
+    for field in ['guests', 'hosts']:
+        for podcast in cat['podcasts']:
+            for episode in podcast['episodes']:
+                if field in episode:
+                    if nickname in episode[field]:
+                        podcasts[field].append(episode)
+
 #        for field in ['episodes', 'hosting']:
 #            if field not in self.people[p]:
 #                self.people[p][field] = []
@@ -334,6 +346,7 @@ def show_person(nickname = None):
         person      = person,
         events      = cat['events'],
         id          = nickname,
+        podcasts    = podcasts,
     )
     #for r in self.redirects:
     #    with open(self.html + '/p/' + r['from'], 'w') as fh:

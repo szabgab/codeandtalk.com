@@ -1,4 +1,5 @@
 {% include 'incl/header.html' %}
+
     <div><a href="{{ person['info']['home'] }}">{{ person['info']['name'] }}</a></div>
     {% if person['info']['github'] %}
     <div><a href="https://github.com/{{ person['info']['github'] }}">Github: {{ person['info']['github'] }}</a></div>
@@ -12,19 +13,19 @@
     {% endif %}
       
 
-    {% if person['episodes'] %}
+    {% if podcasts['guests'] %}
         <h2>Episodes</h2>
         <ul>
-          {% for e in person['episodes'] %}
+          {% for e in podcasts['guests'] %}
             <li>{{ e['date'] }} <a href="{{ e['permalink'] }}">{{ e['title'] }}</a> <a href="/s/{{ e['source'] }}">{{ e['source'] }}</a></li>
           {% endfor %}
         </ul>
     {% endif %}
 
-    {% if person['hosting'] %}
+    {% if podcasts['hosts'] %}
 	    <h2>Hosting</h2>
         <ul>
-	      {% for e in person['hosting'] %}
+	      {% for e in podcasts['hosts'] %}
 	        <li>{{ e['date'] }} <a href="{{ e['permalink'] }}">{{ e['title'] }}</a> <a href="/s/{{ e['source'] }}">{{ e['source'] }}</a></li>
 	      {% endfor %}
         </ul>
