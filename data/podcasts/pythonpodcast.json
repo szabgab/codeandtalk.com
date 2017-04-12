@@ -2,15 +2,15 @@
     {
         "date": "2015-06-10",
         "ep": "11",
-        "guests": {
-            "lynn-root": {},
-            "naomi-ceder": {},
-            "tracy-osborn": {}
-        },
-        "hosts": {
-            "chris-patti": {},
-            "tobias-macey": {}
-        },
+        "guests": [
+            "naomi-ceder",
+            "tracy-osborn",
+            "lynn-root"
+        ],
+        "hosts": [
+            "tobias-macey",
+            "chris-patti"
+        ],
         "keywords": [
             "PyLadies"
         ],

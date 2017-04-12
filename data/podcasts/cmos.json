@@ -2,12 +2,12 @@
     {
         "date": "2016-08-23",
         "ep": "1",
-        "guests": {
-            "jason-crome": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "jason-crome"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-1-jason-crome-perl-dancer2",
         "tags": [
             "Perl Dancer",
@@ -20,12 +20,12 @@
     {
         "date": "2016-08-24",
         "ep": "2",
-        "guests": {
-            "sawyer": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "sawyer"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-2-sawyer-perl5",
         "tags": [
             "language",
@@ -37,12 +37,12 @@
     {
         "date": "2016-09-01",
         "ep": "3",
-        "guests": {
-            "joel-berger": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "joel-berger"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-3-joel-berger-mojolicious",
         "tags": [
             "perl",
@@ -54,12 +54,12 @@
     {
         "date": "2016-09-06",
         "ep": "4",
-        "guests": {
-            "tom-hudson": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "tom-hudson"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-4-tom-hudson-gron",
         "tags": [
             "JSON",
@@ -70,12 +70,12 @@
     {
         "date": "2016-09-08",
         "ep": "5",
-        "guests": {
-            "lucy-greco": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "lucy-greco"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-5-lucy-greco-dictationbridge",
         "tags": [
             "Windows",
@@ -86,12 +86,12 @@
     {
         "date": "2016-09-10",
         "ep": "6",
-        "guests": {
-            "tally-barak": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "tally-barak"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-6-tally-barak-graphql",
         "tags": [
             "GraphQL",
@@ -102,12 +102,12 @@
     {
         "date": "2016-09-17",
         "ep": "7",
-        "guests": {
-            "obinwanne-hill": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "obinwanne-hill"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-7-obinwanne-hill-restivejs",
         "tags": [
             "Restive",
@@ -120,12 +120,12 @@
     {
         "date": "2016-09-19",
         "ep": "8",
-        "guests": {
-            "lynn-cyrin-conway": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "lynn-cyrin-conway"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-8-lynn-cyrin-bundler-rubygems",
         "tags": [
             "Bundler"
@@ -135,12 +135,12 @@
     {
         "date": "2016-09-21",
         "ep": "9",
-        "guests": {
-            "ire-aderinokun": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "ire-aderinokun"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-9-ire-aderinokun",
         "tags": [
             "CSS",
@@ -153,12 +153,12 @@
     {
         "date": "2016-09-23",
         "ep": "10",
-        "guests": {
-            "michael-kennedy": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "michael-kennedy"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-10-michael-kennedy",
         "tags": [
             "Python",
@@ -172,12 +172,12 @@
     {
         "date": "2016-09-26",
         "ep": "11",
-        "guests": {
-            "mohammad-s-anwar": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "mohammad-s-anwar"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-11-mohammad-s-anwar",
         "tags": [
             "Perl",
@@ -192,12 +192,12 @@
     {
         "date": "2016-09-28",
         "ep": "12",
-        "guests": {
-            "randal-schwartz": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "randal-schwartz"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-12-randal-schwartz",
         "tags": [
             "Perl",
@@ -209,12 +209,12 @@
     {
         "date": "2016-10-03",
         "ep": "13",
-        "guests": {
-            "trung-dinh-quang": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "trung-dinh-quang"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-13-trung-dinh-quang",
         "tags": [
             "GitHub"
@@ -224,12 +224,12 @@
     {
         "date": "2016-10-06",
         "ep": "14",
-        "guests": {
-            "johnny-ray-austin": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "johnny-ray-austin"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-14-johnny-ray-austin",
         "tags": [
             "Mo",
@@ -242,12 +242,12 @@
     {
         "date": "2016-10-07",
         "ep": "15",
-        "guests": {
-            "prosper-otemuyiwa": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "prosper-otemuyiwa"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-15-prosper-otemuyiwa",
         "tags": [
             "Laravel"
@@ -257,13 +257,13 @@
     {
         "date": "2016-10-14",
         "ep": "16",
-        "guests": {
-            "jan-henning-thorsen": {},
-            "marcus-ramberg": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "jan-henning-thorsen",
+            "marcus-ramberg"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "http://code-maven.com/cmos-16-jan-henning-thorsen-and-marcus-ramberg",
         "tags": [
             "Convos",
@@ -276,12 +276,12 @@
     {
         "date": "2016-10-21",
         "ep": "16",
-        "guests": {
-            "moyinoluwa-adeyemi": {}
-        },
-        "hosts": {
-            "gabor-szabo": {}
-        },
+        "guests": [
+            "moyinoluwa-adeyemi"
+        ],
+        "hosts": [
+            "gabor-szabo"
+        ],
         "permalink": "https://code-maven.com/cmos-17-moyinoluwa-adeyemi",
         "tags": [
             "Yoruba",

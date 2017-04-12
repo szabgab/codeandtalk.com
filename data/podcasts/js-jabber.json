@@ -2,14 +2,14 @@
     {
         "date": "2016-10-12",
         "ep": "233",
-        "guests": {
-            "john-sonmez": {}
-        },
-        "hosts": {
-            "aimee-knight": {},
-            "charles-max-wood": {},
-            "joe-eames": {}
-        },
+        "guests": [
+            "john-sonmez"
+        ],
+        "hosts": [
+            "aimee-knight",
+            "charles-max-wood",
+            "joe-eames"
+        ],
         "keywords": [
             "Chrome"
         ],

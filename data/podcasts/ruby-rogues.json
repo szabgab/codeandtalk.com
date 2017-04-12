@@ -2,14 +2,14 @@
     {
         "date": "2015-11-18",
         "ep": "234",
-        "guests": {
-            "adam-stacoviak": {},
-            "jerod-santo": {}
-        },
-        "hosts": {
-            "charles-max-wood": {},
-            "coraline-ada-ehmke": {}
-        },
+        "guests": [
+            "adam-stacoviak",
+            "jerod-santo"
+        ],
+        "hosts": [
+            "coraline-ada-ehmke",
+            "charles-max-wood"
+        ],
         "keywords": [
             "ChangeLog"
         ],
@@ -19,12 +19,12 @@
     {
         "date": "2016-10-12",
         "ep": "281",
-        "guests": {
-            "noel-rappin": {}
-        },
-        "hosts": {
-            "charles-max-wood": {}
-        },
+        "guests": [
+            "noel-rappin"
+        ],
+        "hosts": [
+            "charles-max-wood"
+        ],
         "keywords": [],
         "permalink": "https://devchat.tv/ruby-rogues/281-rr-take-my-money-with-noel-rappin",
         "title": "Take My Money"

@@ -590,14 +590,14 @@ class GenerateSite(object):
     def _process_podcasts(self):
         for e in self.episodes:
             if 'guests' in e:
-                for g in e['guests'].keys():
+                for g in e['guests']:
                     if g not in self.people:
                         exit("ERROR 4: '{}' is not in the list of people".format(g))
                     if 'episodes' not in self.people[g]:
                         self.people[g]['episodes'] = []
                     self.people[g]['episodes'].append(e)
             if 'hosts' in e:
-                for h in e['hosts'].keys():
+                for h in e['hosts']:
                     if h not in self.people:
                         exit("ERROR 5: '{}' is not in the list of people".format(h))
                     if 'hosting' not in self.people[h]:

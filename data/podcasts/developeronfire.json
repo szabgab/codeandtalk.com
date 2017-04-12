@@ -2,9 +2,9 @@
     {
         "date": "2015-06-13",
         "ep": "0",
-        "hosts": {
-            "dave-rael": {}
-        },
+        "hosts": [
+            "dave-rael"
+        ],
         "keywords": [
             "Introduction"
         ],
@@ -14,12 +14,12 @@
     {
         "date": "2015-06-13",
         "ep": "1",
-        "guests": {
-            "john-sonmez": {}
-        },
-        "hosts": {
-            "dave-rael": {}
-        },
+        "guests": [
+            "john-sonmez"
+        ],
+        "hosts": [
+            "dave-rael"
+        ],
         "keywords": [
             "life coach"
         ],
@@ -29,12 +29,12 @@
     {
         "date": "2015-06-13",
         "ep": "2",
-        "guests": {
-            "kijana-woodard": {}
-        },
-        "hosts": {
-            "dave-rael": {}
-        },
+        "guests": [
+            "kijana-woodard"
+        ],
+        "hosts": [
+            "dave-rael"
+        ],
         "keywords": [],
         "permalink": "http://developeronfire.com/episode-002-kijana-woodard-focus-on-the-business",
         "title": "Focus on the Business "
@@ -42,12 +42,12 @@
     {
         "date": "2015-06-15",
         "ep": "3",
-        "guests": {
-            "harry-brumleve": {}
-        },
-        "hosts": {
-            "dave-rael": {}
-        },
+        "guests": [
+            "harry-brumleve"
+        ],
+        "hosts": [
+            "dave-rael"
+        ],
         "keywords": [],
         "permalink": "http://developeronfire.com/episode-003-harry-brumleve-speaking-the-truth",
         "title": "Speaking the Truth"
@@ -55,12 +55,12 @@
     {
         "date": "2015-06-18",
         "ep": "4",
-        "guests": {
-            "rob-eisenberg": {}
-        },
-        "hosts": {
-            "dave-rael": {}
-        },
+        "guests": [
+            "rob-eisenberg"
+        ],
+        "hosts": [
+            "dave-rael"
+        ],
         "keywords": [
             "JavaScript"
         ],
@@ -70,12 +70,12 @@
     {
         "date": "2016-04-04",
         "ep": "118",
-        "guests": {
-            "adam-stacoviak": {}
-        },
-        "hosts": {
-            "dave-rael": {}
-        },
+        "guests": [
+            "adam-stacoviak"
+        ],
+        "hosts": [
+            "dave-rael"
+        ],
         "keywords": [
             "ChangeLog"
         ],

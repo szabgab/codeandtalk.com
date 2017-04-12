@@ -2,11 +2,11 @@
     {
         "date": "2009-11-25",
         "ep": "2",
-        "guests": {},
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "JAMMIT",
             "underscore",
@@ -19,13 +19,13 @@
     {
         "date": "2009-11-27",
         "ep": "3",
-        "guests": {
-            "rob-pike": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "rob-pike"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Google Go"
         ],
@@ -35,13 +35,13 @@
     {
         "date": "2009-12-01",
         "ep": "4",
-        "guests": {
-            "rob-pike": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "rob-pike"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Chrome",
             "Thor-Git",
@@ -54,13 +54,13 @@
     {
         "date": "2009-12-06",
         "ep": "5",
-        "guests": {
-            "jeremy-ashkenas": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "jeremy-ashkenas"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "JAMMIT",
             "Underscore.js",
@@ -72,13 +72,13 @@
     {
         "date": "2009-12-15",
         "ep": "6",
-        "guests": {
-            "steven-bristol": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "steven-bristol"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Open Source"
         ],
@@ -88,13 +88,13 @@
     {
         "date": "2009-12-17",
         "ep": "7",
-        "guests": {
-            "mike-dirolf": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "mike-dirolf"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "MongoDB"
         ],
@@ -104,13 +104,13 @@
     {
         "date": "2010-01-14",
         "ep": "8",
-        "guests": {
-            "marshall-culpepper": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "marshall-culpepper"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Titanium",
             "Appcelerator"
@@ -121,13 +121,13 @@
     {
         "date": "2010-01-19",
         "ep": "9",
-        "guests": {
-            "marshall-culpepper": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "marshall-culpepper"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Appcelerator",
             "News",
@@ -139,13 +139,13 @@
     {
         "date": "2010-01-25",
         "ep": "10",
-        "guests": {
-            "chris-wanstrath": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "chris-wanstrath"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "GitHub"
         ],
@@ -155,13 +155,13 @@
     {
         "date": "2010-01-29",
         "ep": "11",
-        "guests": {
-            "john-nunemaker": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "john-nunemaker"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Open Source",
             "MongoDB",
@@ -173,13 +173,13 @@
     {
         "date": "2010-02-03",
         "ep": "12",
-        "guests": {
-            "john-nunemaker": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "john-nunemaker"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Gordon",
             "Showoff",
@@ -193,14 +193,14 @@
     {
         "date": "2010-02-10",
         "ep": "13",
-        "guests": {
-            "jeremy-carbaugh": {},
-            "luigi-ray-montanez": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "luigi-ray-montanez",
+            "jeremy-carbaugh"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Python",
             "Ruby",
@@ -213,14 +213,14 @@
     {
         "date": "2010-02-18",
         "ep": "14",
-        "guests": {
-            "andy-gross": {},
-            "sean-cribbs": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "andy-gross",
+            "sean-cribbs"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Ruby",
             "Riak",
@@ -232,13 +232,13 @@
     {
         "date": "2010-02-27",
         "ep": "15",
-        "guests": {
-            "leah-culver": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "leah-culver"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "OAuth",
             "Hurl.it",
@@ -252,14 +252,14 @@
     {
         "date": "2010-03-08",
         "ep": "16",
-        "guests": {
-            "rik-arends": {},
-            "ruben-daniels": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "ruben-daniels",
+            "rik-arends"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Ajax",
             "APF",
@@ -271,15 +271,15 @@
     {
         "date": "2010-03-11",
         "ep": "17",
-        "guests": {
-            "brandon-mathis": {},
-            "geoffrey-grosenbach": {},
-            "tim-caswell": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "geoffrey-grosenbach",
+            "brandon-mathis",
+            "tim-caswell"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Open Source",
             "Open Blogging",
@@ -291,15 +291,15 @@
     {
         "date": "2010-03-18",
         "ep": "18",
-        "guests": {
-            "jan-lehnardt": {},
-            "stu-hood": {},
-            "werner-vogels": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "stu-hood",
+            "jan-lehnardt",
+            "werner-vogels"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Cassandra",
             "CouchDB",
@@ -312,13 +312,13 @@
     {
         "date": "2010-03-30",
         "ep": "19",
-        "guests": {
-            "james-edward-gray-ii": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "james-edward-gray-ii"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Ruby",
             "TextMate"
@@ -329,13 +329,13 @@
     {
         "date": "2011-04-06",
         "ep": "20",
-        "guests": {
-            "felix-geisendorfer": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "felix-geisendorfer"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Node.js",
             "server-side JavaScript"
@@ -346,16 +346,16 @@
     {
         "date": "2010-04-20",
         "ep": "21",
-        "guests": {
-            "christie-koehler": {},
-            "erik-michaels-ober": {},
-            "hayes-davis": {},
-            "john-manoogian-iii": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "hayes-davis",
+            "john-manoogian-iii",
+            "erik-michaels-ober",
+            "christie-koehler"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Twitter",
             "Open Source"
@@ -366,13 +366,13 @@
     {
         "date": "2010-04-20",
         "ep": "22",
-        "guests": {
-            "aaron-quint": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "aaron-quint"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "JavaScript",
             "Sammy.js",
@@ -384,13 +384,13 @@
     {
         "date": "2010-05-11",
         "ep": "23",
-        "guests": {
-            "charles-lowell": {}
-        },
-        "hosts": {
-            "gregg-pollack": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "charles-lowell"
+        ],
+        "hosts": [
+            "gregg-pollack",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Ruby",
             "JavaScript"
@@ -401,18 +401,18 @@
     {
         "date": "2010-05-18",
         "ep": "24",
-        "guests": {
-            "david-recordon": {},
-            "haiping-zhou": {},
-            "joe-hewitt": {},
-            "owen-yamauchi": {},
-            "paul-buchheit": {},
-            "scott-macvicar": {}
-        },
-        "hosts": {
-            "adam-stacoviak": {},
-            "wynn-netherland": {}
-        },
+        "guests": [
+            "scott-macvicar",
+            "haiping-zhou",
+            "david-recordon",
+            "joe-hewitt",
+            "owen-yamauchi",
+            "paul-buchheit"
+        ],
+        "hosts": [
+            "adam-stacoviak",
+            "wynn-netherland"
+        ],
         "keywords": [
             "Tornado",
             "Hip-hop",

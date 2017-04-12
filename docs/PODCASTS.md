@@ -30,12 +30,12 @@ The file looks like this: (but see #221)
 [
   {
     "ep" : "EPISODE NUMBER",
-    "guests": {
-      "guest-name" : {}
-    },
-    "hosts" : {
-        "host-name" : {}
-    },
+    "guests": [
+      "guest-name"
+    ],
+    "hosts" : [
+        "host-name"
+    ],
     "keywords": ["perl", "web", "dancer"],
     "permalink": "URL of the HTML page of the specific episode",
     "title" : "TITLE of the episodes",

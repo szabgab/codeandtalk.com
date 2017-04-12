@@ -517,12 +517,12 @@ def show_episodes(source):
         return not_found()
 
     for e in podcast['episodes']:
-        if 'guests' in e:
-            for g in e['guests']:
-                e['guests'][g] = cat['people'][g]['info']
-        if 'hosts' in e:
-            for h in e['hosts']:
-                e['hosts'][h] = cat['people'][h]['info']
+        for field in ('guests', 'hosts'):
+            if field in e:
+                people = {}
+                for person in e[field]:
+                    people[person] = cat['people'][person]['info']
+            e[field] = people
 
     return render_template('podcast.html',
         podcast = podcast,

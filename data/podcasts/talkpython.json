@@ -2,9 +2,9 @@
     {
         "date": "2015-03-21",
         "ep": "0",
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -14,12 +14,12 @@
     {
         "date": "2015-03-31",
         "ep": "1",
-        "guests": {
-            "nicola-iarocci": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "nicola-iarocci"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "EVE",
             "Flask",
@@ -31,12 +31,12 @@
     {
         "date": "2015-04-07",
         "ep": "2",
-        "guests": {
-            "a-jesse-jiryu-davis": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "a-jesse-jiryu-davis"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "PyMongo",
             "MongoDB",
@@ -49,12 +49,12 @@
     {
         "date": "2015-04-16",
         "ep": "3",
-        "guests": {
-            "chris-mcdonough": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "chris-mcdonough"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Pyramid",
             "Python",
@@ -66,12 +66,12 @@
     {
         "date": "2015-04-23",
         "ep": "4",
-        "guests": {
-            "mahmoud-hashemi": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "mahmoud-hashemi"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Bolton"
@@ -82,12 +82,12 @@
     {
         "date": "2015-04-28",
         "ep": "5",
-        "guests": {
-            "mike-bayer": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "mike-bayer"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "SQLAlchemy",
@@ -99,12 +99,12 @@
     {
         "date": "2015-05-05",
         "ep": "6",
-        "guests": {
-            "kenneth-reitz": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "kenneth-reitz"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "PyCon"
@@ -115,12 +115,12 @@
     {
         "date": "2015-05-12",
         "ep": "7",
-        "guests": {
-            "dirk-thomas": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "dirk-thomas"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "ROS",
@@ -132,12 +132,12 @@
     {
         "date": "2015-05-19",
         "ep": "8",
-        "guests": {
-            "james-curran": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "james-curran"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Grok"
@@ -148,12 +148,12 @@
     {
         "date": "2015-05-26",
         "ep": "9",
-        "guests": {
-            "patrick-chanezon": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "patrick-chanezon"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Docker",
@@ -166,12 +166,12 @@
     {
         "date": "2015-06-02",
         "ep": "10",
-        "guests": {
-            "harry-percival": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "harry-percival"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "PiybS",
@@ -183,12 +183,12 @@
     {
         "date": "2015-06-09",
         "ep": "11",
-        "guests": {
-            "adrian-rosebrock": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "adrian-rosebrock"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "PyImageSearch",
@@ -200,12 +200,12 @@
     {
         "date": "2015-06-16",
         "ep": "12",
-        "guests": {
-            "david-beazley": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "david-beazley"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -215,12 +215,12 @@
     {
         "date": "2015-06-23",
         "ep": "13",
-        "guests": {
-            "armin-ronacher": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "armin-ronacher"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Flask",
@@ -232,12 +232,12 @@
     {
         "date": "2015-06-30",
         "ep": "14",
-        "guests": {
-            "albert-sheu": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "albert-sheu"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "PHP",
@@ -249,12 +249,12 @@
     {
         "date": "2015-07-07",
         "ep": "15",
-        "guests": {
-            "lynn-root": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "lynn-root"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Spotify",
@@ -266,12 +266,12 @@
     {
         "date": "2015-07-14",
         "ep": "16",
-        "guests": {
-            "roy-rapoport": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "roy-rapoport"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Netflix"
@@ -282,12 +282,12 @@
     {
         "date": "2015-07-21",
         "ep": "17",
-        "guests": {
-            "damien-george": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "damien-george"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "MicroPython",
@@ -299,12 +299,12 @@
     {
         "date": "2015-07-28",
         "ep": "18",
-        "guests": {
-            "andreas-dewes": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "andreas-dewes"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -314,12 +314,12 @@
     {
         "date": "2015-08-04",
         "ep": "19",
-        "guests": {
-            "al-sweigart": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "al-sweigart"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -329,12 +329,12 @@
     {
         "date": "2015-08-11",
         "ep": "20",
-        "guests": {
-            "brad-miller": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "brad-miller"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -344,12 +344,12 @@
     {
         "date": "2015-08-18",
         "ep": "21",
-        "guests": {
-            "maciej-fijalkowski": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "maciej-fijalkowski"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "PyPy",
@@ -361,12 +361,12 @@
     {
         "date": "2015-08-25",
         "ep": "22",
-        "guests": {
-            "philip-guo": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "philip-guo"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Codewalk",
@@ -378,12 +378,12 @@
     {
         "date": "2015-09-01",
         "ep": "23",
-        "guests": {
-            "eli-ribble": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "eli-ribble"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Authentise",
@@ -395,12 +395,12 @@
     {
         "date": "2015-09-08",
         "ep": "24",
-        "guests": {
-            "luciano-ramalho": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "luciano-ramalho"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -410,12 +410,12 @@
     {
         "date": "2015-09-15",
         "ep": "25",
-        "guests": {
-            "brett-slatkin": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "brett-slatkin"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -425,12 +425,12 @@
     {
         "date": "2015-09-22",
         "ep": "26",
-        "guests": {
-            "matthew-makai": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "matthew-makai"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -440,12 +440,12 @@
     {
         "date": "2015-09-29",
         "ep": "27",
-        "guests": {
-            "laura-blankenship": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "laura-blankenship"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -455,12 +455,12 @@
     {
         "date": "2015-10-06",
         "ep": "28",
-        "guests": {
-            "davis-silverman": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "davis-silverman"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "HumanGeo",
@@ -473,12 +473,12 @@
     {
         "date": "2015-10-13",
         "ep": "29",
-        "guests": {
-            "kyle-cranmer": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "kyle-cranmer"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -488,12 +488,12 @@
     {
         "date": "2015-10-20",
         "ep": "30",
-        "guests": {
-            "jessica-mckellar": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "jessica-mckellar"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Dropbox"
@@ -504,12 +504,12 @@
     {
         "date": "2015-10-27",
         "ep": "31",
-        "guests": {
-            "alexandre-gramfort": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "alexandre-gramfort"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "scikit-learn"
@@ -520,12 +520,12 @@
     {
         "date": "2015-11-03",
         "ep": "32",
-        "guests": {
-            "ryan-kelly": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "ryan-kelly"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "PyPy"
@@ -536,12 +536,12 @@
     {
         "date": "2015-11-10",
         "ep": "33",
-        "guests": {
-            "flavio-percoco": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "flavio-percoco"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Openstack"
@@ -552,12 +552,12 @@
     {
         "date": "2015-11-17",
         "ep": "34",
-        "guests": {
-            "travis-oliphant": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "travis-oliphant"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Continuum",
@@ -569,12 +569,12 @@
     {
         "date": "2015-11-24",
         "ep": "35",
-        "guests": {
-            "alessandro-molina": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "alessandro-molina"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "TurboGears",
@@ -586,12 +586,12 @@
     {
         "date": "2015-12-01",
         "ep": "36",
-        "guests": {
-            "dmitry-trofimov": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "dmitry-trofimov"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "PyCharm",
@@ -604,12 +604,12 @@
     {
         "date": "2015-12-08",
         "ep": "37",
-        "guests": {
-            "justin-seitz": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "justin-seitz"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "OWASP"
@@ -620,12 +620,12 @@
     {
         "date": "2015-12-15",
         "ep": "38",
-        "guests": {
-            "florian-motlik": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "florian-motlik"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Codeship",
@@ -637,17 +637,17 @@
     {
         "date": "2015-12-22",
         "ep": "39",
-        "guests": {
-            "eric-chou": {},
-            "helio-correia": {},
-            "jess-unrein": {},
-            "jonathan-sundqvist": {},
-            "justin-beall": {},
-            "matt-yancey": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "jess-unrein",
+            "jonathan-sundqvist",
+            "helio-correia",
+            "matt-yancey",
+            "eric-chou",
+            "justin-beall"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -657,12 +657,12 @@
     {
         "date": "2015-12-29",
         "ep": "40",
-        "guests": {
-            "jonathon-morgan": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "jonathon-morgan"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -672,17 +672,17 @@
     {
         "date": "2016-01-12",
         "ep": "41",
-        "guests": {
-            "adylzhan-khashtamov": {},
-            "greg-langston": {},
-            "lorena-mesa": {},
-            "mahmoud-hashemi": {},
-            "roy-rapoport": {},
-            "shawn-milochik": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "shawn-milochik",
+            "mahmoud-hashemi",
+            "greg-langston",
+            "roy-rapoport",
+            "adylzhan-khashtamov",
+            "lorena-mesa"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -692,12 +692,12 @@
     {
         "date": "2016-01-19",
         "ep": "42",
-        "guests": {
-            "leah-culver": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "leah-culver"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Grove"
@@ -708,12 +708,12 @@
     {
         "date": "2016-01-26",
         "ep": "43",
-        "guests": {
-            "ron-cohen": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "ron-cohen"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Opbeat",
@@ -725,13 +725,13 @@
     {
         "date": "2016-02-02",
         "ep": "44",
-        "guests": {
-            "matthias-bussonnier": {},
-            "min-rk": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "matthias-bussonnier",
+            "min-rk"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Jupyter",
@@ -743,12 +743,12 @@
     {
         "date": "2016-02-09",
         "ep": "45",
-        "guests": {
-            "brian-okken": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "brian-okken"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "testing"
@@ -759,12 +759,12 @@
     {
         "date": "2016-02-16",
         "ep": "46",
-        "guests": {
-            "robert-blau": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "robert-blau"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "IronPython",
@@ -776,12 +776,12 @@
     {
         "date": "2016-02-23",
         "ep": "47",
-        "guests": {
-            "just-van-rossum": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "just-van-rossum"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Drawbot"
@@ -792,12 +792,12 @@
     {
         "date": "2016-03-01",
         "ep": "48",
-        "guests": {
-            "miguel-grinberg": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "miguel-grinberg"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Flask",
@@ -809,12 +809,12 @@
     {
         "date": "2016-03-08",
         "ep": "49",
-        "guests": {
-            "brett-cannon": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "brett-cannon"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Pyjion",
@@ -826,12 +826,12 @@
     {
         "date": "2016-03-15",
         "ep": "50",
-        "guests": {
-            "pablo-hoffman": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "pablo-hoffman"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Scrapy"
@@ -842,12 +842,12 @@
     {
         "date": "2016-03-21",
         "ep": "51",
-        "guests": {
-            "patrick-hayes": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "patrick-hayes"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "SigOpt"
@@ -858,12 +858,12 @@
     {
         "date": "2016-03-27",
         "ep": "52",
-        "guests": {
-            "kristinn-sigurbergsson": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "kristinn-sigurbergsson"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "EVE Online",
@@ -875,12 +875,12 @@
     {
         "date": "2016-04-06",
         "ep": "53",
-        "guests": {
-            "steve-dower": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "steve-dower"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "IDE"
@@ -891,12 +891,12 @@
     {
         "date": "2016-04-14",
         "ep": "54",
-        "guests": {
-            "mahmoud-hashemi": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "mahmoud-hashemi"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -906,12 +906,12 @@
     {
         "date": "2016-04-21",
         "ep": "55",
-        "guests": {
-            "kate-heddleston": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "kate-heddleston"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "diversity"
@@ -922,12 +922,12 @@
     {
         "date": "2016-04-27",
         "ep": "56",
-        "guests": {
-            "joel-grus": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "joel-grus"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "numpy"
@@ -938,12 +938,12 @@
     {
         "date": "2016-05-05",
         "ep": "57",
-        "guests": {
-            "david-stewart": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "david-stewart"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "PyPy"
@@ -954,12 +954,12 @@
     {
         "date": "2016-05-10",
         "ep": "58",
-        "guests": {
-            "mark-summerfield": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "mark-summerfield"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "concurrency"
@@ -970,12 +970,12 @@
     {
         "date": "2016-05-18",
         "ep": "59",
-        "guests": {
-            "william-stein": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "william-stein"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "SageMath",
@@ -989,12 +989,12 @@
     {
         "date": "2016-05-24",
         "ep": "60",
-        "guests": {
-            "braxton-mckee": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "braxton-mckee"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "Ufora"
@@ -1005,12 +1005,12 @@
     {
         "date": "2016-05-30",
         "ep": "61",
-        "guests": {
-            "pete-fein": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "pete-fein"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -1020,14 +1020,14 @@
     {
         "date": "2016-06-07",
         "ep": "62",
-        "guests": {
-            "brad-cunningham": {},
-            "ike-ellis": {},
-            "scott-reed": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "scott-reed",
+            "brad-cunningham",
+            "ike-ellis"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python"
         ],
@@ -1037,12 +1037,12 @@
     {
         "date": "2016-06-16",
         "ep": "63",
-        "guests": {
-            "austin-bingham": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "austin-bingham"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "TinyDB"
@@ -1053,12 +1053,12 @@
     {
         "date": "2016-06-24",
         "ep": "64",
-        "guests": {
-            "donald-stufft": {}
-        },
-        "hosts": {
-            "michael-kennedy": {}
-        },
+        "guests": [
+            "donald-stufft"
+        ],
+        "hosts": [
+            "michael-kennedy"
+        ],
         "keywords": [
             "Python",
             "PyPI",

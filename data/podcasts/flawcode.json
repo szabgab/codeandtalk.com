@@ -2,13 +2,13 @@
     {
         "date": "2016-09-18",
         "ep": "1",
-        "guests": {
-            "vijay-gabale": {}
-        },
-        "hosts": {
-            "kirti-singh": {},
-            "sherin-thomas": {}
-        },
+        "guests": [
+            "vijay-gabale"
+        ],
+        "hosts": [
+            "sherin-thomas",
+            "kirti-singh"
+        ],
         "keywords": [
             "Deep Learning"
         ],
@@ -18,14 +18,14 @@
     {
         "date": "2016-10-02",
         "ep": "2",
-        "guests": {
-            "abishek-surendran": {},
-            "debanjoli-sinha": {}
-        },
-        "hosts": {
-            "joydeep-bhattacharjee": {},
-            "kirti-singh": {}
-        },
+        "guests": [
+            "debanjoli-sinha",
+            "abishek-surendran"
+        ],
+        "hosts": [
+            "joydeep-bhattacharjee",
+            "kirti-singh"
+        ],
         "keywords": [
             "venture capitalism"
         ],
@@ -35,13 +35,13 @@
     {
         "date": "2016-10-16",
         "ep": "3",
-        "guests": {
-            "viral-b-shah": {}
-        },
-        "hosts": {
-            "joydeep-bhattacharjee": {},
-            "sherin-thomas": {}
-        },
+        "guests": [
+            "viral-b-shah"
+        ],
+        "hosts": [
+            "joydeep-bhattacharjee",
+            "sherin-thomas"
+        ],
         "keywords": [
             "open-source",
             "julia"
