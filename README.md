@@ -4,7 +4,7 @@
 List of tech conferences, podcasts, videos, people
 ==================================================
 
-For more details visit:
+For more details on CONTRIBUTING visit the respective files:
 
 [Events](docs/CONFERENCES.md)
 
