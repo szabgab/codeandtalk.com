@@ -8,9 +8,9 @@ Details of the fields
 name:               The name might need to include the country/city and the year. Check similar events.
 url:                http://...
 
-start_date:         2016-06-01
-end_date:           2016-06-02
-cfp_date:           2016-02-23     (Deadline for Call for Presentations if available) 
+event_start:         2016-06-01
+event_end:           2016-06-02
+cfp_end:           2016-02-23     (Deadline for Call for Presentations if available) 
 
 city:               Name of the city
 state:              Relevant in US, Brasil, Australia, India.   Possibly also in UK

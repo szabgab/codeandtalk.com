@@ -16,7 +16,7 @@ now_str = now.strftime('%Y-%m-%d')
 no_videos = ''
 no_youtube = ''
 on_vimeo = ''
-for e in sorted(cat['events'].values(), key=lambda e: e['start_date'], reverse=True):
+for e in sorted(cat['events'].values(), key=lambda e: e['event_start'], reverse=True):
     #exit(e)
     if e.get('videos_url'):
         continue
@@ -24,7 +24,7 @@ for e in sorted(cat['events'].values(), key=lambda e: e['start_date'], reverse=T
     youtube = e.get('youtube')
     vimeo = e.get('vimeo')
 
-    if e['end_date'] > now_str:
+    if e['event_end'] > now_str:
         if youtube:
             exit("ERROR. There is a youtube entry in a future event {}".format(e['nickname']))
         continue
@@ -32,11 +32,11 @@ for e in sorted(cat['events'].values(), key=lambda e: e['start_date'], reverse=T
     if youtube:
         if youtube != '-':
             if not os.path.exists('data/videos/' + e['nickname']):
-                no_videos += "--list {:30} -d {} -e {}\n".format( youtube, e['start_date'], e['nickname'])
+                no_videos += "--list {:30} -d {} -e {}\n".format( youtube, e['event_start'], e['nickname'])
     elif vimeo:
-        on_vimeo += "vimeo {} {}\n".format( e['start_date'], e['nickname'] )
+        on_vimeo += "vimeo {} {}\n".format( e['event_start'], e['nickname'] )
     else:
-        no_youtube += "{} {}\n".format( e['start_date'], e['nickname'] )
+        no_youtube += "{} {}\n".format( e['event_start'], e['nickname'] )
 
 if no_videos:
     print("Has youtube ID but videos were not included")

@@ -2,16 +2,16 @@
 
 <div><a href="{{ event['url'] }}">{{ event['name'] }}</a></div>
 
-{% if event['cfp_date'] %}
+{% if event['cfp_end'] %}
    <div>
-      <span>Call for Papers: {{ event['cfp_date'] }}</span>
+      <span>Call for Papers: {{ event['cfp_end'] }}</span>
       {% if event['tweet_cfp'] %}
          <a href="https://twitter.com/home?status={{ event['tweet_cfp'] }}" target="_blank">Tweet this cfp</a>
       {% endif %}
    </div>
 {% endif %}
-<div>Start date: {{ event['start_date'] }}</div>
-<div>End date: {{ event['end_date'] }}</div>
+<div>Start date: {{ event['event_start'] }}</div>
+<div>End date: {{ event['event_end'] }}</div>
 
 <div>Location:
   {% if event['city'] %}{{ event['city'] }}{% endif %}

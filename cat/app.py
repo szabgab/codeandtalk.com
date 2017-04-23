@@ -104,7 +104,7 @@ def all_conferences():
 def cfp_conferences():
     cat = _read_json(root + '/html/cat.json')
     now = datetime.now().strftime('%Y-%m-%d')
-    cfp = sorted(list(filter(lambda e: 'cfp_date' in e and e['cfp_date'] >= now, cat["events"].values())), key = lambda e: e['start_date'])
+    cfp = sorted(list(filter(lambda e: 'cfp_end' in e and e['cfp_end'] >= now, cat["events"].values())), key = lambda e: e['event_start'])
     return render_template('list.html',
         h1          = 'Call for Papers',
         title       = 'Call for Papers',
@@ -120,8 +120,8 @@ def code_of_conduct():
     return render_template('code-of-conduct.html',
         h1          = 'Code of Conduct',
         title       = 'Code of Conduct (or lack of it)',
-        conferences = list(filter(lambda x: x['start_date'] >= now, no_code)),
-        earlier_conferences = list(filter(lambda x: x['start_date'] < now, no_code)),
+        conferences = list(filter(lambda x: x['event_start'] >= now, no_code)),
+        earlier_conferences = list(filter(lambda x: x['event_start'] < now, no_code)),
         stats       = cat['stats'],
     )
 
@@ -134,8 +134,8 @@ def diversity_tickets():
     return render_template('diversity-tickets.html',
         h1          = 'Diversity Tickets',
         title       = 'Diversity Tickets',
-        conferences = list(filter(lambda e: e['start_date'] >= now, diversity_tickets)),
-        earlier_conferences = list(filter(lambda e: e['start_date'] < now, diversity_tickets)),
+        conferences = list(filter(lambda e: e['event_start'] >= now, diversity_tickets)),
+        earlier_conferences = list(filter(lambda e: e['event_start'] < now, diversity_tickets)),
         stats       = cat['stats'],
     )
 
@@ -627,7 +627,7 @@ def _read_json(filename):
 
 def _future(cat):
     now = datetime.now().strftime('%Y-%m-%d')
-    return sorted(list(filter(lambda e: e['start_date'] >= now, cat["events"].values())), key = lambda e: e['start_date'])
+    return sorted(list(filter(lambda e: e['event_start'] >= now, cat["events"].values())), key = lambda e: e['event_start'])
 
 def _calendar(prodid, events):
     dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
@@ -641,8 +641,8 @@ def _calendar(prodid, events):
     for e in events:
         cal += "BEGIN:VEVENT\r\n"
         cal += "DTSTAMP:{}\r\n".format(dtstamp)
-        cal += "DTSTART;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['start_date']))
-        cal += "DTEND;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['end_date']))
+        cal += "DTSTART;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['event_start']))
+        cal += "DTEND;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['event_end']))
         uid = re.sub(r'\W+', '-', e['url'])
         uid = re.sub(r'\W+$', '', uid)
         cal += "UID:{}\r\n".format(uid)
@@ -668,7 +668,7 @@ def events_by_tag(cat, tag):
     earlier = []
     for event in cat['events'].values():
         if tag in [ t['path'] for t in event['topics'] ]:
-            if event['start_date'] > now:
+            if event['event_start'] > now:
                 future.append(event)
             else:
                 earlier.append(event)
@@ -689,9 +689,9 @@ def events_in_location(cat, location):
 
     future = []
     past = []
-    for e in sorted(cat['events'].values(), key=lambda e: e['start_date']):
+    for e in sorted(cat['events'].values(), key=lambda e: e['event_start']):
         if e[page] == location:
-            if e['start_date'] >= now:
+            if e['event_start'] >= now:
                 future.append(e)
             else:
                 past.append(e)

@@ -13,7 +13,7 @@ Total: {{ conferences|length }} ({{stats.coc_future_perc}}% of future events hav
 </div>
 <ul>
 {% for c in conferences %}
-   <li>{{ c['start_date'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
+   <li>{{ c['event_start'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
 {% endfor %}
 </ul>
 
@@ -27,7 +27,7 @@ Total: {{ conferences|length }} ({{stats.coc_future_perc}}% of future events hav
   Total: {{ earlier_conferences|length }}
   </div>
   {% for c in earlier_conferences %}
-     <li>{{ c['start_date'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
+     <li>{{ c['event_start'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
   {% endfor %}
 {% endif %}
 

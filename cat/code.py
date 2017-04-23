@@ -202,8 +202,8 @@ class GenerateSite(object):
                             this[k] = v
 
                 date_format =  r'^\d\d\d\d-\d\d-\d\d$'
-                # TODO: add requirement for start_date and end_date
-                for f in ['start_date', 'end_date', 'cfp_date']:
+                # TODO: add requirement for event_start and event_end
+                for f in ['event_start', 'event_end', 'cfp_end']:
                     if f in this and this[f] and not re.search(date_format, this[f]):
                         raise Exception('Invalid {} {} in {}'.format(f, this[f], filename))
 
@@ -231,7 +231,7 @@ class GenerateSite(object):
                 this['topics'] = my_topics
 
                 this['cfp_class'] = 'cfp_none'
-                cfp = this.get('cfp_date', '')
+                cfp = this.get('cfp_end', '')
                 if cfp != '':
                     if cfp < self.now:
                         this['cfp_class'] = 'cfp_past'
@@ -258,7 +258,7 @@ class GenerateSite(object):
                         'future' : 0,
                     }
                 self.stats['cities'][city_page]['total'] += 1
-                if this['start_date'] >= self.now:
+                if this['event_start'] >= self.now:
                     self.stats['cities'][city_page]['future'] += 1
 
 
@@ -273,7 +273,7 @@ class GenerateSite(object):
                         'future' : 0,
                     }
                 self.stats['countries'][country_page]['total'] += 1
-                if this['start_date'] >= self.now:
+                if this['event_start'] >= self.now:
                     self.stats['countries'][country_page]['future'] += 1
 
                 for tag in this['topics']:
@@ -282,10 +282,10 @@ class GenerateSite(object):
                         raise Exception("Missing tag '{}'".format(p))
                     #self.tags[p]['events'].append(this)
                     self.tags[p]['total'] += 1
-                    if this['start_date'] >= self.now:
+                    if this['event_start'] >= self.now:
                         self.tags[p]['future'] += 1
                     #self.stats['tags'][p]['total'] += 1
-                    #if this['start_date'] >= self.now:
+                    #if this['event_start'] >= self.now:
                     #    self.stats['tags'][p]['future'] += 1
 
                 self.events[ this['nickname'] ] = this
@@ -480,7 +480,7 @@ class GenerateSite(object):
             event = {
                 'nickname'   : e['nickname'],
                 'name'       : e['name'],
-                'start_date' : e['start_date'],
+                'event_start' : e['event_start'],
             }
             for s in sorted(self.series.keys(), key=lambda s: len(s), reverse=True):
                 l = len(s)
@@ -495,7 +495,7 @@ class GenerateSite(object):
                 other.append(event)
 
         for s in self.series.keys():
-            self.series[s]['events'].sort(key=lambda x: x['start_date'])
+            self.series[s]['events'].sort(key=lambda x: x['event_start'])
         #self.event_in_series = {}
         #for e in self.series[s]['events']:
         #    self.event_in_series[ e['nickname'] ] = s
@@ -621,19 +621,19 @@ class GenerateSite(object):
 
             if event.get('diversitytickets'):
                 self.stats['has_diversity_tickets'] += 1
-                if event['start_date'] >= self.now:
+                if event['event_start'] >= self.now:
                     self.stats['has_diversity_tickets_future'] += 1
             if event.get('code_of_conduct'):
                 self.stats['has_coc'] += 1
-                if event['start_date'] >= self.now:
+                if event['event_start'] >= self.now:
                     self.stats['has_coc_future'] += 1
             if event.get('accessibility'):
                 self.stats['has_a11y']
-                if event['start_date'] >= self.now:
+                if event['event_start'] >= self.now:
                     self.stats['has_a11y_future'] += 1
 
-            if 'cfp_date' in event and event['cfp_date'] >= self.now:
-                tweet_cfp = 'The CfP of {} ends on {} see {} via https://codeandtalk.com/'.format(event['name'], event['cfp_date'], event['url'])
+            if 'cfp_end' in event and event['cfp_end'] >= self.now:
+                tweet_cfp = 'The CfP of {} ends on {} see {} via https://codeandtalk.com/'.format(event['name'], event['cfp_end'], event['url'])
                 if event['twitter']:
                     tweet_cfp += ' @' + event['twitter']
                 for t in event['topics']:
@@ -641,7 +641,7 @@ class GenerateSite(object):
                 event['tweet_cfp'] = urllib.parse.quote(tweet_cfp)
 
             tweet_me = event['name']
-            tweet_me += ' on ' + event['start_date']
+            tweet_me += ' on ' + event['event_start']
             tweet_me += ' in ' + event['city']
             if 'state' in event:
                 tweet_me += ', ' + event['state']
@@ -659,8 +659,8 @@ class GenerateSite(object):
 
     def preprocess_events(self):
         self.stats['total']  = len(self.events)
-        self.stats['future'] = len(list(filter(lambda x: x['start_date'] >= self.now, self.events.values())))
-        self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_date', '') >= self.now, self.events.values())))
+        self.stats['future'] = len(list(filter(lambda x: x['event_start'] >= self.now, self.events.values())))
+        self.stats['cfp']    = len(list(filter(lambda x: x.get('cfp_end', '') >= self.now, self.events.values())))
 
 
         self._add_events_to_series()

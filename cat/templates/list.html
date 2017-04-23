@@ -14,8 +14,8 @@
   <tbody>
     {% for c in conferences %}
     <tr id="{{ c['nickname'] }}">
-      <td>{{ c['start_date'] }}</td>
-      <td class="{{ c['cfp_class'] }}">{{ c['cfp_date'] }}</td>
+      <td>{{ c['event_start'] }}</td>
+      <td class="{{ c['cfp_class'] }}">{{ c['cfp_end'] }}</td>
       <td>{% if c['code_of_conduct'] %}<a href="{{ c['code_of_conduct'] }}"><i class="fa fa-thumbs-up"></i></a>{% endif %}</td>
       <td>{% if c['accessibility'] %}<a href="{{ c['accessibility'] }}"><i class="fa fa-universal-access"></i></a>{% endif %}</td>
       <td>{% if c['youtube'] %}<i class="fa fa-video-camera"></i>{% endif %}</td>
@@ -37,8 +37,8 @@
   <tbody>
     {% for c in earlier_conferences %}
     <tr>
-      <td>{{ c['start_date'] }}</td>
-      <td class="{{ c['cfp_class'] }}">{{ c['cfp_date'] }}</td>
+      <td>{{ c['event_start'] }}</td>
+      <td class="{{ c['cfp_class'] }}">{{ c['cfp_end'] }}</td>
       <td>{% if c['code_of_conduct'] %}<a href="{{ c['code_of_conduct'] }}"><i class="fa fa-thumbs-up"></i></a>{% endif %}</td>
       <td>{% if c['accessibility'] %}<a href="{{ c['accessibility'] }}"><i class="fa fa-universal-access"></i></a>{% endif %}</td>
       <td>{% if c['youtube'] %}<i class="fa fa-video-camera"></i>{% endif %}</td>
