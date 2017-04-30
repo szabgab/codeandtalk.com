@@ -81,6 +81,12 @@ class TestCat(unittest.TestCase):
         assert b'<a href="/v/jsinsa-2016/feature-toggle-a-js-app-by-charlene-tshitoka">' in rv.data
         assert b'<a href="/p/charlene-tshitoka">Charlene Tshitoka</a>' in rv.data
         self.assertIn(b'<div>No <a href="/diversity-tickets"><b>Diversity Tickets</b></a></div>', rv.data)
+        assert b'<h2>Related events:</h2>' in rv.data
+        assert b'<a href="/e/jsinsa-2012">jsinsa - JavaScript in South Africa 2012</a>' in rv.data
+
+        rv = self.app.get('/e/mojoconf-2014')
+        assert rv.status == '200 OK'
+        assert b'<h2>Related events:</h2>' not in rv.data
 
         rv = self.app.get('/e/script-2017')
         self.assertEqual(rv.status, '200 OK')

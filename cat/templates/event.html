@@ -57,4 +57,15 @@
 </div>
 {% endif %}
 
+{% if series %}
+<h2>Related events:</h2>
+<ul>
+   {% for e in series.events | sort(attribute = 'name') %}
+      {% if event['name'] != e.name %}
+         <li><a href="/e/{{e.nickname}}">{{e.name}}</a></li>
+       {% endif %}
+   {% endfor %}
+</ul>
+{% endif %}
+
 {% include 'incl/footer.html' %}
