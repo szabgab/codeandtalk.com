@@ -155,6 +155,8 @@ redirect to the current or upcoming event).
 
 * On the speaker page include the Twitter and GitHub IDs of each speaker.
 
+* https://www.sli.do/ Seems like a nice way to collect questions and get the audience vote for them.
+
 
 Ideas for Conferences and other events
 ---------------------------------------
