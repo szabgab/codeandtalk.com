@@ -432,6 +432,9 @@ def event(nickname):
             p = copy.deepcopy(cat['people'][s])
             p['nickname'] = s
             people[s] = p
+    series = []
+    if 'series' in event:
+        series = copy.deepcopy(cat['series'][event['series']])
 
 #    return(str(event))
     return render_template('event.html',
@@ -440,6 +443,7 @@ def event(nickname):
         event = event,
         people = people,
         videos = videos,
+        series = series,
     )
 
 @catapp.route("/l/<location>")

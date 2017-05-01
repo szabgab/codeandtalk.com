@@ -117,12 +117,12 @@ class GenerateSite(object):
         cat = {
             'people'   : copy.deepcopy(self.people),
             'videos'   : copy.deepcopy(self.videos),
-            'events'   : copy.deepcopy(self.events),
             'blasters' : copy.deepcopy(self.blasters),
         }
 
         self.preprocess_events()
 
+        cat['events'] =  copy.deepcopy(self.events)
         cat['tags']  = copy.deepcopy(self.tags)
         cat['stats'] = copy.deepcopy(self.stats)
         cat['series'] = copy.deepcopy(self.series)
@@ -487,6 +487,7 @@ class GenerateSite(object):
                 if event['nickname'][0:l] == s:
                     self.series[s]['events'].append(event)
                     event['series'] = s
+                    e['series'] = s
                     break
             else:
                 #TODO: create series for every event and then turn on the exception?
