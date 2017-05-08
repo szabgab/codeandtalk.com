@@ -5,7 +5,7 @@
 {% endif %}
 
 {% if video.videos[0].type == 'ustream' %}
-    <iframe id="youtube" src="http://www.ustream.tv/embed/recorded/{{ video.videos[0].code }}?html5ui" scrolling="no" allowfullscreen webkitallowfullscreen frameborder="0" style="border: 0 none transparent;"></iframe>
+    <iframe id="youtube" src="https://www.ustream.tv/embed/recorded/{{ video.videos[0].code }}?html5ui" scrolling="no" allowfullscreen webkitallowfullscreen frameborder="0" style="border: 0 none transparent;"></iframe>
 {% endif %}
 
 <div>{{video.description|safe}}</div>
