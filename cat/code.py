@@ -704,6 +704,10 @@ class GenerateSite(object):
                     raise Exception("Invalid language '{}' in video data/videos/{}/{}.json".format(video['language'], video['event'], video['filename']))
                 video['title'] += ' (' + video['language'] + ')'
 
+            if 'length' in video and video['length'] != "":
+                if not re.search(r'(\d?\d:)\d\d$', video['length']):
+                    raise Exception("Invalid format in length field '{}' in data/videos/{}/{}.json".format(video['length'], video['event'], video['filename']))
+
     def check_people(self):
         """
             Go over all the files in the data/people directory and check if all the fields are in the list of valid_fields
