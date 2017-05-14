@@ -1,5 +1,5 @@
 How to add an event:
-There is a file called `data/skeleton-event.txt`. Use that to create the appropriate file in data/events/
+There is a file called `data/skeleton-event.json`. Use that to create the appropriate file in data/events/
 
 Details of the fields
 ------------------------
