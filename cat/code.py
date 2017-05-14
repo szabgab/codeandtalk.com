@@ -169,37 +169,20 @@ class GenerateSite(object):
                 name, continent = line.rstrip("\n").split(",")
                 countries.append(name)
 
-        for filename in glob.glob(self.data + '/events/*.txt'):
+        for filename in glob.glob(self.data + '/events/*.json'):
             if filename[len(self.root):] != filename[len(self.root):].lower():
                 raise Exception("filename '{}' is not all lower case".format(filename))
             #print("Reading {}".format(filename))
             conf = {}
             try:
-                this = {}
+                with open(filename, encoding="utf-8") as fh:
+                    this = json.load(fh)
+
                 nickname = os.path.basename(filename)
-                nickname = nickname[0:-4]
+                nickname = nickname[0:-5]
                 #print(nickname)
                 this['nickname'] = nickname
                 this['file_date'] = datetime.fromtimestamp( os.path.getctime(filename) ).strftime('%Y-%m-%d')
-                with open(filename, encoding="utf-8") as fh:
-                    for line in fh:
-                        line = line.rstrip('\n')
-
-                        # Avoid trailing spaces in event files
-                        #if re.search(r'\s\Z', line):
-                        #    print("Trailing space in '{}' {}".format(line, filename))
-                        #    raise Exception("Trailing space in '{}' {}".format(line, filename))
-
-                        if re.search(r'\A\s*#', line):
-                            continue
-                        if re.search(r'\A\s*\Z', line):
-                            continue
-                        line = re.sub(r'\s+\Z', '', line)
-                        k,v = re.split(r'\s*:\s*', line, maxsplit=1)
-                        if k in this:
-                            print("Duplicate field '{}' in {}".format(k, filename))
-                        else:
-                            this[k] = v
 
                 date_format =  r'^\d\d\d\d-\d\d-\d\d$'
                 # TODO: add requirement for event_start and event_end
