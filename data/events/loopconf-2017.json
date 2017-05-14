@@ -1,15 +1,17 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Salt Lake City",
     "code_of_conduct": "https://loopconf.com/code-conduct/",
-    "country": "USA",
     "event_end": "2017-02-08",
     "event_start": "2017-02-06",
     "facebook": "",
     "languages": "English",
+    "location": {
+        "city": "Salt Lake City",
+        "country": "USA",
+        "state": "Utah"
+    },
     "name": "LoopConf 2017",
-    "state": "Utah",
     "tags": [
         "wordpress",
         "php"

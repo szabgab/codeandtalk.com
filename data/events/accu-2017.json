@@ -1,16 +1,18 @@
 {
     "accessibility": "",
     "cfp_end": "2016-12-02",
-    "city": "Bristol",
     "code_of_conduct": "https://conference.accu.org/site/stories/coc_code_of_conduct.html",
-    "country": "UK",
     "diversitytickets": "",
     "event_end": "2017-04-29",
     "event_start": "2017-04-25",
     "facebook": "",
     "languages": "English",
+    "location": {
+        "city": "Bristol",
+        "country": "UK",
+        "state": "England"
+    },
     "name": "ACCU 2017",
-    "state": "England",
     "tags": [
         "c++",
         "dlang"

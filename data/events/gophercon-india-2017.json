@@ -1,15 +1,17 @@
 {
     "accessibility": "",
     "cfp_end": "2016-11-30",
-    "city": "Pune",
     "code_of_conduct": "http://www.gophercon.in/code-of-conduct/",
-    "country": "India",
     "event_end": "2017-02-25",
     "event_start": "2017-02-24",
     "facebook": "",
     "languages": "English",
+    "location": {
+        "city": "Pune",
+        "country": "India",
+        "state": "Maharashtra"
+    },
     "name": "GopherCon India 2017",
-    "state": "Maharashtra",
     "tags": [
         "go",
         "golang"

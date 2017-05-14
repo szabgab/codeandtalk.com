@@ -1,15 +1,17 @@
 {
     "cfp_end": "2017-03-05",
-    "city": "Kyiv",
     "code_of_conduct": "http://2017.rustfest.eu/code-of-conduct/",
-    "country": "Ukraine",
     "diversitytickets": "15",
     "event_end": "2017-04-30",
     "event_start": "2017-04-29",
     "facebook": "",
     "languages": "English",
+    "location": {
+        "city": "Kyiv",
+        "country": "Ukraine",
+        "state": ""
+    },
     "name": "RustFest 2017",
-    "state": "",
     "tags": [
         "rust"
     ],

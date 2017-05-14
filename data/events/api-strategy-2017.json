@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Portland",
     "code_of_conduct": "http://events.linuxfoundation.org/content/code-conduct-4",
     "comment": "",
-    "country": "USA",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "https://www.facebook.com/linuxfoundationevents",
     "hashtag": "apistrat",
     "languages": "English",
+    "location": {
+        "city": "Portland",
+        "country": "USA",
+        "state": "Oregon"
+    },
     "name": "API Strategy & Practice 2017",
-    "state": "Oregon",
     "tags": [],
     "twitter": "eventsLF",
     "url": "http://events.linuxfoundation.org/events/open-compliance-summit",

@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Portland",
     "code_of_conduct": "https://2016.oshwa.org/code-of-conduct/",
     "comment": "",
-    "country": "USA",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "",
     "hashtag": "",
     "languages": "English",
+    "location": {
+        "city": "Portland",
+        "country": "USA",
+        "state": "Oregon"
+    },
     "name": "Open Source Hardware Summit 2016",
-    "state": "Oregon",
     "tags": [],
     "twitter": "ohsummit",
     "url": "https://2016.oshwa.org/",

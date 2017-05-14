@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Tel Aviv",
     "code_of_conduct": "",
     "comment": "",
-    "country": "Israel",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "https://www.facebook.com/openstackbeyond",
     "hashtag": "",
     "languages": "English",
+    "location": {
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "state": ""
+    },
     "name": "Openstack Day Israel 2017",
-    "state": "",
     "tags": [
         "openstack"
     ],

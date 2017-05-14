@@ -1,17 +1,19 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "San Francisco",
     "code_of_conduct": "http://confcodeofconduct.com/",
-    "country": "USA",
     "diversitytickets": "",
     "event_end": "2016-02-10",
     "event_start": "2016-02-10",
     "facebook": "",
     "languages": "English",
+    "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "state": "California"
+    },
     "name": "Forward JS 2016",
     "private_comments": "there has no playlist, but a single track- https://www.youtube.com/watch?v=Kf2u8BLMyU4&t=9s",
-    "state": "California",
     "tags": [
         "javascript",
         "frontend"

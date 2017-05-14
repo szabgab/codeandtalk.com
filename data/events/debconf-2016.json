@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Cape Town",
     "code_of_conduct": "https://debconf.org/codeofconduct.shtml",
     "comment": "",
-    "country": "South Africa",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "",
     "hashtag": "",
     "languages": "English",
+    "location": {
+        "city": "Cape Town",
+        "country": "South Africa",
+        "state": ""
+    },
     "name": "DebConf 2016",
-    "state": "",
     "tags": [],
     "twitter": "",
     "url": "https://debconf16.debconf.org/",

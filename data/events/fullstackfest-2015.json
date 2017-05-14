@@ -1,16 +1,18 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Barcelona",
     "code_of_conduct": "http://2015.fullstackfest.com/our-values",
-    "country": "Spain",
     "diversitytickets": "",
     "event_end": "2015-09-05",
     "event_start": "2015-09-01",
     "facebook": "",
     "languages": "English",
+    "location": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "state": ""
+    },
     "name": "Fullstack Fest 2015",
-    "state": "",
     "tags": [
         "ruby",
         "javascript"

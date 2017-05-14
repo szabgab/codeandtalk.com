@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "2017-05-01",
-    "city": "Denver",
     "code_of_conduct": "https://2017.oshwa.org/code-of-conduct/",
     "comment": "",
-    "country": "USA",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "",
     "hashtag": "",
     "languages": "English",
+    "location": {
+        "city": "Denver",
+        "country": "USA",
+        "state": "Colorado"
+    },
     "name": "Open Source Hardware Summit 2017",
-    "state": "Colorado",
     "tags": [],
     "twitter": "ohsummit",
     "url": "https://2017.oshwa.org/",

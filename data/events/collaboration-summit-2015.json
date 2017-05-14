@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Santa Rosa",
     "code_of_conduct": "http://events.linuxfoundation.org/events/archive/2015/collaboration-summit/attend/code-of-conduct",
     "comment": "",
-    "country": "USA",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "http://www.facebook.com/TheLinuxFoundation",
     "hashtag": "lfcollab",
     "languages": "English",
+    "location": {
+        "city": "Santa Rosa",
+        "country": "USA",
+        "state": "California"
+    },
     "name": "Collaboration Summit 2015",
-    "state": "California",
     "tags": [
         "open-source"
     ],

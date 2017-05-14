@@ -1,16 +1,18 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "London",
     "code_of_conduct": "",
-    "country": "UK",
     "diversitytickets": "",
     "event_end": "2009-12-05",
     "event_start": "2009-12-05",
     "facebook": "",
     "languages": "English",
+    "location": {
+        "city": "London",
+        "country": "UK",
+        "state": "England"
+    },
     "name": "London Perl Workshop 2009",
-    "state": "England",
     "tags": [
         "perl"
     ],

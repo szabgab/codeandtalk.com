@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "2017-04-03",
-    "city": "Las Vegas",
     "code_of_conduct": "",
     "comment": "",
-    "country": "USA",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "https://www.facebook.com/Black-Hat-Events-107691635153/",
     "hashtag": "",
     "languages": "English",
+    "location": {
+        "city": "Las Vegas",
+        "country": "USA",
+        "state": "Nevada"
+    },
     "name": "BlackHat USA 2017",
-    "state": "Nevada",
     "tags": [
         "security"
     ],

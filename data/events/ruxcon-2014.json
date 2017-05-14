@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Melbourne",
     "code_of_conduct": "",
     "comment": "",
-    "country": "Australia",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "http://www.facebook.com/groups/ruxcon",
     "hashtag": "",
     "languages": "English",
+    "location": {
+        "city": "Melbourne",
+        "country": "Australia",
+        "state": "Victoria"
+    },
     "name": "Ruxcon 2014",
-    "state": "Victoria",
     "tags": [
         "security"
     ],

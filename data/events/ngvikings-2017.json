@@ -1,16 +1,18 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Copenhagen",
     "code_of_conduct": "https://ngvikings.org/cod/",
-    "country": "Denmark",
     "diversitytickets": "",
     "event_end": "2017-02-12",
     "event_start": "2017-02-11",
     "facebook": "https://www.facebook.com/ngVikings",
     "languages": "English",
+    "location": {
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "state": ""
+    },
     "name": "ngVikings 2017",
-    "state": "",
     "tags": [
         "javascript",
         "nodejs"

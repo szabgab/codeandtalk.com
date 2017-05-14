@@ -1,17 +1,19 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Chicago",
     "code_of_conduct": "https://mongodb.com/community-code-of-conduct",
-    "country": "USA",
     "diversitytickets": "",
     "event_end": "2017-06-21",
     "event_start": "2017-06-20",
     "facebook": "https://facebook.com/mongodb",
     "hashtag": "MDBW17",
     "languages": "English",
+    "location": {
+        "city": "Chicago",
+        "country": "USA",
+        "state": "IL"
+    },
     "name": "MongoDB World 17",
-    "state": "IL",
     "tags": [
         "mongodb"
     ],

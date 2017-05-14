@@ -1,14 +1,16 @@
 {
     "cfp_end": "",
-    "city": "Sofia",
     "code_of_conduct": "http://www.bgphp.org/bgphp16/code-of-conduct/",
-    "country": "Bulgaria",
     "event_end": "2016-10-09",
     "event_start": "2016-10-07",
     "facebook": "",
     "languages": "English",
+    "location": {
+        "city": "Sofia",
+        "country": "Bulgaria",
+        "state": ""
+    },
     "name": "Bulgaria PHP Conference",
-    "state": "",
     "tags": [
         "php"
     ],

@@ -1,15 +1,17 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Nashville",
     "code_of_conduct": "",
-    "country": "USA",
     "event_end": "2014-11-16",
     "event_start": "2014-11-15",
     "facebook": "https://www.facebook.com/nodevember",
     "languages": "English",
+    "location": {
+        "city": "Nashville",
+        "country": "USA",
+        "state": "Tennessee"
+    },
     "name": "Nodevember 2014",
-    "state": "Tennessee",
     "tags": [
         "nodejs",
         "javascript"

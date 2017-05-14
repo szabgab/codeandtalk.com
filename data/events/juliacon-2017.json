@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Berkeley",
     "code_of_conduct": "http://juliacon.org/2017/coc",
     "comment": "",
-    "country": "USA",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "",
     "hashtag": "JuliaCon2017",
     "languages": "English",
+    "location": {
+        "city": "Berkeley",
+        "country": "USA",
+        "state": "California"
+    },
     "name": "JuliaCon 2017",
-    "state": "California",
     "tags": [],
     "twitter": "",
     "url": "http://juliacon.org/2017/",

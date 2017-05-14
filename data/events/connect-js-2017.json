@@ -1,14 +1,16 @@
 {
     "cfp_end": "2017-04-30",
-    "city": "Atlanta",
     "code_of_conduct": "http://connect-js.com/conduct.html",
-    "country": "USA",
     "event_end": "2017-10-22",
     "event_start": "2017-10-20",
     "facebook": "",
     "languages": "English",
+    "location": {
+        "city": "Atlanta",
+        "country": "USA",
+        "state": "Georgia"
+    },
     "name": "Connect.Tech 2017",
-    "state": "Georgia",
     "tags": [
         "javascript",
         "mobile",

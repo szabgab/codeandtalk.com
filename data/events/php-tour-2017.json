@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Nantes",
     "code_of_conduct": "http://event.afup.org/php-tour-2016/code-de-conduite/?lang=en",
     "comment": "",
-    "country": "France",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "",
     "hashtag": "",
     "languages": "English",
+    "location": {
+        "city": "Nantes",
+        "country": "France",
+        "state": ""
+    },
     "name": "PHP Tour 2017",
-    "state": "",
     "tags": [
         "php"
     ],

@@ -1,16 +1,18 @@
 {
     "accessibility": "",
     "cfp_end": "2017-01-14",
-    "city": "Cambridge",
     "code_of_conduct": "http://events.linuxfoundation.org/events/vault/attend/code-of-conduct",
-    "country": "USA",
     "diversitytickets": "",
     "event_end": "2017-03-23",
     "event_start": "2017-03-22",
     "facebook": "https://www.facebook.com/TheLinuxFoundation",
     "languages": "English",
+    "location": {
+        "city": "Cambridge",
+        "country": "USA",
+        "state": "Massachusetts"
+    },
     "name": "Vault",
-    "state": "Massachusetts",
     "tags": [
         "linux-related-storage-and-filesystems"
     ],

@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Portsmouth",
     "code_of_conduct": "https://2015.phpsouthcoast.co.uk/code-of-conduct/",
     "comment": "",
-    "country": "UK",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "",
     "hashtag": "",
     "languages": "English",
+    "location": {
+        "city": "Portsmouth",
+        "country": "UK",
+        "state": ""
+    },
     "name": "PHP South Coast 2015",
-    "state": "",
     "tags": [
         "php"
     ],

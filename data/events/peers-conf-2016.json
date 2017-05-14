@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "St. Petersburg",
     "code_of_conduct": "http://peersconf.com/code-of-conduct",
     "comment": "",
-    "country": "USA",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "",
     "hashtag": "",
     "languages": "English",
+    "location": {
+        "city": "St. Petersburg",
+        "country": "USA",
+        "state": "Florida"
+    },
     "name": "Peers Conference 2016",
-    "state": "Florida",
     "tags": [
         "web"
     ],

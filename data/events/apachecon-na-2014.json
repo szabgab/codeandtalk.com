@@ -1,16 +1,18 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Denver",
     "code_of_conduct": "http://events.linuxfoundation.org/event-code-of-conduct",
-    "country": "USA",
     "diversitytickets": "",
     "event_end": "2014-04-09",
     "event_start": "2014-04-07",
     "facebook": "https://www.facebook.com/TheLinuxFoundation",
     "languages": "English",
+    "location": {
+        "city": "Denver",
+        "country": "USA",
+        "state": "Colorado"
+    },
     "name": "ApacheCon North America 2014",
-    "state": "Colorado",
     "tags": [
         "opensource",
         "community"

@@ -1,16 +1,18 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Austin",
     "code_of_conduct": "https://www.keeprubyweird.com/code-of-conduct.html",
-    "country": "USA",
     "diversitytickets": "",
     "event_end": "2016-10-28",
     "event_start": "2016-10-28",
     "facebook": "",
     "languages": "English",
+    "location": {
+        "city": "Austin",
+        "country": "USA",
+        "state": "Texas"
+    },
     "name": "Keep Ruby Weird 2016",
-    "state": "Texas",
     "tags": [
         "ruby"
     ],

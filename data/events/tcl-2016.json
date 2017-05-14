@@ -1,14 +1,16 @@
 {
     "cfp_end": "",
-    "city": "Houston",
     "code_of_conduct": "",
-    "country": "USA",
     "event_end": "2016-11-18",
     "event_start": "2016-11-14",
     "facebook": "",
     "languages": "English",
+    "location": {
+        "city": "Houston",
+        "country": "USA",
+        "state": "Texas"
+    },
     "name": "Tcl/Tk Conference - 2016",
-    "state": "Texas",
     "tags": [
         "tcl",
         "tk",

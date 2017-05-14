@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Berlin",
     "code_of_conduct": "https://www.netways.de/en/events/osdc/code_of_conduct/",
     "comment": "",
-    "country": "Germany",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "",
     "hashtag": "",
     "languages": "English",
+    "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "state": ""
+    },
     "name": "OSDC 2017",
-    "state": "",
     "tags": [],
     "twitter": "netways",
     "url": "https://www.netways.de/en/events/osdc/overview/",

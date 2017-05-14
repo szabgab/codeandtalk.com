@@ -1,12 +1,14 @@
 {
     "cfp_end": "2015-03-31",
-    "city": "Seattle",
-    "country": "USA",
     "event_end": "2015-09-12",
     "event_start": "2015-09-10",
     "languages": "English",
+    "location": {
+        "city": "Seattle",
+        "country": "USA",
+        "state": "Washington"
+    },
     "name": "Pacific Northwest PHP 2015",
-    "state": "Washington",
     "tags": [
         "php",
         "web"

@@ -1,16 +1,18 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Paris",
     "code_of_conduct": "",
-    "country": "France",
     "diversitytickets": "",
     "event_end": "2015-04-10",
     "event_start": "2015-04-08",
     "facebook": "",
     "languages": "French, English",
+    "location": {
+        "city": "Paris",
+        "country": "France",
+        "state": ""
+    },
     "name": "Devoxx France 2015",
-    "state": "",
     "tags": [
         "javascript",
         "frontend"

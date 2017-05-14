@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Seattle",
     "code_of_conduct": "http://seagl.org/code_of_conduct.html",
     "comment": "",
-    "country": "USA",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "https://www.facebook.com/SeattleGnuLinuxConference",
     "hashtag": "",
     "languages": "English",
+    "location": {
+        "city": "Seattle",
+        "country": "USA",
+        "state": "Washington"
+    },
     "name": "SeaGL",
-    "state": "Washington",
     "tags": [],
     "twitter": "seagl",
     "url": "http://seagl.org/",

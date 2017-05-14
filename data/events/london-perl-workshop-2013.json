@@ -1,16 +1,18 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "London",
     "code_of_conduct": "",
-    "country": "UK",
     "diversitytickets": "",
     "event_end": "2013-11-30",
     "event_start": "2013-11-30",
     "facebook": "",
     "languages": "English",
+    "location": {
+        "city": "London",
+        "country": "UK",
+        "state": "England"
+    },
     "name": "London Perl Workshop 2013",
-    "state": "England",
     "tags": [
         "perl"
     ],

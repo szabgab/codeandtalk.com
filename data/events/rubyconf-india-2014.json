@@ -1,16 +1,18 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Goa",
     "code_of_conduct": "",
-    "country": "India",
     "diversitytickets": "",
     "event_end": "2014-03-23",
     "event_start": "2014-03-22",
     "facebook": "https://www.facebook.com/rubyconfindia",
     "languages": "English",
+    "location": {
+        "city": "Goa",
+        "country": "India",
+        "state": "Goa"
+    },
     "name": "RubyConf India 2014",
-    "state": "Goa",
     "tags": [
         "ruby",
         "rails"

@@ -1,11 +1,13 @@
 {
-    "city": "Seattle",
-    "country": "USA",
     "event_end": "2016-09-17",
     "event_start": "2016-09-15",
     "languages": "English",
+    "location": {
+        "city": "Seattle",
+        "country": "USA",
+        "state": "Washington"
+    },
     "name": "Pacific Northwest PHP 2016",
-    "state": "Washington",
     "tags": [
         "php",
         "web"

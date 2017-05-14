@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Pittsburgh",
     "code_of_conduct": "http://abstractions.io/policies/#code-of-conduct",
     "comment": "",
-    "country": "USA",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "https://www.facebook.com/abstractionscon",
     "hashtag": "abstractions",
     "languages": "English",
+    "location": {
+        "city": "Pittsburgh",
+        "country": "USA",
+        "state": "Pennsylvania"
+    },
     "name": "Abstractions 2016",
-    "state": "Pennsylvania",
     "tags": [],
     "twitter": "abstractionscon",
     "url": "http://abstractions.io/",

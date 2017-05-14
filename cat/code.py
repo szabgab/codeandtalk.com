@@ -191,10 +191,13 @@ class GenerateSite(object):
                     if f in this and this[f] and not re.search(date_format, this[f]):
                         raise Exception('Invalid {} {} in {}'.format(f, this[f], filename))
 
-                if not 'country' in this or not this['country']:
+                if not 'location' in this or not this['location']:
+                    raise Exception('Location is missing from {}'.format(this))
+                location = this['location']
+                if not 'country' in location or not location['country']:
                     raise Exception('Country is missing from {}'.format(this))
-                if this['country'] not in countries:
-                    raise Exception("Country '{}' is not yet(?) in our list".format(this['country']))
+                if location['country'] not in countries:
+                    raise Exception("Country '{}' is not yet(?) in our list".format(location['country']))
 
                 diversity = this.get('diversitytickets')
                 if diversity:
@@ -222,16 +225,19 @@ class GenerateSite(object):
                     else:
                         this['cfp_class'] = 'cfp_future'
 
-                if 'city' not in this or not this['city']:
-                    raise Exception("City is missing from {}".format(this))
-                city_name = '{}, {}'.format(this['city'], this['country'])
-                city_page = topic2path('{} {}'.format(this['city'], this['country']))
+                if 'location' not in this or not this['location']:
+                    raise Exception("Location is missing from {}".format(this))
+                location = this['location']
+                if 'city' not in location or not location['city']:
+                    raise Exception("City is missing from {}".format(location))
+                city_name = '{}, {}'.format(location['city'], location['country'])
+                city_page = topic2path('{} {}'.format(location['city'], location['country']))
                 # In some countries we require a state:
-                if this['country'] in ['Australia', 'Brasil', 'India', 'USA']:
-                    if 'state' not in this or not this['state']:
+                if location['country'] in ['Australia', 'Brasil', 'India', 'USA']:
+                    if 'state' not in location or not location['state']:
                         raise Exception('State is missing from {}'.format(this))
-                    city_name = '{}, {}, {}'.format(this['city'], this['state'], this['country'])
-                    city_page = topic2path('{} {} {}'.format(this['city'], this['state'], this['country']))
+                    city_name = '{}, {}, {}'.format(location['city'], location['state'], location['country'])
+                    city_page = topic2path('{} {} {}'.format(location['city'], location['state'], location['country']))
                 this['city_name'] = city_name
                 this['city_page'] = city_page
 
@@ -246,7 +252,7 @@ class GenerateSite(object):
                     self.stats['cities'][city_page]['future'] += 1
 
 
-                country_name = this['country']
+                country_name = location['country']
                 country_page = re.sub(r'\s+', '-', country_name.lower())
                 this['country_page'] = country_page
 
@@ -627,10 +633,10 @@ class GenerateSite(object):
 
             tweet_me = event['name']
             tweet_me += ' on ' + event['event_start']
-            tweet_me += ' in ' + event['city']
+            tweet_me += ' in ' + event['location']['city']
             if 'state' in event:
-                tweet_me += ', ' + event['state']
-            tweet_me += ' ' + event['country']
+                tweet_me += ', ' + event['location']['state']
+            tweet_me += ' ' + event['location']['country']
             if event['twitter']:
                 tweet_me += ' @' + event['twitter']
             tweet_me += " " + event['url']

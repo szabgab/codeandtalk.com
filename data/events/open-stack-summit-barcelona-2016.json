@@ -1,15 +1,17 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Barcelona",
     "code_of_conduct": "https://www.openstack.org/summit/barcelona-2016/code-of-conduct/",
-    "country": "Spain",
     "event_end": "2016-10-28",
     "event_start": "2016-10-25",
     "facebook": "https://www.facebook.com/openstack",
     "languages": "English",
+    "location": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "state": ""
+    },
     "name": "Open Stack Summit 2016",
-    "state": "",
     "tags": [
         "openstack"
     ],

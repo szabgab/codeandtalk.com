@@ -1,16 +1,18 @@
 {
     "accessibility": "",
     "cfp_end": "2017-06-01",
-    "city": "Berlin",
     "code_of_conduct": "http://berlincodeofconduct.org/",
-    "country": "Germany",
     "diversitytickets": "",
     "event_end": "2017-11-11",
     "event_start": "2017-11-09",
     "facebook": "https://www.facebook.com/MeetingCpp",
     "languages": "English",
+    "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "state": ""
+    },
     "name": "Meeting C++ 2017",
-    "state": "",
     "tags": [
         "c++"
     ],

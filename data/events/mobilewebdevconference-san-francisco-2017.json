@@ -1,16 +1,18 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "San Francisco",
     "code_of_conduct": "",
-    "country": "USA",
     "diversitytickets": "",
     "event_end": "2017-03-03",
     "event_start": "2017-03-01",
     "facebook": "https://www.facebook.com/GSMIweb",
     "languages": "English",
+    "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "state": "California"
+    },
     "name": "Mobile+Web DevCon 2017",
-    "state": "California",
     "tags": [
         "javascript",
         "frontend",

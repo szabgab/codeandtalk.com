@@ -1,16 +1,18 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Bratislava",
     "code_of_conduct": "",
-    "country": "Slovakia",
     "diversitytickets": "",
     "event_end": "2016-10-26",
     "event_start": "2016-10-25",
     "facebook": "",
     "languages": "English",
+    "location": {
+        "city": "Bratislava",
+        "country": "Slovakia",
+        "state": ""
+    },
     "name": "Euro Clojure 2016",
-    "state": "",
     "tags": [
         "clojure"
     ],

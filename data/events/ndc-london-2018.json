@@ -1,17 +1,19 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "London",
     "code_of_conduct": "http://ndc-london.com/page/code-of-conduct",
-    "country": "UK",
     "diversitytickets": "",
     "event_end": "2018-01-19",
     "event_start": "2018-01-15",
     "facebook": "https://www.facebook.com/ndcconferences",
     "hashtag": "ndclondon",
     "languages": "English",
+    "location": {
+        "city": "London",
+        "country": "UK",
+        "state": "England"
+    },
     "name": "NDC London 2018",
-    "state": "England",
     "tags": [
         "frontend",
         "agile"

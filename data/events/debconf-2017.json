@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Montreal",
     "code_of_conduct": "https://debconf.org/codeofconduct.shtml",
     "comment": "",
-    "country": "Canada",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -13,8 +11,12 @@
     "facebook": "",
     "hashtag": "",
     "languages": "English",
+    "location": {
+        "city": "Montreal",
+        "country": "Canada",
+        "state": "Quebec"
+    },
     "name": "DebConf 2017",
-    "state": "Quebec",
     "tags": [],
     "twitter": "",
     "url": "https://debconf17.debconf.org/",

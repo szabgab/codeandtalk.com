@@ -1,15 +1,17 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Melbourne",
     "code_of_conduct": "",
-    "country": "Australia",
     "event_end": "2015-03-07",
     "event_start": "2015-03-05",
     "facebook": "https://www.facebook.com/drupalsouth",
     "languages": "English",
+    "location": {
+        "city": "Melbourne",
+        "country": "Australia",
+        "state": "Victoria"
+    },
     "name": "DrupalSouth 2015",
-    "state": "Victoria",
     "tags": [
         "drupal",
         "php",

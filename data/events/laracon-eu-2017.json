@@ -1,15 +1,17 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "Amsterdam",
     "code_of_conduct": "https://laracon.eu/2017/about/code-of-conduct/",
-    "country": "The Netherlands",
     "event_end": "2017-08-30",
     "event_start": "2017-08-28",
     "facebook": "",
     "languages": "English",
+    "location": {
+        "city": "Amsterdam",
+        "country": "The Netherlands",
+        "state": ""
+    },
     "name": "Laracon EU 2017",
-    "state": "",
     "tags": [
         "laravel",
         "php",
