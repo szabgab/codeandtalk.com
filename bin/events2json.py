@@ -3,6 +3,8 @@ import glob
 import re
 import os
 
+# one time script converting txt files to json files
+
 for event_file in glob.glob("data/events/*.txt"):
     #print(event_file)
     json_file = event_file[:-3] + 'json'
