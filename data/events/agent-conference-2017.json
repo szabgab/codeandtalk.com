@@ -6,7 +6,9 @@
     "event_end": "2017-01-21",
     "event_start": "2017-01-20",
     "facebook": "https://www.facebook.com/agentsh",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Dornbirn",
         "country": "Austria",
@@ -19,6 +21,6 @@
         "frontend"
     ],
     "twitter": "agent_dot_sh",
-    "url": "http://www.agent.sh/",
+    "website": "http://www.agent.sh/",
     "youtube": ""
 }

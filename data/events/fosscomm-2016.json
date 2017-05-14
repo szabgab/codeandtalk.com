@@ -5,7 +5,10 @@
     "event_end": "2016-11-12",
     "event_start": "2016-11-10",
     "facebook": "https://www.facebook.com/fosscomm",
-    "languages": "Greek, English",
+    "languages": [
+        "Greek",
+        "English"
+    ],
     "location": {
         "city": "Piraeus",
         "country": "Greece",
@@ -15,6 +18,6 @@
     "private_comments": "found only this video, https://www.youtube.com/watch?v=f6Npy3qP8SQ",
     "tags": [],
     "twitter": "Fosscomm2016",
-    "url": "http://fosscomm.cs.unipi.gr/",
+    "website": "http://fosscomm.cs.unipi.gr/",
     "youtube": ""
 }

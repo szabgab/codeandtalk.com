@@ -4,7 +4,9 @@
     "event_end": "2018-03-09",
     "event_start": "2018-03-10",
     "facebook": "https://www.facebook.com/midwestconf",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Minneapolis",
         "country": "USA",
@@ -16,5 +18,5 @@
         "web"
     ],
     "twitter": "midwestphp",
-    "url": "https://2018.midwestphp.org/"
+    "website": "https://2018.midwestphp.org/"
 }

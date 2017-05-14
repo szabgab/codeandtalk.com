@@ -5,7 +5,10 @@
     "event_end": "2017-10-11",
     "event_start": "2017-10-06",
     "facebook": "",
-    "languages": "Portuguese, English",
+    "languages": [
+        "Portuguese",
+        "English"
+    ],
     "location": {
         "city": "Belo Horizonte",
         "country": "Brasil",
@@ -16,6 +19,6 @@
         "python"
     ],
     "twitter": "pythonbrasil",
-    "url": "http://2017.pythonbrasil.org.br/",
-    "videos_url": "http://pyvideo.org/"
+    "videos_url": "http://pyvideo.org/",
+    "website": "http://2017.pythonbrasil.org.br/"
 }

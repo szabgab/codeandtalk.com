@@ -4,7 +4,9 @@
     "event_end": "2017-03-12",
     "event_start": "2017-03-07",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "San Francisco",
         "country": "USA",
@@ -17,5 +19,5 @@
         "web"
     ],
     "twitter": "reactathon",
-    "url": "http://reactathon.com/"
+    "website": "http://reactathon.com/"
 }

@@ -10,7 +10,9 @@
     "event_start": "2017-10-05",
     "facebook": "",
     "hashtag": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Denver",
         "country": "USA",
@@ -19,6 +21,6 @@
     "name": "Open Source Hardware Summit 2017",
     "tags": [],
     "twitter": "ohsummit",
-    "url": "https://2017.oshwa.org/",
+    "website": "https://2017.oshwa.org/",
     "youtube": ""
 }

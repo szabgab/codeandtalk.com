@@ -6,7 +6,9 @@
     "event_end": "2017-10-26",
     "event_start": "2017-10-23",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Las Vegas",
         "country": "USA",
@@ -17,6 +19,6 @@
         "php"
     ],
     "twitter": "zendcon",
-    "url": "http://www.zendcon.com",
+    "website": "http://www.zendcon.com",
     "youtube": ""
 }

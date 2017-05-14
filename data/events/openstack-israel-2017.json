@@ -10,7 +10,9 @@
     "event_start": "2017-06-05",
     "facebook": "https://www.facebook.com/openstackbeyond",
     "hashtag": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Tel Aviv",
         "country": "Israel",
@@ -21,6 +23,6 @@
         "openstack"
     ],
     "twitter": "openstackil",
-    "url": "http://www.openstack-israel.org/",
+    "website": "http://www.openstack-israel.org/",
     "youtube": ""
 }

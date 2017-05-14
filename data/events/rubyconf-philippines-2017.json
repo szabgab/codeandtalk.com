@@ -6,7 +6,9 @@
     "event_end": "2017-03-18",
     "event_start": "2017-03-16",
     "facebook": "https://www.facebook.com/rubyconfph",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Tagbilaran",
         "country": "Philippines",
@@ -18,6 +20,6 @@
         "rails"
     ],
     "twitter": "rubyconfph",
-    "url": "http://rubyconf.ph/",
+    "website": "http://rubyconf.ph/",
     "youtube": ""
 }

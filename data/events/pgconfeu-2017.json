@@ -6,7 +6,9 @@
     "event_end": "2017-11-27",
     "event_start": "2017-11-24",
     "facebook": "https://www.facebook.com/PGConf.EU",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Warsaw",
         "country": "Poland",
@@ -18,6 +20,6 @@
         "databases"
     ],
     "twitter": "pgconfeu",
-    "url": "http://2017.pgconf.eu/",
+    "website": "http://2017.pgconf.eu/",
     "youtube": ""
 }

@@ -6,7 +6,10 @@
     "event_end": "2012-09-29",
     "event_start": "2012-09-27",
     "facebook": "",
-    "languages": "Japanes, English",
+    "languages": [
+        "Japanes",
+        "English"
+    ],
     "location": {
         "city": "Tokyo",
         "country": "Japan",
@@ -17,6 +20,6 @@
         "perl"
     ],
     "twitter": "yapcasia",
-    "url": "http://yapcasia.org/2012/",
+    "website": "http://yapcasia.org/2012/",
     "youtube": ""
 }

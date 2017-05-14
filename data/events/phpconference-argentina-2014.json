@@ -6,7 +6,10 @@
     "event_end": "2014-11-08",
     "event_start": "2014-11-07",
     "facebook": "",
-    "languages": "Spanish, English",
+    "languages": [
+        "Spanish",
+        "English"
+    ],
     "location": {
         "city": "Buenos Aires",
         "country": "Argentina",
@@ -17,6 +20,6 @@
         "php"
     ],
     "twitter": "phpconferencear",
-    "url": "http://www.phpconference.com.ar/",
+    "website": "http://www.phpconference.com.ar/",
     "youtube": ""
 }

@@ -6,7 +6,9 @@
     "event_end": "2017-03-23",
     "event_start": "2017-03-22",
     "facebook": "https://www.facebook.com/TheLinuxFoundation",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Cambridge",
         "country": "USA",
@@ -17,6 +19,6 @@
         "linux-related-storage-and-filesystems"
     ],
     "twitter": "linuxfoundation",
-    "url": "http://events.linuxfoundation.org/events/vault/",
+    "website": "http://events.linuxfoundation.org/events/vault/",
     "youtube": ""
 }

@@ -6,7 +6,10 @@
     "event_end": "2016-05-14",
     "event_start": "2016-05-13",
     "facebook": "https://www.facebook.com/phpDay-243655080964/",
-    "languages": "Italian, English",
+    "languages": [
+        "Italian",
+        "English"
+    ],
     "location": {
         "city": "Verona",
         "country": "Italy",
@@ -19,6 +22,6 @@
         "web"
     ],
     "twitter": "phpday",
-    "url": "http://2016.phpday.it/",
+    "website": "http://2016.phpday.it/",
     "youtube": ""
 }

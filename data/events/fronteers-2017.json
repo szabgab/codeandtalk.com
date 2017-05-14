@@ -5,7 +5,9 @@
     "event_end": "2017-10-06",
     "event_start": "2017-10-05",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Amsterdam",
         "country": "The Netherlands",
@@ -17,6 +19,6 @@
         "frontend"
     ],
     "twitter": "FronteersConf",
-    "url": "https://fronteers.nl/congres/2017",
-    "vimeo": ""
+    "vimeo": "",
+    "website": "https://fronteers.nl/congres/2017"
 }

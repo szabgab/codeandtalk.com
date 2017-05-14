@@ -6,7 +6,10 @@
     "event_end": "2007-04-05",
     "event_start": "2007-04-04",
     "facebook": "",
-    "languages": "Japanese, English",
+    "languages": [
+        "Japanese",
+        "English"
+    ],
     "location": {
         "city": "Tokyo",
         "country": "Japan",
@@ -17,6 +20,6 @@
         "perl"
     ],
     "twitter": "yapcasia",
-    "url": "http://tokyo2007.yapcasia.org/",
+    "website": "http://tokyo2007.yapcasia.org/",
     "youtube": "PL8CD7EFCE30B6D634"
 }

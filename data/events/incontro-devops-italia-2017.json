@@ -6,7 +6,10 @@
     "event_end": "2017-03-10",
     "event_start": "2017-03-10",
     "facebook": "https://www.facebook.com/incontrodevops/",
-    "languages": "English, Italian",
+    "languages": [
+        "English",
+        "Italian"
+    ],
     "location": {
         "city": "Bologna",
         "country": "Italy",
@@ -27,6 +30,6 @@
         "it-operating-models"
     ],
     "twitter": "",
-    "url": "http://www.incontrodevops.it/events/idi2017/",
+    "website": "http://www.incontrodevops.it/events/idi2017/",
     "youtube": ""
 }

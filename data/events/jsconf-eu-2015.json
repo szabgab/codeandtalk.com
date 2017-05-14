@@ -5,7 +5,9 @@
     "event_end": "2015-09-27",
     "event_start": "2015-09-25",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Berlin",
         "country": "Germany",
@@ -17,6 +19,6 @@
         "web"
     ],
     "twitter": "jsconfeu",
-    "url": "http://2015.jsconf.eu/",
+    "website": "http://2015.jsconf.eu/",
     "youtube": "PL37ZVnwpeshH37NxpV6XbgdDpY-w48hMd"
 }

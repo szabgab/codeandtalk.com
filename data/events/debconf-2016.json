@@ -10,7 +10,9 @@
     "event_start": "2016-07-02",
     "facebook": "",
     "hashtag": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Cape Town",
         "country": "South Africa",
@@ -19,6 +21,6 @@
     "name": "DebConf 2016",
     "tags": [],
     "twitter": "",
-    "url": "https://debconf16.debconf.org/",
+    "website": "https://debconf16.debconf.org/",
     "youtube": ""
 }

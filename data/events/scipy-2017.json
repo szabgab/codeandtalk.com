@@ -7,7 +7,9 @@
     "event_start": "2017-07-10",
     "facebook": "https://www.facebook.com/scipyconf",
     "hashtag": "SciPy2017",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Austin",
         "country": "USA",
@@ -18,6 +20,6 @@
         "python"
     ],
     "twitter": "SciPyConf",
-    "url": "http://scipy2017.scipy.org/",
+    "website": "http://scipy2017.scipy.org/",
     "youtube": ""
 }

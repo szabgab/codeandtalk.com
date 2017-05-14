@@ -500,7 +500,7 @@ class GenerateSite(object):
             video['event'] = {
                 'name'     : self.events[ video['event'] ]['name'],
                 'nickname' : self.events[ video['event'] ]['nickname'],
-                'url'      : self.events[ video['event'] ]['url'],
+                'website'  : self.events[ video['event'] ]['website'],
                 'twitter'  : self.events[ video['event'] ]['twitter'],  
             }
 
@@ -624,7 +624,7 @@ class GenerateSite(object):
                     self.stats['has_a11y_future'] += 1
 
             if 'cfp_end' in event and event['cfp_end'] >= self.now:
-                tweet_cfp = 'The CfP of {} ends on {} see {} via https://codeandtalk.com/'.format(event['name'], event['cfp_end'], event['url'])
+                tweet_cfp = 'The CfP of {} ends on {} see {} via https://codeandtalk.com/'.format(event['name'], event['cfp_end'], event['website'])
                 if event['twitter']:
                     tweet_cfp += ' @' + event['twitter']
                 for t in event['topics']:
@@ -639,7 +639,7 @@ class GenerateSite(object):
             tweet_me += ' ' + event['location']['country']
             if event['twitter']:
                 tweet_me += ' @' + event['twitter']
-            tweet_me += " " + event['url']
+            tweet_me += " " + event['website']
             for t in event['topics']:
                 tweet_me += ' #' + t['name']
             #tweet_me += ' via @codeandtalk'

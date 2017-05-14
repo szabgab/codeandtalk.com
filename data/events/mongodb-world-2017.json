@@ -7,7 +7,9 @@
     "event_start": "2017-06-20",
     "facebook": "https://facebook.com/mongodb",
     "hashtag": "MDBW17",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Chicago",
         "country": "USA",
@@ -18,6 +20,6 @@
         "mongodb"
     ],
     "twitter": "mongodb",
-    "url": "https://www.mongodb.com/world17/",
+    "website": "https://www.mongodb.com/world17/",
     "youtube": ""
 }

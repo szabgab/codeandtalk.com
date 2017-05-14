@@ -6,7 +6,9 @@
     "event_end": "2017-05-19",
     "event_start": "2017-05-17",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "London",
         "country": "UK",
@@ -18,6 +20,6 @@
         "continuous-delivery"
     ],
     "twitter": "ConLifecycleLon",
-    "url": "http://continuouslifecycle.london/",
+    "website": "http://continuouslifecycle.london/",
     "youtube": ""
 }

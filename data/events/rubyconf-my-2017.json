@@ -6,7 +6,9 @@
     "event_end": "2017-01-13",
     "event_start": "2017-10-12",
     "facebook": "https://www.facebook.com/groups/klxrb",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Kuala Lumpur",
         "country": "Malaysia",
@@ -17,6 +19,6 @@
         "ruby"
     ],
     "twitter": "rubyconfmy",
-    "url": "http://rubyconf.my/",
+    "website": "http://rubyconf.my/",
     "youtube": "-"
 }

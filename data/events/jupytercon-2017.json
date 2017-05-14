@@ -6,7 +6,9 @@
     "event_end": "2017-08-23",
     "event_start": "2017-08-22",
     "facebook": "https://www.facebook.com/OReilly",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "New York",
         "country": "USA",
@@ -18,6 +20,6 @@
         "python"
     ],
     "twitter": "JupyterCon",
-    "url": "https://conferences.oreilly.com/jupyter/jup-ny",
+    "website": "https://conferences.oreilly.com/jupyter/jup-ny",
     "youtube": ""
 }

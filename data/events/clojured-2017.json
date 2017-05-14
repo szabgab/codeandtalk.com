@@ -6,7 +6,9 @@
     "event_end": "2017-02-25",
     "event_start": "2017-02-25",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Berlin",
         "country": "Germany",
@@ -17,5 +19,5 @@
         "clojure"
     ],
     "twitter": "clojuredconf",
-    "url": "http://www.clojured.de/"
+    "website": "http://www.clojured.de/"
 }

@@ -6,7 +6,9 @@
     "event_end": "2017-05-17",
     "event_start": "2017-05-17",
     "facebook": "https://www.facebook.com/DevOpsConference",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Tallin",
         "country": "Estonia",
@@ -17,6 +19,6 @@
         "devops"
     ],
     "twitter": "DevOps_Topconf",
-    "url": "http://topconf.com/devops-tallinn-2017/",
+    "website": "http://topconf.com/devops-tallinn-2017/",
     "youtube": ""
 }

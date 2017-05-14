@@ -6,7 +6,9 @@
     "event_end": "2017-11-04",
     "event_start": "2017-11-03",
     "facebook": "https://www.facebook.com/JSconfCo",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Medellin",
         "country": "Colombia",
@@ -17,6 +19,6 @@
         "javascript"
     ],
     "twitter": "jsconfco",
-    "url": "https://jsconf.co/",
+    "website": "https://jsconf.co/",
     "youtube": ""
 }

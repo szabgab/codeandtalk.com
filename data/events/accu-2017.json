@@ -6,7 +6,9 @@
     "event_end": "2017-04-29",
     "event_start": "2017-04-25",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Bristol",
         "country": "UK",
@@ -18,6 +20,6 @@
         "dlang"
     ],
     "twitter": "ACCUConf",
-    "url": "https://accu.org/index.php/conferences/accu_conference_2017",
+    "website": "https://accu.org/index.php/conferences/accu_conference_2017",
     "youtube": ""
 }

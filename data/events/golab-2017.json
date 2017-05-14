@@ -5,7 +5,9 @@
     "event_end": "2017-01-21",
     "event_start": "2017-01-20",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Firenze",
         "country": "Italy",
@@ -17,5 +19,5 @@
         "golang"
     ],
     "twitter": "golab_conf",
-    "url": "http://golab.io/"
+    "website": "http://golab.io/"
 }

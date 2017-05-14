@@ -6,7 +6,9 @@
     "event_end": "2017-06-15",
     "event_start": "2017-06-13",
     "facebook": "https://www.facebook.com/cloudfoundry",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Santa Clara",
         "country": "USA",
@@ -15,6 +17,6 @@
     "name": "Cloud Foundry Summit 2017",
     "tags": [],
     "twitter": "cloudfoundry",
-    "url": "https://www.cloudfoundry.org/summit2017/",
+    "website": "https://www.cloudfoundry.org/summit2017/",
     "youtube": ""
 }

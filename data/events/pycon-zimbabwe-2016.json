@@ -6,7 +6,9 @@
     "event_end": "2016-11-25",
     "event_start": "2016-11-24",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Harare",
         "country": "Zimbabwe",
@@ -15,7 +17,7 @@
     "name": "PyCon Zimbabwe 2016",
     "tags": [],
     "twitter": "pycon_zim",
-    "url": "http://zw.pycon.org/",
     "videos_url": "http://pyvideo.org/",
+    "website": "http://zw.pycon.org/",
     "youtube": ""
 }

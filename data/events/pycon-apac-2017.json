@@ -7,7 +7,9 @@
     "event_start": "2017-08-26",
     "facebook": "https://www.facebook.com/groups/pyconmy",
     "hashtag": "PyConAPAC2017",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Kuala Lumpur",
         "country": "Malaysia",
@@ -18,6 +20,6 @@
         "python"
     ],
     "twitter": "pyconmy",
-    "url": "https://pycon.my/",
+    "website": "https://pycon.my/",
     "youtube": ""
 }

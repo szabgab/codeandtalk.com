@@ -6,7 +6,9 @@
     "event_end": "2016-11-04",
     "event_start": "2016-11-01",
     "facebook": "https://www.facebook.com/PGConf.EU",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Tallinn",
         "country": "Estonia",
@@ -18,6 +20,6 @@
         "databases"
     ],
     "twitter": "pgconfeu",
-    "url": "http://2016.pgconf.eu/",
+    "website": "http://2016.pgconf.eu/",
     "youtube": "-"
 }

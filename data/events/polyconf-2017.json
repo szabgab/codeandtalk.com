@@ -4,7 +4,9 @@
     "event_end": "2017-07-09",
     "event_start": "2017-07-07",
     "facebook": "https://www.facebook.com/polyconf",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Paris",
         "country": "France",
@@ -18,6 +20,6 @@
         "elm"
     ],
     "twitter": "polyconfhq",
-    "url": "http://polyconf.com/",
+    "website": "http://polyconf.com/",
     "youtube": ""
 }

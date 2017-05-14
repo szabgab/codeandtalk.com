@@ -6,7 +6,9 @@
     "event_end": "2017-09-02",
     "event_start": "2017-09-02",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Tampere",
         "country": "Finland",
@@ -17,6 +19,6 @@
         "clojure"
     ],
     "twitter": "clojutre",
-    "url": "http://clojutre.org/2017/",
+    "website": "http://clojutre.org/2017/",
     "youtube": ""
 }

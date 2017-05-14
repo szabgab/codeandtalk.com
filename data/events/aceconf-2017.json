@@ -6,7 +6,9 @@
     "event_end": "2017-05-12",
     "event_start": "2017-05-11",
     "facebook": "https://www.facebook.com/aceconferencepoland",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Krakow",
         "country": "Poland",
@@ -20,6 +22,6 @@
         "kanban"
     ],
     "twitter": "aceconf",
-    "url": "http://aceconf.com/",
+    "website": "http://aceconf.com/",
     "youtube": ""
 }

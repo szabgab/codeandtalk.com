@@ -5,7 +5,9 @@
     "event_end": "2015-10-02",
     "event_start": "2015-10-02",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "New York",
         "country": "USA",
@@ -17,6 +19,6 @@
         "golang"
     ],
     "twitter": "gothamgo",
-    "url": "http://gothamgo.com/",
+    "website": "http://gothamgo.com/",
     "youtube": "PLeGxIOPLk9ELh9tsPZMzau6CzMjfMzp9-"
 }

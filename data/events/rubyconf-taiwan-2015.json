@@ -6,7 +6,10 @@
     "event_end": "2015-09-12",
     "event_start": "2015-09-11",
     "facebook": "https://www.facebook.com/rubyconftw",
-    "languages": "Chinese, English",
+    "languages": [
+        "Chinese",
+        "English"
+    ],
     "location": {
         "city": "Taipei",
         "country": "Taiwan",
@@ -17,6 +20,6 @@
         "ruby"
     ],
     "twitter": "rubyconftw",
-    "url": "http://2015.rubyconf.tw/",
+    "website": "http://2015.rubyconf.tw/",
     "youtube": "PLhKZ4RWngmpDVKgAH_p_X7gtLSGsvmMJj , PLhKZ4RWngmpCKAOhazFj7jE2iezHjZ4Jv"
 }

@@ -5,7 +5,9 @@
     "event_end": "2017-02-25",
     "event_start": "2017-02-24",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Pune",
         "country": "India",
@@ -17,5 +19,5 @@
         "golang"
     ],
     "twitter": "GopherConIndia",
-    "url": "http://www.gophercon.in/"
+    "website": "http://www.gophercon.in/"
 }

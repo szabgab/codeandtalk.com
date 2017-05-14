@@ -10,7 +10,9 @@
     "event_start": "2017-11-15",
     "facebook": "",
     "hashtag": "suricon",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Prague",
         "country": "Czech Republic",
@@ -21,6 +23,6 @@
         "security"
     ],
     "twitter": "Suricata_IDS",
-    "url": "https://suricon.net",
+    "website": "https://suricon.net",
     "youtube": ""
 }

@@ -4,7 +4,10 @@
     "event_end": "2017-04-09",
     "event_start": "2017-04-06",
     "facebook": "https://www.facebook.com/pyconitalia",
-    "languages": "English, Italian",
+    "languages": [
+        "English",
+        "Italian"
+    ],
     "location": {
         "city": "Florence",
         "country": "Italy",
@@ -15,6 +18,6 @@
         "python"
     ],
     "twitter": "pyconit",
-    "url": "https://www.pycon.it/en/",
-    "videos_url": ""
+    "videos_url": "",
+    "website": "https://www.pycon.it/en/"
 }

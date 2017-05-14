@@ -10,7 +10,9 @@
     "event_start": "2017-08-06",
     "facebook": "",
     "hashtag": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Montreal",
         "country": "Canada",
@@ -19,6 +21,6 @@
     "name": "DebConf 2017",
     "tags": [],
     "twitter": "",
-    "url": "https://debconf17.debconf.org/",
+    "website": "https://debconf17.debconf.org/",
     "youtube": ""
 }

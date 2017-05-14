@@ -5,7 +5,9 @@
     "event_end": "2017-04-28",
     "event_start": "2017-04-24",
     "facebook": "https://www.facebook.com/DrupalCon",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Baltimore",
         "country": "USA",
@@ -18,5 +20,5 @@
         "web"
     ],
     "twitter": "DrupalConEUR",
-    "url": "https://events.drupal.org/baltimore2017"
+    "website": "https://events.drupal.org/baltimore2017"
 }

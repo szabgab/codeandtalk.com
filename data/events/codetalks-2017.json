@@ -6,7 +6,10 @@
     "event_end": "2017-04-28",
     "event_start": "2017-04-27",
     "facebook": "",
-    "languages": "German, English",
+    "languages": [
+        "German",
+        "English"
+    ],
     "location": {
         "city": "Berlin",
         "country": "Germany",
@@ -18,6 +21,6 @@
         "mobile"
     ],
     "twitter": "codetalkshh",
-    "url": "https://www.codetalks.com/",
+    "website": "https://www.codetalks.com/",
     "youtube": ""
 }

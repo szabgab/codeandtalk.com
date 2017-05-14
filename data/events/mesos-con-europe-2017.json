@@ -6,7 +6,9 @@
     "event_end": "2017-10-27",
     "event_start": "2017-10-26",
     "facebook": "https://www.facebook.com/linuxfoundationevents",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Prague",
         "country": "Czech Republic",
@@ -17,6 +19,6 @@
         "opensource"
     ],
     "twitter": "eventsLF",
-    "url": "http://events.linuxfoundation.org/events/mesoscon-europe",
+    "website": "http://events.linuxfoundation.org/events/mesoscon-europe",
     "youtube": ""
 }

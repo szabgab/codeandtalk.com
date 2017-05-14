@@ -10,7 +10,9 @@
     "event_start": "2017-05-18",
     "facebook": "",
     "hashtag": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Nantes",
         "country": "France",
@@ -21,6 +23,6 @@
         "php"
     ],
     "twitter": "",
-    "url": "http://event.afup.org/?lang=en",
+    "website": "http://event.afup.org/?lang=en",
     "youtube": ""
 }

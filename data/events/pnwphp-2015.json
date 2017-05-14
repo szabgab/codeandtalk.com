@@ -2,7 +2,9 @@
     "cfp_end": "2015-03-31",
     "event_end": "2015-09-12",
     "event_start": "2015-09-10",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Seattle",
         "country": "USA",
@@ -14,5 +16,5 @@
         "web"
     ],
     "twitter": "pnwphp",
-    "url": "http://www.pnwphp.com/"
+    "website": "http://www.pnwphp.com/"
 }

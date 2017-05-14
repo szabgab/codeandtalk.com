@@ -7,7 +7,9 @@
     "event_start": "2016-03-14",
     "facebook": "https://www.facebook.com/linuxfoundationevents",
     "hashtag": "ONS2016",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Santa Clara",
         "country": "USA",
@@ -19,6 +21,6 @@
         "opensource"
     ],
     "twitter": "eventsLF",
-    "url": "http://events.linuxfoundation.org/events/archive/2016/open-networking-summit",
+    "website": "http://events.linuxfoundation.org/events/archive/2016/open-networking-summit",
     "youtube": "PLGeM09tlguZQo9qAFIxF_TpNxlfGgJVUN"
 }

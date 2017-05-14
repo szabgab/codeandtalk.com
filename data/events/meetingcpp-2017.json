@@ -6,7 +6,9 @@
     "event_end": "2017-11-11",
     "event_start": "2017-11-09",
     "facebook": "https://www.facebook.com/MeetingCpp",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Berlin",
         "country": "Germany",
@@ -17,6 +19,6 @@
         "c++"
     ],
     "twitter": "meetingcpp",
-    "url": "http://meetingcpp.com/index.php/mcpp2017.html",
+    "website": "http://meetingcpp.com/index.php/mcpp2017.html",
     "youtube": ""
 }

@@ -7,7 +7,9 @@
     "event_start": "2015-08-19",
     "facebook": "https://www.facebook.com/linuxfoundationevents",
     "hashtag": "kvmforum",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Seattle",
         "country": "USA",
@@ -18,6 +20,6 @@
         "opensource"
     ],
     "twitter": "eventsLF",
-    "url": "http://events.linuxfoundation.org/events/archive/2015/kvm-forum",
+    "website": "http://events.linuxfoundation.org/events/archive/2015/kvm-forum",
     "youtube": "PLW3ep1uCIRfyLNSu708gWG7uvqlolk0ep"
 }

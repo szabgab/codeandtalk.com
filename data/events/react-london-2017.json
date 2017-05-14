@@ -5,7 +5,9 @@
     "event_end": "2017-03-28",
     "event_start": "2017-03-28",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "London",
         "country": "UK",
@@ -18,5 +20,5 @@
         "web"
     ],
     "twitter": "ReactLondon_",
-    "url": "https://react.london/"
+    "website": "https://react.london/"
 }

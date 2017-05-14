@@ -6,7 +6,9 @@
     "event_end": "2017-04-28",
     "event_start": "2017-04-25",
     "facebook": "https://www.facebook.com/craftconference",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Budapest",
         "country": "Hungary",
@@ -20,6 +22,6 @@
         "agile"
     ],
     "twitter": "CraftConf",
-    "url": "https://craft-conf.com/2017/",
+    "website": "https://craft-conf.com/2017/",
     "youtube": ""
 }

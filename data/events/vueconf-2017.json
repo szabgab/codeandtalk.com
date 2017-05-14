@@ -6,7 +6,9 @@
     "event_end": "2017-06-30",
     "event_start": "2017-06-30",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Wroc\u0142aw",
         "country": "Poland",
@@ -19,6 +21,6 @@
         "frontend"
     ],
     "twitter": "vueconf",
-    "url": "https://conf.vuejs.org/",
+    "website": "https://conf.vuejs.org/",
     "youtube": ""
 }

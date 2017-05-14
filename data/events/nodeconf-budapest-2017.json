@@ -6,7 +6,9 @@
     "event_end": "2017-01-20",
     "event_start": "2017-01-19",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Budapest",
         "country": "Hungary",
@@ -18,6 +20,6 @@
         "javascript"
     ],
     "twitter": "nodeconfbp",
-    "url": "https://nodeconf.risingstack.com/",
+    "website": "https://nodeconf.risingstack.com/",
     "youtube": ""
 }

@@ -6,7 +6,9 @@
     "event_end": "2012-10-26",
     "event_start": "2012-10-23",
     "facebook": "https://www.facebook.com/PGConf.EU",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Prague",
         "country": "Czech Republic",
@@ -18,6 +20,6 @@
         "databases"
     ],
     "twitter": "pgconfeu",
-    "url": "http://2012.pgconf.eu/",
+    "website": "http://2012.pgconf.eu/",
     "youtube": "-"
 }

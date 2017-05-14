@@ -10,7 +10,9 @@
     "event_start": "2013-04-15",
     "facebook": "http://www.facebook.com/TheLinuxFoundation",
     "hashtag": "lfcollab",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "San francisco",
         "country": "USA",
@@ -21,6 +23,6 @@
         "open-source"
     ],
     "twitter": "linuxfoundation",
-    "url": "http://events.linuxfoundation.org/events/archive/2013/collaboration-summit",
+    "website": "http://events.linuxfoundation.org/events/archive/2013/collaboration-summit",
     "youtube": "PLbzoR-pLrL6rJBHF8lj3lLdSykXWzRmKO"
 }

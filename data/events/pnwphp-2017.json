@@ -3,7 +3,9 @@
     "description": "A 3-day event in the Pacific Northwest region of the United States for PHP and Web developers. Past conferences have included world renown speakers from the PHP community, about a wide range of topics \u2014 from APIs and CMS to unit testing and version control.",
     "event_end": "2017-09-09",
     "event_start": "2017-09-07",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Seattle",
         "country": "USA",
@@ -15,5 +17,5 @@
         "web"
     ],
     "twitter": "pnwphp",
-    "url": "http://www.pnwphp.com/"
+    "website": "http://www.pnwphp.com/"
 }

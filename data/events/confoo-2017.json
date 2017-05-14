@@ -4,7 +4,9 @@
     "event_end": "2017-03-10",
     "event_start": "2017-03-08",
     "facebook": "https://www.facebook.com/confoo.ca",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Montreal",
         "country": "Canada",
@@ -16,5 +18,5 @@
         "web"
     ],
     "twitter": "confooca",
-    "url": "https://confoo.ca/en/yul2017"
+    "website": "https://confoo.ca/en/yul2017"
 }

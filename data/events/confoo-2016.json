@@ -4,7 +4,9 @@
     "event_end": "2016-12-07",
     "event_start": "2016-12-05",
     "facebook": "https://www.facebook.com/confoo.ca",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Vancouver",
         "country": "Canada",
@@ -17,5 +19,5 @@
         "web"
     ],
     "twitter": "confooca",
-    "url": "https://confoo.ca/en/yvr2016"
+    "website": "https://confoo.ca/en/yvr2016"
 }

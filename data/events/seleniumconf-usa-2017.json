@@ -6,7 +6,9 @@
     "event_end": "2017-04-05",
     "event_start": "2017-04-03",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Austin",
         "country": "USA",
@@ -19,6 +21,6 @@
         "web"
     ],
     "twitter": "seleniumconf",
-    "url": "http://seleniumconf.com/",
+    "website": "http://seleniumconf.com/",
     "youtube": ""
 }

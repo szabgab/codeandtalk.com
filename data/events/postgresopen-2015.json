@@ -6,7 +6,9 @@
     "event_end": "2015-09-18",
     "event_start": "2015-09-16",
     "facebook": "https://www.facebook.com/PostgresOpen",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Dallas",
         "country": "USA",
@@ -17,6 +19,6 @@
         "postgresql"
     ],
     "twitter": "postgresopen",
-    "url": "http://2015.postgresopen.org/",
+    "website": "http://2015.postgresopen.org/",
     "youtube": "PLN8NEqxwuywTblT58K6ATnCLi3qtwv_Q3"
 }

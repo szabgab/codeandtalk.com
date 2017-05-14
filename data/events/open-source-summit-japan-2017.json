@@ -6,7 +6,9 @@
     "event_end": "2017-06-02",
     "event_start": "2017-05-31",
     "facebook": "https://www.facebook.com/linuxfoundationevents",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Tokyo",
         "country": "Japan",
@@ -17,6 +19,6 @@
         "opensource"
     ],
     "twitter": "eventsLF",
-    "url": "http://events.linuxfoundation.org/events/open-source-summit-japan",
+    "website": "http://events.linuxfoundation.org/events/open-source-summit-japan",
     "youtube": ""
 }

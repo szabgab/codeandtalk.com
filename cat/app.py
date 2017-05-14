@@ -513,7 +513,7 @@ def sitemap():
     html = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for e in sitemap:
         html += '  <url>\n'
-        html += '    <loc>https://codeandtalk.com{}</loc>\n'.format(e['url'])
+        html += '    <loc>https://codeandtalk.com{}</loc>\n'.format(e['website'])
         if 'lastmod' in e:
             date = e['lastmod']
         else:
@@ -647,11 +647,11 @@ def _calendar(prodid, events):
         cal += "DTSTAMP:{}\r\n".format(dtstamp)
         cal += "DTSTART;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['event_start']))
         cal += "DTEND;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['event_end']))
-        uid = re.sub(r'\W+', '-', e['url'])
+        uid = re.sub(r'\W+', '-', e['website'])
         uid = re.sub(r'\W+$', '', uid)
         cal += "UID:{}\r\n".format(uid)
         cal += "SUMMARY:{}\r\n".format(e['name'].encode('ascii', 'ignore')) # was needed in Python 2
-        cal += "DESCRIPTION:{}\r\n".format(e['url'])
+        cal += "DESCRIPTION:{}\r\n".format(e['website'])
         try:
             location = e['city']
             if e['state']:

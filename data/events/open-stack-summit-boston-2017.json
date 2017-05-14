@@ -5,7 +5,9 @@
     "event_end": "2017-05-12",
     "event_start": "2017-05-08",
     "facebook": "https://www.facebook.com/openstack",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Boston",
         "country": "USA",
@@ -16,5 +18,5 @@
         "openstack"
     ],
     "twitter": "openstack",
-    "url": "https://www.openstack.org/summit/boston-2017/"
+    "website": "https://www.openstack.org/summit/boston-2017/"
 }

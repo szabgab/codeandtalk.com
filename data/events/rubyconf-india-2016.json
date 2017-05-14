@@ -6,7 +6,9 @@
     "event_end": "2016-03-20",
     "event_start": "2016-03-19",
     "facebook": "https://www.facebook.com/rubyconfindia",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Kochi",
         "country": "India",
@@ -18,6 +20,6 @@
         "rails"
     ],
     "twitter": "rubyconfindia",
-    "url": "https://github.com/rubyconfindia/rci2016",
+    "website": "https://github.com/rubyconfindia/rci2016",
     "youtube": "PLNyYRB_d4fk2LfGLjyv8Oa-ruc4EgkfAQ"
 }

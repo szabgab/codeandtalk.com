@@ -10,7 +10,9 @@
     "event_start": "2015-04-30",
     "facebook": "",
     "hashtag": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Philadelphia",
         "country": "USA",
@@ -21,6 +23,6 @@
         "web"
     ],
     "twitter": "PeersConf",
-    "url": "http://2015.peersconf.com",
+    "website": "http://2015.peersconf.com",
     "youtube": ""
 }

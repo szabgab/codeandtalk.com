@@ -6,7 +6,9 @@
     "event_end": "2017-08-26",
     "event_start": "2017-08-24",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Harare",
         "country": "Zimbabwe",
@@ -17,7 +19,7 @@
         "python"
     ],
     "twitter": "pycon_zim",
-    "url": "http://zw.pycon.org/",
     "videos_url": "",
+    "website": "http://zw.pycon.org/",
     "youtube": ""
 }

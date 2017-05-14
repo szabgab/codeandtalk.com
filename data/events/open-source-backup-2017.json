@@ -7,7 +7,9 @@
     "event_start": "2017-09-25",
     "facebook": "https://www.facebook.com/osbconf/",
     "hashtag": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Cologne",
         "country": "Germany",
@@ -16,6 +18,6 @@
     "name": "Open Source Backup Conference 2017",
     "tags": [],
     "twitter": "osbconf",
-    "url": "http://osbconf.org/",
+    "website": "http://osbconf.org/",
     "youtube": ""
 }

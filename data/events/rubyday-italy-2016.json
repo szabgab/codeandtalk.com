@@ -6,7 +6,10 @@
     "event_end": "2016-11-26",
     "event_start": "2016-11-25",
     "facebook": "https://www.facebook.com/RubyDayIT",
-    "languages": "Italian, English",
+    "languages": [
+        "Italian",
+        "English"
+    ],
     "location": {
         "city": "Florence",
         "country": "Italy",
@@ -18,6 +21,6 @@
         "rails"
     ],
     "twitter": "rubydayit",
-    "url": "http://www.rubyday.it/",
+    "website": "http://www.rubyday.it/",
     "youtube": "PL5ImBN21eKvbFLhByXvzczzqtx9ApeKAY"
 }

@@ -10,7 +10,9 @@
     "event_start": "2017-10-31",
     "facebook": "https://www.facebook.com/linuxfoundationevents",
     "hashtag": "apistrat",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Portland",
         "country": "USA",
@@ -19,6 +21,6 @@
     "name": "API Strategy & Practice 2017",
     "tags": [],
     "twitter": "eventsLF",
-    "url": "http://events.linuxfoundation.org/events/open-compliance-summit",
+    "website": "http://events.linuxfoundation.org/events/open-compliance-summit",
     "youtube": ""
 }

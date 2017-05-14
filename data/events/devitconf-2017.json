@@ -6,7 +6,9 @@
     "event_end": "2017-05-21",
     "event_start": "2017-05-20",
     "facebook": "https://www.facebook.com/DEVitConf",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Thessaloniki",
         "country": "Greece",
@@ -19,6 +21,6 @@
         "javascript"
     ],
     "twitter": "devitconf",
-    "url": "http://devitconf.org/",
+    "website": "http://devitconf.org/",
     "youtube": ""
 }

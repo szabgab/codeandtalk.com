@@ -6,7 +6,9 @@
     "event_end": "2016-02-21",
     "event_start": "2016-02-18",
     "facebook": "https://www.facebook.com/DrupalCon",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Mumbai",
         "country": "India",
@@ -18,6 +20,6 @@
         "php"
     ],
     "twitter": "DrupalConAsia",
-    "url": "https://events.drupal.org/asia2016",
+    "website": "https://events.drupal.org/asia2016",
     "youtube": "PLpeDXSh4nHjQCIZmkxg3VSdpR5e87X5eB"
 }

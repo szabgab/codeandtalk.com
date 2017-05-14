@@ -6,7 +6,9 @@
     "event_end": "2017-11-11",
     "event_start": "2017-11-09",
     "facebook": "https://www.facebook.com/functionalconf",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Bangalore",
         "country": "India",
@@ -15,6 +17,6 @@
     "name": "Functional Conf 2017",
     "tags": [],
     "twitter": "fnConf",
-    "url": "http://functionalconf.com/",
+    "website": "http://functionalconf.com/",
     "youtube": ""
 }

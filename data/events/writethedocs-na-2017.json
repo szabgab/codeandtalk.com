@@ -5,7 +5,9 @@
     "event_end": "2017-05-16",
     "event_start": "2017-05-14",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Portland",
         "country": "USA",
@@ -14,5 +16,5 @@
     "name": "Write The Docs NA 2017",
     "tags": [],
     "twitter": "writethedocs",
-    "url": "http://www.writethedocs.org/conf/"
+    "website": "http://www.writethedocs.org/conf/"
 }

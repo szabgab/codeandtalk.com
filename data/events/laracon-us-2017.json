@@ -5,7 +5,9 @@
     "event_end": "2017-07-26",
     "event_start": "2017-07-25",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "New York",
         "country": "USA",
@@ -18,5 +20,5 @@
         "web"
     ],
     "twitter": "LaraconUS",
-    "url": "http://laracon.us/"
+    "website": "http://laracon.us/"
 }

@@ -6,7 +6,9 @@
     "event_end": "2016-06-01",
     "event_start": "2016-06-01",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Oslo",
         "country": "Norway",
@@ -19,6 +21,6 @@
         "frontend"
     ],
     "twitter": "CSSconfeu",
-    "url": "http://cssconf.no/",
+    "website": "http://cssconf.no/",
     "youtube": "PLw7UYp3N0eUbaFGbQ6T8VT7oTkfv9eJlu"
 }

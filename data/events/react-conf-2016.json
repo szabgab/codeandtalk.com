@@ -4,7 +4,9 @@
     "event_end": "2016-02-23",
     "event_start": "2016-02-22",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "San Francisco",
         "country": "USA",
@@ -17,6 +19,6 @@
         "web"
     ],
     "twitter": "",
-    "url": "http://conf2016.reactjs.org/",
+    "website": "http://conf2016.reactjs.org/",
     "youtube": "PLb0IAmt7-GS0M8Q95RIc2lOM6nc77q1IY"
 }

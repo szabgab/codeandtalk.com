@@ -6,7 +6,9 @@
     "event_end": "2016-03-11",
     "event_start": "2016-03-10",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Cape Town",
         "country": "South Africa",
@@ -15,6 +17,6 @@
     "name": "ScaleConf 2016",
     "tags": [],
     "twitter": "scaleconf",
-    "url": "http://scaleconf.org/speakers/2016",
+    "website": "http://scaleconf.org/speakers/2016",
     "youtube": "PLvc0z7koOqJllgA9Cizs9llQcKTDX2ZaA"
 }

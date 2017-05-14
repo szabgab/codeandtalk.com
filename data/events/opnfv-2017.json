@@ -6,7 +6,9 @@
     "event_end": "2017-06-15",
     "event_start": "2017-06-12",
     "facebook": "https://www.facebook.com/linuxfoundationevents",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Beijing",
         "country": "China",
@@ -17,6 +19,6 @@
         "opensource"
     ],
     "twitter": "eventsLF",
-    "url": "http://events.linuxfoundation.org/events/opnfv-summit",
+    "website": "http://events.linuxfoundation.org/events/opnfv-summit",
     "youtube": ""
 }

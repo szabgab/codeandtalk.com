@@ -6,7 +6,11 @@
     "event_end": "2017-03-12",
     "event_start": "2017-03-10",
     "facebook": "https://www.facebook.com/pyconsk",
-    "languages": "English, Slovak, Czech",
+    "languages": [
+        "English",
+        "Slovak",
+        "Czech"
+    ],
     "location": {
         "city": "Bratislava",
         "country": "Slovakia",
@@ -17,6 +21,6 @@
         "python"
     ],
     "twitter": "pyconsk",
-    "url": "https://www.pycon.sk/2017/",
+    "website": "https://www.pycon.sk/2017/",
     "youtube": ""
 }

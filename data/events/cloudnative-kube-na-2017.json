@@ -6,7 +6,9 @@
     "event_end": "2017-12-07",
     "event_start": "2017-12-06",
     "facebook": "https://www.facebook.com/CloudNativeComputingFoundation",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Austin",
         "country": "USA",
@@ -17,6 +19,6 @@
         "cloud"
     ],
     "twitter": "cloudnativefdn",
-    "url": "http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-north-america",
+    "website": "http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-north-america",
     "youtube": ""
 }

@@ -6,7 +6,10 @@
     "event_end": "2017-07-10",
     "event_start": "2017-07-09",
     "facebook": "https://www.facebook.com/ruPycon",
-    "languages": "English, Russian",
+    "languages": [
+        "English",
+        "Russian"
+    ],
     "location": {
         "city": "Gribovka",
         "country": "Russia",
@@ -17,6 +20,6 @@
         "python"
     ],
     "twitter": "PyConRu",
-    "url": "http://pycon.ru/2017/en/",
+    "website": "http://pycon.ru/2017/en/",
     "youtube": ""
 }

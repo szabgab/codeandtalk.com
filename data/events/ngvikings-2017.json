@@ -6,7 +6,9 @@
     "event_end": "2017-02-12",
     "event_start": "2017-02-11",
     "facebook": "https://www.facebook.com/ngVikings",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Copenhagen",
         "country": "Denmark",
@@ -18,6 +20,6 @@
         "nodejs"
     ],
     "twitter": "ngVikingsConf",
-    "url": "https://ngvikings.org/",
+    "website": "https://ngvikings.org/",
     "youtube": ""
 }

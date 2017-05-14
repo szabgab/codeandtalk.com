@@ -6,7 +6,10 @@
     "event_end": "2015-04-10",
     "event_start": "2015-04-08",
     "facebook": "",
-    "languages": "French, English",
+    "languages": [
+        "French",
+        "English"
+    ],
     "location": {
         "city": "Paris",
         "country": "France",
@@ -18,6 +21,6 @@
         "frontend"
     ],
     "twitter": "DevoxxFR",
-    "url": "https://www.devoxx.fr/2015/index.html",
+    "website": "https://www.devoxx.fr/2015/index.html",
     "youtube": "PLklQqdqnBkPgctKh1xIvF4eFGtmvUvE2b"
 }

@@ -7,7 +7,9 @@
     "event_start": "2014-09-20",
     "facebook": "https://www.facebook.com/events/662182173847067/",
     "hashtag": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "San Francisco",
         "country": "USA",
@@ -18,6 +20,6 @@
         "puppet"
     ],
     "twitter": "PuppetConf",
-    "url": "https://2014.puppetconf.com/",
+    "website": "https://2014.puppetconf.com/",
     "youtube": "PLRmZvNVIMi_0pghytOi5RDLqn4F4a-75m"
 }

@@ -6,7 +6,9 @@
     "event_end": "2017-11-03",
     "event_start": "2017-10-29",
     "facebook": "https://www.facebook.com/usenixassociation",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "San Francisco",
         "country": "USA",
@@ -15,6 +17,6 @@
     "name": "LISA 2017",
     "tags": [],
     "twitter": "lisaconference",
-    "url": "https://www.usenix.org/conference/lisa17",
+    "website": "https://www.usenix.org/conference/lisa17",
     "youtube": ""
 }

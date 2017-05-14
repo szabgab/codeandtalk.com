@@ -6,7 +6,9 @@
     "event_end": "2016-10-22",
     "event_start": "2016-10-22",
     "facebook": "https://www.facebook.com/nodejsconf",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Desenzano",
         "country": "Italy",
@@ -18,6 +20,6 @@
         "javascript"
     ],
     "twitter": "nodejsconfit",
-    "url": "http://nodejsconf.it/",
+    "website": "http://nodejsconf.it/",
     "youtube": "-"
 }

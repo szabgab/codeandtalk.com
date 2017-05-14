@@ -6,7 +6,9 @@
     "event_end": "2015-09-05",
     "event_start": "2015-09-01",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Barcelona",
         "country": "Spain",
@@ -18,6 +20,6 @@
         "javascript"
     ],
     "twitter": "fullstackfest",
-    "url": "http://2015.fullstackfest.com/",
+    "website": "http://2015.fullstackfest.com/",
     "youtube": "PLe9psSNJBf77PgzYZ2yId2RfUkd9_lMMr"
 }

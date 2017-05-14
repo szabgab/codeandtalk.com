@@ -5,7 +5,9 @@
     "event_end": "2017-11-17",
     "event_start": "2017-11-16",
     "facebook": "https://www.facebook.com/GOTOConference",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Berlin",
         "country": "Germany",
@@ -17,5 +19,5 @@
         "bigdata"
     ],
     "twitter": "gotober",
-    "url": "https://gotober.com/"
+    "website": "https://gotober.com/"
 }

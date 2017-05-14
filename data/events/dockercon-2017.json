@@ -6,7 +6,9 @@
     "event_end": "2017-04-20",
     "event_start": "2017-04-17",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Austin",
         "country": "USA",
@@ -17,6 +19,6 @@
         "container"
     ],
     "twitter": "DockerCon",
-    "url": "http://2017.dockercon.com/",
+    "website": "http://2017.dockercon.com/",
     "youtube": ""
 }

@@ -7,7 +7,9 @@
     "event_start": "2012-09-27",
     "facebook": "",
     "hashtag": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "San Francisco",
         "country": "USA",
@@ -18,6 +20,6 @@
         "puppet"
     ],
     "twitter": "PuppetConf",
-    "url": "http://puppetconf.com/",
+    "website": "http://puppetconf.com/",
     "youtube": "PLV86BgbREluVFB73Wwqp_tCbw5Z9TMLX1"
 }

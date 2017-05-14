@@ -5,7 +5,9 @@
     "event_end": "2016-12-02",
     "event_start": "2016-11-29",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Austin",
         "country": "USA",
@@ -17,6 +19,6 @@
         "javascript"
     ],
     "twitter": "nodejs",
-    "url": "http://events.linuxfoundation.org/events/node-interactive",
+    "website": "http://events.linuxfoundation.org/events/node-interactive",
     "youtube": "PLwKq7_XRPOCzaRPC_dCWKUAV4gZlS3x9Q"
 }

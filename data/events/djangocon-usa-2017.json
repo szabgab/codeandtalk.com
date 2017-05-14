@@ -4,7 +4,9 @@
     "event_end": "2017-08-18",
     "event_start": "2017-08-13",
     "facebook": "https://www.facebook.com/djangoconus",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Spokane",
         "country": "USA",
@@ -17,6 +19,6 @@
         "web"
     ],
     "twitter": "djangocon",
-    "url": "https://2017.djangocon.us/",
-    "videos_url": "http://pyvideo.org/"
+    "videos_url": "http://pyvideo.org/",
+    "website": "https://2017.djangocon.us/"
 }

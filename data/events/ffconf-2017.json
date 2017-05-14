@@ -6,7 +6,9 @@
     "event_end": "2017-11-10",
     "event_start": "2017-11-09",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Brighton",
         "country": "UK",
@@ -20,6 +22,6 @@
         "frontend"
     ],
     "twitter": "ffconf",
-    "url": "https://2016.ffconf.org/",
+    "website": "https://2016.ffconf.org/",
     "youtube": ""
 }

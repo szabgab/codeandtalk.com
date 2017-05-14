@@ -4,7 +4,9 @@
     "event_end": "2015-01-29",
     "event_start": "2015-01-28",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Menlo Park",
         "country": "USA",
@@ -17,6 +19,6 @@
         "web"
     ],
     "twitter": "",
-    "url": "http://conf2015.reactjs.org/schedule.html",
+    "website": "http://conf2015.reactjs.org/schedule.html",
     "youtube": "PLb0IAmt7-GS1cbw4qonlQztYV1TAW0sCr"
 }

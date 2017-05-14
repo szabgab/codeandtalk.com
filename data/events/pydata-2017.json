@@ -7,7 +7,9 @@
     "event_start": "2017-05-19",
     "facebook": "",
     "hashtag": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Barcelona",
         "country": "Spain",
@@ -18,6 +20,6 @@
         "python"
     ],
     "twitter": "PyData",
-    "url": "https://pydata.org/barcelona2017/",
+    "website": "https://pydata.org/barcelona2017/",
     "youtube": ""
 }

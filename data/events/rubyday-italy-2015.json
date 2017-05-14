@@ -5,7 +5,10 @@
     "event_end": "2015-11-13",
     "event_start": "2015-11-13",
     "facebook": "https://www.facebook.com/RubyDayIT",
-    "languages": "Italian, English",
+    "languages": [
+        "Italian",
+        "English"
+    ],
     "location": {
         "city": "Turin",
         "country": "Italy",
@@ -17,6 +20,6 @@
         "rails"
     ],
     "twitter": "rubydayit",
-    "url": "http://2015.rubyday.it/",
+    "website": "http://2015.rubyday.it/",
     "youtube": "-"
 }

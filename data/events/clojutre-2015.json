@@ -6,7 +6,9 @@
     "event_end": "2015-09-11",
     "event_start": "2015-09-11",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Tampere",
         "country": "Finland",
@@ -17,6 +19,6 @@
         "clojure"
     ],
     "twitter": "clojutre",
-    "url": "http://clojutre.org/2015/",
+    "website": "http://clojutre.org/2015/",
     "youtube": "PLetHPRQvX4a_tA9hGP935-OyLOYaRKpnj"
 }

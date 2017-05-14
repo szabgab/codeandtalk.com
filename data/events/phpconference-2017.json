@@ -4,7 +4,10 @@
     "event_end": "2017-06-02",
     "event_start": "2017-05-29",
     "facebook": "",
-    "languages": "English, German",
+    "languages": [
+        "English",
+        "German"
+    ],
     "location": {
         "city": "Berlin",
         "country": "Germany",
@@ -18,6 +21,6 @@
         "javascript"
     ],
     "twitter": "phpconference",
-    "url": "https://phpconference.com/en/",
+    "website": "https://phpconference.com/en/",
     "youtube": ""
 }

@@ -5,7 +5,9 @@
     "event_end": "2017-08-30",
     "event_start": "2017-08-28",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Amsterdam",
         "country": "The Netherlands",
@@ -18,6 +20,6 @@
         "web"
     ],
     "twitter": "LaraconEU",
-    "url": "http://laracon.eu/2017/",
+    "website": "http://laracon.eu/2017/",
     "youtube": ""
 }

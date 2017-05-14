@@ -7,7 +7,9 @@
     "event_start": "2014-10-14",
     "facebook": "https://www.facebook.com/linuxfoundationevents",
     "hashtag": "kvmforum",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "D\u00fcsseldorf",
         "country": "Germany",
@@ -18,6 +20,6 @@
         "opensource"
     ],
     "twitter": "eventsLF",
-    "url": "http://events.linuxfoundation.org/events/archive/2014/kvm-forum",
+    "website": "http://events.linuxfoundation.org/events/archive/2014/kvm-forum",
     "youtube": "PLW3ep1uCIRfzXB9pWFIB9M0n2wcuLOsvJ"
 }

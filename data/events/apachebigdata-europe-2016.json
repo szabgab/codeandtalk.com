@@ -6,7 +6,9 @@
     "event_end": "2016-11-16",
     "event_start": "2016-11-14",
     "facebook": "https://www.facebook.com/linuxfoundationevents",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Seville",
         "country": "Spain",
@@ -18,6 +20,6 @@
         "opensource"
     ],
     "twitter": "ApacheCon",
-    "url": "http://events.linuxfoundation.org/events/apache-big-data-europe",
+    "website": "http://events.linuxfoundation.org/events/apache-big-data-europe",
     "youtube": "-"
 }

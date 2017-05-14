@@ -6,7 +6,9 @@
     "event_end": "2017-02-05",
     "event_start": "2017-02-04",
     "facebook": "https://www.facebook.com/fosdem",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Brussels",
         "country": "Belgium",
@@ -19,5 +21,5 @@
         "java"
     ],
     "twitter": "fosdem",
-    "url": "https://fosdem.org/2017/"
+    "website": "https://fosdem.org/2017/"
 }

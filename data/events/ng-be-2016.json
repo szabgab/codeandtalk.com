@@ -6,7 +6,9 @@
     "event_end": "2016-12-09",
     "event_start": "2016-12-08",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Ghent",
         "country": "Belgium",
@@ -19,6 +21,6 @@
         "frontend"
     ],
     "twitter": "ngbeconf",
-    "url": "https://ng-be.org/",
+    "website": "https://ng-be.org/",
     "youtube": ""
 }

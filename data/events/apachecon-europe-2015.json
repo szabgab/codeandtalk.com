@@ -6,7 +6,9 @@
     "event_end": "2015-10-02",
     "event_start": "2015-10-01",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Budapest",
         "country": "Hungary",
@@ -18,6 +20,6 @@
         "community"
     ],
     "twitter": "apachecon",
-    "url": "http://events.linuxfoundation.org/events/archive/2015/apachecon-europe",
+    "website": "http://events.linuxfoundation.org/events/archive/2015/apachecon-europe",
     "youtube": "-"
 }

@@ -5,7 +5,10 @@
     "event_end": "2016-11-05",
     "event_start": "2016-11-04",
     "facebook": "https://www.facebook.com/gopherconbrasil",
-    "languages": "Portuguese, English",
+    "languages": [
+        "Portuguese",
+        "English"
+    ],
     "location": {
         "city": "Florian\u00f3polis",
         "country": "Brasil",
@@ -17,6 +20,6 @@
         "golang"
     ],
     "twitter": "gopherconbrasil",
-    "url": "https://2016.gopherconbr.org/en/",
+    "website": "https://2016.gopherconbr.org/en/",
     "youtube": "PLOpPtg0fjj4g5nB62khFCGAzhYOXuY_0k"
 }

@@ -6,7 +6,9 @@
     "event_end": "2017-01-27",
     "event_start": "2017-01-27",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "San Diego",
         "country": "USA",
@@ -18,6 +20,6 @@
         "emberjs"
     ],
     "twitter": "soemberconf",
-    "url": "http://soember.com/",
+    "website": "http://soember.com/",
     "youtube": ""
 }

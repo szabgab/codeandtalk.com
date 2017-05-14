@@ -6,7 +6,9 @@
     "event_end": "2017-09-01",
     "event_start": "2017-08-31",
     "facebook": "https://www.facebook.com/frontendconf.ch",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Zurich",
         "country": "Switzerland",
@@ -17,6 +19,6 @@
         "frontend"
     ],
     "twitter": "frontendconfch",
-    "url": "https://frontendconf.ch/",
+    "website": "https://frontendconf.ch/",
     "youtube": ""
 }

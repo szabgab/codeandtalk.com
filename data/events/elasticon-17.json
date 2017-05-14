@@ -4,7 +4,9 @@
     "event_end": "2017-03-09",
     "event_start": "2017-03-07",
     "facebook": "https://www.facebook.com/elastic.co",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "San Francisco",
         "country": "USA",
@@ -18,5 +20,5 @@
         "beats"
     ],
     "twitter": "elastic",
-    "url": "https://www.elastic.co/elasticon"
+    "website": "https://www.elastic.co/elasticon"
 }

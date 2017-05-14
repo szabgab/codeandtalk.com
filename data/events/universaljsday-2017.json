@@ -6,7 +6,10 @@
     "event_end": "2017-04-08",
     "event_start": "2017-04-08",
     "facebook": "",
-    "languages": "Italian, English",
+    "languages": [
+        "Italian",
+        "English"
+    ],
     "location": {
         "city": "Ferrara",
         "country": "Italy",
@@ -18,6 +21,6 @@
         "frontend"
     ],
     "twitter": "universaljsday",
-    "url": "http://2017.universaljsday.com/",
+    "website": "http://2017.universaljsday.com/",
     "youtube": ""
 }

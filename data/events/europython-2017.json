@@ -6,7 +6,9 @@
     "event_end": "2017-07-16",
     "event_start": "2017-07-09",
     "facebook": "https://www.facebook.com/europython",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Rimini",
         "country": "Italy",
@@ -17,6 +19,6 @@
         "python"
     ],
     "twitter": "europython",
-    "url": "http://ep2017.europython.eu/",
+    "website": "http://ep2017.europython.eu/",
     "youtube": ""
 }

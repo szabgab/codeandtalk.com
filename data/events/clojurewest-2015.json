@@ -6,7 +6,9 @@
     "event_end": "2015-04-22",
     "event_start": "2015-04-20",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Portland",
         "country": "USA",
@@ -17,6 +19,6 @@
         "clojure"
     ],
     "twitter": "ClojureWest",
-    "url": "http://clojurewest.org/speakers-2015",
+    "website": "http://clojurewest.org/speakers-2015",
     "youtube": "PLZdCLR02grLrKAOj8FJ1GGmNM5l7Okz0a"
 }

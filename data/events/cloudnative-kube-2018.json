@@ -6,7 +6,9 @@
     "event_end": "2018-05-04",
     "event_start": "2018-05-02",
     "facebook": "https://www.facebook.com/CloudNativeComputingFoundation",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Copenhagen",
         "country": "Denmark",
@@ -15,6 +17,6 @@
     "name": "CloudNativeCon and KubeCon Europe 2018",
     "tags": [],
     "twitter": "cloudnativefdn",
-    "url": "http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-europe",
+    "website": "http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-europe",
     "youtube": ""
 }

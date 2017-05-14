@@ -6,7 +6,9 @@
     "event_end": "2016-04-16",
     "event_start": "2016-04-15",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Seattle",
         "country": "USA",
@@ -17,6 +19,6 @@
         "clojure"
     ],
     "twitter": "ClojureWest",
-    "url": "http://clojurewest.org/",
+    "website": "http://clojurewest.org/",
     "youtube": "PLZdCLR02grLq4e8-1P2JNHBKUOLFTX3kb"
 }

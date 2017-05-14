@@ -6,7 +6,9 @@
     "event_end": "2017-02-03",
     "event_start": "2017-02-02",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Brussels",
         "country": "Belgium",
@@ -17,6 +19,6 @@
         "git"
     ],
     "twitter": "github",
-    "url": "http://git-merge.com/",
+    "website": "http://git-merge.com/",
     "youtube": ""
 }

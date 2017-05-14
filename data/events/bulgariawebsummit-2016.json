@@ -6,7 +6,9 @@
     "event_end": "2016-02-20",
     "event_start": "2016-02-20",
     "facebook": "https://www.facebook.com/bulgariawebsummit",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Sofia",
         "country": "Bulgaria",
@@ -21,6 +23,6 @@
         "django"
     ],
     "twitter": "bgwebsummit",
-    "url": "http://2016.bulgariawebsummit.com/",
+    "website": "http://2016.bulgariawebsummit.com/",
     "youtube": "-"
 }

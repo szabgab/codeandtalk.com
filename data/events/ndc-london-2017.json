@@ -6,7 +6,9 @@
     "event_end": "2017-01-20",
     "event_start": "2017-01-16",
     "facebook": "https://www.facebook.com/ndcconferences",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "London",
         "country": "UK",
@@ -18,6 +20,6 @@
         "agile"
     ],
     "twitter": "ndc_conferences",
-    "url": "http://ndc-london.com/",
+    "website": "http://ndc-london.com/",
     "youtube": ""
 }

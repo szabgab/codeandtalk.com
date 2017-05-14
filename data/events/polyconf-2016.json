@@ -3,7 +3,9 @@
     "event_end": "2016-07-02",
     "event_start": "2016-06-30",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Poznan",
         "country": "Poland",
@@ -18,6 +20,6 @@
         "elm"
     ],
     "twitter": "",
-    "url": "http://polyconf.com/",
+    "website": "http://polyconf.com/",
     "youtube": "PLf8usAIVnNBYBTDIf2LiBHfWTXGr6K01s"
 }

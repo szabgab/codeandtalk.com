@@ -6,7 +6,10 @@
     "event_end": "2017-02-18",
     "event_start": "2017-02-18",
     "facebook": "",
-    "languages": "Spanish, English",
+    "languages": [
+        "Spanish",
+        "English"
+    ],
     "location": {
         "city": "Madrid",
         "country": "Spain",
@@ -18,6 +21,6 @@
         "frontend"
     ],
     "twitter": "frontfest",
-    "url": "http://frontfest.es/",
+    "website": "http://frontfest.es/",
     "youtube": ""
 }

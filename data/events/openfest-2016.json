@@ -5,7 +5,10 @@
     "event_end": "2016-11-06",
     "event_start": "2016-11-05",
     "facebook": "",
-    "languages": "Bulgarian, English",
+    "languages": [
+        "Bulgarian",
+        "English"
+    ],
     "location": {
         "city": "Sofia",
         "country": "Bulgaria",
@@ -18,6 +21,6 @@
         "linux"
     ],
     "twitter": "openfestbg",
-    "url": "http://www.openfest.org/2016/en",
+    "website": "http://www.openfest.org/2016/en",
     "youtube": "PLzUxAJX9n5voqruxaw0gevv5C5ZoGLAq1"
 }

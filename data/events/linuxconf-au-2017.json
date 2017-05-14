@@ -5,7 +5,9 @@
     "event_end": "2017-01-20",
     "event_start": "2017-01-16",
     "facebook": "https://www.facebook.com/linux.conf.au",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Hobart",
         "country": "Australia",
@@ -17,5 +19,5 @@
         "foss"
     ],
     "twitter": "linuxconfau",
-    "url": "https://linux.conf.au/"
+    "website": "https://linux.conf.au/"
 }

@@ -4,7 +4,9 @@
     "event_end": "2017-02-10",
     "event_start": "2017-02-09",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Melbourne",
         "country": "Australia",
@@ -15,5 +17,5 @@
         "ruby"
     ],
     "twitter": "rubyconf_au",
-    "url": "http://www.rubyconf.org.au/2017"
+    "website": "http://www.rubyconf.org.au/2017"
 }

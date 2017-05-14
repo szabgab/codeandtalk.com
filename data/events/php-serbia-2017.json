@@ -6,7 +6,10 @@
     "event_end": "2017-05-28",
     "event_start": "2017-05-27",
     "facebook": "https://www.facebook.com/udruzenjeprogramera.rs",
-    "languages": "Serb, English",
+    "languages": [
+        "Serb",
+        "English"
+    ],
     "location": {
         "city": "Belgrade",
         "country": "Serbia",
@@ -17,6 +20,6 @@
         "php"
     ],
     "twitter": "PHPSrbija",
-    "url": "http://phpsrbija.rs/",
+    "website": "http://phpsrbija.rs/",
     "youtube": ""
 }

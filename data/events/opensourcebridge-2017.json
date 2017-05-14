@@ -5,7 +5,9 @@
     "event_end": "2017-06-23",
     "event_start": "2017-06-20",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Portland",
         "country": "USA",
@@ -16,6 +18,6 @@
         "opensource"
     ],
     "twitter": "osbridge",
-    "url": "http://opensourcebridge.org/",
+    "website": "http://opensourcebridge.org/",
     "youtube": ""
 }

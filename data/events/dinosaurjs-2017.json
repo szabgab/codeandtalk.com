@@ -6,7 +6,9 @@
     "event_end": "2017-06-15",
     "event_start": "2017-06-15",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Denver",
         "country": "USA",
@@ -18,6 +20,6 @@
         "frontend"
     ],
     "twitter": "dinosaur_js",
-    "url": "https://dinosaurjs.org/",
+    "website": "https://dinosaurjs.org/",
     "youtube": ""
 }

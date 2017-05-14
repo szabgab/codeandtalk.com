@@ -7,7 +7,9 @@
     "event_start": "2015-10-05",
     "facebook": "",
     "hashtag": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Portland",
         "country": "USA",
@@ -18,6 +20,6 @@
         "puppet"
     ],
     "twitter": "PuppetConf",
-    "url": "https://2015.puppetconf.com/",
+    "website": "https://2015.puppetconf.com/",
     "youtube": "PLV86BgbREluUDlJW_jAqnWPj0THx7eXBA"
 }

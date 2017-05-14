@@ -6,7 +6,9 @@
     "event_end": "2017-02-04",
     "event_start": "2017-02-04",
     "facebook": "https://www.facebook.com/AllThingsOpen/",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Raleigh",
         "country": "USA",
@@ -17,6 +19,6 @@
         "opensource"
     ],
     "twitter": "AllThingsOpen",
-    "url": "http://opensource101.com/",
+    "website": "http://opensource101.com/",
     "youtube": ""
 }

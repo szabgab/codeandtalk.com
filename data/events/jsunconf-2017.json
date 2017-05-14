@@ -6,7 +6,9 @@
     "event_end": "2017-03-26",
     "event_start": "2017-03-25",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Hamburg",
         "country": "Germany",
@@ -17,6 +19,6 @@
         "javascript"
     ],
     "twitter": "jsunconf",
-    "url": "http://2017.jsunconf.eu/",
+    "website": "http://2017.jsunconf.eu/",
     "youtube": ""
 }

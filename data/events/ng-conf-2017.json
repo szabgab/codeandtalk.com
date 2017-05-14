@@ -6,7 +6,9 @@
     "event_end": "2017-04-07",
     "event_start": "2017-04-05",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Salt Lake City",
         "country": "USA",
@@ -17,5 +19,5 @@
         "angularjs"
     ],
     "twitter": "ngconf",
-    "url": "https://www.ng-conf.org/"
+    "website": "https://www.ng-conf.org/"
 }

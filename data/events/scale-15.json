@@ -5,7 +5,9 @@
     "event_end": "2017-03-05",
     "event_start": "2017-03-02",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Pasadena",
         "country": "USA",
@@ -16,5 +18,5 @@
         "linux"
     ],
     "twitter": "socallinuxexpo",
-    "url": "https://www.socallinuxexpo.org/scale/15x/"
+    "website": "https://www.socallinuxexpo.org/scale/15x/"
 }

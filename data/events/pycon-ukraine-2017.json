@@ -6,7 +6,9 @@
     "event_end": "2017-04-09",
     "event_start": "2017-04-08",
     "facebook": "https://www.facebook.com/events/1119140064828763/",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Lviv",
         "country": "Ukraine",
@@ -17,6 +19,6 @@
         "python"
     ],
     "twitter": "uapycon",
-    "url": "http://ua.pycon.org/",
+    "website": "http://ua.pycon.org/",
     "youtube": ""
 }

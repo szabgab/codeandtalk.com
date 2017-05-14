@@ -6,7 +6,9 @@
     "event_end": "2015-03-27",
     "event_start": "2015-03-25",
     "facebook": "https://www.facebook.com/pgconf.us",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "New York",
         "country": "USA",
@@ -17,6 +19,6 @@
         "postgresql"
     ],
     "twitter": "pgconfus",
-    "url": "http://www.pgconf.us/2015/",
+    "website": "http://www.pgconf.us/2015/",
     "youtube": "PLCExcFCoaxiOqqT_wN48hV4O_B5dspmsM"
 }

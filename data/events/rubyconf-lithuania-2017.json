@@ -6,7 +6,9 @@
     "event_end": "2017-04-01",
     "event_start": "2017-04-01",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Vilnius",
         "country": "Lithuania",
@@ -17,6 +19,6 @@
         "ruby"
     ],
     "twitter": "RubyConfLT",
-    "url": "https://rubyconf.lt/",
+    "website": "https://rubyconf.lt/",
     "youtube": "-"
 }

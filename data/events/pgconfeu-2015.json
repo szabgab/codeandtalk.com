@@ -6,7 +6,9 @@
     "event_end": "2015-10-30",
     "event_start": "2015-10-27",
     "facebook": "https://www.facebook.com/PGConf.EU",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Vienna",
         "country": "Austria",
@@ -18,6 +20,6 @@
         "databases"
     ],
     "twitter": "pgconfeu",
-    "url": "http://2015.pgconf.eu/",
+    "website": "http://2015.pgconf.eu/",
     "youtube": "-"
 }

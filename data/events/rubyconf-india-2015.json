@@ -6,7 +6,9 @@
     "event_end": "2015-04-05",
     "event_start": "2015-04-03",
     "facebook": "https://www.facebook.com/rubyconfindia",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Goa",
         "country": "India",
@@ -18,6 +20,6 @@
         "rails"
     ],
     "twitter": "rubyconfindia",
-    "url": "https://github.com/rubyconfindia/rci2015",
+    "website": "https://github.com/rubyconfindia/rci2015",
     "youtube": "PLNyYRB_d4fk2KcrHt6m-L5X1rIS5AsmJo"
 }

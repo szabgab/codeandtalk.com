@@ -6,7 +6,9 @@
     "event_end": "2013-11-01",
     "event_start": "2013-10-29",
     "facebook": "https://www.facebook.com/PGConf.EU",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Dublin",
         "country": "Ireland",
@@ -18,6 +20,6 @@
         "databases"
     ],
     "twitter": "pgconfeu",
-    "url": "http://2013.pgconf.eu/",
+    "website": "http://2013.pgconf.eu/",
     "youtube": "-"
 }

@@ -4,7 +4,9 @@
     "event_end": "2017-08-04",
     "event_start": "2017-08-04",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Melbourne",
         "country": "Australia",
@@ -17,6 +19,6 @@
         "web"
     ],
     "twitter": "DjangoConAU",
-    "url": "http://djangocon.com.au/",
-    "videos_url": "http://pyvideo.org/"
+    "videos_url": "http://pyvideo.org/",
+    "website": "http://djangocon.com.au/"
 }

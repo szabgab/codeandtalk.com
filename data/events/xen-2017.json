@@ -6,7 +6,9 @@
     "event_end": "2017-07-13",
     "event_start": "2017-07-11",
     "facebook": "https://www.facebook.com/linuxfoundationevents",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Budapest",
         "country": "Hungary",
@@ -15,6 +17,6 @@
     "name": "Xen Developer and Design Summit 2017",
     "tags": [],
     "twitter": "eventsLF",
-    "url": "http://events.linuxfoundation.org/events/xen-developer-and-design-summit",
+    "website": "http://events.linuxfoundation.org/events/xen-developer-and-design-summit",
     "youtube": ""
 }

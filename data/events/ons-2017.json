@@ -7,7 +7,9 @@
     "event_start": "2017-04-03",
     "facebook": "https://www.facebook.com/linuxfoundationevents",
     "hashtag": "ONS2017",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Santa Clara",
         "country": "USA",
@@ -19,6 +21,6 @@
         "opensource"
     ],
     "twitter": "eventsLF",
-    "url": "http://events.linuxfoundation.org/events/open-networking-summit",
+    "website": "http://events.linuxfoundation.org/events/open-networking-summit",
     "youtube": "PLbzoR-pLrL6p01ZHHvEeSozpGeVFkFBQZ"
 }

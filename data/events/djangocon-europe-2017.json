@@ -4,7 +4,9 @@
     "event_end": "2017-04-07",
     "event_start": "2017-04-03",
     "facebook": "https://www.facebook.com/DjangoConEurope",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Firenze",
         "country": "Italy",
@@ -17,5 +19,5 @@
         "web"
     ],
     "twitter": "DjangoConEurope",
-    "url": "https://2017.djangocon.eu/"
+    "website": "https://2017.djangocon.eu/"
 }

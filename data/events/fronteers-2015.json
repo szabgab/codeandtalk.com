@@ -5,7 +5,9 @@
     "event_end": "2015-10-09",
     "event_start": "2015-10-08",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Amsterdam",
         "country": "The Netherlands",
@@ -17,5 +19,5 @@
         "frontend"
     ],
     "twitter": "FronteersConf",
-    "url": "https://fronteers.nl/congres/2015"
+    "website": "https://fronteers.nl/congres/2015"
 }

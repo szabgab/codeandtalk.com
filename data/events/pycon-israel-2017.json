@@ -4,7 +4,9 @@
     "event_end": "2017-06-14",
     "event_start": "2017-06-12",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Ramat Gan",
         "country": "Israel",
@@ -15,6 +17,6 @@
         "python"
     ],
     "twitter": "pyconil",
-    "url": "http://il.pycon.org/2017/",
-    "videos_url": "http://pyvideo.org/"
+    "videos_url": "http://pyvideo.org/",
+    "website": "http://il.pycon.org/2017/"
 }

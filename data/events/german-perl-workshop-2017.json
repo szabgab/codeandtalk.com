@@ -6,7 +6,9 @@
     "event_end": "2017-06-28",
     "event_start": "2017-06-26",
     "facebook": "https://www.facebook.com/groups/GermanPerlWorkshop/",
-    "languages": "German",
+    "languages": [
+        "German"
+    ],
     "location": {
         "city": "Hamburg",
         "country": "Germany",
@@ -18,6 +20,6 @@
         "web"
     ],
     "twitter": "perlworkshop",
-    "url": "http://act.yapc.eu/gpw2017/",
+    "website": "http://act.yapc.eu/gpw2017/",
     "youtube": ""
 }

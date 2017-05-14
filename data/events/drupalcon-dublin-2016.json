@@ -6,7 +6,9 @@
     "event_end": "2016-09-30",
     "event_start": "2016-09-26",
     "facebook": "https://www.facebook.com/DrupalCon",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Dublin",
         "country": "Ireland",
@@ -18,6 +20,6 @@
         "php"
     ],
     "twitter": "drupalconeur",
-    "url": "https://events.drupal.org/dublin2016",
+    "website": "https://events.drupal.org/dublin2016",
     "youtube": "PLpeDXSh4nHjQAM63-KW_8x_qEB-dio1tA"
 }

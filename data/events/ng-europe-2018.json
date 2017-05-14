@@ -6,7 +6,9 @@
     "event_end": "2018-02-02",
     "event_start": "2018-02-01",
     "facebook": "https://www.facebook.com/ngeuropeconf",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Paris",
         "country": "France",
@@ -18,6 +20,6 @@
         "javascript"
     ],
     "twitter": "ngEurope",
-    "url": "https://ngeurope.org/",
+    "website": "https://ngeurope.org/",
     "youtube": ""
 }

@@ -5,7 +5,9 @@
     "event_end": "2017-05-07",
     "event_start": "2017-05-06",
     "facebook": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Bellingham",
         "country": "USA",
@@ -16,5 +18,5 @@
         "linux"
     ],
     "twitter": "lfnw",
-    "url": "https://www.linuxfestnorthwest.org/2017"
+    "website": "https://www.linuxfestnorthwest.org/2017"
 }

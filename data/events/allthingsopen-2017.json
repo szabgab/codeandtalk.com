@@ -5,7 +5,9 @@
     "event_end": "2017-10-24",
     "event_start": "2017-10-23",
     "facebook": "https://www.facebook.com/AllThingsOpen",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Raleigh",
         "country": "USA",
@@ -21,6 +23,6 @@
         "open-source"
     ],
     "twitter": "AllThingsOpen",
-    "url": "https://allthingsopen.org/",
+    "website": "https://allthingsopen.org/",
     "youtube": ""
 }

@@ -5,7 +5,9 @@
     "event_end": "2017-04-01",
     "event_start": "2017-04-01",
     "facebook": "https://www.facebook.com/GOTOConference",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
     "location": {
         "city": "Stockholm",
         "country": "Sweden",
@@ -16,6 +18,6 @@
         "javascript"
     ],
     "twitter": "gotosthlm",
-    "url": "https://gotosthlm.com/",
+    "website": "https://gotosthlm.com/",
     "youtube": ""
 }
