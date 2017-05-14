@@ -11,7 +11,11 @@
     "name": "Laracon US 2016",
     "private_comments": "check here https://streamacon.com/video/laracon-us",
     "state": "Kentucky",
-    "topics": "Laravel, PHP, web",
+    "tags": [
+        "laravel",
+        "php",
+        "web"
+    ],
     "twitter": "LaraconUS",
     "url": "http://laracon.us/"
 }

@@ -9,7 +9,11 @@
     "languages": "English",
     "name": "DjangoCon Australia 2016",
     "state": "Victoria",
-    "topics": "Django, Python, web",
+    "tags": [
+        "django",
+        "python",
+        "web"
+    ],
     "twitter": "DjangoConAU",
     "url": "http://djangocon.com.au/",
     "videos_url": "http://pyvideo.org/"

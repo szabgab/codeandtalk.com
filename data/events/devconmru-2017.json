@@ -11,7 +11,18 @@
     "languages": "English, French",
     "name": "Developers Conference Mauritius 2017",
     "state": "Moka",
-    "topics": ".NET Core, Symfony, JavaScript, Linux, AngularJS, Azure, AWS, REST, IoT, Maker",
+    "tags": [
+        "-net-core",
+        "symfony",
+        "javascript",
+        "linux",
+        "angularjs",
+        "azure",
+        "aws",
+        "rest",
+        "iot",
+        "maker"
+    ],
     "twitter": "MSCraftsman",
     "url": "https://conference.mscc.mu/",
     "youtube": ""

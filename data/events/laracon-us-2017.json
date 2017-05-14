@@ -10,7 +10,11 @@
     "languages": "English",
     "name": "Laracon US 2017",
     "state": "New York",
-    "topics": "Laravel, PHP, web",
+    "tags": [
+        "laravel",
+        "php",
+        "web"
+    ],
     "twitter": "LaraconUS",
     "url": "http://laracon.us/"
 }

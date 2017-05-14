@@ -9,7 +9,11 @@
     "languages": "English",
     "name": "DjangoCon USA 2016",
     "state": "Pennsylvania",
-    "topics": "Django, Python, web",
+    "tags": [
+        "django",
+        "python",
+        "web"
+    ],
     "twitter": "djangocon",
     "url": "https://2016.djangocon.us/",
     "videos_url": "http://pyvideo.org/"

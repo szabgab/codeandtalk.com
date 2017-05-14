@@ -23,19 +23,20 @@ def read_chars():
     return tr
 tr = read_chars()
  
-
 def topic2path(tag):
     t = tag.lower()
+    if t == 'c++':
+        return t
     #t = t.translate(string.maketrans("abc", "def"))
     if sys.platform in ['darwin', 'linux', 'linux2']:
         for k in tr.keys():
             t = re.sub(k, tr[k], t)
     else:  # special case for Windows...
-        t = re.sub(r'[^a-zA-Z]', '', t)
+        t = re.sub(r'[^a-zA-Z0-9]', '', t)
     t = re.sub(r'[.+ ()&/:]', '-', t)
     if re.search(r'[^a-z0-9-]', t):
         raise Exception("Characters of '{}' need to be mapped in 'cat/chars.csv'".format(t))
-    t = re.sub(r'[^a-z]+', '-', t)
+    t = re.sub(r'[^a-z0-9]+', '-', t)
     return t
 
 def html2txt(html):
@@ -202,15 +203,15 @@ class GenerateSite(object):
 
                 my_topics = []
                 #print(this)
-                if this['topics']:
-                    for t in re.split(r'\s*,\s*', this['topics']):
-                        p = topic2path(t)
-                        if p not in self.tags:
-                            raise Exception("Topic '{}' is not in the list of tags".format(p))
-                        my_topics.append({
-                            'name' : t,
-                            'path' : p,
-                        })
+                if 'tags' not in this:
+                    raise Exception("tags missing from {}".format(p))
+                for t in this['tags']:
+                    if t not in self.tags:
+                        raise Exception("Tag '{}' is not in the list of tags".format(t))
+                    my_topics.append({
+                        'name' : t,
+                        'path' : t,
+                    })
                 this['topics'] = my_topics
 
                 this['cfp_class'] = 'cfp_none'

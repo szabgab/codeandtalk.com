@@ -10,7 +10,12 @@
     "languages": "English",
     "name": "Northern Lights Conf 2016",
     "state": "Scotland",
-    "topics": "OpenSource, AWS, Docker, containers",
+    "tags": [
+        "opensource",
+        "aws",
+        "docker",
+        "containers"
+    ],
     "twitter": "northlight_conf",
     "url": "http://northernlightsconf.co.uk/",
     "youtube": "-"

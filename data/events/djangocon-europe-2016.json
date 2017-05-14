@@ -9,7 +9,11 @@
     "languages": "English",
     "name": "DjangoCon Europe 2016",
     "state": "",
-    "topics": "Django, Python, web",
+    "tags": [
+        "django",
+        "python",
+        "web"
+    ],
     "twitter": "DjangoConEurope",
     "url": "https://2016.djangocon.eu/",
     "videos_url": "http://pyvideo.org/events/djangocon-europe-2016.html"

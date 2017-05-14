@@ -11,7 +11,18 @@
     "languages": "English, French",
     "name": "Developers Conference Mauritius 2016",
     "state": "Moka",
-    "topics": ".NET, PHP, JavaScript, MariaDB, AngularJS, Azure, AWS, REST, IoT, Maker",
+    "tags": [
+        "-net",
+        "php",
+        "javascript",
+        "mariadb",
+        "angularjs",
+        "azure",
+        "aws",
+        "rest",
+        "iot",
+        "maker"
+    ],
     "twitter": "MSCraftsman",
     "url": "http://2016.mscc.mu/",
     "youtube": "-"

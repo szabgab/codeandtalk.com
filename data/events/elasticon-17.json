@@ -9,7 +9,12 @@
     "languages": "English",
     "name": "Elastic{on} 17",
     "state": "California",
-    "topics": "ElasticSearch, Kibana, Logstash, Beats",
+    "tags": [
+        "elasticsearch",
+        "kibana",
+        "logstash",
+        "beats"
+    ],
     "twitter": "elastic",
     "url": "https://www.elastic.co/elasticon"
 }
