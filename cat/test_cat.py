@@ -62,6 +62,8 @@ class TestCat(unittest.TestCase):
 
         p = d("#jsinsa-2016")
         assert 'fa-video-camera' in p.html()
+        assert 'Johannesburg' in p.html()
+        assert 'South Africa' in p.html()
 
     def test_topic_links (self):
         rv = self.app.get('/topics')
