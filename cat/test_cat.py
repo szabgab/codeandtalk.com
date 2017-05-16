@@ -46,6 +46,7 @@ class TestCat(unittest.TestCase):
         rv = self.app.get('/all-conferences')
         assert rv.status == '200 OK'
         d = PyQuery(rv.data)
+        #self.assertTrue (False, msg=d)
         p = d("#ffconf-2009")
         #print(p.html())
         assert 'fa-video-camera' not in p.html()
@@ -62,7 +63,32 @@ class TestCat(unittest.TestCase):
         p = d("#jsinsa-2016")
         assert 'fa-video-camera' in p.html()
 
+    def test_topic_links (self):
+        rv = self.app.get('/topics')
+        assert rv.status == '200 OK'
 
+        #import code
+        #code.interact(local=locals())
+
+        #rv = self.app.get('/t/accessibility')
+        #assert rv.status == '200 OK'
+
+        page_html = PyQuery(rv.data)
+        table_lines = page_html("#topics tr")
+        for i in range (1, len (table_lines)):  
+          tr = table_lines[i]      
+          tds = tr.getchildren()
+          td2 = tds[1]
+          td1 = tds[0]
+          a_list = tds[0].getchildren()
+          a = a_list[0]
+          href = a.attrib['href']
+          if td2.text == '0':
+            topic = self.app.get(href)
+            assert topic.status == '200 OK'
+            break
+        
+       
     def test_event(self):
         rv = self.app.get('/e/ffconf-2009')
         assert rv.status == '200 OK'
