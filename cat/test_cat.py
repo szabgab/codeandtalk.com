@@ -73,20 +73,28 @@ class TestCat(unittest.TestCase):
         #rv = self.app.get('/t/accessibility')
         #assert rv.status == '200 OK'
 
+        found_0 = 0
+        found_non_0 = 0
         page_html = PyQuery(rv.data)
         table_lines = page_html("#topics tr")
         for i in range (1, len (table_lines)):  
-          tr = table_lines[i]      
-          tds = tr.getchildren()
-          td2 = tds[1]
-          td1 = tds[0]
-          a_list = tds[0].getchildren()
-          a = a_list[0]
-          href = a.attrib['href']
-          if td2.text == '0':
+            tr = table_lines[i]      
+            tds = tr.getchildren()
+            td2 = tds[1]
+            td1 = tds[0]
+            a_list = tds[0].getchildren()
+            a = a_list[0]
+            href = a.attrib['href']
+            if td2.text == '0':
+                found_0 += 1
+            else:
+                found_non_0 += 1
+
             topic = self.app.get(href)
-            assert topic.status == '200 OK'
-            break
+            self.assertEqual(topic.status, '200 OK', href + ' ' + topic.status)
+
+            if found_0 > 0 and found_non_0 > 0:
+                break
         
        
     def test_event(self):

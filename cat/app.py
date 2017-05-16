@@ -383,8 +383,6 @@ def by_tag(tag):
     now = datetime.now().strftime('%Y-%m-%d')
 
     future, earlier = events_by_tag(cat, tag)
-    if not future:
-        return not_found()
 
     videos = []
     for video in cat['videos']:
@@ -392,6 +390,11 @@ def by_tag(tag):
         #    catapp.logger.debug("Video '{}'".format(video['tags']))
         if 'tags' in video and tag in [ t['link'] for t in video['tags'] ]:
             videos.append(video)
+
+    episodes = episodes_by_tag(cat, tag)
+
+    if not future and not earlier and not videos and not episodes:
+        return not_found()
 
     #catapp.logger.debug("Reading '{}'".format(filename))
     title = 'Open source conferences discussing {}'.format(tag)
@@ -665,6 +668,16 @@ def _calendar(prodid, events):
 
     cal += "END:VCALENDAR\r\n"
     return cal
+
+def episodes_by_tag(cat, tag):
+    episodes = []
+    for podcast in cat['podcasts']:
+        for episode in podcast['episodes']:
+            if 'tags' in episode:
+                for t in episode['tags']:
+                    if t['link'] == tag:
+                        episodes.append(episode)
+    return episodes
 
 def events_by_tag(cat, tag):
     now = datetime.now().strftime('%Y-%m-%d')
