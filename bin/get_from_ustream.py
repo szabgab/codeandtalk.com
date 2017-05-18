@@ -16,9 +16,9 @@ def main():
     parser.add_argument('-e', '--event', help='date in YYYY-MM-DD format', required=True)
     args = parser.parse_args()
 
-    print(args.url)
-    print(args.date)
-    print(args.event)
+    #print(args.url)
+    #print(args.date)
+    #print(args.event)
 
     response = requests.get(args.url)
     if response.status_code != 200:
@@ -27,10 +27,10 @@ def main():
 
     m = re.search(r'\d+$', args.url)
     video_code = m.group(0)
-    print(video_code)
+    #print(video_code)
 
     event_dir = 'data/videos/{}'.format(args.event)
-    print(event_dir)
+    #print(event_dir)
     if not os.path.exists(event_dir):
         os.mkdir(event_dir)
 
