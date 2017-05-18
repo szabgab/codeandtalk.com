@@ -1,10 +1,8 @@
 {
     "accessibility": "",
     "cfp_end": "",
-    "city": "",
     "code_of_conduct": "",
     "comment": "",
-    "country": "",
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
@@ -12,11 +10,17 @@
     "event_start": "2017-11-10",
     "facebook": "",
     "hashtag": "",
-    "languages": "English",
+    "languages": [
+        "English"
+    ],
+    "location": {
+        "city": "",
+        "country": "",
+        "state": ""
+    },
     "name": "",
-    "state": "",
     "tags": [],
     "twitter": "",
-    "url": "",
+    "website": "",
     "youtube": ""
 }
