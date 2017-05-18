@@ -705,7 +705,7 @@ class GenerateSite(object):
             Go over all the files in the data/people directory and check if all the fields are in the list of valid_fields
         """
 
-        valid_fields = ['name', 'github', 'twitter', 'home', 'country', 'gplus', 'nickname', 'city', 'state', 'slides', 'comment', 'topics', 'description']
+        valid_fields = ['name', 'github', 'twitter', 'home', 'country', 'gplus', 'nickname', 'city', 'state', 'slides', 'comment', 'topics', 'description', 'linkedin']
         for nickname in self.people.keys():
             if 'name' not in self.people[nickname]['info']:
                 raise Exception("file {} does not have a 'name' field".format(nickname))
