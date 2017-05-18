@@ -396,6 +396,8 @@ class GenerateSite(object):
                 # Make sure we have a length field
                 if 'length' not in video:
                     raise Exception("Video {}/{}.json was featured but has no length".format(self.events[ video['event'] ]['nickname'], video['filename']))
+                if video['length'] == '':
+                    raise Exception("Video {}/{}.json was featured but had empty length".format(self.events[ video['event'] ]['nickname'], video['filename']))
                 video['l'] = tools.in_sec(video['length'])
 
                 if 'tags' in video:
