@@ -39,10 +39,11 @@ def main():
     # <meta property="og:title" content="Patrick Kua - Tech Lead Skills for Developers" />
     speaker_title = html('meta[@property="og:title"]')[0].attrib['content']
     speaker, title  = speaker_title.split(' - ', 2)
-    print(speaker)
-    print(title)
+#    print(speaker)
+#    print(title)
+    #re.sub(r'', '-', title.lower())
 
-    speaker_nickname = re.sub(r' +', speaker.lower(), '-')
+    speaker_nickname = re.sub(r' +', '-', speaker.lower())
     print(speaker_nickname)
     speaker_file = "data/people/{}.txt".format(speaker_nickname)
     if not os.path.exists(speaker_file):
@@ -59,7 +60,7 @@ def main():
         "likes": "0",
         "recorded": args.date,
         "speakers": [
-            "patrick-kua"
+            speaker_nickname
         ],
         "tags": [],
         # <meta property="og:image" content="http://static-cdn1.ustream.tv/i/video/picture/0/1/102/102894/102894434/1_17590738_102894434,640x360,b,1:2.jpg" />
@@ -77,9 +78,16 @@ def main():
     #import code
     #video_code.interact(local=locals())
 
-    m = html('meta["property="og:description"]')
-    print(m.html)
+    #m = html('meta["property="og:description"]')
+    #print(m.html)
+    if os.path.exists(event_file):
+        print("File {} already exists.".format(event_file))
+        return
 
+    with open(event_file, 'w') as fh:
+        json.dump(data, fh, sort_keys=True, indent=4, separators=(',', ': '))
+
+    print("length is missing! Add it manually!")
 
 main()
 
