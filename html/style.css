@@ -1,12 +1,15 @@
 * {
     background: #FFF;
+    font-family: Arial, Helvetica, Sans;
 }
 
 body {
     padding: 0px;
     margin: 0px;
 }
-
+h1 {
+    text-align: center;
+}
 a {
     text-decoration: none;
 }
@@ -150,7 +153,7 @@ a {
 }
 @media (min-width: 1200px) {
   .container {
-    min-width: 1170px;
+    max-width: 100%;
   }
 }
 
@@ -194,8 +197,8 @@ nav li a, .dropbtn {
     text-decoration: none;
 }
 
-nav li a:hover, .dropdown:hover  {
-    background-color: red;
+nav li a:hover, .dropdown:hover, .dropbtn:hover  {
+    background-color: #1da1f2;
 }
 
 nav li.dropdown {
@@ -223,13 +226,15 @@ nav li.dropdown {
 }
 
 .dropdown-content a:hover {
-    background-color: red;
+    background-color: #1da1f2;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+ul#menu {
+    text-transform: uppercase;
+}
 nav .fa-twitter, .fa-facebook, .fa-github {
     color: #1da1f2;
     background-color: #333;
