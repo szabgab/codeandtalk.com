@@ -16,7 +16,7 @@ from cat import tools
 def read_chars():
     tr = {}
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    with open(os.path.join(root, 'cat', 'chars.csv')) as fh:
+    with open(os.path.join(root, 'cat', 'chars.csv'), encoding="utf-8") as fh:
         rd = csv.reader(fh, delimiter=',') 
         for row in rd:
             tr[row[0]] = row[1]
@@ -165,7 +165,7 @@ class GenerateSite(object):
 
     def read_events(self):
         countries = []
-        with open(os.path.join(self.root, 'data', 'countries.csv')) as fh:
+        with open(os.path.join(self.root, 'data', 'countries.csv'), encoding="utf-8") as fh:
             for line in fh:
                 name, continent = line.rstrip("\n").split(",")
                 countries.append(name)
@@ -363,7 +363,7 @@ class GenerateSite(object):
         return
 
     def read_series(self):
-        with open(self.data + '/series.json') as fh:
+        with open(self.data + '/series.json', encoding="utf-8") as fh:
             self.series = json.load(fh)
             for s in self.series:
                 if s == '':
@@ -379,7 +379,7 @@ class GenerateSite(object):
                 video_file = os.path.basename(video_file_path)
                 html_file_path = video_file_path[0:-4] + 'html'
 
-                with open(video_file_path) as fh:
+                with open(video_file_path, encoding="utf-8") as fh:
                     try:
                         video = json.load(fh)
                         video['filename'] = video_file[0:-5]
@@ -387,7 +387,7 @@ class GenerateSite(object):
                         video['file_date'] = datetime.fromtimestamp( os.path.getctime(video_file_path) ).strftime('%Y-%m-%d')
 
                         if os.path.exists(html_file_path):
-                            with open(html_file_path) as hfh:
+                            with open(html_file_path, encoding="utf-8") as hfh:
                                 video['description'] = hfh.read()
                         self.videos.append(video)
                     except Exception as e:
