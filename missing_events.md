@@ -1,1024 +1,1024 @@
-https://twitter.com/baruco
-https://twitter.com/flowconsf
-https://twitter.com/fldrupalcamp
-https://twitter.com/devopsdays_uk
-https://twitter.com/madisonphp
-https://twitter.com/whartonwebconf
-https://twitter.com/mobconeu
-https://twitter.com/pyconfinland
-https://twitter.com/cocoaloveconf
-https://twitter.com/voxxeddakar
-https://twitter.com/drupalcampwi
-https://twitter.com/scalaupnorth
-https://twitter.com/gr8conf
-https://twitter.com/lonestarruby
-https://twitter.com/nordicapis
-https://twitter.com/target_rug
-https://twitter.com/knode_io
-https://twitter.com/oreillyhardware
-https://twitter.com/rubyconferences
-https://twitter.com/rubynation
-https://twitter.com/scipyindia
-https://twitter.com/blndevops
-https://twitter.com/nvdacon
-https://twitter.com/ancientcityruby
-https://twitter.com/netdayfranken
-https://twitter.com/yapceu2010
-https://twitter.com/agileroots
-https://twitter.com/ast_news
-https://twitter.com/theweeklycfp
-https://twitter.com/rossconf
-https://twitter.com/devopsdaysmsp
-https://twitter.com/dddeastanglia
-https://twitter.com/locworld
-https://twitter.com/mlocjs
-https://twitter.com/vimconf
-https://twitter.com/appnation
-https://twitter.com/xpconf
-https://twitter.com/bsdcan
-https://twitter.com/ixdconf
-https://twitter.com/rustbeltrefresh
-https://twitter.com/bangbangcon
-https://twitter.com/nervescamp
-https://twitter.com/thepghtechfest
-https://twitter.com/devopsdaysmsn
-https://twitter.com/iottechcon
-https://twitter.com/nejsconf
-https://twitter.com/spkeazee
-https://twitter.com/alterconf
-https://twitter.com/kubecon_
-https://twitter.com/scna
-https://twitter.com/sps_events
-https://twitter.com/devopsdaysderby
-https://twitter.com/drupalassoc
-https://twitter.com/scotlandjs
-https://twitter.com/devopsdayssg
-https://twitter.com/ruby_town
-https://twitter.com/clsxeurope
-https://twitter.com/cocoaconf
-https://twitter.com/andevcon
-https://twitter.com/dmconf
-https://twitter.com/beyondconf
-https://twitter.com/qaorthehighway
-https://twitter.com/minneanalytics
-https://twitter.com/truceconf
-https://twitter.com/zeronights
-https://twitter.com/pydatadc
-https://twitter.com/mlconf
-https://twitter.com/pathtoagility
-https://twitter.com/gogaruco
-https://twitter.com/wikiconna
-https://twitter.com/shesgeeky
-https://twitter.com/devopsdaysfi
-https://twitter.com/techsummitio
-https://twitter.com/jsconfar
-https://twitter.com/devopsconfs
-https://twitter.com/tryswiftnyc
-https://twitter.com/parisweb
-https://twitter.com/devopsdaysrdu
-https://twitter.com/dotgoeu
-https://twitter.com/artisan_conf
-https://twitter.com/openvisconf
-https://twitter.com/containersched
-https://twitter.com/mkecodecamp
-https://twitter.com/mobilgunler
-https://twitter.com/phonegap
-https://twitter.com/lightning_io
-https://twitter.com/bcnjs
-https://twitter.com/codeblue_jp
-https://twitter.com/speaknet
-https://twitter.com/codingserbia
-https://twitter.com/webgameconf
-https://twitter.com/4developers
-https://twitter.com/secure_camp
-https://twitter.com/operabilityio
-https://twitter.com/devcrowdpl
-https://twitter.com/acmrecsys
-https://twitter.com/rubyc_eu
-https://twitter.com/devupconf
-https://twitter.com/datadayseattle
-https://twitter.com/budapestdata
-https://twitter.com/cloudexpoasia
-https://twitter.com/scalapeno2014
-https://twitter.com/drupalcorn
-https://twitter.com/euroia
-https://twitter.com/rubyconfco
-https://twitter.com/rubyconfcn
-https://twitter.com/jsconfbeirut
-https://twitter.com/spacecityjs
-https://twitter.com/abbdevday
-https://twitter.com/mtnwestrubyconf
-https://twitter.com/devsumi
-https://twitter.com/pydatacologne
-https://twitter.com/breizhcamp
-https://twitter.com/oss_paris
-https://twitter.com/drupalconsf
-https://twitter.com/call4speaker
-https://twitter.com/codestrong
-https://twitter.com/pyconedusummit
-https://twitter.com/musiccitycode
-https://twitter.com/drupalsummit
-https://twitter.com/androidbbq
-https://twitter.com/techbash
-https://twitter.com/grrcon
-https://twitter.com/campjsnews
-https://twitter.com/wordcampsf
-https://twitter.com/devslovebacon
-https://twitter.com/flatmaposlo
-https://twitter.com/apidaysberlin
-https://twitter.com/yapcna2011
-https://twitter.com/web5_conf
-https://twitter.com/brightonruby
-https://twitter.com/dataweeksf
-https://twitter.com/agilemanc
-https://twitter.com/wordcampatl
-https://twitter.com/_letsgetlouder
-https://twitter.com/topconftal
-https://twitter.com/erlangdc
-https://twitter.com/qcon
-https://twitter.com/frontend_conf
-https://twitter.com/swanseacon
-https://twitter.com/devopsams
-https://twitter.com/drupalnyccamp
-https://twitter.com/devnationconf
-https://twitter.com/techspeakdigest
-https://twitter.com/stirtrek
-https://twitter.com/orderofthebee
-https://twitter.com/cmhcodecamp
-https://twitter.com/rubycaribe
-https://twitter.com/cloudexpo
-https://twitter.com/eurucamp
-https://twitter.com/composemelb
-https://twitter.com/devopsdayskiel
-https://twitter.com/automacon
-https://twitter.com/passbac
-https://twitter.com/gigaoem
-https://twitter.com/phpcfps
-https://twitter.com/triwic
-https://twitter.com/devconfive
-https://twitter.com/nescalas
-https://twitter.com/cultivatecon
-https://twitter.com/codedazeconf
-https://twitter.com/yowlambdajam
-https://twitter.com/goruco
-https://twitter.com/altconference
-https://twitter.com/agileisrael
-https://twitter.com/mexicoweb
-https://twitter.com/codepot_pl
-https://twitter.com/pyconfr
-https://twitter.com/droidconin
-https://twitter.com/rubymanor
-https://twitter.com/openrepos2014
-https://twitter.com/composeconf
-https://twitter.com/conferenciaror
-https://twitter.com/dogfoodcon
-https://twitter.com/techtrrrs
-https://twitter.com/fronttalks
-https://twitter.com/devopsdaysto
-https://twitter.com/reactnlconf
-https://twitter.com/bedcon
-https://twitter.com/voxxedvienna
-https://twitter.com/thingmonk
-https://twitter.com/cczona
-https://twitter.com/graphconnect
-https://twitter.com/smart_iot
-https://twitter.com/geecon
-https://twitter.com/dibiconf
-https://twitter.com/iotfuse
-https://twitter.com/nsspain
-https://twitter.com/confidence_news
-https://twitter.com/hashiconf
-https://twitter.com/mobiledevsummit
-https://twitter.com/railspacific
-https://twitter.com/redhatinnovate
-https://twitter.com/pycon_es
-https://twitter.com/posscon
-https://twitter.com/rstatsnyc
-https://twitter.com/_deafcon_
-https://twitter.com/rejectjs
-https://twitter.com/geeksonabeach
-https://twitter.com/drupalsthlm
-https://twitter.com/atthefrontend
-https://twitter.com/earlconf
-https://twitter.com/serverlessconf
-https://twitter.com/okcon
-https://twitter.com/openbelgium
-https://twitter.com/voxxedberlin
-https://twitter.com/typelevel
-https://twitter.com/chaosupdates
-https://twitter.com/droidconzg
-https://twitter.com/swiftalps
-https://twitter.com/kalamazoox
-https://twitter.com/topconfee
-https://twitter.com/jdaylviv
-https://twitter.com/futurestack
-https://twitter.com/tfnw
-https://twitter.com/devopsdaysrox
-https://twitter.com/saturn_news
-https://twitter.com/whiteoctevents
-https://twitter.com/windycityrails
-https://twitter.com/erlangfactory
-https://twitter.com/scalaio_fr
-https://twitter.com/reactiveconf
-https://twitter.com/pyconse
-https://twitter.com/devtalksro
-https://twitter.com/pyconsg
-https://twitter.com/jdaychicago
-https://twitter.com/infoconorg
-https://twitter.com/nordicruby
-https://twitter.com/frontiersof
-https://twitter.com/tapia_con
-https://twitter.com/truenorthphp
-https://twitter.com/pnsqc
-https://twitter.com/r00tzasylum
-https://twitter.com/a41con
-https://twitter.com/failconnyc
-https://twitter.com/confagilespain
-https://twitter.com/artifactconf
-https://twitter.com/ncraftsconf
-https://twitter.com/uikonf
-https://twitter.com/isf_no
-https://twitter.com/nordevcon
-https://twitter.com/droidconvie
-https://twitter.com/voxxedticino
-https://twitter.com/devopsdaysbos
-https://twitter.com/fuconf
-https://twitter.com/nodeconf
-https://twitter.com/dddbrisbane
-https://twitter.com/sdeconf
-https://twitter.com/cucumberbdd
-https://twitter.com/pythonireland
-https://twitter.com/dev_cycles
-https://twitter.com/industryconf
-https://twitter.com/progscon
-https://twitter.com/pydxconf
-https://twitter.com/agilecymru
-https://twitter.com/pyconuy2
-https://twitter.com/nmcwic
-https://twitter.com/railsclub_ru
-https://twitter.com/blendwebmix
-https://twitter.com/jotb17
-https://twitter.com/tryswiftconf
-https://twitter.com/dddscot
-https://twitter.com/rocketconf
-https://twitter.com/drupaldevdays
-https://twitter.com/pydatachi
-https://twitter.com/lasconatx
-https://twitter.com/devternity
-https://twitter.com/x0rc0nf
-https://twitter.com/appsecusa
-https://twitter.com/phpcon
-https://twitter.com/themeconf
-https://twitter.com/gxaustralia
-https://twitter.com/liberty_js
-https://twitter.com/pydataparis
-https://twitter.com/pyconeu
-https://twitter.com/mojoconf
-https://twitter.com/rubymidwest
-https://twitter.com/pyladiesconf
-https://twitter.com/dpcon
-https://twitter.com/droidcones
-https://twitter.com/strangeloop_stl
-https://twitter.com/devopsdaysnz
-https://twitter.com/roguerails
-https://twitter.com/primeconf
-https://twitter.com/enigmaconf
-https://twitter.com/wordcampnash
-https://twitter.com/clouddevconf
-https://twitter.com/owasp_il
-https://twitter.com/failcon_ch
-https://twitter.com/catskillsconf
-https://twitter.com/cloudstackdays
-https://twitter.com/appseccali
-https://twitter.com/devopsdayswaw
-https://twitter.com/ttw_conf
-https://twitter.com/nativevsweb
-https://twitter.com/rigadevdays
-https://twitter.com/erlangworkshop
-https://twitter.com/voxxedzurich
-https://twitter.com/bsidessf
-https://twitter.com/madisonruby
-https://twitter.com/csvconference
-https://twitter.com/lambda_world
-https://twitter.com/fronteers
-https://twitter.com/flinkforward
-https://twitter.com/agile_iot
-https://twitter.com/devopsdaysohio
-https://twitter.com/cycleconf
-https://twitter.com/devopsdaysslc
-https://twitter.com/devopsdayskc
-https://twitter.com/rubyworldconf
-https://twitter.com/devopsdaysldn
-https://twitter.com/dcdnl
-https://twitter.com/fossetcon
-https://twitter.com/convergefl
-https://twitter.com/bsidesiowa
-https://twitter.com/call4itspeakers
-https://twitter.com/c3kidspace
-https://twitter.com/mesoscon
-https://twitter.com/nosqlday
-https://twitter.com/official_vrdc
-https://twitter.com/spainjs
-https://twitter.com/devopsdaysphl
-https://twitter.com/stateofthenet
-https://twitter.com/datagotham
-https://twitter.com/chicktechnyc
-https://twitter.com/droidconsf
-https://twitter.com/fullstackcon
-https://twitter.com/geekconferences
-https://twitter.com/wrocsharp
-https://twitter.com/codeonthesea
-https://twitter.com/bratachconfeu
-https://twitter.com/drupaldownunder
-https://twitter.com/rbonales
-https://twitter.com/jfokus
-https://twitter.com/devopsdayschi
-https://twitter.com/phpwomen
-https://twitter.com/eclipseiot
-https://twitter.com/buzzconfio
-https://twitter.com/layersconf
-https://twitter.com/speakingio
-https://twitter.com/bobkonf
-https://twitter.com/curry_on_conf
-https://twitter.com/techoramabe
-https://twitter.com/techwomensummit
-https://twitter.com/devopsdaysbna
-https://twitter.com/wpdevcon
-https://twitter.com/iosdevuk
-https://twitter.com/androidmakersfr
-https://twitter.com/robotsconf
-https://twitter.com/mwmobilesummit
-https://twitter.com/greatlakesfunc
-https://twitter.com/jdd_krakow
-https://twitter.com/wahckon
-https://twitter.com/swiftsummit
-https://twitter.com/chicagowebconf
-https://twitter.com/thefailconindia
-https://twitter.com/spsnashville
-https://twitter.com/starsconf
-https://twitter.com/ibmforcio
-https://twitter.com/projectjupyter
-https://twitter.com/midwestux
-https://twitter.com/mobilismconf
-https://twitter.com/javalandconf
-https://twitter.com/socodedconf
-https://twitter.com/budapestbi
-https://twitter.com/pythonnamibia
-https://twitter.com/sqlrelay_uk
-https://twitter.com/selfconference
-https://twitter.com/nsscotland
-https://twitter.com/endpointcon
-https://twitter.com/eclipsecon
-https://twitter.com/sqlpass
-https://twitter.com/midwestcamp
-https://twitter.com/sassconf
-https://twitter.com/sddconf
-https://twitter.com/phpweekly
-https://twitter.com/360idev
-https://twitter.com/womentechmakers
-https://twitter.com/ai_camp_nyc
-https://twitter.com/oreillysecurity
-https://twitter.com/nigwebcon
-https://twitter.com/pghtechfest
-https://twitter.com/drupalcon
-https://twitter.com/coderfaire
-https://twitter.com/mixitconf
-https://twitter.com/indiecade
-https://twitter.com/devopsdayslj
-https://twitter.com/droidconae
-https://twitter.com/oreillysacon
-https://twitter.com/whereberlin
-https://twitter.com/monkigras
-https://twitter.com/devopsdaysoslo
-https://twitter.com/lonestarphp
-https://twitter.com/riseconorg
-https://twitter.com/mrmcd2017
-https://twitter.com/webcampzagreb
-https://twitter.com/uxcamplondon
-https://twitter.com/generateconf
-https://twitter.com/campsass
-https://twitter.com/appdevconnl
-https://twitter.com/nairubyke
-https://twitter.com/bwicomputing
-https://twitter.com/scalapeno_conf
-https://twitter.com/datalayerconf
-https://twitter.com/grdevday
-https://twitter.com/locconf
-https://twitter.com/phpconpoland
-https://twitter.com/badcamp
-https://twitter.com/perforce
-https://twitter.com/aneventapart
-https://twitter.com/calltospeakers
-https://twitter.com/bsidesnash
-https://twitter.com/fisl_oficial
-https://twitter.com/iotconf_sweden
-https://twitter.com/crunchbp
-https://twitter.com/ddd_eu
-https://twitter.com/whiskyweb
-https://twitter.com/scaladownunder
-https://twitter.com/code4lib
-https://twitter.com/ldapcon
-https://twitter.com/200okconf
-https://twitter.com/monkeyspaceconf
-https://twitter.com/devopsdayssv
-https://twitter.com/fpdays
-https://twitter.com/devconnections
-https://twitter.com/chicagocodecamp
-https://twitter.com/inlinuxfest
-https://twitter.com/failcon
-https://twitter.com/cascadiaruby
-https://twitter.com/brucon
-https://twitter.com/jsconfau
-https://twitter.com/fowd
-https://twitter.com/agileee
-https://twitter.com/magmaconf
-https://twitter.com/fowa
-https://twitter.com/pgdayau
-https://twitter.com/spark_summit
-https://twitter.com/joyofcoding
-https://twitter.com/digpensw
-https://twitter.com/devweek
-https://twitter.com/jquerysf
-https://twitter.com/yow_conf
-https://twitter.com/openhelpconf
-https://twitter.com/official_gdc
-https://twitter.com/codemotionworld
-https://twitter.com/webtechcon
-https://twitter.com/devopsdayspgh
-https://twitter.com/aginextio
-https://twitter.com/ruby_fosdem
-https://twitter.com/bubbleconf
-https://twitter.com/appbuilders_ch
-https://twitter.com/dsgndayconf
-https://twitter.com/atmosphereconf
-https://twitter.com/phreaknic
-https://twitter.com/writespeakcode
-https://twitter.com/reconmtl
-https://twitter.com/devteachconfere
-https://twitter.com/erlangcampnyc
-https://twitter.com/monitorama
-https://twitter.com/fusionconf
-https://twitter.com/systers_org
-https://twitter.com/emfcamp
-https://twitter.com/cphcontext
-https://twitter.com/agiletourlondon
-https://twitter.com/erlyclub
-https://twitter.com/coldfrontconf
-https://twitter.com/emberfest
-https://twitter.com/mobiletechcon
-https://twitter.com/webcampsi
-https://twitter.com/frozenrails
-https://twitter.com/gr8confin
-https://twitter.com/programistok
-https://twitter.com/cse_global
-https://twitter.com/bostoncodecamp
-https://twitter.com/relengcon
-https://twitter.com/reactday
-https://twitter.com/botconf
-https://twitter.com/droidconnyc
-https://twitter.com/bastacon
-https://twitter.com/openwestconf
-https://twitter.com/circlecitycon
-https://twitter.com/nsnorth
-https://twitter.com/cmsgarden
-https://twitter.com/reddotrubyconf
-https://twitter.com/scalabythebay
-https://twitter.com/pycarolinas
-https://twitter.com/cssconfno
-https://twitter.com/codeconf
-https://twitter.com/jailbreakcon
-https://twitter.com/webstock
-https://twitter.com/pchalliance
-https://twitter.com/javascriptfest
-https://twitter.com/flossmetrics
-https://twitter.com/differentgames
-https://twitter.com/webtechconf
-https://twitter.com/secondconf
-https://twitter.com/monktoberfest
-https://twitter.com/chefconf
-https://twitter.com/btvrubyconf
-https://twitter.com/mm_conf
-https://twitter.com/wildcardconf
-https://twitter.com/devopsdaystlv
-https://twitter.com/securityconf
-https://twitter.com/incontrodevops
-https://twitter.com/joomladagen
-https://twitter.com/360flex
-https://twitter.com/signalconf
-https://twitter.com/buildstufflt
-https://twitter.com/phpconfasia
-https://twitter.com/nodeconfbcn
-https://twitter.com/realtimeconfeu
-https://twitter.com/360intersect
-https://twitter.com/indiedevstock
-https://twitter.com/abracketsconf
-https://twitter.com/wtc2016
-https://twitter.com/scenicsummit
-https://twitter.com/skiphp
-https://twitter.com/drupalcampto
-https://twitter.com/onandroidconf
-https://twitter.com/geekgirlcamp
-https://twitter.com/integratecon
-https://twitter.com/apidaysnz
-https://twitter.com/drupalgovcon
-https://twitter.com/iosonrailsconf
-https://twitter.com/_cloudconf_
-https://twitter.com/devignition
-https://twitter.com/gotocon
-https://twitter.com/djangoweekend
-https://twitter.com/w3cconf
-https://twitter.com/droidcontn
-https://twitter.com/rubysauna
-https://twitter.com/scalaexchange
-https://twitter.com/isttechtalks
-https://twitter.com/cingleton
-https://twitter.com/wikimanialondon
-https://twitter.com/dotrbeu
-https://twitter.com/cssdayconf
-https://twitter.com/riconconf
-https://twitter.com/cssconfuy
-https://twitter.com/drupalnorth
-https://twitter.com/cppcon
-https://twitter.com/gomodev
-https://twitter.com/tropicalrb
-https://twitter.com/gdgistanbul
-https://twitter.com/wordcampboston
-https://twitter.com/fossgis_konf
-https://twitter.com/nycpug
-https://twitter.com/agileindy
-https://twitter.com/webconftaiwan
-https://twitter.com/emw
-https://twitter.com/brewingagile
-https://twitter.com/phpaustralia
-https://twitter.com/sectorca
-https://twitter.com/wordcamp_
-https://twitter.com/babbqamsterdam
-https://twitter.com/gigaom
-https://twitter.com/houseccon
-https://twitter.com/mwrc
-https://twitter.com/openstackeast
-https://twitter.com/scalaitaly
-https://twitter.com/bangalorejs
-https://twitter.com/datadaytexas
-https://twitter.com/defcon
-https://twitter.com/arrrrcamp
-https://twitter.com/droidconde
-https://twitter.com/olainitiative
-https://twitter.com/gluecon
-https://twitter.com/renaissanceio
-https://twitter.com/lambdadays
-https://twitter.com/qualityexcites
-https://twitter.com/phpundiscovered
-https://twitter.com/ticonf
-https://twitter.com/frontendnorth
-https://twitter.com/microxchg
-https://twitter.com/lcauckland
-https://twitter.com/sotmus
-https://twitter.com/convergedetroit
-https://twitter.com/sigint
-https://twitter.com/jsfoo
-https://twitter.com/callallpapers
-https://twitter.com/pragmamarkorg
-https://twitter.com/convergeconfing
-https://twitter.com/apistrat
-https://twitter.com/pipelineconf
-https://twitter.com/mtnwestdevops
-https://twitter.com/jdaysgbg
-https://twitter.com/devopsdaysnyc
-https://twitter.com/cfgmgmtcamp
-https://twitter.com/iosconf
-https://twitter.com/interlinkconf
-https://twitter.com/cvdevgroup
-https://twitter.com/kc_dc
-https://twitter.com/hopeconf
-https://twitter.com/phpnwconf
-https://twitter.com/ladieswhocode
-https://twitter.com/oreillyai
-https://twitter.com/larubyconf
-https://twitter.com/trondheimdc
-https://twitter.com/dddsouthwest
-https://twitter.com/droidconkr
-https://twitter.com/dataleadconf
-https://twitter.com/pydatawarsaw
-https://twitter.com/ullconf
-https://twitter.com/qgcon
-https://twitter.com/webdirections
-https://twitter.com/greachconf
-https://twitter.com/cfp_help
-https://twitter.com/overtheair
-https://twitter.com/wecodeharvard
-https://twitter.com/devcolororg
-https://twitter.com/djangounderhood
-https://twitter.com/upfrontconf
-https://twitter.com/droidconbe
-https://twitter.com/springone2gx
-https://twitter.com/madexpo
-https://twitter.com/codeonthebeach
-https://twitter.com/ccppycon
-https://twitter.com/dotswift
-https://twitter.com/islayconf
-https://twitter.com/atlcodecamp
-https://twitter.com/oncwic
-https://twitter.com/devopsdaysboise
-https://twitter.com/devopsdaysdc
-https://twitter.com/noshowconf
-https://twitter.com/droneconference
-https://twitter.com/la_conf
-https://twitter.com/aybconf
-https://twitter.com/freestructure
-https://twitter.com/moduxcon
-https://twitter.com/dtnconf
-https://twitter.com/syscan360
-https://twitter.com/cufpconference
-https://twitter.com/pydatalondon
-https://twitter.com/latinityconf
-https://twitter.com/steelcityruby
-https://twitter.com/queercon
-https://twitter.com/scalarconf
-https://twitter.com/cmdrconf
-https://twitter.com/drupalconparis
-https://twitter.com/failconberlin
-https://twitter.com/highlandwebconf
-https://twitter.com/midwestio
-https://twitter.com/gwocon
-https://twitter.com/cascadiacss
-https://twitter.com/lambda_conf
-https://twitter.com/scalaworldconf
-https://twitter.com/playgroundscon
-https://twitter.com/yapceurope
-https://twitter.com/voxxedvilnius
-https://twitter.com/bmoresponsive
-https://twitter.com/apidaysmedit
-https://twitter.com/openstackonales
-https://twitter.com/feelingrestful
-https://twitter.com/drupalironcamp
-https://twitter.com/atlassian
-https://twitter.com/normen_no
-https://twitter.com/cohaainfo
-https://twitter.com/spshou
-https://twitter.com/failcon12
-https://twitter.com/drupalasheville
-https://twitter.com/cubaconference
-https://twitter.com/balisage
-https://twitter.com/scaladays
-https://twitter.com/jsconfchina
-https://twitter.com/lrtechfest
-https://twitter.com/techdayssweden
-https://twitter.com/devfestnl
-https://twitter.com/cppnow
-https://twitter.com/latinasinc
-https://twitter.com/scotrubyconf
-https://twitter.com/balcc0n
-https://twitter.com/stampedecon
-https://twitter.com/qconrio
-https://twitter.com/iotworldforum
-https://twitter.com/uxburlington
-https://twitter.com/juliaconindia
-https://twitter.com/espritjug
-https://twitter.com/redhatsummit
-https://twitter.com/mobileuxcampdc
-https://twitter.com/openstreetmap
-https://twitter.com/warsjawa
-https://twitter.com/html5conf
-https://twitter.com/oedorubykaigi
-https://twitter.com/bosniaagile
-https://twitter.com/mixinconf
-https://twitter.com/devopsdaysparis
-https://twitter.com/notacon
-https://twitter.com/optionalconf
-https://twitter.com/cryptovillage
-https://twitter.com/droidcon
-https://twitter.com/reactnext
-https://twitter.com/opentechuk
-https://twitter.com/frontinams
-https://twitter.com/northbayweb
-https://twitter.com/nodeconfin
-https://twitter.com/osfeels
-https://twitter.com/iotasia
-https://twitter.com/wordcampraleigh
-https://twitter.com/wordcampid
-https://twitter.com/topconfro
-https://twitter.com/twiliocon
-https://twitter.com/containerizet
-https://twitter.com/devintersection
-https://twitter.com/speakerinnen
-https://twitter.com/ncdevcon
-https://twitter.com/couchdb
-https://twitter.com/casitconf
-https://twitter.com/pyconca
-https://twitter.com/moonconf
-https://twitter.com/wickedgoodember
-https://twitter.com/mwdcon
-https://twitter.com/mobileappeurope
-https://twitter.com/mobilizationpl
-https://twitter.com/webandphpcon
-https://twitter.com/jsconfus
-https://twitter.com/otsconf
-https://twitter.com/droidcongr
-https://twitter.com/geopythonconf
-https://twitter.com/dotnextconf
-https://twitter.com/devopsdayssea
-https://twitter.com/sqlsatbr
-https://twitter.com/pgconbr
-https://twitter.com/dhtmlconf
-https://twitter.com/hardwear_io
-https://twitter.com/strataconf
-https://twitter.com/mactechconf
-https://twitter.com/mobiconf
-https://twitter.com/pygrunn
-https://twitter.com/awsreinvent
-https://twitter.com/devopsdotcom
-https://twitter.com/rfdpdx
-https://twitter.com/webandphp
-https://twitter.com/redevelopconf
-https://twitter.com/lesbiantech
-https://twitter.com/phpwomeneu
-https://twitter.com/holyjsconf
-https://twitter.com/codecampnyc
-https://twitter.com/html5summit
-https://twitter.com/dotnetcologne
-https://twitter.com/polyglotconf
-https://twitter.com/graphday
-https://twitter.com/platformcf
-https://twitter.com/plugfestcon
-https://twitter.com/beyondthecode
-https://twitter.com/symfonydayit
-https://twitter.com/itakeunconf
-https://twitter.com/ccc
-https://twitter.com/javantura
-https://twitter.com/amegala
-https://twitter.com/steel_con
-https://twitter.com/leanagilescot
-https://twitter.com/antarcticjs
-https://twitter.com/symfony_live
-https://twitter.com/berlinbuzzwords
-https://twitter.com/jqueryconf
-https://twitter.com/devopsdaysams
-https://twitter.com/squaresconf
-https://twitter.com/phpyorkshire
-https://twitter.com/thebigdataconf
-https://twitter.com/vslive
-https://twitter.com/voxxedbucharest
-https://twitter.com/symposiumtweets
-https://twitter.com/4sics
-https://twitter.com/cssconf
-https://twitter.com/nickelcityruby
-https://twitter.com/warmcrocconf
-https://twitter.com/dotnetunboxed
-https://twitter.com/tccodecamp
-https://twitter.com/laraconlive
-https://twitter.com/decompressau
-https://twitter.com/trustycon
-https://twitter.com/dddnorth
-https://twitter.com/drupalcondenver
-https://twitter.com/cssconfoak
-https://twitter.com/rubyconfengland
-https://twitter.com/ladies_in_tech
-https://twitter.com/finaglecon
-https://twitter.com/nightlybuildio
-https://twitter.com/deepsec
-https://twitter.com/ploneconf
-https://twitter.com/confiturapl
-https://twitter.com/srccon
-https://twitter.com/wordcamplondon
-https://twitter.com/pyconuy
-https://twitter.com/mobileworldlive
-https://twitter.com/esconfs
-https://twitter.com/boisecodecamp
-https://twitter.com/midwest_js
-https://twitter.com/womenwhogo
-https://twitter.com/jprimeconf
-https://twitter.com/pgcon
-https://twitter.com/nzpug
-https://twitter.com/linuxtag
-https://twitter.com/e4e_devconf
-https://twitter.com/uxscotland
-https://twitter.com/javadayistanbul
-https://twitter.com/elixirconfeu
-https://twitter.com/andyetconf
-https://twitter.com/derbycon
-https://twitter.com/pghpw
-https://twitter.com/scalamatsuri
-https://twitter.com/devopsdaysist
-https://twitter.com/ipdevcon
-https://twitter.com/iotconf
-https://twitter.com/bigdataconf
-https://twitter.com/micwic
-https://twitter.com/tbowebdesign
-https://twitter.com/bigscala
-https://twitter.com/appseceu
-https://twitter.com/drupalmontreal
-https://twitter.com/nsconf
-https://twitter.com/jaxcon
-https://twitter.com/modeveast
-https://twitter.com/developerday
-https://twitter.com/allabouttheapi
-https://twitter.com/auc_anz
-https://twitter.com/smartdevcon
-https://twitter.com/pfcongres
-https://twitter.com/createtheweb
-https://twitter.com/hak4kidz
-https://twitter.com/jingjsconf
-https://twitter.com/future_insights
-https://twitter.com/devopsday
-https://twitter.com/devfestvienna
-https://twitter.com/pyconve
-https://twitter.com/uxcampeurope
-https://twitter.com/nodepdx
-https://twitter.com/topconf
-https://twitter.com/revconf
-https://twitter.com/diversity_conf
-https://twitter.com/clojuredays
-https://twitter.com/360andev
-https://twitter.com/hack_lu
-https://twitter.com/softwarecircus
-https://twitter.com/phpweeklynews
-https://twitter.com/nodebotsday
-https://twitter.com/scienceruby
-https://twitter.com/html5devconf
-https://twitter.com/planetpython
-https://twitter.com/iosdevcampdc
-https://twitter.com/tnwconference
-https://twitter.com/gopherconae
-https://twitter.com/py_bay
-https://twitter.com/jsconfin
-https://twitter.com/metarefresh
-https://twitter.com/codepalousa
-https://twitter.com/bytesconf
-https://twitter.com/elixirconf
-https://twitter.com/tweriod
-https://twitter.com/symfonycon
-https://twitter.com/pyconlt
-https://twitter.com/chcon_nz
-https://twitter.com/githubuniverse
-https://twitter.com/devopsdaysin
-https://twitter.com/osdc_tw
-https://twitter.com/wceurope
-https://twitter.com/crikeycon
-https://twitter.com/shecodesconf
-https://twitter.com/hotcodecon
-https://twitter.com/devopsdayscpt
-https://twitter.com/devobjectiveold
-https://twitter.com/devopsdaysyvr
-https://twitter.com/skillsmatter
-https://twitter.com/tcuk_conf
-https://twitter.com/rwdevcon
-https://twitter.com/shmoocon
-https://twitter.com/plonesymp
-https://twitter.com/dotnetfringe
-https://twitter.com/bdconf
-https://twitter.com/coderxx2015
-https://twitter.com/prontocfp
-https://twitter.com/systemswelove
-https://twitter.com/codemania
-https://twitter.com/jaxlondon
-https://twitter.com/fromthefront
-https://twitter.com/nodeday
-https://twitter.com/devopsdaysatl
-https://twitter.com/devopsdayspdx
-https://twitter.com/golangukconf
-https://twitter.com/phpconferences
-https://twitter.com/boosterconf
-https://twitter.com/webrtccamp
-https://twitter.com/rockymtnruby
-https://twitter.com/devconfu
-https://twitter.com/sqlsat
-https://twitter.com/opentechcal
-https://twitter.com/codecampro
-https://twitter.com/skydogcon
-https://twitter.com/blendconf
-https://twitter.com/spaconference
-https://twitter.com/dotcss
-https://twitter.com/railscamp_nz
-https://twitter.com/afup
-https://twitter.com/devopsdays_clt
-https://twitter.com/nosqlrs
-https://twitter.com/drupaldelphia
-https://twitter.com/port80events
-https://twitter.com/scandevconf
-https://twitter.com/foss4gna
-https://twitter.com/xoxo
-https://twitter.com/elmconf
-https://twitter.com/liftconference
-https://twitter.com/techwell
-https://twitter.com/codeconnexx
-https://twitter.com/papisdotio
-https://twitter.com/braziljs
-https://twitter.com/agilefrance
-https://twitter.com/redisconf
-https://twitter.com/voxxedbristol
-https://twitter.com/rubykaigi
-https://twitter.com/flourishconf
-https://twitter.com/s1p
-https://twitter.com/phillydotnet
-https://twitter.com/rubyshift
-https://twitter.com/wickedgoodruby
-https://twitter.com/pytennessee
-https://twitter.com/fifthel
-https://twitter.com/gaymerx
-https://twitter.com/speaking_out
-https://twitter.com/netconfuy
-https://twitter.com/reactweek
-https://twitter.com/fudconin
-https://twitter.com/codemash
-https://twitter.com/pygotham
-https://twitter.com/nodefest
-https://twitter.com/wrocloverb
-https://twitter.com/spanconf
-https://twitter.com/rubytaiwan
-https://twitter.com/pydataberlin
-https://twitter.com/mceconf
-https://twitter.com/rustbeltrust
-https://twitter.com/droidkaigi
-https://twitter.com/wrongislandcon
-https://twitter.com/jqueryeurope
-https://twitter.com/nerdboat
-https://twitter.com/pydatamad
-https://twitter.com/senchacon
-https://twitter.com/bigdataspain
-https://twitter.com/feopsconf
-https://twitter.com/rupy
-https://twitter.com/speakup_io
-https://twitter.com/ruxconbpx
-https://twitter.com/html5tx
-https://twitter.com/rubymotion
-https://twitter.com/hackadayprize
-https://twitter.com/mozillafestival
-https://twitter.com/brnophp
-https://twitter.com/weareallawesome
-https://twitter.com/pythonnordeste
-https://twitter.com/leanuxnz
-https://twitter.com/44con
-https://twitter.com/webprogressions
-https://twitter.com/yapcrussia
-https://twitter.com/gdgphilippines
-https://twitter.com/cloudidsummit
-https://twitter.com/theleaddev
-https://twitter.com/nodecopter
-https://twitter.com/drupalcampldn
-https://twitter.com/webconfriga
-https://twitter.com/zendcon_europe
-https://twitter.com/velocityconf
-https://twitter.com/wdcnz
-https://twitter.com/devopsdaysdet
-https://twitter.com/javacro
-https://twitter.com/uxcampdc
-https://twitter.com/pgdayeu
-https://twitter.com/nerdsummit
-https://twitter.com/rubyconfar
-https://twitter.com/pnwscala
-https://twitter.com/scotlandcss
-https://twitter.com/phpconfnz
-https://twitter.com/bohconf
-https://twitter.com/adobemax
-https://twitter.com/takeoffconf
-https://twitter.com/spring_io
-https://twitter.com/wcpdx
-https://twitter.com/jsconfmx
-https://twitter.com/windycitythings
-https://twitter.com/hackidcon
-https://twitter.com/databythebay
-https://twitter.com/codestock
-https://twitter.com/pytexas
-https://twitter.com/indieconf
-https://twitter.com/iasummit
-https://twitter.com/openstreetmapus
-https://twitter.com/moscmy
-https://twitter.com/jrubyconfeu
-https://twitter.com/mobdeliverydays
-https://twitter.com/devrel_net
-https://twitter.com/lambdajam
-https://twitter.com/droidconit
-https://twitter.com/apiworld
-https://twitter.com/euroscipy
-https://twitter.com/bigandroidbbq
-https://twitter.com/drupalconfmsk
-https://twitter.com/jsconfbr
-https://twitter.com/pydatait
-https://twitter.com/surgecon
-https://twitter.com/percona
-https://twitter.com/phptek
-https://twitter.com/jseverywhere
-https://twitter.com/railsgirlsconf
-https://twitter.com/codemeshio
-https://twitter.com/jsconfbe
-https://twitter.com/gotoaar
-https://twitter.com/railsberry
-https://twitter.com/edgeconf
-https://twitter.com/npmcamp
-https://twitter.com/devopsdownunder
-https://twitter.com/rubyconfuruguay
-https://twitter.com/andseccon
-https://twitter.com/the_jsf
-https://twitter.com/agile2013
-https://twitter.com/devopsdaysbmore
-https://twitter.com/pitercss_conf
-https://twitter.com/oredev
-https://twitter.com/opencamps
-https://twitter.com/cgconf
-https://twitter.com/agilebyexample
-https://twitter.com/cancwic
-https://twitter.com/flossienet
-https://twitter.com/apidaysglobal
-https://twitter.com/rulu
-https://twitter.com/dotscale
+* https://twitter.com/baruco
+* https://twitter.com/flowconsf
+* https://twitter.com/fldrupalcamp
+* https://twitter.com/devopsdays_uk
+* https://twitter.com/madisonphp
+* https://twitter.com/whartonwebconf
+* https://twitter.com/mobconeu
+* https://twitter.com/pyconfinland
+* https://twitter.com/cocoaloveconf
+* https://twitter.com/voxxeddakar
+* https://twitter.com/drupalcampwi
+* https://twitter.com/scalaupnorth
+* https://twitter.com/gr8conf
+* https://twitter.com/lonestarruby
+* https://twitter.com/nordicapis
+* https://twitter.com/target_rug
+* https://twitter.com/knode_io
+* https://twitter.com/oreillyhardware
+* https://twitter.com/rubyconferences
+* https://twitter.com/rubynation
+* https://twitter.com/scipyindia
+* https://twitter.com/blndevops
+* https://twitter.com/nvdacon
+* https://twitter.com/ancientcityruby
+* https://twitter.com/netdayfranken
+* https://twitter.com/yapceu2010
+* https://twitter.com/agileroots
+* https://twitter.com/ast_news
+* https://twitter.com/theweeklycfp
+* https://twitter.com/rossconf
+* https://twitter.com/devopsdaysmsp
+* https://twitter.com/dddeastanglia
+* https://twitter.com/locworld
+* https://twitter.com/mlocjs
+* https://twitter.com/vimconf
+* https://twitter.com/appnation
+* https://twitter.com/xpconf
+* https://twitter.com/bsdcan
+* https://twitter.com/ixdconf
+* https://twitter.com/rustbeltrefresh
+* https://twitter.com/bangbangcon
+* https://twitter.com/nervescamp
+* https://twitter.com/thepghtechfest
+* https://twitter.com/devopsdaysmsn
+* https://twitter.com/iottechcon
+* https://twitter.com/nejsconf
+* https://twitter.com/spkeazee
+* https://twitter.com/alterconf
+* https://twitter.com/kubecon_
+* https://twitter.com/scna
+* https://twitter.com/sps_events
+* https://twitter.com/devopsdaysderby
+* https://twitter.com/drupalassoc
+* https://twitter.com/scotlandjs
+* https://twitter.com/devopsdayssg
+* https://twitter.com/ruby_town
+* https://twitter.com/clsxeurope
+* https://twitter.com/cocoaconf
+* https://twitter.com/andevcon
+* https://twitter.com/dmconf
+* https://twitter.com/beyondconf
+* https://twitter.com/qaorthehighway
+* https://twitter.com/minneanalytics
+* https://twitter.com/truceconf
+* https://twitter.com/zeronights
+* https://twitter.com/pydatadc
+* https://twitter.com/mlconf
+* https://twitter.com/pathtoagility
+* https://twitter.com/gogaruco
+* https://twitter.com/wikiconna
+* https://twitter.com/shesgeeky
+* https://twitter.com/devopsdaysfi
+* https://twitter.com/techsummitio
+* https://twitter.com/jsconfar
+* https://twitter.com/devopsconfs
+* https://twitter.com/tryswiftnyc
+* https://twitter.com/parisweb
+* https://twitter.com/devopsdaysrdu
+* https://twitter.com/dotgoeu
+* https://twitter.com/artisan_conf
+* https://twitter.com/openvisconf
+* https://twitter.com/containersched
+* https://twitter.com/mkecodecamp
+* https://twitter.com/mobilgunler
+* https://twitter.com/phonegap
+* https://twitter.com/lightning_io
+* https://twitter.com/bcnjs
+* https://twitter.com/codeblue_jp
+* https://twitter.com/speaknet
+* https://twitter.com/codingserbia
+* https://twitter.com/webgameconf
+* https://twitter.com/4developers
+* https://twitter.com/secure_camp
+* https://twitter.com/operabilityio
+* https://twitter.com/devcrowdpl
+* https://twitter.com/acmrecsys
+* https://twitter.com/rubyc_eu
+* https://twitter.com/devupconf
+* https://twitter.com/datadayseattle
+* https://twitter.com/budapestdata
+* https://twitter.com/cloudexpoasia
+* https://twitter.com/scalapeno2014
+* https://twitter.com/drupalcorn
+* https://twitter.com/euroia
+* https://twitter.com/rubyconfco
+* https://twitter.com/rubyconfcn
+* https://twitter.com/jsconfbeirut
+* https://twitter.com/spacecityjs
+* https://twitter.com/abbdevday
+* https://twitter.com/mtnwestrubyconf
+* https://twitter.com/devsumi
+* https://twitter.com/pydatacologne
+* https://twitter.com/breizhcamp
+* https://twitter.com/oss_paris
+* https://twitter.com/drupalconsf
+* https://twitter.com/call4speaker
+* https://twitter.com/codestrong
+* https://twitter.com/pyconedusummit
+* https://twitter.com/musiccitycode
+* https://twitter.com/drupalsummit
+* https://twitter.com/androidbbq
+* https://twitter.com/techbash
+* https://twitter.com/grrcon
+* https://twitter.com/campjsnews
+* https://twitter.com/wordcampsf
+* https://twitter.com/devslovebacon
+* https://twitter.com/flatmaposlo
+* https://twitter.com/apidaysberlin
+* https://twitter.com/yapcna2011
+* https://twitter.com/web5_conf
+* https://twitter.com/brightonruby
+* https://twitter.com/dataweeksf
+* https://twitter.com/agilemanc
+* https://twitter.com/wordcampatl
+* https://twitter.com/_letsgetlouder
+* https://twitter.com/topconftal
+* https://twitter.com/erlangdc
+* https://twitter.com/qcon
+* https://twitter.com/frontend_conf
+* https://twitter.com/swanseacon
+* https://twitter.com/devopsams
+* https://twitter.com/drupalnyccamp
+* https://twitter.com/devnationconf
+* https://twitter.com/techspeakdigest
+* https://twitter.com/stirtrek
+* https://twitter.com/orderofthebee
+* https://twitter.com/cmhcodecamp
+* https://twitter.com/rubycaribe
+* https://twitter.com/cloudexpo
+* https://twitter.com/eurucamp
+* https://twitter.com/composemelb
+* https://twitter.com/devopsdayskiel
+* https://twitter.com/automacon
+* https://twitter.com/passbac
+* https://twitter.com/gigaoem
+* https://twitter.com/phpcfps
+* https://twitter.com/triwic
+* https://twitter.com/devconfive
+* https://twitter.com/nescalas
+* https://twitter.com/cultivatecon
+* https://twitter.com/codedazeconf
+* https://twitter.com/yowlambdajam
+* https://twitter.com/goruco
+* https://twitter.com/altconference
+* https://twitter.com/agileisrael
+* https://twitter.com/mexicoweb
+* https://twitter.com/codepot_pl
+* https://twitter.com/pyconfr
+* https://twitter.com/droidconin
+* https://twitter.com/rubymanor
+* https://twitter.com/openrepos2014
+* https://twitter.com/composeconf
+* https://twitter.com/conferenciaror
+* https://twitter.com/dogfoodcon
+* https://twitter.com/techtrrrs
+* https://twitter.com/fronttalks
+* https://twitter.com/devopsdaysto
+* https://twitter.com/reactnlconf
+* https://twitter.com/bedcon
+* https://twitter.com/voxxedvienna
+* https://twitter.com/thingmonk
+* https://twitter.com/cczona
+* https://twitter.com/graphconnect
+* https://twitter.com/smart_iot
+* https://twitter.com/geecon
+* https://twitter.com/dibiconf
+* https://twitter.com/iotfuse
+* https://twitter.com/nsspain
+* https://twitter.com/confidence_news
+* https://twitter.com/hashiconf
+* https://twitter.com/mobiledevsummit
+* https://twitter.com/railspacific
+* https://twitter.com/redhatinnovate
+* https://twitter.com/pycon_es
+* https://twitter.com/posscon
+* https://twitter.com/rstatsnyc
+* https://twitter.com/_deafcon_
+* https://twitter.com/rejectjs
+* https://twitter.com/geeksonabeach
+* https://twitter.com/drupalsthlm
+* https://twitter.com/atthefrontend
+* https://twitter.com/earlconf
+* https://twitter.com/serverlessconf
+* https://twitter.com/okcon
+* https://twitter.com/openbelgium
+* https://twitter.com/voxxedberlin
+* https://twitter.com/typelevel
+* https://twitter.com/chaosupdates
+* https://twitter.com/droidconzg
+* https://twitter.com/swiftalps
+* https://twitter.com/kalamazoox
+* https://twitter.com/topconfee
+* https://twitter.com/jdaylviv
+* https://twitter.com/futurestack
+* https://twitter.com/tfnw
+* https://twitter.com/devopsdaysrox
+* https://twitter.com/saturn_news
+* https://twitter.com/whiteoctevents
+* https://twitter.com/windycityrails
+* https://twitter.com/erlangfactory
+* https://twitter.com/scalaio_fr
+* https://twitter.com/reactiveconf
+* https://twitter.com/pyconse
+* https://twitter.com/devtalksro
+* https://twitter.com/pyconsg
+* https://twitter.com/jdaychicago
+* https://twitter.com/infoconorg
+* https://twitter.com/nordicruby
+* https://twitter.com/frontiersof
+* https://twitter.com/tapia_con
+* https://twitter.com/truenorthphp
+* https://twitter.com/pnsqc
+* https://twitter.com/r00tzasylum
+* https://twitter.com/a41con
+* https://twitter.com/failconnyc
+* https://twitter.com/confagilespain
+* https://twitter.com/artifactconf
+* https://twitter.com/ncraftsconf
+* https://twitter.com/uikonf
+* https://twitter.com/isf_no
+* https://twitter.com/nordevcon
+* https://twitter.com/droidconvie
+* https://twitter.com/voxxedticino
+* https://twitter.com/devopsdaysbos
+* https://twitter.com/fuconf
+* https://twitter.com/nodeconf
+* https://twitter.com/dddbrisbane
+* https://twitter.com/sdeconf
+* https://twitter.com/cucumberbdd
+* https://twitter.com/pythonireland
+* https://twitter.com/dev_cycles
+* https://twitter.com/industryconf
+* https://twitter.com/progscon
+* https://twitter.com/pydxconf
+* https://twitter.com/agilecymru
+* https://twitter.com/pyconuy2
+* https://twitter.com/nmcwic
+* https://twitter.com/railsclub_ru
+* https://twitter.com/blendwebmix
+* https://twitter.com/jotb17
+* https://twitter.com/tryswiftconf
+* https://twitter.com/dddscot
+* https://twitter.com/rocketconf
+* https://twitter.com/drupaldevdays
+* https://twitter.com/pydatachi
+* https://twitter.com/lasconatx
+* https://twitter.com/devternity
+* https://twitter.com/x0rc0nf
+* https://twitter.com/appsecusa
+* https://twitter.com/phpcon
+* https://twitter.com/themeconf
+* https://twitter.com/gxaustralia
+* https://twitter.com/liberty_js
+* https://twitter.com/pydataparis
+* https://twitter.com/pyconeu
+* https://twitter.com/mojoconf
+* https://twitter.com/rubymidwest
+* https://twitter.com/pyladiesconf
+* https://twitter.com/dpcon
+* https://twitter.com/droidcones
+* https://twitter.com/strangeloop_stl
+* https://twitter.com/devopsdaysnz
+* https://twitter.com/roguerails
+* https://twitter.com/primeconf
+* https://twitter.com/enigmaconf
+* https://twitter.com/wordcampnash
+* https://twitter.com/clouddevconf
+* https://twitter.com/owasp_il
+* https://twitter.com/failcon_ch
+* https://twitter.com/catskillsconf
+* https://twitter.com/cloudstackdays
+* https://twitter.com/appseccali
+* https://twitter.com/devopsdayswaw
+* https://twitter.com/ttw_conf
+* https://twitter.com/nativevsweb
+* https://twitter.com/rigadevdays
+* https://twitter.com/erlangworkshop
+* https://twitter.com/voxxedzurich
+* https://twitter.com/bsidessf
+* https://twitter.com/madisonruby
+* https://twitter.com/csvconference
+* https://twitter.com/lambda_world
+* https://twitter.com/fronteers
+* https://twitter.com/flinkforward
+* https://twitter.com/agile_iot
+* https://twitter.com/devopsdaysohio
+* https://twitter.com/cycleconf
+* https://twitter.com/devopsdaysslc
+* https://twitter.com/devopsdayskc
+* https://twitter.com/rubyworldconf
+* https://twitter.com/devopsdaysldn
+* https://twitter.com/dcdnl
+* https://twitter.com/fossetcon
+* https://twitter.com/convergefl
+* https://twitter.com/bsidesiowa
+* https://twitter.com/call4itspeakers
+* https://twitter.com/c3kidspace
+* https://twitter.com/mesoscon
+* https://twitter.com/nosqlday
+* https://twitter.com/official_vrdc
+* https://twitter.com/spainjs
+* https://twitter.com/devopsdaysphl
+* https://twitter.com/stateofthenet
+* https://twitter.com/datagotham
+* https://twitter.com/chicktechnyc
+* https://twitter.com/droidconsf
+* https://twitter.com/fullstackcon
+* https://twitter.com/geekconferences
+* https://twitter.com/wrocsharp
+* https://twitter.com/codeonthesea
+* https://twitter.com/bratachconfeu
+* https://twitter.com/drupaldownunder
+* https://twitter.com/rbonales
+* https://twitter.com/jfokus
+* https://twitter.com/devopsdayschi
+* https://twitter.com/phpwomen
+* https://twitter.com/eclipseiot
+* https://twitter.com/buzzconfio
+* https://twitter.com/layersconf
+* https://twitter.com/speakingio
+* https://twitter.com/bobkonf
+* https://twitter.com/curry_on_conf
+* https://twitter.com/techoramabe
+* https://twitter.com/techwomensummit
+* https://twitter.com/devopsdaysbna
+* https://twitter.com/wpdevcon
+* https://twitter.com/iosdevuk
+* https://twitter.com/androidmakersfr
+* https://twitter.com/robotsconf
+* https://twitter.com/mwmobilesummit
+* https://twitter.com/greatlakesfunc
+* https://twitter.com/jdd_krakow
+* https://twitter.com/wahckon
+* https://twitter.com/swiftsummit
+* https://twitter.com/chicagowebconf
+* https://twitter.com/thefailconindia
+* https://twitter.com/spsnashville
+* https://twitter.com/starsconf
+* https://twitter.com/ibmforcio
+* https://twitter.com/projectjupyter
+* https://twitter.com/midwestux
+* https://twitter.com/mobilismconf
+* https://twitter.com/javalandconf
+* https://twitter.com/socodedconf
+* https://twitter.com/budapestbi
+* https://twitter.com/pythonnamibia
+* https://twitter.com/sqlrelay_uk
+* https://twitter.com/selfconference
+* https://twitter.com/nsscotland
+* https://twitter.com/endpointcon
+* https://twitter.com/eclipsecon
+* https://twitter.com/sqlpass
+* https://twitter.com/midwestcamp
+* https://twitter.com/sassconf
+* https://twitter.com/sddconf
+* https://twitter.com/phpweekly
+* https://twitter.com/360idev
+* https://twitter.com/womentechmakers
+* https://twitter.com/ai_camp_nyc
+* https://twitter.com/oreillysecurity
+* https://twitter.com/nigwebcon
+* https://twitter.com/pghtechfest
+* https://twitter.com/drupalcon
+* https://twitter.com/coderfaire
+* https://twitter.com/mixitconf
+* https://twitter.com/indiecade
+* https://twitter.com/devopsdayslj
+* https://twitter.com/droidconae
+* https://twitter.com/oreillysacon
+* https://twitter.com/whereberlin
+* https://twitter.com/monkigras
+* https://twitter.com/devopsdaysoslo
+* https://twitter.com/lonestarphp
+* https://twitter.com/riseconorg
+* https://twitter.com/mrmcd2017
+* https://twitter.com/webcampzagreb
+* https://twitter.com/uxcamplondon
+* https://twitter.com/generateconf
+* https://twitter.com/campsass
+* https://twitter.com/appdevconnl
+* https://twitter.com/nairubyke
+* https://twitter.com/bwicomputing
+* https://twitter.com/scalapeno_conf
+* https://twitter.com/datalayerconf
+* https://twitter.com/grdevday
+* https://twitter.com/locconf
+* https://twitter.com/phpconpoland
+* https://twitter.com/badcamp
+* https://twitter.com/perforce
+* https://twitter.com/aneventapart
+* https://twitter.com/calltospeakers
+* https://twitter.com/bsidesnash
+* https://twitter.com/fisl_oficial
+* https://twitter.com/iotconf_sweden
+* https://twitter.com/crunchbp
+* https://twitter.com/ddd_eu
+* https://twitter.com/whiskyweb
+* https://twitter.com/scaladownunder
+* https://twitter.com/code4lib
+* https://twitter.com/ldapcon
+* https://twitter.com/200okconf
+* https://twitter.com/monkeyspaceconf
+* https://twitter.com/devopsdayssv
+* https://twitter.com/fpdays
+* https://twitter.com/devconnections
+* https://twitter.com/chicagocodecamp
+* https://twitter.com/inlinuxfest
+* https://twitter.com/failcon
+* https://twitter.com/cascadiaruby
+* https://twitter.com/brucon
+* https://twitter.com/jsconfau
+* https://twitter.com/fowd
+* https://twitter.com/agileee
+* https://twitter.com/magmaconf
+* https://twitter.com/fowa
+* https://twitter.com/pgdayau
+* https://twitter.com/spark_summit
+* https://twitter.com/joyofcoding
+* https://twitter.com/digpensw
+* https://twitter.com/devweek
+* https://twitter.com/jquerysf
+* https://twitter.com/yow_conf
+* https://twitter.com/openhelpconf
+* https://twitter.com/official_gdc
+* https://twitter.com/codemotionworld
+* https://twitter.com/webtechcon
+* https://twitter.com/devopsdayspgh
+* https://twitter.com/aginextio
+* https://twitter.com/ruby_fosdem
+* https://twitter.com/bubbleconf
+* https://twitter.com/appbuilders_ch
+* https://twitter.com/dsgndayconf
+* https://twitter.com/atmosphereconf
+* https://twitter.com/phreaknic
+* https://twitter.com/writespeakcode
+* https://twitter.com/reconmtl
+* https://twitter.com/devteachconfere
+* https://twitter.com/erlangcampnyc
+* https://twitter.com/monitorama
+* https://twitter.com/fusionconf
+* https://twitter.com/systers_org
+* https://twitter.com/emfcamp
+* https://twitter.com/cphcontext
+* https://twitter.com/agiletourlondon
+* https://twitter.com/erlyclub
+* https://twitter.com/coldfrontconf
+* https://twitter.com/emberfest
+* https://twitter.com/mobiletechcon
+* https://twitter.com/webcampsi
+* https://twitter.com/frozenrails
+* https://twitter.com/gr8confin
+* https://twitter.com/programistok
+* https://twitter.com/cse_global
+* https://twitter.com/bostoncodecamp
+* https://twitter.com/relengcon
+* https://twitter.com/reactday
+* https://twitter.com/botconf
+* https://twitter.com/droidconnyc
+* https://twitter.com/bastacon
+* https://twitter.com/openwestconf
+* https://twitter.com/circlecitycon
+* https://twitter.com/nsnorth
+* https://twitter.com/cmsgarden
+* https://twitter.com/reddotrubyconf
+* https://twitter.com/scalabythebay
+* https://twitter.com/pycarolinas
+* https://twitter.com/cssconfno
+* https://twitter.com/codeconf
+* https://twitter.com/jailbreakcon
+* https://twitter.com/webstock
+* https://twitter.com/pchalliance
+* https://twitter.com/javascriptfest
+* https://twitter.com/flossmetrics
+* https://twitter.com/differentgames
+* https://twitter.com/webtechconf
+* https://twitter.com/secondconf
+* https://twitter.com/monktoberfest
+* https://twitter.com/chefconf
+* https://twitter.com/btvrubyconf
+* https://twitter.com/mm_conf
+* https://twitter.com/wildcardconf
+* https://twitter.com/devopsdaystlv
+* https://twitter.com/securityconf
+* https://twitter.com/incontrodevops
+* https://twitter.com/joomladagen
+* https://twitter.com/360flex
+* https://twitter.com/signalconf
+* https://twitter.com/buildstufflt
+* https://twitter.com/phpconfasia
+* https://twitter.com/nodeconfbcn
+* https://twitter.com/realtimeconfeu
+* https://twitter.com/360intersect
+* https://twitter.com/indiedevstock
+* https://twitter.com/abracketsconf
+* https://twitter.com/wtc2016
+* https://twitter.com/scenicsummit
+* https://twitter.com/skiphp
+* https://twitter.com/drupalcampto
+* https://twitter.com/onandroidconf
+* https://twitter.com/geekgirlcamp
+* https://twitter.com/integratecon
+* https://twitter.com/apidaysnz
+* https://twitter.com/drupalgovcon
+* https://twitter.com/iosonrailsconf
+* https://twitter.com/_cloudconf_
+* https://twitter.com/devignition
+* https://twitter.com/gotocon
+* https://twitter.com/djangoweekend
+* https://twitter.com/w3cconf
+* https://twitter.com/droidcontn
+* https://twitter.com/rubysauna
+* https://twitter.com/scalaexchange
+* https://twitter.com/isttechtalks
+* https://twitter.com/cingleton
+* https://twitter.com/wikimanialondon
+* https://twitter.com/dotrbeu
+* https://twitter.com/cssdayconf
+* https://twitter.com/riconconf
+* https://twitter.com/cssconfuy
+* https://twitter.com/drupalnorth
+* https://twitter.com/cppcon
+* https://twitter.com/gomodev
+* https://twitter.com/tropicalrb
+* https://twitter.com/gdgistanbul
+* https://twitter.com/wordcampboston
+* https://twitter.com/fossgis_konf
+* https://twitter.com/nycpug
+* https://twitter.com/agileindy
+* https://twitter.com/webconftaiwan
+* https://twitter.com/emw
+* https://twitter.com/brewingagile
+* https://twitter.com/phpaustralia
+* https://twitter.com/sectorca
+* https://twitter.com/wordcamp_
+* https://twitter.com/babbqamsterdam
+* https://twitter.com/gigaom
+* https://twitter.com/houseccon
+* https://twitter.com/mwrc
+* https://twitter.com/openstackeast
+* https://twitter.com/scalaitaly
+* https://twitter.com/bangalorejs
+* https://twitter.com/datadaytexas
+* https://twitter.com/defcon
+* https://twitter.com/arrrrcamp
+* https://twitter.com/droidconde
+* https://twitter.com/olainitiative
+* https://twitter.com/gluecon
+* https://twitter.com/renaissanceio
+* https://twitter.com/lambdadays
+* https://twitter.com/qualityexcites
+* https://twitter.com/phpundiscovered
+* https://twitter.com/ticonf
+* https://twitter.com/frontendnorth
+* https://twitter.com/microxchg
+* https://twitter.com/lcauckland
+* https://twitter.com/sotmus
+* https://twitter.com/convergedetroit
+* https://twitter.com/sigint
+* https://twitter.com/jsfoo
+* https://twitter.com/callallpapers
+* https://twitter.com/pragmamarkorg
+* https://twitter.com/convergeconfing
+* https://twitter.com/apistrat
+* https://twitter.com/pipelineconf
+* https://twitter.com/mtnwestdevops
+* https://twitter.com/jdaysgbg
+* https://twitter.com/devopsdaysnyc
+* https://twitter.com/cfgmgmtcamp
+* https://twitter.com/iosconf
+* https://twitter.com/interlinkconf
+* https://twitter.com/cvdevgroup
+* https://twitter.com/kc_dc
+* https://twitter.com/hopeconf
+* https://twitter.com/phpnwconf
+* https://twitter.com/ladieswhocode
+* https://twitter.com/oreillyai
+* https://twitter.com/larubyconf
+* https://twitter.com/trondheimdc
+* https://twitter.com/dddsouthwest
+* https://twitter.com/droidconkr
+* https://twitter.com/dataleadconf
+* https://twitter.com/pydatawarsaw
+* https://twitter.com/ullconf
+* https://twitter.com/qgcon
+* https://twitter.com/webdirections
+* https://twitter.com/greachconf
+* https://twitter.com/cfp_help
+* https://twitter.com/overtheair
+* https://twitter.com/wecodeharvard
+* https://twitter.com/devcolororg
+* https://twitter.com/djangounderhood
+* https://twitter.com/upfrontconf
+* https://twitter.com/droidconbe
+* https://twitter.com/springone2gx
+* https://twitter.com/madexpo
+* https://twitter.com/codeonthebeach
+* https://twitter.com/ccppycon
+* https://twitter.com/dotswift
+* https://twitter.com/islayconf
+* https://twitter.com/atlcodecamp
+* https://twitter.com/oncwic
+* https://twitter.com/devopsdaysboise
+* https://twitter.com/devopsdaysdc
+* https://twitter.com/noshowconf
+* https://twitter.com/droneconference
+* https://twitter.com/la_conf
+* https://twitter.com/aybconf
+* https://twitter.com/freestructure
+* https://twitter.com/moduxcon
+* https://twitter.com/dtnconf
+* https://twitter.com/syscan360
+* https://twitter.com/cufpconference
+* https://twitter.com/pydatalondon
+* https://twitter.com/latinityconf
+* https://twitter.com/steelcityruby
+* https://twitter.com/queercon
+* https://twitter.com/scalarconf
+* https://twitter.com/cmdrconf
+* https://twitter.com/drupalconparis
+* https://twitter.com/failconberlin
+* https://twitter.com/highlandwebconf
+* https://twitter.com/midwestio
+* https://twitter.com/gwocon
+* https://twitter.com/cascadiacss
+* https://twitter.com/lambda_conf
+* https://twitter.com/scalaworldconf
+* https://twitter.com/playgroundscon
+* https://twitter.com/yapceurope
+* https://twitter.com/voxxedvilnius
+* https://twitter.com/bmoresponsive
+* https://twitter.com/apidaysmedit
+* https://twitter.com/openstackonales
+* https://twitter.com/feelingrestful
+* https://twitter.com/drupalironcamp
+* https://twitter.com/atlassian
+* https://twitter.com/normen_no
+* https://twitter.com/cohaainfo
+* https://twitter.com/spshou
+* https://twitter.com/failcon12
+* https://twitter.com/drupalasheville
+* https://twitter.com/cubaconference
+* https://twitter.com/balisage
+* https://twitter.com/scaladays
+* https://twitter.com/jsconfchina
+* https://twitter.com/lrtechfest
+* https://twitter.com/techdayssweden
+* https://twitter.com/devfestnl
+* https://twitter.com/cppnow
+* https://twitter.com/latinasinc
+* https://twitter.com/scotrubyconf
+* https://twitter.com/balcc0n
+* https://twitter.com/stampedecon
+* https://twitter.com/qconrio
+* https://twitter.com/iotworldforum
+* https://twitter.com/uxburlington
+* https://twitter.com/juliaconindia
+* https://twitter.com/espritjug
+* https://twitter.com/redhatsummit
+* https://twitter.com/mobileuxcampdc
+* https://twitter.com/openstreetmap
+* https://twitter.com/warsjawa
+* https://twitter.com/html5conf
+* https://twitter.com/oedorubykaigi
+* https://twitter.com/bosniaagile
+* https://twitter.com/mixinconf
+* https://twitter.com/devopsdaysparis
+* https://twitter.com/notacon
+* https://twitter.com/optionalconf
+* https://twitter.com/cryptovillage
+* https://twitter.com/droidcon
+* https://twitter.com/reactnext
+* https://twitter.com/opentechuk
+* https://twitter.com/frontinams
+* https://twitter.com/northbayweb
+* https://twitter.com/nodeconfin
+* https://twitter.com/osfeels
+* https://twitter.com/iotasia
+* https://twitter.com/wordcampraleigh
+* https://twitter.com/wordcampid
+* https://twitter.com/topconfro
+* https://twitter.com/twiliocon
+* https://twitter.com/containerizet
+* https://twitter.com/devintersection
+* https://twitter.com/speakerinnen
+* https://twitter.com/ncdevcon
+* https://twitter.com/couchdb
+* https://twitter.com/casitconf
+* https://twitter.com/pyconca
+* https://twitter.com/moonconf
+* https://twitter.com/wickedgoodember
+* https://twitter.com/mwdcon
+* https://twitter.com/mobileappeurope
+* https://twitter.com/mobilizationpl
+* https://twitter.com/webandphpcon
+* https://twitter.com/jsconfus
+* https://twitter.com/otsconf
+* https://twitter.com/droidcongr
+* https://twitter.com/geopythonconf
+* https://twitter.com/dotnextconf
+* https://twitter.com/devopsdayssea
+* https://twitter.com/sqlsatbr
+* https://twitter.com/pgconbr
+* https://twitter.com/dhtmlconf
+* https://twitter.com/hardwear_io
+* https://twitter.com/strataconf
+* https://twitter.com/mactechconf
+* https://twitter.com/mobiconf
+* https://twitter.com/pygrunn
+* https://twitter.com/awsreinvent
+* https://twitter.com/devopsdotcom
+* https://twitter.com/rfdpdx
+* https://twitter.com/webandphp
+* https://twitter.com/redevelopconf
+* https://twitter.com/lesbiantech
+* https://twitter.com/phpwomeneu
+* https://twitter.com/holyjsconf
+* https://twitter.com/codecampnyc
+* https://twitter.com/html5summit
+* https://twitter.com/dotnetcologne
+* https://twitter.com/polyglotconf
+* https://twitter.com/graphday
+* https://twitter.com/platformcf
+* https://twitter.com/plugfestcon
+* https://twitter.com/beyondthecode
+* https://twitter.com/symfonydayit
+* https://twitter.com/itakeunconf
+* https://twitter.com/ccc
+* https://twitter.com/javantura
+* https://twitter.com/amegala
+* https://twitter.com/steel_con
+* https://twitter.com/leanagilescot
+* https://twitter.com/antarcticjs
+* https://twitter.com/symfony_live
+* https://twitter.com/berlinbuzzwords
+* https://twitter.com/jqueryconf
+* https://twitter.com/devopsdaysams
+* https://twitter.com/squaresconf
+* https://twitter.com/phpyorkshire
+* https://twitter.com/thebigdataconf
+* https://twitter.com/vslive
+* https://twitter.com/voxxedbucharest
+* https://twitter.com/symposiumtweets
+* https://twitter.com/4sics
+* https://twitter.com/cssconf
+* https://twitter.com/nickelcityruby
+* https://twitter.com/warmcrocconf
+* https://twitter.com/dotnetunboxed
+* https://twitter.com/tccodecamp
+* https://twitter.com/laraconlive
+* https://twitter.com/decompressau
+* https://twitter.com/trustycon
+* https://twitter.com/dddnorth
+* https://twitter.com/drupalcondenver
+* https://twitter.com/cssconfoak
+* https://twitter.com/rubyconfengland
+* https://twitter.com/ladies_in_tech
+* https://twitter.com/finaglecon
+* https://twitter.com/nightlybuildio
+* https://twitter.com/deepsec
+* https://twitter.com/ploneconf
+* https://twitter.com/confiturapl
+* https://twitter.com/srccon
+* https://twitter.com/wordcamplondon
+* https://twitter.com/pyconuy
+* https://twitter.com/mobileworldlive
+* https://twitter.com/esconfs
+* https://twitter.com/boisecodecamp
+* https://twitter.com/midwest_js
+* https://twitter.com/womenwhogo
+* https://twitter.com/jprimeconf
+* https://twitter.com/pgcon
+* https://twitter.com/nzpug
+* https://twitter.com/linuxtag
+* https://twitter.com/e4e_devconf
+* https://twitter.com/uxscotland
+* https://twitter.com/javadayistanbul
+* https://twitter.com/elixirconfeu
+* https://twitter.com/andyetconf
+* https://twitter.com/derbycon
+* https://twitter.com/pghpw
+* https://twitter.com/scalamatsuri
+* https://twitter.com/devopsdaysist
+* https://twitter.com/ipdevcon
+* https://twitter.com/iotconf
+* https://twitter.com/bigdataconf
+* https://twitter.com/micwic
+* https://twitter.com/tbowebdesign
+* https://twitter.com/bigscala
+* https://twitter.com/appseceu
+* https://twitter.com/drupalmontreal
+* https://twitter.com/nsconf
+* https://twitter.com/jaxcon
+* https://twitter.com/modeveast
+* https://twitter.com/developerday
+* https://twitter.com/allabouttheapi
+* https://twitter.com/auc_anz
+* https://twitter.com/smartdevcon
+* https://twitter.com/pfcongres
+* https://twitter.com/createtheweb
+* https://twitter.com/hak4kidz
+* https://twitter.com/jingjsconf
+* https://twitter.com/future_insights
+* https://twitter.com/devopsday
+* https://twitter.com/devfestvienna
+* https://twitter.com/pyconve
+* https://twitter.com/uxcampeurope
+* https://twitter.com/nodepdx
+* https://twitter.com/topconf
+* https://twitter.com/revconf
+* https://twitter.com/diversity_conf
+* https://twitter.com/clojuredays
+* https://twitter.com/360andev
+* https://twitter.com/hack_lu
+* https://twitter.com/softwarecircus
+* https://twitter.com/phpweeklynews
+* https://twitter.com/nodebotsday
+* https://twitter.com/scienceruby
+* https://twitter.com/html5devconf
+* https://twitter.com/planetpython
+* https://twitter.com/iosdevcampdc
+* https://twitter.com/tnwconference
+* https://twitter.com/gopherconae
+* https://twitter.com/py_bay
+* https://twitter.com/jsconfin
+* https://twitter.com/metarefresh
+* https://twitter.com/codepalousa
+* https://twitter.com/bytesconf
+* https://twitter.com/elixirconf
+* https://twitter.com/tweriod
+* https://twitter.com/symfonycon
+* https://twitter.com/pyconlt
+* https://twitter.com/chcon_nz
+* https://twitter.com/githubuniverse
+* https://twitter.com/devopsdaysin
+* https://twitter.com/osdc_tw
+* https://twitter.com/wceurope
+* https://twitter.com/crikeycon
+* https://twitter.com/shecodesconf
+* https://twitter.com/hotcodecon
+* https://twitter.com/devopsdayscpt
+* https://twitter.com/devobjectiveold
+* https://twitter.com/devopsdaysyvr
+* https://twitter.com/skillsmatter
+* https://twitter.com/tcuk_conf
+* https://twitter.com/rwdevcon
+* https://twitter.com/shmoocon
+* https://twitter.com/plonesymp
+* https://twitter.com/dotnetfringe
+* https://twitter.com/bdconf
+* https://twitter.com/coderxx2015
+* https://twitter.com/prontocfp
+* https://twitter.com/systemswelove
+* https://twitter.com/codemania
+* https://twitter.com/jaxlondon
+* https://twitter.com/fromthefront
+* https://twitter.com/nodeday
+* https://twitter.com/devopsdaysatl
+* https://twitter.com/devopsdayspdx
+* https://twitter.com/golangukconf
+* https://twitter.com/phpconferences
+* https://twitter.com/boosterconf
+* https://twitter.com/webrtccamp
+* https://twitter.com/rockymtnruby
+* https://twitter.com/devconfu
+* https://twitter.com/sqlsat
+* https://twitter.com/opentechcal
+* https://twitter.com/codecampro
+* https://twitter.com/skydogcon
+* https://twitter.com/blendconf
+* https://twitter.com/spaconference
+* https://twitter.com/dotcss
+* https://twitter.com/railscamp_nz
+* https://twitter.com/afup
+* https://twitter.com/devopsdays_clt
+* https://twitter.com/nosqlrs
+* https://twitter.com/drupaldelphia
+* https://twitter.com/port80events
+* https://twitter.com/scandevconf
+* https://twitter.com/foss4gna
+* https://twitter.com/xoxo
+* https://twitter.com/elmconf
+* https://twitter.com/liftconference
+* https://twitter.com/techwell
+* https://twitter.com/codeconnexx
+* https://twitter.com/papisdotio
+* https://twitter.com/braziljs
+* https://twitter.com/agilefrance
+* https://twitter.com/redisconf
+* https://twitter.com/voxxedbristol
+* https://twitter.com/rubykaigi
+* https://twitter.com/flourishconf
+* https://twitter.com/s1p
+* https://twitter.com/phillydotnet
+* https://twitter.com/rubyshift
+* https://twitter.com/wickedgoodruby
+* https://twitter.com/pytennessee
+* https://twitter.com/fifthel
+* https://twitter.com/gaymerx
+* https://twitter.com/speaking_out
+* https://twitter.com/netconfuy
+* https://twitter.com/reactweek
+* https://twitter.com/fudconin
+* https://twitter.com/codemash
+* https://twitter.com/pygotham
+* https://twitter.com/nodefest
+* https://twitter.com/wrocloverb
+* https://twitter.com/spanconf
+* https://twitter.com/rubytaiwan
+* https://twitter.com/pydataberlin
+* https://twitter.com/mceconf
+* https://twitter.com/rustbeltrust
+* https://twitter.com/droidkaigi
+* https://twitter.com/wrongislandcon
+* https://twitter.com/jqueryeurope
+* https://twitter.com/nerdboat
+* https://twitter.com/pydatamad
+* https://twitter.com/senchacon
+* https://twitter.com/bigdataspain
+* https://twitter.com/feopsconf
+* https://twitter.com/rupy
+* https://twitter.com/speakup_io
+* https://twitter.com/ruxconbpx
+* https://twitter.com/html5tx
+* https://twitter.com/rubymotion
+* https://twitter.com/hackadayprize
+* https://twitter.com/mozillafestival
+* https://twitter.com/brnophp
+* https://twitter.com/weareallawesome
+* https://twitter.com/pythonnordeste
+* https://twitter.com/leanuxnz
+* https://twitter.com/44con
+* https://twitter.com/webprogressions
+* https://twitter.com/yapcrussia
+* https://twitter.com/gdgphilippines
+* https://twitter.com/cloudidsummit
+* https://twitter.com/theleaddev
+* https://twitter.com/nodecopter
+* https://twitter.com/drupalcampldn
+* https://twitter.com/webconfriga
+* https://twitter.com/zendcon_europe
+* https://twitter.com/velocityconf
+* https://twitter.com/wdcnz
+* https://twitter.com/devopsdaysdet
+* https://twitter.com/javacro
+* https://twitter.com/uxcampdc
+* https://twitter.com/pgdayeu
+* https://twitter.com/nerdsummit
+* https://twitter.com/rubyconfar
+* https://twitter.com/pnwscala
+* https://twitter.com/scotlandcss
+* https://twitter.com/phpconfnz
+* https://twitter.com/bohconf
+* https://twitter.com/adobemax
+* https://twitter.com/takeoffconf
+* https://twitter.com/spring_io
+* https://twitter.com/wcpdx
+* https://twitter.com/jsconfmx
+* https://twitter.com/windycitythings
+* https://twitter.com/hackidcon
+* https://twitter.com/databythebay
+* https://twitter.com/codestock
+* https://twitter.com/pytexas
+* https://twitter.com/indieconf
+* https://twitter.com/iasummit
+* https://twitter.com/openstreetmapus
+* https://twitter.com/moscmy
+* https://twitter.com/jrubyconfeu
+* https://twitter.com/mobdeliverydays
+* https://twitter.com/devrel_net
+* https://twitter.com/lambdajam
+* https://twitter.com/droidconit
+* https://twitter.com/apiworld
+* https://twitter.com/euroscipy
+* https://twitter.com/bigandroidbbq
+* https://twitter.com/drupalconfmsk
+* https://twitter.com/jsconfbr
+* https://twitter.com/pydatait
+* https://twitter.com/surgecon
+* https://twitter.com/percona
+* https://twitter.com/phptek
+* https://twitter.com/jseverywhere
+* https://twitter.com/railsgirlsconf
+* https://twitter.com/codemeshio
+* https://twitter.com/jsconfbe
+* https://twitter.com/gotoaar
+* https://twitter.com/railsberry
+* https://twitter.com/edgeconf
+* https://twitter.com/npmcamp
+* https://twitter.com/devopsdownunder
+* https://twitter.com/rubyconfuruguay
+* https://twitter.com/andseccon
+* https://twitter.com/the_jsf
+* https://twitter.com/agile2013
+* https://twitter.com/devopsdaysbmore
+* https://twitter.com/pitercss_conf
+* https://twitter.com/oredev
+* https://twitter.com/opencamps
+* https://twitter.com/cgconf
+* https://twitter.com/agilebyexample
+* https://twitter.com/cancwic
+* https://twitter.com/flossienet
+* https://twitter.com/apidaysglobal
+* https://twitter.com/rulu
+* https://twitter.com/dotscale
