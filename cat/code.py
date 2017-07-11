@@ -217,6 +217,10 @@ class GenerateSite(object):
                     })
                 this['topics'] = my_topics
 
+                if 'twitter' in this and this['twitter'] != '':
+                    if not re.search(r'^[a-zA-Z0-9_]+$', this['twitter']):
+                        raise Exception("Invalid twitter handle '{}' in {}".format(this['twitter'], filename))
+
                 this['cfp_class'] = 'cfp_none'
                 cfp = this.get('cfp_end', '')
                 if cfp != '':
@@ -336,6 +340,7 @@ class GenerateSite(object):
                         pass
                     elif this[field] == '-':
                         this[field] = None
+
                 self.people[nickname] = {
                     'info': this,
                     #'episodes' : [],
