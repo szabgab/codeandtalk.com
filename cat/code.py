@@ -221,6 +221,12 @@ class GenerateSite(object):
                     if not re.search(r'^[a-zA-Z0-9_]+$', this['twitter']):
                         raise Exception("Invalid twitter handle '{}' in {}".format(this['twitter'], filename))
 
+                if 'youtube' in this and this['youtube'] != '' and this['youtube'] != '-':
+                    #if not re.search(r'^P[a-zA-Z0-9_-]+$', this['youtube']):
+                    if re.search(r'https?://', this['youtube']):
+                        raise Exception("Invalid youtube playlist '{}' in {}".format(this['youtube'], filename))
+
+
                 this['cfp_class'] = 'cfp_none'
                 cfp = this.get('cfp_end', '')
                 if cfp != '':
