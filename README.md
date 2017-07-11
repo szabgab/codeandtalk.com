@@ -24,6 +24,12 @@ source venv/bin/activate
 pip install --editable .
 ```
 
+Running unit tests
+------------------
+```
+$ python3 -m unittest discover
+```
+
 Generate web site (and check format)
 -----------------------------------
 ```
@@ -48,12 +54,6 @@ Site layout
 /t/tag
 ```
 
-
-Running unit tests
-------------------
-```
-$ python3 -m unittest discover
-```
 
 TODO
 -----
