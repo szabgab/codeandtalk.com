@@ -1020,5 +1020,4 @@
 * https://twitter.com/cancwic
 * https://twitter.com/flossienet
 * https://twitter.com/apidaysglobal
-* https://twitter.com/rulu
 * https://twitter.com/dotscale
