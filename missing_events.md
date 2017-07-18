@@ -32,6 +32,7 @@
 * https://twitter.com/dddeastanglia
 * https://twitter.com/locworld
 * https://twitter.com/mlocjs
+* https://twitter.com/vimconf
 * https://twitter.com/appnation
 * https://twitter.com/xpconf
 * https://twitter.com/bsdcan
