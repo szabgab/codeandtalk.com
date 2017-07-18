@@ -32,7 +32,6 @@
 * https://twitter.com/dddeastanglia
 * https://twitter.com/locworld
 * https://twitter.com/mlocjs
-* https://twitter.com/vimconf
 * https://twitter.com/appnation
 * https://twitter.com/xpconf
 * https://twitter.com/bsdcan
@@ -757,7 +756,6 @@
 * https://twitter.com/squaresconf
 * https://twitter.com/phpyorkshire
 * https://twitter.com/thebigdataconf
-* https://twitter.com/vslive
 * https://twitter.com/voxxedbucharest
 * https://twitter.com/symposiumtweets
 * https://twitter.com/4sics
