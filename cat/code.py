@@ -195,6 +195,10 @@ class GenerateSite(object):
                 if end_date < start_date :
                     raise Exception('Invalid event dates (Start after End) in {}'.format(filename))
 
+                event_year = this['event_start'][0:4]
+                if not this['name'].endswith(event_year):
+                    raise Exception('Invalid event name {}. Should end with year \'{}\''.format(this['name'], event_year))
+
                 if not 'location' in this or not this['location']:
                     raise Exception('Location is missing from {}'.format(this))
                 location = this['location']
