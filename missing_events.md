@@ -757,7 +757,6 @@
 * https://twitter.com/squaresconf
 * https://twitter.com/phpyorkshire
 * https://twitter.com/thebigdataconf
-* https://twitter.com/vslive
 * https://twitter.com/voxxedbucharest
 * https://twitter.com/symposiumtweets
 * https://twitter.com/4sics
