@@ -204,6 +204,11 @@ class GenerateSite(object):
                 if not this['name'].endswith(event_year):
                     raise Exception('Invalid event name {}. Should end with year \'{}\''.format(this['name'], event_year))
 
+                try:
+                    nickname.index(event_year)
+                except ValueError:
+                    raise Exception('Invalid file name {}. Should contains the year \'{}\''.format(this['nickname'], event_year))
+
                 if not 'location' in this or not this['location']:
                     raise Exception('Location is missing from {}'.format(this))
                 location = this['location']
