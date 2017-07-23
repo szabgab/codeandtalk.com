@@ -195,6 +195,11 @@ class GenerateSite(object):
                 if end_date < start_date :
                     raise Exception('Invalid event dates (Start after End) in {}'.format(filename))
 
+                if 'cfp_end' in this and this['cfp_end']:
+                    cfp_date = datetime.strptime(this['cfp_end'], '%Y-%m-%d')
+                    if cfp_date > start_date:
+                        raise Exception('Invalid CFP date (CFP after Start) in {}'.format(filename))
+
                 event_year = this['event_start'][0:4]
                 if not this['name'].endswith(event_year):
                     raise Exception('Invalid event name {}. Should end with year \'{}\''.format(this['name'], event_year))
