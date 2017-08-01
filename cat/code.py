@@ -314,7 +314,7 @@ class GenerateSite(object):
 
 
     def read_people(self):
-        path = self.data + '/people'
+        path = os.path.join(self.data, 'people')
 
         for filename in glob.glob(os.path.join(path, '*.txt')):
             if filename[len(self.root):] != filename[len(self.root):].lower():
@@ -399,7 +399,7 @@ class GenerateSite(object):
                     raise Exception("empty key in series {}".format(self.series[s]))
 
     def read_videos(self):
-        path = self.data + '/videos'
+        path = os.path.join(self.data, 'videos')
         events = os.listdir(path)
         self.videos = []
         for event in events:
@@ -449,7 +449,7 @@ class GenerateSite(object):
         self.episodes = []
         for src in self.sources:
             #print("Processing source {}".format(src['name']))
-            file = self.data + '/podcasts/' + src['name'] + '.json'
+            file = os.path.join(self.data, 'podcasts', src['name'] + '.json')
             src['episodes'] = []
             if os.path.exists(file):
                 with open(file, encoding="utf-8") as fh:
