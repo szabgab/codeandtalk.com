@@ -131,21 +131,21 @@ class GenerateSite(object):
         self.save_all(cat)
 
     def save_all(self, cat):
-        with open(self.html + '/cat.json', 'w', encoding="utf-8") as fh:
+        with open(os.path.join(self.html, 'cat.json'), 'w', encoding="utf-8") as fh:
             json.dump(cat, fh)
         if len(sys.argv) > 1:
             for e in cat.keys():
-                with open(self.html + '/' + e + '.json', 'w', encoding="utf-8") as fh:
+                with open(os.path.join(self.html, e + '.json'), 'w', encoding="utf-8") as fh:
                     json.dump(cat[e], fh)
 
 
     def read_sources(self):
-        with open(self.data + '/sources.json', encoding="utf-8") as fh:
+        with open(os.path.join(self.data, 'sources.json'), encoding="utf-8") as fh:
             self.sources = json.load(fh)
 
 
     def read_tags(self):
-        with open(self.data + '/tags.csv', encoding="utf-8") as fh:
+        with open(os.path.join(self.data, 'tags.csv'), encoding="utf-8") as fh:
             rd = csv.DictReader(fh, delimiter=';')
             for row in rd:
                 path = topic2path(row['name'])
@@ -157,7 +157,7 @@ class GenerateSite(object):
         return
 
     def read_blasters(self):
-        with open(self.data + '/blasters.csv', encoding="utf-8") as fh:
+        with open(os.path.join(self.data, 'blasters.csv'), encoding="utf-8") as fh:
             rd = csv.DictReader(fh, delimiter=';')
             for row in rd:
                 self.blasters.append(row)
@@ -170,7 +170,7 @@ class GenerateSite(object):
                 name, continent = line.rstrip("\n").split(",")
                 countries.append(name)
 
-        for filename in glob.glob(self.data + '/events/*.json'):
+        for filename in glob.glob(os.path.join(self.data, 'events', '*.json')):
             if filename[len(self.root):] != filename[len(self.root):].lower():
                 raise Exception("filename '{}' is not all lower case".format(filename))
             #print("Reading {}".format(filename))
@@ -316,7 +316,7 @@ class GenerateSite(object):
     def read_people(self):
         path = self.data + '/people'
 
-        for filename in glob.glob(path + "/*.txt"):
+        for filename in glob.glob(os.path.join(path, '*.txt')):
             if filename[len(self.root):] != filename[len(self.root):].lower():
                 raise Exception("filename '{}' is not all lower case".format(filename)) 
             try:
@@ -392,7 +392,7 @@ class GenerateSite(object):
         return
 
     def read_series(self):
-        with open(self.data + '/series.json', encoding="utf-8") as fh:
+        with open(os.path.join(self.data, 'series.json'), encoding="utf-8") as fh:
             self.series = json.load(fh)
             for s in self.series:
                 if s == '':
@@ -404,7 +404,7 @@ class GenerateSite(object):
         self.videos = []
         for event in events:
             dir_path = os.path.join(path, event)
-            for video_file_path in glob.glob(dir_path + '/*.json'):
+            for video_file_path in glob.glob(os.path.join(dir_path, '*.json')):
                 video_file = os.path.basename(video_file_path)
                 html_file_path = video_file_path[0:-4] + 'html'
 
