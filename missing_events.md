@@ -1,4 +1,3 @@
-* https://twitter.com/baruco
 * https://twitter.com/flowconsf
 * https://twitter.com/fldrupalcamp
 * https://twitter.com/devopsdays_uk
