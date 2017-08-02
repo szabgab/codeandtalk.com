@@ -6,7 +6,8 @@ Details of the fields
 
 ```
 name:               The name might need to include the country/city and the year. Check similar events.
-url:                http://...
+                    It should end with the year of the event. (e.g. 2016)
+website:            http://...
 
 event_start:         2016-06-01
 event_end:           2016-06-02
@@ -14,9 +15,9 @@ cfp_end:           2016-02-23     (Deadline for Call for Presentations if availa
 
 city:               Name of the city
 state:              Relevant in US, Brasil, Australia, India.   Possibly also in UK
-country:            Name of the country
+country:            Name of the country (from the list in data/countries.csv)
 
-topics:             comma separated list
+tags:               comma separated list of lower-case strings (in double quotes) taken from data/tags.json
 languages:          Portuguese, English
 code_of_conduct:    URL to Code of Conduct
 accessibility:      URL to document about accessibility
@@ -31,7 +32,8 @@ diversitytickets_url    URL describing the diversity option on the conf site
 diversitytickets_text   Optional text for the above URL
 ```
 
-In the `youtube` field use a single - to indicate that the conference does not have videos on Youtube.
+In the `youtube` field of past events use a single dash `-` to indicate that the conference does not have videos on Youtube.
+If you don't know, leave the field empty.
 
 Do not mark in such way conferences that have videos in some other place. We still need to figure out how to include
 those.
