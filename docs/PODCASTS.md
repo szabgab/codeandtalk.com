@@ -10,9 +10,9 @@ ep:      the episode number
 guests:  a list of the guests, each guest is represented her/his name in "full-name" format.
 ```
 
-The same value, followed by the .txt extension is used to hold information about that person
+The same value, followed by the .json extension is used to hold information about that person
 in the ```data/people/``` directory.
-So if the person is called "Foo Bar Qux" then the file name will be ```foo-bar-qux.txt```
+So if the person is called "Foo Bar Qux" then the file name will be ```foo-bar-qux.json```
 
 ```
 hosts:     A list of the hosts. Just like the list of the guest.
@@ -59,7 +59,7 @@ Collection Process
 * Find the next episode that has not been recorded in the data file. (data/cmos.json in our example).
 * Find out the details need to be collected. (See the list of details above at the description of the files.)
 * Save the data in the json file (data/cmos.json in our example)
-* Save the information about the individual people in the (data/people/*.txt) file.
+* Save the information about the individual people in the (data/people/*.json) file.
 * Add the files to git, commit, push, send a pull-request.
 
 * If you have a local copy of all the files, you can veryfy the correctness of

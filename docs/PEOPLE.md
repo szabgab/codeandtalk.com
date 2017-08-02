@@ -7,7 +7,7 @@ your listing, read this page and then send a pull-request.
 
 Each person has a file in the `data/people` direcotry. The name of the file
 is derived from the full name of the person in lower case. Words are separated by dashes.
-(Feel free to use all the parts of your name. (e.g. we have angel-diaz-maroto-alvarez.txt or anselm-r-garbe.txt)
+(Feel free to use all the parts of your name. (e.g. we have angel-diaz-maroto-alvarez.json or anselm-r-garbe.json)
 
 On the web site people can be found on this page: https://codeandtalk.com/people or linked from videos and podcast episodes.
 
@@ -36,7 +36,7 @@ __DESCRIPTION__
 
 followed by HTML.
 
-Sample [source file](https://github.com/szabgab/codeandtalk.com/blob/main/data/people/gabor-szabo.txt) and
+Sample [source file](https://github.com/szabgab/codeandtalk.com/blob/main/data/people/gabor-szabo.json) and
 [result](https://codeandtalk.com/p/gabor-szabo).
 
 If the person does not have one of twitter/github/home then we put a - as the value to indicate
@@ -55,7 +55,7 @@ In case we have two files for the same person (due to a typo, or different spell
 we have to decide which one do we want to use and in the other one we can add a `redirect` keyword with the
 canonical filename as a value.
 Eg. "Tina Müller" is sometimes spelled as "Tina Mueller" and sometimes as "Tine Muller"
-[source file](https://github.com/szabgab/codeandtalk.com/blob/main/data/people/tina-muller.txt) and
+[source file](https://github.com/szabgab/codeandtalk.com/blob/main/data/people/tina-muller.json) and
 [result](https://codeandtalk.com/p/tina-muller).
 
 Having the old file redirecting to the new is both the right thing to do for the web, but it will also help

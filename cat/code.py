@@ -303,40 +303,29 @@ class GenerateSite(object):
     def read_people(self):
         path = os.path.join(self.data, 'people')
 
-        for filename in glob.glob(os.path.join(path, '*.txt')):
+        for filename in glob.glob(os.path.join(path, '*.json')):
             if filename[len(self.root):] != filename[len(self.root):].lower():
                 raise Exception("filename '{}' is not all lower case".format(filename)) 
             try:
                 this = {}
                 nickname = os.path.basename(filename)
-                nickname = nickname[0:-4]
-                description = None
+                nickname = nickname[0:-5]
                 with open(filename, encoding="utf-8") as fh:
-                    for line in fh:
-                        if re.search(r'__DESCRIPTION__', line):
-                            description = ''
+                    this = json.load(fh)
+                    for f in this:
+                        if f == 'description':
                             continue
-                        if description != None:
-                            description += line
+                        if f == 'topics':
+                            for t in this[f]:
+                                if re.search(r'\s\Z', t):
+                                    raise Exception("Trailing space in '{}' {}".format(f, filename))
+                                if re.search(r'\A\s', t):
+                                    raise Exception("Leading space in '{}' {}".format(f, filename))
                             continue
-                        
-                        line = line.rstrip('\n')
-                        if re.search(r'\s\Z', line):
-                            raise Exception("Trailing space in '{}' {}".format(line, filename))
-                        if re.search(r'\A\s*\Z', line):
-                            continue
-                        k,v = re.split(r'\s*:\s*', line, maxsplit=1)
-                        if k in this:
-                            if k == 'home':
-                                # TODO: decide what to do with multiple home: entries
-                                #print("Duplicate field '{}' in {}".format(k, filename))
-                                pass
-                            else:
-                                raise Exception("Duplicate field '{}' in {}".format(k, filename))
-                        this[k] = v
-
-                if description:
-                    this['description'] = description
+                        if re.search(r'\s\Z', this[f]):
+                            raise Exception("Trailing space in '{}' {}".format(f, filename))
+                        if re.search(r'\A\s', this[f]):
+                            raise Exception("Leading space in '{}' {}".format(f, filename))
 
                 if 'redirect' in this:
                     self.redirects.append({
@@ -365,12 +354,6 @@ class GenerateSite(object):
                 }
                 if 'country' in this:
                     person['location'] = this['country']
-                if 'topics' in this:
-                    person['topics']   = this['topics']
-                    for t in re.split(r'\s*,\s*', this['topics']):
-                        p = topic2path(t)
-                        if p not in self.tags:
-                            raise Exception("Topic '{}' is not in the list of tags".format(p))
 
                 self.people_search[nickname] = person
             except Exception as e:

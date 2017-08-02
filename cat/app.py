@@ -218,7 +218,7 @@ def people():
                 result[nickname] = ppl[nickname]
             elif re.search(term, ppl[nickname]['info'].get('location', '').lower()):
                 result[nickname] = ppl[nickname]
-            elif re.search(term, ppl[nickname]['info'].get('topics', '').lower()):
+            elif term in ppl[nickname]['info'].get('topics', []):
                 result[nickname] = ppl[nickname]
             #elif 'tags' in ppl[nickname] and term in ppl[nickname]['tags']:
             #    result[nickname] = ppl[nickname]

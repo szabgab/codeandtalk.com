@@ -23,7 +23,7 @@ the playlist to the appropriate `data/events/*` file.
 Add more videos
 -----------------
 
-We index the videos recorded at events. The videos of event `abc-2000` which is stored at `data/events/abc-2000.txt`
+We index the videos recorded at events. The videos of event `abc-2000` which is stored at `data/events/abc-2000.json`
 are located in `data/videos/abc-2000`. Each video is represented by a JSON file in that directory. Optionally
 each video can also have a .html file (with the same filename as the JSON file has). The content of this HTML file
 will be the "description" of the video. The reason we allow external files is to make it easy to spread the
@@ -54,7 +54,7 @@ The name of the speaker usually can be found in title of the talk and/or in the 
 In many cases the filename of the video also contains the name of the speaker(s). Sometimes however this is
 missing or only part of the name can be found. In such cases it is harder to track down who is the speaker.
 
-Check if the file date/people/full-name.txt exist, if not create it and fill it with the appropriate fields.
+Check if the file date/people/full-name.json exist, if not create it and fill it with the appropriate fields.
 You can usually find some of the details of the speaker on the web site of the event. From there you can usually
 find the other values as well.
 
