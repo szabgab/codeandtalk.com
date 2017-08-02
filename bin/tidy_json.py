@@ -16,6 +16,6 @@ for filename in glob.glob("data/videos/*/*.json"):
     #if data['speakers']:
         #print(filename)
     with open(filename, 'w') as fh:
-        json.dump(data, fh, sort_keys=True, indent=4, separators=(',', ': '), encoding="utf-8")
+        json.dump(data, fh, sort_keys=True, indent=4, separators=(',', ': '))
 
 # vim: expandtab
