@@ -1,6 +1,6 @@
 {
     "abstract": "https://www.linuxfestnorthwest.org/2016/sessions/it%E2%80%99s-dangerous-go-alone-exploring-proc-friends",
-    "description": "Ever wondered how your everyday system tools know how much CPU or Memory a process is using?\n\nDo you need to know which processes are using swap space? Recover an open file that may have been deleted?\n\nWhat about just a general better understanding of what\u2019s going on with your system?\n\nLet\u2019s talk about the Linux wonderfulness that is /proc. We will go over the directory layout, important files as well as kernel tuneables. The importance of /proc will be reinforced by using strace to show how common commands can pull information form /proc to learn about the runtime of the system. On screen strace will be used to dissect programs such as w and ps and see what files they call from proc to gather their information. The files that are identified will be elaborated on.\n\nAfter seeing how common programs use /proc we will go over how a system admin can use proc to find out which process is using the most swap space or recover a deleted file still being helped open.",
+    "description": "Ever wondered how your everyday system tools know how much CPU or Memory a process is using?\n\nDo you need to know which processes are using swap space? Recover an open file that may have been deleted?\n\nWhat about just a general better understanding of what’s going on with your system?\n\nLet’s talk about the Linux wonderfulness that is /proc. We will go over the directory layout, important files as well as kernel tuneables. The importance of /proc will be reinforced by using strace to show how common commands can pull information form /proc to learn about the runtime of the system. On screen strace will be used to dissect programs such as w and ps and see what files they call from proc to gather their information. The files that are identified will be elaborated on.\n\nAfter seeing how common programs use /proc we will go over how a system admin can use proc to find out which process is using the most swap space or recover a deleted file still being helped open.",
     "favorite": "0",
     "length": "54:54",
     "likes": "2",
@@ -10,7 +10,7 @@
     ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/QVkOteDxio8/hqdefault.jpg",
-    "title": "It\u2019s Dangerous to Go Alone - Exploring /proc with Friends",
+    "title": "It’s Dangerous to Go Alone - Exploring /proc with Friends",
     "videos": [
         {
             "code": "QVkOteDxio8",

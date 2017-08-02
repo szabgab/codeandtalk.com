@@ -1,5 +1,5 @@
 {
-    "description": "Depuis quelques ann\u00e9es d'influents architectes sous la f\u00e9rule de James Lewis et Martin Fowler promeuvent l'architecture de \"micro-services\". Ceci est un retour d'exp\u00e9rience sur la mise en place des micro services chez un grand acteur du e-commerce fran\u00e7ais. Nous \u00e9voquerons les bases de cette architecture, ses avantages et montrerons une premi\u00e8re impl\u00e9mentation construite \u00e0 l'aide des frameworks Spring Boot, Curator et Zookeeper, le tout d\u00e9ploy\u00e9 \u00e0 l'aide de playbooks Ansible. Nous pr\u00e9senterons ensuite les derni\u00e8res \u00e9volutions de notre architecture qui s'appuie sur une partie de la stack Netflix en mixant composants Netflix (Hystrix, Feign, Zuul, ...) et composants Spring (Retry, Cloud, ...).",
+    "description": "Depuis quelques années d'influents architectes sous la férule de James Lewis et Martin Fowler promeuvent l'architecture de \"micro-services\". Ceci est un retour d'expérience sur la mise en place des micro services chez un grand acteur du e-commerce français. Nous évoquerons les bases de cette architecture, ses avantages et montrerons une première implémentation construite à l'aide des frameworks Spring Boot, Curator et Zookeeper, le tout déployé à l'aide de playbooks Ansible. Nous présenterons ensuite les dernières évolutions de notre architecture qui s'appuie sur une partie de la stack Netflix en mixant composants Netflix (Hystrix, Feign, Zuul, ...) et composants Spring (Retry, Cloud, ...).",
     "favorite": "0",
     "language": "French",
     "length": "44:32",
@@ -11,7 +11,7 @@
     ],
     "tags": [],
     "thumbnail_url": "https://i.ytimg.com/vi/CeODpq9FdIA/hqdefault.jpg",
-    "title": "Microservices IRL: \u00e7a fonctionne chez un client, on vous dit comment!",
+    "title": "Microservices IRL: ça fonctionne chez un client, on vous dit comment!",
     "videos": [
         {
             "code": "CeODpq9FdIA",
