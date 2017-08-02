@@ -28,11 +28,8 @@ def topic2path(tag):
     if t == 'c++':
         return t
     #t = t.translate(string.maketrans("abc", "def"))
-    if sys.platform in ['darwin', 'linux', 'linux2']:
-        for k in tr.keys():
-            t = re.sub(k, tr[k], t)
-    else:  # special case for Windows...
-        t = re.sub(r'[^a-zA-Z0-9]', '', t)
+    for k in tr.keys():
+        t = re.sub(k, tr[k], t)
     t = re.sub(r'[.+ ()&/:]', '-', t)
     if re.search(r'[^a-z0-9-]', t):
         raise Exception("Characters of '{}' need to be mapped in 'cat/chars.csv'".format(t))
