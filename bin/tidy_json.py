@@ -4,18 +4,22 @@ import glob
 
 # format the json files
 
-for filename in glob.glob("data/*.json") + glob.glob("data/podcasts/*.json") + glob.glob("data/events/*.json"):
+def tidy(filename):
     with open(filename) as fh:
         data = json.load(fh)
     with open(filename, 'w') as fh:
         json.dump(data, fh, sort_keys=True, indent=4, separators=(',', ': '))
 
+for filename in glob.glob("data/*.json"):
+    tidy(filename)
+
+for filename in glob.glob("data/podcasts/*.json"):
+    tidy(filename)
+
+for filename in glob.glob("data/events/*.json"):
+    tidy(filename)
+
 for filename in glob.glob("data/videos/*/*.json"):
-    with open(filename) as fh:
-        data = json.load(fh)
-    #if data['speakers']:
-        #print(filename)
-    with open(filename, 'w') as fh:
-        json.dump(data, fh, sort_keys=True, indent=4, separators=(',', ': '))
+    tidy(filename)
 
 # vim: expandtab
