@@ -45,16 +45,6 @@ def html2txt(html):
     return text
 
 
-def new_tag(t):
-    return {
-        'name' : t,
-        #'events' : [],
-        'videos' : 0,
-        'episodes' : [],
-        'total' : 0,
-        'future' : 0,
-    }
-
 class GenerateSite(object):
     def __init__(self):
         self.root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -145,15 +135,12 @@ class GenerateSite(object):
 
 
     def read_tags(self):
-        with open(os.path.join(self.data, 'tags.csv'), encoding="utf-8") as fh:
-            rd = csv.DictReader(fh, delimiter=';')
-            for row in rd:
-                path = topic2path(row['name'])
-                self.tags[ path ] = new_tag(row['name'])
-                #self.stats['tags'][path] = {
-                #    'total'  : 0,
-                #    'future' : 0,
-                #}
+        with open(os.path.join(self.data, 'tags.json'), encoding="utf-8") as fh:
+                self.tags = json.load(fh)
+                for tag in self.tags:
+                    self.tags[ tag ]['episodes'] = []
+                    for f in ['videos', 'total', 'future']:
+                        self.tags[ tag ][f] = 0
         return
 
     def read_blasters(self):
@@ -481,7 +468,6 @@ class GenerateSite(object):
                         })
                     if path not in self.tags:
                         raise Exception("Missing tag '{}'".format(path))
-                        #self.tags[path] = new_tag(tag)
                     self.tags[path]['episodes'].append(e)
 
                 e['tags'] = tags
