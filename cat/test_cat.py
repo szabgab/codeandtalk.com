@@ -194,6 +194,11 @@ class TestCat(unittest.TestCase):
         rv = self.app.get('/p/adam-stacoviak')
         self.assertEqual(rv.status, '200 OK')
         assert b'<li>2015-10-12 <a href="http://www.codenewbie.org/podcast/podcasting-with-changelog">Podcasting with Changelog</a> <a href="/s/codenewbie">codenewbie</a></li>' in rv.data
-        assert b'<li>2009-11-27 <a href="https://changelog.com/3/">The Go Programming Language from Google with Rob Pike</a> <a href="/s/changelog">changelog</a></li>', rv.data
+        assert b'<li>2009-11-27 <a href="https://changelog.com/3/">The Go Programming Language from Google with Rob Pike</a> <a href="/s/changelog">changelog</a></li>' in rv.data
+
+    def test_sitemap(self):
+        rv = self.app.get('/sitemap.xml')
+        self.assertEqual(rv.status, '200 OK')
+        assert b'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' in rv.data
 
 # vim: expandtab

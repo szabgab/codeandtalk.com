@@ -515,8 +515,9 @@ def sitemap():
  
     html = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for e in sitemap:
+        #catapp.logger.debug(e)
         html += '  <url>\n'
-        html += '    <loc>https://codeandtalk.com{}</loc>\n'.format(e['website'])
+        html += '    <loc>https://codeandtalk.com{}</loc>\n'.format(e['url'])
         if 'lastmod' in e:
             date = e['lastmod']
         else:
