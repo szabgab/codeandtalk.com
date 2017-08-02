@@ -22,4 +22,7 @@ for filename in glob.glob("data/events/*.json"):
 for filename in glob.glob("data/videos/*/*.json"):
     tidy(filename)
 
+for filename in glob.glob("data/people/*.json"):
+    tidy(filename)
+
 # vim: expandtab
