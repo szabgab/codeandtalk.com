@@ -218,7 +218,7 @@ def people():
                 result[nickname] = ppl[nickname]
             elif re.search(term, ppl[nickname]['info'].get('location', '').lower()):
                 result[nickname] = ppl[nickname]
-            elif re.search(term, ppl[nickname]['info'].get('topics', '').lower()):
+            elif term in ppl[nickname]['info'].get('topics', []):
                 result[nickname] = ppl[nickname]
             #elif 'tags' in ppl[nickname] and term in ppl[nickname]['tags']:
             #    result[nickname] = ppl[nickname]
@@ -515,8 +515,9 @@ def sitemap():
  
     html = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for e in sitemap:
+        #catapp.logger.debug(e)
         html += '  <url>\n'
-        html += '    <loc>https://codeandtalk.com{}</loc>\n'.format(e['website'])
+        html += '    <loc>https://codeandtalk.com{}</loc>\n'.format(e['url'])
         if 'lastmod' in e:
             date = e['lastmod']
         else:

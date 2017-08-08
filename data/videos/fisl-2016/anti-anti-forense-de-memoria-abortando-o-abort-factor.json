@@ -1,0 +1,18 @@
+{
+    "description": "Inscreva-se.\nhttps://goo.gl/NfsjjA\n\nAnti-Anti-Forense de Memória: Abortando o \"Abort Factor\"\nTrilha: Administração - Segurança\nAutores:\nTony Rodrigues mostrar currículo\nApresentação:\nDia 15 às 12:00 na sala 41B (60 minutos)  vídeo\nDescrição:  Em 2012, dois pesquisadores japoneses elaboraram uma técnica, apresentada na Black Hat Europa do mesmo ano, que consiste em modificar um byte - sem ca  usar crash do sistema - a fim de impedir que ferramentas de análise (Volatility, Memoryze e HBGary)  consigam entender e posteriormente interpretar um dump de memória. Esta técnica ficou conhecida como Abort Factor.\n\nDurante suas pesquisas, Takahiro Haruyama e Hiroshi Suzuki identificaram três operações críticas e comuns nas ferramentas de análise de memória:\n - Tradução do endereço virtual em kernel space\n  - Identificação do Sistema Operacional e arquitetura do dump\n - Obtenção de objetos do kernel\n\nDessa forma, através da manipulação de apenas um byte nas estruturas relacionadas a cada um dos itens acima, foi possível tornar esse dump incompreensível para ferramentas de análise forense.\n\nPesquisamos a técnica do Abort Factor e demonstraremos como é possível identificar o ataque, bem como reverter/corrigir um dump de memória de uma máquina onde a técnica foi usada.",
+    "favorite": "0",
+    "length": "37:41",
+    "likes": "0",
+    "recorded": "2016-07-13",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/3R0pmDkml5A/hqdefault.jpg",
+    "title": "Anti Anti Forense de Memória Abortando o Abort Factor",
+    "videos": [
+        {
+            "code": "3R0pmDkml5A",
+            "type": "youtube"
+        }
+    ],
+    "views": "14"
+}

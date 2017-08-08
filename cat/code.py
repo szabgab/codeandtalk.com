@@ -16,7 +16,7 @@ from cat import tools
 def read_chars():
     tr = {}
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    with open(os.path.join(root, 'cat', 'chars.csv')) as fh:
+    with open(os.path.join(root, 'cat', 'chars.csv'), encoding="utf-8") as fh:
         rd = csv.reader(fh, delimiter=',') 
         for row in rd:
             tr[row[0]] = row[1]
@@ -28,11 +28,8 @@ def topic2path(tag):
     if t == 'c++':
         return t
     #t = t.translate(string.maketrans("abc", "def"))
-    if sys.platform in ['darwin', 'linux', 'linux2']:
-        for k in tr.keys():
-            t = re.sub(k, tr[k], t)
-    else:  # special case for Windows...
-        t = re.sub(r'[^a-zA-Z0-9]', '', t)
+    for k in tr.keys():
+        t = re.sub(k, tr[k], t)
     t = re.sub(r'[.+ ()&/:]', '-', t)
     if re.search(r'[^a-z0-9-]', t):
         raise Exception("Characters of '{}' need to be mapped in 'cat/chars.csv'".format(t))
@@ -44,16 +41,6 @@ def html2txt(html):
     text = re.sub(r'</?[^>]+>', '', html)
     return text
 
-
-def new_tag(t):
-    return {
-        'name' : t,
-        #'events' : [],
-        'videos' : 0,
-        'episodes' : [],
-        'total' : 0,
-        'future' : 0,
-    }
 
 class GenerateSite(object):
     def __init__(self):
@@ -131,33 +118,30 @@ class GenerateSite(object):
         self.save_all(cat)
 
     def save_all(self, cat):
-        with open(self.html + '/cat.json', 'w', encoding="utf-8") as fh:
+        with open(os.path.join(self.html, 'cat.json'), 'w', encoding="utf-8") as fh:
             json.dump(cat, fh)
         if len(sys.argv) > 1:
             for e in cat.keys():
-                with open(self.html + '/' + e + '.json', 'w', encoding="utf-8") as fh:
+                with open(os.path.join(self.html, e + '.json'), 'w', encoding="utf-8") as fh:
                     json.dump(cat[e], fh)
 
 
     def read_sources(self):
-        with open(self.data + '/sources.json', encoding="utf-8") as fh:
+        with open(os.path.join(self.data, 'sources.json'), encoding="utf-8") as fh:
             self.sources = json.load(fh)
 
 
     def read_tags(self):
-        with open(self.data + '/tags.csv', encoding="utf-8") as fh:
-            rd = csv.DictReader(fh, delimiter=';')
-            for row in rd:
-                path = topic2path(row['name'])
-                self.tags[ path ] = new_tag(row['name'])
-                #self.stats['tags'][path] = {
-                #    'total'  : 0,
-                #    'future' : 0,
-                #}
+        with open(os.path.join(self.data, 'tags.json'), encoding="utf-8") as fh:
+                self.tags = json.load(fh)
+                for tag in self.tags:
+                    self.tags[ tag ]['episodes'] = []
+                    for f in ['videos', 'total', 'future']:
+                        self.tags[ tag ][f] = 0
         return
 
     def read_blasters(self):
-        with open(self.data + '/blasters.csv', encoding="utf-8") as fh:
+        with open(os.path.join(self.data, 'blasters.csv'), encoding="utf-8") as fh:
             rd = csv.DictReader(fh, delimiter=';')
             for row in rd:
                 self.blasters.append(row)
@@ -165,12 +149,12 @@ class GenerateSite(object):
 
     def read_events(self):
         countries = []
-        with open(os.path.join(self.root, 'data', 'countries.csv')) as fh:
+        with open(os.path.join(self.root, 'data', 'countries.csv'), encoding="utf-8") as fh:
             for line in fh:
                 name, continent = line.rstrip("\n").split(",")
                 countries.append(name)
 
-        for filename in glob.glob(self.data + '/events/*.json'):
+        for filename in glob.glob(os.path.join(self.data, 'events', '*.json')):
             if filename[len(self.root):] != filename[len(self.root):].lower():
                 raise Exception("filename '{}' is not all lower case".format(filename))
             #print("Reading {}".format(filename))
@@ -186,10 +170,28 @@ class GenerateSite(object):
                 this['file_date'] = datetime.fromtimestamp( os.path.getctime(filename) ).strftime('%Y-%m-%d')
 
                 date_format =  r'^\d\d\d\d-\d\d-\d\d$'
-                # TODO: add requirement for event_start and event_end
                 for f in ['event_start', 'event_end', 'cfp_end']:
                     if f in this and this[f] and not re.search(date_format, this[f]):
                         raise Exception('Invalid {} {} in {}'.format(f, this[f], filename))
+
+                start_date = datetime.strptime(this['event_start'], '%Y-%m-%d')
+                end_date = datetime.strptime(this['event_end'], '%Y-%m-%d')
+                if end_date < start_date :
+                    raise Exception('Invalid event dates (Start after End) in {}'.format(filename))
+
+                if 'cfp_end' in this and this['cfp_end']:
+                    cfp_date = datetime.strptime(this['cfp_end'], '%Y-%m-%d')
+                    if cfp_date > start_date:
+                        raise Exception('Invalid CFP date (CFP after Start) in {}'.format(filename))
+
+                event_year = this['event_start'][0:4]
+                if not this['name'].endswith(event_year):
+                    raise Exception('Invalid event name {}. Should end with year \'{}\''.format(this['name'], event_year))
+
+                try:
+                    nickname.index(event_year)
+                except ValueError:
+                    raise Exception('Invalid file name {}. Should contains the year \'{}\''.format(this['nickname'], event_year))
 
                 if not 'location' in this or not this['location']:
                     raise Exception('Location is missing from {}'.format(this))
@@ -216,6 +218,16 @@ class GenerateSite(object):
                         'path' : t,
                     })
                 this['topics'] = my_topics
+
+                if 'twitter' in this and this['twitter'] != '':
+                    if not re.search(r'^[a-zA-Z0-9_]+$', this['twitter']):
+                        raise Exception("Invalid twitter handle '{}' in {}".format(this['twitter'], filename))
+
+                if 'youtube' in this and this['youtube'] != '' and this['youtube'] != '-':
+                    #if not re.search(r'^P[a-zA-Z0-9_-]+$', this['youtube']):
+                    if re.search(r'https?://', this['youtube']):
+                        raise Exception("Invalid youtube playlist '{}' in {}".format(this['youtube'], filename))
+
 
                 this['cfp_class'] = 'cfp_none'
                 cfp = this.get('cfp_end', '')
@@ -286,42 +298,31 @@ class GenerateSite(object):
 
 
     def read_people(self):
-        path = self.data + '/people'
+        path = os.path.join(self.data, 'people')
 
-        for filename in glob.glob(path + "/*.txt"):
+        for filename in glob.glob(os.path.join(path, '*.json')):
             if filename[len(self.root):] != filename[len(self.root):].lower():
                 raise Exception("filename '{}' is not all lower case".format(filename)) 
             try:
                 this = {}
                 nickname = os.path.basename(filename)
-                nickname = nickname[0:-4]
-                description = None
+                nickname = nickname[0:-5]
                 with open(filename, encoding="utf-8") as fh:
-                    for line in fh:
-                        if re.search(r'__DESCRIPTION__', line):
-                            description = ''
+                    this = json.load(fh)
+                    for f in this:
+                        if f == 'description':
                             continue
-                        if description != None:
-                            description += line
+                        if f == 'topics':
+                            for t in this[f]:
+                                if re.search(r'\s\Z', t):
+                                    raise Exception("Trailing space in '{}' {}".format(f, filename))
+                                if re.search(r'\A\s', t):
+                                    raise Exception("Leading space in '{}' {}".format(f, filename))
                             continue
-                        
-                        line = line.rstrip('\n')
-                        if re.search(r'\s\Z', line):
-                            raise Exception("Trailing space in '{}' {}".format(line, filename))
-                        if re.search(r'\A\s*\Z', line):
-                            continue
-                        k,v = re.split(r'\s*:\s*', line, maxsplit=1)
-                        if k in this:
-                            if k == 'home':
-                                # TODO: decide what to do with multiple home: entries
-                                #print("Duplicate field '{}' in {}".format(k, filename))
-                                pass
-                            else:
-                                raise Exception("Duplicate field '{}' in {}".format(k, filename))
-                        this[k] = v
-
-                if description:
-                    this['description'] = description
+                        if re.search(r'\s\Z', this[f]):
+                            raise Exception("Trailing space in '{}' {}".format(f, filename))
+                        if re.search(r'\A\s', this[f]):
+                            raise Exception("Leading space in '{}' {}".format(f, filename))
 
                 if 'redirect' in this:
                     self.redirects.append({
@@ -336,6 +337,7 @@ class GenerateSite(object):
                         pass
                     elif this[field] == '-':
                         this[field] = None
+
                 self.people[nickname] = {
                     'info': this,
                     #'episodes' : [],
@@ -349,12 +351,6 @@ class GenerateSite(object):
                 }
                 if 'country' in this:
                     person['location'] = this['country']
-                if 'topics' in this:
-                    person['topics']   = this['topics']
-                    for t in re.split(r'\s*,\s*', this['topics']):
-                        p = topic2path(t)
-                        if p not in self.tags:
-                            raise Exception("Topic '{}' is not in the list of tags".format(p))
 
                 self.people_search[nickname] = person
             except Exception as e:
@@ -363,23 +359,23 @@ class GenerateSite(object):
         return
 
     def read_series(self):
-        with open(self.data + '/series.json') as fh:
+        with open(os.path.join(self.data, 'series.json'), encoding="utf-8") as fh:
             self.series = json.load(fh)
             for s in self.series:
                 if s == '':
                     raise Exception("empty key in series {}".format(self.series[s]))
 
     def read_videos(self):
-        path = self.data + '/videos'
+        path = os.path.join(self.data, 'videos')
         events = os.listdir(path)
         self.videos = []
         for event in events:
             dir_path = os.path.join(path, event)
-            for video_file_path in glob.glob(dir_path + '/*.json'):
+            for video_file_path in glob.glob(os.path.join(dir_path, '*.json')):
                 video_file = os.path.basename(video_file_path)
                 html_file_path = video_file_path[0:-4] + 'html'
 
-                with open(video_file_path) as fh:
+                with open(video_file_path, encoding="utf-8") as fh:
                     try:
                         video = json.load(fh)
                         video['filename'] = video_file[0:-5]
@@ -387,7 +383,7 @@ class GenerateSite(object):
                         video['file_date'] = datetime.fromtimestamp( os.path.getctime(video_file_path) ).strftime('%Y-%m-%d')
 
                         if os.path.exists(html_file_path):
-                            with open(html_file_path) as hfh:
+                            with open(html_file_path, encoding="utf-8") as hfh:
                                 video['description'] = hfh.read()
                         self.videos.append(video)
                     except Exception as e:
@@ -420,7 +416,7 @@ class GenerateSite(object):
         self.episodes = []
         for src in self.sources:
             #print("Processing source {}".format(src['name']))
-            file = self.data + '/podcasts/' + src['name'] + '.json'
+            file = os.path.join(self.data, 'podcasts', src['name'] + '.json')
             src['episodes'] = []
             if os.path.exists(file):
                 with open(file, encoding="utf-8") as fh:
@@ -452,7 +448,6 @@ class GenerateSite(object):
                         })
                     if path not in self.tags:
                         raise Exception("Missing tag '{}'".format(path))
-                        #self.tags[path] = new_tag(tag)
                     self.tags[path]['episodes'].append(e)
 
                 e['tags'] = tags

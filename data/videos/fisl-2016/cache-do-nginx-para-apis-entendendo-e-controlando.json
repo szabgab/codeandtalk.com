@@ -1,0 +1,18 @@
+{
+    "description": "Inscreva-se.\nhttps://goo.gl/NfsjjA\n\nCache do nginx para APIs (entendendo e controlando)\nTrilha: Administração - Administração de Sistemas\nAutores:\nHelber Maciel Guerra mostrar currículo\nApresentação:\nDia 14 às 13:00 na sala 41D (60 minutos)  vídeo\nDescrição:  Fazendo o uso do cache do nginx, podemos ter melhoria de desempenho de APIs restful e conteúdos de 1000X ou mais. Mas como ter controle do que está no  cache e se este conteúdo é coerente com o que está no backend?\nCom sistemas de cache utilizando nginx, geralmente são baseados em tempo, mas muitas vezes ao fazer modificações nos dados, seria muito bom que este cache fosse invalidado no momento da modificação.\nVamos entender o funcionamento e analisar alternativas à invalidação de cache por expiração temporal, e fazer controle invalidação de cache em granularidade de requisição.\nVamos ver um exemplo utilizando signals do framework web django, para fazer a limpeza do cache ao haver uma modificação de conteúdo e invalidado cache mesmo de usuário autenticado, deixando intacto o cache de outro usuário.",
+    "favorite": "0",
+    "length": "50:42",
+    "likes": "0",
+    "recorded": "2016-07-13",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/PXN8AcrOvTg/hqdefault.jpg",
+    "title": "Cache do nginx para APIs entendendo e controlando",
+    "videos": [
+        {
+            "code": "PXN8AcrOvTg",
+            "type": "youtube"
+        }
+    ],
+    "views": "23"
+}

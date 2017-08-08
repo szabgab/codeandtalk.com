@@ -1,0 +1,18 @@
+{
+    "description": "Inscreva-se.\nhttps://goo.gl/NfsjjA\n\nGuia de otimização de consultas em PostgreSQL exemplificado com casos reais\nTrilha: Minieventos - PGDay POA\nAutores:\nÁlvaro Nunes Lemos de Melo mostrar currículo\nApresentação:\nDia 14 às 18:00 na sala 41E (40 minutos)  vídeo\nDescrição:  A sessão visa demonstrar, partindo do zero, um roteiro para realizar a otimização de consultas em PostgreSQL, com dados de um ambiente real de produçã o. Este ambiente caracteriza-se por quatrocentas e cinquenta bases, de diferentes tamanhos, em um cluster PostgreSQL replicado em cascata, no qual são emitidos aproximadamente cento e cinquenta mil documentos fiscais por mês.\n\nInicialmente serão abordados parâmetros de configuração que nos auxiliam na geração de um arquivo de log relevante para o tema. De posse deste arquivo, a análise será feita de duas maneiras: utilizando o pgbadger, ou via shell scripts unidos a planilhas de cálculo. Este último método facilita a comparação histórica do comportamento do banco de dados. Em seguida, o comando EXPLAIN será abordado, bem como os comandos de atualização das estatísticas do otimizador de consultas, de garbage collection e sua automatização.\n\nNo tocante a otimização, será descrito o uso de índices e seu custo em termos de tempo e utilização de espaço. Também serão apresentadas alternativas para reduzir o espaço por eles utilizados. Apesar da excelente performance do otimizador genérico de consultas (Generic Query Optimyzer) a ordenação de JOINs pode, em casos específicos, resultar em ganhos de performance. Ato contínuo, serão demonstradas as formas de utilização de Common Table Expression e Window Functions, recursos que auxiliam na otimização de consultas e que mesmo sendo muito eficientes, tem o uso pouco difundido. Common Table Expressions podem ainda ser aliadas em cenários de bancos de dados replicados em que a réplica é utilizada como uma base somente-leitura.",
+    "favorite": "0",
+    "length": "36:27",
+    "likes": "2",
+    "recorded": "2016-07-13",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/JULqFIWjOKQ/hqdefault.jpg",
+    "title": "Guia de otimização de consultas em PostgreSQL exemplificado com casos reais",
+    "videos": [
+        {
+            "code": "JULqFIWjOKQ",
+            "type": "youtube"
+        }
+    ],
+    "views": "125"
+}

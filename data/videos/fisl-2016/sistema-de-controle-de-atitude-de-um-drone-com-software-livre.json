@@ -1,0 +1,18 @@
+{
+    "description": "Inscreva-se.\nhttps://goo.gl/NfsjjA\n\nSistema de controle de atitude de um drone com software livre\nTrilha: Desenvolvimento - Linguagens de programação\nAutores:\nJosé Roberto Colombo Junior\nApresentação:\nDia 13 às 11:00 na sala 41B (60 minutos)  vídeo\nDescrição:  Apresentação do desenvolvimento de um Drone empregando apenas software livre. O computador de bordo é uma BeableBone White rodando Debian, de fácil aq  uisição. A placa com os sensores, para permitir o voo autônomo, é construída com sensores de baixo custo e fácil acesso. Todo o projeto está sob a licença GPL e disponível num repositório BitBucket. A comunicação é feita por meio de dispositivo ZigBee, embora também seja possível utilizar as interfaces Ethernet ou WiFi.\n\nSerá apresentada a API desenvolvida para comunicação com os sensores totalmente escrita em Python, para facilitar o porte do código para outras plataformas (raspberry pi, por exemplo).\n\nAbordagem sobre dinâmica de voo e controladores internos do Drone. Por fim, também será comentado uma maneira de super utilizar os atuadores (chamados de ESC), também utilizando software livre.\n\nHighlights:\n* uso de ferramentas de desenvolvimento de circuitos eletrônicos (gEDA e PCB)\n* ferramentas de desenvolvimento de código Python (Spyder e ipython)\n* ferramentas de gerenciamento de código (GIT)\n* desenvolvimento de um Drone super legal\n* apresentação do sistema de controle interno, de modo a permitir estabilização da aeronave\n* possibilidade de rastreamento de alvos empregando webcam e PyGame (interface para o SDL)",
+    "favorite": "0",
+    "length": "52:50",
+    "likes": "2",
+    "recorded": "2016-07-13",
+    "speakers": [],
+    "tags": [],
+    "thumbnail_url": "https://i.ytimg.com/vi/FXr8Gq4lxeQ/hqdefault.jpg",
+    "title": "Sistema de controle de atitude de um drone com software livre",
+    "videos": [
+        {
+            "code": "FXr8Gq4lxeQ",
+            "type": "youtube"
+        }
+    ],
+    "views": "68"
+}

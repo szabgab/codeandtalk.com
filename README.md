@@ -1,5 +1,7 @@
-###Status
+Code And Talk
+=============
 [![Build Status](https://travis-ci.org/szabgab/codeandtalk.com.png)](https://travis-ci.org/szabgab/codeandtalk.com)
+[![Build status](https://ci.appveyor.com/api/projects/status/github/szabgab/codeandtalk-com?svg=true)](https://ci.appveyor.com/project/szabgab/codeandtalk-com/)
 
 List of tech conferences, podcasts, videos, people
 ==================================================
@@ -22,6 +24,12 @@ SETUP
 virtualenv venv -p python3
 source venv/bin/activate
 pip install --editable .
+```
+
+Running unit tests
+------------------
+```
+$ python3 -m unittest discover
 ```
 
 Generate web site (and check format)
@@ -48,12 +56,6 @@ Site layout
 /t/tag
 ```
 
-
-Running unit tests
-------------------
-```
-$ python3 -m unittest discover
-```
 
 TODO
 -----

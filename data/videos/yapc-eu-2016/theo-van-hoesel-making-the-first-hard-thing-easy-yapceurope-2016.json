@@ -1,6 +1,6 @@
 {
     "abstract": "http://act.yapc.eu/ye2016/talk/6766",
-    "description": "\u201eMake easy things easy and hard things possible\u201d\nLary Wall\n\n\u201eThere are only two hard things in Computer Science: cache invalidation and naming things.\u201d\nPhill Karlton\n\n\nThe internet and the HTTP specs were specifically designed to allow responses to be cached. RFC 7234 is a 43page long specification on how to do it.\n\nUnfortunately, there is a whole plethora of modules on CPAN that take the 'easy way' and make caching and cache invalidation very hard because of poor implementations.\n\nWith Perl, it is not about \"making the first hard thing \u2013 cache and invalidation \u2013 possible\" ... let's make it easy!",
+    "description": "„Make easy things easy and hard things possible”\nLary Wall\n\n„There are only two hard things in Computer Science: cache invalidation and naming things.”\nPhill Karlton\n\n\nThe internet and the HTTP specs were specifically designed to allow responses to be cached. RFC 7234 is a 43page long specification on how to do it.\n\nUnfortunately, there is a whole plethora of modules on CPAN that take the 'easy way' and make caching and cache invalidation very hard because of poor implementations.\n\nWith Perl, it is not about \"making the first hard thing – cache and invalidation – possible\" ... let's make it easy!",
     "favorite": "0",
     "length": "28:07",
     "likes": "1",

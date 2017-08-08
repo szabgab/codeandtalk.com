@@ -57,7 +57,7 @@ for event, details in site.events.items():
         next_event = event.replace(reference_year, year_to_check)
         if next_event not in site.events:
             print_debug('Checking event {}'.format(next_event))
-            url = details['url']
+            url = details['website']
             if url.find(reference_year) != -1:
                 new_url = url.replace(reference_year, year_to_check)
                 print_debug('Checking changed URL {}'.format(new_url))
