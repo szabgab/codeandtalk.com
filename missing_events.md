@@ -1017,5 +1017,3 @@
 * https://twitter.com/agilebyexample
 * https://twitter.com/cancwic
 * https://twitter.com/flossienet
-* https://twitter.com/apidaysglobal
-* https://twitter.com/dotscale
