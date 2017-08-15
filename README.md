@@ -215,8 +215,10 @@ Instruction on Windows
   Then try ```python --version``` again.
 
 * Type in ```pip install jinja2```
+* Type in ```pip install flask```
+* Type in ```pip install pyquery```
 * cd to the codeandtalk.com/ directory 
 * Type ```python bin/generate.py```   If there is an error in the files, it will complain.
 * If everything works fine the web site is generated in the html/ directory.
-* Run ```FLASK_APP=cat.app FLASK_DEBUG=1 flask run --host 0.0.0.0 --port 5000``` then go to your broser and visit http://127.0.0.1:8000/ 
+* Run ```FLASK_APP=cat\app.py FLASK_DEBUG=1 flask run --host 0.0.0.0 --port 5000``` then go to your broser and visit http://127.0.0.1:5000/ 
 The updated site should be there.
