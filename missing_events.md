@@ -1,3 +1,13 @@
+<!-- This file contains twitter links for conferences that have not yet been added to the site.   
+
+     Steps to add a conference:
+       1. Choose one entry below and go to the site.
+       2. Follow the link from the twitter site to the website for the conference.
+       3. Create a new json file for the event, and enter the data for the even based on the conference site.
+       4. Run the codeandtalk.com unit tests to confirm that the json file passed all rules.
+       5. Create a new branch on git and push the conference to that branch.
+       6. Push to a new brach on the master repository. -->
+
 * https://twitter.com/flowconsf
 * https://twitter.com/fldrupalcamp
 * https://twitter.com/devopsdays_uk
@@ -1015,5 +1025,3 @@
 * https://twitter.com/opencamps
 * https://twitter.com/cgconf
 * https://twitter.com/agilebyexample
-* https://twitter.com/cancwic
-* https://twitter.com/flossienet
