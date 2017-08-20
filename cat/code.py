@@ -157,6 +157,8 @@ class GenerateSite(object):
         for filename in glob.glob(os.path.join(self.data, 'events', '*.json')):
             if filename[len(self.root):] != filename[len(self.root):].lower():
                 raise Exception("filename '{}' is not all lower case".format(filename))
+            if not re.search('^[a-z0-9-]+\.json$', os.path.basename(filename)):
+                raise Exception("filename '{}' is not the accepted characters (a-z0-9-)".format(os.path.basename(filename)))
             #print("Reading {}".format(filename))
             conf = {}
             try:
