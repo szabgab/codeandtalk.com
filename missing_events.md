@@ -9,8 +9,9 @@
        6. Push to a new brach on the master repository. -->
 
 * http://experience.medallia.co.uk/
-  https://sharkfesteurope.wireshark.org/
-  http://europe-2017.dockercon.com/
+* https://sharkfesteurope.wireshark.org/
+* http://europe-2017.dockercon.com/
+* https://www.pagerduty.com/summit
 
 
 * https://twitter.com/flowconsf
