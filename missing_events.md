@@ -8,6 +8,11 @@
        5. Create a new branch on git and push the conference to that branch.
        6. Push to a new brach on the master repository. -->
 
+* http://experience.medallia.co.uk/
+  https://sharkfesteurope.wireshark.org/
+  http://europe-2017.dockercon.com/
+
+
 * https://twitter.com/flowconsf
 * https://twitter.com/fldrupalcamp
 * https://twitter.com/devopsdays_uk
