@@ -6,19 +6,11 @@
        3. Create a new json file for the event, and enter the data for the even based on the conference site.
        4. Run the codeandtalk.com unit tests to confirm that the json file passed all rules.
        5. Create a new branch on git and push the conference to that branch.
-       6. Push to a new brach on the master repository. -->
-
-* http://experience.medallia.co.uk/
-* https://sharkfesteurope.wireshark.org/
-* http://europe-2017.dockercon.com/
-* https://www.pagerduty.com/summit
-* https://signal.twilio.com/
+       6. Push to a new branch on the master repository. -->
 
 
-* https://twitter.com/flowconsf
-* https://twitter.com/fldrupalcamp
+
 * https://twitter.com/devopsdays_uk
-* https://twitter.com/madisonphp
 * https://twitter.com/whartonwebconf
 * https://twitter.com/mobconeu
 * https://twitter.com/pyconfinland
