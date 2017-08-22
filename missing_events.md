@@ -8,10 +8,9 @@
        5. Create a new branch on git and push the conference to that branch.
        6. Push to a new brach on the master repository. -->
 
-* https://twitter.com/flowconsf
-* https://twitter.com/fldrupalcamp
+
+
 * https://twitter.com/devopsdays_uk
-* https://twitter.com/madisonphp
 * https://twitter.com/whartonwebconf
 * https://twitter.com/mobconeu
 * https://twitter.com/pyconfinland
