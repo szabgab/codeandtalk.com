@@ -187,38 +187,50 @@ It will create a copy in your own user. If you are called ```foobar``` it will b
 
 * On your command line (Linux terminal or Windows Cmd) type in
 
-```git clone git@github.com:foobar/codeandtalk.git```
+`git clone git@github.com:foobar/codeandtalk.git`
 
 It will clone (copy) the whole repository from your GitHub homedirectory.
 
-```cd codeandtalk.com```
+```
+cd codeandtalk.com
 
-```git remote add upstream https://github.com/szabgab/codeandtalk.git```
+git remote add upstream https://github.com/szabgab/codeandtalk.git
+```
 
-Now you can edit the files in the ```data``` directory and add more files you need.
+Now you can edit the files in the `data` directory and add more files you need.
 
 If you'd like to check if the files work well together type in
 
-```python bin/generate.py```
+`python bin/generate.py`
 
 
 
 Instruction on Windows
 ----------------------
 * Install Python 3.x.x from https://www.python.org/downloads/windows/
-* Open the command window (Start/Run 'cmd')
-* Type in ```python --version``` to check if the installation worked as expected. It should say something like "Python 3.5.2"
-  If it says "`Python` is not recognized as an internal or external command, operable program or batch file"
+* While installing, look out for an option to install Python in the path, and select it. Don't worry if you missed it,
+  instructions follow for how to install Python in the path afterwards.
+* Open the command window (Start/Run PowerShell)
+* Type in `python --version` to check if the installation worked as expected. It should say something like "Python 3.5.2"
+  If it says `Python` is not recognized as an internal or external command, operable program or batch file"
   then you need to configure the PATH environment variable to include the directory of python.exe
   One way is to enter the following in the command prompt: just replace 'gabor' with your username:
-  ```set PATH=C:\Users\gabor\AppData\Local\Programs\Python\Python35-32\;%PATH%```
-  Then try ```python --version``` again.
+  `set PATH=C:\Users\gabor\AppData\Local\Programs\Python\Python35-32\;%PATH%`
+  Then try `python --version` again.
 
-* Type in ```pip install jinja2```
-* Type in ```pip install flask```
-* Type in ```pip install pyquery```
-* cd to the codeandtalk.com/ directory 
-* Type ```python bin/generate.py```   If there is an error in the files, it will complain.
+* Type in `pip install jinja2`
+* Type in `pip install flask`
+* Type in `pip install pyquery`
+* cd to the codeandtalk.com/ directory
+* Type `python bin/generate.py`   If there is an error in the files, it will complain.
 * If everything works fine the web site is generated in the html/ directory.
-* Run ```FLASK_APP=cat\app.py FLASK_DEBUG=1 flask run --host 0.0.0.0 --port 5000``` then go to your broser and visit http://127.0.0.1:5000/ 
-The updated site should be there.
+* Here are the commands to get started on PowerShell:
+
+  ```
+  $env:FLASK_APP="cat\\app.py"
+  $env:FLASK_DEBUG=1
+  flask run --host 0.0.0.0 --port 5000
+  ```
+
+* Go to your browser and visit http://127.0.0.1:5000/
+  The updated site should be there.
