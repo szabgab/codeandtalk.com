@@ -44,8 +44,7 @@ def html2txt(html):
 
 class GenerateSite(object):
     def __init__(self):
-        if len(sys.argv) > 1:  # accept --log
-            logging.basicConfig(level=0)
+        logging.basicConfig(filename='generate.log', level=logging.DEBUG)
 
         self.root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         self.now = datetime.now().strftime('%Y-%m-%d')
