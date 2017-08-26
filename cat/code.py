@@ -157,8 +157,10 @@ class GenerateSite(object):
                 name, continent = line.rstrip("\n").split(",")
                 countries.append(name)
 
-        for filename in glob.glob(os.path.join(self.data, 'events', '*.json')):
+        for filename in glob.glob(os.path.join(self.data, 'events', '*')):
             logging.info('processing {}'.format(filename))
+            if filename[-5:] != '.json':
+                raise Exception("filename '{}' is not .json file".format(filename))
             if filename[len(self.root):] != filename[len(self.root):].lower():
                 raise Exception("filename '{}' is not all lower case".format(filename))
             if not re.search('^[a-z0-9-]+\.json$', os.path.basename(filename)):
