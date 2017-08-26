@@ -38,6 +38,11 @@ Generate web site (and check format)
 $ python3 bin/generate.py
 ```
 
+Verbose output during generation
+```
+$ python3 bin/generate.py --log
+```
+
 Development server
 -------------------
 ```

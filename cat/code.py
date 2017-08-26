@@ -9,9 +9,9 @@ import urllib
 import sys
 #import string
 from jinja2 import Environment, PackageLoader
+import logging
 
 from cat import tools
-
 
 def read_chars():
     tr = {}
@@ -44,6 +44,9 @@ def html2txt(html):
 
 class GenerateSite(object):
     def __init__(self):
+        if len(sys.argv) > 1:  # accept --log
+            logging.basicConfig(level=0)
+
         self.root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         self.now = datetime.now().strftime('%Y-%m-%d')
         self.people = {}
@@ -155,6 +158,7 @@ class GenerateSite(object):
                 countries.append(name)
 
         for filename in glob.glob(os.path.join(self.data, 'events', '*.json')):
+            logging.info('processing {}'.format(filename))
             if filename[len(self.root):] != filename[len(self.root):].lower():
                 raise Exception("filename '{}' is not all lower case".format(filename))
             if not re.search('^[a-z0-9-]+\.json$', os.path.basename(filename)):
