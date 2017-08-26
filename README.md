@@ -59,79 +59,9 @@ Site layout
 /t/tag
 ```
 
-
-TODO
------
-
-These are just ideas, not necessary something I really want to do :-)
-
-* Calendar of events - Shall we include the cfp deadlines or not?
-
-* tags should be all lower case in the files and we should have the real case in the tags file. That will make the code simpler
-* For each event series find out if they have an annuncement mailing list to get notified for the new event, cfp,  videos available.
-Add this information to the data/series.json file Talk to the organizers and tell them why we would like to get such notifications.
-
-* Describe the use of the site.
-* Convert all the data files to JSON, beautify them?
-* Create skeleton for each file-type?
-* Include logo of each event?
-
-* Change the sitemap.xml creating code to use the date of the files for real date.
-* For sitemap of the collection pages, use the timestamp of the most recent event in that list.
-* For sitemap of videos, use the date of the file.
-
-* Update the description of the data and the collection process.
-
-* Search:
-  limit the search to people/videos/events/podcasts
-
-
-* Weekly Newsletter with information about events.
-  The subscriber should be able to select filter by countries and/or by topics.
-  The e-mail itself is an HTML message that we can also build on the website.
-
-* Add Facebook image code to video pages
-* Improve the UI of the web site, look at what pyvideo has nice.
-* Add "language" field to the videos and allow the user to filter the results to selected language(s). (There are talk in French, German, Spanish, etc.)
-
-* Create list of people with 0 in everything bin/people.py
-* List of people who only have their name in the file
-* List of people missing twitter/github
-
-* Include screencasts and other non-conference videos.
-* Include a picture of each person?
-
-
-TODO Check for events:
--------------
-* http://2016.geecon.cz/
-* http://www.qualitysoftware.com.au/ http://www.qualitysoftware.com.au/atd2k16/
-* http://europeantestingconference.eu/2017/ https://twitter.com/EuroTestingConf
-* http://codecooperative.org/
-* https://central.wordcamp.org/
-* https://wpcampus.org/
-* https://therichwebexperience.com/conference/clearwater/2016/12/home
-* http://www.cue.org/conference
-* http://www.nodetogether.org/
-* https://atscaleconference.com/
-* https://jsconf.co/2015-Videos/
-* http://rubycentral.org/railsconf
-
-* https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A/playlists
-* https://github.com/nodeconf
-
-http://visualized.com/2014/conference/
-http://visualized.com/2015
-http://visualized.com/2016
-
-[ReactJS-IL] YouTube Channel for Recorded Talks : https://www.youtube.com/channel/UC7AkWgJFP_hBoU0M7_n0prQ
-
-
-
 Other sources
 ------
 https://techpoint.ng/2016/09/14/hackjos-2016-2/
-
 
 Promotion
 ------------

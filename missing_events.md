@@ -14,6 +14,26 @@
 * https://www.pagerduty.com/summit
 * https://signal.twilio.com/
 
+* http://2016.geecon.cz/
+* http://www.qualitysoftware.com.au/ http://www.qualitysoftware.com.au/atd2k16/
+* http://europeantestingconference.eu/2017/ https://twitter.com/EuroTestingConf
+* http://codecooperative.org/
+* https://central.wordcamp.org/
+* https://wpcampus.org/
+* https://therichwebexperience.com/conference/clearwater/2016/12/home
+* http://www.cue.org/conference
+* http://www.nodetogether.org/
+* https://atscaleconference.com/
+* https://jsconf.co/2015-Videos/
+* http://rubycentral.org/railsconf
+
+* https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A/playlists
+* https://github.com/nodeconf
+
+* http://visualized.com/2014/conference/
+* http://visualized.com/2015
+* http://visualized.com/2016
+
 
 * https://twitter.com/devopsdays_uk
 * https://twitter.com/whartonwebconf
