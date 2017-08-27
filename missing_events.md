@@ -1048,4 +1048,3 @@
 * https://twitter.com/oredev
 * https://twitter.com/opencamps
 * https://twitter.com/cgconf
-* https://twitter.com/agilebyexample
