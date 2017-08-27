@@ -93,7 +93,7 @@ class TestCat(unittest.TestCase):
                 found_non_0 += 1
 
             topic = self.app.get(href)
-            self.assertEqual(topic.status, '200 OK', href + ' ' + topic.status)
+            assert topic.status == '200 OK'
 
             if found_0 > 0 and found_non_0 > 0:
                 break
@@ -116,7 +116,7 @@ class TestCat(unittest.TestCase):
         assert b'<h2>Videos</h2>' in rv.data
         assert b'<a href="/v/jsinsa-2016/feature-toggle-a-js-app-by-charlene-tshitoka">' in rv.data
         assert b'<a href="/p/charlene-tshitoka">Charlene Tshitoka</a>' in rv.data
-        self.assertIn(b'<div>No <a href="/diversity-tickets"><b>Diversity Tickets</b></a></div>', rv.data)
+        assert b'<div>No <a href="/diversity-tickets"><b>Diversity Tickets</b></a></div>' in rv.data
         assert b'<h2>Related events:</h2>' in rv.data
         assert b'<a href="/e/jsinsa-2012">jsinsa - JavaScript in South Africa 2012</a>' in rv.data
 
@@ -125,16 +125,16 @@ class TestCat(unittest.TestCase):
         assert b'<h2>Related events:</h2>' not in rv.data
 
         rv = self.app.get('/e/script-2017')
-        self.assertEqual(rv.status, '200 OK')
-        self.assertIn(b'<div><a href="https://diversitytickets.org/events/53">Diversity Tickets</a></div>', rv.data)
+        assert rv.status == '200 OK'
+        assert b'<div><a href="https://diversitytickets.org/events/53">Diversity Tickets</a></div>' in rv.data
 
         rv = self.app.get('/e/cssconf-eu-2017')
-        self.assertEqual(rv.status, '200 OK')
-        self.assertIn(b'<div><a href="http://2017.cssconf.eu/diversity-support-tickets/">Diversity Tickets</a></div>', rv.data)
+        assert rv.status == '200 OK'
+        assert b'<div><a href="http://2017.cssconf.eu/diversity-support-tickets/">Diversity Tickets</a></div>' in rv.data
 
         rv = self.app.get('/e/fsto-2017')
-        self.assertEqual(rv.status, '200 OK')
-        self.assertIn(b'<div><a href="http://2017.fsto.co/">Diversity Tickets: see under pricing</a></div>', rv.data)
+        assert rv.status == '200 OK'
+        assert b'<div><a href="http://2017.fsto.co/">Diversity Tickets: see under pricing</a></div>' in rv.data
 
     
     def test_featured(self):
@@ -143,62 +143,62 @@ class TestCat(unittest.TestCase):
         assert b'<a href="/v/cascadiafest-2016/sarah-meyer-javascript-minus-javascript-cascadiafest-2016">' in rv.data
 
         rv = self.app.get('/featured-by-date')
-        self.assertEqual(rv.status, '200 OK')
-        self.assertIn(b'<a href="/v/cascadiafest-2016/sarah-meyer-javascript-minus-javascript-cascadiafest-2016">', rv.data)
+        assert rv.status == '200 OK'
+        assert b'<a href="/v/cascadiafest-2016/sarah-meyer-javascript-minus-javascript-cascadiafest-2016">' in rv.data
 
     def test_video_pages(self):
         rv = self.app.get('/v/cascadiafest-2016/sarah-meyer-javascript-minus-javascript-cascadiafest-2016')
-        self.assertEqual(rv.status, '200 OK')
-        self.assertIn(b'<title>Javascript Minus Javascript</title>', rv.data)
+        assert rv.status == '200 OK'
+        assert b'<title>Javascript Minus Javascript</title>' in rv.data
         #print(rv.data)
 
         rv = self.app.get('/v/devoxx-france-2016/10-enseignements-quon-peut-tirer-des-31463-commits-qui-ont-cree-le-langage-simone-civetta')
-        self.assertEqual(rv.status, '200 OK')
-        self.assertIn(b'<title>10 enseignements qu&#39;on peut tirer des 31.463 commits qui ont cr\xc3\xa9\xc3\xa9 le langage (French)</title>', rv.data)
+        assert rv.status == '200 OK'
+        assert b'<title>10 enseignements qu&#39;on peut tirer des 31.463 commits qui ont cr\xc3\xa9\xc3\xa9 le langage (French)</title>' in rv.data
         #print(rv.data)
 
         rv = self.app.get('/l/goteborg-sweden')
-        self.assertEqual(rv.status, '200 OK')
-        self.assertIn(b'<title>Conferences in b&#39;Gteborg, Sweden&#39;</title>', rv.data)
+        assert rv.status == '200 OK'
+        assert b'<title>Conferences in b&#39;Gteborg, Sweden&#39;</title>' in rv.data
         #print(rv.data)
 
     def test_calendar(self):
         rv = self.app.get('/cal/all.ics')
-        self.assertEqual(rv.status, '200 OK')
+        assert rv.status == '200 OK'
         rv = self.app.get('/cal/l/dusseldorf-germany.ics')
-        self.assertEqual(rv.status, '200 OK')
+        assert rv.status == '200 OK'
 
     def test_podcast_participants(self):
         rv = self.app.get('/s/cmos')
-        self.assertEqual(rv.status, '200 OK')
-        self.assertIn(b'<a href="/p/jason-crome">Jason A. Crome</a>', rv.data)
-        self.assertIn('<a href="/p/gabor-szabo">Gábor Szabó</a>'.encode('utf-8'), rv.data)
+        assert rv.status == '200 OK'
+        assert b'<a href="/p/jason-crome">Jason A. Crome</a>' in rv.data
+        assert '<a href="/p/gabor-szabo">Gábor Szabó</a>'.encode('utf-8') in rv.data
 
     def test_people(self):
         rv = self.app.get('/people')
-        self.assertEqual(rv.status, '200 OK')
-        self.assertIn(b'<title>People who talk at conferences or in podcasts</title>', rv.data)
+        assert rv.status == '200 OK'
+        assert b'<title>People who talk at conferences or in podcasts</title>' in rv.data
 
         rv = self.app.get('/people?term=sz')
-        self.assertEqual(rv.status, '200 OK')
-        self.assertIn(b'<title>People who talk at conferences or in podcasts</title>', rv.data)
-        self.assertIn(b'<a href="/p/jakub-jedryszek">Jakub Jedryszek</a>', rv.data)
-        self.assertIn('<a href="/p/gabor-szabo">Gábor Szabó</a>'.encode('utf-8'), rv.data)
+        assert rv.status == '200 OK'
+        assert b'<title>People who talk at conferences or in podcasts</title>' in rv.data
+        assert b'<a href="/p/jakub-jedryszek">Jakub Jedryszek</a>' in rv.data
+        assert '<a href="/p/gabor-szabo">Gábor Szabó</a>'.encode('utf-8') in rv.data
 
         rv = self.app.get('/p/gabor-szabo')
-        self.assertEqual(rv.status, '200 OK')
-        self.assertIn('<title>Presentations and podcasts by Gábor Szabó</title>'.encode('utf-8'), rv.data)
+        assert rv.status == '200 OK'
+        assert '<title>Presentations and podcasts by Gábor Szabó</title>'.encode('utf-8') in rv.data
         assert b'<li>2016-08-23 <a href="http://code-maven.com/cmos-1-jason-crome-perl-dancer2">Jason A. Crome on Perl Dancer 2</a> <a href="/s/cmos">cmos</a></li>' in rv.data
 
 
         rv = self.app.get('/p/adam-stacoviak')
-        self.assertEqual(rv.status, '200 OK')
+        assert rv.status == '200 OK'
         assert b'<li>2015-10-12 <a href="http://www.codenewbie.org/podcast/podcasting-with-changelog">Podcasting with Changelog</a> <a href="/s/codenewbie">codenewbie</a></li>' in rv.data
         assert b'<li>2009-11-27 <a href="https://changelog.com/3/">The Go Programming Language from Google with Rob Pike</a> <a href="/s/changelog">changelog</a></li>' in rv.data
 
     def test_sitemap(self):
         rv = self.app.get('/sitemap.xml')
-        self.assertEqual(rv.status, '200 OK')
+        assert rv.status == '200 OK'
         assert b'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' in rv.data
 
 # vim: expandtab
