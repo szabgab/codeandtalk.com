@@ -882,7 +882,6 @@
 * https://twitter.com/symfonycon
 * https://twitter.com/pyconlt
 * https://twitter.com/chcon_nz
-* https://twitter.com/githubuniverse
 * https://twitter.com/devopsdaysin
 * https://twitter.com/osdc_tw
 * https://twitter.com/wceurope
