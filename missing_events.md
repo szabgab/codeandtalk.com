@@ -51,7 +51,7 @@
 * https://twitter.com/knode_io
 * https://twitter.com/oreillyhardware
 * https://twitter.com/rubyconferences
-* https://twitter.com/rubynation
+* https//twitter.com/rubynation
 * https://twitter.com/scipyindia
 * https://twitter.com/blndevops
 * https://twitter.com/nvdacon
@@ -64,7 +64,6 @@
 * https://twitter.com/rossconf
 * https://twitter.com/devopsdaysmsp
 * https://twitter.com/dddeastanglia
-* https://twitter.com/locworld
 * https://twitter.com/mlocjs
 * https://twitter.com/vimconf
 * https://twitter.com/appnation
