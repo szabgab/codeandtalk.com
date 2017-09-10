@@ -17,12 +17,12 @@ def read_chars():
     tr = {}
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     with open(os.path.join(root, 'cat', 'chars.csv'), encoding="utf-8") as fh:
-        rd = csv.reader(fh, delimiter=',') 
+        rd = csv.reader(fh, delimiter=',')
         for row in rd:
             tr[row[0]] = row[1]
     return tr
 tr = read_chars()
- 
+
 def topic2path(tag):
     t = tag.lower()
     if t == 'c++':
@@ -58,7 +58,7 @@ class GenerateSite(object):
         self.featured_by_blaster = {}
         self.featured_by_date = {}
         self.events = {}
- 
+
         self.stats = {
             'has_coc' : 0,
             'has_coc_future' : 0,
@@ -91,7 +91,7 @@ class GenerateSite(object):
             limit = 128
             if len(short_description) > 128:
                 video['short_description'] =  short_description[0:limit]
-    
+
     def generate_site(self):
         self.read_all()
 
@@ -235,6 +235,10 @@ class GenerateSite(object):
                     if re.search(r'https?://', this['youtube']):
                         raise Exception("Invalid youtube playlist '{}' in {}".format(this['youtube'], filename))
 
+                if 'facebook' in this and this['facebook'] != '':
+                    if not re.search(r'^https?://www.facebook.com/', this['facebook']):
+                        raise Exception("Invalid facebook entry '{}' in {}. Include entire Facebook URL.".format(this['facebook'], filename))
+
 
                 this['cfp_class'] = 'cfp_none'
                 cfp = this.get('cfp_end', '')
@@ -309,7 +313,7 @@ class GenerateSite(object):
 
         for filename in glob.glob(os.path.join(path, '*.json')):
             if filename[len(self.root):] != filename[len(self.root):].lower():
-                raise Exception("filename '{}' is not all lower case".format(filename)) 
+                raise Exception("filename '{}' is not all lower case".format(filename))
             try:
                 this = {}
                 nickname = os.path.basename(filename)
@@ -414,7 +418,7 @@ class GenerateSite(object):
 
                     video['tags'] = tags
 
- 
+
         self.stats['videos'] = len(self.videos)
         return
 
@@ -505,7 +509,7 @@ class GenerateSite(object):
                 'name'     : self.events[ video['event'] ]['name'],
                 'nickname' : self.events[ video['event'] ]['nickname'],
                 'website'  : self.events[ video['event'] ]['website'],
-                'twitter'  : self.events[ video['event'] ]['twitter'],  
+                'twitter'  : self.events[ video['event'] ]['twitter'],
             }
 
            # collect featured videos
@@ -543,7 +547,7 @@ class GenerateSite(object):
                         self.featured_by_blaster[ b ] = []
                         #TODO mark these:
                         #print("Blaster {} is used but not in the blaster list".format(b))
-                    
+
                     self.featured_by_blaster[b].append(this_video)
             speakers = {}
             for s in video['speakers']:
@@ -569,7 +573,7 @@ class GenerateSite(object):
                     #else:
                     #    TODO: shall we requre tags for each video?
                     #    exit(video)
-                    
+
                 else:
                     raise Exception("Missing people file for '{}' in {}/videos/{}/{}.json".format(s, self.data, video['event']['nickname'], video['filename']))
             video['speakers'] = speakers
@@ -716,4 +720,3 @@ class GenerateSite(object):
                     raise Exception("Invlaid field '{}' in person {}".format(f, nickname))
 
 # vim: expandtab
-
