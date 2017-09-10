@@ -17,5 +17,5 @@ install:
   - "%PYTHON%/Scripts/pip.exe install ."
 
 test_script:
-  - "%PYTHON%/pytest"
+  - "%PYTHON%/python -m pytest"
 
