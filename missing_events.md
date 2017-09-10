@@ -9,10 +9,10 @@
        6. Push to a new branch on the master repository. -->
 
 
-* https://sharkfesteurope.wireshark.org/
+
 * http://europe-2017.dockercon.com/
 * https://www.pagerduty.com/summit
-* https://signal.twilio.com/
+
 * https://blog.branch.io/announcing-branchout-2017/
 
 * http://2016.geecon.cz/

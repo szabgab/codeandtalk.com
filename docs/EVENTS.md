@@ -11,7 +11,7 @@ website:            http://...
 
 event_start:         2016-06-01
 event_end:           2016-06-02
-cfp_end:           2016-02-23     (Deadline for Call for Presentations if available) 
+cfp_end:             2016-02-23     (Deadline for Call for Presentations if available)
 
 city:               Name of the city
 state:              Relevant in US, Brasil, Australia, India.   Possibly also in UK
@@ -22,11 +22,11 @@ languages:          Portuguese, English
 code_of_conduct:    URL to Code of Conduct
 accessibility:      URL to document about accessibility
 twitter:            handle         (don't include the @)
-hashtag:            hashtag,if not specified the handle will be used (don't include the #)
-facebook:
-youtube:           Once the event is over, the YouTube playlist of its videos.
+hashtag:            hashtag, if not specified the handle will be used (don't include the #)
+facebook:           include entire URL
+youtube:            Once the event is over, the YouTube playlist of its videos.
 
-diversitytickets        The id number from https://diversitytickets.org/ 
+diversitytickets        The id number from https://diversitytickets.org/
                         alternatively:
 diversitytickets_url    URL describing the diversity option on the conf site
 diversitytickets_text   Optional text for the above URL
