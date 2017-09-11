@@ -3,7 +3,7 @@
      Steps to add a conference:
        1. Choose one entry below and go to the site.
        2. Follow the link from the twitter site to the website for the conference.
-       3. Create a new json file for the event, and enter the data for the even based on the conference site.
+       3. Create a new json file for the event, and enter the data for the event based on the conference site.
        4. Run the codeandtalk.com unit tests to confirm that the json file passed all rules.
        5. Create a new branch on git and push the conference to that branch.
        6. Push to a new branch on the master repository. -->
@@ -26,8 +26,6 @@
 * http://www.nodetogether.org/
 * https://atscaleconference.com/
 * https://jsconf.co/2015-Videos/
-* http://rubycentral.org/railsconf
-
 * https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A/playlists
 * https://github.com/nodeconf
 
