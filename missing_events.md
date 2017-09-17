@@ -883,7 +883,6 @@
 * https://twitter.com/devopsdaysin
 * https://twitter.com/osdc_tw
 * https://twitter.com/wceurope
-* https://twitter.com/crikeycon
 * https://twitter.com/shecodesconf
 * https://twitter.com/hotcodecon
 * https://twitter.com/devopsdayscpt
