@@ -14,8 +14,8 @@ init:
   - "ECHO %PYTHON% %PYTHON_VERSION% %PYTHON_ARCH%"
 
 install:
-  - "%PYTHON%/Scripts/pip.exe install ."
   - "%PYTHON%/Scripts/wheel.exe install lxml-3.8.0-cp36-cp36m-win32.whl"
+  - "%PYTHON%/Scripts/pip.exe install ."
 
 test_script:
   - "%PYTHON%/Scripts/pytest.exe"
