@@ -14,6 +14,8 @@
 * https://www.pagerduty.com/summit
 
 * https://blog.branch.io/announcing-branchout-2017/
+* https://conferences.oreilly.com/software-architecture/sa-eu
+* http://www.brightonseo.com/
 
 * http://2016.geecon.cz/
 * http://www.qualitysoftware.com.au/ http://www.qualitysoftware.com.au/atd2k16/
