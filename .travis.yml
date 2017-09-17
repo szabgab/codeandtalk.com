@@ -5,4 +5,4 @@ python:
   - "3.6"
 install:
    - pip install .
-script: python3 -m unittest discover
+script: pytest
