@@ -15,6 +15,7 @@ init:
 
 install:
   - "%PYTHON%/Scripts/pip.exe install ."
+  - "%PYTHON%/Scripts/wheel.exe install lxml-3.8.0-cp36-cp36m-win32.whl"
 
 test_script:
   - "%PYTHON%/Scripts/pytest.exe"
