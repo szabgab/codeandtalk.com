@@ -16,7 +16,6 @@ init:
 install:
   - "%PYTHON%/Scripts/pip.exe install wheel"
   - "%PYTHON%/Scripts/wheel.exe install lxml-3.8.0-cp33-none-win32.whl"
-  - "%PYTHON%/Scripts/wheel.exe install lxml-3.8.0-cp34-none-win32.whl"
   - "%PYTHON%/Scripts/pip.exe install pytest"
   - "%PYTHON%/Scripts/pip.exe install ."
 
