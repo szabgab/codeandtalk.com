@@ -1,6 +1,6 @@
 {% include 'incl/header.html' %}
 
-<div><a href="{{ event['website'] }}">{{ event['name'] }}</a></div>
+<div><a href="{{ event['website'] }}">{{ event['name'] }} {{event.year}}</a></div>
 
 {% if event['cfp_end'] %}
    <div>
@@ -61,8 +61,8 @@
 <h2>Related events:</h2>
 <ul>
    {% for e in series.events | sort(attribute = 'name') %}
-      {% if event['name'] != e.name %}
-         <li><a href="/e/{{e.nickname}}">{{e.name}}</a></li>
+      {% if event['year'] != e.year %}
+         <li><a href="/e/{{e.nickname}}">{{e.name}} {{e.year}}</a></li>
        {% endif %}
    {% endfor %}
 </ul>

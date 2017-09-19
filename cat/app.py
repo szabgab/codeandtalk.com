@@ -438,11 +438,14 @@ def event(nickname):
     series = []
     if 'series' in event:
         series = copy.deepcopy(cat['series'][event['series']])
+        for e in series['events']:
+            e['year'] = e['event_start'][0:4]
+    event['year'] = event['event_start'][0:4]
 
 #    return(str(event))
     return render_template('event.html',
-        h1    = event['name'],
-        title = event['name'],
+        title = event['name'] + ' ' + event['year'],
+        h1    = event['name'] + ' ' + event['year'],
         event = event,
         people = people,
         videos = videos,

@@ -102,6 +102,7 @@ class TestCat(unittest.TestCase):
     def test_event(self):
         rv = self.app.get('/e/ffconf-2009')
         assert rv.status == '200 OK'
+        assert b'<title>Full Frontal - ffconf 2009</title>' in rv.data
         assert b'<h1>Full Frontal - ffconf 2009</h1>' in rv.data
         assert b'<div>Start date: 2009-11-20</div>' in rv.data
         assert b'<div>End date: 2009-11-20</div>' in rv.data

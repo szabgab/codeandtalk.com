@@ -192,9 +192,6 @@ class GenerateSite(object):
                         raise Exception('Invalid CFP date (CFP after Start) in {}'.format(filename))
 
                 event_year = this['event_start'][0:4]
-                if not this['name'].endswith(event_year):
-                    raise Exception('Invalid event name {}. Should end with year \'{}\''.format(this['name'], event_year))
-
                 try:
                     nickname.index(event_year)
                 except ValueError:
