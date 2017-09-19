@@ -17,5 +17,4 @@ install:
   - "%PYTHON%/Scripts/pip.exe install ."
 
 test_script:
-  - "%PYTHON%/python -m unittest discover"
-
+  - "%PYTHON%/Scripts/pytest.exe"

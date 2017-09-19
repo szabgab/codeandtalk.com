@@ -1,5 +1,5 @@
 from cat.code import GenerateSite
-import unittest
+import pytest
 import json
 import os
 import sys
@@ -13,8 +13,8 @@ def read_json(file):
 
 
 
-class TestCat(unittest.TestCase):
-    def setUp(self):
+class TestCat(object):
+    def setup_class(self):
         GenerateSite().generate_site()
         self.app = cat.app.catapp.test_client()
 
