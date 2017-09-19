@@ -245,64 +245,70 @@ class GenerateSite(object):
                     else:
                         this['cfp_class'] = 'cfp_future'
 
-                if 'location' not in this or not this['location']:
-                    raise Exception("Location is missing from {}".format(this))
-                location = this['location']
-                if 'city' not in location or not location['city']:
-                    raise Exception("City is missing from {}".format(location))
-                city_name = '{}, {}'.format(location['city'], location['country'])
-                city_page = topic2path('{} {}'.format(location['city'], location['country']))
-                # In some countries we require a state:
-                if location['country'] in ['Australia', 'Brasil', 'India', 'USA']:
-                    if 'state' not in location or not location['state']:
-                        raise Exception('State is missing from {}'.format(this))
-                    city_name = '{}, {}, {}'.format(location['city'], location['state'], location['country'])
-                    city_page = topic2path('{} {} {}'.format(location['city'], location['state'], location['country']))
-                this['city_name'] = city_name
-                this['city_page'] = city_page
+                self.handle_location(this)
 
-                if city_page not in self.stats['cities']:
-                    self.stats['cities'][city_page] = {
-                        'name' : city_name,
-                        'total' : 0,
-                        'future' : 0,
-                    }
-                self.stats['cities'][city_page]['total'] += 1
-                if this['event_start'] >= self.now:
-                    self.stats['cities'][city_page]['future'] += 1
-
-
-                country_name = location['country']
-                country_page = re.sub(r'\s+', '-', country_name.lower())
-                this['country_page'] = country_page
-
-                if country_page not in self.stats['countries']:
-                    self.stats['countries'][country_page] = {
-                        'name'   : country_name,
-                        'total'  : 0,
-                        'future' : 0,
-                    }
-                self.stats['countries'][country_page]['total'] += 1
-                if this['event_start'] >= self.now:
-                    self.stats['countries'][country_page]['future'] += 1
-
-                for tag in this['topics']:
-                    p = tag['path']
-                    if p not in self.tags:
-                        raise Exception("Missing tag '{}'".format(p))
-                    #self.tags[p]['events'].append(this)
-                    self.tags[p]['total'] += 1
-                    if this['event_start'] >= self.now:
-                        self.tags[p]['future'] += 1
-                    #self.stats['tags'][p]['total'] += 1
-                    #if this['event_start'] >= self.now:
-                    #    self.stats['tags'][p]['future'] += 1
-
+                self.handle_tags(this)
                 self.events[ this['nickname'] ] = this
 
             except Exception as e:
                 exit("ERROR 1: {} in file {}".format(e, filename))
         return
+
+    def handle_location(self, this):
+        if 'location' not in this or not this['location']:
+            raise Exception("Location is missing from {}".format(this))
+        location = this['location']
+        if 'city' not in location or not location['city']:
+            raise Exception("City is missing from {}".format(location))
+        city_name = '{}, {}'.format(location['city'], location['country'])
+        city_page = topic2path('{} {}'.format(location['city'], location['country']))
+        # In some countries we require a state:
+        if location['country'] in ['Australia', 'Brasil', 'India', 'USA']:
+            if 'state' not in location or not location['state']:
+                raise Exception('State is missing from {}'.format(this))
+            city_name = '{}, {}, {}'.format(location['city'], location['state'], location['country'])
+            city_page = topic2path('{} {} {}'.format(location['city'], location['state'], location['country']))
+        this['city_name'] = city_name
+        this['city_page'] = city_page
+
+        if city_page not in self.stats['cities']:
+            self.stats['cities'][city_page] = {
+                'name' : city_name,
+                'total' : 0,
+                'future' : 0,
+            }
+        self.stats['cities'][city_page]['total'] += 1
+        if this['event_start'] >= self.now:
+            self.stats['cities'][city_page]['future'] += 1
+
+
+        country_name = location['country']
+        country_page = re.sub(r'\s+', '-', country_name.lower())
+        this['country_page'] = country_page
+
+        if country_page not in self.stats['countries']:
+            self.stats['countries'][country_page] = {
+                'name'   : country_name,
+                'total'  : 0,
+                'future' : 0,
+            }
+        self.stats['countries'][country_page]['total'] += 1
+        if this['event_start'] >= self.now:
+            self.stats['countries'][country_page]['future'] += 1
+
+
+    def handle_tags(self, this):
+        for tag in this['topics']:
+            p = tag['path']
+            if p not in self.tags:
+                raise Exception("Missing tag '{}'".format(p))
+            #self.tags[p]['events'].append(this)
+            self.tags[p]['total'] += 1
+            if this['event_start'] >= self.now:
+                self.tags[p]['future'] += 1
+            #self.stats['tags'][p]['total'] += 1
+            #if this['event_start'] >= self.now:
+            #    self.stats['tags'][p]['future'] += 1
 
 
     def read_people(self):
