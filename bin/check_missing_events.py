@@ -52,7 +52,7 @@ print_debug('Reference year: {}'.format(reference_year))
 
 site = GenerateSite()
 site.read_all()
-for event, details in site.events.items():
+for event, details in sorted(site.events.items()):
     if event.endswith(reference_year):
         next_event = event.replace(reference_year, year_to_check)
         if next_event not in site.events:
