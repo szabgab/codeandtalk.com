@@ -223,36 +223,40 @@ class GenerateSite(object):
                     })
                 this['topics'] = my_topics
 
-                if 'twitter' in this and this['twitter'] != '':
-                    if not re.search(r'^[a-zA-Z0-9_]+$', this['twitter']):
-                        raise Exception("Invalid twitter handle '{}' in {}".format(this['twitter'], filename))
-
-                if 'youtube' in this and this['youtube'] != '' and this['youtube'] != '-':
-                    #if not re.search(r'^P[a-zA-Z0-9_-]+$', this['youtube']):
-                    if re.search(r'https?://', this['youtube']):
-                        raise Exception("Invalid youtube playlist '{}' in {}".format(this['youtube'], filename))
-
-                if 'facebook' in this and this['facebook'] != '':
-                    if not re.search(r'^https?://www.facebook.com/', this['facebook']):
-                        raise Exception("Invalid facebook entry '{}' in {}. Include entire Facebook URL.".format(this['facebook'], filename))
-
-
-                this['cfp_class'] = 'cfp_none'
-                cfp = this.get('cfp_end', '')
-                if cfp != '':
-                    if cfp < self.now:
-                        this['cfp_class'] = 'cfp_past'
-                    else:
-                        this['cfp_class'] = 'cfp_future'
-
+                self.handle_social(this)
+                self.handle_cfp(this)
                 self.handle_location(this)
-
                 self.handle_tags(this)
                 self.events[ this['nickname'] ] = this
 
             except Exception as e:
                 exit("ERROR 1: {} in file {}".format(e, filename))
         return
+
+    def handle_social(self, this):
+        if 'twitter' in this and this['twitter'] != '':
+            if not re.search(r'^[a-zA-Z0-9_]+$', this['twitter']):
+                raise Exception("Invalid twitter handle '{}' in {}".format(this['twitter'], filename))
+
+        if 'youtube' in this and this['youtube'] != '' and this['youtube'] != '-':
+            #if not re.search(r'^P[a-zA-Z0-9_-]+$', this['youtube']):
+            if re.search(r'https?://', this['youtube']):
+                raise Exception("Invalid youtube playlist '{}' in {}".format(this['youtube'], filename))
+
+        if 'facebook' in this and this['facebook'] != '':
+            if not re.search(r'^https?://www.facebook.com/', this['facebook']):
+                raise Exception("Invalid facebook entry '{}' in {}. Include entire Facebook URL.".format(this['facebook'], filename))
+
+
+    def handle_cfp(self, this):
+        this['cfp_class'] = 'cfp_none'
+        cfp = this.get('cfp_end', '')
+        if cfp != '':
+            if cfp < self.now:
+                this['cfp_class'] = 'cfp_past'
+            else:
+                this['cfp_class'] = 'cfp_future'
+
 
     def handle_location(self, this):
         if 'location' not in this or not this['location']:
