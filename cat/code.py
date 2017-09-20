@@ -197,19 +197,8 @@ class GenerateSite(object):
                 except ValueError:
                     raise Exception('Invalid file name {}. Should contains the year \'{}\''.format(this['nickname'], event_year))
 
-                if not 'location' in this or not this['location']:
-                    raise Exception('Location is missing from {}'.format(this))
-                location = this['location']
-                if not 'country' in location or not location['country']:
-                    raise Exception('Country is missing from {}'.format(this))
-                if location['country'] not in countries:
-                    raise Exception("Country '{}' is not yet(?) in our list".format(location['country']))
-
-                diversity = this.get('diversitytickets')
-                if diversity:
-                    if not re.search(r'^\d+$', diversity):
-                        raise Exception('diversitytickets must be a number. Use diversitytickets_url and diversitytickets_text for alternatives {}'.format(this))
-
+                self.handle_location(this)
+                self.handle_diversity(this)
                 self.handle_social(this)
                 self.handle_cfp(this)
                 self.handle_location(this)
@@ -219,6 +208,22 @@ class GenerateSite(object):
             except Exception as e:
                 exit("ERROR 1: {} in file {}".format(e, filename))
         return
+
+    def handle_location(self, this):
+        if not 'location' in this or not this['location']:
+            raise Exception('Location is missing from {}'.format(this))
+        location = this['location']
+        if not 'country' in location or not location['country']:
+            raise Exception('Country is missing from {}'.format(this))
+        if location['country'] not in countries:
+            raise Exception("Country '{}' is not yet(?) in our list".format(location['country']))
+
+
+    def handle_diversity(self, this):
+        diversity = this.get('diversitytickets')
+        if diversity:
+            if not re.search(r'^\d+$', diversity):
+                raise Exception('diversitytickets must be a number. Use diversitytickets_url and diversitytickets_text for alternatives {}'.format(this))
 
     def handle_social(self, this):
         if 'twitter' in this and this['twitter'] != '':
