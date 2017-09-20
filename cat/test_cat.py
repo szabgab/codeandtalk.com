@@ -14,9 +14,10 @@ def read_json(file):
 
 
 class TestCat(unittest.TestCase):
-    def setUp(self):
+    @classmethod
+    def setUpClass(cls):
         GenerateSite().generate_site()
-        self.app = cat.app.catapp.test_client()
+        cls.app = cat.app.catapp.test_client()
 
     def test_main(self):
         rv = self.app.get('/')
