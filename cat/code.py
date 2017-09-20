@@ -182,7 +182,6 @@ class GenerateSite(object):
 
                 self.handle_diversity(this)
                 self.handle_social(this)
-                self.handle_cfp(this)
                 self.handle_location(this)
                 self.handle_tags(this)
                 self.events[ this['nickname'] ] = this
@@ -207,6 +206,14 @@ class GenerateSite(object):
             if cfp_date > start_date:
                 raise Exception('Invalid CFP date (CFP after Start) in {}'.format(filename))
 
+        this['cfp_class'] = 'cfp_none'
+        cfp = this.get('cfp_end', '')
+        if cfp != '':
+            if cfp < self.now:
+                this['cfp_class'] = 'cfp_past'
+            else:
+                this['cfp_class'] = 'cfp_future'
+
     def handle_diversity(self, this):
         diversity = this.get('diversitytickets')
         if diversity:
@@ -227,15 +234,6 @@ class GenerateSite(object):
             if not re.search(r'^https?://www.facebook.com/', this['facebook']):
                 raise Exception("Invalid facebook entry '{}' in {}. Include entire Facebook URL.".format(this['facebook'], filename))
 
-
-    def handle_cfp(self, this):
-        this['cfp_class'] = 'cfp_none'
-        cfp = this.get('cfp_end', '')
-        if cfp != '':
-            if cfp < self.now:
-                this['cfp_class'] = 'cfp_past'
-            else:
-                this['cfp_class'] = 'cfp_future'
 
 
     def handle_location(self, this):
