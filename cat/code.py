@@ -150,11 +150,6 @@ class GenerateSite(object):
         return
 
     def read_events(self):
-        countries = []
-        with open(os.path.join(self.root, 'data', 'countries.csv'), encoding="utf-8") as fh:
-            for line in fh:
-                name, continent = line.rstrip("\n").split(",")
-                countries.append(name)
 
         for filename in glob.glob(os.path.join(self.data, 'events', '*')):
             logging.info('processing {}'.format(filename))
@@ -185,7 +180,6 @@ class GenerateSite(object):
                 except ValueError:
                     raise Exception('Invalid file name {}. Should contains the year \'{}\''.format(this['nickname'], event_year))
 
-                self.handle_location(this)
                 self.handle_diversity(this)
                 self.handle_social(this)
                 self.handle_cfp(this)
@@ -212,16 +206,6 @@ class GenerateSite(object):
             cfp_date = datetime.strptime(this['cfp_end'], '%Y-%m-%d')
             if cfp_date > start_date:
                 raise Exception('Invalid CFP date (CFP after Start) in {}'.format(filename))
-
-    def handle_location(self, this):
-        if not 'location' in this or not this['location']:
-            raise Exception('Location is missing from {}'.format(this))
-        location = this['location']
-        if not 'country' in location or not location['country']:
-            raise Exception('Country is missing from {}'.format(this))
-        if location['country'] not in countries:
-            raise Exception("Country '{}' is not yet(?) in our list".format(location['country']))
-
 
     def handle_diversity(self, this):
         diversity = this.get('diversitytickets')
@@ -258,6 +242,19 @@ class GenerateSite(object):
         if 'location' not in this or not this['location']:
             raise Exception("Location is missing from {}".format(this))
         location = this['location']
+
+        if not 'country' in location or not location['country']:
+            raise Exception('Country is missing from {}'.format(this))
+
+        countries = []
+        with open(os.path.join(self.root, 'data', 'countries.csv'), encoding="utf-8") as fh:
+            for line in fh:
+                name, continent = line.rstrip("\n").split(",")
+                countries.append(name)
+
+        if location['country'] not in countries:
+            raise Exception("Country '{}' is not yet(?) in our list".format(location['country']))
+
         if 'city' not in location or not location['city']:
             raise Exception("City is missing from {}".format(location))
         city_name = '{}, {}'.format(location['city'], location['country'])
