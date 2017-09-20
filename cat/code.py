@@ -210,19 +210,6 @@ class GenerateSite(object):
                     if not re.search(r'^\d+$', diversity):
                         raise Exception('diversitytickets must be a number. Use diversitytickets_url and diversitytickets_text for alternatives {}'.format(this))
 
-                my_topics = []
-                #print(this)
-                if 'tags' not in this:
-                    raise Exception("tags missing from {}".format(p))
-                for t in this['tags']:
-                    if t not in self.tags:
-                        raise Exception("Tag '{}' is not in the list of tags".format(t))
-                    my_topics.append({
-                        'name' : t,
-                        'path' : t,
-                    })
-                this['topics'] = my_topics
-
                 self.handle_social(this)
                 self.handle_cfp(this)
                 self.handle_location(this)
@@ -300,8 +287,20 @@ class GenerateSite(object):
         if this['event_start'] >= self.now:
             self.stats['countries'][country_page]['future'] += 1
 
-
     def handle_tags(self, this):
+        my_topics = []
+        #print(this)
+        if 'tags' not in this:
+            raise Exception("tags missing from {}".format(p))
+        for t in this['tags']:
+            if t not in self.tags:
+                raise Exception("Tag '{}' is not in the list of tags".format(t))
+            my_topics.append({
+                'name' : t,
+                'path' : t,
+            })
+        this['topics'] = my_topics
+
         for tag in this['topics']:
             p = tag['path']
             if p not in self.tags:
