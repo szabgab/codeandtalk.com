@@ -176,21 +176,9 @@ class GenerateSite(object):
                 this['nickname'] = nickname
                 this['file_date'] = datetime.fromtimestamp( os.path.getctime(filename) ).strftime('%Y-%m-%d')
 
-                date_format =  r'^\d\d\d\d-\d\d-\d\d$'
-                for f in ['event_start', 'event_end', 'cfp_end']:
-                    if f in this and this[f] and not re.search(date_format, this[f]):
-                        raise Exception('Invalid {} {} in {}'.format(f, this[f], filename))
+                self.handle_dates(this)
 
-                start_date = datetime.strptime(this['event_start'], '%Y-%m-%d')
-                end_date = datetime.strptime(this['event_end'], '%Y-%m-%d')
-                if end_date < start_date :
-                    raise Exception('Invalid event dates (Start after End) in {}'.format(filename))
-
-                if 'cfp_end' in this and this['cfp_end']:
-                    cfp_date = datetime.strptime(this['cfp_end'], '%Y-%m-%d')
-                    if cfp_date > start_date:
-                        raise Exception('Invalid CFP date (CFP after Start) in {}'.format(filename))
-
+                # verify year in filename. Won't be needed after the merge of series
                 event_year = this['event_start'][0:4]
                 try:
                     nickname.index(event_year)
@@ -208,6 +196,22 @@ class GenerateSite(object):
             except Exception as e:
                 exit("ERROR 1: {} in file {}".format(e, filename))
         return
+
+    def handle_dates(self, this):
+        date_format =  r'^\d\d\d\d-\d\d-\d\d$'
+        for f in ['event_start', 'event_end', 'cfp_end']:
+            if f in this and this[f] and not re.search(date_format, this[f]):
+                raise Exception('Invalid {} {} in {}'.format(f, this[f], filename))
+
+        start_date = datetime.strptime(this['event_start'], '%Y-%m-%d')
+        end_date = datetime.strptime(this['event_end'], '%Y-%m-%d')
+        if end_date < start_date :
+            raise Exception('Invalid event dates (Start after End) in {}'.format(filename))
+
+        if 'cfp_end' in this and this['cfp_end']:
+            cfp_date = datetime.strptime(this['cfp_end'], '%Y-%m-%d')
+            if cfp_date > start_date:
+                raise Exception('Invalid CFP date (CFP after Start) in {}'.format(filename))
 
     def handle_location(self, this):
         if not 'location' in this or not this['location']:
