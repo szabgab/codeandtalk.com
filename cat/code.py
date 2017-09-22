@@ -171,7 +171,7 @@ class GenerateSite(object):
                 this['nickname'] = nickname
                 this['file_date'] = datetime.fromtimestamp( os.path.getctime(filename) ).strftime('%Y-%m-%d')
 
-                self.handle_dates(this)
+                self.handle_dates(this, filename)
 
                 # verify year in filename. Won't be needed after the merge of series
                 event_year = this['event_start'][0:4]
@@ -181,7 +181,7 @@ class GenerateSite(object):
                     raise Exception('Invalid file name {}. Should contains the year \'{}\''.format(this['nickname'], event_year))
 
                 self.handle_diversity(this)
-                self.handle_social(this)
+                self.handle_social(this, filename)
                 self.handle_location(this)
                 self.handle_tags(this)
                 self.events[ this['nickname'] ] = this
@@ -190,7 +190,7 @@ class GenerateSite(object):
                 exit("ERROR 1: {} in file {}".format(e, filename))
         return
 
-    def handle_dates(self, this):
+    def handle_dates(self, this, filename):
         date_format =  r'^\d\d\d\d-\d\d-\d\d$'
         for f in ['event_start', 'event_end', 'cfp_end']:
             if f in this and this[f] and not re.search(date_format, this[f]):
@@ -220,7 +220,7 @@ class GenerateSite(object):
             if not re.search(r'^\d+$', diversity):
                 raise Exception('diversitytickets must be a number. Use diversitytickets_url and diversitytickets_text for alternatives {}'.format(this))
 
-    def handle_social(self, this):
+    def handle_social(self, this, filename):
         if 'twitter' in this and this['twitter'] != '':
             if not re.search(r'^[a-zA-Z0-9_]+$', this['twitter']):
                 raise Exception("Invalid twitter handle '{}' in {}".format(this['twitter'], filename))
