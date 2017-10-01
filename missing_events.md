@@ -405,7 +405,6 @@
 * https://twitter.com/sqlpass
 * https://twitter.com/midwestcamp
 * https://twitter.com/sassconf
-* https://twitter.com/sddconf
 * https://twitter.com/phpweekly
 * https://twitter.com/360idev
 * https://twitter.com/womentechmakers
