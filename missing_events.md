@@ -192,7 +192,6 @@
 * https://twitter.com/nescalas
 * https://twitter.com/cultivatecon
 * https://twitter.com/codedazeconf
-* https://twitter.com/yowlambdajam
 * https://twitter.com/goruco
 * https://twitter.com/altconference
 * https://twitter.com/agileisrael
