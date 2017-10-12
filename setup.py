@@ -13,9 +13,9 @@ setup(
     #setup_requires=[
     #    'pytest-runner',
     #],
-    #tests_require=[
-    #    'selenium',
-    #],
+    tests_require=[
+        'pytest',
+    ],
 )
 
 # vim: expandtab

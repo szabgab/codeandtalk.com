@@ -29,7 +29,7 @@ pip install --editable .
 Running unit tests
 ------------------
 ```
-$ python3 -m unittest discover
+$ pytest
 ```
 
 Generate web site (and check format)
