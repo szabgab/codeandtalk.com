@@ -1,7 +1,7 @@
 Code And Talk
 =============
 [![Build Status](https://travis-ci.org/szabgab/codeandtalk.com.png)](https://travis-ci.org/szabgab/codeandtalk.com)
-[![Build status](https://ci.appveyor.com/api/projects/status/github/szabgab/codeandtalk-com?svg=true)](https://ci.appveyor.com/project/szabgab/codeandtalk-com/)
+[![Build status](https://ci.appveyor.com/api/projects/status/3xped6coon603v9k?svg=true)](https://ci.appveyor.com/project/szabgab/codeandtalk-com/)
 
 List of tech conferences, podcasts, videos, people
 ==================================================
