@@ -1,6 +1,6 @@
 from flask import Flask, render_template, redirect, abort, request, url_for, Response, jsonify
 import copy
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
 import json
 import re
@@ -650,10 +650,14 @@ def _calendar(prodid, events):
     #METHOD:PUBLISH
 
     for e in events:
+        end = datetime.strptime(e['event_end'], '%Y-%m-%d')
+        end = end + timedelta(days = 1)
+        event_end = end.strftime('%Y%m%d')
+
         cal += "BEGIN:VEVENT\r\n"
         cal += "DTSTAMP:{}\r\n".format(dtstamp)
         cal += "DTSTART;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['event_start']))
-        cal += "DTEND;VALUE=DATE:{}\r\n".format(re.sub(r'-', '', e['event_end']))
+        cal += "DTEND;VALUE=DATE:{}\r\n".format(event_end)
         uid = re.sub(r'\W+', '-', e['website'])
         uid = re.sub(r'\W+$', '', uid)
         cal += "UID:{}\r\n".format(uid)
