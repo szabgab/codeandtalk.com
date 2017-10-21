@@ -9,11 +9,8 @@
        6. Push to a new branch on the master repository. -->
 
 
-* http://codecooperative.org/
 * https://central.wordcamp.org/
 * https://wpcampus.org/
-* https://therichwebexperience.com/conference/clearwater/2016/12/home
-* http://www.cue.org/conference
 * http://www.nodetogether.org/
 * https://jsconf.co/2015-Videos/
 * https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A/playlists
@@ -24,7 +21,6 @@
 * http://visualized.com/2016
 
 
-* https://twitter.com/devopsdays_uk
 * https://twitter.com/whartonwebconf
 * https://twitter.com/mobconeu
 * https://twitter.com/pyconfinland
@@ -50,7 +46,6 @@
 * https://twitter.com/ast_news
 * https://twitter.com/theweeklycfp
 * https://twitter.com/rossconf
-* https://twitter.com/devopsdaysmsp
 * https://twitter.com/dddeastanglia
 * https://twitter.com/mlocjs
 * https://twitter.com/vimconf
@@ -62,7 +57,6 @@
 * https://twitter.com/bangbangcon
 * https://twitter.com/nervescamp
 * https://twitter.com/thepghtechfest
-* https://twitter.com/devopsdaysmsn
 * https://twitter.com/iottechcon
 * https://twitter.com/nejsconf
 * https://twitter.com/spkeazee
@@ -70,10 +64,8 @@
 * https://twitter.com/kubecon_
 * https://twitter.com/scna
 * https://twitter.com/sps_events
-* https://twitter.com/devopsdaysderby
 * https://twitter.com/drupalassoc
 * https://twitter.com/scotlandjs
-* https://twitter.com/devopsdayssg
 * https://twitter.com/ruby_town
 * https://twitter.com/clsxeurope
 * https://twitter.com/cocoaconf
@@ -90,13 +82,10 @@
 * https://twitter.com/gogaruco
 * https://twitter.com/wikiconna
 * https://twitter.com/shesgeeky
-* https://twitter.com/devopsdaysfi
 * https://twitter.com/techsummitio
 * https://twitter.com/jsconfar
-* https://twitter.com/devopsconfs
 * https://twitter.com/tryswiftnyc
 * https://twitter.com/parisweb
-* https://twitter.com/devopsdaysrdu
 * https://twitter.com/dotgoeu
 * https://twitter.com/artisan_conf
 * https://twitter.com/openvisconf
@@ -170,7 +159,6 @@
 * https://twitter.com/cloudexpo
 * https://twitter.com/eurucamp
 * https://twitter.com/composemelb
-* https://twitter.com/devopsdayskiel
 * https://twitter.com/automacon
 * https://twitter.com/passbac
 * https://twitter.com/gigaoem
@@ -195,7 +183,6 @@
 * https://twitter.com/dogfoodcon
 * https://twitter.com/techtrrrs
 * https://twitter.com/fronttalks
-* https://twitter.com/devopsdaysto
 * https://twitter.com/reactnlconf
 * https://twitter.com/bedcon
 * https://twitter.com/voxxedvienna
@@ -234,7 +221,6 @@
 * https://twitter.com/jdaylviv
 * https://twitter.com/futurestack
 * https://twitter.com/tfnw
-* https://twitter.com/devopsdaysrox
 * https://twitter.com/saturn_news
 * https://twitter.com/whiteoctevents
 * https://twitter.com/windycityrails
@@ -262,7 +248,6 @@
 * https://twitter.com/nordevcon
 * https://twitter.com/droidconvie
 * https://twitter.com/voxxedticino
-* https://twitter.com/devopsdaysbos
 * https://twitter.com/fuconf
 * https://twitter.com/nodeconf
 * https://twitter.com/dddbrisbane
@@ -300,7 +285,6 @@
 * https://twitter.com/dpcon
 * https://twitter.com/droidcones
 * https://twitter.com/strangeloop_stl
-* https://twitter.com/devopsdaysnz
 * https://twitter.com/roguerails
 * https://twitter.com/primeconf
 * https://twitter.com/enigmaconf
@@ -311,7 +295,6 @@
 * https://twitter.com/catskillsconf
 * https://twitter.com/cloudstackdays
 * https://twitter.com/appseccali
-* https://twitter.com/devopsdayswaw
 * https://twitter.com/ttw_conf
 * https://twitter.com/nativevsweb
 * https://twitter.com/rigadevdays
@@ -324,12 +307,8 @@
 * https://twitter.com/fronteers
 * https://twitter.com/flinkforward
 * https://twitter.com/agile_iot
-* https://twitter.com/devopsdaysohio
 * https://twitter.com/cycleconf
-* https://twitter.com/devopsdaysslc
-* https://twitter.com/devopsdayskc
 * https://twitter.com/rubyworldconf
-* https://twitter.com/devopsdaysldn
 * https://twitter.com/dcdnl
 * https://twitter.com/fossetcon
 * https://twitter.com/convergefl
@@ -340,7 +319,6 @@
 * https://twitter.com/nosqlday
 * https://twitter.com/official_vrdc
 * https://twitter.com/spainjs
-* https://twitter.com/devopsdaysphl
 * https://twitter.com/stateofthenet
 * https://twitter.com/datagotham
 * https://twitter.com/chicktechnyc
@@ -353,7 +331,6 @@
 * https://twitter.com/drupaldownunder
 * https://twitter.com/rbonales
 * https://twitter.com/jfokus
-* https://twitter.com/devopsdayschi
 * https://twitter.com/phpwomen
 * https://twitter.com/eclipseiot
 * https://twitter.com/buzzconfio
@@ -363,7 +340,6 @@
 * https://twitter.com/curry_on_conf
 * https://twitter.com/techoramabe
 * https://twitter.com/techwomensummit
-* https://twitter.com/devopsdaysbna
 * https://twitter.com/wpdevcon
 * https://twitter.com/iosdevuk
 * https://twitter.com/androidmakersfr
@@ -404,12 +380,10 @@
 * https://twitter.com/coderfaire
 * https://twitter.com/mixitconf
 * https://twitter.com/indiecade
-* https://twitter.com/devopsdayslj
 * https://twitter.com/droidconae
 * https://twitter.com/oreillysacon
 * https://twitter.com/whereberlin
 * https://twitter.com/monkigras
-* https://twitter.com/devopsdaysoslo
 * https://twitter.com/lonestarphp
 * https://twitter.com/riseconorg
 * https://twitter.com/mrmcd2017
@@ -440,7 +414,6 @@
 * https://twitter.com/ldapcon
 * https://twitter.com/200okconf
 * https://twitter.com/monkeyspaceconf
-* https://twitter.com/devopsdayssv
 * https://twitter.com/fpdays
 * https://twitter.com/devconnections
 * https://twitter.com/chicagocodecamp
@@ -464,7 +437,6 @@
 * https://twitter.com/official_gdc
 * https://twitter.com/codemotionworld
 * https://twitter.com/webtechcon
-* https://twitter.com/devopsdayspgh
 * https://twitter.com/aginextio
 * https://twitter.com/ruby_fosdem
 * https://twitter.com/bubbleconf
@@ -519,7 +491,6 @@
 * https://twitter.com/btvrubyconf
 * https://twitter.com/mm_conf
 * https://twitter.com/wildcardconf
-* https://twitter.com/devopsdaystlv
 * https://twitter.com/securityconf
 * https://twitter.com/incontrodevops
 * https://twitter.com/joomladagen
@@ -604,7 +575,6 @@
 * https://twitter.com/pipelineconf
 * https://twitter.com/mtnwestdevops
 * https://twitter.com/jdaysgbg
-* https://twitter.com/devopsdaysnyc
 * https://twitter.com/cfgmgmtcamp
 * https://twitter.com/iosconf
 * https://twitter.com/interlinkconf
@@ -639,8 +609,6 @@
 * https://twitter.com/islayconf
 * https://twitter.com/atlcodecamp
 * https://twitter.com/oncwic
-* https://twitter.com/devopsdaysboise
-* https://twitter.com/devopsdaysdc
 * https://twitter.com/noshowconf
 * https://twitter.com/droneconference
 * https://twitter.com/la_conf
@@ -703,7 +671,6 @@
 * https://twitter.com/oedorubykaigi
 * https://twitter.com/bosniaagile
 * https://twitter.com/mixinconf
-* https://twitter.com/devopsdaysparis
 * https://twitter.com/notacon
 * https://twitter.com/optionalconf
 * https://twitter.com/cryptovillage
@@ -737,7 +704,6 @@
 * https://twitter.com/droidcongr
 * https://twitter.com/geopythonconf
 * https://twitter.com/dotnextconf
-* https://twitter.com/devopsdayssea
 * https://twitter.com/sqlsatbr
 * https://twitter.com/pgconbr
 * https://twitter.com/dhtmlconf
@@ -747,7 +713,6 @@
 * https://twitter.com/mobiconf
 * https://twitter.com/pygrunn
 * https://twitter.com/awsreinvent
-* https://twitter.com/devopsdotcom
 * https://twitter.com/rfdpdx
 * https://twitter.com/webandphp
 * https://twitter.com/redevelopconf
@@ -773,7 +738,6 @@
 * https://twitter.com/symfony_live
 * https://twitter.com/berlinbuzzwords
 * https://twitter.com/jqueryconf
-* https://twitter.com/devopsdaysams
 * https://twitter.com/squaresconf
 * https://twitter.com/phpyorkshire
 * https://twitter.com/thebigdataconf
@@ -818,7 +782,6 @@
 * https://twitter.com/derbycon
 * https://twitter.com/pghpw
 * https://twitter.com/scalamatsuri
-* https://twitter.com/devopsdaysist
 * https://twitter.com/ipdevcon
 * https://twitter.com/iotconf
 * https://twitter.com/bigdataconf
@@ -839,7 +802,6 @@
 * https://twitter.com/hak4kidz
 * https://twitter.com/jingjsconf
 * https://twitter.com/future_insights
-* https://twitter.com/devopsday
 * https://twitter.com/devfestvienna
 * https://twitter.com/pyconve
 * https://twitter.com/uxcampeurope
@@ -869,12 +831,10 @@
 * https://twitter.com/symfonycon
 * https://twitter.com/pyconlt
 * https://twitter.com/chcon_nz
-* https://twitter.com/devopsdaysin
 * https://twitter.com/osdc_tw
 * https://twitter.com/wceurope
 * https://twitter.com/shecodesconf
 * https://twitter.com/hotcodecon
-* https://twitter.com/devopsdayscpt
 * https://twitter.com/devobjectiveold
 * https://twitter.com/devopsdaysyvr
 * https://twitter.com/skillsmatter
