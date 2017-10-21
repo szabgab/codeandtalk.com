@@ -9,24 +9,12 @@
        6. Push to a new branch on the master repository. -->
 
 
-
-* http://europe-2017.dockercon.com/
-* https://www.pagerduty.com/summit
-
-* https://blog.branch.io/announcing-branchout-2017/
-* https://conferences.oreilly.com/software-architecture/sa-eu
-* http://www.brightonseo.com/
-
-* http://2016.geecon.cz/
-* http://www.qualitysoftware.com.au/ http://www.qualitysoftware.com.au/atd2k16/
-* http://europeantestingconference.eu/2017/ https://twitter.com/EuroTestingConf
 * http://codecooperative.org/
 * https://central.wordcamp.org/
 * https://wpcampus.org/
 * https://therichwebexperience.com/conference/clearwater/2016/12/home
 * http://www.cue.org/conference
 * http://www.nodetogether.org/
-* https://atscaleconference.com/
 * https://jsconf.co/2015-Videos/
 * https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A/playlists
 * https://github.com/nodeconf
