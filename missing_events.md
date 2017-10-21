@@ -123,7 +123,6 @@
 * https://twitter.com/codestrong
 * https://twitter.com/pyconedusummit
 * https://twitter.com/musiccitycode
-* https://twitter.com/drupalsummit
 * https://twitter.com/androidbbq
 * https://twitter.com/techbash
 * https://twitter.com/grrcon
