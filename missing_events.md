@@ -21,7 +21,6 @@
 * http://visualized.com/2016
 
 
-* https://twitter.com/whartonwebconf
 * https://twitter.com/mobconeu
 * https://twitter.com/pyconfinland
 * https://twitter.com/cocoaloveconf
@@ -987,9 +986,8 @@
 * https://twitter.com/rubyconfuruguay
 * https://twitter.com/andseccon
 * https://twitter.com/the_jsf
-* https://twitter.com/agile2013
-* https://twitter.com/devopsdaysbmore
-* https://twitter.com/pitercss_conf
-* https://twitter.com/oredev
-* https://twitter.com/opencamps
-* https://twitter.com/cgconf
+
+old:
+
+* https://twitter.com/whartonwebconf
+
