@@ -44,9 +44,6 @@
 * https://twitter.com/agileroots
 * https://twitter.com/ast_news
 * https://twitter.com/theweeklycfp
-* https://twitter.com/rossconf
-* https://twitter.com/dddeastanglia
-* https://twitter.com/mlocjs
 * https://twitter.com/vimconf
 * https://twitter.com/appnation
 * https://twitter.com/xpconf
