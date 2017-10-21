@@ -988,7 +988,6 @@
 * https://twitter.com/the_jsf
 * https://www.meetup.com/cities/ph/manila/?_cookie-check=D0uuFp1FXfd6vT0H
 
-
 old:
 
 * https://twitter.com/whartonwebconf
