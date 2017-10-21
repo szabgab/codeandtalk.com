@@ -21,8 +21,6 @@
 * http://visualized.com/2016
 
 
-* https://twitter.com/mobconeu
-* https://twitter.com/pyconfinland
 * https://twitter.com/cocoaloveconf
 * https://twitter.com/voxxeddakar
 * https://twitter.com/drupalcampwi
@@ -61,7 +59,6 @@
 * https://twitter.com/scna
 * https://twitter.com/sps_events
 * https://twitter.com/drupalassoc
-* https://twitter.com/scotlandjs
 * https://twitter.com/ruby_town
 * https://twitter.com/clsxeurope
 * https://twitter.com/cocoaconf
