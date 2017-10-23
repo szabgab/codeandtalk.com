@@ -259,7 +259,7 @@ class GenerateSite(object):
         city_name = '{}, {}'.format(location['city'], location['country'])
         city_page = topic2path('{} {}'.format(location['city'], location['country']))
         # In some countries we require a state:
-        if location['country'] in ['Australia', 'Brasil', 'India', 'USA']:
+        if location['country'] in ['Australia', 'Brasil', 'India', 'USA', 'UK']:
             if 'state' not in location or not location['state']:
                 raise Exception('State is missing from {}'.format(this))
             city_name = '{}, {}, {}'.format(location['city'], location['state'], location['country'])
