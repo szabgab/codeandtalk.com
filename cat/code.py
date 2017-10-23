@@ -71,6 +71,12 @@ class GenerateSite(object):
             #'tags'      : {},
         }
 
+        self.countries = []
+        with open(os.path.join(self.root, 'data', 'countries.csv'), encoding="utf-8") as fh:
+            for line in fh:
+                name, continent = line.rstrip("\n").split(",")
+                self.countries.append(name)
+
     def read_all(self):
         self.read_sources()
         self.read_tags()
@@ -244,13 +250,8 @@ class GenerateSite(object):
         if not 'country' in location or not location['country']:
             raise Exception('Country is missing from {}'.format(this))
 
-        countries = []
-        with open(os.path.join(self.root, 'data', 'countries.csv'), encoding="utf-8") as fh:
-            for line in fh:
-                name, continent = line.rstrip("\n").split(",")
-                countries.append(name)
 
-        if location['country'] not in countries:
+        if location['country'] not in self.countries:
             raise Exception("Country '{}' is not yet(?) in our list".format(location['country']))
 
         if 'city' not in location or not location['city']:
