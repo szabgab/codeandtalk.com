@@ -77,6 +77,9 @@ class GenerateSite(object):
                 name, continent = line.rstrip("\n").split(",")
                 self.countries.append(name)
 
+        with open(os.path.join(self.data, 'locations.json'), encoding="utf-8") as fh:
+            self.locations = json.load(fh)
+
     def read_all(self):
         self.read_sources()
         self.read_tags()
@@ -259,11 +262,19 @@ class GenerateSite(object):
         city_name = '{}, {}'.format(location['city'], location['country'])
         city_page = topic2path('{} {}'.format(location['city'], location['country']))
         # In some countries we require a state:
+  
         if location['country'] in ['Australia', 'Brasil', 'India', 'USA', 'UK']:
             if 'state' not in location or not location['state']:
                 raise Exception('State is missing from {}'.format(this))
             city_name = '{}, {}, {}'.format(location['city'], location['state'], location['country'])
             city_page = topic2path('{} {} {}'.format(location['city'], location['state'], location['country']))
+
+            if location['country'] in ['Australia', 'Brasil']:
+                if location['state'] not in self.locations[ location['country'] ]:
+                    raise Exception("Invalid state '{}' in {}".format(location['state'], this))
+                if location['city'] not in self.locations[ location['country'] ][ location['state'] ]:
+                    raise Exception("Invalid city '{}' in {}".format(location['city'], this))
+
         this['city_name'] = city_name
         this['city_page'] = city_page
 
