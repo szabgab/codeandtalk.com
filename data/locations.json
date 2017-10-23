@@ -1,4 +1,18 @@
 {
+    "Albania": {
+        "Tirana": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Argentina": {
+        "Bahía Blanca": "1",
+        "Buenos Aires": "1",
+        "Cordoba": "1",
+        "_area_": {
+            "South America": "1"
+        }
+    },
     "Australia": {
         "New South Wales": {
             "Sydney": "1"
@@ -15,7 +29,36 @@
             "Geelong": "1",
             "Melbourne": "1"
         },
-        "Western Australia": {}
+        "Western Australia": {},
+        "_area_": {
+            "Oceania": "1"
+        }
+    },
+    "Austria": {
+        "Dornbirn": "1",
+        "Graz": "1",
+        "Linz": "1",
+        "Salzburg": "1",
+        "Vienna": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Belarus": {
+        "Minsk": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Belgium": {
+        "Antwerp": "1",
+        "Brussels": "1",
+        "Gent": "1",
+        "Ghent": "1",
+        "Mons": "1",
+        "_area_": {
+            "Europe": "1"
+        }
     },
     "Brasil": {
         "Alagoas": {
@@ -43,6 +86,16 @@
         "São Paulo": {
             "São Paulo": "1",
             "_": "SP"
+        },
+        "_area_": {
+            "South America": "1"
+        }
+    },
+    "Bulgaria": {
+        "Plovdiv": "1",
+        "Sofia": "1",
+        "_area_": {
+            "Europe": "1"
         }
     },
     "Canada": {
@@ -64,6 +117,130 @@
         "Quebec": {
             "Montreal": "1",
             "Quebec": "1"
+        },
+        "_area_": {
+            "North America": "1"
+        }
+    },
+    "China": {
+        "Beijing": "1",
+        "Chongqing": "1",
+        "Shanghai": "1",
+        "_area_": {
+            "Asia": "1"
+        }
+    },
+    "Colombia": {
+        "Medellin": "1",
+        "_area_": {
+            "South America": "1"
+        }
+    },
+    "Croatia": {
+        "Rovinj": "1",
+        "Split": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Czech Republic": {
+        "Brno": "1",
+        "Olomouc": "1",
+        "Prague": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Denmark": {
+        "Aarhus": "1",
+        "Copenhagen": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Estonia": {
+        "Tallin": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Finland": {
+        "Helsinki": "1",
+        "Tampere": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "France": {
+        "Bordeaux": "1",
+        "Châtillon": "1",
+        "Lyon": "1",
+        "Nancy": "1",
+        "Nantes": "1",
+        "Paris": "1",
+        "Rennes": "1",
+        "Saint-Martin-d’Hères": "1",
+        "Strasbourg": "1",
+        "Toulouse": "1",
+        "Valbonne": "1",
+        "Villejuif": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Germany": {
+        "Berlin": "1",
+        "Bochum": "1",
+        "Chemnitz": "1",
+        "Cologne": "1",
+        "Darmstadt": "1",
+        "Dresden": "1",
+        "Düsseldorf": "1",
+        "Essen": "1",
+        "Frankfurt": "1",
+        "Hamburg": "1",
+        "Hannover": "1",
+        "Heidelberg": "1",
+        "Karlsruhe": "1",
+        "Munich": "1",
+        "München": "1",
+        "Nuremberg": "1",
+        "Potsdam": "1",
+        "Sankt Augustin": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Ghana": {
+        "Accra": "1",
+        "_area_": {
+            "Africa": "1"
+        }
+    },
+    "Greece": {
+        "Athens": "1",
+        "Piraeus": "1",
+        "Thessaloniki": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Hong Kong": {
+        "Hong Kong": "1",
+        "_area_": {
+            "Asia": "1"
+        }
+    },
+    "Hungary": {
+        "Budapest": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Iceland": {
+        "Reykjavik": "1",
+        "_area_": {
+            "Europe": "1"
         }
     },
     "India": {
@@ -84,6 +261,242 @@
         "Maharashtra": {
             "Mumbai": "1",
             "Pune": "1"
+        },
+        "_area_": "Asia"
+    },
+    "Ireland": {
+        "Dublin": "1",
+        "Kilkenny City": "1",
+        "Waterford": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Isle of Man": {
+        "Laxey": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Israel": {
+        "Beer Sheva": "1",
+        "Ramat Gan": "1",
+        "Rehovot": "1",
+        "Rishon LeTsiyon": "1",
+        "Tel Aviv": "1",
+        "_area_": {
+            "Asia": "1"
+        }
+    },
+    "Italy": {
+        "Bologna": "1",
+        "Desenzano": "1",
+        "Ferrara": "1",
+        "Firenze": "1",
+        "Florence": "1",
+        "Milan": "1",
+        "Pisa": "1",
+        "Rimini": "1",
+        "Rome": "1",
+        "Turin": "1",
+        "Verona": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Japan": {
+        "Tokyo": "1",
+        "Yokohama": "1",
+        "_area_": {
+            "Asia": "1"
+        }
+    },
+    "Kenya": {
+        "Nairobi": "1",
+        "_area_": {
+            "Africa": "1"
+        }
+    },
+    "Korea": {
+        "Seoul": "1",
+        "_area_": {
+            "Asia": "1"
+        }
+    },
+    "Latvia": {
+        "Riga": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Lithuania": {
+        "Vilnius": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Malaysia": {
+        "Kuala Lumpur": "1",
+        "_area_": {
+            "Asia": "1"
+        }
+    },
+    "Mauritius": {
+        "Bagatelle": "1",
+        "_area_": {
+            "Africa": "1"
+        }
+    },
+    "Morocoo": {
+        "Casablanca": "1",
+        "_area_": {
+            "Africa": "1"
+        }
+    },
+    "New Zealand": {
+        "Auckland": "1",
+        "Wellington": "1",
+        "_area_": {
+            "Oceania": "1"
+        }
+    },
+    "Norway": {
+        "Oslo": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Online": {
+        "_area_": {
+            "Online": "1"
+        },
+        "na": "1"
+    },
+    "Philippines": {
+        "Cagayan de Oro": "1",
+        "Manila": "1",
+        "Tagbilaran": "1",
+        "_area_": {
+            "Asia": "1"
+        }
+    },
+    "Poland": {
+        "Krakow": "1",
+        "Poznan": "1",
+        "Rawa Mazowiecka": "1",
+        "Warsaw": "1",
+        "Wrocław": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Portugal": {
+        "Braga": "1",
+        "Estoril": "1",
+        "Lisbon": "1",
+        "Porto": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Romania": {
+        "Bucharest": "1",
+        "Cluj-Napoca": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Russia": {
+        "Gribovka": "1",
+        "Saint Petersburg": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Serbia": {
+        "Belgrade": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Singapore": {
+        "Singapore": "1",
+        "_area_": {
+            "Asia": "1"
+        }
+    },
+    "Slovakia": {
+        "Bratislava": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Slovenia": {
+        "Ljubljana": "1",
+        "_are_": {
+            "Europe": "1"
+        }
+    },
+    "South Africa": {
+        "Cape Town": "1",
+        "Johannesburg": "1",
+        "_area_": {
+            "Africa": "1"
+        }
+    },
+    "Spain": {
+        "Almería": "1",
+        "Barcelona": "1",
+        "Cáceres": "1",
+        "Granada": "1",
+        "Madrid": "1",
+        "Seville": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Sri Lanka": {
+        "Colombo": "1",
+        "_area_": {
+            "Asia": "1"
+        }
+    },
+    "Sweden": {
+        "Gothenburg": "1",
+        "Göteborg": "1",
+        "Marstrand": "1",
+        "Stockholm": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Switzerland": {
+        "Bern": "1",
+        "Rapperswil": "1",
+        "Villars-sur-Ollon": "1",
+        "Zurich": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "Taiwan": {
+        "Taipei": "1",
+        "_area_": {
+            "Asia": "1"
+        }
+    },
+    "Tanzania": {
+        "Dar es Salaam": "1",
+        "_area_": {
+            "Africa": "1"
+        }
+    },
+    "The Netherlands": {
+        "Amsterdam": "1",
+        "Eindhoven": "1",
+        "Utrecht": "1",
+        "_area_": {
+            "Europe": "1"
         }
     },
     "UK": {
@@ -106,6 +519,9 @@
         },
         "Wales": {
             "Cardiff": "1"
+        },
+        "_area_": {
+            "Europe": "1"
         }
     },
     "USA": {
@@ -296,6 +712,35 @@
         "Wisconsin": {
             "Madison": "1",
             "_": "WI"
+        },
+        "_area_": {
+            "North America": "1"
+        }
+    },
+    "Ukraine": {
+        "Kiev": "1",
+        "Kyiv": "1",
+        "Lviv": "1",
+        "_area_": {
+            "Europe": "1"
+        }
+    },
+    "United Arab Emirates": {
+        "Dubai": "1",
+        "_area_": {
+            "Asia": "1"
+        }
+    },
+    "Uruguay": {
+        "Montevideo": "1",
+        "_area_": {
+            "South America": "1"
+        }
+    },
+    "Zimbabwe": {
+        "Harare": "1",
+        "_area_": {
+            "Africa": "1"
         }
     }
 }

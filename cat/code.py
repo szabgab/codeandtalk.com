@@ -268,6 +268,7 @@ class GenerateSite(object):
         city_page = topic2path('{} {}'.format(location['city'], location['country']))
         # In some countries we require a state:
   
+        # verify that the country/state/city exists as required and they are from the expected values
         if location['country'] in ['Australia', 'Brasil', 'Canada', 'India', 'USA', 'UK']:
             if 'state' not in location or not location['state']:
                 raise Exception('State is missing from {}'.format(this))
@@ -278,9 +279,9 @@ class GenerateSite(object):
                 raise Exception("Invalid state '{}' in {}".format(location['state'], this))
             if location['city'] not in self.locations[ location['country'] ][ location['state'] ]:
                 raise Exception("Invalid city '{}' in {}".format(location['city'], this))
-        elif location['country'] in []:
-            if 'state' in location and location['state']:
-                raise Exception('State {} should not be in {}'.format(location['state'], this))
+        else:
+            #if 'state' in location and location['state']:
+            #    raise Exception('State {} should not be in {}'.format(location['state'], this))
             if location['city'] not in self.locations[ location['country'] ]:
                 raise Exception("Invalid city '{}' in {}".format(location['city'], this))
    
