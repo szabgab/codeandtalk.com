@@ -189,6 +189,7 @@ class GenerateSite(object):
                 except ValueError:
                     raise Exception('Invalid file name {}. Should contains the year \'{}\''.format(this['nickname'], event_year))
 
+                self.check_website(this, filename)
                 self.handle_diversity(this)
                 self.handle_social(this, filename)
                 self.handle_location(this)
@@ -198,6 +199,10 @@ class GenerateSite(object):
             except Exception as e:
                 exit("ERROR 1: {} in file {}".format(e, filename))
         return
+
+    def check_website(self, this, filename):
+       if 'website' not in this or not re.search(r'^https?://.{8}', this['website']):
+           raise Exception('Missing or invalid "website" field in {}'.format(filename))
 
     def handle_dates(self, this, filename):
         date_format =  r'^\d\d\d\d-\d\d-\d\d$'
