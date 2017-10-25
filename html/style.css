@@ -286,3 +286,17 @@ nav li a.regular:hover  {
 .future_feature {
    background-color: orange;
 }
+
+
+
+.logo-container{
+		width: 100%;
+		margin: 10 10;
+		text-align: center;
+}
+
+.logo{
+	width:100px;
+	height:100px;
+	margin:10;
+}

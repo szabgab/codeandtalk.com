@@ -426,6 +426,11 @@ def event(nickname):
     if 'diversitytickets_url' in event and 'diversitytickets_text' not in event:
         event['diversitytickets_text'] = 'Diversity Tickets'
 
+    logo = event.get('logo', None)
+    if logo:
+        # catapp.logger.debug("add logo-by Yishai")
+        event['logo'] = logo
+
     people = {}
     videos = []
     for video in cat['videos']:
@@ -588,6 +593,37 @@ def static_file(filename = None):
         mime = 'text/xml'
     elif filename[-4:] == '.ico':
         mime = 'image/x-icon'
+    elif filename[-4:] == '.png':
+        mime = 'image/png'
+
+    return Response(content, mimetype=mime)
+
+
+### static page for the time of transition
+@catapp.route("/images/<filename>")
+def image_file(filename=None):
+    # index.html  redirect
+
+    filename=filename.lower()
+
+    mime = 'text/html'
+
+    # catapp.logger.debug("IMAGE - Reading '{}'".format(filename))
+    # catapp.logger.debug("IMAGE path - Reading '{}'".format(root + '/html/images/' + filename))
+
+    try:
+        content = open(root + '\\html\\images\\' + filename, 'rb').read()
+    except Exception as Ex:
+        catapp.logger.debug("EX '{}'".format(Ex))
+        return not_found()
+
+    if filename[-4:] == '.jpg':
+        mime = 'image/jpeg'
+    if filename[-4:] == '.png':
+        mime = 'image/png'
+    else:
+        mime = 'image/{}'.format(filename[-3:])
+
     return Response(content, mimetype=mime)
 
 @catapp.route("/blaster/<nickname>")
