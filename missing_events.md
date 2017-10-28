@@ -439,7 +439,6 @@
 * https://twitter.com/reconmtl
 * https://twitter.com/devteachconfere
 * https://twitter.com/erlangcampnyc
-* https://twitter.com/monitorama
 * https://twitter.com/fusionconf
 * https://twitter.com/systers_org
 * https://twitter.com/emfcamp
