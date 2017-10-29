@@ -23,7 +23,6 @@
 
 * https://twitter.com/cocoaloveconf
 * https://twitter.com/voxxeddakar
-* https://twitter.com/drupalcampwi
 * https://twitter.com/gr8conf
 * https://twitter.com/lonestarruby
 * https://twitter.com/nordicapis
