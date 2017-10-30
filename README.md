@@ -85,7 +85,7 @@ Just a few random thoughts as I index the videos and the conferences.
 * The best would be to have well defined URLs. Some conferences have subdomains per year: http://2017.someevent.com/
 Other have them in subdirectory: http://someevent.com/2017/  Both are good.
 The best if the main page only redirects to the current event or holds some content, but each event has its own subsite.
-Make sure every page of the earlier events have a prominent link at the top linking to the home page of the conference (which can then
+Make sure every page of the earlier events has a prominent link at the top linking to the home page of the conference (which can then
 redirect to the current or upcoming event).
 
 * On the speaker page include the Twitter and GitHub IDs of each speaker.
