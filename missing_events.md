@@ -813,7 +813,6 @@
 * https://twitter.com/py_bay
 * https://twitter.com/jsconfin
 * https://twitter.com/metarefresh
-* https://twitter.com/codepalousa
 * https://twitter.com/bytesconf
 * https://twitter.com/elixirconf
 * https://twitter.com/tweriod
@@ -944,7 +943,6 @@
 * https://twitter.com/windycitythings
 * https://twitter.com/hackidcon
 * https://twitter.com/databythebay
-* https://twitter.com/codestock
 * https://twitter.com/pytexas
 * https://twitter.com/indieconf
 * https://twitter.com/iasummit
