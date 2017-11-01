@@ -11,31 +11,31 @@ It must be all lowercase and needs to include some identifier of the year and so
 
 ```
 {
-    "accessibility":            "URL to document about accessibility",
-    "cfp_end":                  "2016-02-23     (Deadline for Call for Presentations if available. Leave it empty if you can't find a CFP)",
-    "code_of_conduct":          "URL to Code of Conduct if there is one",
+    "accessibility":            "https://www.devopsdays.org/events/2017-cape-town/",
+    "cfp_end":                  "",
+    "code_of_conduct":          "https://www.devopsdays.org/events/2017-cape-town/conduct/",
     "comment":                  "",
-    "diversitytickets":         "The id number from https://diversitytickets.org/    alternatively:",
-    "diversitytickets_text":    "Optional text for the diversitytickets_url",
-    "diversitytickets_url":     "URL describing the diversity option on the conf site",
-    "event_end":                "2017-11-12   (please note 'event_end' is before 'event_start' here because they are in abc order)",
-    "event_start":              "2017-11-10",
-    "facebook":                 "include entire URL",
-    "hashtag":                  "Twitter hashtag, if not specified the Twitter handle will be used (don't include the #)",
+    "diversitytickets":         "https://www.quicket.co.za/events/22115-devopsdays-cape-town-2017/#/",
+    "diversitytickets_text":    "",
+    "diversitytickets_url":     "https://www.quicket.co.za/events/22115-devopsdays-cape-town-2017/#/",
+    "event_end":                "Tuesday, Nov 7, 2017"  
+    "event_start":              "Monday, Nov 6, 2017",
+    "facebook":                 "https://www.facebook.com/DevOpsCapeTown",
+    "hashtag":                  "",
     "languages": [
-                                "English", "French"
+                                "English"
     ],
     "location": {
-        "city":                 "Name of the city",
-        "country":              "Name of the country (from the list in data/countries.csv) if a country is missing from that list add that too!",
-        "state":                "Relevant in US, Brasil, Australia, India, and UK"
+        "city":                 "Hilton Doubletree, Woodstock, Cape Town",
+        "country":              "New York",
+        "state":                ""
     },
-    "name":         "The name might need to include the country/city and the year. Check similar events.",
+    "name":         "USA/New York /2017.",
     "tags": [
-                    "comma separated list of lower-case strings (in double quotes) taken from data/tags.json",
+                    "",
     ],
-    "twitter":      "handle         (don't include the @)",
-    "website":      "This is the URL of the event.",
+    "twitter":      "https://twitter.com/devopsdays/lists/devopsdays",
+    "website":      "https://www.devopsdays.org/events/2017-cape-town/",
     "youtube":      "The YouTube playlist of its videos of the event. Only after the event has ended."
 }
 ```
