@@ -180,7 +180,6 @@
 * https://twitter.com/cczona
 * https://twitter.com/graphconnect
 * https://twitter.com/smart_iot
-* https://twitter.com/geecon
 * https://twitter.com/dibiconf
 * https://twitter.com/iotfuse
 * https://twitter.com/nsspain
