@@ -96,7 +96,6 @@
 * https://twitter.com/devcrowdpl
 * https://twitter.com/acmrecsys
 * https://twitter.com/rubyc_eu
-* https://twitter.com/devupconf
 * https://twitter.com/datadayseattle
 * https://twitter.com/budapestdata
 * https://twitter.com/cloudexpoasia
@@ -170,7 +169,6 @@
 * https://twitter.com/openrepos2014
 * https://twitter.com/composeconf
 * https://twitter.com/conferenciaror
-* https://twitter.com/dogfoodcon
 * https://twitter.com/techtrrrs
 * https://twitter.com/fronttalks
 * https://twitter.com/reactnlconf
@@ -451,7 +449,6 @@
 * https://twitter.com/gr8confin
 * https://twitter.com/programistok
 * https://twitter.com/cse_global
-* https://twitter.com/bostoncodecamp
 * https://twitter.com/relengcon
 * https://twitter.com/reactday
 * https://twitter.com/botconf
