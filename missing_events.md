@@ -956,9 +956,7 @@
 * https://twitter.com/pydatait
 * https://twitter.com/surgecon
 * https://twitter.com/percona
-* https://twitter.com/phptek
 * https://twitter.com/jseverywhere
-* https://twitter.com/railsgirlsconf
 * https://twitter.com/codemeshio
 * https://twitter.com/jsconfbe
 * https://twitter.com/gotoaar
