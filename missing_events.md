@@ -966,8 +966,6 @@
 * https://twitter.com/devopsdownunder
 * https://twitter.com/rubyconfuruguay
 * https://twitter.com/andseccon
-* https://twitter.com/the_jsf
-* http://www.gputechconf.com/
 
 old:
 
