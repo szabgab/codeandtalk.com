@@ -54,7 +54,6 @@
 * https://twitter.com/spkeazee
 * https://twitter.com/alterconf
 * https://twitter.com/kubecon_
-* https://twitter.com/scna
 * https://twitter.com/sps_events
 * https://twitter.com/drupalassoc
 * https://twitter.com/ruby_town
