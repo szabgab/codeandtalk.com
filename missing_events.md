@@ -36,7 +36,7 @@
 * https://twitter.com/nvdacon
 * https://twitter.com/ancientcityruby
 * https://twitter.com/netdayfranken
-* https://twitter.com/yapceu2010
+* 
 * https://twitter.com/agileroots
 * https://twitter.com/ast_news
 * https://twitter.com/theweeklycfp
