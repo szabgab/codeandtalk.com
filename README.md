@@ -67,7 +67,7 @@ Promotion
 ------------
 After watching videos, they might be promoted via various channels.
 
-* Posted to the appropriate subredit at https://www.reddit.com/
+* Posted to the appropriate subreddit at https://www.reddit.com/
 * Posted at HackerNews: https://news.ycombinator.com/
 * Marked as "featured" and included in one of the blasters: https://codeandtalk.com/blasters
 * Tweeted via https://twitter.com/codeandtalk
