@@ -102,7 +102,6 @@
 * https://twitter.com/drupalcorn
 * https://twitter.com/euroia
 * https://twitter.com/rubyconfco
-* https://twitter.com/rubyconfcn
 * https://twitter.com/jsconfbeirut
 * https://twitter.com/spacecityjs
 * https://twitter.com/abbdevday
