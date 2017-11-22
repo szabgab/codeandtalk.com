@@ -14,7 +14,7 @@
 * http://www.nodetogether.org/
 
 * https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A/playlists
-* https://github.com/nodeconf
+* 
 
 * http://visualized.com/2014/conference/
 * http://visualized.com/2015
