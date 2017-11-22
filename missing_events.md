@@ -12,7 +12,7 @@
 * https://central.wordcamp.org/
 * https://wpcampus.org/
 * http://www.nodetogether.org/
-* https://jsconf.co/2015-Videos/
+
 * https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A/playlists
 * https://github.com/nodeconf
 
