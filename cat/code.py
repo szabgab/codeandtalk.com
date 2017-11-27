@@ -71,6 +71,15 @@ class GenerateSite(object):
             #'tags'      : {},
         }
 
+        self.countries = []
+        with open(os.path.join(self.root, 'data', 'countries.csv'), encoding="utf-8") as fh:
+            for line in fh:
+                name, continent = line.rstrip("\n").split(",")
+                self.countries.append(name)
+
+        with open(os.path.join(self.data, 'locations.json'), encoding="utf-8") as fh:
+            self.locations = json.load(fh)
+
     def read_all(self):
         self.read_sources()
         self.read_tags()
@@ -180,6 +189,8 @@ class GenerateSite(object):
                 except ValueError:
                     raise Exception('Invalid file name {}. Should contains the year \'{}\''.format(this['nickname'], event_year))
 
+                self.check_name(this, filename)
+                self.check_website(this, filename)
                 self.handle_diversity(this)
                 self.handle_social(this, filename)
                 self.handle_location(this)
@@ -189,6 +200,14 @@ class GenerateSite(object):
             except Exception as e:
                 exit("ERROR 1: {} in file {}".format(e, filename))
         return
+
+    def check_name(self, this, filename):
+       if 'name' not in this or this['name'] == '':
+           raise Exception('Missing or invalid "name" field in {}'.format(filename))
+
+    def check_website(self, this, filename):
+       if 'website' not in this or not re.search(r'^https?://.{8}', this['website']):
+           raise Exception('Missing or invalid "website" field in {}'.format(filename))
 
     def handle_dates(self, this, filename):
         date_format =  r'^\d\d\d\d-\d\d-\d\d$'
@@ -244,13 +263,8 @@ class GenerateSite(object):
         if not 'country' in location or not location['country']:
             raise Exception('Country is missing from {}'.format(this))
 
-        countries = []
-        with open(os.path.join(self.root, 'data', 'countries.csv'), encoding="utf-8") as fh:
-            for line in fh:
-                name, continent = line.rstrip("\n").split(",")
-                countries.append(name)
 
-        if location['country'] not in countries:
+        if location['country'] not in self.countries:
             raise Exception("Country '{}' is not yet(?) in our list".format(location['country']))
 
         if 'city' not in location or not location['city']:
@@ -258,11 +272,25 @@ class GenerateSite(object):
         city_name = '{}, {}'.format(location['city'], location['country'])
         city_page = topic2path('{} {}'.format(location['city'], location['country']))
         # In some countries we require a state:
-        if location['country'] in ['Australia', 'Brasil', 'India', 'USA']:
+  
+        # verify that the country/state/city exists as required and they are from the expected values
+        if location['country'] in ['Australia', 'Brasil', 'Canada', 'India', 'USA', 'UK']:
             if 'state' not in location or not location['state']:
                 raise Exception('State is missing from {}'.format(this))
             city_name = '{}, {}, {}'.format(location['city'], location['state'], location['country'])
             city_page = topic2path('{} {} {}'.format(location['city'], location['state'], location['country']))
+
+            if location['state'] not in self.locations[ location['country'] ]:
+                raise Exception("Invalid state '{}' in {}".format(location['state'], this))
+            if location['city'] not in self.locations[ location['country'] ][ location['state'] ]:
+                raise Exception("Invalid city '{}' in {}".format(location['city'], this))
+        else:
+            #if 'state' in location and location['state']:
+            #    raise Exception('State {} should not be in {}'.format(location['state'], this))
+            if location['city'] not in self.locations[ location['country'] ]:
+                raise Exception("Invalid city '{}' in {}".format(location['city'], this))
+   
+
         this['city_name'] = city_name
         this['city_page'] = city_page
 
