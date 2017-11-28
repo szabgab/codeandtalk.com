@@ -71,12 +71,6 @@ class GenerateSite(object):
             #'tags'      : {},
         }
 
-        self.countries = []
-        with open(os.path.join(self.root, 'data', 'countries.csv'), encoding="utf-8") as fh:
-            for line in fh:
-                name, continent = line.rstrip("\n").split(",")
-                self.countries.append(name)
-
         with open(os.path.join(self.data, 'locations.json'), encoding="utf-8") as fh:
             self.locations = json.load(fh)
 
@@ -264,7 +258,7 @@ class GenerateSite(object):
             raise Exception('Country is missing from {}'.format(this))
 
 
-        if location['country'] not in self.countries:
+        if location['country'] not in self.locations:
             raise Exception("Country '{}' is not yet(?) in our list".format(location['country']))
 
         if 'city' not in location or not location['city']:
