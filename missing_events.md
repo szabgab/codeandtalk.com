@@ -21,7 +21,7 @@
 * http://visualized.com/2016
 
 
-* https://twitter.com/cocoaloveconf
+
 * https://twitter.com/voxxeddakar
 * https://twitter.com/gr8conf
 * https://twitter.com/lonestarruby
