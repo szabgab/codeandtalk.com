@@ -55,6 +55,8 @@ class GenerateSite(object):
         self.blasters = []
         self.html = os.path.join(self.root, 'html')
         self.data = os.path.join(self.root, 'data')
+        if 'CAT_TEST' in os.environ:
+            self.data = os.path.join(self.root, os.environ['CAT_TEST'])
         self.featured_by_blaster = {}
         self.featured_by_date = {}
         self.events = {}
@@ -132,8 +134,13 @@ class GenerateSite(object):
 
 
     def read_sources(self):
-        with open(os.path.join(self.data, 'sources.json'), encoding="utf-8") as fh:
-            self.sources = json.load(fh)
+        self.sources = []
+        sources_file = os.path.join(self.data, 'sources.json')
+        if os.path.exists(sources_file):
+            with open(sources_file, encoding="utf-8") as fh:
+                self.sources = json.load(fh)
+        else:
+            logging.info('sources file {} is missing'.format(sources_file))
 
 
     def read_tags(self):
@@ -146,10 +153,15 @@ class GenerateSite(object):
         return
 
     def read_blasters(self):
-        with open(os.path.join(self.data, 'blasters.csv'), encoding="utf-8") as fh:
-            rd = csv.DictReader(fh, delimiter=';')
-            for row in rd:
-                self.blasters.append(row)
+        blasters_file = os.path.join(self.data, 'blasters.csv')
+        if os.path.exists(blasters_file):
+            with open(blasters_file, encoding="utf-8") as fh:
+                rd = csv.DictReader(fh, delimiter=';')
+                for row in rd:
+                    self.blasters.append(row)
+        else:
+            logging.info('blasters file {} is missing'.format(blasters_file))
+
         return
 
     def read_events(self):
@@ -409,9 +421,11 @@ class GenerateSite(object):
                     raise Exception("empty key in series {}".format(self.series[s]))
 
     def read_videos(self):
-        path = os.path.join(self.data, 'videos')
-        events = os.listdir(path)
         self.videos = []
+        path = os.path.join(self.data, 'videos')
+        if not os.path.exists(path):
+            return;
+        events = os.listdir(path)
         for event in events:
             dir_path = os.path.join(path, event)
             for video_file_path in glob.glob(os.path.join(dir_path, '*.json')):
@@ -699,9 +713,14 @@ class GenerateSite(object):
         self._process_podcasts()
         self._process_events()
 
-        self.stats['coc_future_perc']  = int(100 * self.stats['has_coc_future'] / self.stats['future'])
-        self.stats['diversity_tickets_future_perc']  = int(100 * self.stats['has_diversity_tickets_future'] / self.stats['future'])
-        self.stats['a11y_future_perc'] = int(100 * self.stats['has_a11y_future'] / self.stats['future'])
+        if self.stats['future'] == 0:
+            self.stats['coc_future_perc']  = 0
+            self.stats['diversity_tickets_future_perc']  = 0
+            self.stats['a11y_future_perc'] = 0
+        else:
+            self.stats['coc_future_perc']  = int(100 * self.stats['has_coc_future'] / self.stats['future'])
+            self.stats['diversity_tickets_future_perc']  = int(100 * self.stats['has_diversity_tickets_future'] / self.stats['future'])
+            self.stats['a11y_future_perc'] = int(100 * self.stats['has_a11y_future'] / self.stats['future'])
 
         return
 
