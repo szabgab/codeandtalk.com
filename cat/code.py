@@ -251,38 +251,38 @@ class GenerateSite(object):
 
     def handle_location(self, this):
         if 'location' not in this or not this['location']:
-            raise Exception("Location is missing from {}".format(this))
+            raise Exception('The "location" field is missing from {} see docs/EVENTS.md.'.format(this))
         location = this['location']
 
         if not 'country' in location or not location['country']:
-            raise Exception('Country is missing from {}'.format(this))
+            raise Exception('The "country" field is missing from {} see docs/EVENTS.md.'.format(this))
 
 
         if location['country'] not in self.locations:
-            raise Exception("Country '{}' is not yet(?) in our list".format(location['country']))
+            raise Exception('The value of country "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['country']), this)
 
         if 'city' not in location or not location['city']:
-            raise Exception("City is missing from {}".format(location))
+            raise Exception('The "city" field is missing from {} see docs/EVENTS.md'.format(location))
         city_name = '{}, {}'.format(location['city'], location['country'])
         city_page = topic2path('{} {}'.format(location['city'], location['country']))
+
         # In some countries we require a state:
-  
         # verify that the country/state/city exists as required and they are from the expected values
         if location['country'] in ['Australia', 'Brasil', 'Canada', 'India', 'USA', 'UK']:
             if 'state' not in location or not location['state']:
-                raise Exception('State is missing from {}'.format(this))
+                raise Exception('The "state" field is missing from {} see docs/EVENTS.md'.format(this))
+            if location['state'] not in self.locations[ location['country'] ]:
+                raise Exception('The value of state "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['state'], this))
+            if location['city'] not in self.locations[ location['country'] ][ location['state'] ]:
+                raise Exception('The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['city'], this))
+
             city_name = '{}, {}, {}'.format(location['city'], location['state'], location['country'])
             city_page = topic2path('{} {} {}'.format(location['city'], location['state'], location['country']))
-
-            if location['state'] not in self.locations[ location['country'] ]:
-                raise Exception("Invalid state '{}' in {}".format(location['state'], this))
-            if location['city'] not in self.locations[ location['country'] ][ location['state'] ]:
-                raise Exception("Invalid city '{}' in {}".format(location['city'], this))
         else:
             #if 'state' in location and location['state']:
             #    raise Exception('State {} should not be in {}'.format(location['state'], this))
             if location['city'] not in self.locations[ location['country'] ]:
-                raise Exception("Invalid city '{}' in {}".format(location['city'], this))
+                raise Exception('The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Foundin {}'.format(location['city'], this))
    
 
         this['city_name'] = city_name
