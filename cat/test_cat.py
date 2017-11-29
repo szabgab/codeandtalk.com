@@ -207,14 +207,20 @@ class TestCat(object):
 
 
 class TestValidation(object):
-    def test_main(self):
-        for filename in ['locations.json', 'series.json', 'tags.json']:
-            shutil.copyfile(os.path.join('data', filename), os.path.join('test_data', '1', filename))
+    def test_locations(self):
+        errors = [
+            'ERROR 1: The value of city "OrlandoX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
+            'ERROR 1: The value of state "FloridaX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
+            'ERROR 1: The value of country "USAX" is not in our list. If this was not a typo, add it to data/locations.json. Found in'
+        ]
+        for d in [1, 2, 3]: 
+            for filename in ['locations.json', 'series.json', 'tags.json']:
+                shutil.copyfile(os.path.join('data', filename), os.path.join('test_data', str(d), filename))
+            os.environ['CAT_TEST'] = os.path.join('test_data', str(d))
+            with pytest.raises(SystemExit) as err:
+                GenerateSite().generate_site()
+            assert errors[d-1] in str(err.value)
 
-        os.environ['CAT_TEST'] = 'test_data/1'
-        with pytest.raises(SystemExit) as err:
-            GenerateSite().generate_site()
-        assert 'ERROR 1: The value of city "OrlandoX" is not in our list. If this was not a typo, add it to data/locations.json. Found in' in str(err.value)
 
 
 # vim: expandtab

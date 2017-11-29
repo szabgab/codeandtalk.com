@@ -271,7 +271,7 @@ class GenerateSite(object):
 
 
         if location['country'] not in self.locations:
-            raise Exception('The value of country "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['country']), this)
+            raise Exception('The value of country "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['country'], this))
 
         if 'city' not in location or not location['city']:
             raise Exception('The "city" field is missing from {} see docs/EVENTS.md'.format(location))
