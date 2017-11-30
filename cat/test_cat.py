@@ -211,16 +211,15 @@ class TestValidation(object):
         errors = [
             'ERROR 1: The value of city "OrlandoX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
             'ERROR 1: The value of state "FloridaX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
-            'ERROR 1: The value of country "USAX" is not in our list. If this was not a typo, add it to data/locations.json. Found in'
+            'ERROR 1: The value of country "USAX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
+            'ERROR 1: Tag "blabla" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file'
         ]
-        for d in [1, 2, 3]: 
+        for d in [1, 2, 3, 4]:
             for filename in ['locations.json', 'series.json', 'tags.json']:
                 shutil.copyfile(os.path.join('data', filename), os.path.join('test_data', str(d), filename))
             os.environ['CAT_TEST'] = os.path.join('test_data', str(d))
             with pytest.raises(SystemExit) as err:
                 GenerateSite().generate_site()
             assert errors[d-1] in str(err.value)
-
-
 
 # vim: expandtab

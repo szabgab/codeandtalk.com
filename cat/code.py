@@ -332,7 +332,7 @@ class GenerateSite(object):
             raise Exception("tags missing from {}".format(p))
         for t in this['tags']:
             if t not in self.tags:
-                raise Exception("Tag '{}' is not in the list of tags".format(t))
+                raise Exception('Tag "{}" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list.'.format(t))
             my_topics.append({
                 'name' : t,
                 'path' : t,
