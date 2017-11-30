@@ -488,12 +488,9 @@ class GenerateSite(object):
                         src['episodes'] = new_episodes
                     except json.decoder.JSONDecodeError as e:
                         exit("ERROR 3: Could not read in {} {}".format(file, e))
-                        src['episodes'] = [] # let the rest of the code work
-                        pass
 
         for e in self.episodes:
             #print(e)
-            #exit()
             if 'tags' in e:
                 tags = []
                 for tag in e['tags']:
@@ -599,7 +596,6 @@ class GenerateSite(object):
             for s in video['speakers']:
                 if s in self.people:
                     speakers[s] = self.people[s]
-                    #exit(video)
                     if 'videos' not in self.people[s]:
                         self.people[s]['videos'] = []
 
@@ -747,7 +743,6 @@ class GenerateSite(object):
                     raise Exception("Missing required field: '{}' in {}".format(f, video))
             if not re.search(r'^\d\d\d\d-\d\d-\d\d$', video['recorded']):
                 raise Exception("Invalid 'recorded' field: {:20} in {}".format(video['recorded'], video))
-            #exit(video)
             if 'language' in video:
                 if video['language'] not in valid_languages:
                     raise Exception("Invalid language '{}' in video data/videos/{}/{}.json".format(video['language'], video['event'], video['filename']))
