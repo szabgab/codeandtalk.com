@@ -22,7 +22,6 @@
 
 
 
-* https://twitter.com/gr8conf
 * https://twitter.com/lonestarruby
 * https://twitter.com/nordicapis
 * https://twitter.com/target_rug
