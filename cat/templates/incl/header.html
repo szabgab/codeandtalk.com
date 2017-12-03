@@ -63,13 +63,13 @@
       <li><a href="/contribute">Contribute</a></li>
     </ul>
 </nav>
-{% if blasters %}
+<!-- {% if blasters %}
   <nav id="secondary">
     Get notified when new <b>{{ blasters[0] }}</b> video is added:
     <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/{{ blasters[0] }}-blaster">
     <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
     <button class="button" type="submit" name="email-button">Subscribe</button>
-    </form>
+    </form> -->
     
     <!--
         Hop on our blaster list and get notified about new videos in your favorite topic. 
@@ -77,7 +77,7 @@
             <a href="/blaster/{{b}}"><button>{{b}}</button><a>
         {% endfor %}
     -->
-  </nav>
+  <!-- </nav>
 {% else %}
   <nav id="secondary">
     Get notified when a new video is added:
@@ -86,7 +86,7 @@
     <input id="top_button" type="submit" name="email-button" value="Subscribe">
     </form>
   </nav>
-{% endif %}
+{% endif %} -->
 
 <div class="container">
     <h1>{{h1}}</h1>
