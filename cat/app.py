@@ -74,6 +74,15 @@ def about(filename = None):
         stats       = cat['stats'],
     )
 
+@catapp.route("/contribute")
+def contribute(filename = None):
+    cat = _read_json(root + '/html/cat.json')
+    return render_template('contribute.html',
+        h1          = 'Contribute to Code And Talk',
+        title       = 'Contribute to Code And Talk',
+        stats       = cat['stats'],
+    )
+
 @catapp.route("/conferences")
 def conferences():
     cat = _read_json(root + '/html/cat.json')
@@ -491,6 +500,7 @@ def sitemap():
         '/cities',
         '/code-of-conduct',
         '/conferences',
+        '/contribute',
         '/countries',
         '/diversity-tickets',
         '/series',

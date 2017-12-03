@@ -54,20 +54,21 @@
      <li><a href="/people">People</a></li>
      <li><a href="/videos">Videos</a></li>
      <li><a href="/about">About</a></li>
-<!--
-     <li><form id="search"><input id="q" placeholder="Query" /></form></li>
--->
-     <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
-     <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
-     <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
-  </ul>
+     <!--
+       <li><form id="search"><input id="q" placeholder="Query" /></form></li>
+      -->
+      <li><a class="regular" href="https://twitter.com/codeandtalk"><span class="fa fa-twitter fa-lg"></span></a></li>
+      <li><a class="regular" href="https://facebook.com/CodeAndTalk"><span class="fa fa-facebook fa-lg"></span></a></li>
+      <li><a class="regular" href="https://github.com/szabgab/codeandtalk.com"><span class="fa fa-github fa-lg"></span></a></li>
+      <li><a href="/contribute">Contribute</a></li>
+    </ul>
 </nav>
 {% if blasters %}
   <nav id="secondary">
     Get notified when new <b>{{ blasters[0] }}</b> video is added:
     <form id="top" method="POST" action="https://mail.codeandtalk.com/mailman/subscribe/{{ blasters[0] }}-blaster">
     <input id="top_email" type="text" name="email" size="30" value="" placeholder="Your e-mail address">
-    <input id="top_button" type="submit" name="email-button" value="Subscribe">
+    <button class="button" type="submit" name="email-button">Subscribe</button>
     </form>
     
     <!--
