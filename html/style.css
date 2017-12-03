@@ -7,11 +7,39 @@ body {
     padding: 0px;
     margin: 0px;
 }
+
 h1 {
     text-align: center;
 }
+
 a {
     text-decoration: none;
+}
+
+.button {
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color: #ffffff;
+	border-radius: 6px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+	color: #666666;
+	font-family: Helvetica;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 22px;
+	text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  margin: 0 auto;
+}
+.button:hover {
+	background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color: #f6f6f6;
+}
+.button:active {
+	position: relative;
+	top: 1px;
 }
 
 .aboutbox {
@@ -91,8 +119,6 @@ a {
     text-decoration: none;
 }
 
-
-
 #github {
     display: none;
 }
@@ -101,7 +127,6 @@ a {
         display: block;
     }
 }
-
 
 .ep {
     background-color: #DDD;
@@ -232,31 +257,38 @@ nav li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 ul#menu {
     text-transform: uppercase;
 }
+
 nav .fa-twitter, .fa-facebook, .fa-github {
     color: #1da1f2;
     background-color: #333;
 }
+
 nav li a.regular:hover  {
     background-color: #333;
 }
 
 .wrapper {
-   margin: auto;
-    width: 80%;
-    overflow: hidden;
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+  width: 80%;
+  overflow: hidden;
 }
-.left {
+
+/* .left {
     width: 50%;
     float:left;
 }
 .right {
     overflow: hidden;
-}
+} */
 
 .frontbox {
+  flex: 1;
   margin: 20px;
   padding: 10px;
   -moz-border-radius: 15px;
@@ -265,7 +297,7 @@ nav li a.regular:hover  {
   border-color: #DDEEFF;
   border-width: 10px;
   border-style: solid;
-  min-height: 150px;
+  min-width: 40%;
 }
 
 #blaster {
@@ -276,8 +308,8 @@ nav li a.regular:hover  {
    display: inline;
 }
 #top_email {
-   height: 40px;
-   width: 300px;
+  height: 40px;
+  width: 300px;
 }
 
 .today_feature {
