@@ -209,7 +209,7 @@ class GenerateSite(object):
 
     def check_name(self, this, filename):
        if 'name' not in this or this['name'] == '':
-           raise Exception('Missing or invalid "name" field in {}'.format(filename))
+           raise Exception('Missing or empty "name" field in {}'.format(filename))
 
     def check_website(self, this, filename):
        if 'website' not in this or not re.search(r'^https?://.{8}', this['website']):
