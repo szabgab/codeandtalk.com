@@ -1,10 +1,11 @@
 from cat.code import GenerateSite
-import unittest
+import pytest
 import json
 import os
 import sys
 import cat.app
 from pyquery import PyQuery
+import shutil
 
 def read_json(file):
     with open(file) as fh:
@@ -15,6 +16,8 @@ def read_json(file):
 
 class TestCat(object):
     def setup_class(self):
+        if 'CAT_TEST' in os.environ:
+            os.environ.pop('CAT_TEST')
         GenerateSite().generate_site()
         self.app = cat.app.catapp.test_client()
 
@@ -201,5 +204,22 @@ class TestCat(object):
         rv = self.app.get('/sitemap.xml')
         assert rv.status == '200 OK'
         assert b'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' in rv.data
+
+
+class TestValidation(object):
+    def test_locations(self):
+        errors = [
+            'ERROR 1: The value of city "OrlandoX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
+            'ERROR 1: The value of state "FloridaX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
+            'ERROR 1: The value of country "USAX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
+            'ERROR 1: Tag "blabla" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file'
+        ]
+        for d in [1, 2, 3, 4]:
+            for filename in ['locations.json', 'series.json', 'tags.json']:
+                shutil.copyfile(os.path.join('data', filename), os.path.join('test_data', str(d), filename))
+            os.environ['CAT_TEST'] = os.path.join('test_data', str(d))
+            with pytest.raises(SystemExit) as err:
+                GenerateSite().generate_site()
+            assert errors[d-1] in str(err.value)
 
 # vim: expandtab

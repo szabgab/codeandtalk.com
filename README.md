@@ -67,7 +67,7 @@ Promotion
 ------------
 After watching videos, they might be promoted via various channels.
 
-* Posted to the appropriate subredit at https://www.reddit.com/
+* Posted to the appropriate subreddit at https://www.reddit.com/
 * Posted at HackerNews: https://news.ycombinator.com/
 * Marked as "featured" and included in one of the blasters: https://codeandtalk.com/blasters
 * Tweeted via https://twitter.com/codeandtalk
@@ -85,7 +85,7 @@ Just a few random thoughts as I index the videos and the conferences.
 * The best would be to have well defined URLs. Some conferences have subdomains per year: http://2017.someevent.com/
 Other have them in subdirectory: http://someevent.com/2017/  Both are good.
 The best if the main page only redirects to the current event or holds some content, but each event has its own subsite.
-Make sure every page of the earlier events have a prominent link at the top linking to the home page of the conference (which can then
+Make sure every page of the earlier events has a prominent link at the top linking to the home page of the conference (which can then
 redirect to the current or upcoming event).
 
 * On the speaker page include the Twitter and GitHub IDs of each speaker.
@@ -95,7 +95,7 @@ redirect to the current or upcoming event).
 
 Ideas for Conferences and other events
 ---------------------------------------
-* Givng a talk (ok, this is the obvious)
+* Giving a talk (ok, this is the obvious)
 * Improv sessions https://codeandtalk.com/v/agile-india-2016/3-minute-improv-games-to-improve-your-teams-by-wayde-stallmann
 * Matching up mentors and mentees https://codeandtalk.com/v/clojure-conj-2016/overcoming-the-challenges-of-mentoring-kim-crayton
   The idea would be to do a much shorter talk and spend a lot more time on matching mentors and mentees.
@@ -115,7 +115,7 @@ Ideas for Conferences and other events
 
 Process with command line Git client
 --------------------------------------
-* In the GitHub interface visit the project https://github.com/szabgab/codeandtalk.com and click on the "Fork" button (top righ).
+* In the GitHub interface visit the project https://github.com/szabgab/codeandtalk.com and click on the "Fork" button (top right).
 It will create a copy in your own user. If you are called ```foobar``` it will be called https://github.com/foobar/codeandtalk.com
 
 * On your command line (Linux terminal or Windows Cmd) type in

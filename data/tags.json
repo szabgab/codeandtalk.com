@@ -554,15 +554,15 @@
         "name": "FitBit",
         "url": "https://www.fitbit.com/"
     },
-    "floss-weekly": {
-        "description": "",
-        "name": "FLOSS-Weekly",
-        "url": "https://twit.tv/shows/floss-weekly"
-    },
     "flex": {
         "description": "Topics around Apache Flex programming and tools.",
         "name": "Flex",
         "url": "https://flex.apache.org/"
+    },
+    "floss-weekly": {
+        "description": "",
+        "name": "FLOSS-Weekly",
+        "url": "https://twit.tv/shows/floss-weekly"
     },
     "fmri": {
         "description": "",
@@ -649,6 +649,11 @@
         "name": "golang",
         "url": "https://golang.org/"
     },
+    "gpu": {
+        "description": "",
+        "name": "GPU",
+        "url": "https://en.wikipedia.org/wiki/Graphics_processing_unit"
+    },
     "graphql": {
         "description": "",
         "name": "GraphQL",
@@ -664,10 +669,25 @@
         "name": "gron",
         "url": "https://github.com/tomnomnom/gron"
     },
+    "gradle": {
+        "description": "",
+        "name": "Gradle",
+        "url": "https://en.wikipedia.org/wiki/Gradle"
+    },
+    "grails": {
+        "description": "",
+        "name": "Grails",
+        "url": "https://en.wikipedia.org/wiki/Grails_(framework)"
+    },
     "grove": {
         "description": "",
         "name": "Grove",
         "url": "https://grove.io/"
+    },
+    "groovy": {
+        "description": "",
+        "name": "Groovy",
+        "url": "https://en.wikipedia.org/wiki/Groovy_(programming_language)"
     },
     "gruntjs": {
         "description": "",

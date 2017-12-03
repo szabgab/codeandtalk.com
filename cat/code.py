@@ -55,6 +55,8 @@ class GenerateSite(object):
         self.blasters = []
         self.html = os.path.join(self.root, 'html')
         self.data = os.path.join(self.root, 'data')
+        if 'CAT_TEST' in os.environ:
+            self.data = os.path.join(self.root, os.environ['CAT_TEST'])
         self.featured_by_blaster = {}
         self.featured_by_date = {}
         self.events = {}
@@ -70,6 +72,9 @@ class GenerateSite(object):
             'countries' : {},
             #'tags'      : {},
         }
+
+        with open(os.path.join(self.data, 'locations.json'), encoding="utf-8") as fh:
+            self.locations = json.load(fh)
 
     def read_all(self):
         self.read_sources()
@@ -129,8 +134,13 @@ class GenerateSite(object):
 
 
     def read_sources(self):
-        with open(os.path.join(self.data, 'sources.json'), encoding="utf-8") as fh:
-            self.sources = json.load(fh)
+        self.sources = []
+        sources_file = os.path.join(self.data, 'sources.json')
+        if os.path.exists(sources_file):
+            with open(sources_file, encoding="utf-8") as fh:
+                self.sources = json.load(fh)
+        else:
+            logging.info('sources file {} is missing'.format(sources_file))
 
 
     def read_tags(self):
@@ -143,10 +153,15 @@ class GenerateSite(object):
         return
 
     def read_blasters(self):
-        with open(os.path.join(self.data, 'blasters.csv'), encoding="utf-8") as fh:
-            rd = csv.DictReader(fh, delimiter=';')
-            for row in rd:
-                self.blasters.append(row)
+        blasters_file = os.path.join(self.data, 'blasters.csv')
+        if os.path.exists(blasters_file):
+            with open(blasters_file, encoding="utf-8") as fh:
+                rd = csv.DictReader(fh, delimiter=';')
+                for row in rd:
+                    self.blasters.append(row)
+        else:
+            logging.info('blasters file {} is missing'.format(blasters_file))
+
         return
 
     def read_events(self):
@@ -180,6 +195,8 @@ class GenerateSite(object):
                 except ValueError:
                     raise Exception('Invalid file name {}. Should contains the year \'{}\''.format(this['nickname'], event_year))
 
+                self.check_name(this, filename)
+                self.check_website(this, filename)
                 self.handle_diversity(this)
                 self.handle_social(this, filename)
                 self.handle_location(this)
@@ -189,6 +206,14 @@ class GenerateSite(object):
             except Exception as e:
                 exit("ERROR 1: {} in file {}".format(e, filename))
         return
+
+    def check_name(self, this, filename):
+       if 'name' not in this or this['name'] == '':
+           raise Exception('Missing or invalid "name" field in {}'.format(filename))
+
+    def check_website(self, this, filename):
+       if 'website' not in this or not re.search(r'^https?://.{8}', this['website']):
+           raise Exception('Missing or invalid "website" field in {}'.format(filename))
 
     def handle_dates(self, this, filename):
         date_format =  r'^\d\d\d\d-\d\d-\d\d$'
@@ -238,31 +263,40 @@ class GenerateSite(object):
 
     def handle_location(self, this):
         if 'location' not in this or not this['location']:
-            raise Exception("Location is missing from {}".format(this))
+            raise Exception('The "location" field is missing from {} see docs/EVENTS.md.'.format(this))
         location = this['location']
 
         if not 'country' in location or not location['country']:
-            raise Exception('Country is missing from {}'.format(this))
+            raise Exception('The "country" field is missing from {} see docs/EVENTS.md.'.format(this))
 
-        countries = []
-        with open(os.path.join(self.root, 'data', 'countries.csv'), encoding="utf-8") as fh:
-            for line in fh:
-                name, continent = line.rstrip("\n").split(",")
-                countries.append(name)
 
-        if location['country'] not in countries:
-            raise Exception("Country '{}' is not yet(?) in our list".format(location['country']))
+        if location['country'] not in self.locations:
+            raise Exception('The value of country "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['country'], this))
 
         if 'city' not in location or not location['city']:
-            raise Exception("City is missing from {}".format(location))
+            raise Exception('The "city" field is missing from {} see docs/EVENTS.md'.format(location))
         city_name = '{}, {}'.format(location['city'], location['country'])
         city_page = topic2path('{} {}'.format(location['city'], location['country']))
+
         # In some countries we require a state:
-        if location['country'] in ['Australia', 'Brasil', 'India', 'USA']:
+        # verify that the country/state/city exists as required and they are from the expected values
+        if location['country'] in ['Australia', 'Brasil', 'Canada', 'India', 'USA', 'UK']:
             if 'state' not in location or not location['state']:
-                raise Exception('State is missing from {}'.format(this))
+                raise Exception('The "state" field is missing from {} see docs/EVENTS.md'.format(this))
+            if location['state'] not in self.locations[ location['country'] ]:
+                raise Exception('The value of state "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['state'], this))
+            if location['city'] not in self.locations[ location['country'] ][ location['state'] ]:
+                raise Exception('The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['city'], this))
+
             city_name = '{}, {}, {}'.format(location['city'], location['state'], location['country'])
             city_page = topic2path('{} {} {}'.format(location['city'], location['state'], location['country']))
+        else:
+            #if 'state' in location and location['state']:
+            #    raise Exception('State {} should not be in {}'.format(location['state'], this))
+            if location['city'] not in self.locations[ location['country'] ]:
+                raise Exception('The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Foundin {}'.format(location['city'], this))
+   
+
         this['city_name'] = city_name
         this['city_page'] = city_page
 
@@ -298,7 +332,7 @@ class GenerateSite(object):
             raise Exception("tags missing from {}".format(p))
         for t in this['tags']:
             if t not in self.tags:
-                raise Exception("Tag '{}' is not in the list of tags".format(t))
+                raise Exception('Tag "{}" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list.'.format(t))
             my_topics.append({
                 'name' : t,
                 'path' : t,
@@ -387,9 +421,11 @@ class GenerateSite(object):
                     raise Exception("empty key in series {}".format(self.series[s]))
 
     def read_videos(self):
-        path = os.path.join(self.data, 'videos')
-        events = os.listdir(path)
         self.videos = []
+        path = os.path.join(self.data, 'videos')
+        if not os.path.exists(path):
+            return;
+        events = os.listdir(path)
         for event in events:
             dir_path = os.path.join(path, event)
             for video_file_path in glob.glob(os.path.join(dir_path, '*.json')):
@@ -452,12 +488,9 @@ class GenerateSite(object):
                         src['episodes'] = new_episodes
                     except json.decoder.JSONDecodeError as e:
                         exit("ERROR 3: Could not read in {} {}".format(file, e))
-                        src['episodes'] = [] # let the rest of the code work
-                        pass
 
         for e in self.episodes:
             #print(e)
-            #exit()
             if 'tags' in e:
                 tags = []
                 for tag in e['tags']:
@@ -563,7 +596,6 @@ class GenerateSite(object):
             for s in video['speakers']:
                 if s in self.people:
                     speakers[s] = self.people[s]
-                    #exit(video)
                     if 'videos' not in self.people[s]:
                         self.people[s]['videos'] = []
 
@@ -677,9 +709,14 @@ class GenerateSite(object):
         self._process_podcasts()
         self._process_events()
 
-        self.stats['coc_future_perc']  = int(100 * self.stats['has_coc_future'] / self.stats['future'])
-        self.stats['diversity_tickets_future_perc']  = int(100 * self.stats['has_diversity_tickets_future'] / self.stats['future'])
-        self.stats['a11y_future_perc'] = int(100 * self.stats['has_a11y_future'] / self.stats['future'])
+        if self.stats['future'] == 0:
+            self.stats['coc_future_perc']  = 0
+            self.stats['diversity_tickets_future_perc']  = 0
+            self.stats['a11y_future_perc'] = 0
+        else:
+            self.stats['coc_future_perc']  = int(100 * self.stats['has_coc_future'] / self.stats['future'])
+            self.stats['diversity_tickets_future_perc']  = int(100 * self.stats['has_diversity_tickets_future'] / self.stats['future'])
+            self.stats['a11y_future_perc'] = int(100 * self.stats['has_a11y_future'] / self.stats['future'])
 
         return
 
@@ -706,7 +743,6 @@ class GenerateSite(object):
                     raise Exception("Missing required field: '{}' in {}".format(f, video))
             if not re.search(r'^\d\d\d\d-\d\d-\d\d$', video['recorded']):
                 raise Exception("Invalid 'recorded' field: {:20} in {}".format(video['recorded'], video))
-            #exit(video)
             if 'language' in video:
                 if video['language'] not in valid_languages:
                     raise Exception("Invalid language '{}' in video data/videos/{}/{}.json".format(video['language'], video['event'], video['filename']))

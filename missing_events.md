@@ -12,7 +12,7 @@
 * https://central.wordcamp.org/
 * https://wpcampus.org/
 * http://www.nodetogether.org/
-* https://jsconf.co/2015-Videos/
+
 * https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A/playlists
 * https://github.com/nodeconf
 
@@ -21,11 +21,7 @@
 * http://visualized.com/2016
 
 
-* https://twitter.com/cocoaloveconf
-* https://twitter.com/voxxeddakar
-* https://twitter.com/drupalcampwi
-* https://twitter.com/scalaupnorth
-* https://twitter.com/gr8conf
+
 * https://twitter.com/lonestarruby
 * https://twitter.com/nordicapis
 * https://twitter.com/target_rug
@@ -38,7 +34,7 @@
 * https://twitter.com/nvdacon
 * https://twitter.com/ancientcityruby
 * https://twitter.com/netdayfranken
-* https://twitter.com/yapceu2010
+* 
 * https://twitter.com/agileroots
 * https://twitter.com/ast_news
 * https://twitter.com/theweeklycfp
@@ -56,7 +52,6 @@
 * https://twitter.com/spkeazee
 * https://twitter.com/alterconf
 * https://twitter.com/kubecon_
-* https://twitter.com/scna
 * https://twitter.com/sps_events
 * https://twitter.com/drupalassoc
 * https://twitter.com/ruby_town
@@ -98,7 +93,6 @@
 * https://twitter.com/devcrowdpl
 * https://twitter.com/acmrecsys
 * https://twitter.com/rubyc_eu
-* https://twitter.com/devupconf
 * https://twitter.com/datadayseattle
 * https://twitter.com/budapestdata
 * https://twitter.com/cloudexpoasia
@@ -172,7 +166,6 @@
 * https://twitter.com/openrepos2014
 * https://twitter.com/composeconf
 * https://twitter.com/conferenciaror
-* https://twitter.com/dogfoodcon
 * https://twitter.com/techtrrrs
 * https://twitter.com/fronttalks
 * https://twitter.com/reactnlconf
@@ -182,7 +175,6 @@
 * https://twitter.com/cczona
 * https://twitter.com/graphconnect
 * https://twitter.com/smart_iot
-* https://twitter.com/geecon
 * https://twitter.com/dibiconf
 * https://twitter.com/iotfuse
 * https://twitter.com/nsspain
@@ -440,7 +432,6 @@
 * https://twitter.com/reconmtl
 * https://twitter.com/devteachconfere
 * https://twitter.com/erlangcampnyc
-* https://twitter.com/monitorama
 * https://twitter.com/fusionconf
 * https://twitter.com/systers_org
 * https://twitter.com/emfcamp
@@ -455,7 +446,6 @@
 * https://twitter.com/gr8confin
 * https://twitter.com/programistok
 * https://twitter.com/cse_global
-* https://twitter.com/bostoncodecamp
 * https://twitter.com/relengcon
 * https://twitter.com/reactday
 * https://twitter.com/botconf
@@ -816,7 +806,6 @@
 * https://twitter.com/py_bay
 * https://twitter.com/jsconfin
 * https://twitter.com/metarefresh
-* https://twitter.com/codepalousa
 * https://twitter.com/bytesconf
 * https://twitter.com/elixirconf
 * https://twitter.com/tweriod
@@ -947,7 +936,6 @@
 * https://twitter.com/windycitythings
 * https://twitter.com/hackidcon
 * https://twitter.com/databythebay
-* https://twitter.com/codestock
 * https://twitter.com/pytexas
 * https://twitter.com/indieconf
 * https://twitter.com/iasummit
@@ -966,9 +954,7 @@
 * https://twitter.com/pydatait
 * https://twitter.com/surgecon
 * https://twitter.com/percona
-* https://twitter.com/phptek
 * https://twitter.com/jseverywhere
-* https://twitter.com/railsgirlsconf
 * https://twitter.com/codemeshio
 * https://twitter.com/jsconfbe
 * https://twitter.com/gotoaar
@@ -978,9 +964,6 @@
 * https://twitter.com/devopsdownunder
 * https://twitter.com/rubyconfuruguay
 * https://twitter.com/andseccon
-* https://twitter.com/the_jsf
-* https://riseconf.com/
-* http://www.gputechconf.com/
 
 old:
 

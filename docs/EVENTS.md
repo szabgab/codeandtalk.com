@@ -25,9 +25,9 @@ It must be all lowercase and needs to include some identifier of the year and so
     "languages": [
                                 "English", "French"
     ],
-    "location": {
+    "location": {              (verified with the list in data/locations.json if missing from that list add that too!)
         "city":                 "Name of the city",
-        "country":              "Name of the country (from the list in data/countries.csv) if a country is missing from that list add that too!",
+        "country":              "Name of the country",
         "state":                "Relevant in US, Brasil, Australia, India, and UK"
     },
     "name":         "The name might need to include the country/city and the year. Check similar events.",
