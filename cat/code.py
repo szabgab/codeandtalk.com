@@ -210,6 +210,9 @@ class GenerateSite(object):
     def check_name(self, this, filename):
        if 'name' not in this or this['name'] == '':
            raise Exception('Missing or empty "name" field in {}'.format(filename))
+       if re.search(r'\d\d\d\d\s*$', this['name']):
+           raise Exception('The conference "name" should not include the year. Seen in {}'.format(filename))
+
 
     def check_website(self, this, filename):
        if 'website' not in this or not re.search(r'^https?://.{8}', this['website']):
