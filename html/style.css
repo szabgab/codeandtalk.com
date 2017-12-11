@@ -271,6 +271,11 @@ nav li a.regular:hover  {
     background-color: #333;
 }
 
+.btn {
+    display: block;
+    margin: 0 auto;
+}
+
 .wrapper {
   display: flex;
   flex-flow: row wrap;
