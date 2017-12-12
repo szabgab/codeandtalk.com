@@ -414,8 +414,10 @@ class GenerateSite(object):
                     person['location'] = this['country']
 
                 self.people_search[nickname] = person
+            except CATerror:
+                raise
             except Exception as e:
-                exit("ERROR 2: {} in file {}".format(e, filename))
+                raise CATerror("ERROR 2: Unhanded error: {} in file {}".format(e, filename))
 
         return
 
@@ -450,7 +452,7 @@ class GenerateSite(object):
                                 video['description'] = hfh.read()
                         self.videos.append(video)
                     except Exception as e:
-                        exit("There was an exception reading {}\n{}".format(video_file_path, e))
+                        raise CATerror("There was an exception reading {}\n{}".format(video_file_path, e))
 
                 # Make sure we have a length field
                 if 'length' not in video:
@@ -493,7 +495,7 @@ class GenerateSite(object):
                         self.episodes.extend(new_episodes)
                         src['episodes'] = new_episodes
                     except json.decoder.JSONDecodeError as e:
-                        exit("ERROR 3: Could not read in {} {}".format(file, e))
+                        raise CATerror("ERROR 3: Could not read in {} {}".format(file, e))
 
         for e in self.episodes:
             #print(e)
@@ -620,7 +622,6 @@ class GenerateSite(object):
                             self.people_search[s]['tags'].add(t['link'])
                     #else:
                     #    TODO: shall we requre tags for each video?
-                    #    exit(video)
 
                 else:
                     raise CATerror("Missing people file for '{}' in {}/videos/{}/{}.json".format(s, self.data, video['event']['nickname'], video['filename']))
@@ -639,14 +640,14 @@ class GenerateSite(object):
             if 'guests' in e:
                 for g in e['guests']:
                     if g not in self.people:
-                        exit("ERROR 4: '{}' is not in the list of people".format(g))
+                        raise CATerror("ERROR 4: '{}' is not in the list of people".format(g))
                     if 'episodes' not in self.people[g]:
                         self.people[g]['episodes'] = []
                     self.people[g]['episodes'].append(e)
             if 'hosts' in e:
                 for h in e['hosts']:
                     if h not in self.people:
-                        exit("ERROR 5: '{}' is not in the list of people".format(h))
+                        raise CATerror("ERROR 5: '{}' is not in the list of people".format(h))
                     if 'hosting' not in self.people[h]:
                         self.people[h]['hosting'] = []
                     self.people[h]['hosting'].append(e)
