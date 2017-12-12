@@ -46,11 +46,13 @@ If you don't know, leave the field empty.
 Do not mark in such way conferences that have videos in some other place. We still need to figure out how to include
 those.
 
+## Required fields:
 
-Questions
-------------------
-* Is this part of a series of events?
-* Are videos available?
-* How can we get notified when a new event is scheduled?
-* How can we get notified when the videos are posted?
-* Is there a Newsletter?
+```
+event_start
+event_end
+name
+website
+location: city, country, and for the 5 countries listed above state as well.
+```
+
