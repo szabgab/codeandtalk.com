@@ -204,16 +204,17 @@ class GenerateSite(object):
                 self.handle_location(this)
                 self.handle_tags(this)
                 self.events[ this['nickname'] ] = this
-
+            except CATerror:
+                raise
             except Exception as e:
-                exit("ERROR 1: {} in file {}".format(e, filename))
+                raise CATerror("ERROR 1: Unhandled error: {} in file {}".format(e, filename))
         return
 
     def check_name(self, this, filename):
        if 'name' not in this or this['name'] == '':
-           raise CATerror('Missing or empty "name" field in {}'.format(filename))
+           raise CATerror('ERROR 15: Missing or empty "name" field in {}'.format(filename))
        if re.search(r'\d\d\d\d\s*$', this['name']):
-           raise CATerror('The conference "name" should not include the year. Seen in {}'.format(filename))
+           raise CATerror('ERROR 16: The conference "name" should not include the year. Seen in {}'.format(filename))
 
 
     def check_website(self, this, filename):
@@ -276,7 +277,7 @@ class GenerateSite(object):
 
 
         if location['country'] not in self.locations:
-            raise CATerror('The value of country "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['country'], this))
+            raise CATerror('ERROR 13: The value of country "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['country'], this))
 
         if 'city' not in location or not location['city']:
             raise CATerror('The "city" field is missing from {} see docs/EVENTS.md'.format(location))
@@ -289,9 +290,9 @@ class GenerateSite(object):
             if 'state' not in location or not location['state']:
                 raise CATerror('The "state" field is missing from {} see docs/EVENTS.md'.format(this))
             if location['state'] not in self.locations[ location['country'] ]:
-                raise CATerror('The value of state "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['state'], this))
+                raise CATerror('ERROR 12: The value of state "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['state'], this))
             if location['city'] not in self.locations[ location['country'] ][ location['state'] ]:
-                raise CATerror('The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['city'], this))
+                raise CATerror('ERROR 10: The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['city'], this))
 
             city_name = '{}, {}, {}'.format(location['city'], location['state'], location['country'])
             city_page = topic2path('{} {} {}'.format(location['city'], location['state'], location['country']))
@@ -299,7 +300,7 @@ class GenerateSite(object):
             #if 'state' in location and location['state']:
             #    raise CATerror('State {} should not be in {}'.format(location['state'], this))
             if location['city'] not in self.locations[ location['country'] ]:
-                raise CATerror('The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Foundin {}'.format(location['city'], this))
+                raise CATerror('ERROR 11: The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Foundin {}'.format(location['city'], this))
    
 
         this['city_name'] = city_name
@@ -337,7 +338,7 @@ class GenerateSite(object):
             raise CATerror("tags missing from {}".format(p))
         for t in this['tags']:
             if t not in self.tags:
-                raise CATerror('Tag "{}" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list.'.format(t))
+                raise CATerror('ERROR 14: Tag "{}" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file {}'.format(t, this))
             my_topics.append({
                 'name' : t,
                 'path' : t,

@@ -1,4 +1,4 @@
-from cat.code import GenerateSite
+from cat.code import GenerateSite, CATerror
 import pytest
 import json
 import os
@@ -209,18 +209,18 @@ class TestCat(object):
 class TestValidation(object):
     def test_locations(self):
         errors = [
-            'ERROR 1: The value of city "OrlandoX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
-            'ERROR 1: The value of state "FloridaX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
-            'ERROR 1: The value of country "USAX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
-            'ERROR 1: Tag "blabla" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file',
-            'ERROR 1: Missing or empty "name" field in',
-            'ERROR 1: The conference "name" should not include the year. Seen in'
+            'ERROR 10: The value of city "OrlandoX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
+            'ERROR 12: The value of state "FloridaX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
+            'ERROR 13: The value of country "USAX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
+            'ERROR 14: Tag "blabla" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file',
+            'ERROR 15: Missing or empty "name" field in',
+            'ERROR 16: The conference "name" should not include the year. Seen in'
         ]
         for d in [1, 2, 3, 4, 5, 6]:
             for filename in ['locations.json', 'series.json', 'tags.json']:
                 shutil.copyfile(os.path.join('data', filename), os.path.join('test_data', str(d), filename))
             os.environ['CAT_TEST'] = os.path.join('test_data', str(d))
-            with pytest.raises(SystemExit) as err:
+            with pytest.raises(CATerror) as err:
                 GenerateSite().generate_site()
             assert errors[d-1] in str(err.value)
 
