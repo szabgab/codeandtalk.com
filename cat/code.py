@@ -12,6 +12,8 @@ from jinja2 import Environment, PackageLoader
 import logging
 
 from cat import tools
+class CATerror(Exception):
+    pass
 
 def read_chars():
     tr = {}
@@ -32,7 +34,7 @@ def topic2path(tag):
         t = re.sub(k, tr[k], t)
     t = re.sub(r'[.+ ()&/:]', '-', t)
     if re.search(r'[^a-z0-9-]', t):
-        raise Exception("Characters of '{}' need to be mapped in 'cat/chars.csv'".format(t))
+        raise CATerror("Characters of '{}' need to be mapped in 'cat/chars.csv'".format(t))
     t = re.sub(r'[^a-z0-9]+', '-', t)
     return t
 
@@ -169,11 +171,11 @@ class GenerateSite(object):
         for filename in glob.glob(os.path.join(self.data, 'events', '*')):
             logging.info('processing {}'.format(filename))
             if filename[-5:] != '.json':
-                raise Exception("filename '{}' is not .json file".format(filename))
+                raise CATerror("filename '{}' is not .json file".format(filename))
             if filename[len(self.root):] != filename[len(self.root):].lower():
-                raise Exception("filename '{}' is not all lower case".format(filename))
+                raise CATerror("filename '{}' is not all lower case".format(filename))
             if not re.search('^[a-z0-9-]+\.json$', os.path.basename(filename)):
-                raise Exception("filename '{}' is not the accepted characters (a-z0-9-)".format(os.path.basename(filename)))
+                raise CATerror("filename '{}' is not the accepted characters (a-z0-9-)".format(os.path.basename(filename)))
             #print("Reading {}".format(filename))
             conf = {}
             try:
@@ -193,7 +195,7 @@ class GenerateSite(object):
                 try:
                     nickname.index(event_year)
                 except ValueError:
-                    raise Exception('Invalid file name {}. Should contains the year \'{}\''.format(this['nickname'], event_year))
+                    raise CATerror('Invalid file name {}. Should contains the year \'{}\''.format(this['nickname'], event_year))
 
                 self.check_name(this, filename)
                 self.check_website(this, filename)
@@ -209,30 +211,30 @@ class GenerateSite(object):
 
     def check_name(self, this, filename):
        if 'name' not in this or this['name'] == '':
-           raise Exception('Missing or empty "name" field in {}'.format(filename))
+           raise CATerror('Missing or empty "name" field in {}'.format(filename))
        if re.search(r'\d\d\d\d\s*$', this['name']):
-           raise Exception('The conference "name" should not include the year. Seen in {}'.format(filename))
+           raise CATerror('The conference "name" should not include the year. Seen in {}'.format(filename))
 
 
     def check_website(self, this, filename):
        if 'website' not in this or not re.search(r'^https?://.{8}', this['website']):
-           raise Exception('Missing or invalid "website" field in {}'.format(filename))
+           raise CATerror('Missing or invalid "website" field in {}'.format(filename))
 
     def handle_dates(self, this, filename):
         date_format =  r'^\d\d\d\d-\d\d-\d\d$'
         for f in ['event_start', 'event_end', 'cfp_end']:
             if f in this and this[f] and not re.search(date_format, this[f]):
-                raise Exception('Invalid {} {} in {}'.format(f, this[f], filename))
+                raise CATerror('Invalid {} {} in {}'.format(f, this[f], filename))
 
         start_date = datetime.strptime(this['event_start'], '%Y-%m-%d')
         end_date = datetime.strptime(this['event_end'], '%Y-%m-%d')
         if end_date < start_date :
-            raise Exception('Invalid event dates (Start after End) in {}'.format(filename))
+            raise CATerror('Invalid event dates (Start after End) in {}'.format(filename))
 
         if 'cfp_end' in this and this['cfp_end']:
             cfp_date = datetime.strptime(this['cfp_end'], '%Y-%m-%d')
             if cfp_date > start_date:
-                raise Exception('Invalid CFP date (CFP after Start) in {}'.format(filename))
+                raise CATerror('Invalid CFP date (CFP after Start) in {}'.format(filename))
 
         this['cfp_class'] = 'cfp_none'
         cfp = this.get('cfp_end', '')
@@ -246,38 +248,38 @@ class GenerateSite(object):
         diversity = this.get('diversitytickets')
         if diversity:
             if not re.search(r'^\d+$', diversity):
-                raise Exception('diversitytickets must be a number. Use diversitytickets_url and diversitytickets_text for alternatives {}'.format(this))
+                raise CATerror('diversitytickets must be a number. Use diversitytickets_url and diversitytickets_text for alternatives {}'.format(this))
 
     def handle_social(self, this, filename):
         if 'twitter' in this and this['twitter'] != '':
             if not re.search(r'^[a-zA-Z0-9_]+$', this['twitter']):
-                raise Exception("Invalid twitter handle '{}' in {}".format(this['twitter'], filename))
+                raise CATerror("Invalid twitter handle '{}' in {}".format(this['twitter'], filename))
 
         if 'youtube' in this and this['youtube'] != '' and this['youtube'] != '-':
             #if not re.search(r'^P[a-zA-Z0-9_-]+$', this['youtube']):
             if re.search(r'https?://', this['youtube']):
-                raise Exception("Invalid youtube playlist '{}' in {}".format(this['youtube'], filename))
+                raise CATerror("Invalid youtube playlist '{}' in {}".format(this['youtube'], filename))
 
         if 'facebook' in this and this['facebook'] != '':
             if not re.search(r'^https?://www.facebook.com/', this['facebook']):
-                raise Exception("Invalid facebook entry '{}' in {}. Include entire Facebook URL.".format(this['facebook'], filename))
+                raise CATerror("Invalid facebook entry '{}' in {}. Include entire Facebook URL.".format(this['facebook'], filename))
 
 
 
     def handle_location(self, this):
         if 'location' not in this or not this['location']:
-            raise Exception('The "location" field is missing from {} see docs/EVENTS.md.'.format(this))
+            raise CATerror('The "location" field is missing from {} see docs/EVENTS.md.'.format(this))
         location = this['location']
 
         if not 'country' in location or not location['country']:
-            raise Exception('The "country" field is missing from {} see docs/EVENTS.md.'.format(this))
+            raise CATerror('The "country" field is missing from {} see docs/EVENTS.md.'.format(this))
 
 
         if location['country'] not in self.locations:
-            raise Exception('The value of country "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['country'], this))
+            raise CATerror('The value of country "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['country'], this))
 
         if 'city' not in location or not location['city']:
-            raise Exception('The "city" field is missing from {} see docs/EVENTS.md'.format(location))
+            raise CATerror('The "city" field is missing from {} see docs/EVENTS.md'.format(location))
         city_name = '{}, {}'.format(location['city'], location['country'])
         city_page = topic2path('{} {}'.format(location['city'], location['country']))
 
@@ -285,19 +287,19 @@ class GenerateSite(object):
         # verify that the country/state/city exists as required and they are from the expected values
         if location['country'] in ['Australia', 'Brasil', 'Canada', 'India', 'USA', 'UK']:
             if 'state' not in location or not location['state']:
-                raise Exception('The "state" field is missing from {} see docs/EVENTS.md'.format(this))
+                raise CATerror('The "state" field is missing from {} see docs/EVENTS.md'.format(this))
             if location['state'] not in self.locations[ location['country'] ]:
-                raise Exception('The value of state "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['state'], this))
+                raise CATerror('The value of state "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['state'], this))
             if location['city'] not in self.locations[ location['country'] ][ location['state'] ]:
-                raise Exception('The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['city'], this))
+                raise CATerror('The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['city'], this))
 
             city_name = '{}, {}, {}'.format(location['city'], location['state'], location['country'])
             city_page = topic2path('{} {} {}'.format(location['city'], location['state'], location['country']))
         else:
             #if 'state' in location and location['state']:
-            #    raise Exception('State {} should not be in {}'.format(location['state'], this))
+            #    raise CATerror('State {} should not be in {}'.format(location['state'], this))
             if location['city'] not in self.locations[ location['country'] ]:
-                raise Exception('The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Foundin {}'.format(location['city'], this))
+                raise CATerror('The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Foundin {}'.format(location['city'], this))
    
 
         this['city_name'] = city_name
@@ -332,10 +334,10 @@ class GenerateSite(object):
         my_topics = []
         #print(this)
         if 'tags' not in this:
-            raise Exception("tags missing from {}".format(p))
+            raise CATerror("tags missing from {}".format(p))
         for t in this['tags']:
             if t not in self.tags:
-                raise Exception('Tag "{}" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list.'.format(t))
+                raise CATerror('Tag "{}" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list.'.format(t))
             my_topics.append({
                 'name' : t,
                 'path' : t,
@@ -345,7 +347,7 @@ class GenerateSite(object):
         for tag in this['topics']:
             p = tag['path']
             if p not in self.tags:
-                raise Exception("Missing tag '{}'".format(p))
+                raise CATerror("Missing tag '{}'".format(p))
             #self.tags[p]['events'].append(this)
             self.tags[p]['total'] += 1
             if this['event_start'] >= self.now:
@@ -360,7 +362,7 @@ class GenerateSite(object):
 
         for filename in glob.glob(os.path.join(path, '*.json')):
             if filename[len(self.root):] != filename[len(self.root):].lower():
-                raise Exception("filename '{}' is not all lower case".format(filename))
+                raise CATerror("filename '{}' is not all lower case".format(filename))
             try:
                 this = {}
                 nickname = os.path.basename(filename)
@@ -373,14 +375,14 @@ class GenerateSite(object):
                         if f == 'topics':
                             for t in this[f]:
                                 if re.search(r'\s\Z', t):
-                                    raise Exception("Trailing space in '{}' {}".format(f, filename))
+                                    raise CATerror("Trailing space in '{}' {}".format(f, filename))
                                 if re.search(r'\A\s', t):
-                                    raise Exception("Leading space in '{}' {}".format(f, filename))
+                                    raise CATerror("Leading space in '{}' {}".format(f, filename))
                             continue
                         if re.search(r'\s\Z', this[f]):
-                            raise Exception("Trailing space in '{}' {}".format(f, filename))
+                            raise CATerror("Trailing space in '{}' {}".format(f, filename))
                         if re.search(r'\A\s', this[f]):
-                            raise Exception("Leading space in '{}' {}".format(f, filename))
+                            raise CATerror("Leading space in '{}' {}".format(f, filename))
 
                 if 'redirect' in this:
                     self.redirects.append({
@@ -421,7 +423,7 @@ class GenerateSite(object):
             self.series = json.load(fh)
             for s in self.series:
                 if s == '':
-                    raise Exception("empty key in series {}".format(self.series[s]))
+                    raise CATerror("empty key in series {}".format(self.series[s]))
 
     def read_videos(self):
         self.videos = []
@@ -451,9 +453,9 @@ class GenerateSite(object):
 
                 # Make sure we have a length field
                 if 'length' not in video:
-                    raise Exception("Video {}/{}.json was featured but has no length".format(self.events[ video['event'] ]['nickname'], video['filename']))
+                    raise CATerror("Video {}/{}.json was featured but has no length".format(self.events[ video['event'] ]['nickname'], video['filename']))
                 if video['length'] == '':
-                    raise Exception("Video {}/{}.json was featured but had empty length".format(self.events[ video['event'] ]['nickname'], video['filename']))
+                    raise CATerror("Video {}/{}.json was featured but had empty length".format(self.events[ video['event'] ]['nickname'], video['filename']))
                 video['l'] = tools.in_sec(video['length'])
 
                 if 'tags' in video:
@@ -504,7 +506,7 @@ class GenerateSite(object):
                             'link' : path,
                         })
                     if path not in self.tags:
-                        raise Exception("Missing tag '{}'".format(path))
+                        raise CATerror("Missing tag '{}'".format(path))
                     self.tags[path]['episodes'].append(e)
 
                 e['tags'] = tags
@@ -536,7 +538,7 @@ class GenerateSite(object):
             else:
                 #TODO: create series for every event and then turn on the exception?
                 #print("Event without series: {}".format(event['nickname']))
-                #raise Exception("Event without series: {}".format(event['nickname']))
+                #raise CATerror("Event without series: {}".format(event['nickname']))
                 other.append(event)
 
         for s in self.series.keys():
@@ -587,7 +589,7 @@ class GenerateSite(object):
                 self.featured_by_date[featured].append(this_video)
 
                 if len(blasters) == 0:
-                    raise Exception("featured without blaster data/videos/{}/{}.json".format(video['event']['nickname'], video['filename']))
+                    raise CATerror("featured without blaster data/videos/{}/{}.json".format(video['event']['nickname'], video['filename']))
                 for b in blasters:
                     if b not in self.featured_by_blaster:
                         self.featured_by_blaster[ b ] = []
@@ -620,13 +622,13 @@ class GenerateSite(object):
                     #    exit(video)
 
                 else:
-                    raise Exception("Missing people file for '{}' in {}/videos/{}/{}.json".format(s, self.data, video['event']['nickname'], video['filename']))
+                    raise CATerror("Missing people file for '{}' in {}/videos/{}/{}.json".format(s, self.data, video['event']['nickname'], video['filename']))
             video['speakers'] = speakers
             if 'tags' in video:
                 for t in video['tags']:
                     p = t['link']
                     if p not in self.tags:
-                        raise Exception("Missing tag '{}'".format(p))
+                        raise CATerror("Missing tag '{}'".format(p))
                     self.tags[p]['videos'] += 1
 
         #print(self.featured_by_blaster)
@@ -740,20 +742,20 @@ class GenerateSite(object):
         for video in self.videos:
             for f in video.keys():
                 if f not in valid_fields:
-                    raise Exception("Invalid field '{}' in {}".format(f, video))
+                    raise CATerror("Invalid field '{}' in {}".format(f, video))
             for f in required_fields:
                 if f not in video:
-                    raise Exception("Missing required field: '{}' in {}".format(f, video))
+                    raise CATerror("Missing required field: '{}' in {}".format(f, video))
             if not re.search(r'^\d\d\d\d-\d\d-\d\d$', video['recorded']):
-                raise Exception("Invalid 'recorded' field: {:20} in {}".format(video['recorded'], video))
+                raise CATerror("Invalid 'recorded' field: {:20} in {}".format(video['recorded'], video))
             if 'language' in video:
                 if video['language'] not in valid_languages:
-                    raise Exception("Invalid language '{}' in video data/videos/{}/{}.json".format(video['language'], video['event'], video['filename']))
+                    raise CATerror("Invalid language '{}' in video data/videos/{}/{}.json".format(video['language'], video['event'], video['filename']))
                 video['title'] += ' (' + video['language'] + ')'
 
             if 'length' in video and video['length'] != "":
                 if not re.search(r'(\d?\d:)\d\d$', video['length']):
-                    raise Exception("Invalid format in length field '{}' in data/videos/{}/{}.json".format(video['length'], video['event'], video['filename']))
+                    raise CATerror("Invalid format in length field '{}' in data/videos/{}/{}.json".format(video['length'], video['event'], video['filename']))
 
     def check_people(self):
         """
@@ -763,9 +765,9 @@ class GenerateSite(object):
         valid_fields = ['name', 'github', 'twitter', 'home', 'country', 'gplus', 'nickname', 'city', 'state', 'slides', 'comment', 'topics', 'description', 'linkedin']
         for nickname in self.people.keys():
             if 'name' not in self.people[nickname]['info']:
-                raise Exception("file {} does not have a 'name' field".format(nickname))
+                raise CATerror("file {} does not have a 'name' field".format(nickname))
             for f in self.people[nickname]['info']:
                 if f not in valid_fields:
-                    raise Exception("Invlaid field '{}' in person {}".format(f, nickname))
+                    raise CATerror("Invlaid field '{}' in person {}".format(f, nickname))
 
 # vim: expandtab
