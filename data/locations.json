@@ -101,7 +101,7 @@
     "Canada": {
         "British Columbia": {
             "Vancouver": "1",
-            "Whistler" : "1",
+            "Whistler": "1",
             "_": "BC"
         },
         "Manitoba": {
@@ -473,8 +473,8 @@
     "Sweden": {
         "Gothenburg": "1",
         "Göteborg": "1",
+        "Malmö": "1",
         "Marstrand": "1",
-        "Malmö" : "1",
         "Stockholm": "1",
         "_area_": {
             "Europe": "1"
@@ -538,10 +538,6 @@
         }
     },
     "USA": {
-        "Nebraska": {
-            "Omaha": "1",
-            "_": "NE"
-        },
         "Alabama": {
             "Huntsville": "1",
             "_": "AL"
@@ -578,7 +574,7 @@
             "_": "CA"
         },
         "Colorado": {
-            "Boulder" : "1",
+            "Boulder": "1",
             "Denver": "1",
             "_": "CO"
         },
@@ -588,7 +584,7 @@
         },
         "Florida": {
             "Amelia Island": "1",
-            "Clearwater" : "1",
+            "Clearwater": "1",
             "Miami": "1",
             "Orlando": "1",
             "St. Augistine": "1",
@@ -650,6 +646,10 @@
             "St. Charles": "1",
             "St. Louis": "1",
             "_": "MO"
+        },
+        "Nebraska": {
+            "Omaha": "1",
+            "_": "NE"
         },
         "Nevada": {
             "Las Vegas": "1",
