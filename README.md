@@ -32,6 +32,11 @@ Running unit tests
 $ pytest
 ```
 
+```
+CAT_TEST=1 pytest cat/test_cat.py::TestValidation
+```
+
+
 Generate web site (and check format)
 -----------------------------------
 ```
