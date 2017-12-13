@@ -959,7 +959,6 @@
 * https://twitter.com/npmcamp
 * https://twitter.com/devopsdownunder
 * https://twitter.com/rubyconfuruguay
-* https://twitter.com/andseccon
 
 old:
 
