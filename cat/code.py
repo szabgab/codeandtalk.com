@@ -201,8 +201,8 @@ class GenerateSite(object):
                 self.check_website(this, filename)
                 self.handle_diversity(this)
                 self.handle_social(this, filename)
-                self.handle_location(this)
-                self.handle_tags(this)
+                self.handle_location(filename, this)
+                self.handle_tags(filename, this)
                 self.events[ this['nickname'] ] = this
             except CATerror:
                 raise
@@ -267,7 +267,7 @@ class GenerateSite(object):
 
 
 
-    def handle_location(self, this):
+    def handle_location(self, filename, this):
         if 'location' not in this or not this['location']:
             raise CATerror('The "location" field is missing from {} see docs/EVENTS.md.'.format(this))
         location = this['location']
@@ -277,7 +277,7 @@ class GenerateSite(object):
 
 
         if location['country'] not in self.locations:
-            raise CATerror('ERROR 13: The value of country "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['country'], this))
+            raise CATerror('ERROR 13: The value of country "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['country'], filename))
 
         if 'city' not in location or not location['city']:
             raise CATerror('The "city" field is missing from {} see docs/EVENTS.md'.format(location))
@@ -290,9 +290,9 @@ class GenerateSite(object):
             if 'state' not in location or not location['state']:
                 raise CATerror('The "state" field is missing from {} see docs/EVENTS.md'.format(this))
             if location['state'] not in self.locations[ location['country'] ]:
-                raise CATerror('ERROR 12: The value of state "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['state'], this))
+                raise CATerror('ERROR 12: The value of state "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['state'], filename))
             if location['city'] not in self.locations[ location['country'] ][ location['state'] ]:
-                raise CATerror('ERROR 10: The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['city'], this))
+                raise CATerror('ERROR 10: The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['city'], filename))
 
             city_name = '{}, {}, {}'.format(location['city'], location['state'], location['country'])
             city_page = topic2path('{} {} {}'.format(location['city'], location['state'], location['country']))
@@ -331,14 +331,14 @@ class GenerateSite(object):
         if this['event_start'] >= self.now:
             self.stats['countries'][country_page]['future'] += 1
 
-    def handle_tags(self, this):
+    def handle_tags(self, filename, this):
         my_topics = []
         #print(this)
         if 'tags' not in this:
             raise CATerror("tags missing from {}".format(p))
         for t in this['tags']:
             if t not in self.tags:
-                raise CATerror('ERROR 14: Tag "{}" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file {}'.format(t, this))
+                raise CATerror('ERROR 14: Tag "{}" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file {}'.format(t, filename))
             my_topics.append({
                 'name' : t,
                 'path' : t,

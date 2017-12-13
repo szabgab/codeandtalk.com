@@ -223,5 +223,6 @@ class TestValidation(object):
             with pytest.raises(CATerror) as err:
                 GenerateSite().generate_site()
             assert errors[d-1] in str(err.value)
+            assert 'test_data/' + str(d) + '/events/test-2016.json' in str(err.value)
 
 # vim: expandtab
