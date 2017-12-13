@@ -443,7 +443,6 @@
 * https://twitter.com/mobiletechcon
 * https://twitter.com/webcampsi
 * https://twitter.com/frozenrails
-* https://twitter.com/gr8confin
 * https://twitter.com/programistok
 * https://twitter.com/cse_global
 * https://twitter.com/relengcon
