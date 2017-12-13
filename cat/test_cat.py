@@ -207,7 +207,7 @@ class TestCat(object):
 
 
 class TestValidation(object):
-    def test_locations(self):
+    def test_locations(self): # 1-5 10-16
         errors = [
             'ERROR 10: The value of city "OrlandoX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
             'ERROR 12: The value of state "FloridaX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
@@ -216,6 +216,7 @@ class TestValidation(object):
             'ERROR 15: Missing or empty "name" field in',
             'ERROR 16: The conference "name" should not include the year. Seen in',
             'ERROR 11: The value of city "Bukarest" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
+            'ERROR 17: Missing or invalid "website" field in',
         ]
         for cnt in range(len(errors)):
             test_dir = str(cnt+1)

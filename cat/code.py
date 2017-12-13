@@ -219,7 +219,7 @@ class GenerateSite(object):
 
     def check_website(self, this, filename):
        if 'website' not in this or not re.search(r'^https?://.{8}', this['website']):
-           raise CATerror('Missing or invalid "website" field in {}'.format(filename))
+           raise CATerror('ERROR 17: Missing or invalid "website" field in {}'.format(filename))
 
     def handle_dates(self, this, filename):
         date_format =  r'^\d\d\d\d-\d\d-\d\d$'
