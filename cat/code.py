@@ -300,7 +300,7 @@ class GenerateSite(object):
             #if 'state' in location and location['state']:
             #    raise CATerror('State {} should not be in {}'.format(location['state'], this))
             if location['city'] not in self.locations[ location['country'] ]:
-                raise CATerror('ERROR 11: The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Foundin {}'.format(location['city'], this))
+                raise CATerror('ERROR 11: The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['city'], filename))
    
 
         this['city_name'] = city_name

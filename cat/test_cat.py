@@ -214,7 +214,8 @@ class TestValidation(object):
             'ERROR 13: The value of country "USAX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
             'ERROR 14: Tag "blabla" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file',
             'ERROR 15: Missing or empty "name" field in',
-            'ERROR 16: The conference "name" should not include the year. Seen in'
+            'ERROR 16: The conference "name" should not include the year. Seen in',
+            'ERROR 11: The value of city "Bukarest" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
         ]
         for cnt in range(len(errors)):
             test_dir = str(cnt+1)
