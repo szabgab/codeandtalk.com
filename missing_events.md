@@ -610,7 +610,6 @@
 * https://twitter.com/midwestio
 * https://twitter.com/gwocon
 * https://twitter.com/cascadiacss
-* https://twitter.com/lambda_conf
 * https://twitter.com/scalaworldconf
 * https://twitter.com/playgroundscon
 * https://twitter.com/yapceurope
