@@ -216,13 +216,14 @@ class TestValidation(object):
             'ERROR 15: Missing or empty "name" field in',
             'ERROR 16: The conference "name" should not include the year. Seen in'
         ]
-        for d in [1, 2, 3, 4, 5, 6]:
+        for cnt in range(len(errors)):
+            test_dir = str(cnt+1)
             for filename in ['locations.json', 'series.json', 'tags.json']:
-                shutil.copyfile(os.path.join('data', filename), os.path.join('test_data', str(d), filename))
-            os.environ['CAT_TEST'] = os.path.join('test_data', str(d))
+                shutil.copyfile(os.path.join('data', filename), os.path.join('test_data', test_dir, filename))
+            os.environ['CAT_TEST'] = os.path.join('test_data', test_dir)
             with pytest.raises(CATerror) as err:
                 GenerateSite().generate_site()
-            assert errors[d-1] in str(err.value)
-            assert 'test_data/' + str(d) + '/events/test-2016.json' in str(err.value)
+            assert errors[cnt] in str(err.value)
+            assert 'test_data/' + test_dir + '/events/test-2016.json' in str(err.value)
 
 # vim: expandtab
