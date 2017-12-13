@@ -48,7 +48,6 @@
 * https://twitter.com/nervescamp
 * https://twitter.com/thepghtechfest
 * https://twitter.com/iottechcon
-* https://twitter.com/nejsconf
 * https://twitter.com/spkeazee
 * https://twitter.com/alterconf
 * https://twitter.com/kubecon_
