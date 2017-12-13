@@ -33,7 +33,7 @@ $ pytest
 ```
 
 ```
-CAT_TEST=1 pytest cat/test_cat.py::TestValidation
+CAT_TEST=test_data/1 ./bin/generate.py
 ```
 
 
