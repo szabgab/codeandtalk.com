@@ -268,7 +268,6 @@
 * https://twitter.com/pyladiesconf
 * https://twitter.com/dpcon
 * https://twitter.com/droidcones
-* https://twitter.com/strangeloop_stl
 * https://twitter.com/roguerails
 * https://twitter.com/primeconf
 * https://twitter.com/enigmaconf
