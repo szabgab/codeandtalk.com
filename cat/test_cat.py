@@ -207,7 +207,7 @@ class TestCat(object):
 
 
 class TestValidation(object):
-    def test_locations(self): # 1-5 10-16
+    def test_locations(self, tmpdir): # 1-5 10-16
         errors = [
             'ERROR 10: The value of city "OrlandoX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
             'ERROR 12: The value of state "FloridaX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
@@ -219,14 +219,19 @@ class TestValidation(object):
             'ERROR 17: Missing or invalid "website" field in',
             'ERROR 18: The "city" field is missing. See docs/EVENTS.md. In file',
         ]
+        print("Temp dir: ", tmpdir)
         for cnt in range(len(errors)):
-            test_dir = str(cnt+1)
+            test_dir_name = str(cnt+1)
+            test_dir = tmpdir.mkdir(test_dir_name)
+            test_dir.mkdir('events')
             for filename in ['locations.json', 'series.json', 'tags.json']:
-                shutil.copyfile(os.path.join('data', filename), os.path.join('test_data', test_dir, filename))
-            os.environ['CAT_TEST'] = os.path.join('test_data', test_dir)
+                shutil.copyfile(os.path.join('data', filename), os.path.join(tmpdir, test_dir_name, filename))
+            for filename in ['test-2016.json']:
+                shutil.copyfile(os.path.join('test_data', test_dir_name, 'events', filename), os.path.join(tmpdir, test_dir_name, 'events', filename))
+            os.environ['CAT_TEST'] = os.path.join(tmpdir, test_dir_name)
             with pytest.raises(CATerror) as err:
                 GenerateSite().generate_site()
             assert errors[cnt] in str(err.value)
-            assert os.path.join('test_data', test_dir, 'events', 'test-2016.json') in str(err.value)
+            assert os.path.join(tmpdir, test_dir_name, 'events', 'test-2016.json') in str(err.value)
 
 # vim: expandtab

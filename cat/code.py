@@ -172,7 +172,7 @@ class GenerateSite(object):
             logging.info('processing {}'.format(filename))
             if filename[-5:] != '.json':
                 raise CATerror("filename '{}' is not .json file".format(filename))
-            if filename[len(self.root):] != filename[len(self.root):].lower():
+            if filename[len(self.data):] != filename[len(self.data):].lower():
                 raise CATerror("filename '{}' is not all lower case".format(filename))
             if not re.search('^[a-z0-9-]+\.json$', os.path.basename(filename)):
                 raise CATerror("filename '{}' is not the accepted characters (a-z0-9-)".format(os.path.basename(filename)))
