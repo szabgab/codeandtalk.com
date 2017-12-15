@@ -216,7 +216,7 @@ class TestValidation(object):
             None,
             None,
             'ERROR 6: filename is not all lower case.',
-            None,
+            'ERROR 7: filename is not .json file.',
             None,
             None,
             'ERROR 10: The value of city "OrlandoX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
@@ -250,6 +250,8 @@ class TestValidation(object):
             assert errors[cnt] in str(err.value)
             if cnt == 6:
                 assert os.path.join(tmp_dir, test_dir_name, 'events', 'Test-2016.json') in str(err.value)
+            elif cnt == 7:
+                assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-2016.txt') in str(err.value)
             else:
                 assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-2016.json') in str(err.value)
 
