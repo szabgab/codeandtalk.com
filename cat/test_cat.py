@@ -209,19 +209,31 @@ class TestCat(object):
 class TestValidation(object):
     def test_locations(self, tmpdir): # 1-5 10-16
         errors = [
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
             'ERROR 10: The value of city "OrlandoX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
+            'ERROR 11: The value of city "Bukarest" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
             'ERROR 12: The value of state "FloridaX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
             'ERROR 13: The value of country "USAX" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
             'ERROR 14: Tag "blabla" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file',
             'ERROR 15: Missing or empty "name" field in',
             'ERROR 16: The conference "name" should not include the year. Seen in',
-            'ERROR 11: The value of city "Bukarest" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
             'ERROR 17: Missing or invalid "website" field in',
             'ERROR 18: The "city" field is missing. See docs/EVENTS.md. In file',
         ]
         print("Temp dir: ", tmpdir)
         for cnt in range(len(errors)):
-            test_dir_name = str(cnt+1)
+            if errors[cnt] == None:
+                continue
+            test_dir_name = str(cnt)
             test_dir = tmpdir.mkdir(test_dir_name)
             test_dir.mkdir('events')
             for filename in ['locations.json', 'series.json', 'tags.json']:
