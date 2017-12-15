@@ -269,18 +269,18 @@ class GenerateSite(object):
 
     def handle_location(self, filename, this):
         if 'location' not in this or not this['location']:
-            raise CATerror('The "location" field is missing from {} see docs/EVENTS.md.'.format(this))
+            raise CATerror('ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file {}.'.format(filename))
         location = this['location']
 
         if not 'country' in location or not location['country']:
-            raise CATerror('The "country" field is missing from {} see docs/EVENTS.md.'.format(this))
+            raise CATerror('ERROR 20: The "country" field is missing. See docs/EVENTS.md. In file {}.'.format(filename))
 
 
         if location['country'] not in self.locations:
             raise CATerror('ERROR 13: The value of country "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['country'], filename))
 
         if 'city' not in location or not location['city']:
-            raise CATerror('The "city" field is missing from {} see docs/EVENTS.md'.format(location))
+            raise CATerror('ERROR 18: The "city" field is missing. See docs/EVENTS.md. In file {}.'.format(filename))
         city_name = '{}, {}'.format(location['city'], location['country'])
         city_page = topic2path('{} {}'.format(location['city'], location['country']))
 
@@ -288,7 +288,7 @@ class GenerateSite(object):
         # verify that the country/state/city exists as required and they are from the expected values
         if location['country'] in ['Australia', 'Brasil', 'Canada', 'India', 'USA', 'UK']:
             if 'state' not in location or not location['state']:
-                raise CATerror('The "state" field is missing from {} see docs/EVENTS.md'.format(this))
+                raise CATerror('ERROR 19: The "state" field is missing. See docs/EVENTS.md. In file {}.'.format(filename))
             if location['state'] not in self.locations[ location['country'] ]:
                 raise CATerror('ERROR 12: The value of state "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['state'], filename))
             if location['city'] not in self.locations[ location['country'] ][ location['state'] ]:

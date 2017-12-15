@@ -217,6 +217,7 @@ class TestValidation(object):
             'ERROR 16: The conference "name" should not include the year. Seen in',
             'ERROR 11: The value of city "Bukarest" is not in our list. If this was not a typo, add it to data/locations.json. Found in',
             'ERROR 17: Missing or invalid "website" field in',
+            'ERROR 18: The "city" field is missing. See docs/EVENTS.md. In file',
         ]
         for cnt in range(len(errors)):
             test_dir = str(cnt+1)
