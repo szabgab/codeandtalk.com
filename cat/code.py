@@ -195,7 +195,7 @@ class GenerateSite(object):
                 try:
                     nickname.index(event_year)
                 except ValueError:
-                    raise CATerror('Invalid file name {}. Should contains the year \'{}\''.format(this['nickname'], event_year))
+                    raise CATerror('ERROR 9: Invalid file name. Should contain the year "{}". In file "{}".'.format(event_year, filename))
 
                 self.check_name(this, filename)
                 self.check_website(this, filename)
