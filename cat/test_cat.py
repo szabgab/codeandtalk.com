@@ -239,17 +239,18 @@ class TestValidation(object):
             test_dir_name = str(cnt)
             test_dir = tmpdir.mkdir(test_dir_name)
             test_dir.mkdir('events')
+            tmp_dir = str(tmpdir)   # needed for Python older than 3.6 ??
             for filename in ['locations.json', 'series.json', 'tags.json']:
-                shutil.copyfile(os.path.join('data', filename), os.path.join(str(tmpdir), test_dir_name, filename))
+                shutil.copyfile(os.path.join('data', filename), os.path.join(tmp_dir, test_dir_name, filename))
             for filename in os.listdir(os.path.join('test_data', test_dir_name, 'events')):
-                shutil.copyfile(os.path.join('test_data', test_dir_name, 'events', filename), os.path.join(str(tmpdir), test_dir_name, 'events', filename))
-            os.environ['CAT_TEST'] = os.path.join(tmpdir, test_dir_name)
+                shutil.copyfile(os.path.join('test_data', test_dir_name, 'events', filename), os.path.join(tmp_dir, test_dir_name, 'events', filename))
+            os.environ['CAT_TEST'] = os.path.join(tmp_dir, test_dir_name)
             with pytest.raises(CATerror) as err:
                 GenerateSite().generate_site()
             assert errors[cnt] in str(err.value)
             if cnt == 6:
-                assert os.path.join(tmpdir, test_dir_name, 'events', 'Test-2016.json') in str(err.value)
+                assert os.path.join(tmp_dir, test_dir_name, 'events', 'Test-2016.json') in str(err.value)
             else:
-                assert os.path.join(tmpdir, test_dir_name, 'events', 'test-2016.json') in str(err.value)
+                assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-2016.json') in str(err.value)
 
 # vim: expandtab
