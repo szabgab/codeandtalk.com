@@ -240,9 +240,9 @@ class TestValidation(object):
             test_dir = tmpdir.mkdir(test_dir_name)
             test_dir.mkdir('events')
             for filename in ['locations.json', 'series.json', 'tags.json']:
-                shutil.copyfile(os.path.join('data', filename), os.path.join(tmpdir, test_dir_name, filename))
+                shutil.copyfile(os.path.join('data', filename), os.path.join(str(tmpdir), test_dir_name, filename))
             for filename in ['test-2016.json']:
-                shutil.copyfile(os.path.join('test_data', test_dir_name, 'events', filename), os.path.join(tmpdir, test_dir_name, 'events', filename))
+                shutil.copyfile(os.path.join('test_data', test_dir_name, 'events', filename), os.path.join(str(tmpdir), test_dir_name, 'events', filename))
             os.environ['CAT_TEST'] = os.path.join(tmpdir, test_dir_name)
             with pytest.raises(CATerror) as err:
                 GenerateSite().generate_site()
