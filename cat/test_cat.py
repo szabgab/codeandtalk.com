@@ -215,7 +215,7 @@ class TestValidation(object):
             None,
             None,
             None,
-            None,
+            'ERROR 6: filename is not all lower case.',
             None,
             None,
             None,
@@ -241,12 +241,15 @@ class TestValidation(object):
             test_dir.mkdir('events')
             for filename in ['locations.json', 'series.json', 'tags.json']:
                 shutil.copyfile(os.path.join('data', filename), os.path.join(str(tmpdir), test_dir_name, filename))
-            for filename in ['test-2016.json']:
+            for filename in os.listdir(os.path.join('test_data', test_dir_name, 'events')):
                 shutil.copyfile(os.path.join('test_data', test_dir_name, 'events', filename), os.path.join(str(tmpdir), test_dir_name, 'events', filename))
             os.environ['CAT_TEST'] = os.path.join(tmpdir, test_dir_name)
             with pytest.raises(CATerror) as err:
                 GenerateSite().generate_site()
             assert errors[cnt] in str(err.value)
-            assert os.path.join(tmpdir, test_dir_name, 'events', 'test-2016.json') in str(err.value)
+            if cnt == 6:
+                assert os.path.join(tmpdir, test_dir_name, 'events', 'Test-2016.json') in str(err.value)
+            else:
+                assert os.path.join(tmpdir, test_dir_name, 'events', 'test-2016.json') in str(err.value)
 
 # vim: expandtab
