@@ -175,7 +175,7 @@ class GenerateSite(object):
             if filename[len(self.data):] != filename[len(self.data):].lower():
                 raise CATerror('ERROR 6: filename is not all lower case. "{}"'.format(filename))
             if not re.search('^[a-z0-9-]+\.json$', os.path.basename(filename)):
-                raise CATerror("filename '{}' is not the accepted characters (a-z0-9-)".format(os.path.basename(filename)))
+                raise CATerror('ERROR 8: filename has characters that are not accepted (a-z0-9-). "{}"'.format(os.path.basename(filename)))
             #print("Reading {}".format(filename))
             conf = {}
             try:
