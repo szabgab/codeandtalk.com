@@ -228,6 +228,9 @@ class TestValidation(object):
             'ERROR 16: The conference "name" should not include the year. Seen in',
             'ERROR 17: Missing or invalid "website" field in',
             'ERROR 18: The "city" field is missing. See docs/EVENTS.md. In file',
+            'ERROR 19: The "state" field is missing. See docs/EVENTS.md. In file',
+            'ERROR 20: The "country" field is missing. See docs/EVENTS.md. In file',
+            'ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file',
         ]
         print("Temp dir: ", tmpdir)
         for cnt in range(len(errors)):
