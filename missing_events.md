@@ -1,12 +1,22 @@
-<!-- This file contains twitter links for conferences that have not yet been added to the site.   
+<!--
+
+This file contains links for conferences (usually to their twitter accounts) that have not yet been added to the site.
 
      Steps to add a conference:
        1. Choose one entry below and go to the site.
        2. Follow the link from the twitter site to the website for the conference.
+       2.x If the conference is already among our JSON files then just remove the link. We might have left in a few.
+
        3. Create a new json file for the event, and enter the data for the event based on the conference site.
-       4. Run the codeandtalk.com unit tests to confirm that the json file passed all rules.
+       4. Run python bin/generate.py to confirm that the json file passed all rules.
        5. Create a new branch on git and push the conference to that branch.
-       6. Push to a new branch on the master repository. -->
+
+If the Twitter account was disabled or the link from the Twitter account leads to a site that gives an error message,
+the best cours of acction is to edit this file and add a comment to the line with a short explanation and a date. e.g.
+
+   - website returned 403 Forbidden on 2017.11.17
+
+-->
 
 
 * https://central.wordcamp.org/
