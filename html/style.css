@@ -287,6 +287,10 @@ nav li a.regular:hover  {
   flex-flow: row wrap;
 }
 
+.wrapper__unit {
+    display: flex;
+}
+
 /* .left {
     width: 50%;
     float:left;
