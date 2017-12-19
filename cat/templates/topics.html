@@ -1,36 +1,38 @@
 {% include 'incl/header.html' %}
 
-<table id="topics" class="display compact">
-  <thead>
-    <tr>
-      <th></th>
-      <th>Future Event</th>
-      <th>All Events</th>
-      {% if videos %}<th>Videos</th>{% endif %}
-      {% if episodes %}<th>Podcasts</th>{% endif %}
-    </tr>
-  </thead>
-  <tbody>
-    {% for (k, v) in data|dictsort %}
-    <tr>
-      <td><a href="/{{directory}}/{{k}}">{{ v['name'] }}</a></td>
-      <td>{{v['future']}}</td>
-      <td>{{v['total']}}</td>
-      {% if videos %}<td>{{ v.videos }}</td>{% endif %}
-      {% if episodes %}<td>{{v.episodes|length}}</td>{% endif %}
-    </tr>
-    {% endfor %}
-  </tbody>
-  <tfoot>
-    <tr>
-       <td>TOTAL</td>
-       <td>{{stats.future}}</td>
-       <td>{{stats.total}}</td>
-       {% if videos %}<td></td>{% endif %}
-       {% if episodes %}<td></td>{% endif %}
-       </tr>
-  </tfoot>
-
-</table>
+<div class="wrapper pagebox">
+  <table id="topics" class="display compact">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Future Event</th>
+        <th>All Events</th>
+        {% if videos %}<th>Videos</th>{% endif %}
+        {% if episodes %}<th>Podcasts</th>{% endif %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for (k, v) in data|dictsort %}
+      <tr>
+        <td><a href="/{{directory}}/{{k}}">{{ v['name'] }}</a></td>
+        <td>{{v['future']}}</td>
+        <td>{{v['total']}}</td>
+        {% if videos %}<td>{{ v.videos }}</td>{% endif %}
+        {% if episodes %}<td>{{v.episodes|length}}</td>{% endif %}
+      </tr>
+      {% endfor %}
+    </tbody>
+    <tfoot>
+      <tr>
+         <td>TOTAL</td>
+         <td>{{stats.future}}</td>
+         <td>{{stats.total}}</td>
+         {% if videos %}<td></td>{% endif %}
+         {% if episodes %}<td></td>{% endif %}
+         </tr>
+    </tfoot>
+  
+  </table>
+</div>
 
 {% include 'incl/footer.html' %}
