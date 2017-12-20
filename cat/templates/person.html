@@ -1,16 +1,19 @@
 {% include 'incl/header.html' %}
 
-    <div><a href="{{ person['info']['home'] }}">{{ person['info']['name'] }}</a></div>
-    {% if person['info']['github'] %}
-    <div><a href="https://github.com/{{ person['info']['github'] }}">Github: {{ person['info']['github'] }}</a></div>
-    {% endif %}
-    {% if person['info']['twitter'] %}
-    <div><a href="https://twitter.com/{{ person['info']['twitter'] }}">Twitter: @{{ person['info']['twitter'] }}</a></div>
-    {% endif %}
-
-    {% if person.info.description %}
-    <div>{{ person.info.description|safe }}</div>
-    {% endif %}
+    <div class="wrapper pagebox">
+      <h2><a href="{{ person['info']['home'] }}">{{ person['info']['name'] }}</a></h2>
+      <ul>
+        {% if person['info']['github'] %}
+        <li><a href="https://github.com/{{ person['info']['github'] }}">GitHub: {{ person['info']['github'] }}</a></li>
+        {% endif %}
+        {% if person['info']['twitter'] %}
+        <li><a href="https://twitter.com/{{ person['info']['twitter'] }}">Twitter: @{{ person['info']['twitter'] }}</a></li>
+        {% endif %}
+    
+        {% if person.info.description %}
+        <li>{{ person.info.description|safe }}</li>
+        {% endif %}
+      </ul>
       
 
     {% if podcasts['guests'] %}
@@ -23,7 +26,7 @@
     {% endif %}
 
     {% if podcasts['hosts'] %}
-	    <h2>Hosting</h2>
+	    <h3>Hosting</h3>
         <ul>
 	      {% for e in podcasts['hosts'] %}
 	        <li>{{ e['date'] }} <a href="{{ e['permalink'] }}">{{ e['title'] }}</a> <a href="/s/{{ e['source'] }}">{{ e['source'] }}</a></li>
@@ -32,7 +35,7 @@
 	{% endif %}
 
 	{% if person['videos'] %}
-        <h2>Talks</h2>
+        <h3>Talks</h3>
         <ul>
           {% for v in person['videos'] %}
             <li>
@@ -42,5 +45,6 @@
 		  {% endfor %}
         </ul>
     {% endif %}
+    </div>
 	
 {% include 'incl/footer.html' %}
