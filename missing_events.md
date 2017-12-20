@@ -966,7 +966,6 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/gotoaar
 * https://twitter.com/railsberry
 * https://twitter.com/edgeconf
-* https://twitter.com/npmcamp
 
 old:
 
