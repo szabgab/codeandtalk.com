@@ -288,7 +288,7 @@ nav li a.regular:hover  {
 }
 
 .wrapper__unit {
-    display: flex;
+    flex: 1;
 }
 
 /* .left {
