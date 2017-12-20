@@ -861,7 +861,6 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/port80events
 * https://twitter.com/scandevconf
 * https://twitter.com/foss4gna
-* https://twitter.com/xoxo
 * https://twitter.com/elmconf
 * https://twitter.com/liftconference
 * https://twitter.com/techwell
