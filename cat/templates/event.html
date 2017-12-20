@@ -10,20 +10,23 @@
   
     {% if event['cfp_end'] %}
       <div>
-          <span>Call for Papers: {{ event['cfp_end'] }}</span>
+          <p>Call for Papers: {{ event['cfp_end'] }}</p>
           {% if event['tweet_cfp'] %}
-            <a href="https://twitter.com/home?status={{ event['tweet_cfp'] }}" target="_blank">Tweet this cfp</a>
+            <a href="https://twitter.com/home?status={{ event['tweet_cfp'] }}" target="_blank">Tweet this CFP</a>
           {% endif %}
       </div>
     {% endif %}
-    <p>Start date: {{ event['event_start'] }}</p>
-    <p>End date: {{ event['event_end'] }}</p>
+
+    <ul>
+      <li>Start date: {{ event['event_start'] }}</li>
+      <li>End date: {{ event['event_end'] }}</li>
+      <li>Location:
+        {% if event['location']['city'] %}{{ event['location']['city'] }}{% endif %}
+        {% if event['location']['state'] %}{{ event['location']['state'] }}{% endif %}
+        {% if event['location']['country'] %}<a href="/l/{{ event['country_page'] }}">{{ event['location']['country'] }}</a>{% endif %}
+      </li>
+    </ul>
   
-    <div>Location:
-      {% if event['location']['city'] %}{{ event['location']['city'] }}{% endif %}
-      {% if event['location']['state'] %}{{ event['location']['state'] }}{% endif %}
-      {% if event['location']['country'] %}<a href="/l/{{ event['country_page'] }}">{{ event['location']['country'] }}</a>{% endif %}
-    </div>
   
     <p>{% if event['code_of_conduct'] %}<a href="{{ event['code_of_conduct'] }}">Code of Conduct</a>{% else %}<a href="/code-of-conduct">Code of Conduct: <b>not found</b></a>{% endif %}</p>
     <p>{% if event['diversitytickets_url'] %}<a href="{{ event['diversitytickets_url'] }}">{{ event['diversitytickets_text'] }}</a>{% else %}No <a href="/diversity-tickets"><strong>Diversity Tickets</strong></a>{% endif %}</p>
@@ -33,7 +36,9 @@
           <a href="/t/{{ topic['path'] }}">{{ topic['name'] }}</a> 
       {% endfor %}
     </p>
-  
+    
+    <h3>Social</h3>
+    
     {% if event['twitter'] %}
     <p>Twitter: <a href="https://twitter.com/{{ event['twitter'] }}">@{{ event['twitter'] }}</a></p>
     {% endif %}
@@ -43,9 +48,7 @@
     {% elif event['twitter'] %}
     <p>Hashtag: <a href="https://twitter.com/hashtag/{{ event['twitter'] }}">#{{ event['twitter'] }}</a></p>
     {% endif %}
-  
-    <h3>Social</h3>
-  
+    
     {% if event['facebook'] %}
     <p>Facebook: <a href="{{ event['facebook'] }}">{{ event['facebook'] }}</a></p>
     {% endif %}
@@ -68,7 +71,7 @@
   
   <div class="wrapper__unit">
     {% if series %}
-    <h2>Related events:</h2>
+    <h3>Related events:</h3>
     <ul>
        {% for e in series.events | sort(attribute = 'name') %}
           {% if event['year'] != e.year %}
