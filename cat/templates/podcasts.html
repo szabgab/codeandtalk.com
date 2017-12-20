@@ -1,10 +1,12 @@
 {% include 'incl/header.html' %}
 
+<div class="wrapper pagebox">
     <ul id="podcasts">
-    {% for s in podcasts %}
-        <li><a href="/s/{{ s.name }}">{{ s.title }}</a> ({{ s.episodes | length }})</li>
-    {% endfor %}
-    </ul>
+        {% for s in podcasts %}
+            <li><a href="/s/{{ s.name }}">{{ s.title }}</a> ({{ s.episodes | length }})</li>
+        {% endfor %}
+        </ul>
+</div>    
 
 {% include 'incl/footer.html' %}
 

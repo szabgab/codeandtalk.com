@@ -1,37 +1,40 @@
 {% include 'incl/header.html' %}
 
-<form>
-<input name="term" id="term" value="{{ term }}">
- After  <input name="mindate" id="mindate" value="{{ mindate }}" placeholder="YYYY-MM-DD">
- Before  <input name="maxdate" id="maxdate" value="{{ maxdate }}" placeholder="YYYY-MM-DD">
- Longer than  <input name="mintime" id="mintime" value="{{ mintime }}" placeholder="MM:SS">
- Shorter than  <input name="maxtime" id="maxtime" value="{{ maxtime }}" placeholder="MM:SS">
-<input type="submit" value="Search">
-</form>
+<div class="wrapper pagebox">
+  <form>
+  <input name="term" id="term" value="{{ term }}">
+   After  <input name="mindate" id="mindate" value="{{ mindate }}" placeholder="YYYY-MM-DD">
+   Before  <input name="maxdate" id="maxdate" value="{{ maxdate }}" placeholder="YYYY-MM-DD">
+   Longer than  <input name="mintime" id="mintime" value="{{ mintime }}" placeholder="MM:SS">
+   Shorter than  <input name="maxtime" id="maxtime" value="{{ maxtime }}" placeholder="MM:SS">
+  <input type="submit" value="Search">
+  </form>
+  
+  Total number of videos: {{number_of_videos}}
+  
+  {% if videos %}
+  <table id="conferences" class="display compact">
+    <thead>
+      <tr><th>Date</th><th>Title</th><th>Event</th><th>Length</th><th>Speaker(s)</th></tr>
+    </thead>
+    <tbody>
+      {% for v in videos %}
+      <tr>
+        <td>{{ v.recorded }}</td>
+        <td><a href="/v/{{ events[v.event]['nickname'] }}/{{ v.filename }}">{{ v.title }}</a></td>
+        <td><a href="/e/{{ events[v.event]['nickname'] }}">{{ events[v.event]['name'] }}</a></td>
+        <td>{{v.length}}</td>
+        <td>
+               {% for s in v.speakers %}
+                  <a href="/p/{{s}}">{{ people[s]['info']['name'] }}</a>
+               {% endfor %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
 
-Total number of videos: {{number_of_videos}}
-
-{% if videos %}
-<table id="conferences" class="display compact">
-  <thead>
-    <tr><th>Date</th><th>Title</th><th>Event</th><th>Length</th><th>Speaker(s)</th></tr>
-  </thead>
-  <tbody>
-    {% for v in videos %}
-    <tr>
-      <td>{{ v.recorded }}</td>
-      <td><a href="/v/{{ events[v.event]['nickname'] }}/{{ v.filename }}">{{ v.title }}</a></td>
-      <td><a href="/e/{{ events[v.event]['nickname'] }}">{{ events[v.event]['name'] }}</a></td>
-      <td>{{v.length}}</td>
-      <td>
-             {% for s in v.speakers %}
-                <a href="/p/{{s}}">{{ people[s]['info']['name'] }}</a>
-             {% endfor %}
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-{% endif %}
+</div>
 
 {% include 'incl/footer.html' %}

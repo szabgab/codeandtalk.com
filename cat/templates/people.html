@@ -1,34 +1,37 @@
 {% include 'incl/header.html' %}
-<form>
-<input name="term" id="term" value="{{ term }}">
-<input type="submit" value="Search">
-</form>
-There are {{number_of_people}} people in our database.<br>
-You can search for people to invite to your conference to give a talk, or to be a guests on your podcast, or maybe to offer a job.
-<ul>
-  <li>by name</li>
-  <li>by location</li>
-  <li>topics in personal file</li>
-  <li>by words in video tags</li>
-<!--
-  <li>by video titles or podcast tags or podcast title</li>
-  <li>by language</li>
--->
-</ul>
 
-{% if people_ids %}
-    <table id="people">
-       <tr><th>Name</th><th>Location</th><th>Topics</th><th>Tags</th></tr>
-    {% for p in people_ids %}
-        <tr>
-          <td><a href="/p/{{ p }}">{{ people[p]['info']['name'] }}</a></td>
-          <td>{{ people[p]['info']['location'] }}</td>
-          <td>{{ people[p]['info']['topics'] }}</td>
-          <td>{% for d in people[p]['tags'] %} {{d}} {% endfor %}</td>
-        </tr>
-    {% endfor %}
-    </table>
-{% endif %}
+<div class="pagebox wrapper">
+  <form>
+  <input name="term" id="term" value="{{ term }}">
+  <input type="submit" value="Search">
+  </form>
+  <p>There are {{number_of_people}} people in our database.</p>
+  <p>You can search for people to invite to your conference to give a talk, or to be a guests on your podcast, or maybe to offer a job.</p>
+  <ul>
+    <li>by name</li>
+    <li>by location</li>
+    <li>topics in personal file</li>
+    <li>by words in video tags</li>
+  <!--
+    <li>by video titles or podcast tags or podcast title</li>
+    <li>by language</li>
+  -->
+  </ul>
+  
+  {% if people_ids %}
+      <table id="people">
+         <tr><th>Name</th><th>Location</th><th>Topics</th><th>Tags</th></tr>
+      {% for p in people_ids %}
+          <tr>
+            <td><a href="/p/{{ p }}">{{ people[p]['info']['name'] }}</a></td>
+            <td>{{ people[p]['info']['location'] }}</td>
+            <td>{{ people[p]['info']['topics'] }}</td>
+            <td>{% for d in people[p]['tags'] %} {{d}} {% endfor %}</td>
+          </tr>
+      {% endfor %}
+      </table>
+  {% endif %}
+</div>
 
 {% include 'incl/footer.html' %}
 

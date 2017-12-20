@@ -1,73 +1,76 @@
 {% include 'incl/header.html' %}
 
-{% if cal %}
-   <div>
-   <a href="/cal/{{ cal }}">Calendar <i class="fa fa-calendar"></i></a>
-   </div>
-{% endif %}
+<div class="wrapper pagebox">
+  {% if cal %}
+     <div>
+     <a href="/cal/{{ cal }}">Calendar <i class="fa fa-calendar"></i></a>
+     </div>
+  {% endif %}
+  
+  {% if conferences %}
+  <table id="conferences" class="display compact">
+    <thead>
+      <tr><th>Start</th><th>CFP</th><th>CoC</th><th>A11y</th><th>Videos?</th><th>What</th><th>Where</th></tr>
+    </thead>
+    <tbody>
+      {% for c in conferences %}
+      <tr id="{{ c['nickname'] }}">
+        <td>{{ c['event_start'] }}</td>
+        <td class="{{ c['cfp_class'] }}">{{ c['cfp_end'] }}</td>
+        <td>{% if c['code_of_conduct'] %}<a href="{{ c['code_of_conduct'] }}"><i class="fa fa-thumbs-up"></i></a>{% endif %}</td>
+        <td>{% if c['accessibility'] %}<a href="{{ c['accessibility'] }}"><i class="fa fa-universal-access"></i></a>{% endif %}</td>
+        <td>{% if c['youtube'] %}<i class="fa fa-video-camera"></i>{% endif %}</td>
+        <td><a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></td>
+        <td>{{ c['location']['city'] }}, {% if c['location']['state'] %}{{ c['location']['state'] }}, {% endif %} <a href="/l/{{ c['country_page'] }}">{{ c['location']['country'] }}</a></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+  
+  
+  {% if earlier_conferences %}
+  <h2>Earlier events</h2>
+  <table id="earlier" class="display compact">
+    <thead>
+      <tr><th>Start</th><th>CFP</th><th>CoC</th><th>A11y</th><th>Videos?</th><th>What</th><th>Where</th></tr>
+    </thead>
+    <tbody>
+      {% for c in earlier_conferences %}
+      <tr>
+        <td>{{ c['event_start'] }}</td>
+        <td class="{{ c['cfp_class'] }}">{{ c['cfp_end'] }}</td>
+        <td>{% if c['code_of_conduct'] %}<a href="{{ c['code_of_conduct'] }}"><i class="fa fa-thumbs-up"></i></a>{% endif %}</td>
+        <td>{% if c['accessibility'] %}<a href="{{ c['accessibility'] }}"><i class="fa fa-universal-access"></i></a>{% endif %}</td>
+        <td>{% if c['youtube'] %}<i class="fa fa-video-camera"></i>{% endif %}</td>
+        <td><a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></td>
+        <td>{{ c['location']['city'] }}, {% if c['location']['state'] %}{{ c['location']['state'] }}, {% endif %} <a href="/l/{{ c['country_page'] }}">{{ c['location']['country'] }}</a></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+  
+  {% if videos %}
+  <h2>Videos</h2>
+  <ul>
+  {% for v in videos %}
+    <li><a href="/v/{{ events[v.event]['nickname'] }}/{{ v.filename }}">{{ v.title }}</a> recorded on {{ v.recorded }} at 
+        <a href="/e/{{ events[v.event]['nickname'] }}">{{ events[v.event]['name'] }}</a>.</li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+  
+  {% if episodes %}
+  <h2>Podcasts</h2>
+  <ul>
+  {% for e in episodes %}
+    <li><a href="{{e.permalink}}">{{e.title}}</a></li>
+  {% endfor %}
+  </ul>
+  {% endif %}
 
-{% if conferences %}
-<table id="conferences" class="display compact">
-  <thead>
-    <tr><th>Start</th><th>CFP</th><th>CoC</th><th>A11y</th><th>Videos?</th><th>What</th><th>Where</th></tr>
-  </thead>
-  <tbody>
-    {% for c in conferences %}
-    <tr id="{{ c['nickname'] }}">
-      <td>{{ c['event_start'] }}</td>
-      <td class="{{ c['cfp_class'] }}">{{ c['cfp_end'] }}</td>
-      <td>{% if c['code_of_conduct'] %}<a href="{{ c['code_of_conduct'] }}"><i class="fa fa-thumbs-up"></i></a>{% endif %}</td>
-      <td>{% if c['accessibility'] %}<a href="{{ c['accessibility'] }}"><i class="fa fa-universal-access"></i></a>{% endif %}</td>
-      <td>{% if c['youtube'] %}<i class="fa fa-video-camera"></i>{% endif %}</td>
-      <td><a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></td>
-      <td>{{ c['location']['city'] }}, {% if c['location']['state'] %}{{ c['location']['state'] }}, {% endif %} <a href="/l/{{ c['country_page'] }}">{{ c['location']['country'] }}</a></td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-{% endif %}
-
-
-{% if earlier_conferences %}
-<h2>Earlier events</h2>
-<table id="earlier" class="display compact">
-  <thead>
-    <tr><th>Start</th><th>CFP</th><th>CoC</th><th>A11y</th><th>Videos?</th><th>What</th><th>Where</th></tr>
-  </thead>
-  <tbody>
-    {% for c in earlier_conferences %}
-    <tr>
-      <td>{{ c['event_start'] }}</td>
-      <td class="{{ c['cfp_class'] }}">{{ c['cfp_end'] }}</td>
-      <td>{% if c['code_of_conduct'] %}<a href="{{ c['code_of_conduct'] }}"><i class="fa fa-thumbs-up"></i></a>{% endif %}</td>
-      <td>{% if c['accessibility'] %}<a href="{{ c['accessibility'] }}"><i class="fa fa-universal-access"></i></a>{% endif %}</td>
-      <td>{% if c['youtube'] %}<i class="fa fa-video-camera"></i>{% endif %}</td>
-      <td><a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></td>
-      <td>{{ c['location']['city'] }}, {% if c['location']['state'] %}{{ c['location']['state'] }}, {% endif %} <a href="/l/{{ c['country_page'] }}">{{ c['location']['country'] }}</a></td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-{% endif %}
-
-{% if videos %}
-<h2>Videos</h2>
-<ul>
-{% for v in videos %}
-  <li><a href="/v/{{ events[v.event]['nickname'] }}/{{ v.filename }}">{{ v.title }}</a> recorded on {{ v.recorded }} at 
-      <a href="/e/{{ events[v.event]['nickname'] }}">{{ events[v.event]['name'] }}</a>.</li>
-{% endfor %}
-</ul>
-{% endif %}
-
-{% if episodes %}
-<h2>Podcasts</h2>
-<ul>
-{% for e in episodes %}
-  <li><a href="{{e.permalink}}">{{e.title}}</a></li>
-{% endfor %}
-</ul>
-{% endif %}
+</div>
 
 
 {% include 'incl/footer.html' %}

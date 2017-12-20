@@ -42,9 +42,9 @@ a {
 	top: 1px;
 }
 
-.aboutbox {
+.pagebox {
   margin: 20px;
-  padding: 10px;
+  padding: 20px;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   border-radius: 15px;
@@ -277,11 +277,18 @@ nav li a.regular:hover  {
 }
 
 .wrapper {
-  display: flex;
-  flex-flow: row wrap;
   margin: auto;
   width: 80%;
   overflow: hidden;
+}
+
+.wrapper__flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.wrapper__unit {
+    display: flex;
 }
 
 /* .left {

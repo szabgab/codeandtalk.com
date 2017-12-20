@@ -1,36 +1,32 @@
 {% include 'incl/header.html' %}
 
-<div class="text">
-In recent years written <b>Code of Conduct</b> became a norm in tech-related conferences. On this page you'll find the conferences in our
-database for which we have not found an esily linkable Code of Conduct. If the conference has one and we missed it, please
-send us a <a href="https://github.com/szabgab/conferences">pull-request</a>. If you don't have a code of conduct yet, please consider
-adopting one. For example the <a href="http://confcodeofconduct.com/">Conference Code of Conduct</a> can be used.
-</div>
-
-<h2>Upcoming events</h2>
-<div class="text">
-Total: {{ conferences|length }} ({{stats.coc_future_perc}}% of future events have Code of Conduct)
-</div>
-<ul>
-{% for c in conferences %}
-   <li>{{ c['event_start'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
-{% endfor %}
-</ul>
-
-{% if earlier_conferences %}
-<h2>Earlier events</h2>
-  <div class="text">
-  These conferences have already ended so adding a Code of Conduct to them is  a bit late, but if the Code of Conduct was there,
-  then it would still be valuable to add to our <a href="https://github.com/szabgab/conferences">dataset</a>.
-  </div>
-  <div class="text">
-  Total: {{ earlier_conferences|length }}
-  </div>
-  {% for c in earlier_conferences %}
+<div class="wrapper pagebox">
+  <p>In recent years written <strong>Code of Conduct</strong> became a norm in tech-related conferences. On this page you'll find the conferences in our database for which we have not found an esily linkable Code of Conduct.</p>
+  <p>If the conference has one and we missed it, please send us a <a href="https://github.com/szabgab/conferences">pull-request</a>. If you don't have a code of conduct yet, please consider adopting one. For example the <a href="http://confcodeofconduct.com/">Conference Code of Conduct</a> can be used.</p>
+  
+  
+  <h2>Upcoming events</h2>
+  
+  Total: {{ conferences|length }} ({{stats.coc_future_perc}}% of future events have Code of Conduct)
+  
+  <ul>
+  {% for c in conferences %}
      <li>{{ c['event_start'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
   {% endfor %}
-{% endif %}
-
+  </ul>
+  
+  {% if earlier_conferences %}
+  <h2>Earlier events</h2>
+    <p>These conferences have already ended so adding a Code of Conduct to them is  a bit late, but if the Code of Conduct was there, then it would still be valuable to add to our <a href="https://github.com/szabgab/conferences">dataset</a>.</p>
+    
+    Total: {{ earlier_conferences|length }}
+    <ul>
+      {% for c in earlier_conferences %}
+         <li>{{ c['event_start'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
 
 
 {% include 'incl/footer.html' %}

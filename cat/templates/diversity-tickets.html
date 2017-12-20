@@ -1,14 +1,10 @@
 {% include 'incl/header.html' %}
 
-<div class="text">
-<a href="https://diversitytickets.org/">Diversity Tickets</a> helps conference organizers to bring people from under-represented groups to
-their conferences. If your event does not yet  provide such tickets, check out their site.
-</div>
+<div class="wrapper pagebox">
+<p><a href="https://diversitytickets.org/">Diversity Tickets</a> helps conference organizers to bring people from under-represented groups to their conferences. If your event does not yet  provide such tickets, check out their site.</p>
 
 <h2>Upcoming events</h2>
-<div class="text">
-Total: {{ conferences|length }} The following {{stats.diversity_tickets_future_perc}}% of future events use the Diversity Tickets site:
-</div>
+<p>Total: {{ conferences|length }} The following {{stats.diversity_tickets_future_perc}}% of future events use the Diversity Tickets site:</p>
 <ul>
 {% for c in conferences %}
    <li>{{ c['event_start'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
@@ -17,17 +13,16 @@ Total: {{ conferences|length }} The following {{stats.diversity_tickets_future_p
 
 {% if earlier_conferences %}
 <h2>Earlier events</h2>
-  <div class="text">
-  These conferences have already ended, but it might be still useful to know which one had Diversity Tickets.
-  </div>
-  <div class="text">
+  <p>These conferences have already ended, but it might be still useful to know which one had Diversity Tickets.</p>
+  
   Total: {{ earlier_conferences|length }}
-  </div>
-  {% for c in earlier_conferences %}
-     <li>{{ c['event_start'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
-  {% endfor %}
+  <ul>
+    {% for c in earlier_conferences %}
+       <li>{{ c['event_start'] }} <a href="/e/{{ c['nickname'] }}">{{ c['name'] }}</a></li>
+    {% endfor %}
+  </ul>
 {% endif %}
-
+</div>
 
 {% include 'incl/footer.html' %}
 
