@@ -107,38 +107,38 @@ class TestCat(object):
         assert rv.status == '200 OK'
         assert b'<title>Full Frontal - ffconf 2009</title>' in rv.data
         assert b'<h1>Full Frontal - ffconf 2009</h1>' in rv.data
-        assert b'<div>Start date: 2009-11-20</div>' in rv.data
-        assert b'<div>End date: 2009-11-20</div>' in rv.data
+        assert b'<li>Start date: 2009-11-20</li>' in rv.data
+        assert b'<li>End date: 2009-11-20</li>' in rv.data
         # events with - in the youtube fields should have no link to youtube
         assert b'https://www.youtube.com/playlist?list' not in rv.data
-        assert b'<h2>Videos</h2>' not in rv.data
+        assert b'<h3>Videos</h3>' not in rv.data
 
         rv = self.app.get('/e/jsinsa-2016')
         assert rv.status == '200 OK'
         assert b'https://www.youtube.com/playlist?list=PLw7UYp3N0eUaUgeaG3xN4qI4eMojw6u6y' in rv.data
         assert b'<a href="/l/south-africa">' in rv.data
-        assert b'<h2>Videos</h2>' in rv.data
+        assert b'<h3>Videos</h3>' in rv.data
         assert b'<a href="/v/jsinsa-2016/feature-toggle-a-js-app-by-charlene-tshitoka">' in rv.data
         assert b'<a href="/p/charlene-tshitoka">Charlene Tshitoka</a>' in rv.data
-        assert b'<div>No <a href="/diversity-tickets"><b>Diversity Tickets</b></a></div>' in rv.data
-        assert b'<h2>Related events:</h2>' in rv.data
+        assert b'<p>No <a href="/diversity-tickets"><strong>Diversity Tickets</strong></a></p>' in rv.data
+        assert b'<h3>Related events:</h3>' in rv.data
         assert b'<a href="/e/jsinsa-2012">JavaScript in South Africa 2012</a>' in rv.data
 
         rv = self.app.get('/e/mojoconf-2014')
         assert rv.status == '200 OK'
-        assert b'<h2>Related events:</h2>' not in rv.data
+        assert b'<h3>Related events:</h3>' not in rv.data
 
         rv = self.app.get('/e/script-2017')
         assert rv.status == '200 OK'
-        assert b'<div><a href="https://diversitytickets.org/events/53">Diversity Tickets</a></div>' in rv.data
+        assert b'<p><a href="https://diversitytickets.org/events/53">Diversity Tickets</a></p>' in rv.data
 
         rv = self.app.get('/e/cssconf-eu-2017')
         assert rv.status == '200 OK'
-        assert b'<div><a href="http://2017.cssconf.eu/diversity-support-tickets/">Diversity Tickets</a></div>' in rv.data
+        assert b'<p><a href="http://2017.cssconf.eu/diversity-support-tickets/">Diversity Tickets</a></p>' in rv.data
 
         rv = self.app.get('/e/fsto-2017')
         assert rv.status == '200 OK'
-        assert b'<div><a href="http://2017.fsto.co/">Diversity Tickets: see under pricing</a></div>' in rv.data
+        assert b'<p><a href="http://2017.fsto.co/">Diversity Tickets: see under pricing</a></p>' in rv.data
 
     
     def test_featured(self):
