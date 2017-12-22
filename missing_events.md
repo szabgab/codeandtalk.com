@@ -956,12 +956,12 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/bigandroidbbq
 * https://twitter.com/drupalconfmsk
 * https://twitter.com/jsconfbr
-* https://twitter.com/pydatait
-* https://twitter.com/surgecon
+
+
 * https://twitter.com/percona
-* https://twitter.com/jseverywhere
-* https://twitter.com/codemeshio
-* https://twitter.com/jsconfbe
+
+
+
 
 
 
