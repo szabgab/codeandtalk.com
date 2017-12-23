@@ -132,6 +132,12 @@
             "Asia": "1"
         }
     },
+    "Chile": {
+        "Santiago": "1",
+        "_area_": {
+            "South America": "1"
+        }
+    },
     "Colombia": {
         "Medellin": "1",
         "_area_": {
@@ -698,9 +704,11 @@
         "Pennsylvania": {
             "Philadelphia": "1",
             "Pittsburgh": "1",
+            "Pocono Manor": "1",
             "_": "PA"
         },
         "Rhode Island": {
+            "Providence": "1",
             "_": "RI"
         },
         "South Carolina": {
@@ -732,6 +740,7 @@
         },
         "Virginia": {
             "Norfolk": "1",
+            "Richmond": "1",
             "_": "VA"
         },
         "Washington": {
@@ -746,6 +755,7 @@
             "_": "WV"
         },
         "Wisconsin": {
+            "Eau Claire": "1",
             "Madison": "1",
             "Milwaukee": "1",
             "Wisconsin Dells": "1",
