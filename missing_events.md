@@ -124,7 +124,6 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/pyconedusummit
 * https://twitter.com/musiccitycode
 * https://twitter.com/androidbbq
-* https://twitter.com/techbash
 * https://twitter.com/grrcon
 * https://twitter.com/campjsnews
 * https://twitter.com/wordcampsf
@@ -219,7 +218,6 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/windycityrails
 * https://twitter.com/erlangfactory
 * https://twitter.com/scalaio_fr
-* https://twitter.com/reactiveconf
 * https://twitter.com/pyconse
 * https://twitter.com/devtalksro
 * https://twitter.com/pyconsg
@@ -553,7 +551,6 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/frontendnorth
 * https://twitter.com/microxchg
 * https://twitter.com/lcauckland
-* https://twitter.com/sotmus
 * https://twitter.com/convergedetroit
 * https://twitter.com/sigint
 * https://twitter.com/jsfoo
@@ -696,7 +693,6 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/pgconbr
 * https://twitter.com/dhtmlconf
 * https://twitter.com/hardwear_io
-* https://twitter.com/strataconf
 * https://twitter.com/mactechconf
 * https://twitter.com/mobiconf
 * https://twitter.com/pygrunn
@@ -707,7 +703,6 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/lesbiantech
 * https://twitter.com/phpwomeneu
 * https://twitter.com/holyjsconf
-* https://twitter.com/codecampnyc
 * https://twitter.com/html5summit
 * https://twitter.com/dotnetcologne
 * https://twitter.com/polyglotconf
@@ -812,7 +807,6 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/py_bay
 * https://twitter.com/jsconfin
 * https://twitter.com/metarefresh
-* https://twitter.com/bytesconf
 * https://twitter.com/elixirconf
 * https://twitter.com/tweriod
 * https://twitter.com/symfonycon
