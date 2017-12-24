@@ -40,6 +40,8 @@ It must be all lowercase and needs to include some identifier of the year and so
 }
 ```
 
+You can add an extra field called `private_comments` for comments you don't want to be displayed. It can be used to make notes for the other maintainers of the data.
+
 In the `youtube` field of past events use a single dash `-` to indicate that the conference does not have videos on Youtube.
 If you don't know, leave the field empty.
 
