@@ -108,6 +108,9 @@
         "Manitoba": {
             "Winnipeg": "1"
         },
+        "Nova Scotia": {
+            "Halifax": "1"
+        },
         "Ontario": {
             "Ottawa": "1",
             "Toronto": "1",
@@ -120,11 +123,14 @@
             "Montreal": "1",
             "Quebec": "1"
         },
-        "Nova Scotia": {
-            "Halifax": "1"
-        },
         "_area_": {
             "North America": "1"
+        }
+    },
+    "Chile": {
+        "Santiago": "1",
+        "_area_": {
+            "South America": "1"
         }
     },
     "China": {
@@ -133,12 +139,6 @@
         "Shanghai": "1",
         "_area_": {
             "Asia": "1"
-        }
-    },
-    "Chile": {
-        "Santiago": "1",
-        "_area_": {
-            "South America": "1"
         }
     },
     "Colombia": {
