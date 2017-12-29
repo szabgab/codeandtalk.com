@@ -197,18 +197,58 @@ class GenerateSite(object):
                 except ValueError:
                     raise CATerror('ERROR 9: Invalid file name. Should contain the year "{}". In file "{}".'.format(event_year, filename))
 
+                self.check_fields(this, filename)
                 self.check_name(this, filename)
                 self.check_website(this, filename)
                 self.handle_diversity(this)
                 self.handle_social(this, filename)
                 self.handle_location(filename, this)
                 self.handle_tags(filename, this)
+                self.check_comments(filename, this)
                 self.events[ this['nickname'] ] = this
             except CATerror:
                 raise
             except Exception as e:
                 raise CATerror("ERROR 1: Unhandled error: {} in file {}".format(e, filename))
         return
+
+    def check_fields(self, this, filename):
+        valid_fields = set([
+            'accessibility',
+            'cfp_end',
+            'cfp_class',           # ???
+            'code_of_conduct',
+            'comment',
+            'description',
+            'diversitytickets',
+            'diversitytickets_text',
+            'diversitytickets_url',
+            'event_end',
+            'event_start',
+            'facebook',
+            'file_date',            # added
+            'github',
+            'hashtag',
+            'languages',
+            'location',
+            'name',
+            'nickname',
+            'private_comments',
+            'tags',
+            'twitter',
+            'youtube',
+            'videos_url',
+            'vimeo',
+            'website',
+        ])
+        current_fields = set(this.keys())
+        if not current_fields.issubset(valid_fields):
+            raise CATerror('ERROR 52: Invalid fields {}. {}'.format(current_fields - valid_fields, filename))
+
+    def check_comments(self, filename, this):
+        if 'private_comments' in this:
+            if this['private_comments'].__class__.__name__ != 'str':
+                raise CATerror('ERROR 51: The "private_comments" field must be a simple string. {}'.format(filename))
 
     def check_name(self, this, filename):
        if 'name' not in this or this['name'] == '':
