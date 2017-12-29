@@ -26,13 +26,13 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A/playlists
 * https://github.com/nodeconf
 
-* http://visualized.com/2014/conference/
-* http://visualized.com/2015
-* http://visualized.com/2016
+* http://visualized.com/2014/conference/ <--- no response on 2017.12.29 --->
+* http://visualized.com/2015  <--- no response on 2017.12.29 --->
+* http://visualized.com/2016   <--- no response on 2017.12.29 --->
 
 
 
-* https://twitter.com/lonestarruby <--- website returned 403 Forbidden on 25.12.2017 --->
+* https://twitter.com/lonestarruby <--- website returned 403 Forbidden on 2017.12.25 --->
 * https://twitter.com/nordicapis
 * https://twitter.com/target_rug
 * https://twitter.com/knode_io
