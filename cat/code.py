@@ -188,7 +188,7 @@ class GenerateSite(object):
                 this['nickname'] = nickname
                 this['file_date'] = datetime.fromtimestamp( os.path.getctime(filename) ).strftime('%Y-%m-%d')
 
-                self.handle_dates(this, filename)
+                self.check_dates(this, filename)
 
                 # verify year in filename. Won't be needed after the merge of series
                 event_year = this['event_start'][0:4]
@@ -200,10 +200,10 @@ class GenerateSite(object):
                 self.check_fields(this, filename)
                 self.check_name(this, filename)
                 self.check_website(this, filename)
-                self.handle_diversity(this)
-                self.handle_social(this, filename)
-                self.handle_location(filename, this)
-                self.handle_tags(filename, this)
+                self.check_diversity(this)
+                self.check_social(this, filename)
+                self.check_location(filename, this)
+                self.check_tags(filename, this)
                 self.check_comments(filename, this)
                 self.events[ this['nickname'] ] = this
             except CATerror:
@@ -261,7 +261,7 @@ class GenerateSite(object):
        if 'website' not in this or not re.search(r'^https?://.{8}', this['website']):
            raise CATerror('ERROR 17: Missing or invalid "website" field in {}'.format(filename))
 
-    def handle_dates(self, this, filename):
+    def check_dates(self, this, filename):
         date_format =  r'^\d\d\d\d-\d\d-\d\d$'
         for f in ['event_start', 'event_end', 'cfp_end']:
             if f in this and this[f] and not re.search(date_format, this[f]):
@@ -285,13 +285,13 @@ class GenerateSite(object):
             else:
                 this['cfp_class'] = 'cfp_future'
 
-    def handle_diversity(self, this):
+    def check_diversity(self, this):
         diversity = this.get('diversitytickets')
         if diversity:
             if not re.search(r'^\d+$', diversity):
                 raise CATerror('ERROR 25: diversitytickets must be a number. Use diversitytickets_url and diversitytickets_text for alternatives {}'.format(this))
 
-    def handle_social(self, this, filename):
+    def check_social(self, this, filename):
         if 'twitter' in this and this['twitter'] != '':
             if not re.search(r'^[a-zA-Z0-9_]+$', this['twitter']):
                 raise CATerror('ERROR 26: Invalid twitter handle "{}" in {}'.format(this['twitter'], filename))
@@ -307,7 +307,7 @@ class GenerateSite(object):
 
 
 
-    def handle_location(self, filename, this):
+    def check_location(self, filename, this):
         if 'location' not in this or not this['location']:
             raise CATerror('ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file {}.'.format(filename))
         location = this['location']
@@ -371,7 +371,7 @@ class GenerateSite(object):
         if this['event_start'] >= self.now:
             self.stats['countries'][country_page]['future'] += 1
 
-    def handle_tags(self, filename, this):
+    def check_tags(self, filename, this):
         my_topics = []
         #print(this)
         if 'tags' not in this:
