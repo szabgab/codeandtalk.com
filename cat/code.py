@@ -202,9 +202,9 @@ class GenerateSite(object):
                 self.check_website(this, filename)
                 self.check_diversity(this)
                 self.check_social(this, filename)
-                self.check_location(filename, this)
-                self.check_tags(filename, this)
-                self.check_comments(filename, this)
+                self.check_location(this, filename)
+                self.check_tags(this, filename)
+                self.check_comments(this, filename)
                 self.events[ this['nickname'] ] = this
             except CATerror:
                 raise
@@ -245,7 +245,7 @@ class GenerateSite(object):
         if not current_fields.issubset(valid_fields):
             raise CATerror('ERROR 52: Invalid fields {}. {}'.format(current_fields - valid_fields, filename))
 
-    def check_comments(self, filename, this):
+    def check_comments(self, this, filename):
         if 'private_comments' in this:
             if this['private_comments'].__class__.__name__ != 'str':
                 raise CATerror('ERROR 51: The "private_comments" field must be a simple string. {}'.format(filename))
@@ -307,7 +307,7 @@ class GenerateSite(object):
 
 
 
-    def check_location(self, filename, this):
+    def check_location(self, this, filename):
         if 'location' not in this or not this['location']:
             raise CATerror('ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file {}.'.format(filename))
         location = this['location']
@@ -371,7 +371,7 @@ class GenerateSite(object):
         if this['event_start'] >= self.now:
             self.stats['countries'][country_page]['future'] += 1
 
-    def check_tags(self, filename, this):
+    def check_tags(self, this, filename):
         my_topics = []
         #print(this)
         if 'tags' not in this:
