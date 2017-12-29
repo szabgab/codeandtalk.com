@@ -305,6 +305,10 @@ class GenerateSite(object):
             if not re.search(r'^https?://www.facebook.com/', this['facebook']):
                 raise CATerror('ERROR 28: Invalid facebook entry "{}" in {}. Include entire Facebook URL.'.format(this['facebook'], filename))
 
+        if 'hashtag' in this and this['hashtag'] != '':
+            if not re.search(r'^[אפa-zA-Z0-9_]+$', this['hashtag']):
+                raise CATerror('ERROR 53: Invalid hashtag handle "{}" in {}'.format(this['hashtag'], filename))
+
 
 
     def check_location(self, this, filename):
