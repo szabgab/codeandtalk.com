@@ -33,7 +33,6 @@ the best cours of acction is to edit this file and add a comment to the line wit
 
 
 * https://twitter.com/lonestarruby <--- website returned 403 Forbidden on 2017.12.25 --->
-* https://twitter.com/nordicapis
 * https://twitter.com/target_rug
 * https://twitter.com/knode_io
 * https://twitter.com/oreillyhardware
