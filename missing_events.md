@@ -837,7 +837,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/phpconferences
 * https://twitter.com/boosterconf
 * https://twitter.com/webrtccamp
-* https://twitter.com/rockymtnruby
+
 * https://twitter.com/devconfu
 * https://twitter.com/sqlsat
 * https://twitter.com/opentechcal
