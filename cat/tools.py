@@ -1,4 +1,16 @@
 from datetime import datetime
+import json
+
+def read_json(filename):
+    # catapp.logger.debug("Reading '{}'".format(filename))
+    try:
+        with open(filename) as fh:
+            data = json.loads(fh.read())
+    except Exception as e:
+        # catapp.logger.error("Reading '{}' {}".format(filename, e))
+        data = {}
+        pass
+    return data
 
 def in_sec(length):
     parts = [int(x) for x in length.split(':')]
