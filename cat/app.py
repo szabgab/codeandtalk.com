@@ -89,7 +89,7 @@ def conferences():
     return render_template('list.html',
         h1          = 'Open Source conferences',
         title       = 'Open Source conferences',
-        conferences = _future(cat),
+        conferences = tools.future(cat),
         stats       = cat['stats'],
         cal         = 'all.ics',
     )
@@ -376,7 +376,7 @@ def calendar(location = None, tag = None):
         future, past = events_by_tag(cat, tag)
         prodid = 't/{}'.format(tag)
     else:
-        future = _future(cat)
+        future = tools.future(cat)
         prodid = 'all'
 
     if not future:
@@ -645,10 +645,6 @@ def _read_json(filename):
         data = {}
         pass
     return data
-
-def _future(cat):
-    now = datetime.now().strftime('%Y-%m-%d')
-    return sorted(list(filter(lambda e: e['event_start'] >= now, cat["events"].values())), key = lambda e: e['event_start'])
 
 def _calendar(prodid, events):
     dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
