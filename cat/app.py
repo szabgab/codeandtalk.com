@@ -8,7 +8,7 @@ import urllib
 import sys
 
 root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
-sys.path.append(root)
+sys.path.insert(0, root)
 from cat import tools
 
 catapp = Flask(__name__)
