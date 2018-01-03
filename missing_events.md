@@ -35,7 +35,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/lonestarruby <--- website returned 403 Forbidden on 2017.12.25 --->
 * https://twitter.com/target_rug
 * https://twitter.com/knode_io <--- no response on 2018.01.04 --->
-* https://twitter.com/oreillyhardware
+* https://twitter.com/oreillyhardware <--- website returned 404 Error on 2018.01.04 --->
 * https://twitter.com/rubyconferences
 * https://twitter.com/rubynation
 * https://twitter.com/scipyindia
