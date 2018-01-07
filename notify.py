@@ -5,7 +5,7 @@ from jinja2 import Environment, PackageLoader
 
 env =  Environment(loader=PackageLoader('cat'))
 template = env.get_template('email.html')
-
+# add in e-mail from https://docs.python.org/3.4/library/email-examples.html
 root = os.path.dirname((os.path.realpath(__file__)))
 sys.path.insert(0, root)
 from cat import tools
