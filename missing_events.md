@@ -161,7 +161,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/nescalas
 * https://twitter.com/cultivatecon
 * https://twitter.com/codedazeconf
-* https://twitter.com/yowlambdajam
+* https://twitter.com/yowlambdajam - 2018 done, earlier not
 * https://twitter.com/goruco
 * https://twitter.com/altconference
 * https://twitter.com/agileisrael
@@ -421,7 +421,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/digpensw
 * https://twitter.com/devweek
 * https://twitter.com/jquerysf
-* https://twitter.com/yow_conf
+* https://twitter.com/yow_conf - YOW Data 2018 done, others are not
 * https://twitter.com/openhelpconf
 * https://twitter.com/official_gdc
 * https://twitter.com/codemotionworld
