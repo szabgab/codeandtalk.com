@@ -34,7 +34,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 
 * https://twitter.com/lonestarruby <--- website returned 403 Forbidden on 2017.12.25 --->
 * https://twitter.com/target_rug
-* https://twitter.com/knode_io
+* https://twitter.com/knode_io <--- no response on 2018.01.04 --->
 * https://twitter.com/oreillyhardware
 * https://twitter.com/rubyconferences
 * https://twitter.com/rubynation
@@ -837,7 +837,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/phpconferences
 * https://twitter.com/boosterconf
 * https://twitter.com/webrtccamp
-* https://twitter.com/rockymtnruby
+
 * https://twitter.com/devconfu
 * https://twitter.com/sqlsat
 * https://twitter.com/opentechcal
