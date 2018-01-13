@@ -588,7 +588,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/droidconbe
 * https://twitter.com/springone2gx
 * https://twitter.com/madexpo
-* https://twitter.com/codeonthebeach
+
 * https://twitter.com/ccppycon
 * https://twitter.com/dotswift
 * https://twitter.com/islayconf
@@ -920,7 +920,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/javacro
 * https://twitter.com/uxcampdc
 * https://twitter.com/pgdayeu
-* https://twitter.com/nerdsummit
+
 * https://twitter.com/rubyconfar
 * https://twitter.com/pnwscala
 * https://twitter.com/scotlandcss
@@ -934,7 +934,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/windycitythings
 * https://twitter.com/hackidcon
 * https://twitter.com/databythebay
-* https://twitter.com/pytexas
+
 * https://twitter.com/indieconf
 * https://twitter.com/iasummit
 * https://twitter.com/openstreetmapus
