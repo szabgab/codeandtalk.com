@@ -161,7 +161,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/nescalas
 * https://twitter.com/cultivatecon
 * https://twitter.com/codedazeconf
-* https://twitter.com/yowlambdajam - 2018 done, earlier not
+* https://twitter.com/yowlambdajam <--- 2018 done 2018.01.13 --->
 * https://twitter.com/goruco
 * https://twitter.com/altconference
 * https://twitter.com/agileisrael
@@ -421,7 +421,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/digpensw
 * https://twitter.com/devweek
 * https://twitter.com/jquerysf
-* https://twitter.com/yow_conf - YOW Data 2018 done, others are not
+* https://twitter.com/yow_conf <-- YOW Data 2018 done 2018.01.13 --->
 * https://twitter.com/openhelpconf
 * https://twitter.com/official_gdc
 * https://twitter.com/codemotionworld
@@ -473,7 +473,6 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/webtechconf
 * https://twitter.com/secondconf
 * https://twitter.com/monktoberfest
-* https://twitter.com/chefconf
 * https://twitter.com/btvrubyconf
 * https://twitter.com/mm_conf
 * https://twitter.com/wildcardconf
@@ -876,7 +875,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/netconfuy
 * https://twitter.com/reactweek
 * https://twitter.com/fudconin
-* https://twitter.com/codemash
+* https://twitter.com/codemash  <--- 2018 done 2018.01.14 --->
 * https://twitter.com/pygotham
 * https://twitter.com/nodefest
 * https://twitter.com/wrocloverb
@@ -937,19 +936,20 @@ the best cours of acction is to edit this file and add a comment to the line wit
 
 * https://twitter.com/indieconf
 * https://twitter.com/iasummit
-* https://twitter.com/openstreetmapus
+* https://twitter.com/openstreetmapus  <--- looking to set up 2018 2018.01.14 --->
 * https://twitter.com/moscmy
 * https://twitter.com/jrubyconfeu
-* https://twitter.com/mobdeliverydays
+* https://twitter.com/mobdeliverydays  <--- website gone 2018.01.14 --->
 * https://twitter.com/devrel_net
-* https://twitter.com/lambdajam
+* https://twitter.com/lambdajam  <--- became yowlambdajam in 2017 2018.01.14 --->
 * https://twitter.com/droidconit
 * https://twitter.com/apiworld
 * https://twitter.com/euroscipy
 * https://twitter.com/bigandroidbbq
 * https://twitter.com/drupalconfmsk
-* https://twitter.com/jsconfbr
-
+* https://twitter.com/pytexas  <--- 2017 done  2018.01.13 --->
+* https://twitter.com/NERDsummit  <--- 2018 done 2018.01.13 --->
+* https://twitter.com/CodeOnTheBeach  <--- 2018 done 2018.01.13 --->
 
 * https://twitter.com/percona
 
