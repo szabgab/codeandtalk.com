@@ -1,12 +1,18 @@
 import json
+import logging
 import os
 import sys
 import smtplib
-from jinja2 import Environment, PackageLoader
-
+from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from email.mime.multipart import MIMEMultipart
+from jinja2 import Environment, PackageLoader
+
+logging.basicConfig()
+logger = logging.getLogger()
+logger.setLevel(logging.DEBUG)
+
+
 
 env =  Environment(loader=PackageLoader('cat'))
 template = env.get_template('email.html')
@@ -19,9 +25,14 @@ from cat.tools import read_json
 with open('subscribers.json', 'r') as fh:
   subscriptions = json.load(fh)
 
-print(subscriptions)
+logger.debug(subscriptions)
 
-cat = read_json(root + '/html/cat.json')
+db_file = root + '/html/cat.json'
+
+cat = read_json(db_file)
+if not 'events' in cat:
+    raise ValueError("key events is missing in {}, please generate db file (see readme)".format(db_file))
+
 conferences = tools.future(cat)
 
 html =template.render(
@@ -36,7 +47,6 @@ you = "me@email"
 msg = MIMEMultipart('alternative')
 msg['Subject'] = "Upcoming Events"
 msg['From'] = me
-msg['To'] = you
 
 part1 = MIMEText(text, 'plain')
 part2 = MIMEText(html, 'html')
@@ -44,12 +54,17 @@ part2 = MIMEText(html, 'html')
 msg.attach(part1)
 msg.attach(part2)
 
-#s = smtplib.SMTP('localhost')
-#s.sendmail(me, you, msg.as_string())
-#s.quit()
+s = smtplib.SMTP('localhost')
+for subs in subscriptions:
+    to = subs['email']
+    msg['To'] =  '{name} <{email}>'.format(**subs)
+    logger.debug(msg)
+    s.sendmail(me, to, msg.as_string())
+s.quit()
 
 
-with open ("file.txt", "wb") as fout:
-    fout.write (bytes(msg))
+# with open ("file.txt", "wb") as fout:
+#     fout.write (bytes(msg))
+
 
 
