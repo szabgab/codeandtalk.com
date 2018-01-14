@@ -8,15 +8,16 @@ import urllib
 import sys
 
 root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
-sys.path.append(root)
+sys.path.insert(0, root)
 from cat import tools
+from cat.tools import read_json
 
 catapp = Flask(__name__)
 catapp.config['PROPAGATE_EXCEPTIONS'] = True
 
 @catapp.route("/")
 def main():
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     return render_template('index.html',
         h1          = 'Presentations from tech events worth watching',
         title       = 'Conferences, Videos, Podcasts, and People',
@@ -26,7 +27,7 @@ def main():
 @catapp.route("/featured-by-date")
 @catapp.route("/featured")
 def featured():
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     now = datetime.now().strftime('%Y-%m-%d')
     featured_by_date = {}
     featured_by_blaster = {}
@@ -67,7 +68,7 @@ def featured():
 
 @catapp.route("/about")
 def about(filename = None):
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     return render_template('about.html',
         h1          = 'About Code And Talk',
         title       = 'About Code And Talk',
@@ -76,7 +77,7 @@ def about(filename = None):
 
 @catapp.route("/contribute")
 def contribute(filename = None):
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     return render_template('contribute.html',
         h1          = 'Contribute to Code And Talk',
         title       = 'Contribute to Code And Talk',
@@ -85,17 +86,17 @@ def contribute(filename = None):
 
 @catapp.route("/conferences")
 def conferences():
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     return render_template('list.html',
         h1          = 'Open Source conferences',
         title       = 'Open Source conferences',
-        conferences = _future(cat),
+        conferences = tools.future(cat),
         stats       = cat['stats'],
         cal         = 'all.ics',
     )
 @catapp.route("/all-conferences")
 def all_conferences():
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     events = []
     for nick in cat['events'].keys():
         event = copy.deepcopy(cat['events'][nick])
@@ -111,7 +112,7 @@ def all_conferences():
 
 @catapp.route("/cfp")
 def cfp_conferences():
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     now = datetime.now().strftime('%Y-%m-%d')
     cfp = sorted(list(filter(lambda e: 'cfp_end' in e and e['cfp_end'] >= now, cat["events"].values())), key = lambda e: e['event_start'])
     return render_template('list.html',
@@ -122,7 +123,7 @@ def cfp_conferences():
 
 @catapp.route("/code-of-conduct")
 def code_of_conduct():
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     now = datetime.now().strftime('%Y-%m-%d')
 
     no_code = list(filter(lambda e: not e.get('code_of_conduct'), cat['events'].values()))
@@ -136,7 +137,7 @@ def code_of_conduct():
 
 @catapp.route("/diversity-tickets")
 def diversity_tickets():
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     now = datetime.now().strftime('%Y-%m-%d')
 
     diversity_tickets = list(filter(lambda e: e.get('diversitytickets'), cat['events'].values()))
@@ -151,7 +152,7 @@ def diversity_tickets():
 
 @catapp.route("/blasters")
 def blasters():
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     return render_template('blasters.html',
         h1           = 'Blasters - get notified about new videos',
         title        = 'Blasters',
@@ -171,7 +172,7 @@ def videos():
     if maxtime:
         max_sec = tools.in_sec(maxtime)
 
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     results = []
     if term != '' or mindate or maxdate or mintime or maxtime:
         for v in cat['videos']:
@@ -217,7 +218,7 @@ def videos():
 @catapp.route("/people")
 def people():
     term = _term()
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     ppl = cat['people']
     result = {}
     if term != '':
@@ -243,7 +244,7 @@ def people():
 
 @catapp.route("/series")
 def series():
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     return render_template('series.html',
         h1     = 'Event Series',
         title  = 'Event Series',
@@ -254,7 +255,7 @@ def series():
 @catapp.route("/countries")
 @catapp.route("/cities")
 def serve_collections():
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     now = datetime.now().strftime('%Y-%m-%d')
     directories = {
         '/topics'    : 't',
@@ -291,7 +292,7 @@ def serve_collections():
 
 @catapp.route("/v/<event>/<filename>")
 def show_video(event = None, filename = None):
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     for vid in cat['videos']:
         if vid['event'] == event and vid['filename'] == filename:
             video = vid
@@ -323,7 +324,7 @@ def show_video(event = None, filename = None):
 
 @catapp.route("/p/<nickname>")
 def show_person(nickname = None):
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
 
     if nickname not in cat['people']:
         return not_found()
@@ -367,7 +368,7 @@ def show_person(nickname = None):
 @catapp.route("/cal/l/<location>.ics")
 @catapp.route("/cal/t/<tag>.ics")
 def calendar(location = None, tag = None):
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
 
     if location:
         name, future, past = events_in_location(cat, location)
@@ -376,7 +377,7 @@ def calendar(location = None, tag = None):
         future, past = events_by_tag(cat, tag)
         prodid = 't/{}'.format(tag)
     else:
-        future = _future(cat)
+        future = tools.future(cat)
         prodid = 'all'
 
     if not future:
@@ -388,7 +389,7 @@ def calendar(location = None, tag = None):
 
 @catapp.route("/t/<tag>")
 def by_tag(tag):
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     now = datetime.now().strftime('%Y-%m-%d')
 
     future, earlier = events_by_tag(cat, tag)
@@ -421,7 +422,7 @@ def by_tag(tag):
 # event
 @catapp.route("/e/<nickname>")
 def event(nickname):
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     if nickname not in cat['events']:
         return not_found()
     event = copy.deepcopy(cat['events'][nickname])
@@ -463,7 +464,7 @@ def event(nickname):
 
 @catapp.route("/l/<location>")
 def location(location):
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
 
     name, future, past = events_in_location(cat, location)
     if future == None:
@@ -481,7 +482,7 @@ def location(location):
 
 @catapp.route("/sitemap.xml")
 def sitemap():
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     now = datetime.now().strftime('%Y-%m-%d')
 
     sitemap = []
@@ -542,7 +543,7 @@ def sitemap():
 
 @catapp.route("/s/<source>")
 def show_episodes(source):
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     for p in cat['podcasts']:
         if p['name'] == source:
             podcast = copy.deepcopy(p)
@@ -566,7 +567,7 @@ def show_episodes(source):
 
 @catapp.route("/podcasts")
 def show_podcasts():
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     return render_template('podcasts.html',
        h1      = 'List of podcasts',
        title   = 'List of podcasts',
@@ -602,7 +603,7 @@ def static_file(filename = None):
 
 @catapp.route("/blaster/<nickname>")
 def show_blaster(nickname):
-    cat = _read_json(root + '/html/cat.json')
+    cat = read_json(root + '/html/cat.json')
     for b in cat['blasters']:
         if b['file'] == nickname:
             blaster = b
@@ -634,21 +635,6 @@ def _term(field = 'term'):
     value = value.lower()
     value = re.sub(r'^\s*(.*?)\s*$', r'\1', value)
     return value
-
-def _read_json(filename):
-    catapp.logger.debug("Reading '{}'".format(filename))
-    try:
-        with open(filename) as fh:
-            data = json.loads(fh.read())
-    except Exception as e:
-        catapp.logger.error("Reading '{}' {}".format(filename, e))
-        data = {}
-        pass
-    return data
-
-def _future(cat):
-    now = datetime.now().strftime('%Y-%m-%d')
-    return sorted(list(filter(lambda e: e['event_start'] >= now, cat["events"].values())), key = lambda e: e['event_start'])
 
 def _calendar(prodid, events):
     dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
