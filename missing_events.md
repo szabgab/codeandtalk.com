@@ -944,9 +944,9 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/lambdajam  <--- became yowlambdajam in 2017 2018.01.14 --->
 * https://twitter.com/droidconit
 * https://twitter.com/apiworld
-* https://twitter.com/euroscipy
-* https://twitter.com/bigandroidbbq
-* https://twitter.com/drupalconfmsk
+* https://twitter.com/euroscipy <--- 2018 dates not set 2018.01.15 --->
+* https://twitter.com/bigandroidbbq <--- 2016 done, 2010-2015 dates on FB, defunct 2018.01.15 --->
+* https://twitter.com/drupalconfmsk <--- inactive since 2012, website gone 2018.01.15 --->
 * https://twitter.com/pytexas  <--- 2017 done  2018.01.13 --->
 * https://twitter.com/NERDsummit  <--- 2018 done 2018.01.13 --->
 * https://twitter.com/CodeOnTheBeach  <--- 2018 done 2018.01.13 --->
