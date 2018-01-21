@@ -245,10 +245,14 @@ def people():
 @catapp.route("/series")
 def series():
     cat = read_json(root + '/html/cat.json')
+    series = copy.deepcopy(cat['series'])
+    for v in series.values():
+        for e in v['events']:
+            e['year'] = e['event_start'][0:4]
     return render_template('series.html',
         h1     = 'Event Series',
         title  = 'Event Series',
-        series = cat['series'],
+        series = series,
     )
 
 @catapp.route("/topics")
