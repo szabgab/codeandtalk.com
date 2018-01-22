@@ -52,7 +52,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/xpconf
 * https://twitter.com/bsdcan
 * https://twitter.com/ixdconf
-* https://twitter.com/rustbeltrefresh
+
 * https://twitter.com/bangbangcon
 * https://twitter.com/nervescamp
 * https://twitter.com/thepghtechfest
