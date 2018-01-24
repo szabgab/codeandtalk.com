@@ -68,7 +68,7 @@
     </div>
     {% endif %}
   </div>
-  
+
   <div class="wrapper__unit">
     {% if series %}
     <h3>Related events:</h3>
@@ -79,6 +79,14 @@
            {% endif %}
        {% endfor %}
     </ul>
+    {% endif %}
+  </div>
+
+  <div class="wrapper__unit">
+    {% if event['twitter'] %}
+    <a class="twitter-timeline" data-width="500" data-height="600"
+       href="https://twitter.com/{{ event['twitter'] }}">Tweets</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     {% endif %}
   </div>
 
