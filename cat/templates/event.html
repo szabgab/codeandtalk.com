@@ -21,8 +21,8 @@
       <li>Start date: {{ event['event_start'] }}</li>
       <li>End date: {{ event['event_end'] }}</li>
       <li>Location:
-        {% if event['location']['city'] %}{{ event['location']['city'] }}{% endif %}
-        {% if event['location']['state'] %}{{ event['location']['state'] }}{% endif %}
+        {% if event['location']['city'] %}{{ event['location']['city'] }}, {% endif %}
+        {% if event['location']['state'] %}{{ event['location']['state'] }}, {% endif %}
         {% if event['location']['country'] %}<a href="/l/{{ event['country_page'] }}">{{ event['location']['country'] }}</a>{% endif %}
       </li>
     </ul>
