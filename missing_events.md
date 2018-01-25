@@ -43,7 +43,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/nvdacon
 * https://twitter.com/ancientcityruby
 * https://twitter.com/netdayfranken
-* 
+*
 * https://twitter.com/agileroots
 * https://twitter.com/ast_news
 * https://twitter.com/theweeklycfp
@@ -53,7 +53,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/bsdcan
 * https://twitter.com/ixdconf
 
-* https://twitter.com/bangbangcon
+
 * https://twitter.com/nervescamp
 * https://twitter.com/thepghtechfest
 * https://twitter.com/iottechcon
@@ -962,4 +962,3 @@ the best cours of acction is to edit this file and add a comment to the line wit
 old:
 
 * https://twitter.com/whartonwebconf
-
