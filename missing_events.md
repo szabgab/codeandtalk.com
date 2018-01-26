@@ -805,7 +805,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/py_bay
 * https://twitter.com/jsconfin
 * https://twitter.com/metarefresh
-* https://twitter.com/elixirconf <--- 2017 done 2018.01.25 --->
+
 * https://twitter.com/tweriod
 * https://twitter.com/symfonycon
 * https://twitter.com/pyconlt
@@ -952,7 +952,6 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/CodeOnTheBeach  <--- 2018 done 2018.01.13 --->
 
 * https://twitter.com/percona
-
 
 
 
