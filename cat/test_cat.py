@@ -231,10 +231,10 @@ class TestValidation(object):
             'ERROR 19: The "state" field is missing. See docs/EVENTS.md. In file',
             'ERROR 20: The "country" field is missing. See docs/EVENTS.md. In file',
             'ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file',
-            # [
-            #     'ERROR 20: The "country" field is missing. See docs/EVENTS.md. In file',
-            #     'ERROR 18: The "city" field is missing. See docs/EVENTS.md. In file',
-            # ],
+            [
+                'ERROR 20: The "country" field is missing. See docs/EVENTS.md. In file',
+                'ERROR 18: The "city" field is missing. See docs/EVENTS.md. In file',
+            ],
         ]
         print("Temp dir: ", tmpdir)
         for cnt in range(len(errors)):
