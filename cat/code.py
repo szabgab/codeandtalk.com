@@ -256,9 +256,10 @@ class GenerateSite(object):
 
     def check_name(self, this, filename):
        if 'name' not in this or this['name'] == '':
-           raise CATerror('ERROR 15: Missing or empty "name" field in {}'.format(filename))
+           this['errors'].append('ERROR 15: Missing or empty "name" field in {}'.format(filename))
+           return
        if re.search(r'\d\d\d\d\s*$', this['name']):
-           raise CATerror('ERROR 16: The conference "name" should not include the year. Seen in {}'.format(filename))
+           this['errors'].append('ERROR 16: The conference "name" should not include the year. Seen in {}'.format(filename))
 
 
     def check_website(self, this, filename):
@@ -388,10 +389,11 @@ class GenerateSite(object):
         my_topics = []
         #print(this)
         if 'tags' not in this:
-            raise CATerror('ERROR 29: tags missing from {}'.format(p))
+            this['errors'].append('ERROR 29: tags missing from {}'.format(p))
+            return
         for t in this['tags']:
             if t not in self.tags:
-                raise CATerror('ERROR 14: Tag "{}" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file {}'.format(t, filename))
+                this['errors'].append('ERROR 14: Tag "{}" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file {}'.format(t, filename))
             my_topics.append({
                 'name' : t,
                 'path' : t,
@@ -401,7 +403,8 @@ class GenerateSite(object):
         for tag in this['topics']:
             p = tag['path']
             if p not in self.tags:
-                raise CATerror('ERROR 30: Missing tag "{}"'.format(p))
+                this['errors'].append('ERROR 30: Missing tag "{}"'.format(p))
+                continue
             #self.tags[p]['events'].append(this)
             self.tags[p]['total'] += 1
             if this['event_start'] >= self.now:

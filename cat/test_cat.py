@@ -235,6 +235,12 @@ class TestValidation(object):
                 'ERROR 20: The "country" field is missing. See docs/EVENTS.md. In file',
                 'ERROR 18: The "city" field is missing. See docs/EVENTS.md. In file',
             ],
+            [
+                'ERROR 14: Tag "qqrq" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file',
+                'ERROR 14: Tag "blabla" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file',
+                'ERROR 16: The conference "name" should not include the year. Seen in',
+                'ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file',
+            ]
         ]
         print("Temp dir: ", tmpdir)
         for cnt in range(len(errors)):
