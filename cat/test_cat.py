@@ -242,6 +242,7 @@ class TestValidation(object):
                 'ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file',
             ]
         ]
+        test_data_dir = 'test_data'
         print("Temp dir: ", tmpdir)
         for cnt in range(len(errors)):
             if errors[cnt] == None:
@@ -252,8 +253,8 @@ class TestValidation(object):
             tmp_dir = str(tmpdir)   # needed for Python older than 3.6 ??
             for filename in ['locations.json', 'series.json', 'tags.json']:
                 shutil.copyfile(os.path.join('data', filename), os.path.join(tmp_dir, test_dir_name, filename))
-            for filename in os.listdir(os.path.join('test_data', test_dir_name, 'events')):
-                shutil.copyfile(os.path.join('test_data', test_dir_name, 'events', filename), os.path.join(tmp_dir, test_dir_name, 'events', filename))
+            for filename in os.listdir(os.path.join(test_data_dir, test_dir_name, 'events')):
+                shutil.copyfile(os.path.join(test_data_dir, test_dir_name, 'events', filename), os.path.join(tmp_dir, test_dir_name, 'events', filename))
             os.environ['CAT_TEST'] = os.path.join(tmp_dir, test_dir_name)
             with pytest.raises(CATerror) as err:
                 GenerateSite().generate_site()
