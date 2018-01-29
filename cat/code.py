@@ -172,11 +172,12 @@ class GenerateSite(object):
         for filename in glob.glob(os.path.join(self.data, 'events', '*')):
             logging.info('processing {}'.format(filename))
             if filename[-5:] != '.json':
-                raise CATerror('ERROR 7: filename is not .json file. "{}"'.format(filename))
+                self.errors.append('ERROR 7: filename is not .json file. "{}"'.format(filename))
+                continue
             if filename[len(self.data):] != filename[len(self.data):].lower():
-                raise CATerror('ERROR 6: filename is not all lower case. "{}"'.format(filename))
+                self.errors.append('ERROR 6: filename is not all lower case. "{}"'.format(filename))
             if not re.search('^[a-z0-9-]+\.json$', os.path.basename(filename)):
-                raise CATerror('ERROR 8: filename has characters that are not accepted (a-z0-9-). "{}"'.format(os.path.basename(filename)))
+                self.errors.append('ERROR 8: filename has characters that are not accepted (a-z0-9-). "{}"'.format(os.path.basename(filename)))
             #print("Reading {}".format(filename))
             conf = {}
             try:
@@ -196,9 +197,8 @@ class GenerateSite(object):
                 try:
                     nickname.index(event_year)
                 except ValueError:
-                    raise CATerror('ERROR 9: Invalid file name. Should contain the year "{}". In file "{}".'.format(event_year, filename))
+                    self.errors.append('ERROR 9: Invalid file name. Should contain the year "{}". In file "{}".'.format(event_year, filename))
 
-                self.errors = []
                 self.check_fields(this, filename)
                 self.check_name(this, filename)
                 self.check_website(this, filename)
@@ -247,12 +247,12 @@ class GenerateSite(object):
         ])
         current_fields = set(this.keys())
         if not current_fields.issubset(valid_fields):
-            raise CATerror('ERROR 52: Invalid fields {}. {}'.format(current_fields - valid_fields, filename))
+            self.errors.append('ERROR 52: Invalid fields {}. {}'.format(current_fields - valid_fields, filename))
 
     def check_comments(self, this, filename):
         if 'private_comments' in this:
             if this['private_comments'].__class__.__name__ != 'str':
-                raise CATerror('ERROR 51: The "private_comments" field must be a simple string. {}'.format(filename))
+                self.errors.append('ERROR 51: The "private_comments" field must be a simple string. {}'.format(filename))
 
     def check_name(self, this, filename):
        if 'name' not in this or this['name'] == '':
@@ -264,23 +264,23 @@ class GenerateSite(object):
 
     def check_website(self, this, filename):
        if 'website' not in this or not re.search(r'^https?://.{8}', this['website']):
-           raise CATerror('ERROR 17: Missing or invalid "website" field in {}'.format(filename))
+           self.errors.append('ERROR 17: Missing or invalid "website" field in {}'.format(filename))
 
     def check_dates(self, this, filename):
         date_format =  r'^\d\d\d\d-\d\d-\d\d$'
         for f in ['event_start', 'event_end', 'cfp_end']:
             if f in this and this[f] and not re.search(date_format, this[f]):
-                raise CATerror('ERROR 22: Invalid {} {} in {}'.format(f, this[f], filename))
+                self.errors.append('ERROR 22: Invalid {} {} in {}'.format(f, this[f], filename))
 
         start_date = datetime.strptime(this['event_start'], '%Y-%m-%d')
         end_date = datetime.strptime(this['event_end'], '%Y-%m-%d')
         if end_date < start_date :
-            raise CATerror('ERROR 23: Invalid event dates (Start after End) in {}'.format(filename))
+            self.errors.append('ERROR 23: Invalid event dates (Start after End) in {}'.format(filename))
 
         if 'cfp_end' in this and this['cfp_end']:
             cfp_date = datetime.strptime(this['cfp_end'], '%Y-%m-%d')
             if cfp_date > start_date:
-                raise CATerror('ERROR 24: Invalid CFP date (CFP after Start) in {}'.format(filename))
+                self.errors.append('ERROR 24: Invalid CFP date (CFP after Start) in {}'.format(filename))
 
         this['cfp_class'] = 'cfp_none'
         cfp = this.get('cfp_end', '')
@@ -294,25 +294,25 @@ class GenerateSite(object):
         diversity = this.get('diversitytickets')
         if diversity:
             if not re.search(r'^\d+$', diversity):
-                raise CATerror('ERROR 25: diversitytickets must be a number. Use diversitytickets_url and diversitytickets_text for alternatives {}'.format(this))
+                self.errors.append('ERROR 25: diversitytickets must be a number. Use diversitytickets_url and diversitytickets_text for alternatives {}'.format(this))
 
     def check_social(self, this, filename):
         if 'twitter' in this and this['twitter'] != '':
             if not re.search(r'^[a-zA-Z0-9_]+$', this['twitter']):
-                raise CATerror('ERROR 26: Invalid twitter handle "{}" in {}'.format(this['twitter'], filename))
+                self.errors.append('ERROR 26: Invalid twitter handle "{}" in {}'.format(this['twitter'], filename))
 
         if 'youtube' in this and this['youtube'] != '' and this['youtube'] != '-':
             #if not re.search(r'^P[a-zA-Z0-9_-]+$', this['youtube']):
             if re.search(r'https?://', this['youtube']):
-                raise CATerror('ERROR 27: Invalid youtube playlist "{}" in {}'.format(this['youtube'], filename))
+                self.errors.append('ERROR 27: Invalid youtube playlist "{}" in {}'.format(this['youtube'], filename))
 
         if 'facebook' in this and this['facebook'] != '':
             if not re.search(r'^https?://www.facebook.com/', this['facebook']):
-                raise CATerror('ERROR 28: Invalid facebook entry "{}" in {}. Include entire Facebook URL.'.format(this['facebook'], filename))
+                self.errors.append('ERROR 28: Invalid facebook entry "{}" in {}. Include entire Facebook URL.'.format(this['facebook'], filename))
 
         if 'hashtag' in this and this['hashtag'] != '':
             if not re.search(r'^[אפa-zA-Z0-9_]+$', this['hashtag']):
-                raise CATerror('ERROR 53: Invalid hashtag handle "{}" in {}'.format(this['hashtag'], filename))
+                self.errors.append('ERROR 53: Invalid hashtag handle "{}" in {}'.format(this['hashtag'], filename))
 
 
 
@@ -352,7 +352,7 @@ class GenerateSite(object):
             city_page = topic2path('{} {} {}'.format(location['city'], location['state'], location['country']))
         else:
             #if 'state' in location and location['state']:
-            #    raise CATerror('State {} should not be in {}'.format(location['state'], this))
+            #    self.errors.append('State {} should not be in {}'.format(location['state'], this))
             if location['city'] not in self.locations[ location['country'] ]:
                 self.errors.append('ERROR 11: The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['city'], filename))
    
@@ -419,7 +419,7 @@ class GenerateSite(object):
 
         for filename in glob.glob(os.path.join(path, '*.json')):
             if filename[len(self.root):] != filename[len(self.root):].lower():
-                raise CATerror('ERROR 31: filename is not all lower case. "{}"'.format(filename))
+                self.errors.append('ERROR 31: filename is not all lower case. "{}"'.format(filename))
             try:
                 this = {}
                 nickname = os.path.basename(filename)
@@ -432,14 +432,14 @@ class GenerateSite(object):
                         if f == 'topics':
                             for t in this[f]:
                                 if re.search(r'\s\Z', t):
-                                    raise CATerror('ERROR 32: Trailing space in "{}" {}'.format(f, filename))
+                                    self.errors.append('ERROR 32: Trailing space in "{}" {}'.format(f, filename))
                                 if re.search(r'\A\s', t):
-                                    raise CATerror('ERROR 33: Leading space in "{}" {}'.format(f, filename))
+                                    self.errors.append('ERROR 33: Leading space in "{}" {}'.format(f, filename))
                             continue
                         if re.search(r'\s\Z', this[f]):
-                            raise CATerror('ERROR 34: Trailing space in "{}" {}'.format(f, filename))
+                            self.errors.append('ERROR 34: Trailing space in "{}" {}'.format(f, filename))
                         if re.search(r'\A\s', this[f]):
-                            raise CATerror('ERROR 35: Leading space in "{} {}'.format(f, filename))
+                            self.errors.append('ERROR 35: Leading space in "{} {}'.format(f, filename))
 
                 if 'redirect' in this:
                     self.redirects.append({
@@ -473,7 +473,7 @@ class GenerateSite(object):
             except CATerror:
                 raise
             except Exception as e:
-                raise CATerror("ERROR 2: Unhanded error: {} in file {}".format(e, filename))
+                self.errors.append("ERROR 2: Unhanded error: {} in file {}".format(e, filename))
 
         return
 
