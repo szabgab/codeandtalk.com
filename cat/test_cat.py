@@ -242,7 +242,7 @@ class TestValidation(object):
                 'ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file',
             ]
         ]
-        test_data_dir = 'test_data'
+        test_data_dir = os.path.join('test_data', 'single')
         print("Temp dir: ", tmpdir)
         for cnt in range(len(errors)):
             if errors[cnt] == None:
