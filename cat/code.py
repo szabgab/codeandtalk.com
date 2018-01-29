@@ -48,6 +48,7 @@ class GenerateSite(object):
     def __init__(self):
         logging.basicConfig(filename='generate.log', level=logging.DEBUG)
 
+        self.errors = []
         self.root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         self.now = datetime.now().strftime('%Y-%m-%d')
         self.people = {}
@@ -198,7 +199,7 @@ class GenerateSite(object):
                     raise CATerror('ERROR 9: Invalid file name. Should contain the year "{}". In file "{}".'.format(event_year, filename))
 
                 self.check_fields(this, filename)
-                this['errors'] = []
+                self.errors = []
                 self.check_name(this, filename)
                 self.check_website(this, filename)
                 self.check_diversity(this)
@@ -211,9 +212,8 @@ class GenerateSite(object):
                 raise
 #            except Exception as e:
 #                raise CATerror("ERROR 1: Unhandled error: {} in file {}".format(e, filename))
-            if this['errors'] != []:
-                raise CATerror('\n'.join(this['errors']))
-            del this['errors']
+            if self.errors != []:
+                raise CATerror('\n'.join(self.errors))
         return
 
     def check_fields(self, this, filename):
@@ -256,10 +256,10 @@ class GenerateSite(object):
 
     def check_name(self, this, filename):
        if 'name' not in this or this['name'] == '':
-           this['errors'].append('ERROR 15: Missing or empty "name" field in {}'.format(filename))
+           self.errors.append('ERROR 15: Missing or empty "name" field in {}'.format(filename))
            return
        if re.search(r'\d\d\d\d\s*$', this['name']):
-           this['errors'].append('ERROR 16: The conference "name" should not include the year. Seen in {}'.format(filename))
+           self.errors.append('ERROR 16: The conference "name" should not include the year. Seen in {}'.format(filename))
 
 
     def check_website(self, this, filename):
@@ -318,19 +318,19 @@ class GenerateSite(object):
 
     def check_location(self, this, filename):
         if 'location' not in this or not this['location']:
-            this['errors'].append('ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file {}.'.format(filename))
+            self.errors.append('ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file {}.'.format(filename))
             return
         location = this['location']
 
         if 'city' not in location or not location['city']:
-            this['errors'].append('ERROR 18: The "city" field is missing. See docs/EVENTS.md. In file {}.'.format(filename))
+            self.errors.append('ERROR 18: The "city" field is missing. See docs/EVENTS.md. In file {}.'.format(filename))
 
         if not 'country' in location or not location['country']:
-            this['errors'].append('ERROR 20: The "country" field is missing. See docs/EVENTS.md. In file {}.'.format(filename))
+            self.errors.append('ERROR 20: The "country" field is missing. See docs/EVENTS.md. In file {}.'.format(filename))
             return
 
         if location['country'] not in self.locations:
-            this['errors'].append('ERROR 13: The value of country "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['country'], filename))
+            self.errors.append('ERROR 13: The value of country "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['country'], filename))
             return
 
         city_name = '{}, {}'.format(location['city'], location['country'])
@@ -340,13 +340,13 @@ class GenerateSite(object):
         # verify that the country/state/city exists as required and they are from the expected values
         if location['country'] in ['Australia', 'Brasil', 'Canada', 'India', 'USA', 'UK']:
             if 'state' not in location or not location['state']:
-                this['errors'].append('ERROR 19: The "state" field is missing. See docs/EVENTS.md. In file {}.'.format(filename))
+                self.errors.append('ERROR 19: The "state" field is missing. See docs/EVENTS.md. In file {}.'.format(filename))
             else:
                 if location['state'] not in self.locations[ location['country'] ]:
-                    this['errors'].append('ERROR 12: The value of state "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['state'], filename))
+                    self.errors.append('ERROR 12: The value of state "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['state'], filename))
                 else:
                     if location['city'] not in self.locations[ location['country'] ][ location['state'] ]:
-                        this['errors'].append('ERROR 10: The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['city'], filename))
+                        self.errors.append('ERROR 10: The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['city'], filename))
 
             city_name = '{}, {}, {}'.format(location['city'], location['state'], location['country'])
             city_page = topic2path('{} {} {}'.format(location['city'], location['state'], location['country']))
@@ -354,7 +354,7 @@ class GenerateSite(object):
             #if 'state' in location and location['state']:
             #    raise CATerror('State {} should not be in {}'.format(location['state'], this))
             if location['city'] not in self.locations[ location['country'] ]:
-                this['errors'].append('ERROR 11: The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['city'], filename))
+                self.errors.append('ERROR 11: The value of city "{}" is not in our list. If this was not a typo, add it to data/locations.json. Found in {}'.format(location['city'], filename))
    
 
         this['city_name'] = city_name
@@ -389,11 +389,11 @@ class GenerateSite(object):
         my_topics = []
         #print(this)
         if 'tags' not in this:
-            this['errors'].append('ERROR 29: tags missing from {}'.format(p))
+            self.errors.append('ERROR 29: tags missing from {}'.format(p))
             return
         for t in this['tags']:
             if t not in self.tags:
-                this['errors'].append('ERROR 14: Tag "{}" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file {}'.format(t, filename))
+                self.errors.append('ERROR 14: Tag "{}" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file {}'.format(t, filename))
             my_topics.append({
                 'name' : t,
                 'path' : t,
@@ -403,7 +403,7 @@ class GenerateSite(object):
         for tag in this['topics']:
             p = tag['path']
             if p not in self.tags:
-                this['errors'].append('ERROR 30: Missing tag "{}"'.format(p))
+                self.errors.append('ERROR 30: Missing tag "{}"'.format(p))
                 continue
             #self.tags[p]['events'].append(this)
             self.tags[p]['total'] += 1
