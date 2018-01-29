@@ -198,8 +198,8 @@ class GenerateSite(object):
                 except ValueError:
                     raise CATerror('ERROR 9: Invalid file name. Should contain the year "{}". In file "{}".'.format(event_year, filename))
 
-                self.check_fields(this, filename)
                 self.errors = []
+                self.check_fields(this, filename)
                 self.check_name(this, filename)
                 self.check_website(this, filename)
                 self.check_diversity(this)
@@ -212,8 +212,8 @@ class GenerateSite(object):
                 raise
 #            except Exception as e:
 #                raise CATerror("ERROR 1: Unhandled error: {} in file {}".format(e, filename))
-            if self.errors != []:
-                raise CATerror('\n'.join(self.errors))
+        if self.errors != []:
+            raise CATerror('\n'.join(self.errors))
         return
 
     def check_fields(self, this, filename):
