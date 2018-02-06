@@ -597,11 +597,16 @@ class GenerateSite(object):
             else:
                 #TODO: create series for every event and then turn on the exception?
                 #print("Event without series: {}".format(event['nickname']))
-                #raise CATerror('ERROR 41: Event without series: {}'.format(event['nickname']))
+                #self.errors.append('ERROR 41: Event without series: {}'.format(event['nickname']))
                 other.append(event)
 
         for s in self.series.keys():
             self.series[s]['events'].sort(key=lambda x: x['event_start'])
+            if self.series[s]['events'] == []:
+                self.errors.append('ERROR 91: Series without event: {}'.format(s))
+
+        if self.errors != []:
+            raise CATerror('\n'.join(self.errors))
         #self.event_in_series = {}
         #for e in self.series[s]['events']:
         #    self.event_in_series[ e['nickname'] ] = s
