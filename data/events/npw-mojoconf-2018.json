@@ -6,8 +6,8 @@
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
-    "event_start": "2018-09-06",
     "event_end": "2018-09-07",
+    "event_start": "2018-09-06",
     "facebook": "https://www.facebook.com/groups/oslo.pm/",
     "hashtag": "npw2018",
     "languages": [
@@ -19,7 +19,10 @@
         "state": ""
     },
     "name": "Nordic perl workshop and Mojoconf",
-    "tags": ["perl", "workshop"],
+    "tags": [
+        "perl",
+        "workshop"
+    ],
     "twitter": "mojoconf",
     "website": "http://oslo.pm/npw2018/",
     "youtube": ""
