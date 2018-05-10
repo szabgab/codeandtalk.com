@@ -169,6 +169,10 @@ class TestCat(object):
     def test_calendar(self):
         rv = self.app.get('/cal/all.ics')
         assert rv.status == '200 OK'
+        rv = self.app.get('/cal/l/germany.ics')
+        assert rv.status == '200 OK'
+        rv = self.app.get('/cal/l/budapest-hungary.ics')
+        assert rv.status == '200 OK'
         rv = self.app.get('/cal/l/dusseldorf-germany.ics')
         assert rv.status == '200 OK'
 
