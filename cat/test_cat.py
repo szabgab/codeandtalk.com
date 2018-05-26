@@ -173,10 +173,13 @@ class TestCat(object):
         assert rv.status == '200 OK'
         rv = self.app.get('/cal/l/nowhere.ics')
         assert rv.status == '404 NOT FOUND'
-        #rv = self.app.get('/cal/l/budapest-hungary.ics')
-        #assert rv.status == '200 OK'
-        #rv = self.app.get('/cal/l/dusseldorf-germany.ics')
-        #assert rv.status == '200 OK'
+        rv = self.app.get('/cal/l/budapest-hungary.ics')
+        assert rv.status == '200 OK'
+
+        # TODO: Test when there are no future events the calendar should return this:
+        #assert rv.data == b'BEGIN:VCALENDAR\r\nPRODID:https://codeandtalk.com/cal/l/budapest-hungary.ics\r\nVERSION:2.0\r\nEND:VCALENDAR\r\n'
+        rv = self.app.get('/cal/l/dusseldorf-germany.ics')
+        assert rv.status == '200 OK'
 
     def test_unicode_issues(self):
         rv = self.app.get('/l/dusseldorf-germany')
