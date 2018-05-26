@@ -176,6 +176,18 @@ class TestCat(object):
         rv = self.app.get('/cal/l/dusseldorf-germany.ics')
         assert rv.status == '200 OK'
 
+    def test_unicode_issues(self):
+        rv = self.app.get('/l/dusseldorf-germany')
+        assert rv.status == '200 OK'
+        #print(rv.data)
+        #assert u'<title>Conferences in Dsseldorf, Germany</title>' in str(rv.data)
+        #assert u'<title>Conferences in Düsseldorf, Germany</title>' in rv.data
+        #assert b'<h1>Conferences in Düsseldorf, Germany</h1>' in rv.data
+
+        rv = self.app.get('/l/a-coruna-spain')
+        assert rv.status == '200 OK'
+        #assert b'<title>Conferences in A Coruña, Spain</title>' in rv.data
+
     def test_podcast_participants(self):
         rv = self.app.get('/s/cmos')
         assert rv.status == '200 OK'
