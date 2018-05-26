@@ -332,6 +332,8 @@ class TestValidation(object):
                     assert 'test_2016.json' in str(err.value)
                 elif cnt == 9:
                     assert os.path.join(tmp_dir, test_dir_name, 'events', 'test.json') in str(err.value)
+                elif cnt in [11, 16, 18, 20]:
+                    assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-10{}.json'.format(cnt)) in str(err.value)
                 else:
                     assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-2016.json') in str(err.value)
 
