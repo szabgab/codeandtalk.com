@@ -279,7 +279,7 @@ class TestValidation(object):
             None,
             None,
             None,
-            #'ERROR 54: ',
+            'ERROR 54: JSON Parsing error in',
         ]
 
         multi_errors = [
@@ -332,7 +332,7 @@ class TestValidation(object):
                     assert 'test_2016.json' in str(err.value)
                 elif cnt == 9:
                     assert os.path.join(tmp_dir, test_dir_name, 'events', 'test.json') in str(err.value)
-                elif 10 <= cnt <= 21:
+                elif 10 <= cnt <= 21 or cnt == 54:
                     assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-10{}.json'.format(cnt)) in str(err.value)
                 else:
                     assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-2016.json') in str(err.value)
