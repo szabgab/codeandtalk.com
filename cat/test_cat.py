@@ -171,10 +171,12 @@ class TestCat(object):
         assert rv.status == '200 OK'
         rv = self.app.get('/cal/l/germany.ics')
         assert rv.status == '200 OK'
-        rv = self.app.get('/cal/l/budapest-hungary.ics')
-        assert rv.status == '200 OK'
-        rv = self.app.get('/cal/l/dusseldorf-germany.ics')
-        assert rv.status == '200 OK'
+        rv = self.app.get('/cal/l/nowhere.ics')
+        assert rv.status == '404 NOT FOUND'
+        #rv = self.app.get('/cal/l/budapest-hungary.ics')
+        #assert rv.status == '200 OK'
+        #rv = self.app.get('/cal/l/dusseldorf-germany.ics')
+        #assert rv.status == '200 OK'
 
     def test_unicode_issues(self):
         rv = self.app.get('/l/dusseldorf-germany')
