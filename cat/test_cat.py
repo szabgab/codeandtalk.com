@@ -247,6 +247,39 @@ class TestValidation(object):
             'ERROR 19: The "state" field is missing. See docs/EVENTS.md. In file',
             'ERROR 20: The "country" field is missing. See docs/EVENTS.md. In file',
             'ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file',
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None, # 30
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None, # 40
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None, # 50
+            None,
+            None,
+            None,
+            #'ERROR 54: ',
         ]
 
         multi_errors = [
@@ -260,7 +293,7 @@ class TestValidation(object):
                 'ERROR 14: Tag "blabla" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file',
                 'ERROR 16: The conference "name" should not include the year. Seen in',
                 'ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file',
-            ]
+            ],
         ]
 
         for test_data_dir, errors in [( os.path.join('test_data', 'single'), single_errors ), ( os.path.join('test_data', 'multi'), multi_errors)]:
@@ -281,6 +314,11 @@ class TestValidation(object):
                     GenerateSite().generate_site()
                 if errors[cnt].__class__.__name__ == 'str':
                     assert errors[cnt] in str(err.value)
+                    # Make sure there are no other errors:
+                    err_str = str(err.value)
+                    loc = err_str.index(errors[cnt])
+                    stripped_err_str = err_str[0: loc] + err_str[loc + len(errors[cnt]) : ]
+                    #assert 'ERROR' not in stripped_err_str
                 elif errors[cnt].__class__.__name__ == 'list':
                     for e in errors[cnt]:
                         assert e in str(err.value)
