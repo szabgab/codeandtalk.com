@@ -185,6 +185,7 @@ class TestCat(object):
         rv = self.app.get('/l/dusseldorf-germany')
         assert rv.status == '200 OK'
         #print(rv.data)
+        # TODO: this needs to be fixed to have the ü in there
         #assert u'<title>Conferences in Dsseldorf, Germany</title>' in str(rv.data)
         #assert u'<title>Conferences in Düsseldorf, Germany</title>' in rv.data
         #assert b'<h1>Conferences in Düsseldorf, Germany</h1>' in rv.data
