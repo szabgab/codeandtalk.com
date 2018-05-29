@@ -9,7 +9,7 @@ List of tech conferences, podcasts, videos, people
 
 For more details on CONTRIBUTING visit the respective files:
 
-[Events](docs/EVENTS.md)
+[Conferences](docs/EVENTS.md)
 
 [Videos](docs/VIDEOS.md)
 
