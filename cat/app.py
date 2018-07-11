@@ -384,8 +384,11 @@ def calendar(location = None, tag = None):
         future = tools.future(cat)
         prodid = 'all'
 
-    if not future:
+    if not future and not past:
         return not_found()
+
+    if not future:
+        future = []
 
     cal = _calendar(prodid, future)
     return cal

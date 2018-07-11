@@ -208,6 +208,8 @@ class GenerateSite(object):
                 self.check_tags(this, filename)
                 self.check_comments(this, filename)
                 self.events[ this['nickname'] ] = this
+            except json.decoder.JSONDecodeError as e:
+                self.errors.append("ERROR 54: JSON Parsing error in {}. Details: {}".format(filename, e))
             except CATerror:
                 raise
 #            except Exception as e:

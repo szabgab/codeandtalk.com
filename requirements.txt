@@ -1,5 +1,7 @@
-flask
-jinja2
-pyquery
+flask    == 0.12.4
+jinja2   == 2.10
+pyquery  == 1.4.0
 requests
 pytest
+
+Werkzeug == 0.14.1

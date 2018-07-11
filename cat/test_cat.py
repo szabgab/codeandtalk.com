@@ -169,8 +169,30 @@ class TestCat(object):
     def test_calendar(self):
         rv = self.app.get('/cal/all.ics')
         assert rv.status == '200 OK'
+        rv = self.app.get('/cal/l/germany.ics')
+        assert rv.status == '200 OK'
+        rv = self.app.get('/cal/l/nowhere.ics')
+        assert rv.status == '404 NOT FOUND'
+        rv = self.app.get('/cal/l/budapest-hungary.ics')
+        assert rv.status == '200 OK'
+
+        # TODO: Test when there are no future events the calendar should return this:
+        #assert rv.data == b'BEGIN:VCALENDAR\r\nPRODID:https://codeandtalk.com/cal/l/budapest-hungary.ics\r\nVERSION:2.0\r\nEND:VCALENDAR\r\n'
         rv = self.app.get('/cal/l/dusseldorf-germany.ics')
         assert rv.status == '200 OK'
+
+    def test_unicode_issues(self):
+        rv = self.app.get('/l/dusseldorf-germany')
+        assert rv.status == '200 OK'
+        #print(rv.data)
+        # TODO: this needs to be fixed to have the ü in there
+        #assert u'<title>Conferences in Dsseldorf, Germany</title>' in str(rv.data)
+        #assert u'<title>Conferences in Düsseldorf, Germany</title>' in rv.data
+        #assert b'<h1>Conferences in Düsseldorf, Germany</h1>' in rv.data
+
+        rv = self.app.get('/l/a-coruna-spain')
+        assert rv.status == '200 OK'
+        #assert b'<title>Conferences in A Coruña, Spain</title>' in rv.data
 
     def test_podcast_participants(self):
         rv = self.app.get('/s/cmos')
@@ -231,6 +253,39 @@ class TestValidation(object):
             'ERROR 19: The "state" field is missing. See docs/EVENTS.md. In file',
             'ERROR 20: The "country" field is missing. See docs/EVENTS.md. In file',
             'ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file',
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None, # 30
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None, # 40
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None, # 50
+            None,
+            None,
+            None,
+            'ERROR 54: JSON Parsing error in',
         ]
 
         multi_errors = [
@@ -244,7 +299,7 @@ class TestValidation(object):
                 'ERROR 14: Tag "blabla" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file',
                 'ERROR 16: The conference "name" should not include the year. Seen in',
                 'ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file',
-            ]
+            ],
         ]
 
         for test_data_dir, errors in [( os.path.join('test_data', 'single'), single_errors ), ( os.path.join('test_data', 'multi'), multi_errors)]:
@@ -265,6 +320,11 @@ class TestValidation(object):
                     GenerateSite().generate_site()
                 if errors[cnt].__class__.__name__ == 'str':
                     assert errors[cnt] in str(err.value)
+                    # Make sure there are no other errors:
+                    err_str = str(err.value)
+                    loc = err_str.index(errors[cnt])
+                    stripped_err_str = err_str[0: loc] + err_str[loc + len(errors[cnt]) : ]
+                    #assert 'ERROR' not in stripped_err_str
                 elif errors[cnt].__class__.__name__ == 'list':
                     for e in errors[cnt]:
                         assert e in str(err.value)
@@ -278,6 +338,8 @@ class TestValidation(object):
                     assert 'test_2016.json' in str(err.value)
                 elif cnt == 9:
                     assert os.path.join(tmp_dir, test_dir_name, 'events', 'test.json') in str(err.value)
+                elif 10 <= cnt <= 21 or cnt == 54:
+                    assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-10{}.json'.format(cnt)) in str(err.value)
                 else:
                     assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-2016.json') in str(err.value)
 

@@ -952,10 +952,41 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/CodeOnTheBeach  <--- 2018 done 2018.01.13 --->
 
 * https://twitter.com/percona
+* https://twitter.com/TABGeeks
+* https://twitter.com/ndc_conferences <--- https://ndcminnesota.com/ -->
+* https://twitter.com/OpenAlt
+* https://twitter.com/esocc
+* https://twitter.com/OSS2017
+* https://twitter.com/jbcnconf
+* https://twitter.com/OpenStack <-- https://www.openstack.org/summit/berlin-2018 -->
+* https://twitter.com/mlconference
+* https://twitter.com/CLSxEUROPE
+* https://twitter.com/OSCommunityCamp
+* https://twitter.com/www2016ca
+* https://twitter.com/www2017Perth
+* https://twitter.com/OSStrategy
+* https://twitter.com/fossbckstg
+* https://twitter.com/devopslt
+* https://twitter.com/testingcup
+* https://twitter.com/MoscowTestcon
+* https://twitter.com/jesienlinuksowa
+* https://twitter.com/nluug
+* https://twitter.com/pydaysvienna
+* https://twitter.com/xmlprague
+* https://twitter.com/InstallFest_SH
+* https://twitter.com/itSDFI
+* https://twitter.com/rubyoniceconf
+* https://twitter.com/HunTestingBoard
 
 
-
-
+* http://paypal.github.io/InnerSourceCommons/events/isc-spring-2018/
+* http://paypal.github.io/InnerSourceCommons/events/isc-fall-2018/
+* https://events.linuxfoundation.org/events/open-fintech-forum-2018/
+* http://www.bharatexhibitions.com/en/OSI2018/index.html
+* https://www.dotnetconf.net/
+* https://www.iaria.org/conferences/SERVICECOMPUTATION.html
+* https://www.oracle.com/openworld/index.html
+* http://www.iiis-spring18.org/imcic/Website/default.asp?vc=26
 
 
 old:
