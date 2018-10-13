@@ -133,7 +133,7 @@ It will clone (copy) the whole repository from your GitHub homedirectory.
 ```
 cd codeandtalk.com
 
-git remote add upstream https://github.com/szabgab/codeandtalk.com
+git remote add upstream https://github.com/szabgab/codeandtalk.com.git
 ```
 
 Now you can edit the files in the `data` directory and add more files you need.
