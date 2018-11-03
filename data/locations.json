@@ -313,6 +313,7 @@
         "Firenze": "1",
         "Florence": "1",
         "Milan": "1",
+        "Milano": "1",
         "Pisa": "1",
         "Rimini": "1",
         "Rome": "1",
@@ -365,6 +366,12 @@
             "Africa": "1"
         }
     },
+    "Mexico":{
+        "Puebla": "1",
+        "_area_": {
+            "North America": "1"
+        }
+    },
     "Morocoo": {
         "Casablanca": "1",
         "_area_": {
@@ -389,6 +396,12 @@
             "Online": "1"
         },
         "na": "1"
+    },
+    "Pakistan":{
+        "Islamabad": "1",
+        "_area_":{
+            "Asia": "1"
+        }
     },
     "Philippines": {
         "Cagayan de Oro": "1",
@@ -749,6 +762,7 @@
         "Texas": {
             "Austin": "1",
             "Dallas": "1",
+            "Fort Worth": "1",
             "Grapevine": "1",
             "Houston": "1",
             "Hurst": "1",
