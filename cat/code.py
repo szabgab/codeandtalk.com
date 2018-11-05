@@ -313,8 +313,12 @@ class GenerateSite(object):
                 self.errors.append('ERROR 28: Invalid facebook entry "{}" in {}. Include entire Facebook URL.'.format(this['facebook'], filename))
 
         if 'hashtag' in this and this['hashtag'] != '':
+            if this['hashtag'].__class__.__name__ != 'str':
+                self.errors.append('ERROR 531: Hashtag needs to be a single string and not {} in {}'.format(this['hashtag'], filename))
+                return
             if not re.search(r'^[אפa-zA-Z0-9_]+$', this['hashtag']):
                 self.errors.append('ERROR 53: Invalid hashtag handle "{}" in {}'.format(this['hashtag'], filename))
+                return
 
 
 
