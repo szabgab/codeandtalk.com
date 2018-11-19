@@ -43,8 +43,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/nvdacon
 * https://twitter.com/ancientcityruby
 * https://twitter.com/netdayfranken
-*
-* https://twitter.com/agileroots
+* https://twitter.com/agileroots <--- no response on 2018.11.19 --->
 * https://twitter.com/ast_news
 * https://twitter.com/theweeklycfp
 * https://twitter.com/vimconf
