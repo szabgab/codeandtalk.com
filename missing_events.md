@@ -47,13 +47,13 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/ast_news
 * https://twitter.com/theweeklycfp
 * https://twitter.com/vimconf
-* https://twitter.com/appnation
-* https://twitter.com/xpconf
+* https://twitter.com/appnation <--- website redirects to other website nonrelated with conference --->
+* https://twitter.com/xpconf <--- no response on 2018.11.20 --->
 * https://twitter.com/bsdcan
 * https://twitter.com/ixdconf
 
 
-* https://twitter.com/nervescamp
+* https://twitter.com/nervescamp <--- no response on 2018.11.20 --->
 * https://twitter.com/thepghtechfest
 * https://twitter.com/iottechcon
 * https://twitter.com/spkeazee
