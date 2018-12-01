@@ -161,10 +161,11 @@ class TestCat(object):
         assert b'<title>10 enseignements qu&#39;on peut tirer des 31.463 commits qui ont cr\xc3\xa9\xc3\xa9 le langage (French)</title>' in rv.data
         #print(rv.data)
 
-        rv = self.app.get('/l/goteborg-sweden')
+        rv = self.app.get('/l/malmo-sweden')
         assert rv.status == '200 OK'
-        assert b'<title>Conferences in b&#39;Gteborg, Sweden&#39;</title>' in rv.data
         #print(rv.data)
+        # TODO: the title should be Malmö !
+        assert b'<title>Conferences in b&#39;Malm, Sweden&#39;</title>' in rv.data
 
     def test_calendar(self):
         rv = self.app.get('/cal/all.ics')
