@@ -202,7 +202,7 @@ class GenerateSite(object):
                 self.check_fields(this, filename)
                 self.check_name(this, filename)
                 self.check_website(this, filename)
-                self.check_diversity(this)
+                self.check_diversity(this, filename)
                 self.check_social(this, filename)
                 self.check_location(this, filename)
                 self.check_tags(this, filename)
@@ -292,11 +292,17 @@ class GenerateSite(object):
             else:
                 this['cfp_class'] = 'cfp_future'
 
-    def check_diversity(self, this):
+    def check_diversity(self, this, filename):
         diversity = this.get('diversitytickets')
         if diversity:
             if not re.search(r'^\d+$', diversity):
-                self.errors.append('ERROR 25: diversitytickets must be a number. Use diversitytickets_url and diversitytickets_text for alternatives {}'.format(this))
+                self.errors.append('ERROR 25: diversitytickets must be a number. Use diversitytickets_url and diversitytickets_text for alternatives {} in {}'.format(this, filename))
+
+        code_of_conduct = this.get('code_of_conduct')
+        if code_of_conduct:
+            if this['code_of_conduct'].__class__.__name__ != 'str':
+                self.errors.append('ERROR 631: "code_of_conduct" needs to be a single string and not {} in {}'.format(this['code_of_conduct'], filename))
+                return
 
     def check_social(self, this, filename):
         if 'twitter' in this and this['twitter'] != '':
@@ -313,8 +319,12 @@ class GenerateSite(object):
                 self.errors.append('ERROR 28: Invalid facebook entry "{}" in {}. Include entire Facebook URL.'.format(this['facebook'], filename))
 
         if 'hashtag' in this and this['hashtag'] != '':
+            if this['hashtag'].__class__.__name__ != 'str':
+                self.errors.append('ERROR 531: Hashtag needs to be a single string and not {} in {}'.format(this['hashtag'], filename))
+                return
             if not re.search(r'^[אפa-zA-Z0-9_]+$', this['hashtag']):
                 self.errors.append('ERROR 53: Invalid hashtag handle "{}" in {}'.format(this['hashtag'], filename))
+                return
 
 
 

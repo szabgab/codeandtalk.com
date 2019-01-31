@@ -126,14 +126,14 @@ It will create a copy in your own user. If you are called ```foobar``` it will b
 
 * On your command line (Linux terminal or Windows Cmd) type in
 
-`git clone git@github.com:foobar/codeandtalk.git`
+`git clone git@github.com:foobar/codeandtalk.com.git`
 
 It will clone (copy) the whole repository from your GitHub homedirectory.
 
 ```
 cd codeandtalk.com
 
-git remote add upstream https://github.com/szabgab/codeandtalk.git
+git remote add upstream https://github.com/szabgab/codeandtalk.com.git
 ```
 
 Now you can edit the files in the `data` directory and add more files you need.

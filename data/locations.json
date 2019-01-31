@@ -8,7 +8,7 @@
     "Argentina": {
         "Bahía Blanca": "1",
         "Buenos Aires": "1",
-        "Cordoba": "1",
+        "Córdoba": "1",
         "_area_": {
             "South America": "1"
         }
@@ -52,9 +52,8 @@
     },
     "Belgium": {
         "Antwerp": "1",
-        "Brugge": "1",
+        "Bruges": "1",
         "Brussels": "1",
-        "Gent": "1",
         "Ghent": "1",
         "Mons": "1",
         "_area_": {
@@ -65,23 +64,33 @@
         "Alagoas": {
             "Maceió": "1"
         },
+        "Bahia": {
+            "Feira de Santana": "1"
+        },
         "Ceará": {
             "Fortaleza": "1"
         },
-        "MG": {
-            "Belo Horizonte": "1"
+        "Minas Gerais": {
+            "Belo Horizonte": "1",
+            "_": "MG"
+        },
+        "Pará": {
+            "Belém": "1"
         },
         "Pernambuco": {
             "Recife": "1"
         },
-        "RN": {
-            "Natal": "1"
+        "Rio Grande do Norte": {
+            "Natal": "1",
+            "_": "RN"
         },
-        "RS": {
-            "Porto Alegre": "1"
+        "Rio Grande do Sul": {
+            "Porto Alegre": "1",
+            "_": "RS"
         },
         "Rio de Janeiro": {
-            "Rio de Janeiro": "1"
+            "Rio de Janeiro": "1",
+            "_": "RJ"
         },
         "Santa Catarina": {
             "Florianópolis": "1",
@@ -140,12 +149,13 @@
         "Beijing": "1",
         "Chongqing": "1",
         "Shanghai": "1",
+        "Zhengzhou": "1",
         "_area_": {
             "Asia": "1"
         }
     },
     "Colombia": {
-        "Medellin": "1",
+        "Medellín": "1",
         "_area_": {
             "South America": "1"
         }
@@ -173,7 +183,7 @@
         }
     },
     "Estonia": {
-        "Tallin": "1",
+        "Tallinn": "1",
         "_area_": {
             "Europe": "1"
         }
@@ -188,6 +198,7 @@
     "France": {
         "Bordeaux": "1",
         "Châtillon": "1",
+        "Lille": "1",
         "Lyon": "1",
         "Montpellier": "1",
         "Nancy": "1",
@@ -221,7 +232,6 @@
         "Karlsruhe": "1",
         "Leipzig": "1",
         "Munich": "1",
-        "München": "1",
         "Nuremberg": "1",
         "Potsdam": "1",
         "Sankt Augustin": "1",
@@ -268,8 +278,13 @@
         "Goa": {
             "Goa": "1"
         },
+        "Gujarat": {
+            "Ahmedabad": "1"
+        },
+        "Haryana": {
+            "Gurgaon": "1"
+        },
         "Karnataka": {
-            "Bangalore": "1",
             "Bengaluru": "1",
             "Nitte": "1"
         },
@@ -284,6 +299,7 @@
     },
     "Ireland": {
         "Dublin": "1",
+        "Galway": "1",
         "Kilkenny City": "1",
         "Waterford": "1",
         "_area_": {
@@ -297,10 +313,10 @@
         }
     },
     "Israel": {
-        "Beer Sheva": "1",
+        "Beersheba": "1",
         "Ramat Gan": "1",
         "Rehovot": "1",
-        "Rishon LeTsiyon": "1",
+        "Rishon LeZion": "1",
         "Tel Aviv": "1",
         "_area_": {
             "Asia": "1"
@@ -308,9 +324,8 @@
     },
     "Italy": {
         "Bologna": "1",
-        "Desenzano": "1",
+        "Desenzano del Garda": "1",
         "Ferrara": "1",
-        "Firenze": "1",
         "Florence": "1",
         "Milan": "1",
         "Pisa": "1",
@@ -365,10 +380,23 @@
             "Africa": "1"
         }
     },
-    "Morocoo": {
+    "Mexico": {
+        "Puebla": "1",
+        "_area_": {
+            "North America": "1"
+        }
+    },
+    "Morocco": {
         "Casablanca": "1",
         "_area_": {
             "Africa": "1"
+        }
+    },
+    "Nepal": {
+        "Biratnagar": "1",
+        "Pokhara": "1",
+        "_area_": {
+            "Asia": "1"
         }
     },
     "New Zealand": {
@@ -390,6 +418,12 @@
         },
         "na": "1"
     },
+    "Pakistan": {
+        "Islamabad": "1",
+        "_area_": {
+            "Asia": "1"
+        }
+    },
     "Philippines": {
         "Cagayan de Oro": "1",
         "Makati": "1",
@@ -400,10 +434,10 @@
         }
     },
     "Poland": {
-        "Gdansk": "1",
+        "Gdańsk": "1",
         "Krakow": "1",
         "Ossa": "1",
-        "Poznan": "1",
+        "Poznań": "1",
         "Rawa Mazowiecka": "1",
         "Warsaw": "1",
         "Wrocław": "1",
@@ -429,6 +463,7 @@
     },
     "Russia": {
         "Gribovka": "1",
+        "Moscow": "1",
         "Saint Petersburg": "1",
         "_area_": {
             "Europe": "1"
@@ -476,6 +511,7 @@
         "A Coruña": "1",
         "Almería": "1",
         "Barcelona": "1",
+        "Bogotá": "1",
         "Cáceres": "1",
         "Granada": "1",
         "Madrid": "1",
@@ -492,7 +528,6 @@
     },
     "Sweden": {
         "Gothenburg": "1",
-        "Göteborg": "1",
         "Malmö": "1",
         "Marstrand": "1",
         "Stockholm": "1",
@@ -502,6 +537,7 @@
     },
     "Switzerland": {
         "Bern": "1",
+        "Geneva": "1",
         "Rapperswil": "1",
         "Villars-sur-Ollon": "1",
         "Zurich": "1",
@@ -591,6 +627,7 @@
             "Palm Springs": "1",
             "Pasadena": "1",
             "Petaluma": "1",
+            "Riverside": "1",
             "San Diego": "1",
             "San Francisco": "1",
             "San Jose": "1",
@@ -614,6 +651,7 @@
             "Fort Lauderdale": "1",
             "Miami": "1",
             "Orlando": "1",
+            "Sarasota": "1",
             "St. Augistine": "1",
             "St. Petersburg": "1",
             "_": "FL"
@@ -661,6 +699,7 @@
             "_": "MA"
         },
         "Michigan": {
+            "Detroit": "1",
             "Southfield": "1",
             "Ypsilanti": "1",
             "_": "MI"
@@ -747,6 +786,7 @@
         "Texas": {
             "Austin": "1",
             "Dallas": "1",
+            "Fort Worth": "1",
             "Grapevine": "1",
             "Houston": "1",
             "Hurst": "1",
@@ -789,9 +829,14 @@
             "North America": "1"
         }
     },
+    "Uganda": {
+        "Kampala": "1",
+        "_area_": {
+            "Africa": "1"
+        }
+    },
     "Ukraine": {
         "Kiev": "1",
-        "Kyiv": "1",
         "Lviv": "1",
         "_area_": {
             "Europe": "1"
