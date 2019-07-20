@@ -82,8 +82,8 @@ class TestCat(object):
         found_non_0 = 0
         page_html = PyQuery(rv.data)
         table_lines = page_html("#topics tr")
-        for i in range (1, len (table_lines)):  
-            tr = table_lines[i]      
+        for i in range (1, len (table_lines)):
+            tr = table_lines[i]
             tds = tr.getchildren()
             td2 = tds[1]
             td1 = tds[0]
@@ -100,8 +100,8 @@ class TestCat(object):
 
             if found_0 > 0 and found_non_0 > 0:
                 break
-        
-       
+
+
     def test_event(self):
         rv = self.app.get('/e/ffconf-2009')
         assert rv.status == '200 OK'
@@ -140,7 +140,7 @@ class TestCat(object):
         assert rv.status == '200 OK'
         assert b'<p><a href="http://2017.fsto.co/">Diversity Tickets: see under pricing</a></p>' in rv.data
 
-    
+
     def test_featured(self):
         rv = self.app.get('/featured')
         assert rv.status == '200 OK'
