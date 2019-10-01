@@ -1,17 +1,16 @@
-import json
-import logging
-import os
-import sys
-import smtplib
+import json, logging, os, sys, smtplib
+
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 from jinja2 import Environment, PackageLoader
 
+from cat import tools
+from cat.tools import read_json
+
 logging.basicConfig()
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
-
 
 
 env =  Environment(loader=PackageLoader('cat'))
@@ -19,8 +18,6 @@ template = env.get_template('email.html')
 # add in e-mail from https://docs.python.org/3.4/library/email-examples.html
 root = os.path.dirname((os.path.realpath(__file__)))
 sys.path.insert(0, root)
-from cat import tools
-from cat.tools import read_json
 
 with open('subscribers.json', 'r') as fh:
   subscriptions = json.load(fh)
@@ -40,8 +37,8 @@ html =template.render(
 )
 
 text = "Hello"
-me = "me@email"
-you = "me@email"
+me = you = "me@email"
+#you = "me@email"
 
 
 msg = MIMEMultipart('alternative')
