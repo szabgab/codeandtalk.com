@@ -110,7 +110,7 @@ has not been added yet:
 * nodeconf-barcelona-2015
 * rails-israel-2016
 * rubyday-italy-2016
-* codemotion channel - spanish conferences [https://www.youtube.com/user/CodemotionWorld]
+* [codemotion channel - spanish conferences](https://www.youtube.com/user/CodemotionWorld)
 
 ``` grep speaker * | grep '\[\]' ```
 
