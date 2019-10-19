@@ -110,6 +110,7 @@ has not been added yet:
 * nodeconf-barcelona-2015
 * rails-israel-2016
 * rubyday-italy-2016
+* [Techfest2019 - spanish conference](https://www.youtube.com/watch?v=EcZoR1N6Cz0&list=PLqgZDFdwyB8axg3FVAP7Udw_eBUtlo4ZL)
 
 ``` grep speaker * | grep '\[\]' ```
 
