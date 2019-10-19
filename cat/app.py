@@ -410,8 +410,11 @@ def by_tag(tag):
 
     episodes = episodes_by_tag(cat, tag)
 
-    if not future and not earlier and not videos and not episodes:
+    # TODO: create a tool that will report tags that are listed in data/tags.json but not in use
+    if tag not in cat['tags']:
         return not_found()
+    #if not future and not earlier and not videos and not episodes:
+    #    return not_found()
 
     #catapp.logger.debug("Reading '{}'".format(filename))
     title = 'Open source conferences discussing {}'.format(tag)

@@ -78,6 +78,11 @@ class TestCat(object):
         #rv = self.app.get('/t/accessibility')
         #assert rv.status == '200 OK'
 
+        # Not existing tag should return 404
+        href = '/t/no-such-tag'
+        topic = self.app.get(href)
+        assert topic.status == '404 NOT FOUND'
+
         found_0 = 0
         found_non_0 = 0
         page_html = PyQuery(rv.data)
