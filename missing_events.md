@@ -38,7 +38,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/oreillyhardware
 * https://twitter.com/rubyconferences
 * https://twitter.com/rubynation
-* https://twitter.com/scipyindia
+* https://twitter.com/scipyindia <--- 2018 done. 2019 done 2019.10.21 --->
 * https://twitter.com/blndevops
 * https://twitter.com/nvdacon
 * https://twitter.com/ancientcityruby
@@ -980,11 +980,11 @@ the best cours of acction is to edit this file and add a comment to the line wit
 
 * http://paypal.github.io/InnerSourceCommons/events/isc-spring-2018/
 * http://paypal.github.io/InnerSourceCommons/events/isc-fall-2018/
-* https://events.linuxfoundation.org/events/open-fintech-forum-2018/
+* https://events.linuxfoundation.org/events/open-fintech-forum-2018/ <--- 2018, 2019 done 2019.10.20 --->
 * http://www.bharatexhibitions.com/en/OSI2018/index.html
 * https://www.dotnetconf.net/
 * https://www.iaria.org/conferences/SERVICECOMPUTATION.html
-* https://www.oracle.com/openworld/index.html
+* https://www.oracle.com/openworld/index.html <--- 2019 done 2019.10.20 --->
 * http://www.iiis-spring18.org/imcic/Website/default.asp?vc=26
 
 
