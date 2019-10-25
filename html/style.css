@@ -200,8 +200,14 @@ li {
 nav {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #333;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.15);
+    position: -webkit-sticky;  /* for Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 nav ul {
