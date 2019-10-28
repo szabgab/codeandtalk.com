@@ -157,9 +157,7 @@ Instruction on Windows
   `set PATH=C:\Users\gabor\AppData\Local\Programs\Python\Python35-32\;%PATH%`
   Then try `python --version` again.
 
-* Type in `pip install jinja2`
-* Type in `pip install flask`
-* Type in `pip install pyquery`
+* Type in `pip install jinja2 flask pyquery`  
 * cd to the codeandtalk.com/ directory
 * Type `python bin/generate.py`   If there is an error in the files, it will complain.
 * If everything works fine the web site is generated in the html/ directory.
