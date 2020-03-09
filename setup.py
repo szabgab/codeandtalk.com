@@ -1,10 +1,10 @@
 from setuptools import setup
 
 setup(
-    name='cat',
-    packages=['cat'],
-    include_package_data=True,
-    install_requires=[
+    name = 'cat',
+    packages = ['cat'],
+    include_package_data = True,
+    install_requires = [
         'flask',
         'jinja2',
         'pyquery',
@@ -13,7 +13,7 @@ setup(
     #setup_requires=[
     #    'pytest-runner',
     #],
-    tests_require=[
+    tests_require = [
         'pytest',
     ],
 )
