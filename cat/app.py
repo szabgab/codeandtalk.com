@@ -382,6 +382,7 @@ def calendar(location = None, tag = None):
         prodid = 't/{}'.format(tag)
     else:
         future = tools.future(cat)
+        past = None
         prodid = 'all'
 
     if not future and not past:
