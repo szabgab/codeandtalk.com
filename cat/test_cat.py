@@ -93,13 +93,15 @@ class TestCat(object):
             td2 = tds[1]
             td1 = tds[0]
             a_list = tds[0].getchildren()
-            a = a_list[0]
-            href = a.attrib['href']
             if td2.text == '0':
                 found_0 += 1
             else:
                 found_non_0 += 1
 
+            if len(a_list) == 0:
+                continue
+            html_a = a_list[0]
+            href = html_a.attrib['href']
             # TODO: fix this link as well:
             if href == '/t/c-':
                 continue
