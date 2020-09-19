@@ -1,4 +1,4 @@
-FROM ubuntu:17.10
+FROM ubuntu:20.04
 RUN apt-get update -y
 RUN apt-get install -y python3-pip python3-dev build-essential
 RUN apt-get install -y uwsgi uwsgi-plugin-python3
@@ -25,5 +25,5 @@ COPY codeandtalk.ini /etc/uwsgi/apps-enabled/
 
 EXPOSE 5000
 #ENTRYPOINT ["service", "uwsgi", "start"]
- 
+
 # ENTRYPOINT ["uwsgi", "--http", "0.0.0.0:8000", "--module", "app:app", "--processes", "1", "--threads", "8"]
