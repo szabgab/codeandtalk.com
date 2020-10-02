@@ -4,7 +4,7 @@ Code And Talk
 [![Build status](https://ci.appveyor.com/api/projects/status/3xped6coon603v9k?svg=true)](https://ci.appveyor.com/project/szabgab/codeandtalk-com/)
 [![Coverage Status](https://coveralls.io/repos/github/szabgab/codeandtalk.com/badge.svg?branch=main)](https://coveralls.io/github/szabgab/codeandtalk.com?branch=main)
 
-List of tech conferences, podcasts, videos, people
+List of tech conferences, podcasts, videos, and people:
 ==================================================
 
 For more details on CONTRIBUTING visit the respective files:
