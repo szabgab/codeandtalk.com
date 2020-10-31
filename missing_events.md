@@ -986,6 +986,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://www.iaria.org/conferences/SERVICECOMPUTATION.html
 * https://www.oracle.com/openworld/index.html <--- 2019 done 2019.10.20 --->
 * http://www.iiis-spring18.org/imcic/Website/default.asp?vc=26
+* https://www.womenwhocode.com/
 
 
 old:
