@@ -1,308 +1,555 @@
 [
-  {
-    "date": "2020-03-06",
-    "ep": "0",
-    "guests": [],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["interviews", "python"],
-    "permalink": "https://realpython.com/podcasts/rpp/0/",
-    "title": "About the Show"
-  },
-  {
-    "date": "2020-03-20",
-    "ep": "1",
-    "guests": ["geir-arne-hjelle"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["real python", "python", "decorators"],
-    "permalink": "https://realpython.com/podcasts/rpp/1/",
-    "title": "Python Decorators and Writing for Real Python"
-  },
-  {
-    "date": "2020-03-27",
-    "ep": "2",
-    "guests": ["jon-fincher"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "python skills", "games"],
-    "permalink": "https://realpython.com/podcasts/rpp/2/",
-    "title": "Learn Python Skills While Creating Games"
-  },
-  {
-    "date": "2020-03-27",
-    "ep": "3",
-    "guests": ["brett-slatkin"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "google"],
-    "permalink": "https://realpython.com/podcasts/rpp/3/",
-    "title": "Effective Python and Python at Google Scale"
-  },
-  {
-    "date": "2020-04-10",
-    "ep": "4",
-    "guests": ["martin-breuss"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "python errors"],
-    "permalink": "https://realpython.com/podcasts/rpp/4/",
-    "title": "Learning Python Through Errors"
-  },
-  {
-    "date": "2020-04-17",
-    "ep": "5",
-    "guests": ["thea-flowers"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "circuit python"],
-    "permalink": "https://realpython.com/podcasts/rpp/5/",
-    "title": "Exploring CircuitPython"
-  },
-  {
-    "date": "2020-04-24",
-    "ep": "6",
-    "guests": ["douglas-farrell"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "rest API"],
-    "permalink": "https://realpython.com/podcasts/rpp/6/",
-    "title": "Python REST APIs and The Well-Grounded Python Developer"
-  },
-  {
-    "date": "2020-05-01",
-    "ep": "7",
-    "guests": ["lukas-langa"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "Async"],
-    "permalink": "https://realpython.com/podcasts/rpp/7/",
-    "title": "AsyncIO + Music, Origins of Black, and Managing Python Releases"
-  },
-  {
-    "date": "2020-05-08",
-    "ep": "8",
-    "guests": ["tania-allard"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "Docker", "Data science"],
-    "permalink": "https://realpython.com/podcasts/rpp/8/",
-    "title": "Docker + Python for Data Science and Machine Learning"
-  },
-  {
-    "date": "2020-05-15",
-    "ep": "9",
-    "guests": ["cecil-phillip"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "study"],
-    "permalink": "https://realpython.com/podcasts/rpp/9/",
-    "title": "Leveling Up Your Python Literacy and Finding Python Projects to Study"
-  },
-  {
-    "date": "2020-05-22",
-    "ep": "10",
-    "guests": ["kyle-stratis"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "job hunting", "pandemic"],
-    "permalink": "https://realpython.com/podcasts/rpp/10/",
-    "title": "Python Job Hunting in a Pandemic"
-  },
-  {
-    "date": "2020-05-29",
-    "ep": "11",
-    "guests": ["anthony-shaw"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "testing"],
-    "permalink": "https://realpython.com/podcasts/rpp/11/",
-    "title": "Advice on Getting Started With Testing in Python"
-  },
-  {
-    "date": "2020-06-05",
-    "ep": "12",
-    "guests": ["kimberly-fessel"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "web scrapping"],
-    "permalink": "https://realpython.com/podcasts/rpp/12/",
-    "title": "Web Scraping in Python: Tools, Techniques, and Legality"
-  },
-  {
-    "date": "2020-06-12",
-    "ep": "13",
-    "guests": ["david-amos"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "pdf", "raspberry pi"],
-    "permalink": "https://realpython.com/podcasts/rpp/13/",
-    "title": "PDFs in Python and Projects on the Raspberry Pi"
-  },
-  {
-    "date": "2020-06-14",
-    "ep": "14",
-    "guests": ["anthony-chu"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "serverless"],
-    "permalink": "https://realpython.com/podcasts/rpp/14/",
-    "title": "Going Serverless with Python"
-  },
-  {
-    "date": "2020-06-26",
-    "ep": "15",
-    "guests": ["david-amos"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "regular expressions"],
-    "permalink": "https://realpython.com/podcasts/rpp/15/",
-    "title": "Python Regular Expressions, Views vs Copies in Pandas, and More"
-  },
-  {
-    "date": "2020-07-03",
-    "ep": "16",
-    "guests": ["hanna-stepanek"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "pandas", "data analysys"],
-    "permalink": "https://realpython.com/podcasts/rpp/16/",
-    "title": "Thinking in Pandas: Python Data Analysis the Right Way"
-  },
-  {
-    "date": "2020-07-10",
-    "ep": "17",
-    "guests": ["david-amos"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "linear programming"],
-    "permalink": "https://realpython.com/podcasts/rpp/17/",
-    "title": "Thinking in Pandas: Python Data Analysis the Right Way"
-  },
-  {
-    "date": "2020-07-17",
-    "ep": "18",
-    "guests": ["armin-ronacher"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "flask"],
-    "permalink": "https://realpython.com/podcasts/rpp/18/",
-    "title": "Ten Years of Flask: Conversation With Creator Armin Ronacher"
-  },
-  {
-    "date": "2020-07-24",
-    "ep": "19",
-    "guests": ["david-amos"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "django"],
-    "permalink": "https://realpython.com/podcasts/rpp/19/",
-    "title": "Advanced Python Import Techniques and Managing Users in Django"
-  },
-  {
-    "date": "2020-07-31",
-    "ep": "20",
-    "guests": ["mike-driscoll"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "pdf"],
-    "permalink": "https://realpython.com/podcasts/rpp/20/",
-    "title": "Building PDFs in Python with ReportLab"
-  },
-  {
-    "date": "2020-08-07",
-    "ep": "21",
-    "guests": ["david-amos"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "clustering", "pandas"],
-    "permalink": "https://realpython.com/podcasts/rpp/21/",
-    "title": "Exploring K-means Clustering and Building a Gradebook With Pandas"
-  },
-  {
-    "date": "2020-08-14",
-    "ep": "22",
-    "guests": ["russell-keith-magee"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "gui"],
-    "permalink": "https://realpython.com/podcasts/rpp/22/",
-    "title": "Create Cross-Platform Python GUI Apps With BeeWare"
-  },
-  {
-    "date": "2020-08-21",
-    "ep": "23",
-    "guests": ["david-amos"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python"],
-    "permalink": "https://realpython.com/podcasts/rpp/23/",
-    "title": "Python Wheels and Pass by Reference in Python"
-  },
-  {
-    "date": "2020-08-28",
-    "ep": "24",
-    "guests": ["itamar-turner-trauring"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "docker"],
-    "permalink": "https://realpython.com/podcasts/rpp/24/",
-    "title": "Options for Packaging Your Python Application: Wheels, Docker, and More"
-  },
-  {
-    "date": "2020-09-04",
-    "ep": "25",
-    "guests": ["david-amos", "sadie-parker"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "data version"],
-    "permalink": "https://realpython.com/podcasts/rpp/25/",
-    "title": "Data Version Control in Python and Real Python Video Transcripts"
-  },
-  {
-    "date": "2020-09-11",
-    "ep": "26",
-    "guests": ["michael-kennedy"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "async"],
-    "permalink": "https://realpython.com/podcasts/rpp/26/",
-    "title": "5 Years Podcasting Python with Michael Kennedy: Growth, GIL, Async, and More"
-  },
-  {
-    "date": "2020-09-18",
-    "ep": "27",
-    "guests": ["david-amos", "jim-anderson"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "job", "interview"],
-    "permalink": "https://realpython.com/podcasts/rpp/27/",
-    "title": "Preparing for an Interview With Python Practice Problems"
-  },
-  {
-    "date": "2020-09-25",
-    "ep": "28",
-    "guests": ["david-amos", "savannah-ostrowski"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "visual studio code"],
-    "permalink": "https://realpython.com/podcasts/rpp/28/",
-    "title": "Using Pylance to Write Better Python Inside of Visual Studio Code"
-  },
-  {
-    "date": "2020-10-02",
-    "ep": "29",
-    "guests": ["georgia-bullen", "sumana-harihareswara"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "pip"],
-    "permalink": "https://realpython.com/podcasts/rpp/29/",
-    "title": "Resolving Package Dependencies With the New Version of Pip"
-  },
-  {
-    "date": "2020-10-09",
-    "ep": "30",
-    "guests": ["christopher-trudeau", "geir-arne-hjelle"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "new features"],
-    "permalink": "https://realpython.com/podcasts/rpp/30/",
-    "title": "Exploring the New Features of Python 3.9"
-  },
-  {
-    "date": "2020-10-16",
-    "ep": "31",
-    "guests": ["david-amos"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "map"],
-    "permalink": "https://realpython.com/podcasts/rpp/31/",
-    "title": "Python Return Statement Best Practices and Working With the map() Function"
-  },
-  {
-    "date": "2020-10-23",
-    "ep": "32",
-    "guests": ["david-amos"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python", "learning path"],
-    "permalink": "https://realpython.com/podcasts/rpp/32/",
-    "title": "Our New Python Basics Book & Filling the Gaps in Your Learning Path"
-  },
-  {
-    "date": "2020-10-30",
-    "ep": "33",
-    "guests": ["al-sweigart"],
-    "hosts": ["christopher-bailey"],
-    "keywords": ["python"],
-    "permalink": "https://realpython.com/podcasts/rpp/33/",
-    "title": "Going Beyond the Basic Stuff With Python and Al Sweigart"
-  }
+    {
+        "date": "2020-03-06",
+        "ep": "0",
+        "guests": [],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "interviews",
+            "python"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/0/",
+        "title": "About the Show"
+    },
+    {
+        "date": "2020-03-20",
+        "ep": "1",
+        "guests": [
+            "geir-arne-hjelle"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "real python",
+            "python",
+            "decorators"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/1/",
+        "title": "Python Decorators and Writing for Real Python"
+    },
+    {
+        "date": "2020-03-27",
+        "ep": "2",
+        "guests": [
+            "jon-fincher"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "python skills",
+            "games"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/2/",
+        "title": "Learn Python Skills While Creating Games"
+    },
+    {
+        "date": "2020-03-27",
+        "ep": "3",
+        "guests": [
+            "brett-slatkin"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "google"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/3/",
+        "title": "Effective Python and Python at Google Scale"
+    },
+    {
+        "date": "2020-04-10",
+        "ep": "4",
+        "guests": [
+            "martin-breuss"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "python errors"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/4/",
+        "title": "Learning Python Through Errors"
+    },
+    {
+        "date": "2020-04-17",
+        "ep": "5",
+        "guests": [
+            "thea-flowers"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "circuit python"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/5/",
+        "title": "Exploring CircuitPython"
+    },
+    {
+        "date": "2020-04-24",
+        "ep": "6",
+        "guests": [
+            "douglas-farrell"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "rest API"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/6/",
+        "title": "Python REST APIs and The Well-Grounded Python Developer"
+    },
+    {
+        "date": "2020-05-01",
+        "ep": "7",
+        "guests": [
+            "lukas-langa"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "Async"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/7/",
+        "title": "AsyncIO + Music, Origins of Black, and Managing Python Releases"
+    },
+    {
+        "date": "2020-05-08",
+        "ep": "8",
+        "guests": [
+            "tania-allard"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "Docker",
+            "Data science"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/8/",
+        "title": "Docker + Python for Data Science and Machine Learning"
+    },
+    {
+        "date": "2020-05-15",
+        "ep": "9",
+        "guests": [
+            "cecil-phillip"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "study"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/9/",
+        "title": "Leveling Up Your Python Literacy and Finding Python Projects to Study"
+    },
+    {
+        "date": "2020-05-22",
+        "ep": "10",
+        "guests": [
+            "kyle-stratis"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "job hunting",
+            "pandemic"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/10/",
+        "title": "Python Job Hunting in a Pandemic"
+    },
+    {
+        "date": "2020-05-29",
+        "ep": "11",
+        "guests": [
+            "anthony-shaw"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "testing"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/11/",
+        "title": "Advice on Getting Started With Testing in Python"
+    },
+    {
+        "date": "2020-06-05",
+        "ep": "12",
+        "guests": [
+            "kimberly-fessel"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "web scrapping"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/12/",
+        "title": "Web Scraping in Python: Tools, Techniques, and Legality"
+    },
+    {
+        "date": "2020-06-12",
+        "ep": "13",
+        "guests": [
+            "david-amos"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "pdf",
+            "raspberry pi"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/13/",
+        "title": "PDFs in Python and Projects on the Raspberry Pi"
+    },
+    {
+        "date": "2020-06-14",
+        "ep": "14",
+        "guests": [
+            "anthony-chu"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "serverless"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/14/",
+        "title": "Going Serverless with Python"
+    },
+    {
+        "date": "2020-06-26",
+        "ep": "15",
+        "guests": [
+            "david-amos"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "regular expressions"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/15/",
+        "title": "Python Regular Expressions, Views vs Copies in Pandas, and More"
+    },
+    {
+        "date": "2020-07-03",
+        "ep": "16",
+        "guests": [
+            "hanna-stepanek"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "pandas",
+            "data analysys"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/16/",
+        "title": "Thinking in Pandas: Python Data Analysis the Right Way"
+    },
+    {
+        "date": "2020-07-10",
+        "ep": "17",
+        "guests": [
+            "david-amos"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "linear programming"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/17/",
+        "title": "Thinking in Pandas: Python Data Analysis the Right Way"
+    },
+    {
+        "date": "2020-07-17",
+        "ep": "18",
+        "guests": [
+            "armin-ronacher"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "flask"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/18/",
+        "title": "Ten Years of Flask: Conversation With Creator Armin Ronacher"
+    },
+    {
+        "date": "2020-07-24",
+        "ep": "19",
+        "guests": [
+            "david-amos"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "django"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/19/",
+        "title": "Advanced Python Import Techniques and Managing Users in Django"
+    },
+    {
+        "date": "2020-07-31",
+        "ep": "20",
+        "guests": [
+            "mike-driscoll"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "pdf"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/20/",
+        "title": "Building PDFs in Python with ReportLab"
+    },
+    {
+        "date": "2020-08-07",
+        "ep": "21",
+        "guests": [
+            "david-amos"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "clustering",
+            "pandas"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/21/",
+        "title": "Exploring K-means Clustering and Building a Gradebook With Pandas"
+    },
+    {
+        "date": "2020-08-14",
+        "ep": "22",
+        "guests": [
+            "russell-keith-magee"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "gui"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/22/",
+        "title": "Create Cross-Platform Python GUI Apps With BeeWare"
+    },
+    {
+        "date": "2020-08-21",
+        "ep": "23",
+        "guests": [
+            "david-amos"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/23/",
+        "title": "Python Wheels and Pass by Reference in Python"
+    },
+    {
+        "date": "2020-08-28",
+        "ep": "24",
+        "guests": [
+            "itamar-turner-trauring"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "docker"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/24/",
+        "title": "Options for Packaging Your Python Application: Wheels, Docker, and More"
+    },
+    {
+        "date": "2020-09-04",
+        "ep": "25",
+        "guests": [
+            "david-amos",
+            "sadie-parker"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "data version"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/25/",
+        "title": "Data Version Control in Python and Real Python Video Transcripts"
+    },
+    {
+        "date": "2020-09-11",
+        "ep": "26",
+        "guests": [
+            "michael-kennedy"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "async"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/26/",
+        "title": "5 Years Podcasting Python with Michael Kennedy: Growth, GIL, Async, and More"
+    },
+    {
+        "date": "2020-09-18",
+        "ep": "27",
+        "guests": [
+            "david-amos",
+            "jim-anderson"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "job",
+            "interview"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/27/",
+        "title": "Preparing for an Interview With Python Practice Problems"
+    },
+    {
+        "date": "2020-09-25",
+        "ep": "28",
+        "guests": [
+            "david-amos",
+            "savannah-ostrowski"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "visual studio code"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/28/",
+        "title": "Using Pylance to Write Better Python Inside of Visual Studio Code"
+    },
+    {
+        "date": "2020-10-02",
+        "ep": "29",
+        "guests": [
+            "georgia-bullen",
+            "sumana-harihareswara"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "pip"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/29/",
+        "title": "Resolving Package Dependencies With the New Version of Pip"
+    },
+    {
+        "date": "2020-10-09",
+        "ep": "30",
+        "guests": [
+            "christopher-trudeau",
+            "geir-arne-hjelle"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "new features"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/30/",
+        "title": "Exploring the New Features of Python 3.9"
+    },
+    {
+        "date": "2020-10-16",
+        "ep": "31",
+        "guests": [
+            "david-amos"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "map"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/31/",
+        "title": "Python Return Statement Best Practices and Working With the map() Function"
+    },
+    {
+        "date": "2020-10-23",
+        "ep": "32",
+        "guests": [
+            "david-amos"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python",
+            "learning path"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/32/",
+        "title": "Our New Python Basics Book & Filling the Gaps in Your Learning Path"
+    },
+    {
+        "date": "2020-10-30",
+        "ep": "33",
+        "guests": [
+            "al-sweigart"
+        ],
+        "hosts": [
+            "christopher-bailey"
+        ],
+        "keywords": [
+            "python"
+        ],
+        "permalink": "https://realpython.com/podcasts/rpp/33/",
+        "title": "Going Beyond the Basic Stuff With Python and Al Sweigart"
+    }
 ]
