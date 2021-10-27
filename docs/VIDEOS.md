@@ -4,6 +4,7 @@ Videos
 Major tasks with videos:
 * Add the playlists to the events files
 * Add more videos
+* Add twitch streams
 * Add the speakers
 * Add tags, update descriptions
 
