@@ -24,12 +24,13 @@ It must be all lowercase and needs to include some identifier of the year and so
     "hashtag":                  "Twitter hashtag, if not specified the Twitter handle will be used (don't include the #)",
     "languages": [
                                 "English",
-                                "French"
+                                "French", 
+                                "Spanish"
     ],
     "location": {              (verified with the list in data/locations.json if missing from that list add that too!)
         "city":                 "Name of the city",
         "country":              "Name of the country",
-        "state":                "Relevant in US, Brasil, Australia, India, and UK"
+        "state":                "Relevant in US, Brasil, Australia, India, Spain and UK"
     },
     "name":         "The name might need to include the country/city. Check similar events.",
     "tags": [
