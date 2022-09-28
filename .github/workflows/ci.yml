@@ -24,8 +24,8 @@ jobs:
     - name: Install dependencies
       run: |
         pip install pytest
-        pip install pytest-cov
-        pip install coveralls
+        #pip install pytest-cov
+        #pip install coveralls
         pip install -r requirements.txt
 
     - name: Check Python version
@@ -39,6 +39,6 @@ jobs:
       run: pytest -vs
         # --cov=cat/
 
-    - name: Coveralls
-      run: coveralls
+    #- name: Coveralls
+    #  run: coveralls
 
