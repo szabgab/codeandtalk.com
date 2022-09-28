@@ -171,6 +171,9 @@ class GenerateSite(object):
 
         for filename in glob.glob(os.path.join(self.data, 'events', '*')):
             logging.info('processing {}'.format(filename))
+            # allow for "commenting out" files by adding a _ prefix
+            if os.path.basename(filename).startswith('_'):
+                continue
             if filename[-5:] != '.json':
                 self.errors.append('ERROR 7: filename is not .json file. "{}"'.format(filename))
                 continue
