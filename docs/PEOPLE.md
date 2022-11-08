@@ -5,7 +5,7 @@ your listing, read this page and then send a pull-request.
 
 ### Description
 
-Each person has a file in the `data/people` directory. The name of the file
+Each person has a file in the `data/people` direcotry. The name of the file
 is derived from the full name of the person in lower case. Words are separated by dashes.
 (Feel free to use all the parts of your name. (e.g. we have angel-diaz-maroto-alvarez.json or anselm-r-garbe.json)
 
