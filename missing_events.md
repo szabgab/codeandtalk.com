@@ -978,8 +978,6 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/HunTestingBoard
 
 
-* http://paypal.github.io/InnerSourceCommons/events/isc-spring-2018/
-* http://paypal.github.io/InnerSourceCommons/events/isc-fall-2018/
 * https://events.linuxfoundation.org/events/open-fintech-forum-2018/ <--- 2018, 2019 done 2019.10.20 --->
 * http://www.bharatexhibitions.com/en/OSI2018/index.html
 * https://www.dotnetconf.net/
